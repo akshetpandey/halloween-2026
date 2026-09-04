@@ -1,0 +1,2140 @@
+[
+  {
+    "room": "living",
+    "artist": "Bonobo",
+    "album": "Black Sands",
+    "tracks": [
+      {
+        "artist": "Bonobo",
+        "title": "Prelude",
+        "album": "Black Sands",
+        "album_position": 1,
+        "duration_display": "1:18",
+        "duration_seconds": 78,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Kiara",
+        "album": "Black Sands",
+        "album_position": 2,
+        "duration_display": "3:50",
+        "duration_seconds": 230,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Kong",
+        "album": "Black Sands",
+        "album_position": 3,
+        "duration_display": "3:57",
+        "duration_seconds": 237,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Eyesdown",
+        "album": "Black Sands",
+        "album_position": 4,
+        "duration_display": "5:26",
+        "duration_seconds": 326,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "El Toro",
+        "album": "Black Sands",
+        "album_position": 5,
+        "duration_display": "3:44",
+        "duration_seconds": 224,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "We Could Forever",
+        "album": "Black Sands",
+        "album_position": 6,
+        "duration_display": "4:19",
+        "duration_seconds": 259,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "1009",
+        "album": "Black Sands",
+        "album_position": 7,
+        "duration_display": "4:30",
+        "duration_seconds": 270,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "All In Forms",
+        "album": "Black Sands",
+        "album_position": 8,
+        "duration_display": "4:51",
+        "duration_seconds": 291,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "The Keeper",
+        "album": "Black Sands",
+        "album_position": 9,
+        "duration_display": "4:48",
+        "duration_seconds": 288,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Stay The Same",
+        "album": "Black Sands",
+        "album_position": 10,
+        "duration_display": "4:44",
+        "duration_seconds": 284,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Animals",
+        "album": "Black Sands",
+        "album_position": 11,
+        "duration_display": "6:45",
+        "duration_seconds": 405,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bonobo",
+        "title": "Black Sands",
+        "album": "Black Sands",
+        "album_position": 12,
+        "duration_display": "6:48",
+        "duration_seconds": 408,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "St Germain",
+    "album": "Tourist (Remastered)",
+    "tracks": [
+      {
+        "artist": "St Germain",
+        "title": "Rose rouge",
+        "album": "Tourist (Remastered)",
+        "album_position": 1,
+        "duration_display": "6:56",
+        "duration_seconds": 416,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "Montego Bay Spleen",
+        "album": "Tourist (Remastered)",
+        "album_position": 2,
+        "duration_display": "6:25",
+        "duration_seconds": 385,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "So Flute",
+        "album": "Tourist (Remastered)",
+        "album_position": 3,
+        "duration_display": "8:27",
+        "duration_seconds": 507,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "Land Of...",
+        "album": "Tourist (Remastered)",
+        "album_position": 4,
+        "duration_display": "7:47",
+        "duration_seconds": 467,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "Latin Note",
+        "album": "Tourist (Remastered)",
+        "album_position": 5,
+        "duration_display": "5:54",
+        "duration_seconds": 354,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "Sure Thing",
+        "album": "Tourist (Remastered)",
+        "album_position": 6,
+        "duration_display": "6:20",
+        "duration_seconds": 380,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "Pont des Arts",
+        "album": "Tourist (Remastered)",
+        "album_position": 7,
+        "duration_display": "7:26",
+        "duration_seconds": 446,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "La goutte d'or",
+        "album": "Tourist (Remastered)",
+        "album_position": 8,
+        "duration_display": "6:19",
+        "duration_seconds": 379,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "St Germain",
+        "title": "What You Think About...",
+        "album": "Tourist (Remastered)",
+        "album_position": 9,
+        "duration_display": "4:48",
+        "duration_seconds": 288,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "Kiasmos",
+    "album": "II",
+    "tracks": [
+      {
+        "artist": "Kiasmos",
+        "title": "Grown",
+        "album": "II",
+        "album_position": 1,
+        "duration_display": "5:40",
+        "duration_seconds": 340,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Burst",
+        "album": "II",
+        "album_position": 2,
+        "duration_display": "4:31",
+        "duration_seconds": 271,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Sailed",
+        "album": "II",
+        "album_position": 3,
+        "duration_display": "4:04",
+        "duration_seconds": 244,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Laced",
+        "album": "II",
+        "album_position": 4,
+        "duration_display": "4:18",
+        "duration_seconds": 258,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Bound",
+        "album": "II",
+        "album_position": 5,
+        "duration_display": "6:26",
+        "duration_seconds": 386,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Sworn",
+        "album": "II",
+        "album_position": 6,
+        "duration_display": "4:14",
+        "duration_seconds": 254,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Spun",
+        "album": "II",
+        "album_position": 7,
+        "duration_display": "4:09",
+        "duration_seconds": 249,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Flown",
+        "album": "II",
+        "album_position": 8,
+        "duration_display": "3:55",
+        "duration_seconds": 235,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Told",
+        "album": "II",
+        "album_position": 9,
+        "duration_display": "5:39",
+        "duration_seconds": 339,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Dazed",
+        "album": "II",
+        "album_position": 10,
+        "duration_display": "5:07",
+        "duration_seconds": 307,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Kiasmos",
+        "title": "Squared",
+        "album": "II",
+        "album_position": 11,
+        "duration_display": "5:17",
+        "duration_seconds": 317,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "Session Victim",
+    "album": "See You When You Get There",
+    "tracks": [
+      {
+        "artist": "Session Victim",
+        "title": "Do It Now",
+        "album": "See You When You Get There",
+        "album_position": 1,
+        "duration_display": "5:54",
+        "duration_seconds": 354,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Hey Stranger",
+        "album": "See You When You Get There",
+        "album_position": 2,
+        "duration_display": "4:12",
+        "duration_seconds": 252,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Make People Dance",
+        "album": "See You When You Get There",
+        "album_position": 3,
+        "duration_display": "5:58",
+        "duration_seconds": 358,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "See You When You Get There",
+        "album": "See You When You Get There",
+        "album_position": 4,
+        "duration_display": "3:37",
+        "duration_seconds": 217,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Never Forget",
+        "album": "See You When You Get There",
+        "album_position": 5,
+        "duration_display": "6:04",
+        "duration_seconds": 364,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Stick Together",
+        "album": "See You When You Get There",
+        "album_position": 6,
+        "duration_display": "5:26",
+        "duration_seconds": 326,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Hyuwee",
+        "album": "See You When You Get There",
+        "album_position": 7,
+        "duration_display": "3:47",
+        "duration_seconds": 227,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "The Most Beautiful Divorce Ever",
+        "album": "See You When You Get There",
+        "album_position": 8,
+        "duration_display": "5:27",
+        "duration_seconds": 327,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Crystal Maze",
+        "album": "See You When You Get There",
+        "album_position": 9,
+        "duration_display": "2:54",
+        "duration_seconds": 174,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Under Your Spell",
+        "album": "See You When You Get There",
+        "album_position": 10,
+        "duration_display": "4:23",
+        "duration_seconds": 263,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Session Victim",
+        "title": "Eo's Place",
+        "album": "See You When You Get There",
+        "album_position": 11,
+        "duration_display": "4:35",
+        "duration_seconds": 275,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "DJ Koze",
+    "album": "Knock Knock",
+    "tracks": [
+      {
+        "artist": "DJ Koze",
+        "title": "Club der Ewigkeiten",
+        "album": "Knock Knock",
+        "album_position": 1,
+        "duration_display": "4:09",
+        "duration_seconds": 249,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Bonfire",
+        "album": "Knock Knock",
+        "album_position": 2,
+        "duration_display": "5:25",
+        "duration_seconds": 325,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Moving in a Liquid",
+        "album": "Knock Knock",
+        "album_position": 3,
+        "duration_display": "4:40",
+        "duration_seconds": 280,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Colors of Autumn",
+        "album": "Knock Knock",
+        "album_position": 4,
+        "duration_display": "4:24",
+        "duration_seconds": 264,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Music on My Teeth",
+        "album": "Knock Knock",
+        "album_position": 5,
+        "duration_display": "4:16",
+        "duration_seconds": 256,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "This Is My Rock",
+        "album": "Knock Knock",
+        "album_position": 6,
+        "duration_display": "3:59",
+        "duration_seconds": 239,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Illumination",
+        "album": "Knock Knock",
+        "album_position": 7,
+        "duration_display": "4:31",
+        "duration_seconds": 271,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Pick Up",
+        "album": "Knock Knock",
+        "album_position": 8,
+        "duration_display": "6:38",
+        "duration_seconds": 398,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Planet Hase",
+        "album": "Knock Knock",
+        "album_position": 9,
+        "duration_display": "5:11",
+        "duration_seconds": 311,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Scratch That",
+        "album": "Knock Knock",
+        "album_position": 10,
+        "duration_display": "4:36",
+        "duration_seconds": 276,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Muddy Funster",
+        "album": "Knock Knock",
+        "album_position": 11,
+        "duration_display": "5:24",
+        "duration_seconds": 324,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Baby (How Much I LFO You)",
+        "album": "Knock Knock",
+        "album_position": 12,
+        "duration_display": "4:31",
+        "duration_seconds": 271,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Jesus",
+        "album": "Knock Knock",
+        "album_position": 13,
+        "duration_display": "5:13",
+        "duration_seconds": 313,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Lord Knows",
+        "album": "Knock Knock",
+        "album_position": 14,
+        "duration_display": "4:07",
+        "duration_seconds": 247,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Seeing Aliens",
+        "album": "Knock Knock",
+        "album_position": 15,
+        "duration_display": "4:52",
+        "duration_seconds": 292,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Koze",
+        "title": "Drone Me Up, Flashy",
+        "album": "Knock Knock",
+        "album_position": 16,
+        "duration_display": "6:34",
+        "duration_seconds": 394,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "Chaos In The CBD",
+    "album": "A Deeper Life",
+    "tracks": [
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Down By The Cove",
+        "album": "A Deeper Life",
+        "album_position": 1,
+        "duration_display": "5:52",
+        "duration_seconds": 352,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Mountain Mover",
+        "album": "A Deeper Life",
+        "album_position": 2,
+        "duration_display": "4:37",
+        "duration_seconds": 277,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Maintaining My Peace",
+        "album": "A Deeper Life",
+        "album_position": 3,
+        "duration_display": "2:58",
+        "duration_seconds": 178,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Tears",
+        "album": "A Deeper Life",
+        "album_position": 4,
+        "duration_display": "2:58",
+        "duration_seconds": 178,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Brain Gymnasium",
+        "album": "A Deeper Life",
+        "album_position": 5,
+        "duration_display": "3:32",
+        "duration_seconds": 212,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "I Wanna Tell Somebody",
+        "album": "A Deeper Life",
+        "album_position": 6,
+        "duration_display": "5:58",
+        "duration_seconds": 358,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Ōtaki",
+        "album": "A Deeper Life",
+        "album_position": 7,
+        "duration_display": "5:25",
+        "duration_seconds": 325,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Love Language",
+        "album": "A Deeper Life",
+        "album_position": 8,
+        "duration_display": "4:38",
+        "duration_seconds": 278,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "A Deeper Life",
+        "album": "A Deeper Life",
+        "album_position": 9,
+        "duration_display": "8:04",
+        "duration_seconds": 484,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "More Time",
+        "album": "A Deeper Life",
+        "album_position": 10,
+        "duration_display": "3:56",
+        "duration_seconds": 236,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Tongariro Crossing",
+        "album": "A Deeper Life",
+        "album_position": 11,
+        "duration_display": "5:16",
+        "duration_seconds": 316,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Barefoot On The Tarmac",
+        "album": "A Deeper Life",
+        "album_position": 12,
+        "duration_display": "4:15",
+        "duration_seconds": 255,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "Marlboro Sounds",
+        "album": "A Deeper Life",
+        "album_position": 13,
+        "duration_display": "6:03",
+        "duration_seconds": 363,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Chaos In The CBD",
+        "title": "The Eternal Checkout",
+        "album": "A Deeper Life",
+        "album_position": 14,
+        "duration_display": "5:44",
+        "duration_seconds": 344,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "living",
+    "artist": "DJ Seinfeld",
+    "album": "Time Spent Away From U",
+    "tracks": [
+      {
+        "artist": "DJ Seinfeld",
+        "title": "I Hope I Sleep Tonight",
+        "album": "Time Spent Away From U",
+        "album_position": 1,
+        "duration_display": "4:06",
+        "duration_seconds": 246,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "I Saw Her Kiss Him in Front of Me and I Was Like Wtf?",
+        "album": "Time Spent Away From U",
+        "album_position": 2,
+        "duration_display": "5:11",
+        "duration_seconds": 311,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "Too Late for U and M1",
+        "album": "Time Spent Away From U",
+        "album_position": 3,
+        "duration_display": "6:37",
+        "duration_seconds": 397,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "Time Spent Away From U",
+        "album": "Time Spent Away From U",
+        "album_position": 4,
+        "duration_display": "5:32",
+        "duration_seconds": 332,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "It's Just My Luv",
+        "album": "Time Spent Away From U",
+        "album_position": 5,
+        "duration_display": "5:57",
+        "duration_seconds": 357,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "How U Make Me Feel",
+        "album": "Time Spent Away From U",
+        "album_position": 6,
+        "duration_display": "6:17",
+        "duration_seconds": 377,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "U Hold Me Without Touch",
+        "album": "Time Spent Away From U",
+        "album_position": 7,
+        "duration_display": "6:27",
+        "duration_seconds": 387,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "Come Thru for U",
+        "album": "Time Spent Away From U",
+        "album_position": 8,
+        "duration_display": "6:09",
+        "duration_seconds": 369,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "DJ Seinfeld",
+        "title": "U",
+        "album": "Time Spent Away From U",
+        "album_position": 9,
+        "duration_display": "6:08",
+        "duration_seconds": 368,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Daniel Avery",
+    "album": "Drone Logic",
+    "tracks": [
+      {
+        "artist": "Daniel Avery",
+        "title": "Water Jump",
+        "album": "Drone Logic",
+        "album_position": 1,
+        "duration_display": "8:29",
+        "duration_seconds": 509,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Free Floating",
+        "album": "Drone Logic",
+        "album_position": 2,
+        "duration_display": "6:29",
+        "duration_seconds": 389,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Drone Logic",
+        "album": "Drone Logic",
+        "album_position": 3,
+        "duration_display": "7:09",
+        "duration_seconds": 429,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "These Nights Never End",
+        "album": "Drone Logic",
+        "album_position": 4,
+        "duration_display": "5:46",
+        "duration_seconds": 346,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Naive Response",
+        "album": "Drone Logic",
+        "album_position": 5,
+        "duration_display": "5:23",
+        "duration_seconds": 323,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Platform Zero",
+        "album": "Drone Logic",
+        "album_position": 6,
+        "duration_display": "3:03",
+        "duration_seconds": 183,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Need Electric",
+        "album": "Drone Logic",
+        "album_position": 7,
+        "duration_display": "6:09",
+        "duration_seconds": 369,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "All I Need",
+        "album": "Drone Logic",
+        "album_position": 8,
+        "duration_display": "6:55",
+        "duration_seconds": 415,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Spring 27",
+        "album": "Drone Logic",
+        "album_position": 9,
+        "duration_display": "1:41",
+        "duration_seconds": 101,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Simulrec",
+        "album": "Drone Logic",
+        "album_position": 10,
+        "duration_display": "6:02",
+        "duration_seconds": 362,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "New Energy - Live Through It",
+        "album": "Drone Logic",
+        "album_position": 11,
+        "duration_display": "5:54",
+        "duration_seconds": 354,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Daniel Avery",
+        "title": "Knowing We'll Be Here",
+        "album": "Drone Logic",
+        "album_position": 12,
+        "duration_display": "5:42",
+        "duration_seconds": 342,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Rødhåd",
+    "album": "Anxious",
+    "tracks": [
+      {
+        "artist": "Rødhåd",
+        "title": "Unleash",
+        "album": "Anxious",
+        "album_position": 1,
+        "duration_display": "4:30",
+        "duration_seconds": 270,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Withheld Walk",
+        "album": "Anxious",
+        "album_position": 2,
+        "duration_display": "5:39",
+        "duration_seconds": 339,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Escape",
+        "album": "Anxious",
+        "album_position": 3,
+        "duration_display": "7:20",
+        "duration_seconds": 440,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Brief Respite",
+        "album": "Anxious",
+        "album_position": 4,
+        "duration_display": "1:48",
+        "duration_seconds": 108,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Awash",
+        "album": "Anxious",
+        "album_position": 5,
+        "duration_display": "5:02",
+        "duration_seconds": 302,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Glimmer of Light",
+        "album": "Anxious",
+        "album_position": 6,
+        "duration_display": "6:41",
+        "duration_seconds": 401,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Target Line",
+        "album": "Anxious",
+        "album_position": 7,
+        "duration_display": "8:05",
+        "duration_seconds": 485,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Burst",
+        "album": "Anxious",
+        "album_position": 8,
+        "duration_display": "5:18",
+        "duration_seconds": 318,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Left Behind",
+        "album": "Anxious",
+        "album_position": 9,
+        "duration_display": "6:51",
+        "duration_seconds": 411,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Rødhåd",
+        "title": "Cast a Shadow",
+        "album": "Anxious",
+        "album_position": 10,
+        "duration_display": "2:38",
+        "duration_seconds": 158,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Sandwell District",
+    "album": "Feed Forward",
+    "tracks": [
+      {
+        "artist": "Sandwell District",
+        "title": "Immolare (First-Main-Final)",
+        "album": "Feed Forward",
+        "album_position": 1,
+        "duration_display": "11:44",
+        "duration_seconds": 704,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Grey Cut Out",
+        "album": "Feed Forward",
+        "album_position": 2,
+        "duration_display": "5:34",
+        "duration_seconds": 334,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Hunting Lodge",
+        "album": "Feed Forward",
+        "album_position": 3,
+        "duration_display": "6:30",
+        "duration_seconds": 390,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Falling The Same Way",
+        "album": "Feed Forward",
+        "album_position": 4,
+        "duration_display": "6:50",
+        "duration_seconds": 410,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Svar",
+        "album": "Feed Forward",
+        "album_position": 5,
+        "duration_display": "5:18",
+        "duration_seconds": 318,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Double Day",
+        "album": "Feed Forward",
+        "album_position": 6,
+        "duration_display": "5:52",
+        "duration_seconds": 352,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Speed + Sound (Endless)",
+        "album": "Feed Forward",
+        "album_position": 7,
+        "duration_display": "6:30",
+        "duration_seconds": 390,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "7\" Untitled - 1",
+        "album": "Feed Forward",
+        "album_position": 8,
+        "duration_display": "4:45",
+        "duration_seconds": 285,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "7\" Untitled - 2",
+        "album": "Feed Forward",
+        "album_position": 9,
+        "duration_display": "3:42",
+        "duration_seconds": 222,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Sandwell District",
+        "title": "Surrender to the Unknown",
+        "album": "Feed Forward",
+        "album_position": 10,
+        "duration_display": "8:01",
+        "duration_seconds": 481,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Surgeon",
+    "album": "From Farthest Known Objects",
+    "tracks": [
+      {
+        "artist": "Surgeon",
+        "title": "EGS-zs8-1",
+        "album": "From Farthest Known Objects",
+        "album_position": 1,
+        "duration_display": "6:41",
+        "duration_seconds": 401,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "z8_GND_5296",
+        "album": "From Farthest Known Objects",
+        "album_position": 2,
+        "duration_display": "6:28",
+        "duration_seconds": 388,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "SXDF-NB1006-2",
+        "album": "From Farthest Known Objects",
+        "album_position": 3,
+        "duration_display": "6:44",
+        "duration_seconds": 404,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "GN-108036",
+        "album": "From Farthest Known Objects",
+        "album_position": 4,
+        "duration_display": "6:16",
+        "duration_seconds": 376,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "BDF-3299",
+        "album": "From Farthest Known Objects",
+        "album_position": 5,
+        "duration_display": "6:46",
+        "duration_seconds": 406,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "ULAS J1120+0641",
+        "album": "From Farthest Known Objects",
+        "album_position": 6,
+        "duration_display": "5:52",
+        "duration_seconds": 352,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "A1703 zD6",
+        "album": "From Farthest Known Objects",
+        "album_position": 7,
+        "duration_display": "4:52",
+        "duration_seconds": 292,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Surgeon",
+        "title": "BDF-521",
+        "album": "From Farthest Known Objects",
+        "album_position": 8,
+        "duration_display": "7:01",
+        "duration_seconds": 421,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Dax J",
+    "album": "Shades Of Black LP",
+    "tracks": [
+      {
+        "artist": "Dax J",
+        "title": "Orlok's Symphony",
+        "album": "Shades Of Black LP",
+        "album_position": 1,
+        "duration_display": "2:30",
+        "duration_seconds": 150,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Beyond The Planets",
+        "album": "Shades Of Black LP",
+        "album_position": 2,
+        "duration_display": "6:00",
+        "duration_seconds": 360,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Renegades Of Conflict",
+        "album": "Shades Of Black LP",
+        "album_position": 3,
+        "duration_display": "5:56",
+        "duration_seconds": 356,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Devine Right",
+        "album": "Shades Of Black LP",
+        "album_position": 4,
+        "duration_display": "5:48",
+        "duration_seconds": 348,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "In The Shadows",
+        "album": "Shades Of Black LP",
+        "album_position": 5,
+        "duration_display": "3:36",
+        "duration_seconds": 216,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Protect The Prophecy",
+        "album": "Shades Of Black LP",
+        "album_position": 6,
+        "duration_display": "5:52",
+        "duration_seconds": 352,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Requiem Souls",
+        "album": "Shades Of Black LP",
+        "album_position": 7,
+        "duration_display": "5:52",
+        "duration_seconds": 352,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Black Pegasus",
+        "album": "Shades Of Black LP",
+        "album_position": 8,
+        "duration_display": "6:18",
+        "duration_seconds": 378,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Sempa",
+        "album": "Shades Of Black LP",
+        "album_position": 9,
+        "duration_display": "5:30",
+        "duration_seconds": 330,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Dax J",
+        "title": "Afterlife",
+        "album": "Shades Of Black LP",
+        "album_position": 10,
+        "duration_display": "2:24",
+        "duration_seconds": 144,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Blawan",
+    "album": "Wet Will Always Dry",
+    "tracks": [
+      {
+        "artist": "Blawan",
+        "title": "Klade",
+        "album": "Wet Will Always Dry",
+        "album_position": 1,
+        "duration_display": "5:32",
+        "duration_seconds": 332,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Careless",
+        "album": "Wet Will Always Dry",
+        "album_position": 2,
+        "duration_display": "6:02",
+        "duration_seconds": 362,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Tasser",
+        "album": "Wet Will Always Dry",
+        "album_position": 3,
+        "duration_display": "6:21",
+        "duration_seconds": 381,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Vented",
+        "album": "Wet Will Always Dry",
+        "album_position": 4,
+        "duration_display": "7:00",
+        "duration_seconds": 420,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "North",
+        "album": "Wet Will Always Dry",
+        "album_position": 5,
+        "duration_display": "6:23",
+        "duration_seconds": 383,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Stell",
+        "album": "Wet Will Always Dry",
+        "album_position": 6,
+        "duration_display": "6:09",
+        "duration_seconds": 369,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Kalosi",
+        "album": "Wet Will Always Dry",
+        "album_position": 7,
+        "duration_display": "6:51",
+        "duration_seconds": 411,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Blawan",
+        "title": "Nims",
+        "album": "Wet Will Always Dry",
+        "album_position": 8,
+        "duration_display": "5:50",
+        "duration_seconds": 350,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "D.Dan",
+    "album": "Mutant Future",
+    "tracks": [
+      {
+        "artist": "D.Dan",
+        "title": "Switchblade (Descendant)",
+        "album": "Mutant Future",
+        "album_position": 1,
+        "duration_display": "5:06",
+        "duration_seconds": 306,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "D.Dan",
+        "title": "Mutant Future",
+        "album": "Mutant Future",
+        "album_position": 2,
+        "duration_display": "5:36",
+        "duration_seconds": 336,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "D.Dan",
+        "title": "Burnout",
+        "album": "Mutant Future",
+        "album_position": 3,
+        "duration_display": "4:20",
+        "duration_seconds": 260,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "D.Dan",
+        "title": "Escape from the Echo Chamber",
+        "album": "Mutant Future",
+        "album_position": 4,
+        "duration_display": "5:08",
+        "duration_seconds": 308,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "D.Dan",
+        "title": "Take It Easy",
+        "album": "Mutant Future",
+        "album_position": 5,
+        "duration_display": "5:39",
+        "duration_seconds": 339,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "D.Dan",
+        "title": "Sun Over I-5 South",
+        "album": "Mutant Future",
+        "album_position": 6,
+        "duration_display": "4:17",
+        "duration_seconds": 257,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Nia Archives",
+    "album": "Silence Is Loud",
+    "tracks": [
+      {
+        "artist": "Nia Archives",
+        "title": "Silence Is Loud",
+        "album": "Silence Is Loud",
+        "album_position": 1,
+        "duration_display": "2:37",
+        "duration_seconds": 157,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Cards On The Table",
+        "album": "Silence Is Loud",
+        "album_position": 2,
+        "duration_display": "2:56",
+        "duration_seconds": 176,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Unfinished Business",
+        "album": "Silence Is Loud",
+        "album_position": 3,
+        "duration_display": "3:16",
+        "duration_seconds": 196,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Crowded Roomz",
+        "album": "Silence Is Loud",
+        "album_position": 4,
+        "duration_display": "2:52",
+        "duration_seconds": 172,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Forbidden Feelingz",
+        "album": "Silence Is Loud",
+        "album_position": 5,
+        "duration_display": "2:46",
+        "duration_seconds": 166,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Blind Devotion",
+        "album": "Silence Is Loud",
+        "album_position": 6,
+        "duration_display": "1:47",
+        "duration_seconds": 107,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Tell Me What It’s Like?",
+        "album": "Silence Is Loud",
+        "album_position": 7,
+        "duration_display": "3:10",
+        "duration_seconds": 190,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Nightmares",
+        "album": "Silence Is Loud",
+        "album_position": 8,
+        "duration_display": "2:42",
+        "duration_seconds": 162,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "F.A.M.I.L.Y",
+        "album": "Silence Is Loud",
+        "album_position": 9,
+        "duration_display": "2:39",
+        "duration_seconds": 159,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Out Of Options",
+        "album": "Silence Is Loud",
+        "album_position": 10,
+        "duration_display": "2:08",
+        "duration_seconds": 128,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Silence Is Loud (Reprise)",
+        "album": "Silence Is Loud",
+        "album_position": 11,
+        "duration_display": "2:28",
+        "duration_seconds": 148,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "Killjoy !",
+        "album": "Silence Is Loud",
+        "album_position": 12,
+        "duration_display": "2:07",
+        "duration_seconds": 127,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "So Tell Me…",
+        "album": "Silence Is Loud",
+        "album_position": 13,
+        "duration_display": "3:47",
+        "duration_seconds": 227,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Overmono",
+    "album": "Good Lies",
+    "tracks": [
+      {
+        "artist": "Overmono",
+        "title": "Feelings Plain",
+        "album": "Good Lies",
+        "album_position": 1,
+        "duration_display": "2:49",
+        "duration_seconds": 169,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Arla Fearn",
+        "album": "Good Lies",
+        "album_position": 2,
+        "duration_display": "4:44",
+        "duration_seconds": 284,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Good Lies",
+        "album": "Good Lies",
+        "album_position": 3,
+        "duration_display": "2:40",
+        "duration_seconds": 160,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Good Lies (Outro)",
+        "album": "Good Lies",
+        "album_position": 4,
+        "duration_display": "1:06",
+        "duration_seconds": 66,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Walk Thru Water",
+        "album": "Good Lies",
+        "album_position": 5,
+        "duration_display": "3:14",
+        "duration_seconds": 194,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Cold Blooded",
+        "album": "Good Lies",
+        "album_position": 6,
+        "duration_display": "3:37",
+        "duration_seconds": 217,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Skulled",
+        "album": "Good Lies",
+        "album_position": 7,
+        "duration_display": "5:12",
+        "duration_seconds": 312,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Sugarushhh",
+        "album": "Good Lies",
+        "album_position": 8,
+        "duration_display": "3:37",
+        "duration_seconds": 217,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Calon",
+        "album": "Good Lies",
+        "album_position": 9,
+        "duration_display": "4:08",
+        "duration_seconds": 248,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Is U",
+        "album": "Good Lies",
+        "album_position": 10,
+        "duration_display": "3:48",
+        "duration_seconds": 228,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Vermonly",
+        "album": "Good Lies",
+        "album_position": 11,
+        "duration_display": "2:39",
+        "duration_seconds": 159,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "So U Kno",
+        "album": "Good Lies",
+        "album_position": 12,
+        "duration_display": "5:43",
+        "duration_seconds": 343,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Overmono",
+        "title": "Calling Out",
+        "album": "Good Lies",
+        "album_position": 13,
+        "duration_display": "4:41",
+        "duration_seconds": 281,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Bicep",
+    "album": "Isles",
+    "tracks": [
+      {
+        "artist": "Bicep",
+        "title": "Atlas",
+        "album": "Isles",
+        "album_position": 1,
+        "duration_display": "5:48",
+        "duration_seconds": 348,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Cazenove",
+        "album": "Isles",
+        "album_position": 2,
+        "duration_display": "4:22",
+        "duration_seconds": 262,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Apricots",
+        "album": "Isles",
+        "album_position": 3,
+        "duration_display": "4:06",
+        "duration_seconds": 246,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Saku",
+        "album": "Isles",
+        "album_position": 4,
+        "duration_display": "4:57",
+        "duration_seconds": 297,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Lido",
+        "album": "Isles",
+        "album_position": 5,
+        "duration_display": "3:20",
+        "duration_seconds": 200,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "X",
+        "album": "Isles",
+        "album_position": 6,
+        "duration_display": "5:33",
+        "duration_seconds": 333,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Rever",
+        "album": "Isles",
+        "album_position": 7,
+        "duration_display": "5:19",
+        "duration_seconds": 319,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Sundial",
+        "album": "Isles",
+        "album_position": 8,
+        "duration_display": "4:35",
+        "duration_seconds": 275,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Fir",
+        "album": "Isles",
+        "album_position": 9,
+        "duration_display": "5:23",
+        "duration_seconds": 323,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Bicep",
+        "title": "Hawk",
+        "album": "Isles",
+        "album_position": 10,
+        "duration_display": "5:59",
+        "duration_seconds": 359,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Extrawelt",
+    "album": "In Aufruhr",
+    "tracks": [
+      {
+        "artist": "Extrawelt",
+        "title": "The Next Little Thing - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 1,
+        "duration_display": "4:25",
+        "duration_seconds": 265,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Division Dunkel - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 2,
+        "duration_display": "5:13",
+        "duration_seconds": 313,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Blendwerk I - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 3,
+        "duration_display": "4:29",
+        "duration_seconds": 269,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Leaf 43 - Neverlasting Edit",
+        "album": "In Aufruhr",
+        "album_position": 4,
+        "duration_display": "5:13",
+        "duration_seconds": 313,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Aufwind - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 5,
+        "duration_display": "5:18",
+        "duration_seconds": 318,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Herz aus Blech - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 6,
+        "duration_display": "5:01",
+        "duration_seconds": 301,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Pontiac - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 7,
+        "duration_display": "6:05",
+        "duration_seconds": 365,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Swallow the Leader - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 8,
+        "duration_display": "7:06",
+        "duration_seconds": 426,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "808 Slate - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 9,
+        "duration_display": "4:29",
+        "duration_seconds": 269,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Blendwerk II - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 10,
+        "duration_display": "5:00",
+        "duration_seconds": 300,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Phoebe - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 11,
+        "duration_display": "6:14",
+        "duration_seconds": 374,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Dumb Age - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 12,
+        "duration_display": "6:13",
+        "duration_seconds": 373,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Die Welt ist nicht genug - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 13,
+        "duration_display": "6:58",
+        "duration_seconds": 418,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Extrawelt",
+        "title": "Schlusslicht - Original Mix",
+        "album": "In Aufruhr",
+        "album_position": 14,
+        "duration_display": "6:14",
+        "duration_seconds": 374,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Jon Hopkins",
+    "album": "Immunity",
+    "tracks": [
+      {
+        "artist": "Jon Hopkins",
+        "title": "We Disappear - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 1,
+        "duration_display": "4:49",
+        "duration_seconds": 289,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Open Eye Signal - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 2,
+        "duration_display": "7:48",
+        "duration_seconds": 468,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Breathe This Air - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 3,
+        "duration_display": "5:29",
+        "duration_seconds": 329,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Collider - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 4,
+        "duration_display": "9:21",
+        "duration_seconds": 561,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Abandon Window - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 5,
+        "duration_display": "4:57",
+        "duration_seconds": 297,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Form By Firelight - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 6,
+        "duration_display": "5:45",
+        "duration_seconds": 345,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Sun Harmonics - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 7,
+        "duration_display": "11:54",
+        "duration_seconds": 714,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Immunity - Remaster 2023",
+        "album": "Immunity",
+        "album_position": 8,
+        "duration_display": "9:56",
+        "duration_seconds": 596,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Immunity - Asleep Version",
+        "album": "Immunity",
+        "album_position": 9,
+        "duration_display": "6:23",
+        "duration_seconds": 383,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Form By Firelight - Asleep Version",
+        "album": "Immunity",
+        "album_position": 10,
+        "duration_display": "4:14",
+        "duration_seconds": 254,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Breathe This Air - Asleep Version",
+        "album": "Immunity",
+        "album_position": 11,
+        "duration_display": "3:13",
+        "duration_seconds": 193,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Open Eye Signal - Asleep Version",
+        "album": "Immunity",
+        "album_position": 12,
+        "duration_display": "11:02",
+        "duration_seconds": 662,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Abandon Window - Moderat Remix",
+        "album": "Immunity",
+        "album_position": 13,
+        "duration_display": "6:55",
+        "duration_seconds": 415,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Breathe This Air",
+        "album": "Immunity",
+        "album_position": 14,
+        "duration_display": "4:08",
+        "duration_seconds": 248,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "We Disappear",
+        "album": "Immunity",
+        "album_position": 15,
+        "duration_display": "4:16",
+        "duration_seconds": 256,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Open Eye Signal - George FitzGerald Remix",
+        "album": "Immunity",
+        "album_position": 16,
+        "duration_display": "5:38",
+        "duration_seconds": 338,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Jon Hopkins",
+        "title": "Collider - Pangaea Remix",
+        "album": "Immunity",
+        "album_position": 17,
+        "duration_display": "7:01",
+        "duration_seconds": 421,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  },
+  {
+    "room": "bedroom",
+    "artist": "Barker",
+    "album": "Utility",
+    "tracks": [
+      {
+        "artist": "Barker",
+        "title": "Paradise Engineering",
+        "album": "Utility",
+        "album_position": 1,
+        "duration_display": "4:08",
+        "duration_seconds": 248,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Posmean",
+        "album": "Utility",
+        "album_position": 2,
+        "duration_display": "3:54",
+        "duration_seconds": 234,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Experience Machines",
+        "album": "Utility",
+        "album_position": 3,
+        "duration_display": "3:39",
+        "duration_seconds": 219,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Gradients Of Bliss",
+        "album": "Utility",
+        "album_position": 4,
+        "duration_display": "5:28",
+        "duration_seconds": 328,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Hedonic Treadmill",
+        "album": "Utility",
+        "album_position": 5,
+        "duration_display": "4:09",
+        "duration_seconds": 249,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Models Of Wellbeing",
+        "album": "Utility",
+        "album_position": 6,
+        "duration_display": "6:03",
+        "duration_seconds": 363,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Utility",
+        "album": "Utility",
+        "album_position": 7,
+        "duration_display": "4:30",
+        "duration_seconds": 270,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Wireheading",
+        "album": "Utility",
+        "album_position": 8,
+        "duration_display": "2:19",
+        "duration_seconds": 139,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      },
+      {
+        "artist": "Barker",
+        "title": "Die-Hards Of The Darwinian Order",
+        "album": "Utility",
+        "album_position": 9,
+        "duration_display": "9:07",
+        "duration_seconds": 547,
+        "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display"
+      }
+    ]
+  }
+]

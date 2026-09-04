@@ -1,0 +1,28 @@
+{
+  "checked": "2026-09-03",
+  "state": "Cart populated; no checkout or purchase",
+  "items": [
+    {
+      "asin": "B0D73D5W3Y",
+      "name": "HTZNHXT raven skull pendants, selected 3-piece pack",
+      "quantity": 1,
+      "price_usd": 8.95
+    },
+    {
+      "asin": "B0C3H8DBSR",
+      "name": "CONGZHANHH faux trunk/branch, 63 in, brown",
+      "quantity": 1,
+      "price_usd": 26.99
+    },
+    {
+      "asin": "B01HCO8DO6",
+      "name": "MagiDeal resin wolf/jackal skull, about 8.66 in long",
+      "quantity": 1,
+      "price_usd": 23.99
+    }
+  ],
+  "subtotal_usd": 59.93,
+  "tax_shipping_final_total": "Not checked; checkout not entered",
+  "evidence": "Amazon cart visibly showed 3 items and subtotal $59.93",
+  "cart_url": "https://www.amazon.com/gp/cart/view.html"
+}

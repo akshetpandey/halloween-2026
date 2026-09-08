@@ -1,6 +1,0 @@
-# Hollow Court application workspace
-Reserved September 8, 2026 for the user's upcoming implementation session. No application scaffold, runtime or deployment is created by this file.
-
-Read [root agent instructions](../../AGENTS.md) and the [implementation task map](../../workstreams/interactive/implementation/README.md). Product authority is [interactive-story](../../interactive-story/README.md), especially current documents 03, 09, 10 and 11. Put future application code here unless an existing implementation discovered elsewhere requires a coordinated alternative. Do not create a nested Git repository.
-
-Start a new local Work/Codex task attached to this repository, working directly on `main` in the shared canonical checkout. Do not create a worktree or task branch; commit meaningful progress as you go. The user will initiate that task. The old documentation-only scope is not a permanent ban on new authorized code work. Before coding, reconcile proposed ranking/tie/referral details; use configurable, explicitly documented defaults where appropriate. Follow relevant Cloudflare skills and keep credentials/runtime guest data out of Git. Document setup, tests and deployment once they exist.

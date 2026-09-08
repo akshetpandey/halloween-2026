@@ -2,7 +2,7 @@
 Verified September 8, 2026 against app inventory and official docs.
 
 ## Canonical setup
-Use the local project **halloween-2026**, id `2b6cf58d-84d8-4a6b-b8c7-23c83af32a17`, primary folder `/Users/akshet/workspace/halloween-2026`. A separate ChatGPT project **Halloween 2026**, id `g-p-6a99dea2153481919f3c443e77669585`, also exists. They are not interchangeable sources of filesystem access.
+Use the local project **halloween-2026**, id `2b6cf58d-84d8-4a6b-b8c7-23c83af32a17`, primary folder `/Users/akshet/workspace/halloween-2026`. The former separate ChatGPT project **Halloween 2026**, id `g-p-6a99dea2153481919f3c443e77669585`, was present in the earlier inventory. The host now reports the old project is closed/archived and future work will use Codex. Use the local repository as the source of truth.
 
 The exposed app tools do not offer a project-wide force-Work setting or an in-place conversion of all ChatGPT chats to local Codex tasks. No such setting was changed. Start future file-writing sessions using Work/Codex from the local project with this folder primary. Work mode by itself does not attach a local folder; AGENTS.md does not grant sandbox permissions. Verify the working directory and read AGENTS.md at session start.
 
@@ -27,12 +27,15 @@ The initial setup checkpoint `43142fb` preserves 32 previously uncommitted plann
 No messages sent, no sessions moved or archived. “Not loaded” is not evidence of lost work. Closing is optional; a correctly attached current session can read the new file explicitly and continue. Prefer new sessions when old paths or obsolete assumptions make continuation confusing.
 
 ## Copyable transition message
-Please wrap up this session for the Halloween 2026 repository transition. Read `/Users/akshet/workspace/halloween-2026/AGENTS.md` and `workstreams/README.md` if you have access. Reconcile this conversation against the current task files; preserve any missing confirmed decisions, proposals, sources and next steps in a task-local handoff using `coordination/handoff-template.md`. Do not overwrite newer decisions with older ideas. Commit only your changes, report the branch and commit hash and any remaining files, then stop work so the next session can continue. If you lack filesystem access, output a complete copyable handoff and state that nothing was saved. Do not start new design work or archive yourself automatically.
+Please wrap up this session for the Halloween 2026 repository transition. Read `/Users/akshet/workspace/halloween-2026/AGENTS.md` and `README.md` if you have access. Reconcile this conversation against the current task files; preserve any missing confirmed decisions, proposals, sources and next steps in a task-local handoff using `coordination/handoff-template.md`. Do not overwrite newer decisions with older ideas. Commit only your changes, report the branch and commit hash and any remaining files, then stop work so the next session can continue. If you lack filesystem access, output a complete copyable handoff and state that nothing was saved. Do not start new design work or archive yourself automatically.
 
 ## Starter for a new task
-Work on [specific outcome] directly on `main` in `/Users/akshet/workspace/halloween-2026`; do not create a worktree or task branch. Read AGENTS.md, workstreams/README.md, the relevant family/task index and any handoff before editing. Use the current committed design, keep sibling dependencies explicit, persist progress and commit as you go, including remaining changes before finishing.
+Work on [specific outcome] directly on `main` in `/Users/akshet/workspace/halloween-2026`; do not create a worktree or task branch. Read root AGENTS.md and README.md, then the task family and applicable nested AGENTS.md files, its README and any handoff before editing. Use the current committed design, keep sibling dependencies explicit, persist progress and commit as you go, including remaining changes before finishing.
 
-For game code use the interactive/implementation index and apps/hollow-court. The user plans to launch this task separately; no implementation task was created by the setup work.
+For game code use interactive-game/app/README.md and its AGENTS.md. The user plans to launch this task separately; no implementation task was created by the setup work.
 
 ## Final NFC handoff received — September 8
-The host reports NFC Figurine Design is the last non-Work session and intends to close/archive the other project. Its supplied handoff is [preserved and reconciled](../workstreams/interactive/physical/handoff-2026-09-08-nfc-reconciliation.md); no missing substantive decisions were found. This confirms capture of the supplied handoff, not a fresh audit of every old project attachment. Archival remains the host's action; it was not performed or verified here.
+The host reports NFC Figurine Design is the last non-Work session and intends to close/archive the other project. Its supplied handoff is [preserved and reconciled](../interactive-game/physical/handoff-2026-09-08-nfc-reconciliation.md); no missing substantive decisions were found. This confirms capture of the supplied handoff, not a fresh audit of every old project attachment. Archival remains the host's action; it was not performed or verified here.
+
+## Folder consolidation completed — September 8
+The new [project home](../README.md) routes directly to decor, interactive-game, music, host-costume, guests and operations. [Organization guide](organization.md) documents nested instructions and the old-path map. Earlier inventory/actions above are historical; the host reports the old non-Work project transition is done. All new tasks work directly on shared main.

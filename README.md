@@ -1,18 +1,22 @@
 # Halloween 2026
 
-Start with [task families](workstreams/README.md) for session-based work, or [the planning home](00-START-HERE.md) for the original overview. Agents: read [AGENTS.md](AGENTS.md) first.
+October 31 · Williamsburg · 30–60 staggered guests · $1,000–$3,000 including drinks.
 
-[Local session setup](coordination/session-setup.md) · [Handoff template](coordination/handoff-template.md) · [Organization plan](coordination/organization.md)
+Pick the area you want to work on. Its README points to current plans; its AGENTS.md gives the session its task-specific context.
 
-Canonical project folder: `/Users/akshet/workspace/halloween-2026`.
+| Area | What lives here |
+|---|---|
+| [Decor](decor/README.md) | Living room, bedroom, bathroom, shared lighting and scenic references |
+| [Interactive game](interactive-game/README.md) | Hollow Court story and puzzles, physical entities/NFC, website code |
+| [Music](music/README.md) | Living-room and bedroom playlists, audio orchestration and TV visuals |
+| [Host costume](host-costume/README.md) | Antler King look, fit, build, shopping and references |
+| [Guests](guests/README.md) | Partiful copy, costume inspiration and shareable guest images |
+| [Operations](operations/README.md) | Task tracker, budget, shopping cart, drinks, supplies and party schedule |
 
-- [Task tracker](01-task-tracker.md)
-- [Partiful copy and guest pack](guest-pack/README.md)
-- [Visual inspiration board](inspiration/BOARD.md)
-- [Budget and sourcing](14-budget-and-sourcing.md)
-- [Decisions and open questions](17-decisions-and-questions.md)
-- [Mac / rekordbox / Jellyfin plan](18-mac-orchestration.md)
+**Across everything:** [Task tracker](operations/task-tracker.md) · [Budget](operations/budget.md) · [Decisions](operations/decisions.md) · [Shopping cart](operations/shopping/CART.md).
 
-All figures and designs are working proposals unless marked confirmed. Purchases, rentals, physical builds and media playback have not yet been executed.
+Start one Codex session per task in this repository, directly on `main`. For example: “Work on bedroom decor. Read AGENTS.md and decor/bedroom/AGENTS.md, then continue from decor/bedroom/README.md.” Agents commit progress as they go.
 
-Current interactive work: [Hollow Court narrative and game design](interactive-story/README.md), including the [selected puzzle families](interactive-story/10-puzzle-design-proposals.md) and the [15-entity physical plan](interactive-story/11-physical-entity-plan.md). Documentation only; implementation follows later.
+[Agent instructions](AGENTS.md) · [Session setup](coordination/session-setup.md) · [Folder migration / old paths](coordination/organization.md).
+
+The numbered root plans have moved into their task folders. Current product and game decisions are unchanged by the reorganization. Plans, research, purchases and tests remain separately labeled in their source documents.

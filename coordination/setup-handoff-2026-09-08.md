@@ -1,5 +1,7 @@
 # Repository coordination handoff — September 8, 2026
 
+Historical setup record. The later [folder consolidation](organization.md) supersedes the navigation-only layout and migration next steps below.
+
 Session: Plan Samhain Halloween party (`01a06933-8c9a-72c3-992d-e1570b7d43c5`). Checkout: `/Users/akshet/workspace/halloween-2026`, branch `main`.
 
 ## Completed
@@ -17,7 +19,7 @@ Session: Plan Samhain Halloween party (`01a06933-8c9a-72c3-992d-e1570b7d43c5`). 
 ## Next actions
 1. Start future file-writing sessions in the local repository, directly on `main` in the shared canonical checkout; no worktrees or task branches.
 2. If desired, send older sessions the prepared transition message in session-setup.md; reconcile missing context before retiring them.
-3. Launch game implementation separately using workstreams/interactive/implementation/README.md and the latest interactive-story docs.
+3. Launch game implementation separately using interactive-game/app/README.md and the latest interactive-story docs.
 4. Commit progress as you go on shared `main`; defer large file moves until handoffs are settled.
 
 ## Main-only workflow update

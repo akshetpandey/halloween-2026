@@ -1,14 +1,31 @@
-# File organization and migration
-September 8, 2026.
+# Folder organization
 
-## Applied now
-`workstreams/` groups sibling tasks in adjacent folders: music/living-room and music/bedroom; decor/living-room, decor/bedroom and decor/bathroom; interactive/design, interactive/physical and interactive/implementation. These indexes point to the existing canonical source files. New session handoffs belong with the task. `apps/hollow-court/` is reserved for the planned game code. Root AGENTS.md covers the entire repository.
+Completed September 8, 2026 at the host's request. The host reports the old non-Work sessions/project are closed or archived and future work will use Codex.
 
-This first phase improves navigation without breaking paths in older sessions, inspiration HTML, sourcing files or existing documents. No original planning assets were moved or duplicated. Use links, not symlink aliases or competing copies of a plan.
+## Where work lives
 
-## Proposed later physical consolidation
-After older sessions save handoffs and their edits are committed, migrate one family at a time if the navigation layer is insufficient. Candidate destinations: `music/living-room`, `music/bedroom`, `decor/living-room`, `decor/bedroom`, `decor/bathroom`, `operations`, and current `interactive-story` / `host-costume`. Keep shared lighting and sourcing in shared family folders.
+| Folder | Ownership |
+|---|---|
+| decor/ | living-room/, bedroom/, bathroom/, shared lighting/, decor references |
+| interactive-game/ | design/, physical/ entities and NFC, app/ implementation, game tracker/runbook |
+| music/ | living-room/, bedroom/, shared audio orchestration and TV visuals |
+| host-costume/ | Host's Antler King outfit, fit, sourcing and references |
+| guests/ | Partiful, guest pack, costume inspiration and its research |
+| operations/ | Master tracker/budget/decisions, shared cart, drinks/supplies, apartment and run of show |
+| coordination/ | Repository workflow, handoff template and migration records |
 
-For each move, coordinate ownership, use tracked moves, update relative links in Markdown/HTML/JSON and code references, verify local links/assets, and leave a short redirect Markdown at any old entry point heavily referenced by chats. Do not copy whole plans. Commit that family's migration separately. A folder move does not change product requirements or budget.
+[Project home](../README.md) is the single start page. The numbered root plans and former workstreams navigation were physically consolidated into their owners. There is one current copy of each plan. Family READMEs link to sibling dependencies; they do not duplicate full plans. The original overview is preserved as [planning history](../operations/planning-history.md).
 
-There are no running sibling Codex writers in the September 8 inventory, but old idle sessions may resume at any time. A session handoff reduces stale-path edits. The user has not asked us to archive or message them yet; the transition message is prepared in session-setup.md.
+Game code belongs in interactive-game/app. This migration creates no application scaffold and changes no party/game requirements, purchases or test status.
+
+## Agent setup
+Root [AGENTS.md](../AGENTS.md) holds shared-main, commit-as-you-go and project-wide rules. Each of the six task families has an AGENTS.md; room tasks and game design/physical/app add narrower guidance. Root explicitly directs agents to read applicable nested files before editing, including when a session starts at the repository root.
+
+Official [instruction discovery guidance](https://learn.chatgpt.com/docs/agent-configuration/agents-md) describes the root-to-working-directory instruction chain. For a new session, name the task folder and ask it to read the relevant instructions; don't assume every sibling instruction is loaded automatically. No app permission/configuration changes were made by adding these files.
+
+## Older paths and preserved history
+The [complete old-to-new path map](path-migration-2026-09-08.json) records every moved tracked file and the three redundant navigation indexes merged into canonical READMEs. If an old conversation link no longer opens, look up its former path here or search the filename. No root redirect stubs or symlink aliases were retained, to keep the layout simple.
+
+Markdown links/images and structured local file references were updated. Source snapshots inside history/ retain their original bytes, including historical paths and claims; consult the map when reading them. Image files retain their original bytes. Git preserves the previous layout at d1456c6.
+
+Future notes and assets go directly into the owning task folder. Avoid new top-level research, shopping, workstreams, apps or interactive-story folders; shared evidence and cart data now have explicit homes. Keep migrations narrow and update links if a later task needs another move.

@@ -2,7 +2,7 @@
 
 ## Start every session
 - Work in this Git repository. All agents work directly on `main` in the shared checkout `/Users/akshet/workspace/halloween-2026`. Do not create worktrees or separate task branches.
-- Read this file, `workstreams/README.md`, the chosen task's index and relevant current source docs. Check `git status --short` and your branch before editing.
+- Read this file and `README.md`, then every applicable nested `AGENTS.md` from the task family down to the folder you will edit, plus its README and current plans. Do this explicitly even when the session starts at repository root. Check `git status --short` and confirm `main` before editing.
 - Use a local Work/Codex session attached to this repo for file-writing tasks. Project membership or an AGENTS.md file does not grant filesystem permissions. If tools cannot write here, report that explicitly and provide a handoff; never claim files were saved.
 - Do not use the old `.codex/.chatgpt-projects/...` mirror or a projectless output directory as the planning source of truth.
 - User instructions override these project conventions. Read current files rather than relying on an older chat's recollection.
@@ -17,17 +17,17 @@
 - Living-room floor is laminate plus low/no-pile carpet areas. No curtain rods; bulk cloth with hooks/clips or tape is acceptable. Host has a gold tree lamp with LIFX bulb.
 - Latest living-room lighting: glowing moon + broad dim purple wash; Oasis acceptable if sufficiently dim. Separate RGB source needed under currently documented Oasis Ambient specs. Moon NFC covers must be premade stickers.
 
-## Current game authority — read before implementation
-- `interactive-story/README.md` routes the CURRENT design. `09-hollow-court-narrative-and-game.md`, `10-puzzle-design-proposals.md`, `11-physical-entity-plan.md` and `03-website-build-brief.md` govern mechanics, puzzles, physical entities and implementation respectively.
-- Current physical scope: 15 entities, split 5 decor-integrated / 5 purchased / 5 homemade. Earlier all-bark, 10/12-entity and scan-only scoring plans are superseded.
-- Entities are NFC-only; QR is explicitly allowed for Partiful and guest Summons, never as entity fallback. Do not apply the earlier blanket no-QR statement to Summons.
-- Current design includes name + costume selfie, puzzles earning Favor, costume voting, invitations at four/ten Favors and live standings. Distinguish confirmed requirements from proposed scoring/tie/ranking details in the governing docs.
-- Fifteen puzzle families: fourteen approved, Unbroken Sigil provisional. Deterministic game/player/entity instances, no hints, unlimited retries, 20–45-second target and under 90 seconds for nearly everyone; correctness must not depend on generated imagery.
-- Cloudflare is the intended implementation platform. The old “do not implement in this task” wording describes past documentation-only tasks; it does not prohibit a newly user-authorized coding task. Read relevant Cloudflare skills when building.
-- Keep succession secret off the invite and follow current guest-copy secrecy rules. Default website close is 2 a.m. EST after rollback, separate from party wind-down; older 12:30/12:45 closure is historical.
+## Task ownership
+- `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.
+- `interactive-game/`: game rules, puzzles, physical entities/NFC and app. Read its nested instructions before changing game work.
+- `music/`: room playlists, DJ preparation, audio/TV orchestration.
+- `host-costume/`: the host's Antler King costume; winner crown belongs to the game.
+- `guests/`: invite and guest inspiration; keep the secret succession out of guest-facing invite material.
+- `operations/`: shared tracker, budget, decisions, shopping cart, hospitality and schedule.
+- `coordination/`: repository workflow, handoffs and old-path migration record. Historical snapshots are evidence, not current requirements.
 
 ## Working across sessions
-- Use one session per distinct deliverable; sibling tasks share the family index in `workstreams/`. Check sibling decisions before changing shared assumptions.
+- Use one session per distinct deliverable; sibling tasks share the README in their family folder. Check sibling decisions before changing shared assumptions.
 - All sessions, including game implementation, use the shared checkout on `main`. Keep edits scoped to the task and re-read shared files immediately before changing them.
 - Keep Git staging and commits brief and avoid simultaneous Git operations; check the staged diff for another session's changes before committing.
 - Preserve other sessions' edits. Do not use blanket `git add .`, reset, clean, force-push or amend someone else's commit. Stage named paths or your own hunks and inspect the staged diff.
@@ -35,8 +35,8 @@
 - Do not send messages to other people or sessions, create tasks, archive sessions or buy items without the applicable user authorization. Draft handoffs are fine; ordinary local planning edits need no extra approval.
 
 ## Documentation and handoffs
-- Current task documents are authoritative; workstream indexes link to them rather than copying their contents. Keep one current statement of a decision, with superseded material clearly labeled/history-linked.
-- New durable task notes belong beside their task index. Existing files stay at their current paths during the first organization phase; see `coordination/organization.md` before moving them.
+- Current task documents are authoritative; family READMEs link to them rather than copying their contents. Keep one current statement of a decision, with superseded material clearly labeled/history-linked.
+- New durable task notes and assets belong in their owning task folder. The September 8 physical consolidation is complete; use `coordination/path-migration-2026-09-08.json` to resolve older paths. Do not recreate the old root-numbered plans, `workstreams/` navigation layer or `interactive-story/` folder.
 - Label confirmed / proposed / purchased / tested distinctly. Date product prices and availability; a link or unpaid cart is not a purchase, deployment or test.
 - Update relevant task status after meaningful progress. Reflect shared cost changes in budget without double-counting, and update shared decisions when scope changes.
 - Before ending or handing off, persist results, decisions, unresolved questions, next actions, affected files, verification, branch and commit references in a task-local handoff. Use `coordination/handoff-template.md`.

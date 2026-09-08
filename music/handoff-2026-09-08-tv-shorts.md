@@ -1,0 +1,17 @@
+# TV shorts research handoff · September 8, 2026
+
+- Session title and ID: TV short-film expansion; session ID not exposed.
+- Updated date: September 8, 2026.
+- Scope / owned files: [TV plan](tv-visuals.md), [runtime evidence](tv-shortlist-metadata-2026-09-08.json), this handoff, VID-01 in the [shared tracker](../operations/task-tracker.md), and the TV curation correction in [decisions](../operations/decisions.md).
+- Checkout, branch and base commit: `/Users/akshet/workspace/halloween-2026`, shared `main`; base observed before editing `5ac6c4f`. Other sessions were actively editing unrelated files.
+- Status: requested research/documentation complete; selection and playback preparation ready to continue.
+- Confirmed user decisions (September 8 message): remove feature-length films; ideally every item at most 30 minutes; find about ten more; add the supplied Vimeo film as a candidate/reference.
+- Proposals awaiting a decision: ten new shorts, priority order and individual inclusion. The existing 45–60-minute loop remains a proposal, not an assembled programme.
+- Completed work: identified host reference as *Forest* (3:26); removed the two feature-film rows; retained prior short/stock candidates without inferring approval or rejection; added ten distinct new films, all below 30 minutes, with creator/studio viewing routes, runtimes and muted-use/tonal notes. Ten additions total 6,820 seconds (1:53:40), excluding Forest. Corrected the duplicate Shyness of Trees upload label so it is not counted as another film.
+- Checks actually run and results: creator/studio/distributor pages researched with web tools; eight Vimeo oEmbed durations, two NFB page metadata durations and The Maker publisher runtime recorded. JSON parsing, 11 unique records, ten new film rows, all durations at most 30 minutes, table/runtime agreement, feature removal and local Markdown link checks passed. `git diff --check` passed. Full films were not watched. Inspect the staged diff before committing.
+- Purchases / external changes / deployments: none. No media downloaded, messages sent, player configured or budget altered.
+- Remaining work in priority order: host auditions the first-priority films; complete full sound/muted screenings and content checks; resolve permitted file/storage routes; acquire selections; assemble and test the loop on the actual TV alongside room audio.
+- Dependencies on sibling tasks: muted TV remains separate from Google Home music; actual Jellyfin client/repeat and combined rehearsal depend on the existing orchestration work. No room playlist changes made here.
+- Access limitations: source metadata is not proof of uninterrupted playback. A later batch refetch returned HTTP 403 after earlier successful metadata reads; the evidence file records the successfully observed values. The Cathedral's direct Vimeo URL was unavailable to the web reader, but the studio embed and Vimeo oEmbed metadata resolved; use the studio page. NFB film-page download terms prohibit hosting DTO files on a streaming server; NFB purchase cannot be assumed to authorize Jellyfin storage.
+- Commit(s) on main: focused checkpoint to be created after checks; resulting hash reported in the final response, per the handoff template.
+- Remaining unrelated dirty files: other sessions' interactive-game narrative work, living-room batch-02 plans and Playlist Lab code/docs/assets. Preserve them; this checkpoint stages only the five owned paths above.

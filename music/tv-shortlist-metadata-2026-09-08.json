@@ -1,0 +1,100 @@
+{
+  "checked_date": "2026-09-08",
+  "status": "Source metadata checked; full playback, acquisition, muted review and TV testing not performed.",
+  "retrieval_note": "Values transcribed from successful source reads in this session. A later batch refetch hit HTTP 403; no media was downloaded.",
+  "items": [
+    {
+      "title": "Forest",
+      "watch_url": "https://vimeo.com/50846965",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/50846965",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "only twin",
+      "reported_title": "Forest",
+      "duration_seconds": 206
+    },
+    {
+      "title": "Feral",
+      "watch_url": "https://vimeo.com/242837481",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/242837481",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Daniel Sousa",
+      "reported_title": "Feral",
+      "duration_seconds": 766
+    },
+    {
+      "title": "The Cathedral",
+      "watch_url": "https://vimeo.com/14494162",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/14494162",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Platige Image",
+      "reported_title": "2251 THE CATHEDRAL",
+      "duration_seconds": 380
+    },
+    {
+      "title": "Leshy",
+      "watch_url": "https://vimeo.com/142104415",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/142104415",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Pavel Soukup",
+      "reported_title": "LESHY (a short dark fairy tale)",
+      "duration_seconds": 1395
+    },
+    {
+      "title": "Blind Eye",
+      "watch_url": "https://vimeo.com/343197543",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/343197543",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "GOBELINS Paris",
+      "reported_title": "Blind Eye - Animation Short Film 2019 - GOBELINS",
+      "duration_seconds": 383
+    },
+    {
+      "title": "The Alchemist's Letter",
+      "watch_url": "https://vimeo.com/125527643",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/125527643",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Carlos Stevens",
+      "reported_title": "The Alchemist's Letter",
+      "duration_seconds": 318
+    },
+    {
+      "title": "O Black Hole!",
+      "watch_url": "https://vimeo.com/691180937",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/691180937",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Renee Zhan",
+      "reported_title": "O Black Hole!",
+      "duration_seconds": 969
+    },
+    {
+      "title": "La Noria",
+      "watch_url": "https://vimeo.com/302964043",
+      "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/302964043",
+      "source_type": "Vimeo oEmbed",
+      "uploader": "Carlos Baena",
+      "reported_title": "La Noria",
+      "duration_seconds": 775
+    },
+    {
+      "title": "Skin for Skin",
+      "watch_url": "https://www.nfb.ca/film/skin_for_skin/",
+      "source_url": "https://www.nfb.ca/film/skin_for_skin/",
+      "source_type": "NFB page nfb_version_duration metadata",
+      "duration_seconds": 902
+    },
+    {
+      "title": "The Mountain of SGaana",
+      "watch_url": "https://www.nfb.ca/film/mountain_of_sgaana/",
+      "source_url": "https://www.nfb.ca/film/mountain_of_sgaana/",
+      "source_type": "NFB page nfb_version_duration metadata",
+      "duration_seconds": 602
+    },
+    {
+      "title": "The Maker",
+      "watch_url": "https://www.zealouscreative.com/films/the-maker/",
+      "source_url": "https://www.zealouscreative.com/films/the-maker/",
+      "source_type": "Publisher runtime listing 05:30",
+      "duration_seconds": 330
+    }
+  ]
+}

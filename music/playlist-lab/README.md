@@ -1,8 +1,8 @@
 # Playlist Lab
 
-A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser is only the listening/review interface. Playlist management uses Spotify’s Web API directly.
+A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser contains persistent Spotify/YouTube players and the listening/review interface. Playlist management uses Spotify’s Web API directly.
 
-**Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). No speaker or listening test is claimed.
+**Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
 
 ## Listen and vote now
 
@@ -13,7 +13,22 @@ python3 music/playlist-lab/lab.py import music/living-room/review-library.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. The in-app browser timed out in this session; Chrome loaded it successfully. Start with **First audition**: 12 existing anchors plus 24 new candidates. Open a track in Spotify, listen, and choose **Keep / Cut / Maybe**. All seeded tracks now link to exact Spotify versions. Newly imported unresolved records open a labeled Spotify search until bound. Listen at conversation volume, including a later section of the track; a good opening can conceal five minutes of an unchanged loop. Playback stays in Spotify; no audio is downloaded by this tool.
+Open [the listening room](http://127.0.0.1:8765) in Chrome. Start with **First audition**. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video.
+
+**YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates have matching title/mix words, artist/channel evidence and duration within five seconds, but are not guaranteed identical versions. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
+
+[YouTube candidates](../living-room/youtube-candidates-2026-09-08.json) cover 128/141 library tracks, including 34/36 audition tracks. Rose rouge and Inspector Norse have no sufficiently close candidate from the bounded searches and use Spotify. The candidate count is **not** an embeddability success count. The 13 unresolved library tracks remain unresolved rather than using another edit.
+
+`yt-dlp` is used only for metadata searches, with no audio/video downloads and no browser-cookie extraction. Refresh candidates with:
+
+```sh
+python3 music/playlist-lab/youtube.py       # audition only
+python3 music/playlist-lab/youtube.py --all # all linked library tracks
+```
+
+The script caches searches privately for 14 days, uses at most three concurrent searches, stores candidate source/version evidence, and keeps host votes unchanged. Provider SDKs load once; no Spotify Client ID, secret or access token is exposed to the review page. Refresh the page after enrichment to load new candidates. Library import and metadata operations still use Python/API commands.
+
+Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
 Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the server after a Mac restart. This is local to the Mac; phone/multi-user access is not implemented.
 
@@ -113,8 +128,11 @@ LOCAL_RECORD_ID,genre,vocal house,host listening 2026-09-08
 python3 music/playlist-lab/lab.py import-features metadata.csv
 python3 music/playlist-lab/lab.py features --limit 1
 python3 -m unittest discover -s music/playlist-lab -v
+node --test music/playlist-lab/test_player.cjs
 ```
 
 Credentials, runtime snapshots and voting history live in `.local/`, ignored by Git. Back up that directory privately or use the export command; committing the program does not back up later votes. `--state PATH` before the subcommand selects a different state directory, useful for disposable testing.
 
 [PKCE](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow) · [Redirect URIs](https://developer.spotify.com/documentation/web-api/concepts/redirect_uri) · [Development mode](https://developer.spotify.com/documentation/web-api/concepts/quota-modes) · [Audio feature restrictions](https://developer.spotify.com/blog/2024-11-27-changes-to-the-web-api) · [February 2026 API changes](https://developer.spotify.com/documentation/web-api/references/changes/february-2026) · [March ISRC-field reversal](https://developer.spotify.com/documentation/web-api/references/changes/march-2026) · [July quota changes](https://developer.spotify.com/documentation/web-api/references/changes/july-2026) · [Read items](https://developer.spotify.com/documentation/web-api/reference/get-playlists-items) · [Add](https://developer.spotify.com/documentation/web-api/reference/add-items-to-playlist) · [Remove](https://developer.spotify.com/documentation/web-api/reference/remove-items-playlist) · [Reorder](https://developer.spotify.com/documentation/web-api/reference/reorder-or-replace-playlists-items).
+
+[Spotify embed API](https://developer.spotify.com/documentation/embeds/references/iframe-api) · [Spotify preview limitations](https://developer.spotify.com/documentation/embeds/tutorials/troubleshooting) · [YouTube iframe API](https://developers.google.com/youtube/iframe_api_reference) · [yt-dlp](https://github.com/yt-dlp/yt-dlp).

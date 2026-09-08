@@ -446,6 +446,8 @@ def serve(store, port):
             if not self.allowed(): self.send_error(403); return
             if self.path == '/':
                 self.respond((ROOT/'review.html').read_bytes(), mime='text/html; charset=utf-8')
+            elif self.path == '/player.js':
+                self.respond((ROOT/'player.js').read_bytes(), mime='text/javascript; charset=utf-8')
             elif self.path == '/api/tracks':
                 self.respond({'tracks':store.rows(), 'csrf':csrf})
             elif self.path == '/api/events':

@@ -1,0 +1,2748 @@
+{
+  "updated": "2026-09-08T22:49:05Z",
+  "status": "Metadata-matched YouTube candidates, not guaranteed identical mixes or guaranteed embeddability. yt-dlp used for metadata only.",
+  "tracks": [
+    {
+      "id": "local:91bd7c5ae72b1517dac6",
+      "artist": "Kiasmos",
+      "title": "Held",
+      "spotify_uri": "spotify:track:2RjVf6pGKM9d5pCW11YtcB",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:f8a83fbb60236dcd9fc5",
+      "artist": "Chaos In The CBD, Isaac Aesili",
+      "title": "Midnight in Peckham",
+      "spotify_uri": "spotify:track:1CzfZY7lXaysy84x3a2jix",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:b5b8ef197be15cfd01d5",
+      "artist": "St Germain",
+      "title": "Montego Bay Spleen",
+      "spotify_uri": "spotify:track:38LpbjQx5XAA95pb7AGRnE",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:f8b962490316d259bfba",
+      "artist": "St Germain",
+      "title": "So Flute",
+      "spotify_uri": "spotify:track:1XAzFYJR94m9T4AgshhO99",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:686a846b6f0b7f3b9e1c",
+      "artist": "St Germain",
+      "title": "Land Of...",
+      "spotify_uri": "spotify:track:5HVcJTb111CdGVwJWPyZcn",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:da5cca36af7f6bbbe922",
+      "artist": "St Germain",
+      "title": "Latin Note",
+      "spotify_uri": "spotify:track:7fUr8EpRc0AC4MCPMVPIgI",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:54342b0d859fa063fc83",
+      "artist": "St Germain",
+      "title": "Sure Thing",
+      "spotify_uri": "spotify:track:1msXkHv84LKikJGKcfdGBu",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:695f2cebd636b1227755",
+      "artist": "St Germain",
+      "title": "Pont des Arts",
+      "spotify_uri": "spotify:track:6kicsnoSgwTPWYPlxTDB2t",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:fec47a8850581d9c8063",
+      "artist": "St Germain",
+      "title": "La goutte d'or",
+      "spotify_uri": "spotify:track:5eHKGf2FpigGiTeVwJYrWi",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:f3cd1338893b1957eb4e",
+      "artist": "St Germain",
+      "title": "What You Think About...",
+      "spotify_uri": "spotify:track:6Sw5aOSeKrUBxenDEzuta7",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:9504d27cec0bc1c17916",
+      "artist": "St Germain",
+      "title": "Rose rouge",
+      "spotify_uri": "spotify:track:1divptdjcWXvF1aflfTQnw",
+      "audition_rank": 16,
+      "youtube": null
+    },
+    {
+      "id": "local:5e8df031a68d5d1dd3a9",
+      "artist": "Todd Terje",
+      "title": "Inspector Norse",
+      "spotify_uri": "spotify:track:1NHd4UVxT5d5EGYzlDq17T",
+      "audition_rank": 24,
+      "youtube": null
+    },
+    {
+      "id": "local:af9190b1e1154c6ae0c9",
+      "artist": "DJ Koze",
+      "title": "Seeing Aliens",
+      "spotify_uri": "spotify:track:3Cn6clPw1B4Vgjvy8XfXTB",
+      "audition_rank": null,
+      "youtube": null
+    },
+    {
+      "id": "local:fcbecca94113f546314c",
+      "artist": "Maribou State, Khruangbin",
+      "title": "Feel Good",
+      "spotify_uri": "spotify:track:3PURbsY67tLMyausOABtit",
+      "audition_rank": 1,
+      "youtube": {
+        "video_id": "49hZqOd_DRM",
+        "title": "Feel Good",
+        "channel": "Khruangbin",
+        "duration_seconds": 268,
+        "url": "https://www.youtube.com/watch?v=49hZqOd_DRM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3PURbsY67tLMyausOABtit",
+        "observed_at": "2026-09-08T22:43:11Z",
+        "alternatives": [
+          {
+            "video_id": "VT78T4jcMsI",
+            "title": "Maribou State - 'Feel Good (feat. Khruangbin)'",
+            "channel": "Maribou State",
+            "duration_seconds": 268,
+            "url": "https://www.youtube.com/watch?v=VT78T4jcMsI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3PURbsY67tLMyausOABtit",
+            "observed_at": "2026-09-08T22:43:11Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:de38ac4f01e35c22737f",
+      "artist": "Róisín Murphy",
+      "title": "Murphy's Law (Edit)",
+      "spotify_uri": "spotify:track:5pVk9zx3qrtmx3ya8hyanZ",
+      "audition_rank": 3,
+      "youtube": {
+        "video_id": "CmlloC5My0c",
+        "title": "Murphy's Law (Edit)",
+        "channel": "Róisín Murphy",
+        "duration_seconds": 231,
+        "url": "https://www.youtube.com/watch?v=CmlloC5My0c",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5pVk9zx3qrtmx3ya8hyanZ",
+        "observed_at": "2026-09-08T22:43:11Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:4f22577233dcf6578fa9",
+      "artist": "Jessie Ware",
+      "title": "What’s Your Pleasure?",
+      "spotify_uri": "spotify:track:2ZcwbSYqc8RfPGMMXTIdb0",
+      "audition_rank": 2,
+      "youtube": {
+        "video_id": "qS_o7XpnEqA",
+        "title": "Jessie Ware - What’s Your Pleasure? (Dance Video)",
+        "channel": "Jessie Ware",
+        "duration_seconds": 279,
+        "url": "https://www.youtube.com/watch?v=qS_o7XpnEqA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ZcwbSYqc8RfPGMMXTIdb0",
+        "observed_at": "2026-09-08T22:43:11Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:09c8ef7de923452a2055",
+      "artist": "Bonobo, Innov Gnawa",
+      "title": "Bambro Koyo Ganda",
+      "spotify_uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+      "audition_rank": 4,
+      "youtube": {
+        "video_id": "joAiTxc-_EI",
+        "title": "Bambro Koyo Ganda",
+        "channel": "Bonobo",
+        "duration_seconds": 303,
+        "url": "https://www.youtube.com/watch?v=joAiTxc-_EI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+        "observed_at": "2026-09-08T22:43:13Z",
+        "alternatives": [
+          {
+            "video_id": "G6_aCS1u7-M",
+            "title": "Bonobo - Bambro Koyo Ganda (feat. Innov Gnawa)",
+            "channel": "ElectroPosé",
+            "duration_seconds": 303,
+            "url": "https://www.youtube.com/watch?v=G6_aCS1u7-M",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+            "observed_at": "2026-09-08T22:43:13Z"
+          },
+          {
+            "video_id": "8zcDzXxLTTw",
+            "title": "Bonobo - Bambro Koyo Ganda (feat. Innov Gnawa)",
+            "channel": "DLoaw",
+            "duration_seconds": 303,
+            "url": "https://www.youtube.com/watch?v=8zcDzXxLTTw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+            "observed_at": "2026-09-08T22:43:13Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:25bc5c7e438d0ad6776c",
+      "artist": "Moloko, Boris Dlugosch, Michael Lange",
+      "title": "Sing It Back - Boris Musical Mix - Edit",
+      "spotify_uri": "spotify:track:4O0LwyuV3U18Hg5AxILDlI",
+      "audition_rank": 5,
+      "youtube": {
+        "video_id": "u_G_YliYNkg",
+        "title": "Sing It Back (Boris Musical Mix) (Edit)",
+        "channel": "Moloko",
+        "duration_seconds": 278,
+        "url": "https://www.youtube.com/watch?v=u_G_YliYNkg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4O0LwyuV3U18Hg5AxILDlI",
+        "observed_at": "2026-09-08T22:43:13Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:c7487316e5572dbec41c",
+      "artist": "Peggy Gou",
+      "title": "It Makes You Forget (Itgehane) - Edit",
+      "spotify_uri": "spotify:track:1GZJu6ciZ55S8Kp1s8Z5ex",
+      "audition_rank": 6,
+      "youtube": {
+        "video_id": "BACnvj5jAh0",
+        "title": "It Makes You Forget (Itgehane) (Edit)",
+        "channel": "Peggy Gou",
+        "duration_seconds": 237,
+        "url": "https://www.youtube.com/watch?v=BACnvj5jAh0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1GZJu6ciZ55S8Kp1s8Z5ex",
+        "observed_at": "2026-09-08T22:43:13Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:d4d86bce9161f2bc72d3",
+      "artist": "DJ Seinfeld",
+      "title": "Walking With Ur Smile",
+      "spotify_uri": "spotify:track:469tf6NgOf4nscrty0G9Us",
+      "audition_rank": 7,
+      "youtube": {
+        "video_id": "QVFYOK_jS3A",
+        "title": "DJ Seinfeld - 'Walking With Ur Smile' (Official Audio)",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 225,
+        "url": "https://www.youtube.com/watch?v=QVFYOK_jS3A",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:469tf6NgOf4nscrty0G9Us",
+        "observed_at": "2026-09-08T22:43:15Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:1d29cdbcfdc5a6899519",
+      "artist": "Elkka",
+      "title": "Your Skin",
+      "spotify_uri": "spotify:track:0F6YpgpHXMuO2FODRexwLw",
+      "audition_rank": 8,
+      "youtube": {
+        "video_id": "eg3r9bF3Bac",
+        "title": "Your Skin",
+        "channel": "Elkka",
+        "duration_seconds": 247,
+        "url": "https://www.youtube.com/watch?v=eg3r9bF3Bac",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0F6YpgpHXMuO2FODRexwLw",
+        "observed_at": "2026-09-08T22:43:16Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:7f8a4600ab9264d336ea",
+      "artist": "Sofia Kourtesis",
+      "title": "La Perla - Edit",
+      "spotify_uri": "spotify:track:6CldyxMa4XuHWAhAlaPWmt",
+      "audition_rank": 9,
+      "youtube": {
+        "video_id": "ZLoJCTjFFHI",
+        "title": "La Perla (Edit)",
+        "channel": "Sofia Kourtesis",
+        "duration_seconds": 227,
+        "url": "https://www.youtube.com/watch?v=ZLoJCTjFFHI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6CldyxMa4XuHWAhAlaPWmt",
+        "observed_at": "2026-09-08T22:43:16Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:3a0c3bd11af3c91266a3",
+      "artist": "Folamour",
+      "title": "Devoted To U",
+      "spotify_uri": "spotify:track:3Pc13UydooMYqbXiTmpGSk",
+      "audition_rank": 10,
+      "youtube": {
+        "video_id": "VOJhbBP13f8",
+        "title": "Devoted To U",
+        "channel": "Folamour",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=VOJhbBP13f8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3Pc13UydooMYqbXiTmpGSk",
+        "observed_at": "2026-09-08T22:43:17Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:d8892a36965f3ba0351f",
+      "artist": "TSHA, MAFRO",
+      "title": "Giving Up",
+      "spotify_uri": "spotify:track:07mOlP1DQv1ZsQTyCMNzaW",
+      "audition_rank": 11,
+      "youtube": {
+        "video_id": "dlY6xk015-M",
+        "title": "TSHA - 'Giving Up (feat. Mafro)' (Official Audio)",
+        "channel": "TSHA Official",
+        "duration_seconds": 205,
+        "url": "https://www.youtube.com/watch?v=dlY6xk015-M",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:07mOlP1DQv1ZsQTyCMNzaW",
+        "observed_at": "2026-09-08T22:43:18Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:43863690d75cdf9bdead",
+      "artist": "Jayda G",
+      "title": "Both Of Us - Edit",
+      "spotify_uri": "spotify:track:75rGONmoi48LLYBFaGiYsv",
+      "audition_rank": 12,
+      "youtube": {
+        "video_id": "xfYOxfiVgM0",
+        "title": "Both Of Us (Edit)",
+        "channel": "Jayda G",
+        "duration_seconds": 230,
+        "url": "https://www.youtube.com/watch?v=xfYOxfiVgM0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:75rGONmoi48LLYBFaGiYsv",
+        "observed_at": "2026-09-08T22:43:18Z",
+        "alternatives": [
+          {
+            "video_id": "1vkr-d3iKwU",
+            "title": "Jayda G - Both Of Us (Edit)",
+            "channel": "Majestic Casual",
+            "duration_seconds": 229,
+            "url": "https://www.youtube.com/watch?v=1vkr-d3iKwU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:75rGONmoi48LLYBFaGiYsv",
+            "observed_at": "2026-09-08T22:43:18Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:326b182bbcb280e50dd3",
+      "artist": "DJ Koze",
+      "title": "Pick Up",
+      "spotify_uri": "spotify:track:7dFvYtokT2xQH1HvaQgbgY",
+      "audition_rank": 13,
+      "youtube": {
+        "video_id": "1LWLTsVyMeE",
+        "title": "Pick Up",
+        "channel": "DJ Koze - Topic",
+        "duration_seconds": 399,
+        "url": "https://www.youtube.com/watch?v=1LWLTsVyMeE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7dFvYtokT2xQH1HvaQgbgY",
+        "observed_at": "2026-09-08T22:43:19Z",
+        "alternatives": [
+          {
+            "video_id": "zer_ZkVXH7g",
+            "title": "Pick Up",
+            "channel": "DJ Koze - Topic",
+            "duration_seconds": 399,
+            "url": "https://www.youtube.com/watch?v=zer_ZkVXH7g",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7dFvYtokT2xQH1HvaQgbgY",
+            "observed_at": "2026-09-08T22:43:19Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:1d697a9dbba44f9fbabe",
+      "artist": "DJ Seinfeld, Confidence Man",
+      "title": "Now U Do",
+      "spotify_uri": "spotify:track:6HzL348HHRk2dWHNzx42aj",
+      "audition_rank": 14,
+      "youtube": {
+        "video_id": "_fkuUwD97qw",
+        "title": "Now U Do",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 209,
+        "url": "https://www.youtube.com/watch?v=_fkuUwD97qw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6HzL348HHRk2dWHNzx42aj",
+        "observed_at": "2026-09-08T22:43:20Z",
+        "alternatives": [
+          {
+            "video_id": "56Fw_HaUrKQ",
+            "title": "DJ Seinfeld & @ConfidenceMan - 'Now U Do' (Official Audio)",
+            "channel": "DJ Seinfeld",
+            "duration_seconds": 211,
+            "url": "https://www.youtube.com/watch?v=56Fw_HaUrKQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6HzL348HHRk2dWHNzx42aj",
+            "observed_at": "2026-09-08T22:43:20Z"
+          },
+          {
+            "video_id": "ZXFbKz6WLZw",
+            "title": "DJ Seinfeld & Confidence Man - Now U Do",
+            "channel": "MrRevillz",
+            "duration_seconds": 209,
+            "url": "https://www.youtube.com/watch?v=ZXFbKz6WLZw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6HzL348HHRk2dWHNzx42aj",
+            "observed_at": "2026-09-08T22:43:20Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:4768b7281eb112bc3e29",
+      "artist": "Disclosure, Eko Roosevelt",
+      "title": "Tondo",
+      "spotify_uri": "spotify:track:0csz09qS2n8Jo7LogHKu7j",
+      "audition_rank": 15,
+      "youtube": {
+        "video_id": "5VM1plRhrtU",
+        "title": "Tondo",
+        "channel": "Disclosure",
+        "duration_seconds": 330,
+        "url": "https://www.youtube.com/watch?v=5VM1plRhrtU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0csz09qS2n8Jo7LogHKu7j",
+        "observed_at": "2026-09-08T22:43:20Z",
+        "alternatives": [
+          {
+            "video_id": "PD3u5P08UUE",
+            "title": "Disclosure - Tondo (Visualiser)",
+            "channel": "Disclosure",
+            "duration_seconds": 331,
+            "url": "https://www.youtube.com/watch?v=PD3u5P08UUE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0csz09qS2n8Jo7LogHKu7j",
+            "observed_at": "2026-09-08T22:43:20Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:809158045460a2061fdd",
+      "artist": "L'Impératrice",
+      "title": "Agitations tropicales",
+      "spotify_uri": "spotify:track:2La21GqU4fKTQLcfLxTeoz",
+      "audition_rank": 17,
+      "youtube": {
+        "video_id": "362ymTDuTr4",
+        "title": "Agitations tropicales",
+        "channel": "L'Impératrice ",
+        "duration_seconds": 249,
+        "url": "https://www.youtube.com/watch?v=362ymTDuTr4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2La21GqU4fKTQLcfLxTeoz",
+        "observed_at": "2026-09-08T22:43:22Z",
+        "alternatives": [
+          {
+            "video_id": "-V7y1bjxPRo",
+            "title": "L'Impératrice — AGITATIONS TROPICALES (audio)",
+            "channel": "L'Impératrice ",
+            "duration_seconds": 249,
+            "url": "https://www.youtube.com/watch?v=-V7y1bjxPRo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2La21GqU4fKTQLcfLxTeoz",
+            "observed_at": "2026-09-08T22:43:22Z"
+          },
+          {
+            "video_id": "jda_k6r9R1A",
+            "title": "L'Impératrice ♕ AGITATIONS TROPICALES",
+            "channel": "L'Impératrice ",
+            "duration_seconds": 250,
+            "url": "https://www.youtube.com/watch?v=jda_k6r9R1A",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2La21GqU4fKTQLcfLxTeoz",
+            "observed_at": "2026-09-08T22:43:22Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:eac862b458ac45c9a617",
+      "artist": "Jungle",
+      "title": "Keep Moving",
+      "spotify_uri": "spotify:track:4rf0IVQDFjr27T4sgah5Pf",
+      "audition_rank": 18,
+      "youtube": {
+        "video_id": "x9SYGaGYKq0",
+        "title": "Jungle – Keep Moving [Dick Clark’s New Year’s Rockin’ Eve with Ryan Seacrest 2025]",
+        "channel": "Jungle4eva",
+        "duration_seconds": 241,
+        "url": "https://www.youtube.com/watch?v=x9SYGaGYKq0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4rf0IVQDFjr27T4sgah5Pf",
+        "observed_at": "2026-09-08T22:43:22Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:342ac5a1477a7b5569c2",
+      "artist": "Maribou State",
+      "title": "Turnmills",
+      "spotify_uri": "spotify:track:5m4o1robU6yTvFDXXSrH0F",
+      "audition_rank": 19,
+      "youtube": {
+        "video_id": "hRyASKeQu20",
+        "title": "Turnmills",
+        "channel": "Maribou State",
+        "duration_seconds": 302,
+        "url": "https://www.youtube.com/watch?v=hRyASKeQu20",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5m4o1robU6yTvFDXXSrH0F",
+        "observed_at": "2026-09-08T22:43:23Z",
+        "alternatives": [
+          {
+            "video_id": "Vtvvdtzk4dw",
+            "title": "Maribou State - 'Turnmills'",
+            "channel": "Maribou State",
+            "duration_seconds": 302,
+            "url": "https://www.youtube.com/watch?v=Vtvvdtzk4dw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5m4o1robU6yTvFDXXSrH0F",
+            "observed_at": "2026-09-08T22:43:23Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:391fb84410833acb0060",
+      "artist": "Franc Moody",
+      "title": "Dopamine",
+      "spotify_uri": "spotify:track:38MS1Ch2ckFL4O29UVg7Nh",
+      "audition_rank": 20,
+      "youtube": {
+        "video_id": "AGuGxrDCCTs",
+        "title": "Dopamine",
+        "channel": "Franc Moody",
+        "duration_seconds": 244,
+        "url": "https://www.youtube.com/watch?v=AGuGxrDCCTs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:38MS1Ch2ckFL4O29UVg7Nh",
+        "observed_at": "2026-09-08T22:43:24Z",
+        "alternatives": [
+          {
+            "video_id": "SGg6IDaFwDY",
+            "title": "Franc Moody - Dopamine (Official Audio)",
+            "channel": "Franc Moody",
+            "duration_seconds": 245,
+            "url": "https://www.youtube.com/watch?v=SGg6IDaFwDY",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:38MS1Ch2ckFL4O29UVg7Nh",
+            "observed_at": "2026-09-08T22:43:24Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:85fa97581c7b7a6e5a9a",
+      "artist": "Crazy P",
+      "title": "Heartbreaker",
+      "spotify_uri": "spotify:track:53fcY2nNSX8x6yhhHQPfWE",
+      "audition_rank": 21,
+      "youtube": {
+        "video_id": "hU4Cv8E_yxE",
+        "title": "Crazy P - Heartbreaker",
+        "channel": "Om Records",
+        "duration_seconds": 327,
+        "url": "https://www.youtube.com/watch?v=hU4Cv8E_yxE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:53fcY2nNSX8x6yhhHQPfWE",
+        "observed_at": "2026-09-08T22:43:24Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:848ead864a3f06e62fe9",
+      "artist": "Bonobo",
+      "title": "Cirrus",
+      "spotify_uri": "spotify:track:2lJ4d8MCT6ZlDRHKJ1br14",
+      "audition_rank": 22,
+      "youtube": {
+        "video_id": "iMDwVFQi7nc",
+        "title": "Bonobo - Cirrus",
+        "channel": "DLoaw",
+        "duration_seconds": 353,
+        "url": "https://www.youtube.com/watch?v=iMDwVFQi7nc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2lJ4d8MCT6ZlDRHKJ1br14",
+        "observed_at": "2026-09-08T22:43:25Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:775a023abe8fb9f10a9c",
+      "artist": "Krystal Klear",
+      "title": "Neutron Dance - Edit",
+      "spotify_uri": "spotify:track:0h9xxCoXw2LkdJG9pR79RN",
+      "audition_rank": 23,
+      "youtube": {
+        "video_id": "WiG28-36drw",
+        "title": "Neutron Dance (Edit)",
+        "channel": "Krystal Klear",
+        "duration_seconds": 172,
+        "url": "https://www.youtube.com/watch?v=WiG28-36drw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0h9xxCoXw2LkdJG9pR79RN",
+        "observed_at": "2026-09-08T22:43:25Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:7c3d662e905f06200d8b",
+      "artist": "Session Victim",
+      "title": "Make People Dance",
+      "spotify_uri": "spotify:track:14Q9dJyIHbD0mOXQmAuF5M",
+      "audition_rank": 25,
+      "youtube": {
+        "video_id": "Od6WRtIfxls",
+        "title": "Make People Dance",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 359,
+        "url": "https://www.youtube.com/watch?v=Od6WRtIfxls",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:14Q9dJyIHbD0mOXQmAuF5M",
+        "observed_at": "2026-09-08T22:43:27Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:2b5d97671d4e7a3e87a5",
+      "artist": "Purple Disco Machine, Sophie and the Giants",
+      "title": "Hypnotized",
+      "spotify_uri": "spotify:track:0OeFuOAu0P1ONYz5EDdqb2",
+      "audition_rank": 26,
+      "youtube": {
+        "video_id": "8B0QJqzeAbc",
+        "title": "Hypnotized",
+        "channel": "Purple Disco Machine",
+        "duration_seconds": 196,
+        "url": "https://www.youtube.com/watch?v=8B0QJqzeAbc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0OeFuOAu0P1ONYz5EDdqb2",
+        "observed_at": "2026-09-08T22:43:27Z",
+        "alternatives": [
+          {
+            "video_id": "VbQqV8_Ykow",
+            "title": "Purple Disco Machine, Sophie And The Giants - Hypnotized (Visualiser)",
+            "channel": "Purple Disco Machine",
+            "duration_seconds": 196,
+            "url": "https://www.youtube.com/watch?v=VbQqV8_Ykow",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0OeFuOAu0P1ONYz5EDdqb2",
+            "observed_at": "2026-09-08T22:43:27Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:9208c8107390c0030265",
+      "artist": "SG Lewis",
+      "title": "Chemicals",
+      "spotify_uri": "spotify:track:2ORvnjpTAXtyTKnaGAgFIv",
+      "audition_rank": 27,
+      "youtube": {
+        "video_id": "rb1w6RvMI1U",
+        "title": "Chemicals",
+        "channel": "SG Lewis",
+        "duration_seconds": 256,
+        "url": "https://www.youtube.com/watch?v=rb1w6RvMI1U",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ORvnjpTAXtyTKnaGAgFIv",
+        "observed_at": "2026-09-08T22:43:28Z",
+        "alternatives": [
+          {
+            "video_id": "hjqYG4ZCg6s",
+            "title": "SG Lewis - Chemicals (Lyric Video)",
+            "channel": "SG Lewis",
+            "duration_seconds": 257,
+            "url": "https://www.youtube.com/watch?v=hjqYG4ZCg6s",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2ORvnjpTAXtyTKnaGAgFIv",
+            "observed_at": "2026-09-08T22:43:28Z"
+          },
+          {
+            "video_id": "oWTHEmAlq3k",
+            "title": "SG Lewis - Chemicals",
+            "channel": "David Dean Burkhart",
+            "duration_seconds": 256,
+            "url": "https://www.youtube.com/watch?v=oWTHEmAlq3k",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2ORvnjpTAXtyTKnaGAgFIv",
+            "observed_at": "2026-09-08T22:43:28Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:4b509c0fbd79c9f6a9a5",
+      "artist": "Maribou State, Holly Walker",
+      "title": "Nervous Tics",
+      "spotify_uri": "spotify:track:2oJ8Il24SIiDCJv39RYzPp",
+      "audition_rank": 28,
+      "youtube": {
+        "video_id": "Lv8HyrVcbdo",
+        "title": "Nervous Tics (feat. Holly Walker)",
+        "channel": "Maribou State",
+        "duration_seconds": 255,
+        "url": "https://www.youtube.com/watch?v=Lv8HyrVcbdo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2oJ8Il24SIiDCJv39RYzPp",
+        "observed_at": "2026-09-08T22:43:29Z",
+        "alternatives": [
+          {
+            "video_id": "TIAWGLls5kc",
+            "title": "Nervous Tics (Mixed)",
+            "channel": "Maribou State",
+            "duration_seconds": 252,
+            "url": "https://www.youtube.com/watch?v=TIAWGLls5kc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2oJ8Il24SIiDCJv39RYzPp",
+            "observed_at": "2026-09-08T22:43:29Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:89c96051a10e131f4c62",
+      "artist": "Flight Facilities, Giselle",
+      "title": "Crave You",
+      "spotify_uri": "spotify:track:06Gw4zi1Gqg11XgRchemgJ",
+      "audition_rank": 29,
+      "youtube": {
+        "video_id": "GkutzIlMJXI",
+        "title": "Crave You (Radio Edit)",
+        "channel": "Flight Facilities",
+        "duration_seconds": 237,
+        "url": "https://www.youtube.com/watch?v=GkutzIlMJXI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:06Gw4zi1Gqg11XgRchemgJ",
+        "observed_at": "2026-09-08T22:43:29Z",
+        "alternatives": [
+          {
+            "video_id": "8iXcEdIZQYI",
+            "title": "Flight Facilities - Crave You feat. Giselle",
+            "channel": "Flight Facilities",
+            "duration_seconds": 232,
+            "url": "https://www.youtube.com/watch?v=8iXcEdIZQYI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:06Gw4zi1Gqg11XgRchemgJ",
+            "observed_at": "2026-09-08T22:43:29Z"
+          },
+          {
+            "video_id": "r0bS-YnLf4s",
+            "title": "Flight Facilities - Crave you feat. Giselle (Official Video)",
+            "channel": "Flight Facilities",
+            "duration_seconds": 232,
+            "url": "https://www.youtube.com/watch?v=r0bS-YnLf4s",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:06Gw4zi1Gqg11XgRchemgJ",
+            "observed_at": "2026-09-08T22:43:29Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:fed97bc17e841d171d74",
+      "artist": "Caribou",
+      "title": "Never Come Back",
+      "spotify_uri": "spotify:track:09Duj3JrvK9jhMNpSqZ8f4",
+      "audition_rank": 30,
+      "youtube": {
+        "video_id": "AS8gUIvaUic",
+        "title": "Never Come Back",
+        "channel": "Caribou",
+        "duration_seconds": 306,
+        "url": "https://www.youtube.com/watch?v=AS8gUIvaUic",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:09Duj3JrvK9jhMNpSqZ8f4",
+        "observed_at": "2026-09-08T22:43:30Z",
+        "alternatives": [
+          {
+            "video_id": "I3hDvOL7E7Y",
+            "title": "CARIBOU - Never Come Back",
+            "channel": "Caribou",
+            "duration_seconds": 306,
+            "url": "https://www.youtube.com/watch?v=I3hDvOL7E7Y",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:09Duj3JrvK9jhMNpSqZ8f4",
+            "observed_at": "2026-09-08T22:43:30Z"
+          },
+          {
+            "video_id": "6EiScm4fJ7M",
+            "title": "Caribou - Never Come Back",
+            "channel": "David Dean Burkhart",
+            "duration_seconds": 307,
+            "url": "https://www.youtube.com/watch?v=6EiScm4fJ7M",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:09Duj3JrvK9jhMNpSqZ8f4",
+            "observed_at": "2026-09-08T22:43:30Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:4151fa542c3d2eb9ace0",
+      "artist": "Folamour",
+      "title": "Ivoire",
+      "spotify_uri": "spotify:track:1JwlD0gOkCcEBpZhUyrRbA",
+      "audition_rank": 31,
+      "youtube": {
+        "video_id": "hu45Hgr3uDM",
+        "title": "Ivoire",
+        "channel": "Folamour",
+        "duration_seconds": 496,
+        "url": "https://www.youtube.com/watch?v=hu45Hgr3uDM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1JwlD0gOkCcEBpZhUyrRbA",
+        "observed_at": "2026-09-08T22:43:31Z",
+        "alternatives": [
+          {
+            "video_id": "007pRyfJInA",
+            "title": "Folamour - Ivoire",
+            "channel": "Houseum",
+            "duration_seconds": 496,
+            "url": "https://www.youtube.com/watch?v=007pRyfJInA",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1JwlD0gOkCcEBpZhUyrRbA",
+            "observed_at": "2026-09-08T22:43:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:3831f2e41a44180884df",
+      "artist": "salute",
+      "title": "Joy",
+      "spotify_uri": "spotify:track:17E3lZxFJnO49Gb0tdgVn0",
+      "audition_rank": 32,
+      "youtube": {
+        "video_id": "B9FxpLNDdts",
+        "title": "Joy",
+        "channel": "salute",
+        "duration_seconds": 282,
+        "url": "https://www.youtube.com/watch?v=B9FxpLNDdts",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:17E3lZxFJnO49Gb0tdgVn0",
+        "observed_at": "2026-09-08T22:43:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:b5f203c1751f4fc3eeda",
+      "artist": "Barry Can't Swim",
+      "title": "Sunsleeper",
+      "spotify_uri": "spotify:track:7yWd93ZTbCuhaH2QCsTHKc",
+      "audition_rank": 33,
+      "youtube": {
+        "video_id": "iG5MOdM-m-k",
+        "title": "Sunsleeper",
+        "channel": "Barry Can't Swim",
+        "duration_seconds": 223,
+        "url": "https://www.youtube.com/watch?v=iG5MOdM-m-k",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7yWd93ZTbCuhaH2QCsTHKc",
+        "observed_at": "2026-09-08T22:43:32Z",
+        "alternatives": [
+          {
+            "video_id": "g2VZ5NOtx20",
+            "title": "Barry Can’t Swim - 'Sunsleeper' (Official Audio)",
+            "channel": "Barry Can't Swim",
+            "duration_seconds": 221,
+            "url": "https://www.youtube.com/watch?v=g2VZ5NOtx20",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7yWd93ZTbCuhaH2QCsTHKc",
+            "observed_at": "2026-09-08T22:43:32Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:dd8703a3c8a0271b160d",
+      "artist": "Rampa, chuala, Keinemusik",
+      "title": "Les Gout",
+      "spotify_uri": "spotify:track:0ko0sZ5hNieT3LRq2lOGl3",
+      "audition_rank": 35,
+      "youtube": {
+        "video_id": "d0jE5snk7dE",
+        "title": "Rampa -- Les Gout feat. Chuala",
+        "channel": "keinemusik",
+        "duration_seconds": 345,
+        "url": "https://www.youtube.com/watch?v=d0jE5snk7dE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0ko0sZ5hNieT3LRq2lOGl3",
+        "observed_at": "2026-09-08T22:43:33Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:75c6e1408031cd31717a",
+      "artist": "Laurence Guy",
+      "title": "Saw You for the First Time",
+      "spotify_uri": "spotify:track:3zId5kEMBeuJ9OlBSDb2Zu",
+      "audition_rank": 34,
+      "youtube": {
+        "video_id": "jLEci0zidu4",
+        "title": "Saw You for the First Time",
+        "channel": "Laurence Guy",
+        "duration_seconds": 405,
+        "url": "https://www.youtube.com/watch?v=jLEci0zidu4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3zId5kEMBeuJ9OlBSDb2Zu",
+        "observed_at": "2026-09-08T22:43:33Z",
+        "alternatives": [
+          {
+            "video_id": "ChyJYQgpgrU",
+            "title": "Laurence Guy - Saw You For The First Time",
+            "channel": "Slav",
+            "duration_seconds": 405,
+            "url": "https://www.youtube.com/watch?v=ChyJYQgpgrU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3zId5kEMBeuJ9OlBSDb2Zu",
+            "observed_at": "2026-09-08T22:43:33Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:4293f02980f526432bfa",
+      "artist": "WhoMadeWho, Rampa",
+      "title": "Everyday - Edit",
+      "spotify_uri": "spotify:track:27NuLW6DhJkpfR8dhBmNwS",
+      "audition_rank": 36,
+      "youtube": {
+        "video_id": "07gLLEy_UDM",
+        "title": "Everyday (Edit)",
+        "channel": "WhoMadeWho",
+        "duration_seconds": 221,
+        "url": "https://www.youtube.com/watch?v=07gLLEy_UDM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:27NuLW6DhJkpfR8dhBmNwS",
+        "observed_at": "2026-09-08T22:43:34Z",
+        "alternatives": [
+          {
+            "video_id": "E_uo5S15SBQ",
+            "title": "WhoMadeWho & Rampa - Everyday (Edit)",
+            "channel": "WhoMadeWho",
+            "duration_seconds": 221,
+            "url": "https://www.youtube.com/watch?v=E_uo5S15SBQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:27NuLW6DhJkpfR8dhBmNwS",
+            "observed_at": "2026-09-08T22:43:34Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:e16d8fcdab4685b75a2b",
+      "artist": "Session Victim",
+      "title": "Never Forget",
+      "spotify_uri": "spotify:track:5hiFj22wWCY3Oil8ELCJjy",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "vspQ5UiXQko",
+        "title": "Never Forget",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 365,
+        "url": "https://www.youtube.com/watch?v=vspQ5UiXQko",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5hiFj22wWCY3Oil8ELCJjy",
+        "observed_at": "2026-09-08T22:43:35Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:b3e04b01959d921ad575",
+      "artist": "Chaos In The CBD, Novelist, Stephanie Cooke",
+      "title": "Maintaining My Peace",
+      "spotify_uri": "spotify:track:75KIbv6g4ynnSd6RgPCygi",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "-uEmTpw0wHg",
+        "title": "Maintaining My Peace",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 179,
+        "url": "https://www.youtube.com/watch?v=-uEmTpw0wHg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:75KIbv6g4ynnSd6RgPCygi",
+        "observed_at": "2026-09-08T22:43:36Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:82dcd8cffc7a696727a1",
+      "artist": "Chaos In The CBD, Saucy Lady",
+      "title": "Tears",
+      "spotify_uri": "spotify:track:6WDhLey6K3wBAtCkyh1Igz",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "ZK_eximAr6U",
+        "title": "Tears",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 179,
+        "url": "https://www.youtube.com/watch?v=ZK_eximAr6U",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6WDhLey6K3wBAtCkyh1Igz",
+        "observed_at": "2026-09-08T22:43:36Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9f29416977f3be1de25c",
+      "artist": "Chaos In The CBD, Finn Rees",
+      "title": "Ōtaki",
+      "spotify_uri": "spotify:track:110652BMqCAZB4qyDmEIzg",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "-_4ksgVwjh4",
+        "title": "Ōtaki",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 326,
+        "url": "https://www.youtube.com/watch?v=-_4ksgVwjh4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:110652BMqCAZB4qyDmEIzg",
+        "observed_at": "2026-09-08T22:43:37Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:db71f5d647f1067993ba",
+      "artist": "Chaos In The CBD, Isaac Aesili",
+      "title": "A Deeper Life",
+      "spotify_uri": "spotify:track:2BeFVOi5hh545rnHTmDmPF",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "peRua_hwH6k",
+        "title": "A Deeper Life",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 485,
+        "url": "https://www.youtube.com/watch?v=peRua_hwH6k",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2BeFVOi5hh545rnHTmDmPF",
+        "observed_at": "2026-09-08T22:43:38Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:e5d19168cc8205603786",
+      "artist": "Chaos In The CBD, Lee Pearson Jr. Collective",
+      "title": "More Time",
+      "spotify_uri": "spotify:track:2OxidMKQ4V3V9XIofZIm7L",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "9WBySK439E8",
+        "title": "More Time",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 237,
+        "url": "https://www.youtube.com/watch?v=9WBySK439E8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2OxidMKQ4V3V9XIofZIm7L",
+        "observed_at": "2026-09-08T22:43:38Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:ea5113ed763850d0219c",
+      "artist": "Chaos In The CBD",
+      "title": "Barefoot On The Tarmac",
+      "spotify_uri": "spotify:track:6yhtDCljVo3jcCMbDpTRnA",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "jBr-GGqKBIk",
+        "title": "Barefoot On The Tarmac",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 256,
+        "url": "https://www.youtube.com/watch?v=jBr-GGqKBIk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6yhtDCljVo3jcCMbDpTRnA",
+        "observed_at": "2026-09-08T22:43:40Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:08914cf86bae25e6a05a",
+      "artist": "Chaos In The CBD, Nathan Haines",
+      "title": "Tongariro Crossing",
+      "spotify_uri": "spotify:track:70wnm5s4jwjKJVizhLwIz6",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "sMe7xZMIOac",
+        "title": "Tongariro Crossing",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 317,
+        "url": "https://www.youtube.com/watch?v=sMe7xZMIOac",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:70wnm5s4jwjKJVizhLwIz6",
+        "observed_at": "2026-09-08T22:43:40Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:3cdd5027d09d694356d8",
+      "artist": "Session Victim",
+      "title": "Do It Now",
+      "spotify_uri": "spotify:track:06mAcROLqrwYNECRfWQXyI",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "IjjIX7cQDBE",
+        "title": "Do It Now",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 355,
+        "url": "https://www.youtube.com/watch?v=IjjIX7cQDBE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:06mAcROLqrwYNECRfWQXyI",
+        "observed_at": "2026-09-08T22:43:40Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:3f75bd31b3092a3dd0b6",
+      "artist": "Session Victim",
+      "title": "See You When You Get There",
+      "spotify_uri": "spotify:track:6X5jeXrmBxXO97U10hcUkR",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "W0DQkL6Tjmw",
+        "title": "See You When You Get There",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 218,
+        "url": "https://www.youtube.com/watch?v=W0DQkL6Tjmw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6X5jeXrmBxXO97U10hcUkR",
+        "observed_at": "2026-09-08T22:43:41Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:49e16ae63f16cbf53f6d",
+      "artist": "Session Victim",
+      "title": "Stick Together",
+      "spotify_uri": "spotify:track:11wWtPBQl4ExG2hvjUe0Al",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "gvm0JAFguu0",
+        "title": "Stick Together",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 327,
+        "url": "https://www.youtube.com/watch?v=gvm0JAFguu0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:11wWtPBQl4ExG2hvjUe0Al",
+        "observed_at": "2026-09-08T22:43:42Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9d43576632456e922e75",
+      "artist": "Session Victim",
+      "title": "Hey Stranger",
+      "spotify_uri": "spotify:track:5bPWsjcUhkaLITzQGSSOwP",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "5S49L2hmt9E",
+        "title": "Hey Stranger",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 253,
+        "url": "https://www.youtube.com/watch?v=5S49L2hmt9E",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5bPWsjcUhkaLITzQGSSOwP",
+        "observed_at": "2026-09-08T22:43:42Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:af99a283729cbb2150f8",
+      "artist": "Session Victim",
+      "title": "Hyuwee",
+      "spotify_uri": "spotify:track:6hBCau7WXtHBggjIEb7aYB",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "RIjBXM-2emI",
+        "title": "Hyuwee",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 228,
+        "url": "https://www.youtube.com/watch?v=RIjBXM-2emI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6hBCau7WXtHBggjIEb7aYB",
+        "observed_at": "2026-09-08T22:43:43Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:908321e4267960743773",
+      "artist": "Session Victim",
+      "title": "Under Your Spell",
+      "spotify_uri": "spotify:track:2qC8CcN6Tpr9hqiZK5qFXO",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "F2y5lqo_VOc",
+        "title": "Under Your Spell",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 264,
+        "url": "https://www.youtube.com/watch?v=F2y5lqo_VOc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2qC8CcN6Tpr9hqiZK5qFXO",
+        "observed_at": "2026-09-08T22:43:44Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:37cd0fd4996367738f4b",
+      "artist": "Session Victim",
+      "title": "Eo's Place",
+      "spotify_uri": "spotify:track:02FGDTmftxIXja1EagJvW6",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "eeau1SNQ9i0",
+        "title": "Eo's Place",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 276,
+        "url": "https://www.youtube.com/watch?v=eeau1SNQ9i0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:02FGDTmftxIXja1EagJvW6",
+        "observed_at": "2026-09-08T22:43:44Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:dcb42d08ca09d8fc94d4",
+      "artist": "Chaos In The CBD",
+      "title": "Marlboro Sounds",
+      "spotify_uri": "spotify:track:0syqsVJGDlKPiqsOUN7xaa",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "p0y51oLQe7A",
+        "title": "Marlboro Sounds",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 364,
+        "url": "https://www.youtube.com/watch?v=p0y51oLQe7A",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0syqsVJGDlKPiqsOUN7xaa",
+        "observed_at": "2026-09-08T22:43:46Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:66984fcf4c06861dd81a",
+      "artist": "Bonobo",
+      "title": "Kerala",
+      "spotify_uri": "spotify:track:5DAjrJqXqYtgr67pVhmUeR",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "sbygyYTKzVE",
+        "title": "Kerala",
+        "channel": "Bonobo",
+        "duration_seconds": 238,
+        "url": "https://www.youtube.com/watch?v=sbygyYTKzVE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5DAjrJqXqYtgr67pVhmUeR",
+        "observed_at": "2026-09-08T22:43:46Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:bdc841adcdfe00490ea9",
+      "artist": "Chaos In The CBD",
+      "title": "Observe",
+      "spotify_uri": "spotify:track:48S5q56TWuXRT2WLZ4LJGX",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "lRlpuCJSYrg",
+        "title": "Observe",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 289,
+        "url": "https://www.youtube.com/watch?v=lRlpuCJSYrg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:48S5q56TWuXRT2WLZ4LJGX",
+        "observed_at": "2026-09-08T22:43:48Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:c40d30a6f3a5c259ef93",
+      "artist": "Kiasmos",
+      "title": "Looped",
+      "spotify_uri": "spotify:track:2bB6iDVgm25WkYv0yBz1BD",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "UWcW_QOzgKg",
+        "title": "Looped",
+        "channel": "Kiasmos",
+        "duration_seconds": 363,
+        "url": "https://www.youtube.com/watch?v=UWcW_QOzgKg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2bB6iDVgm25WkYv0yBz1BD",
+        "observed_at": "2026-09-08T22:43:48Z",
+        "alternatives": [
+          {
+            "video_id": "Bohbb3_IFWw",
+            "title": "Looped",
+            "channel": "Kiasmos",
+            "duration_seconds": 364,
+            "url": "https://www.youtube.com/watch?v=Bohbb3_IFWw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2bB6iDVgm25WkYv0yBz1BD",
+            "observed_at": "2026-09-08T22:43:48Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:66495eea91700061b178",
+      "artist": "Bonobo, Andreya Triana",
+      "title": "Eyesdown",
+      "spotify_uri": "spotify:track:0XiHcuUEf1wmvmX1cOaVR9",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "iGrPMk4gnWs",
+        "title": "Eyesdown",
+        "channel": "Bonobo",
+        "duration_seconds": 330,
+        "url": "https://www.youtube.com/watch?v=iGrPMk4gnWs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0XiHcuUEf1wmvmX1cOaVR9",
+        "observed_at": "2026-09-08T22:43:50Z",
+        "alternatives": [
+          {
+            "video_id": "24CyWsbzBUI",
+            "title": "Eyesdown (Instrumental)",
+            "channel": "Bonobo",
+            "duration_seconds": 329,
+            "url": "https://www.youtube.com/watch?v=24CyWsbzBUI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0XiHcuUEf1wmvmX1cOaVR9",
+            "observed_at": "2026-09-08T22:43:50Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:bbff63aff06f191a6563",
+      "artist": "Kiasmos",
+      "title": "Lit",
+      "spotify_uri": "spotify:track:3xVTbxVNTcy3P0eBXlAIUh",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "pzj_5sjL7KY",
+        "title": "Lit",
+        "channel": "Kiasmos",
+        "duration_seconds": 385,
+        "url": "https://www.youtube.com/watch?v=pzj_5sjL7KY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3xVTbxVNTcy3P0eBXlAIUh",
+        "observed_at": "2026-09-08T22:43:50Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:575459dafeff91dc6906",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Grown",
+      "spotify_uri": "spotify:track:2uWpB5fzEjeLYxaQqFUZ5H",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "PXVwAjzHKeg",
+        "title": "Grown",
+        "channel": "Kiasmos",
+        "duration_seconds": 341,
+        "url": "https://www.youtube.com/watch?v=PXVwAjzHKeg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2uWpB5fzEjeLYxaQqFUZ5H",
+        "observed_at": "2026-09-08T22:43:56Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:c447df2e9e1494ab414a",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Sailed",
+      "spotify_uri": "spotify:track:3bluhH8qzcR5axKzJCSsCo",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "xh9e0N7LngE",
+        "title": "Sailed",
+        "channel": "Kiasmos",
+        "duration_seconds": 245,
+        "url": "https://www.youtube.com/watch?v=xh9e0N7LngE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3bluhH8qzcR5axKzJCSsCo",
+        "observed_at": "2026-09-08T22:43:56Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:1d89336dd405e852ed4b",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Bound",
+      "spotify_uri": "spotify:track:4kavwk3ApMrcq6IVfiACzp",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "mF-IHplKquE",
+        "title": "Bound",
+        "channel": "Kiasmos",
+        "duration_seconds": 387,
+        "url": "https://www.youtube.com/watch?v=mF-IHplKquE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4kavwk3ApMrcq6IVfiACzp",
+        "observed_at": "2026-09-08T22:43:58Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:11f2333b4e2c72224df6",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Flown",
+      "spotify_uri": "spotify:track:2IRXPJW1GZPaNCZ96SOOwF",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "W5iBcJqudtw",
+        "title": "Flown",
+        "channel": "Kiasmos",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=W5iBcJqudtw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2IRXPJW1GZPaNCZ96SOOwF",
+        "observed_at": "2026-09-08T22:43:58Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9ce42ba2cea68fc29830",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Spun",
+      "spotify_uri": "spotify:track:32IK8z4YZa68Yab6Gn0Bkg",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "RnJAe1L6TUM",
+        "title": "Spun",
+        "channel": "Kiasmos",
+        "duration_seconds": 250,
+        "url": "https://www.youtube.com/watch?v=RnJAe1L6TUM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:32IK8z4YZa68Yab6Gn0Bkg",
+        "observed_at": "2026-09-08T22:43:58Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:70c9d2652c012ddfeeae",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Squared",
+      "spotify_uri": "spotify:track:0JRDcXG23PCRVsyxLYI4wr",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "HacHYzpGq3M",
+        "title": "Squared",
+        "channel": "Kiasmos",
+        "duration_seconds": 317,
+        "url": "https://www.youtube.com/watch?v=HacHYzpGq3M",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0JRDcXG23PCRVsyxLYI4wr",
+        "observed_at": "2026-09-08T22:43:59Z",
+        "alternatives": [
+          {
+            "video_id": "nkn7xC8Ap8U",
+            "title": "Squared",
+            "channel": "Kiasmos",
+            "duration_seconds": 318,
+            "url": "https://www.youtube.com/watch?v=nkn7xC8Ap8U",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0JRDcXG23PCRVsyxLYI4wr",
+            "observed_at": "2026-09-08T22:43:59Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:47a1a5b2f6df80ddcc03",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Told",
+      "spotify_uri": "spotify:track:6ByPd5NJt2SNSYuz3C9QUh",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "LO6bQ-UFuUE",
+        "title": "Told",
+        "channel": "Kiasmos",
+        "duration_seconds": 340,
+        "url": "https://www.youtube.com/watch?v=LO6bQ-UFuUE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6ByPd5NJt2SNSYuz3C9QUh",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:6a0809e26ffe133026ed",
+      "artist": "DJ Koze",
+      "title": "Baby (How Much I LFO You)",
+      "spotify_uri": "spotify:track:3v4KekFkPcgtm0QiVEt6Ef",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "uAkiAcWcmcQ",
+        "title": "Baby (How Much I LFO You)",
+        "channel": "DJ Koze - Topic",
+        "duration_seconds": 272,
+        "url": "https://www.youtube.com/watch?v=uAkiAcWcmcQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3v4KekFkPcgtm0QiVEt6Ef",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:dd2fdb78a4f50dc18fa4",
+      "artist": "Chaos In The CBD",
+      "title": "Down By The Cove",
+      "spotify_uri": "spotify:track:1wu1goqns6U35NT5F68xNZ",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "cj0aF6iuaq4",
+        "title": "Chaos In The CBD - Down By The Cove",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 353,
+        "url": "https://www.youtube.com/watch?v=cj0aF6iuaq4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1wu1goqns6U35NT5F68xNZ",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:e776ca0349f856a4870f",
+      "artist": "Chaos In The CBD, Alex Cosmo Blake",
+      "title": "Mountain Mover",
+      "spotify_uri": "spotify:track:2MDF5eY4Vve6BWOzPzKMgS",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "oL2G90JgWP4",
+        "title": "Chaos In The CBD - Mountain Mover ft. Alex Cosmo Blake",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 278,
+        "url": "https://www.youtube.com/watch?v=oL2G90JgWP4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2MDF5eY4Vve6BWOzPzKMgS",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:8a76569bde117dae0130",
+      "artist": "Chaos In The CBD",
+      "title": "Brain Gymnasium",
+      "spotify_uri": "spotify:track:199nZBhh1RMe1oQGV0vGwT",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "DXgJqljRteE",
+        "title": "Chaos In The CBD - Brain Gymnasium",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 213,
+        "url": "https://www.youtube.com/watch?v=DXgJqljRteE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:199nZBhh1RMe1oQGV0vGwT",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:6a0407b118ae5a89ed70",
+      "artist": "Chaos In The CBD, Nathan Haines",
+      "title": "Love Language",
+      "spotify_uri": "spotify:track:2x9lYHqC6bIPVGofPEj54j",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "8a_crGboHdg",
+        "title": "Chaos In The CBD - Love Language ft Nathan Haines",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 279,
+        "url": "https://www.youtube.com/watch?v=8a_crGboHdg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2x9lYHqC6bIPVGofPEj54j",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:57c2e82fd5e591029064",
+      "artist": "Chaos In The CBD, Cenk Esen",
+      "title": "The Eternal Checkout",
+      "spotify_uri": "spotify:track:0Shr6kv7m2fIvUsTnuqffH",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "vTcyN-H3aNw",
+        "title": "Chaos In The CBD - The Eternal Checkout ft  Cenk Esen",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 345,
+        "url": "https://www.youtube.com/watch?v=vTcyN-H3aNw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0Shr6kv7m2fIvUsTnuqffH",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:dd28fd8f18031cf96a23",
+      "artist": "Session Victim",
+      "title": "The Most Beautiful Divorce Ever",
+      "spotify_uri": "spotify:track:5qBUSbLYJuBb1857Fh7rku",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "tr0wDa_CLTs",
+        "title": "The Most Beautiful Divorce Ever",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 328,
+        "url": "https://www.youtube.com/watch?v=tr0wDa_CLTs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5qBUSbLYJuBb1857Fh7rku",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:cc74e9078cccf9bf87c2",
+      "artist": "Session Victim",
+      "title": "Crystal Maze",
+      "spotify_uri": "spotify:track:7CPS3cgGMKHnGfobqi9Yo4",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "mNwSQV1FLcw",
+        "title": "Crystal Maze",
+        "channel": "Session Victim - Topic",
+        "duration_seconds": 175,
+        "url": "https://www.youtube.com/watch?v=mNwSQV1FLcw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7CPS3cgGMKHnGfobqi9Yo4",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:168a9e8f2f712c152336",
+      "artist": "Chaos In The CBD, Josh Milan",
+      "title": "I Wanna Tell Somebody",
+      "spotify_uri": "spotify:track:6lwhVSVpelXVpYMx2NyCLs",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "1-Gv-Sq0Qf4",
+        "title": "Chaos In The CBD - I Wanna Tell Somebody  ft Josh Milan",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 359,
+        "url": "https://www.youtube.com/watch?v=1-Gv-Sq0Qf4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6lwhVSVpelXVpYMx2NyCLs",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:80282c435f4fe7acba24",
+      "artist": "Bonobo",
+      "title": "Migration",
+      "spotify_uri": "spotify:track:61g7oQKm8DFEL7r2g9LS8x",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "dquO_by8GI8",
+        "title": "Bonobo - Migration (Official Audio)",
+        "channel": "Bonobo",
+        "duration_seconds": 328,
+        "url": "https://www.youtube.com/watch?v=dquO_by8GI8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:61g7oQKm8DFEL7r2g9LS8x",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:abc21c9d444d4cf722c6",
+      "artist": "DJ Seinfeld",
+      "title": "These Things Will Come To Be",
+      "spotify_uri": "spotify:track:27cgqh0VRhVeM61ugTnorD",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "LBoPLGH-jxs",
+        "title": "DJ Seinfeld - 'These Things Will Come To Be' (Official Audio)",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 297,
+        "url": "https://www.youtube.com/watch?v=LBoPLGH-jxs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:27cgqh0VRhVeM61ugTnorD",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": [
+          {
+            "video_id": "N80wyhWy9Sw",
+            "title": "DJ Seinfeld - These Things Will Come To Be",
+            "channel": "David Dean Burkhart",
+            "duration_seconds": 297,
+            "url": "https://www.youtube.com/watch?v=N80wyhWy9Sw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:27cgqh0VRhVeM61ugTnorD",
+            "observed_at": "2026-09-08T22:44:00Z"
+          },
+          {
+            "video_id": "H0sUTMprNHc",
+            "title": "DJ Seinfeld // These Things Will Come To Be [Ninja Tune]",
+            "channel": "WAVEVISION",
+            "duration_seconds": 297,
+            "url": "https://www.youtube.com/watch?v=H0sUTMprNHc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:27cgqh0VRhVeM61ugTnorD",
+            "observed_at": "2026-09-08T22:44:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:4d23be43571ae37b294f",
+      "artist": "Maribou State",
+      "title": "Beginner's Luck",
+      "spotify_uri": "spotify:track:6adjXENHRzh4uyVziFlVGm",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "oyX3EWdtbmA",
+        "title": "Beginner's Luck",
+        "channel": "Maribou State",
+        "duration_seconds": 269,
+        "url": "https://www.youtube.com/watch?v=oyX3EWdtbmA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6adjXENHRzh4uyVziFlVGm",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:495ea841d1043986eccb",
+      "artist": "Bonobo, Nick Murphy",
+      "title": "No Reason",
+      "spotify_uri": "spotify:track:3aWPdd6U1xbsIEGEpUaPyQ",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "YzavSnJcsB8",
+        "title": "Bonobo Ft. Nick Murphy - No Reason",
+        "channel": "Chill Masters",
+        "duration_seconds": 450,
+        "url": "https://www.youtube.com/watch?v=YzavSnJcsB8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3aWPdd6U1xbsIEGEpUaPyQ",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:73c099b2278925bb256c",
+      "artist": "Chaos In The CBD",
+      "title": "Luxury Motivation",
+      "spotify_uri": "spotify:track:2zqsYJu2JTsJQESPkqwvnw",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "ZRhE_dgnY7k",
+        "title": "Luxury Motivation",
+        "channel": "Chaos In The CBD",
+        "duration_seconds": 349,
+        "url": "https://www.youtube.com/watch?v=ZRhE_dgnY7k",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2zqsYJu2JTsJQESPkqwvnw",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:0ff3b9a3557287e9e7dc",
+      "artist": "DJ Seinfeld, Teira",
+      "title": "The Right Place (feat. Teira)",
+      "spotify_uri": "spotify:track:3BOoEOCwmEw0c7C9UXGkwH",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "iDrxTHUOza0",
+        "title": "DJ Seinfeld - 'The Right Place (feat. Teira)' (Official Audio)",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 274,
+        "url": "https://www.youtube.com/watch?v=iDrxTHUOza0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3BOoEOCwmEw0c7C9UXGkwH",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:347b447a95b4bb088f86",
+      "artist": "Maribou State, North Downs",
+      "title": "Kingdom",
+      "spotify_uri": "spotify:track:46SpOq8ojlVUBrgGnUzUlV",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "fHROY-VKUlU",
+        "title": "Maribou State - Kingdom feat. North Downs",
+        "channel": "Wanderlust",
+        "duration_seconds": 251,
+        "url": "https://www.youtube.com/watch?v=fHROY-VKUlU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:46SpOq8ojlVUBrgGnUzUlV",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:368ccb9ce0ce2f6c7f81",
+      "artist": "Four Tet",
+      "title": "Two Thousand and Seventeen",
+      "spotify_uri": "spotify:track:2ZIaH69kaz55RM4Pjx6KXl",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "CUYboWbVe0A",
+        "title": "Four Tet - Two Thousand and Seventeen",
+        "channel": "Four Tet",
+        "duration_seconds": 253,
+        "url": "https://www.youtube.com/watch?v=CUYboWbVe0A",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ZIaH69kaz55RM4Pjx6KXl",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9ac9cf11ee8303e8ef84",
+      "artist": "Kiasmos",
+      "title": "Swayed",
+      "spotify_uri": "spotify:track:4YwVxBki1dhLsn7qN034AY",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "ve5cmFGZRTA",
+        "title": "Swayed",
+        "channel": "Kiasmos",
+        "duration_seconds": 264,
+        "url": "https://www.youtube.com/watch?v=ve5cmFGZRTA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4YwVxBki1dhLsn7qN034AY",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:ed03fdc5e46f11f19ea2",
+      "artist": "Tourist",
+      "title": "Your Love",
+      "spotify_uri": "spotify:track:29njQrAWH2U48Y5Ro804O1",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "b3L3B1Gvf1I",
+        "title": "Tourist - Your Love (Official Audio)",
+        "channel": "Tourist",
+        "duration_seconds": 280,
+        "url": "https://www.youtube.com/watch?v=b3L3B1Gvf1I",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:29njQrAWH2U48Y5Ro804O1",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:3bb8dd240cf4018687ea",
+      "artist": "Ben Böhmer",
+      "title": "Beyond Beliefs",
+      "spotify_uri": "spotify:track:0SbDNXZYqfsMarINcb72X5",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "aVTalm2VjDc",
+        "title": "Ben Böhmer - Beyond Beliefs (Official Visualiser)",
+        "channel": "Ben Böhmer",
+        "duration_seconds": 314,
+        "url": "https://www.youtube.com/watch?v=aVTalm2VjDc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0SbDNXZYqfsMarINcb72X5",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9d6c3b3dc941d68a08ba",
+      "artist": "Lane 8",
+      "title": "Atlas",
+      "spotify_uri": "spotify:track:6YFRyll4isFUJrbHSeM1oJ",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "VxlGdMXBDRM",
+        "title": "Lane 8 - Atlas",
+        "channel": "ElectroPosé",
+        "duration_seconds": 352,
+        "url": "https://www.youtube.com/watch?v=VxlGdMXBDRM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6YFRyll4isFUJrbHSeM1oJ",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:362cca3fe83b7b4958dc",
+      "artist": "Tycho",
+      "title": "A Walk",
+      "spotify_uri": "spotify:track:0sQNqu37YQQSI3K0ueswyA",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "SDNA934EEVk",
+        "title": "A Walk",
+        "channel": "Tycho",
+        "duration_seconds": 317,
+        "url": "https://www.youtube.com/watch?v=SDNA934EEVk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0sQNqu37YQQSI3K0ueswyA",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": [
+          {
+            "video_id": "TwYj--B2wvs",
+            "title": "A Walk",
+            "channel": "Tycho",
+            "duration_seconds": 317,
+            "url": "https://www.youtube.com/watch?v=TwYj--B2wvs",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0sQNqu37YQQSI3K0ueswyA",
+            "observed_at": "2026-09-08T22:44:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:725842c498127c145dd1",
+      "artist": "Maribou State",
+      "title": "Glasshouses",
+      "spotify_uri": "spotify:track:7isVqPzG3R5ni6IM4YG0sv",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "xpJLBnptJXA",
+        "title": "Glasshouses",
+        "channel": "Maribou State",
+        "duration_seconds": 226,
+        "url": "https://www.youtube.com/watch?v=xpJLBnptJXA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7isVqPzG3R5ni6IM4YG0sv",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:40b7bda73c563bf6825b",
+      "artist": "Bonobo, Rhye",
+      "title": "Break Apart",
+      "spotify_uri": "spotify:track:2pYvd6cHcAIMAM6xMD6nok",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "vhhkk69CxXc",
+        "title": "Bonobo - Break Apart (feat. Rhye) (Official Audio)",
+        "channel": "Bonobo",
+        "duration_seconds": 276,
+        "url": "https://www.youtube.com/watch?v=vhhkk69CxXc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2pYvd6cHcAIMAM6xMD6nok",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:45c526d03405d2bd7052",
+      "artist": "Maribou State, Holly Walker",
+      "title": "Slow Heat",
+      "spotify_uri": "spotify:track:570ETApQMCYLqOojX4ISiN",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "fAgJG6yJ5U8",
+        "title": "Slow Heat (feat. Holly Walker)",
+        "channel": "Maribou State",
+        "duration_seconds": 275,
+        "url": "https://www.youtube.com/watch?v=fAgJG6yJ5U8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:570ETApQMCYLqOojX4ISiN",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:852fcb47b5aa289d1781",
+      "artist": "Bonobo",
+      "title": "Second Sun",
+      "spotify_uri": "spotify:track:16ikmfoT1249gG3pzPvnYt",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "ew4FWW1q200",
+        "title": "Bonobo - Second Sun (Official Audio)",
+        "channel": "Bonobo",
+        "duration_seconds": 224,
+        "url": "https://www.youtube.com/watch?v=ew4FWW1q200",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:16ikmfoT1249gG3pzPvnYt",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:ce64e1eb1319864514fa",
+      "artist": "Four Tet",
+      "title": "LA Trance",
+      "spotify_uri": "spotify:track:3DIqOukIhN6BbXzdvC5iZW",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "BmtQs70YrJM",
+        "title": "Four Tet - LA Trance",
+        "channel": "Four Tet",
+        "duration_seconds": 349,
+        "url": "https://www.youtube.com/watch?v=BmtQs70YrJM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3DIqOukIhN6BbXzdvC5iZW",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:90f739f85a24e8aa3ae6",
+      "artist": "Maribou State",
+      "title": "Kāma",
+      "spotify_uri": "spotify:track:4ghGteg0whCnkUwaIbXdna",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "L6qkoBPQ7aA",
+        "title": "Kāma",
+        "channel": "Maribou State",
+        "duration_seconds": 283,
+        "url": "https://www.youtube.com/watch?v=L6qkoBPQ7aA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4ghGteg0whCnkUwaIbXdna",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:988a1ee53d5b1647eec5",
+      "artist": "Bonobo",
+      "title": "Figures",
+      "spotify_uri": "spotify:track:4MSKGtnxTdqIypqwTDY3em",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "Kv1qSHlpxOE",
+        "title": "Bonobo - Figures (Official Audio)",
+        "channel": "Bonobo",
+        "duration_seconds": 369,
+        "url": "https://www.youtube.com/watch?v=Kv1qSHlpxOE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4MSKGtnxTdqIypqwTDY3em",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:04fc92e5fe21b8194e97",
+      "artist": "Bonobo",
+      "title": "Prelude",
+      "spotify_uri": "spotify:track:4cwDC2Yk2zqOp6NMX6v750",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "0wdJNhhe9WA",
+        "title": "Prelude",
+        "channel": "Bonobo",
+        "duration_seconds": 79,
+        "url": "https://www.youtube.com/watch?v=0wdJNhhe9WA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4cwDC2Yk2zqOp6NMX6v750",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:0f6a85161dce1259aec6",
+      "artist": "Bonobo",
+      "title": "Kiara",
+      "spotify_uri": "spotify:track:7sqii6BhIDpJChYpU3WjwS",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "L-kyRh7N-kE",
+        "title": "Bonobo - 'Kiara'",
+        "channel": "Ninja Tune",
+        "duration_seconds": 232,
+        "url": "https://www.youtube.com/watch?v=L-kyRh7N-kE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7sqii6BhIDpJChYpU3WjwS",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:52c83d7a071f0f674b78",
+      "artist": "Bonobo",
+      "title": "Kong",
+      "spotify_uri": "spotify:track:7Cg3F9ZsZ2TYUnlza49NYh",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "pkACVyU4PmA",
+        "title": "Kong",
+        "channel": "Bonobo",
+        "duration_seconds": 238,
+        "url": "https://www.youtube.com/watch?v=pkACVyU4PmA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7Cg3F9ZsZ2TYUnlza49NYh",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:dd4d51c87143b018f58a",
+      "artist": "Bonobo",
+      "title": "El Toro",
+      "spotify_uri": "spotify:track:6bwcWOibIUyOJQ2FgMbeIH",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "20ETYA2-o40",
+        "title": "El Toro",
+        "channel": "Bonobo",
+        "duration_seconds": 225,
+        "url": "https://www.youtube.com/watch?v=20ETYA2-o40",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6bwcWOibIUyOJQ2FgMbeIH",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:e333d7165ece580a8d80",
+      "artist": "Bonobo",
+      "title": "We Could Forever",
+      "spotify_uri": "spotify:track:2y1cW84gbL4ghBD2HwcQ3x",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "1cXpf25SpHo",
+        "title": "We Could Forever",
+        "channel": "Bonobo",
+        "duration_seconds": 260,
+        "url": "https://www.youtube.com/watch?v=1cXpf25SpHo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2y1cW84gbL4ghBD2HwcQ3x",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": [
+          {
+            "video_id": "Qc07ryF0n4Y",
+            "title": "Bonobo - We Could Forever",
+            "channel": "Vibin' 🎼",
+            "duration_seconds": 258,
+            "url": "https://www.youtube.com/watch?v=Qc07ryF0n4Y",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2y1cW84gbL4ghBD2HwcQ3x",
+            "observed_at": "2026-09-08T22:44:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "local:48f777292f4638422140",
+      "artist": "Bonobo",
+      "title": "1009",
+      "spotify_uri": "spotify:track:3VHybOuCYoDcDfvg0b6qc1",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "2bnqUKqaMZI",
+        "title": "1009",
+        "channel": "Bonobo",
+        "duration_seconds": 271,
+        "url": "https://www.youtube.com/watch?v=2bnqUKqaMZI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3VHybOuCYoDcDfvg0b6qc1",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:59aa1176083460185d7c",
+      "artist": "Bonobo",
+      "title": "All In Forms",
+      "spotify_uri": "spotify:track:4SxoponB2oxqjuOSNYhTjb",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "cV7RIiDyqT0",
+        "title": "All In Forms",
+        "channel": "Bonobo",
+        "duration_seconds": 292,
+        "url": "https://www.youtube.com/watch?v=cV7RIiDyqT0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4SxoponB2oxqjuOSNYhTjb",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:471026bea53cf81eae52",
+      "artist": "Bonobo, Andreya Triana",
+      "title": "The Keeper",
+      "spotify_uri": "spotify:track:5hmf3hRQMaDIWuZT1zX3ue",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "9K0SOZ0EWc0",
+        "title": "The Keeper",
+        "channel": "Bonobo",
+        "duration_seconds": 289,
+        "url": "https://www.youtube.com/watch?v=9K0SOZ0EWc0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5hmf3hRQMaDIWuZT1zX3ue",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:5f597176df89c640f9f6",
+      "artist": "Bonobo, Andreya Triana",
+      "title": "Stay The Same",
+      "spotify_uri": "spotify:track:6vcd0sKmiioXQKbcZPr7gq",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "dQWGCUnImWs",
+        "title": "Stay The Same",
+        "channel": "Bonobo",
+        "duration_seconds": 285,
+        "url": "https://www.youtube.com/watch?v=dQWGCUnImWs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6vcd0sKmiioXQKbcZPr7gq",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:f5e559651b4753209a08",
+      "artist": "Bonobo",
+      "title": "Animals",
+      "spotify_uri": "spotify:track:1SBJ9LUxkalUVk6VmFRlma",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "CH5v-Ot4moI",
+        "title": "Animals",
+        "channel": "Bonobo",
+        "duration_seconds": 406,
+        "url": "https://www.youtube.com/watch?v=CH5v-Ot4moI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1SBJ9LUxkalUVk6VmFRlma",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:b22e93efaca9f9adefe9",
+      "artist": "Bonobo",
+      "title": "Black Sands",
+      "spotify_uri": "spotify:track:6uoM7KHsyJsHZqBQHKjQbc",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "cTjF2_-bneM",
+        "title": "Bonobo - 'Black Sands' (Official Audio)",
+        "channel": "Ninja Tune",
+        "duration_seconds": 410,
+        "url": "https://www.youtube.com/watch?v=cTjF2_-bneM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6uoM7KHsyJsHZqBQHKjQbc",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:53821b37971d045c2e90",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Burst",
+      "spotify_uri": "spotify:track:1TK8JiDWSOnsPEHDMro0xt",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "3QW2B5M7SIo",
+        "title": "Kiasmos - Burst (Official Visualiser)",
+        "channel": "Kiasmos",
+        "duration_seconds": 272,
+        "url": "https://www.youtube.com/watch?v=3QW2B5M7SIo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1TK8JiDWSOnsPEHDMro0xt",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:77121bcd6e66c8d0deea",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Laced",
+      "spotify_uri": "spotify:track:4hE1kYNJgTUqcCFwE6NSZe",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "7HkDNQML3SM",
+        "title": "Laced",
+        "channel": "Kiasmos",
+        "duration_seconds": 259,
+        "url": "https://www.youtube.com/watch?v=7HkDNQML3SM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4hE1kYNJgTUqcCFwE6NSZe",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:908981c77d5307f8ab0d",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Sworn",
+      "spotify_uri": "spotify:track:3j9m3NxzrWKBf89YDBdx8m",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "saCtcyXrO64",
+        "title": "Sworn",
+        "channel": "Kiasmos",
+        "duration_seconds": 255,
+        "url": "https://www.youtube.com/watch?v=saCtcyXrO64",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3j9m3NxzrWKBf89YDBdx8m",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:ce49d3be5fa49be197d8",
+      "artist": "Kiasmos, Ólafur Arnalds, Janus Rasmussen",
+      "title": "Dazed",
+      "spotify_uri": "spotify:track:6WhFnGcthMaVpC61lw9o5K",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "kdf8dd5k-X0",
+        "title": "Kiasmos - Dazed (Official Visualiser)",
+        "channel": "Kiasmos",
+        "duration_seconds": 308,
+        "url": "https://www.youtube.com/watch?v=kdf8dd5k-X0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6WhFnGcthMaVpC61lw9o5K",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:96ce2239e6a0669b31b6",
+      "artist": "DJ Koze",
+      "title": "Bonfire",
+      "spotify_uri": "spotify:track:4ycTR0u7qVVyk9fc5i9IUh",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "s55eDcs_qNg",
+        "title": "DJ Koze - Bonfire",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 326,
+        "url": "https://www.youtube.com/watch?v=s55eDcs_qNg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4ycTR0u7qVVyk9fc5i9IUh",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:aab616021b9d2c3b2c00",
+      "artist": "DJ Koze",
+      "title": "Club der Ewigkeiten",
+      "spotify_uri": "spotify:track:0irf4UlaJUdukzVdYLAJSD",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "fPXUkYJNM0Y",
+        "title": "DJ Koze - Club der Ewigkeiten",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 250,
+        "url": "https://www.youtube.com/watch?v=fPXUkYJNM0Y",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0irf4UlaJUdukzVdYLAJSD",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:71b99bee8be51867896c",
+      "artist": "DJ Koze, Eddie Fummler",
+      "title": "Moving in a Liquid",
+      "spotify_uri": "spotify:track:6Xqbbk0RYC9AcgxOYQ49Nd",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "YoGBsKfKMb4",
+        "title": "DJ Koze - Moving in a liquid (feat. Eddie Fummler)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 281,
+        "url": "https://www.youtube.com/watch?v=YoGBsKfKMb4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6Xqbbk0RYC9AcgxOYQ49Nd",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:6fde3ae7c0a884fd24b6",
+      "artist": "DJ Koze, José González",
+      "title": "Music on My Teeth",
+      "spotify_uri": "spotify:track:1O4rMGiGy7lbcqXOG91Xbv",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "xnoTAkThZq4",
+        "title": "DJ Koze - Music on my teeth (feat. José Gonzalez)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 257,
+        "url": "https://www.youtube.com/watch?v=xnoTAkThZq4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1O4rMGiGy7lbcqXOG91Xbv",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:1e65ab818278339bf89c",
+      "artist": "DJ Koze, Speech",
+      "title": "Colors of Autumn",
+      "spotify_uri": "spotify:track:2jeIiJyWhuomkaZTSvigFt",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "nMMDyogGFOY",
+        "title": "DJ Koze - Colors Of Autumn (feat. Speech)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 265,
+        "url": "https://www.youtube.com/watch?v=nMMDyogGFOY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2jeIiJyWhuomkaZTSvigFt",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:4d7e54ff7fb6b07bc2ab",
+      "artist": "DJ Koze, Sophia Kennedy",
+      "title": "This Is My Rock",
+      "spotify_uri": "spotify:track:3Hzxyqt4wakyttbMt3fE8a",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "bVTY2mD1Itg",
+        "title": "DJ Koze - This is my rock (feat. Sophia Kennedy)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 240,
+        "url": "https://www.youtube.com/watch?v=bVTY2mD1Itg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3Hzxyqt4wakyttbMt3fE8a",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:c3e9fe2548669a08afa0",
+      "artist": "DJ Koze, Róisín Murphy",
+      "title": "Illumination",
+      "spotify_uri": "spotify:track:1ZxupIHdg9f9btB3QKwjtN",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "MczfNRvzl04",
+        "title": "DJ Koze - Illumination feat. Roísín Murphy",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 272,
+        "url": "https://www.youtube.com/watch?v=MczfNRvzl04",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1ZxupIHdg9f9btB3QKwjtN",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9cedbf3ebabb4b4e7f1e",
+      "artist": "DJ Koze, Mano Le Tough",
+      "title": "Planet Hase",
+      "spotify_uri": "spotify:track:3lTE4JqzjyE6vHNkFrECGE",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "GRFwaILNnfA",
+        "title": "DJ Koze - Planet Hase (feat. Mano Le Tough)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 312,
+        "url": "https://www.youtube.com/watch?v=GRFwaILNnfA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3lTE4JqzjyE6vHNkFrECGE",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:1b7e31621d20c1220333",
+      "artist": "DJ Koze, Róisín Murphy",
+      "title": "Scratch That",
+      "spotify_uri": "spotify:track:039htIPaFvIFH81dsQQnc7",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "6YAm5Gf7TPk",
+        "title": "DJ Koze - Scratch that (feat. Róisín Murphy)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 277,
+        "url": "https://www.youtube.com/watch?v=6YAm5Gf7TPk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:039htIPaFvIFH81dsQQnc7",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:1469c0c95962c6095b4a",
+      "artist": "DJ Koze, Kurt Wagner",
+      "title": "Muddy Funster",
+      "spotify_uri": "spotify:track:5hfEEwECHnY98eg57HZlYz",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "rw43_CIJB6c",
+        "title": "DJ Koze - Muddy Funster (feat. Kurt Wagner)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 325,
+        "url": "https://www.youtube.com/watch?v=rw43_CIJB6c",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5hfEEwECHnY98eg57HZlYz",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:8406771fe8649e2a4736",
+      "artist": "DJ Koze",
+      "title": "Lord Knows",
+      "spotify_uri": "spotify:track:1tLnGPvkLgTD64CWHpYPmB",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "7KmiactxtgQ",
+        "title": "DJ Koze - Lord knows",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 248,
+        "url": "https://www.youtube.com/watch?v=7KmiactxtgQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1tLnGPvkLgTD64CWHpYPmB",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:b43becb75a8ce3f84a79",
+      "artist": "DJ Koze, Sophia Kennedy",
+      "title": "Drone Me Up, Flashy",
+      "spotify_uri": "spotify:track:0aNZSBwQVuaq4rHK2pjja6",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "Wg3gM8aapFY",
+        "title": "DJ Koze - Drone me up, Flashy (feat. Sophia Kennedy)",
+        "channel": "Pampa Records Official",
+        "duration_seconds": 395,
+        "url": "https://www.youtube.com/watch?v=Wg3gM8aapFY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0aNZSBwQVuaq4rHK2pjja6",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:d821bf4549016b83383d",
+      "artist": "DJ Seinfeld",
+      "title": "I Hope I Sleep Tonight",
+      "spotify_uri": "spotify:track:2OsyolqDuQcDvjo42LsLHt",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "JRJMc4OxERY",
+        "title": "I Hope I Sleep Tonight",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 247,
+        "url": "https://www.youtube.com/watch?v=JRJMc4OxERY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2OsyolqDuQcDvjo42LsLHt",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:55b6b7102014a407c3d2",
+      "artist": "DJ Seinfeld",
+      "title": "I Saw Her Kiss Him in Front of Me and I Was Like Wtf?",
+      "spotify_uri": "spotify:track:1IMPC74Kr5PCOmhwdjC22j",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "6k7zpH5ejVM",
+        "title": "I Saw Her Kiss Him in Front of Me and I Was Like Wtf?",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 312,
+        "url": "https://www.youtube.com/watch?v=6k7zpH5ejVM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1IMPC74Kr5PCOmhwdjC22j",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:812a45c3480de9584af0",
+      "artist": "DJ Seinfeld",
+      "title": "Too Late for U and M1",
+      "spotify_uri": "spotify:track:4yKTcvzQU40CxEMCtZSR6R",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "za-3ntR7XNo",
+        "title": "Too Late for U and M1",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 398,
+        "url": "https://www.youtube.com/watch?v=za-3ntR7XNo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4yKTcvzQU40CxEMCtZSR6R",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:d42d3071a9ec2aee147b",
+      "artist": "DJ Seinfeld",
+      "title": "Time Spent Away From U",
+      "spotify_uri": "spotify:track:2xbcexFbubTa7mpSYgXRZF",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "6ha2G8lf_AE",
+        "title": "Time Spent Away From U",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 333,
+        "url": "https://www.youtube.com/watch?v=6ha2G8lf_AE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2xbcexFbubTa7mpSYgXRZF",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:5d73cd662218c89d6045",
+      "artist": "DJ Seinfeld",
+      "title": "It's Just My Luv",
+      "spotify_uri": "spotify:track:5PFZqKpcilRisbNkDSoqxw",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "QtSLSwie9lU",
+        "title": "It's Just My Luv",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 358,
+        "url": "https://www.youtube.com/watch?v=QtSLSwie9lU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5PFZqKpcilRisbNkDSoqxw",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:ca84b9fba74f42ff8ad2",
+      "artist": "DJ Seinfeld",
+      "title": "How U Make Me Feel",
+      "spotify_uri": "spotify:track:7h8uvYs7Thv5j2L8u6b2j0",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "fdvkJ3MeN3c",
+        "title": "How U Make Me Feel",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 378,
+        "url": "https://www.youtube.com/watch?v=fdvkJ3MeN3c",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7h8uvYs7Thv5j2L8u6b2j0",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:9c1c0b132930e8fa8eae",
+      "artist": "DJ Seinfeld",
+      "title": "U Hold Me Without Touch",
+      "spotify_uri": "spotify:track:72hNRsk1d6yo98UTzZjZiT",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "cpq7ewau540",
+        "title": "U Hold Me Without Touch",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 388,
+        "url": "https://www.youtube.com/watch?v=cpq7ewau540",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:72hNRsk1d6yo98UTzZjZiT",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:3f9b3f91c5ef9d9026a5",
+      "artist": "DJ Seinfeld",
+      "title": "Come Thru for U",
+      "spotify_uri": "spotify:track:5QBtt7rYjENAfGxq6pxhb7",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "BZJY7oLtla4",
+        "title": "Come Thru for U",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 370,
+        "url": "https://www.youtube.com/watch?v=BZJY7oLtla4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5QBtt7rYjENAfGxq6pxhb7",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:dd465359b33c736c27a3",
+      "artist": "DJ Seinfeld",
+      "title": "U",
+      "spotify_uri": "spotify:track:1lvpyd1lQjutZa6YnAE8aH",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "6F6Sxrd7rw4",
+        "title": "U",
+        "channel": "DJ Seinfeld",
+        "duration_seconds": 369,
+        "url": "https://www.youtube.com/watch?v=6F6Sxrd7rw4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1lvpyd1lQjutZa6YnAE8aH",
+        "observed_at": "2026-09-08T22:44:00Z",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "local:f4a8d47319c3fb79b5a0",
+      "artist": "DJ Koze",
+      "title": "Jesus",
+      "spotify_uri": "spotify:track:2q6CBLD1nxm8MGbctJeXPT",
+      "audition_rank": null,
+      "youtube": {
+        "video_id": "geHhmG58xgU",
+        "title": "Jesus",
+        "channel": "DJ Koze - Topic",
+        "duration_seconds": 314,
+        "url": "https://www.youtube.com/watch?v=geHhmG58xgU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2q6CBLD1nxm8MGbctJeXPT",
+        "observed_at": "2026-09-08T22:44:02Z",
+        "alternatives": []
+      }
+    }
+  ]
+}

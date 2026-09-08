@@ -27,7 +27,7 @@ Updated September 3, 2026. This file preserves context between sessions.
 | D19 | Both room playlists must have enough tracks for nine hours of music; final runtime measured after transitions and cuts | Sep 3 |
 | D20 | Guest costume inspiration should use real images sourced online, primarily art and design references, instead of generated looks | Sep 3 |
 | D21 | Host requests more costume imagery, citing a crowned priest-like figure in Yellowjackets; exact character/scene not yet confirmed | Sep 3 |
-| D22 | Living-room playlist is solid; bedroom needs less artist repetition and more techno/dance energy | Sep 3 |
+| D22 | Historical initial living-room approval; superseded by September 8 music correction below. Bedroom needs less artist repetition and more techno/dance energy | Sep 3 |
 | D23 | Prefer available MCP/API tools over computer use; host can help set up missing integrations | Sep 3 |
 | D24 | Add suitable wood/skull decor to shopping cart; five host Amazon links are candidate integrations | Sep 3 |
 | D25 | Host reports Spotify plugin installed during this turn; callable capabilities still not exposed here | Sep 3 |
@@ -203,3 +203,9 @@ Source: [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83e
 ## NFC and QR scope explicitly confirmed • September 4
 
 Host clarification: “the entities are NFC only, QR code is only for the partiful link + invites.” This confirms NFC-only discovery for all fifteen entities, with no entity QR fallback. QR codes are restricted to the Partiful invitation link and guest invitations/Summons. Updated the story index, narrative/game brief and website requirements to mark this as confirmed.
+
+## Living-room music second pass · September 8
+
+Host requests a faster playlist-editing system (Python permitted), upbeat/bouncy/melodic/sexy living-room music within the theme, no intros/outros/interludes, less track repetition and fewer overrepresented artists/albums. This supersedes D22’s initial living-room approval. Track voting and richer classification are requested; removed-track-as-dislike is an idea to evaluate, not an automatic inference rule. The host confirms having a Spotify Client ID; its value and authorization remain pending.
+
+[Current brief, findings and next steps](../music/living-room/playlist.md) · [Playlist Lab](../music/playlist-lab/README.md). Local manager and 36-track audition prepared; no Spotify playlist changed, no purchase, no audio hardware or nine-hour playback test. Software uses existing Python; no new cost added to the budget.

@@ -92,7 +92,7 @@ Updated September 3, 2026. Event October 31. Owners below are proposed roles, no
 | SHOP-05 | Evaluate host branch/skull links and populate sample cart | Done | Five reviewed; three cart lines at $59.93 before tax, no purchase |
 | AUD-BED-03 | Prepare diverse dance-floor techno replacement | Done — local draft | 124 tracks / 45 artist groups; catalog runtime 12:44:54; live Spotify not updated |
 | AUD-BED-04 | Resolve and apply revised bedroom selection through Spotify connector/API | Waiting for tool availability | Host installed plugin during active turn; tools not exposed yet |
-| AUD-LR-APPROVAL | Record living-room music direction feedback | Done | Host says the living-room playlist is solid |
+| AUD-LR-APPROVAL | Record living-room music direction feedback | Superseded Sep 8 | Follow the [current brief](../music/living-room/playlist.md) |
 
 ## Host costume and succession • September 3
 
@@ -179,3 +179,11 @@ Use the [story tracker](../interactive-game/task-tracker.md) for dates/dependenc
 ## Hollow Court design integrated • September 4
 
 HC-DOC-01/02 and PUZ-01 are **Done — documentation only**: current narrative/rules, fifteen-entity roster and fifteen unassigned puzzle families saved, with fourteen approved and Unbroken Sigil provisional pending touch testing. Next: PUZ-02 samples/playtesting, FIG-MIX-02 decor review, FIG-SOURCE-02 sourcing/re-costing, CROWN-01 approximately $100 winner crown and RULE-01 rule decisions. [Detailed statuses](../interactive-game/task-tracker.md). No app code, purchase, artwork generation or tag programming in this update.
+
+## Music second pass · September 8
+
+| ID | Task | Status | Next step |
+|---|---|---|---|
+| AUD-LAB-01 | Persistent votes and direct Spotify management | Local implementation tested | [Connect Client ID / authorize and test live](../music/playlist-lab/README.md) |
+| AUD-LR-04 | Bouncier, sexier, more varied living-room selection | [36-track audition prepared](../music/living-room/october-grove-v3-audition.md) | Resolve Spotify versions, host votes, then expand individual tracks |
+| AUD-LR-05 | Apply full revised programme | Pending audition and runtime | Preserve nine actual hours after transitions/cuts; no live edits yet |

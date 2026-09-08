@@ -1,5 +1,5 @@
 # Music curation and unattended playback
-Updated September 3. Status: both private Spotify listening collections exceed nine hours. Living room: 117 tracks, 10h 2m. Bedroom: 140 tracks, 12h 15m. Final sequencing, local DJ files and rehearsals remain.
+Updated September 8. Historical September 3 snapshot: both private Spotify listening collections exceeded nine raw hours. Living room: 117 tracks, 10h 2m. Bedroom: 140 tracks, 12h 15m. Final sequencing, local DJ files and rehearsals remain.
 Confirmed: MacBook Pro/macOS, DDJ-FLX4, rekordbox already installed. Same Mac runs Jellyfin. Both powered speakers connect to the DDJ in the bedroom. Two Google Homes provide separate house/chill music in the living room via Spotify. Hisense 5.1.2 soundbar already plays from this Mac when selected in macOS Sound settings, as confirmed by the host. Reuse that working connection; its party role remains to decide. Paid software acceptable if reasonably priced.
 
 ## Recommendation
@@ -58,12 +58,10 @@ The original anchors below have been expanded into [The Hollow: 140 tracks, 12h 
 
 The host requires **at least nine hours of music in each room**. The expanded bedroom pool has 140 tracks / 12h 15m; even a hypothetical one-minute overlap at every join leaves about 9h 56m before other cuts. Host taste, measured BPM, final files and actual mix points still determine the finished queue. Validate at least 9:00:00 of playback after those decisions, with extra reserve where practical. Track count alone is not the acceptance criterion.
 
-## Living-room playlist • October Grove
-The host confirmed **house/chill on two Google Homes**, separate from the bedroom. The earlier folk/soundtrack listening proposal is superseded.
+## Living-room playlist · October Grove
+The September 8 host correction calls for more upbeat, bouncy, melodic and sexy music with fewer repeated artists/albums and no intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-[Open the private Spotify draft](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) · [Full tracklist and playback plan](living-room/playlist.md)
-
-117 tracks, Spotify displays **10h 2m**. The original artists are joined by St Germain, Session Victim and DJ Koze, with more material from Bonobo, Kiasmos, Chaos In The CBD and DJ Seinfeld. The current collection includes album blocks for auditioning; reorder into the planned gentle opening, warm house middle and soft ending. Final actual playback must cover at least nine hours.
+The September 3 Spotify snapshot was 117 tracks / displayed 10h 2m; this has not been reverified live. The new 36-track audition is local preparation, not the complete nine-hour replacement. Authorization, exact version resolution, host votes, full sequencing and actual playback validation remain. Playback is still on the two Google Homes, independently of the bedroom.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.
@@ -79,4 +77,4 @@ The host confirmed **house/chill on two Google Homes**, separate from the bedroo
 Automatic volume control and Jellyfin integration have a separate [technical plan](mac-orchestration.md).
 
 ## Host correction • September 3
-The old bedroom album pool is rejected as too repetitive by artist and insufficiently dance-oriented. Use [V2 techno revision](bedroom/playlist.md): 124 individually selected tracks across 45 artist groups, at most three per group. Live Spotify replacement remains pending connector access. Living-room selection approved. Do not schedule the old V1 album blocks for the party.
+The old bedroom album pool is rejected as too repetitive by artist and insufficiently dance-oriented. Use [V2 techno revision](bedroom/playlist.md): 124 individually selected tracks across 45 artist groups, at most three per group. Live Spotify replacement remains pending connector access. The living-room approval in this September 3 entry is superseded by the September 8 brief above. Do not schedule the old V1 album blocks for the party.

@@ -1,45 +1,53 @@
-# October Grove • living-room Spotify playlist
-Updated September 3, 2026. **Expanded in Spotify: private, 117 tracks, displayed 10 hours 2 minutes.**
+# October Grove · living-room music
+Updated September 8, 2026. **Second pass in progress.** Local review system and first audition prepared. No live Spotify changes this session; the latest saved live evidence remains September 3: private, 117 tracks, displayed 10h 2m.
 
-[Open October Grove — Halloween 2026](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf)
+[Existing Spotify pool](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) · [Listen and vote](../playlist-lab/README.md) · [V3 first audition](october-grove-v3-audition.md) · [Session handoff](handoff-2026-09-08-music-pass2.md)
 
-## Brief and current state
-House/chill for the two Google Homes: warm, leafy, gently hypnotic, with enough pulse for a party and enough space to talk. Bedroom keeps the faster dance music. The forest connection comes through textures, mood and percussion rather than literal Halloween novelty songs.
+## Current brief · host correction September 8
+Keep the enchanted/eerie woodland atmosphere, with **upbeat, interesting, higher-tempo, bouncy, melodic and sexy** party music. No interludes, intros or outros. Avoid tracks that drag through repetition, and reduce artist/album concentration. This supersedes the September 3 blanket approval of the existing living-room collection and its soft-ending proposal. The room remains house-oriented and conversational; bedroom techno is a separate programme.
 
-This is an expanded listening draft to review together. The saved count and total duration were checked in Spotify’s desktop UI. No completed listening test or Google Home playback test is implied. Final sequence and transitions still need work; the collection now meets the raw-duration requirement.
+Proposed musical lanes: sensual vocal house/disco; elastic funk and French disco; melodic/percussive/organic house with darker textures. Theme comes from timbre, percussion and atmosphere, not ambient filler or Halloween novelty songs. A lower volume is enough for conversation; the music itself should still move.
 
-## Current collection and final order
-The original 35-track selection is retained, with 82 added tracks from seven selected albums. Spotify now shows **117 songs, 10 hr 2 min**. This is enough source music for the host's **nine-hour minimum per room** without repeating the playlist.
+## What the archive shows
+Analysis of [V2](october-grove-v2.json), not a fresh Spotify read:
 
-The additions are currently album blocks, making them easy to audition. The original soft ending remains at positions 27–35, so the expanded playlist is **not yet the final chronological party order**. Move those closing selections to the final chapter when programming the night, and interleave the new house tracks through the middle. Do not simply let the album-block order determine when the party peaks or winds down.
+| Artist | Tracks | Share of 117 |
+|---|---:|---:|
+| Bonobo | 20 | 17.1% |
+| Chaos In The CBD | 17 | 14.5% |
+| DJ Koze | 16 | 13.7% |
+| Kiasmos | 15 | 12.8% |
+| DJ Seinfeld | 12 | 10.3% |
+| Session Victim | 11 | 9.4% |
+| St Germain | 9 | 7.7% |
+| Maribou State | 8 | 6.8% |
 
-| Added artist | Album | Tracks |
-|---|---|---:|
-| Bonobo | Black Sands | 12 |
-| St Germain | Tourist (Remastered) | 9 |
-| Kiasmos | II | 11 |
-| Session Victim | See You When You Get There | 11 |
-| DJ Koze | Knock Knock | 16 |
-| Chaos In The CBD | A Deeper Life | 14 |
-| DJ Seinfeld | Time Spent Away From U | 9 |
+The top four account for **68/117 = 58.1%**. There are only 15 artist labels in the whole archive. The expansion added 82 tracks in seven album blocks; 35 original tracks lack exact individual durations/album metadata in the export. Bonobo’s Prelude is an obvious proposed format cut. Break Apart, Second Sun, Figures, Two Thousand and Seventeen, Slow Heat and Black Sands are priority energy-drop auditions, not invented host dislikes. Album inclusion is no longer an acceptance criterion.
 
-## Runtime requirement and next pass
-- [x] More than nine hours of source music saved in Spotify: 117 tracks, displayed 10h 2m.
-- [ ] Host auditions six anchors: Feel Good, Midnight in Peckham, These Things Will Come To Be, Ivoire, Atlas, A Walk.
-- [ ] Reorder for a gentle opening, warm house middle and soft final hour. Keep a separate closing block so the 4 a.m. finish does not drift with playlist length.
-- [ ] Verify at least **9:00:00 of actual playback** after cuts, unavailable tracks and any transitions on the Google Homes.
-- [ ] Check vocal intensity and perceived loudness at conversation volume.
-- [ ] Recheck availability and versions before the October rehearsal.
+## Prepared second pass
+[Review library](review-library.json): all 117 archived tracks retained for traceability, plus 24 new individually chosen candidates. This is the **library**, not a proposed 141-track running order. [First audition](october-grove-v3-audition.json): 12 existing anchors alternating with the 24 new choices. New-track artists/titles/mixes/durations were checked in the Apple US catalog on September 8; Spotify versions are unresolved. All host votes start unrated. No actual listening or speaker test is claimed.
 
-At a hypothetical 12-second crossfade on all 116 joins, 10h 2m would leave about 9h 39m. That is a planning allowance, not a claim that Google Home uses desktop crossfade settings. Rehearse the actual group. Do not rely on repeat, autoplay recommendations or Smart Shuffle to meet the nine-hour requirement.
+The audit does not pretend the whole 36-track audition is already approved or nine hours long. Use its votes to select the right lane, then expand individual winners with more artist variety and verified runtime. Several repeated-hook candidates are visibly flagged to test whether their hooks earn the length; discard them if the full track drags.
+
+Proposed selection rules for the full rebuild:
+
+- Aim most of the programme around **116–126 BPM**, with selected bouncy 108–115 and 127–130 tracks only when the feel earns it. These are targets, not measured track BPMs; listen for half/double-time ambiguity.
+- Initially cap each lead artist at **three tracks**, each album at **two**, and separate an artist’s appearances by roughly 30–45 minutes. Count collaborations/aliases and heavily repeated producers in manual review; display-string counts alone can undercount them.
+- Prefer roughly 3–6-minute versions with a clear hook/development. Longer tracks must justify the extra time. Normal intros/outros within a song still need auditioning for dead space; title filters cannot hear them.
+- Alternate vocal hooks, melodic instrumentals and percussive tracks. Keep the later hours lower-density and sensual while retaining a pulse; no automatic sleepy final hour.
+- Expand toward a 10-hour raw pool, then prove **at least nine hours after actual transitions/cuts/unavailability**. A 150-track pool averaging four minutes would yield 10 raw hours, or about 9h30 with a hypothetical 12-second overlap. That is planning arithmetic, not a final track count or speaker test.
+
+## Workflow and metadata
+Use [Playlist Lab](../playlist-lab/README.md) for local votes, notes, sourced metadata, complete live snapshots and reviewable API changes. Explicit Keep/Cut/Maybe is stronger evidence than disappearance. Observed removals remain review events until confirmed; reordering is never a dislike. The tool does not change Spotify when a vote is clicked.
+
+Spotify audio-feature access is restricted for new apps; development-mode popularity is unavailable. Keep unknown BPM/key/features blank rather than guessed. Exact-file analysis or verified catalog metadata can be imported with source/date; editorial genres and host listening scores remain separately labeled. The full capability research and commands live in the Lab README.
+
+Next: complete PKCE authorization, pull the real current playlist, resolve exact audition versions, create/apply the separate audition playlist, collect votes, rebuild the full sequence and rehearse the Google Homes. The host confirmed having a Client ID but has not yet supplied its value or completed authorization.
 
 ## Devices and fallback
 Create **October Grove** as a Google speaker group in the phone/tablet Google Home app, or use a supported stereo pair if both devices are the same model. Connect the intended Spotify account and select that destination. [Google groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Spotify setup](https://support.spotify.com/us/article/spotify-on-google-devices/)
 
 Control both Google speakers separately from bedroom output. Keep a phone with Google Home/Spotify and a named helper available. The Mac’s system volume is not the Google group control. The host confirms Mac-to-soundbar playback already works when the bar is selected in macOS Sound settings. Reuse that connection for a possible local chill backup during an internet failure; the backup files and simultaneous playback alongside the DDJ still need testing.
 
-## Sources and exports
-Local backups: [plain tracklist](october-grove-v2.txt), [structured list](october-grove-v2.json). Spotify UI was the source of the saved track versions. Artist/label release research included [Bonobo / Migration](https://ninjatune.net/release/bonobo/migration), [Maribou State / Kingdoms In Colour](https://mariboustate.bandcamp.com/album/kingdoms-in-colour), [Kiasmos](https://kiasmos.bandcamp.com/album/kiasmos), [Chaos In The CBD](https://chaosinthecbd.bandcamp.com/album/midnight-in-peckham), [DJ Seinfeld / Mirrors](https://djseinfeld.bandcamp.com/album/mirrors), and [Folamour / Umami](https://folamour.bandcamp.com/album/umami).
-
-## Host feedback • September 3
-Host says this playlist is solid. Preserve the selection and its house/chill direction while revising the bedroom. No changes made to the living-room playlist in this revision.
+## Historical evidence
+[V1](october-grove-v1.json) and [V2](october-grove-v2.json) remain unchanged archives. On September 3, Spotify showed 117 songs / 10h 2m and the host initially liked the collection. That approval predates the September 8 request for more energy and less repetition. The saved raw length is not evidence that the new selection or final speaker playback meets nine hours.

@@ -1,0 +1,2241 @@
+{
+  "updated": "2026-09-08",
+  "status": "local review seed; no live sync; no inferred host votes",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Bonobo",
+      "title": "Migration",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 2,
+      "artist": "Maribou State",
+      "title": "Feel Good",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 1,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 3,
+      "artist": "Kiasmos",
+      "title": "Held",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 4,
+      "artist": "Bonobo",
+      "title": "Kerala",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 5,
+      "artist": "Maribou State",
+      "title": "Turnmills",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 19,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 6,
+      "artist": "Chaos In The CBD",
+      "title": "Midnight in Peckham",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 7,
+      "artist": "DJ Seinfeld",
+      "title": "These Things Will Come To Be",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 8,
+      "artist": "Folamour",
+      "title": "Ivoire",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 31,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 9,
+      "artist": "Maribou State",
+      "title": "Nervous Tics",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 28,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 10,
+      "artist": "Bonobo",
+      "title": "Bambro Koyo Ganda",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 4,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 11,
+      "artist": "Kiasmos",
+      "title": "Looped",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 12,
+      "artist": "Chaos In The CBD",
+      "title": "Observe",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 13,
+      "artist": "DJ Seinfeld",
+      "title": "Walking With Ur Smile",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 7,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 14,
+      "artist": "Maribou State",
+      "title": "Beginner's Luck",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 15,
+      "artist": "Bonobo",
+      "title": "No Reason",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 16,
+      "artist": "Folamour",
+      "title": "Devoted To U",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 10,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 17,
+      "artist": "Chaos In The CBD",
+      "title": "Luxury Motivation",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 18,
+      "artist": "DJ Seinfeld",
+      "title": "The Right Place (feat. Teira)",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 19,
+      "artist": "Maribou State",
+      "title": "Kingdom",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 20,
+      "artist": "Kiasmos",
+      "title": "Swayed",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 21,
+      "artist": "Bonobo",
+      "title": "Cirrus",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 22,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 22,
+      "artist": "Four Tet",
+      "title": "Two Thousand and Seventeen",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 23,
+      "artist": "Tourist",
+      "title": "Your Love",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "review"
+    },
+    {
+      "position": 24,
+      "artist": "Laurence Guy",
+      "title": "Saw You for the First Time",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 34,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "position": 25,
+      "artist": "Lane 8",
+      "title": "Atlas",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "review"
+    },
+    {
+      "position": 26,
+      "artist": "Ben Böhmer",
+      "title": "Beyond Beliefs",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "review"
+    },
+    {
+      "position": 27,
+      "artist": "Tycho",
+      "title": "A Walk",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "review"
+    },
+    {
+      "position": 28,
+      "artist": "Maribou State",
+      "title": "Glasshouses",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 29,
+      "artist": "Bonobo",
+      "title": "Break Apart",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 30,
+      "artist": "Kiasmos",
+      "title": "Lit",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 31,
+      "artist": "Maribou State",
+      "title": "Slow Heat",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 32,
+      "artist": "Bonobo",
+      "title": "Second Sun",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 33,
+      "artist": "Four Tet",
+      "title": "LA Trance",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "review"
+    },
+    {
+      "position": 34,
+      "artist": "Maribou State",
+      "title": "Kāma",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "position": 35,
+      "artist": "Bonobo",
+      "title": "Figures",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Prelude",
+      "album": "Black Sands",
+      "album_position": 1,
+      "duration_display": "1:18",
+      "duration_seconds": 78,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 36,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed",
+        "priority review: possible energy drop",
+        "proposed cut: excluded format"
+      ],
+      "editorial_status": "proposed cut",
+      "editorial_note": "Proposed exclusion under the host’s no intros/interludes/outros instruction. No live removal has been made."
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Kiara",
+      "album": "Black Sands",
+      "album_position": 2,
+      "duration_display": "3:50",
+      "duration_seconds": 230,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 37,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Kong",
+      "album": "Black Sands",
+      "album_position": 3,
+      "duration_display": "3:57",
+      "duration_seconds": 237,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 38,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Eyesdown",
+      "album": "Black Sands",
+      "album_position": 4,
+      "duration_display": "5:26",
+      "duration_seconds": 326,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 39,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "El Toro",
+      "album": "Black Sands",
+      "album_position": 5,
+      "duration_display": "3:44",
+      "duration_seconds": 224,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 40,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "We Could Forever",
+      "album": "Black Sands",
+      "album_position": 6,
+      "duration_display": "4:19",
+      "duration_seconds": 259,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 41,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "1009",
+      "album": "Black Sands",
+      "album_position": 7,
+      "duration_display": "4:30",
+      "duration_seconds": 270,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 42,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "All In Forms",
+      "album": "Black Sands",
+      "album_position": 8,
+      "duration_display": "4:51",
+      "duration_seconds": 291,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 43,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "The Keeper",
+      "album": "Black Sands",
+      "album_position": 9,
+      "duration_display": "4:48",
+      "duration_seconds": 288,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 44,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Stay The Same",
+      "album": "Black Sands",
+      "album_position": 10,
+      "duration_display": "4:44",
+      "duration_seconds": 284,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 45,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Animals",
+      "album": "Black Sands",
+      "album_position": 11,
+      "duration_display": "6:45",
+      "duration_seconds": 405,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 46,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Bonobo",
+      "title": "Black Sands",
+      "album": "Black Sands",
+      "album_position": 12,
+      "duration_display": "6:48",
+      "duration_seconds": 408,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 47,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks",
+        "added as album block; individual audition needed",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "Rose rouge",
+      "album": "Tourist (Remastered)",
+      "album_position": 1,
+      "duration_display": "6:56",
+      "duration_seconds": 416,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 48,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 16,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "St Germain",
+      "title": "Montego Bay Spleen",
+      "album": "Tourist (Remastered)",
+      "album_position": 2,
+      "duration_display": "6:25",
+      "duration_seconds": 385,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 49,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "So Flute",
+      "album": "Tourist (Remastered)",
+      "album_position": 3,
+      "duration_display": "8:27",
+      "duration_seconds": 507,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 50,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "Land Of...",
+      "album": "Tourist (Remastered)",
+      "album_position": 4,
+      "duration_display": "7:47",
+      "duration_seconds": 467,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 51,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "Latin Note",
+      "album": "Tourist (Remastered)",
+      "album_position": 5,
+      "duration_display": "5:54",
+      "duration_seconds": 354,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 52,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "Sure Thing",
+      "album": "Tourist (Remastered)",
+      "album_position": 6,
+      "duration_display": "6:20",
+      "duration_seconds": 380,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 53,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "Pont des Arts",
+      "album": "Tourist (Remastered)",
+      "album_position": 7,
+      "duration_display": "7:26",
+      "duration_seconds": 446,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 54,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "La goutte d'or",
+      "album": "Tourist (Remastered)",
+      "album_position": 8,
+      "duration_display": "6:19",
+      "duration_seconds": 379,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 55,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "St Germain",
+      "title": "What You Think About...",
+      "album": "Tourist (Remastered)",
+      "album_position": 9,
+      "duration_display": "4:48",
+      "duration_seconds": 288,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 56,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Grown",
+      "album": "II",
+      "album_position": 1,
+      "duration_display": "5:40",
+      "duration_seconds": 340,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 57,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Burst",
+      "album": "II",
+      "album_position": 2,
+      "duration_display": "4:31",
+      "duration_seconds": 271,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 58,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Sailed",
+      "album": "II",
+      "album_position": 3,
+      "duration_display": "4:04",
+      "duration_seconds": 244,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 59,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Laced",
+      "album": "II",
+      "album_position": 4,
+      "duration_display": "4:18",
+      "duration_seconds": 258,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 60,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Bound",
+      "album": "II",
+      "album_position": 5,
+      "duration_display": "6:26",
+      "duration_seconds": 386,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 61,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Sworn",
+      "album": "II",
+      "album_position": 6,
+      "duration_display": "4:14",
+      "duration_seconds": 254,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 62,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Spun",
+      "album": "II",
+      "album_position": 7,
+      "duration_display": "4:09",
+      "duration_seconds": 249,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 63,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Flown",
+      "album": "II",
+      "album_position": 8,
+      "duration_display": "3:55",
+      "duration_seconds": 235,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 64,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Told",
+      "album": "II",
+      "album_position": 9,
+      "duration_display": "5:39",
+      "duration_seconds": 339,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 65,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Dazed",
+      "album": "II",
+      "album_position": 10,
+      "duration_display": "5:07",
+      "duration_seconds": 307,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 66,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Kiasmos",
+      "title": "Squared",
+      "album": "II",
+      "album_position": 11,
+      "duration_display": "5:17",
+      "duration_seconds": 317,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 67,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 15 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Do It Now",
+      "album": "See You When You Get There",
+      "album_position": 1,
+      "duration_display": "5:54",
+      "duration_seconds": 354,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 68,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Hey Stranger",
+      "album": "See You When You Get There",
+      "album_position": 2,
+      "duration_display": "4:12",
+      "duration_seconds": 252,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 69,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Make People Dance",
+      "album": "See You When You Get There",
+      "album_position": 3,
+      "duration_display": "5:58",
+      "duration_seconds": 358,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 70,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 25,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Session Victim",
+      "title": "See You When You Get There",
+      "album": "See You When You Get There",
+      "album_position": 4,
+      "duration_display": "3:37",
+      "duration_seconds": 217,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 71,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Never Forget",
+      "album": "See You When You Get There",
+      "album_position": 5,
+      "duration_display": "6:04",
+      "duration_seconds": 364,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 72,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Stick Together",
+      "album": "See You When You Get There",
+      "album_position": 6,
+      "duration_display": "5:26",
+      "duration_seconds": 326,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 73,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Hyuwee",
+      "album": "See You When You Get There",
+      "album_position": 7,
+      "duration_display": "3:47",
+      "duration_seconds": 227,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 74,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "The Most Beautiful Divorce Ever",
+      "album": "See You When You Get There",
+      "album_position": 8,
+      "duration_display": "5:27",
+      "duration_seconds": 327,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 75,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Crystal Maze",
+      "album": "See You When You Get There",
+      "album_position": 9,
+      "duration_display": "2:54",
+      "duration_seconds": 174,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 76,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Under Your Spell",
+      "album": "See You When You Get There",
+      "album_position": 10,
+      "duration_display": "4:23",
+      "duration_seconds": 263,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 77,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Eo's Place",
+      "album": "See You When You Get There",
+      "album_position": 11,
+      "duration_display": "4:35",
+      "duration_seconds": 275,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 78,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Club der Ewigkeiten",
+      "album": "Knock Knock",
+      "album_position": 1,
+      "duration_display": "4:09",
+      "duration_seconds": 249,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 79,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Bonfire",
+      "album": "Knock Knock",
+      "album_position": 2,
+      "duration_display": "5:25",
+      "duration_seconds": 325,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 80,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Moving in a Liquid",
+      "album": "Knock Knock",
+      "album_position": 3,
+      "duration_display": "4:40",
+      "duration_seconds": 280,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 81,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Colors of Autumn",
+      "album": "Knock Knock",
+      "album_position": 4,
+      "duration_display": "4:24",
+      "duration_seconds": 264,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 82,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Music on My Teeth",
+      "album": "Knock Knock",
+      "album_position": 5,
+      "duration_display": "4:16",
+      "duration_seconds": 256,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 83,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "This Is My Rock",
+      "album": "Knock Knock",
+      "album_position": 6,
+      "duration_display": "3:59",
+      "duration_seconds": 239,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 84,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Illumination",
+      "album": "Knock Knock",
+      "album_position": 7,
+      "duration_display": "4:31",
+      "duration_seconds": 271,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 85,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Pick Up",
+      "album": "Knock Knock",
+      "album_position": 8,
+      "duration_display": "6:38",
+      "duration_seconds": 398,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 86,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 13,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Planet Hase",
+      "album": "Knock Knock",
+      "album_position": 9,
+      "duration_display": "5:11",
+      "duration_seconds": 311,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 87,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Scratch That",
+      "album": "Knock Knock",
+      "album_position": 10,
+      "duration_display": "4:36",
+      "duration_seconds": 276,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 88,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Muddy Funster",
+      "album": "Knock Knock",
+      "album_position": 11,
+      "duration_display": "5:24",
+      "duration_seconds": 324,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 89,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Baby (How Much I LFO You)",
+      "album": "Knock Knock",
+      "album_position": 12,
+      "duration_display": "4:31",
+      "duration_seconds": 271,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 90,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Jesus",
+      "album": "Knock Knock",
+      "album_position": 13,
+      "duration_display": "5:13",
+      "duration_seconds": 313,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 91,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Lord Knows",
+      "album": "Knock Knock",
+      "album_position": 14,
+      "duration_display": "4:07",
+      "duration_seconds": 247,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 92,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Seeing Aliens",
+      "album": "Knock Knock",
+      "album_position": 15,
+      "duration_display": "4:52",
+      "duration_seconds": 292,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 93,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Drone Me Up, Flashy",
+      "album": "Knock Knock",
+      "album_position": 16,
+      "duration_display": "6:34",
+      "duration_seconds": 394,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 94,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Down By The Cove",
+      "album": "A Deeper Life",
+      "album_position": 1,
+      "duration_display": "5:52",
+      "duration_seconds": 352,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 95,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Mountain Mover",
+      "album": "A Deeper Life",
+      "album_position": 2,
+      "duration_display": "4:37",
+      "duration_seconds": 277,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 96,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Maintaining My Peace",
+      "album": "A Deeper Life",
+      "album_position": 3,
+      "duration_display": "2:58",
+      "duration_seconds": 178,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 97,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Tears",
+      "album": "A Deeper Life",
+      "album_position": 4,
+      "duration_display": "2:58",
+      "duration_seconds": 178,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 98,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Brain Gymnasium",
+      "album": "A Deeper Life",
+      "album_position": 5,
+      "duration_display": "3:32",
+      "duration_seconds": 212,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 99,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "I Wanna Tell Somebody",
+      "album": "A Deeper Life",
+      "album_position": 6,
+      "duration_display": "5:58",
+      "duration_seconds": 358,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 100,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Ōtaki",
+      "album": "A Deeper Life",
+      "album_position": 7,
+      "duration_display": "5:25",
+      "duration_seconds": 325,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 101,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Love Language",
+      "album": "A Deeper Life",
+      "album_position": 8,
+      "duration_display": "4:38",
+      "duration_seconds": 278,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 102,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "A Deeper Life",
+      "album": "A Deeper Life",
+      "album_position": 9,
+      "duration_display": "8:04",
+      "duration_seconds": 484,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 103,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "More Time",
+      "album": "A Deeper Life",
+      "album_position": 10,
+      "duration_display": "3:56",
+      "duration_seconds": 236,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 104,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Tongariro Crossing",
+      "album": "A Deeper Life",
+      "album_position": 11,
+      "duration_display": "5:16",
+      "duration_seconds": 316,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 105,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Barefoot On The Tarmac",
+      "album": "A Deeper Life",
+      "album_position": 12,
+      "duration_display": "4:15",
+      "duration_seconds": 255,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 106,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "Marlboro Sounds",
+      "album": "A Deeper Life",
+      "album_position": 13,
+      "duration_display": "6:03",
+      "duration_seconds": 363,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 107,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Chaos In The CBD",
+      "title": "The Eternal Checkout",
+      "album": "A Deeper Life",
+      "album_position": 14,
+      "duration_display": "5:44",
+      "duration_seconds": 344,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 108,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 17 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "I Hope I Sleep Tonight",
+      "album": "Time Spent Away From U",
+      "album_position": 1,
+      "duration_display": "4:06",
+      "duration_seconds": 246,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 109,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed",
+        "priority review: possible energy drop"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "I Saw Her Kiss Him in Front of Me and I Was Like Wtf?",
+      "album": "Time Spent Away From U",
+      "album_position": 2,
+      "duration_display": "5:11",
+      "duration_seconds": 311,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 110,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "Too Late for U and M1",
+      "album": "Time Spent Away From U",
+      "album_position": 3,
+      "duration_display": "6:37",
+      "duration_seconds": 397,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 111,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "Time Spent Away From U",
+      "album": "Time Spent Away From U",
+      "album_position": 4,
+      "duration_display": "5:32",
+      "duration_seconds": 332,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 112,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "It's Just My Luv",
+      "album": "Time Spent Away From U",
+      "album_position": 5,
+      "duration_display": "5:57",
+      "duration_seconds": 357,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 113,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "How U Make Me Feel",
+      "album": "Time Spent Away From U",
+      "album_position": 6,
+      "duration_display": "6:17",
+      "duration_seconds": 377,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 114,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "U Hold Me Without Touch",
+      "album": "Time Spent Away From U",
+      "album_position": 7,
+      "duration_display": "6:27",
+      "duration_seconds": 387,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 115,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "Come Thru for U",
+      "album": "Time Spent Away From U",
+      "album_position": 8,
+      "duration_display": "6:09",
+      "duration_seconds": 369,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 116,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "DJ Seinfeld",
+      "title": "U",
+      "album": "Time Spent Away From U",
+      "album_position": 9,
+      "duration_display": "6:08",
+      "duration_seconds": 368,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 117,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "review"
+    },
+    {
+      "artist": "Jessie Ware",
+      "title": "What’s Your Pleasure?",
+      "album": "What's Your Pleasure?",
+      "duration_ms": 278027,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/whats-your-pleasure/1498945382?i=1498945569&uo=4",
+      "catalog_id": 1498945569,
+      "catalog_genre": "Pop",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Sleek vocal and bass-driven disco; a test of the sexy direction.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 2,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Róisín Murphy",
+      "title": "Murphy's Law (Edit)",
+      "album": "Murphy's Law - Single",
+      "duration_ms": 230008,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/murphys-law-edit/1498918903?i=1498918907&uo=4",
+      "catalog_id": 1498918907,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Short edit avoids the eight-minute extended version; check vocal fit.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 3,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Moloko",
+      "title": "Sing It Back (Boris Musical Mix) [Edit]",
+      "album": "Sing It Back - Single",
+      "duration_ms": 278000,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/sing-it-back-boris-musical-mix-edit/1436341968?i=1436341970&uo=4",
+      "catalog_id": 1436341970,
+      "catalog_genre": "Pop",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Boris Musical Mix edit, not the nine-minute mix or the original album version.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 5,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Peggy Gou",
+      "title": "It Makes You Forget (Itgehane) [Edit]",
+      "album": "It Makes You Forget (Itgehane) - Single",
+      "duration_ms": 236160,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/it-makes-you-forget-itgehane-edit/1335982351?i=1335982354&uo=4",
+      "catalog_id": 1335982354,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Airy vocal with bounce; use the edit to limit repeated sections.",
+      "style": [
+        "percussive house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 6,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Elkka",
+      "title": "Your Skin",
+      "album": "Prism of Pleasure",
+      "duration_ms": 246823,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/your-skin/1724176280?i=1724176290&uo=4",
+      "catalog_id": 1724176290,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Intimate vocal texture and movement; selected Your Skin instead of the nine-minute Passionfruit.",
+      "style": [
+        "sensual house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 8,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Sofia Kourtesis",
+      "title": "La Perla (Edit)",
+      "album": "La Perla (Edit) - Single",
+      "duration_ms": 226431,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/la-perla-edit/1549079176?i=1549079177&uo=4",
+      "catalog_id": 1549079177,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Leafy percussion and melodic lift; edit chosen to keep forward motion.",
+      "style": [
+        "organic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 9,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "TSHA",
+      "title": "Giving Up (feat. Mafro)",
+      "album": "Capricorn Sun",
+      "duration_ms": 203751,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/giving-up-feat-mafro/1628561718?i=1628561726&uo=4",
+      "catalog_id": 1628561726,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Concise vocal-led lift, a stronger contrast to ambient album tracks.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 11,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Jayda G",
+      "title": "Both of Us (Edit)",
+      "album": "Both of Us (Edit) - Single",
+      "duration_ms": 229425,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/both-of-us-edit/1513158739?i=1513158741&uo=4",
+      "catalog_id": 1513158741,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Piano hook and lift; check whether the breakdown interrupts the room.",
+      "style": [
+        "piano house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 12,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "DJ Seinfeld & Confidence Man",
+      "title": "Now U Do",
+      "album": "Now U Do - Single",
+      "duration_ms": 208986,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/now-u-do/1688092859?i=1688092861&uo=4",
+      "catalog_id": 1688092861,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Playful, flirtatious contrast from an existing artist; counts toward the Seinfeld cap.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 14,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Disclosure & Eko Roosevelt",
+      "title": "Tondo",
+      "album": "ENERGY (Deluxe)",
+      "duration_ms": 328880,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/tondo/1511913981?i=1511914722&uo=4",
+      "catalog_id": 1511914722,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Rhythmic party energy; repeated vocal/percussion loop needs your repetition rating.",
+      "style": [
+        "percussive house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 15,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "L'Impératrice",
+      "title": "Agitations tropicales",
+      "album": "Odyssée - EP",
+      "duration_ms": 248892,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/agitations-tropicales/1203034305?i=1203034552&uo=4",
+      "catalog_id": 1203034552,
+      "catalog_genre": "Alternative",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Lush synths and supple groove; less dark, so use as a contrast.",
+      "style": [
+        "French disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 17,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Jungle",
+      "title": "Keep Moving",
+      "album": "Loving In Stereo",
+      "duration_ms": 240880,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/keep-moving/1555318008?i=1555318018&uo=4",
+      "catalog_id": 1555318018,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Vocal hook and rhythmic lift; check whether it feels too bright for the room.",
+      "style": [
+        "soul disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 18,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Franc Moody",
+      "title": "Dopamine",
+      "album": "Dance Moves",
+      "duration_ms": 243946,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/dopamine/1361581959?i=1361582523&uo=4",
+      "catalog_id": 1361582523,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Elastic bass and short form; test bounce at conversation volume.",
+      "style": [
+        "funk disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 20,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Crazy P",
+      "title": "Heartbreaker",
+      "album": "When We On (Bonus Version)",
+      "duration_ms": 326809,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/heartbreaker/461823682?i=461823770&uo=4",
+      "catalog_id": 461823770,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Warm, sensual house/disco crossover with a vocal focal point.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 21,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Krystal Klear",
+      "title": "Neutron Dance (Edit)",
+      "album": "Neutron Dance (Edit) - Single",
+      "duration_ms": 171614,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/neutron-dance-edit/1375539019?i=1375539233&uo=4",
+      "catalog_id": 1375539233,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Short edit with a strong melodic hook; test brightness against the woodland theme.",
+      "style": [
+        "synth house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 23,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Todd Terje",
+      "title": "Inspector Norse",
+      "album": "It's the Arps - EP",
+      "duration_ms": 400751,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/inspector-norse/840127312?i=840127313&uo=4",
+      "catalog_id": 840127313,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A melodic instrumental benchmark; long repeated groove is deliberately a repetition test, not an automatic keeper.",
+      "style": [
+        "synth disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 24,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Purple Disco Machine & Sophie and the Giants",
+      "title": "Hypnotized",
+      "album": "Hypnotized - Single",
+      "duration_ms": 195704,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/hypnotized/1504484137?i=1504484138&uo=4",
+      "catalog_id": 1504484138,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Concise and recognizable; useful test of how pop-forward the room should become.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 26,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "SG Lewis",
+      "title": "Chemicals",
+      "album": "times",
+      "duration_ms": 255827,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/chemicals/1535844609?i=1535844616&uo=4",
+      "catalog_id": 1535844616,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Sleek vocal and bass-led movement; compare against Jessie Ware.",
+      "style": [
+        "sensual disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 27,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Flight Facilities",
+      "title": "Crave You (feat. Giselle)",
+      "album": "Down to Earth",
+      "duration_ms": 234787,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/crave-you-feat-giselle/1771694134?i=1771694856&uo=4",
+      "catalog_id": 1771694856,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A slower-feeling control track: keep only if its groove still feels active enough.",
+      "style": [
+        "sensual electronic"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 29,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Caribou",
+      "title": "Never Come Back",
+      "album": "Suddenly",
+      "duration_ms": 305480,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/never-come-back/1839112059?i=1839112068&uo=4",
+      "catalog_id": 1839112068,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Vocal hook and build; repetition is a known audition risk.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 30,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "salute",
+      "title": "Joy",
+      "album": "Joy - Single",
+      "duration_ms": 281381,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/joy/1584988431?i=1584988432&uo=4",
+      "catalog_id": 1584988432,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A sharper, faster-feeling edge; check that it still belongs in the living room.",
+      "style": [
+        "bouncy house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 32,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Barry Can't Swim",
+      "title": "Sunsleeper",
+      "album": "Sunsleeper - Single",
+      "duration_ms": 222183,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/sunsleeper/1667381082?i=1667381083&uo=4",
+      "catalog_id": 1667381083,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Percussion and melodic lift with a compact runtime.",
+      "style": [
+        "organic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 33,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Rampa, chuala & Keinemusik",
+      "title": "Les Gout",
+      "album": "Les Gout - Single",
+      "duration_ms": 344000,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/les-gout/1642500804?i=1642500805&uo=4",
+      "catalog_id": 1642500805,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Earthy percussion and sensual vocal; audition for development across the full track.",
+      "style": [
+        "Afro house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 35,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "WhoMadeWho & Rampa",
+      "title": "Everyday (Edit)",
+      "album": "Everyday - Single",
+      "duration_ms": 220053,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/everyday-edit/1636890538?i=1636890547&uo=4",
+      "catalog_id": 1636890547,
+      "catalog_genre": "Electronica",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Rampa collaboration in a short edit; check the hypnotic groove against boredom.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 36,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    }
+  ]
+}

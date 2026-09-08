@@ -1,0 +1,718 @@
+{
+  "updated": "2026-09-08",
+  "status": "36-track local audition, not a nine-hour replacement or a live Spotify playlist",
+  "tracks": [
+    {
+      "position": 2,
+      "artist": "Maribou State",
+      "title": "Feel Good",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 1,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Jessie Ware",
+      "title": "What’s Your Pleasure?",
+      "album": "What's Your Pleasure?",
+      "duration_ms": 278027,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/whats-your-pleasure/1498945382?i=1498945569&uo=4",
+      "catalog_id": 1498945569,
+      "catalog_genre": "Pop",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Sleek vocal and bass-driven disco; a test of the sexy direction.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 2,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Róisín Murphy",
+      "title": "Murphy's Law (Edit)",
+      "album": "Murphy's Law - Single",
+      "duration_ms": 230008,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/murphys-law-edit/1498918903?i=1498918907&uo=4",
+      "catalog_id": 1498918907,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Short edit avoids the eight-minute extended version; check vocal fit.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 3,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 10,
+      "artist": "Bonobo",
+      "title": "Bambro Koyo Ganda",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 4,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Moloko",
+      "title": "Sing It Back (Boris Musical Mix) [Edit]",
+      "album": "Sing It Back - Single",
+      "duration_ms": 278000,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/sing-it-back-boris-musical-mix-edit/1436341968?i=1436341970&uo=4",
+      "catalog_id": 1436341970,
+      "catalog_genre": "Pop",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Boris Musical Mix edit, not the nine-minute mix or the original album version.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 5,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Peggy Gou",
+      "title": "It Makes You Forget (Itgehane) [Edit]",
+      "album": "It Makes You Forget (Itgehane) - Single",
+      "duration_ms": 236160,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/it-makes-you-forget-itgehane-edit/1335982351?i=1335982354&uo=4",
+      "catalog_id": 1335982354,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Airy vocal with bounce; use the edit to limit repeated sections.",
+      "style": [
+        "percussive house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 6,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 13,
+      "artist": "DJ Seinfeld",
+      "title": "Walking With Ur Smile",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 12 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 7,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Elkka",
+      "title": "Your Skin",
+      "album": "Prism of Pleasure",
+      "duration_ms": 246823,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/your-skin/1724176280?i=1724176290&uo=4",
+      "catalog_id": 1724176290,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Intimate vocal texture and movement; selected Your Skin instead of the nine-minute Passionfruit.",
+      "style": [
+        "sensual house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 8,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Sofia Kourtesis",
+      "title": "La Perla (Edit)",
+      "album": "La Perla (Edit) - Single",
+      "duration_ms": 226431,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/la-perla-edit/1549079176?i=1549079177&uo=4",
+      "catalog_id": 1549079177,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Leafy percussion and melodic lift; edit chosen to keep forward motion.",
+      "style": [
+        "organic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 9,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 16,
+      "artist": "Folamour",
+      "title": "Devoted To U",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 10,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "TSHA",
+      "title": "Giving Up (feat. Mafro)",
+      "album": "Capricorn Sun",
+      "duration_ms": 203751,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/giving-up-feat-mafro/1628561718?i=1628561726&uo=4",
+      "catalog_id": 1628561726,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Concise vocal-led lift, a stronger contrast to ambient album tracks.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 11,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Jayda G",
+      "title": "Both of Us (Edit)",
+      "album": "Both of Us (Edit) - Single",
+      "duration_ms": 229425,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/both-of-us-edit/1513158739?i=1513158741&uo=4",
+      "catalog_id": 1513158741,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Piano hook and lift; check whether the breakdown interrupts the room.",
+      "style": [
+        "piano house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 12,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "DJ Koze",
+      "title": "Pick Up",
+      "album": "Knock Knock",
+      "album_position": 8,
+      "duration_display": "6:38",
+      "duration_seconds": 398,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 86,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 16 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 13,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "DJ Seinfeld & Confidence Man",
+      "title": "Now U Do",
+      "album": "Now U Do - Single",
+      "duration_ms": 208986,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/now-u-do/1688092859?i=1688092861&uo=4",
+      "catalog_id": 1688092861,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Playful, flirtatious contrast from an existing artist; counts toward the Seinfeld cap.",
+      "style": [
+        "vocal house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 14,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Disclosure & Eko Roosevelt",
+      "title": "Tondo",
+      "album": "ENERGY (Deluxe)",
+      "duration_ms": 328880,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/tondo/1511913981?i=1511914722&uo=4",
+      "catalog_id": 1511914722,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Rhythmic party energy; repeated vocal/percussion loop needs your repetition rating.",
+      "style": [
+        "percussive house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 15,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "St Germain",
+      "title": "Rose rouge",
+      "album": "Tourist (Remastered)",
+      "album_position": 1,
+      "duration_display": "6:56",
+      "duration_seconds": 416,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 48,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 9 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 16,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "L'Impératrice",
+      "title": "Agitations tropicales",
+      "album": "Odyssée - EP",
+      "duration_ms": 248892,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/agitations-tropicales/1203034305?i=1203034552&uo=4",
+      "catalog_id": 1203034552,
+      "catalog_genre": "Alternative",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Lush synths and supple groove; less dark, so use as a contrast.",
+      "style": [
+        "French disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 17,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Jungle",
+      "title": "Keep Moving",
+      "album": "Loving In Stereo",
+      "duration_ms": 240880,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/keep-moving/1555318008?i=1555318018&uo=4",
+      "catalog_id": 1555318018,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Vocal hook and rhythmic lift; check whether it feels too bright for the room.",
+      "style": [
+        "soul disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 18,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 5,
+      "artist": "Maribou State",
+      "title": "Turnmills",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 19,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Franc Moody",
+      "title": "Dopamine",
+      "album": "Dance Moves",
+      "duration_ms": 243946,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/dopamine/1361581959?i=1361582523&uo=4",
+      "catalog_id": 1361582523,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Elastic bass and short form; test bounce at conversation volume.",
+      "style": [
+        "funk disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 20,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Crazy P",
+      "title": "Heartbreaker",
+      "album": "When We On (Bonus Version)",
+      "duration_ms": 326809,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/heartbreaker/461823682?i=461823770&uo=4",
+      "catalog_id": 461823770,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Warm, sensual house/disco crossover with a vocal focal point.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 21,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 21,
+      "artist": "Bonobo",
+      "title": "Cirrus",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 20 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 22,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Krystal Klear",
+      "title": "Neutron Dance (Edit)",
+      "album": "Neutron Dance (Edit) - Single",
+      "duration_ms": 171614,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/neutron-dance-edit/1375539019?i=1375539233&uo=4",
+      "catalog_id": 1375539233,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Short edit with a strong melodic hook; test brightness against the woodland theme.",
+      "style": [
+        "synth house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 23,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Todd Terje",
+      "title": "Inspector Norse",
+      "album": "It's the Arps - EP",
+      "duration_ms": 400751,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/inspector-norse/840127312?i=840127313&uo=4",
+      "catalog_id": 840127313,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A melodic instrumental benchmark; long repeated groove is deliberately a repetition test, not an automatic keeper.",
+      "style": [
+        "synth disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 24,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Session Victim",
+      "title": "Make People Dance",
+      "album": "See You When You Get There",
+      "album_position": 3,
+      "duration_display": "5:58",
+      "duration_seconds": 358,
+      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "position": 70,
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 11 tracks",
+        "added as album block; individual audition needed"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 25,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Purple Disco Machine & Sophie and the Giants",
+      "title": "Hypnotized",
+      "album": "Hypnotized - Single",
+      "duration_ms": 195704,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/hypnotized/1504484137?i=1504484138&uo=4",
+      "catalog_id": 1504484138,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Concise and recognizable; useful test of how pop-forward the room should become.",
+      "style": [
+        "vocal disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 26,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "SG Lewis",
+      "title": "Chemicals",
+      "album": "times",
+      "duration_ms": 255827,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/chemicals/1535844609?i=1535844616&uo=4",
+      "catalog_id": 1535844616,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Sleek vocal and bass-led movement; compare against Jessie Ware.",
+      "style": [
+        "sensual disco"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 27,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 9,
+      "artist": "Maribou State",
+      "title": "Nervous Tics",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [
+        "artist concentration: 8 tracks"
+      ],
+      "editorial_status": "audition",
+      "audition_rank": 28,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Flight Facilities",
+      "title": "Crave You (feat. Giselle)",
+      "album": "Down to Earth",
+      "duration_ms": 234787,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/crave-you-feat-giselle/1771694134?i=1771694856&uo=4",
+      "catalog_id": 1771694856,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A slower-feeling control track: keep only if its groove still feels active enough.",
+      "style": [
+        "sensual electronic"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 29,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Caribou",
+      "title": "Never Come Back",
+      "album": "Suddenly",
+      "duration_ms": 305480,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/never-come-back/1839112059?i=1839112068&uo=4",
+      "catalog_id": 1839112068,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Vocal hook and build; repetition is a known audition risk.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 30,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 8,
+      "artist": "Folamour",
+      "title": "Ivoire",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 31,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "salute",
+      "title": "Joy",
+      "album": "Joy - Single",
+      "duration_ms": 281381,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/joy/1584988431?i=1584988432&uo=4",
+      "catalog_id": 1584988432,
+      "catalog_genre": "Dance",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "A sharper, faster-feeling edge; check that it still belongs in the living room.",
+      "style": [
+        "bouncy house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 32,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "Barry Can't Swim",
+      "title": "Sunsleeper",
+      "album": "Sunsleeper - Single",
+      "duration_ms": 222183,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/sunsleeper/1667381082?i=1667381083&uo=4",
+      "catalog_id": 1667381083,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Percussion and melodic lift with a compact runtime.",
+      "style": [
+        "organic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 33,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "position": 24,
+      "artist": "Laurence Guy",
+      "title": "Saw You for the First Time",
+      "origin": "V2 archive · September 3 snapshot",
+      "flags": [],
+      "editorial_status": "audition",
+      "audition_rank": 34,
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+    },
+    {
+      "artist": "Rampa, chuala & Keinemusik",
+      "title": "Les Gout",
+      "album": "Les Gout - Single",
+      "duration_ms": 344000,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/les-gout/1642500804?i=1642500805&uo=4",
+      "catalog_id": 1642500805,
+      "catalog_genre": "Electronic",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Earthy percussion and sensual vocal; audition for development across the full track.",
+      "style": [
+        "Afro house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 35,
+      "flags": [
+        "exact Spotify version unresolved",
+        "listen for repetition"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    },
+    {
+      "artist": "WhoMadeWho & Rampa",
+      "title": "Everyday (Edit)",
+      "album": "Everyday - Single",
+      "duration_ms": 220053,
+      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "catalog_url": "https://music.apple.com/us/album/everyday-edit/1636890538?i=1636890547&uo=4",
+      "catalog_id": 1636890547,
+      "catalog_genre": "Electronica",
+      "origin": "V3 new candidate · catalog verified September 8",
+      "editorial_status": "audition",
+      "editorial_note": "Rampa collaboration in a short edit; check the hypnotic groove against boredom.",
+      "style": [
+        "melodic house"
+      ],
+      "style_source": "editorial audition lane; not measured track genre",
+      "audition_rank": 36,
+      "flags": [
+        "exact Spotify version unresolved"
+      ],
+      "spotify_uri": null,
+      "features": {}
+    }
+  ]
+}

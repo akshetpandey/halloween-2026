@@ -2,7 +2,8 @@
 
 [Game home](../README.md) · [Project home](../../README.md)
 
-- [Current narrative and game rules](narrative-and-game.md)
+- [A Name for the Hollow — narrative arc, characters and scripts](narrative-arc.md) — proposed September 8 treatment, ready for review
+- [Current game rules and narrative integration](narrative-and-game.md)
 - [Selected puzzle families](puzzles.md)
 - [Volunteer runbook](../volunteer-runbook.md)
 - [Paper-only ritual alternative](last-leaf-fallback.md)

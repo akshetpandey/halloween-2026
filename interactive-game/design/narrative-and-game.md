@@ -1,6 +1,6 @@
 # Hollow Court — narrative and game design
 
-Status: Working design, September 4, 2026. Documentation only; no application built. Source: the host's requirements and assistant draft in [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83ea-980a-a9b43437c385), followed by the host's revised fifteen-entity brief. Draft prose and unconfirmed mechanics below are proposals for iteration.
+Status: Working rules dated September 4, 2026; narrative references updated September 8, 2026. Documentation only; no application built. Source: the host's requirements and assistant draft in [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83ea-980a-a9b43437c385), followed by the host's revised fifteen-entity brief. Draft prose and unconfirmed mechanics below are proposals for iteration.
 
 ## Requirements and proposals
 
@@ -12,11 +12,7 @@ Working title **Sovereign of the Hollow Court**, chapter copy, exact chapter thr
 
 ## Canon and secrecy
 
-The Hollow Court is an ancient assembly beside the ordinary world. When enough masked mortals gather, the boundary thins and its inhabitants can be encountered. They disagree about what makes a mortal worthy: attention, cunning, reason, hospitality, persistence and discernment each matter to different witnesses.
-
-Privately, the host is the outgoing Antler King. His season is ending; the mortal sovereign's office must pass through an old rite. This reconciles the existing Antler King story with the conversation's vacant-office idea: the office becomes vacant at the turning, rather than requiring a second missing ruler. This reconciliation is proposed canon.
-
-The old law recognizes three kinds of testimony: the Favor of supernatural witnesses, new people brought into the Court, and the judgment of the assembled room. Players unknowingly assemble that testimony throughout the night. The final reveal explains that they have enacted a succession rite.
+The current proposed fiction is [A Name for the Hollow](narrative-arc.md): the private compact, missing-name mystery, room roles, fifteen candidate character voices and finale live there. Its September 8 treatment develops the existing outgoing-Antler-King succession premise and replaces this brief's earlier short canon summary. The new details remain proposals for host review.
 
 Tone: ancient woodland fairy tale, elegant, a little threatening, lightly funny, never an exposition lecture. Keep each screen brief. Before the finale, guest-facing copy must not explicitly name succession, a throne, a crown, a monarch or a winner's prize. Volunteers may spread suggestive rumors, including that a crown exists; the website and invitation preserve the reveal. The host/admin documents may state the full rules.
 
@@ -45,17 +41,7 @@ Collect display name and costume selfie, with clear agreement that the image app
 
 Entity lore stands alone, so guests can find the objects in any order. Main chapters unlock by **distinct Favors earned**, not scans, invitations, votes or total points. All unlocked passages remain in the Chronicle and can be reread after closing. These thresholds are an initial pacing proposal; fourth/tenth-Favor Summons are required.
 
-| Trigger | Chapter | Guest-facing draft |
-|---|---|---|
-| Registration | I — The Court Wakes | “Tonight the Hollow Court has stirred. Its inhabitants are hidden around you. Find them. Learn what each demands. Win their Favor. The Court remembers those noticed by its creatures. It remembers other things as well.” |
-| 1 Favor | II — The First Witness | “One voice is easily mistaken. One Favor is not. The creatures rarely agree. Each recognizes something different in those who approach. Long ago, this was considered useful. The reason has been forgotten. Or merely withheld.” |
-| 3 Favors | III — The Gathering | “Cleverness alone is insufficient. Courage alone is insufficient. Beauty alone is certainly insufficient, though several members dispute this point. No single witness may decide what a person is. The Court prefers evidence.” |
-| 4 Favors | IV — The First Summons | “No court is built by those who arrive alone. Find someone here who has not yet entered. Bring them beneath the boughs.” |
-| 6 Favors | V — Borrowed Eyes | “The Court has many eyes, but few understand mortals. For that, it borrows yours. Some figures disappear into a room. Others become impossible not to notice. The Court is interested in the difference.” |
-| 8 Favors | VI — The Unspoken Place | “There are names for certain places within the Hollow Court that have not been spoken tonight. This is intentional. Old titles have weight. Some should not be spoken until someone can answer them.” |
-| 10 Favors | VII — The Second Summons | “Once may be chance. Twice establishes a following. Bring another name before the Court.” |
-| 12 Favors | VIII — The Testimony | “Marks have been given. Names have been carried through the doors. Judgments have passed from guest to guest. None were requested idly. When the final bell sounds, they will be counted.” |
-| All 15 Favors | IX — The Court Assembled | “You have stood before every creature willing to appear tonight. Keep what they have given you. The Court has no further test for you. When it closes, every Favor becomes testimony.” |
+The proposed triggers remain registration, 1, 3, 4, 6, 8, 10, 12 and all active entities (currently 15). The [current Chronicle passages](narrative-arc.md#chronicle--guest-facing-draft) replace the September 4 placeholder text. The story progresses from first recognition, through an unfinished record and invitations, to testimony awaiting the closing.
 
 The twelve-Favor chapter is a late-act beat, **not completion**. Completion uses all active entities, currently fifteen. A guest who completes the collection can still use an outstanding Summons, reread lore and check Standing. The finale is event-wide, including for guests who have not unlocked every chapter; it must explain itself without requiring completion.
 
@@ -108,15 +94,7 @@ Default opening: **October 31, 2026, 8 p.m. EDT**. Default closing: **November 1
 
 At close: stop new scoring and votes, finalize costume ranking, assign the bonus once, freeze a snapshot, then reveal to connected and returning guests. If scoring needs repair, hold the reveal until reviewed rather than publish a changing winner. Reopening after finalization requires an explicit admin procedure; a repeated timer event must not award another bonus.
 
-Finale draft, one short screen at a time:
-
-1. **THE COURT IS CLOSED.**
-2. **THE TESTIMONY HAS BEEN COUNTED.**
-3. “Tonight you were told to earn Favor. You were not told why.”
-4. “The Antler King's season ends tonight. The old law forbids the office from passing by blood, declaration or appointment. A successor must be recognized through testimony.”
-5. “Every creature you won was a witness. Every guest you summoned was another. Every choice before the Looking Glass became the testimony of the room. Tonight you performed the succession rite.”
-6. Reveal third place, then second, allowing for unresolved ties to be settled beforehand.
-7. **THE HOLLOW COURT HAS CHOSEN — [NAME], SOVEREIGN OF THE HOLLOW COURT.** Show portrait and collected sigils. “Step forward and be recognized.”
+The [current finale sequence and host script](narrative-arc.md#finale--the-name-the-wood-will-keep) reveal the old compact and explain each form of testimony before recognizing the Sovereign. They replace the earlier seven-screen draft. The result must use the finalized scoring and eligibility rules above; fiction does not add another election, require fifteen Favors or guarantee the physical crown to an absent/declining winner.
 
 The host gives a separate, photogenic crown, approximately $100. The host's fitted Antler King headpiece stays a separate costume item. No specific winner crown has been selected or ordered. Keep the ceremony short, avoid requiring a speech, and allow people to keep enjoying the party.
 

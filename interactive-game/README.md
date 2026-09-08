@@ -1,7 +1,7 @@
 # The succession of the Hollow Court
 [Project home](../README.md) · [Design task](design/README.md) · [Physical/NFC task](physical/README.md) · [App task](app/README.md)
 
-Status: Current design brief, September 4, 2026. Documentation only; website, puzzle bank, artwork and physical pilot not built by this update.
+Status: Rules documented September 4; expanded narrative treatment proposed September 8, 2026. Documentation only; website, puzzle bank, artwork and physical pilot not built by this update.
 
 Guests discover the secret through volunteer gossip. The site opens at **8 p.m. October 31**, collects name and costume selfie, recognizes returning guests, and sends them into an NFC hunt for the Court's Favor. Each solved entity earns one point and offers a pairwise costume judgment. Invitations unlock at four and ten Favors. At the adjustable closing time, default **2 a.m. November 1**, the site reveals the succession and the host awards a separate crown, approximately $100.
 
@@ -10,7 +10,8 @@ Guests discover the secret through volunteer gossip. The site opens at **8 p.m. 
 
 | Document | Purpose |
 |---|---|
-| [Narrative and game](design/narrative-and-game.md) | Current rules, mystery, chapters, Summons, voting, scoring and finale |
+| [A Name for the Hollow](design/narrative-arc.md) | Proposed story arc, Chronicle copy, fifteen character voices, Summons text and finale script |
+| [Narrative and game](design/narrative-and-game.md) | Current mechanics, story integration, progression, Summons, voting, scoring and finale gates |
 | [Selected puzzle families](design/puzzles.md) | Finalized fifteen: fourteen approved plus Unbroken Sigil provisional; deterministic generation, retry and distinction rules; no entity assignment |
 | [Physical entities](physical/entity-plan.md) | Fifteen-slot 5/5/5 plan, reuse, sourcing and build gates |
 | [Website brief](app/build-brief.md) | Requirements for a later Cloudflare implementation |

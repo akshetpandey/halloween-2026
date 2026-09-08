@@ -57,3 +57,13 @@ Existing WEB/NFC implementation and fabrication tasks remain future work. Docume
 ## September 8 — legacy NFC handoff reconciled
 
 NFC-HANDOFF-01 complete: [source and coverage review](physical/handoff-2026-09-08-nfc-reconciliation.md). Amazon/app research requested by the old chat was already persisted. No new scope or budget decision; existing prototype, revised sourcing and implementation tasks remain open.
+
+## September 8 — narrative treatment
+
+| ID | Task | Status |
+|---|---|---|
+| HC-NAR-01 | Develop the existing succession outline into a coherent mystery, character cast and guest copy | Draft complete — [A Name for the Hollow](design/narrative-arc.md); proposed, ready for host review |
+| HC-NAR-02 | Review the missing-name premise, compact, tone and fifteen candidate character voices | Ready to review — physical choices and puzzle assignments remain open |
+| HC-NAR-03 | Adapt approved character copy to tested puzzle/prop assignments, then rehearse the finale | Pending narrative review, PUZ-02/03 and physical roster review |
+
+The game brief and runbook link to the current narrative text. Existing scoring, Summons milestones, secrecy and physical scope are retained; no shared cost or scope decision changed. [Session handoff](design/handoff-2026-09-08-narrative.md). No code, artwork, purchase, deployment or playtest in this writing task.

@@ -1,8 +1,8 @@
 # Hollow Court — volunteer runbook
-Status: Working operational proposal, September 4, 2026. The [narrative/game brief](design/narrative-and-game.md) holds the current rules. This document is private to the host/helpers; succession remains off the invite.
+Status: Working operational proposal, September 4, with narrative/script links updated September 8, 2026. The [narrative/game brief](design/narrative-and-game.md) holds the current rules. This document is private to the host/helpers; succession remains off the invite.
 
 ## Private story
-The host is the outgoing Antler King. Guests' Favors, invitations and costume judgments form testimony for a successor, revealed only at closing. Volunteers know the ending and seed gossip without giving a full rules lecture or promising someone will win.
+Read the proposed [private story](design/narrative-arc.md#private-truth--host-and-helpers-only) and [optional characterful rumors](design/narrative-arc.md#rumors-and-the-antler-kings-behavior) in A Name for the Hollow before rehearsal. Volunteers know the ending and seed gossip without giving a full rules lecture or promising someone will win. The expanded fiction is ready for host review.
 
 ## Roles
 - **Rootkeeper's Witness:** starts rumors, demonstrates one NFC encounter and reminds guests that props stay in place.
@@ -53,9 +53,9 @@ For a guest without a usable phone, the separate helper-managed player-code conc
 Targets stay in public party areas, with no opening drawers, reaching into belongings, climbing or touching DJ/electrical equipment. The scored Moon Well checkpoint stays outside the bathroom; chocolates remain unscored gifts. Distinguish low-light tap marks from decoration and keep paths clear.
 
 ## Ceremony and failure handling
-Host line: “I have kept this wood through one long season. Tonight it remembered another name. Will you carry its crown until the next turning?”
+Use the proposed [finale and 60–90-second host script](design/narrative-arc.md#finale--the-name-the-wood-will-keep) after narrative review and result finalization. This replaces the earlier one-line ceremony draft.
 
-Use the separately purchased winner crown, roughly $100 target, not the host's fitted headpiece. Confirm presence/willingness without demanding a performance. Decide before the party whether an absent or declining winner keeps the recorded result while a different willing guest receives the physical honor. Tie ordering is a proposal in the game brief; do not replace it with a draw unless that is the agreed final tie step.
+Use the separate winner crown when acquired, roughly $100 target, not the host's fitted headpiece. Confirm presence/willingness without demanding a performance. Decide before the party whether an absent or declining winner keeps the recorded result while a different willing guest receives the physical honor. Tie ordering is a proposal in the game brief; do not replace it with a draw unless that is the agreed final tie step.
 
 If the site fails, preserve timed helper records and reconcile once while scores are held. If reliable competitive results cannot be recovered, say so and offer a clearly separate voluntary ceremonial draw or the [Last Leaf fallback](design/last-leaf-fallback.md). Never fabricate scores. The party continues even if the game pauses.
 

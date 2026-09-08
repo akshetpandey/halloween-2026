@@ -1,5 +1,5 @@
 # Task families
-Updated September 8, 2026. Start here after reading [AGENTS.md](../AGENTS.md). Use one session per outcome; related tasks share the family context below. This is the new navigation layer over existing canonical files, not a second set of plans.
+Updated September 8, 2026. Start here after reading [AGENTS.md](../AGENTS.md). Use one session per outcome; related tasks share the family context below. All agents use the shared canonical checkout on `main`, with no worktrees or task branches, and commit progress as they go. This is the new navigation layer over existing canonical files, not a second set of plans.
 
 | Family | Sessions / responsibilities |
 |---|---|

@@ -15,7 +15,10 @@ Session: Plan Samhain Halloween party (`01a06933-8c9a-72c3-992d-e1570b7d43c5`). 
 - Setup commit hash is reported in this session's final response and can be found with `git log`; this file is part of that commit.
 
 ## Next actions
-1. Start future file-writing sessions in the local repository, preferably separate worktrees for simultaneous editing, based on committed main.
+1. Start future file-writing sessions in the local repository, directly on `main` in the shared canonical checkout; no worktrees or task branches.
 2. If desired, send older sessions the prepared transition message in session-setup.md; reconcile missing context before retiring them.
 3. Launch game implementation separately using workstreams/interactive/implementation/README.md and the latest interactive-story docs.
-4. Integrate task commits so sibling worktrees receive shared decisions; defer large file moves until handoffs are settled.
+4. Commit progress as you go on shared `main`; defer large file moves until handoffs are settled.
+
+## Main-only workflow update
+User explicitly requested shared `main`, no worktrees, and commits as work progresses. Updated AGENTS.md, the session guide, application workspace guide and this handoff accordingly. Git is primarily a task/decision journal; polished history is unnecessary. Verification: local links and whitespace checks. The resulting commit is reported in the final response.

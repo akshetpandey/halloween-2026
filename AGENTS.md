@@ -1,7 +1,7 @@
 # Halloween 2026 — shared agent instructions
 
 ## Start every session
-- Work in this Git repository. Canonical checkout: `/Users/akshet/workspace/halloween-2026`; a Git worktree of this repository is also valid. Use paths relative to your checkout when editing so worktrees stay isolated.
+- Work in this Git repository. All agents work directly on `main` in the shared checkout `/Users/akshet/workspace/halloween-2026`. Do not create worktrees or separate task branches.
 - Read this file, `workstreams/README.md`, the chosen task's index and relevant current source docs. Check `git status --short` and your branch before editing.
 - Use a local Work/Codex session attached to this repo for file-writing tasks. Project membership or an AGENTS.md file does not grant filesystem permissions. If tools cannot write here, report that explicitly and provide a handoff; never claim files were saved.
 - Do not use the old `.codex/.chatgpt-projects/...` mirror or a projectless output directory as the planning source of truth.
@@ -28,8 +28,8 @@
 
 ## Working across sessions
 - Use one session per distinct deliverable; sibling tasks share the family index in `workstreams/`. Check sibling decisions before changing shared assumptions.
-- Prefer a separate Git worktree for concurrent edits, especially game code. Commits in another worktree are not automatically in main: coordinate integration and record branch/commit in handoffs.
-- If explicitly working in the shared checkout, keep file ownership narrow and serialize edits/commits touching shared indexes, budget or decision log. Re-read those files immediately before editing.
+- All sessions, including game implementation, use the shared checkout on `main`. Keep edits scoped to the task and re-read shared files immediately before changing them.
+- Keep Git staging and commits brief and avoid simultaneous Git operations; check the staged diff for another session's changes before committing.
 - Preserve other sessions' edits. Do not use blanket `git add .`, reset, clean, force-push or amend someone else's commit. Stage named paths or your own hunks and inspect the staged diff.
 - Prefer purpose-built MCP/API/CLI tools to computer-use automation. Discover currently available tools before assuming a connector cannot write.
 - Do not send messages to other people or sessions, create tasks, archive sessions or buy items without the applicable user authorization. Draft handoffs are fine; ordinary local planning edits need no extra approval.
@@ -43,7 +43,8 @@
 - Keep secrets, guest selfies, guest identities and production NFC claim tokens out of Git. Commit schemas and sanitized examples; choose runtime storage during implementation.
 
 ## Git requirement — every write task
-- Commit your file changes before ending every task/turn that modifies this repository, including documentation and assets. Read-only work needs no empty commit.
+- Commit as you go at meaningful progress points, including documentation, assets and partial plans; commit remaining changes before ending any writing turn. Read-only work needs no empty commit.
+- Git primarily tracks tasks, decisions and thought process. Simple descriptive checkpoint commits are sufficient; polished history, rebasing and squashing are unnecessary.
 - Make a focused descriptive commit, review `git diff --cached`, and run relevant verification first. For docs check links and `git diff --check`; for code run the checks appropriate to the actual stack/change.
 - If changes overlap someone else's uncommitted work, isolate your hunks or coordinate before committing; never claim their work as yours. Report a real commit blocker rather than bypassing it or leaving an unexplained dirty state.
-- Report commit hash and checks in the final response. A local commit is not a push; push/integration follow the user's task authorization.
+- Report commit hash and checks in the final response. A local commit is not a push; pushing follows the user's task authorization.

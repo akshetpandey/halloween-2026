@@ -6,12 +6,12 @@ Use the local project **halloween-2026**, id `2b6cf58d-84d8-4a6b-b8c7-23c83af32a
 
 The exposed app tools do not offer a project-wide force-Work setting or an in-place conversion of all ChatGPT chats to local Codex tasks. No such setting was changed. Start future file-writing sessions using Work/Codex from the local project with this folder primary. Work mode by itself does not attach a local folder; AGENTS.md does not grant sandbox permissions. Verify the working directory and read AGENTS.md at session start.
 
-Official docs: [Projects and chats](https://learn.chatgpt.com/docs/projects) distinguish local folder access from ChatGPT project sources and document Make primary under Edit project. [Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) isolate concurrent tasks. [AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) provides durable instructions. These pages do not establish a supported project-wide Work-only lock.
+Official docs: [Projects and chats](https://learn.chatgpt.com/docs/projects) distinguish local folder access from ChatGPT project sources and document Make primary under Edit project. [AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) provides durable instructions. These pages do not establish a supported project-wide Work-only lock.
 
 ## Concurrent work
-Recommended: one local Work/Codex task per deliverable, each on a separate Git worktree when editing concurrently. Start from main after both September 8 setup commits. Commits must be integrated before another worktree can rely on them; shared filesystem permission is not shared Git branch state. If using the main checkout directly, assign nonoverlapping files and serialize shared-file edits and Git staging/commits.
+User decision, September 8: all agents work directly on `main` in `/Users/akshet/workspace/halloween-2026`, including game code. Do not create worktrees or task branches. Use one session per deliverable, keep file edits scoped, and re-read shared files before changing them. Keep Git staging/commits brief and avoid simultaneous Git operations. Commit meaningful progress as you go and remaining changes before finishing. This repository tracks tasks and thought process; polished history is not important.
 
-The initial setup checkpoint `43142fb` preserves 32 previously uncommitted planning files, including the latest game design. This is a preservation commit, not new approval of every proposal. The next setup commit adds AGENTS.md and this navigation.
+The initial setup checkpoint `43142fb` preserves 32 previously uncommitted planning files, including the latest game design. This is a preservation commit, not new approval of every proposal. Setup commit `7efa2cb` adds AGENTS.md and this navigation. The subsequent main-only workflow update supersedes the initial worktree recommendation.
 
 ## Existing sessions, read-only inventory
 | Exact session title | ID | Observed context | Suggested action |
@@ -30,6 +30,6 @@ No messages sent, no sessions moved or archived. “Not loaded” is not evidenc
 Please wrap up this session for the Halloween 2026 repository transition. Read `/Users/akshet/workspace/halloween-2026/AGENTS.md` and `workstreams/README.md` if you have access. Reconcile this conversation against the current task files; preserve any missing confirmed decisions, proposals, sources and next steps in a task-local handoff using `coordination/handoff-template.md`. Do not overwrite newer decisions with older ideas. Commit only your changes, report the branch and commit hash and any remaining files, then stop work so the next session can continue. If you lack filesystem access, output a complete copyable handoff and state that nothing was saved. Do not start new design work or archive yourself automatically.
 
 ## Starter for a new task
-Work on [specific outcome] in the local halloween-2026 Git project. Read AGENTS.md, workstreams/README.md, the relevant family/task index and any handoff before editing. Use the current committed design, keep sibling dependencies explicit, persist the result and commit your changes before finishing.
+Work on [specific outcome] directly on `main` in `/Users/akshet/workspace/halloween-2026`; do not create a worktree or task branch. Read AGENTS.md, workstreams/README.md, the relevant family/task index and any handoff before editing. Use the current committed design, keep sibling dependencies explicit, persist progress and commit as you go, including remaining changes before finishing.
 
 For game code use the interactive/implementation index and apps/hollow-court. The user plans to launch this task separately; no implementation task was created by the setup work.

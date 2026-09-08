@@ -1,68 +1,63 @@
-# The last reign • volunteer story draft
-All times below are proposed, in America/New_York. Keep the story off the invite.
+# Hollow Court — volunteer runbook
+Status: Working operational proposal, September 4, 2026. The [narrative/game brief](09-hollow-court-narrative-and-game.md) holds the current rules. This document is private to the host/helpers; succession remains off the invite.
 
-## The whole story, in one sentence
-“The Antler King’s season is ending; the forest will name the next ruler through hidden witnesses.”
+## Private story
+The host is the outgoing Antler King. Guests' Favors, invitations and costume judgments form testimony for a successor, revealed only at closing. Volunteers know the ending and seed gossip without giving a full rules lecture or promising someone will win.
 
 ## Roles
-- **The Rootkeeper’s Witness:** starts rumors, shows one example scan and explains that objects stay in place.
-- **The Keeper of the Moon:** gives hints, helps with phones and records paper claims if needed.
-- **The Herald** (optional third volunteer): announces the cutoff quietly and helps gather the willing finalists.
+- **Rootkeeper's Witness:** starts rumors, demonstrates one NFC encounter and reminds guests that props stay in place.
+- **Keeper of the Moon:** helps with controls, identity and phones without revealing puzzle solutions, and records assistance against the correct guest account.
+- **Herald**, optional third helper: relays the current closing time, checks finalist availability and assists the crown handoff.
 
-No one needs an accent, elaborate acting or a separate costume. A matching ribbon or small charm connects the helpers. Budget 30–45 minutes of active help per main volunteer, spread across the evening; the host remains free to host.
+Propose two main volunteers with 30–45 minutes of active help each across the night. Assign actual people later. A ribbon/charm may identify helpers; no acting voice or separate elaborate costume is required.
 
-## Private instructions for helpers
-The real rules should be clear once a guest opts in: one point per distinct totem; no taking/hiding props; ordinary public party areas only; cutoff time; tie rule. The mystery is where the objects are and what they mean, not confusing scoring.
+## Gossip and practical lines
+**Rumor:** “Apparently something happens with the Hollow Court late tonight.”
 
-Demonstrate tapping a phone to the small moon mark immediately beside or below a bark spirit, then opening the notification and claiming the mark on the website. There are no QR codes. Offer quiet help if their phone cannot read it. They can ignore the hunt, or read lore without entering the competition.
+**Stronger rumor:** “I heard they're choosing somebody. There may even be a real crown.”
 
-## Suggested beats
+**Invitation:** “Some of the creatures here are awake. Find one and see what it asks of you.”
+
+**Demonstration:** “Leave the creature where it lives. Hold the top of your phone near its little moon, open the notification, and solve its challenge. The Court will remember you when you return.”
+
+**Summons help:** “Your invitation is waiting on the home page. Show it to someone here who hasn't joined yet. You can come back to it later.”
+
+Do not announce definitive succession instructions, the costume-bonus size or tie-break details as gossip. Be truthful if asked about practical scoring; explain points without revealing what the final ceremony means. Never demand participation or pressure someone to upload a photo.
+
+## The mechanics helpers must know
+- Fifteen entities: five decor integrations, five bought figures and five homemade figures. The [roster](11-physical-entity-plan.md) is provisional; names and exact locations follow later.
+- Scanning discovers a puzzle. A valid solution earns one Favor/point per entity, once. There are no hints; retries are unlimited. Helpers may explain controls or phone use without solving the puzzle for the guest.
+- After each new Favor, the site offers two other guests' costume selfies for one quick choice. Voting does not itself add a Favor. Missing eligible pairs must not block progress.
+- Fourth and tenth Favors unlock a Summons. Under the working proposal each is single-use and awards one point after a new guest completes registration. Existing players do not qualify.
+- The public leaderboard shows Favor plus successful Summons. The top costume's three-point bonus is applied at close. Working final maximum: twenty.
+- Guest-facing lore never explicitly reveals the succession until the finale. Reread unlocked story in the Chronicle.
+
+## Timing proposal — America/New_York
 | Time | Action |
 |---|---|
-| 10:00–10:30 p.m. EDT Oct 31 | Seed small rumors without asking the whole room to stop |
-| 10:30 p.m. EDT | Open claims; first volunteer demonstrates one nearby totem |
-| 11:30 p.m. EDT | Give helpful hints to interested guests who are stuck |
-| 12:15 a.m. EDT Nov 1 | Quietly remind players the count closes in 15 minutes |
-| 12:30 a.m. EDT | Close competitive claims on server; helpers resolve already-recorded fallback claims |
-| 12:45 a.m. EDT | 60–90-second coronation; music keeps moving and guests need not assemble |
+| Before Oct 31, 8 p.m. EDT | Site sealed, cryptic message and Partiful invitation QR/link; helpers briefed privately |
+| Oct 31, 8 p.m. EDT | Website opens automatically; this is not the party door time |
+| Around proposed 9:30 p.m. EDT doors | Seed rumors through normal conversation; demonstrate when a guest is interested |
+| Throughout the night | Control/phone help, invitations, occasional checks for queues or damaged targets |
+| Nov 1, 1:45 a.m. EST | Proposed fifteen-minute reminder, only if closing remains 2 a.m. EST |
+| Nov 1, 2 a.m. EST | Stop scoring/votes; finalize ranking and snapshot; resolve any remaining tie/review gate |
+| Immediately after results are ready | Site finale, then a short physical crowning; no demanded speech |
 
-These happen before the repeated 1 a.m. hour on daylight-saving night. Late arrivals can still discover lore after the competition, with the site clearly showing “the crown has been chosen.” Confirm whether that is fair enough for the host’s expected arrivals before choosing these times.
+New York clocks roll back before the proposed closing. Use the **second 1:45 a.m., EST**, for the reminder. If the host extends closing, update the reminder and tell helpers the new date/time. The old 10:30 opening, 12:30 cutoff and 12:45 coronation are historical, not additional cues.
 
-## Lines to borrow
-**Rumor:** “Have you noticed the king’s veil? They say he cannot wear it past the turning.”
+## Assistance and boundaries
+Use the existing [phone pilot guidance](01-phone-and-nfc-feasibility.md). No entity QR fallback. Invitation QRs on the site are intentional and separate. A helper may assist a guest through their assigned puzzle and record a witnessed completion in an authenticated helper view against that guest's player ID. Do not award the helper or treat mere discovery as a solved puzzle. Repeat/helper submissions share the same one-Favor rule.
 
-**Invitation:** “The old king has hidden witnesses in the house. Find their marks and the forest may remember your name. Would you like to try?”
+For a guest without a usable phone, the separate helper-managed player-code concept remains available, but participation without a selfie and costume-vote eligibility need an explicit rule before build. Do not invent a photo or silently submit someone to the contest. Paper records should identify the player, entity, completion time and helper; enter each once before finalization. Do not keep changing scores after crowning.
 
-**Practical explanation:** “Leave each object where it is. Hold your phone near its little moon mark, open the notification, then claim it on the page. Each different witness counts once. We count the marks at half past midnight.”
+Targets stay in public party areas, with no opening drawers, reaching into belongings, climbing or touching DJ/electrical equipment. The scored Moon Well checkpoint stays outside the bathroom; chocolates remain unscored gifts. Distinguish low-light tap marks from decoration and keep paths clear.
 
-**Hint:** “The raven keeps company with what the king has already lost.”
+## Ceremony and failure handling
+Host line: “I have kept this wood through one long season. Tonight it remembered another name. Will you carry its crown until the next turning?”
 
-**Coronation, host:** “I have kept this wood through one long season. Tonight it remembered another name. Will you carry its crown until the next turning?”
+Use the separately purchased winner crown, roughly $100 target, not the host's fitted headpiece. Confirm presence/willingness without demanding a performance. Decide before the party whether an absent or declining winner keeps the recorded result while a different willing guest receives the physical honor. Tie ordering is a proposal in the game brief; do not replace it with a draw unless that is the agreed final tie step.
 
-If the winner declines, offer the honor to the next willing top scorer. If tied, draw a leaf bearing one of the tied names. Avoid a surprise public speech demand.
+If the site fails, preserve timed helper records and reconcile once while scores are held. If reliable competitive results cannot be recovered, say so and offer a clearly separate voluntary ceremonial draw or the [Last Leaf fallback](last-leaf-fallback.md). Never fabricate scores. The party continues even if the game pauses.
 
-## Initial ten story marks; final count 10–15
-Placement is provisional until room photos. Latest option: 10–15 handmade bark spirits with separate nearby moon-covered NFC tags; twelve is a planning midpoint. The ten names below are starting lore, not a fixed count. Add names such as Moss, Hollow, Rain, Dusk and Ash as needed. [Current build brief](06-bark-spirits-and-moon-touchpoints.md).
-
-| Mark | Object / placement idea | One-line memory |
-|---|---|---|
-| Raven | Small skull beside the stable forest display | “The crown hears what the ravens keep.” |
-| Antler | Painted antler symbol on the Rootkeeper’s side panel | “A branch can bear a crown.” |
-| Moon | Token below the moon image, at reachable height | “Even kings borrow their light.” |
-| Root | At the edge of the sculptural branch arrangement | “What stands tall owes a debt below.” |
-| Last Leaf | Leaf symbol near the autumn garland | “The last to fall is not the first forgotten.” |
-| Ember | Beside an LED lantern, away from heat/power leads | “Warmth outlives the flame.” |
-| Well | Outside the bathroom door, not inside the bathroom | “Still water keeps no titles.” |
-| Thorn | Small textured token on a public wall display | “Every crown asks its price.” |
-| Seed | Beside a pumpkin or harvest tray | “Every ending keeps something small.” |
-| Veil | A ribbon/token on the DJ facade edge, away from controls | “What is hidden may still be found.” |
-
-Spread traffic between public room edges. Never hide anything in drawers, medicine storage, coats, bedding, electrical gear, drinks, or behind furniture. Guests should not climb, crawl or dismantle scenery. Mark boundaries verbally when they join.
-
-## Scoring proposal
-Each active spirit gives one possible point; the total equals the final active count (10–15 proposed). Highest count at cutoff wins. No speed bonus and no points for rescanning. Helpers can supply hints without point penalties. Multiple players finding every spirit is expected; the random draw among tied, willing, present leaders is part of the ceremony, not a software failure.
-
-Use a private personal progress page rather than a constantly visible public leaderboard. That keeps the attention on exploring and talking, and permits a modest reveal at the end. The host/admin still sees the scores.
-
-## If the technology fails
-The helpers accept a paper list of found symbols and reconcile it with any recorded digital finds; each symbol can still count only once. If the count cannot be trusted, abandon competitive scoring openly and let willing participants enter a ceremonial draw. The party continues normally. Do not invent a winner from fabricated scores.
+## Earlier material retained
+The [previous runbook](history/2026-09-04-before-hollow-court/interactive-story__02-volunteer-runbook.md.txt) preserves all ten original marks, their one-line memories, earlier host script, staffing and failure notes. Those names can inspire the new roster, but crown-revealing lines must be reserved for private/finale use. They are not fifteen finalized entities or puzzle assignments.

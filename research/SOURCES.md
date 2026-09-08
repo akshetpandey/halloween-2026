@@ -148,3 +148,23 @@ Rights: copyrighted reference material; no redistribution license inferred. Cost
 - [Adafruit tag prototype](https://www.adafruit.com/product/4033) and [vendor ten-pack example](https://www.yarongtech.com/products/nfc-ntag213-sticker-tag-work-for-samsung-galaxy-s4-s5-and-all-nfc-phone-10): product references only; current delivery and purchase total not verified.
 
 [Full feasibility analysis](../interactive-story/01-phone-and-nfc-feasibility.md). Architecture, score rules, totem lore, budget allowances and timing are original planning proposals. No code deployment, tag programming, physical compatibility test or order occurred.
+
+## September 4 • NFC programming and Amazon witnesses
+
+Retailer detail pages checked September 3–4 through Amazon's visible UI, US marketplace / Brooklyn 11211 display; selected variant prices exclude tax/shipping. Exact links, contents/dimensions, conflicts and check-time delivery estimates are recorded in [NFC sourcing](../interactive-story/07-amazon-figurines-and-tags.md). No cart changes or orders.
+
+- [BABIQT B07PFC2FH5](https://www.amazon.com/dp/B07PFC2FH5): 30 mm / 30 nonadhesive NTAG215 coins, $9.50; PVC and permanent-lock claim. Listing's “504 bytes NDEF memory” wording corrected using NXP.
+- [Timeskey B07K6H6K43](https://www.amazon.com/dp/B07K6H6K43): white 25 mm / 20 NTAG213 stickers, $9.99; paper/PET inconsistency and garbled locking text flagged.
+- [PATIKIL B0BZ4TGZJM](https://www.amazon.com/dp/B0BZ4TGZJM): black 30 mm / five NTAG213 stickers, $9.99; byte/bit copy conflict and limited stock flagged.
+- [UANDME B085G48BNK](https://www.amazon.com/dp/B085G48BNK): $20.99 ten-pack; individual dimensions and contents from product description, not package dimensions.
+- [Safari raven B00H8ZUALE](https://www.amazon.com/dp/B00H8ZUALE): $7.99, 3 in long × 2 in tall.
+- [Safari barn owl B00B3YHGJA](https://www.amazon.com/dp/B00B3YHGJA): $7.99, 2.75 in tall, PVC; foot span not published.
+- [Toymany B07KF9M9BH](https://www.amazon.com/dp/B07KF9M9BH): $29.99, selected North American Animals twelve-pack; solid PVC and listed species verified, individual base fit unverified.
+- [NFC Tools US App Store](https://apps.apple.com/us/app/nfc-tools/id1252962749): wakdev, free + optional $3.99 Pro, iOS 15.6+, iPhone 7 onward. Paid/free feature boundary not tested.
+- [Wakdev iOS capabilities](https://www.wakdev.com/en/apps/nfc-tools-ios.html) and [release notes](https://www.wakdev.com/en/apps/nfc-tools-ios/release-notes.html): iPhone URL writing and locking; NTAG213/215 tested; NTAG21x lock fixes.
+- [Wakdev URL-writing guide](https://www.wakdev.com/en/knowledge-base/how-to-guides/how-to-write-a-link-url-on-an-nfc-chip.html) and [permanent-lock guide](https://www.wakdev.com/en/knowledge-base/how-to-guides/how-to-lock-an-nfc-chip.html): user-facing procedure and irreversible warning.
+- [Apple background NFC reading](https://developer.apple.com/documentation/CoreNFC/adding-support-for-background-tag-reading): iPhone XS onward and device-state conditions.
+- [Apple writeLock](https://developer.apple.com/documentation/corenfc/nfcndeftag/writelock(completionhandler:)): compatible NDEF read-only operation.
+- [NXP family](https://www.nxp.com/products/NTAG213_215_216) and [data sheet](https://www.nxp.com/docs/en/data-sheet/NTAG213_215_216.pdf): 144/504-byte user memory and irreversible lock bits; these are chip capabilities, not proof of a marketplace item's authenticity.
+
+No physical scan range, glue/paint compatibility, tag antenna size or figure cavity was established. Proposed base geometry, creature mapping, $100 envelope and sample sequence are planning judgments. Amazon search snippets from aggregators were not used as current USD price evidence.

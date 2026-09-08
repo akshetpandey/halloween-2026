@@ -1,4 +1,6 @@
 # Budget, sourcing and purchase ledger
+
+**Current story budget scope • September 4:** The [15-entity 5/5/5 plan](interactive-story/11-physical-entity-plan.md) supersedes the earlier story mixes and their estimates below. Re-cost five purchased figures, five homemade stick/straw figures and fifteen NFC targets plus spares/mounts. Reuse existing decor budgets; charge only incremental integration here. Winner crown: separate approximately **$100 host target**. Hosting/domain separate. No revised delivered total or spending commitment yet.
 Updated September 3, 2026. Host range: $1,000–$3,000 including drinks.
 **Recommended working target: $1,800**, not yet host-approved as a spending commitment.
 
@@ -115,3 +117,18 @@ Latest proposed allowance $60–$100 for 10–15 handmade spirits, tags/spares, 
 No approved increase: adding Oasis, RGB wash, new shaded lamp and living-room moon can exceed earlier $200–$400 lighting envelope if all bought. First test owned LIFX and one Oasis unit; choose needed purchases after coverage/brightness test. Moon provisional $40–$80, exact offer pending. Premade sticker sourcing replaces vinyl rolls; no cart changes.
 
 [Lighting details](lighting/05-purple-grove-and-glowing-moon.md) · [Premade sticker sourcing](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+
+## Bedroom draping shortlist • September 4
+Draping sample estimated $45.66–$49.66 before tax/shipping with new clips, or $42.66 using owned clips. Cloth $22.80 plus six hooks $19.86. Not approved spend; part of existing drapes/mounting allocation if selected, not an additional category. [Sample basket and sizing](bedroom-draping/02-shopping-and-sample.md).
+
+## September 4 • verified Amazon NFC basket
+
+[Detailed sourcing and calculation](interactive-story/07-amazon-figurines-and-tags.md): UANDME ten-pack $20.99 + Safari raven $7.99 + barn owl $7.99 + BABIQT 30 mm NTAG215 30-pack $9.50 = **$46.47 before tax/shipping**. Product pages checked September 3–4. Twelve-witness proposal uses eight of the ten pack animals, the two birds and two handmade spirits; ten active figures are bought. Thirty tags include a sacrificial locking test and spares. Alternative Timeskey 25 mm NTAG213 20-pack is $9.99; substitute, do not add both.
+
+**Proposed $100 prop envelope:** $46.47 quoted components + $30 estimated bases/two handmade spirits/shared finish materials + $10 estimated premade moon/backing labels + $13.53 tax/shipping/price buffer. Exact craft/marker products and delivery total pending. This replaces the prior $50–$85 figurine and $60–$100 bark-spirit proposals; those alternatives are not cumulative. If adopted in the original $1,800 table, story materials change $20 → $100 and original contingency $240 → $160, before other proposed reallocations. The headline table remains the unapproved baseline; consolidate bathroom/lighting/floor proposals before committing purchases.
+
+NFC Tools by wakdev: free iPhone download, optional $3.99 Pro shown in the [US App Store](https://apps.apple.com/us/app/nfc-tools/id1252962749). No paid upgrade assumed necessary or purchased; any selected upgrade uses existing software allowance. Crown/prize and domain/hosting are outside this prop estimate. Optional first sample is tag pack + raven = $17.49 before tax/shipping using an owned base; do not assume free shipping below its qualifying threshold. All actual spend remains $0 for this work; no cart changes.
+
+## Hollow Court cost revision pending • September 4
+
+The old $100 prop envelope was for a different mix and is not a verified budget for fifteen entities. Keep its product evidence and arithmetic as history. The five decor anchors reuse moon/tree/guardian/Well/wood-skull workstreams; do not charge whole installations twice. Reconcile incremental NFC/mounting supplies, five selected purchased figures, five homemade figures and the separate approximately $100 winner crown within the overall party ceiling. [Current scope and sourcing gates](interactive-story/11-physical-entity-plan.md). No new prices verified, no purchases or cart changes.

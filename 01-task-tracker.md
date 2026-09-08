@@ -1,4 +1,6 @@
 # Task tracker and timeline
+
+**September 4 interactive scope:** [Current story tracker](interactive-story/04-task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. Narrative and fifteen puzzle-family proposals are documented; playtesting, shopping and application implementation remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.
 
 | ID | Task / deliverable | Priority | Owner | Target | Status | Depends on |
@@ -22,7 +24,7 @@ Updated September 3, 2026. Event October 31. Owners below are proposed roles, no
 | VID-01 | Watch shortlisted clips muted; assemble 45–60 minute loop | P1 | Visuals helper | Oct 4 | To do | TV/player capability |
 | PROP-01 | Build guardian bust and stability test | P1 | Build helper | Oct 11 | To do | SET-02 |
 | INV-04 | RSVP review; adjust staggered-arrival guidance | P0 | Host | Oct 11 | To do | INV-03, OPS-02 |
-| NAR-01 | Decide whether to run 3-beat story | P2 | Host | Oct 11 | Ready to review | Volunteer availability |
+| NAR-01 | Preserve Last Leaf as paper-only fallback | P2 | Host | Oct 11 | Fallback — Hollow Court is active design | Volunteer availability |
 | BUY-01 | Buy remaining nonperishables | P0 | Host | Oct 18 | To do | Inventory, quantities |
 | AUD-04 | Full-duration audio, TV and lighting rehearsal | P0 | Host + helper | Oct 18 | To do | AUD-03, VID-01, LGT-01 |
 | OPS-03 | Neighbor message and volume trial | P0 | Host | Oct 24 | To do | Final hours, audio |
@@ -149,3 +151,31 @@ Latest host option: 10–15 handmade bark spirits with separate moon-covered NFC
 Current work: premade moon-sticker sample/delivery validation; LIGHT-LR-11–14 cover owned LIFX purple test, Oasis low-output test, lunar fixture selection and coverage/scene setup. No hardware tested or bought.
 
 [Lighting details](lighting/05-purple-grove-and-glowing-moon.md) · [Premade sticker sourcing](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+
+## No curtain rods • September 3
+Host confirms no curtain rods and proposes black velvet cloth/felt on walls. Recommend testing separate lightweight cloth panels with fabric clips and surface-compatible removable hooks; no adhesive directly onto fuzzy fabric. Wall finish and dimensions still needed. [Draping plan and DRAPE-01–05 tasks](bedroom-draping/README.md). No installation or purchase completed.
+
+## Mounting clarification: direct tape • September 3
+Host explicitly means bulk black cloth/velvet taped directly to the walls. This replaces the hook-and-clip recommendation as the active approach. Select lightweight cloth/velour and test tape grip plus removal on the actual wall before buying full coverage; no tape SKU verified yet. [Current draping plan](bedroom-draping/README.md).
+
+## Latest mounting clarification • September 3
+Host also accepts hooks + fabric. Both hooks/clips and direct tape are allowed; tape is not exclusive. Preferred full-height-panel proposal: bulk lightweight black fabric clipped to suitable hooks, no rods required. Surface and load checks remain pending. [Draping plan](bedroom-draping/README.md).
+
+## Bedroom draping shortlist • September 4
+DRAPE sourcing progressed: exact duvetyne and hook SKUs/prices saved, with one-panel sample basket and yardage formula. DRAPE-01 measurements/surface and DRAPE-03 physical trial remain pending; no purchases/tests completed. [Sample basket and sizing](bedroom-draping/02-shopping-and-sample.md).
+
+## September 4 • NFC sourcing and finalization
+
+| Task | Status | Next step |
+|---|---|---|
+| NFC-SOURCE-01 — Amazon tag and figurine shortlist | Done — verified listings/prices, no purchases | [Compare pack contents and base fit](interactive-story/07-amazon-figurines-and-tags.md) |
+| NFC-DOC-01 — iPhone programming and permanent locking procedure | Done — documented, not physically tested | [NFC Tools checklist](interactive-story/08-iphone-programming-and-locking.md) |
+| FIG-MIX-01 — Select pieces within 15-entity 5/5/5 target | Ready to review | Count/split requested; exact figures, two decor anchors and revised cost remain open |
+| NFC-WRITE-01 / NFC-02 — Prototype and phone tests | To do | One reversible finished target; two iPhones + Android; spare-tag locking rehearsal |
+| NFC-FINAL-01 / NFC-LOCK-01–02 — Final URLs, permanent lock and verification | To do | Website tests first; record each tag's read-only status and post-lock scan |
+
+Use the [story tracker](interactive-story/04-task-tracker.md) for dates/dependencies. Prior bark-only fabrication is an alternative, not an additional batch. Nothing purchased, encoded or locked in this sourcing update.
+
+## Hollow Court design integrated • September 4
+
+HC-DOC-01/02 and PUZ-01 are **Done — documentation only**: current narrative/rules, fifteen-entity roster and fifteen unassigned puzzle families saved, with fourteen approved and Unbroken Sigil provisional pending touch testing. Next: PUZ-02 samples/playtesting, FIG-MIX-02 decor review, FIG-SOURCE-02 sourcing/re-costing, CROWN-01 approximately $100 winner crown and RULE-01 rule decisions. [Detailed statuses](interactive-story/04-task-tracker.md). No app code, purchase, artwork generation or tag programming in this update.

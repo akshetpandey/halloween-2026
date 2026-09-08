@@ -1,4 +1,6 @@
 # Halloween 2026 • planning home
+
+**Latest interactive update • September 4:** [Hollow Court game and narrative](interactive-story/09-hollow-court-narrative-and-game.md) now documents the 8 p.m. opening, name/selfie accounts, puzzles, invitations, costume voting, live podium and adjustable 2 a.m. finale. Target **15 entities: 5 decor + 5 purchased + 5 homemade stick/straw**. [Selected puzzle families](interactive-story/10-puzzle-design-proposals.md): fourteen approved plus Unbroken Sigil provisional · [Physical roster](interactive-story/11-physical-entity-plan.md). Older interactive updates below are retained history; twelve-piece/all-bark mixes and blanket “no QR” wording are superseded. Physical checkpoints remain NFC-only; website invitation QRs are requested. No application code implemented.
 Updated September 3, 2026. Working title: **The Hollow Court** (proposal).
 
 ## Confirmed brief
@@ -40,7 +42,7 @@ Three linked spaces: **The October Grove → The Hollow → The Moon Well**. Aim
 | Cocktails and service | [10 • Drinks](10-drinks.md) | Two original test recipes ready |
 | Food and supplies | [11 • Hospitality](11-food-and-house-supplies.md) | Scaling plan ready |
 | Bathroom | [12 • Moon Well](12-bathroom.md) | Build brief ready |
-| Interaction and story | [13 • Narrative](13-narrative.md) | Optional script ready |
+| Interaction and story | [13 • Narrative](13-narrative.md) | Hollow Court arc, 15 entities and selected puzzle families ready for prototyping |
 | Decor purchase links | [20 • Shopping list](20-decor-shopping-list.md) | 25 products; 3 wood/skull items in cart, no purchases |
 | Sourcing and budget | [14 • Budget](14-budget-and-sourcing.md) | $1k/$1.8k/$3k scenarios ready |
 | Layout, sound and access | [15 • Apartment operations](15-apartment-operations.md) | Photo checklist ready |
@@ -97,3 +99,10 @@ Interaction correction: **NFC creature figurines, no QR codes**. [Physical build
 Current living-room refinement: glowing moon + dim purple wash; Oasis acceptable subject to very-low-brightness verification. NFC moon covers must be premade stickers.
 
 [Lighting details](lighting/05-purple-grove-and-glowing-moon.md) · [Premade sticker sourcing](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+
+## No curtain rods • September 3
+Host confirms no curtain rods and proposes black velvet cloth/felt on walls. Recommend testing separate lightweight cloth panels with fabric clips and surface-compatible removable hooks; no adhesive directly onto fuzzy fabric. Wall finish and dimensions still needed. [Draping plan and DRAPE-01–05 tasks](bedroom-draping/README.md). No installation or purchase completed.
+
+## Earlier September 4 • NFC sourcing history
+
+[Amazon figures and NFC tags](interactive-story/07-amazon-figurines-and-tags.md) now has verified product links, prices, sizes and a proposed 10-bought/2-made mix. Core components $46.47; $100 total prop envelope proposed. [iPhone programming and permanent locking](interactive-story/08-iphone-programming-and-locking.md) covers test-before-lock and post-lock verification. Earlier all-bark/separate-moon format remains an alternative; final format/count pending. Nothing purchased, encoded or locked.

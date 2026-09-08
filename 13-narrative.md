@@ -1,23 +1,26 @@
-# Optional narrative • choosing the next king
-Status: Host-proposed direction; research and scripts ready for review. Implementation not started. Priority P2.
+# The Hollow Court — secret succession
+Status: Current design documented September 4, 2026; narrative and selected puzzle families ready for prototyping. No application implementation. Participation remains optional; room setup and music retain priority.
 
-The host’s new direction is **succession of the Antler King**: volunteers reveal the story through conversations/actions, guests discover hidden totems, and the most distinct finds can earn the next crown. **This storyline stays off the invite.**
+At 8 p.m. the Court awakens. Guests enter a name and costume selfie, then discover physical entities through NFC, solve short individual puzzles and earn Favor. At the finale they learn that their exploration, invitations and costume judgments formed a succession rite. The host crowns the Sovereign of the Hollow Court. **The succession stays off the invite and spreads through volunteer gossip.**
 
-## Working proposal
-Latest option: 10–15 handmade bark spirits with separate moon-covered NFC URL tags immediately below/beside them; twelve is a planning midpoint. No QR codes; helper-assisted claims are the proposed exception for unsupported phones. Each guest gets one point per distinct totem, tracked by a custom mobile website. No guest app installation. Highest count wins; ties settled by a ceremonial draw among willing present leaders. Around 12:45 a.m., the host offers a separate simple crown or medallion.
+The active target is **15 entities: 5 decor-integrated, 5 purchased figures (Amazon preferred), and 5 homemade stick/straw figures with colors**. The moon light, golden tree and giant DJ guardian are the three host-named decor anchors; two more integrations are proposed for review.
 
-[Full story folder](interactive-story/README.md) · [Phone feasibility](interactive-story/01-phone-and-nfc-feasibility.md) · [Volunteer runbook](interactive-story/02-volunteer-runbook.md) · [Website brief](interactive-story/03-website-build-brief.md) · [Task tracker](interactive-story/04-task-tracker.md)
+## Current planning documents
+- [Story index and decisions](interactive-story/README.md)
+- [Narrative arc, chapters, scoring and finale](interactive-story/09-hollow-court-narrative-and-game.md)
+- [Fifteen selected puzzle families, not yet assigned](interactive-story/10-puzzle-design-proposals.md)
+- [Physical roster and preparation plan](interactive-story/11-physical-entity-plan.md)
+- [Website requirements for later implementation](interactive-story/03-website-build-brief.md)
+- [Volunteer runbook](interactive-story/02-volunteer-runbook.md) and [task tracker](interactive-story/04-task-tracker.md)
 
-## Main constraint
-Ordinary NFC URLs can be copied/shared. The website can reject rescans but cannot prove a guest physically found a static tag. Treat this as a friendly symbolic contest, or explicitly choose more complex authentication later. Prototype one mounted tag on both iPhone and Android before making all the props.
+## Rules at a glance
+One point per solved entity; invitations unlock at the fourth and tenth earned Favor; a qualifying recruited guest gives one point; costume contest contributes three points. The working interpretation is two single-use invitations and a three-point bonus only for the costume winner: **maximum 20**. A live leaderboard shows the top three on a podium. The story archive and collected entity artwork remain available to revisit.
 
-## Staffing and budget
-Propose two volunteers, each with 30–45 minutes of active help spread across the night. Latest story-material estimate is $60–$100 for handmade spirits, tags, moon covers and mounts, replacing the earlier $50–$85 figurine estimate if chosen; crown/hosting remain separate. No new spending committed.
+Puzzle status is **fourteen approved plus Unbroken Sigil provisionally approved pending good touch implementation**. Instances are deterministic from game + player + entity and stay fixed through unlimited retries; there are no hints. Most players should solve in 20–45 seconds and nearly everyone in under 90 seconds. Puzzle correctness uses deterministic code/HTML/CSS/SVG and preauthored assets, never generative imagery. Families remain independent of entity identities until later assignment.
 
-## Costume link
-[The host’s Antler King costume](host-costume/README.md) is a separate task/folder. Keep the fitted host crown; make a lightweight winner token. The veil can lower briefly for the ceremony, then return to open-face hosting mode.
+Default close is **2 a.m. November 1, adjustable by admin**; the precise proposed schedule uses EST after the New York clock rollback. The site opening does not set the party door time. The approximately $100 winner crown is separate from the host's fitted Antler King costume and from prop/hosting costs.
 
-## Fallback
-The earlier [Last Leaf offering-bowl script](interactive-story/last-leaf-fallback.md) is preserved as a simple paper-only alternative. The new succession story supersedes it as the current direction to explore; do not run both ceremonies automatically.
+## Preserved constraints and earlier notes
+Physical checkpoints remain NFC-only; the newly requested Partiful and player-invitation QRs are permitted website features. Static NFC URLs can be copied/shared; deduplication does not prove physical discovery. Validate the mounted tags and phone flow before batch fabrication.
 
-[Current bark-spirit and moon-touchpoint build](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+Earlier most-finds-only scoring, twelve-entity planning and the 12:45 a.m. coronation are superseded. This file's previous text is preserved [verbatim in history](interactive-story/history/2026-09-04-before-hollow-court/13-narrative.md.txt). The [Last Leaf script](interactive-story/last-leaf-fallback.md) remains a paper-only fallback; do not run two competing ceremonies. Other sourcing notes and uncommitted project work are retained.

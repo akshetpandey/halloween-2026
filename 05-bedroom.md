@@ -23,9 +23,9 @@ The host’s freedom to move furniture resolves permission, but does not establi
 - No drink storage on the equipment table; make a separate drop surface outside the dance area.
 
 ## Draping with large windows
-Measure each window and actual usable mounting span before buying fabric. Start with **one dark DJ backdrop plus the bedroom windows**. Existing opaque curtains may already do the job. Black velvet throughout is expensive, heavy and warm; matte black opaque fabric or borrowed curtains can achieve much of the same effect.
+Measure each window and actual usable mounting span before buying fabric. Start with **one dark DJ backdrop plus the bedroom windows**. Host confirms no curtain rods. Current proposal is clipped fabric panels on suitable removable wall hooks; exact substrate, weight and mounting still need checking. Black velvet throughout is expensive, heavy and warm; matte black opaque fabric or borrowed curtains can achieve much of the same effect.
 
-For decorative pleats allow roughly 1.5 times the covered width; choose panel count from actual product width. Include mounting, hems and floor clearance. Keep fabric clear of heaters, vents, equipment cooling and exit hardware. Do not use adhesive hooks for an unknown heavy curtain load. Do not permanently black out the living room if selective branch silhouettes provide a better result.
+For decorative pleats allow roughly 1.5 times the covered width; choose panel count from actual product width. Include mounting, hems and floor clearance. Keep fabric clear of heaters, vents, equipment cooling and exit hardware. Use removable hooks only after verifying surface compatibility and the actual lightweight panel load; heavy velvet needs stronger support. Do not permanently black out the living room if selective branch silhouettes provide a better result.
 
 ## Floor and sound
 Interlocking soft foam is not the default dance surface: seams, heels, spills and sliding can create problems. A firm existing floor is often the better starting point. Test any rug/pad for traction and edge stability with the actual shoes guests will wear.
@@ -54,3 +54,12 @@ See the [decor shopping list](20-decor-shopping-list.md) for DEC-07–10. Quanti
 Host wants the bedroom lighting to be temporary and dance/club oriented. [Two-wash-light plan](lighting/02-bedroom-party.md) covers rental/purchase comparison, red/violet scenes and the limitations of built-in sound modes. No gear selected/booked.
 
 Inventory note: host’s golden tree lamp with LIFX bulb is available to move into the living room; do not count it as simultaneous bedroom lighting. Temporary club-light plan remains active.
+
+## Rod-free fabric update
+[Detailed build, sourcing and mounting plan](bedroom-draping/README.md). Host wants cloth/felt wall panels; direct adhesive-backed felt is not the default because of removal/paint risk.
+
+## Mounting clarification: direct tape • September 3
+Host explicitly means bulk black cloth/velvet taped directly to the walls. This replaces the hook-and-clip recommendation as the active approach. Select lightweight cloth/velour and test tape grip plus removal on the actual wall before buying full coverage; no tape SKU verified yet. [Current draping plan](bedroom-draping/README.md).
+
+## Latest mounting clarification • September 3
+Host also accepts hooks + fabric. Both hooks/clips and direct tape are allowed; tape is not exclusive. Preferred full-height-panel proposal: bulk lightweight black fabric clipped to suitable hooks, no rods required. Surface and load checks remain pending. [Draping plan](bedroom-draping/README.md).

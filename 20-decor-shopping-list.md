@@ -99,7 +99,7 @@ Likely savings: reused cardboard instead of foam board, saved kraft packaging, e
 | Less kraft paper | [Creatology natural kraft roll](https://www.michaels.com/product/natural-kraft-paper-roll-by-creatology--10566589) | Exact price/size/arrival pending; listing located, live page inaccessible | Only if reused packing paper is insufficient; compare to the oversized Amazon roll |
 | Tiny portable accent strings | [IKEA LEDFYR 12-light string](https://www.ikea.com/us/en/p/ledfyr-led-string-light-with-12-lights-indoor-battery-operated-silver-color-30421023/) | Earlier Sep 3 research showed $6.99; batteries extra, availability not refreshed here | Alternative for guardian eyes or a small tray; not equivalent in coverage to 66-ft USB strings |
 | Fresh pumpkins/gourds | Nearby produce/grocery, 5–8 across apartment | Keep $25–50 allowance | Buy Oct 24–30 and inspect; no delivery listing chosen this early |
-| Curtain rods and brackets | Existing hardware first; exact SKU after width, substrate and load are known | Remains within drapes/mounting allowance | Do not buy generic adhesive “curtain hooks” to support velvet |
+| Fabric supports / rod alternative | No rods owned; trial clips on suitable removable hooks, exact SKU after substrate and panel mass are known | Remains within drapes/mounting allowance | Do not buy generic adhesive “curtain hooks” to support velvet |
 | Power/USB supplies and cord protection | Inventory wall adapters, outlet positions and cable runs first | Remains within shared $100 mounting/power allowance | Buy only missing lengths/specifications after the lighting test |
 | Guardian base and offering bowl | Borrow stable support and a bowl/tray already owned | $0 first choice | Dimensions and support design pending photos; avoid a heavy freestanding prop purchase |
 
@@ -140,3 +140,21 @@ Added TeckWrap glow adhesive vinyl ($12.90 displayed, permanent adhesive, use sc
 Supersede roll-vinyl shopping with premade moon stickers only. Joom 4-crescent/16-star pack is a sourced lead, not an order-ready delivery quote. Living-room lighting adds glowing moon + purple wash, with Oasis conditionally accepted for warm whites. Govee H607C listed $127.99 as a separate RGB option; Amazon moon B0B41JXKSP is an unpriced 9.5-inch candidate.
 
 [Lighting details](lighting/05-purple-grove-and-glowing-moon.md) · [Premade sticker sourcing](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+
+## Bedroom fabric without rods • September 3
+No curtain rods owned. DEC-07 quantity and rod-span calculations are provisional alternatives; current plan is lightweight matte cloth/velour clipped to suitable removable wall hooks. Avoid buying adhesive-backed felt rolls as a presumed removable wall treatment. [Sourcing and sample tasks](bedroom-draping/README.md). No purchases or budget changes.
+
+## Mounting clarification: direct tape • September 3
+Host explicitly means bulk black cloth/velvet taped directly to the walls. This replaces the hook-and-clip recommendation as the active approach. Select lightweight cloth/velour and test tape grip plus removal on the actual wall before buying full coverage; no tape SKU verified yet. [Current draping plan](bedroom-draping/README.md).
+
+## Latest mounting clarification • September 3
+Host also accepts hooks + fabric. Both hooks/clips and direct tape are allowed; tape is not exclusive. Preferred full-height-panel proposal: bulk lightweight black fabric clipped to suitable hooks, no rods required. Surface and load checks remain pending. [Draping plan](bedroom-draping/README.md).
+
+## Bedroom draping shortlist • September 4
+Added DRAPE sample shortlist: Rose Brand black duvetyne DVT80001 at $7.60/yard; Command 17069-3ES three-hook pack $9.93 at Home Depot; black binder-clip lead and allowance. Suggested three-yard test plus two hook packs and clips about $45–$50 pre-tax/shipping. Matching Amazon offers/delivery not verified. Replaces relevant DEC-07/support assumptions if chosen; no cart changes. [Sample basket and sizing](bedroom-draping/02-shopping-and-sample.md).
+
+## September 4 • woodland NFC witnesses
+
+New [Amazon figurine/tag shortlist](interactive-story/07-amazon-figurines-and-tags.md), separate from the existing DEC catalog and actual cart. FIG-BUY-01 UANDME ten-pack **$20.99**; FIG-BUY-02 Safari raven **$7.99**; FIG-BUY-03 Safari barn owl **$7.99**; TAG-01 BABIQT NTAG215 **30 mm / 30 nonadhesive coins, $9.50**. Verified component subtotal **$46.47 before tax/shipping**. Direct product links, contents, sizes and conditional delivery evidence are in the shortlist. Timeskey NTAG213 **25 mm / 20 white stickers, $9.99**, and Toymany twelve-animal **$29.99** set are alternatives, not additions.
+
+Recommend ten purchased figures + two handmade spirits for a twelve-witness example, with matching crafted bases and premade moon markers. No stock figure is verified to contain a tag cavity; reserve 40–45 mm of accessible tap area on a 3-inch or larger base. Prop envelope **$100 proposed**, replacing previous story-prop estimates. Premade markers and base materials still need inventory/product fit checks. No purchases or cart additions; tags must pass [programming and locking tests](interactive-story/08-iphone-programming-and-locking.md) before sealing.

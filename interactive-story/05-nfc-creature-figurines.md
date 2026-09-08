@@ -1,14 +1,17 @@
 # The hidden witnesses • NFC woodland figurines
 
-**Latest physical proposal:** 10–15 handmade bark spirits with separate moon-covered NFC touchpoints immediately beside/below them. This avoids embedding antennas in the sculptures. See [current build and sourcing plan](06-bark-spirits-and-moon-touchpoints.md); embedded bases below remain an alternative.
-Updated September 3, 2026. **Confirmed host direction: no QR fallback.** Buy or make small woodland creatures and conceal an NFC tag in each. Ten figures and the existing scoring/timing are still proposals. No tags/figures ordered, encoded or tested; website not built.
+**Current scope, September 4:** [15 entities = 5 decor + 5 purchased + 5 homemade stick/straw](11-physical-entity-plan.md). This document retains construction techniques and the earlier sourcing evidence. The ten-bought/two-made recommendation and $100 basket below are superseded as the active mix; do not fabricate an additional twelve-piece set. Physical checkpoints are NFC-only; invitation QRs are allowed on the website. Scanning leads to a puzzle, and assistance credits a verified completion, not an instant claim. [Current website requirements](03-website-build-brief.md).
+
+## Earlier figurine proposal and reusable construction research
+
+Updated September 4, 2026. **Latest sourcing request: buy most woodland figures, make a few, and document iPhone programming plus permanent locking after testing.** Recommended 12-witness example: ten purchased figures and two handmade spirits on matching bases. See [verified Amazon shortlist, dimensions and $100 proposed envelope](07-amazon-figurines-and-tags.md). The [10–15 bark spirits with separate moon touchpoints](06-bark-spirits-and-moon-touchpoints.md) remain an alternative; this research does not confirm the final format or count. Premade moon stickers only; no QR fallback. Nothing purchased, encoded, locked or physically tested; website not built.
 
 ## Recommended physical design
 Make each witness a small creature with an integral woodland base. Hide one tag just beneath the top or front of the base, beside the feet, behind a thin nonmetal cover. Add a tiny repeated moon or leaf motif at that spot. The tag is invisible, but a guest who has seen the demonstration knows where to hold the phone. No printed code or exposed sticker.
 
 This is still an embedded figurine: creature, base and concealed tag form one prop. It avoids squeezing a poor-reading tiny tag into a small head, and avoids asking guests to lift or turn over the object. A hollow-bodied creature can instead hide the tag behind its thin back or belly if there is enough flat space for the antenna and an accessible phone approach.
 
-Initial prototype dimensions, not guarantees: creature around 2–4 inches tall; integral base roughly 2–3 inches across; tag approximately 25–30 mm across. Start with a very thin cover, roughly 1–2 mm, and test; no universal material thickness guarantees a read. A larger base is acceptable for an especially small creature.
+Initial prototype dimensions, not guarantees: most creatures around 2–4 inches tall; start with a 3-inch base and a clear 40–45 mm tap area for a complete 25–40 mm tag. Use a larger oval base for a wide stance. The verified Amazon options are 25 and 30 mm; a 38–40 mm option has not been sourced. Start with a very thin cover, roughly 1–2 mm, and test; no universal material thickness guarantees a read. A larger base is acceptable for an especially small creature.
 
 ## Tag requirements
 Use a complete passive **13.56 MHz NFC Forum Type 2 NTAG213 or NTAG215 tag with antenna**, formatted with a short NDEF HTTPS URI. It needs no battery. A bare chip or a generic UHF inventory tag is not the same product. Extra memory does not by itself mean better reading or stronger anti-cheat. [NXP tag family](https://www.nxp.com/products/NTAG213_215_216)
@@ -24,12 +27,19 @@ Metal, metallic foil finishes, wire armatures, magnets and nearby liquid can alt
 
 **Aesthetic options:** bark-faced root guardians, small antlered forest creatures, or pale rounded woodland spirits inspired by the atmosphere of Princess Mononoke. These are directions, not licensed-product claims. Tiny 1-inch terrarium ornaments may need bases larger than the figure to accommodate a readable tag.
 
-## Initial sourcing evidence
-- [Safari Ltd In the Woods TOOB](https://www.safariltd.com/products/toobs-in-the-woods-figurines-685504): $14.99 listed, 12 animal/insect figures, around 1.25–3.75 inches tall. Good budget shape set; some animals are less eerie, so a unified paint treatment may help. Product and collection pages show inconsistent stock wording; confirm availability/delivery. No claim that these solid figures contain tag cavities.
-- [Adafruit NTAG213 disc 4033](https://www.adafruit.com/product/4033): 25 × 0.9 mm; $2.95 individually, $2.66 each for 10+, 56 in stock when checked. A known prototype option, not necessarily the cheapest bulk source. Twelve at the listed quantity rate would be $31.92 before tax/shipping. Do not adopt the vendor’s generic reader-distance claim as a smartphone-in-figurine promise.
-- Amazon remains preferred for a coordinated creature multipack and tag pack when exact dimensions, chip type, seller and delivery are verified. No specific Amazon figure/tag pack has been verified in this pass; do not fill the cart with anonymous miniature craft tags based on listing photos.
+## Current sourcing and cost
+- [UANDME ten-animal pack](https://www.amazon.com/dp/B085G48BNK): **$20.99**; use eight animals for the 12-witness example, excluding moose/piglet.
+- [Safari raven](https://www.amazon.com/dp/B00H8ZUALE) and [barn owl](https://www.amazon.com/dp/B00B3YHGJA): **$7.99 each**.
+- [BABIQT NTAG215, 30 mm, 30 nonadhesive coins](https://www.amazon.com/dp/B07PFC2FH5): **$9.50**. Alternative: [Timeskey NTAG213, 25 mm, 20 white stickers](https://www.amazon.com/dp/B07K6H6K43), **$9.99**.
 
-Allow roughly **$50–$85 total for ten figures, tags/spares and bases/paint** using a modest multipack. This is a provisional replacement for the earlier $25–$50 story-material allowance, not an approved increase. The Safari set plus twelve Adafruit discs is $46.91 before bases/paint/tax/shipping. Handmade detailed figures or premium ornaments can cost more; no need to commit before one sample.
+Product-page prices observed September 3–4; tax/shipping excluded. Recommended four-item component subtotal **$46.47**; proposed all-in prop envelope **$100**, including craft supplies, premade markers and a buffer. This replaces earlier prop estimates, not an approved increase. Crown and hosting separate. Full contents, size evidence, alternate multipack, delivery caveats and cost breakdown are in the [sourcing brief](07-amazon-figurines-and-tags.md).
+
+Earlier Safari TOOB/Adafruit estimates are superseded as the preferred basket. No listing establishes an internal NFC cavity: mount the purchased figures on bases with their own accessible tag pockets. Actual foot span, tag thickness, antenna size, paint compatibility and phone clearance require the sample.
+
+## iPhone writing and read-only finalization
+Use [NFC Tools by wakdev](https://apps.apple.com/us/app/nfc-tools/id1252962749). Write one NDEF HTTPS URL with **Write → Add a record → URL / URI**; read back the exact URL, then test normal background scanning with the writer closed and the final reversible prop assembly. Resolve permanent domain/token and website behavior before finalization. Only after those tests pass, use **Other → Lock a tag** to make the compatible tag permanently read-only. Re-read its status, verify the URL, expect rejection of a same-URL rewrite, then seal and scan again. Password protection is a different operation. A locked tag can still have its URL copied/shared.
+
+The [full step-by-step programming checklist](08-iphone-programming-and-locking.md) includes official Apple/NXP/wakdev evidence, failure handling, app cost and a spare-tag rehearsal. The [tag register](nfc-tag-register.csv) is an empty template, not evidence of completed programming.
 
 ## Proposed creature identities
 Keep each visually distinct and map it to a story mark: raven / Raven, little stag / Antler, owl / Moon, bark spirit / Root, moth / Last Leaf, fox / Ember, toad / Well, hedgehog / Thorn, hare / Seed, veiled spirit / Veil. This is a design menu, not a requirement to buy ten individual premium figurines. Adapt names to a good multipack. Well stays outside the bathroom. Objects stay in place; guests collect digital marks, not the figurines. Chocolates remain the take-away gifts.
@@ -50,6 +60,6 @@ Offline written finds need a recorded time and clear reconciliation rule. If rel
 - [ ] FIG-03 — Host estimates 95% iPhone / 5% Android: prioritize two different supported iPhone generations plus one NFC-capable Android, with ordinary cases. Test background URL reading with the writing app closed; demonstrate correct antenna position and ensure an unfamiliar guest can scan while holding a drink. No requirement to lift the figure. See the phone-feasibility document for troubleshooting.
 - [ ] FIG-04 — Try 10 consecutive approaches per phone as a practical sample target. Record success/time, case, device and position. This small test does not certify every guest’s phone.
 - [ ] FIG-05 — Resolve site domain and test signup, repeated claims, second figure, correct player recovery and assisted claims. A plain URL test alone does not validate scoring.
-- [ ] FIG-06 — Build the remaining figures, assign unique URLs and private helper IDs, test each on its actual display surface, and only then consider tag write-locking. Locking can be irreversible and does not prevent copying a URL.
+- [ ] FIG-06 — Build the remaining figures, assign unique URLs and private helper IDs, test each on its actual display surface, then permanently lock each tested production tag using the programming checklist. Verify read-only status and guest scanning before sealing; locking is irreversible and does not prevent copying a URL.
 
 No full-set fabrication before the first mounted prototype works reliably. A rejected QR fallback must not quietly return through a website screen, printed sign or alternate task document.

@@ -10,7 +10,7 @@ Closing goal 4 a.m. November 1. All times America/New_York; EDT/EST distinctions
 | Sound helper | Playback, volume, quick troubleshooting | Setup + peak + handoff |
 | Bar/hospitality helper | Measured refills, water, ice, bathroom/bins | Rotate short shifts |
 | Door helper | Entry, coats, guest flow | Busiest arrival windows |
-| Story helper(s), optional | Tokens and one cue | 10–15 minutes total |
+| Story helpers, optional | Gossip, NFC/puzzle assistance and finale | Two helpers, 30–45 active minutes each across the night; proposed |
 | Cleanup helper | Dishes, decor and rental packing | Nov 1 |
 
 No people assigned yet. Keep duties short so friends still enjoy the party.
@@ -40,16 +40,18 @@ No people assigned yet. Keep duties short so friends still enjoy the party.
 ## Event timeline
 | Local time | Cue |
 |---|---|
-| 9:30 p.m. EDT, Oct 31 | Proposed doors; warm-up music |
+| 8:00 p.m. EDT, Oct 31 | Hollow Court website opens; not the party door time |
+| 9:30 p.m. EDT, Oct 31 | Proposed doors; warm-up music; volunteers begin quiet Court gossip |
 | 10:30 p.m. EDT | Build musical momentum; refill water/bar |
 | 11:30 p.m. EDT | Main dance chapter; assess guest density |
-| 11:45 p.m. EDT | Optional invitation to the offering bowl |
-| 12:15 a.m. EDT, Nov 1 | Optional short “turning” cue |
+| 11:45 p.m. EDT | Optional helper check for puzzle/phone assistance |
+| 12:15 a.m. EDT, Nov 1 | Hollow Court continues; no early coronation |
 | 12:30–1:15 a.m. EDT | Peak musical energy; remain within tested volume ceiling |
 | 1:15 a.m. EDT | Begin release section and first planned volume reduction |
 | 2:00 a.m. EDT → 1:00 a.m. EST | Clocks repeat; do not repeat earlier cues |
 | 1:00–2:00 a.m. EST | Deeper/lower-energy music; quieter service |
-| 2:00 a.m. EST | Further volume reduction; hospitality check |
+| 1:45 a.m. EST | Proposed Court closing reminder, only if 2 a.m. close remains current |
+| 2:00 a.m. EST | Default Court cutoff, scoring snapshot and succession reveal/crowning when ready; volume reduction and hospitality check |
 | 3:00 a.m. EST | Wind-down music; invite coats/water |
 | 3:45 a.m. EST | Last music chapter; gently brighten ordinary lights |
 | 4:00 a.m. EST | Music off / guests depart quietly |
@@ -80,5 +82,11 @@ Bedroom follows the techno energy arc above. Living room stays conversational on
 
 Music capacity requirement: prepare **at least nine hours per room**, even though the proposed guest programme is 7.5 elapsed hours. Extra material covers setup, changed timing and reserves; keep the peak and closing cues anchored to the event schedule.
 
-## Story timing revision • September 3
+## Earlier story timing revision • September 3 — superseded
 The succession hunt is the current idea to explore; the earlier 11:45 offering invitation and 12:15 Last Leaf turning are now fallback cues, not active alongside it. Proposed alternative: 10:30 p.m. EDT claims open; 12:15 a.m. EDT cutoff reminder; 12:30 a.m. EDT claims close; 12:45 a.m. EDT short coronation. All happen before the clock rollback. Volunteer staffing rises from the original 10–15-minute story commitment to about 30–45 active minutes each across the evening if the hunt is adopted. Details in [the volunteer runbook](interactive-story/02-volunteer-runbook.md).
+
+## Current Hollow Court timing • September 4
+
+Site opens **8 p.m. EDT Oct 31**; proposed party doors remain **9:30 p.m. EDT**. Default game close **2 a.m. EST Nov 1**, after rollback, with admin extension/close-now controls. The 1:45 reminder uses the second 1 a.m. hour and follows the actual configured close. Finalize/freeze scores before the site reveal and short crown handoff. [Volunteer runbook](interactive-story/02-volunteer-runbook.md).
+
+The older 10:30 opening / 12:30 close / 12:45 coronation paragraph above is historical. Original 11:45 offering and 12:15 turning cues belong only to the preserved Last Leaf fallback, not the active run. Prepare offering materials/dispose of offering notes only if that fallback is selected. Site opening/closing are documentation requirements; no automation or deployment has been created.

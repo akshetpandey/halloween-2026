@@ -1,5 +1,7 @@
 # Can guests do this on iOS/Android without an app?
 
+**Current scope, September 4:** [Fifteen mixed entities](11-physical-entity-plan.md), not an all-bark batch. The device research below remains useful. Scanning now opens an individually assigned puzzle; only a solved puzzle earns Favor. Helper assistance must preserve that rule. Physical checkpoints remain NFC-only; the website's Partiful and Summons invitation QRs are explicitly requested exceptions to older blanket “no QR” wording. [Current guest flow](03-website-build-brief.md). Earlier count/claim-flow descriptions below are historical.
+
 **Latest physical proposal:** 10–15 handmade bark spirits with separate moon-covered NFC touchpoints immediately beside/below them. This avoids embedding antennas in the sculptures. See [current build and sourcing plan](06-bark-spirits-and-moon-touchpoints.md); embedded bases below remain an alternative.
 Research checked September 3, 2026. **Yes, with NFC tags that open web URLs, plus a normal mobile website.** Physical compatibility still needs a small pilot.
 
@@ -60,3 +62,7 @@ More robust tag authentication is possible with **NTAG 424 DNA** and changing, c
 - Keep a paper/helper fallback if phones or connectivity fail. A guest can play by noting symbols and having a volunteer record the finds.
 
 **Decision:** technically feasible; website/physical pilot is the next implementation gate. No compatibility test or security guarantee is being claimed yet.
+
+## September 4 • programming and source verification
+
+[Verified Amazon tags and figures](07-amazon-figurines-and-tags.md) include 30 mm NTAG215 coins and 25 mm NTAG213 stickers. The [NFC Tools iPhone workflow](08-iphone-programming-and-locking.md) now specifies permanent read-only locking after final-URL, website and mounted-prop testing, plus post-lock status/read verification. A writing-compatible iPhone is not necessarily capable of the same background guest scan. No physical test has been performed.

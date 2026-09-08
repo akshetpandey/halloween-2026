@@ -14,6 +14,7 @@ Suggested dates: direction and sourcing by September 13; first fitting by Octobe
 
 ## Sourcing decision • September 3, 2026
 
+- Follow-up: host wants more extensive antlers. Added C3 RedKrakenForge Large (20-inch span, $52+) and C4 Extra-Large (24-inch span, $72+) to the shortlist. C3 is the new aesthetic front-runner, subject to rigid-material/headband fit checks; no option selected. Starting prices and NYC delivery need rechecking. Revised estimates with reused clothes: Large about $120–$145; XL about $140–$165, both unapproved.
 - Recommended proposal: elope EVA antlers (C1), Harts ivory mesh (V1), Dharma natural cotton mantle (M1), with reused base clothes. Core listed materials $44.44; working estimate about $85–$100 including shipping/fastener/adjustment allowances, but not a confirmed delivered total.
 - Amazon direct antler link is saved but unpriced; do not substitute an old third-party price. Recheck selected variants, stock, NYC pickup eligibility, delivery and returns before ordering. Shipping for Dharma is still an estimate.
 - $100–$150 costume allowance remains a proposal, not approval; provisionally inside the $1,000–$3,000 party ceiling. KING-04 still requires explicit purchase instructions.

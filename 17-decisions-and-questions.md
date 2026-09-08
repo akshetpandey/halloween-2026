@@ -1,4 +1,6 @@
 # Decision log and open questions
+
+**Latest interactive decisions are recorded in the September 4 Hollow Court entry at the end of this file.** Earlier dated succession notes remain history; use the [current design index](interactive-story/README.md) for active requirements.
 Updated September 3, 2026. This file preserves context between sessions.
 
 ## Confirmed by host
@@ -161,3 +163,43 @@ Host proposes 10–15 handmade bark spirits and separate moon-covered NFC sticke
 Confirmed: premade moon stickers only (no Cricut or hand-cut workaround). Oasis acceptable if very dim. Desired living room: glowing moon focal point plus broad dim purple wash. Oasis Ambient public specs now verified: 2000–4000 K, 500 lm, 7 W, dimmable; no numeric minimum. Plan separate RGB source. Joom premade 4-moon pack found, delivery/color caveats remain; no purchase.
 
 [Lighting details](lighting/05-purple-grove-and-glowing-moon.md) · [Premade sticker sourcing](interactive-story/06-bark-spirits-and-moon-touchpoints.md).
+
+## No curtain rods • September 3
+Host confirms no curtain rods and proposes black velvet cloth/felt on walls. Recommend testing separate lightweight cloth panels with fabric clips and surface-compatible removable hooks; no adhesive directly onto fuzzy fabric. Wall finish and dimensions still needed. [Draping plan and DRAPE-01–05 tasks](bedroom-draping/README.md). No installation or purchase completed.
+
+## Mounting clarification: direct tape • September 3
+Host explicitly means bulk black cloth/velvet taped directly to the walls. This replaces the hook-and-clip recommendation as the active approach. Select lightweight cloth/velour and test tape grip plus removal on the actual wall before buying full coverage; no tape SKU verified yet. [Current draping plan](bedroom-draping/README.md).
+
+## Latest mounting clarification • September 3
+Host also accepts hooks + fabric. Both hooks/clips and direct tape are allowed; tape is not exclusive. Preferred full-height-panel proposal: bulk lightweight black fabric clipped to suitable hooks, no rods required. Surface and load checks remain pending. [Draping plan](bedroom-draping/README.md).
+
+## Bedroom draping shortlist • September 4
+Current preferred sample is matte black duvetyne with hooks/clips; host also allows tape. Velour retained as a richer alternative. Recommendation only: no final fabric selection, wall finish or quantities confirmed. [Sample basket and sizing](bedroom-draping/02-shopping-and-sample.md).
+
+## September 4 • NFC programming and Amazon figurine research
+
+Confirmed task scope: document iPhone writing and permanent read-only locking after testing; research current Amazon NTAG213/215 tags and mostly purchased woodland figures; do not purchase. The referenced “NFC Figurine Design” discussion was read and checked against the existing project notes. No new product, count, physical format or budget approval is inferred.
+
+Recommendation: one UANDME ten-animal pack, individual Safari raven/owl and a BABIQT 30 mm NTAG215 30-pack. Verified component subtotal $46.47 before tax/shipping. For twelve witnesses, use eight pack animals + two birds + two handmade spirits; integrate each into a matching 3-inch or larger scenic base. Proposed all-in prop envelope $100, replacing earlier alternatives. Existing 10–15 handmade bark spirits with nearby moon touchpoints remain available. Preserve premade moon stickers only and no QR.
+
+NFC Tools by wakdev is the documented writer/locker. Finalize a permanent host-controlled HTTPS URL with opaque token, write one NDEF URI, test readback/website/finished mounting, then permanently lock, verify read-only and re-scan. Do not substitute password protection or claim locking prevents URL copying. Site content may change behind the stable URL; the encoded address cannot be changed after locking. No tag written or locked.
+
+Open execution choices: final count/mix, base-integrated versus separate touchpoint, suitable premade marker product, actual phone pilot, permanent domain, final delivered total. [Amazon evidence and caveats](interactive-story/07-amazon-figurines-and-tags.md) · [Programming checklist](interactive-story/08-iphone-programming-and-locking.md). Research complete; purchases, website and hardware validation pending.
+
+## Hollow Court narrative/game continuation • September 4
+
+Source: [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83ea-980a-a9b43437c385), incorporated into the canonical workspace at the host's request.
+
+**Host-requested scope:** Document now; no app code yet. Secret succession is introduced by volunteer gossip and kept off invites. Site opens at 8 p.m.; name and costume selfie; persistent returning identity; progressive rereadable story; unique per-guest puzzles within each entity theme; one point per earned entity; costume selfie comparisons after every entity; Summons at four/ten entities with deferral; one point per qualifying invite; three points for the costume contest; live podium leaderboard and collectible entity art. Cloudflare Workers and other Cloudflare services are intended hosting/backend. Default finale 2 a.m., admin adjustable. Separate crown around $100. Physical target **15: five decor-integrated, five bought (Amazon preferred), five homemade stick/straw with colors**. Moon light, golden tree and DJ creature are host-named decor anchors.
+
+**Proposals awaiting iteration:** Sovereign title and exact story copy; outgoing Antler King's office becomes vacant at the turning; two single-use referral tokens; three points only to the highest-ranked costume; adaptive pairwise ranking and final tie ordering; exact 2 a.m. EST interpretation after rollback; eligibility/absence/photo-retention policies. Decor anchors four/five proposed as Moon Well threshold and skull/branch shrine. Purchased candidates and five handmade silhouettes remain unapproved. Fifteen puzzle families are an audition pool, with no entity assignments.
+
+**Reconciliation:** Fifteen and 5/5/5 replace twelve/ten-bought-two-made and all-bark batches. Puzzles replace instant claims; selfies replace nickname-only signup; live leaderboard replaces private-only progress; later adjustable close replaces midnight ceremony proposals. Partiful and Summons QRs explicitly requested on the website; the prior host's NFC-only physical checkpoint rule remains. Do not adopt the assistant draft's additional hidden prop-QR fallback. The website opening does not change proposed party doors.
+
+**Budget:** Previous prop estimates retained but new mix needs re-costing. Winner crown approximately $100 separately; existing decor is reused without double-counting. No new sourcing verification, purchases, cart changes, artwork generation, hardware tests, encoding, hosting or code performed.
+
+**Files:** Current narrative/game, puzzle workshop and physical plan in `interactive-story/09–11`; existing story index, overview, website brief, runbook, trackers, budget and run-of-show synchronized. Exact prior versions of four rewritten documents preserved in `interactive-story/history/2026-09-04-before-hollow-court/`. Existing research and unrelated working changes retained.
+
+## NFC and QR scope explicitly confirmed • September 4
+
+Host clarification: “the entities are NFC only, QR code is only for the partiful link + invites.” This confirms NFC-only discovery for all fifteen entities, with no entity QR fallback. QR codes are restricted to the Partiful invitation link and guest invitations/Summons. Updated the story index, narrative/game brief and website requirements to mark this as confirmed.

@@ -1,5 +1,12 @@
 # Bark spirits and moon touchpoints
+
+**Current scope, September 4:** Make **five stick/straw figures with color accents** within the [fifteen-entity mixed plan](11-physical-entity-plan.md). The earlier 10–15 all-bark batch, twelve-spirit layout and related allowance below are preserved alternatives, not current fabrication instructions. Reuse the separate moon-touchpoint techniques and premade-sticker requirement. The later explicit invitation-QR request applies only to website invitations; physical checkpoints stay NFC-only. Puzzle completion now earns Favor.
+
+## Earlier all-bark proposal and reusable material research
 Updated September 3, 2026. Latest host-proposed option: make 10–15 bark spirits and attach them around the apartment, with separate moon-marked NFC tags immediately below/beside them. House is not expected to be very dark. This is the recommended prototype direction; embedded figurines remain an alternative. No purchases, fabrication, encoding or site implementation completed.
+
+
+**September 4 sourcing update:** [Verified Amazon tags and purchased-figurine mix](07-amazon-figurines-and-tags.md) now complement this all-bark proposal. Use one final physical format or a deliberate mix, not two full batches. The [iPhone programming/permanent-lock procedure](08-iphone-programming-and-locking.md) applies to these separate touchpoints too. Final production tags must be tested with their covers and website before locking, then verified read-only and scanned again. Premade moon stickers remain required.
 
 ## Current purchasing requirement: premade stickers only
 Host has no Cricut and explicitly wants premade stickers, not a cutting project. Glow remains desirable. Keep 10–15 bark spirits and separate nearby moon touchpoints; final count not confirmed.

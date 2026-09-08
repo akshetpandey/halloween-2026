@@ -4,6 +4,8 @@ Researched September 3, 2026 · Party October 31, 2026 · **Proposal only; nothi
 
 ## Recommendation
 
+**Follow-up direction:** Host requested more extensive antlers. See the larger-rack alternatives below; C1 remains the low-cost baseline, not the current aesthetic front-runner. No replacement is selected or approved.
+
 Start with **C1 foam antlers + V1 ivory mesh + M1 natural cotton mantle**, over an owned cream/oatmeal shirt, cream or black trousers and comfortable boots. Listed core materials total **$44.44**. With shipping, fasteners and a small adjustment reserve, plan roughly **$85–$100 before any base-clothing gap**; this is an estimate, not a delivered quote or spending approval. Reusing an existing suitable shawl instead of M1 saves $16.50 plus that shipment.
 
 This prioritizes the branching silhouette and weathered ivory layers while keeping the face clear for hosting. V1 is plain mesh, not a screen-accurate reproduction of the coarse patterned veil. The existing [credited real references](references/README.md) remain the visual guide: Antler Queen for texture, Doomcoming for face-uncovered hosting, McQueen for ivory lace—not its rigid resin antlers or train. No generated pictures were used.
@@ -16,6 +18,25 @@ This prioritizes the branching silhouette and weathered ivory layers while keepi
 | **C2 — FUN Deer Headband for Adults** ([HalloweenCostumes.com](https://www.halloweencostumes.com/deer-headband.html), FUN4168AD) | **$12.99**, standard adult “one size fits most.” Foam antlers and ears on fabric-covered plastic headband; **16-inch total span**, **10-inch antler height**. | Budget fallback with known dimensions, but comparatively broad in a crowded room. Conceal ears with a fabric brow wrap if desired; test before altering. Shipping price/arrival not established. [Refund returns](https://www.halloweencostumes.com/returns/default.aspx) carry an 18% restocking fee and require unused condition. |
 
 **Amazon preference:** [elope antlers, ASIN B00IOXLFHM](https://www.amazon.com/dp/B00IOXLFHM) is a direct product link checked during research, but the accessible page did not expose a current purchasable price, seller or delivery promise. Keep it as an **unpriced alternative**, not a cheaper confirmed offer. Match the EVA/no-ear version and compare delivered cost with C1 after approval. No third-party historical Amazon price has been used in the budget.
+
+## Larger antlers • follow-up shortlist
+
+Observed September 3, 2026. The stronger visual direction is a sweeping, multi-tined rack rather than the original compact foam antlers. **My fit-first pick is RedKrakenForge Large in unpainted white**, with a fabric brow wrap and independently removable veil. This changes the soft-foam preference: these appear to be rigid 3D prints (buyer descriptions identify them as printed); the seller does not specify the polymer in the accessible descriptions. Do not assume flexible or impact-safe material.
+
+| Alternative | Observed starting price | Scale / construction | Recommendation |
+|---|---:|---|---|
+| **C3 — [RedKrakenForge Large](https://www.etsy.com/listing/1887688254/antlers-large-size)** | **$52+** | Seller's photographed size chart: **20-inch overall width**. Seller-stated weight **2.8 oz (~79 g)**. Includes two antlers and headband, shipped disassembled; white/black unpainted options mentioned. Exact finish-to-price mapping and circumference range not exposed. | Best balance of dramatic branching, weight and cost; still requires a secure-base trial. Seller chart is overall span, not each antler's height. |
+| **C4 — [RedKrakenForge Extra-Large](https://www.etsy.com/listing/1901872355/antlers-extra-large-size)** | **$72+** | Seller's photographed size chart: **24-inch overall width**. Seller-stated weight **4.4 oz (~125 g)**. Same two-antler/headband assembly and unpainted options; exact polymer unspecified. | Most dramatic. Prefer for arrival/photos/crowning, then remove for crowded dancing. An August 18, 2026 buyer review reports a flimsy headband; treat as a specific fit risk, not proof every unit is faulty. |
+
+Both pages advertise free shipping from Roanoke, Virginia and 30-day exchanges with buyer-paid return postage. NYC delivery is **not verified**: retrieved pages used other destination ZIP codes, and the Large page's arrival dates were stale. Starting prices are not confirmed prices for the white variant. Recheck before ordering; no seller contact or cart interaction performed.
+
+[Seller's actual size-comparison photograph](https://i.etsystatic.com/32953783/r/il/396f83/6833462379/il_794xN.6833462379_edb4.jpg), credited to RedKrakenForge. Inspected visually: Regular 17 inches, Large 20 inches, Extra-Large 24 inches across. These are not generated costume images.
+
+Budget impact using the earlier fabric plan and listed starting prices: C3 adds $33.05 over C1; C4 adds $53.05. Including an additional estimated $5–$10 for headband reinforcement gives provisional whole-costume estimates of about **$120–$145 for Large** or **$140–$165 for XL**, with owned base clothes. Variant premiums or added finishing materials can increase these; neither amount is approved.
+
+Other leads checked: [MudandMajesty XXL tree-branch crown](https://www.etsy.com/listing/1527888966/xxl-3d-printed-stag-antlers-with-tree) uses PLA, an open-back elastic-adjustable crown and antlers described as 16 inches along the curve. The listing also sells the crown separately, so its surfaced $35 starting price must **not** be treated as a verified antlers-and-crown price. [Runaway Workshop's 16-inch-tall EVA antlers](https://runawayworkshop.com/products/large-foam-antlers-for-costuming) are £60 but showed sold out. Amazon research did not yield a comparably extensive rack with sufficiently verified pricing/specifications to recommend over C3/C4.
+
+Before selecting Large versus XL, use a 20-inch and 24-inch strip of cardboard at head height to judge clearance while turning and reaching. Do not attach the veil to antler tips. The host keeps this fitted crown; winner-crown and decor-skull allocations are unchanged.
 
 ## Removable veil — choose one
 

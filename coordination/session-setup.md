@@ -22,7 +22,7 @@ The initial setup checkpoint `43142fb` preserves 32 previously uncommitted plann
 | Update NFC sourcing workflow | 01a06a7c-1f57-7a03-a187-496fd7f81589 | Not loaded; old mirror cwd despite local project label | Save handoff using explicit canonical path if accessible; otherwise emit copyable handoff |
 | Plan the Antler King host costume | 01a069a0-9c55-7392-9bef-c71808a8b3bd | Not loaded; projectless Documents/Codex cwd | Compare remaining local artifacts to host-costume; preserve missing work before retiring |
 | Interactive Succession Design | 6a9af574-7854-83ea-980a-a9b43437c385 | Idle ChatGPT chat in ChatGPT project | Capture only still-unpersisted decisions; source for current design |
-| NFC Figurine Design | 6a9a0ee4-64fc-83ea-b173-952682988b44 | Idle ChatGPT chat in ChatGPT project | Capture remaining context; existing physical mix is newer |
+| NFC Figurine Design | 6a9a0ee4-64fc-83ea-b173-952682988b44 | Original inventory: ChatGPT chat in ChatGPT project | September 8: host-supplied final handoff reconciled and preserved; ready for host to archive |
 
 No messages sent, no sessions moved or archived. “Not loaded” is not evidence of lost work. Closing is optional; a correctly attached current session can read the new file explicitly and continue. Prefer new sessions when old paths or obsolete assumptions make continuation confusing.
 
@@ -33,3 +33,6 @@ Please wrap up this session for the Halloween 2026 repository transition. Read `
 Work on [specific outcome] directly on `main` in `/Users/akshet/workspace/halloween-2026`; do not create a worktree or task branch. Read AGENTS.md, workstreams/README.md, the relevant family/task index and any handoff before editing. Use the current committed design, keep sibling dependencies explicit, persist progress and commit as you go, including remaining changes before finishing.
 
 For game code use the interactive/implementation index and apps/hollow-court. The user plans to launch this task separately; no implementation task was created by the setup work.
+
+## Final NFC handoff received — September 8
+The host reports NFC Figurine Design is the last non-Work session and intends to close/archive the other project. Its supplied handoff is [preserved and reconciled](../workstreams/interactive/physical/handoff-2026-09-08-nfc-reconciliation.md); no missing substantive decisions were found. This confirms capture of the supplied handoff, not a fresh audit of every old project attachment. Archival remains the host's action; it was not performed or verified here.

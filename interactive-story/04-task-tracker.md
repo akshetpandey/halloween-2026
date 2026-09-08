@@ -53,3 +53,7 @@ A production tag is complete only when URL readback, website flow, mounted scan 
 | WEB-DESIGN-01 | Review revised guest/admin flow, uniqueness, QR scope and DST schedule | P2 | Sep 20 | Ready to review — Cloudflare chosen, domain pending |
 
 Existing WEB/NFC implementation and fabrication tasks remain future work. Documentation completion does not imply a working site, generated art, validated bank, orders or encoded tags.
+
+## September 8 — legacy NFC handoff reconciled
+
+NFC-HANDOFF-01 complete: [source and coverage review](../workstreams/interactive/physical/handoff-2026-09-08-nfc-reconciliation.md). Amazon/app research requested by the old chat was already persisted. No new scope or budget decision; existing prototype, revised sourcing and implementation tasks remain open.

@@ -47,19 +47,19 @@ Keep each visually distinct and map it to a story mark: raven / Raven, little st
 ## Guest experience
 Volunteer: “The forest left little witnesses around the house. When you find one, hold your phone near its moon mark, then open the message it offers you. Leave the creature where it lives.”
 
-Phone reads the concealed URL → guest taps notification/unlocks as needed → website joins/recognizes the player → guest claims the mark. No guest app installation. Existing iPhone/Android compatibility limits still apply; removing QR does not make every phone NFC-capable. Link sharing is still possible after a scan; embedding hides the hardware, not the URL.
+Phone reads the concealed URL → guest taps notification/unlocks as needed → website joins/recognizes the player → guest solves the assigned puzzle → verified completion earns Favor. No guest app installation. Existing iPhone/Android compatibility limits still apply; removing QR does not make every phone NFC-capable. Link sharing is still possible after a scan; embedding hides the hardware, not the URL.
 
 ## Quiet assistance, without QR
-Proposed exception: a volunteer witnesses the discovery and records it for the **guest’s player identity** in an authenticated helper view. Do not scan on the helper’s ordinary player session and accidentally credit the helper. For a guest with no usable phone, issue a distinct paper player code and record witnessed finds, reconciling through the same one-point-per-figure rule. A device-sharing flow must keep players separate. This is a proposed operational backup, not a implemented feature or a replacement public scan route.
+A volunteer may assist phone use and record a witnessed puzzle completion for the **guest’s player identity** in an authenticated helper view, following the current [volunteer rules](02-volunteer-runbook.md). Discovery alone earns no Favor; helpers must not provide puzzle hints or answers. Do not scan on the helper’s ordinary player session and accidentally credit the helper. For a guest with no usable phone, a distinct helper-managed player code remains a proposal; resolve selfie participation and costume-vote eligibility before implementation. Reconcile witnessed puzzle completions through the same one-Favor-per-entity rule. A device-sharing flow must keep players separate. This is a proposed operational backup, not an implemented feature or a replacement public scan route.
 
-Offline written finds need a recorded time and clear reconciliation rule. If reliable scoring is unavailable, explain the failure and use a voluntary ceremonial draw; no fabricated results and no QR workaround.
+Offline written puzzle-completion records need a recorded time and clear reconciliation rule. If reliable scoring is unavailable, explain the failure and use a voluntary ceremonial draw; no fabricated results and no QR workaround.
 
 ## Prototype gate and tasks
 - [ ] FIG-01 — Choose one creature/base style and one tag; encode a harmless test HTTPS URL before installing it.
 - [ ] FIG-02 — Test tag bare, behind proposed cover, then in the fully painted/glued prop on the intended shelf. Keep access reversible.
 - [ ] FIG-03 — Host estimates 95% iPhone / 5% Android: prioritize two different supported iPhone generations plus one NFC-capable Android, with ordinary cases. Test background URL reading with the writing app closed; demonstrate correct antenna position and ensure an unfamiliar guest can scan while holding a drink. No requirement to lift the figure. See the phone-feasibility document for troubleshooting.
 - [ ] FIG-04 — Try 10 consecutive approaches per phone as a practical sample target. Record success/time, case, device and position. This small test does not certify every guest’s phone.
-- [ ] FIG-05 — Resolve site domain and test signup, repeated claims, second figure, correct player recovery and assisted claims. A plain URL test alone does not validate scoring.
+- [ ] FIG-05 — Resolve site domain and test name/selfie signup, assigned puzzle and earned Favor, duplicate completion, second entity, correct player recovery and assisted completion. A plain URL test alone does not validate scoring.
 - [ ] FIG-06 — Build the remaining figures, assign unique URLs and private helper IDs, test each on its actual display surface, then permanently lock each tested production tag using the programming checklist. Verify read-only status and guest scanning before sealing; locking is irreversible and does not prevent copying a URL.
 
-No full-set fabrication before the first mounted prototype works reliably. A rejected QR fallback must not quietly return through a website screen, printed sign or alternate task document.
+No full-set fabrication before the first mounted prototype works reliably. No entity QR fallback may appear through a website screen, printed sign or alternate task document. Partiful and Summons invitation QRs are explicitly allowed by the current game brief.

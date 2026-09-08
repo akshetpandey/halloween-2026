@@ -1,6 +1,8 @@
 # Halloween 2026
 
-Start with [the planning home](00-START-HERE.md).
+Start with [task families](workstreams/README.md) for session-based work, or [the planning home](00-START-HERE.md) for the original overview. Agents: read [AGENTS.md](AGENTS.md) first.
+
+[Local session setup](coordination/session-setup.md) · [Handoff template](coordination/handoff-template.md) · [Organization plan](coordination/organization.md)
 
 Canonical project folder: `/Users/akshet/workspace/halloween-2026`.
 

@@ -1,0 +1,3553 @@
+{
+  "batch_id": "02",
+  "name": "Batch 02 · Energy & variety",
+  "created_at": "2026-09-08T23:43:05Z",
+  "status": "25 unreviewed candidates; not a final party programme",
+  "selection_method": "25 distinct lead artists; five exploratory lanes, interleaved. Spotify metadata verified; musical suitability is an editorial hypothesis for host review.",
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:4HnYhXzNGiiqGLqvsyuO8b",
+      "spotify_url": "https://open.spotify.com/track/4HnYhXzNGiiqGLqvsyuO8b",
+      "artist": "Confidence Man",
+      "artists": [
+        "Confidence Man"
+      ],
+      "artist_ids": [
+        "0RwXnFrEoI8tltFvYpJgP6"
+      ],
+      "title": "Holiday - Edit",
+      "album": "Holiday",
+      "album_id": "41rsfR9vimZ80oMPXQwU71",
+      "duration_ms": 235084,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "AUZEI2100006",
+      "release_date": "2021-11-11",
+      "popularity": 23,
+      "metadata_at": "2026-09-08T23:40:35Z",
+      "is_playable": true,
+      "id": "local:2792bd55d4337f585f77",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 1,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Vocal dance-pop"
+      ],
+      "editorial_note": "From your Now U Do keep: a different Confidence Man song with a big vocal lift; short edit.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "artist_genres": {
+        "0RwXnFrEoI8tltFvYpJgP6": {
+          "name": "Confidence Man",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T22:17:26Z",
+          "fetched_at": 1788905846.536423
+        }
+      },
+      "youtube": {
+        "video_id": "5gPJWQ4R23o",
+        "title": "Holiday (Edit)",
+        "channel": "Confidence Man",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=5gPJWQ4R23o",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4HnYhXzNGiiqGLqvsyuO8b",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:4gGWAqJkd3HyvJJZa4CXqN",
+      "spotify_url": "https://open.spotify.com/track/4gGWAqJkd3HyvJJZa4CXqN",
+      "artist": "Purple Disco Machine, EYLR",
+      "artists": [
+        "Purple Disco Machine",
+        "EYLR"
+      ],
+      "artist_ids": [
+        "2WBJQGf1bT1kxuoqziH5g4",
+        "1uLdAcF0HhI81ediDOg2BV"
+      ],
+      "title": "Dopamine (feat. Eyelar)",
+      "album": "Exotica",
+      "album_id": "4LIWp0dSuFmtNJrxdegyOG",
+      "duration_ms": 216770,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "AUDCB1701788",
+      "release_date": "2021-10-15",
+      "popularity": 52,
+      "metadata_at": "2026-09-08T23:40:38Z",
+      "is_playable": true,
+      "id": "local:a83295bda3527e5448a3",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 2,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Funk / disco"
+      ],
+      "editorial_note": "From Hypnotized: another hook-led Purple Disco Machine song; one track from this lead artist in the batch.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "artist_genres": {
+        "2WBJQGf1bT1kxuoqziH5g4": {
+          "name": "Purple Disco Machine",
+          "genres": [
+            "disco house",
+            "nu disco",
+            "funky house",
+            "house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T22:17:36Z",
+          "fetched_at": 1788905856.048984
+        },
+        "1uLdAcF0HhI81ediDOg2BV": {
+          "name": "EYLR",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:16Z",
+          "fetched_at": 1788910996.337185
+        }
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:7I1oIGR5bcMR4dBFZOtaUi",
+      "spotify_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+      "artist": "SG Lewis, Robyn, Channel Tres",
+      "artists": [
+        "SG Lewis",
+        "Robyn",
+        "Channel Tres"
+      ],
+      "artist_ids": [
+        "0GG2cWaonE4JPrjcCCQ1EG",
+        "6UE7nl9mha6s8z0wFQFIZ2",
+        "4cUkGQyhLFqKHBtL58HYVp"
+      ],
+      "title": "Impact (feat. Robyn & Channel Tres)",
+      "album": "times",
+      "album_id": "6WlRyrfOBZGYA5u5TmloKY",
+      "duration_ms": 284573,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "GBUM72003647",
+      "release_date": "2021-02-19",
+      "popularity": 53,
+      "metadata_at": "2026-09-08T23:40:41Z",
+      "is_playable": true,
+      "id": "local:73dd82c2f28e2271f520",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 3,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Electro / percussion"
+      ],
+      "editorial_note": "From Chemicals: SG Lewis with Robyn and Channel Tres; stronger club emphasis. Robyn also has one solo selection.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+        "isrc": "GBUM72003647",
+        "duration_ms": 284573,
+        "observed_at": "2026-09-08T23:43:10Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.862,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.008,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.785,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 2.73e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.331,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 116.055,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0255,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.213,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 11,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.677,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:10Z",
+            "track_url": "https://open.spotify.com/track/7I1oIGR5bcMR4dBFZOtaUi",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "0GG2cWaonE4JPrjcCCQ1EG": {
+          "name": "SG Lewis",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T22:17:25Z",
+          "fetched_at": 1788905845.7030861
+        },
+        "6UE7nl9mha6s8z0wFQFIZ2": {
+          "name": "Robyn",
+          "genres": [
+            "swedish pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:26Z",
+          "fetched_at": 1788911006.685428
+        },
+        "4cUkGQyhLFqKHBtL58HYVp": {
+          "name": "Channel Tres",
+          "genres": [
+            "hip house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:22Z",
+          "fetched_at": 1788911002.112662
+        }
+      },
+      "youtube": {
+        "video_id": "i0jDAkEkJpM",
+        "title": "Impact",
+        "channel": "SG Lewis",
+        "duration_seconds": 285,
+        "url": "https://www.youtube.com/watch?v=i0jDAkEkJpM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7I1oIGR5bcMR4dBFZOtaUi",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "UzZRABmvfjM",
+            "title": "SG Lewis, Robyn, Channel Tres - Impact (Lyric Video)",
+            "channel": "SG Lewis",
+            "duration_seconds": 286,
+            "url": "https://www.youtube.com/watch?v=UzZRABmvfjM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7I1oIGR5bcMR4dBFZOtaUi",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "AOYRWZYnz7o",
+            "title": "SG Lewis, Robyn & Channel Tres - Impact",
+            "channel": "David Dean Burkhart",
+            "duration_seconds": 285,
+            "url": "https://www.youtube.com/watch?v=AOYRWZYnz7o",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7I1oIGR5bcMR4dBFZOtaUi",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:5s54Ts1rJwUwaxQqoTC4jQ",
+      "spotify_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+      "artist": "salute, Rina Sawayama",
+      "artists": [
+        "salute",
+        "Rina Sawayama"
+      ],
+      "artist_ids": [
+        "1np8xozf7ATJZDi9JX8Dx5",
+        "2KEqzdPS7M5YwGmiuPTdr5"
+      ],
+      "title": "saving flowers",
+      "album": "TRUE MAGIC",
+      "album_id": "0K7hOcNhAGs54ANFnXw6uM",
+      "duration_ms": 210785,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBCFB2400153",
+      "release_date": "2024-07-12",
+      "popularity": 48,
+      "metadata_at": "2026-09-08T23:42:16Z",
+      "is_playable": true,
+      "id": "local:9fb23149a1737c3438b0",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 4,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "UK bounce / garage"
+      ],
+      "editorial_note": "From Joy: salute with Rina Sawayama, a shorter vocal-led burst rather than the long Peach club version.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+        "isrc": "GBCFB2400153",
+        "duration_ms": 210785,
+        "observed_at": "2026-09-08T23:43:12Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.38,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.843,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.895,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0312,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.193,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 132.101,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00037,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.687,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:12Z",
+            "track_url": "https://open.spotify.com/track/5s54Ts1rJwUwaxQqoTC4jQ",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "1np8xozf7ATJZDi9JX8Dx5": {
+          "name": "salute",
+          "genres": [
+            "uk garage",
+            "stutter house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T22:17:32Z",
+          "fetched_at": 1788905852.4670122
+        },
+        "2KEqzdPS7M5YwGmiuPTdr5": {
+          "name": "Rina Sawayama",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:16Z",
+          "fetched_at": 1788910996.735438
+        }
+      },
+      "youtube": {
+        "video_id": "bwNNskob_cg",
+        "title": "saving flowers",
+        "channel": "salute",
+        "duration_seconds": 211,
+        "url": "https://www.youtube.com/watch?v=bwNNskob_cg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5s54Ts1rJwUwaxQqoTC4jQ",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "NuBH7_7Oun4",
+            "title": "salute with Rina Sawayama - saving flowers",
+            "channel": "SubSoul",
+            "duration_seconds": 212,
+            "url": "https://www.youtube.com/watch?v=NuBH7_7Oun4",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5s54Ts1rJwUwaxQqoTC4jQ",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:2ouFrmMwYik8nQX2n9SeZu",
+      "spotify_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+      "artist": "RÜFÜS DU SOL",
+      "artists": [
+        "RÜFÜS DU SOL"
+      ],
+      "artist_ids": [
+        "5Pb27ujIyYb33zBqVysBkj"
+      ],
+      "title": "On My Knees",
+      "album": "Surrender",
+      "album_id": "3SB9ntsoNwC4oUP6xM9DIN",
+      "duration_ms": 261001,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USRE12100620",
+      "release_date": "2021-10-21",
+      "popularity": 79,
+      "metadata_at": "2026-09-08T23:40:48Z",
+      "is_playable": true,
+      "id": "local:f1f3a41d23c66a58f27f",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 5,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Darker / breakbeat probes"
+      ],
+      "editorial_note": "Darker vocal synth-house; tests woodland/night-time mood with a firmer pulse.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+        "isrc": "USRE12100620",
+        "duration_ms": 261001,
+        "observed_at": "2026-09-08T23:43:14Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.29,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.721,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.571,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0616,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.0957,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 120.044,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0335,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0286,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.683,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:14Z",
+            "track_url": "https://open.spotify.com/track/2ouFrmMwYik8nQX2n9SeZu",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "5Pb27ujIyYb33zBqVysBkj": {
+          "name": "RÜFÜS DU SOL",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:25Z",
+          "fetched_at": 1788911005.402967
+        }
+      },
+      "youtube": {
+        "video_id": "y7fudcFIlZs",
+        "title": "RÜFÜS DU SOL - On My Knees (Official Music Video)",
+        "channel": "RÜFÜS DU SOL",
+        "duration_seconds": 264,
+        "url": "https://www.youtube.com/watch?v=y7fudcFIlZs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ouFrmMwYik8nQX2n9SeZu",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "wvyV0VQmJhg",
+            "title": "RÜFÜS DU SOL - On My Knees",
+            "channel": "CloudKid",
+            "duration_seconds": 262,
+            "url": "https://www.youtube.com/watch?v=wvyV0VQmJhg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2ouFrmMwYik8nQX2n9SeZu",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "vk-iLawhXo0",
+            "title": "RÜFÜS DU SOL - On My Knees",
+            "channel": "Selected.",
+            "duration_seconds": 262,
+            "url": "https://www.youtube.com/watch?v=vk-iLawhXo0",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2ouFrmMwYik8nQX2n9SeZu",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:2wwXXUy6P0TCqDNsU0ygm5",
+      "spotify_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+      "artist": "Romy",
+      "artists": [
+        "Romy"
+      ],
+      "artist_ids": [
+        "3X2DdnmoANw8Rg8luHyZQb"
+      ],
+      "title": "Enjoy Your Life",
+      "album": "Mid Air",
+      "album_id": "7vQRJ5q9b0c4gKrsh9yIhE",
+      "duration_ms": 240053,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "UK7MC2300053",
+      "release_date": "2023-09-08",
+      "popularity": 52,
+      "metadata_at": "2026-09-08T23:40:36Z",
+      "is_playable": true,
+      "id": "local:dc1c98964725ff8c5c46",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 6,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Vocal dance-pop"
+      ],
+      "editorial_note": "Euphoric vocal house/rave-pop test; a prominent chorus rather than an instrumental drift.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+        "isrc": "UK7MC2300053",
+        "duration_ms": 240053,
+        "observed_at": "2026-09-08T23:43:16Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.811,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.943,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.924,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 6.09e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.216,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 123.04,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0143,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.102,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.674,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:16Z",
+            "track_url": "https://open.spotify.com/track/2wwXXUy6P0TCqDNsU0ygm5",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "3X2DdnmoANw8Rg8luHyZQb": {
+          "name": "Romy",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:18Z",
+          "fetched_at": 1788910998.469533
+        }
+      },
+      "youtube": {
+        "video_id": "EUx78cD4OFE",
+        "title": "Enjoy Your Life",
+        "channel": "Romy",
+        "duration_seconds": 241,
+        "url": "https://www.youtube.com/watch?v=EUx78cD4OFE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2wwXXUy6P0TCqDNsU0ygm5",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "zPpMkrwejqM",
+            "title": "Romy - Enjoy Your Life (Lyric Video)",
+            "channel": "Romy",
+            "duration_seconds": 240,
+            "url": "https://www.youtube.com/watch?v=zPpMkrwejqM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2wwXXUy6P0TCqDNsU0ygm5",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "Ws4zFeLkYP8",
+            "title": "Romy - Enjoy Your Life (Official Video)",
+            "channel": "Romy",
+            "duration_seconds": 244,
+            "url": "https://www.youtube.com/watch?v=Ws4zFeLkYP8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2wwXXUy6P0TCqDNsU0ygm5",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:3R5FA1Ay1NxgtwbElR78by",
+      "spotify_url": "https://open.spotify.com/track/3R5FA1Ay1NxgtwbElR78by",
+      "artist": "Chromeo",
+      "artists": [
+        "Chromeo"
+      ],
+      "artist_ids": [
+        "2mV8aJphiSHYJf43DxL7Gt"
+      ],
+      "title": "Jealous (I Ain't With It)",
+      "album": "White Women",
+      "album_id": "1rqJZhedmCFNbaoTRQz9Zj",
+      "duration_ms": 228026,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USAT21302779",
+      "release_date": "2014-05-12",
+      "popularity": 50,
+      "metadata_at": "2026-09-08T23:40:39Z",
+      "is_playable": true,
+      "id": "local:32719e2169100c8e33d4",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 7,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Funk / disco"
+      ],
+      "editorial_note": "Bright electro-funk with verse/chorus changes; tests playful rather than atmospheric.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "same ISRC + title + artists + duration; alternate catalog release",
+        "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+        "isrc": "USAT21302779",
+        "duration_ms": 228026,
+        "observed_at": "2026-09-08T23:43:20Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "valence": {
+            "value": 0.775,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "loudness": {
+            "value": -6.099,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "energy": {
+            "value": 0.82,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "liveness": {
+            "value": 0.2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "tempo": {
+            "value": 127.984,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "acousticness": {
+            "value": 0.00823,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "speechiness": {
+            "value": 0.0889,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "key": {
+            "value": 5,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "danceability": {
+            "value": 0.739,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:20Z",
+            "track_url": "https://open.spotify.com/track/0CaHZUniQtDRZleX6XK9p7",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          }
+        }
+      },
+      "artist_genres": {
+        "2mV8aJphiSHYJf43DxL7Gt": {
+          "name": "Chromeo",
+          "genres": [
+            "nu disco",
+            "alternative dance"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:17Z",
+          "fetched_at": 1788910997.5409632
+        }
+      },
+      "youtube": {
+        "video_id": "as3Kwh3Ftoo",
+        "title": "Jealous (I Ain't With It)",
+        "channel": "Chromeo",
+        "duration_seconds": 229,
+        "url": "https://www.youtube.com/watch?v=as3Kwh3Ftoo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3R5FA1Ay1NxgtwbElR78by",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "gHUj1LGIZ8E",
+            "title": "Jealous (I Ain't With It)",
+            "channel": "Chromeo",
+            "duration_seconds": 229,
+            "url": "https://www.youtube.com/watch?v=gHUj1LGIZ8E",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3R5FA1Ay1NxgtwbElR78by",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "ZcXUlGz7pYA",
+            "title": "Jealous (I Ain't With It) [Benny Benassi Radio Edit]",
+            "channel": "Chromeo",
+            "duration_seconds": 231,
+            "url": "https://www.youtube.com/watch?v=ZcXUlGz7pYA",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3R5FA1Ay1NxgtwbElR78by",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "SA--AqcUCow",
+            "title": "Jealous (I Ain't With It) [Benny Benassi Radio Edit]",
+            "channel": "Chromeo",
+            "duration_seconds": 231,
+            "url": "https://www.youtube.com/watch?v=SA--AqcUCow",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3R5FA1Ay1NxgtwbElR78by",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:3gcmn2CtOE9SjBevmvGVEk",
+      "spotify_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+      "artist": "Justice",
+      "artists": [
+        "Justice"
+      ],
+      "artist_ids": [
+        "1gR0gsQYfi6joyO1dlp76N"
+      ],
+      "title": "D.A.N.C.E - Radio Edit",
+      "album": "D.A.N.C.E",
+      "album_id": "6cg0y0EJpRzfVbKGCgVMf7",
+      "duration_ms": 211880,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR0NT0600380",
+      "release_date": "2007-04-30",
+      "popularity": 55,
+      "metadata_at": "2026-09-08T23:40:42Z",
+      "is_playable": true,
+      "id": "local:a1e2398c9069947e30ea",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 8,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Electro / percussion"
+      ],
+      "editorial_note": "Rhythmic vocal electro/disco; radio edit, with a different texture from the prior deep-house pool.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+        "isrc": "FR0NT0600380",
+        "duration_ms": 211880,
+        "observed_at": "2026-09-08T23:43:22Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.536,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.209,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.961,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.753,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 113.076,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0523,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.345,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 4,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.591,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:22Z",
+            "track_url": "https://open.spotify.com/track/3gcmn2CtOE9SjBevmvGVEk",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "1gR0gsQYfi6joyO1dlp76N": {
+          "name": "Justice",
+          "genres": [
+            "french house",
+            "new rave"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:15Z",
+          "fetched_at": 1788910995.9372742
+        }
+      },
+      "youtube": {
+        "video_id": "qPV9FRsHAGc",
+        "title": "D.A.N.C.E (Radio Edit)",
+        "channel": "Justice",
+        "duration_seconds": 212,
+        "url": "https://www.youtube.com/watch?v=qPV9FRsHAGc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3gcmn2CtOE9SjBevmvGVEk",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "EU5xgjmvIXc",
+            "title": "Justice - D.A.N.C.E. (Radio Edit) [Official Audio]",
+            "channel": "Justice",
+            "duration_seconds": 212,
+            "url": "https://www.youtube.com/watch?v=EU5xgjmvIXc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3gcmn2CtOE9SjBevmvGVEk",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:5CaUUACiQFEf4zR5WoeIrp",
+      "spotify_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+      "artist": "Sammy Virji",
+      "artists": [
+        "Sammy Virji"
+      ],
+      "artist_ids": [
+        "1GuqTQbuixFHD6eBkFwVcb"
+      ],
+      "title": "If U Need It",
+      "album": "If U Need It",
+      "album_id": "628CN0UzuPsstc678cQ5Sn",
+      "duration_ms": 179999,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM72309238",
+      "release_date": "2023-11-03",
+      "popularity": 73,
+      "metadata_at": "2026-09-08T23:40:45Z",
+      "is_playable": true,
+      "id": "local:18c12b0168f5460b9fa7",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 9,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "UK bounce / garage"
+      ],
+      "editorial_note": "Fast, springy UK garage with a short vocal hook; test bounce versus repetition.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+        "isrc": "GBUM72309238",
+        "duration_ms": 179999,
+        "observed_at": "2026-09-08T23:43:24Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.233,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.713,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.705,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000324,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.0891,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 132.155,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.113,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.26,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.842,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:24Z",
+            "track_url": "https://open.spotify.com/track/5CaUUACiQFEf4zR5WoeIrp",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "1GuqTQbuixFHD6eBkFwVcb": {
+          "name": "Sammy Virji",
+          "genres": [
+            "uk garage",
+            "bassline",
+            "bass house",
+            "house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:15Z",
+          "fetched_at": 1788910995.056909
+        }
+      },
+      "youtube": {
+        "video_id": "b4ZuXajqL8M",
+        "title": "Sammy Virji - If U Need It (Official Audio)",
+        "channel": "Sammy Virji",
+        "duration_seconds": 181,
+        "url": "https://www.youtube.com/watch?v=b4ZuXajqL8M",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5CaUUACiQFEf4zR5WoeIrp",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "nT5981HB-EE",
+            "title": "Sammy Virji - If U Need It",
+            "channel": "Selected.",
+            "duration_seconds": 181,
+            "url": "https://www.youtube.com/watch?v=nT5981HB-EE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5CaUUACiQFEf4zR5WoeIrp",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:0tOSjuYowBba9F34ecAcBY",
+      "spotify_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+      "artist": "The Prodigy",
+      "artists": [
+        "The Prodigy"
+      ],
+      "artist_ids": [
+        "4k1ELeJKT1ISyDv8JivPpB"
+      ],
+      "title": "Breathe - Edit",
+      "album": "Breathe",
+      "album_id": "5r8T4QvwFQ9zxEKCebCt6L",
+      "duration_ms": 240933,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBKS9600041",
+      "release_date": "1996-11-11",
+      "popularity": 43,
+      "metadata_at": "2026-09-08T23:40:48Z",
+      "is_playable": true,
+      "id": "local:60cbb34d1f5840fbee16",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 10,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Darker / breakbeat probes"
+      ],
+      "editorial_note": "An upper aggression test: dark breakbeat/electronic rock, edit. Could be too abrasive for this room.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+        "isrc": "GBBKS9600041",
+        "duration_ms": 240933,
+        "observed_at": "2026-09-08T23:43:26Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.307,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.332,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.835,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.877,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.037,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 130.036,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0144,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0572,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 9,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.68,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:26Z",
+            "track_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4k1ELeJKT1ISyDv8JivPpB": {
+          "name": "The Prodigy",
+          "genres": [
+            "big beat",
+            "breakbeat"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:23Z",
+          "fetched_at": 1788911003.73689
+        }
+      },
+      "youtube": {
+        "video_id": "Wo7XxlXU3XQ",
+        "title": "Breathe (Edit)",
+        "channel": "The Prodigy",
+        "duration_seconds": 241,
+        "url": "https://www.youtube.com/watch?v=Wo7XxlXU3XQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0tOSjuYowBba9F34ecAcBY",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:44MuEHdlociG8KjhPhOVw5",
+      "spotify_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+      "artist": "Kylie Minogue",
+      "artists": [
+        "Kylie Minogue"
+      ],
+      "artist_ids": [
+        "4RVnAU35WRWra6OZ3CbbMA"
+      ],
+      "title": "Padam Padam",
+      "album": "Tension (Deluxe)",
+      "album_id": "4VNaEhdswqNiEMAcfSav9g",
+      "duration_ms": 166266,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GB5KW2301017",
+      "release_date": "2023-09-22",
+      "popularity": 71,
+      "metadata_at": "2026-09-08T23:40:36Z",
+      "is_playable": true,
+      "id": "local:8125d8329b514296c67d",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 11,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Vocal dance-pop"
+      ],
+      "editorial_note": "Compact, bass-driven and flirtatious dance-pop; tests a more overt pop lane.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+        "isrc": "GB5KW2301017",
+        "duration_ms": 166266,
+        "observed_at": "2026-09-08T23:43:28Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.701,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.931,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.621,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00119,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.104,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 128.105,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.216,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.242,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 5,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.744,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:28Z",
+            "track_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4RVnAU35WRWra6OZ3CbbMA": {
+          "name": "Kylie Minogue",
+          "genres": [
+            "dance pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:20Z",
+          "fetched_at": 1788911000.503807
+        }
+      },
+      "youtube": {
+        "video_id": "p6Cnazi_Fi0",
+        "title": "Kylie Minogue - Padam Padam (Official Video)",
+        "channel": "Kylie Minogue",
+        "duration_seconds": 166,
+        "url": "https://www.youtube.com/watch?v=p6Cnazi_Fi0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:44MuEHdlociG8KjhPhOVw5",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:0hhXziDUO0wNYPsstDQWN6",
+      "spotify_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+      "artist": "Parcels",
+      "artists": [
+        "Parcels"
+      ],
+      "artist_ids": [
+        "3oKRxpszQKUjjaHz388fVA"
+      ],
+      "title": "Overnight",
+      "album": "Overnight",
+      "album_id": "0cIynhird3mHUUs71R7zsj",
+      "duration_ms": 219604,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FRU701700028",
+      "release_date": "2017-06-21",
+      "popularity": 74,
+      "metadata_at": "2026-09-08T23:40:39Z",
+      "is_playable": true,
+      "id": "local:de7c6b67a578325794b8",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 12,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Funk / disco"
+      ],
+      "editorial_note": "The one lighter live-band funk contrast: test whether rhythmic detail works, or still feels too relaxed.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+        "isrc": "FRU701700028",
+        "duration_ms": 219604,
+        "observed_at": "2026-09-08T23:43:30Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.864,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -9.494,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.819,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0555,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.115,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 119.986,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.364,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0521,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.815,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:30Z",
+            "track_url": "https://open.spotify.com/track/0hhXziDUO0wNYPsstDQWN6",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "3oKRxpszQKUjjaHz388fVA": {
+          "name": "Parcels",
+          "genres": [
+            "indie soul"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:19Z",
+          "fetched_at": 1788910999.6900249
+        }
+      },
+      "youtube": {
+        "video_id": "BTdBc2Ba8ts",
+        "title": "Parcels ~ Overnight (Official Audio)",
+        "channel": "Parcels",
+        "duration_seconds": 220,
+        "url": "https://www.youtube.com/watch?v=BTdBc2Ba8ts",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0hhXziDUO0wNYPsstDQWN6",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:7tkjjxQfD5vqv2a8xy45jT",
+      "spotify_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+      "artist": "The Chemical Brothers, Q-Tip",
+      "artists": [
+        "The Chemical Brothers",
+        "Q-Tip"
+      ],
+      "artist_ids": [
+        "1GhPHrq36VKCY3ucVaZCfo",
+        "3ZotbHeyVQKxQCPDJuQ4SU"
+      ],
+      "title": "Go - Radio Edit",
+      "album": "Go",
+      "album_id": "2zmxQmCbyMKEflSyHLim0C",
+      "duration_ms": 214106,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM71503128",
+      "release_date": "2015-05-04",
+      "popularity": 71,
+      "metadata_at": "2026-09-08T23:40:43Z",
+      "is_playable": true,
+      "id": "local:22813b1c716c9bc3895b",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 13,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Electro / percussion"
+      ],
+      "editorial_note": "Beat-driven electronic pop with Q-Tip; radio edit tests a more assertive rhythmic lane.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+        "isrc": "GBUM71503128",
+        "duration_ms": 214106,
+        "observed_at": "2026-09-08T23:43:32Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.511,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.968,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.864,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 3.61e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.204,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 119.924,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00797,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0568,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.749,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:32Z",
+            "track_url": "https://open.spotify.com/track/7tkjjxQfD5vqv2a8xy45jT",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "1GhPHrq36VKCY3ucVaZCfo": {
+          "name": "The Chemical Brothers",
+          "genres": [
+            "big beat",
+            "alternative dance",
+            "electronic"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:14Z",
+          "fetched_at": 1788910994.651776
+        },
+        "3ZotbHeyVQKxQCPDJuQ4SU": {
+          "name": "Q-Tip",
+          "genres": [
+            "east coast hip hop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:18Z",
+          "fetched_at": 1788910998.881989
+        }
+      },
+      "youtube": {
+        "video_id": "BD6TsB5EvGo",
+        "title": "Go (Radio Edit)",
+        "channel": "The Chemical Brothers",
+        "duration_seconds": 215,
+        "url": "https://www.youtube.com/watch?v=BD6TsB5EvGo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7tkjjxQfD5vqv2a8xy45jT",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "mLZlq2cy-Dc",
+            "title": "Go (Radio Edit)",
+            "channel": "The Chemical Brothers",
+            "duration_seconds": 215,
+            "url": "https://www.youtube.com/watch?v=mLZlq2cy-Dc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7tkjjxQfD5vqv2a8xy45jT",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:39JofJHEtg8I4fSyo7Imft",
+      "spotify_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+      "artist": "Eliza Rose, Interplanetary Criminal",
+      "artists": [
+        "Eliza Rose",
+        "Interplanetary Criminal"
+      ],
+      "artist_ids": [
+        "4XC335ouK6pXyq4QiIb8bP",
+        "6uJ51uV5rYzu1MJkC4CceI"
+      ],
+      "title": "B.O.T.A. (Baddest Of Them All) - Edit",
+      "album": "B.O.T.A. (Baddest Of Them All)",
+      "album_id": "2lQgd3Svp1ZWAzZPLobAPK",
+      "duration_ms": 226626,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QZAKB2166405",
+      "release_date": "2022-08-12",
+      "popularity": 76,
+      "metadata_at": "2026-09-08T23:40:46Z",
+      "is_playable": true,
+      "id": "local:e05fd40f56e35b71ef74",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 14,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "UK bounce / garage"
+      ],
+      "editorial_note": "Garage/house crossover with a memorable vocal; edit. A repetitive hook, explicitly a taste test.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+        "isrc": "QZAKB2166405",
+        "duration_ms": 226626,
+        "observed_at": "2026-09-08T23:43:34Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.729,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.077,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.921,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.662,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.122,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 136.996,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.161,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0446,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.733,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:34Z",
+            "track_url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4XC335ouK6pXyq4QiIb8bP": {
+          "name": "Eliza Rose",
+          "genres": [
+            "house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:21Z",
+          "fetched_at": 1788911001.316093
+        },
+        "6uJ51uV5rYzu1MJkC4CceI": {
+          "name": "Interplanetary Criminal",
+          "genres": [
+            "uk garage",
+            "breakbeat"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:27Z",
+          "fetched_at": 1788911007.0900779
+        }
+      },
+      "youtube": {
+        "video_id": "a0nPjZkxCzQ",
+        "title": "B.O.T.A. (Baddest Of Them All) [Edit]",
+        "channel": "Eliza Rose",
+        "duration_seconds": 227,
+        "url": "https://www.youtube.com/watch?v=a0nPjZkxCzQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:39JofJHEtg8I4fSyo7Imft",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:5crHvEPQ13FbQGQSscm5Ns",
+      "spotify_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+      "artist": "Rudimental, John Newman",
+      "artists": [
+        "Rudimental",
+        "John Newman"
+      ],
+      "artist_ids": [
+        "4WN5naL3ofxrVBgFpguzKo",
+        "34v5MVKeQnIo0CWYMbbrPf"
+      ],
+      "title": "Feel the Love (feat. John Newman) - Radio Edit",
+      "album": "Feel the Love (feat. John Newman)",
+      "album_id": "5hAJKdlLfFblwwmGR0a3Lk",
+      "duration_ms": 219040,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAHS1200163",
+      "release_date": "2012-06-12",
+      "popularity": 50,
+      "metadata_at": "2026-09-08T23:40:49Z",
+      "is_playable": true,
+      "id": "local:beaf2c54a8790dfb5afa",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 15,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Darker / breakbeat probes"
+      ],
+      "editorial_note": "Soul vocal and drum-and-bass lift; radio edit. Tests a faster rhythm without a techno pivot.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+        "isrc": "GBAHS1200163",
+        "duration_ms": 219040,
+        "observed_at": "2026-09-08T23:43:36Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.245,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -8.778,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.677,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.23e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.69,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 180.026,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00363,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0654,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.381,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:36Z",
+            "track_url": "https://open.spotify.com/track/5crHvEPQ13FbQGQSscm5Ns",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4WN5naL3ofxrVBgFpguzKo": {
+          "name": "Rudimental",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:20Z",
+          "fetched_at": 1788911000.923392
+        },
+        "34v5MVKeQnIo0CWYMbbrPf": {
+          "name": "John Newman",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:18Z",
+          "fetched_at": 1788910998.0192199
+        }
+      },
+      "youtube": {
+        "video_id": "HNdL0fuEDtg",
+        "title": "Feel the Love (feat. John Newman) [Radio Edit]",
+        "channel": "Rudimental",
+        "duration_seconds": 220,
+        "url": "https://www.youtube.com/watch?v=HNdL0fuEDtg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5crHvEPQ13FbQGQSscm5Ns",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:7g13jf3zqlP5S68Voo5v9m",
+      "spotify_url": "https://open.spotify.com/track/7g13jf3zqlP5S68Voo5v9m",
+      "artist": "Robyn",
+      "artists": [
+        "Robyn"
+      ],
+      "artist_ids": [
+        "6UE7nl9mha6s8z0wFQFIZ2"
+      ],
+      "title": "Dancing On My Own - Radio Edit",
+      "album": "Body Talk",
+      "album_id": "0Rzg7fqyWE39G6wKipxrns",
+      "duration_ms": 278080,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "SEWKZ1000009",
+      "release_date": "2010-01-01",
+      "popularity": 78,
+      "metadata_at": "2026-09-08T23:40:37Z",
+      "is_playable": true,
+      "id": "local:380023130cd9b5157274",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 16,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Vocal dance-pop"
+      ],
+      "editorial_note": "Vocal synth-pop with a strong emotional chorus; tests whether a full song arc earns the length.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "artist_genres": {
+        "6UE7nl9mha6s8z0wFQFIZ2": {
+          "name": "Robyn",
+          "genres": [
+            "swedish pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:26Z",
+          "fetched_at": 1788911006.685428
+        }
+      },
+      "youtube": {
+        "video_id": "CSe5DG0Bn2Y",
+        "title": "Dancing On My Own (Radio Edit)",
+        "channel": "Robyn",
+        "duration_seconds": 279,
+        "url": "https://www.youtube.com/watch?v=CSe5DG0Bn2Y",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7g13jf3zqlP5S68Voo5v9m",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:6beezthgIeabh7N9IJCcxb",
+      "spotify_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+      "artist": "Yuksek",
+      "artists": [
+        "Yuksek"
+      ],
+      "artist_ids": [
+        "2ePIzx9NjxplS724QMZtsf"
+      ],
+      "title": "Tonight - Radio Edit",
+      "album": "Away From The Sea",
+      "album_id": "4lSoi7MqHABeo7jBnV6bIQ",
+      "duration_ms": 193653,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR47T0800024",
+      "release_date": "2009",
+      "popularity": 19,
+      "metadata_at": "2026-09-08T23:40:40Z",
+      "is_playable": true,
+      "id": "local:660503af534ba28568c3",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 17,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Funk / disco"
+      ],
+      "editorial_note": "French electro with a sharper attack; radio edit keeps this trial compact.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+        "isrc": "FR47T0800024",
+        "duration_ms": 193653,
+        "observed_at": "2026-09-08T23:43:40Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.148,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.777,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.841,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0019,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.133,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 128.992,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0689,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0377,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.61,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:40Z",
+            "track_url": "https://open.spotify.com/track/6beezthgIeabh7N9IJCcxb",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "2ePIzx9NjxplS724QMZtsf": {
+          "name": "Yuksek",
+          "genres": [
+            "nu disco",
+            "french house",
+            "french indie pop",
+            "disco house",
+            "funky house",
+            "indie dance"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:17Z",
+          "fetched_at": 1788910997.130305
+        }
+      },
+      "youtube": {
+        "video_id": "oWhcw8Y024k",
+        "title": "Tonight (Radio Edit)",
+        "channel": "Yuksek",
+        "duration_seconds": 194,
+        "url": "https://www.youtube.com/watch?v=oWhcw8Y024k",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6beezthgIeabh7N9IJCcxb",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "63-dgkvAHxs",
+            "title": "Tonight (Radio Edit)",
+            "channel": "Yuksek",
+            "duration_seconds": 194,
+            "url": "https://www.youtube.com/watch?v=63-dgkvAHxs",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6beezthgIeabh7N9IJCcxb",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "JfsPU-tfZYY",
+            "title": "Tonight (Radio Edit)",
+            "channel": "Yuksek",
+            "duration_seconds": 195,
+            "url": "https://www.youtube.com/watch?v=JfsPU-tfZYY",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6beezthgIeabh7N9IJCcxb",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:0Z3Y5cWOPaXIBI08KKDVTO",
+      "spotify_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+      "artist": "Basement Jaxx",
+      "artists": [
+        "Basement Jaxx"
+      ],
+      "artist_ids": [
+        "4YrKBkKSVeqDamzBPWVnSJ"
+      ],
+      "title": "Red Alert - Jaxx Radio Mix",
+      "album": "Red Alert",
+      "album_id": "60O0wPhfgkZGGKTJho6bHS",
+      "duration_ms": 218026,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBKS9900011",
+      "release_date": "1999-04-19",
+      "popularity": 63,
+      "metadata_at": "2026-09-08T23:40:43Z",
+      "is_playable": true,
+      "id": "local:86380a2ec6e6d7043d4f",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 18,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Electro / percussion"
+      ],
+      "editorial_note": "Funky, unruly vocal house; Jaxx Radio Mix avoids the extended club intro.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+        "isrc": "GBBKS9900011",
+        "duration_ms": 218026,
+        "observed_at": "2026-09-08T23:43:42Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.821,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.421,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.956,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000869,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.323,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 126.845,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0507,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0497,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.648,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:42Z",
+            "track_url": "https://open.spotify.com/track/0Z3Y5cWOPaXIBI08KKDVTO",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4YrKBkKSVeqDamzBPWVnSJ": {
+          "name": "Basement Jaxx",
+          "genres": [
+            "big beat"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:21Z",
+          "fetched_at": 1788911001.712
+        }
+      },
+      "youtube": {
+        "video_id": "MGQ_Lifd-Wg",
+        "title": "Red Alert (Jaxx Radio Mix)",
+        "channel": "Basement Jaxx",
+        "duration_seconds": 219,
+        "url": "https://www.youtube.com/watch?v=MGQ_Lifd-Wg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0Z3Y5cWOPaXIBI08KKDVTO",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:4PBNas8A7PQqhdmrOmwU3H",
+      "spotify_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+      "artist": "TS7, Taylor Fowlis",
+      "artists": [
+        "TS7",
+        "Taylor Fowlis"
+      ],
+      "artist_ids": [
+        "4EV6hgVc6KD0SFOIJJLFki",
+        "6SybuO51JuFgDquQxtl1ci"
+      ],
+      "title": "Heartlight (Polygon) - Radio Edit",
+      "album": "Heartlight (Polygon)",
+      "album_id": "5ueN3gj65LcyGhqM8ftsJB",
+      "duration_ms": 184923,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBSXS1300014",
+      "release_date": "2013-02-17",
+      "popularity": 25,
+      "metadata_at": "2026-09-08T23:40:47Z",
+      "is_playable": true,
+      "id": "local:f68a10a842b8dcee2400",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 19,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "UK bounce / garage"
+      ],
+      "editorial_note": "Pitched-vocal UK bass/garage; radio edit gives a contrasting rhythmic feel in three minutes.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+        "isrc": "GBSXS1300014",
+        "duration_ms": 184923,
+        "observed_at": "2026-09-08T23:43:44Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.707,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.904,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.788,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000147,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.0411,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 121.958,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0637,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0394,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 11,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.827,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:44Z",
+            "track_url": "https://open.spotify.com/track/4PBNas8A7PQqhdmrOmwU3H",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4EV6hgVc6KD0SFOIJJLFki": {
+          "name": "TS7",
+          "genres": [
+            "bassline",
+            "drum and bass",
+            "bass house",
+            "uk garage"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:20Z",
+          "fetched_at": 1788911000.090132
+        },
+        "6SybuO51JuFgDquQxtl1ci": {
+          "name": "Taylor Fowlis",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:26Z",
+          "fetched_at": 1788911006.277666
+        }
+      },
+      "youtube": {
+        "video_id": "LmWebuYk_pI",
+        "title": "Heartlight (Polygon) (Radio Edit)",
+        "channel": "TS7",
+        "duration_seconds": 185,
+        "url": "https://www.youtube.com/watch?v=LmWebuYk_pI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4PBNas8A7PQqhdmrOmwU3H",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:04OxTCLGgDKfO0MMA2lcxv",
+      "spotify_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+      "artist": "Chase & Status, Liam Bailey",
+      "artists": [
+        "Chase & Status",
+        "Liam Bailey"
+      ],
+      "artist_ids": [
+        "3jNkaOXasoc7RsxdchvEVq",
+        "022EiWsch2zvty0qBUksDO"
+      ],
+      "title": "Blind Faith",
+      "album": "No More Idols",
+      "album_id": "245j9BaZFuEso2vfLRVnQr",
+      "duration_ms": 233666,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM71027458",
+      "release_date": "2011-01-01",
+      "popularity": 66,
+      "metadata_at": "2026-09-08T23:40:50Z",
+      "is_playable": true,
+      "id": "local:64ee7bac6ebcaab3dd38",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 20,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Darker / breakbeat probes"
+      ],
+      "editorial_note": "Rave/breakbeat with a sung hook; an exploratory change of rhythm, not an assumption this belongs all night.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+        "isrc": "GBUM71027458",
+        "duration_ms": 233666,
+        "observed_at": "2026-09-08T23:43:46Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.401,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.712,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.845,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.228,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 140.031,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00523,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0476,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 9,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.45,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:46Z",
+            "track_url": "https://open.spotify.com/track/04OxTCLGgDKfO0MMA2lcxv",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "3jNkaOXasoc7RsxdchvEVq": {
+          "name": "Chase & Status",
+          "genres": [
+            "drum and bass",
+            "jungle"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:19Z",
+          "fetched_at": 1788910999.269451
+        },
+        "022EiWsch2zvty0qBUksDO": {
+          "name": "Liam Bailey",
+          "genres": [
+            "liquid funk",
+            "retro soul",
+            "retro pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:14Z",
+          "fetched_at": 1788910994.0612311
+        }
+      },
+      "youtube": {
+        "video_id": "8MfUnIvialU",
+        "title": "Blind Faith",
+        "channel": "Chase & Status",
+        "duration_seconds": 234,
+        "url": "https://www.youtube.com/watch?v=8MfUnIvialU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:04OxTCLGgDKfO0MMA2lcxv",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "DQKYP4WMnoQ",
+            "title": "Blind Faith",
+            "channel": "Chase & Status",
+            "duration_seconds": 234,
+            "url": "https://www.youtube.com/watch?v=DQKYP4WMnoQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:04OxTCLGgDKfO0MMA2lcxv",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:7axM6HbfUTu3dXEIWOYcH1",
+      "spotify_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+      "artist": "Jessie Ware",
+      "artists": [
+        "Jessie Ware"
+      ],
+      "artist_ids": [
+        "5Mq7iqCWBzofK39FBqblNc"
+      ],
+      "title": "Free Yourself",
+      "album": "That! Feels Good!",
+      "album_id": "17g3sAeWfpHSJlqMHuRAr6",
+      "duration_ms": 234080,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM72204289",
+      "release_date": "2023-04-28",
+      "popularity": 58,
+      "metadata_at": "2026-09-08T23:40:38Z",
+      "is_playable": true,
+      "id": "local:1e6cf6ce49c69f22683d",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 21,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Vocal dance-pop"
+      ],
+      "editorial_note": "A deliberate second test of Jessie Ware: a more forceful piano/disco anthem than the rejected What’s Your Pleasure?.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+        "isrc": "GBUM72204289",
+        "duration_ms": 234080,
+        "observed_at": "2026-09-08T23:43:48Z",
+        "features": {
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.724,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.51,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.913,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 6.49e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.124,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 119.001,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00283,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0497,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.692,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:48Z",
+            "track_url": "https://open.spotify.com/track/7axM6HbfUTu3dXEIWOYcH1",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "5Mq7iqCWBzofK39FBqblNc": {
+          "name": "Jessie Ware",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T22:17:51Z",
+          "fetched_at": 1788905871.678445
+        }
+      },
+      "youtube": {
+        "video_id": "LmVvbsYrgJE",
+        "title": "Free Yourself",
+        "channel": "Jessie Ware",
+        "duration_seconds": 235,
+        "url": "https://www.youtube.com/watch?v=LmVvbsYrgJE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7axM6HbfUTu3dXEIWOYcH1",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "OxQvjrb47Wg",
+            "title": "Jessie Ware - Free Yourself (Lyric Video)",
+            "channel": "Jessie Ware",
+            "duration_seconds": 235,
+            "url": "https://www.youtube.com/watch?v=OxQvjrb47Wg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7axM6HbfUTu3dXEIWOYcH1",
+            "observed_at": "2026-09-08T23:44:31Z"
+          },
+          {
+            "video_id": "aD7F6M9fsms",
+            "title": "Jessie Ware - Free Yourself (Official Music Video)",
+            "channel": "Jessie Ware",
+            "duration_seconds": 236,
+            "url": "https://www.youtube.com/watch?v=aD7F6M9fsms",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7axM6HbfUTu3dXEIWOYcH1",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:2Uy6EhQXAYkXA6MohPgjpV",
+      "spotify_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+      "artist": "Daft Punk",
+      "artists": [
+        "Daft Punk"
+      ],
+      "artist_ids": [
+        "4tZwfgrHOc3mvqYlEYSvVi"
+      ],
+      "title": "One More Time - Radio Edit",
+      "album": "One More Time",
+      "album_id": "0bHuuhpKn42ktYbyTIeumE",
+      "duration_ms": 235466,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBDUW0000054",
+      "release_date": "2000-11-13",
+      "popularity": 68,
+      "metadata_at": "2026-09-08T23:40:41Z",
+      "is_playable": true,
+      "id": "local:81b019baa3733a314e67",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 22,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Funk / disco"
+      ],
+      "editorial_note": "Filtered-house anthem, radio edit. Familiarity and repeated hook are a deliberate test, not assumed approval.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+        "isrc": "GBDUW0000054",
+        "duration_ms": 235466,
+        "observed_at": "2026-09-08T23:43:50Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.533,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -8.49,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.671,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.376,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 122.891,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0348,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.104,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.648,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:50Z",
+            "track_url": "https://open.spotify.com/track/2Uy6EhQXAYkXA6MohPgjpV",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "4tZwfgrHOc3mvqYlEYSvVi": {
+          "name": "Daft Punk",
+          "genres": [
+            "french house",
+            "electronic",
+            "electro"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:24Z",
+          "fetched_at": 1788911004.1956391
+        }
+      },
+      "youtube": {
+        "video_id": "WYhv-hR6Q2U",
+        "title": "One More Time (Radio Edit)",
+        "channel": "Daft Punk",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=WYhv-hR6Q2U",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2Uy6EhQXAYkXA6MohPgjpV",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:6Yc7uk3iKOKcY70Qtg388X",
+      "spotify_url": "https://open.spotify.com/track/6Yc7uk3iKOKcY70Qtg388X",
+      "artist": "SOFI TUKKER",
+      "artists": [
+        "SOFI TUKKER"
+      ],
+      "artist_ids": [
+        "586uxXMyD5ObPuzjtrzO1Q"
+      ],
+      "title": "Drinkee (Radio Edit)",
+      "album": "Drinkee (Radio Edit)",
+      "album_id": "1T0hVqaNPSXMAI8CLsVC2X",
+      "duration_ms": 191468,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QM37X1500010",
+      "release_date": "2016-09-09",
+      "popularity": 23,
+      "metadata_at": "2026-09-08T23:40:44Z",
+      "is_playable": true,
+      "id": "local:4a7988e051a8884b96d0",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 23,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Electro / percussion"
+      ],
+      "editorial_note": "Portuguese vocal/percussion and guitar-driven dance; radio edit. Test whether the chant earns its repetition.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "artist_genres": {
+        "586uxXMyD5ObPuzjtrzO1Q": {
+          "name": "SOFI TUKKER",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:24Z",
+          "fetched_at": 1788911004.592892
+        }
+      },
+      "youtube": {
+        "video_id": "OjvmbwsSS1A",
+        "title": "Drinkee (Radio Edit)",
+        "channel": "SOFI TUKKER",
+        "duration_seconds": 192,
+        "url": "https://www.youtube.com/watch?v=OjvmbwsSS1A",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6Yc7uk3iKOKcY70Qtg388X",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:1zF4BvRW9FRiCe2TJgaIzE",
+      "spotify_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+      "artist": "Groove Armada",
+      "artists": [
+        "Groove Armada"
+      ],
+      "artist_ids": [
+        "67tgMwUfnmqzYsNAtnP6YJ"
+      ],
+      "title": "Superstylin'",
+      "album": "Ultimate Insomnia",
+      "album_id": "13Ln8UXA5vcskfxKMW58T9",
+      "duration_ms": 238880,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAHK0800026",
+      "release_date": "2008-06-20",
+      "popularity": 41,
+      "metadata_at": "2026-09-08T23:40:47Z",
+      "is_playable": true,
+      "id": "local:418d3da91c65c7108d6d",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 24,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "UK bounce / garage"
+      ],
+      "editorial_note": "Ragga-inflected bass and house; selected the 3:59 catalog recording, not the six-minute album version or a mixed DJ excerpt.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+        "isrc": "GBAHK0800026",
+        "duration_ms": 238880,
+        "observed_at": "2026-09-08T23:43:54Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.921,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.11,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.913,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 9.35e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.167,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 129.007,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0012,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0732,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 9,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.801,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:54Z",
+            "track_url": "https://open.spotify.com/track/1zF4BvRW9FRiCe2TJgaIzE",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "67tgMwUfnmqzYsNAtnP6YJ": {
+          "name": "Groove Armada",
+          "genres": [
+            "big beat",
+            "trip hop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:25Z",
+          "fetched_at": 1788911005.842689
+        }
+      },
+      "youtube": {
+        "video_id": "GD-_Yc2v3Vc",
+        "title": "Superstylin'",
+        "channel": "Groove Armada",
+        "duration_seconds": 239,
+        "url": "https://www.youtube.com/watch?v=GD-_Yc2v3Vc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1zF4BvRW9FRiCe2TJgaIzE",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": [
+          {
+            "video_id": "trYHBnW6nWg",
+            "title": "Superstylin'",
+            "channel": "Groove Armada",
+            "duration_seconds": 236,
+            "url": "https://www.youtube.com/watch?v=trYHBnW6nWg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1zF4BvRW9FRiCe2TJgaIzE",
+            "observed_at": "2026-09-08T23:44:31Z"
+          }
+        ]
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:1SyOjtLqqqk2AVLZnRI3bk",
+      "spotify_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+      "artist": "Goldfrapp",
+      "artists": [
+        "Goldfrapp"
+      ],
+      "artist_ids": [
+        "5BKsn7SCN2XmbF7apdCpRS"
+      ],
+      "title": "Strict Machine",
+      "album": "Black Cherry",
+      "album_id": "1W9jLuEBZvSoNZHsErjgkU",
+      "duration_ms": 231453,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAJH0300036",
+      "release_date": "2003-04-28",
+      "popularity": 58,
+      "metadata_at": "2026-09-08T23:40:50Z",
+      "is_playable": true,
+      "id": "local:50a7368a0ebb6404c7a4",
+      "batch_id": "02",
+      "batch_name": "Batch 02 · Energy & variety",
+      "batch_rank": 25,
+      "origin": "Batch 02 · new candidate · Spotify version verified",
+      "style": [
+        "Darker / breakbeat probes"
+      ],
+      "editorial_note": "Sensual glam/electro with a heavy synth pulse; tests a darker alternative to disco.",
+      "features": {},
+      "flags": [],
+      "batch_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+        "isrc": "GBAJH0300036",
+        "duration_ms": 231453,
+        "observed_at": "2026-09-08T23:43:56Z",
+        "features": {
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.45,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.66,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.59,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.16,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.112,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 125.998,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0248,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0294,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.634,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-09-08T23:43:56Z",
+            "track_url": "https://open.spotify.com/track/1SyOjtLqqqk2AVLZnRI3bk",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "artist_genres": {
+        "5BKsn7SCN2XmbF7apdCpRS": {
+          "name": "Goldfrapp",
+          "genres": [
+            "trip hop",
+            "electroclash",
+            "art pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-08T23:43:25Z",
+          "fetched_at": 1788911005.005441
+        }
+      },
+      "youtube": {
+        "video_id": "Yv0ZmAao1ow",
+        "title": "Goldfrapp - Strict Machine (2019 HQ Vinyl Rip) - Technics 1200G / Audio Technica ART9",
+        "channel": "AudioPhil",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=Yv0ZmAao1ow",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1SyOjtLqqqk2AVLZnRI3bk",
+        "observed_at": "2026-09-08T23:44:31Z",
+        "alternatives": []
+      }
+    }
+  ],
+  "spotify_playlist_url": "https://open.spotify.com/playlist/3mlcsJdQawKVlWVyfEPA72",
+  "spotify_verification": {
+    "verified": true,
+    "track_count": 25,
+    "snapshot_id": "AAAAAaL9eerem3/RdfxGtuji7fkER6Sq"
+  },
+  "coverage": {
+    "spotify_exact_versions": 25,
+    "youtube_candidates": 24,
+    "catalog_features": {
+      "tempo": 21,
+      "key": 21,
+      "energy": 21,
+      "danceability": 21,
+      "valence": 21,
+      "acousticness": 21,
+      "speechiness": 21
+    },
+    "duration_seconds": 5594.441
+  }
+}

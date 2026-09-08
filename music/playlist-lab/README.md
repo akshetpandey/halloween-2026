@@ -4,16 +4,19 @@ A local Python tool for October Grove selection, persistent track votes, metadat
 
 **Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
 
+**Latest calibration:** the host finished the original 141 (four keeps, 137 cuts). [Batch 02](../living-room/october-grove-batch-02.md) adds 25 new candidates, 25 distinct lead artists and 1:33:14 raw. Its private Spotify order is verified; audio descriptors cover 21/25 and YouTube candidates 24/25. The library now contains 166 tracks; prior feedback is retained.
+
 ## Listen and vote now
 
 Run from the repository root:
 
 ```sh
 python3 music/playlist-lab/lab.py import music/living-room/review-library.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-02.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. Start with **First audition**. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
+Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 02 · Energy & variety (25)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
 
 **YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates have matching title/mix words, artist/channel evidence and duration within five seconds, but are not guaranteed identical versions. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
 
@@ -22,7 +25,8 @@ Open [the listening room](http://127.0.0.1:8765) in Chrome. Start with **First a
 `yt-dlp` is used only for metadata searches, with no audio/video downloads and no browser-cookie extraction. Refresh candidates with:
 
 ```sh
-python3 music/playlist-lab/youtube.py       # audition only
+python3 music/playlist-lab/youtube.py --batch 02 # current batch
+python3 music/playlist-lab/youtube.py       # original audition only
 python3 music/playlist-lab/youtube.py --all # all linked library tracks
 ```
 
@@ -70,6 +74,8 @@ python3 music/playlist-lab/lab.py apply music/playlist-lab/.local/plan.json --ap
 
 No blind write retries. A timeout may mean a write succeeded: pull, inspect the backup/event history, and generate a new plan. The API does not offer an atomic multi-request transaction; avoid editing Spotify while a sync runs. Snapshot prechecks catch observed conflicts but cannot eliminate the small race before each request. No automated rollback overwrites someone else’s newer edits. Normal repeat runs against the same desired list are no-ops; a saved old plan is rejected after the playlist changes.
 
+Batch seeds use stable `batch_id`, `batch_name`, `batch_rank` and `batch_playlist_url` fields. Use a new increasing batch ID for each 25-track audition; imports add new tracks without overwriting existing feedback. The newest ID sorts first, and the selected batch controls both track order and the whole-audition Spotify link.
+
 ## Feedback and removals
 
 Explicit votes are authoritative. A pull compares complete ordered snapshots and logs added/removed URI occurrences. Reordering is not removal. Removals do **not** become dislikes: they may be alternate-version replacement, availability changes, accidental deletion or another editor. Review an observed removal and give it a vote/reason. Managed edits are logged separately from externally observed differences. History lives in the local event table and exports; there is no background polling or automatic Spotify mutation from votes.
@@ -105,6 +111,7 @@ python3 music/playlist-lab/lab.py genres
 python3 music/playlist-lab/enrich.py
 # Or just the first audition:
 python3 music/playlist-lab/enrich.py --audition
+python3 music/playlist-lab/enrich.py --batch 02
 ```
 
 ReccoBeats provides up to 11 descriptors: tempo, key, mode, energy, danceability, valence, acousticness, speechiness, instrumentalness, liveness and loudness. The first six custom listening scores stay separate. Retrieval sends only public recording identifiers or song titles, never Spotify credentials, account details, votes or audio. No audio is downloaded or uploaded.
@@ -128,7 +135,7 @@ LOCAL_RECORD_ID,genre,vocal house,host listening 2026-09-08
 python3 music/playlist-lab/lab.py import-features metadata.csv
 python3 music/playlist-lab/lab.py features --limit 1
 python3 -m unittest discover -s music/playlist-lab -v
-node --test music/playlist-lab/test_player.cjs
+node --test music/playlist-lab/test_player.cjs music/playlist-lab/test_batches.cjs
 ```
 
 Credentials, runtime snapshots and voting history live in `.local/`, ignored by Git. Back up that directory privately or use the export command; committing the program does not back up later votes. `--state PATH` before the subcommand selects a different state directory, useful for disposable testing.

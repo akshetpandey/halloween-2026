@@ -131,9 +131,11 @@ def main():
     p.add_argument('--state',type=Path,default=DEFAULT_STATE)
     p.add_argument('--audition',action='store_true')
     p.add_argument('--limit',type=int)
+    p.add_argument('--batch',help='Only this audition batch ID, e.g. 02')
     args=p.parse_args()
     store=Store(args.state);service=Recco(args.state)
     rows=store.rows()
+    if args.batch:rows=[t for t in rows if t.get('batch_id')==args.batch]
     if args.audition:rows=[t for t in rows if t.get('audition_rank')]
     if args.limit is not None:rows=rows[:args.limit]
     report=[]

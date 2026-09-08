@@ -31,7 +31,7 @@ def ranked_candidates(track, entries):
         name=words(e.get('title',''));channel=words(e.get('channel') or '')
         tokens=set(name.split())
         if not needed<=tokens:continue
-        if (tokens & {'live','cover','slowed','sped','nightcore','karaoke','remix','rework','mashup'})-needed:continue
+        if (tokens & {'live','cover','slowed','sped','nightcore','karaoke','remix','rework','mashup','instrumental','acoustic','acapella','acappella','demo'})-needed:continue
         artist_channel=any(words(a)==channel or words(a)+' topic'==channel for a in artists)
         if not artist_channel and not (e.get('channel_is_verified') and main in name):continue
         score=(0 if artist_channel else 1,0 if name==words(title) or channel.endswith(' topic') else 1,0 if 'official audio' in name else 1,delta)
@@ -58,7 +58,7 @@ def lookup(track,state):
     entries=[]
     for i,query in enumerate(queries):
         # Audition tracks get a second search for album audio and alternate uploads.
-        if i and select_candidate(track,entries) and not track.get('audition_rank'):break
+        if i and select_candidate(track,entries) and not (track.get('audition_rank') or track.get('batch_id')):break
         path=Path(state)/'youtube-search-cache'/(hashlib.sha256(query.encode()).hexdigest()+'.json')
         if path.exists() and time.time()-path.stat().st_mtime<14*86400:
             data=json.loads(path.read_text())
@@ -75,8 +75,9 @@ def lookup(track,state):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--state',type=Path,default=DEFAULT_STATE);p.add_argument('--all',action='store_true')
+    p.add_argument('--batch',help='Only this audition batch ID, e.g. 02')
     args=p.parse_args();store=Store(args.state)
-    rows=sorted([t for t in store.rows() if t.get('spotify_uri') and (args.all or t.get('audition_rank'))],key=lambda t:t.get('audition_rank') or 999)
+    rows=sorted([t for t in store.rows() if t.get('spotify_uri') and (t.get('batch_id')==args.batch if args.batch else args.all or t.get('audition_rank'))],key=lambda t:t.get('audition_rank') or 999)
     report=[]
     with ThreadPoolExecutor(max_workers=3) as pool:
         jobs={pool.submit(lookup,t,args.state):t for t in rows}

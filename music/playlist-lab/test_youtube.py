@@ -17,3 +17,8 @@ class YouTubeMatchingTests(unittest.TestCase):
         self.assertEqual(found['video_id'],'abcdefghijk');self.assertEqual(found['alternatives'][0]['video_id'],'bbbbbbbbbbb')
     def test_missing_runtime_does_not_guess(self):
         self.track['duration_ms']=0;self.assertIsNone(select_candidate(self.track,[self.video]))
+    def test_instrumental_or_acoustic_alternate_cannot_replace_vocal_recording(self):
+        for version in ['Instrumental','Acoustic','Acapella','Demo']:
+            self.assertIsNone(select_candidate(self.track,[{**self.video,'title':'Song Edit '+version}]))
+        self.track['title']='Song Edit Instrumental'
+        self.assertIsNotNone(select_candidate(self.track,[{**self.video,'title':'Song Edit Instrumental'}]))

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-08",
-  "status": "36-track local audition, not a nine-hour replacement or a live Spotify playlist",
+  "updated": "2026-09-08T22:23:31Z",
+  "status": "Live private 36-track audition; order verified via Spotify API. Not a nine-hour replacement.",
   "tracks": [
     {
       "position": 2,
@@ -12,14 +12,35 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 1,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Feel Good",
+      "spotify_album": "Kingdoms In Colour",
+      "id": "local:fcbecca94113f546314c",
+      "spotify_uri": "spotify:track:3PURbsY67tLMyausOABtit",
+      "spotify_url": "https://open.spotify.com/track/3PURbsY67tLMyausOABtit",
+      "artists": [
+        "Maribou State",
+        "Khruangbin"
+      ],
+      "artist_ids": [
+        "7zrkALJ9ayRjzysp4QYoEg",
+        "2mVVjNmdjXZZDvhgQWiakk"
+      ],
+      "album_id": "70FGsJuLXPQHYdKmEZZFq9",
+      "duration_ms": 267200,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB1800182",
+      "explicit": false,
+      "release_date": "2018-09-07",
+      "popularity": 58,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Jessie Ware",
       "title": "What’s Your Pleasure?",
       "album": "What's Your Pleasure?",
-      "duration_ms": 278027,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 278026,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/whats-your-pleasure/1498945382?i=1498945569&uo=4",
       "catalog_id": 1498945569,
       "catalog_genre": "Pop",
@@ -34,15 +55,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:2ZcwbSYqc8RfPGMMXTIdb0",
+      "features": {},
+      "spotify_title": "What’s Your Pleasure?",
+      "spotify_album": "What's Your Pleasure?",
+      "id": "local:4f22577233dcf6578fa9",
+      "spotify_url": "https://open.spotify.com/track/2ZcwbSYqc8RfPGMMXTIdb0",
+      "artists": [
+        "Jessie Ware"
+      ],
+      "artist_ids": [
+        "5Mq7iqCWBzofK39FBqblNc"
+      ],
+      "album_id": "1CTm3ARqDETSm7GfvNYNJp",
+      "isrc": "GBUM72000590",
+      "explicit": false,
+      "release_date": "2020-06-26",
+      "popularity": 57,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Róisín Murphy",
       "title": "Murphy's Law (Edit)",
       "album": "Murphy's Law - Single",
-      "duration_ms": 230008,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 230007,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/murphys-law-edit/1498918903?i=1498918907&uo=4",
       "catalog_id": 1498918907,
       "catalog_genre": "Electronic",
@@ -57,8 +94,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:5pVk9zx3qrtmx3ya8hyanZ",
+      "features": {},
+      "spotify_title": "Murphy's Law (Edit)",
+      "spotify_album": "Murphy's Law",
+      "id": "local:de38ac4f01e35c22737f",
+      "spotify_url": "https://open.spotify.com/track/5pVk9zx3qrtmx3ya8hyanZ",
+      "artists": [
+        "Róisín Murphy"
+      ],
+      "artist_ids": [
+        "3qwabfaWewpfli7hMNM3O8"
+      ],
+      "album_id": "4f79qXqWnMqji5pvN3oOn6",
+      "isrc": "GB5KW2000341",
+      "explicit": false,
+      "release_date": "2020-03-04",
+      "popularity": 45,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 10,
@@ -70,14 +123,35 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 4,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Bambro Koyo Ganda",
+      "spotify_album": "Migration",
+      "id": "local:09c8ef7de923452a2055",
+      "spotify_uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+      "spotify_url": "https://open.spotify.com/track/5EGJ7e7frJjYja6H4afzoT",
+      "artists": [
+        "Bonobo",
+        "Innov Gnawa"
+      ],
+      "artist_ids": [
+        "0cmWgDlu9CwTgxPhf403hb",
+        "6FUsQ3dkSd27KwQ1iCugSV"
+      ],
+      "album_id": "2T64N96AVfsrRFJCUXQEoZ",
+      "duration_ms": 302428,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB1604705",
+      "explicit": false,
+      "release_date": "2017-01-13",
+      "popularity": 55,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Moloko",
       "title": "Sing It Back (Boris Musical Mix) [Edit]",
       "album": "Sing It Back - Single",
       "duration_ms": 278000,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/sing-it-back-boris-musical-mix-edit/1436341968?i=1436341970&uo=4",
       "catalog_id": 1436341970,
       "catalog_genre": "Pop",
@@ -92,15 +166,35 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:4O0LwyuV3U18Hg5AxILDlI",
+      "features": {},
+      "spotify_title": "Sing It Back - Boris Musical Mix - Edit",
+      "spotify_album": "Sing It Back",
+      "id": "local:25bc5c7e438d0ad6776c",
+      "spotify_url": "https://open.spotify.com/track/4O0LwyuV3U18Hg5AxILDlI",
+      "artists": [
+        "Moloko",
+        "Boris Dlugosch",
+        "Michael Lange"
+      ],
+      "artist_ids": [
+        "4aaBjq7VqqQvpSF69GglvO",
+        "5mrwZhvK7J8K34cWeFG3ru",
+        "0r3oYkStfoV3sVeoQ1vmtw"
+      ],
+      "album_id": "50fBSeZBLewhHEoYgw3C3U",
+      "isrc": "GBBND9800385",
+      "explicit": false,
+      "release_date": "1998-10-26",
+      "popularity": 73,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Peggy Gou",
       "title": "It Makes You Forget (Itgehane) [Edit]",
       "album": "It Makes You Forget (Itgehane) - Single",
       "duration_ms": 236160,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/it-makes-you-forget-itgehane-edit/1335982351?i=1335982354&uo=4",
       "catalog_id": 1335982354,
       "catalog_genre": "Electronic",
@@ -115,8 +209,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:1GZJu6ciZ55S8Kp1s8Z5ex",
+      "features": {},
+      "spotify_title": "It Makes You Forget (Itgehane) - Edit",
+      "spotify_album": "It Makes You Forget (Itgehane)",
+      "id": "local:c7487316e5572dbec41c",
+      "spotify_url": "https://open.spotify.com/track/1GZJu6ciZ55S8Kp1s8Z5ex",
+      "artists": [
+        "Peggy Gou"
+      ],
+      "artist_ids": [
+        "2mLA48B366zkELXYx7hcDN"
+      ],
+      "album_id": "6KQHrwJdcPIUx1mb97b1Nj",
+      "isrc": "GBCFB1800001",
+      "explicit": false,
+      "release_date": "2018-01-23",
+      "popularity": 63,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 13,
@@ -128,14 +238,33 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 7,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Walking With Ur Smile",
+      "spotify_album": "Mirrors",
+      "id": "local:d4d86bce9161f2bc72d3",
+      "spotify_uri": "spotify:track:469tf6NgOf4nscrty0G9Us",
+      "spotify_url": "https://open.spotify.com/track/469tf6NgOf4nscrty0G9Us",
+      "artists": [
+        "DJ Seinfeld"
+      ],
+      "artist_ids": [
+        "37YzpfBeFju8QRZ3g0Ha1Q"
+      ],
+      "album_id": "7FvnTARvgjUyWnUT0flUN7",
+      "duration_ms": 222253,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB2100387",
+      "explicit": false,
+      "release_date": "2021-09-03",
+      "popularity": 38,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Elkka",
       "title": "Your Skin",
       "album": "Prism of Pleasure",
       "duration_ms": 246823,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/your-skin/1724176280?i=1724176290&uo=4",
       "catalog_id": 1724176290,
       "catalog_genre": "Electronic",
@@ -150,15 +279,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:0F6YpgpHXMuO2FODRexwLw",
+      "features": {},
+      "spotify_title": "Your Skin",
+      "spotify_album": "Prism of Pleasure",
+      "id": "local:1d29cdbcfdc5a6899519",
+      "spotify_url": "https://open.spotify.com/track/0F6YpgpHXMuO2FODRexwLw",
+      "artists": [
+        "Elkka"
+      ],
+      "artist_ids": [
+        "5Ly0z60jjgsY4rkmjRFtPS"
+      ],
+      "album_id": "0fGG1bH61jnLMW2cvpB6Er",
+      "isrc": "GBCFB2301024",
+      "explicit": false,
+      "release_date": "2024-06-07",
+      "popularity": 23,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Sofia Kourtesis",
       "title": "La Perla (Edit)",
       "album": "La Perla (Edit) - Single",
       "duration_ms": 226431,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/la-perla-edit/1549079176?i=1549079177&uo=4",
       "catalog_id": 1549079177,
       "catalog_genre": "Electronic",
@@ -173,8 +318,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:6CldyxMa4XuHWAhAlaPWmt",
+      "features": {},
+      "spotify_title": "La Perla - Edit",
+      "spotify_album": "La Perla",
+      "id": "local:7f8a4600ab9264d336ea",
+      "spotify_url": "https://open.spotify.com/track/6CldyxMa4XuHWAhAlaPWmt",
+      "artists": [
+        "Sofia Kourtesis"
+      ],
+      "artist_ids": [
+        "7wXTWO45lqpUejDkike0Gf"
+      ],
+      "album_id": "4N2nM5QZXYNbWPtxOADiAw",
+      "isrc": "GBCFB2000764",
+      "explicit": false,
+      "release_date": "2021-02-02",
+      "popularity": 47,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 16,
@@ -184,14 +345,33 @@
       "flags": [],
       "editorial_status": "audition",
       "audition_rank": 10,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Devoted To U",
+      "spotify_album": "Devoted To U",
+      "id": "local:3a0c3bd11af3c91266a3",
+      "spotify_uri": "spotify:track:3Pc13UydooMYqbXiTmpGSk",
+      "spotify_url": "https://open.spotify.com/track/3Pc13UydooMYqbXiTmpGSk",
+      "artists": [
+        "Folamour"
+      ],
+      "artist_ids": [
+        "6pJY5At9SiMpAOBrw9YosS"
+      ],
+      "album_id": "5HbDQMUn7gnLjiXVAPw315",
+      "duration_ms": 235884,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCPZ1813607",
+      "explicit": false,
+      "release_date": "2018-05-11",
+      "popularity": 52,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "TSHA",
       "title": "Giving Up (feat. Mafro)",
       "album": "Capricorn Sun",
       "duration_ms": 203751,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/giving-up-feat-mafro/1628561718?i=1628561726&uo=4",
       "catalog_id": 1628561726,
       "catalog_genre": "Electronic",
@@ -206,15 +386,33 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:07mOlP1DQv1ZsQTyCMNzaW",
+      "features": {},
+      "spotify_title": "Giving Up",
+      "spotify_album": "Capricorn Sun",
+      "id": "local:d8892a36965f3ba0351f",
+      "spotify_url": "https://open.spotify.com/track/07mOlP1DQv1ZsQTyCMNzaW",
+      "artists": [
+        "TSHA",
+        "MAFRO"
+      ],
+      "artist_ids": [
+        "2kLa7JZu4Ijdz1Gle2khZh",
+        "2Y9v3pyVuYM0o8bSLAUUZm"
+      ],
+      "album_id": "5maY5nikux4eBxcRCThzrA",
+      "isrc": "GBCFB2200406",
+      "explicit": false,
+      "release_date": "2022-10-07",
+      "popularity": 32,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Jayda G",
       "title": "Both of Us (Edit)",
       "album": "Both of Us (Edit) - Single",
-      "duration_ms": 229425,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 229424,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/both-of-us-edit/1513158739?i=1513158741&uo=4",
       "catalog_id": 1513158741,
       "catalog_genre": "Electronic",
@@ -229,8 +427,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:75rGONmoi48LLYBFaGiYsv",
+      "features": {},
+      "spotify_title": "Both Of Us - Edit",
+      "spotify_album": "Both Of Us",
+      "id": "local:43863690d75cdf9bdead",
+      "spotify_url": "https://open.spotify.com/track/75rGONmoi48LLYBFaGiYsv",
+      "artists": [
+        "Jayda G"
+      ],
+      "artist_ids": [
+        "3NKVm2Jedcf6ibJr6pMUVx"
+      ],
+      "album_id": "6tKMQ3udmP1PErZYHKXnqA",
+      "isrc": "GBCFB2000297",
+      "explicit": false,
+      "release_date": "2020-05-26",
+      "popularity": 64,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "DJ Koze",
@@ -239,7 +453,7 @@
       "album_position": 8,
       "duration_display": "6:38",
       "duration_seconds": 398,
-      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "duration_source": "Spotify Web API",
       "position": 86,
       "origin": "V2 archive · September 3 snapshot",
       "flags": [
@@ -248,14 +462,32 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 13,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Pick Up",
+      "spotify_album": "Knock Knock",
+      "id": "local:326b182bbcb280e50dd3",
+      "spotify_uri": "spotify:track:7dFvYtokT2xQH1HvaQgbgY",
+      "spotify_url": "https://open.spotify.com/track/7dFvYtokT2xQH1HvaQgbgY",
+      "artists": [
+        "DJ Koze"
+      ],
+      "artist_ids": [
+        "1kR99O4MgSTasyeJh8UFCg"
+      ],
+      "album_id": "06oVyAYXBM2bz6eJsB3Llb",
+      "duration_ms": 398150,
+      "isrc": "DEVU51745092",
+      "explicit": false,
+      "release_date": "2018-05-04",
+      "popularity": 58,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "DJ Seinfeld & Confidence Man",
       "title": "Now U Do",
       "album": "Now U Do - Single",
-      "duration_ms": 208986,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 208985,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/now-u-do/1688092859?i=1688092861&uo=4",
       "catalog_id": 1688092861,
       "catalog_genre": "Electronic",
@@ -270,15 +502,33 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:6HzL348HHRk2dWHNzx42aj",
+      "features": {},
+      "spotify_title": "Now U Do",
+      "spotify_album": "Now U Do",
+      "id": "local:1d697a9dbba44f9fbabe",
+      "spotify_url": "https://open.spotify.com/track/6HzL348HHRk2dWHNzx42aj",
+      "artists": [
+        "DJ Seinfeld",
+        "Confidence Man"
+      ],
+      "artist_ids": [
+        "37YzpfBeFju8QRZ3g0Ha1Q",
+        "0RwXnFrEoI8tltFvYpJgP6"
+      ],
+      "album_id": "7k7TUZNKlDHu5MfSSCX8rR",
+      "isrc": "GBCFB2300142",
+      "explicit": false,
+      "release_date": "2023-07-07",
+      "popularity": 57,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Disclosure & Eko Roosevelt",
       "title": "Tondo",
       "album": "ENERGY (Deluxe)",
-      "duration_ms": 328880,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 329280,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/tondo/1511913981?i=1511914722&uo=4",
       "catalog_id": 1511914722,
       "catalog_genre": "Electronic",
@@ -294,8 +544,26 @@
         "exact Spotify version unresolved",
         "listen for repetition"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:0csz09qS2n8Jo7LogHKu7j",
+      "features": {},
+      "spotify_title": "Tondo",
+      "spotify_album": "ENERGY (Deluxe)",
+      "id": "local:4768b7281eb112bc3e29",
+      "spotify_url": "https://open.spotify.com/track/0csz09qS2n8Jo7LogHKu7j",
+      "artists": [
+        "Disclosure",
+        "Eko Roosevelt"
+      ],
+      "artist_ids": [
+        "6nS5roXSAGhTGr34W6n7Et",
+        "7hs75D38FalYWr7BDO1WPh"
+      ],
+      "album_id": "6wp1us3xBnYz5qldxrZXRf",
+      "isrc": "GBUM72000253",
+      "explicit": false,
+      "release_date": "2020-08-28",
+      "popularity": 65,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "St Germain",
@@ -304,7 +572,7 @@
       "album_position": 1,
       "duration_display": "6:56",
       "duration_seconds": 416,
-      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "duration_source": "Spotify Web API",
       "position": 48,
       "origin": "V2 archive · September 3 snapshot",
       "flags": [
@@ -313,14 +581,32 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 16,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Rose rouge",
+      "spotify_album": "Tourist (Remastered)",
+      "id": "local:9504d27cec0bc1c17916",
+      "spotify_uri": "spotify:track:1divptdjcWXvF1aflfTQnw",
+      "spotify_url": "https://open.spotify.com/track/1divptdjcWXvF1aflfTQnw",
+      "artists": [
+        "St Germain"
+      ],
+      "artist_ids": [
+        "484sZUYmnRXN84zmk3GY1n"
+      ],
+      "album_id": "0YqCvOMhp8enM01an9Nntj",
+      "duration_ms": 416565,
+      "isrc": "FR92S1200001",
+      "explicit": false,
+      "release_date": "2000",
+      "popularity": 62,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "L'Impératrice",
       "title": "Agitations tropicales",
       "album": "Odyssée - EP",
       "duration_ms": 248892,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/agitations-tropicales/1203034305?i=1203034552&uo=4",
       "catalog_id": 1203034552,
       "catalog_genre": "Alternative",
@@ -335,15 +621,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:2La21GqU4fKTQLcfLxTeoz",
+      "features": {},
+      "spotify_title": "Agitations tropicales",
+      "spotify_album": "Odyssée - EP",
+      "id": "local:809158045460a2061fdd",
+      "spotify_url": "https://open.spotify.com/track/2La21GqU4fKTQLcfLxTeoz",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "artist_ids": [
+        "4PwlsrN0t5mLN0C827cbEU"
+      ],
+      "album_id": "346ZDnGgJudDau17EEyWWA",
+      "isrc": "GBMJG1509536",
+      "explicit": false,
+      "release_date": "2015-10-12",
+      "popularity": 70,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Jungle",
       "title": "Keep Moving",
       "album": "Loving In Stereo",
       "duration_ms": 240880,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/keep-moving/1555318008?i=1555318018&uo=4",
       "catalog_id": 1555318018,
       "catalog_genre": "Electronic",
@@ -358,8 +660,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:4rf0IVQDFjr27T4sgah5Pf",
+      "features": {},
+      "spotify_title": "Keep Moving",
+      "spotify_album": "Loving In Stereo",
+      "id": "local:eac862b458ac45c9a617",
+      "spotify_url": "https://open.spotify.com/track/4rf0IVQDFjr27T4sgah5Pf",
+      "artists": [
+        "Jungle"
+      ],
+      "artist_ids": [
+        "59oA5WbbQvomJz2BuRG071"
+      ],
+      "album_id": "3xuvOKpNqynROqZt8Tvcfh",
+      "isrc": "GBKPL2144811",
+      "explicit": false,
+      "release_date": "2021-08-13",
+      "popularity": 70,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 5,
@@ -371,14 +689,33 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 19,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Turnmills",
+      "spotify_album": "Kingdoms In Colour",
+      "id": "local:342ac5a1477a7b5569c2",
+      "spotify_uri": "spotify:track:5m4o1robU6yTvFDXXSrH0F",
+      "spotify_url": "https://open.spotify.com/track/5m4o1robU6yTvFDXXSrH0F",
+      "artists": [
+        "Maribou State"
+      ],
+      "artist_ids": [
+        "7zrkALJ9ayRjzysp4QYoEg"
+      ],
+      "album_id": "70FGsJuLXPQHYdKmEZZFq9",
+      "duration_ms": 304001,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB1800029",
+      "explicit": false,
+      "release_date": "2018-09-07",
+      "popularity": 47,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Franc Moody",
       "title": "Dopamine",
       "album": "Dance Moves",
-      "duration_ms": 243946,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 243945,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/dopamine/1361581959?i=1361582523&uo=4",
       "catalog_id": 1361582523,
       "catalog_genre": "Electronic",
@@ -393,15 +730,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:38MS1Ch2ckFL4O29UVg7Nh",
+      "features": {},
+      "spotify_title": "Dopamine",
+      "spotify_album": "Dance Moves",
+      "id": "local:391fb84410833acb0060",
+      "spotify_url": "https://open.spotify.com/track/38MS1Ch2ckFL4O29UVg7Nh",
+      "artists": [
+        "Franc Moody"
+      ],
+      "artist_ids": [
+        "10GT4yz8c6xjjnPGtGPI1l"
+      ],
+      "album_id": "0ZMXkL1EvpeOWxFQ2K3UKd",
+      "isrc": "GBKPL1777511",
+      "explicit": false,
+      "release_date": "2018-03-27",
+      "popularity": 61,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Crazy P",
       "title": "Heartbreaker",
       "album": "When We On (Bonus Version)",
       "duration_ms": 326809,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/heartbreaker/461823682?i=461823770&uo=4",
       "catalog_id": 461823770,
       "catalog_genre": "Electronic",
@@ -416,8 +769,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:53fcY2nNSX8x6yhhHQPfWE",
+      "features": {},
+      "spotify_title": "Heartbreaker",
+      "spotify_album": "When We On (Bonus Version)",
+      "id": "local:85fa97581c7b7a6e5a9a",
+      "spotify_url": "https://open.spotify.com/track/53fcY2nNSX8x6yhhHQPfWE",
+      "artists": [
+        "Crazy P"
+      ],
+      "artist_ids": [
+        "6jOz2B9qeID4dLP1o8bFGf"
+      ],
+      "album_id": "4llEkJdOwJyuafn76yBAaD",
+      "isrc": "GBEWY1100051",
+      "explicit": false,
+      "release_date": "2011-09-27",
+      "popularity": 3,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 21,
@@ -429,14 +798,33 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 22,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Cirrus",
+      "spotify_album": "The North Borders",
+      "id": "local:848ead864a3f06e62fe9",
+      "spotify_uri": "spotify:track:2lJ4d8MCT6ZlDRHKJ1br14",
+      "spotify_url": "https://open.spotify.com/track/2lJ4d8MCT6ZlDRHKJ1br14",
+      "artists": [
+        "Bonobo"
+      ],
+      "artist_ids": [
+        "0cmWgDlu9CwTgxPhf403hb"
+      ],
+      "album_id": "7sN6lCgPf1rbZYmA3edMKv",
+      "duration_ms": 352246,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB1300100",
+      "explicit": false,
+      "release_date": "2013-03-21",
+      "popularity": 64,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Krystal Klear",
       "title": "Neutron Dance (Edit)",
       "album": "Neutron Dance (Edit) - Single",
-      "duration_ms": 171614,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 171613,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/neutron-dance-edit/1375539019?i=1375539233&uo=4",
       "catalog_id": 1375539233,
       "catalog_genre": "Dance",
@@ -451,15 +839,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:0h9xxCoXw2LkdJG9pR79RN",
+      "features": {},
+      "spotify_title": "Neutron Dance - Edit",
+      "spotify_album": "Neutron Dance (Edit)",
+      "id": "local:775a023abe8fb9f10a9c",
+      "spotify_url": "https://open.spotify.com/track/0h9xxCoXw2LkdJG9pR79RN",
+      "artists": [
+        "Krystal Klear"
+      ],
+      "artist_ids": [
+        "0jqr8aeeHSn5pMEVD4aTrI"
+      ],
+      "album_id": "29IOqEVLVgmD0VOxCsniJi",
+      "isrc": "DEVY91800030",
+      "explicit": false,
+      "release_date": "2018-05-04",
+      "popularity": 37,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Todd Terje",
       "title": "Inspector Norse",
       "album": "It's the Arps - EP",
       "duration_ms": 400751,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/inspector-norse/840127312?i=840127313&uo=4",
       "catalog_id": 840127313,
       "catalog_genre": "Electronic",
@@ -475,8 +879,24 @@
         "exact Spotify version unresolved",
         "listen for repetition"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:1NHd4UVxT5d5EGYzlDq17T",
+      "features": {},
+      "spotify_title": "Inspector Norse",
+      "spotify_album": "It's the Arps",
+      "id": "local:5e8df031a68d5d1dd3a9",
+      "spotify_url": "https://open.spotify.com/track/1NHd4UVxT5d5EGYzlDq17T",
+      "artists": [
+        "Todd Terje"
+      ],
+      "artist_ids": [
+        "49gaZqfow2v8EEQmjGyEIw"
+      ],
+      "album_id": "07HuAQQEbH1ShP4b9SsNwp",
+      "isrc": "NOSTS1219010",
+      "explicit": false,
+      "release_date": "2012-01-09",
+      "popularity": 56,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Session Victim",
@@ -485,7 +905,7 @@
       "album_position": 3,
       "duration_display": "5:58",
       "duration_seconds": 358,
-      "duration_source": "Spotify desktop album UI, 2026-09-03; rounded display",
+      "duration_source": "Spotify Web API",
       "position": 70,
       "origin": "V2 archive · September 3 snapshot",
       "flags": [
@@ -494,14 +914,32 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 25,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Make People Dance",
+      "spotify_album": "See You When You Get There",
+      "id": "local:7c3d662e905f06200d8b",
+      "spotify_uri": "spotify:track:14Q9dJyIHbD0mOXQmAuF5M",
+      "spotify_url": "https://open.spotify.com/track/14Q9dJyIHbD0mOXQmAuF5M",
+      "artists": [
+        "Session Victim"
+      ],
+      "artist_ids": [
+        "4Hl6TEQAFgH0XrZq4f8okX"
+      ],
+      "album_id": "769DNnLZRk4kUMutsoN01r",
+      "duration_ms": 358181,
+      "isrc": "GBZHR1400158",
+      "explicit": false,
+      "release_date": "2014-11-17",
+      "popularity": 29,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Purple Disco Machine & Sophie and the Giants",
       "title": "Hypnotized",
       "album": "Hypnotized - Single",
       "duration_ms": 195704,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/hypnotized/1504484137?i=1504484138&uo=4",
       "catalog_id": 1504484138,
       "catalog_genre": "Dance",
@@ -516,15 +954,33 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:0OeFuOAu0P1ONYz5EDdqb2",
+      "features": {},
+      "spotify_title": "Hypnotized",
+      "spotify_album": "Hypnotized",
+      "id": "local:2b5d97671d4e7a3e87a5",
+      "spotify_url": "https://open.spotify.com/track/0OeFuOAu0P1ONYz5EDdqb2",
+      "artists": [
+        "Purple Disco Machine",
+        "Sophie and the Giants"
+      ],
+      "artist_ids": [
+        "2WBJQGf1bT1kxuoqziH5g4",
+        "4FrXHrpbDLNyO3pbVv8RmF"
+      ],
+      "album_id": "07UKVsstXPhVacXjjPJAJh",
+      "isrc": "AUDCB1701555",
+      "explicit": false,
+      "release_date": "2020-04-08",
+      "popularity": 50,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "SG Lewis",
       "title": "Chemicals",
       "album": "times",
-      "duration_ms": 255827,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 255826,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/chemicals/1535844609?i=1535844616&uo=4",
       "catalog_id": 1535844616,
       "catalog_genre": "Electronic",
@@ -539,8 +995,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:2ORvnjpTAXtyTKnaGAgFIv",
+      "features": {},
+      "spotify_title": "Chemicals",
+      "spotify_album": "times",
+      "id": "local:9208c8107390c0030265",
+      "spotify_url": "https://open.spotify.com/track/2ORvnjpTAXtyTKnaGAgFIv",
+      "artists": [
+        "SG Lewis"
+      ],
+      "artist_ids": [
+        "0GG2cWaonE4JPrjcCCQ1EG"
+      ],
+      "album_id": "6WlRyrfOBZGYA5u5TmloKY",
+      "isrc": "GBUM72001695",
+      "explicit": false,
+      "release_date": "2021-02-19",
+      "popularity": 60,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 9,
@@ -552,14 +1024,35 @@
       ],
       "editorial_status": "audition",
       "audition_rank": 28,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Nervous Tics",
+      "spotify_album": "Kingdoms In Colour",
+      "id": "local:4b509c0fbd79c9f6a9a5",
+      "spotify_uri": "spotify:track:2oJ8Il24SIiDCJv39RYzPp",
+      "spotify_url": "https://open.spotify.com/track/2oJ8Il24SIiDCJv39RYzPp",
+      "artists": [
+        "Maribou State",
+        "Holly Walker"
+      ],
+      "artist_ids": [
+        "7zrkALJ9ayRjzysp4QYoEg",
+        "5vssQp6TyMHsx4mihKVAsC"
+      ],
+      "album_id": "70FGsJuLXPQHYdKmEZZFq9",
+      "duration_ms": 254020,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCFB1800179",
+      "explicit": false,
+      "release_date": "2018-09-07",
+      "popularity": 68,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Flight Facilities",
       "title": "Crave You (feat. Giselle)",
       "album": "Down to Earth",
-      "duration_ms": 234787,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 234786,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/crave-you-feat-giselle/1771694134?i=1771694856&uo=4",
       "catalog_id": 1771694856,
       "catalog_genre": "Electronic",
@@ -574,15 +1067,33 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:06Gw4zi1Gqg11XgRchemgJ",
+      "features": {},
+      "spotify_title": "Crave You",
+      "spotify_album": "Down to Earth",
+      "id": "local:89c96051a10e131f4c62",
+      "spotify_url": "https://open.spotify.com/track/06Gw4zi1Gqg11XgRchemgJ",
+      "artists": [
+        "Flight Facilities",
+        "Giselle"
+      ],
+      "artist_ids": [
+        "1lc8mnyGrCLtPhCoWjRxjM",
+        "5cxol8ruhBU1QpUick7A42"
+      ],
+      "album_id": "6IFS5Kqh3GkDuApNUTNh3h",
+      "isrc": "AUFF01400625",
+      "explicit": false,
+      "release_date": "2014-10-27",
+      "popularity": 75,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Caribou",
       "title": "Never Come Back",
       "album": "Suddenly",
       "duration_ms": 305480,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/never-come-back/1839112059?i=1839112068&uo=4",
       "catalog_id": 1839112068,
       "catalog_genre": "Dance",
@@ -598,8 +1109,24 @@
         "exact Spotify version unresolved",
         "listen for repetition"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:09Duj3JrvK9jhMNpSqZ8f4",
+      "features": {},
+      "spotify_title": "Never Come Back",
+      "spotify_album": "Suddenly",
+      "id": "local:fed97bc17e841d171d74",
+      "spotify_url": "https://open.spotify.com/track/09Duj3JrvK9jhMNpSqZ8f4",
+      "artists": [
+        "Caribou"
+      ],
+      "artist_ids": [
+        "4aEnNH9PuU1HF3TsZTru54"
+      ],
+      "album_id": "2RX2Wc0r0n4ztThvRCY307",
+      "isrc": "DED622000007",
+      "explicit": false,
+      "release_date": "2020-02-28",
+      "popularity": 47,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 8,
@@ -609,14 +1136,33 @@
       "flags": [],
       "editorial_status": "audition",
       "audition_rank": 31,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Ivoire",
+      "spotify_album": "Umami",
+      "id": "local:4151fa542c3d2eb9ace0",
+      "spotify_uri": "spotify:track:1JwlD0gOkCcEBpZhUyrRbA",
+      "spotify_url": "https://open.spotify.com/track/1JwlD0gOkCcEBpZhUyrRbA",
+      "artists": [
+        "Folamour"
+      ],
+      "artist_ids": [
+        "6pJY5At9SiMpAOBrw9YosS"
+      ],
+      "album_id": "1TJORj8wkSHckTweM7sm4K",
+      "duration_ms": 495872,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBCPZ1712469",
+      "explicit": false,
+      "release_date": "2017-11-10",
+      "popularity": 42,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "salute",
       "title": "Joy",
       "album": "Joy - Single",
       "duration_ms": 281381,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/joy/1584988431?i=1584988432&uo=4",
       "catalog_id": 1584988432,
       "catalog_genre": "Dance",
@@ -631,15 +1177,31 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:17E3lZxFJnO49Gb0tdgVn0",
+      "features": {},
+      "spotify_title": "Joy",
+      "spotify_album": "Joy",
+      "id": "local:3831f2e41a44180884df",
+      "spotify_url": "https://open.spotify.com/track/17E3lZxFJnO49Gb0tdgVn0",
+      "artists": [
+        "salute"
+      ],
+      "artist_ids": [
+        "1np8xozf7ATJZDi9JX8Dx5"
+      ],
+      "album_id": "76GgZZUHQu2VQRLMXEIQcL",
+      "isrc": "GBAHS2100828",
+      "explicit": false,
+      "release_date": "2021-09-17",
+      "popularity": 48,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Barry Can't Swim",
       "title": "Sunsleeper",
       "album": "Sunsleeper - Single",
-      "duration_ms": 222183,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_ms": 222182,
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/sunsleeper/1667381082?i=1667381083&uo=4",
       "catalog_id": 1667381083,
       "catalog_genre": "Electronic",
@@ -654,8 +1216,24 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:7yWd93ZTbCuhaH2QCsTHKc",
+      "features": {},
+      "spotify_title": "Sunsleeper",
+      "spotify_album": "Sunsleeper",
+      "id": "local:b5f203c1751f4fc3eeda",
+      "spotify_url": "https://open.spotify.com/track/7yWd93ZTbCuhaH2QCsTHKc",
+      "artists": [
+        "Barry Can't Swim"
+      ],
+      "artist_ids": [
+        "0vTVU0KH0CVzijsoKGsTPl"
+      ],
+      "album_id": "0ek3Sau5tGwOmwQFAzrx1M",
+      "isrc": "GBCFB2200981",
+      "explicit": false,
+      "release_date": "2023-02-21",
+      "popularity": 47,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "position": 24,
@@ -665,14 +1243,33 @@
       "flags": [],
       "editorial_status": "audition",
       "audition_rank": 34,
-      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track."
+      "editorial_note": "Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track.",
+      "spotify_title": "Saw You for the First Time",
+      "spotify_album": "Saw You for the First Time",
+      "id": "local:75c6e1408031cd31717a",
+      "spotify_uri": "spotify:track:3zId5kEMBeuJ9OlBSDb2Zu",
+      "spotify_url": "https://open.spotify.com/track/3zId5kEMBeuJ9OlBSDb2Zu",
+      "artists": [
+        "Laurence Guy"
+      ],
+      "artist_ids": [
+        "1PTEiCpkzNkLNgMi1LL8JR"
+      ],
+      "album_id": "54sEvuYyQiek8ZxZlrTAxT",
+      "duration_ms": 404630,
+      "duration_source": "Spotify Web API",
+      "isrc": "GBUD71500137",
+      "explicit": false,
+      "release_date": "2017-07-28",
+      "popularity": 55,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "Rampa, chuala & Keinemusik",
       "title": "Les Gout",
       "album": "Les Gout - Single",
       "duration_ms": 344000,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/les-gout/1642500804?i=1642500805&uo=4",
       "catalog_id": 1642500805,
       "catalog_genre": "Electronic",
@@ -688,15 +1285,35 @@
         "exact Spotify version unresolved",
         "listen for repetition"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:0ko0sZ5hNieT3LRq2lOGl3",
+      "features": {},
+      "spotify_title": "Les Gout",
+      "spotify_album": "Les Gout",
+      "id": "local:dd8703a3c8a0271b160d",
+      "spotify_url": "https://open.spotify.com/track/0ko0sZ5hNieT3LRq2lOGl3",
+      "artists": [
+        "Rampa",
+        "chuala",
+        "Keinemusik"
+      ],
+      "artist_ids": [
+        "08jywfUS0hp8XYlYs0cvz8",
+        "5k2dso94XJEWZhPMmKFznI",
+        "26WKgv73kRHD0gEDKD1i8j"
+      ],
+      "album_id": "6zBJ3YyqKZTRTRudbhCpeV",
+      "isrc": "DEEC33500764",
+      "explicit": false,
+      "release_date": "2022-09-09",
+      "popularity": 67,
+      "metadata_at": "2026-09-08T22:15:48Z"
     },
     {
       "artist": "WhoMadeWho & Rampa",
       "title": "Everyday (Edit)",
       "album": "Everyday - Single",
       "duration_ms": 220053,
-      "duration_source": "Apple iTunes US catalog, 2026-09-08; Spotify version unverified",
+      "duration_source": "Spotify Web API",
       "catalog_url": "https://music.apple.com/us/album/everyday-edit/1636890538?i=1636890547&uo=4",
       "catalog_id": 1636890547,
       "catalog_genre": "Electronica",
@@ -711,8 +1328,28 @@
       "flags": [
         "exact Spotify version unresolved"
       ],
-      "spotify_uri": null,
-      "features": {}
+      "spotify_uri": "spotify:track:27NuLW6DhJkpfR8dhBmNwS",
+      "features": {},
+      "spotify_title": "Everyday - Edit",
+      "spotify_album": "Everyday",
+      "id": "local:4293f02980f526432bfa",
+      "spotify_url": "https://open.spotify.com/track/27NuLW6DhJkpfR8dhBmNwS",
+      "artists": [
+        "WhoMadeWho",
+        "Rampa"
+      ],
+      "artist_ids": [
+        "50Lr1puweM1hFsF1LpIZLM",
+        "08jywfUS0hp8XYlYs0cvz8"
+      ],
+      "album_id": "5Es3FdQxA4wM7eMQa1vfYs",
+      "isrc": "DETO32200156",
+      "explicit": false,
+      "release_date": "2022-08-26",
+      "popularity": 20,
+      "metadata_at": "2026-09-08T22:15:48Z"
     }
-  ]
+  ],
+  "spotify_url": "https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH",
+  "duration_ms": 10170619
 }

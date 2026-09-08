@@ -83,6 +83,7 @@ def audit(tracks):
             'planning_seconds_after_12s_joins':max(0,sum(lengths)-12*max(0,len(tracks)-1)) if all(lengths) else None,
             'spotify_versions_unresolved':sum(not t.get('spotify_uri') for t in tracks),
             'feature_coverage':{field:sum(field in t.get('features',{}) for t in tracks) for field in sorted(FEATURES)},
+            'catalog_feature_coverage':{field:sum(field in t.get('catalog_analysis',{}).get('features',{}) for t in tracks) for field in sorted(FEATURES)},
             'warning':'Catalog/estimated runtime is not a device playback test.'}
 
 class Store:
@@ -299,7 +300,31 @@ def normalize(item):
             'isrc': item.get('external_ids',{}).get('isrc'), 'release_date': item['album'].get('release_date'),
             'popularity': item.get('popularity'), 'metadata_at': now(), 'is_playable': item.get('is_playable')}
 
-def authenticate(state, client_id, port):
+def fetch_genres(api, store):
+    """Cache artist-level genres separately from editorial track styles."""
+    path = store.state / 'artist-cache.json'
+    cache = json.loads(path.read_text()) if path.exists() else {}
+    ids = sorted({a for t in store.rows() for a in t.get('artist_ids',[])})
+    fetched = 0
+    for aid in ids:
+        valid_id(aid)
+        entry = cache.get(aid)
+        if entry is None or time.time()-entry['fetched_at'] > 30*86400:
+            data = api.request('GET', '/artists/'+aid)
+            cache[aid] = {'name':data['name'], 'genres':data.get('genres'),
+                          'source':'Spotify artist API', 'observed_at':now(), 'fetched_at':time.time()}
+            save_json(path, cache)
+            fetched += 1
+            time.sleep(.3)
+    with store.db:
+        for t in store.rows():
+            if t.get('artist_ids'):
+                t['artist_genres'] = {a:cache[a] for a in t['artist_ids']}
+                store.put(t)
+        store.event('artist_genres_import', {'artists':len(ids), 'fetched':fetched})
+    return {'artists':len(ids), 'fetched':fetched, 'note':'Artist genres are not track-level classifications.'}
+
+def authenticate(state, client_id, port, open_browser=True):
     if not re.fullmatch(r'[a-fA-F0-9]{32}', client_id):
         raise ValueError('Expected the public 32-character Spotify Client ID, not a secret')
     verifier = secrets.token_urlsafe(64)
@@ -323,8 +348,12 @@ def authenticate(state, client_id, port):
             'client_id':client_id, 'response_type':'code', 'redirect_uri':redirect,
             'scope':SCOPES, 'state':nonce, 'code_challenge_method':'S256', 'code_challenge':challenge})
         print('Register this redirect URI in your Spotify app:', redirect, flush=True)
-        print('Opening Spotify authorization; waiting up to 5 minutes.', flush=True)
-        webbrowser.open(url)
+        print('Waiting up to 5 minutes for Spotify authorization.', flush=True)
+        save_json(Path(state) / 'auth-request.json', {'url': url, 'expires_at': time.time() + 300})
+        if open_browser:
+            webbrowser.open(url)
+        else:
+            print('Authorization URL saved in local auth-request.json; open it in your browser.', flush=True)
         deadline = time.time() + 300
         while not result and time.time() < deadline:
             server.handle_request()
@@ -442,7 +471,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--state', type=Path, default=DEFAULT_STATE)
     sub = parser.add_subparsers(dest='command', required=True)
-    p = sub.add_parser('auth'); p.add_argument('--client-id', required=True); p.add_argument('--port',type=int,default=8766)
+    p = sub.add_parser('auth'); p.add_argument('--client-id', required=True); p.add_argument('--port',type=int,default=8766); p.add_argument('--no-browser',action='store_true')
     p = sub.add_parser('import'); p.add_argument('file',type=Path)
     p = sub.add_parser('serve'); p.add_argument('--port',type=int,default=8765)
     p = sub.add_parser('audit'); p.add_argument('--audition',action='store_true'); p.add_argument('--approved',action='store_true')
@@ -455,11 +484,12 @@ def main():
     p = sub.add_parser('import-features'); p.add_argument('file',type=Path)
     p = sub.add_parser('create'); p.add_argument('name'); p.add_argument('--apply',action='store_true')
     p = sub.add_parser('features'); p.add_argument('--limit',type=int,default=1)
+    sub.add_parser('genres')
     p = sub.add_parser('plan'); p.add_argument('desired',type=Path); p.add_argument('output',type=Path); p.add_argument('--playlist',default=PLAYLIST)
     p = sub.add_parser('apply'); p.add_argument('plan',type=Path); p.add_argument('--apply',action='store_true')
     args = parser.parse_args()
     store = Store(args.state)
-    if args.command == 'auth': authenticate(args.state, args.client_id, args.port)
+    if args.command == 'auth': authenticate(args.state, args.client_id, args.port, not args.no_browser)
     elif args.command == 'import': store.seed(args.file); print('Imported', len(store.rows()), 'tracks')
     elif args.command == 'serve': serve(store,args.port)
     elif args.command == 'import-features': print('Imported', store.import_features(args.file), 'feature values')
@@ -485,7 +515,8 @@ def main():
         else: print(json.dumps(apply_plan(API(args.state),store,plan),indent=2))
     else:
         api = API(args.state)
-        if args.command == 'pull':
+        if args.command == 'genres': print(json.dumps(fetch_genres(api,store)))
+        elif args.command == 'pull':
             snap = api.pull(args.playlist)
             print(json.dumps({'name':snap['name'],'count':len(snap['tracks']), 'changes':store.record_snapshot(snap)},indent=2))
         elif args.command == 'search':

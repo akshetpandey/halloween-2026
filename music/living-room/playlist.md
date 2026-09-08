@@ -1,5 +1,5 @@
 # October Grove · living-room music
-Updated September 8, 2026. **Second pass in progress.** Local review system and first audition prepared. No live Spotify changes this session; the latest saved live evidence remains September 3: private, 117 tracks, displayed 10h 2m.
+Updated September 8, 2026. **Second pass in progress.** Spotify API connected and tested. September 8 read: original private pool, 117 tracks, 10:02:04 raw. A separate private [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live: 36 exact versions, 2:49:31 raw, order verified. The original pool was not edited.
 
 [Existing Spotify pool](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) · [Listen and vote](../playlist-lab/README.md) · [V3 first audition](october-grove-v3-audition.md) · [Session handoff](handoff-2026-09-08-music-pass2.md)
 
@@ -25,7 +25,7 @@ Analysis of [V2](october-grove-v2.json), not a fresh Spotify read:
 The top four account for **68/117 = 58.1%**. There are only 15 artist labels in the whole archive. The expansion added 82 tracks in seven album blocks; 35 original tracks lack exact individual durations/album metadata in the export. Bonobo’s Prelude is an obvious proposed format cut. Break Apart, Second Sun, Figures, Two Thousand and Seventeen, Slow Heat and Black Sands are priority energy-drop auditions, not invented host dislikes. Album inclusion is no longer an acceptance criterion.
 
 ## Prepared second pass
-[Review library](review-library.json): all 117 archived tracks retained for traceability, plus 24 new individually chosen candidates. This is the **library**, not a proposed 141-track running order. [First audition](october-grove-v3-audition.json): 12 existing anchors alternating with the 24 new choices. New-track artists/titles/mixes/durations were checked in the Apple US catalog on September 8; Spotify versions are unresolved. All host votes start unrated. No actual listening or speaker test is claimed.
+[Review library](review-library.json): all 117 archived tracks retained for traceability, plus 24 new individually chosen candidates. This is the **library**, not a proposed 141-track running order. [First audition](october-grove-v3-audition.json): 12 existing anchors alternating with the 24 new choices. New-track artists/titles/mixes/durations were checked in the Apple US catalog on September 8; All 141 library records now have exact Spotify versions, duration, popularity and artist-genre metadata in the local database. The structured audition includes all 36 resolved versions. All host votes remain unrated. No actual listening or speaker test is claimed.
 
 The audit does not pretend the whole 36-track audition is already approved or nine hours long. Use its votes to select the right lane, then expand individual winners with more artist variety and verified runtime. Several repeated-hook candidates are visibly flagged to test whether their hooks earn the length; discard them if the full track drags.
 
@@ -40,9 +40,9 @@ Proposed selection rules for the full rebuild:
 ## Workflow and metadata
 Use [Playlist Lab](../playlist-lab/README.md) for local votes, notes, sourced metadata, complete live snapshots and reviewable API changes. Explicit Keep/Cut/Maybe is stronger evidence than disappearance. Observed removals remain review events until confirmed; reordering is never a dislike. The tool does not change Spotify when a vote is clicked.
 
-Spotify audio-feature access is restricted for new apps; development-mode popularity is unavailable. Keep unknown BPM/key/features blank rather than guessed. Exact-file analysis or verified catalog metadata can be imported with source/date; editorial genres and host listening scores remain separately labeled. The full capability research and commands live in the Lab README.
+The authorized app returned HTTP 403 for Audio Features but did return popularity for all 141 records. ReccoBeats supplies automatically retrieved BPM/key and available energy/danceability/valence/acousticness/speechiness descriptors; [coverage and analysis](catalog-analysis-2026-09-08.md) distinguishes exact Spotify-ID matches from alternate releases matched by ISRC/title/artists/duration. Artist genres, editorial style lanes and optional listening scores remain distinct. The normal host workflow is only Keep/Cut/Maybe; no manual six-metric entry required.
 
-Next: complete PKCE authorization, pull the real current playlist, resolve exact audition versions, create/apply the separate audition playlist, collect votes, rebuild the full sequence and rehearse the Google Homes. The host confirmed having a Client ID but has not yet supplied its value or completed authorization.
+Next: listen and vote in the live audition, use the feedback and automatic descriptors to expand successful lanes into a varied full sequence, then rehearse the Google Homes. Authorization, original-pool pull, exact audition version resolution, private audition creation and order verification are complete. Full programme approval and nine-hour playback after actual transitions remain pending.
 
 ## Devices and fallback
 Create **October Grove** as a Google speaker group in the phone/tablet Google Home app, or use a supported stereo pair if both devices are the same model. Connect the intended Spotify account and select that destination. [Google groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Spotify setup](https://support.spotify.com/us/article/spotify-on-google-devices/)

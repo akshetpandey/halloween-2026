@@ -184,6 +184,6 @@ HC-DOC-01/02 and PUZ-01 are **Done — documentation only**: current narrative/r
 
 | ID | Task | Status | Next step |
 |---|---|---|---|
-| AUD-LAB-01 | Persistent votes and direct Spotify management | Local implementation tested | [Connect Client ID / authorize and test live](../music/playlist-lab/README.md) |
-| AUD-LR-04 | Bouncier, sexier, more varied living-room selection | [36-track audition prepared](../music/living-room/october-grove-v3-audition.md) | Resolve Spotify versions, host votes, then expand individual tracks |
-| AUD-LR-05 | Apply full revised programme | Pending audition and runtime | Preserve nine actual hours after transitions/cuts; no live edits yet |
+| AUD-LAB-01 | Persistent votes and direct Spotify management | Connected; API read/create/add verified | [Simple votes and automatic metadata](../music/playlist-lab/README.md) |
+| AUD-LR-04 | Bouncier, sexier, more varied living-room selection | [36-track audition live and order verified](../music/living-room/october-grove-v3-audition.md) | Host votes, then expand individual tracks; 126/141 library tracks have automatic audio descriptors |
+| AUD-LR-05 | Apply full revised programme | Pending audition and runtime | Preserve nine actual hours after transitions/cuts; original party pool unchanged |

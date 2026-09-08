@@ -2,7 +2,7 @@
 
 A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser is only the listening/review interface. Playlist management uses Spotify’s Web API directly.
 
-**Status September 8:** local tool and seeded review library implemented; automated tests pass. Spotify authorization and live API testing are still pending the host’s Client ID and consent. No live playlist edits have been made. The installed Spotify plugin exposes search, currently-playing and natural-language playlist generation, but no exact playlist editing or full export tool.
+**Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). No speaker or listening test is claimed.
 
 ## Listen and vote now
 
@@ -13,9 +13,9 @@ python3 music/playlist-lab/lab.py import music/living-room/review-library.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. The in-app browser timed out in this session; Chrome loaded it successfully. Start with **First audition**: 12 existing anchors plus 24 new candidates. Open a track in Spotify, listen, and choose **Keep / Cut / Maybe**. Until exact Spotify versions are linked, the button opens a Spotify search and says so. Listen at conversation volume, including a later section of the track; a good opening can conceal five minutes of an unchanged loop. Playback stays in Spotify; no audio is downloaded by this tool.
+Open [the listening room](http://127.0.0.1:8765) in Chrome. The in-app browser timed out in this session; Chrome loaded it successfully. Start with **First audition**: 12 existing anchors plus 24 new candidates. Open a track in Spotify, listen, and choose **Keep / Cut / Maybe**. All seeded tracks now link to exact Spotify versions. Newly imported unresolved records open a labeled Spotify search until bound. Listen at conversation volume, including a later section of the track; a good opening can conceal five minutes of an unchanged loop. Playback stays in Spotify; no audio is downloaded by this tool.
 
-Use the note field for why, plus optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the server after a Mac restart. This is local to the Mac; phone/multi-user access is not implemented.
+Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the server after a Mac restart. This is local to the Mac; phone/multi-user access is not implemented.
 
 ## Connect Spotify once
 
@@ -28,7 +28,7 @@ python3 music/playlist-lab/lab.py auth --client-id YOUR_PUBLIC_CLIENT_ID
 python3 music/playlist-lab/lab.py pull
 ```
 
-The default target is October Grove `6FEcecNrYObHqVunRf9Vzf`. Other playlists can be selected explicitly with `--playlist`. The API reader requires an owned or collaborative playlist. Auth opens the system browser and waits five minutes. Tokens are restricted to a local file, excluded from Git; auth callback query strings are not logged. Revoke the app in Spotify to disconnect it and remove its local token file.
+The default target is October Grove `6FEcecNrYObHqVunRf9Vzf`. Other playlists can be selected explicitly with `--playlist`. The API reader requires an owned or collaborative playlist. Auth opens the system browser and waits five minutes. If automatic browser launching fails, add `--no-browser` and open the URL saved in ignored `.local/auth-request.json` during that wait. The host has already connected this Mac; no repeat Client ID entry or authorization is needed while refresh credentials remain valid. Tokens are restricted to a local file, excluded from Git; auth callback query strings are not logged. Revoke the app in Spotify to disconnect it and remove its local token file.
 
 A pull verifies that the snapshot stayed stable across every page, then records the exact order and metadata. Unavailable/null/local/non-track items stop the import rather than silently becoming apparent removals. Unique archived title/artist matches, plus album and rounded duration when available, attach the observed live version to that local record. This is logged; ambiguous records remain separate for manual reconciliation. No guessed search-result match is automatically added to Spotify.
 
@@ -74,13 +74,31 @@ Verified against Spotify documentation September 8, 2026:
 | Data | Route / limitation |
 |---|---|
 | IDs, exact mix/album, duration, explicit, release date, ISRC | Direct track/playlist metadata. Availability and fields must be checked for the authorized account. |
-| Artist genres | Spotify artist endpoint if supplied; artist-level tags are not a precise track genre. Not automatically fetched by this first version. |
+| Artist genres | `genres` automatically fetches unique credited artists, caches for 30 days, and preserves artist-level provenance. These are not precise track genres. |
 | BPM/key; energy, danceability, valence, acousticness, speechiness, instrumentalness, liveness, loudness | Spotify restricted Audio Features/Analysis for new use cases in November 2024. The optional `features --limit 1` command probes actual access and stops on denial. Do not expect it to work for a new app. |
-| Popularity | Removed from tracks/artists/albums for development-mode access in February 2026; absent remains unknown, never zero. |
+| Popularity | Current documentation removes this for affected development-mode apps, but the actual authorized app returned track popularity for all 141 records. The UI displays it with Spotify metadata provenance. Absent remains unknown, never zero. |
 | Alternate BPM/key | Import analyzed metadata from legally acquired local files (e.g. rekordbox) or verified catalog sources for the exact mix. No Spotify stream ripping, no passing Spotify audio to an analysis model. |
-| Bounce/melody/sexy/repetition/theme/vocal density | Host listening scores; keep them separate from Spotify’s numeric features. |
+| Bounce/melody/sexy/repetition/theme/vocal density | Optional listening judgments. Do not equate these with catalog descriptors or fabricate ratings from BPM. Host only needs to vote; fuller listening judgments can be discussed for particular tracks. |
 
 BPM describes beat rate, not how exciting a record feels. Key helps harmonic sequencing but is not a suitability score. Danceability does not measure development, energy does not equal bounce, valence does not equal sexiness, and popularity is not party quality. Preserve unknown values and source/date rather than inventing a complete table.
+
+### Automatic catalog enrichment
+
+```sh
+python3 music/playlist-lab/lab.py pull
+python3 music/playlist-lab/lab.py genres
+python3 music/playlist-lab/enrich.py
+# Or just the first audition:
+python3 music/playlist-lab/enrich.py --audition
+```
+
+ReccoBeats provides up to 11 descriptors: tempo, key, mode, energy, danceability, valence, acousticness, speechiness, instrumentalness, liveness and loudness. The first six custom listening scores stay separate. Retrieval sends only public recording identifiers or song titles, never Spotify credentials, account details, votes or audio. No audio is downloaded or uploaded.
+
+Exact Spotify IDs are preferred. If a release is absent, an alternate catalog release needs the same ISRC, exact normalized title and artist set, and duration within 2.5 seconds. The UI labels that match and links the source recording. Unbound seeds require matching title/artists/duration and a unique recording; this does not bind a Spotify version. Ambiguous, absent and unknown values remain missing. Search inspects up to eight provider pages (200 results at the observed default), so a missing match is not proof the whole provider catalog lacks it.
+
+Provider descriptors are not independently verified audio measurements. They cannot establish how repetitive or sexy a track feels. Percentages display 0–1 feature values, not certainty. Cached responses last 24 hours; the client spaces requests and honors short rate-limit delays with bounded retries. A stopped run keeps prior results; re-run to resume from cache. The ignored `.local/enrichment-report.json` records results. The audit includes separate catalog-feature coverage. Refresh the review page after importing.
+
+[ReccoBeats API](https://reccobeats.com/docs/documentation/introduction) · [Track lookup](https://reccobeats.com/docs/apis/get-tracks) · [Audio features](https://reccobeats.com/docs/apis/get-track-audio-features) · [Rate limiting](https://reccobeats.com/docs/documentation/rate-limiting).
 
 Batch metadata import is CSV with `id,field,value,source`; `id` is the local record ID shown under Metadata & sources. It validates every row before committing. Example rows below illustrate the schema only, not actual track measurements:
 

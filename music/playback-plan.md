@@ -61,7 +61,7 @@ The host requires **at least nine hours of music in each room**. The expanded be
 ## Living-room playlist · October Grove
 The September 8 host correction calls for more upbeat, bouncy, melodic and sexy music with fewer repeated artists/albums and no intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-The September 3 Spotify snapshot was 117 tracks / displayed 10h 2m; this has not been reverified live. The new 36-track audition is local preparation, not the complete nine-hour replacement. Authorization, exact version resolution, host votes, full sequencing and actual playback validation remain. Playback is still on the two Google Homes, independently of the bedroom.
+The September 8 API read confirms the original 117 tracks / 10:02:04 raw. The separate live 36-track audition is 2:49:31 raw, with all exact versions resolved and its order verified. It is not the complete nine-hour replacement. Host votes, full sequencing and actual playback validation remain. Playback is still on the two Google Homes, independently of the bedroom.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.

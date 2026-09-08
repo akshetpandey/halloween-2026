@@ -135,6 +135,22 @@ class LabTests(unittest.TestCase):
         api.request=request
         with self.assertRaisesRegex(ValueError,'changed'):api.pull('P'*22)
 
+    @patch('lab.time.sleep')
+    def test_artist_genres_cached_and_separate_from_track_styles(self,sleep):
+        aid='A'*22
+        with self.store.db:
+            self.store.put({'id':'one','title':'Song','artist_ids':[aid],'style':['disco']})
+            self.store.put({'id':'two','title':'Other','artist_ids':[aid]})
+        class ArtistAPI:
+            calls=0
+            def request(self,method,path):
+                self.calls+=1
+                return {'name':'Artist','genres':['house']}
+        api=ArtistAPI();lab.fetch_genres(api,self.store);lab.fetch_genres(api,self.store)
+        self.assertEqual(api.calls,1)
+        self.assertEqual(self.store.track('one')['style'],['disco'])
+        self.assertEqual(self.store.track('two')['artist_genres'][aid]['genres'],['house'])
+
     def test_binding_merges_exact_duplicate_without_losing_vote(self):
         self.store.record_snapshot(snap([A]))
         self.store.vote(A,'up','great')

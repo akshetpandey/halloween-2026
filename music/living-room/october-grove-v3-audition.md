@@ -1,10 +1,10 @@
 # October Grove V3 · first audition
 
-Prepared September 8, 2026. **36 candidates: 12 existing anchors and 24 new selections. Local only; no host votes inferred.**
+Prepared September 8, 2026. **36 candidates: 12 existing anchors and 24 new selections. Live in Spotify; no host votes inferred.**
 
 Listen in the [Playlist Lab](../playlist-lab/README.md), which saves votes and notes. This is a taste calibration round, not the final nine-hour programme. Track order alternates an existing anchor and two new candidates. No new artist album dumps.
 
-The new catalog selections total **102.6 minutes**. This is Apple catalog duration, not a Spotify or speaker playback measurement. Existing anchor durations are incomplete; no complete audition-runtime claim.
+**[Play V3 audition in Spotify](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH)** · 36 tracks / **2:49:31 raw**, exact order read back through the Spotify API on September 8. All individual durations are now known. This is catalog runtime, not a speaker test. The [structured version](october-grove-v3-audition.json) contains resolved Spotify IDs; the original selection sources remain in the table below.
 
 | # | Track | Proposed lane / audition question | Catalog version |
 |---:|---|---|---|
@@ -22,7 +22,7 @@ The new catalog selections total **102.6 minutes**. This is Apple catalog durati
 | 12 | Jayda G — Both of Us (Edit) | Piano hook and lift; check whether the breakdown interrupts the room. | [Apple catalog](https://music.apple.com/us/album/both-of-us-edit/1513158739?i=1513158741&uo=4) |
 | 13 | DJ Koze — Pick Up | Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track. | [V2 archive](october-grove-v2.json) |
 | 14 | DJ Seinfeld & Confidence Man — Now U Do | Playful, flirtatious contrast from an existing artist; counts toward the Seinfeld cap. | [Apple catalog](https://music.apple.com/us/album/now-u-do/1688092859?i=1688092861&uo=4) |
-| 15 | Disclosure & Eko Roosevelt — Tondo | Rhythmic party energy; repeated vocal/percussion loop needs your repetition rating. | [Apple catalog](https://music.apple.com/us/album/tondo/1511913981?i=1511914722&uo=4) |
+| 15 | Disclosure & Eko Roosevelt — Tondo | Rhythmic party energy; listen for whether the repeated vocal/percussion loop drags. | [Apple catalog](https://music.apple.com/us/album/tondo/1511913981?i=1511914722&uo=4) |
 | 16 | St Germain — Rose rouge | Existing anchor to compare with the new direction; not a recorded host upvote. Check whether the groove develops enough over the full track. | [V2 archive](october-grove-v2.json) |
 | 17 | L'Impératrice — Agitations tropicales | Lush synths and supple groove; less dark, so use as a contrast. | [Apple catalog](https://music.apple.com/us/album/agitations-tropicales/1203034305?i=1203034552&uo=4) |
 | 18 | Jungle — Keep Moving | Vocal hook and rhythmic lift; check whether it feels too bright for the room. | [Apple catalog](https://music.apple.com/us/album/keep-moving/1555318008?i=1555318018&uo=4) |
@@ -45,6 +45,6 @@ The new catalog selections total **102.6 minutes**. This is Apple catalog durati
 | 35 | Rampa, chuala & Keinemusik — Les Gout | Earthy percussion and sensual vocal; audition for development across the full track. | [Apple catalog](https://music.apple.com/us/album/les-gout/1642500804?i=1642500805&uo=4) |
 | 36 | WhoMadeWho & Rampa — Everyday (Edit) | Rampa collaboration in a short edit; check the hypnotic groove against boredom. | [Apple catalog](https://music.apple.com/us/album/everyday-edit/1636890538?i=1636890547&uo=4) |
 
-Styles and suitability are editorial proposals, not audio analysis or host feedback. The title/artist/album and new-track durations were checked against the linked catalog on September 8. Spotify availability and exact mix matching remain pending authorization.
+Styles and suitability are editorial proposals, not audio analysis or host feedback. The title/artist/album and new-track durations were checked against the linked catalog on September 8. Exact Spotify mix/version selection and playlist order are now verified. Automatic feature coverage is recorded in the [catalog analysis](catalog-analysis-2026-09-08.md).
 
 High repetition risks are deliberately visible: Inspector Norse, Never Come Back, Tondo and Les Gout. These test whether a memorable hook earns its repetition; cut them if it does not. Crave You is the lower-energy control, not a mandate to retain the old sleepy ending.

@@ -3,20 +3,22 @@
   class GrovePlayer {
     constructor({element,onStatus=()=>{},onEnd=()=>{}}){
       this.element=element;this.onStatus=onStatus;this.onEnd=onEnd;
-      this.api=null;this.controller=null;this.uri=null;this.creating=false;
+      this.api=null;this.controller=null;this.uri=null;this.loadedUri=null;this.creating=false;
       this.ready=false;this.pendingPlay=false;this.playing=false;this.heard=false;this.ended=false;
     }
     attach(api){this.api=api;this.mount();}
     mount(){
       if(!this.api||!this.uri||this.controller||this.creating)return;
-      this.creating=true;const initial=this.uri;
-      this.api.createController(this.element,{uri:initial,width:'100%',height:152},controller=>{
+      this.creating=true;this.loadedUri=this.uri;
+      this.api.createController(this.element,{uri:this.loadedUri,width:'100%',height:152},controller=>{
         this.controller=controller;
         controller.addListener('ready',()=>{
           this.ready=true;
-          if(this.uri!==initial&&this.uri)this.load();
-          else if(this.pendingPlay){this.pendingPlay=false;controller.play();}
-          this.onStatus('Player ready. Press Play to begin.');
+          // Spotify emits ready after EVERY track navigation. Comparing with
+          // the first track here repeatedly reloaded every subsequent track.
+          if(this.uri&&this.uri!==this.loadedUri){this.load();return;}
+          if(this.pendingPlay)this.play();
+          else this.onStatus('Player ready. Press Play to begin.');
         });
         controller.addListener('playback_update',e=>this.update(e.data||{}));
       });
@@ -26,28 +28,31 @@
         this.pause();this.uri=null;this.onStatus('This track needs an exact Spotify version before it can play here.');return;
       }
       if(uri===this.uri){if(autoplay)this.play();return;}
-      this.controller?.pause();this.uri=uri;this.playing=false;this.heard=false;this.ended=false;
+      if(this.ready)this.controller.pause();
+      this.uri=uri;this.playing=false;this.heard=false;this.ended=false;
       this.pendingPlay=autoplay;
       this.onStatus(autoplay?'Loading next track…':'Press Play to listen here.');
       if(this.ready)this.load();else this.mount();
     }
     load(){
-      if(!this.uri)return;
+      if(!this.uri||!this.ready||this.loadedUri===this.uri)return;
+      this.ready=false;this.loadedUri=this.uri;
       // loadEntity is the current API; loadUri supports earlier deployed versions.
       const method=this.controller.loadEntity||this.controller.loadUri;
       method.call(this.controller,this.uri);
-      if(this.pendingPlay){this.pendingPlay=false;this.controller.play();}
+      // Keep play intent locally until this navigation is ready. This also
+      // lets pause or a newer selection cancel it while Spotify loads.
     }
     play(){
       if(!this.uri)return;
       this.pendingPlay=true;
-      if(this.ready){this.pendingPlay=false;this.controller.play();}
+      if(this.ready&&this.loadedUri===this.uri){this.pendingPlay=false;this.onStatus('Starting Spotify playback…');this.controller.play();}
     }
-    pause(){this.pendingPlay=false;this.playing=false;this.controller?.pause();}
+    pause(){this.pendingPlay=false;this.playing=false;if(this.ready)this.controller.pause();}
     toggle(){if(this.playing)this.pause();else this.play();}
     update(data){
       // Ignore late events from the previous track, especially its end event.
-      if(!this.uri||data.playingURI!==this.uri)return;
+      if(!this.ready||!this.uri||data.playingURI!==this.uri)return;
       this.playing=!data.isPaused&&!data.isBuffering;
       if(this.playing&&data.position>0)this.heard=true;
       const duration=Number(data.duration),position=Number(data.position);

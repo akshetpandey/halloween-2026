@@ -5,7 +5,13 @@ const mode = process.argv.includes("--remote") ? "--remote" : "--local";
 mkdirSync("private", { recursive: true });
 chmodSync("private", 0o700);
 const catalog = readFileSync("src/shared/catalog.ts", "utf8");
-const ids = [...catalog.matchAll(/"id": "([A-Z]+-\d+)"/g)].map((m) => m[1]);
+const ids = [
+  ...catalog.matchAll(/(?:\bid|"id"):\s*"((?:DEC|BUY|MAKE)-\d{2})"/g),
+].map((m) => m[1]);
+if (ids.length !== 15 || new Set(ids).size !== 15)
+  throw new Error(
+    "Expected exactly fifteen unique guardian IDs; refusing an incomplete seed.",
+  );
 // Existing short links never rotate on a second seed. Runtime tokens stay out of Git.
 const sql = ids
   .map(

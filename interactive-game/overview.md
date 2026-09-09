@@ -1,5 +1,5 @@
 # The Hollow Court — secret succession
-Status: Current design documented September 4, 2026; narrative and selected puzzle families ready for prototyping. No application implementation. Participation remains optional; room setup and music retain priority.
+Status: First [Cloudflare rehearsal](app/README.md) deployed September 9, 2026, with approved narrative, fifteen playable trials, Summons and identity flows. Real-phone pilot and final event/admin implementation remain open. Participation remains optional; room setup and music retain priority.
 
 At 8 p.m. the Court awakens. Guests enter a name and costume selfie, then discover physical entities through NFC, solve short individual puzzles and earn Favor. At the finale they learn that their exploration, invitations and costume judgments formed a succession rite. The host crowns the Sovereign of the Hollow Court. **The succession stays off the invite and spreads through volunteer gossip.**
 
@@ -10,7 +10,7 @@ The active target is **15 entities: 5 decor-integrated, 5 purchased figures (Ama
 - [Narrative arc, chapters, scoring and finale](design/narrative-and-game.md)
 - [Fifteen selected puzzle families, not yet assigned](design/puzzles.md)
 - [Physical roster and preparation plan](physical/entity-plan.md)
-- [Website requirements for later implementation](app/build-brief.md)
+- [Website implementation and setup](app/README.md) · [Full requirements](app/build-brief.md)
 - [Volunteer runbook](volunteer-runbook.md) and [task tracker](task-tracker.md)
 
 ## Rules at a glance

@@ -1,10 +1,10 @@
 # A Name for the Hollow
 
-Status: **Proposed narrative treatment, September 8, 2026**, responding to the host's request to develop the existing game into a story. This is the current story draft for review, not approval of new canon, entity names or open game rules. No implementation, artwork, purchase or playtest was performed.
+Status: **Narrative direction approved for implementation, September 8–9, 2026.** The host responded “Ok that reads great!” and requested the website with its narrative elements. This text is used in the [first deployed rehearsal](../app/README.md). Physical prop choices, final puzzle pairings and open game rules are still subject to their existing review gates. The original narrative-only pass did not perform implementation, purchases or playtesting.
 
 [Game rules](narrative-and-game.md) · [Puzzle families](puzzles.md) · [Physical roster](../physical/entity-plan.md) · [Design home](README.md)
 
-This file owns the proposed fiction, Chronicle prose, character voices and finale script. The game brief owns mechanics, thresholds, secrecy and scoring. Character concepts below fit the current physical candidates; they do not finalize props or assign puzzle families.
+This file owns the fiction, Chronicle prose, character voices and finale script. The game brief owns mechanics, thresholds, secrecy and scoring. Character concepts below fit the current physical candidates; they do not finalize props or assign puzzle families.
 
 ## The story in one breath
 

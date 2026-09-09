@@ -132,3 +132,7 @@ NFC Tools by wakdev: free iPhone download, optional $3.99 Pro shown in the [US A
 ## Hollow Court cost revision pending • September 4
 
 The old $100 prop envelope was for a different mix and is not a verified budget for fifteen entities. Keep its product evidence and arithmetic as history. The five decor anchors reuse moon/tree/guardian/Well/wood-skull workstreams; do not charge whole installations twice. Reconcile incremental NFC/mounting supplies, five selected purchased figures, five homemade figures and the separate approximately $100 winner crown within the overall party ceiling. [Current scope and sourcing gates](../interactive-game/physical/entity-plan.md). No new prices verified, no purchases or cart changes.
+
+## September 9 — Cloudflare rehearsal provisioned
+
+A Worker, D1 database and private KV namespace were created for the [first game build](../interactive-game/app/handoff-2026-09-09-first-build.md). No paid-plan upgrade, domain purchase or physical purchase was performed. Actual Cloudflare usage charges were not measured; existing hosting/domain allowances are unchanged. R2 was unavailable and no bucket was created.

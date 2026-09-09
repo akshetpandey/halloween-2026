@@ -1,7 +1,7 @@
 # The succession of the Hollow Court
 [Project home](../README.md) · [Design task](design/README.md) · [Physical/NFC task](physical/README.md) · [App task](app/README.md)
 
-Status: Rules documented September 4; expanded narrative treatment proposed September 8, 2026. Documentation only; website, puzzle bank, artwork and physical pilot not built by this update.
+Status: Narrative approved for implementation and [first Cloudflare rehearsal deployed](app/README.md), September 9, 2026. All fifteen guardian trials, entrance, Summons and name/selfie flows are working. Physical pilot and final event/admin rules remain open.
 
 Guests discover the secret through volunteer gossip. The site opens at **8 p.m. October 31**, collects name and costume selfie, recognizes returning guests, and sends them into an NFC hunt for the Court's Favor. Each solved entity earns one point and offers a pairwise costume judgment. Invitations unlock at four and ten Favors. At the adjustable closing time, default **2 a.m. November 1**, the site reveals the succession and the host awards a separate crown, approximately $100.
 
@@ -10,11 +10,12 @@ Guests discover the secret through volunteer gossip. The site opens at **8 p.m. 
 
 | Document | Purpose |
 |---|---|
-| [A Name for the Hollow](design/narrative-arc.md) | Proposed story arc, Chronicle copy, fifteen character voices, Summons text and finale script |
+| [A Name for the Hollow](design/narrative-arc.md) | Approved narrative direction, Chronicle copy, fifteen character voices, Summons text and finale script |
 | [Narrative and game](design/narrative-and-game.md) | Current mechanics, story integration, progression, Summons, voting, scoring and finale gates |
 | [Selected puzzle families](design/puzzles.md) | Finalized fifteen: fourteen approved plus Unbroken Sigil provisional; deterministic generation, retry and distinction rules; no entity assignment |
 | [Physical entities](physical/entity-plan.md) | Fifteen-slot 5/5/5 plan, reuse, sourcing and build gates |
-| [Website brief](app/build-brief.md) | Requirements for a later Cloudflare implementation |
+| [Website app](app/README.md) | Deployed rehearsal, setup, implemented features and verification |
+| [Website brief](app/build-brief.md) | Full requirements, including remaining event/admin work |
 | [Volunteer runbook](volunteer-runbook.md) | Gossip, helper rules, timing and ceremony |
 | [Tracker](task-tracker.md) | Documentation, design, sourcing and future build work |
 | [Phone feasibility](physical/phone-and-nfc-feasibility.md) | Existing device research and real-phone pilot requirements |
@@ -33,7 +34,7 @@ Proposed final score: up to 15 Favors + 2 successful single-use Summons + 3 for 
 ## Budget and next iteration
 The older $100 prop basket was costed for a different mix. Re-cost the 5/5/5 plan, charging only incremental NFC/mounts for decor already budgeted elsewhere. Keep the approximately $100 crown and hosting/domain separate. No new product prices or availability were checked in this documentation update; existing sourcing evidence stays dated.
 
-Prototype and phone-test the selected puzzle families, especially Unbroken Sigil, and review the two additional decor proposals next; assign families to entities only afterward. Then select the five bought figures and five homemade silhouettes. No application code should be written until the later implementation task. Domain and Partiful URL remain unresolved.
+Phone-test the implemented puzzle families, especially Unbroken Sigil, and review the two additional decor proposals next. Website pairings are rehearsal choices pending that review. Then select the five bought figures and five homemade silhouettes. The host supplied the Partiful event URL; it is configured in the app. The permanent NFC domain remains unresolved. [Build handoff](app/handoff-2026-09-09-first-build.md).
 
 ## Preserved history and fallback
 Exact pre-update copies of this index, the overview, runbook and website brief are in [history](history/2026-09-04-before-hollow-court/README.md). Physical research, links and earlier cost calculations remain in their existing documents, with current-scope notices. The [Last Leaf offering-bowl ritual](design/last-leaf-fallback.md) is still available as a paper-only alternative; choose one main ceremony.

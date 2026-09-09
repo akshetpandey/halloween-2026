@@ -2,7 +2,9 @@
 
 [Game home](../README.md) · [Build brief](build-brief.md) · [Story](../design/narrative-arc.md) · [Puzzle design](../design/puzzles.md) · [Tracker](../task-tracker.md)
 
-Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Local build and integration checks pass; deployment evidence and remaining gates are recorded in the task handoff when the deployment is verified.
+Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Deployed and verified on Cloudflare. [Open the rehearsal](https://hollow-court-preview.computer-toolbox.workers.dev) · [Deployment evidence and remaining gates](handoff-2026-09-09-first-build.md).
+
+Use **Field notes → Open Court** to enter now, or jump directly to any guardian. The normal entrance stays sealed until Halloween.
 
 ## Try it locally
 
@@ -43,6 +45,7 @@ npm run test:integration   # requires local Worker on 8787; uses synthetic accou
 npm run build
 npx wrangler deploy --dry-run
 npm audit
+node scripts/smoke.mjs     # explicitly mutates the hosted rehearsal using disposable synthetic players
 ```
 
 The integration suite creates and removes only its own local players. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode the actual styled SVG at 244px and 488px for Partiful and Summons. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
@@ -63,4 +66,4 @@ npm run seed:remote
 npm run deploy
 ```
 
-These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. Before the event, review final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, select the permanent domain, and run the physical phone pilot.
+These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. The generator validates individual assignments and has at least 100 sampled distinct views per family; it does not yet reserve structurally distinct instances across all players. Before the event, review cross-player collision handling, final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, select the permanent domain, and run the physical phone pilot.

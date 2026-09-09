@@ -1,13 +1,13 @@
 # Task tracker and timeline
 
-**September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. Narrative and fifteen puzzle-family proposals are documented; playtesting, shopping and application implementation remain future tasks. Earlier dated story updates below are history.
+**September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.
 
 | ID | Task / deliverable | Priority | Owner | Target | Status | Depends on |
 |---|---|---|---|---|---|---|
 | INV-01 | Title, time, host display name, plus-one policy | P0 | Host | Sep 5 | Needs input | — |
 | INV-02 | Partiful text and three guest images | P0 | Planning | Sep 5 | Ready to review | INV-01 for final copy |
-| INV-03 | Host creates event, verifies guest view and distributes link | P0 | Host | Sep 6 | Needs input | Login, INV-01, privacy settings |
+| INV-03 | Host creates event, verifies guest view and distributes link | P0 | Host | Sep 6 | Host supplied event URL; game links to it; guest-view review/distribution unverified | Login, INV-01, privacy settings |
 | OPS-01 | Room photos, dimensions, window measurements, inventory | P0 | Host | Sep 10 | Needs input | — |
 | OPS-02 | Furniture plan, peak capacity and clear routes | P0 | Host + build helper | Sep 13 | To do | OPS-01 |
 | BUD-01 | Choose budget target and record existing inventory | P0 | Host | Sep 10 | Ready to review | OPS-01 |

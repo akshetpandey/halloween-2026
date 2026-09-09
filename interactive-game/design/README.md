@@ -2,7 +2,7 @@
 
 [Game home](../README.md) · [Project home](../../README.md)
 
-- [A Name for the Hollow — narrative arc, characters and scripts](narrative-arc.md) — proposed September 8 treatment, ready for review
+- [A Name for the Hollow — narrative arc, characters and scripts](narrative-arc.md) — September 8 treatment, approved by the host for the first website build
 - [Current game rules and narrative integration](narrative-and-game.md)
 - [Selected puzzle families](puzzles.md)
 - [Volunteer runbook](../volunteer-runbook.md)

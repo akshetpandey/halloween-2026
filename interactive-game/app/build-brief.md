@@ -1,5 +1,5 @@
-# Hollow Court — website requirements for later implementation
-Status: Documentation only, September 4, 2026. **Do not implement application code in this task.** Plan for roughly 30–60 guests, with capacity/variant reserves. The [narrative/game design](../design/narrative-and-game.md) is the current product brief; the [selected puzzle families](../design/puzzles.md) await samples and playtesting, and the [physical roster](../physical/entity-plan.md) remains iterative.
+# Hollow Court — website requirements
+Status: Original specification September 4; implementation authorized by the host September 8–9, 2026. The [first deployed rehearsal](README.md) covers entrance, guardians/puzzles, narrative, invitations and identity. Unimplemented finalization/admin and physical acceptance requirements below remain open. The earlier documentation-only restriction described the original planning task. Plan for roughly 30–60 guests, with capacity/variant reserves. The [narrative/game design](../design/narrative-and-game.md) is the current product brief; the [selected puzzle families](../design/puzzles.md) await samples and playtesting, and the [physical roster](../physical/entity-plan.md) remains iterative.
 
 ## Guest flow and pages
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
@@ -16,8 +16,8 @@ Use a secure first-party, HttpOnly session cookie and server-issued player ID. C
 
 Selfies serve as avatars, contest entries and final portraits. Plan upload limits, supported mobile formats, preview/retry and sensible portrait cropping; bound/escape names and other text. Explain who can see the photos. Keep guest data off public indexing, avoid unnecessary trackers/contact details, and protect original uploads. Final photo/session retention and removal policy are open; do not carry over the old nickname-only cleanup plan without review. Consider guests who decline selfies as an explicit product decision.
 
-## Hosting direction, not deployed architecture
-The host selected **Cloudflare Workers with other Cloudflare services as backend**. Proposed service roles: Workers handles requests/rules, D1 holds structured game data, R2 stores guest selfies and entity artwork. Final services, cost, configuration and current API choices belong to the implementation task and must be verified then. No hosting skill/deployment procedure is being executed now.
+## Hosting direction and current implementation
+The host selected **Cloudflare Workers with other Cloudflare services as backend**. Proposed service roles: Workers handles requests/rules, D1 holds structured game data, R2 stores guest selfies and entity artwork. The first build uses Workers/static assets + D1 + private KV portraits because R2 is not activated on this account. See the [app README](README.md) for the deployed architecture and configurable rehearsal defaults; the R2 role here is the original proposal.
 
 Use a stable host-controlled HTTPS domain, with `hollow-court.com` only a candidate. No dependency on the Mac running music/TV. Entity links use opaque, unguessable tokens, e.g. `/s/<token>` as an illustrative route shape. Do not encode placeholder URLs. Keep hidden tag URLs out of public collection data and client bundles. Static NFC links remain shareable and do not prove physical presence.
 

@@ -1,6 +1,6 @@
 # Succession hunt • task tracker
 
-**Current plan, September 4:** [Narrative/game](design/narrative-and-game.md), [puzzle workshop](design/puzzles.md), [15-entity roster](physical/entity-plan.md). No application code in the current task. Older “claim” checks below must now test puzzle-earned Favor; “no QR” applies to physical checkpoints, not the required Partiful/Summons invitation features. Dates are proposed planning targets, not scheduled automations.
+**Current plan, September 4:** [Narrative/game](design/narrative-and-game.md), [puzzle workshop](design/puzzles.md), [15-entity roster](physical/entity-plan.md). September 9 update: [first Cloudflare rehearsal is deployed](app/README.md); physical pilot and final event/admin work remain open. Older “claim” checks below must now test puzzle-earned Favor; “no QR” applies to physical checkpoints, not the required Partiful/Summons invitation features. Dates are proposed planning targets, not scheduled automations.
 
 | ID | Task | Priority | Target | Status |
 |---|---|---|---|---|
@@ -8,9 +8,9 @@
 | SUC-02 | Review voting/ties, referral cap, crown eligibility and precise closing time | P2 | Sep 13 | Ready to review — 15-entity target and host mechanics documented |
 | SUC-03 | Confirm two volunteers and staging boundaries | P2 | Sep 20 | Needs input |
 | NFC-01 | Select TAG-01 coins or TAG-02 stickers; arrange two iPhones and one Android | P2 | Sep 20 | Shortlist verified; buying and phone selection pending |
-| WEB-01 | Select domain and later build the Cloudflare puzzle/Favor flow | P2 | Sep 27 | Revised requirements ready; code deferred to implementation task |
+| WEB-01 | Select domain and later build the Cloudflare puzzle/Favor flow | P2 | Sep 27 | Rehearsal deployed Sep 9; permanent domain and final event work pending |
 | NFC-02 | One finished base or separate moon touchpoint pilot on three phones; no QR | P2 | Sep 27 | To do |
-| WEB-02 | Unique claims, recovery, admin and timing tests | P2 | Oct 4 | To do |
+| WEB-02 | Unique claims, recovery, admin and timing tests | P2 | Oct 4 | Scoring/recovery/DST tests pass; admin/finalization and real-phone tests pending |
 | PROP-SUC-01 | Prepare 15 entities: 5 decor + 5 purchased + 5 homemade stick/straw | P2 | Oct 11 | To do — roster review and mounted prototype first; crown separate |
 | SUC-04 | Volunteer walkthrough and fallback rehearsal | P2 | Oct 18 | To do |
 | SUC-05 | Final counts, encoded tags and placement map | P2 | Oct 25 | To do |
@@ -44,15 +44,15 @@ A production tag is complete only when URL readback, website flow, mounted scan 
 | HC-DOC-01 | Integrate narrative arc, onboarding, Summons, voting, standings and finale | P2 | Sep 4 | Done — documentation only; draft rules identified |
 | HC-DOC-02 | Record 15 entities in the requested 5/5/5 split and preserve previous notes | P2 | Sep 4 | Done — names/locations/purchases remain proposals |
 | PUZ-01 | Select and document fifteen unassigned puzzle families, deterministic generation, retries and differentiation | P2 | Sep 4 | Done — fourteen approved; Unbroken Sigil provisional; no production bank |
-| PUZ-02 | Build design samples and phone-test all families for 20–45 second typical solve time, especially Unbroken Sigil tracing | P2 | Sep 13 | Ready to design — no application implementation or playtest yet |
-| PUZ-03 | Prove deterministic variant validity/capacity, then assign tested families to entities | P2 | Sep 20 | To do — after PUZ-02 and roster review |
+| PUZ-02 | Build design samples and phone-test all families for 20–45 second typical solve time, especially Unbroken Sigil tracing | P2 | Sep 13 | All fifteen playable in rehearsal; real-phone timing/comfort playtests pending |
+| PUZ-03 | Prove deterministic variant validity/capacity, then assign tested families to entities | P2 | Sep 20 | 9,000 valid generated samples checked; collision reservation, phone tests and final assignments pending |
 | FIG-MIX-02 | Review Moon Well threshold and skull/branch shrine as decor anchors four/five | P2 | Sep 13 | Ready to review |
 | FIG-SOURCE-02 | Compare five active Amazon figures and re-cost tags/mounts/five handmade pieces | P2 | Sep 13 | To do — retained listings need current offer checks |
 | CROWN-01 | Source a separate photogenic winner crown around $100 | P2 | Sep 20 | To do — no item selected or purchased |
 | RULE-01 | Decide sparse votes/ties, referral cap, host eligibility, absent winners and photo policy | P2 | Sep 20 | Needs input after proposal review |
 | WEB-DESIGN-01 | Review revised guest/admin flow, uniqueness, QR scope and DST schedule | P2 | Sep 20 | Ready to review — Cloudflare chosen, domain pending |
 
-Existing WEB/NFC implementation and fabrication tasks remain future work. Documentation completion does not imply a working site, generated art, validated bank, orders or encoded tags.
+September 9: website implementation is now in rehearsal; NFC fabrication remains future work. Earlier documentation completion did not imply a working site, artwork, validated bank, orders or encoded tags.
 
 ## September 8 — legacy NFC handoff reconciled
 
@@ -67,3 +67,7 @@ NFC-HANDOFF-01 complete: [source and coverage review](physical/handoff-2026-09-0
 | HC-NAR-03 | Adapt approved character copy to tested puzzle/prop assignments, then rehearse the finale | Pending narrative review, PUZ-02/03 and physical roster review |
 
 The game brief and runbook link to the current narrative text. Existing scoring, Summons milestones, secrecy and physical scope are retained; no shared cost or scope decision changed. [Session handoff](design/handoff-2026-09-08-narrative.md). No code, artwork, purchase, deployment or playtest in this writing task.
+
+## September 9 — first website build
+
+WEB-BUILD-01 complete: [deployed rehearsal and evidence](app/handoff-2026-09-09-first-build.md). Host approved the narrative for implementation and requested the Cloudflare homepage, all guardians/puzzles, hex routes, debug jumps, invite/login/selfie flows and woodland Partiful QR. These are implemented and tested. HC-NAR-02 is complete for narrative direction; physical choices, final pairings and unresolved rules remain separate. No physical tags encoded, props bought or phone pilot performed.

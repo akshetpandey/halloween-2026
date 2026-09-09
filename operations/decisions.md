@@ -1,6 +1,6 @@
 # Decision log and open questions
 
-**Latest interactive decisions are recorded in the September 4 Hollow Court entry at the end of this file.** Earlier dated succession notes remain history; use the [current design index](../interactive-game/README.md) for active requirements.
+**Latest interactive decisions are recorded in the September 9 website entry below; September 4 remains the mechanics baseline.** Earlier dated succession notes remain history; use the [current design index](../interactive-game/README.md) for active requirements.
 Updated September 3, 2026. This file preserves context between sessions.
 
 ## Confirmed by host
@@ -213,3 +213,9 @@ Host requests a faster playlist-editing system (Python permitted), upbeat/bouncy
 ## TV curation correction · September 8
 
 Host requested shorts, preferably at most 30 minutes each, in an artsy/drawn/arthouse style. Batches 01–04 are reviewed: [current TV verdicts and runtime accounting](../music/tv-visuals.md) is authoritative. Latest target is 2–3 hours of content, interpreted as unique finished content before repeat; host expects end-credit removal and estimates roughly 30% less runtime. Actual credit boundaries and retained durations remain to measure. The original 45–60-minute proposal is superseded. The host also added Fantastic Planet (1973) as a visual reference; the feature remains outside the shorts-only programme. [Batch 03](../music/tv-shorts-batch-03.md) is reviewed: four additions and six cuts are recorded in the authoritative plan. No reasons were supplied for the new cuts. The host reviewed [Batch 04](../music/tv-shorts-batch-04.md): six additions and four cuts, with no additional reasons supplied. The approved selection now meets the 2–3-hour target under the estimated reduction; actual finished duration remains to verify. File acquisition, full muted screening and TV testing remain pending; no purchases or budget changes. [Latest handoff](../music/handoff-2026-09-08-tv-batch-04-verdicts.md).
+
+## September 9 — Hollow Court website
+
+Confirmed in the September 8–9 local build conversation: the host approved the narrative direction and requested implementation on Cloudflare, including homepage, fifteen guardian/puzzle pages, short hexadecimal NFC routes, debug jumps, Summons, login/selfie and a locked entrance with an artistic woodland QR. The host supplied the [Partiful event URL](https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u). No event editing or guest messages were performed.
+
+The [deployed rehearsal handoff](../interactive-game/app/handoff-2026-09-09-first-build.md) records implementation and tests. Workers + D1 + private KV portraits is the first-build architecture; R2 activation failed and is no longer a prerequisite. Seven-day portrait expiry is a configurable rehearsal default, not the final guest-data policy. Physical pairings remain rehearsal choices; final costume ranking, ties, eligibility, admin controls, permanent domain and phone testing remain open. No paid-plan upgrade, domain purchase, props or NFC encoding.

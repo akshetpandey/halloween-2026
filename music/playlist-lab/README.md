@@ -4,7 +4,7 @@ A local Python tool for October Grove selection, persistent track votes, metadat
 
 **Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
 
-**Latest calibration:** the host finished the original 141 (four keeps, 137 cuts). [Batch 02](../living-room/october-grove-batch-02.md) adds 25 new candidates, 25 distinct lead artists and 1:33:14 raw. Its private Spotify order is verified; audio descriptors cover 21/25 and YouTube candidates 24/25. The library now contains 166 tracks; prior feedback is retained.
+**Latest calibration:** Batch 02 is complete (12 keeps / 13 cuts), with 16 keeps across the previous 166 tracks. [Batch 03](../living-room/october-grove-batch-03.md) adds 25 new recordings, 25 distinct lead artists (18 new), and 1:32:13 raw. Its private Spotify order is verified. The library now contains 191 tracks; prior feedback is retained. See the batch notes for current audio/YouTube coverage.
 
 ## Listen and vote now
 
@@ -13,10 +13,11 @@ Run from the repository root:
 ```sh
 python3 music/playlist-lab/lab.py import music/living-room/review-library.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-02.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-03.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 02 · Energy & variety (25)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
+Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 03 · Hooks after dark (25)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
 
 **YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates have matching title/mix words, artist/channel evidence and duration within five seconds, but are not guaranteed identical versions. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
 
@@ -25,7 +26,7 @@ Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch ope
 `yt-dlp` is used only for metadata searches, with no audio/video downloads and no browser-cookie extraction. Refresh candidates with:
 
 ```sh
-python3 music/playlist-lab/youtube.py --batch 02 # current batch
+python3 music/playlist-lab/youtube.py --batch 03 # current batch
 python3 music/playlist-lab/youtube.py       # original audition only
 python3 music/playlist-lab/youtube.py --all # all linked library tracks
 ```
@@ -111,7 +112,7 @@ python3 music/playlist-lab/lab.py genres
 python3 music/playlist-lab/enrich.py
 # Or just the first audition:
 python3 music/playlist-lab/enrich.py --audition
-python3 music/playlist-lab/enrich.py --batch 02
+python3 music/playlist-lab/enrich.py --batch 03
 ```
 
 ReccoBeats provides up to 11 descriptors: tempo, key, mode, energy, danceability, valence, acousticness, speechiness, instrumentalness, liveness and loudness. The first six custom listening scores stay separate. Retrieval sends only public recording identifiers or song titles, never Spotify credentials, account details, votes or audio. No audio is downloaded or uploaded.

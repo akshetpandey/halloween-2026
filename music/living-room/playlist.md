@@ -1,9 +1,11 @@
 # October Grove · living-room music
-Updated September 8, 2026. **Calibration now runs in batches of 25.** The host finished the prior 141 records: four keeps, 137 cuts. [Batch 02: energy and variety](october-grove-batch-02.md) is ready: 25 new tracks, 25 lead artists, 1:33:14 raw; its private Spotify order is API-verified. The original 117-track pool and 36-track V3 audition remain unchanged.
+Updated September 8, 2026. **Batch 03 is the current 25-track calibration.** Batch 02 finished with 12 keeps and 13 cuts, bringing the prior 166-track library to 16 keeps. [Batch 03: hooks after dark](october-grove-batch-03.md) adds 25 new recordings across 25 lead artists, 18 new to the pool, with a separate API-verified private Spotify order. Its raw duration is 1:32:13. Earlier playlists and votes are preserved.
 
-[Existing Spotify pool](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) · [Listen and vote](../playlist-lab/README.md) · [V3 first audition](october-grove-v3-audition.md) · [Session handoff](handoff-2026-09-08-batch-02.md)
+[Existing Spotify pool](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) · [Listen and vote](../playlist-lab/README.md) · [V3 first audition](october-grove-v3-audition.md) · [Session handoff](handoff-2026-09-08-batch-03.md)
 
 ## Current brief · latest host correction September 8
+Batch 02 is complete: 12/25 kept. The host requested 25 more. [Batch 03](october-grove-batch-03.md) follows the successful vocal and dark-electronic directions, with seven winner follow-ups and 18 new lead artists. Most garage and the drum-and-bass probe were rejected; do not infer that higher BPM alone predicts acceptance. These are small-sample selection hypotheses, not permanent genre bans.
+
 The completed 141-track review retained only Now U Do, Hypnotized, Chemicals and Joy. The host now asks for **much more variation and much higher energy**, sourced about **25 at a time** to align before expanding. [Batch 02](october-grove-batch-02.md) tests five broader lanes; these supersede the earlier narrow tempo and restrained-house assumptions. The final nine-hour programme remains a later step.
 
 Keep the enchanted/eerie woodland atmosphere, with **upbeat, interesting, higher-tempo, bouncy, melodic and sexy** party music. No interludes, intros or outros. Avoid tracks that drag through repetition, and reduce artist/album concentration. This supersedes the September 3 blanket approval of the existing living-room collection and its soft-ending proposal. The room remains house-oriented and conversational; bedroom techno is a separate programme.
@@ -44,7 +46,7 @@ Use [Playlist Lab](../playlist-lab/README.md) for embedded YouTube/Spotify liste
 
 The authorized app returned HTTP 403 for Audio Features but did return popularity for all 141 records. ReccoBeats supplies automatically retrieved BPM/key and available energy/danceability/valence/acousticness/speechiness descriptors; [coverage and analysis](catalog-analysis-2026-09-08.md) distinguishes exact Spotify-ID matches from alternate releases matched by ISRC/title/artists/duration. Artist genres, editorial style lanes and optional listening scores remain distinct. The normal host workflow is only Keep/Cut/Maybe; no manual six-metric entry required.
 
-Next: review the 25 new tracks in Batch 02; use lane-level feedback before sourcing the next 25. Build the full sequence only after the direction fits, then rehearse the Google Homes. Authorization, original-pool pull, exact audition version resolution, private audition creation and order verification are complete. Full programme approval and nine-hour playback after actual transitions remain pending.
+Next: review the 25 new tracks in Batch 03; use the votes and any written reasons before sourcing the next 25. Build the full sequence only after the direction fits, then rehearse the Google Homes. Authorization, original-pool pull, exact audition version resolution, private audition creation and order verification are complete. Full programme approval and nine-hour playback after actual transitions remain pending.
 
 ## Devices and fallback
 Create **October Grove** as a Google speaker group in the phone/tablet Google Home app, or use a supported stereo pair if both devices are the same model. Connect the intended Spotify account and select that destination. [Google groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Spotify setup](https://support.spotify.com/us/article/spotify-on-google-devices/)

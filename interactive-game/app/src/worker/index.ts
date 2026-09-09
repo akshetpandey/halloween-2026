@@ -9,7 +9,6 @@ type RowPlayer = {
   photo_key: string | null;
   realm: "live" | "preview";
   registered: number;
-  photo_expires_at: number | null;
 };
 const DAY = 86400000;
 const hex = (n = 32) =>
@@ -137,10 +136,7 @@ async function state(env: Env, p: RowPlayer | null) {
           name: p.name,
           realm: p.realm,
           registered: p.registered,
-          photo:
-            !!p.photo_key &&
-            !!p.photo_expires_at &&
-            p.photo_expires_at > Date.now(),
+          photo: !!p.photo_key,
         }
       : null,
     status:
@@ -161,7 +157,6 @@ async function state(env: Env, p: RowPlayer | null) {
     chapters: p?.registered
       ? chapters.filter((c) => c.at <= favors.length)
       : [],
-    retentionDays: Number(env.PHOTO_RETENTION_DAYS),
   };
 }
 async function session(env: Env, id: string) {
@@ -322,18 +317,11 @@ async function api(request: Request, env: Env): Promise<Response> {
     const photoKey = `${p.realm}/${p.id}/${hex(12)}`;
     await env.PHOTOS.put(photoKey, bytes, {
       metadata: { contentType },
-      expirationTtl: Number(env.PHOTO_RETENTION_DAYS) * 86400,
     });
     const queries = [
       env.DB.prepare(
-        `UPDATE players SET name=?,photo_key=?,registered=1,photo_expires_at=? WHERE id=? AND registered=0 ${invite ? "AND EXISTS (SELECT 1 FROM summons s JOIN players host ON host.id=s.inviter_id WHERE s.token=? AND s.redeemed_at IS NULL AND s.inviter_id!=? AND host.realm=?)" : ""}`,
-      ).bind(
-        name,
-        photoKey,
-        Date.now() + Number(env.PHOTO_RETENTION_DAYS) * DAY,
-        p.id,
-        ...(invite ? [invite, p.id, p.realm] : []),
-      ),
+        `UPDATE players SET name=?,photo_key=?,registered=1 WHERE id=? AND registered=0 ${invite ? "AND EXISTS (SELECT 1 FROM summons s JOIN players host ON host.id=s.inviter_id WHERE s.token=? AND s.redeemed_at IS NULL AND s.inviter_id!=? AND host.realm=?)" : ""}`,
+      ).bind(name, photoKey, p.id, ...(invite ? [invite, p.id, p.realm] : [])),
     ];
     if (invite)
       queries.push(
@@ -486,9 +474,9 @@ async function api(request: Request, env: Env): Promise<Response> {
     registered(p);
     const rows = (
       await env.DB.prepare(
-        `SELECT p.id,p.name,(p.photo_key IS NOT NULL AND p.photo_expires_at>?) AS photo, (SELECT COUNT(*) FROM favors f WHERE f.player_id=p.id) AS favors,(SELECT COUNT(*) FROM summons s WHERE s.inviter_id=p.id AND s.redeemed_at IS NOT NULL) AS referrals FROM players p WHERE p.registered=1 AND p.realm=? ORDER BY favors+referrals DESC,p.created_at ASC LIMIT 100`,
+        `SELECT p.id,p.name,(p.photo_key IS NOT NULL) AS photo, (SELECT COUNT(*) FROM favors f WHERE f.player_id=p.id) AS favors,(SELECT COUNT(*) FROM summons s WHERE s.inviter_id=p.id AND s.redeemed_at IS NOT NULL) AS referrals FROM players p WHERE p.registered=1 AND p.realm=? ORDER BY favors+referrals DESC,p.created_at ASC LIMIT 100`,
       )
-        .bind(Date.now(), p.realm)
+        .bind(p.realm)
         .all<{
           id: string;
           name: string;
@@ -519,9 +507,9 @@ async function api(request: Request, env: Env): Promise<Response> {
     if (!ballot) {
       const candidates = (
         await env.DB.prepare(
-          `SELECT p.id FROM players p WHERE p.realm=? AND p.registered=1 AND p.id!=? AND p.photo_key IS NOT NULL AND p.photo_expires_at>? ORDER BY (SELECT COUNT(*) FROM ballots b WHERE b.a=p.id OR b.b=p.id), RANDOM() LIMIT 2`,
+          `SELECT p.id FROM players p WHERE p.realm=? AND p.registered=1 AND p.id!=? AND p.photo_key IS NOT NULL ORDER BY (SELECT COUNT(*) FROM ballots b WHERE b.a=p.id OR b.b=p.id), RANDOM() LIMIT 2`,
         )
-          .bind(p.realm, p.id, Date.now())
+          .bind(p.realm, p.id)
           .all<{ id: string }>()
       ).results;
       if (candidates.length < 2) return json(null);
@@ -568,12 +556,11 @@ async function api(request: Request, env: Env): Promise<Response> {
     registered(p);
     const id = path.split("/").at(-1)!;
     const owner = await env.DB.prepare(
-      "SELECT photo_key,photo_expires_at FROM players WHERE id=? AND realm=? AND registered=1",
+      "SELECT photo_key FROM players WHERE id=? AND realm=? AND registered=1",
     )
       .bind(id, p.realm)
-      .first<{ photo_key: string | null; photo_expires_at: number }>();
-    if (!owner?.photo_key || owner.photo_expires_at < Date.now())
-      fail("Portrait unavailable.", 404);
+      .first<{ photo_key: string | null }>();
+    if (!owner?.photo_key) fail("Portrait unavailable.", 404);
     const object = await env.PHOTOS.getWithMetadata<{ contentType: string }>(
       owner.photo_key,
       "arrayBuffer",
@@ -585,12 +572,6 @@ async function api(request: Request, env: Env): Promise<Response> {
         "Cache-Control": "private, no-store",
       },
     });
-  }
-  if (path === "/api/account" && request.method === "DELETE") {
-    requirePlayer(p);
-    if (p.photo_key) await env.PHOTOS.delete(p.photo_key);
-    await env.DB.prepare("DELETE FROM players WHERE id=?").bind(p.id).run();
-    return json({ ok: true }, 200, { "Set-Cookie": cookie("", request, 0) });
   }
   fail("This path leads beyond the wood.", 404);
 }
@@ -632,19 +613,6 @@ export default {
   async scheduled(_controller, env, ctx) {
     ctx.waitUntil(
       (async () => {
-        const rows = (
-          await env.DB.prepare(
-            "SELECT id,photo_key FROM players WHERE photo_key IS NOT NULL AND photo_expires_at<? LIMIT 100",
-          )
-            .bind(Date.now())
-            .all<{ id: string; photo_key: string }>()
-        ).results;
-        for (const row of rows) {
-          await env.PHOTOS.delete(row.photo_key);
-          await env.DB.prepare("UPDATE players SET photo_key=NULL WHERE id=?")
-            .bind(row.id)
-            .run();
-        }
         await env.DB.batch([
           env.DB.prepare("DELETE FROM sessions WHERE expires_at<?").bind(
             Date.now(),

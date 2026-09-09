@@ -71,3 +71,7 @@ The game brief and runbook link to the current narrative text. Existing scoring,
 ## September 9 — first website build
 
 WEB-BUILD-01 complete: [deployed rehearsal and evidence](app/handoff-2026-09-09-first-build.md). Host approved the narrative for implementation and requested the Cloudflare homepage, all guardians/puzzles, hex routes, debug jumps, invite/login/selfie flows and woodland Partiful QR. These are implemented and tested. HC-NAR-02 is complete for narrative direction; physical choices, final pairings and unresolved rules remain separate. No physical tags encoded, props bought or phone pilot performed.
+
+## September 9 — account retention revision
+
+Host requested removal of account/portrait deletion and the seven-day data expiry. [Implementation and verification](app/handoff-2026-09-09-retention.md): deletion UI/API removed, portrait expiry removed from storage and database, onboarding/account copy updated. Session recovery remains available.

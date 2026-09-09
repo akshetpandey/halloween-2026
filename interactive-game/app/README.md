@@ -27,13 +27,13 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 - Name + square costume portrait + explicit display agreement; browser-side resizing to 720px, image re-encoding, MIME signature checks and bounded upload size. A returning HttpOnly session cookie restores progress; a private recovery key restores the same player and rotates credentials while invalidating old sessions.
 - Deferrable Summons at four and ten Favors. QR and copyable link preserve invitation attribution through onboarding. A D1 batch allows one qualifying new registration to redeem each token; existing accounts do not create another referral credit.
 - Pairwise costume ballots excluding self and repeat submission, with least-exposed entrants preferred. Live Standing displays Favor + completed Summons and visibly ties equal scores. Final costume ranking, tie resolution and coronation admin controls remain a later stage.
-- Rehearsal debug tools (`PREVIEW=true`), security headers, same-origin mutation checks, rate limiting, private portrait access, self-service deletion and expiring portrait storage.
+- Rehearsal debug tools (`PREVIEW=true`), security headers, same-origin mutation checks, rate limiting, private portrait access, persistent portrait storage.
 
 ## Storage and environment
 
-`wrangler.jsonc` holds non-secret bindings, Partiful URL, opening/closing instants, preview flag and retention setting. Generate binding/runtime types after editing it. D1 contains sessions (hashed tokens), players, assignments, awards, invitations and ballots. Portrait bytes are in the `PHOTOS` KV namespace, under new random keys, with a seven-day expiration for this rehearsal. The D1 expiry check gates every image request independently of storage caching. A daily cleanup job clears expired portrait references, sessions and rate counters.
+`wrangler.jsonc` holds non-secret bindings, Partiful URL, opening/closing instants, preview flag. Generate binding/runtime types after editing it. D1 contains sessions (hashed tokens), players, assignments, awards, invitations and ballots. Portrait bytes are in the `PHOTOS` KV namespace under new random keys, without automatic expiry. The host requested removal of account/portrait deletion and seven-day data expiry on September 9; the UI and deletion API are removed. Accounts, game progress and portraits remain stored. A daily cleanup job removes only expired login sessions and rate counters; it does not remove player data. Login sessions still last fourteen days and recovery restores the same retained account. See the [retention update](handoff-2026-09-09-retention.md).
 
-The initial R2 bucket request was rejected because the account has not activated R2 (Cloudflare code 10042). No R2 bucket was created. KV makes this first deployment functional without that prerequisite; no R2 activation is needed to review the app. KV can take time to expose a newly written image across locations; new unique keys avoid overwriting cached portraits. Production photo retention still requires a host decision.
+The initial R2 bucket request was rejected because the account has not activated R2 (Cloudflare code 10042). No R2 bucket was created. KV makes this first deployment functional without that prerequisite; no R2 activation is needed to review the app. KV can take time to expose a newly written image across locations; new unique keys avoid overwriting cached portraits. The current host decision is to retain account data and portraits without an automatic deadline.
 
 All preview sessions use the `preview` realm; normal entry uses `live` and respects the dates. A production deployment should have its own D1/KV resources, `PREVIEW=false`, reviewed settings and a permanent domain. Do not encode or lock physical NFC tags with rehearsal URLs. Seeded route codes are lookup identifiers, not proof of physical discovery.
 
@@ -48,7 +48,7 @@ npm audit
 node scripts/smoke.mjs     # explicitly mutates the hosted rehearsal using disposable synthetic players
 ```
 
-The integration suite creates and removes only its own local players. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode the actual styled SVG at 244px and 488px for Partiful and Summons. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
+The integration suite creates and removes only its own local players through a CLI-only fixture helper. The hosted smoke script also requires Wrangler access for its synthetic-data cleanup; no account-deletion endpoint exists. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode the actual styled SVG at 244px and 488px for Partiful and Summons. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
 
 The `sharp` override selects patched 0.35.4 for Wrangler's local Miniflare dependency. No image processing library is bundled into the Worker; the browser prepares portrait images. Build dependencies are pinned by the lockfile.
 
@@ -61,9 +61,10 @@ The first implementation uses **rehearsal pairings**, not a final physical assig
 ## Deploy the rehearsal
 
 ```sh
+npm run deploy
+node scripts/retain-portraits.mjs --remote # one-time TTL removal for older stored portraits
 npm run db:remote
 npm run seed:remote
-npm run deploy
 ```
 
-These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. The generator validates individual assignments and has at least 100 sampled distinct views per family; it does not yet reserve structurally distinct instances across all players. Before the event, review cross-player collision handling, final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, select the permanent domain, and run the physical phone pilot.
+For the September 9 retention upgrade, deploy before applying migration 0002 so the old Worker never queries a removed column. The portrait upgrade preserves bytes and metadata, removes existing KV expirations and verifies the resulting storage state. These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. The generator validates individual assignments and has at least 100 sampled distinct views per family; it does not yet reserve structurally distinct instances across all players. Before the event, review cross-player collision handling, final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, select the permanent domain, and run the physical phone pilot.

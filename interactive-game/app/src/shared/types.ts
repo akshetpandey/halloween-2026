@@ -71,7 +71,6 @@ export type State = {
   summons: Summons[];
   chapters: Chapter[];
   referrals: number;
-  retentionDays: number;
 };
 export const marks = [
   "Moon",

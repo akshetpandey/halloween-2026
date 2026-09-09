@@ -35,7 +35,7 @@ On first entry after opening:
 > Leave the name by which we may call you,
 > and the guise in which you arrived tonight.
 
-Collect display name and costume selfie, with clear agreement that the image appears to participating guests for voting and standings. Restore the same account on return without a repeated login. Preserve a pending entity or referral through registration. No email, social login or guest app required. Account recovery needs a practical host-assisted route.
+Collect display name and costume selfie, with clear agreement that the image appears to participating guests for voting and standings. Restore the same account on return without a repeated login. Preserve a pending entity or referral through registration. No email, social login or guest app required. Account recovery needs a practical host-assisted route. Confirmed September 9: remove guest account/portrait deletion and automatic seven-day expiry. Account data, progress and portraits are retained without an automatic deadline; expiring login sessions do not delete the account.
 
 ## Chronicle — an arc independent of discovery order
 
@@ -100,4 +100,4 @@ The host gives a separate, photogenic crown, approximately $100. The host's fitt
 
 ## Next design decisions
 
-Prototype and playtest the selected puzzle families first, especially Unbroken Sigil's touch behavior; assign entities afterward. Confirm the two additional decor integrations and five bought figures; reconcile the revised prop allowance and crown with the party budget. Settle voting confidence/ties, referral cap, host eligibility, absent winners, helper participation without a selfie, photo retention and the precise closing-time interpretation. Domain selection, artwork generation, purchasing, fabrication and application implementation are future work.
+Prototype and playtest the selected puzzle families first, especially Unbroken Sigil's touch behavior; assign entities afterward. Confirm the two additional decor integrations and five bought figures; reconcile the revised prop allowance and crown with the party budget. Settle voting confidence/ties, referral cap, host eligibility, absent winners, helper participation without a selfie and the precise closing-time interpretation. Domain selection, artwork generation, purchasing, fabrication and application implementation are future work.

@@ -1074,9 +1074,8 @@ function App() {
         )}
         <p className="small muted">
           Your portrait is visible to registered participants for costume
-          judgments and standings. Rehearsal portraits expire after{" "}
-          {state.retentionDays} days. You can remove your account and photo
-          below.
+          judgments and standings. Your account and portrait are kept without an
+          automatic expiry.
         </p>
         <div className="account-actions">
           <button
@@ -1091,24 +1090,6 @@ function App() {
             }
           >
             Leave this browser
-          </button>
-          <button
-            className="text-button danger"
-            onClick={() => {
-              if (
-                window.confirm(
-                  "Remove your portrait, Favors and player account? This cannot be undone.",
-                )
-              )
-                void action(async () => {
-                  await api("/account", "DELETE");
-                  setRecovery("");
-                  await refresh();
-                  go("/");
-                });
-            }}
-          >
-            Delete my account and portrait
           </button>
         </div>
       </section>
@@ -1619,9 +1600,8 @@ function Join({
               />
               <span>
                 I agree to show my name and portrait to registered Court
-                participants for costume judgments and standings. Rehearsal
-                photos expire after {state.retentionDays} days; I can delete
-                mine from my account.
+                participants for costume judgments and standings. My account and
+                portrait are kept without an automatic expiry.
               </span>
             </label>
             <div className="form-actions">

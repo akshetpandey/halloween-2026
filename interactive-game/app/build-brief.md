@@ -14,7 +14,7 @@ Navigation: **The Court** (Favor, latest chapter, Continue and outstanding Summo
 ## Identity, images and recovery
 Use a secure first-party, HttpOnly session cookie and server-issued player ID. Choose a session lifetime that comfortably covers the party, including post-midnight use. Never use display name as identity or silently merge matching names. Browser changes/private browsing can lose continuity; provide an admin-assisted recovery credential/flow and preserve puzzle assignments, Favors and invitations on recovery.
 
-Selfies serve as avatars, contest entries and final portraits. Plan upload limits, supported mobile formats, preview/retry and sensible portrait cropping; bound/escape names and other text. Explain who can see the photos. Keep guest data off public indexing, avoid unnecessary trackers/contact details, and protect original uploads. Final photo/session retention and removal policy are open; do not carry over the old nickname-only cleanup plan without review. Consider guests who decline selfies as an explicit product decision.
+Selfies serve as avatars, contest entries and final portraits. Plan upload limits, supported mobile formats, preview/retry and sensible portrait cropping; bound/escape names and other text. Explain who can see the photos. Keep guest data off public indexing, avoid unnecessary trackers/contact details, and protect original uploads. Confirmed September 9: remove the guest account/portrait deletion flow and retain player data and portraits without automatic expiry. Login session expiry is separate from data retention; recovery must restore the retained player. Consider guests who decline selfies as an explicit product decision.
 
 ## Hosting direction and current implementation
 The host selected **Cloudflare Workers with other Cloudflare services as backend**. Proposed service roles: Workers handles requests/rules, D1 holds structured game data, R2 stores guest selfies and entity artwork. The first build uses Workers/static assets + D1 + private KV portraits because R2 is not activated on this account. See the [app README](README.md) for the deployed architecture and configurable rehearsal defaults; the R2 role here is the original proposal.
@@ -74,7 +74,7 @@ Carry forward all [phone feasibility](../physical/phone-and-nfc-feasibility.md),
 - Fifteen collection slots, correct discovery/earned states, artwork, rereadable chapters, top-three podium, tied live standings and 17/20 score maxima.
 - Before open, paused, exact cutoff, concurrent finalization, changed deadline, rollback, reconnect after close, absent/declining winner and one-time bonus.
 - Weak connectivity and upload failure: no false success, safe retry, no lost pending entity/referral, no double points.
-- Authenticated admin/helper boundaries, bounded uploads, escaped names, recovery, export, data cleanup and explicit photo participation.
+- Authenticated admin/helper boundaries, bounded uploads, escaped names, recovery, export, retained data and explicit photo participation.
 - Direct NFC deep links on the hosted domain, actual invitation QR readability, no localhost/music-Mac dependency and a reconciled paper fallback.
 
 These are future acceptance criteria, not tests already run. The [previous implementation brief](../history/2026-09-04-before-hollow-court/interactive-story__03-website-build-brief.md.txt) preserves earlier requirements verbatim; instant claims, nickname-only onboarding, private-only standings, blanket QR ban and earlier timestamps are superseded.

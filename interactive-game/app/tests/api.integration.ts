@@ -1,4 +1,8 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, afterAll } from "vitest";
+// @ts-expect-error CLI-only JavaScript test helper.
+import { cleanupFixtures, wranglerJson } from "../scripts/test-fixtures.mjs";
+const fixtureIds = new Set<string>();
+afterAll(() => cleanupFixtures([...fixtureIds]), 60000);
 import sharp from "sharp";
 import { generate } from "../src/worker/puzzles";
 import { guardians } from "../src/shared/catalog";
@@ -29,6 +33,7 @@ class Client {
   async json(path: string, method = "GET", data?: unknown) {
     const r = await this.req(path, method, data);
     const b = await r.json();
+    if (b.player?.id) fixtureIds.add(b.player.id);
     expect(r.status, JSON.stringify(b)).toBeLessThan(400);
     return b as State & { recovery: string };
   }
@@ -103,7 +108,8 @@ describe("local Worker integration", () => {
     expect(final.summons.map((s) => s.milestone)).toEqual([4, 10]);
     expect(final.chapters).toHaveLength(9);
     expect(final.referrals).toBe(0);
-    await c.req("/account", "DELETE");
+    expect((await c.req("/account", "DELETE")).status).toBe(404);
+    expect((await c.json("/state")).favors).toHaveLength(15);
   });
   it("selfie onboarding, cookie continuity, single-use referrals, recovery and private image storage", async () => {
     const host = new Client();
@@ -153,15 +159,28 @@ describe("local Worker integration", () => {
         (await guest.req("/session/recover", "POST", { code: entry.recovery }))
           .status,
       ).toBe(404);
-      await recovered.req("/account", "DELETE");
-    } else await winner.req("/account", "DELETE");
+      expect((await recovered.req("/account", "DELETE")).status).toBe(404);
+      expect((await recovered.req("/photo/" + entry.player!.id)).status).toBe(
+        200,
+      );
+    }
     const consumed = (await (await host.req("/invite/" + token)).json()) as {
       used: boolean;
     };
     expect(consumed.used).toBe(true);
     expect((await host.json("/state")).referrals).toBe(1);
-    await loser.req("/account", "DELETE");
-    await host.req("/account", "DELETE");
+    const keys = wranglerJson([
+      "kv",
+      "key",
+      "list",
+      "--binding",
+      "PHOTOS",
+      "--local",
+    ]) as { name: string; expiration?: number }[];
+    const uploaded = keys.filter((k) => k.name.includes(ws.player!.id));
+    expect(uploaded).toHaveLength(1);
+    expect(uploaded[0].expiration).toBeUndefined();
+    expect(ws).not.toHaveProperty("retentionDays");
   });
   it("costume ballots exclude self, preserve one vote and reject another player submitting it", async () => {
     const clients = [new Client(), new Client(), new Client()];
@@ -199,6 +218,5 @@ describe("local Worker integration", () => {
       })
     ).json()) as { accepted: boolean };
     expect(again.accepted).toBe(false);
-    for (const c of clients) await c.req("/account", "DELETE");
   });
 });

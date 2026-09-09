@@ -1,6 +1,8 @@
 // Opt-in smoke test for this rehearsal deployment only. Creates synthetic accounts and removes them.
 import assert from "node:assert/strict";
 import sharp from "sharp";
+import { cleanupFixtures } from "./test-fixtures.mjs";
+const fixtureIds = new Set();
 const origin = "https://hollow-court-preview.computer-toolbox.workers.dev";
 const state = await (await fetch(origin + "/api/state")).json();
 assert.equal(
@@ -38,6 +40,7 @@ async function req(client, path, method = "GET", data) {
 async function json(client, path, method = "GET", data) {
   const r = await req(client, path, method, data);
   const b = await r.json();
+  if (b.player?.id) fixtureIds.add(b.player.id);
   assert(r.ok, JSON.stringify(b));
   return b;
 }
@@ -77,6 +80,8 @@ try {
   form.set("photo", new Blob([photo], { type: "image/jpeg" }), "synthetic.jpg");
   const registered = await json(1, "/register", "POST", form);
   assert.equal(registered.player.registered, 1);
+  assert.equal("retentionDays" in registered, false);
+  assert.equal((await req(1, "/account", "DELETE")).status, 404);
   assert.equal((await json(0, "/state")).referrals, 1);
   const portrait = await req(1, "/photo/" + guest.player.id);
   assert.equal(portrait.status, 200);
@@ -88,10 +93,6 @@ try {
     "PASS: hosted HTML/security headers; sealed state/Partiful URL; secure session; fifteen short routes; valid solve/deduplication; Summons redemption; private KV portrait upload/read.",
   );
 } finally {
-  for (let i = 0; i < cookies.length; i++)
-    if (cookies[i]) {
-      const r = await req(i, "/account", "DELETE");
-      assert.equal(r.status, 200);
-    }
+  cleanupFixtures([...fixtureIds], "--remote");
   console.log("Removed the synthetic smoke-test accounts and portraits.");
 }

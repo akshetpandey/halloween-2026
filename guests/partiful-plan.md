@@ -28,7 +28,8 @@ Saturday, October 31 • Williamsburg, Brooklyn
 Friends of friends are welcome—please check with the host before adding anyone, and have each guest RSVP. Dress to dance.
 
 ## Guest pack
-- `guests/pack/invitation-cover-v1.png`: main poster.
+- [V2 invite cover](pack/invitation-cover-v2.png): new square woodland poster candidate, generated September 9; host review pending.
+- `guests/pack/invitation-cover-v1.png`: original poster, retained as an alternative.
 - `guests/pack/room-concepts-v1.png`: optional “the vibe” image; clearly an illustrated concept.
 - `guests/pack/costume-art-board-01.jpg` and `guests/pack/costume-art-board-02.jpg`: sourced art/design costume inspiration, replacing the generated sheet.
 - `guests/pack/COSTUME-ART-BOARD.md`: visual guide with artwork credits, sources and couture reference links.

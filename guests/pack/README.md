@@ -3,7 +3,8 @@ Ready for host review. Host will create the Partiful event; no online event or m
 
 - [Invitation copy](INVITE-COPY.md)
 - [Costume guide](COSTUME-GUIDE.md)
-- [Invite cover](invitation-cover-v1.png)
+- [New invite cover — V2, September 9](invitation-cover-v2.png) — generated candidate for host review
+- [Original invite cover — V1](invitation-cover-v1.png)
 - [Room atmosphere concepts](room-concepts-v1.png)
 - [Costume art board and sources](COSTUME-ART-BOARD.md)
 - [Shareable costume board 1 — forest court](costume-art-board-01.jpg)
@@ -30,3 +31,5 @@ Superseded reference: `costume-inspiration-v1.png` is retained for project histo
 - [Board 4 — ancient woodland creatures and harvest](costume-ritual-board-04.jpg)
 
 Eight additional real film, fashion and photographic references: the Antler Queen, Doomcoming, McQueen lace and antlers, The Green Knight, Pan’s Labyrinth, Charles Fréger and Midsommar. These supplement the earlier artwork boards. Copyrighted reference images; source credits and rights notes are retained in the guide. No generated costumes.
+
+[Exact V2 prompt and generation notes](../research/invitation-cover-v2-prompt.md). V2 is square woodland poster artwork; preview the crop in Partiful before choosing it. No event upload or publication performed.

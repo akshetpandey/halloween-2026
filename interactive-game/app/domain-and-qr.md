@@ -1,6 +1,6 @@
 # Hollow Court domain and illustrated QR
 
-Host instruction, September 9, 2026: connect the purchased `hollow-court.com` domain to the existing Worker, use short invitation/Partiful URLs, and follow the supplied image-integrated artistic QR references. The deployment still uses the existing rehearsal data and `PREVIEW=true`; attaching a domain does not enable the live event.
+Host instruction, September 9, 2026: connect the purchased `hollow-court.com` domain to the existing Worker, use short invitation/Partiful URLs, and follow the supplied image-integrated artistic QR references. September 9 follow-up: the custom domain now uses the live time gate and hides debug. `PREVIEW=true` is honored only on the configured Workers preview hostname (or local HTTP development). D1/KV remain shared, with live and preview records separated by realm.
 
 ## Routes and continuity
 
@@ -9,7 +9,7 @@ Host instruction, September 9, 2026: connect the purchased `hollow-court.com` do
 - Summons use `/s/<code>`; `/S/<code>` is also supported. Twelve random Base32 characters carry 60 bits of randomness. A unique D1 index and conditional updates protect against collisions/concurrent assignment. Aliases are bearer invitation links, not account recovery credentials.
 - Additive migration `0003_short_summons.sql` preserves each original 32-character invitation token and adds `short_code`. A missing alias is allocated on the inviter's next state read. Both forms resolve to the original invitation before atomic registration/redemption, preserving single use and attribution. Existing old links remain valid.
 - QR values use uppercase scheme/host/path only on the two supported short routes. Uppercase URL spelling permits alphanumeric QR encoding. Legacy token spelling remains untouched. Copyable links use conventional lowercase scheme/host/path and the case-sensitive alias.
-- Browser cookies belong to their hostname. Existing workers.dev sessions continue there; use the existing recovery flow to restore the same account on the new domain. Photos, Favors, accounts and retention behavior are unchanged.
+- Browser cookies belong to their hostname. Existing workers.dev sessions continue there; rehearsal accounts are now accessible only on the preview hostname. Live account recovery remains available on the public domain once its entrance opens. Photos, Favors, accounts and retention behavior are unchanged.
 
 ## Artwork and error correction
 

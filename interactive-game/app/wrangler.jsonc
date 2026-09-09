@@ -6,6 +6,7 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "routes": [{ "pattern": "hollow-court.com", "custom_domain": true }],
+  "dev": { "host": "127.0.0.1", "upstream_protocol": "http" },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
@@ -18,6 +19,7 @@
   },
   "vars": {
     "PREVIEW": "true",
+    "PREVIEW_HOST": "hollow-court-preview.computer-toolbox.workers.dev",
     "PUBLIC_ORIGIN": "https://hollow-court.com",
     "PARTIFUL_URL": "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u",
     "OPENS_AT": "2026-10-31T20:00:00-04:00",

@@ -83,3 +83,7 @@ Implemented host feedback across encounter layout/typography and eleven puzzle f
 ## September 9 — domain and illustrated QR revision
 
 The host reports purchasing `hollow-court.com`; it is connected to the existing rehearsal Worker. [Implementation notes](app/domain-and-qr.md) cover the short Partiful redirect, stable invitation aliases, illustrated QR composition and verification. Domain price was not supplied; no new purchase was made by this session. Physical NFC encoding and final event readiness remain pending.
+
+## September 9 — public time gate and preview isolation
+
+Host requested hiding debug and activating the time gate on `hollow-court.com`. The public hostname now enforces the configured event clock; debug remains available on the Workers preview hostname. Server checks reject debug APIs and ignore/reject rehearsal sessions and recovery on the public domain. Local HTTP development retains rehearsal tools. No data deleted or event times changed.

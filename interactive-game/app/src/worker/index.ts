@@ -4,6 +4,7 @@ import { chapters } from "./story";
 import { generate, validate, PUZZLE_VERSION } from "./puzzles";
 import type { Assignment } from "../shared/types";
 import { shortInviteCode } from "../shared/links";
+import { previewEnabled } from "./access";
 type RowPlayer = {
   id: string;
   name: string;
@@ -51,11 +52,12 @@ async function player(request: Request, env: Env) {
     .get("Cookie")
     ?.match(/(?:^|;\s*)court_session=([a-f0-9]{64})(?:;|$)/)?.[1];
   if (!token) return null;
-  return env.DB.prepare(
+  const found = await env.DB.prepare(
     "SELECT p.* FROM players p JOIN sessions s ON p.id=s.player_id WHERE s.token_hash=? AND s.expires_at>?",
   )
     .bind(await hash(token), Date.now())
     .first<RowPlayer>();
+  return found?.realm === "preview" && env.PREVIEW !== "true" ? null : found;
 }
 function open(env: Env, p: RowPlayer | null) {
   if (p?.realm === "preview" && env.PREVIEW === "true") return;
@@ -278,7 +280,8 @@ async function api(request: Request, env: Env): Promise<Response> {
     )
       .bind(await hash(key))
       .first<RowPlayer>();
-    if (!found) fail("That recovery key was not recognized.", 404);
+    if (!found || (found.realm === "preview" && env.PREVIEW !== "true"))
+      fail("That recovery key was not recognized.", 404);
     const recovery = hex(16),
       token = hex();
     await env.DB.batch([
@@ -390,6 +393,7 @@ async function api(request: Request, env: Env): Promise<Response> {
     );
   }
   if (path.startsWith("/api/invite/") && request.method === "GET") {
+    if (env.PREVIEW !== "true") open(env, p);
     const token = path.split("/").at(-1)!;
     const invite = await env.DB.prepare(
       "SELECT s.milestone,s.redeemed_at,p.name,p.realm FROM summons s JOIN players p ON p.id=s.inviter_id WHERE s.token=? OR s.short_code=?",
@@ -401,7 +405,8 @@ async function api(request: Request, env: Env): Promise<Response> {
         name: string;
         realm: string;
       }>();
-    if (!invite) fail("This invitation could not be found.", 404);
+    if (!invite || (invite.realm === "preview" && env.PREVIEW !== "true"))
+      fail("This invitation could not be found.", 404);
     return json({
       milestone: invite.milestone,
       used: !!invite.redeemed_at,
@@ -623,6 +628,12 @@ async function api(request: Request, env: Env): Promise<Response> {
 export default {
   async fetch(request, env, ctx) {
     try {
+      const requestEnv = {
+        ...env,
+        PREVIEW: previewEnabled(request.url, env.PREVIEW, env.PREVIEW_HOST)
+          ? "true"
+          : "false",
+      };
       const pathname = new URL(request.url).pathname;
       const response =
         /^\/r$/i.test(pathname) && ["GET", "HEAD"].includes(request.method)
@@ -634,7 +645,7 @@ export default {
               },
             })
           : pathname.startsWith("/api/")
-            ? await api(request, env)
+            ? await api(request, requestEnv)
             : await env.ASSETS.fetch(request);
       const secured = new Response(response.body, response);
       secured.headers.set("X-Content-Type-Options", "nosniff");

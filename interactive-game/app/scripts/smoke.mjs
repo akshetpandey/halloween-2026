@@ -3,16 +3,28 @@ import assert from "node:assert/strict";
 import sharp from "sharp";
 import { cleanupFixtures } from "./test-fixtures.mjs";
 const fixtureIds = new Set();
-const origin = "https://hollow-court.com";
+const publicOrigin = "https://hollow-court.com";
+const origin = "https://hollow-court-preview.computer-toolbox.workers.dev";
 const state = await (await fetch(origin + "/api/state")).json();
 assert.equal(
   state.previewAvailable,
   true,
   "Refuse to create test players outside rehearsal",
 );
-assert.equal(state.partifulUrl, origin + "/r");
+assert.equal(state.partifulUrl, publicOrigin + "/r");
+const publicState = await (await fetch(publicOrigin + "/api/state")).json();
+assert.equal(publicState.previewAvailable, false);
+assert.equal(
+  publicState.status,
+  Date.now() < Date.parse(publicState.opensAt)
+    ? "sealed"
+    : Date.now() >= Date.parse(publicState.closesAt)
+      ? "closed"
+      : "open",
+);
+assert.equal((await fetch(publicOrigin + "/api/debug/guardians")).status, 404);
 for (const path of ["/r", "/R"]) {
-  const redirect = await fetch(origin + path, { redirect: "manual" });
+  const redirect = await fetch(publicOrigin + path, { redirect: "manual" });
   assert.equal(redirect.status, 302);
   assert.equal(
     redirect.headers.get("location"),
@@ -53,7 +65,51 @@ async function json(client, path, method = "GET", data) {
   return b;
 }
 try {
-  await json(0, "/session/start", "POST", { preview: true, demo: true });
+  const rehearsal = await json(0, "/session/start", "POST", {
+    preview: true,
+    demo: true,
+  });
+  const copiedCookie = {
+    Cookie: cookies[0],
+    "x-court-request": "1",
+    "Content-Type": "application/json",
+  };
+  const publicWithCookie = await (
+    await fetch(publicOrigin + "/api/state", { headers: copiedCookie })
+  ).json();
+  assert.equal(publicWithCookie.player, null);
+  assert.equal(publicWithCookie.previewAvailable, false);
+  assert.equal(
+    (
+      await fetch(publicOrigin + "/api/debug/progress", {
+        method: "POST",
+        headers: copiedCookie,
+        body: JSON.stringify({ count: 4 }),
+      })
+    ).status,
+    404,
+  );
+  assert.equal(
+    (
+      await fetch(publicOrigin + "/api/session/recover", {
+        method: "POST",
+        headers: copiedCookie,
+        body: JSON.stringify({ code: rehearsal.recovery }),
+      })
+    ).status,
+    404,
+  );
+  if (publicState.status !== "open")
+    assert.equal(
+      (
+        await fetch(publicOrigin + "/api/session/start", {
+          method: "POST",
+          headers: copiedCookie,
+          body: JSON.stringify({ preview: true, demo: true }),
+        })
+      ).status,
+      423,
+    );
   const codes = await json(0, "/debug/guardians");
   assert.equal(codes.length, 15);
   assert(codes.every((c) => /^[a-f0-9]{12}$/.test(c.code)));

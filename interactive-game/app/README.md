@@ -6,9 +6,9 @@ Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + st
 
 [September 9 puzzle revision](../design/puzzle-revision-2026-09-09.md): compact mobile encounters, corrected heading spacing and eleven revised trials. Preview assignments upgrade to version 2 on opening each guardian; Favors and routes stay intact. [Revision deployment and verification](handoff-2026-09-09-mobile-puzzles.md).
 
-The host purchased **hollow-court.com** and authorized its connection to this Worker on September 9. It currently serves the same rehearsal. `https://hollow-court.com/r` redirects to the configured Partiful event. Summons display stable 12-character random Base32 aliases at `/s/<code>`; old 32-character tokens still resolve and redeem the same invitation. QR payloads use uppercase URL spelling on supported routes for compact alphanumeric encoding. The image is woven through the code, with Q error correction and protected structural markers. [Domain and QR notes](domain-and-qr.md) · [Deployment and checks](handoff-2026-09-09-domain-qr.md).
+The host purchased **hollow-court.com** and authorized its connection to this Worker on September 9. The custom domain uses the live time gate; rehearsal/debug is available only on the configured Workers preview hostname (and local development). `https://hollow-court.com/r` redirects to the configured Partiful event. Summons display stable 12-character random Base32 aliases at `/s/<code>`; old 32-character tokens still resolve and redeem the same invitation. QR payloads use uppercase URL spelling on supported routes for compact alphanumeric encoding. The image is woven through the code, with Q error correction and protected structural markers. [Domain and QR notes](domain-and-qr.md) · [Deployment and checks](handoff-2026-09-09-domain-qr.md).
 
-Use **Field notes → Open Court** to enter now, or jump directly to any guardian. The normal entrance stays sealed until Halloween.
+Use [the Workers preview](https://hollow-court-preview.computer-toolbox.workers.dev) and **Field notes → Open Court** to enter now or jump to a guardian. **hollow-court.com** has no debug menu and stays sealed until October 31, 2026 at 8 p.m. EDT. Its debug APIs are disabled and rehearsal sessions/recovery cannot bypass the gate.
 
 ## Try it locally
 
@@ -31,7 +31,7 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 - Name + square costume portrait + explicit display agreement; browser-side resizing to 720px, image re-encoding, MIME signature checks and bounded upload size. A returning HttpOnly session cookie restores progress; a private recovery key restores the same player and rotates credentials while invalidating old sessions.
 - Deferrable Summons at four and ten Favors. QR and copyable link preserve invitation attribution through onboarding. A D1 batch allows one qualifying new registration to redeem each token; existing accounts do not create another referral credit.
 - Pairwise costume ballots excluding self and repeat submission, with least-exposed entrants preferred. Live Standing displays Favor + completed Summons and visibly ties equal scores. Final costume ranking, tie resolution and coronation admin controls remain a later stage.
-- Rehearsal debug tools (`PREVIEW=true`), security headers, same-origin mutation checks, rate limiting, private portrait access, persistent portrait storage.
+- Rehearsal debug tools (`PREVIEW=true` on `PREVIEW_HOST` only), security headers, same-origin mutation checks, rate limiting, private portrait access, persistent portrait storage.
 
 ## Storage and environment
 
@@ -39,7 +39,7 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 
 The initial R2 bucket request was rejected because the account has not activated R2 (Cloudflare code 10042). No R2 bucket was created. KV makes this first deployment functional without that prerequisite; no R2 activation is needed to review the app. KV can take time to expose a newly written image across locations; new unique keys avoid overwriting cached portraits. The current host decision is to retain account data and portraits without an automatic deadline.
 
-All preview sessions use the `preview` realm; normal entry uses `live` and respects the dates. A production deployment should have its own D1/KV resources, `PREVIEW=false`, reviewed settings and the host-owned domain. Do not encode or lock physical NFC tags with rehearsal URLs. Seeded route codes are lookup identifiers, not proof of physical discovery.
+All preview sessions use the `preview` realm; normal entry uses `live` and respects the dates. Request-scoped hostname checks disable preview on the custom domain, ignore rehearsal cookies there and prevent restoring rehearsal accounts or redeeming rehearsal invitations through public routes. Local Wrangler uses an explicit HTTP loopback upstream to avoid inheriting the custom domain hostname. A production deployment should have its own D1/KV resources, `PREVIEW=false`, reviewed settings and the host-owned domain. Do not encode or lock physical NFC tags with rehearsal URLs. Seeded route codes are lookup identifiers, not proof of physical discovery.
 
 ## Checks
 

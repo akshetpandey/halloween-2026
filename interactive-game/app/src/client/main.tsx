@@ -148,13 +148,17 @@ function App() {
     }
   }, [path, state?.player?.id, state?.player?.registered, state?.status]);
   useEffect(() => {
-    if (/^\/s\//i.test(path)) {
+    if (
+      /^\/s\//i.test(path) &&
+      state &&
+      (state.previewAvailable || state.status !== "sealed")
+    ) {
       setInvite(null);
       void api<typeof invite>("/invite/" + path.split("/")[2])
         .then(setInvite)
         .catch((e) => setError(e.message));
     }
-  }, [path]);
+  }, [path, state?.previewAvailable, state?.status]);
   useEffect(() => {
     if (path === "/standing" && state?.player?.registered) {
       const load = () =>
@@ -253,6 +257,7 @@ function App() {
   ] as const;
   const locked =
     path === "/sealed" ||
+    (state?.status === "sealed" && !state.previewAvailable) ||
     (!["/join", "/recover", "/account"].includes(path) &&
       !/^\/s\//i.test(path) &&
       state?.status === "sealed");

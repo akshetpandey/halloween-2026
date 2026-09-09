@@ -4,7 +4,7 @@
 
 Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Deployed and verified on Cloudflare. [Open the rehearsal](https://hollow-court-preview.computer-toolbox.workers.dev) · [Deployment evidence and remaining gates](handoff-2026-09-09-first-build.md).
 
-[September 9 puzzle revision](../design/puzzle-revision-2026-09-09.md): compact mobile encounters, corrected heading spacing and eleven revised trials. Preview assignments upgrade to version 2 on opening each guardian; Favors and routes stay intact.
+[September 9 puzzle revision](../design/puzzle-revision-2026-09-09.md): compact mobile encounters, corrected heading spacing and eleven revised trials. Preview assignments upgrade to version 2 on opening each guardian; Favors and routes stay intact. [Revision deployment and verification](handoff-2026-09-09-mobile-puzzles.md).
 
 Use **Field notes → Open Court** to enter now, or jump directly to any guardian. The normal entrance stays sealed until Halloween.
 

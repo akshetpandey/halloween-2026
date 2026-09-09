@@ -1,0 +1,21 @@
+# Mobile puzzle revision handoff
+
+- Session title and ID: Hollow Court phone-first puzzle feedback; `01a08367-2c08-7451-8ede-52803d3c1c40`.
+- Updated date: September 9, 2026, America/New_York.
+- Scope / owned files: App puzzle components, figures, styles, shared puzzle types, Worker generators/validation/version upgrades, puzzle/API tests, hosted smoke script, app/design READMEs, puzzle contract/revision and game tracker. No sibling task files changed.
+- Checkout, branch and base commit: `/Users/akshet/workspace/halloween-2026`, shared `main`, base `21ae1ba`.
+- Status: Complete and deployed for host review; physical phone playtesting remains an event-readiness task.
+- Confirmed user decisions: September 9 feedback requested compact guardian images, mobile puzzle focus, font-spacing review and eleven specific puzzle improvements. Earlier removal of account/portrait deletion and seven-day data expiry remains in place.
+- Proposals awaiting a decision: None blocking this revision. Difficulty and physical-phone comfort still need player feedback.
+- Completed work and canonical file links: [Puzzle revision](../design/puzzle-revision-2026-09-09.md) records each implemented mechanic, typography, validator behavior and reference sources. [App README](README.md) records setup and rehearsal operation. Version 2 preview assignments regenerate once when opened, preserving Favors and short routes; existing live assignments retain their version.
+- Checks actually run and results:
+  - `npm test`: 29 passing tests, including 9,000 generated instances, exhaustive reachability of all 512 Lanterns configurations, unique puzzle answers and styled QR decoding.
+  - `npm run test:integration`: 4 passing tests against the local Worker, including all fifteen solves, once-only awards, preview assignment upgrades preserving earned Favors, onboarding/recovery/referrals/private portraits and removal of the deletion endpoint.
+  - `npm run build`: passed. Prettier checks and `git diff --check`: passed.
+  - Browser checks at 360px and 390px: no horizontal overflow; compact 80px guardian portraits; normal heading tracking; Lanterns reset restores its initial state; shard placement/rotation/reset; initial and final animated cup reveal; maze steps. Live deployment checked at 360px, including the numbered constellation guide, visible star field and starting-star touch interaction. Temporary browser viewport override reset afterward.
+  - `node scripts/smoke.mjs`: passed against the hosted rehearsal, covering HTML/security headers, sealed entrance/Partiful URL, secure session, fifteen short routes, solve/deduplication, Summons redemption and private portrait upload/read. Script removed its own synthetic accounts and portraits through CLI cleanup.
+- Purchases / external changes / deployments actually performed: Deployed the existing Cloudflare rehearsal Worker at [Hollow Court preview](https://hollow-court-preview.computer-toolbox.workers.dev), version `f24b01bd-2927-4ac7-8003-9a40598d001e`. No new resources, purchases or physical NFC changes. No push performed.
+- Remaining work in priority order: Real iPhone/Android playtest for touch comfort and intended solve times; tune difficulty from observed results; continue the event-readiness work already listed in the [app README](README.md). Constellations are recognizable simplified diagrams, not astrometric maps.
+- Dependencies on sibling tasks: None for this deployment; final physical guardian pairings and permanent event NFC URLs remain coordinated separately.
+- Unpersisted conversation details or access limitations: No guest data, photos, recovery secrets or runtime routes committed. Browser viewport testing does not establish actual device performance or puzzle solve times.
+- Commit(s) on main and remaining unrelated dirty files: Code/design checkpoint `fb14c50` (`Focus guardian trials on phones and deepen puzzle mechanics`). This handoff and its README link are the final documentation checkpoint; no unrelated dirty files observed.

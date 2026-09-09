@@ -13,7 +13,7 @@ Host instruction, September 9, 2026: connect the purchased `hollow-court.com` do
 
 ## Chrome warning, September 9
 
-Chrome Safe Browsing displays a phishing warning on `/r`. The deployed route was checked: it returns only the configured 302 to the correct Partiful event, with no user-selectable destination. Google’s public status page returned “No available data”; the reason for classification is unknown. The small invitation link now uses `PARTIFUL_URL` directly, while the QR still uses the existing short route. No alternate redirect path was created to evade classification, and no browser protection was changed. A possible false-positive report is prepared, pending host authorization to submit. [Incident evidence](handoff-2026-09-09-safe-browsing.md).
+Chrome Safe Browsing displays a phishing warning on `/r`. The deployed route was checked: it returns only the configured 302 to the correct Partiful event, with no user-selectable destination. Google’s public status page returned “No available data”; the reason for classification is unknown. The small invitation link now uses `PARTIFUL_URL` directly, while the QR still uses the existing short route. No alternate redirect path was created to evade classification, and no browser protection was changed. The host authorized submission; Google confirmed the false-positive report was successfully submitted on September 9. Reclassification remains unconfirmed. [Incident evidence](handoff-2026-09-09-safe-browsing.md).
 
 ## Current Partiful artwork
 

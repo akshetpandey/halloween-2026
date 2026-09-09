@@ -1,0 +1,7 @@
+.wrangler/
+.dev.vars*
+.secrets*
+private/
+playwright-report/
+test-results/
+worker-configuration.d.ts

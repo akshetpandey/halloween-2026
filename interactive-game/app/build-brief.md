@@ -3,7 +3,7 @@ Status: Original specification September 4; implementation authorized by the hos
 
 ## Guest flow and pages
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
-2. After opening, first visit asks for display name and costume selfie with clear in-game display agreement. Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.
+2. After opening, first visit asks for display name and costume selfie with a plain in-game portrait visibility notice (the host removed the checkbox on September 9). Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.
 3. An entity NFC URL opens that entity's greeting and the player's persistent assigned puzzle. A server-validated solution earns one Favor; a scan/page view never does.
 4. Illuminate the illustrated Bestiary card, archive entity lore and newly unlocked Chronicle chapters, then offer one pairwise costume judgment. Missing/abandoned votes must not undo earned Favor.
 5. At four and ten earned entities, unlock a persistent, deferrable Summons with its own QR/link. A qualifying new registration completes it for one point under the proposed cap.
@@ -26,7 +26,7 @@ Use the host-controlled HTTPS domain **hollow-court.com**, purchased by the host
 |---|---|
 | Event | Opening/closing instants, display zone, state, active entities, rules/puzzle versions and finalization snapshot |
 | Entity | ID, private route token, name, family/theme, image, sigil, lore, active flag and physical register reference |
-| Player/session | Stable ID, display name, selfie reference, display agreement, recovery and eligibility state |
+| Player/session | Stable ID, display name, selfie reference, portrait visibility notice, recovery and eligibility state |
 | Puzzle variant/assignment | Validated prompt/answer or terminal state, game + player + entity seed, version and persistent assignment per player/entity |
 | Favor | Unique event + player + entity completion, server time, normal/helper origin |
 | Summons/referral | Milestone, inviter, single-use token, pending/redeemed state, qualifying new player and one-time point |

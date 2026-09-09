@@ -2879,3 +2879,172 @@ body:has(.encounter) .debug-toggle > span {
 .cups:not(.shuffling) .cup {
   transition: none;
 }
+
+/* The keeper's guest book and the same milestone reveal used in rehearsal. */
+.host-dashboard {
+  max-width: 960px;
+  margin-inline: auto;
+}
+.host-login {
+  max-width: 480px;
+}
+.host-login input,
+.host-toolbar input,
+.host-toolbar select {
+  width: 100%;
+  margin-block: 10px 16px;
+}
+.host-toolbar {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.host-toolbar label:first-child {
+  flex: 1;
+  min-width: 210px;
+}
+.host-toolbar label {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+.host-toolbar select {
+  background: #182d1e;
+  color: #e2e3c6;
+  padding: 13px;
+  border: 1px solid #56664a;
+  border-radius: 6px;
+}
+.host-guests {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+.host-guest {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  padding: 18px;
+  background: #1b3020;
+  border: 1px solid #425238;
+  border-radius: 12px;
+}
+.host-guest img,
+.host-photo-placeholder {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.host-photo-placeholder {
+  display: grid;
+  place-items: center;
+  background: #293b26;
+}
+.host-guest h3,
+.host-guest p {
+  margin: 0 0 6px;
+}
+.host-guest small {
+  overflow-wrap: anywhere;
+  color: #b4bea0;
+}
+.recovery-issued {
+  margin-block: 24px;
+  border: 1px solid #a39555;
+}
+.recovery-issued h2 {
+  overflow-wrap: anywhere;
+}
+.arrival-portrait {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-block: 12px;
+}
+.story-reveal {
+  color: #e5e4ce;
+  background: radial-gradient(ellipse at top, #34432a, #18291d 70%);
+  border: 1px solid #8b8853;
+  border-radius: 24px;
+  width: min(540px, calc(100vw - 28px));
+  max-height: calc(100dvh - 32px);
+  padding: 54px 36px 28px;
+  text-align: center;
+  overflow-y: auto;
+}
+.story-reveal::backdrop {
+  background: #07100cdb;
+  backdrop-filter: blur(6px);
+}
+.story-reveal[open] {
+  animation: page-stirs 0.45s ease-out;
+}
+.story-reveal h2 {
+  font-size: clamp(32px, 6vw, 46px);
+  line-height: 1.08;
+  margin-block: 18px;
+}
+.story-reveal .btn {
+  white-space: normal;
+  margin: 18px auto 8px;
+}
+.story-reveal .text-button {
+  display: flex;
+  margin: 15px auto;
+}
+.reveal-mark {
+  color: #c7b773;
+  margin: 12px auto 24px;
+}
+.reveal-story {
+  line-height: 1.7;
+  color: #c6ceb5;
+}
+.reveal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.rehearsal-label {
+  display: block;
+  font-size: 9px;
+  color: #b5c49e;
+  letter-spacing: 0.1em;
+  margin-bottom: 22px;
+}
+@keyframes page-stirs {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 600px) {
+  .host-guest {
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 12px;
+  }
+  .host-guest img,
+  .host-photo-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+  .host-guest .btn {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+  .story-reveal {
+    padding: 48px 22px 22px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .story-reveal[open] {
+    animation: none;
+  }
+}

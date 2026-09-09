@@ -1,6 +1,51 @@
-import { describe, it, expect, afterAll } from "vitest";
+import { describe, it, expect, afterAll, beforeAll } from "vitest";
 // @ts-expect-error CLI-only JavaScript test helper.
 import { cleanupFixtures, wranglerJson } from "../scripts/test-fixtures.mjs";
+import { createServer, type Server } from "node:http";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { generateKeyPair, exportJWK, importJWK, SignJWT } from "jose";
+let jwtServer: Server, hostJwt: string;
+beforeAll(async () => {
+  let fixtureKeys;
+  try {
+    fixtureKeys = JSON.parse(
+      await readFile("private/local-jwt-fixture.json", "utf8"),
+    );
+  } catch {
+    const pair = await generateKeyPair("RS256", { extractable: true });
+    fixtureKeys = {
+      private: await exportJWK(pair.privateKey),
+      public: await exportJWK(pair.publicKey),
+    };
+    await mkdir("private", { recursive: true });
+    await writeFile(
+      "private/local-jwt-fixture.json",
+      JSON.stringify(fixtureKeys),
+      { mode: 0o600 },
+    );
+  }
+  const keys = { privateKey: await importJWK(fixtureKeys.private, "RS256") },
+    jwk = fixtureKeys.public;
+  jwk.kid = "local-fixture-persistent";
+  hostJwt = await new SignJWT({ email: "host@example.test", type: "app" })
+    .setProtectedHeader({ alg: "RS256", kid: jwk.kid })
+    .setSubject("test-host")
+    .setIssuer("http://127.0.0.1:8789")
+    .setAudience("local-host-test")
+    .setIssuedAt()
+    .setExpirationTime("10m")
+    .sign(keys.privateKey);
+  jwtServer = createServer((_req, res) => {
+    res.setHeader("Content-Type", "application/json");
+    res.end(JSON.stringify({ keys: [jwk] }));
+  });
+  await new Promise<void>((resolve) =>
+    jwtServer.listen(8789, "127.0.0.1", resolve),
+  );
+});
+afterAll(
+  () => new Promise<void>((resolve) => jwtServer?.close(() => resolve())),
+);
 const fixtureIds = new Set<string>();
 afterAll(() => cleanupFixtures([...fixtureIds]), 60000);
 import sharp from "sharp";
@@ -10,8 +55,11 @@ import type { State } from "../src/shared/types";
 const base = "http://127.0.0.1:8787";
 class Client {
   cookie = "";
+  jwt = "";
+  ip = crypto.randomUUID();
   async req(path: string, method = "GET", data?: unknown) {
-    const headers: Record<string, string> = {};
+    const headers: Record<string, string> = { "CF-Connecting-IP": this.ip };
+    if (this.jwt) headers["Cf-Access-Jwt-Assertion"] = this.jwt;
     if (this.cookie) headers.Cookie = this.cookie;
     if (method !== "GET") headers["x-court-request"] = "1";
     if (data && !(data instanceof FormData))
@@ -47,7 +95,6 @@ const portrait = () =>
 async function registration(invite?: string) {
   const f = new FormData();
   f.set("name", "Rehearsal visitor");
-  f.set("consent", "yes");
   f.set(
     "photo",
     new Blob([await portrait()], { type: "image/jpeg" }),
@@ -57,6 +104,82 @@ async function registration(invite?: string) {
   return f;
 }
 describe("local Worker integration", () => {
+  it("host-only lookup and one-use recovery preserve the guest and reject stale, expired and raced phrases", async () => {
+    const guest = new Client();
+    await guest.json("/session/start", "POST", { preview: true });
+    const registered = await guest.json(
+      "/register",
+      "POST",
+      await registration(),
+    );
+    const id = registered.player!.id;
+    const before = await guest.json("/debug/progress", "POST", { count: 4 });
+    const anon = new Client(),
+      host = new Client();
+    host.jwt = hostJwt;
+    expect((await anon.req("/admin/guests")).status).toBe(401);
+    expect((await anon.req("/admin/photo/" + id)).status).toBe(401);
+    expect(
+      (await anon.req("/admin/recovery", "POST", { playerId: id })).status,
+    ).toBe(401);
+    host.jwt = "forged";
+    expect((await host.req("/admin/guests")).status).toBe(401);
+    host.jwt = hostJwt;
+    const listing = await (
+      await host.req("/admin/guests?realm=preview&q=" + id)
+    ).json();
+    expect(listing).toHaveLength(1);
+    expect(listing[0].id).toBe(id);
+    expect(JSON.stringify(listing)).not.toContain("code_hash");
+    expect(JSON.stringify(listing)).not.toContain("recovery_hash");
+    const photo = await host.req("/admin/photo/" + id);
+    expect(photo.status).toBe(200);
+    expect(photo.headers.get("cache-control")).toBe("private, no-store");
+    const issue = async () => {
+      const r = await host.req("/admin/recovery", "POST", { playerId: id });
+      expect(r.status).toBe(200);
+      return r.json() as Promise<{ code: string }>;
+    };
+    const first = await issue(),
+      second = await issue();
+    expect(
+      (await anon.req("/session/recover", "POST", { code: first.code })).status,
+    ).toBe(404);
+    const a = new Client(),
+      b = new Client();
+    const attempts = await Promise.all([
+      a.req("/session/recover", "POST", {
+        code: second.code.toUpperCase().replaceAll(" ", "-"),
+      }),
+      b.req("/session/recover", "POST", { code: second.code }),
+    ]);
+    expect(attempts.filter((r) => r.status === 200)).toHaveLength(1);
+    const winner = attempts[0].ok ? a : b;
+    const restored = await winner.json("/state");
+    expect(restored.player!.id).toBe(id);
+    expect(restored.favors).toEqual(before.favors);
+    expect(restored.summons).toEqual(before.summons);
+    expect(restored.player!.photo).toBe(true);
+    expect((await guest.json("/state")).player).toBeNull();
+    expect(
+      (await anon.req("/session/recover", "POST", { code: second.code }))
+        .status,
+    ).toBe(404);
+    const expired = await issue();
+    wranglerJson([
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--json",
+      "--command",
+      `UPDATE host_recovery SET expires_at=1 WHERE player_id='${id}'`,
+    ]);
+    expect(
+      (await anon.req("/session/recover", "POST", { code: expired.code }))
+        .status,
+    ).toBe(404);
+  });
   it("seals real entry and protects mutations and photos", async () => {
     const c = new Client();
     const entrance = await c.json("/state");

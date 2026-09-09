@@ -35,7 +35,7 @@ On first entry after opening:
 > Leave the name by which we may call you,
 > and the guise in which you arrived tonight.
 
-Collect display name and costume selfie, with clear agreement that the image appears to participating guests for voting and standings. Restore the same account on return without a repeated login. Preserve a pending entity or referral through registration. No email, social login or guest app required. Account recovery needs a practical host-assisted route. Confirmed September 9: remove guest account/portrait deletion and automatic seven-day expiry. Account data, progress and portraits are retained without an automatic deadline; expiring login sessions do not delete the account.
+Collect display name and costume selfie, with a plain notice that the image appears to participating guests for voting and standings. Confirmed September 9: no agreement checkbox and no guest recovery-key saving step. The host can find a guest by name and portrait and issue a three-word return phrase, valid for ten minutes and one use; Cloudflare email sign-in protects the host guest book. Activation of the host sign-in is tracked in the app handoff. Restore the same account on return without a repeated login. Preserve a pending entity or referral through registration. No email, social login or guest app required. Account recovery needs a practical host-assisted route. Confirmed September 9: remove guest account/portrait deletion and automatic seven-day expiry. Account data, progress and portraits are retained without an automatic deadline; expiring login sessions do not delete the account.
 
 ## Chronicle — an arc independent of discovery order
 

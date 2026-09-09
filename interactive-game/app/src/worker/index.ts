@@ -6,7 +6,9 @@ import type { Assignment } from "../shared/types";
 import { shortInviteCode } from "../shared/links";
 import { previewEnabled } from "./access";
 import { httpsRedirect, responseHeaders } from "./http";
-type RowPlayer = {
+import { hex, hash, fail, json, readBody, body } from "./request";
+import { adminApi, redeemHostRecovery } from "./admin";
+export type RowPlayer = {
   id: string;
   name: string;
   photo_key: string | null;
@@ -14,30 +16,6 @@ type RowPlayer = {
   registered: number;
 };
 const DAY = 86400000;
-const hex = (n = 32) =>
-  Array.from(crypto.getRandomValues(new Uint8Array(n)), (x) =>
-    x.toString(16).padStart(2, "0"),
-  ).join("");
-async function hash(value: string) {
-  return Array.from(
-    new Uint8Array(
-      await crypto.subtle.digest("SHA-256", new TextEncoder().encode(value)),
-    ),
-    (b) => b.toString(16).padStart(2, "0"),
-  ).join("");
-}
-function fail(message: string, status = 400): never {
-  throw new Response(JSON.stringify({ error: message }), {
-    status,
-    headers: { "Content-Type": "application/json" },
-  });
-}
-function json(data: unknown, status = 200, headers: HeadersInit = {}) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: { "Content-Type": "application/json", ...headers },
-  });
-}
 export function phase(opens: string, closes: string, now = Date.now()) {
   return now < Date.parse(opens)
     ? "sealed"
@@ -71,44 +49,6 @@ function requirePlayer(p: RowPlayer | null): asserts p is RowPlayer {
 function registered(p: RowPlayer | null): asserts p is RowPlayer {
   requirePlayer(p);
   if (!p.registered) fail("Leave your name and guise first.", 401);
-}
-async function readBody(request: Request, limit: number) {
-  if (Number(request.headers.get("content-length")) > limit)
-    fail("That file is too large.", 413);
-  const reader = request.body?.getReader();
-  if (!reader) return new Uint8Array();
-  let size = 0;
-  const chunks: Uint8Array[] = [];
-  while (true) {
-    const { value, done } = await reader.read();
-    if (done) break;
-    size += value.length;
-    if (size > limit) {
-      await reader.cancel();
-      fail("That file is too large.", 413);
-    }
-    chunks.push(value);
-  }
-  const out = new Uint8Array(size);
-  let pos = 0;
-  for (const c of chunks) {
-    out.set(c, pos);
-    pos += c.length;
-  }
-  return out;
-}
-async function body(request: Request): Promise<Record<string, unknown>> {
-  try {
-    const result: unknown = JSON.parse(
-      new TextDecoder().decode(await readBody(request, 16000)),
-    );
-    if (!result || typeof result !== "object" || Array.isArray(result))
-      fail("Expected an object.");
-    return result as Record<string, unknown>;
-  } catch (e) {
-    if (e instanceof Response) throw e;
-    fail("The request could not be read.");
-  }
 }
 async function state(env: Env, p: RowPlayer | null) {
   const favors = p
@@ -195,14 +135,17 @@ async function rate(request: Request, env: Env, path: string) {
   const window = Math.floor(Date.now() / 60000),
     ip = request.headers.get("CF-Connecting-IP") || "local";
   const key = await hash(
-    `${ip}:${window}:${path.includes("recover") ? "recover" : "write"}`,
+    `${ip}:${window}:${path.includes("recover") || path === "/api/admin/login" ? "recover" : "write"}`,
   );
   const r = await env.DB.prepare(
     "INSERT INTO rate_limits(key,count,resets_at) VALUES(?,1,?) ON CONFLICT(key) DO UPDATE SET count=count+1 RETURNING count",
   )
     .bind(key, Date.now() + 2 * 60000)
     .first<{ count: number }>();
-  if (r!.count > (path.includes("recover") ? 12 : 180))
+  if (
+    r!.count >
+    (path.includes("recover") || path === "/api/admin/login" ? 12 : 180)
+  )
     fail("The Court needs a moment. Please try again shortly.", 429);
 }
 async function api(request: Request, env: Env): Promise<Response> {
@@ -217,6 +160,7 @@ async function api(request: Request, env: Env): Promise<Response> {
       fail("This request must come from the Court.", 403);
     await rate(request, env, path);
   }
+  if (path.startsWith("/api/admin/")) return adminApi(request, env);
   if (path === "/api/state" && request.method === "GET")
     return json(await state(env, p));
   if (path === "/api/session/start" && request.method === "POST") {
@@ -272,10 +216,22 @@ async function api(request: Request, env: Env): Promise<Response> {
   if (path === "/api/session/recover" && request.method === "POST") {
     const b = await body(request);
     if (
+      typeof b.code === "string" &&
+      /^[a-z]+(?:[ -]+[a-z]+){2}$/i.test(b.code.trim())
+    ) {
+      const restored = await redeemHostRecovery(env, b.code);
+      return json(await state(env, restored.player), 200, {
+        "Set-Cookie": cookie(restored.token, request),
+      });
+    }
+    if (
       typeof b.code !== "string" ||
       !/^([a-f0-9]{4}[ -]?){8}$/i.test(b.code.trim())
     )
-      fail("Enter your 32-character recovery key.", 422);
+      fail(
+        "Enter the three-word phrase from the host, or an earlier recovery key.",
+        422,
+      );
     const key = b.code.replace(/[ -]/g, "").toLowerCase();
     const found = await env.DB.prepare(
       "SELECT * FROM players WHERE recovery_hash=?",
@@ -286,18 +242,23 @@ async function api(request: Request, env: Env): Promise<Response> {
       fail("That recovery key was not recognized.", 404);
     const recovery = hex(16),
       token = hex();
-    await env.DB.batch([
-      env.DB.prepare("DELETE FROM sessions WHERE player_id=?").bind(found.id),
-      env.DB.prepare("UPDATE players SET recovery_hash=? WHERE id=?").bind(
-        await hash(recovery),
-        found.id,
-      ),
-      env.DB.prepare("INSERT INTO sessions VALUES(?,?,?)").bind(
-        await hash(token),
-        found.id,
-        Date.now() + 14 * DAY,
-      ),
+    const recoveryHash = await hash(recovery);
+    const results = await env.DB.batch([
+      env.DB.prepare(
+        "UPDATE players SET recovery_hash=? WHERE id=? AND recovery_hash=?",
+      ).bind(recoveryHash, found.id, await hash(key)),
+      env.DB.prepare(
+        "DELETE FROM sessions WHERE player_id=? AND EXISTS(SELECT 1 FROM players WHERE id=? AND recovery_hash=?)",
+      ).bind(found.id, found.id, recoveryHash),
+      env.DB.prepare(
+        "DELETE FROM host_recovery WHERE player_id=? AND EXISTS(SELECT 1 FROM players WHERE id=? AND recovery_hash=?)",
+      ).bind(found.id, found.id, recoveryHash),
+      env.DB.prepare(
+        "INSERT INTO sessions SELECT ?,id,? FROM players WHERE id=? AND recovery_hash=?",
+      ).bind(await hash(token), Date.now() + 14 * DAY, found.id, recoveryHash),
     ]);
+    if (!results[0].meta.changes)
+      fail("That recovery key has already been used.", 409);
     return json({ ...(await state(env, found)), recovery }, 200, {
       "Set-Cookie": cookie(token, request),
     });
@@ -311,7 +272,6 @@ async function api(request: Request, env: Env): Promise<Response> {
       headers: { "Content-Type": request.headers.get("Content-Type") || "" },
     }).formData();
     const name = String(form.get("name") || "").trim(),
-      consent = form.get("consent") === "yes",
       photo = form.get("photo");
     let invite = String(form.get("invite") || "");
     if (invite) {
@@ -329,8 +289,6 @@ async function api(request: Request, env: Env): Promise<Response> {
     }
     if (name.length < 1 || name.length > 40 || /[\u0000-\u001f<>]/.test(name))
       fail("Use a name between 1 and 40 characters.", 422);
-    if (!consent)
-      fail("Please agree to share your portrait within this Court.", 422);
     if (
       !(photo instanceof File) ||
       photo.size < 20 ||
@@ -421,7 +379,7 @@ async function api(request: Request, env: Env): Promise<Response> {
       fail("Not found.", 404);
     registered(p);
     const b = await body(request);
-    if (![4, 10, 15].includes(Number(b.count)))
+    if (![0, 1, 3, 4, 6, 8, 10, 12, 15].includes(Number(b.count)))
       fail("Choose a rehearsal milestone.");
     await env.DB.batch(
       guardians
@@ -676,6 +634,9 @@ export default {
       (async () => {
         await env.DB.batch([
           env.DB.prepare("DELETE FROM sessions WHERE expires_at<?").bind(
+            Date.now(),
+          ),
+          env.DB.prepare("DELETE FROM host_recovery WHERE expires_at<?").bind(
             Date.now(),
           ),
           env.DB.prepare("DELETE FROM rate_limits WHERE resets_at<?").bind(

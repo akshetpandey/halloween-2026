@@ -32,30 +32,9 @@ import { Forest, GuardianArt, Mark } from "./Art";
 import { WoodlandQR } from "./WoodlandQR";
 import { Puzzle } from "./Puzzle";
 import "./style.css";
-async function api<T>(
-  path: string,
-  method = "GET",
-  data?: unknown,
-): Promise<T> {
-  const headers: Record<string, string> = {};
-  if (method !== "GET") headers["x-court-request"] = "1";
-  if (data && !(data instanceof FormData))
-    headers["Content-Type"] = "application/json";
-  const response = await fetch("/api" + path, {
-    method,
-    headers,
-    body:
-      data instanceof FormData ? data : data ? JSON.stringify(data) : undefined,
-  });
-  const result = await response.json();
-  if (!response.ok)
-    throw Error(
-      result && typeof result === "object" && "error" in result
-        ? String(result.error)
-        : "The Court could not answer.",
-    );
-  return result as T;
-}
+import { api } from "./api";
+import { HostDashboard } from "./HostDashboard";
+import { StoryReveal, type Reveal } from "./Reveals";
 function App() {
   const [location, setLocation] = useState(
       window.location.pathname + window.location.search,
@@ -74,7 +53,7 @@ function App() {
     } | null>(null),
     [trialMessage, setTrialMessage] = useState(""),
     [card, setCard] = useState<Guardian | null>(null),
-    [recovery, setRecovery] = useState("");
+    [reveal, setReveal] = useState<Reveal | null>(null);
   const [invite, setInvite] = useState<{
       milestone: number;
       used: boolean;
@@ -97,6 +76,10 @@ function App() {
   const path = location.split("?")[0],
     params = new URLSearchParams(location.split("?")[1] || "");
   const count = state?.favors.length || 0;
+  const summonsOrigin =
+    state?.player?.realm === "preview"
+      ? window.location.origin
+      : state?.publicOrigin;
   async function refresh() {
     const s = await api<State>("/state");
     setState(s);
@@ -183,7 +166,6 @@ function App() {
         { preview, demo },
       );
       setState(s);
-      if (s.recovery) setRecovery(s.recovery);
       go(s.player?.registered ? to : "/join?next=" + encodeURIComponent(to));
     } catch (e) {
       setError((e as Error).message);
@@ -221,7 +203,11 @@ function App() {
         { answer },
       );
       if (result.correct) {
+        const newChapter = result.state!.chapters.find(
+          (c) => !state?.chapters.some((old) => old.at === c.at),
+        );
         setState(result.state!);
+        if (newChapter) setReveal({ chapter: newChapter });
         setEncounter({ ...encounter, earned: true });
         setTrialMessage("Its Favor is yours.");
         setBallot(
@@ -237,6 +223,18 @@ function App() {
     } finally {
       setBusy(false);
     }
+  }
+  async function previewReveal(at: number) {
+    await action(async () => {
+      if (!state?.player?.registered || state.player.realm !== "preview") {
+        await api("/session/start", "POST", { preview: true, demo: true });
+      }
+      const next = await api<State>("/debug/progress", "POST", { count: at });
+      setState(next);
+      go("/court");
+      const chapter = next.chapters.find((c) => c.at === at);
+      if (chapter) setReveal({ chapter, preview: true });
+    });
   }
   const Logo = () => (
     <button className="brand" onClick={() => go("/court")}>
@@ -280,6 +278,8 @@ function App() {
         )}
       </div>
     );
+  else if (path === "/host")
+    content = <HostDashboard preview={state.previewAvailable} />;
   else if (locked)
     content = (
       <>
@@ -343,12 +343,12 @@ function App() {
     content = (
       <Join
         state={state}
-        recovery={recovery}
         next={params.get("next") || "/court"}
         inviteToken={params.get("invite") || ""}
         onDone={(s) => {
           setState(s);
           go(params.get("next") || "/court");
+          if (s.chapters[0]) setReveal({ chapter: s.chapters[0] });
         }}
         onRecover={() => go("/recover")}
         onStart={() =>
@@ -366,8 +366,8 @@ function App() {
           <em>remembers you.</em>
         </h1>
         <p>
-          Enter the recovery key you saved when you arrived. Your Favors and
-          assigned trials will return with you.
+          Ask the host to find you in the guest book and give you a three-word
+          return phrase. Your Favors and assigned trials will return with you.
         </p>
         <form
           onSubmit={(e) => {
@@ -380,21 +380,20 @@ function App() {
                 { code: form.get("code") },
               );
               setState(s);
-              setRecovery(s.recovery);
               go("/account");
-              setNotice(
-                "You are recognized. Save your new recovery key; the old key has retired.",
-              );
+              setNotice("You are recognized. This browser will remember you.");
             });
           }}
         >
           <label>
-            YOUR RECOVERY KEY
+            YOUR RETURN PHRASE
             <input
               name="code"
               autoComplete="off"
               required
-              placeholder="32 characters, grouped or ungrouped"
+              placeholder="Three words from the host"
+              autoCapitalize="none"
+              spellCheck={false}
             />
           </label>
           <button className="btn" disabled={busy}>
@@ -441,6 +440,31 @@ function App() {
                 <button className="btn" onClick={() => go("/court")}>
                   Return to your gathering
                 </button>
+                {state.previewAvailable && invite.preview && (
+                  <>
+                    <button
+                      className="btn secondary"
+                      disabled={busy}
+                      onClick={() =>
+                        void action(async () => {
+                          await api("/session/logout", "POST");
+                          setState(
+                            await api<State>("/session/start", "POST", {
+                              preview: true,
+                            }),
+                          );
+                          go("/join?invite=" + path.split("/")[2]);
+                        })
+                      }
+                    >
+                      Test accepting as a new rehearsal guest
+                    </button>
+                    <p className="small muted">
+                      Starts a new guest in this browser. Your existing
+                      rehearsal guest stays saved.
+                    </p>
+                  </>
+                )}
               </>
             ) : (
               <button
@@ -454,7 +478,6 @@ function App() {
                       { preview: invite.preview },
                     );
                     setState(s);
-                    if (s.recovery) setRecovery(s.recovery);
                     go("/join?invite=" + path.split("/")[2]);
                   })
                 }
@@ -891,77 +914,96 @@ function App() {
           <br />
           Carry a Summons to a guest who has yet to enter the Court.
         </p>
+        {params.get("milestone") && (
+          <button className="text-button" onClick={() => go("/summons")}>
+            View all your Summons
+          </button>
+        )}
         <div className="summons-grid">
-          {[4, 10].map((n, i) => {
-            const s = state.summons.find((s) => s.milestone === n);
-            return (
-              <article
-                key={n}
-                className={"summons-card " + (!s ? "is-locked" : "")}
-              >
-                <span className="eyebrow">
-                  SUMMONS {i === 0 ? "I" : "II"} · {n} FAVORS
-                </span>
-                <h2>
-                  {i === 0
-                    ? "Make room beneath the boughs."
-                    : "Keep the circle open."}
-                </h2>
-                {s ? (
-                  s.redeemed ? (
-                    <div className="summons-used">
-                      <Check size={34} />
-                      <h3>A new name has entered.</h3>
-                      <p>
-                        Your invitation has been received.
-                        <br />
-                        One point has been added to your Standing.
-                      </p>
-                    </div>
+          {[4, 10]
+            .filter(
+              (n) =>
+                !params.get("milestone") ||
+                Number(params.get("milestone")) === n,
+            )
+            .map((n) => {
+              const i = n === 4 ? 0 : 1;
+              const s = state.summons.find((s) => s.milestone === n);
+              return (
+                <article
+                  key={n}
+                  className={"summons-card " + (!s ? "is-locked" : "")}
+                >
+                  <span className="eyebrow">
+                    SUMMONS {i === 0 ? "I" : "II"} · {n} FAVORS
+                  </span>
+                  <h2>
+                    {i === 0
+                      ? "Make room beneath the boughs."
+                      : "Keep the circle open."}
+                  </h2>
+                  {s ? (
+                    s.redeemed ? (
+                      <div className="summons-used">
+                        <Check size={34} />
+                        <h3>A new name has entered.</h3>
+                        <p>
+                          Your invitation has been received.
+                          <br />
+                          One point has been added to your Standing.
+                        </p>
+                      </div>
+                    ) : (
+                      <>
+                        <p>
+                          {i === 0
+                            ? "The Court has heard your name. Carry this invitation to someone here whose name it has yet to learn."
+                            : "You know your way among the creatures now. Find someone here who does not. Let this become their evening too."}
+                        </p>
+                        <WoodlandQR value={summonsOrigin + "/s/" + s.token} />
+                        <button
+                          className="btn secondary"
+                          onClick={() =>
+                            void copy(summonsOrigin + "/s/" + s.token)
+                          }
+                        >
+                          <Copy size={15} /> Copy invitation link
+                        </button>
+                        {state.previewAvailable && (
+                          <button
+                            className="text-button"
+                            onClick={() => go("/s/" + s.token)}
+                          >
+                            Preview the receiving guest’s invitation
+                          </button>
+                        )}
+                        <button
+                          className="text-button"
+                          onClick={() => go("/court")}
+                        >
+                          Not now · keep it for later
+                        </button>
+                      </>
+                    )
                   ) : (
-                    <>
+                    <div className="summons-locked">
+                      <LockKeyhole size={32} />
                       <p>
-                        {i === 0
-                          ? "The Court has heard your name. Carry this invitation to someone here whose name it has yet to learn."
-                          : "You know your way among the creatures now. Find someone here who does not. Let this become their evening too."}
+                        {Math.max(0, n - count)} more Favors to open this
+                        Summons.
                       </p>
-                      <WoodlandQR
-                        value={state.publicOrigin + "/s/" + s.token}
-                      />
-                      <button
-                        className="btn secondary"
-                        onClick={() =>
-                          void copy(state.publicOrigin + "/s/" + s.token)
-                        }
-                      >
-                        <Copy size={15} /> Copy invitation link
-                      </button>
-                      <button
-                        className="text-button"
-                        onClick={() => go("/court")}
-                      >
-                        Not now · keep it for later
-                      </button>
-                    </>
-                  )
-                ) : (
-                  <div className="summons-locked">
-                    <LockKeyhole size={32} />
-                    <p>
-                      {Math.max(0, n - count)} more Favors to open this Summons.
-                    </p>
-                    <div className="mini-progress">
-                      <span
-                        style={{
-                          width: Math.min(100, (count / n) * 100) + "%",
-                        }}
-                      />
+                      <div className="mini-progress">
+                        <span
+                          style={{
+                            width: Math.min(100, (count / n) * 100) + "%",
+                          }}
+                        />
+                      </div>
                     </div>
-                  </div>
-                )}
-              </article>
-            );
-          })}
+                  )}
+                </article>
+              );
+            })}
         </div>
         <p className="small muted">
           Each invitation welcomes one new player already at the party. A
@@ -1050,27 +1092,13 @@ function App() {
         )}
         <h2>{state.player?.name || "A visitor at the threshold"}</h2>
         <p>
-          This browser remembers you. On a different phone or browser, use your
-          recovery key.
+          This browser remembers you. If you change phones or lose your place,
+          ask the host for a three-word return phrase. Nothing to save or
+          remember tonight.
         </p>
-        {recovery ? (
-          <div className="recovery-key">
-            <span className="eyebrow">SAVE YOUR PRIVATE RECOVERY KEY</span>
-            <code>{recovery.match(/.{1,4}/g)?.join(" ")}</code>
-            <button className="text-button" onClick={() => void copy(recovery)}>
-              <Copy size={14} /> Copy recovery key
-            </button>
-            <p className="small">
-              This key grants access to your player. Keep it private; it is only
-              shown after joining or recovery.
-            </p>
-          </div>
-        ) : (
-          <p className="small muted">
-            Use the key saved when you joined. If it’s lost, keep this browser
-            signed in and ask the host for help.
-          </p>
-        )}
+        <button className="text-button" onClick={() => go("/recover")}>
+          Enter a return phrase <ArrowRight size={16} />
+        </button>
         <p className="small muted">
           Your portrait is visible to registered participants for costume
           judgments and standings. Your account and portrait are kept without an
@@ -1082,7 +1110,6 @@ function App() {
             onClick={() =>
               void action(async () => {
                 await api("/session/logout", "POST");
-                setRecovery("");
                 await refresh();
                 go("/");
               })
@@ -1171,6 +1198,17 @@ function App() {
         <p>May your gatherings be strange, and your guests find room.</p>
         <small>HALLOWEEN · MMXXVI</small>
       </footer>
+      {reveal && (
+        <StoryReveal
+          key={reveal.chapter.at + ":" + String(reveal.preview)}
+          reveal={reveal}
+          onClose={() => setReveal(null)}
+          onSummons={(n) => {
+            setReveal(null);
+            go("/summons?milestone=" + n);
+          }}
+        />
+      )}
       {state?.previewAvailable && (
         <button className="debug-toggle" onClick={() => setDebug(!debug)}>
           <Settings2 size={16} /> Field notes <span>DEBUG</span>
@@ -1210,14 +1248,12 @@ function App() {
                 onClick={() =>
                   void action(async () => {
                     await api("/session/logout", "POST");
-                    setRecovery("");
                     const s = await api<State & { recovery: string }>(
                       "/session/start",
                       "POST",
                       { preview: true },
                     );
                     setState(s);
-                    setRecovery(s.recovery);
                     go("/join");
                   })
                 }
@@ -1225,70 +1261,51 @@ function App() {
                 Name + selfie
               </button>
               <button onClick={() => go("/recover")}>Recovery login</button>
+              <button onClick={() => go("/host")}>Host guest book</button>
+              <button disabled={busy} onClick={() => void previewReveal(4)}>
+                First Summons reveal
+              </button>
+              <button disabled={busy} onClick={() => void previewReveal(10)}>
+                Second Summons reveal
+              </button>
               <button
                 onClick={() =>
                   void action(async () => {
-                    let s = state;
                     if (
-                      !s?.player?.registered ||
-                      s.player.realm !== "preview"
-                    ) {
-                      s = await api<State>("/session/start", "POST", {
+                      !state?.player?.registered ||
+                      state.player.realm !== "preview"
+                    )
+                      await api("/session/start", "POST", {
                         preview: true,
                         demo: true,
                       });
-                      setState(s);
-                    }
-                    await api("/debug/progress", "POST", { count: 4 });
-                    await refresh();
-                    go("/summons");
-                  })
-                }
-              >
-                First Summons
-              </button>
-              <button
-                onClick={() =>
-                  void action(async () => {
-                    if (
-                      !state?.player?.registered ||
-                      state.player.realm !== "preview"
-                    )
-                      setState(
-                        await api<State>("/session/start", "POST", {
-                          preview: true,
-                          demo: true,
-                        }),
-                      );
-                    await api("/debug/progress", "POST", { count: 10 });
-                    await refresh();
-                    go("/summons");
-                  })
-                }
-              >
-                Second Summons
-              </button>
-              <button
-                onClick={() =>
-                  void action(async () => {
-                    if (
-                      !state?.player?.registered ||
-                      state.player.realm !== "preview"
-                    )
-                      setState(
-                        await api<State>("/session/start", "POST", {
-                          preview: true,
-                          demo: true,
-                        }),
-                      );
-                    await api("/debug/progress", "POST", { count: 15 });
-                    await refresh();
+                    setState(
+                      await api<State>("/debug/progress", "POST", {
+                        count: 15,
+                      }),
+                    );
                     go("/chronicle");
                   })
                 }
               >
                 Full Chronicle
               </button>
+            </div>
+            <h3>Replay a Chronicle reveal</h3>
+            <p className="small muted">
+              Replay any page, even after unlocking it. These shortcuts add
+              rehearsal progress; they do not remove existing Favors.
+            </p>
+            <div className="debug-shortcuts">
+              {[0, 1, 3, 4, 6, 8, 10, 12, 15].map((at, i) => (
+                <button
+                  disabled={busy}
+                  key={at}
+                  onClick={() => void previewReveal(at)}
+                >
+                  Chapter {i + 1} · {at === 0 ? "Arrival" : at + " Favors"}
+                </button>
+              ))}
             </div>
             <div className="debug-guardians">
               {guardians.map((g, i) => {
@@ -1361,7 +1378,6 @@ function App() {
 }
 function Join({
   state,
-  recovery,
   next,
   inviteToken,
   onDone,
@@ -1369,7 +1385,6 @@ function Join({
   onStart,
 }: {
   state: State;
-  recovery: string;
   next: string;
   inviteToken: string;
   onDone: (s: State) => void;
@@ -1380,8 +1395,6 @@ function Join({
     [name, setName] = useState(""),
     [photo, setPhoto] = useState<File | null>(null),
     [preview, setPreview] = useState(""),
-    [consent, setConsent] = useState(false),
-    [saved, setSaved] = useState(false),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
     [skipInvite, setSkipInvite] = useState(false);
@@ -1449,7 +1462,6 @@ function Join({
     try {
       const data = new FormData();
       data.set("name", name);
-      data.set("consent", consent ? "yes" : "no");
       if (photo) data.set("photo", photo);
       if (inviteToken && !skipInvite) data.set("invite", inviteToken);
       const s = await api<State>("/register", "POST", data);
@@ -1499,7 +1511,7 @@ function Join({
       </aside>
       <div className="join-panel">
         <div className="step-indicator">
-          {["Your name", "Your guise", "Your keepsake"].map((s, i) => (
+          {["Your name", "Your guise", "Your arrival"].map((s, i) => (
             <span key={s} className={step === i + 1 ? "active" : ""}>
               <b>{i + 1}</b>
               {s}
@@ -1595,25 +1607,17 @@ function Join({
               what others will see. Uploads are resized and stripped of photo
               metadata.
             </p>
-            <label className="consent">
-              <input
-                type="checkbox"
-                checked={consent}
-                onChange={(e) => setConsent(e.target.checked)}
-              />
-              <span>
-                I agree to show my name and portrait to registered Court
-                participants for costume judgments and standings. My account and
-                portrait are kept without an automatic expiry.
-              </span>
-            </label>
+            <p className="small muted">
+              Your name and portrait appear to registered Court participants for
+              costume judgments and standings.
+            </p>
             <div className="form-actions">
               <button className="text-button" onClick={() => setStep(1)}>
                 <ArrowLeft size={14} /> Back
               </button>
               <button
                 className="btn"
-                disabled={!photo || !consent || busy}
+                disabled={!photo || busy}
                 onClick={() => setStep(3)}
               >
                 Keep this guise <ArrowRight size={16} />
@@ -1622,50 +1626,24 @@ function Join({
           </>
         ) : (
           <>
-            <span className="eyebrow">A WAY BACK THROUGH THE WOOD</span>
+            <span className="eyebrow">YOUR PLACE IN THE GATHERING</span>
             <h2>
-              Keep your
+              The wood will
               <br />
-              name close.
+              remember you.
             </h2>
-            <p>
-              This browser will remember you. Save this private key to return
-              from another phone or browser.
-            </p>
-            {recovery ? (
-              <div className="recovery-key">
-                <code>{recovery.match(/.{1,4}/g)?.join(" ")}</code>
-                <button
-                  className="btn secondary"
-                  onClick={() =>
-                    void navigator.clipboard
-                      .writeText(recovery)
-                      .then(() => setSaved(true))
-                      .catch(() =>
-                        setError("Please select and copy your key manually."),
-                      )
-                  }
-                >
-                  <Copy size={15} /> {saved ? "Copied" : "Copy recovery key"}
-                </button>
-              </div>
-            ) : (
-              <p className="small muted">
-                Your recovery key was shown when this session began. Keep this
-                browser signed in if you did not save it.
-              </p>
-            )}
-            <label className="consent">
-              <input
-                type="checkbox"
-                checked={saved}
-                onChange={(e) => setSaved(e.target.checked)}
+            {preview && (
+              <img
+                className="arrival-portrait"
+                src={preview}
+                alt="Your chosen costume portrait"
               />
-              <span>
-                I’ve saved my key, or understand I’ll need this browser to
-                return.
-              </span>
-            </label>
+            )}
+            <h3>{name}</h3>
+            <p>
+              This browser keeps your place. If you lose it, the host can help
+              you return. There is nothing to save tonight.
+            </p>
             {inviteToken && (
               <p className="small muted">
                 Your Summons will be received when registration finishes.
@@ -1687,7 +1665,7 @@ function Join({
               </button>
               <button
                 className="btn"
-                disabled={!saved || busy}
+                disabled={busy}
                 onClick={() => void submit()}
               >
                 {busy ? "The Court is listening…" : "Enter the gathering"}

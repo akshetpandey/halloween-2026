@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 8, 2026. Status: 19 host-approved shorts (157:19 before cuts), eleven rejected; Batches 01–03 reviewed, ten Batch 04 proposals awaiting review. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
+Updated September 8, 2026. Status: 25 host-approved shorts (204:20 before cuts), fifteen rejected; Batches 01–04 reviewed. Estimated finished runtime is 2:23:02, within the target range. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -17,7 +17,7 @@ The existing Jellyfin server is a sensible starting point. Create a dedicated pa
 
 ## Approved by host · September 8
 
-These are inclusion decisions from the host's review, not claims that local files have been acquired or the TV has been tested. Runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), and [Batch 03 source evidence](tv-shorts-batch-03-metadata.json). The Moonseeker uses its 3:39 festival runtime and Throat Notes its 8:30 festival runtime; their exact YouTube upload durations remain unverified.
+These are inclusion decisions from the host's review, not claims that local files have been acquired or the TV has been tested. Runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), [Batch 03 source evidence](tv-shorts-batch-03-metadata.json), and [Batch 04 source evidence](tv-shorts-batch-04-metadata.json). The Moonseeker uses its 3:39 festival runtime and Throat Notes its 8:30 festival runtime; their exact YouTube upload durations remain unverified.
 
 | Short / creator | Runtime | Host verdict |
 |---|---:|---|
@@ -40,8 +40,14 @@ These are inclusion decisions from the host's review, not claims that local file
 | [Throat Notes](https://www.youtube.com/watch?v=qhVehcHwOB8) — Felix Colgrave | 8:30 (festival) | In |
 | [Return to Hairy Hill](https://vimeo.com/1026574863) — Daniel Gies / E.D. FILMS | 17:14 | In |
 | [Here and the Great Elsewhere](https://www.nfb.ca/film/here_and_the_great_elsewhere/) — Michèle Lemieux | 14:24 | In |
+| [Nocturne / Nachtstück](https://vimeo.com/316074337) — Anne Breymann | 5:19 | In |
+| [Chado](https://vimeo.com/391834727) — Dominica Harrison | 7:29 | In |
+| [The Astronomer’s Dream](https://vimeo.com/5452888) — Malcolm Sutherland | 11:30 | In |
+| [ZOON](https://vimeo.com/953072985) — Jonatan Schwenk | 4:25 | In |
+| [Kukuschka](https://vimeo.com/157167697) — Dina Velikovskaya | 8:43 | In |
+| [The Man Without a Shadow / L’homme sans ombre](https://www.nfb.ca/film/homme_sans_ombre_en/) — Georges Schwizgebel | 9:35 | In |
 
-Total **157:19 (2:37:19)** across 19 approved films. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
+Total **204:20 (3:24:20)** across 25 approved films. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
 
 ## Rejected by host · September 8
 
@@ -58,8 +64,12 @@ Total **157:19 (2:37:19)** across 19 approved films. The original **Forest — o
 | Imprints | No additional reason supplied | Out |
 | The Monk and the Fish | No additional reason supplied | Out |
 | Rains / L’Ondée | No additional reason supplied | Out |
+| The Elephant’s Garden | No additional reason supplied | Out |
+| A Mind Sang | No additional reason supplied | Out |
+| Au revoir Jérôme! | No additional reason supplied | Out |
+| Muedra | No additional reason supplied | Out |
 
-Do not restore these to the active programme without new host feedback. Earlier recommendations are superseded; source metadata remains in the batch evidence files for reference. No new style or content rationale is inferred from the Batch 03 cuts.
+Do not restore these to the active programme without new host feedback. Earlier recommendations are superseded; source metadata remains in the batch evidence files for reference. No new style or content rationale is inferred from the Batch 03–04 cuts.
 
 ## Runtime and gap to target
 
@@ -70,18 +80,19 @@ Calculated September 8 from recorded source runtimes and explicit host approvals
 | Batch 01: six approved | 63:45 | About 44:38 |
 | Batch 02: nine approved, My Moon excluded | 42:01 | About 29:25 |
 | Batch 03: four approved, six excluded | 51:33 | About 36:05 |
-| **All 19 approved** | **157:19 (2:37:19)** | **About 110:07 (1:50:07)** |
-| Including the original Forest reference as an optional 20th film | 160:45 | About 112:32 |
+| Batch 04: six approved, four excluded | 47:01 | About 32:55 |
+| **All 25 approved** | **204:20 (3:24:20)** | **About 143:02 (2:23:02)** |
+| Including the original Forest reference as an optional 26th film | 207:46 | About 145:26 |
 
 Rounded row estimates may differ by a second from the combined total. These totals include the festival-runtime uncertainty for The Moonseeker and Throat Notes and exclude unreviewed original candidates and unassembled interludes.
 
 | Finished unique content target | More finished content needed | More approved raw footage needed if 70% is retained |
 |---|---:|---:|
-| 2 hours | About 9:53 | About 15 minutes |
-| 2.5 hours | About 39:53 | About 57 minutes |
-| 3 hours | About 69:53 | About 100 minutes |
+| 2 hours | Target met; about 23:02 above minimum | None |
+| 2.5 hours | About 6:58 | About 10 minutes |
+| 3 hours | About 36:58 | About 53 minutes |
 
-Formula: approved raw total × 0.70; additional raw needed = (target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. For the midpoint, aim to approve **about 57 more raw minutes**, then replace the percentage estimate with per-film credit markers before finalizing the programme. This is a sourcing target, not a new batch or acquired content.
+Formula: approved raw total × 0.70; additional raw needed = max(0, target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. **The approved selection now reaches the 2–3-hour planning target.** About 10 more approved raw minutes would reach the 2.5-hour midpoint, but further sourcing is optional until actual credit markers establish the finished duration.
 
 [Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above.
 
@@ -89,11 +100,9 @@ Formula: approved raw total × 0.70; additional raw needed = (target − estimat
 
 [Batch 03 research notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). All ten received host verdicts; the authoritative approved/rejected tables above include them. The four selected films add **51:33 raw / about 36:05 after the estimated 30% reduction**. The earlier all-ten scenario is superseded.
 
-## Batch 04 · awaiting host review
+## Batch 04 · reviewed September 8
 
-[Ten further shorts and audition notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). Proposed: Nocturne, Chado, The Astronomer's Dream (Malcolm Sutherland, 2009), The Elephant's Garden, A Mind Sang, ZOON, Kukuschka, The Man Without a Shadow, Au revoir Jérôme!, and Muedra. All are new to the audition batches and under 30 minutes; none has an inclusion verdict yet.
-
-Batch 04 offers **74:16 raw / about 51:59 retained** under the host's estimated 30% reduction. If all ten are approved, the combined 29-film programme would be **3:51:35 raw / about 2:42:07 retained**. These are hypothetical additions; the approved total remains **19 films / 2:37:19 raw / about 1:50:07 retained**. The three suggested starting points, Nocturne, Chado and The Astronomer's Dream, would alone bring the estimated programme to about 2:07:08 if approved.
+[Batch 04 research notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). All ten received host verdicts; the authoritative tables above include six additions and four cuts. The selected films add **47:01 raw / about 32:55 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. The approved programme now meets the 2–3-hour target under that estimate; acquisition, measured cuts and playback tests remain pending.
 
 ## Retained short and texture candidates
 
@@ -116,7 +125,7 @@ NFB and GOBELINS links are research/viewing sources. Their presence does not imp
 1. A short forest threshold/interlude.
 2. Approved shorts in an order chosen after testing their joins against the living-room music.
 3. Short woodland or abstract interludes where a change of texture helps.
-4. Further host-approved shorts to reach the 2–3-hour target, then a clean return to the opening.
+4. A clean return to the opening. Add further host-approved shorts only if measured cuts leave a gap or the host wants a longer programme.
 
 The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits after acquisition, then calculate the actual retained duration and repeat length. No cut points have been chosen and no files edited. A stock-footage starter remains an option while sourcing selected films.
 

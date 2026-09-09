@@ -1,10 +1,10 @@
 # TV shorts · Batch 04: forest rituals and strange creatures
 
-Researched September 8, 2026. **Ten new proposals awaiting host review.** The [main TV plan](tv-visuals.md) owns current verdicts. All nineteen approvals and eleven rejections remain unchanged. No media acquired or edited; full muted screenings and TV tests remain pending.
+Researched September 8, 2026. **Reviewed: six approved, four rejected.** The [main TV plan](tv-visuals.md) owns current verdicts and totals; the audition rationale below is historical and superseded by those verdicts. No media acquired or edited; full muted screenings and TV tests remain pending.
 
-This batch follows the approved woodland transformations and illustrated surrealism, particularly Return to Hairy Hill, Throat Notes, Les Escargots and Here and the Great Elsewhere. No new blanket preference is inferred from the last six cuts. Fit assessments are recommendations based on creator/publisher descriptions and source evidence, not full-film screening results.
+This batch follows the approved woodland transformations and illustrated surrealism, particularly Return to Hairy Hill, Throat Notes, Les Escargots and Here and the Great Elsewhere. No new blanket preference is inferred from the Batch 03–04 cuts. Fit assessments are recommendations based on creator/publisher descriptions and source evidence, not full-film screening results.
 
-## Ten options
+## Original audition notes · historical
 
 Titles link to full-film viewing pages, with creator/studio upload metadata verified for the nine Vimeo films. The tenth is an NFB film page. These are audition routes; browser/account/regional playback and local-file acquisition remain untested.
 
@@ -21,17 +21,17 @@ Titles link to full-film viewing pages, with creator/studio upload metadata veri
 | **[Au revoir Jérôme!](https://vimeo.com/767548129)** — Chloé Farr, Gabrielle Selnet & Adam Sillard / GOBELINS | **7:44** | A search through an exuberant, constantly changing illustrated afterlife. A colourful surreal counterpart to O Black Hole! | French dialogue makes the plot a less certain muted fit; audition for the changing world and visual transformations. Theme includes death and separation. |
 | **[Muedra](https://vimeo.com/297904352)** — César Díaz Meléndez | **8:55** | Clay, stones, plants and pinecones come alive in an unfamiliar natural world. A stop-motion nature fable. | The style wildcard: actual outdoor landscapes rather than drawn backgrounds. Deliberate object animation makes it worth comparing with the approved handmade films, but it may still feel too naturalistic. |
 
-Start with **Nocturne, Chado and The Astronomer’s Dream**. Together they offer **24:18 raw**, about **17:01 retained** under the estimated reduction. If just those three pass, the combined programme would reach approximately **2:07:08**.
+## Reviewed runtime contribution
 
-## Runtime contribution
+The host selected Nocturne / Nachtstück, Chado, The Astronomer’s Dream, ZOON, Kukuschka and The Man Without a Shadow. The Elephant’s Garden, A Mind Sang, Au revoir Jérôme! and Muedra were rejected, without additional reasons. No new blanket style restriction is inferred.
 
-| Scenario | Raw runtime | Estimated runtime retaining 70% |
+| Selection | Raw runtime | Estimated runtime retaining 70% |
 |---|---:|---:|
-| Existing 19 approved | 2:37:19 | About 1:50:07 |
-| All ten Batch 04 proposals | 1:14:16 | About 51:59 |
-| Existing programme plus all ten, if approved | 3:51:35 | About 2:42:07 |
+| Previous 19 approved | 2:37:19 | About 1:50:07 |
+| Six selected from Batch 04 | 47:01 | About 32:55 |
+| All 25 approved | 3:24:20 | About 2:23:02 |
 
-The approved total remains unchanged until host verdicts arrive. About **15 additional approved raw minutes** gets the current programme past two hours under this assumption; about **57** gets it to 2.5 hours. These ten offer 74:16 to choose from. The original only twin Forest remains outside these totals. The 30% reduction is the host's planning estimate; actual credits have not been measured.
+The 2–3-hour planning target is met. About 10 additional approved raw minutes would reach the 2.5-hour midpoint; further sourcing is optional pending measured cuts. The original only twin Forest remains outside these totals. The 30% reduction is the host's planning estimate; actual credits have not been measured. The earlier all-ten hypothetical scenario is superseded; use the [main plan](tv-visuals.md) for current accounting.
 
 ## Source evidence and access
 

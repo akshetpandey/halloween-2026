@@ -4,7 +4,7 @@ A local Python tool for October Grove selection, persistent track votes, metadat
 
 **Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
 
-**Latest calibration:** Batch 02 is complete (12 keeps / 13 cuts), with 16 keeps across the previous 166 tracks. [Batch 03](../living-room/october-grove-batch-03.md) adds 25 new recordings, 25 distinct lead artists (18 new), and 1:32:13 raw. Its private Spotify order is verified. The library now contains 191 tracks; prior feedback is retained. See the batch notes for current audio/YouTube coverage.
+**Latest calibration:** Batch 03 is complete (17 keeps / 8 cuts), with 33 keeps across the previous 191 tracks. [Batch 04](../living-room/october-grove-batch-04.md) adds the requested 50 new recordings: 50 distinct lead artists, 40 new leads, and 3:13:41 raw. Its private Spotify order is verified. The library now contains 241 tracks; prior feedback is retained. See the batch notes for current audio/YouTube coverage.
 
 ## Listen and vote now
 
@@ -16,24 +16,25 @@ Run from the repository root:
 python3 music/playlist-lab/lab.py import music/living-room/review-library.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-02.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-03.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-04.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 03 · Hooks after dark (25)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
+Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 04 · Electric variety (50)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
 
-**YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates have matching title/mix words, artist/channel evidence and duration within five seconds, but are not guaranteed identical versions. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
+**YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates use title, artist/channel and duration evidence within five seconds, but are not guaranteed identical versions. A few manually reviewed artist uploads omit the selected mix/version qualifier; their match basis is recorded. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
 
 [YouTube candidates](../living-room/youtube-candidates-2026-09-08.json) cover 128/141 library tracks, including 34/36 audition tracks. Rose rouge and Inspector Norse have no sufficiently close candidate from the bounded searches and use Spotify. The candidate count is **not** an embeddability success count. The 13 unresolved library tracks remain unresolved rather than using another edit.
 
 `yt-dlp` is used only for metadata searches, with no audio/video downloads and no browser-cookie extraction. Refresh candidates with:
 
 ```sh
-python3 music/playlist-lab/youtube.py --batch 03 # current batch
+python3 music/playlist-lab/youtube.py --batch 04 # current batch
 python3 music/playlist-lab/youtube.py       # original audition only
 python3 music/playlist-lab/youtube.py --all # all linked library tracks
 ```
 
-The script caches searches privately for 14 days, uses at most three concurrent searches, stores candidate source/version evidence, and keeps host votes unchanged. Provider SDKs load once; no Spotify Client ID, secret or access token is exposed to the review page. Refresh the page after enrichment to load new candidates. Library import and metadata operations still use Python/API commands.
+The script caches searches privately for 14 days, uses at most three concurrent searches, stores candidate source/version evidence, and keeps host votes unchanged. Batch 04 also has manual candidate exclusions and selections; compare any refresh against its [handoff](../living-room/handoff-2026-09-09-batch-04.md) before accepting the output, because the generic matcher does not preserve manual overrides. Provider SDKs load once; no Spotify Client ID, secret or access token is exposed to the review page. Refresh the page after enrichment to load new candidates. Library import and metadata operations still use Python/API commands.
 
 Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
@@ -77,7 +78,7 @@ python3 music/playlist-lab/lab.py apply music/playlist-lab/.local/plan.json --ap
 
 No blind write retries. A timeout may mean a write succeeded: pull, inspect the backup/event history, and generate a new plan. The API does not offer an atomic multi-request transaction; avoid editing Spotify while a sync runs. Snapshot prechecks catch observed conflicts but cannot eliminate the small race before each request. No automated rollback overwrites someone else’s newer edits. Normal repeat runs against the same desired list are no-ops; a saved old plan is rejected after the playlist changes.
 
-Batch seeds use stable `batch_id`, `batch_name`, `batch_rank` and `batch_playlist_url` fields. Use a new increasing batch ID for each 25-track audition; imports add new tracks without overwriting existing feedback. The newest ID sorts first, and the selected batch controls both track order and the whole-audition Spotify link.
+Batch seeds use stable `batch_id`, `batch_name`, `batch_rank` and `batch_playlist_url` fields. Use a new increasing batch ID for each audition; imports add new tracks without overwriting existing feedback. The newest ID sorts first, and the selected batch controls both track order and the whole-audition Spotify link.
 
 ## Feedback and removals
 

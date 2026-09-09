@@ -14,6 +14,8 @@ Use [the Workers preview](https://hollow-court-preview.computer-toolbox.workers.
 
 September 9: Chrome flags the short Partiful redirect as phishing. The tappable invitation link now goes directly to Partiful; the artwork still encodes the short redirect and its warning remains unresolved. [Investigation and pending Google review](handoff-2026-09-09-safe-browsing.md).
 
+September 9: Every request now passes through the Worker for HTTPS enforcement and consistent security/cache headers. Public HTTP requests receive a method-preserving 308 upgrade; HTTPS responses send host-only one-year HSTS. HTML, redirects and errors use `no-store`; API responses and portraits use `private, no-store`. Successful generated `/assets/` files with Vite's eight-character filename hash use `public, max-age=31536000, immutable`; unhashed assets require revalidation with `no-cache`. HTML fallbacks never inherit asset caching. The central policy in `src/worker/http.ts` replaces `public/_headers` and preserves selfie camera access. [Deployment and verification](handoff-2026-09-09-http-headers.md).
+
 ## Try it locally
 
 ```sh

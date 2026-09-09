@@ -5,6 +5,7 @@ import { generate, validate, PUZZLE_VERSION } from "./puzzles";
 import type { Assignment } from "../shared/types";
 import { shortInviteCode } from "../shared/links";
 import { previewEnabled } from "./access";
+import { httpsRedirect, responseHeaders } from "./http";
 type RowPlayer = {
   id: string;
   name: string;
@@ -628,6 +629,9 @@ async function api(request: Request, env: Env): Promise<Response> {
 }
 export default {
   async fetch(request, env, ctx) {
+    const redirect = httpsRedirect(request);
+    if (redirect) return responseHeaders(request, redirect);
+    let response: Response;
     try {
       const requestEnv = {
         ...env,
@@ -636,7 +640,7 @@ export default {
           : "false",
       };
       const pathname = new URL(request.url).pathname;
-      const response =
+      response =
         /^\/r$/i.test(pathname) && ["GET", "HEAD"].includes(request.method)
           ? new Response(null, {
               status: 302,
@@ -648,34 +652,24 @@ export default {
           : pathname.startsWith("/api/")
             ? await api(request, requestEnv)
             : await env.ASSETS.fetch(request);
-      const secured = new Response(response.body, response);
-      secured.headers.set("X-Content-Type-Options", "nosniff");
-      secured.headers.set("Referrer-Policy", "same-origin");
-      secured.headers.set("X-Robots-Tag", "noindex, nofollow");
-      if (new URL(request.url).pathname.startsWith("/api/"))
-        secured.headers.set("Cache-Control", "no-store");
-      secured.headers.set(
-        "Content-Security-Policy",
-        "default-src 'self'; img-src 'self' blob: data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
-      );
-      return secured;
     } catch (e) {
       if (e instanceof Response) {
-        e.headers.set("Cache-Control", "no-store");
-        return e;
+        response = e;
+      } else {
+        console.error(
+          JSON.stringify({
+            event: "request_failed",
+            method: request.method,
+            error: e instanceof Error ? e.name : "unknown",
+          }),
+        );
+        response = json(
+          { error: "The wood has gone quiet for a moment. Please try again." },
+          500,
+        );
       }
-      console.error(
-        JSON.stringify({
-          event: "request_failed",
-          method: request.method,
-          error: e instanceof Error ? e.name : "unknown",
-        }),
-      );
-      return json(
-        { error: "The wood has gone quiet for a moment. Please try again." },
-        500,
-      );
     }
+    return responseHeaders(request, response);
   },
   async scheduled(_controller, env, ctx) {
     ctx.waitUntil(

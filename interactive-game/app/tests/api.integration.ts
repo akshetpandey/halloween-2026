@@ -182,7 +182,7 @@ describe("local Worker integration", () => {
     expect((await host.json("/state")).referrals).toBe(1);
     const photo = await winner.req("/photo/" + ws.player!.id);
     expect(photo.status).toBe(200);
-    expect(photo.headers.get("Cache-Control")).toBe("no-store");
+    expect(photo.headers.get("Cache-Control")).toBe("private, no-store");
     expect((await new Client().req("/photo/" + ws.player!.id)).status).toBe(
       401,
     );

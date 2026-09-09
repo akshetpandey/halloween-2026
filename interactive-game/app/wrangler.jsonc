@@ -18,6 +18,8 @@
     "head_sampling_rate": 1,
   },
   "vars": {
+    "ACCESS_TEAM_DOMAIN": "https://computer-toolbox.cloudflareaccess.com",
+    "ACCESS_AUD": "54fbb232a822602f7b6e1dc237760948fef8b97bfaba8c6fb828527f7043cba2",
     "PREVIEW": "true",
     "PREVIEW_HOST": "hollow-court-preview.computer-toolbox.workers.dev",
     "PUBLIC_ORIGIN": "https://hollow-court.com",

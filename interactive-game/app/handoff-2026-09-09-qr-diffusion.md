@@ -1,5 +1,7 @@
 # Integrated QR artwork experiments
 
+**Later correction and continuation:** the host reported the posted built-in image scans, and Apple Vision confirmed its exact payload. The jsQR failures below are decoder-specific, not proof of an unscannable image. Signed-in generation and the selected homepage asset are documented in [the continuation](handoff-2026-09-09-integrated-qr.md). This file preserves the earlier experiment results.
+
 - Session: Hollow Court QR art revision; September 9, 2026.
 - Checkout: shared `main`, base `5ec1366`; app QR artwork and verification only.
 - Status: ready to continue after generator authentication. No website changes or deployment.

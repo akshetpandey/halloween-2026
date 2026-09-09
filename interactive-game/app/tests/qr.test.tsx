@@ -5,6 +5,8 @@ import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import sharp from "sharp";
 import jsQR from "jsqr";
 import QRCode from "qrcode";
+import { execFileSync } from "node:child_process";
+import partifulArt from "../src/client/assets/partiful-qr-art.webp";
 import { WoodlandQR } from "../src/client/WoodlandQR";
 import { qrPayload, shortInviteCode } from "../src/shared/links";
 const artwork =
@@ -28,6 +30,7 @@ const values = [
   "https://hollow-court-preview.example.workers.dev/s/0123456789abcdef0123456789abcdef",
 ];
 for (const [i, value] of values.entries()) {
+  if (i === 0) continue; // Fixed art is verified separately with a native decoder.
   for (const width of [244, 488])
     it(`illustrated QR ${i} decodes at ${width}px`, async () => {
       const svg = renderToStaticMarkup(<WoodlandQR value={value} />).replace(
@@ -53,6 +56,39 @@ for (const [i, value] of values.entries()) {
       expect(result?.data).toBe(qrPayload(value));
     });
 }
+it("uses fixed QR art only for its exact destination, preserving personalized and query URLs", () => {
+  for (const value of [values[0], "HTTPS://HOLLOW-COURT.COM/R"]) {
+    const html = renderToStaticMarkup(<WoodlandQR value={value} />);
+    expect(html).toContain(`src="${partifulArt}"`);
+    expect(html).not.toContain("<svg");
+  }
+  for (const value of [
+    values[1],
+    "https://hollow-court.com/r?x=1",
+    "https://example.com/r",
+  ]) {
+    expect(renderToStaticMarkup(<WoodlandQR value={value} />)).toContain(
+      "<svg",
+    );
+  }
+});
+it.skipIf(process.platform !== "darwin")(
+  "the delivered Partiful artwork decodes with Apple Vision across sizes and blur",
+  () => {
+    const report = execFileSync(
+      process.execPath,
+      [
+        "scripts/check-qr-art.mjs",
+        "src/client/assets/partiful-qr-art.webp",
+        "HTTPS://HOLLOW-COURT.COM/R",
+        "vision",
+      ],
+      { encoding: "utf8", timeout: 120000 },
+    );
+    expect(report).toContain("15/15 exact-payload checks passed (vision)");
+  },
+  120000,
+);
 it("compact URLs keep Q correction in 25/29 module grids and preserve legacy tokens", () => {
   expect(
     QRCode.create(qrPayload(values[0]), { errorCorrectionLevel: "Q" }).modules

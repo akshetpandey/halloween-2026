@@ -1,6 +1,7 @@
 import QRCode from "qrcode";
 import { useMemo } from "react";
 import woodland from "./assets/woodland-portal.webp";
+import partifulArt from "./assets/partiful-qr-art.webp";
 import { qrPayload } from "../shared/links";
 
 export function WoodlandQR({
@@ -10,6 +11,22 @@ export function WoodlandQR({
   value: string;
   label?: string;
 }) {
+  // This bitmap encodes one exact public redirect, never a personalized Summons.
+  if (qrPayload(value) === "HTTPS://HOLLOW-COURT.COM/R")
+    return (
+      <img
+        data-testid="woodland-qr"
+        className="woodland-qr"
+        src={partifulArt}
+        alt={label}
+        width={1280}
+        height={1280}
+      />
+    );
+  return <DynamicWoodlandQR value={value} label={label} />;
+}
+
+function DynamicWoodlandQR({ value, label }: { value: string; label: string }) {
   const qr = useMemo(
     () => QRCode.create(qrPayload(value), { errorCorrectionLevel: "Q" }),
     [value],

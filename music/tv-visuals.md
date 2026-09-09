@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 8, 2026. Status: 25 host-approved shorts (204:20 before cuts), fifteen rejected; Batches 01–04 reviewed. Estimated finished runtime is 2:23:02, within the target range. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
+Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts, about 2:22:44 under the estimated 30% reduction. Jellyfin library creation requires admin sign-in; credit trimming, full muted screening and TV tests remain pending. [Files, quality and setup](tv-library-setup.md).
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -17,7 +17,7 @@ The existing Jellyfin server is a sensible starting point. Create a dedicated pa
 
 ## Approved by host · September 8
 
-These are inclusion decisions from the host's review, not claims that local files have been acquired or the TV has been tested. Runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), [Batch 03 source evidence](tv-shorts-batch-03-metadata.json), and [Batch 04 source evidence](tv-shorts-batch-04-metadata.json). The Moonseeker uses its 3:39 festival runtime and Throat Notes its 8:30 festival runtime; their exact YouTube upload durations remain unverified.
+These are the host's inclusion decisions and original researched viewing versions. All 25 now have local files; selected source versions and exact file runtimes are recorded in the [download inventory](tv-download-inventory.json). TV playback remains untested. The original table runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), [Batch 03 source evidence](tv-shorts-batch-03-metadata.json), and [Batch 04 source evidence](tv-shorts-batch-04-metadata.json). The original Moonseeker and Throat Notes entries used festival runtimes; their downloaded YouTube versions now have measured durations in the inventory.
 
 | Short / creator | Runtime | Host verdict |
 |---|---:|---|
@@ -47,7 +47,7 @@ These are inclusion decisions from the host's review, not claims that local file
 | [Kukuschka](https://vimeo.com/157167697) — Dina Velikovskaya | 8:43 | In |
 | [The Man Without a Shadow / L’homme sans ombre](https://www.nfb.ca/film/homme_sans_ombre_en/) — Georges Schwizgebel | 9:35 | In |
 
-Total **204:20 (3:24:20)** across 25 approved films. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
+The original researched versions total **204:20 (3:24:20)** across 25 approved films; the acquired versions total **3:23:55**. Use the file inventory for assembly timing. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
 
 ## Rejected by host · September 8
 
@@ -73,7 +73,9 @@ Do not restore these to the active programme without new host feedback. Earlier 
 
 ## Runtime and gap to target
 
-Calculated September 8 from recorded source runtimes and explicit host approvals. Credits have not been measured or removed; the **30% reduction is the host's estimate**, not a claim that credits occupy 30% of every film.
+**Current acquisition total, September 9:** 25 local files, **3:23:55 raw / about 2:22:44 if 70% is retained**. This reaches the 2–3-hour planning target. Exact durations and source-version differences are in the [inventory](tv-download-inventory.json) and [setup notes](tv-library-setup.md).
+
+The table below preserves the September 8 research arithmetic for the originally linked versions; it is superseded for assembly timing by the actual file total above. Credits have not been measured or removed; the **30% reduction is the host's estimate**, not a claim that credits occupy 30% of every film.
 
 | Selection | Raw runtime | With estimated 30% removed |
 |---|---:|---:|
@@ -88,11 +90,11 @@ Rounded row estimates may differ by a second from the combined total. These tota
 
 | Finished unique content target | More finished content needed | More approved raw footage needed if 70% is retained |
 |---|---:|---:|
-| 2 hours | Target met; about 23:02 above minimum | None |
-| 2.5 hours | About 6:58 | About 10 minutes |
-| 3 hours | About 36:58 | About 53 minutes |
+| 2 hours | Target met; about 22:44 above minimum | None |
+| 2.5 hours | About 7:16 | About 11 minutes |
+| 3 hours | About 37:16 | About 54 minutes |
 
-Formula: approved raw total × 0.70; additional raw needed = max(0, target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. **The approved selection now reaches the 2–3-hour planning target.** About 10 more approved raw minutes would reach the 2.5-hour midpoint, but further sourcing is optional until actual credit markers establish the finished duration.
+The gap table uses actual acquired durations. Formula: acquired raw total × 0.70; additional raw needed = max(0, target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. **The approved selection now reaches the 2–3-hour planning target.** About 11 more approved raw minutes would reach the 2.5-hour midpoint, but further sourcing is optional until actual credit markers establish the finished duration.
 
 [Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above.
 
@@ -102,7 +104,7 @@ Formula: approved raw total × 0.70; additional raw needed = max(0, target − e
 
 ## Batch 04 · reviewed September 8
 
-[Batch 04 research notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). All ten received host verdicts; the authoritative tables above include six additions and four cuts. The selected films add **47:01 raw / about 32:55 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. The approved programme now meets the 2–3-hour target under that estimate; acquisition, measured cuts and playback tests remain pending.
+[Batch 04 research notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). All ten received host verdicts; the authoritative tables above include six additions and four cuts. The selected films add **47:01 raw / about 32:55 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. The approved programme meets the 2–3-hour target under that estimate. All selected files are now acquired; measured cuts and playback tests remain pending.
 
 ## Retained short and texture candidates
 
@@ -118,7 +120,7 @@ These original suggestions have not received explicit host verdicts. They remain
 
 NFB and GOBELINS links are research/viewing sources. Their presence does not imply permission to download or edit the films. Source any actual stored files through permitted routes. Pexels explicitly allows downloading and modifying its stock media under its license. [Pexels license](https://www.pexels.com/license/)
 
-**Acquisition status:** nothing acquired or added to Jellyfin. Creator Vimeo uploads are review routes; downloadable-file permission remains to check. The Maker's publisher offers a digital purchase, but none was made. NFB's linked film pages explicitly exclude hosting download-to-own files on a streaming server, so do not treat an NFB download purchase as Jellyfin clearance. Resolve playback/storage permission for selected films before assembling files; use permitted stock footage for the initial loop if needed.
+**Acquisition status, September 9:** all 25 approved films downloaded with yt-dlp and arranged at `/Users/akshet/Transmission/Halloween Shorts`, outside the existing Movies and Shows library roots. Local NFO metadata and a separate local-player playlist are prepared. [Setup and source notes](tv-library-setup.md) · [File inventory](tv-download-inventory.json). No files purchased, no new licence obtained, and no Jellyfin library created yet; admin sign-in is required for the latter. The existing NFB download-to-own streaming-server restriction is not changed by this download task. Full human muted screening and actual TV tests remain pending.
 
 ## Draft programme structure
 
@@ -127,10 +129,10 @@ NFB and GOBELINS links are research/viewing sources. Their presence does not imp
 3. Short woodland or abstract interludes where a change of texture helps.
 4. A clean return to the opening. Add further host-approved shorts only if measured cuts leave a gap or the host wants a longer programme.
 
-The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits after acquisition, then calculate the actual retained duration and repeat length. No cut points have been chosen and no files edited. A stock-footage starter remains an option while sourcing selected films.
+The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits on the acquired files, then calculate the actual retained duration and repeat length. Original audio and credits are retained; no cut points have been chosen or trimming performed.
 
 ## Jellyfin setup plan
-- Use a dedicated “Halloween — October Grove” library/playlist so the regular collection is untouched.
+- Add a separate **Movies-type library named Halloween Shorts**, pointing only to `/Users/akshet/Transmission/Halloween Shorts`. [Exact setup steps](tv-library-setup.md). Keep the existing Movies and Shows library paths unchanged.
 - Aim for compatible SDR video files and direct play on the TV. Verify rather than assuming a codec works on every client.
 - Subtitle burn-in can trigger transcoding; dialogue-free clips reduce that burden.
 - A TV-native client can keep the Mac focused on serving media and DJ playback.
@@ -145,12 +147,11 @@ The host plans to remove end credits where appropriate. Record per-film credit s
 - [ ] No unwanted graphic imagery or flashes.
 - [ ] Subtitles readable from the couch if needed.
 - [ ] Rights/access route recorded.
-- [ ] Native duration, file size and format recorded.
+- [x] Native duration, file size and format recorded for all 25 local files.
 - [ ] No autoplay ads, unexpected trailers or account prompts.
 - [ ] Repeat works for at least two full cycles on the actual TV.
 - [ ] Seven-and-a-half-hour combined rehearsal completed.
 
-## Final media manifest (fill after selection)
-| File / title | Runtime | Source / allowed use | TV direct play? | Muted review | Status |
-|---|---|---|---|---|---|
-| Pending | — | — | — | — | Not acquired |
+## Acquired media manifest
+
+All 25 files, source URLs, actual runtimes, dimensions, codecs, byte sizes and integrity results are recorded in the [download inventory](tv-download-inventory.json). [Download manifest](tv-download-manifest.json) · [Quality comparisons and Jellyfin setup](tv-library-setup.md). Media is stored outside this repository. Local-file verification does not establish actual TV direct play or successful repeat.

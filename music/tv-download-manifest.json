@@ -1,0 +1,207 @@
+{
+  "library_name": "Halloween Shorts",
+  "library_type": "movies",
+  "media_root": "/Users/akshet/Transmission/Halloween Shorts",
+  "films": [
+    {
+      "order": 1,
+      "title": "Feral",
+      "creator": "Daniel Sousa",
+      "source_url": "https://vimeo.com/242837481",
+      "folder": "Feral",
+      "expected_seconds": 766
+    },
+    {
+      "order": 2,
+      "title": "The Maker",
+      "creator": "Christopher Kezelos / Zealous Creative",
+      "source_url": "https://www.youtube.com/watch?v=YDXOioU_OKM",
+      "folder": "The Maker",
+      "expected_seconds": 330
+    },
+    {
+      "order": 3,
+      "title": "Blind Eye",
+      "creator": "GOBELINS team",
+      "source_url": "https://vimeo.com/343197543",
+      "folder": "Blind Eye",
+      "expected_seconds": 383
+    },
+    {
+      "order": 4,
+      "title": "The Mountain of SGaana",
+      "creator": "Christopher Auchter",
+      "source_url": "https://www.nfb.ca/film/mountain_of_sgaana/",
+      "folder": "The Mountain of SGaana",
+      "expected_seconds": 602
+    },
+    {
+      "order": 5,
+      "title": "O Black Hole!",
+      "creator": "Renee Zhan",
+      "source_url": "https://vimeo.com/691180937",
+      "folder": "O Black Hole!",
+      "expected_seconds": 969
+    },
+    {
+      "order": 6,
+      "title": "La Noria",
+      "creator": "Carlos Baena / NightWheel Pictures",
+      "source_url": "https://vimeo.com/302964043",
+      "folder": "La Noria",
+      "expected_seconds": 775
+    },
+    {
+      "order": 7,
+      "title": "The Moonseeker",
+      "creator": "Diana Blázquez Martín & Katherine Galley",
+      "source_url": "https://www.youtube.com/watch?v=_q7BfhmZ56E",
+      "folder": "The Moonseeker",
+      "expected_seconds": 219
+    },
+    {
+      "order": 8,
+      "title": "Nebula",
+      "creator": "GOBELINS team",
+      "source_url": "https://www.youtube.com/watch?v=eS3UjGLtLXk",
+      "folder": "Nebula",
+      "expected_seconds": 207
+    },
+    {
+      "order": 9,
+      "title": "Fox Fires",
+      "creator": "Keilidh Bradley",
+      "source_url": "https://vimeo.com/404648852",
+      "folder": "Fox Fires",
+      "expected_seconds": 369
+    },
+    {
+      "order": 10,
+      "title": "The Old Man & the Goblins",
+      "creator": "Screen Novelties",
+      "source_url": "https://vimeo.com/14872641",
+      "folder": "The Old Man & the Goblins",
+      "expected_seconds": 264
+    },
+    {
+      "order": 11,
+      "title": "The Tree",
+      "creator": "Han Yang & Basil Malek / GOBELINS",
+      "source_url": "https://vimeo.com/276012526",
+      "folder": "The Tree",
+      "expected_seconds": 391
+    },
+    {
+      "order": 12,
+      "title": "The Forest",
+      "creator": "Alyssa F Torres",
+      "source_url": "https://vimeo.com/314935107",
+      "folder": "The Forest",
+      "expected_seconds": 165
+    },
+    {
+      "order": 13,
+      "title": "After the Rain",
+      "creator": "MoPA team",
+      "source_url": "https://vimeo.com/279447240",
+      "folder": "After the Rain",
+      "expected_seconds": 527
+    },
+    {
+      "order": 14,
+      "title": "Island",
+      "creator": "Max Mörtl & Robert Löbel",
+      "source_url": "https://vimeo.com/308876956",
+      "folder": "Island",
+      "expected_seconds": 150
+    },
+    {
+      "order": 15,
+      "title": "Wind",
+      "creator": "Robert Löbel",
+      "source_url": "https://vimeo.com/80883637",
+      "folder": "Wind",
+      "expected_seconds": 229
+    },
+    {
+      "order": 16,
+      "title": "Les Escargots / The Snails",
+      "creator": "René Laloux & Roland Topor",
+      "source_url": "https://vimeo.com/405167820",
+      "folder": "Les Escargots - The Snails",
+      "expected_seconds": 685
+    },
+    {
+      "order": 17,
+      "title": "Throat Notes",
+      "creator": "Felix Colgrave",
+      "source_url": "https://www.youtube.com/watch?v=qhVehcHwOB8",
+      "folder": "Throat Notes",
+      "expected_seconds": 510
+    },
+    {
+      "order": 18,
+      "title": "Return to Hairy Hill",
+      "creator": "Daniel Gies / E.D. FILMS",
+      "source_url": "https://vimeo.com/1026574863",
+      "folder": "Return to Hairy Hill",
+      "expected_seconds": 1034
+    },
+    {
+      "order": 19,
+      "title": "Here and the Great Elsewhere",
+      "creator": "Michèle Lemieux",
+      "source_url": "https://www.nfb.ca/film/here_and_the_great_elsewhere/",
+      "folder": "Here and the Great Elsewhere",
+      "expected_seconds": 864
+    },
+    {
+      "order": 20,
+      "title": "Nocturne / Nachtstück",
+      "creator": "Anne Breymann",
+      "source_url": "https://vimeo.com/316074337",
+      "folder": "Nocturne - Nachtstück",
+      "expected_seconds": 319
+    },
+    {
+      "order": 21,
+      "title": "Chado",
+      "creator": "Dominica Harrison",
+      "source_url": "https://vimeo.com/391834727",
+      "folder": "Chado",
+      "expected_seconds": 449
+    },
+    {
+      "order": 22,
+      "title": "The Astronomer’s Dream",
+      "creator": "Malcolm Sutherland",
+      "source_url": "https://www.youtube.com/watch?v=KuSp0pGKpAs",
+      "folder": "The Astronomer's Dream (2009)",
+      "expected_seconds": 690
+    },
+    {
+      "order": 23,
+      "title": "ZOON",
+      "creator": "Jonatan Schwenk",
+      "source_url": "https://vimeo.com/953072985",
+      "folder": "ZOON",
+      "expected_seconds": 265
+    },
+    {
+      "order": 24,
+      "title": "Kukuschka",
+      "creator": "Dina Velikovskaya",
+      "source_url": "https://vimeo.com/157167697",
+      "folder": "Kukuschka",
+      "expected_seconds": 523
+    },
+    {
+      "order": 25,
+      "title": "The Man Without a Shadow / L’homme sans ombre",
+      "creator": "Georges Schwizgebel",
+      "source_url": "https://www.nfb.ca/film/homme_sans_ombre_en/",
+      "folder": "The Man Without a Shadow - L'homme sans ombre",
+      "expected_seconds": 575
+    }
+  ]
+}

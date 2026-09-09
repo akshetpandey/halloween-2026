@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 8, 2026. Status: 19 host-approved shorts (157:19 before cuts), eleven rejected; Batches 01–03 reviewed. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
+Updated September 8, 2026. Status: 19 host-approved shorts (157:19 before cuts), eleven rejected; Batches 01–03 reviewed, ten Batch 04 proposals awaiting review. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -87,7 +87,13 @@ Formula: approved raw total × 0.70; additional raw needed = (target − estimat
 
 ## Batch 03 · reviewed September 8
 
-[Batch 03 research notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). All ten received host verdicts; the authoritative approved/rejected tables above include them. The four selected films add **51:33 raw / about 36:05 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. No Batch 04 has been researched in this feedback turn.
+[Batch 03 research notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). All ten received host verdicts; the authoritative approved/rejected tables above include them. The four selected films add **51:33 raw / about 36:05 after the estimated 30% reduction**. The earlier all-ten scenario is superseded.
+
+## Batch 04 · awaiting host review
+
+[Ten further shorts and audition notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). Proposed: Nocturne, Chado, The Astronomer's Dream (Malcolm Sutherland, 2009), The Elephant's Garden, A Mind Sang, ZOON, Kukuschka, The Man Without a Shadow, Au revoir Jérôme!, and Muedra. All are new to the audition batches and under 30 minutes; none has an inclusion verdict yet.
+
+Batch 04 offers **74:16 raw / about 51:59 retained** under the host's estimated 30% reduction. If all ten are approved, the combined 29-film programme would be **3:51:35 raw / about 2:42:07 retained**. These are hypothetical additions; the approved total remains **19 films / 2:37:19 raw / about 1:50:07 retained**. The three suggested starting points, Nocturne, Chado and The Astronomer's Dream, would alone bring the estimated programme to about 2:07:08 if approved.
 
 ## Retained short and texture candidates
 

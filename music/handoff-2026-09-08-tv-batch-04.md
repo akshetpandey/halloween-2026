@@ -1,0 +1,16 @@
+# TV shorts Batch 04 · handoff
+
+- Session title and ID: Ten more shorts for the party TV; current local task.
+- Updated date: September 8, 2026.
+- Scope / owned files: [TV plan](tv-visuals.md), [Batch 04 shortlist](tv-shorts-batch-04.md), [runtime evidence](tv-shorts-batch-04-metadata.json), this handoff, [decisions](../operations/decisions.md) and [tracker](../operations/task-tracker.md).
+- Checkout, branch and base commit: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `57a2e53`; clean at start.
+- Status: research complete; ready for host verdicts.
+- Confirmed user decisions: request ten more shorts, hoping to reach sufficient programme length. All nineteen prior approvals and eleven cuts persist; no extra reasons inferred from previous cuts. Existing shorts-only, artsy/drawn/arthouse, muted-TV brief and 2–3-hour target persist.
+- Proposals awaiting a decision: Nocturne, Chado, The Astronomer's Dream (Sutherland, 2009), The Elephant's Garden, A Mind Sang, ZOON, Kukuschka, The Man Without a Shadow, Au revoir Jérôme!, Muedra. Suggested first three: Nocturne, Chado, The Astronomer's Dream.
+- Completed work and canonical file links: shortlist and source evidence linked above. Nine creator/studio Vimeo full-film pages and one NFB film page; all durations verified from upload/page metadata. Batch total 4,456 seconds (74:16), about 51:59 at 70% retention. Hypothetical all-approved combined total 13,895 seconds (3:51:35), about 2:42:07 retained. Existing approved baseline remains 9,439 seconds (2:37:19), about 1:50:07 retained. First three proposed total 24:18 raw; if approved, combined retained programme about 2:07:08.
+- Checks actually run and results: source descriptions, uploader identity and runtime metadata checked; JSON, ten unique new entries/URLs, runtime bounds, arithmetic, local Markdown links and diff whitespace validated before commit. Staged diff reviewed. No full-film or device screening.
+- Purchases / external changes / deployments actually performed: none. No films downloaded, purchased, edited or added to Jellyfin; no external messages sent.
+- Remaining work in priority order: host Keep/Cut decisions; recompute runtime; acquire permitted media; measure credits; sequence; test full muted films with room music and actual TV repeat.
+- Dependencies on sibling tasks: TV/music orchestration and room lighting; no change to budget or music selections.
+- Unpersisted conversation details or access limitations: material findings persisted. Muedra is the natural-landscape style wildcard; Au revoir Jérôme! has dialogue so mute fit needs review. Content caveats include creature consumption, family hardship and symbolic birth/death. ZOON uses creator upload 4:25 versus distributor 4:37; Kukuschka uses upload 8:43 versus description 8:45. Radix and Schwizgebel's Erlkönig omitted because full viewing routes were not verified. Film pages/metadata do not establish regional/account playback, acquisition rights or content screening. Existing NFB storage constraints remain in main plan.
+- Commit(s) on main and remaining unrelated dirty files: focused commit reported in final response; unrelated untracked work appeared under `interactive-game/app/` during research (`.gitignore`, `package.json`, `package-lock.json` at verification time) and was left untouched and unstaged. Historical handoffs retained.

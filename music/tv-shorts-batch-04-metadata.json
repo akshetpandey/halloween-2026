@@ -1,0 +1,129 @@
+{
+  "checked_date": "2026-09-08",
+  "selection_status_source": "tv-visuals.md",
+  "research_batch": "04",
+  "approved_baseline_before_batch_04_seconds": 9439,
+  "batch_raw_seconds": 4456,
+  "retention_scenario": 0.7,
+  "full_muted_screening_performed": false,
+  "media_acquired": false,
+  "films": [
+    {
+      "title": "Nocturne / Nachtstück",
+      "creator": "Anne Breymann",
+      "watch_url": "https://vimeo.com/316074337",
+      "duration_seconds": 319,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/316074337",
+      "observed_upload_title": "Nocturne (Nachtstück)",
+      "observed_uploader": "Anne Breymann",
+      "source_url": "https://www.annebreymann.de/work/nocturne",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "Chado",
+      "creator": "Dominica Harrison",
+      "watch_url": "https://vimeo.com/391834727",
+      "duration_seconds": 449,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/391834727",
+      "observed_upload_title": "Chado",
+      "observed_uploader": "Dominica  Harrison",
+      "source_url": "https://www.blindpig.tv/portfolio/chado",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "The Astronomer’s Dream",
+      "creator": "Malcolm Sutherland",
+      "watch_url": "https://vimeo.com/5452888",
+      "duration_seconds": 690,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/5452888",
+      "observed_upload_title": "The Astronomer's Dream (2009)",
+      "observed_uploader": "Malcolm Sutherland",
+      "source_url": "https://vimeo.com/5452888",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "The Elephant’s Garden",
+      "creator": "Felix Colgrave",
+      "watch_url": "https://vimeo.com/121218625",
+      "duration_seconds": 265,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/121218625",
+      "observed_upload_title": "The Elephant's Garden",
+      "observed_uploader": "Felix Colgrave",
+      "source_url": "https://www.qagoma.qld.gov.au/cinema/screening/animation-shorts-rich-and-infamous-2022-03-09",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "A Mind Sang",
+      "creator": "Vier Nev",
+      "watch_url": "https://vimeo.com/430690235",
+      "duration_seconds": 371,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/430690235",
+      "observed_upload_title": "A Mind Sang",
+      "observed_uploader": "Vier",
+      "source_url": "https://vimeo.com/blog/post/staff-pick-award-a-mind-sang-vier-nev",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "ZOON",
+      "creator": "Jonatan Schwenk",
+      "watch_url": "https://vimeo.com/953072985",
+      "duration_seconds": 265,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/953072985",
+      "observed_upload_title": "ZOON",
+      "observed_uploader": "Jonatan Schwenk",
+      "source_url": "https://verleih.shortfilm.com/en/films/zoon",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "Kukuschka",
+      "creator": "Dina Velikovskaya",
+      "watch_url": "https://vimeo.com/157167697",
+      "duration_seconds": 523,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/157167697",
+      "observed_upload_title": "Kukuschka",
+      "observed_uploader": "Dina Velikovskaya",
+      "source_url": "https://vimeo.com/157167697",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "The Man Without a Shadow / L’homme sans ombre",
+      "creator": "Georges Schwizgebel",
+      "watch_url": "https://www.nfb.ca/film/homme_sans_ombre_en/",
+      "duration_seconds": 575,
+      "duration_basis": "NFB nfb_version_duration 575; collection lists 9:35",
+      "source_url": "https://collection.nfb.ca/film/homme_sans_ombre_en",
+      "access_evidence": "NFB full-film page; regional playback not tested"
+    },
+    {
+      "title": "Au revoir Jérôme!",
+      "creator": "Chloé Farr, Gabrielle Selnet and Adam Sillard / GOBELINS",
+      "watch_url": "https://vimeo.com/767548129",
+      "duration_seconds": 464,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/767548129",
+      "observed_upload_title": "AU REVOIR JÉRÔME - Animation Short Film 2021 - GOBELINS",
+      "observed_uploader": "GOBELINS Paris",
+      "source_url": "https://www.miyu.fr/distribution/au-revoir-jerome/",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    },
+    {
+      "title": "Muedra",
+      "creator": "César Díaz Meléndez",
+      "watch_url": "https://vimeo.com/297904352",
+      "duration_seconds": 535,
+      "duration_basis": "Vimeo oEmbed upload duration",
+      "metadata_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/297904352",
+      "observed_upload_title": "MUEDRA - Stop motion short film",
+      "observed_uploader": "Cesarlinga",
+      "source_url": "https://vimeo.com/369420941",
+      "access_evidence": "Creator/studio full-film page and metadata verified; complete playback not tested"
+    }
+  ]
+}

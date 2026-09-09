@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 8, 2026. Status: 15 host-approved shorts (105:46 before cuts), five rejected; ten new Batch 03 proposals awaiting review. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
+Updated September 8, 2026. Status: 19 host-approved shorts (157:19 before cuts), eleven rejected; Batches 01–03 reviewed. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -17,7 +17,7 @@ The existing Jellyfin server is a sensible starting point. Create a dedicated pa
 
 ## Approved by host · September 8
 
-These are inclusion decisions from the host's review, not claims that local files have been acquired or the TV has been tested. Runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json) and [Batch 02 source evidence](tv-shorts-batch-02-metadata.json). The Moonseeker uses its 3:39 festival runtime; the exact YouTube upload duration remains unverified.
+These are inclusion decisions from the host's review, not claims that local files have been acquired or the TV has been tested. Runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), and [Batch 03 source evidence](tv-shorts-batch-03-metadata.json). The Moonseeker uses its 3:39 festival runtime and Throat Notes its 8:30 festival runtime; their exact YouTube upload durations remain unverified.
 
 | Short / creator | Runtime | Host verdict |
 |---|---:|---|
@@ -36,8 +36,12 @@ These are inclusion decisions from the host's review, not claims that local file
 | [After the Rain](https://vimeo.com/279447240) — MoPA team | 8:47 | In |
 | [Island](https://vimeo.com/308876956) — Max Mörtl & Robert Löbel | 2:30 | In |
 | [Wind](https://vimeo.com/80883637) — Robert Löbel | 3:49 | In |
+| [Les Escargots / The Snails](https://www.criterionchannel.com/les-escargots) — René Laloux & Roland Topor | 11:25 | In |
+| [Throat Notes](https://www.youtube.com/watch?v=qhVehcHwOB8) — Felix Colgrave | 8:30 (festival) | In |
+| [Return to Hairy Hill](https://vimeo.com/1026574863) — Daniel Gies / E.D. FILMS | 17:14 | In |
+| [Here and the Great Elsewhere](https://www.nfb.ca/film/here_and_the_great_elsewhere/) — Michèle Lemieux | 14:24 | In |
 
-Total **105:46** across 15 approved films. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
+Total **157:19 (2:37:19)** across 19 approved films. The original **Forest — only twin (3:26)** remains a host-supplied reference/candidate without a separate explicit inclusion verdict. It is distinct from the approved **The Forest — Alyssa F Torres (2:45)**, and is excluded from the primary total.
 
 ## Rejected by host · September 8
 
@@ -48,8 +52,14 @@ Total **105:46** across 15 approved films. The original **Forest — only twin (
 | Skin for Skin | Too violent | Out |
 | The Alchemist's Letter | Relies too much on audio; wrong art style | Out |
 | My Moon | Does not fit; host cannot pinpoint why | Out |
+| DONKS | No additional reason supplied | Out |
+| The Metamorphosis of Mr. Samsa | No additional reason supplied | Out |
+| Mindscape | No additional reason supplied | Out |
+| Imprints | No additional reason supplied | Out |
+| The Monk and the Fish | No additional reason supplied | Out |
+| Rains / L’Ondée | No additional reason supplied | Out |
 
-Do not restore these to the active programme without new host feedback. Earlier recommendations are superseded; source metadata remains in the Batch 01 evidence file for reference.
+Do not restore these to the active programme without new host feedback. Earlier recommendations are superseded; source metadata remains in the batch evidence files for reference. No new style or content rationale is inferred from the Batch 03 cuts.
 
 ## Runtime and gap to target
 
@@ -59,26 +69,25 @@ Calculated September 8 from recorded source runtimes and explicit host approvals
 |---|---:|---:|
 | Batch 01: six approved | 63:45 | About 44:38 |
 | Batch 02: nine approved, My Moon excluded | 42:01 | About 29:25 |
-| **All 15 approved** | **105:46 (1:45:46)** | **About 74:02 (1:14:02)** |
-| Including the original Forest reference as an optional 16th film | 109:12 | About 76:26 |
+| Batch 03: four approved, six excluded | 51:33 | About 36:05 |
+| **All 19 approved** | **157:19 (2:37:19)** | **About 110:07 (1:50:07)** |
+| Including the original Forest reference as an optional 20th film | 160:45 | About 112:32 |
 
-Rounded row estimates may differ by a second from the combined total. These totals include the festival-runtime uncertainty for The Moonseeker and exclude unreviewed original candidates and unassembled interludes.
+Rounded row estimates may differ by a second from the combined total. These totals include the festival-runtime uncertainty for The Moonseeker and Throat Notes and exclude unreviewed original candidates and unassembled interludes.
 
 | Finished unique content target | More finished content needed | More approved raw footage needed if 70% is retained |
 |---|---:|---:|
-| 2 hours | About 46 minutes | About 66 minutes |
-| 2.5 hours | About 76 minutes | About 109 minutes |
-| 3 hours | About 106 minutes | About 152 minutes |
+| 2 hours | About 9:53 | About 15 minutes |
+| 2.5 hours | About 39:53 | About 57 minutes |
+| 3 hours | About 69:53 | About 100 minutes |
 
-Formula: approved raw total × 0.70; additional raw needed = (target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. For the midpoint, aim to approve **about 110 more raw minutes**, then replace the percentage estimate with per-film credit markers before finalizing the programme. This is a sourcing target, not a new batch or acquired content.
+Formula: approved raw total × 0.70; additional raw needed = (target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. For the midpoint, aim to approve **about 57 more raw minutes**, then replace the percentage estimate with per-film credit markers before finalizing the programme. This is a sourcing target, not a new batch or acquired content.
 
 [Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above.
 
-## Batch 03 · awaiting host review
+## Batch 03 · reviewed September 8
 
-[Ten new shorts and audition notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). Proposed titles: Les Escargots, Throat Notes, DONKS, Return to Hairy Hill, Here and the Great Elsewhere, The Metamorphosis of Mr. Samsa, Mindscape, Imprints, The Monk and the Fish, and Rains. All are under 30 minutes. No inclusion verdicts yet.
-
-Batch 03 offers **95:38 raw / about 66:57 after an estimated 30% reduction**. If all ten are approved, the combined 25-film programme would be **3:21:24 raw / about 2:20:59 after estimated cuts**. This is a hypothetical addition; the approved total remains unchanged. About 13 further raw minutes would reach the 2.5-hour midpoint under the same assumption. Review fit and access before counting any of these as selected content.
+[Batch 03 research notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). All ten received host verdicts; the authoritative approved/rejected tables above include them. The four selected films add **51:33 raw / about 36:05 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. No Batch 04 has been researched in this feedback turn.
 
 ## Retained short and texture candidates
 

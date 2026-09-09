@@ -1,10 +1,10 @@
 # TV shorts · Batch 03: strange worlds and drawn dreams
 
-Researched September 8, 2026. **Ten proposals, awaiting host review.** [Current brief, approvals and exclusions](tv-visuals.md) remain authoritative. No films acquired, cut or added to Jellyfin; no complete muted screenings or TV tests performed.
+Researched September 8, 2026. **Reviewed: four approved, six rejected.** [Current brief, approvals and exclusions](tv-visuals.md) remain authoritative. No films acquired, cut or added to Jellyfin; no complete muted screenings or TV tests performed.
 
-The host added *Fantastic Planet / La Planète sauvage* (1973) as a visual reference. Interpret this as surreal illustrated worlds, unusual creatures and dream logic; the feature itself stays outside the shorts-only programme. The first three picks explore that direction. The rest extend the existing drawn, woodland and arthouse preferences. Fit assessments below are recommendations based on source descriptions and artwork, not host verdicts.
+The host added *Fantastic Planet / La Planète sauvage* (1973) as a visual reference. Interpret this as surreal illustrated worlds, unusual creatures and dream logic; the feature itself stays outside the shorts-only programme. The first three picks explore that direction. The rest extend the existing drawn, woodland and arthouse preferences. The notes below preserve the original source-based audition rationale. Host verdicts in the main plan supersede those recommendations; no reasons were supplied for the six cuts.
 
-## Ten to audition
+## Original audition notes · historical
 
 | Short / creator / viewing link | Runtime | Why audition it | Muted fit / material caveat |
 |---|---:|---|---|
@@ -19,13 +19,11 @@ The host added *Fantastic Planet / La Planète sauvage* (1973) as a visual refer
 | **[The Monk and the Fish](https://www.youtube.com/watch?v=pUxTfFD4sJ0)** — Michaël Dudok de Wit | **6:30** | Spare ink-and-paint animation: an ordinary pursuit becomes increasingly symbolic. A lighter, contemplative change of pace. | Folimage confirms no dialogue. The choreography is musical, so compare it muted. Folikids full-film upload; publisher also lists VOD. |
 | **[Rains / L’Ondée](https://www.nfb.ca/film/rains/)** — David Coquard-Dassault | **7:43** | Pencil-drawn city life suspended by a downpour. A moody texture break, broadening the hand-drawn direction. | Explicitly without words. Urban rather than woodland, and less fantastical than the leading picks. NFB film page. |
 
-Start with **Les Escargots, Throat Notes, Return to Hairy Hill and Here and the Great Elsewhere**. The two Colgrave films and Les Escargots are separate aesthetic tests, not automatic approvals under the new reference.
+## Runtime after host review
 
-## Runtime contribution
+Only the four approved films count toward the programme: **51:33 raw / about 36:05 retained** under the host's estimated 30% reduction. The approved programme now totals **19 films, 157:19 raw / about 110:07 retained**. The earlier hypothetical all-ten total is superseded; the ten researched films total 95:38 for source-reference purposes only.
 
-The ten proposals total **95:38 raw**, or **about 66:57** with the host's estimated 30% reduction. If all ten are approved, the existing 15 plus these ten would total **3:21:24 raw → approximately 2:20:59 finished**. That would clear the two-hour minimum; it would still need about 13 more raw minutes for the 2.5-hour midpoint under the same assumption.
-
-The actual approved programme remains **105:46 raw → about 74:02 estimated**. All scenarios exclude the original only twin Forest reference, which has no separate inclusion verdict. End-credit boundaries have not been measured; the percentage is a planning allowance, not a measured edit.
+The authoritative [runtime and gap table](tv-visuals.md#runtime-and-gap-to-target) records the current targets. End-credit boundaries have not been measured; the percentage is a planning allowance, not a measured edit. The original only twin Forest reference remains outside the primary total.
 
 ## Source and access notes
 

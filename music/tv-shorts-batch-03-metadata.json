@@ -1,8 +1,6 @@
 {
   "checked_date": "2026-09-08",
   "selection_status_source": "tv-visuals.md",
-  "batch_status": "10 proposed candidates; no host inclusion verdicts yet",
-  "approved_baseline_seconds": 6346,
   "batch_raw_seconds": 5738,
   "retention_scenario": 0.7,
   "full_muted_screening_performed": false,
@@ -98,5 +96,6 @@
       "source_url": "https://collection.nfb.ca/film/rains",
       "access_evidence": "NFB film page; regional playback not tested"
     }
-  ]
+  ],
+  "approved_baseline_before_batch_03_seconds": 6346
 }

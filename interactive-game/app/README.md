@@ -12,6 +12,8 @@ Use [the Workers preview](https://hollow-court-preview.computer-toolbox.workers.
 
 [Public gate deployment and verification](handoff-2026-09-09-public-gate.md). The header shows only the logo until registration is complete; navigation, account and mobile-menu controls appear for registered players.
 
+September 9: Chrome flags the short Partiful redirect as phishing. The tappable invitation link now goes directly to Partiful; the artwork still encodes the short redirect and its warning remains unresolved. [Investigation and pending Google review](handoff-2026-09-09-safe-browsing.md).
+
 ## Try it locally
 
 ```sh

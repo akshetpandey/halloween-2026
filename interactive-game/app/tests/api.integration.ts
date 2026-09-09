@@ -62,6 +62,9 @@ describe("local Worker integration", () => {
     const entrance = await c.json("/state");
     expect(entrance.status).toBe("sealed");
     expect(entrance.partifulUrl).toBe("https://hollow-court.com/r");
+    expect(entrance.partifulDirectUrl).toBe(
+      "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u",
+    );
     for (const path of ["/r", "/R"]) {
       const redirect = await fetch(base + path + "?next=https://example.com", {
         redirect: "manual",

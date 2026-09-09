@@ -11,6 +11,10 @@ Host instruction, September 9, 2026: connect the purchased `hollow-court.com` do
 - QR values use uppercase scheme/host/path only on the two supported short routes. Uppercase URL spelling permits alphanumeric QR encoding. Legacy token spelling remains untouched. Copyable links use conventional lowercase scheme/host/path and the case-sensitive alias.
 - Browser cookies belong to their hostname. Existing workers.dev sessions continue there; rehearsal accounts are now accessible only on the preview hostname. Live account recovery remains available on the public domain once its entrance opens. Photos, Favors, accounts and retention behavior are unchanged.
 
+## Chrome warning, September 9
+
+Chrome Safe Browsing displays a phishing warning on `/r`. The deployed route was checked: it returns only the configured 302 to the correct Partiful event, with no user-selectable destination. Google’s public status page returned “No available data”; the reason for classification is unknown. The small invitation link now uses `PARTIFUL_URL` directly, while the QR still uses the existing short route. No alternate redirect path was created to evade classification, and no browser protection was changed. A possible false-positive report is prepared, pending host authorization to submit. [Incident evidence](handoff-2026-09-09-safe-browsing.md).
+
 ## Current Partiful artwork
 
 The entrance uses [partiful-qr-art.webp](src/client/assets/partiful-qr-art.webp), the host-selected original built-in generated woodland image, encoded losslessly at 1254px. Oak branches, foliage and lanterns carry the pattern; no SVG grid is painted over it. Its source QR encodes `HTTPS://HOLLOW-COURT.COM/R` with H correction. Selection is bound to that exact normalized payload; other destinations keep their own dynamically encoded QR. [Exact prompt and provenance](src/client/assets/partiful-qr-art.settings.json).

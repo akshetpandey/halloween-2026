@@ -167,6 +167,7 @@ async function state(env: Env, p: RowPlayer | null) {
         : phase(env.OPENS_AT, env.CLOSES_AT),
     previewAvailable: env.PREVIEW === "true",
     partifulUrl: env.PUBLIC_ORIGIN + "/r",
+    partifulDirectUrl: env.PARTIFUL_URL,
     publicOrigin: env.PUBLIC_ORIGIN,
     opensAt: env.OPENS_AT,
     closesAt: env.CLOSES_AT,

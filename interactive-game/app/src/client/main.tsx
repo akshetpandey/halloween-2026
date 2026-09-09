@@ -325,7 +325,7 @@ function App() {
             <span>FOLLOW THE LEAVES</span>
             <a
               className="qr-invitation-link"
-              href={state.partifulUrl}
+              href={state.partifulDirectUrl}
               target="_blank"
               rel="noreferrer"
             >

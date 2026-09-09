@@ -1113,36 +1113,40 @@ function App() {
     <>
       <header className="site-header">
         <Logo />
-        <nav className={mobile ? "mobile-open" : ""}>
-          {nav.map(([href, title, Icon]) => (
+        {!!state?.player?.registered && (
+          <>
+            <nav className={mobile ? "mobile-open" : ""}>
+              {nav.map(([href, title, Icon]) => (
+                <button
+                  key={href}
+                  className={path === href ? "active" : ""}
+                  onClick={() => go(href)}
+                >
+                  <Icon size={15} />
+                  {title}
+                </button>
+              ))}
+            </nav>
             <button
-              key={href}
-              className={path === href ? "active" : ""}
-              onClick={() => go(href)}
+              className="header-avatar"
+              aria-label="Your account"
+              onClick={() => go("/account")}
             >
-              <Icon size={15} />
-              {title}
+              {state?.player?.photo ? (
+                <img src={"/api/photo/" + state.player.id} alt="" />
+              ) : (
+                <Moon size={19} />
+              )}
             </button>
-          ))}
-        </nav>
-        <button
-          className="header-avatar"
-          aria-label="Your account"
-          onClick={() => go("/account")}
-        >
-          {state?.player?.photo ? (
-            <img src={"/api/photo/" + state.player.id} alt="" />
-          ) : (
-            <Moon size={19} />
-          )}
-        </button>
-        <button
-          className="mobile-menu"
-          aria-label="Open navigation"
-          onClick={() => setMobile(!mobile)}
-        >
-          <Menu size={22} />
-        </button>
+            <button
+              className="mobile-menu"
+              aria-label="Open navigation"
+              onClick={() => setMobile(!mobile)}
+            >
+              <Menu size={22} />
+            </button>
+          </>
+        )}
       </header>
       {state?.player?.realm === "preview" && (
         <div className="rehearsal-banner">

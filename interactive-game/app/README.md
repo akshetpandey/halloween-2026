@@ -10,7 +10,7 @@ The host purchased **hollow-court.com** and authorized its connection to this Wo
 
 Use [the Workers preview](https://hollow-court-preview.computer-toolbox.workers.dev) and **Field notes → Open Court** to enter now or jump to a guardian. **hollow-court.com** has no debug menu and stays sealed until October 31, 2026 at 8 p.m. EDT. Its debug APIs are disabled and rehearsal sessions/recovery cannot bypass the gate.
 
-[Public gate deployment and verification](handoff-2026-09-09-public-gate.md).
+[Public gate deployment and verification](handoff-2026-09-09-public-gate.md). The header shows only the logo until registration is complete; navigation, account and mobile-menu controls appear for registered players.
 
 ## Try it locally
 

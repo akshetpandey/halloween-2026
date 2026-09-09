@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts. The host imported the Jellyfin library; the live 25-film playlist is created. Initial sampled ending review suggests about 3:04–3:11 retained rather than the earlier 30% estimate. Credit editing, full muted screening and Android TV tests remain pending. [Playback plan](tv-party-playback.md). [Files, quality and setup](tv-library-setup.md).
+Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts. The host imported the Jellyfin library; the live 25-film playlist is created. The approved continuous party video is built and imported in that same library: 3:05:09.40 unique content repeated four times, 12:20:37.60 total, silent 1080p with 100 chapters. Technical checks passed; full human muted screening and actual Android TV tests remain pending. [Playback plan](tv-party-playback.md). [Files, quality and setup](tv-library-setup.md).
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -7,7 +7,7 @@ Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 **Host target: 2–3 hours of content**, interpreted as finished unique content before repeating. The host expects to remove end credits. The original 30% reduction estimate is superseded for assembly planning by the sampled credit windows below; preserve story content when refining them. Build around the approved shorts, with interludes where useful. The earlier 45–60-minute starter proposal is superseded. Keep the TV muted and dim enough to sit comfortably within the room.
 
-The dedicated Jellyfin library and 25-film playlist are created. The host will use the official Android TV client. The [current playback plan](tv-party-playback.md) explains automatic outro skipping and recommends a continuous party copy to avoid finite queue and loading-gap limitations; this copy is proposed, not built.
+The dedicated Jellyfin library and 25-film playlist are created. The host will use the official Android TV client. The [current playback plan](tv-party-playback.md) links the completed continuous party copy. Start it from the beginning for four uninterrupted passes; no repeat control is required for its 12h20m duration. It is a finite file, not an infinite loop.
 
 ## Host reference
 
@@ -73,11 +73,11 @@ Do not restore these to the active programme without new host feedback. Earlier 
 
 ## Runtime and gap to target
 
-**Current credit review, September 9:** sampled endings place retained content roughly between **3:04:27 and 3:10:33**, before any opening trims. These broad candidate windows need continuous-playback refinement. The earlier 30% scenario below is historical planning arithmetic and should no longer guide acquisition or cuts. No additional sourcing is needed on current evidence. [Credit review](tv-credit-review.json).
+**Final party edit, September 9:** **3:05:09.40 retained per pass**, **12:20:37.60 across four passes**. Individually reviewed cuts remove about 9.2%, preserving narrative endings and two later animated codas. [Final cut record](tv-party-cuts.md) · [Build verification](tv-party-build.json). The earlier 30% scenario below is historical planning arithmetic and should no longer guide acquisition or cuts. No additional sourcing is needed on current evidence. [Credit review](tv-credit-review.json).
 
-**Current acquisition total, September 9:** 25 local files, **3:23:55 raw / about 2:22:44 if 70% is retained**. That historical 70%-retained scenario reaches the 2–3-hour planning target, but the sampled endings now suggest a longer programme. Exact durations and source-version differences are in the [inventory](tv-download-inventory.json) and [setup notes](tv-library-setup.md).
+**Original acquisition total, September 9:** 25 local source files, **3:23:55 raw**. The final retained programme is **3:05:09.40**, slightly over the three-hour target; no story material was removed merely to fit the earlier estimate. Exact durations and source-version differences are in the [inventory](tv-download-inventory.json) and [setup notes](tv-library-setup.md).
 
-The table below preserves the September 8 research arithmetic for the originally linked versions; it is superseded for assembly timing by the actual file total above. Credits have not been measured or removed; the **30% reduction is the host's estimate**, not a claim that credits occupy 30% of every film.
+The table below preserves the September 8 research arithmetic for the originally linked versions; it is superseded for assembly timing by the actual file total above. At that research stage credits had not been measured or removed; the **30% reduction was the host's estimate**, now superseded by the finished derivative.
 
 | Selection | Raw runtime | With estimated 30% removed |
 |---|---:|---:|
@@ -131,7 +131,7 @@ NFB and GOBELINS links are research/viewing sources. Their presence does not imp
 3. Short woodland or abstract interludes where a change of texture helps.
 4. A clean return to the opening. Add further host-approved shorts only if measured cuts leave a gap or the host wants a longer programme.
 
-The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits on the acquired files, then calculate the actual retained duration and repeat length. Original audio and credits are retained. [Candidate credit windows](tv-credit-review.json) are recorded for all 25 films; exact cut points and trimming remain pending.
+The completed derivative uses approval-list order and four identical passes. [Exact retained ranges](tv-party-edit.json) remove plain end credits and long opening padding while preserving animated endings. Complete original audio and credits remain in the 25 original files. [Candidate credit windows](tv-credit-review.json) are historical evidence; the final cut record supersedes them.
 
 ## Jellyfin setup plan
 - Imported by host: separate **Movies-type library named Halloween Shorts**, pointing only to `/Users/akshet/Transmission/Halloween Shorts`. [Exact setup steps](tv-library-setup.md). Keep the existing Movies and Shows library paths unchanged.
@@ -140,7 +140,7 @@ The host plans to remove end credits where appropriate. Record per-film credit s
 - A TV-native client can keep the Mac focused on serving media and DJ playback.
 - Keep TV audio muted at both client and TV if possible.
 - Test transitions, repeat, network recovery and whether the client shows menus/credits between files.
-- If playlist repeat is unreliable, create one longer loop file from permitted material and use a tested repeat-capable player/client. Keep an HDMI/local-file fallback.
+- Use the completed continuous file for 12h20m of playback without a repeat control. Keep an HDMI/local-file fallback; test the actual TV client.
 
 [Jellyfin codec support](https://jellyfin.org/docs/general/clients/codec-support/) · [Direct play/transcoding](https://jellyfin.org/docs/general/post-install/transcoding/)
 

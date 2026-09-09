@@ -20,10 +20,10 @@
       "keep_ranges_seconds": [
         [
           1,
-          713.84
+          713.0
         ]
       ],
-      "note": "Cut before the first director credit, after the final forest pan."
+      "note": "Cut slightly earlier after encoded-frame review revealed the first forming credit letters; retain the forest pan and star field. Final encoded-frame check removes the first faint credit pixels."
     },
     {
       "order": 2,
@@ -193,10 +193,10 @@
       "keep_ranges_seconds": [
         [
           0.8,
-          135.28
+          134.8
         ]
       ],
-      "note": "Keep the forest dissolve and a brief clean forest hold before credit roll."
+      "note": "Keep the forest dissolve and a brief clean forest hold before credit roll. Final encoded-frame check removes the first faint credit pixels."
     },
     {
       "order": 13,
@@ -358,10 +358,10 @@
       "keep_ranges_seconds": [
         [
           0,
-          251.92
+          251.76
         ]
       ],
-      "note": "Preserve the narrative ending; remove the following credit/title block and avoid a long blank join."
+      "note": "Preserve the narrative ending; remove the following credit/title block and avoid a long blank join. Final encoded-frame check removes the first faint credit pixels."
     },
     {
       "order": 24,

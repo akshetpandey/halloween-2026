@@ -1,6 +1,6 @@
 # Halloween Shorts · files and Jellyfin setup
 
-Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. The host has created/imported the library. The signed-in Chrome interface now verifies 25 films, and the live playlist **Halloween — October Grove** contains all 25. [Android TV playback plan](tv-party-playback.md).
+Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. The host has created/imported the library. The 25 complete originals remain in place, and the live playlist **Halloween — October Grove** contains all 25. An additional **October Grove - Continuous Party Video** is now built and visible in this same library; it contains four edited passes, 12:20:37 total, silent 1080p video and 100 chapters. [Android TV playback plan](tv-party-playback.md).
 
 ## Library choice
 
@@ -12,7 +12,7 @@ The **separate Movies-type library named Halloween Shorts** is now imported, roo
 
 The content type describes how Jellyfin treats standalone films; it does not require using the existing Movies directory. The existing Movies and Shows library paths were read from their `.mblink` files and each points specifically to its corresponding directory, not the whole Transmission folder. The new sibling directory therefore stays outside both existing libraries.
 
-Each short has one folder, one complete video and `movie.nfo` with its approved title, creator, animation genre and Halloween 2026 tag. Local metadata is locked to avoid erroneous matches for generic titles. The Astronomer's Dream folder includes 2009 to distinguish Sutherland's film from Méliès' film. There are no features or rejected shorts in the library folder.
+Each short has one folder, one complete video and `movie.nfo` with its approved title, creator, animation genre and Halloween 2026 tag. Local metadata is locked to avoid erroneous matches for generic titles. The Astronomer's Dream folder includes 2009 to distinguish Sutherland's film from Méliès' film. There are no feature-film selections or rejected shorts. The one long additional item is the approved compilation of the shorts, with its own locked NFO, source list and Feral-derived poster/backdrop.
 
 [Jellyfin movie organization](https://jellyfin.org/docs/general/server/media/movies/) · [Library setup](https://jellyfin.org/docs/general/server/libraries/) · [Local NFO metadata](https://jellyfin.org/docs/general/server/metadata/nfo/).
 
@@ -30,7 +30,7 @@ Server discovery on September 9 returned Jellyfin **12.0.0**, server name **The-
 
 [Download manifest](tv-download-manifest.json) records the exact 25 approved titles, selected viewing URLs and destination folder names. [Verified inventory](tv-download-inventory.json) records local paths, actual durations, dimensions, codecs, sizes, SHA-256 hashes and full decode results. Videos remain outside Git.
 
-The final files total **12,234.921 seconds: 3:23:55**, occupying **5.95 GiB** (about 6.39 GB). The host's 70%-retained planning scenario gives **about 2:22:44**; initial sampled credit review now suggests about 3:04–3:11 retained instead; these are candidate windows, not finalized cuts. See the [playback plan](tv-party-playback.md). Differences from the original 3:24:20 research total reflect actual selected upload versions, not cuts made during this task.
+The 25 original files total **12,234.921 seconds: 3:23:55**, occupying **5.95 GiB** (about 6.39 GB). The finalized additional party edit retains **3:05:09.40** per pass; four passes run **12:20:37.60**. The earlier 70%-retained scenario is superseded by these measured cuts. See the [playback plan](tv-party-playback.md). Differences from the original 3:24:20 research total reflect actual selected upload versions, not cuts made during this task.
 
 - The Mountain of SGaana and Throat Notes are **3840×2160**. Most other films have Full HD source dimensions, preserving wider or narrower original aspect ratios.
 - Nebula was upgraded from the official Vimeo 720p upload to the official GOBELINS YouTube **1920×1080** upload.
@@ -56,4 +56,4 @@ It uses the installed yt-dlp, ffmpeg and ffprobe, verifies duration and audio/vi
 
 No purchases or distribution permissions were obtained. The original NFB download-to-own streaming-server caveat remains relevant to any future DTO purchase; this task did not purchase DTO files or treat downloads as a new licence grant. The host's explicit download instruction authorized the local acquisition work.
 
-Next: refine the candidate credit windows, choose separate-item skipping or the recommended continuous party copy, and test Android TV playback and mute. The live playlist and repeat limitations are recorded in the [playback plan](tv-party-playback.md). Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.
+Next: play the completed continuous party video on the actual Android TV, checking joins, silence, chapter seeks and unattended playback. Credit edits, file assembly and live import are complete. The live playlist and repeat limitations are recorded in the [playback plan](tv-party-playback.md). Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.

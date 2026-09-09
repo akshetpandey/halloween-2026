@@ -1,6 +1,6 @@
 {
   "reviewed_date": "2026-09-09",
-  "status": "candidate windows only; not frame-accurate edit points and not applied to Jellyfin or files",
+  "status": "Historical candidate windows; superseded for the party derivative by tv-party-edit.json and tv-party-cuts.md. Original files unchanged.",
   "method": "Visual review of 16 timestamped frames across the final 40 percent of every downloaded film. Windows bracket an ending/credit transition; inspect continuous playback before finalizing. No opening cuts assessed.",
   "local_contact_sheet_root": "/Users/akshet/Transmission/.halloween-downloads/credit-review",
   "rough_retained_seconds_range": [
@@ -333,5 +333,6 @@
       "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
       "contact_sheet": "25.jpg"
     }
-  ]
+  ],
+  "final_edit_record": "tv-party-edit.json"
 }

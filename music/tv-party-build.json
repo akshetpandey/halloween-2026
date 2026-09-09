@@ -1,0 +1,290 @@
+{
+  "segments": {
+    "02-1": {
+      "title": "The Maker",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/02-1.mp4",
+      "frames": 6550,
+      "duration_seconds": 262.0,
+      "sha256": "7e734c1f325cb4d581fc3cda92810d8ccf61164999f6ffb4163aa6cab6c560b5",
+      "bytes": 43487999,
+      "full_video_decode": "passed"
+    },
+    "03-1": {
+      "title": "Blind Eye",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/03-1.mp4",
+      "frames": 8585,
+      "duration_seconds": 343.4,
+      "sha256": "ceac700efc269e48e134c98dabafb76e0ff743d8a5b1d6b8afc6cffd7675a6f4",
+      "bytes": 117337654,
+      "full_video_decode": "passed"
+    },
+    "04-1": {
+      "title": "The Mountain of SGaana",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/04-1.mp4",
+      "frames": 13876,
+      "duration_seconds": 555.04,
+      "sha256": "2d0a44362dc39fa216c41bc6967a97049eb3a2661219bc993220aff76603f547",
+      "bytes": 144082454,
+      "full_video_decode": "passed"
+    },
+    "04-2": {
+      "title": "The Mountain of SGaana",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/04-2.mp4",
+      "frames": 235,
+      "duration_seconds": 9.4,
+      "sha256": "845198b0f1c818a55b45409c470b10378a3373355b8c6245efcbeac8adf8c9da",
+      "bytes": 3436718,
+      "full_video_decode": "passed"
+    },
+    "05-1": {
+      "title": "O Black Hole!",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/05-1.mp4",
+      "frames": 21832,
+      "duration_seconds": 873.28,
+      "sha256": "4b96e4a56658dbe22ff0513fd3d7c3ffaaf1295306c62eef6afa051ff2d465b8",
+      "bytes": 330931237,
+      "full_video_decode": "passed"
+    },
+    "01-1": {
+      "title": "Feral",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/01-1.mp4",
+      "frames": 17800,
+      "duration_seconds": 712.0,
+      "sha256": "9ebb1a96a6b147f602591d565df8289a96ff051da8151be983736615e86733d8",
+      "bytes": 322218497,
+      "full_video_decode": "passed"
+    },
+    "06-1": {
+      "title": "La Noria",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/06-1.mp4",
+      "frames": 15910,
+      "duration_seconds": 636.4,
+      "sha256": "6a091e13ad3083483398dca6ca648baf30a02d8845632de36f1def7f0bc457ac",
+      "bytes": 198222571,
+      "full_video_decode": "passed"
+    },
+    "07-1": {
+      "title": "The Moonseeker",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/07-1.mp4",
+      "frames": 4602,
+      "duration_seconds": 184.08,
+      "sha256": "0554dad2d3cf2bcc721d60016f81e7d6836127691b76634e304c9a0a2c8a1969",
+      "bytes": 29278697,
+      "full_video_decode": "passed"
+    },
+    "08-1": {
+      "title": "Nebula",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/08-1.mp4",
+      "frames": 4458,
+      "duration_seconds": 178.32,
+      "sha256": "7f89a032c760c0b45b3800ebed2c5a9de1323130b66b89e62f39c9399e9da46c",
+      "bytes": 49698813,
+      "full_video_decode": "passed"
+    },
+    "09-1": {
+      "title": "Fox Fires",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/09-1.mp4",
+      "frames": 8255,
+      "duration_seconds": 330.2,
+      "sha256": "171105d19feea04b63af7556a269401fc01d0fbe73b17213395d148dff116282",
+      "bytes": 51540502,
+      "full_video_decode": "passed"
+    },
+    "10-1": {
+      "title": "The Old Man & the Goblins",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/10-1.mp4",
+      "frames": 5681,
+      "duration_seconds": 227.24,
+      "sha256": "9c93f9b65d9e3217d65bbe6c46bfc48eeffd7ee086025d29c88e445d66369ece",
+      "bytes": 80622336,
+      "full_video_decode": "passed"
+    },
+    "10-2": {
+      "title": "The Old Man & the Goblins",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/10-2.mp4",
+      "frames": 120,
+      "duration_seconds": 4.8,
+      "sha256": "d0580a780ed78388a13ed20f8e2444e222b1d324c98bbe67062a4a51227e6657",
+      "bytes": 666929,
+      "full_video_decode": "passed"
+    },
+    "11-1": {
+      "title": "The Tree",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/11-1.mp4",
+      "frames": 8980,
+      "duration_seconds": 359.2,
+      "sha256": "40ed630f235e26c709f56eddd6bee4fc4aadf2263f91f8d441153b0839323815",
+      "bytes": 36775805,
+      "full_video_decode": "passed"
+    },
+    "12-1": {
+      "title": "The Forest",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/12-1.mp4",
+      "frames": 3350,
+      "duration_seconds": 134.0,
+      "sha256": "67fee8820e5c3d7695fc46cfd19c4fbafa5720a1fcaa85c6bdf81cefebfe9c87",
+      "bytes": 45884091,
+      "full_video_decode": "passed"
+    },
+    "13-1": {
+      "title": "After the Rain",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/13-1.mp4",
+      "frames": 12113,
+      "duration_seconds": 484.52,
+      "sha256": "5ee8a88c27c692a0f270dc4a7359d0fdaee101e00dc6eec253c6685cea12cab3",
+      "bytes": 144830722,
+      "full_video_decode": "passed"
+    },
+    "14-1": {
+      "title": "Island",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/14-1.mp4",
+      "frames": 3397,
+      "duration_seconds": 135.88,
+      "sha256": "bf3ccd8ecf3bdb33b92aa915d48458f68e5561b749adc71c98b18046c5255162",
+      "bytes": 22531981,
+      "full_video_decode": "passed"
+    },
+    "15-1": {
+      "title": "Wind",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/15-1.mp4",
+      "frames": 5240,
+      "duration_seconds": 209.6,
+      "sha256": "2c939dae42d7bef97a5d8dc4c9613d003cf5f50491b4bf66781e62c896390707",
+      "bytes": 75428792,
+      "full_video_decode": "passed"
+    },
+    "16-1": {
+      "title": "Les Escargots / The Snails",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/16-1.mp4",
+      "frames": 15625,
+      "duration_seconds": 625.0,
+      "sha256": "10e6fd7652905b6c9f3f48a04b484898525450785243d3cf58319db69966064f",
+      "bytes": 294392562,
+      "full_video_decode": "passed"
+    },
+    "17-1": {
+      "title": "Throat Notes",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/17-1.mp4",
+      "frames": 11834,
+      "duration_seconds": 473.36,
+      "sha256": "33eb39162ff08935ab1fbb54b7cb113e04ca814fc1f7db0f82d926316c46b17d",
+      "bytes": 199569067,
+      "full_video_decode": "passed"
+    },
+    "18-1": {
+      "title": "Return to Hairy Hill",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/18-1.mp4",
+      "frames": 24240,
+      "duration_seconds": 969.6,
+      "sha256": "dc3fc53c088289612208c2b091933fe7c86f460f7d20e1a6fffb05909aed07bf",
+      "bytes": 219683024,
+      "full_video_decode": "passed"
+    },
+    "19-1": {
+      "title": "Here and the Great Elsewhere",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/19-1.mp4",
+      "frames": 19322,
+      "duration_seconds": 772.88,
+      "sha256": "b404d3b1737a2f88811af2bd118c467fb73202a580bf219a4dfbffbe09190216",
+      "bytes": 257798522,
+      "full_video_decode": "passed"
+    },
+    "20-1": {
+      "title": "Nocturne / Nachtstück",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/20-1.mp4",
+      "frames": 7275,
+      "duration_seconds": 291.0,
+      "sha256": "adc1f30381a49d56fc908dfb3189316e86eed42e560fdeb4f5ff9aab8c71be09",
+      "bytes": 82852462,
+      "full_video_decode": "passed"
+    },
+    "21-1": {
+      "title": "Chado",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/21-1.mp4",
+      "frames": 10331,
+      "duration_seconds": 413.24,
+      "sha256": "0e0a83a3476187d250a6da85b7c86ea6456d6628c4097225252faedf407df80e",
+      "bytes": 205661251,
+      "full_video_decode": "passed"
+    },
+    "22-1": {
+      "title": "The Astronomer’s Dream",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/22-1.mp4",
+      "frames": 16086,
+      "duration_seconds": 643.44,
+      "sha256": "a8dfd9a27e7bf69e9492ec9067042517931aa8fd2ad5498e0eb26927d9975092",
+      "bytes": 148170470,
+      "full_video_decode": "passed"
+    },
+    "23-1": {
+      "title": "ZOON",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/23-1.mp4",
+      "frames": 6294,
+      "duration_seconds": 251.76,
+      "sha256": "5167b17867e5e19dd59c2cb175dc84692b444ea5019355dc563e408f49c10c84",
+      "bytes": 44197282,
+      "full_video_decode": "passed"
+    },
+    "24-1": {
+      "title": "Kukuschka",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/24-1.mp4",
+      "frames": 11874,
+      "duration_seconds": 474.96,
+      "sha256": "83f4153eaf6caaf6db7c4d48138e42695ee1b8910f6b1351692e1c4dcce9bf53",
+      "bytes": 78147619,
+      "full_video_decode": "passed"
+    },
+    "25-1": {
+      "title": "The Man Without a Shadow / L’homme sans ombre",
+      "path": "/Users/akshet/Transmission/.halloween-downloads/party-reel/segments/25-1.mp4",
+      "frames": 13870,
+      "duration_seconds": 554.8,
+      "sha256": "d8a4877b83b416c4399bc58e8363d93ebddb7dd4e4351efab5b11a4d58ae2e87",
+      "bytes": 258362854,
+      "full_video_decode": "passed"
+    }
+  },
+  "edit_sha256": "32a3a3c90c6ec1ef14c8937cbab46e0f320b443d5fbfd5705ea1fd77a87729a5",
+  "single_cycle_seconds": 11109.4,
+  "total_seconds": 44437.6,
+  "output": {
+    "path": "/Users/akshet/Transmission/Halloween Shorts/October Grove - Continuous Party Video/October Grove - Continuous Party Video.mp4",
+    "sha256": "76ca73c92b2965810c15bcc8071f5999a6406c4c7757986afd42e50a5549b2ae",
+    "bytes": 13985652629,
+    "duration_seconds": 44437.6,
+    "chapters": 100,
+    "frames": 1110940,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "25/1",
+    "audio": "silent AAC stereo"
+  },
+  "verification": {
+    "path": "/Users/akshet/Transmission/Halloween Shorts/October Grove - Continuous Party Video/October Grove - Continuous Party Video.mp4",
+    "checks": {
+      "file_sha256": "passed",
+      "contiguous_chapters": 100,
+      "video_packets": 1110940,
+      "max_dts_step_error_seconds": 6.402843533148683e-12,
+      "identical_cycle_payload_sha256": [
+        "6d556925669b2ad2f9407898a4957c8f9b89bc70411f77e9a94f68cb5144bb3e",
+        "6d556925669b2ad2f9407898a4957c8f9b89bc70411f77e9a94f68cb5144bb3e",
+        "6d556925669b2ad2f9407898a4957c8f9b89bc70411f77e9a94f68cb5144bb3e",
+        "6d556925669b2ad2f9407898a4957c8f9b89bc70411f77e9a94f68cb5144bb3e"
+      ],
+      "encoded_sections_full_decode": true,
+      "silent_audio_samples": "passed: beginning, second cycle, final seconds"
+    },
+    "actual_android_tv_test": "not performed"
+  },
+  "jellyfin": {
+    "library": "Halloween Shorts",
+    "library_id": "ea9b35d956566f3baedf0a58a25171d3",
+    "item_id": "69285593e12b8739814c101dc5117f08",
+    "url": "https://the-screening-room.com/web/#/details?id=69285593e12b8739814c101dc5117f08&serverId=71435b6dd7be4207a0220387ded760c5",
+    "visible_in_signed_in_chrome": true,
+    "actual_android_tv_test": "not performed",
+    "chrome_playback_test": "Opening footage played successfully; no browser chapter-seek or endurance test completed."
+  }
+}

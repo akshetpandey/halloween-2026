@@ -67,6 +67,8 @@ def main():
             duration = frames / fps
             cached = state['segments'].get(key)
             if path.exists() and cached and digest(path) == cached.get('sha256'):
+                if cached.get('frames') != frames or cached.get('full_video_decode') != 'passed':
+                    raise RuntimeError(f'Cached segment does not match the reviewed edit: {key}')
                 print(f'Cached {key} {film["title"]}', flush=True)
             elif args.stage == 'assemble':
                 raise RuntimeError(f'Missing verified segment: {key}')

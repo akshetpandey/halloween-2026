@@ -1,6 +1,6 @@
 # Halloween Shorts · Android TV playback
 
-Updated September 9, 2026. Library and base playlist verified in the host's signed-in Chrome session. Credit-window review completed; no video edits, segment installation or TV rehearsal performed.
+Updated September 9, 2026. Library and base playlist verified in the host's signed-in Chrome session. The host approved the continuous video and clarified that it belongs in the existing Halloween Shorts library. Detailed cut review is complete and the derivative is building. No segment plugin installation or actual TV rehearsal performed.
 
 ## Live playlist
 
@@ -12,17 +12,17 @@ Updated September 9, 2026. Library and base playlist verified in the host's sign
 - Media: `/Users/akshet/Transmission/Halloween Shorts`.
 - Playback on the actual Android TV device is untested; playlist creation does not enable repeat or credit skipping.
 
-## Recommended party method · proposed
+## Continuous party video · approved, building
 
-Make an additional **continuous party video** from the approved shorts, with individually chosen end cuts, retaining the originals. Normalize the clips to a common 1080p SDR H.264 format with consistent frame rate and aspect-preserving letterboxing; retain source cadence as closely as practical. This is an additional compatibility encode, not a quality upgrade. A silent audio track is appropriate for the muted party copy. Keep creator/source attribution in local metadata and the original files.
+Build an additional **continuous party video** from the approved shorts, with individually chosen end cuts, retaining the originals. Normalize the clips to a common 1080p SDR H.264 format with consistent frame rate and aspect-preserving letterboxing; retain source cadence as closely as practical. This is an additional compatibility encode, not a quality upgrade. A silent audio track is appropriate for the muted party copy. Keep creator/source attribution in local metadata and the original files.
 
-Encode one pass, then concatenate four copies without another video encode into a roughly **12½-hour file**, with chapter markers at each film start. Put the output in a clearly labelled party-reel folder, then scan and play it from the Halloween library. This removes file-loading interruptions at film boundaries. Start from the beginning rather than resuming an old session. The finite file covers the evening and rollback with reserve; **it is not an infinite loop**. Four passes are unnecessary for unique content accounting but avoid relying on repeat controls during the party.
+Encode one pass, then concatenate four copies without another video encode into a **12:20:43.52 file**, with chapter markers at each film start. Put the output in a clearly labelled party-reel folder, then scan and play it from the Halloween library. This removes file-loading interruptions at film boundaries. Start from the beginning rather than resuming an old session. The finite file covers the evening and rollback with reserve; **it is not an infinite loop**. Four passes are unnecessary for unique content accounting but avoid relying on repeat controls during the party.
 
 This route is recommended because the standard Android TV video queue in the inspected **v0.19.10** source ends after its final item. `hasNextItem()` only tests for another index, and `itemComplete()` ends playback when there is no next item. A web-player repeat setting should not be assumed to apply to Android TV. This is a source-based finding, not a test of the host's installed client. [Tagged official player source](https://github.com/jellyfin/jellyfin-androidtv/blob/v0.19.10/app/src/main/java/org/jellyfin/androidtv/ui/playback/PlaybackController.java).
 
 For a genuinely endless loop, a separate controller that refills/restarts the TV queue would need development and a device test, or a tested external repeat-capable player would be needed. Neither is configured. A long continuous file is the simplest proposed fit for the host's official-client requirement and smooth joins.
 
-No compilation was started. The host was offered continuous-copy versus individual-film skipping as a preference; no reply was received during this research pass. Selecting exact cuts and producing a long encode is the next implementation phase.
+The host approved compilation on September 9 and then clarified that it should go in the **existing Halloween Shorts library**, superseding the brief request for a new library. The [edit decision list](tv-party-edit.json) records each source range and exception. [Build helper](build-tv-party-video.py) encodes and verifies the segments, repeats them four times, adds a silent AAC track and 100 chapters, and writes an additional movie folder. The selected ranges total **3:05:10.88 per cycle** before any later revision. Output verification and live import are pending while the build runs.
 
 ## Alternative · keep individual shorts
 
@@ -48,7 +48,7 @@ Special cases:
 - **Kukuschka** overlays credits on a changing sky; preserve the final night scene.
 - **The Old Man & the Goblins** has a long pale fade before credits. Refine the last action rather than cutting by a fixed percentage.
 
-Before encoding, inspect each candidate window in continuous playback, record exact cut points, check for later narrative material, and inspect opening logos/blank frames as well. The sampled review alone does not establish that no post-credit scene exists between samples.
+The initial candidate review is retained as historical evidence. It was refined with one-second ending sequences, expanded opening surveys, and independently sought frames at 0.3-second intervals around cuts. This is visual frame inspection, not a claim of continuous human viewing. The final editorial choices are in [tv-party-edit.json](tv-party-edit.json). The Mountain of SGaana has a later blanket/bed coda and The Old Man & the Goblins has a brief goblin coda; both are retained as second ranges after excising intervening credits. O Black Hole! retains its animated ending underneath early credits. Long opening padding is removed, while illustrated titles and internal chapter cards remain. The originals are untouched.
 
 ## Acceptance test on the actual TV
 

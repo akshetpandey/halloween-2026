@@ -319,24 +319,18 @@ function App() {
               An evening of strange company, woodland spirits,
               <br className="desktop-only" /> and a little unfinished business.
             </p>
-            <a
-              className="btn"
-              href={state.partifulUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open the invitation <ExternalLink size={15} />
-            </a>
-            <p className="small muted">
-              Williamsburg, Brooklyn · Halloween night
-              <br />
-              The Court’s opening is separate from party arrival time.
-            </p>
           </div>
           <div className="qr-bookplate">
             <WoodlandQR value={state.partifulUrl} />
             <span>FOLLOW THE LEAVES</span>
-            <small>Scan to open the Partiful invitation</small>
+            <a
+              className="qr-invitation-link"
+              href={state.partifulUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open the invitation <ExternalLink size={12} />
+            </a>
           </div>
         </section>
         <div className="whisper">

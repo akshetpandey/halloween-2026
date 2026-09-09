@@ -149,7 +149,6 @@ try {
     .toBuffer();
   const form = new FormData();
   form.set("name", "Deployment check · synthetic");
-  form.set("consent", "yes");
   form.set("invite", token);
   form.set("photo", new Blob([photo], { type: "image/jpeg" }), "synthetic.jpg");
   const registered = await json(1, "/register", "POST", form);
@@ -163,8 +162,37 @@ try {
   assert((await portrait.arrayBuffer()).byteLength > 20);
   const anonymousPhoto = await fetch(origin + "/api/photo/" + guest.player.id);
   assert.equal(anonymousPhoto.status, 401);
+  assert.equal((await fetch(origin + "/api/costumes")).status, 401);
+  assert.equal(publicState.costumeReminderAt, "2026-11-01T01:00:00-04:00");
+  const gallery = await json(0, "/costumes");
+  assert(gallery.people.some((p) => p.id === guest.player.id));
+  assert(
+    gallery.people.every((p) => Object.keys(p).sort().join() === "id,name"),
+  );
+  assert.equal("voters" in gallery, false);
+  const leaves = await json(0, "/costumes", "POST", {
+    choices: [guest.player.id],
+    revision: gallery.revision,
+  });
+  assert.deepEqual(leaves.choices, [guest.player.id]);
+  assert.deepEqual((await json(0, "/costumes")).choices, leaves.choices);
+  assert.equal(
+    (
+      await req(0, "/costumes", "POST", {
+        choices: [],
+        revision: gallery.revision,
+      })
+    ).status,
+    409,
+  );
+  assert.equal((await req(0, "/ballot")).status, 410);
+  const admin = await fetch(publicOrigin + "/api/admin/costumes", {
+    redirect: "manual",
+  });
+  assert.equal(admin.status, 302);
+  assert.match(admin.headers.get("location"), /cloudflareaccess\.com/);
   console.log(
-    "PASS: hosted HTML/security headers; sealed state/Partiful URL; secure session; fifteen short routes; valid solve/deduplication; Summons redemption; private KV portrait upload/read.",
+    "PASS: hosted HTML/security headers; sealed state/Partiful URL; secure session; fifteen short routes; valid solve/deduplication; Summons redemption; private KV portrait upload/read; costume leaves persistence/privacy/stale revisions; host Access protection; first-1-AM reminder configuration.",
   );
 } finally {
   cleanupFixtures([...fixtureIds], "--remote");

@@ -1,10 +1,10 @@
 # TV shorts · Batch 02
 
-September 8, 2026. **Status: ten new proposals for host review.** [Approved films, rejected films and current brief](tv-visuals.md) · [Runtime evidence](tv-shorts-batch-02-metadata.json).
+September 8, 2026. **Status: host review complete — nine approved, My Moon rejected.** [Approved films, rejected films and current brief](tv-visuals.md) · [Runtime evidence](tv-shorts-batch-02-metadata.json).
 
 This batch follows the host's preference for artsy/drawn/arthouse imagery, avoiding the realistic folk-horror direction and graphic violence that failed in Batch 01. The six earlier approvals remain in. Hand-drawn, stylized hybrid and puppet work are identified below so the host can judge the look directly. No live-action films or features are included.
 
-The first five are the recommended review order. Links point to nine creator/studio/school Vimeo uploads and a public YouTube full-film upload of The Moonseeker, whose credits and runtime are supported by the festival listing. Source descriptions and metadata were checked; **full films have not been screened by the agent**, so visual fit and suitability muted are recommendations, not certified playback/content tests. No newly selected source is described as narration-driven; exact scene-level content still needs host review.
+The original review recommendations below are historical; the host verdicts in the current TV plan supersede the suggested priorities. Links point to nine creator/studio/school Vimeo uploads and a public YouTube full-film upload of The Moonseeker, whose credits and runtime are supported by the festival listing. Source descriptions and metadata were checked; **full films have not been screened by the agent**, so visual fit and suitability muted are recommendations, not certified playback/content tests. No newly selected source is described as narration-driven; exact scene-level content still needs host review.
 
 | # | Short / creator | Runtime | Why this is worth trying | Fit / muted-review note |
 |---|---|---:|---|---|
@@ -23,7 +23,7 @@ Nine Vimeo runtimes come from the uploaded versions' oEmbed metadata, including 
 
 ## Review and sourcing state
 
-- Every row is **proposed**, with no implied host approval yet. Review with Keep / Cut and any art-style or tone note.
+- Review completed September 8: see the [current TV plan](tv-visuals.md) for authoritative approvals, rejection reasons and accepted runtime totals. The 50:36 above describes the entire researched batch, including the rejected film.
 - The Moonseeker and After the Rain have explicit no-dialogue catalogue evidence. For the others, recommended muted use is a curation judgment, not a claim that every source is literally silent or that music is unimportant.
 - Full-file acquisition, storage permission, mute checks and actual TV tests remain pending under the [shared TV plan](tv-visuals.md). No media downloaded or purchased.
 - The Bird & the Whale was researched but omitted from this ready-to-review batch: the studio page exposes a trailer, while the previously embedded full Vimeo upload returned HTTP 403. Fable was also left out because the creator's synopsis centers on hunting and destroying the other character, a poor match after the violence rejection.

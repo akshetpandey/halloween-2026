@@ -4,7 +4,6 @@
   "items": [
     {
       "title": "The Moonseeker",
-      "status": "proposed",
       "duration_seconds": 219,
       "duration_basis": "Festival version; exact YouTube upload duration not verified",
       "watch_url": "https://www.youtube.com/watch?v=_q7BfhmZ56E",
@@ -13,7 +12,6 @@
     },
     {
       "title": "Nebula",
-      "status": "proposed",
       "duration_seconds": 207,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/105545337",
@@ -22,7 +20,6 @@
     },
     {
       "title": "Fox Fires",
-      "status": "proposed",
       "duration_seconds": 369,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/404648852",
@@ -31,7 +28,6 @@
     },
     {
       "title": "My Moon",
-      "status": "proposed",
       "duration_seconds": 515,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/371469703",
@@ -40,7 +36,6 @@
     },
     {
       "title": "The Old Man & the Goblins",
-      "status": "proposed",
       "duration_seconds": 264,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/14872641",
@@ -49,7 +44,6 @@
     },
     {
       "title": "The Tree",
-      "status": "proposed",
       "duration_seconds": 391,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/276012526",
@@ -58,7 +52,6 @@
     },
     {
       "title": "The Forest",
-      "status": "proposed",
       "duration_seconds": 165,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/314935107",
@@ -67,7 +60,6 @@
     },
     {
       "title": "After the Rain",
-      "status": "proposed",
       "duration_seconds": 527,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/279447240",
@@ -76,7 +68,6 @@
     },
     {
       "title": "Island",
-      "status": "proposed",
       "duration_seconds": 150,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/308876956",
@@ -85,12 +76,12 @@
     },
     {
       "title": "Wind",
-      "status": "proposed",
       "duration_seconds": 229,
       "duration_basis": "Vimeo upload metadata",
       "watch_url": "https://vimeo.com/80883637",
       "source_url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/80883637",
       "source_identity": "robert loebel"
     }
-  ]
+  ],
+  "selection_status_source": "tv-visuals.md; this file stores runtime/source evidence only."
 }

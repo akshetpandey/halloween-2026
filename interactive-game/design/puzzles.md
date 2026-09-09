@@ -1,6 +1,6 @@
 # Hollow Court — selected puzzle families
 
-Status: Finalized family selection for design and prototyping, September 4, 2026. **Fourteen families are approved. Unbroken Sigil is provisionally approved pending a satisfying real-iPhone touch implementation.** No family is assigned to an entity, and no puzzle engine, production bank or application code has been implemented. This selection follows the iterative review in [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83ea-980a-a9b43437c385).
+Status: Finalized family selection for design and prototyping, September 4, 2026. **Fourteen families are approved. Unbroken Sigil is provisionally approved pending a satisfying real-iPhone touch implementation.** The first website rehearsal is implemented; its entity pairings remain rehearsal choices. The host’s [September 9 phone-first feedback and implemented revision](puzzle-revision-2026-09-09.md) supersede the initial difficulty/UI defaults below, including lantern move counts, seal size and constellation interaction. This selection follows the iterative review in [Interactive Succession Design](chatgpt-conversation://6a9af574-7854-83ea-980a-a9b43437c385).
 
 ## Design contract
 

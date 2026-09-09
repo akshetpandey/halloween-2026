@@ -1,6 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { RotateCcw, ArrowRight, Check, Play } from "lucide-react";
 import { Mark } from "./Art";
+import {
+  MatrixSigil,
+  SymbolGroup,
+  Shard,
+  StarChart,
+  Maze,
+} from "./PuzzleFigures";
 import { marks, type Point, type PuzzleView } from "../shared/types";
 function Symbol({ name }: { name: string }) {
   const index = marks.indexOf(name.split(" · ")[0]);
@@ -28,11 +35,17 @@ export function Puzzle({
     [moves, setMoves] = useState<number[]>([]),
     [nodes, setNodes] = useState(p.nodes || []),
     [active, setActive] = useState<number | null>(null);
-  const [slots, setSlots] = useState<(number | null)[]>(Array(4).fill(null)),
+  const [slots, setSlots] = useState<(number | null)[]>(
+      p.sealEdges ? [0, null, null, null, null, null] : Array(4).fill(null),
+    ),
     [rotations, setRotations] = useState(p.rotations || []);
-  const [stage, setStage] = useState<"ready" | "watch" | "answer">("ready"),
+  const [stage, setStage] = useState<"ready" | "watch" | "answer" | "reveal">(
+      "ready",
+    ),
     [positions, setPositions] = useState([0, 1, 2]),
-    [swapStep, setSwapStep] = useState(-1);
+    [swapStep, setSwapStep] = useState(-1),
+    [lifted, setLifted] = useState(false),
+    [tokenPending, setTokenPending] = useState(false);
   const svg = useRef<SVGSVGElement>(null),
     drag = useRef<number | null>(null),
     dragged = useRef(false),
@@ -47,15 +60,19 @@ export function Puzzle({
     setMoves([]);
     setNodes([...(p.nodes || [])]);
     setActive(null);
-    setSlots(Array(4).fill(null));
+    setSlots(
+      p.sealEdges ? [0, null, null, null, null, null] : Array(4).fill(null),
+    );
     setRotations([...(p.rotations || [])]);
     timers.current.forEach(clearTimeout);
     setStage("ready");
     setPositions([0, 1, 2]);
     setSwapStep(-1);
+    setLifted(false);
   }
   function play() {
     timers.current.forEach(clearTimeout);
+    setLifted(false);
     setChoice(null);
     setStage("watch");
     setPositions([0, 1, 2]);
@@ -64,6 +81,8 @@ export function Puzzle({
       timers.current.push(setTimeout(() => setStage("answer"), 5000));
       return;
     }
+    timers.current.push(setTimeout(() => setLifted(true), 100));
+    timers.current.push(setTimeout(() => setLifted(false), 1600));
     const current = [0, 1, 2];
     p.swaps!.forEach(([a, b], i) =>
       timers.current.push(
@@ -85,8 +104,18 @@ export function Puzzle({
     );
   }
   async function submit(value: unknown) {
+    if (p.kind === "token") {
+      if (stage !== "answer") return;
+      setTokenPending(true);
+      setStage("reveal");
+      setLifted(true);
+      await new Promise<void>((resolve) =>
+        timers.current.push(setTimeout(resolve, 1600)),
+      );
+    }
+    setTokenPending(false);
     const ok = await onSubmit(value);
-    if (!ok && (p.kind === "memory" || p.kind === "token")) setStage("ready");
+    if (!ok && p.kind === "memory") setStage("ready");
   }
   function graphPoint(i: number) {
     if (route.length === 0) {
@@ -166,7 +195,13 @@ export function Puzzle({
     <div className="puzzle" data-family={p.family}>
       <div className="puzzle-heading">
         <span className="eyebrow">The guardian’s trial</span>
-        <span className="trial-time">A moment of attention</span>
+        <button
+          className="text-button puzzle-reset"
+          onClick={reset}
+          disabled={busy || tokenPending}
+        >
+          <RotateCcw size={16} /> Start over
+        </button>
       </div>
       <h2>{p.title}</h2>
       <p className="instructions">{p.instructions}</p>
@@ -177,7 +212,21 @@ export function Puzzle({
           ))}
         </div>
       )}
+      {p.ruleExamples && (
+        <div className="rule-examples">
+          {p.ruleExamples.map((e, i) => (
+            <div key={i}>
+              <span className={e.accepted ? "accepted" : "refused"}>
+                {e.accepted ? "Accepted" : "Refused"}
+              </span>
+              <SymbolGroup values={e.shapes} polygons />
+            </div>
+          ))}
+        </div>
+      )}
       {p.family === "matrix" && grid(p.grid!)}
+      {p.constellation && <StarChart chart={p.constellation} />}
+      {p.kind === "maze" && <Maze p={p} route={route} onRoute={setRoute} />}
       {p.family === "wheel" && (
         <svg
           className="wheel"
@@ -269,14 +318,30 @@ export function Puzzle({
       )}
       {p.kind === "token" && (
         <div className="token-stage">
-          <div className="cups">
+          <div className={"cups " + (swapStep >= 0 ? "shuffling" : "")}>
             {[0, 1, 2].map((c) => (
               <div
                 key={c}
-                className="cup"
+                className={
+                  "cup " +
+                  (lifted &&
+                  (c === p.tokenStart ||
+                    (stage === "reveal" && positions[c] === choice))
+                    ? "lifted"
+                    : "")
+                }
                 style={{ left: `${positions[c] * 33.333}%` }}
               >
-                <svg viewBox="0 0 100 100" aria-hidden="true">
+                {c === p.tokenStart && (
+                  <span className="acorn">
+                    <Mark index={5} size={28} />
+                  </span>
+                )}
+                <svg
+                  className="cup-cover"
+                  viewBox="0 0 100 100"
+                  aria-hidden="true"
+                >
                   <path
                     d="M25 20h50l13 60H12Z"
                     fill="#4a5740"
@@ -290,17 +355,19 @@ export function Puzzle({
                     opacity=".5"
                   />
                 </svg>
-                {stage === "watch" && swapStep === -1 && c === p.tokenStart && (
-                  <span className="acorn">
-                    <Mark index={5} size={24} />
-                  </span>
-                )}
               </div>
             ))}
           </div>
-          {stage === "ready" ? (
-            <button className="btn secondary" onClick={play}>
-              <Play size={16} /> Follow the acorn
+          {stage === "ready" || stage === "reveal" ? (
+            <button
+              className="btn secondary"
+              onClick={play}
+              disabled={busy || tokenPending}
+            >
+              <Play size={16} />{" "}
+              {stage === "reveal"
+                ? "Replay the same shuffle"
+                : "Follow the acorn"}
             </button>
           ) : (
             <p className="small muted">
@@ -316,10 +383,16 @@ export function Puzzle({
       {(p.kind === "choice" ||
         ((p.kind === "memory" || p.kind === "token") &&
           stage === "answer")) && (
-        <div className="choices">
+        <div
+          className={
+            "choices " +
+            (p.matrixOptions || p.optionGroups ? "visual-choices" : "")
+          }
+        >
           {p.options!.map((option, i) => (
             <button
               key={i}
+              aria-label={option}
               onClick={() => setChoice(i)}
               className={choice === i ? "selected" : ""}
               aria-pressed={choice === i}
@@ -327,7 +400,17 @@ export function Puzzle({
               <span className="option-number">
                 {String.fromCharCode(65 + i)}
               </span>
-              <Symbol name={option} />
+              {p.matrixOptions ? (
+                <MatrixSigil value={p.matrixOptions[i]} />
+              ) : p.optionGroups ? (
+                <SymbolGroup
+                  values={p.optionGroups[i]}
+                  polygons={p.family === "rule"}
+                  labels={p.family === "witnesses"}
+                />
+              ) : (
+                <Symbol name={option} />
+              )}
               {choice === i && <Check size={16} />}
             </button>
           ))}
@@ -498,19 +581,39 @@ export function Puzzle({
                 <circle
                   cx={n.x}
                   cy={n.y}
-                  r={p.kind === "untangle" ? 19 : 22}
+                  r={30}
+                  fill="transparent"
+                  stroke="none"
+                />
+                <circle
+                  cx={n.x}
+                  cy={n.y}
+                  r={
+                    p.family === "constellation"
+                      ? 6
+                      : p.kind === "untangle"
+                        ? 24
+                        : 25
+                  }
                   fill={
-                    route.includes(i) || active === i ? "#b6ba87" : "#20392b"
+                    p.family === "constellation"
+                      ? "#f0dfa4"
+                      : route.includes(i) || active === i
+                        ? "#b6ba87"
+                        : "#20392b"
                   }
                   stroke={p.start === i ? "#dbca8f" : "#819674"}
                   strokeWidth={p.start === i ? 3 : 1.5}
                 />
                 <text
                   x={n.x}
-                  y={n.y + 4}
+                  y={n.y + (p.family === "constellation" ? 23 : 4)}
                   textAnchor="middle"
                   fill={
-                    route.includes(i) || active === i ? "#142319" : "#e3e5cb"
+                    p.family !== "constellation" &&
+                    (route.includes(i) || active === i)
+                      ? "#142319"
+                      : "#e3e5cb"
                   }
                   fontSize={n.label.length > 4 ? 10 : 13}
                 >
@@ -531,6 +634,15 @@ export function Puzzle({
             ))}
           </svg>
           {p.kind === "graph" && (
+            <button
+              className="text-button undo-route"
+              disabled={!route.length}
+              onClick={() => setRoute(route.slice(0, -1))}
+            >
+              Undo last star / point
+            </button>
+          )}
+          {p.kind === "graph" && (
             <p className="small muted">
               {route.length
                 ? route.map((i) => nodes[i].label).join(" → ")
@@ -539,7 +651,8 @@ export function Puzzle({
           )}
           {p.kind === "untangle" && (
             <p className="small muted">
-              Keyboard: focus a stone and use the arrow keys.
+              Seven stones, twelve threads. All crossings must disappear. Drag
+              stones or select one and tap a new position.
             </p>
           )}
         </>
@@ -601,7 +714,7 @@ export function Puzzle({
           ))}
         </div>
       )}
-      {p.kind === "seal" && (
+      {p.kind === "seal" && !p.sealEdges && (
         <>
           <div className="seal-reference">
             <span>THE COMPLETE SEAL</span>
@@ -680,18 +793,92 @@ export function Puzzle({
           </div>
         </>
       )}
+      {p.kind === "seal" && p.sealEdges && (
+        <div className="edge-seal">
+          <div className="edge-seal-board">
+            {slots.map((piece, i) => (
+              <button
+                key={i}
+                aria-label={`Seal slot ${i + 1}${i === 0 ? ", anchored" : ""}`}
+                disabled={i === 0}
+                onClick={() => {
+                  if (active !== null) {
+                    setSlots(
+                      slots.map((v, j) =>
+                        j === i ? active : v === active ? null : v,
+                      ),
+                    );
+                    setActive(null);
+                  } else if (piece !== null) {
+                    setSlots(slots.map((v, j) => (j === i ? null : v)));
+                    setActive(piece);
+                  }
+                }}
+              >
+                {piece === null ? (
+                  <span>{i + 1}</span>
+                ) : (
+                  <Shard
+                    edges={p.sealEdges![piece]}
+                    rotation={rotations[piece]}
+                  />
+                )}
+              </button>
+            ))}
+          </div>
+          <p className="small muted">
+            {active === null
+              ? "Choose a loose shard below."
+              : "Shard selected. Rotate it or tap an empty space."}
+          </p>
+          <div className="edge-seal-tray">
+            {p.pieces!.map((piece) => (
+              <div key={piece}>
+                <button
+                  className={active === piece ? "selected" : ""}
+                  disabled={slots.includes(piece)}
+                  aria-label={`Select shard ${piece + 1}`}
+                  onClick={() => setActive(piece)}
+                >
+                  <Shard
+                    edges={p.sealEdges![piece]}
+                    rotation={rotations[piece]}
+                  />
+                </button>
+                <button
+                  className="rotate"
+                  aria-label={`Rotate shard ${piece + 1}`}
+                  onClick={() =>
+                    setRotations(
+                      rotations.map((r, i) => (i === piece ? (r + 1) % 4 : r)),
+                    )
+                  }
+                >
+                  <RotateCcw size={18} />
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="puzzle-actions">
-        <button className="text-button" onClick={reset} disabled={busy}>
+        <button
+          className="text-button"
+          onClick={reset}
+          disabled={busy || tokenPending}
+        >
           <RotateCcw size={14} /> Reset trial
         </button>
         <button
           className="btn"
           disabled={
             busy ||
+            tokenPending ||
             (["choice", "reflection", "memory", "token"].includes(p.kind) &&
               choice === null) ||
             (p.kind === "order" && order.length !== p.options!.length) ||
-            (p.kind === "graph" && route.length < 2) ||
+            ((p.kind === "graph" || p.kind === "maze") && route.length < 2) ||
+            (p.kind === "token" && stage !== "answer") ||
             (p.kind === "offering" && selected.length !== 3) ||
             (p.kind === "seal" && slots.some((s) => s === null))
           }
@@ -699,7 +886,7 @@ export function Puzzle({
             void submit(
               p.kind === "order"
                 ? order
-                : p.kind === "graph"
+                : p.kind === "graph" || p.kind === "maze"
                   ? route
                   : p.kind === "offering"
                     ? selected
@@ -713,7 +900,11 @@ export function Puzzle({
             )
           }
         >
-          {busy ? "Listening…" : "Offer your answer"}
+          {busy
+            ? "Listening…"
+            : p.kind === "token"
+              ? "Lift the cup"
+              : "Offer your answer"}
           <ArrowRight size={16} />
         </button>
       </div>

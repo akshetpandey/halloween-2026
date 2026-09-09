@@ -4,7 +4,7 @@ import { cleanupFixtures, wranglerJson } from "../scripts/test-fixtures.mjs";
 const fixtureIds = new Set<string>();
 afterAll(() => cleanupFixtures([...fixtureIds]), 60000);
 import sharp from "sharp";
-import { generate } from "../src/worker/puzzles";
+import { generate, PUZZLE_VERSION } from "../src/worker/puzzles";
 import { guardians } from "../src/shared/catalog";
 import type { State } from "../src/shared/types";
 const base = "http://127.0.0.1:8787";
@@ -88,11 +88,11 @@ describe("local Worker integration", () => {
       };
       expect(encounter.puzzle).toEqual(repeat.puzzle);
       expect(JSON.stringify(encounter)).not.toContain('"answer":');
-      const p = generate(g.family, `halloween-2026:${s.player!.id}:${g.id}:v1`);
-      const answer =
-        p.view.kind === "seal"
-          ? { slots: [0, 1, 2, 3], rotations: [0, 0, 0, 0] }
-          : p.answer;
+      const p = generate(
+        g.family,
+        `halloween-2026:${s.player!.id}:${g.id}:v${PUZZLE_VERSION}`,
+      );
+      const answer = p.answer;
       const bad = (await (
         await c.req("/solve/" + code, "POST", { answer: null })
       ).json()) as { correct: boolean };
@@ -108,6 +108,21 @@ describe("local Worker integration", () => {
     expect(final.summons.map((s) => s.milestone)).toEqual([4, 10]);
     expect(final.chapters).toHaveLength(9);
     expect(final.referrals).toBe(0);
+    wranglerJson([
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--json",
+      "--command",
+      `UPDATE assignments SET version=1,instance='{}' WHERE player_id='${s.player!.id}' AND guardian_id='DEC-01'`,
+    ]);
+    const upgraded = await (
+      await c.req("/guardian/" + codes.find((g) => g.id === "DEC-01")!.code)
+    ).json();
+    expect(upgraded.puzzle.kind).toBe("memory");
+    expect(upgraded.earned).toBe(true);
+    expect((await c.json("/state")).favors).toHaveLength(15);
     expect((await c.req("/account", "DELETE")).status).toBe(404);
     expect((await c.json("/state")).favors).toHaveLength(15);
   });

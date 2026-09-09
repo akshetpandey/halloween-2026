@@ -1,7 +1,7 @@
 /// <reference path="../../worker-configuration.d.ts" />
 import { guardians } from "../shared/catalog";
 import { chapters } from "./story";
-import { generate, validate } from "./puzzles";
+import { generate, validate, PUZZLE_VERSION } from "./puzzles";
 import type { Assignment } from "../shared/types";
 type RowPlayer = {
   id: string;
@@ -418,9 +418,20 @@ async function api(request: Request, env: Env): Promise<Response> {
       .first<{ id: string }>();
     if (!row) fail("This path leads beyond the wood.", 404);
     const g = guardians.find((g) => g.id === row.id)!; // The stable player ID is server issued; answers never leave this module.
-    const generated = generate(g.family, `${env.EVENT_ID}:${p.id}:${g.id}:v1`);
-    await env.DB.prepare("INSERT OR IGNORE INTO assignments VALUES(?,?,?,?)")
-      .bind(p.id, g.id, generated.version, JSON.stringify(generated))
+    const generated = generate(
+      g.family,
+      `${env.EVENT_ID}:${p.id}:${g.id}:v${PUZZLE_VERSION}`,
+    );
+    await env.DB.prepare(
+      "INSERT INTO assignments VALUES(?,?,?,?) ON CONFLICT(player_id,guardian_id) DO UPDATE SET version=excluded.version,instance=excluded.instance WHERE assignments.version<excluded.version AND ?=1",
+    )
+      .bind(
+        p.id,
+        g.id,
+        generated.version,
+        JSON.stringify(generated),
+        p.realm === "preview" ? 1 : 0,
+      )
       .run();
     const record = await env.DB.prepare(
       "SELECT instance FROM assignments WHERE player_id=? AND guardian_id=?",

@@ -4,7 +4,7 @@
 
 - [A Name for the Hollow — narrative arc, characters and scripts](narrative-arc.md) — September 8 treatment, approved by the host for the first website build
 - [Current game rules and narrative integration](narrative-and-game.md)
-- [Selected puzzle families](puzzles.md)
+- [Selected puzzle families](puzzles.md) · [September 9 phone-first revision](puzzle-revision-2026-09-09.md)
 - [Volunteer runbook](../volunteer-runbook.md)
 - [Paper-only ritual alternative](last-leaf-fallback.md)
 

@@ -75,3 +75,7 @@ WEB-BUILD-01 complete: [deployed rehearsal and evidence](app/handoff-2026-09-09-
 ## September 9 — account retention revision
 
 Host requested removal of account/portrait deletion and the seven-day data expiry. [Implementation and verification](app/handoff-2026-09-09-retention.md): deletion UI/API removed, portrait expiry removed from storage and database, onboarding/account copy updated. Session recovery remains available.
+
+## September 9 — phone-first puzzle revision
+
+Implemented host feedback across encounter layout/typography and eleven puzzle families. [Current mechanics, evidence and reference context](design/puzzle-revision-2026-09-09.md). Preview version 2 keeps earned Favors and short routes; resets remain deterministic. Real-phone touch comfort and solve-time playtesting remain open.

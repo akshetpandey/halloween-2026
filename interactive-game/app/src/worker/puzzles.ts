@@ -5,8 +5,9 @@ import {
   type Family,
   type PuzzleView,
   type Point,
+  type WitnessClue,
 } from "../shared/types";
-export const PUZZLE_VERSION = 1;
+export const PUZZLE_VERSION = 2;
 function rng(seed: string) {
   let n = 2166136261;
   for (const c of seed) n = Math.imul(n ^ c.charCodeAt(0), 16777619);
@@ -37,30 +38,69 @@ export function generate(family: Family, seed: string): Assignment {
     kind: "choice",
   };
   if (family === "witnesses") {
-    const opts = symbols.slice(0, 4).map((i) => marks[i]);
-    let statements: { i: number; not: boolean }[] = [];
-    let valid: number[] = [];
-    for (let tries = 0; tries < 1000; tries++) {
-      statements = Array.from({ length: 3 }, () => ({
-        i: int(4),
-        not: random() < 0.5,
-      }));
-      valid = [0, 1, 2, 3].filter(
-        (c) =>
-          statements.filter((s) => (s.not ? c !== s.i : c === s.i)).length ===
-          1,
+    const items = symbols.slice(0, 3);
+    const cases = permutations([0, 1, 2]);
+    const pool: WitnessClue[] = [];
+    for (let a = 0; a < 3; a++)
+      for (let b = 0; b < 3; b++) {
+        pool.push({ kind: "holds", a, b }, { kind: "not", a, b });
+        if (a !== b)
+          pool.push({ kind: "left", a, b }, { kind: "beside", a, b });
+      }
+    let clues: WitnessClue[] = [],
+      solutions: number[][] = [];
+    for (let trial = 0; trial < 3000; trial++) {
+      clues = shuffle(pool).slice(0, 3);
+      if (!clues.some((c) => c.kind === "left" || c.kind === "beside"))
+        continue;
+      const masks = clues.map((c) =>
+        cases.map((x) => +witnessTruth(c, x)).join(""),
       );
-      if (valid.length === 1) break;
+      if (new Set(masks).size !== 3) continue;
+      solutions = cases.filter(
+        (x) => clues.filter((c) => witnessTruth(c, x)).length === 2,
+      );
+      if (
+        solutions.length === 1 &&
+        clues.every(
+          (_, skip) =>
+            cases.filter((x) => {
+              const truths = clues.filter(
+                (c, j) => j !== skip && witnessTruth(c, x),
+              ).length;
+              return truths === 1 || truths === 2;
+            }).length > 1,
+        )
+      )
+        break;
     }
-    if (valid.length !== 1) throw Error("Witness construction failed");
-    v.options = opts;
-    v.text = statements.map(
-      (s, i) =>
-        `${["The first", "The second", "The third"][i]} witness: “The hidden mark is ${s.not ? "not " : ""}${opts[s.i]}.”`,
+    if (solutions.length !== 1) throw Error("Witness construction failed");
+    const choices = shuffle([
+      solutions[0],
+      ...shuffle(cases.filter((x) => x.join() !== solutions[0].join())).slice(
+        0,
+        3,
+      ),
+    ]);
+    const people = ["Fox", "Hare", "Raven"];
+    v.witnessMarks = items;
+    v.witnessClues = clues;
+    v.optionGroups = choices.map((x) => x.map((i) => items[i]));
+    v.options = choices.map((x) =>
+      x.map((item, i) => `${people[i]}: ${marks[items[item]]}`).join(" · "),
     );
-    v.instructions =
-      "Exactly one witness tells the truth. Which mark is hidden?";
-    answer = valid[0];
+    v.text = clues.map(
+      (c, i) =>
+        `${["The ash", "The yew", "The elder"][i]} whispers: “${
+          c.kind === "holds"
+            ? `${people[c.a]} carries the ${marks[items[c.b]]}`
+            : c.kind === "not"
+              ? `${people[c.a]} does not carry the ${marks[items[c.b]]}`
+              : `The ${marks[items[c.a]]} is ${c.kind === "left" ? "somewhere to the left of" : "beside"} the ${marks[items[c.b]]}`
+        }. ”`,
+    );
+    v.instructions = `Fox, Hare and Raven stand left to right. Each carries one different mark: ${items.map((i) => marks[i]).join(", ")}. Exactly TWO statements are true and ONE is a lie. Who carries what?`;
+    answer = choices.findIndex((x) => x.join() === solutions[0].join());
   } else if (family === "matrix") {
     const shapes = shuffle(symbols).slice(0, 3),
       dots = shuffle([0, 1, 2]);
@@ -77,6 +117,7 @@ export function generate(family: Family, seed: string): Assignment {
         Array.from({ length: 24 }, (_, i) => i).filter((i) => i !== correct),
       ).slice(0, 3),
     ]);
+    v.matrixOptions = choices;
     v.options = choices.map(
       (n) =>
         `${marks[Math.floor(n / 3)]} · ${(n % 3) + 1} ${n % 3 === 0 ? "dot" : "dots"}`,
@@ -122,164 +163,218 @@ export function generate(family: Family, seed: string): Assignment {
       "The right panel claims to be a left-to-right reflection. Tap its one false mark.";
   } else if (family === "wheel") {
     v.symbols = symbols;
-    const turns = 1 + int(6);
-    const origin = int(8);
-    v.instructions = `The wheel turns ${turns} places clockwise. Which mark ends in the position currently occupied by ${marks[symbols[origin]]}?`;
-    const correct = marks[symbols[(origin - turns + 8) % 8]];
+    let turns = [1 + int(6), 1 + int(6), 1 + int(6)];
+    while (
+      (turns[0] - turns[1] + turns[2] + 16) % 8 === 0 ||
+      turns[0] === turns[1] ||
+      turns[1] === turns[2]
+    )
+      turns = [1 + int(6), 1 + int(6), 1 + int(6)];
+    const origin = int(8),
+      net = turns[0] - turns[1] + turns[2];
+    v.text = [
+      `1. Rotate ${turns[0]} places clockwise.`,
+      `2. Rotate ${turns[1]} places counterclockwise.`,
+      `3. Rotate ${turns[2]} places clockwise.`,
+    ];
+    v.instructions = `Apply all three turns to the wheel. Which mark finishes in the place currently occupied by ${marks[symbols[origin]]}?`;
+    const correct = marks[symbols[(origin - net + 24) % 8]];
     v.options = shuffle([
       correct,
       ...shuffle(marks.filter((m) => m !== correct)).slice(0, 3),
     ]);
     answer = v.options.indexOf(correct);
   } else if (family === "rule") {
-    const mode = int(3);
-    const accepted = (a: number[]) =>
-      mode === 0
-        ? a[0] === a[2] && a[0] !== a[1]
-        : mode === 1
-          ? new Set(a).size === 3
-          : a[0] === a[1] && a[1] === a[2];
-    const groups: number[][] = [];
-    while (groups.length < 8) {
-      const a = Array.from({ length: 3 }, () => int(8));
-      if (
-        !groups.some((g) => g.join() == a.join()) &&
-        accepted(a) === groups.length < 4
-      )
-        groups.push(a);
-    }
-    v.text = [
-      ...groups
-        .slice(0, 3)
-        .map((g) => "Accepted: " + g.map((i) => marks[i]).join(" · ")),
-      ...groups
-        .slice(4, 7)
-        .map((g) => "Refused: " + g.map((i) => marks[i]).join(" · ")),
+    const mode = int(3),
+      groups = [] as number[][];
+    for (let a = 3; a <= 8; a++)
+      for (let b = 3; b <= 8; b++)
+        for (let c = 3; c <= 8; c++) groups.push([a, b, c]);
+    const good = shuffle(groups.filter((g) => edgeRule(mode, g))),
+      bad = shuffle(groups.filter((g) => !edgeRule(mode, g)));
+    let examples = [
+      ...good.slice(0, 3).map((shapes) => ({ accepted: true, shapes })),
+      ...bad.slice(0, 3).map((shapes) => ({ accepted: false, shapes })),
     ];
-    const correct = groups[3].map((i) => marks[i]).join(" · ");
-    let bad: string[] = [];
-    while (bad.length < 3) {
-      const a = Array.from({ length: 3 }, () => int(8)),
-        s = a.map((i) => marks[i]).join(" · ");
-      if (!accepted(a) && !bad.includes(s)) bad.push(s);
-    }
-    v.options = shuffle([correct, ...bad]);
-    answer = v.options.indexOf(correct);
+    // Include counterexamples until the supported arithmetic rules are distinguished.
+    for (let other = 0; other < 3; other++)
+      if (
+        other !== mode &&
+        examples.every((e) => edgeRule(other, e.shapes) === e.accepted)
+      ) {
+        const g = groups.find((g) => edgeRule(other, g) !== edgeRule(mode, g))!;
+        examples.push({ accepted: edgeRule(mode, g), shapes: g });
+      }
+    v.ruleExamples = examples;
+    v.optionGroups = shuffle([good[3], ...bad.slice(3, 6)]);
+    v.options = v.optionGroups.map((g) =>
+      g.map((n) => `${n}-sided shape`).join(" · "),
+    );
+    answer = v.optionGroups.findIndex((g) => edgeRule(mode, g));
     v.instructions =
-      "The examples follow one law about matching marks. Which new group will be accepted?";
+      "Count the straight edges. One arithmetic rule links the three shapes in every accepted group. Which new group obeys it?";
   } else if (family === "thorns") {
-    v.kind = "graph";
-    v.nodes = [{ x: 25, y: 140, label: "Gate" }];
-    v.edges = [];
-    let route = [0];
-    let sum = 0;
-    let previous = 0;
-    const weights = shuffle([1, 2, 4]);
-    for (let d = 0; d < 3; d++) {
-      const upper = v.nodes.length,
-        lower = upper + 1,
-        merge = upper + 2,
-        x = 85 + d * 110;
-      const high = weights[d];
-      const topHigh = random() < 0.5;
-      v.nodes.push(
-        {
-          x,
-          y: 65,
-          label: String(topHigh ? high : 0),
-          weight: topHigh ? high : 0,
-        },
-        {
-          x,
-          y: 215,
-          label: String(topHigh ? 0 : high),
-          weight: topHigh ? 0 : high,
-        },
-        { x: x + 55, y: 140, label: d === 2 ? "Home" : "•" },
+    v.kind = "maze";
+    const width = 5,
+      height = 6,
+      n = width * height;
+    let paths: number[][] = [],
+      thorns: number[] = [],
+      openings: number[][] = [],
+      chosen: number[] | undefined;
+    for (let attempt = 0; attempt < 500 && !chosen; attempt++) {
+      openings = [];
+      const visited = new Set([0]),
+        stack = [0];
+      while (stack.length) {
+        const a = stack.at(-1)!;
+        const next = shuffle(
+          [
+            a - width,
+            a + width,
+            ...(a % width ? [a - 1] : []),
+            ...(a % width < width - 1 ? [a + 1] : []),
+          ].filter((b) => b >= 0 && b < n && !visited.has(b)),
+        );
+        if (!next.length) {
+          stack.pop();
+          continue;
+        }
+        openings.push([a, next[0]]);
+        visited.add(next[0]);
+        stack.push(next[0]);
+      }
+      const extra: number[][] = [];
+      for (let a = 0; a < n; a++)
+        for (const b of [a + width, ...(a % width < width - 1 ? [a + 1] : [])])
+          if (b < n && !openings.some((e) => e.includes(a) && e.includes(b)))
+            extra.push([a, b]);
+      openings.push(...shuffle(extra).slice(0, 2));
+      paths = mazePaths(openings, 0, n - 1);
+      if (paths.length < 2) continue;
+      thorns = Array.from({ length: n }, (_, i) =>
+        i !== 0 && i !== n - 1 && random() < 0.22 ? 1 : 0,
       );
-      v.edges.push(
-        [previous, upper],
-        [previous, lower],
-        [upper, merge],
-        [lower, merge],
+      const sums = paths.map((path) =>
+        path.reduce((sum, i) => sum + thorns[i], 0),
       );
-      const chosen = random() < 0.5 ? upper : lower;
-      route.push(chosen, merge);
-      sum += v.nodes[chosen].weight!;
-      previous = merge;
+      const candidates = paths.filter(
+        (path, i) =>
+          path.length >= 12 &&
+          sums[i] >= 2 &&
+          sums[i] <= 5 &&
+          sums.filter((x) => x === sums[i]).length === 1,
+      );
+      chosen = shuffle(candidates)[0];
     }
+    if (!chosen) throw Error("Maze construction failed");
+    v.maze = { width, height, openings, thorns };
     v.start = 0;
-    v.end = 9;
-    v.target = sum;
-    v.instructions = `Go from Gate to Home, moving only right. Cross exactly ${sum} thorns in total; the numbers show each branch's thorns. Tap successive stones.`;
-    answer = route;
+    v.end = n - 1;
+    v.target = chosen.reduce((sum, i) => sum + thorns[i], 0);
+    v.instructions = `Find the exit through the walls, crossing exactly ${v.target} thorn patches. Tap neighboring squares or drag along the path. No revisiting squares; tap your previous square to backtrack.`;
+    answer = chosen;
   } else if (family === "constellation") {
     v.kind = "graph";
-    v.start = int(6);
-    let route: number[] = [];
-    let unambiguous = false;
-    while (!unambiguous) {
-      v.nodes = symbols
-        .slice(0, 6)
-        .map((n, i) => ({
-          x: 35 + (i % 3) * 130 + int(60),
-          y: 45 + Math.floor(i / 3) * 140 + int(60),
-          label: marks[n],
-        }));
-      route = [v.start];
-      let current = v.start;
-      unambiguous = true;
-      while (route.length < 4) {
-        const candidates = v.nodes
-          .map((p, i) => ({
-            i,
-            d: Math.hypot(p.x - v.nodes![current].x, p.y - v.nodes![current].y),
-          }))
-          .filter((p) => !route.includes(p.i))
-          .sort((a, b) => a.d - b.d);
-        if (candidates[1].d - candidates[0].d < 14) {
-          unambiguous = false;
-          break;
-        }
-        current = candidates[0].i;
-        route.push(current);
-      }
+    const pattern = constellations[int(constellations.length)];
+    const angle = int(2) * Math.PI,
+      scale = 0.9 + random() * 0.08;
+    const points = pattern.points.map(([x, y], i) => ({
+      x,
+      y,
+      label: String(i + 1),
+    }));
+    const rotate = (p: Point) => ({
+      x:
+        210 +
+        ((p.x - 210) * Math.cos(angle) - (p.y - 145) * Math.sin(angle)) * scale,
+      y:
+        145 +
+        ((p.x - 210) * Math.sin(angle) + (p.y - 145) * Math.cos(angle)) * scale,
+      label: p.label,
+    });
+    const stars = points.map(rotate);
+    for (let i = 0; i < 3; i++) {
+      let node: Point;
+      do {
+        node = { x: 35 + int(350), y: 30 + int(230), label: "" };
+      } while (stars.some((s) => Math.hypot(s.x - node.x, s.y - node.y) < 58));
+      stars.push(node);
     }
-    v.instructions = `Start at ${v.nodes![v.start].label}. Connect to the nearest unvisited star, then repeat twice more (four stars total).`;
-    answer = route;
+    const order = shuffle(stars.map((_, i) => i));
+    v.nodes = order.map((old, i) => ({
+      ...stars[old],
+      label: String.fromCharCode(65 + i),
+    }));
+    answer = points.map((_, i) => order.indexOf(i));
+    v.start = (answer as number[])[0];
+    v.count = points.length;
+    v.constellation = {
+      name: pattern.name,
+      points,
+      route: points.map((_, i) => i),
+    };
+    v.instructions = `Find ${pattern.name} among the stray stars. Start at ${v.nodes[v.start].label} and copy the numbered chart in order (${points.length} stars). The sky may be rotated; its proportions stay the same.`;
   } else if (family === "offering") {
     v.kind = "offering";
-    v.items = shuffle([1, 2, 4, 8, 16, 32]).map((value, i) => ({
-      label: marks[symbols[i]],
-      value,
-    }));
-    const indices = shuffle([0, 1, 2, 3, 4, 5])
-      .slice(0, 3)
-      .sort((a, b) => a - b);
-    v.target = indices.reduce((s, i) => s + v.items![i].value, 0);
+    let values: number[] = [],
+      choices: number[][] = [],
+      indices: number[] | undefined;
+    while (!indices) {
+      values = shuffle(Array.from({ length: 12 }, (_, i) => i + 4)).slice(0, 6);
+      choices = [];
+      for (let a = 0; a < 4; a++)
+        for (let b = a + 1; b < 5; b++)
+          for (let c = b + 1; c < 6; c++) choices.push([a, b, c]);
+      const sums = choices.map((g) => g.reduce((sum, i) => sum + values[i], 0));
+      const sorted = [...sums].sort((a, b) => a - b),
+        middle = sorted[Math.floor(sorted.length / 2)];
+      indices = shuffle(
+        choices.filter(
+          (g, i) =>
+            sums.filter((x) => x === sums[i]).length === 1 &&
+            Math.abs(sums[i] - middle) <= 3 &&
+            g.some((j) => values[j] % 2 === 0) &&
+            g.some((j) => values[j] % 2 !== 0),
+        ),
+      )[0];
+    }
+    v.items = values.map((value, i) => ({ label: marks[symbols[i]], value }));
+    v.target = indices.reduce((sum, i) => sum + values[i], 0);
     v.count = 3;
-    v.instructions = `Choose exactly three offerings whose values total ${v.target}.`;
+    v.instructions = `Choose exactly three offerings totaling ${v.target}. Each offering can be used only once.`;
     answer = indices;
   } else if (family === "seal") {
     v.kind = "seal";
-    v.symbols = symbols.slice(0, 4);
-    v.pieces = shuffle([0, 1, 2, 3]);
-    v.rotations = Array.from({ length: 4 }, () => int(4));
+    const edges = shuffle([1, 2, 3, 4, 5, 6, 7]);
+    v.sealEdges = [
+      [0, edges[0], edges[4], 0],
+      [0, edges[1], edges[5], edges[0]],
+      [0, 0, edges[6], edges[1]],
+      [edges[4], edges[2], 0, 0],
+      [edges[5], edges[3], 0, edges[2]],
+      [edges[6], 0, 0, edges[3]],
+    ];
+    v.pieces = shuffle([1, 2, 3, 4, 5]);
+    v.rotations = [0, ...Array.from({ length: 5 }, () => 1 + int(3))];
     v.instructions =
-      "Restore the seal to match the small reference. Select a piece, then its slot. Rotate pieces with the turn buttons; the small notch points upward in the finished seal.";
-    answer = [0, 1, 2, 3];
+      "Rebuild the six-shard seal. Matching runes must meet along every shared edge; bare edges face outside. The upper-left shard is anchored. Choose a shard, rotate it, then tap a space.";
+    answer = { slots: [0, 1, 2, 3, 4, 5], rotations: [0, 0, 0, 0, 0, 0] };
   } else if (family === "lanterns") {
     v.kind = "lanterns";
     v.size = 3;
-    v.board = Array(9).fill(1);
-    const moves = shuffle([0, 1, 2, 3, 4, 5, 6, 7, 8]).slice(0, 1 + int(3));
-    for (const i of moves) toggle(v.board, i);
+    let moves: number[];
+    do {
+      v.board = Array(9).fill(1);
+      moves = shuffle([0, 1, 2, 3, 4, 5, 6, 7, 8]).slice(0, 3 + int(3));
+      for (const i of moves) toggle(v.board, i);
+    } while (v.board.every((n) => n === 0) || v.board.every((n) => n === 1));
     v.instructions =
       "Wake all nine lanterns. Tapping a lantern changes it and its immediate neighbors above, below, left and right. Reset anytime.";
     answer = moves;
   } else if (family === "token") {
     v.kind = "token";
-    v.tokenStart = int(3);
+    v.tokenStart = 0;
     let pos = v.tokenStart;
     v.swaps = Array.from({ length: 5 }, () => shuffle([0, 1, 2]).slice(0, 2));
     for (const [a, b] of v.swaps) {
@@ -311,17 +406,30 @@ export function generate(family: Family, seed: string): Assignment {
     v.instructions = `Start at ${a + 1}. Trace each line exactly once, ending at ${b + 1}. Tap connected points for a forgiving alternative to tracing. Nodes may be revisited; lines may not.`;
   } else if (family === "untangle") {
     v.kind = "untangle";
-    const n = 5 + int(2);
-    const clean = Array.from({ length: n }, (_, i) => ({
-      x: 210 + 145 * Math.cos((i * 2 * Math.PI) / n),
-      y: 145 + 105 * Math.sin((i * 2 * Math.PI) / n),
+    const n = 7;
+    const clean = Array.from({ length: 6 }, (_, i) => ({
+      x: 210 + 145 * Math.cos((i * Math.PI) / 3),
+      y: 145 + 105 * Math.sin((i * Math.PI) / 3),
       label: String(i + 1),
     }));
-    v.edges = clean.map((_, i) => [i, (i + 1) % n]);
-    v.edges.push([0, 2]);
-    v.nodes = shuffle(clean).map((p, i) => ({ ...p, label: String(i + 1) }));
-    while (!hasCrossings(v.nodes, v.edges))
-      v.nodes = shuffle(clean).map((p, i) => ({ ...p, label: String(i + 1) }));
+    clean.push({ x: 210, y: 145, label: "7" });
+    v.edges = Array.from({ length: 6 }, (_, i) => [i, (i + 1) % 6]);
+    v.edges.push(...Array.from({ length: 6 }, (_, i) => [i, 6]));
+    do {
+      v.nodes = shuffle(clean).map((point, i) => ({
+        ...point,
+        label: String(i + 1),
+      }));
+    } while (
+      crossingPairs(v.nodes, v.edges).length < 6 ||
+      Array.from({ length: n }, (_, i) => i).some(
+        (i) =>
+          !hasCrossings(
+            v.nodes!,
+            v.edges!.filter((e) => !e.includes(i)),
+          ),
+      )
+    );
     v.instructions =
       "Move the stones until none of the threads cross. Drag a stone, or select it and tap a new position. Keep the stones apart.";
     answer = clean;
@@ -341,7 +449,8 @@ export function toggle(board: number[], i: number) {
 function orient(a: Point, b: Point, c: Point) {
   return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
 }
-export function hasCrossings(nodes: Point[], edges: number[][]) {
+export function crossingPairs(nodes: Point[], edges: number[][]) {
+  const result: number[][] = [];
   for (let i = 0; i < edges.length; i++)
     for (let j = i + 1; j < edges.length; j++) {
       const [a, b] = edges[i],
@@ -352,13 +461,147 @@ export function hasCrossings(nodes: Point[], edges: number[][]) {
         r = nodes[c],
         s = nodes[d];
       if (
+        Math.max(p.x, q.x) < Math.min(r.x, s.x) ||
+        Math.max(r.x, s.x) < Math.min(p.x, q.x) ||
+        Math.max(p.y, q.y) < Math.min(r.y, s.y) ||
+        Math.max(r.y, s.y) < Math.min(p.y, q.y)
+      )
+        continue;
+      if (
         orient(p, q, r) * orient(p, q, s) <= 0 &&
         orient(r, s, p) * orient(r, s, q) <= 0
       )
-        return true;
+        result.push([i, j]);
     }
-  return false;
+  return result;
 }
+export function hasCrossings(nodes: Point[], edges: number[][]) {
+  return crossingPairs(nodes, edges).length > 0;
+}
+export function segmentDistance(p: Point, a: Point, b: Point) {
+  const length = (b.x - a.x) ** 2 + (b.y - a.y) ** 2;
+  const t = Math.max(
+    0,
+    Math.min(
+      1,
+      ((p.x - a.x) * (b.x - a.x) + (p.y - a.y) * (b.y - a.y)) / length,
+    ),
+  );
+  return Math.hypot(p.x - a.x - t * (b.x - a.x), p.y - a.y - t * (b.y - a.y));
+}
+export function permutations(a: number[]): number[][] {
+  return a.length
+    ? a.flatMap((n, i) =>
+        permutations(a.filter((_, j) => j !== i)).map((t) => [n, ...t]),
+      )
+    : [[]];
+}
+export function witnessTruth(c: WitnessClue, assignment: number[]) {
+  if (c.kind === "holds") return assignment[c.a] === c.b;
+  if (c.kind === "not") return assignment[c.a] !== c.b;
+  const a = assignment.indexOf(c.a),
+    b = assignment.indexOf(c.b);
+  return c.kind === "left" ? a < b : Math.abs(a - b) === 1;
+}
+export function edgeRule(mode: number, [a, b, c]: number[]) {
+  return mode === 0
+    ? a + c === 2 * b
+    : mode === 1
+      ? a + c === b
+      : a + b + c === 12;
+}
+export function mazePaths(edges: number[][], start: number, end: number) {
+  const paths: number[][] = [];
+  function walk(route: number[]) {
+    const a = route.at(-1)!;
+    if (a === end) {
+      paths.push(route);
+      return;
+    }
+    for (const e of edges) {
+      if (!e.includes(a)) continue;
+      const b = e[0] === a ? e[1] : e[0];
+      if (!route.includes(b)) walk([...route, b]);
+    }
+  }
+  walk([start]);
+  return paths;
+}
+export function validSeal(edges: number[][], input: unknown) {
+  if (
+    !input ||
+    typeof input !== "object" ||
+    !("slots" in input) ||
+    !("rotations" in input)
+  )
+    return false;
+  const { slots, rotations } = input;
+  if (
+    !Array.isArray(slots) ||
+    !Array.isArray(rotations) ||
+    slots.length !== 6 ||
+    rotations.length !== 6 ||
+    new Set(slots).size !== 6 ||
+    !slots.every((i) => Number.isInteger(i) && i >= 0 && i < 6) ||
+    !rotations.every((i) => Number.isInteger(i) && i >= 0 && i < 4) ||
+    slots[0] !== 0 ||
+    rotations[0] !== 0
+  )
+    return false;
+  const at = (slot: number, side: number) =>
+    edges[slots[slot]][(side - rotations[slots[slot]] + 4) % 4];
+  for (let i = 0; i < 6; i++)
+    for (let side = 0; side < 4; side++) {
+      const neighbor =
+        side === 0
+          ? i >= 3
+            ? i - 3
+            : -1
+          : side === 1
+            ? i % 3 < 2
+              ? i + 1
+              : -1
+            : side === 2
+              ? i < 3
+                ? i + 3
+                : -1
+              : i % 3
+                ? i - 1
+                : -1;
+      if (
+        neighbor < 0
+          ? at(i, side) !== 0
+          : at(i, side) === 0 || at(i, side) !== at(neighbor, (side + 2) % 4)
+      )
+        return false;
+    }
+  return true;
+}
+// Simplified proportional star patterns, oriented for play; see design/puzzle-revision-2026-09-09.md.
+export const constellations = [
+  {
+    name: "Cassiopeia",
+    points: [
+      [40, 60],
+      [120, 220],
+      [205, 95],
+      [285, 195],
+      [375, 50],
+    ],
+  },
+  {
+    name: "Corona Borealis",
+    points: [
+      [55, 55],
+      [75, 130],
+      [130, 205],
+      [205, 235],
+      [285, 215],
+      [340, 145],
+      [365, 65],
+    ],
+  },
+];
 export function validate(p: Assignment, input: unknown): boolean {
   const v = p.view;
   if (v.kind === "lanterns") {
@@ -372,6 +615,7 @@ export function validate(p: Assignment, input: unknown): boolean {
     for (const i of input) toggle(board, i);
     return board.every((n) => n === 1);
   }
+  if (v.kind === "seal" && v.sealEdges) return validSeal(v.sealEdges, input);
   if (v.kind === "seal")
     return (
       typeof input === "object" &&
@@ -407,16 +651,35 @@ export function validate(p: Assignment, input: unknown): boolean {
       )
     )
       return false;
-    // Prevent collinear nodes hiding a non-adjacent edge.
+    // A stone cannot hide a thread passing through it; extensions beyond endpoints are fine.
     for (const [a, b] of v.edges!)
       for (let c = 0; c < points.length; c++)
         if (
           c !== a &&
           c !== b &&
-          Math.abs(orient(points[a], points[b], points[c])) < 0.1
+          segmentDistance(points[c], points[a], points[b]) < 10
         )
           return false;
     return !hasCrossings(points, v.edges!);
+  }
+  if (v.kind === "maze") {
+    if (
+      !Array.isArray(input) ||
+      input[0] !== v.start ||
+      input.at(-1) !== v.end ||
+      new Set(input).size !== input.length ||
+      !input.every(
+        (i) => Number.isInteger(i) && i >= 0 && i < v.maze!.thorns.length,
+      )
+    )
+      return false;
+    return (
+      input
+        .slice(1)
+        .every((b, j) =>
+          v.maze!.openings.some((e) => e.includes(input[j]) && e.includes(b)),
+        ) && input.reduce((sum, i) => sum + v.maze!.thorns[i], 0) === v.target
+    );
   }
   if (v.family === "sigil") {
     if (

@@ -52,13 +52,20 @@ try {
   const owl = codes.find((c) => c.id === "BUY-02");
   const page = await json(0, "/guardian/" + owl.code);
   const puzzle = page.puzzle;
-  const answer = puzzle.options.findIndex(
-    (mark) =>
-      puzzle.text.filter((t) => {
-        const m = t.match(/is (not )?(.+)\.”/);
-        return m[1] ? mark !== m[2] : mark === m[2];
-      }).length === 1,
-  );
+  const answer = puzzle.optionGroups.findIndex((group) => {
+    const x = group.map((mark) => puzzle.witnessMarks.indexOf(mark));
+    return (
+      puzzle.witnessClues.filter((c) =>
+        c.kind === "holds"
+          ? x[c.a] === c.b
+          : c.kind === "not"
+            ? x[c.a] !== c.b
+            : c.kind === "left"
+              ? x.indexOf(c.a) < x.indexOf(c.b)
+              : Math.abs(x.indexOf(c.a) - x.indexOf(c.b)) === 1,
+      ).length === 2
+    );
+  });
   assert(answer >= 0);
   const award = await json(0, "/solve/" + owl.code, "POST", { answer });
   assert.equal(award.correct, true);

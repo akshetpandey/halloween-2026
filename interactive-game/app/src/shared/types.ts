@@ -24,12 +24,26 @@ export type PuzzleView = {
     | "order"
     | "memory"
     | "reflection"
+    | "maze"
     | "graph"
     | "offering"
     | "seal"
     | "lanterns"
     | "token"
     | "untangle";
+  optionGroups?: number[][];
+  ruleExamples?: { accepted: boolean; shapes: number[] }[];
+  matrixOptions?: number[];
+  witnessClues?: WitnessClue[];
+  witnessMarks?: number[];
+  sealEdges?: number[][];
+  constellation?: { name: string; points: Point[]; route: number[] };
+  maze?: {
+    width: number;
+    height: number;
+    openings: number[][];
+    thorns: number[];
+  };
   options?: string[];
   text?: string[];
   symbols?: number[];
@@ -98,4 +112,10 @@ export const familyNames: Record<Family, string> = {
   token: "Hidden Token",
   sigil: "Unbroken Sigil",
   untangle: "Untangle the Threads",
+};
+
+export type WitnessClue = {
+  kind: "holds" | "not" | "left" | "beside";
+  a: number;
+  b: number;
 };

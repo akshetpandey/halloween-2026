@@ -19,8 +19,8 @@ export function WoodlandQR({
         className="woodland-qr"
         src={partifulArt}
         alt={label}
-        width={1280}
-        height={1280}
+        width={1254}
+        height={1254}
       />
     );
   return <DynamicWoodlandQR value={value} label={label} />;

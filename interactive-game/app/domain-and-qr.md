@@ -13,9 +13,9 @@ Host instruction, September 9, 2026: connect the purchased `hollow-court.com` do
 
 ## Current Partiful artwork
 
-The entrance uses [partiful-qr-art.webp](src/client/assets/partiful-qr-art.webp), a 1280px QR-conditioned illustration generated through the host-authorized Hugging Face Space. Trees, doors and mist carry the encoded pattern; no SVG grid is painted over it. It encodes exactly `HTTPS://HOLLOW-COURT.COM/R` with Q correction. Selection is bound to that normalized payload; other destinations keep their own dynamically encoded QR. The image is hosted as a Cloudflare static asset, with no live dependency on the generator. [Exact prompt and settings](src/client/assets/partiful-qr-art.settings.json).
+The entrance uses [partiful-qr-art.webp](src/client/assets/partiful-qr-art.webp), the host-selected original built-in generated woodland image, encoded losslessly at 1254px. Oak branches, foliage and lanterns carry the pattern; no SVG grid is painted over it. Its source QR encodes `HTTPS://HOLLOW-COURT.COM/R` with H correction. Selection is bound to that exact normalized payload; other destinations keep their own dynamically encoded QR. [Exact prompt and provenance](src/client/assets/partiful-qr-art.settings.json).
 
-Apple Vision decodes the delivered image in all 15 size/blur checks. jsQR decodes 6/15, so decoder compatibility remains a stated limitation, not proof that it cannot scan. The host also reported a successful phone scan of the earlier built-in generated image; that is a separate candidate, not a phone test of the selected asset. [Verification and deployment](handoff-2026-09-09-integrated-qr.md).
+The host reported a successful phone scan of this image. Apple Vision decodes 14/15 size/blur cases, including every 280px mobile and 320px desktop case. The 244px/0.8px blur stress case fails and is retained explicitly in regression expectations. jsQR is less compatible with this artwork. [Current selection and deployment](handoff-2026-09-09-original-qr.md). The earlier Hugging Face deployment is superseded.
 
 ## Dynamic Summons artwork and error correction
 

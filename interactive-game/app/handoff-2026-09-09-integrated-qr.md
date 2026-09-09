@@ -1,5 +1,7 @@
 # Integrated entrance QR deployment
 
+Superseded by the host’s preference for the [original generated artwork](handoff-2026-09-09-original-qr.md). Results below describe the earlier Hugging Face asset.
+
 - Session: Hollow Court integrated QR artwork; September 9, 2026.
 - Checkout: shared `main`, base `8d70d8c`.
 - Status: entrance artwork implemented and deployed. Personalized Summons artwork remains a separate follow-up.

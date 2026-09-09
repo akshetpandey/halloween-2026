@@ -8,6 +8,6 @@ Exact generation prompt:
 
 ## Integrated Partiful QR
 
-`partiful-qr-art.webp` is the selected 1280×1280 artifact generated September 9 through the signed-in [Oysiyl artistic QR Space](https://huggingface.co/spaces/Oysiyl/AI-QR-code-generator). It is copied unchanged from the generated WebP; no overlaid modules or raster repairs were added. Its exact payload is `HTTPS://HOLLOW-COURT.COM/R`. [Exact prompt and generation settings](partiful-qr-art.settings.json). This selected asset used the hosted QR-conditioned pipeline, not the built-in image tool or fallback CLI. The earlier built-in experiment and its prompt are recorded in [the experiment handoff](../../../handoff-2026-09-09-qr-diffusion.md).
+`partiful-qr-art.webp` is the original built-in generated artwork selected by the host after comparing it with the Hugging Face replacement. It is encoded as lossless WebP at its original 1254×1254 size, without resizing, an overlay or raster repairs. Its exact payload is `HTTPS://HOLLOW-COURT.COM/R`. [Exact built-in edit prompt and provenance](partiful-qr-art.settings.json).
 
-The app selects this image only for that payload; personalized Summons continue to use `woodland-portal.webp` inside their dynamic QR renderer. See [native verification](../../../handoff-2026-09-09-integrated-qr.md).
+The source PNG is `exec-24e4ebaa-bcdc-40a1-876c-772106e233c9.png` from the built-in image tool. The app selects this asset only for its exact payload; personalized Summons continue to use `woodland-portal.webp` in their dynamic QR renderer. [Selection and scan evidence](../../../handoff-2026-09-09-original-qr.md).

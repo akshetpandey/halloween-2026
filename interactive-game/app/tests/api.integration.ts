@@ -59,7 +59,18 @@ async function registration(invite?: string) {
 describe("local Worker integration", () => {
   it("seals real entry and protects mutations and photos", async () => {
     const c = new Client();
-    expect((await c.json("/state")).status).toBe("sealed");
+    const entrance = await c.json("/state");
+    expect(entrance.status).toBe("sealed");
+    expect(entrance.partifulUrl).toBe("https://hollow-court.com/r");
+    for (const path of ["/r", "/R"]) {
+      const redirect = await fetch(base + path + "?next=https://example.com", {
+        redirect: "manual",
+      });
+      expect(redirect.status).toBe(302);
+      expect(redirect.headers.get("location")).toBe(
+        "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u",
+      );
+    }
     expect((await c.req("/session/start", "POST", {})).status).toBe(423);
     expect(
       (await fetch(base + "/api/session/start", { method: "POST" })).status,
@@ -131,6 +142,21 @@ describe("local Worker integration", () => {
     await host.json("/session/start", "POST", { preview: true, demo: true });
     const hs = await host.json("/debug/progress", "POST", { count: 4 });
     const token = hs.summons[0].token;
+    expect(token).toMatch(/^[A-Z2-7]{12}$/);
+    expect((await host.json("/state")).summons[0].token).toBe(token);
+    const original = wranglerJson([
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--json",
+      "--command",
+      `SELECT token FROM summons WHERE inviter_id='${hs.player!.id}' AND milestone=4`,
+    ])[0].results[0].token as string;
+    expect(original).toMatch(/^[a-f0-9]{32}$/);
+    expect(await (await host.req("/invite/" + original)).json()).toEqual(
+      await (await host.req("/invite/" + token)).json(),
+    );
     const guest = new Client(),
       other = new Client();
     const entry = await guest.json("/session/start", "POST", { preview: true });
@@ -141,7 +167,7 @@ describe("local Worker integration", () => {
     expect((await guest.req("/register", "POST", bad)).status).toBe(422);
     const [a, b] = await Promise.all([
       guest.req("/register", "POST", await registration(token)),
-      other.req("/register", "POST", await registration(token)),
+      other.req("/register", "POST", await registration(original)),
     ]);
     expect([a.status, b.status].sort()).toEqual([200, 409]);
     const winner = a.ok ? guest : other,

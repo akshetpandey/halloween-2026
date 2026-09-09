@@ -26,7 +26,7 @@ Before opening, including when arriving through a deep link:
 > Return when the eighth bell has sounded.
 > Until then, the mortal invitation remains.
 
-Show a stylized QR linking to the host's Partiful invitation, plus an ordinary tappable invitation link. The working domain is `hollow-court.com`; availability, ownership and final URL are unconfirmed. The 8 p.m. site opening does not change the still-proposed 9:30 p.m. party doors.
+Show a stylized QR linking to the host's Partiful invitation, plus an ordinary tappable invitation link. Confirmed September 9: the host purchased **hollow-court.com** and authorized connecting it to the existing Cloudflare Worker. The short `/r` route redirects to Partiful; current deployment remains a rehearsal. The 8 p.m. site opening does not change the still-proposed 9:30 p.m. party doors.
 
 On first entry after opening:
 
@@ -69,7 +69,7 @@ At close, the top costume receives **+3 points** under the conversation's propos
 
 ## Summons — invitations at four and ten
 
-Each milestone grants one single-use invitation QR/token. A guest may choose **Not now**; the opportunity remains prominent on the dashboard and in Summons. Use an on-theme border or frame while preserving readable code geometry, contrast and clear space. Include a copyable/tappable link and test actual phones before approving styling.
+Each milestone grants one single-use invitation QR/token. A guest may choose **Not now**; the opportunity remains prominent on the dashboard and in Summons. September 9 visual direction: use woodland imagery woven through the QR, like the host’s artistic-code references. Preserve structural markers, contrast and clear space, and verify decoding. Compact invitation aliases and the host-owned domain reduce density. Include a copyable/tappable link and test actual phones before approving styling.
 
 Award the inviter **+1 point only when a previously unregistered guest completes name/selfie registration through that token**. Existing players do not qualify. Each new guest credits at most one inviter; prevent self-referrals, repeated token use and duplicate registration retries from creating extra points. Proposed maximum is two referral points, one per Summons. A referee does not automatically receive a point for joining. Unused opportunities expire for scoring when the event closes.
 
@@ -100,4 +100,4 @@ The host gives a separate, photogenic crown, approximately $100. The host's fitt
 
 ## Next design decisions
 
-Prototype and playtest the selected puzzle families first, especially Unbroken Sigil's touch behavior; assign entities afterward. Confirm the two additional decor integrations and five bought figures; reconcile the revised prop allowance and crown with the party budget. Settle voting confidence/ties, referral cap, host eligibility, absent winners, helper participation without a selfie and the precise closing-time interpretation. Domain selection, artwork generation, purchasing, fabrication and application implementation are future work.
+Prototype and playtest the selected puzzle families first, especially Unbroken Sigil's touch behavior; assign entities afterward. Confirm the two additional decor integrations and five bought figures; reconcile the revised prop allowance and crown with the party budget. Settle voting confidence/ties, referral cap, host eligibility, absent winners, helper participation without a selfie and the precise closing-time interpretation. Domain connection, website artwork and rehearsal implementation are documented in the [app](../app/README.md); purchasing physical props, fabrication and final event readiness remain future work.

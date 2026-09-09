@@ -8,7 +8,7 @@
 | SUC-02 | Review voting/ties, referral cap, crown eligibility and precise closing time | P2 | Sep 13 | Ready to review — 15-entity target and host mechanics documented |
 | SUC-03 | Confirm two volunteers and staging boundaries | P2 | Sep 20 | Needs input |
 | NFC-01 | Select TAG-01 coins or TAG-02 stickers; arrange two iPhones and one Android | P2 | Sep 20 | Shortlist verified; buying and phone selection pending |
-| WEB-01 | Select domain and later build the Cloudflare puzzle/Favor flow | P2 | Sep 27 | Rehearsal deployed Sep 9; permanent domain and final event work pending |
+| WEB-01 | Select domain and later build the Cloudflare puzzle/Favor flow | P2 | Sep 27 | Rehearsal deployed Sep 9; hollow-court.com connected; final event work pending |
 | NFC-02 | One finished base or separate moon touchpoint pilot on three phones; no QR | P2 | Sep 27 | To do |
 | WEB-02 | Unique claims, recovery, admin and timing tests | P2 | Oct 4 | Scoring/recovery/DST tests pass; admin/finalization and real-phone tests pending |
 | PROP-SUC-01 | Prepare 15 entities: 5 decor + 5 purchased + 5 homemade stick/straw | P2 | Oct 11 | To do — roster review and mounted prototype first; crown separate |
@@ -50,7 +50,7 @@ A production tag is complete only when URL readback, website flow, mounted scan 
 | FIG-SOURCE-02 | Compare five active Amazon figures and re-cost tags/mounts/five handmade pieces | P2 | Sep 13 | To do — retained listings need current offer checks |
 | CROWN-01 | Source a separate photogenic winner crown around $100 | P2 | Sep 20 | To do — no item selected or purchased |
 | RULE-01 | Decide sparse votes/ties, referral cap, host eligibility, absent winners and photo policy | P2 | Sep 20 | Needs input after proposal review |
-| WEB-DESIGN-01 | Review revised guest/admin flow, uniqueness, QR scope and DST schedule | P2 | Sep 20 | Ready to review — Cloudflare chosen, domain pending |
+| WEB-DESIGN-01 | Review revised guest/admin flow, uniqueness, QR scope and DST schedule | P2 | Sep 20 | Ready to review — Cloudflare and hollow-court.com connected |
 
 September 9: website implementation is now in rehearsal; NFC fabrication remains future work. Earlier documentation completion did not imply a working site, artwork, validated bank, orders or encoded tags.
 
@@ -79,3 +79,7 @@ Host requested removal of account/portrait deletion and the seven-day data expir
 ## September 9 — phone-first puzzle revision
 
 Implemented host feedback across encounter layout/typography and eleven puzzle families. [Current mechanics, evidence and reference context](design/puzzle-revision-2026-09-09.md). Preview version 2 keeps earned Favors and short routes; resets remain deterministic. Real-phone touch comfort and solve-time playtesting remain open.
+
+## September 9 — domain and illustrated QR revision
+
+The host reports purchasing `hollow-court.com`; it is connected to the existing rehearsal Worker. [Implementation notes](app/domain-and-qr.md) cover the short Partiful redirect, stable invitation aliases, illustrated QR composition and verification. Domain price was not supplied; no new purchase was made by this session. Physical NFC encoding and final event readiness remain pending.

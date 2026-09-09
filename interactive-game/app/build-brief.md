@@ -19,7 +19,7 @@ Selfies serve as avatars, contest entries and final portraits. Plan upload limit
 ## Hosting direction and current implementation
 The host selected **Cloudflare Workers with other Cloudflare services as backend**. Proposed service roles: Workers handles requests/rules, D1 holds structured game data, R2 stores guest selfies and entity artwork. The first build uses Workers/static assets + D1 + private KV portraits because R2 is not activated on this account. See the [app README](README.md) for the deployed architecture and configurable rehearsal defaults; the R2 role here is the original proposal.
 
-Use a stable host-controlled HTTPS domain, with `hollow-court.com` only a candidate. No dependency on the Mac running music/TV. Entity links use opaque, unguessable tokens, e.g. `/s/<token>` as an illustrative route shape. Do not encode placeholder URLs. Keep hidden tag URLs out of public collection data and client bundles. Static NFC links remain shareable and do not prove physical presence.
+Use the host-controlled HTTPS domain **hollow-court.com**, purchased by the host and connected to the rehearsal Worker September 9. No dependency on the Mac running music/TV. Entity links use opaque, unguessable tokens, e.g. `/s/<token>` as an illustrative route shape. Do not encode placeholder URLs. Keep hidden tag URLs out of public collection data and client bundles. Static NFC links remain shareable and do not prove physical presence.
 
 ## Planned records and invariants
 | Record | Required responsibility |

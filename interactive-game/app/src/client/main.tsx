@@ -148,7 +148,7 @@ function App() {
     }
   }, [path, state?.player?.id, state?.player?.registered, state?.status]);
   useEffect(() => {
-    if (path.startsWith("/s/")) {
+    if (/^\/s\//i.test(path)) {
       setInvite(null);
       void api<typeof invite>("/invite/" + path.split("/")[2])
         .then(setInvite)
@@ -254,7 +254,7 @@ function App() {
   const locked =
     path === "/sealed" ||
     (!["/join", "/recover", "/account"].includes(path) &&
-      !path.startsWith("/s/") &&
+      !/^\/s\//i.test(path) &&
       state?.status === "sealed");
   let content: React.ReactNode;
   if (!state)
@@ -404,7 +404,7 @@ function App() {
         </form>
       </section>
     );
-  else if (path.startsWith("/s/"))
+  else if (/^\/s\//i.test(path))
     content = (
       <section className="invite-arrival narrow page-top">
         <Mark index={1} size={48} />
@@ -927,12 +927,12 @@ function App() {
                           : "You know your way among the creatures now. Find someone here who does not. Let this become their evening too."}
                       </p>
                       <WoodlandQR
-                        value={window.location.origin + "/s/" + s.token}
+                        value={state.publicOrigin + "/s/" + s.token}
                       />
                       <button
                         className="btn secondary"
                         onClick={() =>
-                          void copy(window.location.origin + "/s/" + s.token)
+                          void copy(state.publicOrigin + "/s/" + s.token)
                         }
                       >
                         <Copy size={15} /> Copy invitation link

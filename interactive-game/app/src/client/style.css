@@ -543,10 +543,10 @@ main {
 }
 .woodland-qr {
   display: block;
-  width: 244px;
+  width: 320px;
   height: auto;
   max-width: 100%;
-  border: 7px solid #c2c89e12;
+  border: 1px solid #c2c89e33;
   box-shadow: 0 12px 40px #0002;
   border-radius: 6px;
 }
@@ -2094,7 +2094,7 @@ footer small {
     margin: 10px auto;
   }
   .woodland-qr {
-    width: 246px;
+    width: 280px;
   }
   .whisper {
     font-size: 20px;

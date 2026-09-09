@@ -3,14 +3,22 @@ import assert from "node:assert/strict";
 import sharp from "sharp";
 import { cleanupFixtures } from "./test-fixtures.mjs";
 const fixtureIds = new Set();
-const origin = "https://hollow-court-preview.computer-toolbox.workers.dev";
+const origin = "https://hollow-court.com";
 const state = await (await fetch(origin + "/api/state")).json();
 assert.equal(
   state.previewAvailable,
   true,
   "Refuse to create test players outside rehearsal",
 );
-assert.equal(state.partifulUrl, "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u");
+assert.equal(state.partifulUrl, origin + "/r");
+for (const path of ["/r", "/R"]) {
+  const redirect = await fetch(origin + path, { redirect: "manual" });
+  assert.equal(redirect.status, 302);
+  assert.equal(
+    redirect.headers.get("location"),
+    "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u",
+  );
+}
 const home = await fetch(origin);
 assert.equal(home.status, 200);
 assert.match(
@@ -74,6 +82,9 @@ try {
   assert.equal(again.newFavor, false);
   const host = await json(0, "/debug/progress", "POST", { count: 4 });
   const token = host.summons[0].token;
+  assert.match(token, /^[A-Z2-7]{12}$/);
+  assert.equal((await fetch(origin + "/S/" + token)).status, 200);
+  assert.equal((await json(0, "/invite/" + token)).used, false);
   const guest = await json(1, "/session/start", "POST", { preview: true });
   const photo = await sharp({
     create: { width: 80, height: 80, channels: 3, background: "#819366" },

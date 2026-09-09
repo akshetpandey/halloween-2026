@@ -3,6 +3,7 @@ import { guardians } from "../shared/catalog";
 import { chapters } from "./story";
 import { generate, validate, PUZZLE_VERSION } from "./puzzles";
 import type { Assignment } from "../shared/types";
+import { shortInviteCode } from "../shared/links";
 type RowPlayer = {
   id: string;
   name: string;
@@ -119,16 +120,35 @@ async function state(env: Env, p: RowPlayer | null) {
   const invites = p
     ? (
         await env.DB.prepare(
-          "SELECT token,milestone,redeemed_at FROM summons WHERE inviter_id=? ORDER BY milestone",
+          "SELECT token,short_code,milestone,redeemed_at FROM summons WHERE inviter_id=? ORDER BY milestone",
         )
           .bind(p.id)
           .all<{
             token: string;
+            short_code: string | null;
             milestone: number;
             redeemed_at: number | null;
           }>()
       ).results
     : [];
+  for (const invite of invites) {
+    // Conditional updates preserve an alias if concurrent page loads race.
+    for (let attempt = 0; !invite.short_code && attempt < 3; attempt++) {
+      await env.DB.prepare(
+        "UPDATE OR IGNORE summons SET short_code=? WHERE token=? AND short_code IS NULL",
+      )
+        .bind(shortInviteCode(), invite.token)
+        .run();
+      const saved = await env.DB.prepare(
+        "SELECT short_code FROM summons WHERE token=?",
+      )
+        .bind(invite.token)
+        .first<{ short_code: string | null }>();
+      invite.short_code = saved?.short_code || null;
+    }
+    if (!invite.short_code)
+      fail("The invitation could not be prepared. Please try again.", 503);
+  }
   return {
     player: p
       ? {
@@ -144,12 +164,13 @@ async function state(env: Env, p: RowPlayer | null) {
         ? "open"
         : phase(env.OPENS_AT, env.CLOSES_AT),
     previewAvailable: env.PREVIEW === "true",
-    partifulUrl: env.PARTIFUL_URL,
+    partifulUrl: env.PUBLIC_ORIGIN + "/r",
+    publicOrigin: env.PUBLIC_ORIGIN,
     opensAt: env.OPENS_AT,
     closesAt: env.CLOSES_AT,
     favors,
     summons: invites.map((s) => ({
-      token: s.token,
+      token: s.short_code!,
       milestone: s.milestone,
       redeemed: !!s.redeemed_at,
     })),
@@ -286,8 +307,21 @@ async function api(request: Request, env: Env): Promise<Response> {
     }).formData();
     const name = String(form.get("name") || "").trim(),
       consent = form.get("consent") === "yes",
-      photo = form.get("photo"),
-      invite = String(form.get("invite") || "");
+      photo = form.get("photo");
+    let invite = String(form.get("invite") || "");
+    if (invite) {
+      const original = await env.DB.prepare(
+        "SELECT token FROM summons WHERE token=? OR short_code=?",
+      )
+        .bind(invite, invite)
+        .first<{ token: string }>();
+      if (!original)
+        fail(
+          "This invitation could not be found. You can still join without it.",
+          409,
+        );
+      invite = original.token;
+    }
     if (name.length < 1 || name.length > 40 || /[\u0000-\u001f<>]/.test(name))
       fail("Use a name between 1 and 40 characters.", 422);
     if (!consent)
@@ -358,9 +392,9 @@ async function api(request: Request, env: Env): Promise<Response> {
   if (path.startsWith("/api/invite/") && request.method === "GET") {
     const token = path.split("/").at(-1)!;
     const invite = await env.DB.prepare(
-      "SELECT s.milestone,s.redeemed_at,p.name,p.realm FROM summons s JOIN players p ON p.id=s.inviter_id WHERE s.token=?",
+      "SELECT s.milestone,s.redeemed_at,p.name,p.realm FROM summons s JOIN players p ON p.id=s.inviter_id WHERE s.token=? OR s.short_code=?",
     )
-      .bind(token)
+      .bind(token, token)
       .first<{
         milestone: number;
         redeemed_at: number | null;
@@ -589,9 +623,19 @@ async function api(request: Request, env: Env): Promise<Response> {
 export default {
   async fetch(request, env, ctx) {
     try {
-      const response = new URL(request.url).pathname.startsWith("/api/")
-        ? await api(request, env)
-        : await env.ASSETS.fetch(request);
+      const pathname = new URL(request.url).pathname;
+      const response =
+        /^\/r$/i.test(pathname) && ["GET", "HEAD"].includes(request.method)
+          ? new Response(null, {
+              status: 302,
+              headers: {
+                Location: env.PARTIFUL_URL,
+                "Cache-Control": "no-store",
+              },
+            })
+          : pathname.startsWith("/api/")
+            ? await api(request, env)
+            : await env.ASSETS.fetch(request);
       const secured = new Response(response.body, response);
       secured.headers.set("X-Content-Type-Options", "nosniff");
       secured.headers.set("Referrer-Policy", "same-origin");

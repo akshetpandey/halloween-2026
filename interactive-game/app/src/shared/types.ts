@@ -79,6 +79,7 @@ export type State = {
   status: "sealed" | "open" | "closed";
   previewAvailable: boolean;
   partifulUrl: string;
+  publicOrigin: string;
   opensAt: string;
   closesAt: string;
   favors: string[];

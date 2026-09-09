@@ -1,5 +1,8 @@
 import QRCode from "qrcode";
 import { useMemo } from "react";
+import woodland from "./assets/woodland-portal.webp";
+import { qrPayload } from "../shared/links";
+
 export function WoodlandQR({
   value,
   label = "An invitation through the leaves",
@@ -8,11 +11,11 @@ export function WoodlandQR({
   label?: string;
 }) {
   const qr = useMemo(
-    () => QRCode.create(value, { errorCorrectionLevel: "H" }),
+    () => QRCode.create(qrPayload(value), { errorCorrectionLevel: "Q" }),
     [value],
   );
   const n = qr.modules.size,
-    pad = 11,
+    pad = 4,
     size = n + pad * 2;
   return (
     <svg
@@ -22,68 +25,47 @@ export function WoodlandQR({
       role="img"
       aria-label={label}
     >
-      <rect width={size} height={size} rx="3" fill="#ede9d6" />
-      <g fill="none" stroke="#637650" strokeWidth=".42">
-        <path
-          d={`M3 15Q1 2 15 3M${size - 15} 3Q${size - 1} 2 ${size - 3} 15M3 ${size - 15}Q1 ${size - 2} 15 ${size - 3}M${size - 15} ${size - 3}Q${size - 1} ${size - 2} ${size - 3} ${size - 15}`}
-        />
-      </g>
-      {Array.from({ length: 8 }, (_, i) => {
-        const k = 8 + (i * (size - 16)) / 8;
+      <rect width={size} height={size} fill="#f5f0dd" />
+      <image href={woodland} x={pad} y={pad} width={n} height={n} />
+      {Array.from({ length: n * n }, (_, i) => {
+        const x = pad + (i % n),
+          y = pad + Math.floor(i / n);
+        const dark = !!qr.modules.data[i],
+          reserved = !!qr.modules.reservedBit[i];
+        const fill = dark ? "#10261c" : "#fffbe9";
+        const col = i % n,
+          row = Math.floor(i / n);
+        // Q correction covers this small window; structural markers stay intact.
+        const doorway =
+          !reserved &&
+          Math.abs(col - Math.floor(n / 2)) <= 2 &&
+          row >= Math.floor(n * 0.44) &&
+          row < Math.floor(n * 0.44) + 7;
+        if (doorway) return null;
         return (
-          <g key={i} fill={i % 2 ? "#9b9a65" : "#536c49"} opacity=".85">
-            <ellipse
-              cx={k}
-              cy="4"
-              rx="2.5"
-              ry=".85"
-              transform={`rotate(-30 ${k} 4)`}
+          <g key={i}>
+            <rect
+              x={x}
+              y={y}
+              width="1"
+              height="1"
+              fill={fill}
+              opacity={reserved ? 0.85 : 0.12}
             />
-            <ellipse
-              cx={k}
-              cy={size - 4}
-              rx="2.5"
-              ry=".85"
-              transform={`rotate(30 ${k} ${size - 4})`}
-            />
-            <ellipse
-              cx="4"
-              cy={k}
-              rx=".85"
-              ry="2.5"
-              transform={`rotate(-30 4 ${k})`}
-            />
-            <ellipse
-              cx={size - 4}
-              cy={k}
-              rx=".85"
-              ry="2.5"
-              transform={`rotate(30 ${size - 4} ${k})`}
-            />
+            {!reserved && (
+              <rect
+                x={x + 0.28}
+                y={y + 0.28}
+                width=".44"
+                height=".44"
+                rx=".10"
+                fill={fill}
+                opacity=".94"
+              />
+            )}
           </g>
         );
       })}
-      <rect
-        x={pad - 4}
-        y={pad - 4}
-        width={n + 8}
-        height={n + 8}
-        fill="#faf8ed"
-      />
-      <g fill="#183b2c">
-        {Array.from({ length: n * n }, (_, i) =>
-          qr.modules.data[i] ? (
-            <rect
-              key={i}
-              x={pad + (i % n)}
-              y={pad + Math.floor(i / n)}
-              width="1"
-              height="1"
-              rx=".12"
-            />
-          ) : null,
-        )}
-      </g>
     </svg>
   );
 }

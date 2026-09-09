@@ -2,9 +2,11 @@
 
 [Game home](../README.md) · [Build brief](build-brief.md) · [Story](../design/narrative-arc.md) · [Puzzle design](../design/puzzles.md) · [Tracker](../task-tracker.md)
 
-Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Deployed and verified on Cloudflare. [Open the rehearsal](https://hollow-court-preview.computer-toolbox.workers.dev) · [Deployment evidence and remaining gates](handoff-2026-09-09-first-build.md).
+Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Deployed and verified on Cloudflare. [Open Hollow Court](https://hollow-court.com) · [Deployment evidence and remaining gates](handoff-2026-09-09-first-build.md).
 
 [September 9 puzzle revision](../design/puzzle-revision-2026-09-09.md): compact mobile encounters, corrected heading spacing and eleven revised trials. Preview assignments upgrade to version 2 on opening each guardian; Favors and routes stay intact. [Revision deployment and verification](handoff-2026-09-09-mobile-puzzles.md).
+
+The host purchased **hollow-court.com** and authorized its connection to this Worker on September 9. It currently serves the same rehearsal. `https://hollow-court.com/r` redirects to the configured Partiful event. Summons display stable 12-character random Base32 aliases at `/s/<code>`; old 32-character tokens still resolve and redeem the same invitation. QR payloads use uppercase URL spelling on supported routes for compact alphanumeric encoding. The image is woven through the code, with Q error correction and protected structural markers. [Domain and QR notes](domain-and-qr.md).
 
 Use **Field notes → Open Court** to enter now, or jump directly to any guardian. The normal entrance stays sealed until Halloween.
 
@@ -23,7 +25,7 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 
 ## Implemented in this pass
 
-- Locked entrance with working Partiful link and a leaf-framed SVG QR; mobile Court homepage, room introductions, illustrated Bestiary and nine progressively unlocked Chronicle chapters.
+- Locked entrance with a short Partiful redirect and an illustrated woodland QR; mobile Court homepage, room introductions, illustrated Bestiary and nine progressively unlocked Chronicle chapters.
 - Fifteen guardian pages and all fifteen puzzle families. Twelve random hexadecimal characters identify each `/g/<code>` route. Codes are created once in D1 by `seed`, survive repeated seeds, and are not committed or bundled in the collection. Only the preview debug endpoint lists them. No guardian QR fallback.
 - Deterministic, persisted player/event/guardian puzzle instances; server validation, unlimited retry/reset, memory/shuffle replay, touch-friendly/tap interactions, and once-only Favor awards enforced by SQL uniqueness.
 - Name + square costume portrait + explicit display agreement; browser-side resizing to 720px, image re-encoding, MIME signature checks and bounded upload size. A returning HttpOnly session cookie restores progress; a private recovery key restores the same player and rotates credentials while invalidating old sessions.
@@ -37,7 +39,7 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 
 The initial R2 bucket request was rejected because the account has not activated R2 (Cloudflare code 10042). No R2 bucket was created. KV makes this first deployment functional without that prerequisite; no R2 activation is needed to review the app. KV can take time to expose a newly written image across locations; new unique keys avoid overwriting cached portraits. The current host decision is to retain account data and portraits without an automatic deadline.
 
-All preview sessions use the `preview` realm; normal entry uses `live` and respects the dates. A production deployment should have its own D1/KV resources, `PREVIEW=false`, reviewed settings and a permanent domain. Do not encode or lock physical NFC tags with rehearsal URLs. Seeded route codes are lookup identifiers, not proof of physical discovery.
+All preview sessions use the `preview` realm; normal entry uses `live` and respects the dates. A production deployment should have its own D1/KV resources, `PREVIEW=false`, reviewed settings and the host-owned domain. Do not encode or lock physical NFC tags with rehearsal URLs. Seeded route codes are lookup identifiers, not proof of physical discovery.
 
 ## Checks
 
@@ -50,7 +52,7 @@ npm audit
 node scripts/smoke.mjs     # explicitly mutates the hosted rehearsal using disposable synthetic players
 ```
 
-The integration suite creates and removes only its own local players through a CLI-only fixture helper. The hosted smoke script also requires Wrangler access for its synthetic-data cleanup; no account-deletion endpoint exists. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode the actual styled SVG at 244px and 488px for Partiful and Summons. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
+The integration suite creates and removes only its own local players through a CLI-only fixture helper. The hosted smoke script also requires Wrangler access for its synthetic-data cleanup; no account-deletion endpoint exists. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode the actual illustrated SVG at 244px and 488px for Partiful and Summons, plus varied invitation codes under mild blur. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
 
 The `sharp` override selects patched 0.35.4 for Wrangler's local Miniflare dependency. No image processing library is bundled into the Worker; the browser prepares portrait images. Build dependencies are pinned by the lockfile.
 
@@ -69,4 +71,6 @@ npm run db:remote
 npm run seed:remote
 ```
 
-For the September 9 retention upgrade, deploy before applying migration 0002 so the old Worker never queries a removed column. The portrait upgrade preserves bytes and metadata, removes existing KV expirations and verifies the resulting storage state. These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. The generator validates individual assignments and has at least 100 sampled distinct views per family; it does not yet reserve structurally distinct instances across all players. Before the event, review cross-player collision handling, final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, select the permanent domain, and run the physical phone pilot.
+For the domain/QR upgrade, apply additive migration `0003_short_summons.sql` before deploying the Worker. Existing aliases are assigned lazily and remain stable; original tokens are preserved.
+
+For the September 9 retention upgrade, deploy before applying migration 0002 so the old Worker never queries a removed column. The portrait upgrade preserves bytes and metadata, removes existing KV expirations and verifies the resulting storage state. These commands mutate only the configured Cloudflare resources. Runtime tag seed SQL, local database files, cookies, selfies and recovery values belong in ignored `private/` or `.wrangler/`, never Git. The seed does not replace existing route codes. The generator validates individual assignments and has at least 100 sampled distinct views per family; it does not yet reserve structurally distinct instances across all players. Before the event, review cross-player collision handling, final rules and eligibility, strengthen the recovery/helper/admin workflow, simulate sparse costume voting, review the final domain routing, and run the physical phone pilot.

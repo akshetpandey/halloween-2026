@@ -1,10 +1,10 @@
 # Halloween Shorts · files and Jellyfin setup
 
-Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. Adding the server library requires an authenticated Jellyfin admin session; the Codex browser currently shows the sign-in page.
+Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. The host has created/imported the library. The signed-in Chrome interface now verifies 25 films, and the live playlist **Halloween — October Grove** contains all 25. [Android TV playback plan](tv-party-playback.md).
 
 ## Library choice
 
-Create a **separate Movies-type library named Halloween Shorts**, rooted at:
+The **separate Movies-type library named Halloween Shorts** is now imported, rooted at:
 
 ```text
 /Users/akshet/Transmission/Halloween Shorts
@@ -16,13 +16,13 @@ Each short has one folder, one complete video and `movie.nfo` with its approved 
 
 [Jellyfin movie organization](https://jellyfin.org/docs/general/server/media/movies/) · [Library setup](https://jellyfin.org/docs/general/server/libraries/) · [Local NFO metadata](https://jellyfin.org/docs/general/server/metadata/nfo/).
 
-## Add the library
+## Library setup reference · already completed by host
 
 1. Sign in as an administrator at the existing local Jellyfin server, `http://localhost:8096`.
 2. Open Dashboard → Libraries → Add Media Library.
 3. Choose **Movies**, display name **Halloween Shorts**, and the folder above. Do not add this folder to the existing Movies library.
 4. Disable internet metadata fetchers for this library; use the supplied local NFO files. Leave local image extraction available. This avoids matching unrelated films with the same titles.
-5. Save, scan the new library and confirm **25 films** with the expected names. Create a video playlist from these items if a fixed sequence is desired, then test repeat on the actual television. Client playback and looping have not been tested.
+5. Save, scan the new library and confirm **25 films** with the expected names. Create a video playlist from these items if a fixed sequence is desired, then test repeat on the actual television. The live playlist is now created; actual Android TV playback and looping remain untested.
 
 Server discovery on September 9 returned Jellyfin **12.0.0**, server name **The-Projector**. No credentials were extracted, configuration files edited, or existing libraries changed.
 
@@ -30,7 +30,7 @@ Server discovery on September 9 returned Jellyfin **12.0.0**, server name **The-
 
 [Download manifest](tv-download-manifest.json) records the exact 25 approved titles, selected viewing URLs and destination folder names. [Verified inventory](tv-download-inventory.json) records local paths, actual durations, dimensions, codecs, sizes, SHA-256 hashes and full decode results. Videos remain outside Git.
 
-The final files total **12,234.921 seconds: 3:23:55**, occupying **5.95 GiB** (about 6.39 GB). The host's 70%-retained planning scenario gives **about 2:22:44**; credit boundaries have not been measured. Differences from the original 3:24:20 research total reflect actual selected upload versions, not cuts made during this task.
+The final files total **12,234.921 seconds: 3:23:55**, occupying **5.95 GiB** (about 6.39 GB). The host's 70%-retained planning scenario gives **about 2:22:44**; initial sampled credit review now suggests about 3:04–3:11 retained instead; these are candidate windows, not finalized cuts. See the [playback plan](tv-party-playback.md). Differences from the original 3:24:20 research total reflect actual selected upload versions, not cuts made during this task.
 
 - The Mountain of SGaana and Throat Notes are **3840×2160**. Most other films have Full HD source dimensions, preserving wider or narrower original aspect ratios.
 - Nebula was upgraded from the official Vimeo 720p upload to the official GOBELINS YouTube **1920×1080** upload.
@@ -56,4 +56,4 @@ It uses the installed yt-dlp, ffmpeg and ffprobe, verifies duration and audio/vi
 
 No purchases or distribution permissions were obtained. The original NFB download-to-own streaming-server caveat remains relevant to any future DTO purchase; this task did not purchase DTO files or treat downloads as a new licence grant. The host's explicit download instruction authorized the local acquisition work.
 
-Next: add/scan the library, establish per-film credit markers, choose the final order and test TV playback, mute and repeat. Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.
+Next: refine the candidate credit windows, choose separate-item skipping or the recommended continuous party copy, and test Android TV playback and mute. The live playlist and repeat limitations are recorded in the [playback plan](tv-party-playback.md). Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.

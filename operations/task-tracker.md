@@ -21,7 +21,7 @@ Updated September 3, 2026. Event October 31. Owners below are proposed roles, no
 | LGT-01 | Compare borrow/rent/buy; reserve if useful | P1 | Host | Sep 27 | To do | SET-01, budget |
 | SET-02 | Final scenic bill of materials | P1 | Planning + helper | Sep 27 | To do | SET-01 |
 | AUD-03 | Acquire permitted audio, order blocks, test transitions | P0 | Music helper | Oct 4 | To do | AUD-01/02 |
-| VID-01 | [Curate 2–3 hours of content; assemble repeating TV programme](../music/tv-visuals.md) | P1 | Visuals helper | Oct 4 | Sep 9: all 25 approved shorts downloaded to separate Halloween Shorts folder (5.95 GiB, 3:23:55 raw); Jellyfin library awaits admin sign-in; credit trimming and TV testing pending | TV/player capability |
+| VID-01 | [Curate 2–3 hours of content; assemble repeating TV programme](../music/tv-visuals.md) | P1 | Visuals helper | Oct 4 | Sep 9: all 25 approved shorts downloaded to separate Halloween Shorts folder (5.95 GiB, 3:23:55 raw); Jellyfin library imported and 25-film playlist created; sampled endings reviewed; continuous party copy proposed, credit editing and Android TV tests pending | TV/player capability |
 | PROP-01 | Build guardian bust and stability test | P1 | Build helper | Oct 11 | To do | SET-02 |
 | INV-04 | RSVP review; adjust staggered-arrival guidance | P0 | Host | Oct 11 | To do | INV-03, OPS-02 |
 | NAR-01 | Preserve Last Leaf as paper-only fallback | P2 | Host | Oct 11 | Fallback — Hollow Court is active design | Volunteer availability |

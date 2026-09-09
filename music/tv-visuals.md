@@ -1,13 +1,13 @@
 # Muted TV programme and Jellyfin
-Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts, about 2:22:44 under the estimated 30% reduction. Jellyfin library creation requires admin sign-in; credit trimming, full muted screening and TV tests remain pending. [Files, quality and setup](tv-library-setup.md).
+Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts. The host imported the Jellyfin library; the live 25-film playlist is created. Initial sampled ending review suggests about 3:04–3:11 retained rather than the earlier 30% estimate. Credit editing, full muted screening and Android TV tests remain pending. [Playback plan](tv-party-playback.md). [Files, quality and setup](tv-library-setup.md).
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
 **Current host brief, September 8:** no feature-length films; ideally each item is at most 30 minutes. Aim for **artsy / drawn / arthouse** imagery. Leshy was too realistic, Skin for Skin too violent, and The Alchemist's Letter too audio-dependent and the wrong art style. Preserve the explicit approvals below, including La Noria and O Black Hole!: the feedback is not a blanket ban on 3D animation, horror or musical films.
 
-**Host target: 2–3 hours of content**, interpreted as finished unique content before repeating. The host expects to remove end credits and estimates roughly 30% less runtime; use 70% retained as a planning scenario until actual credit boundaries are measured. Build around the approved shorts, with interludes where useful. The earlier 45–60-minute starter proposal is superseded. Keep the TV muted and dim enough to sit comfortably within the room.
+**Host target: 2–3 hours of content**, interpreted as finished unique content before repeating. The host expects to remove end credits. The original 30% reduction estimate is superseded for assembly planning by the sampled credit windows below; preserve story content when refining them. Build around the approved shorts, with interludes where useful. The earlier 45–60-minute starter proposal is superseded. Keep the TV muted and dim enough to sit comfortably within the room.
 
-The existing Jellyfin server is a sensible starting point. Create a dedicated party library/playlist from media the host can legitimately store. Whether a video playlist repeats reliably depends on the TV client; validate it on the actual television. Do not promise looping based only on the server interface.
+The dedicated Jellyfin library and 25-film playlist are created. The host will use the official Android TV client. The [current playback plan](tv-party-playback.md) explains automatic outro skipping and recommends a continuous party copy to avoid finite queue and loading-gap limitations; this copy is proposed, not built.
 
 ## Host reference
 
@@ -73,7 +73,9 @@ Do not restore these to the active programme without new host feedback. Earlier 
 
 ## Runtime and gap to target
 
-**Current acquisition total, September 9:** 25 local files, **3:23:55 raw / about 2:22:44 if 70% is retained**. This reaches the 2–3-hour planning target. Exact durations and source-version differences are in the [inventory](tv-download-inventory.json) and [setup notes](tv-library-setup.md).
+**Current credit review, September 9:** sampled endings place retained content roughly between **3:04:27 and 3:10:33**, before any opening trims. These broad candidate windows need continuous-playback refinement. The earlier 30% scenario below is historical planning arithmetic and should no longer guide acquisition or cuts. No additional sourcing is needed on current evidence. [Credit review](tv-credit-review.json).
+
+**Current acquisition total, September 9:** 25 local files, **3:23:55 raw / about 2:22:44 if 70% is retained**. That historical 70%-retained scenario reaches the 2–3-hour planning target, but the sampled endings now suggest a longer programme. Exact durations and source-version differences are in the [inventory](tv-download-inventory.json) and [setup notes](tv-library-setup.md).
 
 The table below preserves the September 8 research arithmetic for the originally linked versions; it is superseded for assembly timing by the actual file total above. Credits have not been measured or removed; the **30% reduction is the host's estimate**, not a claim that credits occupy 30% of every film.
 
@@ -94,7 +96,7 @@ Rounded row estimates may differ by a second from the combined total. These tota
 | 2.5 hours | About 7:16 | About 11 minutes |
 | 3 hours | About 37:16 | About 54 minutes |
 
-The gap table uses actual acquired durations. Formula: acquired raw total × 0.70; additional raw needed = max(0, target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. **The approved selection now reaches the 2–3-hour planning target.** About 11 more approved raw minutes would reach the 2.5-hour midpoint, but further sourcing is optional until actual credit markers establish the finished duration.
+The historical gap table uses actual acquired durations and the superseded 30% reduction scenario. Formula: acquired raw total × 0.70; additional raw needed = max(0, target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. The sampled ending review above now supersedes this gap calculation; no additional sourcing is needed on current evidence.
 
 [Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above.
 
@@ -120,7 +122,7 @@ These original suggestions have not received explicit host verdicts. They remain
 
 NFB and GOBELINS links are research/viewing sources. Their presence does not imply permission to download or edit the films. Source any actual stored files through permitted routes. Pexels explicitly allows downloading and modifying its stock media under its license. [Pexels license](https://www.pexels.com/license/)
 
-**Acquisition status, September 9:** all 25 approved films downloaded with yt-dlp and arranged at `/Users/akshet/Transmission/Halloween Shorts`, outside the existing Movies and Shows library roots. Local NFO metadata and a separate local-player playlist are prepared. [Setup and source notes](tv-library-setup.md) · [File inventory](tv-download-inventory.json). No files purchased, no new licence obtained, and no Jellyfin library created yet; admin sign-in is required for the latter. The existing NFB download-to-own streaming-server restriction is not changed by this download task. Full human muted screening and actual TV tests remain pending.
+**Acquisition status, September 9:** all 25 approved films downloaded with yt-dlp and arranged at `/Users/akshet/Transmission/Halloween Shorts`, outside the existing Movies and Shows library roots. Local NFO metadata and a separate local-player playlist are prepared. [Setup and source notes](tv-library-setup.md) · [File inventory](tv-download-inventory.json). No files purchased or new licence obtained. The host has imported the separate library and the live playlist is verified with all 25 items. The existing NFB download-to-own streaming-server restriction is not changed by this download task. Full human muted screening and actual TV tests remain pending.
 
 ## Draft programme structure
 
@@ -129,10 +131,10 @@ NFB and GOBELINS links are research/viewing sources. Their presence does not imp
 3. Short woodland or abstract interludes where a change of texture helps.
 4. A clean return to the opening. Add further host-approved shorts only if measured cuts leave a gap or the host wants a longer programme.
 
-The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits on the acquired files, then calculate the actual retained duration and repeat length. Original audio and credits are retained; no cut points have been chosen or trimming performed.
+The host plans to remove end credits where appropriate. Record per-film credit start/end markers and any permitted edits on the acquired files, then calculate the actual retained duration and repeat length. Original audio and credits are retained. [Candidate credit windows](tv-credit-review.json) are recorded for all 25 films; exact cut points and trimming remain pending.
 
 ## Jellyfin setup plan
-- Add a separate **Movies-type library named Halloween Shorts**, pointing only to `/Users/akshet/Transmission/Halloween Shorts`. [Exact setup steps](tv-library-setup.md). Keep the existing Movies and Shows library paths unchanged.
+- Imported by host: separate **Movies-type library named Halloween Shorts**, pointing only to `/Users/akshet/Transmission/Halloween Shorts`. [Exact setup steps](tv-library-setup.md). Keep the existing Movies and Shows library paths unchanged.
 - Aim for compatible SDR video files and direct play on the TV. Verify rather than assuming a codec works on every client.
 - Subtitle burn-in can trigger transcoding; dialogue-free clips reduce that burden.
 - A TV-native client can keep the Mac focused on serving media and DJ playback.

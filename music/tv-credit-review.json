@@ -1,0 +1,337 @@
+{
+  "reviewed_date": "2026-09-09",
+  "status": "candidate windows only; not frame-accurate edit points and not applied to Jellyfin or files",
+  "method": "Visual review of 16 timestamped frames across the final 40 percent of every downloaded film. Windows bracket an ending/credit transition; inspect continuous playback before finalizing. No opening cuts assessed.",
+  "local_contact_sheet_root": "/Users/akshet/Transmission/.halloween-downloads/credit-review",
+  "rough_retained_seconds_range": [
+    11067,
+    11433
+  ],
+  "files": [
+    {
+      "order": 1,
+      "title": "Feral",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Feral/Feral.mkv",
+      "source_sha256": "908227e5e2aab1d41d7a704ac1a21fcc12a498b40d3ddcdcc02348ea85959d64",
+      "source_duration_seconds": 766.4,
+      "inspect_end_window_seconds": [
+        704,
+        725
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "01.jpg"
+    },
+    {
+      "order": 2,
+      "title": "The Maker",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Maker/The Maker.mkv",
+      "source_sha256": "259653c9161fd0a6261661a2df40bd40d091fc8eb07146caed4fa238f11b0a60",
+      "source_duration_seconds": 330.221,
+      "inspect_end_window_seconds": [
+        259,
+        268
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "02.jpg"
+    },
+    {
+      "order": 3,
+      "title": "Blind Eye",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Blind Eye/Blind Eye.mkv",
+      "source_sha256": "30f8c60759986bf1a2fe8ed771210e08734c020975d9c0b12bf34cdb4569d497",
+      "source_duration_seconds": 383.36,
+      "inspect_end_window_seconds": [
+        341,
+        352
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "03.jpg"
+    },
+    {
+      "order": 4,
+      "title": "The Mountain of SGaana",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Mountain of SGaana/The Mountain of SGaana.mp4",
+      "source_sha256": "199987c42d97c514da3efd55861b9c3fa73c62bd23ec31c1030f8340bb488fc5",
+      "source_duration_seconds": 604.178533,
+      "inspect_end_window_seconds": [
+        555,
+        571
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "04.jpg"
+    },
+    {
+      "order": 5,
+      "title": "O Black Hole!",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/O Black Hole!/O Black Hole!.mkv",
+      "source_sha256": "a0bd1d65cd334faf845e26ab4aa8150220e0004cf874afd6bae6f1aaff5300f8",
+      "source_duration_seconds": 968.682,
+      "inspect_end_window_seconds": [
+        865,
+        891
+      ],
+      "note": "Preserve the animated ending underneath early credits; investigate transition to plain black credits.",
+      "contact_sheet": "05.jpg"
+    },
+    {
+      "order": 6,
+      "title": "La Noria",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/La Noria/La Noria.mkv",
+      "source_sha256": "76b8961c1d73c04fce1495440a4607fd14a6cff8728afdfe0aa3b0f012ceb651",
+      "source_duration_seconds": 774.762,
+      "inspect_end_window_seconds": [
+        630,
+        651
+      ],
+      "note": "Credits begin over the Ferris wheel model; choose whether to retain those decorative shots after the story.",
+      "contact_sheet": "06.jpg"
+    },
+    {
+      "order": 7,
+      "title": "The Moonseeker",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Moonseeker/The Moonseeker.mkv",
+      "source_sha256": "f4d70b27ad3a2890000e7414ce19f75733fb5c8337109c76ed9681da1735599a",
+      "source_duration_seconds": 219.141,
+      "inspect_end_window_seconds": [
+        183,
+        195
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "07.jpg"
+    },
+    {
+      "order": 8,
+      "title": "Nebula",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Nebula/Nebula.mkv",
+      "source_sha256": "692a67812188d028336eb0d636a91f6ec6d07b3e7efbba9a5fe479ec57638c3c",
+      "source_duration_seconds": 207.341,
+      "inspect_end_window_seconds": [
+        173,
+        185
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "08.jpg"
+    },
+    {
+      "order": 9,
+      "title": "Fox Fires",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Fox Fires/Fox Fires.mkv",
+      "source_sha256": "b2b691dc4661b1be5b0f1fc715e1f87cdc417067fe4f3adec7ef4f0758a14de0",
+      "source_duration_seconds": 369.002,
+      "inspect_end_window_seconds": [
+        329,
+        339
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "09.jpg"
+    },
+    {
+      "order": 10,
+      "title": "The Old Man & the Goblins",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Old Man & the Goblins/The Old Man & the Goblins.mkv",
+      "source_sha256": "34c00249eb3546745decfeff644006d646893997a16cb0e0b0351ccb4a693faa",
+      "source_duration_seconds": 263.732,
+      "inspect_end_window_seconds": [
+        228,
+        249
+      ],
+      "note": "Long pale fade before credits; refine the final goblin action and fade.",
+      "contact_sheet": "10.jpg"
+    },
+    {
+      "order": 11,
+      "title": "The Tree",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Tree/The Tree.mp4",
+      "source_sha256": "194ffb887c360594f11973d2acd5fb9f5e26480ef73d36f74f1e3900d92f341a",
+      "source_duration_seconds": 391.401667,
+      "inspect_end_window_seconds": [
+        359,
+        370
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "11.jpg"
+    },
+    {
+      "order": 12,
+      "title": "The Forest",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Forest/The Forest.mkv",
+      "source_sha256": "2ee2e7406b67288ae311ce11e3f64ee56db051ee9f44b9506fc9a88ac3fe450b",
+      "source_duration_seconds": 164.693,
+      "inspect_end_window_seconds": [
+        129,
+        138
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "12.jpg"
+    },
+    {
+      "order": 13,
+      "title": "After the Rain",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/After the Rain/After the Rain.mp4",
+      "source_sha256": "11bdfa055110cadfd4deee93d3d3f8259cb03afdb7daaefc5177f1c9a2721f5f",
+      "source_duration_seconds": 526.591667,
+      "inspect_end_window_seconds": [
+        484,
+        498
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "13.jpg"
+    },
+    {
+      "order": 14,
+      "title": "Island",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Island/Island.mkv",
+      "source_sha256": "d55035fdfac01a775e474375c4c576f1fed2f28174c956988525ab4367f27042",
+      "source_duration_seconds": 150.016,
+      "inspect_end_window_seconds": [
+        133,
+        138
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "14.jpg"
+    },
+    {
+      "order": 15,
+      "title": "Wind",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Wind/Wind.mp4",
+      "source_sha256": "42cb13e4a3005e0957e075222e3b47bee46f2fcfeb248ac5c5078f03553be4ac",
+      "source_duration_seconds": 229.04,
+      "inspect_end_window_seconds": [
+        210,
+        216
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "15.jpg"
+    },
+    {
+      "order": 16,
+      "title": "Les Escargots / The Snails",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Les Escargots - The Snails/Les Escargots - The Snails.mkv",
+      "source_sha256": "412dd16c1316b0c6e4f6c191ad4709d95de46e5cc7b874ed86b8b4b7bc7fa5fe",
+      "source_duration_seconds": 647.85,
+      "inspect_end_window_seconds": [
+        630,
+        648
+      ],
+      "note": "Story continues almost to the end; no substantial end-credit block in the sampled tail. Inspect final iris/logo before deciding to cut anything.",
+      "contact_sheet": "16.jpg"
+    },
+    {
+      "order": 17,
+      "title": "Throat Notes",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Throat Notes/Throat Notes.mkv",
+      "source_sha256": "06d730d4402926ed344062832dac5448aad3ccefb7dd818026c75da289957154",
+      "source_duration_seconds": 510.041,
+      "inspect_end_window_seconds": [
+        468,
+        482
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "17.jpg"
+    },
+    {
+      "order": 18,
+      "title": "Return to Hairy Hill",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Return to Hairy Hill/Return to Hairy Hill.mkv",
+      "source_sha256": "58cb40a5fa73f6ecd47d2c35812da5c37ff129209f0d86a8098aa4e91698077c",
+      "source_duration_seconds": 1034.517,
+      "inspect_end_window_seconds": [
+        978,
+        1006
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "18.jpg"
+    },
+    {
+      "order": 19,
+      "title": "Here and the Great Elsewhere",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Here and the Great Elsewhere/Here and the Great Elsewhere.mp4",
+      "source_sha256": "397d84e0a4617b2834275809a5434863ff6af270e1a8884cace669d968610767",
+      "source_duration_seconds": 867.900322,
+      "inspect_end_window_seconds": [
+        774,
+        798
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "19.jpg"
+    },
+    {
+      "order": 20,
+      "title": "Nocturne / Nachtstück",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Nocturne - Nachtstück/Nocturne - Nachtstück.mkv",
+      "source_sha256": "408a57b6224eaa8e4b378a0d61a8edd295dc6ff4489f13ab813133243ca00e56",
+      "source_duration_seconds": 319.018,
+      "inspect_end_window_seconds": [
+        293,
+        301
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "20.jpg"
+    },
+    {
+      "order": 21,
+      "title": "Chado",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Chado/Chado.mkv",
+      "source_sha256": "c44b9ab9fd71ce474125de4291ad57ba1e36f57e488031cacacba499a34a08d7",
+      "source_duration_seconds": 448.896,
+      "inspect_end_window_seconds": [
+        412,
+        424
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "21.jpg"
+    },
+    {
+      "order": 22,
+      "title": "The Astronomer’s Dream",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Astronomer's Dream (2009)/The Astronomer's Dream (2009).mkv",
+      "source_sha256": "8e2518fe4cfc71f14aabc681581eeab4e6af4b0d71301d6102ac286242b69aca",
+      "source_duration_seconds": 676.081,
+      "inspect_end_window_seconds": [
+        639,
+        658
+      ],
+      "note": "Credits share screen with an illustration; preserve the final desk scene before them.",
+      "contact_sheet": "22.jpg"
+    },
+    {
+      "order": 23,
+      "title": "ZOON",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/ZOON/ZOON.mkv",
+      "source_sha256": "c55a8a15f2320b6827832d72edbaf2297e60040bf39ef6df59f444cc7bdc6233",
+      "source_duration_seconds": 265.131,
+      "inspect_end_window_seconds": [
+        250,
+        257
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "23.jpg"
+    },
+    {
+      "order": 24,
+      "title": "Kukuschka",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/Kukuschka/Kukuschka.mp4",
+      "source_sha256": "2301168afc88d60aa67d54f9eaa79e1cd481985ecb7a3a691acd36bbbf911923",
+      "source_duration_seconds": 522.965,
+      "inspect_end_window_seconds": [
+        480,
+        495
+      ],
+      "note": "Credits overlay the changing sky; preserve the final narrative night scene.",
+      "contact_sheet": "24.jpg"
+    },
+    {
+      "order": 25,
+      "title": "The Man Without a Shadow / L’homme sans ombre",
+      "source_path": "/Users/akshet/Transmission/Halloween Shorts/The Man Without a Shadow - L'homme sans ombre/The Man Without a Shadow - L'homme sans ombre.mp4",
+      "source_sha256": "88a59b6d9f5ced0e17fd323260c7b59dffdfefe8920277591ed104559f13e497",
+      "source_duration_seconds": 593.959989,
+      "inspect_end_window_seconds": [
+        561,
+        578
+      ],
+      "note": "Refine between the final story image and the sampled credit image; retain the full ending.",
+      "contact_sheet": "25.jpg"
+    }
+  ]
+}

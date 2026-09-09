@@ -1,6 +1,6 @@
 {
   "verified_date": "2026-09-09",
-  "library_created_in_jellyfin": false,
+  "library_created_in_jellyfin": true,
   "media_root": "/Users/akshet/Transmission/Halloween Shorts",
   "files": [
     {
@@ -630,5 +630,7 @@
       "full_decode_check": "passed",
       "sha256": "88a59b6d9f5ced0e17fd323260c7b59dffdfefe8920277591ed104559f13e497"
     }
-  ]
+  ],
+  "library_verified_date": "2026-09-09",
+  "jellyfin_library_id": "ea9b35d956566f3baedf0a58a25171d3"
 }

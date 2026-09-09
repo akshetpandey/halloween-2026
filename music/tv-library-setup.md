@@ -1,6 +1,6 @@
 # Halloween Shorts · files and Jellyfin setup
 
-Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. The host has created/imported the library. The 25 complete originals remain in place, and the live playlist **Halloween — October Grove** contains all 25. An additional **October Grove - Continuous Party Video** is now built and visible in this same library; it contains four edited passes, 12:20:37 total, silent 1080p video and 100 chapters. [Android TV playback plan](tv-party-playback.md).
+Updated September 9, 2026. The host requested downloads of the 25 approved shorts, using yt-dlp at the best available quality and cross-checking YouTube/Vimeo when necessary. Files are arranged locally; all 25 passed full audio/video decode checks. The host has created/imported the library. The 25 complete originals remain in place, and the live playlist **Halloween — October Grove** contains all 25. An additional **October Grove - Continuous Party Video** is now built and visible in this same library; it contains four edited passes, 12:20:37 total, silent 1080p video and 100 chapters. **Finished September 9:** the host confirms direct play through their Jellyfin instance in the Android app on their TV and accepts the TV visuals deliverable. [Android TV playback record](tv-party-playback.md).
 
 ## Library choice
 
@@ -22,7 +22,7 @@ Each short has one folder, one complete video and `movie.nfo` with its approved 
 2. Open Dashboard → Libraries → Add Media Library.
 3. Choose **Movies**, display name **Halloween Shorts**, and the folder above. Do not add this folder to the existing Movies library.
 4. Disable internet metadata fetchers for this library; use the supplied local NFO files. Leave local image extraction available. This avoids matching unrelated films with the same titles.
-5. Save, scan the new library and confirm **25 films** with the expected names. Create a video playlist from these items if a fixed sequence is desired, then test repeat on the actual television. The live playlist is now created; actual Android TV playback and looping remain untested.
+5. Save, scan the new library and confirm **25 films** with the expected names. Create a video playlist from these items if a fixed sequence is desired, then test repeat on the actual television. The live playlist is created. The additional continuous video is now host-confirmed to direct play on the TV; separate-playlist looping was not tested.
 
 Server discovery on September 9 returned Jellyfin **12.0.0**, server name **The-Projector**. No credentials were extracted, configuration files edited, or existing libraries changed.
 
@@ -56,4 +56,4 @@ It uses the installed yt-dlp, ffmpeg and ffprobe, verifies duration and audio/vi
 
 No purchases or distribution permissions were obtained. The original NFB download-to-own streaming-server caveat remains relevant to any future DTO purchase; this task did not purchase DTO files or treat downloads as a new licence grant. The host's explicit download instruction authorized the local acquisition work.
 
-Next: play the completed continuous party video on the actual Android TV, checking joins, silence, chapter seeks and unattended playback. Credit edits, file assembly and live import are complete. The live playlist and repeat limitations are recorded in the [playback plan](tv-party-playback.md). Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.
+Finished: credit edits, file assembly, live import and host-confirmed direct play on the actual TV. The host has accepted TV visuals as complete; no further work is required for this deliverable. The live playlist and repeat limitations are recorded in the [playback plan](tv-party-playback.md). Full technical decoding is distinct from a human viewing of every film or a TV rehearsal.

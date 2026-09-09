@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 9, 2026. Status: all 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts. The host imported the Jellyfin library; the live 25-film playlist is created. The approved continuous party video is built and imported in that same library: 3:05:09.40 unique content repeated four times, 12:20:37.60 total, silent 1080p with 100 chapters. Technical checks passed; full human muted screening and actual Android TV tests remain pending. [Playback plan](tv-party-playback.md). [Files, quality and setup](tv-library-setup.md).
+Updated September 9, 2026. Status: **Finished — host accepted September 9, 2026.** All 25 approved shorts downloaded and arranged in a separate Halloween Shorts folder; fifteen rejected, Batches 01–04 reviewed. Actual files total 3:23:55 before cuts. The host imported the Jellyfin library; the live 25-film playlist is created. The approved continuous party video is built and imported in that same library: 3:05:09.40 unique content repeated four times, 12:20:37.60 total, silent 1080p with 100 chapters. Technical checks passed, and the host confirms direct play through their Jellyfin instance in the Android app on their TV. The host has marked this deliverable finished. [Playback plan](tv-party-playback.md). [Files, quality and setup](tv-library-setup.md).
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -17,7 +17,7 @@ The dedicated Jellyfin library and 25-film playlist are created. The host will u
 
 ## Approved by host · September 8
 
-These are the host's inclusion decisions and original researched viewing versions. All 25 now have local files; selected source versions and exact file runtimes are recorded in the [download inventory](tv-download-inventory.json). TV playback remains untested. The original table runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), [Batch 03 source evidence](tv-shorts-batch-03-metadata.json), and [Batch 04 source evidence](tv-shorts-batch-04-metadata.json). The original Moonseeker and Throat Notes entries used festival runtimes; their downloaded YouTube versions now have measured durations in the inventory.
+These are the host's inclusion decisions and original researched viewing versions. All 25 now have local files; selected source versions and exact file runtimes are recorded in the [download inventory](tv-download-inventory.json). The continuous compilation direct plays on the TV, confirmed by the host; individual originals were not separately TV-tested. The original table runtimes come from the [Batch 01 source evidence](tv-shortlist-metadata-2026-09-08.json), [Batch 02 source evidence](tv-shorts-batch-02-metadata.json), [Batch 03 source evidence](tv-shorts-batch-03-metadata.json), and [Batch 04 source evidence](tv-shorts-batch-04-metadata.json). The original Moonseeker and Throat Notes entries used festival runtimes; their downloaded YouTube versions now have measured durations in the inventory.
 
 | Short / creator | Runtime | Host verdict |
 |---|---:|---|
@@ -106,7 +106,7 @@ The historical gap table uses actual acquired durations and the superseded 30% r
 
 ## Batch 04 · reviewed September 8
 
-[Batch 04 research notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). All ten received host verdicts; the authoritative tables above include six additions and four cuts. The selected films add **47:01 raw / about 32:55 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. The approved programme meets the 2–3-hour target under that estimate. All selected files are now acquired; measured cuts and playback tests remain pending.
+[Batch 04 research notes](tv-shorts-batch-04.md) · [Runtime evidence](tv-shorts-batch-04-metadata.json). All ten received host verdicts; the authoritative tables above include six additions and four cuts. The selected films add **47:01 raw / about 32:55 after the estimated 30% reduction**. The earlier all-ten scenario is superseded. The approved programme meets the 2–3-hour target under that estimate. All selected files are acquired; the final edit and host-confirmed TV direct play supersede these research-stage estimates.
 
 ## Retained short and texture candidates
 
@@ -122,7 +122,7 @@ These original suggestions have not received explicit host verdicts. They remain
 
 NFB and GOBELINS links are research/viewing sources. Their presence does not imply permission to download or edit the films. Source any actual stored files through permitted routes. Pexels explicitly allows downloading and modifying its stock media under its license. [Pexels license](https://www.pexels.com/license/)
 
-**Acquisition status, September 9:** all 25 approved films downloaded with yt-dlp and arranged at `/Users/akshet/Transmission/Halloween Shorts`, outside the existing Movies and Shows library roots. Local NFO metadata and a separate local-player playlist are prepared. [Setup and source notes](tv-library-setup.md) · [File inventory](tv-download-inventory.json). No files purchased or new licence obtained. The host has imported the separate library and the live playlist is verified with all 25 items. The existing NFB download-to-own streaming-server restriction is not changed by this download task. Full human muted screening and actual TV tests remain pending.
+**Acquisition status, September 9:** all 25 approved films downloaded with yt-dlp and arranged at `/Users/akshet/Transmission/Halloween Shorts`, outside the existing Movies and Shows library roots. Local NFO metadata and a separate local-player playlist are prepared. [Setup and source notes](tv-library-setup.md) · [File inventory](tv-download-inventory.json). No files purchased or new licence obtained. The host has imported the separate library and the live playlist is verified with all 25 items. The existing NFB download-to-own streaming-server restriction is not changed by this download task. The host confirms direct play of the finished compilation on their TV and accepts this task as complete.
 
 ## Draft programme structure
 
@@ -140,11 +140,16 @@ The completed derivative uses approval-list order and four identical passes. [Ex
 - A TV-native client can keep the Mac focused on serving media and DJ playback.
 - Keep TV audio muted at both client and TV if possible.
 - Test transitions, repeat, network recovery and whether the client shows menus/credits between files.
-- Use the completed continuous file for 12h20m of playback without a repeat control. Keep an HDMI/local-file fallback; test the actual TV client.
+- Use the completed continuous file for 12h20m of playback without a repeat control. Direct play in the actual TV client is host-confirmed; an HDMI/local-file fallback remains available.
 
 [Jellyfin codec support](https://jellyfin.org/docs/general/clients/codec-support/) · [Direct play/transcoding](https://jellyfin.org/docs/general/post-install/transcoding/)
 
-## Screening checklist
+## Earlier screening checklist · reference only
+
+The host accepted TV visuals as finished after confirming direct play on September 9. Unchecked items below record tests not separately reported; they do not keep this deliverable open. The combined rehearsal is a separate operations task.
+
+- [x] Host confirms direct play of the continuous video in the Jellyfin Android app on the TV.
+- [x] Host accepts TV visuals as finished.
 - [ ] Entire clip watched once with sound and once muted.
 - [ ] No unwanted graphic imagery or flashes.
 - [ ] Subtitles readable from the couch if needed.

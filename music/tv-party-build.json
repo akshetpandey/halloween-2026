@@ -276,7 +276,7 @@
       "encoded_sections_full_decode": true,
       "silent_audio_samples": "passed: beginning, second cycle, final seconds"
     },
-    "actual_android_tv_test": "not performed"
+    "actual_android_tv_test": "Host confirmed direct play on their TV through their Jellyfin instance on 2026-09-09; not an agent-run device test."
   },
   "jellyfin": {
     "library": "Halloween Shorts",
@@ -284,7 +284,13 @@
     "item_id": "69285593e12b8739814c101dc5117f08",
     "url": "https://the-screening-room.com/web/#/details?id=69285593e12b8739814c101dc5117f08&serverId=71435b6dd7be4207a0220387ded760c5",
     "visible_in_signed_in_chrome": true,
-    "actual_android_tv_test": "not performed",
+    "actual_android_tv_test": "Host confirmed direct play on their TV through their Jellyfin instance on 2026-09-09; not an agent-run device test.",
     "chrome_playback_test": "Opening footage played successfully; no browser chapter-seek or endurance test completed."
+  },
+  "host_acceptance": {
+    "date": "2026-09-09",
+    "status": "finished",
+    "evidence": "Host confirms direct play in the Jellyfin Android app on their TV through their instance and requests TV visuals be marked finished.",
+    "scope": "TV visuals deliverable; no separate claim of endurance or chapter-seek testing."
   }
 }

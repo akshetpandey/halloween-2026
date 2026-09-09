@@ -1,6 +1,6 @@
 # Halloween Shorts · Android TV playback
 
-Updated September 9, 2026. Library and base playlist verified in the host's signed-in Chrome session. The host approved the continuous video and clarified that it belongs in the existing Halloween Shorts library. The continuous derivative is built, technically verified and visible in the same library. No segment plugin installation or actual TV rehearsal performed.
+Updated September 9, 2026. Library and base playlist verified in the host's signed-in Chrome session. The host approved the continuous video and clarified that it belongs in the existing Halloween Shorts library. The continuous derivative is built, technically verified and visible in the same library. **Finished — host accepted September 9, 2026.** The host confirms the continuous video direct plays through their Jellyfin instance in the Android app on their TV. No segment plugin is needed for this deliverable.
 
 ## Live playlist
 
@@ -10,7 +10,7 @@ Updated September 9, 2026. Library and base playlist verified in the host's sign
 - Library: Halloween Shorts, ID `ea9b35d956566f3baedf0a58a25171d3`.
 - Playlist ID: `a53a6452c866ca027b33e9def4f4e22b`.
 - Media: `/Users/akshet/Transmission/Halloween Shorts`.
-- Playback on the actual Android TV device is untested; playlist creation does not enable repeat or credit skipping.
+- The continuous video is confirmed by the host to direct play on their TV. The original-film playlist remains a fallback; its repeat and credit-skipping behavior was not separately tested.
 
 ## Continuous party video · built and imported
 
@@ -22,7 +22,7 @@ This route is recommended because the standard Android TV video queue in the ins
 
 For a genuinely endless loop, a separate controller that refills/restarts the TV queue would need development and a device test, or a tested external repeat-capable player would be needed. Neither is configured. The completed long continuous file is the selected fit for the host's official-client requirement and smooth joins.
 
-The host approved compilation on September 9 and then clarified that it should go in the **existing Halloween Shorts library**, superseding the brief request for a new library. The [cut record](tv-party-cuts.md) and [edit decision list](tv-party-edit.json) record each source range and exception. [Build helper](build-tv-party-video.py) encodes and verifies the segments, repeats them four times, adds a silent AAC track and 100 chapters, and writes an additional movie folder. The final ranges total **3:05:09.40 per cycle**, removing **18:45.52 (9.2%)** from the complete sources. Verification passed: all 27 encoded sections fully decoded; all 1,110,940 final video packets have continuous 25 fps timestamps; all four cycles have identical encoded payload hashes; all 100 chapters are contiguous; silent audio samples passed at the beginning, second cycle and end. All 25 original SHA-256 hashes were rechecked before assembly. [Build report](tv-party-build.json) · [Verification helper](verify-tv-party-video.py). The opening footage played successfully in the signed-in Chrome Jellyfin player. Browser chapter seeks were not verified. Actual Android TV playback and an unattended endurance run remain untested.
+The host approved compilation on September 9 and then clarified that it should go in the **existing Halloween Shorts library**, superseding the brief request for a new library. The [cut record](tv-party-cuts.md) and [edit decision list](tv-party-edit.json) record each source range and exception. [Build helper](build-tv-party-video.py) encodes and verifies the segments, repeats them four times, adds a silent AAC track and 100 chapters, and writes an additional movie folder. The final ranges total **3:05:09.40 per cycle**, removing **18:45.52 (9.2%)** from the complete sources. Verification passed: all 27 encoded sections fully decoded; all 1,110,940 final video packets have continuous 25 fps timestamps; all four cycles have identical encoded payload hashes; all 100 chapters are contiguous; silent audio samples passed at the beginning, second cycle and end. All 25 original SHA-256 hashes were rechecked before assembly. [Build report](tv-party-build.json) · [Verification helper](verify-tv-party-video.py). The opening footage played successfully in the signed-in Chrome Jellyfin player. Browser chapter seeks were not verified. The host subsequently confirmed direct play in the Jellyfin Android app on their TV through their own instance and accepted TV visuals as finished. This confirmation does not separately establish a full-duration endurance run or chapter-seek test.
 
 ## Alternative · keep individual shorts
 
@@ -50,7 +50,13 @@ Special cases:
 
 The initial candidate review is retained as historical evidence. It was refined with one-second ending sequences, expanded opening surveys, and independently sought frames at 0.3-second intervals around cuts. This is visual frame inspection, not a claim of continuous human viewing. The final editorial choices are in [tv-party-edit.json](tv-party-edit.json). The Mountain of SGaana has a later blanket/bed coda and The Old Man & the Goblins has a brief goblin coda; both are retained as second ranges after excising intervening credits. O Black Hole! retains its animated ending underneath early credits. Long opening padding is removed, while illustrated titles and internal chapter cards remain. The originals are untouched.
 
-## Acceptance test on the actual TV
+## Host acceptance · finished September 9
+
+The host confirmed successful direct play on the actual TV and explicitly requested closure of the TV visuals task. No further work is required for VID-01. The broader combined audio/TV/lighting rehearsal remains tracked separately.
+
+### Earlier rehearsal suggestions · reference only
+
+These suggestions are retained for optional event preparation, not as outstanding conditions for TV visuals completion:
 
 1. Confirm the installed official Android TV version and access to the playlist/reel with the TV's Jellyfin account.
 2. Play several joins, including low-resolution, 4K and AV1 source cases if using individual films. For the reel, verify aspect ratio, muted audio, motion and chapter seeks.

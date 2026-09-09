@@ -27,9 +27,9 @@ Do not announce definitive succession instructions, the costume-bonus size or ti
 ## The mechanics helpers must know
 - Fifteen entities: five decor integrations, five bought figures and five homemade figures. The [roster](physical/entity-plan.md) is provisional; names and exact locations follow later.
 - Scanning discovers a puzzle. A valid solution earns one Favor/point per entity, once. There are no hints; retries are unlimited. Helpers may explain controls or phone use without solving the puzzle for the guest.
-- After each new Favor, the site offers two other guests' costume selfies for one quick choice. Voting does not itself add a Favor. Missing eligible pairs must not block progress.
+- The optional Looking Glass gallery lets every registered guest choose up to three favorite costumes with equal leaves, editable until closing. It is available at zero Favors, gently introduced after the first, and linked at six. Choices and totals stay private; voting never grants a Favor.
 - Fourth and tenth Favors unlock a Summons. Under the working proposal each is single-use and awards one point after a new guest completes registration. Existing players do not qualify.
-- The public leaderboard shows Favor plus successful Summons. The top costume's three-point bonus is applied at close. Working final maximum: twenty.
+- The public leaderboard shows Favor plus successful Summons. After closing, the host privately reviews leaves, chooses any registered costume (including resolving ties), and reviews/publishes the final +3 award once. Working final maximum: twenty.
 - Guest-facing lore never explicitly reveals the succession until the finale. Reread unlocked story in the Chronicle.
 
 ## Timing proposal — America/New_York
@@ -39,11 +39,11 @@ Do not announce definitive succession instructions, the costume-bonus size or ti
 | Oct 31, 8 p.m. EDT | Website opens automatically; this is not the party door time |
 | Around proposed 9:30 p.m. EDT doors | Seed rumors through normal conversation; demonstrate when a guest is interested |
 | Throughout the night | Control/phone help, invitations, occasional checks for queues or damaged targets |
-| Nov 1, 1:45 a.m. EST | Proposed fifteen-minute reminder, only if closing remains 2 a.m. EST |
-| Nov 1, 2 a.m. EST | Stop scoring/votes; finalize ranking and snapshot; resolve any remaining tie/review gate |
+| Nov 1, first 1 a.m. EDT | Confirmed in-app costume reminder for everyone; returning guests see it before closing unless acknowledged |
+| Nov 1, 2 a.m. EST | Stop scoring/votes; host chooses and publishes the costume +3; full succession result review remains a separate step |
 | Immediately after results are ready | Site finale, then a short physical crowning; no demanded speech |
 
-New York clocks roll back before the proposed closing. Use the **second 1:45 a.m., EST**, for the reminder. If the host extends closing, update the reminder and tell helpers the new date/time. The old 10:30 opening, 12:30 cutoff and 12:45 coronation are historical, not additional cues.
+New York clocks roll back before the proposed closing. The costume reminder uses the **first 1 a.m., EDT** (`2026-11-01T01:00:00-04:00`) and does not repeat after rollback. It is an in-app message, not a background phone notification. If the host extends closing, tell helpers the new date/time; this costume reminder stays fixed at 1 a.m. EDT. The old 10:30 opening, 12:30 cutoff and 12:45 coronation are historical, not additional cues.
 
 ## Assistance and boundaries
 Use the existing [phone pilot guidance](physical/phone-and-nfc-feasibility.md). No entity QR fallback. Invitation QRs on the site are intentional and separate. A helper may assist a guest through their assigned puzzle and record a witnessed completion in an authenticated helper view against that guest's player ID. Do not award the helper or treat mere discovery as a solved puzzle. Repeat/helper submissions share the same one-Favor rule.

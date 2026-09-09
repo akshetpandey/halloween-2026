@@ -121,7 +121,7 @@ Generic encounter copy, usable before assignments are chosen:
 
 **The Bestiary is a record of acquaintance.** Earned cards hold an individual voice and a keepsake image, not fragments of a code that needs all fifteen pieces. No lore line instructs the player to open cupboards, move a figure, approach the DJ gear or visit a second entity first.
 
-**The Looking Glass lets the creatures consult the guests.** Keep the existing question, “Which guise has captured the Court's attention?” The fiction concerns memorable apparitions; the real choice concerns the two displayed costumes. No extra personality vote or moral assessment is added. Votes remain optional and preserve already-earned Favor. At the finale, explain how this testimony contributes through the agreed costume award; it does not independently elect the sovereign.
+**The Looking Glass lets the creatures consult the guests.** The approved September 9 gallery asks, “Which costumes will you remember tomorrow?” Each guest may place up to three equal leaves on other costumes, edit until closing, and see no public totals. The first Favor offers a small optional invitation; Borrowed Eyes at six links directly to the gallery. The first 1 a.m. EDT reminder invites everyone regardless of puzzle progress. This is a costume appreciation vote, with no personality or moral assessment. At closing the host reviews private totals and chooses the +3 costume recipient; the leaves guide the choice and do not independently elect the sovereign.
 
 **Standing is attention made visible.** Keep the existing navigation and podium. Optional framing: “Some names carry farther through the branches.” The top three are current leaders only; no pre-finale titles of office or implied final winner while the costume judgment remains pending.
 
@@ -174,7 +174,7 @@ Release only after the host/admin has resolved the agreed ranking rules and froz
 1. **THE COURT IS CLOSED.** “Its witnesses have been heard.”
 2. **A NAME FOR THE WINTER.** “The Hollow keeps a mortal name through the dark season. Tonight, the Antler King's keeping comes to an end.”
 3. **THE OLD LAW.** “He may welcome the gathering. He may not choose who follows him. That name must be carried by the creatures, by hospitality, and by the judgment of the room.”
-4. **YOUR TESTIMONY.** “Each Favor gave a creature's testimony. Each completed Summons brought a new guest into the Court. Your choices in the Looking Glass determined its costume judgment. Together, these formed the succession rite.”
+4. **YOUR TESTIMONY.** “Each Favor gave a creature's testimony. Each completed Summons brought a new guest into the Court. Your leaves in the Looking Glass guided the host’s costume distinction. Together, these formed the succession rite.”
 5. Reveal the finalized third and second places using the agreed tie/result handling. Present the costume distinction and its agreed bonus clearly with the result breakdown; do not imply a separate uncounted election.
 6. **[NAME] — SOVEREIGN OF THE HOLLOW COURT.** “Tonight, the wood learned your name. It will keep it until the next turning.” Show the portrait and earned sigils; full collection is not required.
 

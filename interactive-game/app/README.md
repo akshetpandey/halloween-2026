@@ -20,6 +20,8 @@ September 9: Onboarding no longer requires a portrait checkbox or saving a recov
 
 On the Workers preview, **Field notes → First Summons reveal / Second Summons reveal** replays the chapter and invitation introduction before opening the QR. Individual **Chapter 1–9** buttons replay each Chronicle reveal even when already unlocked. These are the same dialogs used after registration and newly earned milestone Favors. Rehearsal links remain on the preview hostname; each Summons also has a recipient preview and an option to start a fresh rehearsal guest to test accepting it. Shortcuts add rehearsal progress without removing existing Favors.
 
+September 9: [costume leaves and host award](handoff-2026-09-09-costume-leaves.md) replace pairwise judgments. The Looking Glass is available at zero Favors, with optional prompts after the first Favor and at Borrowed Eyes (six). A site reminder is fixed to **November 1 at the first 1 a.m. EDT**, `2026-11-01T01:00:00-04:00`. Open pages refresh at that instant; returning guests see it until closing unless acknowledged. This is an in-app reminder, not background push or email. Field notes includes **Looking Glass gallery** and **Preview 1 AM reminder**. The host dashboard has private vote totals, recipient selection, a private note and reviewed final publication; live publication unlocks at closing, rehearsal publication immediately.
+
 ## Try it locally
 
 ```sh
@@ -38,9 +40,9 @@ Open `http://127.0.0.1:8787`. The first view is the locked entrance, using the h
 - Locked entrance with a short Partiful redirect and an illustrated woodland QR; mobile Court homepage, room introductions, illustrated Bestiary and nine progressively unlocked Chronicle chapters.
 - Fifteen guardian pages and all fifteen puzzle families. Twelve random hexadecimal characters identify each `/g/<code>` route. Codes are created once in D1 by `seed`, survive repeated seeds, and are not committed or bundled in the collection. Only the preview debug endpoint lists them. No guardian QR fallback.
 - Deterministic, persisted player/event/guardian puzzle instances; server validation, unlimited retry/reset, memory/shuffle replay, touch-friendly/tap interactions, and once-only Favor awards enforced by SQL uniqueness.
-- Name + square costume portrait + a plain visibility notice; browser-side resizing to 720px, image re-encoding, MIME signature checks and bounded upload size. A returning HttpOnly session cookie restores progress. Host-issued return phrases restore the same player and invalidate previous sessions; earlier saved recovery keys remain compatible.
+- Name + full costume portrait + a plain visibility notice; browser-side aspect-preserving resizing to a maximum 1200px long edge, image re-encoding, MIME signature checks and bounded upload size. A returning HttpOnly session cookie restores progress. Host-issued return phrases restore the same player and invalidate previous sessions; earlier saved recovery keys remain compatible.
 - Deferrable Summons at four and ten Favors. QR and copyable link preserve invitation attribution through onboarding. A D1 batch allows one qualifying new registration to redeem each token; existing accounts do not create another referral credit.
-- Pairwise costume ballots excluding self and repeat submission, with least-exposed entrants preferred. Live Standing displays Favor + completed Summons and visibly ties equal scores. Final costume ranking, tie resolution and coronation admin controls remain a later stage.
+- Looking Glass gallery: up to three equal leaves, no self-votes, editable until closing, stable per-guest shuffle, no public totals. The host privately reviews votes and selects any registered costume for the final +3 award, including resolving ties; review and publish once after closing. Standing adds the bonus separately and visibly ties equal totals. Full succession finalization/export and crown eligibility remain later work.
 - Rehearsal debug tools (`PREVIEW=true` on `PREVIEW_HOST` only), security headers, same-origin mutation checks, rate limiting, private portrait access, persistent portrait storage.
 
 ## Storage and environment
@@ -64,7 +66,7 @@ node scripts/smoke.mjs     # explicitly mutates the hosted rehearsal using dispo
 
 The integration suite also uses a local signed JWT fixture at port 8789 to exercise the same signature verifier used for Cloudflare Access. Set local `.dev.vars` to `ACCESS_TEAM_DOMAIN=http://127.0.0.1:8789`, `ACCESS_AUD=local-host-test`, and `HOST_EMAIL=host@example.test`, then restart Wrangler before running it. Its generated local key stays in ignored `private/`. Never deploy these local issuer settings.
 
-The integration suite creates and removes only its own local players through a CLI-only fixture helper. The hosted smoke script also requires Wrangler access for its synthetic-data cleanup; no account-deletion endpoint exists. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation and ballot ownership. QR tests decode dynamic Summons SVGs at 244px and 488px, plus varied invitation codes under mild blur. On macOS, the fixed Partiful artwork is also checked with Apple Vision at five sizes and three blur levels; this native test is explicitly skipped on other platforms. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
+The integration suite creates and removes only its own local players through a CLI-only fixture helper. The hosted smoke script also requires Wrangler access for its synthetic-data cleanup; no account-deletion endpoint exists. It covers all fifteen routes/solves, duplicate submissions, stable assignments, locked entry, protected photo reads, upload validation, referral contention, recovery rotation, atomic three-choice ballot revisions, cross-realm/self exclusion, private totals, cutoff rules and concurrent one-time host award publication. QR tests decode dynamic Summons SVGs at 244px and 488px, plus varied invitation codes under mild blur. On macOS, the fixed Partiful artwork is also checked with Apple Vision at five sizes and three blur levels; this native test is explicitly skipped on other platforms. Browser checks are performed through Codex computer use; real iPhone/Android NFC, camera behavior, QR scanning and solve-time playtests remain necessary.
 
 The `sharp` override selects patched 0.35.4 for Wrangler's local Miniflare dependency. No image processing library is bundled into the Worker; the browser prepares portrait images. Build dependencies are pinned by the lockfile.
 
@@ -82,6 +84,8 @@ node scripts/retain-portraits.mjs --remote # one-time TTL removal for older stor
 npm run db:remote
 npm run seed:remote
 ```
+
+Apply additive migration `0005_costume_leaves.sql` before deploying the costume-gallery upgrade. Old pairwise ballots remain historical and do not count toward the new award. The legacy `/api/ballot` endpoint returns 410.
 
 For the domain/QR upgrade, apply additive migration `0003_short_summons.sql` before deploying the Worker. Existing aliases are assigned lazily and remain stable; original tokens are preserved.
 

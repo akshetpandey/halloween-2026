@@ -35,6 +35,7 @@ import "./style.css";
 import { api } from "./api";
 import { HostDashboard } from "./HostDashboard";
 import { StoryReveal, type Reveal } from "./Reveals";
+import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
 function App() {
   const [location, setLocation] = useState(
       window.location.pathname + window.location.search,
@@ -67,12 +68,10 @@ function App() {
         photo: number;
         favors: number;
         referrals: number;
+        costumeBonus: number;
       }[]
-    >([]),
-    [ballot, setBallot] = useState<{
-      id: string;
-      people: { id: string; name: string }[];
-    } | null>(null);
+    >([]);
+  const [reminderPreview, setReminderPreview] = useState(false);
   const path = location.split("?")[0],
     params = new URLSearchParams(location.split("?")[1] || "");
   const count = state?.favors.length || 0;
@@ -111,7 +110,6 @@ function App() {
   useEffect(() => {
     setEncounter(null);
     setTrialMessage("");
-    setBallot(null);
     if (
       path.startsWith("/g/") &&
       state?.player?.registered &&
@@ -155,8 +153,46 @@ function App() {
   }, [path, state?.player?.id]);
   useEffect(() => {
     const timer = setInterval(() => void refresh().catch(() => {}), 30000);
-    return () => clearInterval(timer);
+    const resume = () => {
+      if (document.visibilityState === "visible")
+        void refresh().catch(() => {});
+    };
+    window.addEventListener("focus", resume);
+    document.addEventListener("visibilitychange", resume);
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener("focus", resume);
+      document.removeEventListener("visibilitychange", resume);
+    };
   }, []);
+  useEffect(() => {
+    if (!state) return;
+    const boundary = [
+      Date.parse(state.costumeReminderAt),
+      Date.parse(state.closesAt),
+    ]
+      .filter((t) => t > state.serverNow)
+      .sort((a, b) => a - b)[0];
+    if (!boundary) return;
+    const timer = setTimeout(
+      () => void refresh().catch(() => {}),
+      Math.min(2147483647, boundary - state.serverNow + 50),
+    );
+    return () => clearTimeout(timer);
+  }, [state?.serverNow]);
+  async function dismissCostumeReminder() {
+    if (reminderPreview) {
+      setReminderPreview(false);
+      return;
+    }
+    try {
+      await api("/costumes/reminder", "POST", {});
+      await refresh();
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
+
   async function start(preview = false, demo = false, to = "/court") {
     setBusy(true);
     try {
@@ -210,9 +246,6 @@ function App() {
         if (newChapter) setReveal({ chapter: newChapter });
         setEncounter({ ...encounter, earned: true });
         setTrialMessage("Its Favor is yours.");
-        setBallot(
-          await api<typeof ballot>("/ballot?guardian=" + encounter.guardian.id),
-        );
         return true;
       }
       setTrialMessage("The creature waits. Try again.");
@@ -252,6 +285,7 @@ function App() {
     ["/chronicle", "Chronicle", BookOpen],
     ["/summons", "Summons", Users],
     ["/standing", "Standing", Sparkles],
+    ["/costumes", "Looking Glass", Leaf],
   ] as const;
   const locked =
     path === "/sealed" ||
@@ -495,7 +529,10 @@ function App() {
         )}
       </section>
     );
-  else if (state.status === "closed")
+  else if (
+    state.status === "closed" &&
+    !["/standing", "/chronicle", "/costumes"].includes(path)
+  )
     content = (
       <section className="narrow page-top">
         <Moon size={40} />
@@ -508,6 +545,12 @@ function App() {
           The witnesses have been heard. The host will announce the Court’s
           judgment when the testimony is ready.
         </p>
+        {state.player?.registered && state.costumeAward && (
+          <CostumeCelebration award={state.costumeAward} />
+        )}
+        <button className="text-button" onClick={() => go("/standing")}>
+          View the gathering’s standing
+        </button>
         <p className="muted">The party continues.</p>
       </section>
     );
@@ -532,6 +575,10 @@ function App() {
           I have been here before
         </button>
       </section>
+    );
+  else if (path === "/costumes")
+    content = (
+      <CostumeGalleryPage onSaved={() => void refresh().catch(() => {})} />
     );
   else if (path === "/court" || path === "/")
     content = (
@@ -596,6 +643,24 @@ function App() {
             Your keepsakes <ArrowRight size={14} />
           </button>
         </section>
+        <section className="home-looking-glass panel">
+          <div>
+            <span className="eyebrow">THE LOOKING GLASS</span>
+            <h2>
+              A leaf for a costume <em>you love.</em>
+            </h2>
+            <p>
+              Up to three favorites. Each leaf helps guide the host’s +3 costume
+              award.
+            </p>
+          </div>
+          <button className="btn secondary" onClick={() => go("/costumes")}>
+            Visit the Looking Glass <Leaf size={18} />
+          </button>
+        </section>
+        {state.costumeAward && (
+          <CostumeCelebration award={state.costumeAward} />
+        )}
         <section className="home-story">
           <div className="chapter-preview">
             <span className="eyebrow">
@@ -773,38 +838,19 @@ function App() {
                 <span className="eyebrow">ONE VOICE IN YOUR FAVOR</span>
                 <h2>It remembers you.</h2>
                 <p>{encounter.guardian.lore}</p>
-                {ballot && (
-                  <div className="looking-glass">
+                {count === 1 && (
+                  <div className="looking-glass-intro">
                     <span className="eyebrow">THE LOOKING GLASS</span>
-                    <h3>Which guise has captured the Court’s attention?</h3>
-                    <div>
-                      {ballot.people.map((person) => (
-                        <button
-                          key={person.id}
-                          onClick={() =>
-                            void action(async () => {
-                              await api("/ballot", "POST", {
-                                id: ballot.id,
-                                choice: person.id,
-                              });
-                              setBallot(null);
-                              setNotice("The glass remembers your judgment.");
-                            })
-                          }
-                        >
-                          <img
-                            src={"/api/photo/" + person.id}
-                            alt={person.name + " costume"}
-                          />
-                          <span>{person.name}</span>
-                        </button>
-                      ))}
-                    </div>
+                    <h3>The glass has noticed the gathering.</h3>
+                    <p>
+                      Leave a leaf for a costume you love. You can visit any
+                      time—no more trials required.
+                    </p>
                     <button
                       className="text-button"
-                      onClick={() => setBallot(null)}
+                      onClick={() => go("/costumes")}
                     >
-                      Not now
+                      Visit the Looking Glass <Leaf size={16} />
                     </button>
                   </div>
                 )}
@@ -1020,7 +1066,9 @@ function App() {
           Before <em>the Court</em>
         </h1>
         <p>
-          The Looking Glass has not rendered its judgment.
+          {state.costumeAward
+            ? `${state.costumeAward.name} received the costume award: +3 points.`
+            : "The Looking Glass is gathering leaves. The host’s costume award adds +3 at the end."}
           <br />
           Favors and completed Summons are counted here.
         </p>
@@ -1029,7 +1077,9 @@ function App() {
             <article key={s.id}>
               <span className="standing-rank">
                 {standing.findIndex(
-                  (x) => x.favors + x.referrals === s.favors + s.referrals,
+                  (x) =>
+                    x.favors + x.referrals + x.costumeBonus ===
+                    s.favors + s.referrals + s.costumeBonus,
                 ) + 1}
               </span>
               <div className="standing-portrait">
@@ -1043,7 +1093,7 @@ function App() {
               </div>
               <h3>{s.name}</h3>
               <strong>
-                {s.favors + s.referrals}
+                {s.favors + s.referrals + s.costumeBonus}
                 <small> POINTS</small>
               </strong>
             </article>
@@ -1054,7 +1104,9 @@ function App() {
             <div key={s.id}>
               <span>
                 {standing.findIndex(
-                  (x) => x.favors + x.referrals === s.favors + s.referrals,
+                  (x) =>
+                    x.favors + x.referrals + x.costumeBonus ===
+                    s.favors + s.referrals + s.costumeBonus,
                 ) + 1}
               </span>
               <strong>
@@ -1062,15 +1114,16 @@ function App() {
                 {s.id === state.player?.id && <small> YOU</small>}
               </strong>
               <span>
-                {s.favors} Favors · {s.referrals} Summons
+                {s.favors} Favors · {s.referrals} Summons{" "}
+                {s.costumeBonus > 0 && "· +3 costume award"}
               </span>
-              <b>{s.favors + s.referrals}</b>
+              <b>{s.favors + s.referrals + s.costumeBonus}</b>
             </div>
           ))}
         </div>
         <p className="small muted">
-          Equal scores share a place. The costume award and final ceremony await
-          the host’s agreed rules.
+          Equal scores share a place. The host publishes the costume award
+          separately; its +3 is included once awarded.
         </p>
       </section>
     );
@@ -1198,10 +1251,52 @@ function App() {
         <p>May your gatherings be strange, and your guests find room.</p>
         <small>HALLOWEEN · MMXXVI</small>
       </footer>
+      {state?.player?.registered &&
+        path !== "/host" &&
+        !reveal &&
+        (state.costumeReminderDue || reminderPreview) && (
+          <aside
+            className="costume-reminder"
+            role="region"
+            aria-label="Looking Glass reminder"
+          >
+            <Leaf size={23} />
+            <div>
+              <span className="eyebrow">
+                {reminderPreview
+                  ? "REHEARSAL · 1 AM REMINDER"
+                  : "A LAST LOOK THROUGH THE GLASS"}
+              </span>
+              <p>
+                More strange company has arrived. Visit the costumes and
+                place—or move—your three leaves before the Court closes.
+              </p>
+              <button
+                className="text-button"
+                onClick={() => {
+                  void dismissCostumeReminder();
+                  go("/costumes");
+                }}
+              >
+                Visit the Looking Glass
+              </button>
+              <button
+                className="text-button"
+                onClick={() => void dismissCostumeReminder()}
+              >
+                Not now
+              </button>
+            </div>
+          </aside>
+        )}
       {reveal && (
         <StoryReveal
           key={reveal.chapter.at + ":" + String(reveal.preview)}
           reveal={reveal}
+          onLookingGlass={() => {
+            setReveal(null);
+            go("/costumes");
+          }}
           onClose={() => setReveal(null)}
           onSummons={(n) => {
             setReveal(null);
@@ -1262,6 +1357,24 @@ function App() {
               </button>
               <button onClick={() => go("/recover")}>Recovery login</button>
               <button onClick={() => go("/host")}>Host guest book</button>
+              <button
+                disabled={busy}
+                onClick={() => void start(true, true, "/costumes")}
+              >
+                Looking Glass gallery
+              </button>
+              <button
+                disabled={busy}
+                onClick={() =>
+                  void action(async () => {
+                    await start(true, true);
+                    setReminderPreview(true);
+                    setDebug(false);
+                  })
+                }
+              >
+                Preview 1 AM reminder
+              </button>
               <button disabled={busy} onClick={() => void previewReveal(4)}>
                 First Summons reveal
               </button>
@@ -1422,20 +1535,11 @@ function Join({
         );
       }
       const canvas = document.createElement("canvas");
-      canvas.width = canvas.height = 720;
+      const scale = Math.min(1, 1200 / Math.max(img.width, img.height));
+      canvas.width = Math.max(1, Math.round(img.width * scale));
+      canvas.height = Math.max(1, Math.round(img.height * scale));
       const ctx = canvas.getContext("2d")!;
-      const edge = Math.min(img.width, img.height);
-      ctx.drawImage(
-        img,
-        (img.width - edge) / 2,
-        (img.height - edge) / 2,
-        edge,
-        edge,
-        0,
-        0,
-        720,
-        720,
-      );
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
       URL.revokeObjectURL(url);
       const blob = await new Promise<Blob>((resolve, reject) =>
         canvas.toBlob(
@@ -1566,8 +1670,9 @@ function Join({
               wood remember you?
             </h2>
             <p>
-              A costume portrait for the Looking Glass. Find a little light;
-              strange company is welcome.
+              Show us your costume for the Looking Glass. Step back, find a
+              little light, or ask a friend to capture the whole outfit. Clever,
+              strange, homemade, extravagant—all welcome.
             </p>
             <div className="photo-frame">
               {preview ? (
@@ -1581,11 +1686,11 @@ function Join({
             </div>
             <div className="photo-actions">
               <label className="btn secondary">
-                <Camera size={16} /> {photo ? "Retake" : "Take a selfie"}
+                <Camera size={16} /> {photo ? "Retake" : "Take a costume photo"}
                 <input
                   type="file"
                   accept="image/*"
-                  capture="user"
+                  capture="environment"
                   onChange={(e) => {
                     if (e.target.files?.[0]) void select(e.target.files[0]);
                   }}
@@ -1603,13 +1708,14 @@ function Join({
               </label>
             </div>
             <p className="small muted">
-              Your portrait is cropped to a square; the preview shows exactly
-              what others will see. Uploads are resized and stripped of photo
-              metadata.
+              Your whole photo is kept, without a square crop. The preview shows
+              what the gallery will see. Uploads are resized and stripped of
+              photo metadata.
             </p>
             <p className="small muted">
-              Your name and portrait appear to registered Court participants for
-              costume judgments and standings.
+              Your name and costume photo appear in the guest gallery and
+              standings. Guests can give leaves to three favorites to help guide
+              the host’s +3 costume award. Voting is optional.
             </p>
             <div className="form-actions">
               <button className="text-button" onClick={() => setStep(1)}>

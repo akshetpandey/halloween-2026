@@ -1,3 +1,4 @@
+import { costumeAdmin } from "./costumes";
 import { requireHost } from "./host-access";
 import { body, fail, hash, hex, json } from "./request";
 import { recoveryWords } from "./recovery-words";
@@ -24,6 +25,7 @@ export async function adminApi(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url),
     path = url.pathname;
   const actor = await requireHost(request, env);
+  if (path === "/api/admin/costumes") return costumeAdmin(request, env, actor);
   if (path === "/api/admin/session" && request.method === "GET")
     return json({ ok: true });
   if (path === "/api/admin/guests" && request.method === "GET") {

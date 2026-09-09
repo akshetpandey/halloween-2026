@@ -8,6 +8,8 @@ import { previewEnabled } from "./access";
 import { httpsRedirect, responseHeaders } from "./http";
 import { hex, hash, fail, json, readBody, body } from "./request";
 import { adminApi, redeemHostRecovery } from "./admin";
+import { costumeApi, costumeAward } from "./costumes";
+import { COSTUME_REMINDER_AT, reminderDue } from "../shared/costumes";
 export type RowPlayer = {
   id: string;
   name: string;
@@ -92,7 +94,20 @@ async function state(env: Env, p: RowPlayer | null) {
     if (!invite.short_code)
       fail("The invitation could not be prepared. Please try again.", 503);
   }
+  const award = p?.registered ? await costumeAward(env, p.realm) : null;
+  const seen = p?.registered
+    ? await env.DB.prepare("SELECT 1 FROM costume_reminders WHERE player_id=?")
+        .bind(p.id)
+        .first()
+    : null;
   return {
+    serverNow: Date.now(),
+    costumeAward: award,
+    costumeReminderAt: COSTUME_REMINDER_AT,
+    costumeReminderDue:
+      !!p?.registered &&
+      !award &&
+      reminderDue(env.OPENS_AT, env.CLOSES_AT, Date.now(), !!seen),
     player: p
       ? {
           id: p.id,
@@ -161,6 +176,12 @@ async function api(request: Request, env: Env): Promise<Response> {
     await rate(request, env, path);
   }
   if (path.startsWith("/api/admin/")) return adminApi(request, env);
+  if (path === "/api/costumes" || path === "/api/costumes/reminder") {
+    registered(p);
+    return costumeApi(request, env, p);
+  }
+  if (path === "/api/ballot")
+    fail("The Looking Glass now uses costume leaves. Open the gallery.", 410);
   if (path === "/api/state" && request.method === "GET")
     return json(await state(env, p));
   if (path === "/api/session/start" && request.method === "POST") {
@@ -484,7 +505,7 @@ async function api(request: Request, env: Env): Promise<Response> {
     registered(p);
     const rows = (
       await env.DB.prepare(
-        `SELECT p.id,p.name,(p.photo_key IS NOT NULL) AS photo, (SELECT COUNT(*) FROM favors f WHERE f.player_id=p.id) AS favors,(SELECT COUNT(*) FROM summons s WHERE s.inviter_id=p.id AND s.redeemed_at IS NOT NULL) AS referrals FROM players p WHERE p.registered=1 AND p.realm=? ORDER BY favors+referrals DESC,p.created_at ASC LIMIT 100`,
+        `SELECT p.id,p.name,(p.photo_key IS NOT NULL) AS photo, (SELECT COUNT(*) FROM favors f WHERE f.player_id=p.id) AS favors,(SELECT COUNT(*) FROM summons s WHERE s.inviter_id=p.id AND s.redeemed_at IS NOT NULL) AS referrals, CASE WHEN EXISTS(SELECT 1 FROM costume_awards a WHERE a.winner_id=p.id AND a.realm=p.realm) THEN 3 ELSE 0 END AS costumeBonus FROM players p WHERE p.registered=1 AND p.realm=? ORDER BY favors+referrals+costumeBonus DESC,p.created_at ASC LIMIT 100`,
       )
         .bind(p.realm)
         .all<{
@@ -493,74 +514,10 @@ async function api(request: Request, env: Env): Promise<Response> {
           photo: number;
           favors: number;
           referrals: number;
+          costumeBonus: number;
         }>()
     ).results;
     return json(rows);
-  }
-  if (path === "/api/ballot" && request.method === "GET") {
-    registered(p);
-    const favor = url.searchParams.get("guardian");
-    if (
-      !favor ||
-      !(await env.DB.prepare(
-        "SELECT 1 FROM favors WHERE player_id=? AND guardian_id=?",
-      )
-        .bind(p.id, favor)
-        .first())
-    )
-      return json(null);
-    let ballot = await env.DB.prepare(
-      "SELECT * FROM ballots WHERE voter_id=? AND guardian_id=?",
-    )
-      .bind(p.id, favor)
-      .first<{ id: string; a: string; b: string; choice: string | null }>();
-    if (!ballot) {
-      const candidates = (
-        await env.DB.prepare(
-          `SELECT p.id FROM players p WHERE p.realm=? AND p.registered=1 AND p.id!=? AND p.photo_key IS NOT NULL ORDER BY (SELECT COUNT(*) FROM ballots b WHERE b.a=p.id OR b.b=p.id), RANDOM() LIMIT 2`,
-        )
-          .bind(p.realm, p.id)
-          .all<{ id: string }>()
-      ).results;
-      if (candidates.length < 2) return json(null);
-      await env.DB.prepare(
-        "INSERT OR IGNORE INTO ballots VALUES(?,?,?,?,?,NULL,?)",
-      )
-        .bind(
-          hex(16),
-          p.id,
-          favor,
-          candidates[0].id,
-          candidates[1].id,
-          Date.now(),
-        )
-        .run();
-      ballot = await env.DB.prepare(
-        "SELECT * FROM ballots WHERE voter_id=? AND guardian_id=?",
-      )
-        .bind(p.id, favor)
-        .first();
-    }
-    if (!ballot || ballot.choice) return json(null);
-    const people = (
-      await env.DB.prepare("SELECT id,name FROM players WHERE id IN (?,?)")
-        .bind(ballot.a, ballot.b)
-        .all()
-    ).results;
-    return json({ id: ballot.id, people });
-  }
-  if (path === "/api/ballot" && request.method === "POST") {
-    registered(p);
-    open(env, p);
-    const b = await body(request);
-    if (typeof b.id !== "string" || typeof b.choice !== "string")
-      fail("Choose one apparition.");
-    const r = await env.DB.prepare(
-      "UPDATE ballots SET choice=? WHERE id=? AND voter_id=? AND choice IS NULL AND (a=? OR b=?)",
-    )
-      .bind(b.choice, b.id, p.id, b.choice, b.choice)
-      .run();
-    return json({ accepted: !!r.meta.changes });
   }
   if (path.startsWith("/api/photo/") && request.method === "GET") {
     registered(p);

@@ -5,16 +5,16 @@ Status: Original specification September 4; implementation authorized by the hos
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
 2. After opening, first visit asks for display name and costume selfie with a plain in-game portrait visibility notice (the host removed the checkbox on September 9). Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.
 3. An entity NFC URL opens that entity's greeting and the player's persistent assigned puzzle. A server-validated solution earns one Favor; a scan/page view never does.
-4. Illuminate the illustrated Bestiary card, archive entity lore and newly unlocked Chronicle chapters, then offer one pairwise costume judgment. Missing/abandoned votes must not undo earned Favor.
+4. Illuminate the illustrated Bestiary card, archive entity lore and newly unlocked Chronicle chapters, then offer an optional gallery introduction after the first Favor. Borrowed Eyes at six links to the gallery. Voting never blocks or changes earned Favor.
 5. At four and ten earned entities, unlock a persistent, deferrable Summons with its own QR/link. A qualifying new registration completes it for one point under the proposed cap.
 6. Show live Standing with a top-three podium; before finalization, costume bonus remains pending. At close, stop scoring/votes, freeze results and present the secret succession finale.
 
-Navigation: **The Court** (Favor, latest chapter, Continue and outstanding Summons), **Bestiary** (fifteen illustrated collection slots), **Chronicle** (all unlocked passages), **Standing** (live rankings and podium), **Summons** (unused/used invitations). The Looking Glass appears after each newly earned Favor and can resume an interrupted vote. Reopening earned entities shows collection/lore state without another award.
+Navigation: **The Court** (Favor, latest chapter, Continue and outstanding Summons), **Bestiary** (fifteen illustrated collection slots), **Chronicle** (all unlocked passages), **Standing** (live rankings and podium), **Summons** (unused/used invitations). **Looking Glass** is always available after registration, with up to three saved equal leaves and editable choices until closing. Reopening earned entities shows collection/lore state without another award.
 
 ## Identity, images and recovery
 Use a secure first-party, HttpOnly session cookie and server-issued player ID. Choose a session lifetime that comfortably covers the party, including post-midnight use. Never use display name as identity or silently merge matching names. Browser changes/private browsing can lose continuity; provide an admin-assisted recovery credential/flow and preserve puzzle assignments, Favors and invitations on recovery.
 
-Selfies serve as avatars, contest entries and final portraits. Plan upload limits, supported mobile formats, preview/retry and sensible portrait cropping; bound/escape names and other text. Explain who can see the photos. Keep guest data off public indexing, avoid unnecessary trackers/contact details, and protect original uploads. Confirmed September 9: remove the guest account/portrait deletion flow and retain player data and portraits without automatic expiry. Login session expiry is separate from data retention; recovery must restore the retained player. Consider guests who decline selfies as an explicit product decision.
+Selfies serve as avatars, contest entries and final portraits. Plan upload limits, supported mobile formats, preview/retry and aspect-preserving full-outfit photos; bound/escape names and other text. Explain who can see the photos. Keep guest data off public indexing, avoid unnecessary trackers/contact details, and protect original uploads. Confirmed September 9: remove the guest account/portrait deletion flow and retain player data and portraits without automatic expiry. Login session expiry is separate from data retention; recovery must restore the retained player. Consider guests who decline selfies as an explicit product decision.
 
 ## Hosting direction and current implementation
 The host selected **Cloudflare Workers with other Cloudflare services as backend**. Proposed service roles: Workers handles requests/rules, D1 holds structured game data, R2 stores guest selfies and entity artwork. The first build uses Workers/static assets + D1 + private KV portraits because R2 is not activated on this account. See the [app README](README.md) for the deployed architecture and configurable rehearsal defaults; the R2 role here is the original proposal.
@@ -30,7 +30,7 @@ Use the host-controlled HTTPS domain **hollow-court.com**, purchased by the host
 | Puzzle variant/assignment | Validated prompt/answer or terminal state, game + player + entity seed, version and persistent assignment per player/entity |
 | Favor | Unique event + player + entity completion, server time, normal/helper origin |
 | Summons/referral | Milestone, inviter, single-use token, pending/redeemed state, qualifying new player and one-time point |
-| Looking Glass vote | Issued ballot, voter, two eligible other players, choice, accepted time and deduplication key |
+| Looking Glass vote | One voter row with up to three distinct eligible other players, revision and accepted time; atomic replacement rejects stale tabs |
 | Chronicle unlock | Earned entity-count threshold, preserved text/version and unlocked state |
 | Admin action/final result | Authenticated actor, reason/time, corrections, costume award, frozen ranking and ceremony disposition |
 
@@ -44,22 +44,24 @@ There is **no hint system**. Most players should solve each family in **20–45 
 Milestones use distinct successful entities, not scans or total score. Current proposed chapter thresholds are registration, 1, 3, 4, 6, 8, 10, 12 and all 15. Summons at 4/10 are host requirements. Completion count comes from active entities, currently fifteen. If admin disables an entity, record how maximum score, completion and already-earned Favors are handled; do not silently change eligibility midgame.
 
 ## Costume ranking and referrals
-Present two other guests after each new Favor. Never self-vote; balance contestant exposure, avoid repeated pairs, support late entrants and keep ballot creation/submission idempotent. With fewer than two other eligible contestants, defer without blocking. Prefer adaptive pairwise ranking; Bradley–Terry is a proposed candidate. Decide sparse-voting/no-vote behavior, ties and late-entry fairness before build. Do not claim that a small sample proves an objectively best costume.
+Confirmed September 9: every registered guest can select up to three distinct other costumes in a stable shuffled gallery, all equally weighted. Save/edit/remove until closing; no puzzle threshold, no public totals or costume ranking. Display full outfit photos. The host privately reviews totals and chooses any registered costume, including for ties or sparse votes; require a private note and reviewed publication. Add +3 once after closing. The gallery and Court announce only the selected recipient. Older pairwise/Bradley–Terry proposals are superseded.
 
 Summons tokens unlock at four/ten Favors, stay accessible after dismissal and credit only completed new registrations. One recruited player credits at most one inviter; no self-referral or credit for existing players. A token is single-use under the proposal, giving at most two referral points. Determine attribution before completing registration and preserve it through upload retries. A referral QR should register a guest, not expose an entity URL.
 
-Current proposed arithmetic: live score = distinct Favors + qualified Summons, max 17. Final score adds 3 only to the costume winner, max 20. Ranking/tie procedure is in the game design; configure agreed rules explicitly rather than relying on incidental database order.
+Current arithmetic: live score = distinct Favors + qualified Summons, max 17. Final score adds 3 only to the costume winner, max 20. Ranking/tie procedure is in the game design; configure agreed rules explicitly rather than relying on incidental database order.
 
 ## Event clock and host controls
 Proposed precise instants:
 - Open: `2026-10-31T20:00:00-04:00` = `2026-11-01T00:00:00Z`.
 - Close: `2026-11-01T02:00:00-05:00` = `2026-11-01T07:00:00Z`.
 
+The costume reminder is fixed to `2026-11-01T01:00:00-04:00`, the first 1 a.m. EDT. Deliver in-app at the server deadline or on return before closing; persist acknowledgment per player, including recovery, and do not repeat during rollback. No background push/email delivery is implemented.
+
 Display **America/New_York**, with date and EDT/EST in admin. The default close is after rollback, seven elapsed hours after opening. Host can edit opening/closing, extend, pause or close now. When editing a time within the repeated 1 a.m. hour, require an unambiguous offset. Server time is authoritative; clients refresh the current deadline and do not repeat finale actions at the clock change.
 
 Admin needs authenticated controls for entity activation, player recovery/photo moderation, helper-completed puzzles, point corrections with reasons, voting diagnostics, live standings, final export and ceremony handling. Keep a helper's limited permissions separate from full admin control. Helpers explicitly select the guest player ID; never score a helper's ordinary account by accident.
 
-Finalization: enforce cutoff against concurrent submissions; finalize costume ranking; apply bonus exactly once; compute tie rules; freeze/export a result snapshot; then release the theatrical reveal to current and returning clients. If votes/ties are insufficiently resolved, hold result publication for an explicit admin decision. An extension before close is normal; reopening a frozen result needs a deliberate audited operation and must not silently change a crowned winner.
+Implemented costume finalization: enforce cutoff against concurrent submissions; the authenticated host chooses and reviews the recipient; publish the +3 award exactly once with a private note and audit record. Remaining full-game finalization: compute agreed overall tie rules; freeze/export a result snapshot; then release the theatrical reveal to current and returning clients. If votes/ties are insufficiently resolved, hold result publication for an explicit admin decision. An extension before close is normal; reopening a frozen result needs a deliberate audited operation and must not silently change a crowned winner.
 
 ## NFC and QR scope
 **Confirmed by host, September 4: entities are NFC-only; QR codes are only for the Partiful link and guest invitations (Summons).** Physical entities keep concealed NFC URL tags with premade moon markers. **No physical QR fallback.** Test their styled frames for readability; provide ordinary links as well. Both preserve the intended onboarding destination.
@@ -70,7 +72,7 @@ Carry forward all [phone feasibility](../physical/phone-and-nfc-feasibility.md),
 - Two supported iPhones and one NFC Android: mounted scan, name/selfie signup, pending deep-link return, second entity, reload, same variant and account recovery.
 - Valid/invalid answers, unlimited retry/reset without hints, repeat solution, two tabs, helper/normal duplicate and variant-capacity exhaustion; every family has a proven unique answer or terminal state.
 - Four/ten distinct-Favor milestones, deferred Summons visible on return, new/existing/self-referrals, duplicate registration and simultaneous token redemption.
-- Self-exclusion in ballots, too few contestants, late entry, repeat votes, interrupted voting, sparse/no-vote close and tied costume results.
+- Self-exclusion, zero/few contestants, late entry, three-choice cap, stale-tab conflicts, clearing choices, exact cutoff, private totals and one-time host selection including ties/no-vote results.
 - Fifteen collection slots, correct discovery/earned states, artwork, rereadable chapters, top-three podium, tied live standings and 17/20 score maxima.
 - Before open, paused, exact cutoff, concurrent finalization, changed deadline, rollback, reconnect after close, absent/declining winner and one-time bonus.
 - Weak connectivity and upload failure: no false success, safe retry, no lost pending entity/referral, no double points.

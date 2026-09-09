@@ -75,6 +75,10 @@ export type Player = {
 };
 export type Summons = { token: string; milestone: number; redeemed: boolean };
 export type State = {
+  serverNow: number;
+  costumeReminderAt: string;
+  costumeReminderDue: boolean;
+  costumeAward: import("./costumes").CostumeAward | null;
   player: Player | null;
   status: "sealed" | "open" | "closed";
   previewAvailable: boolean;

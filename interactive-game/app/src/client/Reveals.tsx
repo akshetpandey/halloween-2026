@@ -6,9 +6,11 @@ export function StoryReveal({
   reveal,
   onClose,
   onSummons,
+  onLookingGlass,
 }: {
   reveal: Reveal;
   onClose: () => void;
+  onLookingGlass: () => void;
   onSummons: (n: number) => void;
 }) {
   const [stage, setStage] = useState<"chapter" | "summons">("chapter");
@@ -75,6 +77,11 @@ export function StoryReveal({
               : "Keep the story with you"}
             <ArrowRight size={16} />
           </button>
+          {c.at === 6 && (
+            <button className="btn secondary" onClick={onLookingGlass}>
+              Visit the Looking Glass <Leaf size={16} />
+            </button>
+          )}
           <p className="small muted">This page is kept in your Chronicle.</p>
         </>
       ) : (

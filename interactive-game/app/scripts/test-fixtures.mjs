@@ -49,6 +49,6 @@ export function cleanupFixtures(ids, mode = "--local") {
     mode,
     "--json",
     "--command",
-    `DELETE FROM players WHERE id IN (${selection})`,
+    `DELETE FROM costume_awards WHERE winner_id IN (${selection}); DELETE FROM players WHERE id IN (${selection})`,
   ]);
 }

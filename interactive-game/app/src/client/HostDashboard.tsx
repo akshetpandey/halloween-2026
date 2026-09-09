@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Copy, Search, Users } from "lucide-react";
+import { HostCostumes } from "./HostCostumes";
 import { api } from "./api";
 type Guest = {
   id: string;
@@ -116,6 +117,7 @@ export function HostDashboard({ preview }: { preview: boolean }) {
               Sign out as host
             </a>
           </div>
+          <HostCostumes key={realm} realm={realm} />
           <p>
             Match the name and portrait with the guest in front of you, then
             create a phrase. Their Favors, trials and Summons stay with them.

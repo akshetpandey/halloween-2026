@@ -349,41 +349,149 @@ describe("local Worker integration", () => {
     expect(uploaded[0].expiration).toBeUndefined();
     expect(ws).not.toHaveProperty("retentionDays");
   });
-  it("costume ballots exclude self, preserve one vote and reject another player submitting it", async () => {
-    const clients = [new Client(), new Client(), new Client()];
-    const states = [];
+  it("three costume leaves stay private, reject invalid/stale ballots, and a host choice awards exactly +3", async () => {
+    const clients = Array.from({ length: 5 }, () => new Client()),
+      states: State[] = [];
     for (const c of clients) {
       await c.json("/session/start", "POST", { preview: true });
       states.push(await c.json("/register", "POST", await registration()));
     }
-    await clients[0].json("/debug/progress", "POST", { count: 4 });
-    const ballot = (await (
-      await clients[0].req("/ballot?guardian=DEC-01")
-    ).json()) as { id: string; people: { id: string }[] };
-    expect(ballot.people).toHaveLength(2);
-    expect(ballot.people.every((p) => p.id !== states[0].player!.id)).toBe(
-      true,
+    const ids = states.map((s) => s.player!.id),
+      voter = clients[0],
+      host = new Client();
+    host.jwt = hostJwt;
+    const gallery = await (await voter.req("/costumes")).json();
+    expect(gallery.people.some((p: { id: string }) => p.id === ids[0])).toBe(
+      false,
     );
-    const reject = (await (
-      await clients[1].req("/ballot", "POST", {
-        id: ballot.id,
-        choice: ballot.people[0].id,
-      })
-    ).json()) as { accepted: boolean };
-    expect(reject.accepted).toBe(false);
-    const accept = (await (
-      await clients[0].req("/ballot", "POST", {
-        id: ballot.id,
-        choice: ballot.people[0].id,
-      })
-    ).json()) as { accepted: boolean };
-    expect(accept.accepted).toBe(true);
-    const again = (await (
-      await clients[0].req("/ballot", "POST", {
-        id: ballot.id,
-        choice: ballot.people[1].id,
-      })
-    ).json()) as { accepted: boolean };
-    expect(again.accepted).toBe(false);
+    expect(
+      gallery.people.every(
+        (p: object) => Object.keys(p).sort().join(",") === "id,name",
+      ),
+    ).toBe(true);
+    expect(gallery.choices).toEqual([]);
+    expect(states[0].favors).toHaveLength(0);
+    expect((await new Client().req("/costumes")).status).toBe(401);
+    expect((await voter.req("/admin/costumes")).status).toBe(401);
+    expect((await voter.req("/ballot?guardian=DEC-01")).status).toBe(410);
+    for (const choices of [
+      [ids[0]],
+      [ids[1], ids[1]],
+      ids.slice(1),
+      ["a".repeat(32)],
+    ]) {
+      expect(
+        (await voter.req("/costumes", "POST", { choices, revision: 0 })).status,
+      ).toBe(422);
+    }
+    const cross = new Client();
+    await cross.json("/session/start", "POST", { preview: true });
+    const crossState = await cross.json(
+      "/register",
+      "POST",
+      await registration(),
+    );
+    wranglerJson([
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--json",
+      "--command",
+      `UPDATE players SET realm='live' WHERE id='${crossState.player!.id}'`,
+    ]);
+    expect(
+      (
+        await voter.req("/costumes", "POST", {
+          choices: [crossState.player!.id],
+          revision: 0,
+        })
+      ).status,
+    ).toBe(422);
+    expect(
+      (await cross.req("/costumes", "POST", { choices: [], revision: 0 }))
+        .status,
+    ).toBe(423);
+    const races = await Promise.all([
+      voter.req("/costumes", "POST", { choices: ids.slice(1, 4), revision: 0 }),
+      voter.req("/costumes", "POST", { choices: [ids[4]], revision: 0 }),
+    ]);
+    expect(races.map((r) => r.status).sort()).toEqual([200, 409]);
+    const saved = await (await voter.req("/costumes")).json();
+    expect(saved.revision).toBe(1);
+    expect(saved.choices.length).toBeLessThanOrEqual(3);
+    expect(
+      (
+        await voter.req("/costumes", "POST", {
+          choices: ids.slice(1, 4),
+          revision: 1,
+        })
+      ).status,
+    ).toBe(200);
+    expect((await (await clients[1].req("/costumes")).json()).choices).toEqual(
+      [],
+    );
+    const privateTally = await (
+      await host.req("/admin/costumes?realm=preview")
+    ).json();
+    expect(
+      privateTally.people.find((p: { id: string }) => p.id === ids[1]).leaves,
+    ).toBe(1);
+    expect(
+      (
+        await host.req("/admin/costumes?realm=live", "POST", {
+          winnerId: crossState.player!.id,
+          reason: "Test pending award",
+        })
+      ).status,
+    ).toBe(423);
+    expect(
+      (
+        await host.req("/admin/costumes?realm=preview", "POST", {
+          winnerId: ids[4],
+          reason: "",
+        })
+      ).status,
+    ).toBe(422);
+    // Host deliberately selects a zero-leaf entrant; votes inform rather than dictate this award.
+    const results = await Promise.all([
+      host.req("/admin/costumes?realm=preview", "POST", {
+        winnerId: ids[4],
+        reason: "Host recognition of creativity",
+      }),
+      host.req("/admin/costumes?realm=preview", "POST", {
+        winnerId: ids[1],
+        reason: "Concurrent host decision",
+      }),
+    ]);
+    expect(results.map((r) => r.status).sort()).toEqual([200, 409]);
+    const award = (await voter.json("/state")).costumeAward!;
+    expect(award.bonus).toBe(3);
+    const standing = await (await voter.req("/standing")).json();
+    expect(
+      standing.filter((p: { costumeBonus: number }) => p.costumeBonus === 3),
+    ).toHaveLength(1);
+    expect(
+      standing.find((p: { id: string }) => p.id === award.id).costumeBonus,
+    ).toBe(3);
+    expect(
+      (await voter.req("/costumes", "POST", { choices: [], revision: 2 }))
+        .status,
+    ).toBe(423);
+    const publicGallery = await (await voter.req("/costumes")).json();
+    expect(publicGallery.open).toBe(false);
+    expect(publicGallery.award.id).toBe(award.id);
+    expect(publicGallery).not.toHaveProperty("voters");
+    expect(publicGallery).not.toHaveProperty("tie_reason");
+    const audit = wranglerJson([
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--json",
+      "--command",
+      `SELECT COUNT(*) AS total FROM host_audit WHERE action='publish_costume_award' AND player_id='${award.id}'`,
+    ]);
+    expect(audit[0].results[0].total).toBe(1);
   });
 });

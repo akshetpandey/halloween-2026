@@ -3,7 +3,7 @@
 
 Status: Narrative approved for implementation and [first Cloudflare rehearsal deployed](app/README.md), September 9, 2026. All fifteen guardian trials, entrance, Summons and name/selfie flows are working. Physical pilot and final event/admin rules remain open.
 
-Guests discover the secret through volunteer gossip. The site opens at **8 p.m. October 31**, collects name and costume selfie, recognizes returning guests, and sends them into an NFC hunt for the Court's Favor. Each solved entity earns one point and offers a pairwise costume judgment. Invitations unlock at four and ten Favors. At the adjustable closing time, default **2 a.m. November 1**, the site reveals the succession and the host awards a separate crown, approximately $100.
+Guests discover the secret through volunteer gossip. The site opens at **8 p.m. October 31**, collects name and costume selfie, recognizes returning guests, and sends them into an NFC hunt for the Court's Favor. Each solved entity earns one point. The optional Looking Glass gallery lets every registered guest give equal leaves to up to three favorite costumes; the host reviews private totals and chooses the final +3 recipient. Invitations unlock at four and ten Favors. At the adjustable closing time, default **2 a.m. November 1**, the site reveals the succession and the host awards a separate crown, approximately $100.
 
 ## Current scope and document map
 **15 physical entities = 5 decor-integrated + 5 purchased figures, Amazon preferred + 5 homemade stick/straw figures with color accents.** Physical identities and puzzle assignments remain open. The three established decor anchors are moon light, golden tree and giant DJ creature; Moon Well threshold and a skull/branch shrine are proposed additions.
@@ -29,7 +29,9 @@ The narrative/game brief governs current mechanics, the physical plan governs th
 
 **Confirmed by host, September 4: entities are NFC-only; QR codes are only for the Partiful link and guest invitations (Summons).** No entity QR fallback. Existing phone assistance and permanent-lock testing requirements remain.
 
-Proposed final score: up to 15 Favors + 2 successful single-use Summons + 3 for the winning costume = **20**. Live standings show up to 17 before the costume bonus is resolved. Exact ranking method, tie rules, referral cap interpretation, crown eligibility need review. Account/portrait retention follows the host’s [September 9 update](app/handoff-2026-09-09-retention.md). The website's 8 p.m. opening is separate from proposed 9:30 p.m. doors. Default 2 a.m. closing is interpreted as EST after rollback, with an admin-editable date/time.
+Current scoring: up to 15 Favors + 2 successful single-use Summons + 3 for the winning costume = **20**. Live standings show up to 17 before the costume bonus is resolved. The host resolves costume ties and chooses the +3 recipient once voting closes. Overall game tie rules, referral cap interpretation and crown eligibility still need review. Account/portrait retention follows the host’s [September 9 update](app/handoff-2026-09-09-retention.md). The website's 8 p.m. opening is separate from proposed 9:30 p.m. doors. Default 2 a.m. closing is interpreted as EST after rollback, with date/time currently configured in Wrangler; an editable event-clock dashboard remains pending.
+
+[September 9 costume voting and host award implementation](app/handoff-2026-09-09-costume-leaves.md) includes the optional first-Favor prompt, Borrowed Eyes link, and first-1-AM EDT reminder.
 
 ## Budget and next iteration
 The older $100 prop basket was costed for a different mix. Re-cost the 5/5/5 plan, charging only incremental NFC/mounts for decor already budgeted elsewhere. Keep the approximately $100 crown and hosting/domain separate. No new product prices or availability were checked in this documentation update; existing sourcing evidence stays dated.

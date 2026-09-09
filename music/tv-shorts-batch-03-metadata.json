@@ -1,0 +1,102 @@
+{
+  "checked_date": "2026-09-08",
+  "selection_status_source": "tv-visuals.md",
+  "batch_status": "10 proposed candidates; no host inclusion verdicts yet",
+  "approved_baseline_seconds": 6346,
+  "batch_raw_seconds": 5738,
+  "retention_scenario": 0.7,
+  "full_muted_screening_performed": false,
+  "media_acquired": false,
+  "films": [
+    {
+      "title": "Les Escargots / The Snails",
+      "creator": "René Laloux and Roland Topor",
+      "duration_seconds": 685,
+      "watch_url": "https://www.criterionchannel.com/les-escargots",
+      "duration_basis": "Criterion collection page lists 11:25",
+      "source_url": "https://www.cinematheque.fr/film/69155.html",
+      "access_evidence": "Criterion subscription; account playback not tested"
+    },
+    {
+      "title": "Throat Notes",
+      "creator": "Felix Colgrave",
+      "duration_seconds": 510,
+      "watch_url": "https://www.youtube.com/watch?v=qhVehcHwOB8",
+      "duration_basis": "Festival runtime 8:30; exact YouTube upload duration unverified",
+      "source_url": "https://www.aiaf.info/film/throat-notes-australia-2020",
+      "access_evidence": "Creator YouTube upload; oEmbed title and uploader verified"
+    },
+    {
+      "title": "DONKS",
+      "creator": "Felix Colgrave",
+      "duration_seconds": 396,
+      "watch_url": "https://www.youtube.com/watch?v=4gvSYEqOMn8",
+      "duration_basis": "ASIFA festival programme 6:36; exact YouTube upload duration unverified",
+      "source_url": "https://asifa.org/wp-content/uploads/2023/12/2023-november-december-asifa-central-newsletter-22-page-assembly-with-appendices.pdf",
+      "access_evidence": "Creator YouTube upload; oEmbed title and uploader verified"
+    },
+    {
+      "title": "Return to Hairy Hill",
+      "creator": "Daniel Gies / E.D. FILMS",
+      "duration_seconds": 1034,
+      "watch_url": "https://vimeo.com/1026574863",
+      "duration_basis": "Vimeo oEmbed duration 1034; Annecy also lists 17:14",
+      "source_url": "https://www.annecyfestival.com/en/return-hairy-hill",
+      "access_evidence": "Creator full-film Vimeo upload; metadata verified"
+    },
+    {
+      "title": "Here and the Great Elsewhere",
+      "creator": "Michèle Lemieux",
+      "duration_seconds": 864,
+      "watch_url": "https://www.nfb.ca/film/here_and_the_great_elsewhere/",
+      "duration_basis": "NFB page nfb_version_duration 864 and collection 14:24",
+      "source_url": "https://collection.nfb.ca/film/here_and_the_great_elsewhere",
+      "access_evidence": "NFB film page; regional playback not tested"
+    },
+    {
+      "title": "The Metamorphosis of Mr. Samsa",
+      "creator": "Caroline Leaf",
+      "duration_seconds": 582,
+      "watch_url": "https://www.nfb.ca/film/metamorphosis_of_mr_samsa/",
+      "duration_basis": "NFB page nfb_version_duration 582 and collection 9:42",
+      "source_url": "https://collection.nfb.ca/film/metamorphosis_of_mr_samsa",
+      "access_evidence": "NFB film page; regional playback not tested"
+    },
+    {
+      "title": "Mindscape",
+      "creator": "Jacques Drouin",
+      "duration_seconds": 451,
+      "watch_url": "https://www.nfb.ca/film/mindscape/",
+      "duration_basis": "NFB page nfb_version_duration 451",
+      "source_url": "https://www.nfb.ca/film/mindscape/",
+      "access_evidence": "NFB film page; regional playback not tested"
+    },
+    {
+      "title": "Imprints",
+      "creator": "Jacques Drouin",
+      "duration_seconds": 363,
+      "watch_url": "https://www.nfb.ca/film/imprints/",
+      "duration_basis": "NFB page nfb_version_duration 363 and collection 6:03",
+      "source_url": "https://collection.nfb.ca/film/imprints",
+      "access_evidence": "NFB film page; regional playback not tested"
+    },
+    {
+      "title": "The Monk and the Fish",
+      "creator": "Michaël Dudok de Wit",
+      "duration_seconds": 390,
+      "watch_url": "https://www.youtube.com/watch?v=pUxTfFD4sJ0",
+      "duration_basis": "Folimage catalogue 6:30; exact YouTube upload duration unverified",
+      "source_url": "https://www.folimage.fr/en/films/the-monk-and-the-fish-49.htm",
+      "access_evidence": "Folikids full-film upload; publisher also lists Vimeo VOD"
+    },
+    {
+      "title": "Rains / L’Ondée",
+      "creator": "David Coquard-Dassault",
+      "duration_seconds": 463,
+      "watch_url": "https://www.nfb.ca/film/rains/",
+      "duration_basis": "NFB collection 7:43; Folimage lists 7:40, using NFB version",
+      "source_url": "https://collection.nfb.ca/film/rains",
+      "access_evidence": "NFB film page; regional playback not tested"
+    }
+  ]
+}

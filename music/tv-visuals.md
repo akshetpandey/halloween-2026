@@ -1,5 +1,5 @@
 # Muted TV programme and Jellyfin
-Updated September 8, 2026. Status: 15 host-approved shorts (105:46 before cuts), five rejected; target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
+Updated September 8, 2026. Status: 15 host-approved shorts (105:46 before cuts), five rejected; ten new Batch 03 proposals awaiting review. Target 2–3 hours of content after planned cuts. File acquisition, full muted screening and TV tests remain pending.
 Owner: host / visuals helper TBD. Target: first loop Oct 4.
 
 ## Recommendation
@@ -12,6 +12,8 @@ The existing Jellyfin server is a sensible starting point. Create a dedicated pa
 ## Host reference
 
 [Forest — only twin](https://vimeo.com/50846965) — **3:26**. Based on Cernunnos, guardian of the forest. The upload credits Jordie Roomer for 2D animation/head, Evert van der Veen for compositing/After Effects animation, and the uploader for 3D vines. This is the closest brief for the expanded search: woodland mythology and strange transformation.
+
+[Fantastic Planet / La Planète sauvage (1973)](https://www.criterionchannel.com/fantastic-planet) — host-added visual reference, September 8: surreal illustrated worlds and unusual creatures also fit. **Reference only; the feature is not added to the programme.** Batch 03 includes Les Escargots by the same Laloux/Topor partnership, plus modern creature-world candidates.
 
 ## Approved by host · September 8
 
@@ -70,7 +72,13 @@ Rounded row estimates may differ by a second from the combined total. These tota
 
 Formula: approved raw total × 0.70; additional raw needed = (target − estimated finished total) ÷ 0.70. Additional raw figures are rounded up to whole minutes. For the midpoint, aim to approve **about 110 more raw minutes**, then replace the percentage estimate with per-film credit markers before finalizing the programme. This is a sourcing target, not a new batch or acquired content.
 
-[Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above. No Batch 03 researched in this runtime-accounting turn.
+[Batch 02 research notes](tv-shorts-batch-02.md) are retained for visual/source context; current verdicts are in the tables above.
+
+## Batch 03 · awaiting host review
+
+[Ten new shorts and audition notes](tv-shorts-batch-03.md) · [Runtime evidence](tv-shorts-batch-03-metadata.json). Proposed titles: Les Escargots, Throat Notes, DONKS, Return to Hairy Hill, Here and the Great Elsewhere, The Metamorphosis of Mr. Samsa, Mindscape, Imprints, The Monk and the Fish, and Rains. All are under 30 minutes. No inclusion verdicts yet.
+
+Batch 03 offers **95:38 raw / about 66:57 after an estimated 30% reduction**. If all ten are approved, the combined 25-film programme would be **3:21:24 raw / about 2:20:59 after estimated cuts**. This is a hypothetical addition; the approved total remains unchanged. About 13 further raw minutes would reach the 2.5-hour midpoint under the same assumption. Review fit and access before counting any of these as selected content.
 
 ## Retained short and texture candidates
 

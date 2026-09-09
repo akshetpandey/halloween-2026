@@ -1,0 +1,16 @@
+# TV shorts Batch 03 · session handoff
+
+- Session title and ID: Fantastic Planet-inspired TV shorts; thread 01a08367-7d46-7243-836d-3a1a6c27977e.
+- Updated date: September 8, 2026.
+- Scope / owned files: [TV plan](tv-visuals.md), [Batch 03 audition list](tv-shorts-batch-03.md), [source metadata](tv-shorts-batch-03-metadata.json), this handoff, and scoped TV updates in [decisions](../operations/decisions.md) and [tracker](../operations/task-tracker.md).
+- Checkout, branch and base commit: `/Users/akshet/workspace/halloween-2026`, shared `main`, base `e1b50cd`; clean at start.
+- Status: research complete; ready for host review.
+- Confirmed user decisions: September 8 request for more content, with at least one short along the lines of Fantastic Planet. Earlier shorts-only, artsy/drawn, low audio dependence, violence feedback and 2–3-hour target persist. The feature is a style reference only.
+- Proposals awaiting a decision: ten Batch 03 candidates, all under 30 minutes. Leading picks are Les Escargots, Throat Notes, Return to Hairy Hill and Here and the Great Elsewhere. No new host approvals or rejections inferred.
+- Completed work: verified creator/publisher/festival evidence, identified audition links, recorded ten runtimes and relevant style/content/access caveats. Batch raw 5,738 seconds (95:38); hypothetical combined raw 12,084 seconds (3:21:24), or about 2:20:59 at 70% retention. Approved baseline stays 6,346 seconds (105:46), about 74:02 retained. Original only twin Forest remains excluded from these totals.
+- Checks actually run and results: source pages and available oEmbed/NFB runtime metadata checked; JSON validation, ten unique new titles/URLs, under-30-minute bounds, runtime arithmetic, local Markdown file links and `git diff --check` checked before commit. Staged diff reviewed. No full-film or device playback validation.
+- Purchases / external changes / deployments actually performed: none. No media downloaded, acquired, edited or placed in Jellyfin; no messages sent.
+- Remaining work in priority order: host Keep/Cut review; find additional material if needed after verdicts; resolve allowed acquisition/storage/editing routes; measure credit boundaries; sequence and test muted films with room music; validate Jellyfin and repeat on TV.
+- Dependencies on sibling tasks: independent living-room music and dim TV treatment; playback orchestration still needs an actual device rehearsal. No changes to music playlists or budget.
+- Unpersisted conversation details or access limitations: all material findings persisted. Les Escargots has a Criterion subscription route, not tested account playback. Throat Notes and DONKS use festival lengths; Monk uses catalogue length, not exact YouTube durations. NFB regional playback untested; existing storage/licensing constraints in TV plan persist. Rains uses NFB 7:43 rather than Folimage 7:40. Here credits a voice, so its mute suitability remains an explicit audition check. Source-informed fit is not a complete content screening.
+- Commit(s) on main and remaining unrelated dirty files: final focused commit reported in session response; no unrelated changes observed before staging. This handoff is included in that commit.

@@ -32,6 +32,7 @@
 - Keep Git staging and commits brief and avoid simultaneous Git operations; check the staged diff for another session's changes before committing.
 - Preserve other sessions' edits. Do not use blanket `git add .`, reset, clean, force-push or amend someone else's commit. Stage named paths or your own hunks and inspect the staged diff.
 - Prefer purpose-built MCP/API/CLI tools to computer-use automation. Discover currently available tools before assuming a connector cannot write.
+- When Cloudflare dashboard UI is needed for this project, use the signed-in Google Chrome profile (`Play`) by default, not the Codex in-app browser. Verify the Chrome session is signed in before changing account settings; continue to prefer purpose-built API/CLI tools when they have the required permissions.
 - Do not send messages to other people or sessions, create tasks, archive sessions or buy items without the applicable user authorization. Draft handoffs are fine; ordinary local planning edits need no extra approval.
 
 ## Documentation and handoffs

@@ -1,6 +1,6 @@
 # Playlist Lab
 
-**Hosted rollout (September 22):** A private Docker Compose service and Cloudflare Tunnel are prepared in [the hosting guide](HOSTING.md). Each Access user gets independent votes, notes and optional listening scores; the existing 207 host votes in the 241-track library have been copied to a private hosted database. The public subdomain and Access application are still pending Cloudflare dashboard sign-in. Until the guide's live checks pass, use the local URL below.
+**Hosted rollout (September 22):** A private Docker Compose service and dedicated Cloudflare Tunnel are prepared in [the hosting guide](HOSTING.md). Each Access user gets independent votes, notes and optional listening scores; the existing 207 host votes in the 241-track library have been copied to a private hosted database. The Tunnel is unpublished; the music Access application and public route are still pending. Until the guide's live checks pass, use the local URL below.
 
 A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser contains persistent Spotify/YouTube players and the listening/review interface. Playlist management uses Spotify’s Web API directly.
 

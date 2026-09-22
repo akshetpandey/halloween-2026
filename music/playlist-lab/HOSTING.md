@@ -1,6 +1,6 @@
 # Playlist Lab hosting
 
-Status September 22, 2026: Docker image and private service tested; Cloudflare Access application, tunnel route and public URL verification pending dashboard sign-in. The current local server remains the live review interface until cutover. Do not distribute the proposed URL before the live checks below pass.
+Status September 22, 2026: Docker image and private service tested; a dedicated remotely managed Tunnel has been created, with its token stored privately. The separate Cloudflare Access application, tunnel route and public URL verification remain pending. The current local server remains the live review interface until cutover. Do not distribute the proposed URL before the live checks below pass.
 
 ## Architecture
 
@@ -13,8 +13,8 @@ The Mac running Docker must stay awake and online for the public URL to work. Th
 ## One-time deployment
 
 1. In Cloudflare Zero Trust, create a **self-hosted** Access application for the exact hostname `music.hollow-court.com`, with an Allow policy for the host email and any host-approved reviewer addresses. Copy its application AUD. Create this Access application *before* creating a public tunnel route. A separate application prevents reviewers from inheriting game admin rights.
-2. Create a remotely managed Cloudflare Tunnel and a published application route for `music.hollow-court.com` → `http://lab:8765`. Enable the route's **Protect with Access** setting and select the new music Access application. The route also creates/uses a DNS record for this hostname. Copy the tunnel token privately; it is a bearer secret.
-3. From this directory, copy `.env.example` to ignored `.env`, replace AUD and host email, and confirm `id -u`/`id -g` match `PLAYLIST_LAB_UID`/`PLAYLIST_LAB_GID`. Put the raw tunnel token in ignored `.local/tunnel-token` with mode `0600`. Do not commit either file. Cloudflare Access credentials and the Spotify token remain private.
+2. Use the existing remotely managed Tunnel `october-grove-playlist-lab` and add a published application route for `music.hollow-court.com` → `http://lab:8765`. Enable the route's **Protect with Access** setting and select the new music Access application. The route also creates/uses a DNS record for this hostname. The tunnel token is already in ignored `.local/tunnel-token`; it is a bearer secret.
+3. From this directory, copy `.env.example` to ignored `.env`, replace AUD and host email, and confirm `id -u`/`id -g` match `PLAYLIST_LAB_UID`/`PLAYLIST_LAB_GID`. Confirm ignored `.local/tunnel-token` has mode `0600`. Do not commit either file. Cloudflare Access credentials and the Spotify token remain private.
 4. If `.local/hosted/library.sqlite3` does not exist, run `python3 bootstrap_hosted.py` to copy the existing local library and votes. The script refuses to replace an existing hosted database. Immediately before cutover, compare source and hosted vote counts; if local voting continued after the initial copy, reconcile those new host votes before asking people to use the hosted URL.
 5. Run `docker compose config --quiet`, then `docker compose up -d --build`, then `docker compose ps` and `docker compose logs --tail=50 lab tunnel`. Do not put a real Access token or tunnel token in a shell history or logs. `docker compose down` stops the services; it leaves the private database in `.local/hosted`.
 

@@ -585,11 +585,20 @@ def main():
         else: serve(store,args.port)
     elif args.command == 'import-features': print('Imported', store.import_features(args.file), 'feature values')
     elif args.command == 'create':
-        if not args.apply: print('Preview: create private playlist', args.name, '(pass --apply to execute)')
+        if not args.apply: print('Preview: request a private playlist', args.name, '(pass --apply to execute)')
         else:
-            created = API(args.state).request('POST','/me/playlists',{'name':args.name, 'public':False})
+            api = API(args.state)
+            created = api.request('POST','/me/playlists',{'name':args.name, 'public':False})
             with store.db: store.event('created_playlist', {'id':created['id'], 'name':created['name']})
-            print(json.dumps({'id':created['id'],'url':created.get('external_urls',{}).get('spotify')},indent=2))
+            try:
+                visibility = api.request('GET', '/playlists/' + valid_id(created['id'])).get('public')
+            except ValueError:
+                visibility = None  # The creation succeeded; report its ID even if visibility cannot be read.
+            result = {'id':created['id'],'url':created.get('external_urls',{}).get('spotify'),
+                      'spotify_reports_public':visibility}
+            if visibility is not False:
+                result['visibility_warning'] = 'Spotify did not report private; verify visibility in its client before treating this playlist as private.'
+            print(json.dumps(result,indent=2))
     elif args.command == 'audit':
         rows = store.rows()
         if args.audition: rows = [t for t in rows if t.get('audition_rank')]

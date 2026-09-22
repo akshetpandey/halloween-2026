@@ -31,7 +31,7 @@ def ranked_candidates(track, entries):
         name=words(e.get('title',''));channel=words(e.get('channel') or '')
         tokens=set(name.split())
         if not needed<=tokens:continue
-        if (tokens & {'live','cover','slowed','sped','nightcore','karaoke','remix','rework','mashup','instrumental','acoustic','acapella','acappella','demo'})-needed:continue
+        if (tokens & {'live','cover','slowed','sped','nightcore','karaoke','remix','rework','mashup','instrumental','acoustic','acapella','acappella','demo','edit'})-needed:continue
         artist_channel=any(words(a)==channel or words(a)+' topic'==channel for a in artists)
         if not artist_channel and not (e.get('channel_is_verified') and main in name):continue
         score=(0 if artist_channel else 1,0 if name==words(title) or channel.endswith(' topic') else 1,0 if 'official audio' in name else 1,delta)

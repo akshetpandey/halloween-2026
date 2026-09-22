@@ -22,3 +22,6 @@ class YouTubeMatchingTests(unittest.TestCase):
             self.assertIsNone(select_candidate(self.track,[{**self.video,'title':'Song Edit '+version}]))
         self.track['title']='Song Edit Instrumental'
         self.assertIsNotNone(select_candidate(self.track,[{**self.video,'title':'Song Edit Instrumental'}]))
+    def test_unrequested_edit_cannot_replace_original(self):
+        self.track['title']='I Love It (feat. Charli XCX)'
+        self.assertIsNone(select_candidate(self.track,[{**self.video,'title':'I Love It (feat. Charli XCX) [I Don’t Care 2022 Re-Edit]'}]))

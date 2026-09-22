@@ -1,28 +1,29 @@
 # Playlist Lab
 
-**Hosted rollout (September 22):** [music.hollow-court.com](https://music.hollow-court.com) is published through a private Docker Compose service, dedicated Cloudflare Tunnel and separate host-only Access application. Anonymous requests redirect to Access; the protected origin rejects requests without a valid signed identity. The hosted database contains the 241-track library; at the September 22 review it held 45 keeps and 196 cuts. The older local database is separate and has only 207 votes. Host sign-in and a vote/reload/reset cycle passed in Chrome. Each invited Access user will get independent votes, notes and optional listening scores; guest isolation still needs a live check before inviting reviewers. See [the hosting guide](HOSTING.md).
+**Hosted rollout (September 22):** [music.hollow-court.com](https://music.hollow-court.com) is published through a private Docker Compose service, dedicated Cloudflare Tunnel and separate host-only Access application. Anonymous requests redirect to Access; the protected origin rejects requests without a valid signed identity. The hosted database now contains 291 tracks: 45 keeps, 196 cuts and 50 unrated Batch 05 candidates. The older local database is separate and has only 207 votes. Host sign-in and a vote/reload/reset cycle passed in Chrome. Each invited Access user will get independent votes, notes and optional listening scores; guest isolation still needs a live check before inviting reviewers. See [the hosting guide](HOSTING.md).
 
 A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser contains persistent Spotify/YouTube players and the listening/review interface. Playlist management uses Spotify’s Web API directly.
 
 **Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
 
-**Latest calibration:** Batch 03 is complete (17 keeps / 8 cuts), with 33 keeps across the previous 191 tracks. [Batch 04](../living-room/october-grove-batch-04.md) adds the requested 50 new recordings: 50 distinct lead artists, 40 new leads, and 3:13:41 raw. Its private Spotify order is verified. The library now contains 241 tracks; prior feedback is retained. See the batch notes for current audio/YouTube coverage.
+**Latest calibration:** Batch 04 is complete (12 keeps / 38 cuts), with 45 keeps across the previous 241 tracks. [Batch 05](../living-room/october-grove-batch-05.md) adds 50 new recordings: 50 distinct lead artists, 38 new leads, and 2:57:40 raw. Its Spotify order is verified; Spotify currently reports its visibility as public despite a private request. Earlier feedback is retained. See the batch notes for current audio/YouTube coverage.
 
 ## Listen and vote now
 
 **September 9 laptop layout:** compact header and horizontal library counters; track list, player and details sit side by side above 1100 px. Keep / Cut / Maybe / Reset are directly beneath playback controls. ReccoBeats metrics are expanded at the top of track details; optional listening scores and raw metadata stay collapsed. Narrow windows stack the panels. Refresh the listening room to load the layout. [Layout verification and runtime handoff](handoff-2026-09-09-laptop-layout.md).
 
-Run from the repository root:
+To assemble a standalone local seed, run from the repository root. These commands do not copy hosted votes:
 
 ```sh
 python3 music/playlist-lab/lab.py import music/living-room/review-library.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-02.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-03.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-04.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-05.json
 python3 music/playlist-lab/lab.py serve
 ```
 
-Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch opens by default: **Batch 04 · Electric variety (50)**. Earlier auditions and all previous votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
+Open the current [hosted listening room](https://music.hollow-court.com) in Chrome. The newest batch opens by default: **Batch 05 · Sharp hooks (50)**. The local `http://127.0.0.1:8765` server uses an older, separate vote database; do not use it for current review. Earlier auditions and all hosted votes remain available in the filter. Press **Play / pause** to listen inside the page. **Keep / Cut / Maybe** saves the choice and starts the next track when **Vote & play next** is checked. **Next** skips without voting; **Previous** goes back. **Continue when a track ends** advances through the current filtered list, then stops at the end. Saving a note, resetting a vote or changing an optional score does not request the next track. The player survives card re-renders, so note saves do not reload the video. The September 8 Spotify transition fix tracks each iframe navigation separately and waits for its ready event before playing. Refresh an already-open listening page once to load that fix.
 
 **YouTube** is the default; **Spotify** is selectable in the player. YouTube candidates use title, artist/channel and duration evidence within five seconds, but are not guaranteed identical versions. A few manually reviewed artist uploads omit the selected mix/version qualifier; their match basis is recorded. The selected video/channel is shown. If a candidate refuses embedding, the player tries available alternatives and then Spotify. Spotify embeds returned 29–30-second previews in the tested Chrome session. Some YouTube videos played at full catalog duration, while others returned embed error 150. Neither provider guarantees full playback for every track; sign-in, browser autoplay and regional/embed availability affect it. If autoplay is blocked, press Play inside the provider frame. The whole-audition Spotify link remains available for uninterrupted playback in Spotify.
 
@@ -31,12 +32,12 @@ Open [the listening room](http://127.0.0.1:8765) in Chrome. The newest batch ope
 `yt-dlp` is used only for metadata searches, with no audio/video downloads and no browser-cookie extraction. Refresh candidates with:
 
 ```sh
-python3 music/playlist-lab/youtube.py --batch 04 # current batch
+python3 music/playlist-lab/youtube.py --state music/playlist-lab/.local/hosted --batch 05 # stop hosted lab first
 python3 music/playlist-lab/youtube.py       # original audition only
 python3 music/playlist-lab/youtube.py --all # all linked library tracks
 ```
 
-The script caches searches privately for 14 days, uses at most three concurrent searches, stores candidate source/version evidence, and keeps host votes unchanged. Batch 04 also has manual candidate exclusions and selections; compare any refresh against its [handoff](../living-room/handoff-2026-09-09-batch-04.md) before accepting the output, because the generic matcher does not preserve manual overrides. Provider SDKs load once; no Spotify Client ID, secret or access token is exposed to the review page. Refresh the page after enrichment to load new candidates. Library import and metadata operations still use Python/API commands.
+The script caches searches privately for 14 days, uses at most three concurrent searches, stores candidate source/version evidence, and keeps host votes unchanged. Compare a refresh against the current batch notes before accepting it; candidate links are not version proofs. The matcher now rejects unsolicited edits after a 2022 re-edit was surfaced for I Love It. Batch 04 also has manual candidate selections documented in its [handoff](../living-room/handoff-2026-09-09-batch-04.md). Provider SDKs load once; no Spotify Client ID, secret or access token is exposed to the review page. Refresh the page after enrichment to load new candidates. Library import and metadata operations still use Python/API commands.
 
 Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
@@ -69,6 +70,8 @@ python3 music/playlist-lab/lab.py create 'October Grove — V3 Audition' --apply
 ```
 
 Use returned Spotify URIs and review artist, title, album, duration and mix before binding. `bind` is an explicit choice, not fuzzy matching. Keep remixes separate; ISRC is a duplicate-review signal, not permission to merge different edits. Search uses the current development-mode limit of 10.
+
+`create` requests `public: false` and now reports the visibility Spotify returns. On September 22, Spotify still returned `public: true` for Batch 05 and the earlier audition playlists after a visibility update. Do not assume an audition link is private until the Spotify client confirms it; the Access-protected review page and its votes are separate from Spotify playlist visibility. [Spotify playlist visibility](https://developer.spotify.com/documentation/web-api/concepts/playlists).
 
 Create `desired.json` as a JSON array of exact Spotify track URIs in desired order. For the short audition, use the newly created audition playlist ID; do not replace the full party collection with the short sample.
 

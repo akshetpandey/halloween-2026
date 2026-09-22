@@ -1,4 +1,6 @@
 import copy
+import contextlib
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -173,5 +175,23 @@ class LabTests(unittest.TestCase):
         self.assertEqual(len(self.store.rows()),1)
         self.assertEqual(self.store.rows()[0]['vote'],'up')
         self.assertEqual(self.store.rows()[0]['id'],ident)
+
+    def test_created_playlist_id_is_reported_when_visibility_read_fails(self):
+        class CreateAPI:
+            calls=[]
+            def request(self,method,path,body=None):
+                self.calls.append((method,path))
+                if method=='POST':
+                    return {'id':'P'*22,'name':'Audition','external_urls':{'spotify':'https://open.spotify.com/playlist/'+'P'*22}}
+                raise ValueError('visibility read unavailable')
+        api=CreateAPI();output=io.StringIO()
+        with patch('lab.API',return_value=api),patch('lab.Store',return_value=self.store),patch('sys.argv',['lab.py','--state',self.tmp.name,'create','Audition','--apply']),contextlib.redirect_stdout(output):
+            lab.main()
+        result=json.loads(output.getvalue())
+        self.assertEqual(result['id'],'P'*22)
+        self.assertIsNone(result['spotify_reports_public'])
+        self.assertIn('visibility_warning',result)
+        self.assertEqual(api.calls,[('POST','/me/playlists'),('GET','/playlists/'+'P'*22)])
+        self.assertEqual(self.store.db.execute("SELECT count(*) FROM events WHERE kind='created_playlist'").fetchone()[0],1)
 
 if __name__=='__main__':unittest.main()

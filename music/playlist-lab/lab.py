@@ -7,6 +7,7 @@ import csv
 import hashlib
 import http.server
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -24,6 +25,7 @@ PLAYLIST = '6FEcecNrYObHqVunRf9Vzf'
 SCOPES = 'playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public'
 VOTES = {'up', 'down', 'maybe', 'unrated'}
 FEATURES = {'tempo', 'key', 'mode', 'energy', 'danceability', 'valence', 'acousticness', 'speechiness', 'instrumentalness', 'liveness', 'loudness', 'popularity', 'genre', 'bounce', 'melody', 'sexy', 'repetition', 'theme_fit', 'vocal_density'}
+LISTENING_FIELDS = {'bounce', 'melody', 'sexy', 'repetition', 'theme_fit', 'vocal_density'}
 
 def now():
     return time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
@@ -59,7 +61,7 @@ def validate_feature(field, value, source):
         return None
     if field not in {'key', 'genre'}:
         value = float(value)
-        if not (-1000 < value < 1000):
+        if not math.isfinite(value) or not (-1000 < value < 1000):
             raise ValueError('Invalid feature value')
         if field in {'energy','danceability','valence','acousticness','speechiness','instrumentalness','liveness'} and not 0 <= value <= 1:
             raise ValueError('Spotify feature must be between 0 and 1')
@@ -95,6 +97,8 @@ class Store:
         self.db.executescript('''
         CREATE TABLE IF NOT EXISTS tracks(id TEXT PRIMARY KEY, data TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS feedback(id TEXT PRIMARY KEY, vote TEXT NOT NULL, reason TEXT NOT NULL, updated TEXT NOT NULL);
+        CREATE TABLE IF NOT EXISTS reviewer_feedback(reviewer TEXT NOT NULL, id TEXT NOT NULL, vote TEXT NOT NULL, reason TEXT NOT NULL, updated TEXT NOT NULL, PRIMARY KEY(reviewer,id));
+        CREATE TABLE IF NOT EXISTS reviewer_scores(reviewer TEXT NOT NULL, id TEXT NOT NULL, field TEXT NOT NULL, value REAL NOT NULL, updated TEXT NOT NULL, PRIMARY KEY(reviewer,id,field));
         CREATE TABLE IF NOT EXISTS events(seq INTEGER PRIMARY KEY, at TEXT NOT NULL, kind TEXT NOT NULL, data TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS snapshots(playlist TEXT PRIMARY KEY, snapshot TEXT NOT NULL, data TEXT NOT NULL);
         ''')
@@ -128,6 +132,35 @@ class Store:
             result.append(t)
         return result
 
+    def rows_for(self, reviewer, host_email):
+        """Return the caller's choices; legacy feedback belongs only to the host."""
+        rows = self.rows()
+        if reviewer == host_email:
+            return rows
+        votes = {r['id']:r for r in self.db.execute(
+            'SELECT id,vote,reason FROM reviewer_feedback WHERE reviewer=?', (reviewer,))}
+        scores = collections.defaultdict(dict)
+        for r in self.db.execute('SELECT id,field,value,updated FROM reviewer_scores WHERE reviewer=?', (reviewer,)):
+            scores[r['id']][r['field']] = {'value':r['value'], 'source':'reviewer listening', 'observed_at':r['updated']}
+        for row in rows:
+            choice = votes.get(row['id'])
+            row['vote'] = choice['vote'] if choice else 'unrated'
+            row['reason'] = choice['reason'] if choice else ''
+            row['features'] = {k:v for k,v in row.get('features',{}).items() if k not in LISTENING_FIELDS}
+            row['features'].update(scores[row['id']])
+        return rows
+
+    def review_report(self):
+        """Guest votes and notes for the host; legacy feedback remains the host's."""
+        tracks = {t['id']: t for t in self.rows()}
+        result = []
+        for row in self.db.execute('SELECT reviewer,id,vote,reason,updated FROM reviewer_feedback ORDER BY updated DESC,reviewer,id'):
+            t = tracks.get(row['id'])
+            if t:
+                result.append({'reviewer':row['reviewer'], 'id':row['id'], 'artist':t.get('artist'),
+                    'title':t.get('title'), 'vote':row['vote'], 'reason':row['reason'], 'updated':row['updated']})
+        return result
+
     def track(self, ident):
         row = self.db.execute('SELECT data FROM tracks WHERE id=?', (ident,)).fetchone()
         if not row:
@@ -141,6 +174,29 @@ class Store:
         with self.db:
             self.db.execute('INSERT OR REPLACE INTO feedback VALUES(?,?,?,?)', (ident, vote, reason, now()))
             self.event('vote', {'id': ident, 'vote': vote, 'reason': reason})
+
+    def vote_as(self, reviewer, ident, vote, reason=''):
+        self.track(ident)
+        if vote not in VOTES or len(reason) > 2000:
+            raise ValueError('Invalid vote or reason')
+        with self.db:
+            self.db.execute('INSERT OR REPLACE INTO reviewer_feedback VALUES(?,?,?,?,?)',
+                (reviewer, ident, vote, reason, now()))
+            self.event('review_vote', {'reviewer':reviewer, 'id':ident, 'vote':vote})
+
+    def annotate_as(self, reviewer, ident, field, value):
+        self.track(ident)
+        if field not in LISTENING_FIELDS:
+            raise ValueError('Only listening scores can be edited here')
+        value = validate_feature(field, value, 'reviewer listening')
+        with self.db:
+            if value is None:
+                self.db.execute('DELETE FROM reviewer_scores WHERE reviewer=? AND id=? AND field=?',
+                    (reviewer,ident,field))
+            else:
+                self.db.execute('INSERT OR REPLACE INTO reviewer_scores VALUES(?,?,?,?,?)',
+                    (reviewer,ident,field,value,now()))
+            self.event('review_annotation', {'reviewer':reviewer, 'id':ident, 'field':field})
 
     def annotate(self, ident, field, value, source):
         value = validate_feature(field, value, source)
@@ -427,9 +483,13 @@ def apply_plan(api, store, plan):
     store.record_snapshot(final, managed=True)
     return {'verified':True, 'track_count':len(work), 'snapshot_id':final['snapshot_id']}
 
-def serve(store, port):
+def serve(store, port, public_origin=None, verifier=None, host_email=None):
     csrf = secrets.token_urlsafe(32)
-    origin = f'http://127.0.0.1:{port}'
+    origin = public_origin or f'http://127.0.0.1:{port}'
+    hostname = urllib.parse.urlparse(origin).netloc
+    hosted = verifier is not None
+    if hosted and (not public_origin or not host_email or not public_origin.startswith('https://')):
+        raise ValueError('Hosted mode requires an HTTPS origin, Access verifier and host email')
     class Handler(http.server.BaseHTTPRequestHandler):
         def log_message(self, *args): pass
         def respond(self, data, status=200, mime='application/json'):
@@ -441,32 +501,50 @@ def serve(store, port):
             self.send_header('X-Content-Type-Options', 'nosniff')
             self.end_headers(); self.wfile.write(raw)
         def allowed(self):
-            return self.headers.get('Host') == f'127.0.0.1:{port}'
+            return self.headers.get('Host') == hostname
+        def reviewer(self):
+            if not hosted:
+                return None
+            try:
+                return verifier.email(self.headers.get('Cf-Access-Jwt-Assertion', ''))
+            except ValueError:
+                return None
         def do_GET(self):
             if not self.allowed(): self.send_error(403); return
+            reviewer = self.reviewer()
+            if hosted and not reviewer: self.send_error(401); return
             if self.path == '/':
                 self.respond((ROOT/'review.html').read_bytes(), mime='text/html; charset=utf-8')
             elif self.path in {'/player.js','/batches.js'}:
                 self.respond((ROOT/self.path[1:]).read_bytes(), mime='text/javascript; charset=utf-8')
             elif self.path == '/api/tracks':
-                self.respond({'tracks':store.rows(), 'csrf':csrf})
+                self.respond({'tracks':store.rows_for(reviewer, host_email) if hosted else store.rows(), 'csrf':csrf})
             elif self.path == '/api/events':
+                if hosted and reviewer != host_email: self.send_error(403); return
                 self.respond([dict(r) for r in store.db.execute('SELECT * FROM events ORDER BY seq DESC LIMIT 100')])
+            elif self.path == '/api/reviewers':
+                if not hosted or reviewer != host_email: self.send_error(403); return
+                self.respond(store.review_report())
             else: self.send_error(404)
         def do_POST(self):
-            if not self.allowed() or self.headers.get('Origin') != origin or self.headers.get('X-CSRF-Token') != csrf:
+            reviewer = self.reviewer()
+            if not self.allowed() or (hosted and not reviewer) or self.headers.get('Origin') != origin or self.headers.get('X-CSRF-Token') != csrf:
                 self.send_error(403); return
             try:
                 size = int(self.headers.get('Content-Length','0'))
                 if not 0 < size < 16384: raise ValueError('Invalid request size')
                 data = json.loads(self.rfile.read(size))
-                if self.path == '/api/vote': store.vote(data['id'], data['vote'], data.get('reason',''))
-                elif self.path == '/api/annotate': store.annotate(data['id'], data['field'], data['value'], 'host listening')
+                if self.path == '/api/vote':
+                    if hosted and reviewer != host_email: store.vote_as(reviewer, data['id'], data['vote'], data.get('reason',''))
+                    else: store.vote(data['id'], data['vote'], data.get('reason',''))
+                elif self.path == '/api/annotate':
+                    if hosted and reviewer != host_email: store.annotate_as(reviewer, data['id'], data['field'], data['value'])
+                    else: store.annotate(data['id'], data['field'], data['value'], 'host listening')
                 else: self.send_error(404); return
                 self.respond({'saved':True})
             except (ValueError, KeyError, TypeError) as e: self.respond({'error':str(e)}, 400)
     print(f'Playlist Lab: {origin} (Ctrl-C to stop)', flush=True)
-    with http.server.HTTPServer(('127.0.0.1', port), Handler) as server:
+    with http.server.HTTPServer(('0.0.0.0' if hosted else '127.0.0.1', port), Handler) as server:
         server.serve_forever()
 
 def main():
@@ -493,7 +571,13 @@ def main():
     store = Store(args.state)
     if args.command == 'auth': authenticate(args.state, args.client_id, args.port, not args.no_browser)
     elif args.command == 'import': store.seed(args.file); print('Imported', len(store.rows()), 'tracks')
-    elif args.command == 'serve': serve(store,args.port)
+    elif args.command == 'serve':
+        public_origin = os.environ.get('PLAYLIST_LAB_PUBLIC_ORIGIN')
+        if public_origin:
+            from access_auth import AccessVerifier
+            verifier = AccessVerifier(os.environ['PLAYLIST_LAB_ACCESS_TEAM_DOMAIN'], os.environ['PLAYLIST_LAB_ACCESS_AUD'])
+            serve(store,args.port,public_origin,verifier,os.environ['PLAYLIST_LAB_HOST_EMAIL'].strip().casefold())
+        else: serve(store,args.port)
     elif args.command == 'import-features': print('Imported', store.import_features(args.file), 'feature values')
     elif args.command == 'create':
         if not args.apply: print('Preview: create private playlist', args.name, '(pass --apply to execute)')

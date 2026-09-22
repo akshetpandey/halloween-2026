@@ -1,0 +1,30 @@
+services:
+  lab:
+    build: .
+    user: "${PLAYLIST_LAB_UID:-501}:${PLAYLIST_LAB_GID:-20}"
+    restart: unless-stopped
+    environment:
+      PLAYLIST_LAB_PUBLIC_ORIGIN: ${PLAYLIST_LAB_PUBLIC_ORIGIN:?Set the public HTTPS origin}
+      PLAYLIST_LAB_ACCESS_TEAM_DOMAIN: ${PLAYLIST_LAB_ACCESS_TEAM_DOMAIN:?Set the Access team domain}
+      PLAYLIST_LAB_ACCESS_AUD: ${PLAYLIST_LAB_ACCESS_AUD:?Set the Playlist Lab Access application audience}
+      PLAYLIST_LAB_HOST_EMAIL: ${PLAYLIST_LAB_HOST_EMAIL:?Set the host email}
+    volumes:
+      - ./.local/hosted:/data
+    expose:
+      - "8765"
+    networks:
+      - private
+
+  tunnel:
+    image: cloudflare/cloudflared:2026.9.0
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run --token-file /run/secrets/tunnel-token
+    volumes:
+      - ./.local/tunnel-token:/run/secrets/tunnel-token:ro
+    depends_on:
+      - lab
+    networks:
+      - private
+
+networks:
+  private:

@@ -1,5 +1,7 @@
 # Playlist Lab
 
+**Hosted rollout (September 22):** A private Docker Compose service and Cloudflare Tunnel are prepared in [the hosting guide](HOSTING.md). Each Access user gets independent votes, notes and optional listening scores; the existing 207 host votes in the 241-track library have been copied to a private hosted database. The public subdomain and Access application are still pending Cloudflare dashboard sign-in. Until the guide's live checks pass, use the local URL below.
+
 A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser contains persistent Spotify/YouTube players and the listening/review interface. Playlist management uses Spotify’s Web API directly.
 
 **Status September 8:** Spotify connected through PKCE; direct reading and playlist creation/addition verified. The original October Grove remains 117 tracks / 10:02:04 raw. A separate [V3 audition](https://open.spotify.com/playlist/09SoTtXJNOpH3cyksPlxUH) is live with 36 exact versions / 2:49:31 raw, verified in order through the API. All 141 library records now have Spotify IDs, duration and popularity. Artist genres have been fetched for 73 credited artists. Audio Features returned HTTP 403 for this app; automatic ReccoBeats catalog enrichment supplies available descriptors. See [coverage and track data](../living-room/catalog-analysis-2026-09-08.md). Browser embed playback has been tested; no full-track musical assessment or speaker test is claimed.
@@ -38,7 +40,7 @@ The script caches searches privately for 14 days, uses at most three concurrent 
 
 Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
-Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the server after a Mac restart. This is local to the Mac; phone/multi-user access is not implemented.
+Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the local server after a Mac restart. The hosted service will permit separate, signed-in reviewers once its Access and tunnel setup is complete.
 
 ## Connect Spotify once
 

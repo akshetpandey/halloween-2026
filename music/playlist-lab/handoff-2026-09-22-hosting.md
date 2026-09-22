@@ -1,0 +1,13 @@
+# Playlist Lab Docker and Cloudflare hosting handoff
+
+- Session: shared curation hosting, September 22, 2026.
+- Checkout / branch / base: `/Users/akshet/workspace/halloween-2026`, shared `main`; clean at start. No worktree or task branch.
+- Scope: Playlist Lab Docker Compose, Access verification, independent guest feedback, private state migration, hosting docs.
+- Status: ready to continue. Docker build and local smoke checks succeeded; public Cloudflare setup blocked on dashboard sign-in and invited reviewer email list.
+- Confirmed request: host Playlist Lab under a Halloween website subdomain, let other people use it, and protect it with Cloudflare Access as used for the game admin. The proposed hostname is `music.hollow-court.com`; the game admin's existing Access audience/policy is deliberately left intact.
+- Completed: Compose service plus Cloudflare Tunnel sidecar with no published port; dedicated Access JWT verifier; per-reviewer guest votes, notes and listening scores; host's legacy vote view preserved; host-only guest review report. One-time SQLite backup copied 241 tracks and 207 host feedback records to ignored `.local/hosted/library.sqlite3`. The local 8765 service remains the live interface until public cutover; the Docker smoke container was stopped after testing. The Cloudflare login page is open for the host.
+- Checks: Python hosted venv suite 39 passed, Node suite 12 passed, Docker image built, Compose config validated with dummy values, lab container returned 401 with expected host but no Access JWT and 403 on wrong Host, Cloudflare tunnel image/tag and `--token-file` checked, `git diff --check` passed. No live Access/route or public reviewer test yet.
+- External changes: none. No DNS, Access app, tunnel or policy has been created; no invited emails added. No Spotify playlist changes or purchases.
+- Remaining: after host signs into Cloudflare, create a separate self-hosted Access application for music; request the exact reviewer emails (or leave host-only until supplied); create tunnel and route with Protect with Access; store ignored AUD, host email and tunnel token; reconcile any new local votes since the 207-vote snapshot; start Compose; verify public login, guest isolation, game admin isolation and persistence; stop local server only after cutover. See [HOSTING.md](HOSTING.md).
+- Sensitive data: host email lives in ignored `interactive-game/app/private/host-email.txt`; do not print or commit it. Tunnel token and `.env` must remain ignored under this folder. The hosted SQLite database is ignored and needs private backup.
+- Commit: focused checkpoint follows; report resulting hash in final. No unrelated dirty files at session start.

@@ -492,6 +492,11 @@ def serve(store, port, public_origin=None, verifier=None, host_email=None):
         raise ValueError('Hosted mode requires an HTTPS origin, Access verifier and host email')
     class Handler(http.server.BaseHTTPRequestHandler):
         def log_message(self, *args): pass
+        def end_headers(self):
+            self.send_header('X-Frame-Options', 'DENY')
+            self.send_header('Content-Security-Policy', "frame-ancestors 'none'; base-uri 'none'")
+            self.send_header('Referrer-Policy', 'no-referrer')
+            super().end_headers()
         def respond(self, data, status=200, mime='application/json'):
             raw = data if isinstance(data, bytes) else json.dumps(data).encode()
             self.send_response(status)

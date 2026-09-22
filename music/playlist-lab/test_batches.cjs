@@ -4,3 +4,8 @@ const rows=[{id:'old',artist:'Old',vote:'down',audition_rank:1},{id:'b',artist:'
 test('batch contains only new tracks, in audition order, without changing feedback',()=>{const before=JSON.stringify(rows);assert.deepEqual(visibleRows(rows,'batch:02').map(t=>t.id),['a','b']);assert.equal(JSON.stringify(rows),before);assert.deepEqual(visibleRows(rows,'audition').map(t=>t.id),['old']);assert.deepEqual(visibleRows(rows,'up').map(t=>t.id),['a']);});
 test('batch search and unavailable batch cannot leak unrelated tracks',()=>{assert.deepEqual(visibleRows(rows,'batch:02','bravo').map(t=>t.id),['b']);assert.deepEqual(visibleRows(rows,'batch:03'),[]);});
 test('latest batch comes first and reports its own count',()=>{assert.deepEqual(batches([...rows,{batch_id:'10',batch_name:'Later'}]),[{id:'10',name:'Later',count:1},{id:'02',name:'New batch',count:2}]);});
+test('needs review contains only undecided tracks; editorial flags remain separate',()=>{
+ const flagged=[{id:'cut',artist:'Cut',vote:'down',flags:['artist concentration']},{id:'keep',artist:'Keep',vote:'up',flags:['version question']},{id:'pending',artist:'Pending',vote:'maybe',flags:[]},{id:'new',artist:'New',vote:'unrated'}];
+ assert.deepEqual(visibleRows(flagged,'needs-review').map(t=>t.id),['pending','new']);
+ assert.deepEqual(visibleRows(flagged,'flagged').map(t=>t.id),['cut','keep']);
+});

@@ -1,6 +1,6 @@
 # Playlist Lab
 
-**Hosted rollout (September 22):** [music.hollow-court.com](https://music.hollow-court.com) is published through a private Docker Compose service, dedicated Cloudflare Tunnel and separate host-only Access application. Anonymous requests redirect to Access; the protected origin rejects requests without a valid signed identity. The hosted database contains the 241-track library and 207 non-unrated host votes. Host sign-in and a vote/reload/reset cycle passed in Chrome. Each invited Access user will get independent votes, notes and optional listening scores; guest isolation still needs a live check before inviting reviewers. See [the hosting guide](HOSTING.md).
+**Hosted rollout (September 22):** [music.hollow-court.com](https://music.hollow-court.com) is published through a private Docker Compose service, dedicated Cloudflare Tunnel and separate host-only Access application. Anonymous requests redirect to Access; the protected origin rejects requests without a valid signed identity. The hosted database contains the 241-track library; at the September 22 review it held 45 keeps and 196 cuts. The older local database is separate and has only 207 votes. Host sign-in and a vote/reload/reset cycle passed in Chrome. Each invited Access user will get independent votes, notes and optional listening scores; guest isolation still needs a live check before inviting reviewers. See [the hosting guide](HOSTING.md).
 
 A local Python tool for October Grove selection, persistent track votes, metadata and exact Spotify playlist updates. Python 3.10+; no dependencies. The browser contains persistent Spotify/YouTube players and the listening/review interface. Playlist management uses Spotify’s Web API directly.
 
@@ -41,6 +41,8 @@ The script caches searches privately for 14 days, uses at most three concurrent 
 Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
 Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the local server after a Mac restart. The hosted service starts through Docker Compose and keeps signed-in reviewers' decisions separate. Its hosted database is distinct from this local server's database.
+
+**Filter meanings:** Needs review contains only unrated and maybe tracks. Editorial flags are older sourcing/variety notes on track records and can remain even after a Keep or Cut vote; inspect them separately with Editorial flags. A flag does not undo your vote.
 
 ## Connect Spotify once
 

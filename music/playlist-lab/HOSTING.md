@@ -1,6 +1,6 @@
 # Playlist Lab hosting
 
-Status September 22, 2026: the Compose lab and dedicated Tunnel are running. `music.hollow-court.com` has a proxied DNS record, a separate host-only Cloudflare Access application with a 12-hour session, and a protected Tunnel route. An anonymous public request redirects to Access; direct origin requests without a signed JWT return 401. Host Chrome sign-in loaded all 241 pre-Batch-05 tracks and the migrated choices. A temporary Maybe vote survived reload, then Reset restored the original unrated state. The hosted database now has **291 tracks: 45 keeps, 196 cuts and 50 unrated Batch 05 candidates**; the older local database had only 207 votes. Reviewer access and isolation await exact invited emails and a live test.
+Status September 22, 2026: the Compose lab and dedicated Tunnel are running. `music.hollow-court.com` has a proxied DNS record, a separate host-only Cloudflare Access application with a 12-hour session, and a protected Tunnel route. An anonymous public request redirects to Access; direct origin requests without a signed JWT return 401. Host Chrome sign-in loaded all 241 pre-Batch-05 tracks and the migrated choices. A temporary Maybe vote survived reload, then Reset restored the original unrated state. At Batch 05 import the hosted database had **291 tracks: 45 keeps, 196 cuts and 50 unrated Batch 05 candidates**; live vote totals change during review. The older local database had only 207 votes. Reviewer access and isolation await exact invited emails and a live test.
 
 ## Architecture
 

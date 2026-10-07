@@ -1,14 +1,41 @@
 # Antler King • sourcing shortlist
 
-Researched September 3, 2026 · Party October 31, 2026 · **Proposal only; nothing ordered, carted or reserved.**
+Updated October 7, 2026 · Party October 31, 2026 · **Proposal only; nothing ordered, carted or reserved.**
 
 ## Recommendation
 
-**Follow-up direction:** Host requested more extensive antlers. See the larger-rack alternatives below; C1 remains the low-cost baseline, not the current aesthetic front-runner. No replacement is selected or approved.
+**Confirmed October 7:** shoes are already owned; owned dark-green trousers likely work. The host rejected the previously proposed antlers and specifically wants the saved Yellowjackets Antler Queen image as the crown target. Chainmail for the veil is an expressed interest, not a final material/price selection.
 
-Start with **C1 foam antlers + V1 ivory mesh + M1 natural cotton mantle**, over an owned cream/oatmeal shirt, cream or black trousers and comfortable boots. Listed core materials total **$44.44**. With shipping, fasteners and a small adjustment reserve, plan roughly **$85–$100 before any base-clothing gap**; this is an estimate, not a delivered quote or spending approval. Reusing an existing suitable shawl instead of M1 saves $16.50 plus that shipment.
+**Revised target:** natural-brown, upright forked antlers framing a tall gold-toned drape, not a broad white stag rack. The visible veil is a major part of the silhouette. [Marie Schley's interview](https://theartofcostume.com/2025/06/11/rewriting-the-rules-of-survival-fashion-marie-schley-on-costumes-in-yellowjackets-season-3/) describes the original as a crocheted 1990s dress; [Fashionista's earlier designer interview](https://fashionista.com/2022/01/yellowjackets-showtime-costumes-outfits-clues) describes its shimmering chainmail appearance and gold-dress origin. Do not claim the show used a steel armor veil. The real saved photograph was visually inspected again; see [credited references](references/README.md).
 
-This prioritizes the branching silhouette and weathered ivory layers while keeping the face clear for hosting. V1 is plain mesh, not a screen-accurate reproduction of the coarse patterned veil. The existing [credited real references](references/README.md) remain the visual guide: Antler Queen for texture, Doomcoming for face-uncovered hosting, McQueen for ivory lace—not its rigid resin antlers or train. No generated pictures were used.
+**Crown and veil sourcing is reopened.** The following are concrete research leads, not an approved or Halloween-ready buying set. Do not order the earlier RedKraken/Mud & Majesty racks simply because they are larger. No verified ready-made exact replica was found in this pass.
+
+## Current crown lead — closer geometry, delivery risk
+
+- [BlackCraneCreations Roe Deer Antler Replicas](https://www.etsy.com/listing/4329678886/roe-deer-antler-replicas): **Type 4, Stained Natural, Include Headband Kit = $31.92 sale**, visibly verified October 7. Hand-cast resin; **22.5 cm / about 8.9 inches straight-line length**, not worn width. Mass unpublished; predrilled headband/screws require assembly.
+- [Actual seller photograph](https://i.etsystatic.com/9082104/r/il/d73e09/7037212263/il_794xN.7037212263_1rez.jpg), credited to BlackCraneCreations: Type 4 is the leftmost tall fork. Closer geometry, **not an exact replica**; size may still disappoint.
+- **Halloween risk:** 2–3 weeks production, Norway regular post/no courier; browser estimate **October 24–November 10 to 11211**, **$16.39 shipping**. Thirty-day returns/exchanges, buyer postage. Need mass, fitted dimensions and reliable arrival before considering an order.
+
+Other visually inspected leads: TheCraftCryptShop [Antler Crown](https://www.etsy.com/listing/4303206111/antler-crown) and [Forest Antler Crown](https://www.etsy.com/listing/4355687231/forrest-antler-crown), each $39.99 unfinished or $74.99 painted in browser variant controls. First is an ornate low forehead tiara; second has taller outer horns but an elaborate brow/skull motif. Neither is a clean match to the reference. Forest delivery estimate to 11211 ran October 15–November 2. Do not promote these just because a cosplayer used this shop.
+
+## Current metal veil lead — genuine full-face mail
+
+- [CelestialChainmail Full Chainmaille Veil](https://www.etsy.com/listing/4317019326/full-chainmaille-veil): visible October 7 controls **Bright Aluminum $200 / Gold $250 / Silver anodized $250**. Actual aluminum rings, 14g 5/16-inch, 6-in-1 head strap; made to measurements; mass unpublished.
+- [Actual silver sample photograph](https://i.etsystatic.com/6233475/r/il/cd8421/6969787181/il_794xN.6969787181_kxsg.jpg), credited to CelestialChainmail: eyes-to-chest coverage, head-strap suspension, not the show's antler-framed canopy. Gold sample and compatible mounting not verified.
+- Florida shipment, advertised free shipping, seven-day exchanges/buyer postage. Estimate **October 16–November 9** used ZIP 50307, not Brooklyn. Need finished weight and definite party-safe arrival; no quick-release claim verified.
+- Less expensive lead checked and **not recommended as a face veil**: [Jaitue Gold Armored Chainmail Veil](https://www.etsy.com/listing/4408037312/handmade-gold-armored-chainmail-veil), $106.26. Visually it is an open-face cap with chain drops; the apparent blindfold in its picture is separate cloth, not chainmail eye coverage. Metal alloy and weight are unpublished; Türkiye shipment/no returns. Also [Josey Creates coif](https://www.joseycreates.com/shop/p/headpiece-coif), $250, states anodized aluminum and silver/grey ready to ship, but is a coif rather than a verified detachable full-face panel. Do not substitute a lower-face mask, bridal chain fringe or armor hood without a design decision.
+
+## Decision and fit gates for this revision
+
+1. Decide whether to commission/lightly build the crown geometry or keep strictly to ready-made stock. No seller messages sent; asking a maker is a next step requiring user authorization.
+2. If using actual mail, favor an aluminum decorative front panel with smooth closed rings and a padded independent support, not a heavy steel coif. Get actual mass, coverage dimensions, finish/alloy and mounting/removal details. "Aluminum" alone does not establish comfort; a tall full drape plus crown can still be cumbersome.
+3. Keep metal off sharp antler tips and no tight throat tie. Check hair/beard snagging, dim-light vision, bending and removal before committing. Face veil is for photos/brief ceremony, off for hosting or dancing. Do not assume snap sizes from the earlier cloth plan are sufficient for metal loads.
+4. **No revised delivered total yet.** The two closest leads alone are $281.92 using the Type 4 kit and gold mail, before crown shipping, tax/import costs, support work or other clothing. This is illustrative arithmetic, not a recommended combined order; both have unresolved fit/delivery gates. The previous chat's roughly $228 XL/cotton-veil basket is superseded by the rejected crown and new veil interest. Reused shoes/trousers add $0 to the purchase proposal.
+5. The previous $100–$150 allowance remains unapproved and does not cover the $250 metal veil. No shared budget/cart/decision files changed: no new spending amount or product selection has been approved. Winner crown and scenery skulls remain separate.
+
+## Historical September 3 research — not current recommendations
+
+The sections below preserve earlier research and prices. Their "recommended" labels and totals describe the old proposal only; they are superseded by the October 7 direction above and must not be read as current purchase instructions. Shirt, cotton mantle and small accent/fastener leads from the prior chat are still proposals, not purchases; recheck selected pieces once crown/veil direction is resolved.
 
 ## Crown — choose one
 

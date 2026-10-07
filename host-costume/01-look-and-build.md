@@ -2,7 +2,7 @@
 Updated October 7, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. Exact crown, veil and budget remain open.
 
 ## Recommended silhouette
-**Weathered ivory king:** owned dark-green trousers and shoes with an oversized cream tunic/shirt; a short cape or asymmetrical shoulder mantle; natural-brown upright forked antlers matching the [Yellowjackets reference](references/README.md); a removable full-face veil, now exploring gold aluminum chainmail; a dark belt and one oxblood detail. The trousers remain a likely fit rather than a tested outfit.
+**Weathered ivory king:** owned dark-green trousers and shoes with an oversized cream tunic/shirt; a short cape or asymmetrical shoulder mantle; natural-brown upright forked antlers matching the [Yellowjackets reference](references/README.md); a removable full-face veil, now comparing affordable silver aluminum mail with gold metallic fabric; a dark belt and one oxblood detail. The trousers remain a likely fit rather than a tested outfit. The $200/$250 metal lead was too costly for the host; no exact replacement spend cap is approved.
 
 The reference's key relationship is two upright, relatively narrow antler clusters framing a tall hanging mesh veil. Broad white stag fans, palmate elk antlers and ornate forehead crowns are not substitutes the host has accepted. This is a visual reading of the saved photograph, not a verified species identification or dimensional blueprint. The costume designer describes the original veil as a crocheted 1990s dress; actual metal chainmail would be an intentional reinterpretation.
 

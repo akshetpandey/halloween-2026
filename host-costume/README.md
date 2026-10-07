@@ -2,7 +2,7 @@
 Status: Active planning task. Host is leaning toward an Antler Queen-inspired **Antler King**; exact build and budget remain proposals. Event: October 31, 2026, Williamsburg apartment.
 
 ## Direction
-A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. On October 7 the host rejected the broad-rack antler shortlist and expressed interest in a chainmail veil. Natural-brown upright antlers and a gold aluminum full-face veil are the new research direction, not selected purchases. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
+A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. On October 7 the host rejected the broad-rack shortlist, liked the Norway roe-replica shape, requested similar U.S.-shipped antlers, and said $200 mail was too costly. Current alternatives are a $60 silver aluminum veil or inexpensive gold metallic netting, plus U.S. printed antlers; none is selected. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
 
 [Look and build brief](01-look-and-build.md) · [Sourcing shortlist](03-sourcing-shortlist.md) · [Costume task tracker](02-task-tracker.md) · [Real image references](references/README.md)
 

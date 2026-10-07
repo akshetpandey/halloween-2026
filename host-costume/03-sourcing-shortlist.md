@@ -10,7 +10,25 @@ Updated October 7, 2026 · Party October 31, 2026 · **Proposal only; nothing or
 
 **Crown and veil sourcing is reopened.** The following are concrete research leads, not an approved or Halloween-ready buying set. Do not order the earlier RedKraken/Mud & Majesty racks simply because they are larger. No verified ready-made exact replica was found in this pass.
 
-## Current crown lead — closer geometry, delivery risk
+## Latest follow-up — affordable veil and U.S. shipping
+
+**User confirmed October 7:** $200 chainmail is too costly; Norway roe replicas look promising, but seek similar antlers shipped from the United States. No exact cap, product selection, order or seller-contact authorization given. These alternatives supersede the expensive mail proposal below, not the desired silhouette. Prices and visible delivery controls checked October 7 to **11211**; estimates are not guarantees.
+
+### Veil alternatives
+
+- **Best lower-cost real-mail lead:** [OdinsEyeArt aluminum headdress with veil](https://www.etsy.com/listing/1890849724/medieval-chainmail-headdress-handmade), **$60 sale, free shipping from Lancaster, New York; October 14–19 estimate**. Thirty-day returns/exchanges. Seller photo visually shows a silver, brow-hung tapered face panel with a pointed lower end, not the tall antler-framed canopy. No gold variant, measurements, mass or quick-release system published. Get these before ordering; fit and independent support remain untested. [Seller photograph](https://i.etsystatic.com/44714952/r/il/62fcdd/6849243379/il_794xN.6849243379_77nw.jpg), credit OdinsEyeArt.
+- **Lowest-cost gold-look alternative, not real chainmail:** [Mood metallic-gold diamond netting, item 110375](https://www.moodfabrics.com/products/metallic-gold-diamond-netting-110375), **$11.96/yard**, 58 inches wide, 100% polyester. One yard is a starting trial panel, not a fitted quantity. Live browser showed 20 yards available for delivery and usual dispatch within one business day; shipping cost/arrival unquoted and NYC-store stock not confirmed. Cut fabric is nonreturnable. Indexed page mixed sold-out/lead-time language with in-stock signals; use the observed live delivery-stock control, then recheck before ordering. Visually inspected: fine open gold diamond mesh, less chunky than mail; could preserve the tall drape with a small mounting build. No face-visibility test yet.
+
+### U.S.-shipped antler alternatives
+
+- **Textured natural-finish lead:** [MudandMajesty XL deer antlers](https://www.etsy.com/listing/454375994/xl-3d-printed-deer-antlers-ultra), **$79.50 with black headband / natural antlers**, free shipping from **Ceres, California; October 13–19 estimate**. PLA, 12-inch outside curve per antler (not vertical height or worn span), unattached slide-on assembly. Actual mass unpublished; seller says 3–5-day processing/priority shipment. Fourteen-day returns/exchanges. Visually inspected worn and comparison photos: textured brown bases fading into pale tines, more swept outward than the Norway roe forks. **A different product from the earlier tree-branch crown/elk proposals, not an exact mold replacement or accepted crown.** Seller claims this set was bought for Yellowjackets; production use/exact screen match not independently confirmed. [Seller comparison photograph](https://i.etsystatic.com/9958280/r/il/0a9b94/1060135825/il_794xN.1060135825_dknn.jpg), credit MudandMajesty.
+- **Budget U.S. alternative:** [Fiore3DPrints antlers](https://www.etsy.com/listing/1807692136/antlers-headband-3d-printed-fantasy), **Dark Brown + Black Headband = $40**, shipping **$6.47 from Lakeland, Florida; October 10–16 estimate**. PLA; seller reports 11.75-inch base-to-tip length and about 1 oz per antler. Screw-on adjustable placement; screwdriver required. Raw printed surface/layer lines, not hand-stained resin or natural cast texture; sculpted outward curve differs from roe silhouette. No returns/exchanges. Viewed seller sample is white even with brown selected: do not claim a verified brown sample photograph. A practical alternative, not an exact replica.
+
+Not promoted: GoblinMarketStudio's cosplay antler listing is currently unavailable. SaharasSupplies' larger brown Type E plastic antlers are sold out; other variants would need painting/mounting and have a toy-like finish. An approximately $57 India aluminum face-mask lead only covers the lower face, so it does not solve this full veil brief.
+
+**Illustrative two-piece subtotals:** California XL + $60 mail = **$139.50** before tax/support; Florida set + $6.47 shipping + mail = **$106.47** before tax/support. These omit mantle/clothing gaps and are not approved full-costume budgets. Gold fabric could reduce cost further, but its shipping/support total is not verified. Choose finish/shape before updating a shared budget or cart.
+
+## Earlier Norway crown lead — promising shape, delivery risk
 
 - [BlackCraneCreations Roe Deer Antler Replicas](https://www.etsy.com/listing/4329678886/roe-deer-antler-replicas): **Type 4, Stained Natural, Include Headband Kit = $31.92 sale**, visibly verified October 7. Hand-cast resin; **22.5 cm / about 8.9 inches straight-line length**, not worn width. Mass unpublished; predrilled headband/screws require assembly.
 - [Actual seller photograph](https://i.etsystatic.com/9082104/r/il/d73e09/7037212263/il_794xN.7037212263_1rez.jpg), credited to BlackCraneCreations: Type 4 is the leftmost tall fork. Closer geometry, **not an exact replica**; size may still disappoint.
@@ -18,7 +36,7 @@ Updated October 7, 2026 · Party October 31, 2026 · **Proposal only; nothing or
 
 Other visually inspected leads: TheCraftCryptShop [Antler Crown](https://www.etsy.com/listing/4303206111/antler-crown) and [Forest Antler Crown](https://www.etsy.com/listing/4355687231/forrest-antler-crown), each $39.99 unfinished or $74.99 painted in browser variant controls. First is an ornate low forehead tiara; second has taller outer horns but an elaborate brow/skull motif. Neither is a clean match to the reference. Forest delivery estimate to 11211 ran October 15–November 2. Do not promote these just because a cosplayer used this shop.
 
-## Current metal veil lead — genuine full-face mail
+## Earlier expensive metal veil lead — not current budget recommendation
 
 - [CelestialChainmail Full Chainmaille Veil](https://www.etsy.com/listing/4317019326/full-chainmaille-veil): visible October 7 controls **Bright Aluminum $200 / Gold $250 / Silver anodized $250**. Actual aluminum rings, 14g 5/16-inch, 6-in-1 head strap; made to measurements; mass unpublished.
 - [Actual silver sample photograph](https://i.etsystatic.com/6233475/r/il/cd8421/6969787181/il_794xN.6969787181_kxsg.jpg), credited to CelestialChainmail: eyes-to-chest coverage, head-strap suspension, not the show's antler-framed canopy. Gold sample and compatible mounting not verified.
@@ -30,8 +48,8 @@ Other visually inspected leads: TheCraftCryptShop [Antler Crown](https://www.ets
 1. Decide whether to commission/lightly build the crown geometry or keep strictly to ready-made stock. No seller messages sent; asking a maker is a next step requiring user authorization.
 2. If using actual mail, favor an aluminum decorative front panel with smooth closed rings and a padded independent support, not a heavy steel coif. Get actual mass, coverage dimensions, finish/alloy and mounting/removal details. "Aluminum" alone does not establish comfort; a tall full drape plus crown can still be cumbersome.
 3. Keep metal off sharp antler tips and no tight throat tie. Check hair/beard snagging, dim-light vision, bending and removal before committing. Face veil is for photos/brief ceremony, off for hosting or dancing. Do not assume snap sizes from the earlier cloth plan are sufficient for metal loads.
-4. **No revised delivered total yet.** The two closest leads alone are $281.92 using the Type 4 kit and gold mail, before crown shipping, tax/import costs, support work or other clothing. This is illustrative arithmetic, not a recommended combined order; both have unresolved fit/delivery gates. The previous chat's roughly $228 XL/cotton-veil basket is superseded by the rejected crown and new veil interest. Reused shoes/trousers add $0 to the purchase proposal.
-5. The previous $100–$150 allowance remains unapproved and does not cover the $250 metal veil. No shared budget/cart/decision files changed: no new spending amount or product selection has been approved. Winner crown and scenery skulls remain separate.
+4. **No approved full-costume delivered total yet.** Use the latest alternative subtotals above only as comparisons. The earlier $281.92 Norway-kit/gold-mail combination is superseded by the cost objection, and the previous chat's roughly $228 XL/cotton-veil basket is superseded by the rejected crown. Reused shoes/trousers add $0 to the purchase proposal.
+5. The previous $100–$150 allowance remains unapproved. No shared budget/cart/decision files changed: no new spending amount or product selection has been approved. Winner crown and scenery skulls remain separate.
 
 ## Historical September 3 research — not current recommendations
 

@@ -3,7 +3,7 @@
 | ID | Task | Status | Depends on |
 |---|---|---|---|
 | KING-01 | Save brief and real references | Done | Host’s Antler King direction |
-| KING-02 | Compare crown, veil and mantle purchase/build options | Reopened October 7 — affordable veil/U.S. antler alternatives researched | [Current sourcing](03-sourcing-shortlist.md); final shape, material, mass and fit still unresolved |
+| KING-02 | Compare crown, veil and mantle purchase/build options | October 7 broad search complete; crown selection still open | [Current sourcing](03-sourcing-shortlist.md) and [search audit](04-antler-search-2026-10-07.md); dimensions, mass, support and fit unresolved |
 | KING-03 | Confirm sizes, owned base clothes and final spend | Partly confirmed; input still needed before ordering | Shoes owned; dark-green trousers likely work. Need head/veil measurements, height, shirt size, maker/DIY preference and approved delivered total |
 | KING-04 | Order or borrow selected pieces | To do | KING-02/03; explicit purchase instruction |
 | KING-05 | Build and fit crown/veil and short mantle | To do | Materials; unaltered crown try-on; prewash mantle before sizing |
@@ -15,8 +15,8 @@ Suggested next gates as of October 7: resolve maker/ready-made direction and del
 ## Current direction • October 7, 2026
 
 - Confirmed user inventory: shoes covered; dark-green trousers are a likely reuse candidate, not yet tested with the full outfit.
-- User rejected the current antlers and specified the saved Yellowjackets reference, rather than simply increasing rack width. Chainmail veil is an interest, not a purchase selection.
-- Latest user follow-up: Norway roe replicas look promising, but seek a similar U.S.-shipped set; $200 mail is too costly, without an exact replacement cap. Lower-cost options: OdinsEyeArt silver aluminum face veil $60, New York shipment; Mood gold polyester netting $11.96/yard (not metal); MudandMajesty textured XL $79.50 from California; Fiore3DPrints dark-brown set/headband $40 plus $6.47 from Florida. Browser estimates to 11211 fall before Halloween, not guaranteed. Crown shape differs from roe forks; no final selection, actual veil mass or fit test.
+- Current user decisions, including the preferred gold netting and the lukewarm response to MudandMajesty/Fiore, are recorded in [current sourcing](03-sourcing-shortlist.md). Do not treat either antler set as selected.
+- Completed a broader primary-page and actual-photo search, including U.S.-dispatch filtering and craft replicas. [Search audit](04-antler-search-2026-10-07.md) records both promising and rejected leads, with inspection levels distinguished. Two different U.S. DIY leads retained; no exact ready-to-wear match verified.
 - Ready-made vs maker/light build, head measurements, finished mass and arrival are the next decisions. Crown/veil sourcing is not complete under this revised brief. Prior XL/cloth-veil basket total is superseded; there is no approved replacement spending envelope.
 - Only host-costume plans and a task-local handoff were updated. No purchases, cart changes, seller contacts, sibling-folder edits or pushes.
 

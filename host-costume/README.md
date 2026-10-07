@@ -2,9 +2,9 @@
 Status: Active planning task. Host is leaning toward an Antler Queen-inspired **Antler King**; exact build and budget remain proposals. Event: October 31, 2026, Williamsburg apartment.
 
 ## Direction
-A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. On October 7 the host rejected the broad-rack shortlist, liked the Norway roe-replica shape, requested similar U.S.-shipped antlers, and said $200 mail was too costly. Current alternatives are a $60 silver aluminum veil or inexpensive gold metallic netting, plus U.S. printed antlers; none is selected. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
+A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. Current user decisions and product comparisons live in the [sourcing shortlist](03-sourcing-shortlist.md): gold metallic netting is preferred over mail; the crown remains unresolved after a broader U.S.-shipping search. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
 
-[Look and build brief](01-look-and-build.md) · [Sourcing shortlist](03-sourcing-shortlist.md) · [Costume task tracker](02-task-tracker.md) · [Real image references](references/README.md)
+[Look and build brief](01-look-and-build.md) · [Sourcing shortlist](03-sourcing-shortlist.md) · [Broad antler search audit](04-antler-search-2026-10-07.md) · [Costume task tracker](02-task-tracker.md) · [Real image references](references/README.md)
 
 ## Working constraints
 - The host needs to move through a crowded apartment, serve drinks, use the bathroom and reach music controls.
@@ -18,4 +18,4 @@ A reigning woodland king at the end of his season: the specific Yellowjackets An
 The host begins as the Antler King. If the optional succession hunt runs, a winner receives a separate lightweight twig/leaf crown or medallion. The host keeps the fitted antler crown, avoiding a mid-party fit/hygiene problem. No succession mechanic goes on the invite.
 
 ## Needed from host, when convenient
-Height; usual shirt size; head circumference; existing cream shirt or wrap; preferred spend; metal-veil color/coverage preference; willingness to use a maker or do a small mounting build. Shoes are covered and dark-green trousers are the current reuse candidate. Measurements are not needed to compare concepts, but they are needed before ordering fitted pieces.
+Height; usual shirt size; head circumference; existing cream shirt or wrap; preferred spend; veil coverage; willingness to use a maker or do a small mounting build. Shoes are covered and dark-green trousers are the current reuse candidate. Measurements are not needed to compare concepts, but they are needed before ordering fitted pieces.

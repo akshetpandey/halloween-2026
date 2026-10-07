@@ -1,0 +1,66 @@
+# Broad antler search • October 7, 2026
+
+Research only. Nothing purchased, carted, reserved or commissioned; no seller messages. Current decisions and the two retained leads live in [the sourcing shortlist](03-sourcing-shortlist.md).
+
+## Brief and method
+
+User requested a substantial pass through listings before returning. Target: the saved [Yellowjackets photograph](references/README.md), particularly relatively narrow upright fork clusters, natural brown texture and space for an elevated gold-netting drape. Bigger width alone is not an improvement. Similar U.S.-shipped replicas preferred; Halloween is October 31 in Brooklyn.
+
+Searched costume casts/prints, actual-antler replicas, specialist makers and craft/taxidermy supplies. Compared real seller photos in unfiltered and U.S.-dispatch-filtered Etsy grids, then inspected individual promising pages. Reopened the saved reference. Search-grid inspection is explicitly distinguished from full product-page checking below; neither establishes fit or manufacture quality. Repeated advertisements and alternate URLs from the same maker are not additional discoveries.
+
+Browser shipping controls for retained leads showed destination **11211**. Search-index dates for other destinations are not Brooklyn promises. Estimates are not guarantees. Some pages were readable in the browser but unavailable to the text retriever; browser-visible controls take precedence. No remote product images downloaded, generated or altered.
+
+## Individually checked leads
+
+| Product / primary source | Evidence inspected | Verdict |
+|---|---|---|
+| [KAMythicalPrints textured pair](https://www.etsy.com/listing/4384781623/antlers-3d-printed-lightweight-fantasy) | Full browser description, bone variant, mannequin and laid-flat grid photos. $15 bone; $6.68 shipping, Kansas; Oct 15–21 to 11211. Raw PLA pair, mounting excluded. | **Retain as new DIY lead.** Better clustered upper forks, textured bases; still pale/outward-curved. Height, span and mass not stated. Product mentions sizes but current controls expose color only; do not infer an available oversized variant. Needs brown finish and mount. |
+| [bottlecapco three-point rack](https://www.etsy.com/listing/1706952286/deer-antler-rack-white-tail-3-point-faux) | Full browser description and main photo. $12.99 + $5.99, Idaho; Oct 10–13 to 11211. Resin replica; 10.5-inch width, 8-inch mount-base height, about 7-inch wall projection. | **Retain as new compact craft lead**, not a ready-to-wear crown. Good natural texture, fewer top forks and limited scale. Joined display base; weight and cap support unverified. |
+| [bottlecapco blacktail four-point single](https://www.etsy.com/listing/1706951146/deer-antler-black-tail-4-point-faux) | Full browser description/photo: resin replication; 12-inch base-to-tip, 8-inch maximum width, $14.99 each. Idaho, Oct 10–13 to 11211. | Natural texture but broad; no matched left/right option verified. Do not assume buying two creates a symmetrical pair. Costume mass/support unknown. Not shortlisted. |
+| [BlueKnightProps yearling casts](https://www.etsy.com/listing/454027688/yearling-antlers-cosplay-antlers-3-point) | Product description and full-size photo; $16 pair, 6.5 inches tall, raw Smooth Cast 65D urethane. Baltimore; browser Oct 14–21 to 11211, $4 shipping. | Upright but thick rounded tines and smaller than desired; requires sanding, paint and mounting. Not a stronger dramatic replacement. |
+| [BlueKnightProps faun casts](https://www.etsy.com/listing/286883725/faun-antlers-cosplay-antlers-3-point) | Primary description: $15 raw pair, 5 inches, Smooth Cast 65D, Baltimore. | Too petite; finishing required. No mass/mount verified. Not promoted simply because it has three points. |
+| [MysticRealmsArtist painted resin pair](https://www.etsy.com/listing/399697255/hand-painted-resin-costume-antlers) | Primary description and browser photo; roughly 6 inches curved, hand-sculpted/cast/painted, string or headband options. $58.30+ starting; Chipley, Florida. | Thick, rounded branch tips; viewed sample blue, not verified natural-brown variant. Too small/stylized. |
+| [EmbersLightCreations medium antlers](https://www.etsy.com/listing/4543576483/medium-antler-headband-decorated-unique) | Primary description plus browser main photo/variants. Resin cast from real whitetail; Painted $45, other finishes $60–$75. Phoenix; Oct 16–Nov 2 to 11211. | Genuine texture but long swept-out beams, pale finish; not narrow roe geometry. No dimensions/mass, deadline risk even with U.S. dispatch. |
+| [UnicornCornerEU realistic headband](https://www.etsy.com/listing/1224978298/antler-headband-realistic-antlers) and [adjustable version](https://www.etsy.com/listing/1776603845/antler-headband-adjustable-realistic) / [alternate listing](https://www.etsy.com/listing/1780768287/antler-headband-deer-antler-costume) | Primary descriptions: textured hand-finished prints, adjustable mounts, 6.7-inch photo dimension on alternate listing. | **Spain shipment**, not U.S. The linked U.S. sister shop was investigated, but no current equivalent U.S.-dispatched antler listing was verified. Do not relabel EU products as American. Alternate URLs are one maker family, not three distinct solutions. |
+| [Onlyhorns small/medium painted antlers](https://www.etsy.com/listing/1065862640/cosplay-antlers-painted-fantasy-deer) | Primary description plus grid photo: resin, 13/17 cm sizes, airbrushed finish; headband or elastic. | Narrower fork geometry but too small and **Czech shipment**. Not a domestic solution. Starting price is not a selected painted variant quote. |
+| [Onlyhorns large painted antlers](https://www.etsy.com/listing/1308576339/antlers-big-painted-fantasy-deer-faun) | Primary listing; finished and raw options. | Czech shipment; no Brooklyn arrival/variant quote verified. Not promoted as a U.S. alternative. |
+| [Onlyhorns Forest King wood-composite prints](https://www.etsy.com/listing/4375522887/forest-king-horns-extra-large-wooden) | Primary description; painted wood-composite PLA, headband/elastic options, variable sizes. | Czech shipment; twig/tree sculpture rather than a verified real-antler cast. Not a domestic replacement; starting price not XL quote. |
+| [RunestonePrintsRPG Elder Druid](https://www.etsy.com/listing/4354123952/elder-druid-fantasy-cosplay-horns-with) | Primary description and grid photo: textured dark finish, adjustable screw mount; seller states about 120 g and 23 cm high/long. | **UK shipment** and swept horizontal beam. Better finish does not fix geometry. |
+| [ShadowfallWorkshop Lucy / Eld Deer](https://www.etsy.com/listing/1750888174/lucy-eld-deer-antlers) | Primary description and individual browser photo. $65+ raw PLA, optional adjustable headband, Grand Junction, Colorado. | Curling forward/outward fan shape, not upright fork clusters. Raw print finish needs work. Excluded on geometry, despite domestic seller. |
+| [GNChouse detachable reindeer headband](https://www.etsy.com/listing/4546083132/detachable-reindeer-antler-headband) | Primary description: resin, detachable, vintage-cream finish; $32 surfaced. | Not verified natural-brown match; height, weight, dispatch location and Brooklyn timing not verified. No purchase recommendation. |
+| [HigginsCreek Ostara headpiece](https://www.etsy.com/listing/1882125791/ostara-deer-antler-headdress-pagan) | Primary details: approximately 18 inches across, resin/plastic, decorative flowers/moss, different horn options. | Floral/circlet silhouette and broad span, not the clean antler-and-veil relationship. Starting $59 is not a selected variant quote. |
+| [LauraHowardSFX fawn prosthetics](https://www.etsy.com/listing/1824704095/fawn-antler-prosthetic-pair) | Primary details: silicone/Baldiez prosthetics, professional application, UK. | Different product category; no face-adhesive build proposed. |
+| [Antlers by Klaus roe replica](https://antlersbyklaus.com/product/roe-deer/) | Specialist's primary page: $125, Wisconsin, **4–6 months after ordering**. | Domestic authentic-replica route but clearly misses Halloween. Page's weight/dimensions not treated as verified costume weight/worn size. |
+| [Hysteria Machine natural triple headband](https://www.hysteriamachine.com/listing/780439257/natural-triple-antler-headband-set-2) | Indexed primary description: solid resin, metal band; UK shipping, conflicting 1–2-week prose and **4-week processing policy**. | Not a U.S. solution; processing alone jeopardizes deadline. Current price/stock and full-size photos not verified, so not a recommendation. |
+
+## Photo-grid screening — not fully qualified product recommendations
+
+The following actual listing images were screened in Etsy search grids. Prices are deliberately omitted here where variant/specification checks were not completed. Strong visual exclusions do not need a checkout investigation.
+
+| Actual listing | Visual reason not retained / limitation |
+|---|---|
+| [Slender Deer headpiece](https://www.etsy.com/listing/4571027209/slender-deer-antler-headpiece-3d-printed) | Pale, shallow outward spread on worn sample; not the tall fork silhouette. Seller, dimensions and dispatch not verified. |
+| [Extra Large Druid Fantasy antlers](https://www.etsy.com/listing/4497107918/extra-large-antlers-druid-fantasy-wild) | Dark, thin branches with twine; wide curved stag beams rather than narrow fork clusters. Maker/origin unverified; no photo-authenticity claim. |
+| [Cosplay Elk pair](https://www.etsy.com/listing/4430772185/cosplay-elk-antlers) | Large outward-sweeping beam in hand-held photo; mounting/weight unknown. |
+| [Simple weathered crown](https://www.etsy.com/listing/4470318497/simple-natural-weathered-antler-crown) | Elaborate pale brow/crown motif rather than two free-standing brown forks. |
+| [Antlerborn crown](https://www.etsy.com/listing/4532252745/cosplay-antler-crown-unisex-3d-printed) | Pale full forehead crown with ornate center; wrong structure. |
+| [Crown of the Wildwood](https://www.etsy.com/listing/4517808057/woodland-antler-crown-open-back-stag) | Integrated ornamental crown; crowded central branches. |
+| [Dark Woodland flower headband](https://www.etsy.com/listing/4492005871/dark-woodland-flower-reindeer-antler) | Floral/berry framing dominates; small antlers, wide decorative brow. |
+| [Forest Antler gold-branch crown](https://www.etsy.com/listing/4409965423/woodland-antler-crown-gold-branches) | Twig tiara plus foliage/jewels; tall but not antlers. |
+| [Morel / Irish Elk](https://www.etsy.com/listing/1412653511/morel-irish-elk-antlers) | Wide curling fan/palmate shape. |
+| [Unseelie Wilds rose crown](https://www.etsy.com/listing/4574711884/crown-of-the-unseelie-wilds-glow-in-the) | Heavy flower brow and pendant; different costume language. |
+| [Sweet Tooth ears/tail set](https://www.etsy.com/listing/1016508141/deer-antlers-ears-tail-sweet-tooth) | Furry animal set; simpler, pale forks. Not assumed separable. |
+| [Lightweight Costume Antlers](https://www.etsy.com/listing/1069680551/lightweight-costume-antlers) | Smooth white simple two-prong shape; little natural texture or dramatic branching. |
+
+## Prior candidates checked against the new brief
+
+- Norway [BlackCraneCreations roe casts](https://www.etsy.com/listing/4329678886/roe-deer-antler-replicas) remain the better visual benchmark, **not** a verified Halloween-safe option. The maker cannot resize and uses ordinary post, not couriers. Do not present stale search-index arrival dates as an improvement over the previously checked Oct 24–Nov 10 estimate.
+- MudandMajesty XL, Fiore, RedKraken Large/XL and CraftCrypt crowns are already documented in [sourcing](03-sourcing-shortlist.md). Grid reappearance does not make them new discoveries. Host has not accepted them.
+- Gaston Design's exhibit program was not a wearable retail solution. Chapel Prints' UK replica skulls include a skull/display structure, not a confirmed U.S. costume product.
+- [Pretzl foam pattern collection](https://www.joycedesign.nl/product/foam-antlers-pattern-collection-7-patterns-and-instruction-ebook/) offers seven designs including roe; it is a **digital pattern**, not bought finished antlers, and advises prior foam-crafting experience. [Cults roe antler circlet](https://cults3d.com/en/3d-model/fashion/roe-deer-antlers-circlet-for-cosplay) is likewise a digital lead, not physical stock or a booked U.S. print job. Local custom fabrication is a possible next route, not silently authorized.
+
+## Handoff and limits
+
+No exact ready-to-wear U.S. match emerged. KAMythicalPrints is the more promising new geometry to investigate; bottlecapco is a compact real-texture build fallback. Do not order either without resolving size, weight and support. If the host dislikes both photos, further generic stag-headband searching is unlikely to address the key geometry; propose a specifically sized local foam/print build or ask permission to approach a maker.
+
+For selected leads, ask for actual vertical height, complete mounted span, pair mass, brown finish options, mounting detail and deadline confidence. Seller outreach remains unperformed and requires user authorization. No final delivered-costume budget exists; no shared budget/cart edited.

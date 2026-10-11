@@ -1,5 +1,5 @@
 # Music curation and unattended playback
-Updated September 8. Historical September 3 snapshot: both private Spotify listening collections exceeded nine raw hours. Living room: 117 tracks, 10h 2m. Bedroom: 140 tracks, 12h 15m. Final sequencing, local DJ files and rehearsals remain.
+Updated October 11. The live living-room Spotify playlist now has 48 approved tracks / 2:57:46 raw by explicit host choice; it remains well under the nine-hour target. The bedroom's September 3 collection had 140 tracks / 12h 15m raw. Final sequencing, local DJ files and rehearsals remain.
 Confirmed: MacBook Pro/macOS, DDJ-FLX4, rekordbox already installed. Same Mac runs Jellyfin. Both powered speakers connect to the DDJ in the bedroom. Two Google Homes provide separate house/chill music in the living room via Spotify. Hisense 5.1.2 soundbar already plays from this Mac when selected in macOS Sound settings, as confirmed by the host. Reuse that working connection; its party role remains to decide. Paid software acceptable if reasonably priced.
 
 ## Recommendation
@@ -61,7 +61,7 @@ The host requires **at least nine hours of music in each room**. The expanded be
 ## Living-room playlist · October Grove
 The September 8 host correction calls for more upbeat, bouncy, melodic and sexy music with fewer repeated artists/albums and no intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-The September 8 API read confirms the original 117 tracks / 10:02:04 raw. The separate live 36-track audition is 2:49:31 raw, with all exact versions resolved and its order verified. It is not the complete nine-hour replacement. The host subsequently reviewed all 141 library records and kept four. Batch 02 retained 12/25. Batch 03 retained 17/25, bringing the reviewed pool to 33 keeps. The host then requested the current [50-track Batch 04](living-room/october-grove-batch-04.md), with 40 new lead artists and a separate API-verified Spotify playlist. Further calibration, full sequencing and actual playback validation remain. Playback is still on the two Google Homes, independently of the bedroom.
+On October 11, the host chose to replace the original 117-track main playlist (all marked Cut) with the 48 tracks marked Keep in hosted Playlist Lab. Spotify's API verified the exact [approved-only order](living-room/october-grove-approved-2026-10-11.json) and 2:57:46 raw runtime. The [current 50-track Batch 05](living-room/october-grove-batch-05.md) still had 39 unrated tracks at that snapshot. Further calibration, expansion to nine hours after transitions, and actual playback validation remain. Playback is still intended for the two Google Homes, independently of the bedroom.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.

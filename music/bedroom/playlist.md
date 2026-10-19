@@ -1,57 +1,41 @@
-# The Hollow • bedroom techno revision
-Updated September 3, 2026. **V2 prepared locally; live Spotify still contains the rejected V1 album-based pool.**
+# The Hollow · bedroom rave programme
 
-[Live Spotify playlist — V1 pending replacement](https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB) · [Full V2 selection](the-hollow-v2-tracklist.md) · [Short taste check](the-hollow-v2-taste-check.md) · [Import text](the-hollow-v2-import.txt)
+Updated October 19, 2026. **The old 140-track album pool has been replaced in Spotify with [Batch 01 · Rave spectrum](https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB): 50 candidates for review.** The API readback verified every URI in the intended order. This is an audition, not an approved party sequence. The old pool is backed up privately, and the [V1](research/bedroom-plan-v1-before-feedback.md) and [V2 preparation](research/bedroom-plan-v2-before-2026-10-19.md) remain historical evidence.
 
-## Host feedback and resulting change
-The bedroom pool was too concentrated on a few artists and insufficiently techno/dance-oriented. The living-room selection is solid and stays as it is. V1 used 140 tracks grouped from only 13 artist releases, including ambient interludes, album intros and alternate versions. That was a poor fit for an unattended dance room.
+[Review guide and exact tracks](the-hollow-batch-01.md) · [Portable batch data](the-hollow-batch-01.json) · [Auto DJ research and tests](auto-dj-research-2026-10-19.md) · [Combined handoff](../handoff-2026-10-19-batches-and-auto-dj.md)
 
-V2 selects individual tracks: hardgroove, acid, driving techno, a limited harder-rave section and a rhythmic late-night descent. There are **124 tracks across 45 artist groups**, with at most **three selections per group** and no adjacent repeats of a group in the proposed listening order. Multiple remixes or versions of the same composition are excluded. This is a curation revision, not merely a shuffle of the albums.
+## Current host brief
 
-## What it sounds like
-- Groovy club entry: Mark Broom, Robert Hood, Rebūke, a little Mall Grab and Eli Brown.
-- Core groove: Ben Sims, Chlär, Alarico, Rene Wise, Truncate, Lars Huismann, FJAAK and Chontane.
-- Driving lift: Charlotte de Witte, Amelie Lens, Enrico Sangiuliano, Adam Beyer, Space 92, Joyhauser and Len Faki.
-- Concentrated pressure: D.Dan, Dax J, Héctor Oaks, VTSS, 999999999, with smaller doses of Paula Temple, Kobosil and I Hate Models.
-- Late-night pulse: DVS1, Rødhåd, Setaoc Mass, Oscar Mulero, Marcel Dettmann and Matrixxman.
+**Techno, tech house, DnB, acid and trance: high energy, bouncy, dark underground rave vibes**, drawing on established producers and DJs. The October 19 correction replaces the old narrow techno-only direction and album-block approach. The living room has its own selection brief and approved playlist.
 
-The two Schwefelgelb selections add an industrial/EBM edge. Entry and late-night tracks keep a rhythmic identity rather than reverting to ambient album passages. Exact danceability still needs listening approval; no full audio audition was claimed in this catalog pass.
+Select individual tracks with strong groove, development and variety. Standalone intros, interludes and outros do not belong in the set. Club mixes can have useful drum passages for transitions, but long empty lead-ins, repetitive motifs and energy-killing breakdowns still need cuts or rejection. Keep artist/album concentration low and count collaborations and aliases.
 
-## Nine-hour requirement
+Batch 01 tests ten tracks per lane, with 50 distinct leads, 68 credited artists and a maximum of two appearances for any credited artist. It shares no recording URI/ISRC with the old bedroom pool, the prior living-room library or new living-room Batch 06. Four compositions from the unreviewed V2 serve as explicit calibration anchors. The old V1 collection was rejected as a whole; this does not invent individual downvotes for every old recording.
 
-| Check | Duration |
-|---|---:|
-| Full catalog versions, no overlaps | 12:44:54 |
-| 45 seconds overlap at 123 joins | 11:12:39 |
-| 60 seconds overlap at 123 joins | 10:41:54 |
+## Listen, vote, then sequence
 
-Durations come from the public Apple iTunes US catalog, with a source link and release identifier for each selected version. These are **not verified Spotify durations** and **not a measured rekordbox performance**. Different versions, cuts and tempo changes affect runtime. The finished playable queue must still pass 9:00:00 after actual transitions.
+The first review batch alternates genres so the host can compare them. **Do not feed this interleaved audition order to Auto DJ.** Use Keep / Cut / Maybe in Playlist Lab. A bedroom selector separates these decisions from October Grove; later batches remain separate and earlier decisions persist. A Keep is approval of that recording, not proof of a DJ-ready local file or a tested transition.
 
-## Night programming
-Keep the host’s arc: 9–10 p.m. arrival, midnight–1 a.m. peak and wind-down by 4 a.m. The five listening chapters are switchable selection crates, not a 12-hour timetable to play from start to finish on party night. Build the clock-timed event sequence after Spotify matching, audio acquisition and BPM analysis; separate any setup/reserve material from the main event timeline. Maintain at least nine hours of prepared music overall without moving the guest-facing finish.
+After feedback, source the next batch in the successful lanes and reduce bright/commercial, harsh or repetitive probes according to actual votes. Build the party queue from approved selections in coherent chapters; keep DnB in deliberate blocks with rehearsed entries and exits. ReccoBeats catalog BPM/key support sorting, while actual-file analysis, grid checking and listening determine DJ readiness.
 
-The earlier 120–180 BPM ambition remains a range to explore, not a reason to force jungle or 180 BPM into this more techno-focused revision. Track BPM fields deliberately remain blank until analyzed or verified. A short faster chapter can be added after host listening feedback; do not advertise unverified tempo labels.
+## Runtime and readiness
 
-## Applying this through efficient tools
-Host prefers MCP/API over computer use, and reports installing a Spotify plugin. No Spotify capability appeared in this active turn’s callable-tool inventory. The plugin’s editing support therefore remains unknown. Public catalog APIs were used for research; no Spotify desktop automation was used for the revision.
+The 50 candidates total **4:04:25 raw**. Hypothetical 45-second joins leave about **3:27:40**; 60-second joins leave **3:15:25**. Those are arithmetic scenarios, not measured mixing. Neither this batch nor the unreviewed 124-track V2 constitutes an approved nine-hour programme.
 
-When Spotify tools become available:
-1. Inspect the available playlist read/search/write operations; do not assume installation guarantees editing.
-2. Read and save the live playlist and snapshot before replacement. Preserve V1 exports.
-3. Resolve V2 to Spotify track URIs, checking artist identity, mix/version, duplicates, playability and duration. Search matches alone are insufficient.
-4. Replace the bedroom playlist with the resolved V2 selections using the connector/API. The host has requested this revision; no new approval is needed for the playlist edit.
-5. Read back every page, verify order/count and duration, and update the local export with actual Spotify URIs. Do not modify the living-room playlist.
+The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 
-If the plugin cannot write playlists, the host can connect a suitable Spotify API integration or use the prepared [plain-text import list](the-hollow-v2-import.txt). Do not ask for account passwords or paste tokens into chat. No custom OAuth setup has been installed in this pass.
+## Auto DJ direction
 
-## Status
-- [x] Record the host’s correction and preserve V1 evidence.
-- [x] Select 124 tracks with much broader artist distribution.
-- [x] Verify exact catalog titles, release links and durations; remove wrong-artist search results.
-- [x] Save import text, structured metadata and a short listening sampler.
-- [ ] Resolve and apply V2 in Spotify once connector access is available.
-- [ ] Host audition and small taste adjustments.
-- [ ] Acquire permitted DJ files, analyze BPM/grids/gain and build the clock-timed queue.
-- [ ] Rehearse nine hours of actual mixed playback.
+Start with a low-volume test of the existing rekordbox and appropriately acquired local files, then compare its actual joins before choosing another engine. The installed app is 7.2.14; current vendor release notes add Spotify Automix from 7.2.16. Updating would create an online option, but one Spotify account cannot independently play the bedroom and Google Homes at once. No update or source purchase has been performed.
 
-[Structured V2 data](the-hollow-v2.json) · [V1 historical plan](research/bedroom-plan-v1-before-feedback.md) · [Music/software plan](../playback-plan.md)
+[The October 19 research](auto-dj-research-2026-10-19.md) compares current rekordbox, VirtualDJ and Mixxx; documents file/source options, phrase and tempo boundaries, gain, recovery and the repeated hour; and defines a short bench test plus a nine-hour combined soak. VirtualDJ's pair editor and scheduler are candidates if rekordbox fails a demonstrated requirement. Hardware support and vendor documentation are not playback tests.
+
+## Next checks
+
+- [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
+- [ ] Choose the permitted audio source for approved recordings and obtain exact versions.
+- [ ] Analyze actual files, correct grids, inspect active loops, set mix points and gain, and prepare coherent chapters.
+- [ ] Run the short transition/output/recovery test on FLX4 and both powered speakers.
+- [ ] Finalize a queue with at least nine hours after cuts/transitions and rehearse it alongside Google Home playback and muted Jellyfin.
+
+The [local V2 tracklist](the-hollow-v2-tracklist.md), [taste check](the-hollow-v2-taste-check.md) and [V2 JSON](the-hollow-v2.json) remain unreviewed archives, not the current live order.

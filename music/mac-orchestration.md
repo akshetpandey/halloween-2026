@@ -1,9 +1,9 @@
 # Mac orchestration • music, Jellyfin, volume
 Status: Architecture and acceptance criteria ready. No software installed, settings changed or control code run.
-Owner: host + planning. First proof by Sep 20; full rehearsal by Oct 18.
+Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [October 19 bench and nine-hour test gates](bedroom/auto-dj-research-2026-10-19.md) before treating the setup as ready.
 
 ## Confirmed audio topology • September 3 update
-- **Bedroom:** Mac / rekordbox Automix → USB DDJ-FLX4 → both powered speakers, left/right. Techno/EDM arc.
+- **Bedroom:** Mac / proposed rekordbox Automix → USB DDJ-FLX4 → both powered speakers, left/right. Current brief spans techno, tech house, DnB, acid and trance; actual routing/mixing still needs rehearsal.
 - **Living room:** Spotify → two Google Homes on Wi-Fi. Separate house/chill playlist; no DJ mixing required.
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
 - **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.

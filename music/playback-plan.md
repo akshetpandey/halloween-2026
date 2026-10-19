@@ -1,20 +1,11 @@
 # Music curation and unattended playback
-Updated October 11. The live living-room Spotify playlist now has 48 approved tracks / 2:57:46 raw by explicit host choice; it remains well under the nine-hour target. The bedroom's September 3 collection had 140 tracks / 12h 15m raw. Final sequencing, local DJ files and rehearsals remain.
+Updated October 19. The living-room main remains 48 approved tracks / 2:57:46 raw. The bedroom's old 140-track collection has been replaced with a 50-track review batch / 4:04:25 raw, with host approval pending. Both finished programmes still need nine hours after actual cuts/transitions; current auditions do not meet that requirement.
 Confirmed: MacBook Pro/macOS, DDJ-FLX4, rekordbox already installed. Same Mac runs Jellyfin. Both powered speakers connect to the DDJ in the bedroom. Two Google Homes provide separate house/chill music in the living room via Spotify. Hisense 5.1.2 soundbar already plays from this Mac when selected in macOS Sound settings, as confirmed by the host. Reuse that working connection; its party role remains to decide. Paid software acceptable if reasonably priced.
 
 ## Recommendation
-**Test existing rekordbox Automix first.** Its current manual documents Automix playlists, ordered/repeat playback and automatic loading to Deck 1/2. DDJ-FLX4 is on the hardware-unlock list; test the installed version/account before paying for anything. [Manual, page 166](https://cdn.rekordbox.com/files/20260409151936/rekordbox7.214_manual_EN.pdf) · [Hardware unlock](https://rekordbox.com/en/support/hardware-unlock/)
+**Rehearse existing rekordbox Automix with approved local files first.** The [October 19 Auto DJ research](bedroom/auto-dj-research-2026-10-19.md) verifies the installed 7.2.14 build, current vendor support and source restrictions, compares VirtualDJ and Mixxx, and defines the bench and nine-hour tests. It supersedes the earlier September software comparison.
 
-Rekordbox’s FAQ says unloading the playing track or loading an outside track can stop Automix, and Active Loops are not automatically canceled. Audit these before unattended playback. [Official FAQ](https://rekordbox.com/en/support/faq/operation-hint/)
-
-| Option | Why use it | Limitation / decision |
-|---|---|---|
-| Existing rekordbox | Familiar, FLX4 ecosystem; first trial can cost $0 | Schedule and gain-control approach still needs validation |
-| VirtualDJ | Automix transition choices and built-in scripting/event scheduling | Check current controller license and cost; do not assume free controller use |
-| Mixxx | Free Auto DJ fallback | Validate FLX4 mapping in installed stable version; no need to switch just for cost |
-| Prepared continuous mixes | Most predictable running order; easy backup | Less flexible; only use audio acquired/created with appropriate permission |
-
-[VirtualDJ Automix](https://virtualdj.com/manuals/virtualdj/interface/browser/sideview/automix.html) · [Purchase page](https://virtualdj.com/buy/) · [Script/scheduler reference](https://virtualdj.com/manuals/virtualdj/appendix/vdjscriptverbs.html) · [Mixxx manual](https://manual.mixxx.org/2.5/en/)
+Spotify Automix was added in rekordbox 7.2.16; the installed build predates it. Updating would permit an online rehearsal, but Spotify cannot provide offline DJ files and one account cannot independently feed both rooms. Local files keep bedroom playback independent. VirtualDJ's editable transitions and event scheduler are the next option if rekordbox fails the actual mix/control tests. No app update, installation, purchase or playback test is claimed.
 
 ## Energy arc
 9–10 p.m. arrival, midnight–1 a.m. peak, 4 a.m. finish are host preferences. Use **9:30 p.m.** as a proposed public start until chosen.
@@ -36,32 +27,15 @@ The BPM bands are programming targets, not measured metadata for the tracks belo
 
 Peak energy should come from selection and density, not a late-night volume increase.
 
-## Listening shortlist • bedroom
-The original anchors below have been expanded into [The Hollow: 140 tracks, 12h 15m](bedroom/playlist.md). This is an audition collection, not a purchased, analyzed or timed Automix queue. Exact mixes, BPM, key, explicit lyrics and duration must be checked from acquired files.
+## Bedroom selection · The Hollow
+The [current room plan](bedroom/playlist.md) and [50-track Batch 01](bedroom/the-hollow-batch-01.md) follow the October 19 brief: techno, tech house, DnB, acid and trance, with high energy, bounce and dark underground rave character. The review order interleaves five lanes to calibrate taste; it is not a DJ sequence. The older V1 album pool was replaced, while V2 remains an unreviewed archive.
 
-| Candidate | Intended role | Source |
-|---|---|---|
-| Daniel Avery — Drone Logic | Hypnotic anchor | [Album](https://danielavery.bandcamp.com/album/drone-logic) |
-| Daniel Avery — Naive Response | Driving early lift | Same album |
-| Daniel Avery — All I Need | Dark texture | Same album |
-| Rødhåd — Kinder der Ringwelt | Forest-underworld atmosphere | [Track](https://rodhad.bandcamp.com/track/kinder-der-ringwelt) |
-| Bicep — Glue | Recognizable emotional bridge | [Official release](https://bicep.lnk.to/glue) |
-| Overmono — Good Lies | Accessible rhythmic lift | [Album](https://overmono.bandcamp.com/album/good-lies) |
-| Overmono — So U Kno | Vocal-led momentum | Same album |
-| Overmono — Is U | Percussive contrast | Same album; audition fit |
-| Overmono — Walk Thru Water | Release / transition candidate | Same album |
-| D.Dan — Mutant Future | Harder section candidate | [Release](https://music.apple.com/us/album/mutant-future/1496145821) |
-| D.Dan — Falling In A Dream remix of AADJA | Fast-section audition | [Artist links](https://linktr.ee/ddan_sounds) |
-| Nia Archives — Baianá | Jungle burst | [Official release](https://niaarchives.lnk.to/Baiana) |
-| Nia Archives — Crowded Roomz | Fast but melodic option | [Artist shop](https://shop.niaarchives.com/collections/music) |
-| Nia Archives — Silence Is Loud | Fast chapter candidate | Same artist shop |
-
-The host requires **at least nine hours of music in each room**. The expanded bedroom pool has 140 tracks / 12h 15m; even a hypothetical one-minute overlap at every join leaves about 9h 56m before other cuts. Host taste, measured BPM, final files and actual mix points still determine the finished queue. Validate at least 9:00:00 of playback after those decisions, with extra reserve where practical. Track count alone is not the acceptance criterion.
+Collect votes, acquire exact permitted files, analyze BPM/key/grids and arrange approved selections into coherent chapters. Give DnB a deliberate entry/exit; do not force a 128-to-174 BPM beatmatch. Use actual mix points and playback rates to prove at least nine hours after cuts/transitions, then rehearse with FLX4, both bedroom speakers, living-room Google Homes and muted Jellyfin.
 
 ## Living-room playlist · October Grove
 The September 8 host correction calls for more upbeat, bouncy, melodic and sexy music with fewer repeated artists/albums and no intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-On October 11, the host chose to replace the original 117-track main playlist (all marked Cut) with the 48 tracks marked Keep in hosted Playlist Lab. Spotify's API verified the exact [approved-only order](living-room/october-grove-approved-2026-10-11.json) and 2:57:46 raw runtime. The [current 50-track Batch 05](living-room/october-grove-batch-05.md) still had 39 unrated tracks at that snapshot. Further calibration, expansion to nine hours after transitions, and actual playback validation remain. Playback is still intended for the two Google Homes, independently of the bedroom.
+On October 11, the host chose an approved-only main playlist: 48 tracks, with the 117 Cut tracks removed and the exact [saved order](living-room/october-grove-approved-2026-10-11.json) verified. The next [50-track Batch 06](living-room/october-grove-batch-06.md) is a separate audition; 39 pending Batch 05 decisions remain available. Further review, expansion to nine hours after transitions and Google Home playback validation remain.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.
@@ -76,5 +50,5 @@ On October 11, the host chose to replace the original 117-track main playlist (a
 
 Automatic volume control and Jellyfin integration have a separate [technical plan](mac-orchestration.md).
 
-## Host correction • September 3
-The old bedroom album pool is rejected as too repetitive by artist and insufficiently dance-oriented. Use [V2 techno revision](bedroom/playlist.md): 124 individually selected tracks across 45 artist groups, at most three per group. Live Spotify replacement remains pending connector access. The living-room approval in this September 3 entry is superseded by the September 8 brief above. Do not schedule the old V1 album blocks for the party.
+## Historical corrections
+The September 3 bedroom correction rejected artist-heavy album blocks and led to the unreviewed V2 draft. The October 19 [current brief and batch workflow](bedroom/playlist.md) supersede its selection scope and live status. The living-room September 3 blanket approval was superseded by the September 8 energy/variety correction. Use each room's current plan rather than the old V1 albums for party programming.

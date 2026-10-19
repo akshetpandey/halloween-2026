@@ -26,13 +26,16 @@ The final prepared collection must supply **at least nine hours after real cuts,
 
 ## Auto DJ direction
 
-Start with a low-volume test of the existing rekordbox and appropriately acquired local files, then compare its actual joins before choosing another engine. The installed app is 7.2.14; current vendor release notes add Spotify Automix from 7.2.16. Updating would create an online option, but one Spotify account cannot independently play the bedroom and Google Homes at once. No update or source purchase has been performed.
+The host is willing to change software and use local audio files, and wants code to select next tracks and request earlier exits based on the floor. The [current adaptive Auto DJ plan](adaptive-auto-dj-plan-2026-10-19.md) supersedes the earlier installed-rekordbox-first recommendation for that goal. **Pilot VirtualDJ Pro with a local Python supervisor**, conditional on the actual Mac HTTP extension, deterministic selection and recovery tests. Compare **djay Pro** for simple automatic transition quality; use prepared mixes/chapters as a fallback.
 
-[The October 19 research](auto-dj-research-2026-10-19.md) compares current rekordbox, VirtualDJ and Mixxx; documents file/source options, phrase and tempo boundaries, gain, recovery and the repeated hour; and defines a short bench test plus a nine-hour combined soak. VirtualDJ's pair editor and scheduler are candidates if rekordbox fails a demonstrated requirement. Hardware support and vendor documentation are not playback tests.
+The proposed director combines an approved, file-analyzed pool and tested transitions with helper/optional guest feedback; optional local occupancy/motion sensing remains undecided. Activity is not a validated measure of enjoyment. Native Automix and a custom deck loader must have a single authority, and phrase timing/next-track insertion need proof rather than an assumed API. No software, audio, sensors or playback controls were changed in this research pass.
+
+The [earlier source/routing comparison](auto-dj-research-2026-10-19.md) retains installed-version and streaming constraints. The [new engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md), [crowd-response policy](research/crowd-responsive-dj-2026-10-19.md) and [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) support the current plan. [Adaptive research handoff](handoff-2026-10-19-adaptive-auto-dj.md).
 
 ## Next checks
 
 - [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
+- [ ] Prove the VirtualDJ Mac control path and compare djay with a small exact-file crate; choose the engine from that evidence.
 - [ ] Choose the permitted audio source for approved recordings and obtain exact versions.
 - [ ] Analyze actual files, correct grids, inspect active loops, set mix points and gain, and prepare coherent chapters.
 - [ ] Run the short transition/output/recovery test on FLX4 and both powered speakers.

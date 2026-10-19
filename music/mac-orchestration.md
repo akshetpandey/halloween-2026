@@ -2,8 +2,8 @@
 Status: Architecture and acceptance criteria ready. No software installed, settings changed or control code run.
 Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [October 19 bench and nine-hour test gates](bedroom/auto-dj-research-2026-10-19.md) before treating the setup as ready.
 
-## Confirmed audio topology • September 3 update
-- **Bedroom:** Mac / proposed rekordbox Automix → USB DDJ-FLX4 → both powered speakers, left/right. Current brief spans techno, tech house, DnB, acid and trance; actual routing/mixing still needs rehearsal.
+## Audio topology · hardware confirmed, engine pilot proposed
+- **Bedroom:** Mac / proposed VirtualDJ adaptive pilot (rekordbox fixed-queue fallback) → USB DDJ-FLX4 → both powered speakers, left/right. Current brief spans techno, tech house, DnB, acid and trance; actual routing/mixing still needs rehearsal.
 - **Living room:** Spotify → two Google Homes on Wi-Fi. Separate house/chill playlist; no DJ mixing required.
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
 - **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.
@@ -31,7 +31,7 @@ The DDJ/amp route and Google Home route each need their own tested lowering/stop
 
 First prove bedroom gain control with a quiet local file through the FLX4. Check the real speakers, after app restart and output reconnect. Rekordbox Automix is documented, but a dependable external schedule/control API for the host’s installation has not been established. Do not invent one. Avoid screen-coordinate automation as the primary all-night controller.
 
-VirtualDJ remains an option only if scheduling needs justify the cost and a tested migration. [Scripting reference](https://virtualdj.com/manuals/virtualdj/appendix/vdjscriptverbs.html)
+The host now permits a software change for adaptive selection. VirtualDJ's documented HTTP/script control makes it the first pilot, conditional on actual Mac/FLX4, selection and recovery tests; no migration or license purchase has occurred. See the [current adaptive architecture and interface gates](bedroom/adaptive-auto-dj-plan-2026-10-19.md). Keep the director local, authenticated and outside the public Playlist Lab route; validate listener binding. A supervisor failure must use the fallback proven for its single playback-authority mode.
 
 **Manual “quiet now” fallback:** helper lowers/stops bedroom at the DDJ, stops the October Grove media session and confirms both Google speakers are quiet, then mutes the bar if active. Future software must report success separately for each route. A partial success must not display “all quiet.”
 

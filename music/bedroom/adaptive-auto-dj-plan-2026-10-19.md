@@ -1,4 +1,6 @@
-# Adaptive Auto DJ · current recommendation
+# Adaptive Auto DJ · deferred research
+
+**Superseded later October 19:** the host chose a [premixed bedroom set](premixed-set-plan-2026-10-19.md). There will be no human feedback during the event; a possible phone camera does not justify making playback depend on crowd inference. The proposal below is preserved for future work, not the current implementation queue.
 
 Researched October 19, 2026. **Research complete; proposed prototype, not an installed or tested crowd-responsive DJ.** The host is willing to change software and use local track files, and wants code to choose next tracks and shorten weak moments in response to the floor. This changes the primary software criterion from “reuse installed rekordbox” to “good mixing with a verified control interface.” It supersedes the default-engine recommendation in the [earlier source/routing comparison](auto-dj-research-2026-10-19.md); that document retains the source, hardware and rehearsal background.
 

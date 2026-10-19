@@ -1,8 +1,8 @@
 # The Hollow — Auto DJ research and rehearsal plan
 
-Researched October 19, 2026. **Recommendation, not a tested installation.** The host requested high-energy techno, tech house, DnB, acid and trance, with bouncy, dark underground rave character and broader producer variety. This document supplies the playback decision; [the room plan](playlist.md) and Playlist Lab own curation and approval.
+Researched October 19, 2026. **Historical comparison, not a tested installation.** The host requested high-energy techno, tech house, DnB, acid and trance, with bouncy, dark underground rave character and broader producer variety. The [room plan](playlist.md) and Playlist Lab own curation and approval.
 
-**Updated scope:** the host now prioritizes custom crowd-responsive selection and permits a software change/local files. The [adaptive Auto DJ plan](adaptive-auto-dj-plan-2026-10-19.md) is the current recommendation: pilot VirtualDJ's documented control path and compare djay for automatic mix quality. The installed-rekordbox-first recommendation below is the earlier fixed-queue baseline, not the adaptive engine decision.
+**Superseded later October 19:** the host chose a [premixed bedroom set](premixed-set-plan-2026-10-19.md), with no human feedback during the event. Both the fixed-queue recommendation below and subsequent [adaptive proposal](adaptive-auto-dj-plan-2026-10-19.md) are historical/deferred. Source restrictions and hardware/rehearsal evidence remain useful.
 
 ## Recommended route
 

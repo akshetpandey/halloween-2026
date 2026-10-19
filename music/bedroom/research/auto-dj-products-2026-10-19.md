@@ -1,5 +1,7 @@
 # Auto DJ products for an adaptive bedroom set
 
+**Historical scope:** later October 19 the host chose a [premixed bedroom set](../premixed-set-plan-2026-10-19.md). The live-adaptation ranking below is preserved research; it is not the current software recommendation. Consult the current plan for DJ.Studio version, trial/export and automation boundaries.
+
 Researched October 19, 2026. **Feature-based recommendation; no head-to-head audio test or device installation performed.** This pass follows the host's expanded brief: changing DJ software is acceptable, acquired local files are acceptable, and code should be able to choose the next track and shorten a track when the room loses interest. It extends the [earlier source/routing research](../auto-dj-research-2026-10-19.md); it does not claim that a product can already read this party's crowd.
 
 ## Recommendation

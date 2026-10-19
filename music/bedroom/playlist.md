@@ -24,21 +24,21 @@ The 50 candidates total **4:04:25 raw**. Hypothetical 45-second joins leave abou
 
 The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 
-## Auto DJ direction
+## Premixed set direction
 
-The host is willing to change software and use local audio files, and wants code to select next tracks and request earlier exits based on the floor. The [current adaptive Auto DJ plan](adaptive-auto-dj-plan-2026-10-19.md) supersedes the earlier installed-rekordbox-first recommendation for that goal. **Pilot VirtualDJ Pro with a local Python supervisor**, conditional on the actual Mac HTTP extension, deterministic selection and recovery tests. Compare **djay Pro** for simple automatic transition quality; use prepared mixes/chapters as a fallback.
+The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. Use DJ.Studio Pro as the recommended preparation tool, with Python for approved-track export/analysis and proposed edits, and FFmpeg for final assembly/checks. No purchase, installation or actual mix has been performed.
 
-The proposed director combines an approved, file-analyzed pool and tested transitions with helper/optional guest feedback; optional local occupancy/motion sensing remains undecided. Activity is not a validated measure of enjoyment. Native Automix and a custom deck loader must have a single authority, and phrase timing/next-track insertion need proof rather than an assumed API. No software, audio, sensors or playback controls were changed in this research pass.
+The [preparation tool](premix/README.md) now exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The current database has 50 unrated bedroom candidates and no bedroom Keeps. File analysis, automatic cut proposals, musical sequencing and rendering remain next stages. Shorten repetitive sections on verified phrase boundaries, keep the best hooks/builds/drops, and audition every cut and join before the party. DJ.Studio has no established supported headless/edit-manifest API; REAPER is the documented programmable alternative if fully code-authored timelines are needed.
 
-The [earlier source/routing comparison](auto-dj-research-2026-10-19.md) retains installed-version and streaming constraints. The [new engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md), [crowd-response policy](research/crowd-responsive-dj-2026-10-19.md) and [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) support the current plan. [Adaptive research handoff](handoff-2026-10-19-adaptive-auto-dj.md).
+The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](handoff-2026-10-19-premixed-set.md).
 
 ## Next checks
 
 - [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
-- [ ] Prove the VirtualDJ Mac control path and compare djay with a small exact-file crate; choose the engine from that evidence.
+- [ ] Audition the stable DJ.Studio workflow with 10–12 approved exact files, two repetition cuts and a DnB boundary; a license is required for the render test.
 - [ ] Choose the permitted audio source for approved recordings and obtain exact versions.
 - [ ] Analyze actual files, correct grids, inspect active loops, set mix points and gain, and prepare coherent chapters.
 - [ ] Run the short transition/output/recovery test on FLX4 and both powered speakers.
-- [ ] Finalize a queue with at least nine hours after cuts/transitions and rehearse it alongside Google Home playback and muted Jellyfin.
+- [ ] Render chapters and a continuous master with at least nine hours after cuts/transitions, index event closing/reserve, and rehearse alongside Google Home playback and muted Jellyfin.
 
 The [local V2 tracklist](the-hollow-v2-tracklist.md), [taste check](the-hollow-v2-taste-check.md) and [V2 JSON](the-hollow-v2.json) remain unreviewed archives, not the current live order.

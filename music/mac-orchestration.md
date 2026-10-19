@@ -1,9 +1,9 @@
 # Mac orchestration • music, Jellyfin, volume
-Status: Architecture and acceptance criteria ready. No software installed, settings changed or control code run.
-Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [October 19 bench and nine-hour test gates](bedroom/auto-dj-research-2026-10-19.md) before treating the setup as ready.
+Status: Architecture and acceptance criteria ready. Premixed bedroom playback chosen; approved-crate preparation code tested. No DJ software installed, settings changed or device controls run.
+Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [premix proof](bedroom/premixed-set-plan-2026-10-19.md) and nine-hour combined rehearsal before treating the setup as ready.
 
-## Audio topology · hardware confirmed, engine pilot proposed
-- **Bedroom:** Mac / proposed VirtualDJ adaptive pilot (rekordbox fixed-queue fallback) → USB DDJ-FLX4 → both powered speakers, left/right. Current brief spans techno, tech house, DnB, acid and trance; actual routing/mixing still needs rehearsal.
+## Audio topology · hardware confirmed, premixed playback chosen
+- **Bedroom:** Mac / finished local premix in a tested player → USB DDJ-FLX4 → both powered speakers, left/right. DJ.Studio Pro is recommended for preparation, not required for event playback. Current brief spans techno, tech house, DnB, acid and trance; actual player/output routing still needs rehearsal.
 - **Living room:** Spotify → two Google Homes on Wi-Fi. Separate house/chill playlist; no DJ mixing required.
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
 - **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.
@@ -17,21 +17,21 @@ Create the group in Google Home on a phone/tablet. Link the intended Spotify acc
 
 **Mac system volume is not a master for this party.** Google Home playback has its own controls. Google currently documents that device touch controls and ordinary voice-volume commands adjust the individual speaker; phone hardware volume buttons do not adjust the speaker group. Verify both speakers using the Google Home media-session controls. Do not infer a working group fade from a moving laptop slider. [Google controls](https://support.google.com/googlehome/answer/7174267?hl=en)
 
-Use local acquired files for bedroom rehearsal. Do not rely on starting two unrelated Spotify streams with the same account. Device automation for the Google group is not yet implemented or proven; first establish a reliable manual route, then investigate a supported control interface.
+Use the local rendered set for bedroom rehearsal. Do not rely on starting two unrelated Spotify streams with the same account. Device automation for the Google group is not yet implemented or proven; first establish a reliable manual route, then investigate a supported control interface.
 
 ## Soundbar connection — confirmed by host
 The existing Mac-to-soundbar setup already plays audio when the Hisense is selected in macOS Sound settings. Keep that working cable/connection. No model photo, adapter purchase or new basic compatibility test is needed to proceed. The host previously proposed HDMI, but the exact physical wiring has not been documented.
 
-Selecting the bar establishes the Mac’s default audio output. The planned bedroom route addresses the DDJ separately through rekordbox, while Spotify plays independently on the Google Homes. Verify this combined configuration during rehearsal; the host’s successful soundbar playback does not yet confirm simultaneous routing or automatic volume control.
+Selecting the bar establishes the Mac’s default audio output. The bedroom player must be tested with the DDJ output while Spotify plays independently on the Google Homes. Verify this combined configuration during rehearsal; the host’s successful soundbar playback does not yet confirm simultaneous routing or automatic volume control.
 
 For the planned muted films, leave their audio muted and let the Google Homes provide the living-room music. The bar could handle TV audio when wanted or a local chill backup; its party role remains open. If it is used, prevent Mac notifications from reaching it. Only revisit model/port details if the wiring needs to change or a problem appears.
 
 ## Volume and automation boundaries
 The DDJ/amp route and Google Home route each need their own tested lowering/stop control. If the bar is used, include it as a third control path. A macOS volume command may not attenuate a directly addressed DJ device or HDMI output.
 
-First prove bedroom gain control with a quiet local file through the FLX4. Check the real speakers, after app restart and output reconnect. Rekordbox Automix is documented, but a dependable external schedule/control API for the host’s installation has not been established. Do not invent one. Avoid screen-coordinate automation as the primary all-night controller.
+First prove bedroom gain control with a quiet local file through the FLX4 in the chosen player. Check the real speakers, after app restart and output reconnect. The finished file contains the transitions; live deck control is unnecessary. Any schedule/stop integration still needs a verified player interface and real output test. Avoid screen-coordinate automation as the primary all-night controller.
 
-The host now permits a software change for adaptive selection. VirtualDJ's documented HTTP/script control makes it the first pilot, conditional on actual Mac/FLX4, selection and recovery tests; no migration or license purchase has occurred. See the [current adaptive architecture and interface gates](bedroom/adaptive-auto-dj-plan-2026-10-19.md). Keep the director local, authenticated and outside the public Playlist Lab route; validate listener binding. A supervisor failure must use the fallback proven for its single playback-authority mode.
+The host chose a [premixed set](bedroom/premixed-set-plan-2026-10-19.md) after clarifying there will be no human feedback during the event. Adaptive selection is deferred; no camera or live director is a dependency. Keep preparation/runtime media local and leave the protected public Playlist Lab route for curation. No DJ software migration, license purchase or playback test has occurred.
 
 **Manual “quiet now” fallback:** helper lowers/stops bedroom at the DDJ, stops the October Grove media session and confirms both Google speakers are quiet, then mutes the bar if active. Future software must report success separately for each route. A partial success must not display “all quiet.”
 
@@ -85,7 +85,8 @@ Read supported commands and actual session identity before sending play/repeat/m
 Avoid live transcoding if direct play works; the same Mac is running audio. [Jellyfin documentation](https://jellyfin.org/docs/general/post-install/transcoding/)
 
 ## Build phases
-**Phase A:** inventory versions, outputs, TV client and permissions; 10-track Automix test plus two video files.  
+**Phase A:** inventory versions, outputs, TV client and permissions; 10–12-track premix proof, short render/player test and two video files.
+
 **Phase B:** implement a tiny schedule simulator with fake clock and no device actions.  
 **Phase C:** implement verified, separate bedroom and Google Home control adapters, plus Jellyfin-session control; retain manual Google controls if reliable automation is not available.  
 **Phase D:** test missed cues, restart, manual lowering, disconnected controller, TV failure and daylight-saving rollback.  

@@ -3,9 +3,9 @@ Updated October 19. The living-room main remains 48 approved tracks / 2:57:46 ra
 Confirmed: MacBook Pro/macOS, DDJ-FLX4, rekordbox already installed. Same Mac runs Jellyfin. Both powered speakers connect to the DDJ in the bedroom. Two Google Homes provide separate house/chill music in the living room via Spotify. Hisense 5.1.2 soundbar already plays from this Mac when selected in macOS Sound settings, as confirmed by the host. Reuse that working connection; its party role remains to decide. Paid software acceptable if reasonably priced.
 
 ## Recommendation
-The host chose a **premixed bedroom set**, with no human feedback available during the event. Follow the [current preparation plan](bedroom/premixed-set-plan-2026-10-19.md): **DJ.Studio Pro** for editable chapter preparation, Python for library/analysis/edit preparation, and FFmpeg for delivery assembly/checks. The [adaptive research](bedroom/adaptive-auto-dj-plan-2026-10-19.md) is deferred. Playback will use finished local audio, without a camera-based selector.
+The host chose a **premixed bedroom set**, with no human feedback available during the event. Follow the [current preparation plan](bedroom/premixed-set-plan-2026-10-19.md): **REAPER + Python** for scripted editable chapters, with open-source analysis/delivery tools. Begin with REAPER's fully functional evaluation before spending. The agent owns sequencing, cuts, transitions and other production details; host track approvals remain the taste filter. The [adaptive research](bedroom/adaptive-auto-dj-plan-2026-10-19.md) is deferred. Playback will use finished local audio, without a camera-based selector.
 
-The [approved crate exporter](bedroom/premix/README.md) is implemented and tested; it reads host bedroom Keeps without changing votes and validates exact local-file bindings for M3U8 import. The current bedroom batch has 50 unrated candidates and zero approved tracks. Analysis, automatic edit proposals and rendering remain planned. No DJ.Studio installation/license, acquired source pool or rendered programme has been verified.
+The [approved crate exporter](bedroom/premix/README.md) is implemented and tested; it reads host bedroom Keeps without changing votes and validates exact local-file bindings. The current bedroom batch has 50 unrated candidates and zero approved tracks. Analysis, Lua project building and rendering remain planned. No REAPER installation/license, acquired source pool or rendered programme has been verified.
 
 Use approved exact local files, shorten weak repetition, organize coherent genre chapters, and audition every cut and transition. Render a continuous master plus chapter/MP3 backups and measure at least nine hours after actual edits. Start with a 10–12-track preparation proof, then verify the chosen player's real FLX4 output and complete the nine-hour combined rehearsal. The [earlier source/routing research](bedroom/auto-dj-research-2026-10-19.md) retains the installed rekordbox and streaming context.
 
@@ -41,7 +41,7 @@ On October 11, the host chose an approved-only main playlist: 48 tracks, with th
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.
-- [ ] Test 10–12 approved acquired local tracks in DJ.Studio, including two cuts and a deliberate DnB boundary; verify a short licensed render.
+- [ ] Prove the REAPER script/save/render route, then test 10–12 approved acquired files, including two cuts and a deliberate DnB boundary; agent chooses/revises production details.
 - [ ] Check beat grids, gain and Active Loops.
 - [ ] Build coherent rendered chapters; audition every cut/join, then assemble and verify the continuous master and backups.
 - [ ] Disable shuffle for the main set.

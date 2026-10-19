@@ -26,16 +26,16 @@ The final prepared collection must supply **at least nine hours after real cuts,
 
 ## Premixed set direction
 
-The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. Use DJ.Studio Pro as the recommended preparation tool, with Python for approved-track export/analysis and proposed edits, and FFmpeg for final assembly/checks. No purchase, installation or actual mix has been performed.
+The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. Use **REAPER + Python** for repeatable scripted preparation, with open-source analysis/delivery tools. Start with REAPER's full 60-day evaluation before spending. The agent owns sequencing, cuts, transitions and gains; no per-edit host decision queue. No purchase, installation or actual mix has been performed.
 
-The [preparation tool](premix/README.md) now exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The current database has 50 unrated bedroom candidates and no bedroom Keeps. File analysis, automatic cut proposals, musical sequencing and rendering remain next stages. Shorten repetitive sections on verified phrase boundaries, keep the best hooks/builds/drops, and audition every cut and join before the party. DJ.Studio has no established supported headless/edit-manifest API; REAPER is the documented programmable alternative if fully code-authored timelines are needed.
+The [preparation tool](premix/README.md) exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The current database has 50 unrated bedroom candidates and no bedroom Keeps. File analysis, the Lua project builder, musical sequencing and rendering remain next stages. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checking/revising cuts and joins, without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback if the REAPER proof fails.
 
 The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](handoff-2026-10-19-premixed-set.md).
 
 ## Next checks
 
 - [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
-- [ ] Audition the stable DJ.Studio workflow with 10–12 approved exact files, two repetition cuts and a DnB boundary; a license is required for the render test.
+- [ ] Prove the REAPER evaluation's script/save/render path with synthetic audio, then build a 10–12-approved-file chapter with two repetition cuts and a DnB boundary; agent handles small decisions.
 - [ ] Choose the permitted audio source for approved recordings and obtain exact versions.
 - [ ] Analyze actual files, correct grids, inspect active loops, set mix points and gain, and prepare coherent chapters.
 - [ ] Run the short transition/output/recovery test on FLX4 and both powered speakers.

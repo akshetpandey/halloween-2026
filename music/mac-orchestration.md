@@ -3,7 +3,7 @@ Status: Architecture and acceptance criteria ready. Premixed bedroom playback ch
 Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [premix proof](bedroom/premixed-set-plan-2026-10-19.md) and nine-hour combined rehearsal before treating the setup as ready.
 
 ## Audio topology · hardware confirmed, premixed playback chosen
-- **Bedroom:** Mac / finished local premix in a tested player → USB DDJ-FLX4 → both powered speakers, left/right. DJ.Studio Pro is recommended for preparation, not required for event playback. Current brief spans techno, tech house, DnB, acid and trance; actual player/output routing still needs rehearsal.
+- **Bedroom:** Mac / finished local premix in a tested player → USB DDJ-FLX4 → both powered speakers, left/right. REAPER + Python is selected for preparation; REAPER is not required for event playback. Current brief spans techno, tech house, DnB, acid and trance; actual player/output routing still needs rehearsal.
 - **Living room:** Spotify → two Google Homes on Wi-Fi. Separate house/chill playlist; no DJ mixing required.
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
 - **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.

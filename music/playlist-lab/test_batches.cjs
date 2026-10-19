@@ -9,3 +9,12 @@ test('needs review contains only undecided tracks; editorial flags remain separa
  assert.deepEqual(visibleRows(flagged,'needs-review').map(t=>t.id),['pending','new']);
  assert.deepEqual(visibleRows(flagged,'flagged').map(t=>t.id),['cut','keep']);
 });
+test('room filters isolate batches, review queues and artist searches; legacy rows are living room',()=>{
+ const mixed=[...rows,{id:'rave',artist:'Alpha',room:'bedroom',vote:'unrated',batch_id:'hollow-01',batch_name:'The Hollow 01',batch_rank:1}];
+ assert.deepEqual(visibleRows(mixed,'all','','bedroom').map(t=>t.id),['rave']);
+ assert.deepEqual(visibleRows(mixed,'needs-review','','living-room').map(t=>t.id),['b']);
+ assert.deepEqual(visibleRows(mixed,'batch:hollow-01','','living-room'),[]);
+ assert.deepEqual(visibleRows(mixed,'all','alpha','living-room').map(t=>t.id),['a']);
+ assert.deepEqual(batches(mixed,'bedroom'),[{id:'hollow-01',name:'The Hollow 01',count:1}]);
+ assert.deepEqual(batches(mixed,'living-room'),[{id:'02',name:'New batch',count:2}]);
+});

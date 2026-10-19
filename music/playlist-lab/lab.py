@@ -518,16 +518,17 @@ def serve(store, port, public_origin=None, verifier=None, host_email=None):
             if not self.allowed(): self.send_error(403); return
             reviewer = self.reviewer()
             if hosted and not reviewer: self.send_error(401); return
-            if self.path == '/':
+            path = urllib.parse.urlsplit(self.path).path
+            if path == '/':
                 self.respond((ROOT/'review.html').read_bytes(), mime='text/html; charset=utf-8')
-            elif self.path in {'/player.js','/batches.js'}:
-                self.respond((ROOT/self.path[1:]).read_bytes(), mime='text/javascript; charset=utf-8')
-            elif self.path == '/api/tracks':
+            elif path in {'/player.js','/batches.js'}:
+                self.respond((ROOT/path[1:]).read_bytes(), mime='text/javascript; charset=utf-8')
+            elif path == '/api/tracks':
                 self.respond({'tracks':store.rows_for(reviewer, host_email) if hosted else store.rows(), 'csrf':csrf})
-            elif self.path == '/api/events':
+            elif path == '/api/events':
                 if hosted and reviewer != host_email: self.send_error(403); return
                 self.respond([dict(r) for r in store.db.execute('SELECT * FROM events ORDER BY seq DESC LIMIT 100')])
-            elif self.path == '/api/reviewers':
+            elif path == '/api/reviewers':
                 if not hosted or reviewer != host_email: self.send_error(403); return
                 self.respond(store.review_report())
             else: self.send_error(404)
@@ -559,7 +560,7 @@ def main():
     p = sub.add_parser('auth'); p.add_argument('--client-id', required=True); p.add_argument('--port',type=int,default=8766); p.add_argument('--no-browser',action='store_true')
     p = sub.add_parser('import'); p.add_argument('file',type=Path)
     p = sub.add_parser('serve'); p.add_argument('--port',type=int,default=8765)
-    p = sub.add_parser('audit'); p.add_argument('--audition',action='store_true'); p.add_argument('--approved',action='store_true')
+    p = sub.add_parser('audit'); p.add_argument('--audition',action='store_true'); p.add_argument('--approved',action='store_true'); p.add_argument('--room',choices=['living-room','bedroom']); p.add_argument('--batch')
     p = sub.add_parser('export'); p.add_argument('file',type=Path)
     p = sub.add_parser('pull'); p.add_argument('--playlist',default=PLAYLIST)
     p = sub.add_parser('search'); p.add_argument('query')
@@ -601,6 +602,8 @@ def main():
             print(json.dumps(result,indent=2))
     elif args.command == 'audit':
         rows = store.rows()
+        if args.room: rows = [t for t in rows if t.get('room','living-room') == args.room]
+        if args.batch: rows = [t for t in rows if t.get('batch_id') == args.batch]
         if args.audition: rows = [t for t in rows if t.get('audition_rank')]
         if args.approved: rows = [t for t in rows if t['vote'] == 'up']
         print(json.dumps(audit(rows),indent=2,ensure_ascii=False))

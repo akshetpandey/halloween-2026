@@ -74,16 +74,21 @@ def clip(start, end, position, rate=1, fade_in=.003, fade_out=.003):
             'rate': rate, 'fade_in': fade_in, 'fade_out': fade_out}
 
 
-def save_plan(root, name, tracks, end_seconds, markers):
+def save_plan(root, name, tracks, end_seconds, markers, *,
+              purpose='synthetic engineering proof', bpm=128, master_db=-2, tempo_map=None):
+    root = Path(root).resolve()
+    (root / 'renders').mkdir(parents=True, exist_ok=True)
     run_id = str(uuid.uuid4())
-    plan = {'schema_version': 1, 'purpose': 'synthetic engineering proof', 'bpm': 128,
+    plan = {'schema_version': 1, 'purpose': purpose, 'bpm': bpm,
             'run_id': run_id,
-            'master_db': -2, 'tracks': tracks, 'end_seconds': end_seconds, 'markers': markers,
+            'master_db': master_db, 'tracks': tracks, 'end_seconds': end_seconds, 'markers': markers,
             'project': str(root / (name + '.rpp')), 'render_directory': str(root / 'renders'),
             'render_name': name, 'readback': str(root / (name + '-readback.json')),
             'build_script': str(root / (name + '-build-' + run_id + '.lua')),
             'cancel_file': str(root / ('cancelled-' + run_id)),
             'error_file': str(root / (name + '-' + run_id + '-error.txt'))}
+    if tempo_map:
+        plan['tempo_map'] = tempo_map
     for track in tracks:
         if checksum(Path(track['path'])) != track['sha256']:
             raise ValueError('Source changed before script generation')
@@ -151,7 +156,7 @@ def check_saved_project(plan):
         raise RuntimeError('Saved REAPER project does not match this build manifest')
 
 
-def run_reaper(root, binary, profile):
+def run_reaper(root, binary, profile, names=('reaper-proof', 'pitch-check'), render_timeout=90):
     """Build via native ReaScript, then use REAPER's native offline renderer."""
     root, binary, profile = root.resolve(), binary.resolve(), profile.resolve()
     if not binary.is_file() or not profile.is_file():
@@ -161,7 +166,7 @@ def run_reaper(root, binary, profile):
         if key not in config:
             raise ValueError('Initialize the task profile with no hardware audio device first')
     log_path = root / 'reaper-command.log'
-    for name in ('reaper-proof', 'pitch-check'):
+    for name in names:
         plan = json.loads((root / (name + '-plan.json')).read_text())
         for track in plan['tracks']:
             if checksum(Path(track['path'])) != track['sha256']:
@@ -214,7 +219,7 @@ def run_reaper(root, binary, profile):
             shutil.copyfile(profile, render_profile)
             subprocess.run([str(binary), '-newinst', '-nosplash', '-cfgfile', str(render_profile),
                             '-renderproject', plan['project']],
-                           stdout=log, stderr=subprocess.STDOUT, check=True, timeout=90)
+                           stdout=log, stderr=subprocess.STDOUT, check=True, timeout=render_timeout)
             if not output.exists() or output.stat().st_size < 1000:
                 raise RuntimeError('REAPER exited without a complete audio file')
 

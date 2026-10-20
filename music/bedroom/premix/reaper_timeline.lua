@@ -101,6 +101,12 @@ function M.build(plan)
     project=plan.project, end_seconds=plan.end_seconds, tracks={}, markers=plan.markers,
     manifest_sha256=plan.manifest_sha256, run_id=plan.run_id}
   reaper.SetTempoTimeSigMarker(0, -1, 0, -1, -1, plan.bpm, 4, 4, false)
+  for _, point in ipairs(plan.tempo_map or {}) do
+    if point.time > 0.000001 then
+      assert(reaper.SetTempoTimeSigMarker(0, -1, point.time, -1, -1,
+        point.bpm, 4, 4, false))
+    end
+  end
   reaper.SetMediaTrackInfo_Value(reaper.GetMasterTrack(0), 'D_VOL', 10^(plan.master_db/20))
   for index, definition in ipairs(plan.tracks) do
     reaper.InsertTrackAtIndex(index-1, true)
@@ -108,7 +114,11 @@ function M.build(plan)
     reaper.GetSetMediaTrackInfo_String(track, 'P_NAME', definition.name, true)
     reaper.SetMediaTrackInfo_Value(track, 'I_RECARM', 0)
     reaper.SetMediaTrackInfo_Value(track, 'I_RECMON', 0)
-    local actual = {name=definition.name, source_sha256=definition.sha256, clips={}}
+    local gain = definition.gain_db or 0
+    assert(gain == gain and gain >= -60 and gain <= 12, 'Invalid track gain')
+    assert(reaper.SetMediaTrackInfo_Value(track, 'D_VOL', 10^(gain/20)))
+    local actual = {name=definition.name, source_sha256=definition.sha256,
+      gain_db=20*math.log(reaper.GetMediaTrackInfo_Value(track, 'D_VOL'), 10), clips={}}
     if definition.shelf then actual.eq = low_shelf(track, definition.shelf) end
     for _, clip in ipairs(definition.clips) do
       local source = assert(reaper.PCM_Source_CreateFromFile(definition.path))
@@ -127,6 +137,17 @@ function M.build(plan)
       for field, value in pairs(settings) do
         assert(reaper.SetMediaItemInfo_Value(item, field, value), field)
       end
+      local stretch = {}
+      if clip.stretch_markers then
+        assert(clip.rate == 1, 'Warped clips must use unit playback rate')
+        for _, point in ipairs(clip.stretch_markers) do
+          local marker = reaper.SetTakeStretchMarker(take, -1, point.position, point.source)
+          assert(marker >= 0, 'Could not insert stretch marker')
+          local ok, position, source_position = reaper.GetTakeStretchMarker(take, marker)
+          assert(ok >= 0, 'Could not read stretch marker')
+          stretch[#stretch+1] = {position=position, source=source_position}
+        end
+      end
       actual.clips[#actual.clips+1] = {
         path=reaper.GetMediaSourceFileName(reaper.GetMediaItemTake_Source(take), ''),
         source_start=reaper.GetMediaItemTakeInfo_Value(take, 'D_STARTOFFS'),
@@ -135,7 +156,8 @@ function M.build(plan)
         position=reaper.GetMediaItemInfo_Value(item, 'D_POSITION'),
         length=reaper.GetMediaItemInfo_Value(item, 'D_LENGTH'),
         fade_in=reaper.GetMediaItemInfo_Value(item, 'D_FADEINLEN'),
-        fade_out=reaper.GetMediaItemInfo_Value(item, 'D_FADEOUTLEN')}
+        fade_out=reaper.GetMediaItemInfo_Value(item, 'D_FADEOUTLEN'),
+        stretch_markers=stretch}
     end
     report.tracks[#report.tracks+1] = actual
   end

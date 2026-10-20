@@ -26,16 +26,17 @@ The final prepared collection must supply **at least nine hours after real cuts,
 
 ## Premixed set direction
 
-The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. Use **REAPER + Python** for repeatable scripted preparation, with open-source analysis/delivery tools. Start with REAPER's full 60-day evaluation before spending. The agent owns sequencing, cuts, transitions and gains; no per-edit host decision queue. No purchase, installation or actual mix has been performed.
+The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. REAPER 7.82 + Python is installed and passes the [synthetic cut/transition/native-render proof](premix/REAPER-PROOF.md). The agent owns sequencing, cuts, transitions and gains; no per-edit host decision queue. No license purchased or approved-track party mix rendered.
 
-The [preparation tool](premix/README.md) exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The current database has 50 unrated bedroom candidates and no bedroom Keeps. File analysis, the Lua project builder, musical sequencing and rendering remain next stages. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checking/revising cuts and joins, without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback if the REAPER proof fails.
+The [preparation tool](premix/README.md) exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The current approved export has no bedroom Keeps. The native Lua builder and renderer now work on synthetic fixtures; real-file analysis, approved-pool integration, musical sequencing and final rendering remain. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checks/revisions without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback for a demonstrated blocker.
 
 The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](handoff-2026-10-19-premixed-set.md).
 
 ## Next checks
 
 - [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
-- [ ] Prove the REAPER evaluation's script/save/render path with synthetic audio, then build a 10–12-approved-file chapter with two repetition cuts and a DnB boundary; agent handles small decisions.
+- [x] Prove REAPER's native script/save/render path with synthetic cuts, transition automation and pitch-preserving rate change; see results/limitations above.
+- [ ] Build a 10–12-approved-file chapter with real analysis, two repetition cuts and a DnB boundary; agent handles small decisions.
 - [ ] Choose the permitted audio source for approved recordings and obtain exact versions.
 - [ ] Analyze actual files, correct grids, inspect active loops, set mix points and gain, and prepare coherent chapters.
 - [ ] Run the short transition/output/recovery test on FLX4 and both powered speakers.

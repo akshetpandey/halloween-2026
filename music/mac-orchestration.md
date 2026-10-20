@@ -1,6 +1,6 @@
 # Mac orchestration • music, Jellyfin, volume
-Status: Architecture and acceptance criteria ready. Premixed bedroom playback chosen; approved-crate preparation code tested. No DJ software installed, settings changed or device controls run.
-Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets have passed without a recorded device test. Complete the [premix proof](bedroom/premixed-set-plan-2026-10-19.md) and nine-hour combined rehearsal before treating the setup as ready.
+Status: REAPER 7.82 installed; approved-crate code and [synthetic native cut/transition/render proof](bedroom/premix/REAPER-PROOF.md) passed. The isolated REAPER task profile has no hardware input/output device; no speaker playback or physical device control tested.
+Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets passed without a recorded device test. Complete real-file preparation and the nine-hour combined rehearsal before treating the setup as ready.
 
 ## Audio topology · hardware confirmed, premixed playback chosen
 - **Bedroom:** Mac / finished local premix in a tested player → USB DDJ-FLX4 → both powered speakers, left/right. REAPER + Python is selected for preparation; REAPER is not required for event playback. Current brief spans techno, tech house, DnB, acid and trance; actual player/output routing still needs rehearsal.
@@ -8,7 +8,7 @@ Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targ
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
 - **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.
 
-This supersedes the earlier plan to use the soundbar as the primary living-room music output. No macOS Multi-Output Device or rekordbox PC MASTER OUT is needed for these independent music zones. Keep PC MASTER OUT off in the proposed party configuration so bedroom music is not mirrored to the TV/bar. No settings have been changed.
+This supersedes the earlier plan to use the soundbar as the primary living-room music output. No macOS Multi-Output Device or rekordbox PC MASTER OUT is needed for these independent music zones. Keep PC MASTER OUT off in the proposed party configuration so bedroom music is not mirrored to the TV/bar. These hardware-routing settings have not been changed.
 
 ## Google Home setup and control
 Use a speaker group named **October Grove** for synchronized playback on compatible Google speakers. If both are the same supported model, a stereo pair is also possible; confirm the actual models before choosing. A group favors broad room coverage; a stereo pair favors a defined listening position. [Google speaker groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Stereo pairing](https://support.google.com/googlehome/answer/7559493?hl=en-SG)
@@ -31,7 +31,7 @@ The DDJ/amp route and Google Home route each need their own tested lowering/stop
 
 First prove bedroom gain control with a quiet local file through the FLX4 in the chosen player. Check the real speakers, after app restart and output reconnect. The finished file contains the transitions; live deck control is unnecessary. Any schedule/stop integration still needs a verified player interface and real output test. Avoid screen-coordinate automation as the primary all-night controller.
 
-The host chose a [premixed set](bedroom/premixed-set-plan-2026-10-19.md) after clarifying there will be no human feedback during the event. Adaptive selection is deferred; no camera or live director is a dependency. Keep preparation/runtime media local and leave the protected public Playlist Lab route for curation. No DJ software migration, license purchase or playback test has occurred.
+The host chose a [premixed set](bedroom/premixed-set-plan-2026-10-19.md) after clarifying there will be no human feedback during the event. Adaptive selection is deferred; no camera or live director is a dependency. REAPER's isolated preparation/render path is now proved on synthetic files, with no license purchased or physical playback test. Keep preparation/runtime media local and leave the protected public Playlist Lab route for curation.
 
 **Manual “quiet now” fallback:** helper lowers/stops bedroom at the DDJ, stops the October Grove media session and confirms both Google speakers are quiet, then mutes the bar if active. Future software must report success separately for each route. A partial success must not display “all quiet.”
 

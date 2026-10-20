@@ -1,0 +1,165 @@
+{
+  "checked_at": "2026-10-20T00:01:31.824263+00:00",
+  "scope": "Original synthetic test audio; native REAPER rendering; mechanical QA, no audible audition",
+  "software": {
+    "application": "REAPER",
+    "version": "7.82/macOS-arm64",
+    "installed_path": "/Applications/REAPER.app",
+    "pitch_algorithm": "élastique 3.3.3 Pro",
+    "source": "https://www.reaper.fm/files/7.x/reaper782_universal.dmg",
+    "installer_sha256": "27b1ff603d6e7941f158e1ea6e3e8009e4d8447857e06df00241900c42ff0491",
+    "code_signature": "Cockos Incorporated (Y3T58622SG), verified; Apple notarization ticket stapled",
+    "license": "evaluation; no purchase",
+    "hardware_audio": "task profile explicitly configured with no input/output hardware"
+  },
+  "passed": true,
+  "checks": {
+    "source_a_identity": {
+      "passed": true,
+      "expected_sha256": "0e0e803fbec305cb2606a4a797eda95e8de536d0f941b50c4af2b168880bce17"
+    },
+    "source_b_identity": {
+      "passed": true,
+      "expected_sha256": "455ebf23b5f17d81d432a8814962a57d12e0d9266b80f32b628e42ff9b20f306"
+    },
+    "format": {
+      "passed": true,
+      "codec": "pcm_s24le",
+      "sample_rate": "48000",
+      "channels": 2,
+      "bits_per_sample": 24
+    },
+    "duration": {
+      "passed": true,
+      "actual_seconds": 75.0,
+      "expected_seconds": 75,
+      "tolerance_frames": 1
+    },
+    "no_unexpected_silence": {
+      "passed": true,
+      "intervals": []
+    },
+    "no_clipping": {
+      "passed": true,
+      "decoded_sample_peak_dbfs": -7.343116750499444,
+      "true_peak_dbfs": -7.0,
+      "note": "Checks output full-scale samples/true peak; does not inspect upstream history."
+    },
+    "decoded_frame_count": {
+      "passed": true,
+      "frames": 3600000,
+      "expected_frames": 3600000
+    },
+    "pre_cut_identity": {
+      "passed": true,
+      "output_seconds": [
+        10,
+        14
+      ],
+      "source_seconds": [
+        10,
+        14
+      ],
+      "correlation": 0.9999999927664792
+    },
+    "post_cut_identity": {
+      "passed": true,
+      "output_seconds": [
+        16,
+        20
+      ],
+      "correct_source_seconds": [
+        31,
+        35
+      ],
+      "wrong_uncut_source_seconds": [
+        16,
+        20
+      ],
+      "correct_correlation": 0.9999999927429708,
+      "wrong_correlation": 0.7908898140001223,
+      "required_correct_minus_wrong": 0.02
+    },
+    "pitch_preservation": {
+      "passed": true,
+      "estimated_hz": 439.99998708416507,
+      "expected_hz": 440,
+      "tolerance_hz": 2,
+      "unpreserved_expected_hz": 426.6666666666667
+    },
+    "pitch_calibration_duration": {
+      "passed": true,
+      "actual_seconds": 6.1875,
+      "expected_seconds": 6.1875
+    }
+  },
+  "audio_measurements": {
+    "integrated_lufs": -22.2,
+    "true_peak_dbfs": -7.0,
+    "silence_threshold_dbfs": -70,
+    "silence_minimum_seconds": 0.1,
+    "ignored_edge_seconds": 0.15,
+    "silences": [],
+    "unexpected_silences": []
+  },
+  "tempo_diagnostic": {
+    "method": "100Hz low-pass, 200Hz RMS flux autocorrelation; fixture-specific",
+    "source_region_output_seconds": [
+      45,
+      73
+    ],
+    "expected_bpm": 128,
+    "estimated_bpm": 127.6600518106074,
+    "autocorrelation": 0.20891610354206142,
+    "status": "uncertain",
+    "note": "Does not prove downbeat, phrase or musical transition quality."
+  },
+  "timeline": {
+    "source_a_bpm": 128,
+    "source_b_bpm": 132,
+    "target_bpm": 128,
+    "removed_source_a_seconds": [
+      15,
+      30
+    ],
+    "overlap_master_seconds": [
+      30,
+      45
+    ],
+    "bass_handover_master_seconds": 37.5,
+    "rendered_master_seconds": 75,
+    "source_retained_a_seconds": [
+      [
+        0,
+        15
+      ],
+      [
+        30,
+        60
+      ]
+    ]
+  },
+  "artifacts": {
+    "master_path": ".local/reaper-proof/renders/reaper-proof.wav",
+    "master_sha256": "3b9c02b4fa3395ef74ec0edce7bc96113910e59814197d99acd8a583b11bbd2a",
+    "preview_path": "samples/reaper-proof-45s.mp3",
+    "preview_sha256": "b34c906212066ca13856c479be600b2218ea5893cc489edd640501f0f2ccc2a9",
+    "preview_master_range_seconds": [
+      7.5,
+      52.5
+    ],
+    "preview_events_seconds": {
+      "cut": 7.5,
+      "blend_start": 22.5,
+      "bass_handover": 30,
+      "blend_end": 37.5
+    },
+    "project_path": ".local/reaper-proof/reaper-proof.rpp"
+  },
+  "limits": [
+    "Known fixed grids; exact sample-repetition detection is not real-track structural analysis.",
+    "Tempo autocorrelation uncertain; do not claim measured beat/downbeat accuracy.",
+    "Scripted transition/EQ automation and rate/pitch mechanics proved, subjective musical quality not auditioned.",
+    "No approved real-track mix, source acquisition, nine-hour render/soak or FLX4/speaker test."
+  ]
+}

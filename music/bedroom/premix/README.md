@@ -2,6 +2,8 @@
 
 [Current premix plan](../premixed-set-plan-2026-10-19.md)
 
+**REAPER setup and synthetic cut/transition/render proof passed:** [sample, results and one-command reproduction](REAPER-PROOF.md). The preparation bridge below still governs actual bedroom approvals; synthetic fixtures are not approved party tracks.
+
 This standard-library Python tool reads the hosted Playlist Lab database **read-only** and exports host bedroom Keeps as JSON/CSV and a local-file M3U8. It does not select from unrated candidates, change votes, access Spotify or render audio. Guest votes do not confer host approval. A Cut for the same bedroom URI/ISRC blocks a duplicate Keep; repeated recordings are deduplicated.
 
 From repository root:
@@ -21,9 +23,9 @@ python3 music/bedroom/premix/prepare.py \
 
 Only confirmed files with matching hashes and ffprobe duration within five seconds of the catalog enter `approved-ready.m3u8`. Duration is an additional mismatch check, not identity proof. A mismatch needs version review, not an enlarged tolerance to accept an extended edit. The hash binds the version that was confirmed; it cannot itself recognize a recording.
 
-The selected next stage will use `approved.json` and file hashes to build a scripted REAPER timeline; that builder remains planned. The M3U8 is also usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). The output is a **preparation crate in database order**, not a final mix order. A partially available crate exports only verified files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is verified. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
+The next production stage will use `approved.json` and file hashes with the now-proven native REAPER builder. Real-track analysis, edit selection and approval integration remain to build. The M3U8 is also usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). The output is a **preparation crate in database order**, not a final mix order. A partially available crate exports only verified files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is verified. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
 
-The report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. Analysis, cut proposals, derived edit rendering, sequencing and master assembly are next stages in the plan, not capabilities implemented by this script.
+The preparation report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. `prepare.py` does not render; the separate REAPER proof demonstrates synthetic rendering. Actual-file analysis, music-edit selection, sequencing and party master assembly remain next stages.
 
 Verification:
 

@@ -1,0 +1,225 @@
+{
+  "audition_only": true,
+  "host_approval_inferred": false,
+  "analysis_version": "onset-phrase-4",
+  "editorial_status": "Agent-selected audition edits; audio downbeats and musical phrasing provisional. Feature-based hypotheses are not an audible listening claim.",
+  "tracks": [
+    {
+      "id": "hollow-01-012",
+      "source_sha256": "eada98063b50f3043955de64b999702203195ca12e662d303cc2101047bbeba4",
+      "grid_bpm": 122.9993695108243,
+      "grid_anchor_seconds": 0.04194571003905395,
+      "retain_phrases": [
+        [
+          1,
+          8
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Open with the first sustained house body; omit the long later breakdown."
+    },
+    {
+      "id": "hollow-01-002",
+      "source_sha256": "492e2a6fa1b6029752c5898442feec32fb1dd6b43eb0ce1d2d86741c8db416be",
+      "grid_bpm": 124.99777695854686,
+      "grid_anchor_seconds": 1.1383620790424989,
+      "retain_phrases": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Keep an initial hook/body and later payoff; jump over a low-energy repeated break."
+    },
+    {
+      "id": "hollow-01-007",
+      "source_sha256": "0461e346ba6ff3a50e3a5246ca0434105ba6572db62eeda6c1860f33f0e0a780",
+      "grid_bpm": 126.0007667258693,
+      "grid_anchor_seconds": 0.24430165910890156,
+      "retain_phrases": [
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Keep the short vocal identity and final drive; shorten the central low-energy passage."
+    },
+    {
+      "id": "hollow-01-016",
+      "source_sha256": "37f487d76d1bfd4bdd53bc70bff188a0e113707df671a892bad25d7efbe8e309",
+      "grid_bpm": 125.9991955228659,
+      "grid_anchor_seconds": 1.89993962018621,
+      "retain_phrases": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          11,
+          15
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Remove the first weak break and prolonged central plateau; retain the later build and return."
+    },
+    {
+      "id": "hollow-01-044",
+      "source_sha256": "d8040a4574534617f734d189f636a4f60eb102226379d45ba12452ccd50550b0",
+      "grid_bpm": 127.99964414364155,
+      "grid_anchor_seconds": 0.6812238700738109,
+      "retain_phrases": [
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "blend_bars": 8,
+      "reason": "Skip the long lead-in, repeated plateau and extended weak break; retain contrasting acid body and later build/drop."
+    },
+    {
+      "id": "hollow-01-024",
+      "source_sha256": "54661d5ad69a30039bc98522b89a9c702159ec138bc634b7572f08b6b5e7adf6",
+      "grid_bpm": 132.99995339206194,
+      "grid_anchor_seconds": 0.8916830408205394,
+      "retain_phrases": [
+        [
+          4,
+          8
+        ],
+        [
+          10,
+          13
+        ]
+      ],
+      "blend_bars": 8,
+      "reason": "Enter the acid body, then jump beyond a repeating middle phrase to its later variation."
+    },
+    {
+      "id": "hollow-01-026",
+      "source_sha256": "c32e35505e5c7c00d1fb8d0e1506f65419233c15b25417b690ee021ab40044ec",
+      "grid_bpm": 134.99874085903983,
+      "grid_anchor_seconds": 1.56765609601888,
+      "retain_phrases": [
+        [
+          2,
+          5
+        ],
+        [
+          16,
+          20
+        ]
+      ],
+      "blend_bars": 8,
+      "reason": "Keep the early techno drive and a later build/drop; remove the long empty middle breakdown."
+    },
+    {
+      "id": "hollow-01-031",
+      "source_sha256": "e9839f1589f123910365b47536172baaad47941c8c3eaa4cfe846fa306942621",
+      "grid_bpm": 136.00070562718992,
+      "grid_anchor_seconds": 1.5311754172156258,
+      "retain_phrases": [
+        [
+          0,
+          7
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Preserve one coherent statement of the short vocal techno track; exit before another repetition."
+    },
+    {
+      "id": "hollow-01-040",
+      "source_sha256": "f255f3347339fee8e10b59e50a4cd6e6464c48618cca9580405c11d37c539bcc",
+      "grid_bpm": 135.99534712755693,
+      "grid_anchor_seconds": 1.5774195104690119,
+      "retain_phrases": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Keep the opening motif and later trance drive; shorten the repeated central build."
+    },
+    {
+      "id": "hollow-01-005",
+      "source_sha256": "ecdc9d9e375b0fa65589747d7d189fec6dac6e3a8c3017f3ef4beddeed014f1b",
+      "grid_bpm": 138.01377690477554,
+      "grid_anchor_seconds": 0.5003709477333743,
+      "retain_phrases": [
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "blend_bars": 4,
+      "reason": "Keep the recognizable motif and later full-energy passage; skip a prolonged weak middle section."
+    },
+    {
+      "id": "hollow-01-008",
+      "source_sha256": "40a9510238df6f6792affc23d6c2d272bceae8044ead2e011cf64926810e987a",
+      "grid_bpm": 174.00015772348567,
+      "grid_anchor_seconds": 1.3319118911613077,
+      "retain_phrases": [
+        [
+          7,
+          14
+        ],
+        [
+          18,
+          21
+        ]
+      ],
+      "blend_bars": 8,
+      "reason": "Deliberate DnB reset into an established groove; remove the long second breakdown.",
+      "reset_before": true
+    },
+    {
+      "id": "hollow-01-013",
+      "source_sha256": "f18c7dd076f9a535f23133e874c55812ed5701c0246062d7b9c3a7a8ab886ba4",
+      "grid_bpm": 173.9977010917484,
+      "grid_anchor_seconds": 0.004402537522492348,
+      "retain_phrases": [
+        [
+          2,
+          8
+        ],
+        [
+          12,
+          16
+        ]
+      ],
+      "blend_bars": 8,
+      "reason": "Keep the command hook and two strong DnB bodies; shorten the central break."
+    }
+  ]
+}

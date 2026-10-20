@@ -4,6 +4,8 @@
 
 **REAPER setup and synthetic cut/transition/render proof passed:** [sample, results and one-command reproduction](REAPER-PROOF.md). The preparation bridge below still governs actual bedroom approvals; synthetic fixtures are not approved party tracks.
 
+**Real-track audition:** [12-track sample, source provenance, cut sheet and reproduction](AUDITION-01.md). The host explicitly authorized an audition from the unrated bedroom batch; this separate path preserves votes and does not mark its sources approved. Public-stream test copies and all actual music renders remain ignored. Production still uses the host-Keep-only bridge below.
+
 This standard-library Python tool reads the hosted Playlist Lab database **read-only** and exports host bedroom Keeps as JSON/CSV and a local-file M3U8. It does not select from unrated candidates, change votes, access Spotify or render audio. Guest votes do not confer host approval. A Cut for the same bedroom URI/ISRC blocks a duplicate Keep; repeated recordings are deduplicated.
 
 From repository root:
@@ -23,9 +25,9 @@ python3 music/bedroom/premix/prepare.py \
 
 Only confirmed files with matching hashes and ffprobe duration within five seconds of the catalog enter `approved-ready.m3u8`. Duration is an additional mismatch check, not identity proof. A mismatch needs version review, not an enlarged tolerance to accept an extended edit. The hash binds the version that was confirmed; it cannot itself recognize a recording.
 
-The next production stage will use `approved.json` and file hashes with the now-proven native REAPER builder. Real-track analysis, edit selection and approval integration remain to build. The M3U8 is also usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). The output is a **preparation crate in database order**, not a final mix order. A partially available crate exports only verified files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is verified. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
+The next production stage will connect `approved.json` and verified production files to the native REAPER builder. Actual-file analysis and delegated edit selection now exist in the separate audition; automatic production approval integration remains. The M3U8 is also usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). The output is a **preparation crate in database order**, not a final mix order. A partially available crate exports only verified files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is verified. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
 
-The preparation report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. `prepare.py` does not render; the separate REAPER proof demonstrates synthetic rendering. Actual-file analysis, music-edit selection, sequencing and party master assembly remain next stages.
+The preparation report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. `prepare.py` does not render; the separate proof and audition demonstrate rendering. Production approval integration, musical refinement, final master assembly and nine-hour/output tests remain.
 
 Verification:
 

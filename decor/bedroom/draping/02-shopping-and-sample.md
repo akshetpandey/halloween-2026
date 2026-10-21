@@ -1,4 +1,7 @@
 # Fabric, hooks and clips: sample shortlist
+
+**October 21:** [current basket and per-run formulas](../../shopping-ready.md) supersede the dated price/sample basket below. Rose Brand still lists black 8 oz cut yardage at $7.60/yd, but its [comparison chart](https://www.rosebrand.com/products/fabric/masking-blackout-fabrics) describes roughly 50% light blocking: use for DJ backdrop, not guaranteed window blackout. New window alternative/support quantities remain measurement- and trial-dependent; no fabric ordered.
+
 Checked September 4, 2026. Research and proposed sample basket only; no cart changes or purchases. Host accepts both hooks + bulk fabric and direct tape; no curtain rods owned. Prices exclude tax/shipping. Brooklyn stock, dispatch date and delivered totals remain unverified.
 
 ## Recommended material and alternatives

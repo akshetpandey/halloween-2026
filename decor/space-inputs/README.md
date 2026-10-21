@@ -2,6 +2,18 @@
 
 Prepared October 21, 2026. Optional LiDAR capture can help us understand the apartment; ordinary photos plus a measured sketch are sufficient to start. We need positions and usable dimensions for decor decisions, not a perfect digital twin.
 
+## Confirmed phone and recommended workflow
+
+Host confirmed **iPhone 16 Pro** October 21. Apple lists its [LiDAR scanner](https://support.apple.com/en-us/121031), and [Polycam's supported-device list](https://learn.poly.cam/hc/en-us/articles/30299187161620-How-to-Create-Floorplan-Captures) explicitly includes it. Use **Polycam Floorplan for capture, Floorplanner for moving furniture and comparing layouts**. The capture should take a short session; do not spend a full build day perfecting it.
+
+For this chat, the best packet is a top-down view with dimensions/units, two or three ordinary corner photos per main room, a bathroom doorway view, and a simple furniture list. For bed, sofa, coffee table, DJ table, speaker stands and nightstands, record **width × depth × height**, whether movable, and where it could go **inside** the apartment. Include closet door opening/interior sizes before assuming nightstands fit, plus outlets and heaters marked on the sketch. Keep furniture in place during the first scan; photos explain what simplified scan objects actually are.
+
+[Floorplanner](https://floorplanner.com/personal) is the recommended layout sandbox: browser-based scaled 2D drawing, 3D preview, movable library furniture, manual dimensions and an uploaded/scaled floor-plan image as tracing reference. Its current free personal tier lists five projects, three designs total and SD exports; enough to compare a few party layouts. Generic furniture sized to actual footprints is sufficient. It is not an automatic Polycam mesh import or a photorealistic prediction of purple light, fabric sheen or guest capacity. No new account or uploaded home model has been created here.
+
+Fast sequence: scan one room, confirm a screenshot/export can be saved, then capture the others. Send the dimensioned view + photos + furniture sizes in this decor chat, or give their local paths. A **GLTF ZIP including BIN/textures** is useful if convenient; Polycam currently lists GLTF as its free export. Check the actual export screen; floor-plan PDF/PNG/measurement exports vary by tier/mode. A screenshot plus tape measurements is enough if export is paywalled. No paid subscription is needed for the first planning pass.
+
+After inputs arrive, compare **A: minimal furniture movement** with **B: nightstands stored in closets / furniture redistributed within the apartment**. Both retain the flat bed unless a genuinely workable internal flat-storage solution is documented. Derive the actual plan and fabric/cable quantities from those options; the [current schematic](../final-room-plan.md) remains explicitly unmeasured until then.
+
 ## Recommended route
 
 If your exact iPhone has a supported LiDAR sensor, use **Polycam Floorplan mode** for the measured room shell. Polycam's guide lists compatibility and recommends good lighting, fixed open doors, visible corners, and avoiding or covering large mirrors/glass. Its Floorplan mode is available on supported iOS devices across its listed plans. [Official capture guide](https://learn.poly.cam/hc/en-us/articles/30299187161620-How-to-Create-Floorplan-Captures).

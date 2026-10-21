@@ -1,5 +1,13 @@
 # Decision log and open questions
 
+## October 21 • house decor execution proposal
+
+Host requested a dedicated decor session, initial input then autonomous goal work, with shopping links and optional iPhone scan input. Goal activated in that session. **Confirmed host intake:** $1,000 decor including permanent lights; nothing new ordered; gold lamp/stand with full-color LIFX is the only decor inventory; furniture may move but stays inside the apartment, nightstands may enter closets; 2–4 full days; iPhone 16 Pro. Helpers not confirmed, room dimensions/photos pending. Existing Grove/Hollow/Moon Well direction preserved; no individual product purchase approval inferred.
+
+[Current provisional plan](../decor/final-room-plan.md), [single $973.12 example basket](../decor/shopping-ready.md) and [Oct 21–30 schedule](../decor/setup-schedule.md) include one permanent Govee Basic + owned LIFX for purple, one bedroom two-PAR kit, a properly mounted moon or lightweight fallback, limited fabric and dry Moon Well. Keep bed flat absent proven internal storage. [Capture workflow](../decor/space-inputs/README.md): Polycam Floorplan on supported iPhone 16 Pro, dimensioned view/photos/furniture sizes; Floorplanner recommended for scaled 2D/3D layout comparisons. No account/model upload performed.
+
+Fresh evidence: Oasis expanded specs now say 1000 K “Pure Red”–4000 K, not the old 2000–4000 K range; purple still not documented. Rose Brand 8 oz duvetyne is masking, not guaranteed blackout. See's coins and the checked LIFX 800-lm two-pack are sold out. These are sourcing findings, not changes to host preferences. No purchase, installation, device setting, third-party message or game implementation performed.
+
 **Latest interactive decisions are recorded in the September 9 website entry below; September 4 remains the mechanics baseline.** Earlier dated succession notes remain history; use the [current design index](../interactive-game/README.md) for active requirements.
 Updated September 3, 2026. This file preserves context between sessions.
 

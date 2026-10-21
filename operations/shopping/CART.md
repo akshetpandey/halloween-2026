@@ -1,4 +1,7 @@
 # Wood and skull sample cart
+
+**October 21 current status:** use the [single current decor basket](../../decor/shopping-ready.md). **Host confirms nothing new ordered; only the gold lamp/stand with full-color LIFX is owned decor.** The branch/three raven skulls/wolf remain proposed at **$60.49 before tax** inside the basket. The signed-in Amazon cart badge showed zero; no cart changes/purchase made by this task. The September snapshot below is history, not a live cart or proof of ownership.
+
 Checked September 3, 2026. **Added to the actual Amazon cart: three line items, $59.93 before tax. No checkout or purchase.**
 
 [Open Amazon cart](https://www.amazon.com/gp/cart/view.html)

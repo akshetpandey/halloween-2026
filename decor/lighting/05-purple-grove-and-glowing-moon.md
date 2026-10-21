@@ -1,4 +1,7 @@
 # Purple October Grove + glowing moon
+
+**October 21 refresh:** [current basket](../shopping-ready.md) and [placement/power plan](../final-room-plan.md) govern execution. Oasis now displays $49 single / $190 kit; expanded current Ambient specs read **1000 K (Pure Red)–4000 K**, 500 lm, 7 W, dimmable, 6.5-ft cable. This supersedes the September tone range below; purple remains undocumented and minimum useful brightness untested. Proposed living-room moon is the separately verified 19.7-inch plug-in variant, conditional on proper mounting. Current sources: [Oasis](https://heyoasis.com/en/shop/products/ambient-light-us), [offer notes](../research/offer-check-2026-10-21.md).
+
 Updated September 3, 2026. Confirmed host refinement: Oasis is acceptable provided it gets very dim; living room should have a glowing moon plus dim purple light across the room. This supersedes the previous mostly warm living-room color recommendation. No lighting purchased, moved, configured or tested.
 
 ## Proposed scene

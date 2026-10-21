@@ -1,4 +1,7 @@
 # Living room • The October Grove
+
+**October 21 current execution:** [three-room placement plan](../final-room-plan.md), [shopping basket](../shopping-ready.md), [setup schedule](../setup-schedule.md). Those outputs supersede September purchase quantities/deadlines below; concept decisions and the [floor study](floor/README.md) remain context. No measured room layout or purchases yet established in the new decor chat.
+
 Status: Concept ready; photos/measurements pending. Owner: build lead TBD. Target: prototype Sep 20, installation Oct 30.
 
 ## Guest experience

@@ -1,4 +1,7 @@
 # Decor shopping list • Halloween 2026
+
+**Historical September catalog.** Use the [October 21 core basket](shopping-ready.md) for current recommendations, prices, delivery evidence, substitutions and quantity gates. Below preserves earlier research; cart/ownership statements apply only to their recorded dates. No new purchase status is inferred.
+
 Checked September 3, 2026. **25 specific product links: 24 Amazon, 1 Home Depot**, plus alternatives below. Three new wood/skull selections are now in the actual Amazon cart; nothing purchased.
 
 ## How to use this list

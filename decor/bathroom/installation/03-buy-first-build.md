@@ -1,4 +1,7 @@
 # Moon Well • buy-first build
+
+**October 21 execution:** [current basket](../../shopping-ready.md) refreshes exact curtain, root, moon and separate cordless ambient offers; [placement](../../final-room-plan.md) and [setup dates](../../setup-schedule.md) govern the modest dry build. See's coins currently sold out; gifts remain within food, not decor. September prices/caps below are historical, not a second basket. No purchases or runtime tests performed.
+
 Updated September 3, 2026. Host likes the Moon Well and wants the final design driven by purchasable pieces, preferably Amazon for substantial components. Small crafts are welcome. Direction accepted; individual products, spending and layout remain proposals. No new cart additions or purchases.
 
 ## Recommended shopping direction

@@ -1,4 +1,7 @@
 # Bedroom • The Hollow
+
+**October 21 current execution:** [three-room placement plan](../final-room-plan.md), [shopping basket](../shopping-ready.md), [setup schedule](../setup-schedule.md). Those outputs supersede earlier product quantities/deadlines below. Keep bed flat provisionally; full fabric quantities await measurements and tested supports.
+
 Status: Needs layout and bed/storage decision. Owner: host + two build helpers TBD.
 
 ## Guest experience

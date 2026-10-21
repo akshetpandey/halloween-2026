@@ -1,5 +1,19 @@
 # Task tracker and timeline
 
+## October 21 • decor execution status
+
+The [current decor basket](../decor/shopping-ready.md), [room plan/schematic](../decor/final-room-plan.md) and [Oct 21–30 setup schedule](../decor/setup-schedule.md) supersede September decor shopping deadlines below. Host confirms $1,000 including permanent lights, owned color LIFX only, no new orders, furniture staying inside, 2–4 full days and iPhone 16 Pro. Planning example $973.12; no purchases/tests. Room capture, measured quantities and mount/power tests remain pending.
+
+| Task | Current status / next action | Revised target |
+|---|---|---|
+| SHOP-01 / SET-02 | Current offers, explicit shared allocations, costed provisional core and substitutions prepared | Oct 21 planning done; quantities still conditional |
+| OPS-01 / BUD-01 / SHOP-02 | Decor inventory/ceiling/time/furniture constraints confirmed; [Polycam + Floorplanner capture packet](../decor/space-inputs/README.md) ready. Geometry/household supplies/helper availability remain | Oct 21–22 room capture |
+| SHOP-03 / DRAPE-01–04 | Per-run formulas ready; actual spans/drop/wall finish/panel trial not done | Resolve Oct 23–24 |
+| LIGHT-LR / LIGHT-BED / BATH-08 | Proposed fixtures and fallback/reset tests documented; no test passed yet | Initial trials Oct 22–24, nine-hour run by Oct 25 |
+| BED-01 / PROP-01 | Keep-flat bed default; modest guardian bust or light-board fallback, support still unknown | Resolve by Oct 26 |
+| SHOP-04 / BUY-01 | Host orders after reviewing fit/inventory; recheck live sellers and delivered totals | Prefer receipt Oct 27; local fallback Oct 29 |
+| SET-03 | Staged scenic install, final routes and after-dark rehearsal | Oct 29–30 |
+
 **September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.
 

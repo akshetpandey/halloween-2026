@@ -10,3 +10,7 @@
 | Lighting across rooms | [Shared overview and product comparisons](lighting/README.md) |
 
 Keep one shared palette and reuse props across the scenery and [game physical plan](../interactive-game/physical/entity-plan.md). Prices and shopping status remain dated in source documents; the [master cart](../operations/shopping/CART.md) and [budget](../operations/budget.md) record shared spending.
+
+## October 21 execution task
+
+Start with the [house decor planning and shopping brief](house-decor-task-brief-2026-10-21.md). It consolidates the existing room direction for the ten days remaining and defines the new task's goal-mode outputs. Optional [iPhone room capture guide](space-inputs/README.md).

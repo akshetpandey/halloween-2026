@@ -4,6 +4,8 @@ Updated October 21, 2026 · Party October 31, plus events October 23–24 · **P
 
 ## Current urgent sourcing • October 21
 
+**Later visual-review update:** the host wants a smaller bone-look crown for City of Gods, not the large fast antlers. Specific compact crown price/arrival remain unverified. The seven-item subtotal in the earlier sourcing paragraph below is superseded as a complete basket; use the [latest weekend direction](05-weekend-costumes-2026-10-21.md#latest-direction). [AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are illustrative, not newly sourced products.
+
 Use the [two-look weekend plan](05-weekend-costumes-2026-10-21.md) for live-checked Amazon variants/dates and NYC pickup evidence. User confirms Small, nothing bought, shoes/trousers covered and a total costume ceiling; [shared budget](../operations/budget.md) records the ceiling. Seven listed core products total $100.56 before tax/finishing, not spent. Fast antlers are acknowledged compromises, not an exact-match discovery. Do not use the older October 7 arrival dates below for a new order.
 
 ## October 7 design target and research history

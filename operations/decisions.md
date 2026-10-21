@@ -16,6 +16,11 @@ Updated September 3, 2026. This file preserves context between sessions.
 Confirmed by host: shirt/jacket **Small**, no costume pieces bought, shoes/dark-green trousers covered; two looks needed Friday October 23/Saturday October 24. Around $100 per look makes sense; **$500 total costume ceiling**, recorded in [budget](budget.md), not agent purchase permission. Prioritize Amazon within two days and NYC pickup; user will order/collect October 21–22. [Current researched plan](../host-costume/05-weekend-costumes-2026-10-21.md) proposes Eclipse God Friday and a quick Antler King Saturday/October 31, with live delivery/pickup caveats. Neither look/product basket has been explicitly selected or purchased. No change to the separate winner crown, game or party theme.
 
 ## Confirmed by host
+
+### October 21 — compact City of Gods crown and visual review
+
+Host accepts a smaller bone-look crown for City of Gods because large antlers will be cumbersome. This supersedes the large-antler weekend purchase proposal, not the unresolved October 31 reference target. Host requested Eclipse God renders and raised concern that the original combination reads feminine; no final Eclipse styling selected. [AI outfit previews](../host-costume/06-weekend-costume-renders-2026-10-21.md) compare original chain styling, a no-chain/black-underlayer proposal and a compact King concept. The illustrated bone crown is not a sourced product. [Latest weekend direction](../host-costume/05-weekend-costumes-2026-10-21.md#latest-direction) owns detailed requirements and revised incomplete-basket math. Budget ceiling unchanged; no purchase, reservation or seller contact.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

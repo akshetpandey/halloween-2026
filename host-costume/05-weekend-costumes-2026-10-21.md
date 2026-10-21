@@ -4,6 +4,18 @@ Checked Wednesday, October 21, 2026, America/New_York. **Research/proposal only:
 
 ## Confirmed user constraints
 
+<a id="latest-direction"></a>
+
+### Latest direction — October 21 visual review
+
+**Confirmed by user:** use a smaller bone-look crown for City of Gods; large antlers will be cumbersome there. This replaces the large-antler weekend proposal below, not necessarily the October 31 Yellowjackets-inspired target. **Do not order the large Amazon antlers as the current City of Gods recommendation.** Specific compact crown, price and timely availability still need verification.
+
+The user requested Eclipse renders and raised concern that the original combination reads somewhat feminine. [Three outfit previews](06-weekend-costume-renders-2026-10-21.md) show the original pieces, a no-chain version with an optional opaque black under-tank, and a compact bone-crown King. These are AI illustrations on a generic male model, not exact try-ons, sourced crown photos or selected costumes. Chain omission/underlayer remain proposals; no purchase approval inferred.
+
+The earlier $100.56 seven-item subtotal is **not a current complete basket**. Removing only the $16.99 large antlers leaves **$83.57 before tax/finishing, plus an unpriced compact crown**. Omitting the $19.62 chain too leaves $63.95, plus crown and any needed underlayer. The $500 total ceiling is unchanged. Prices/dates below remain observations from the initial sourcing pass, not a new checkout verification.
+
+### Previously confirmed constraints
+
 - Shirt/jacket **Small**; nothing costume-related bought yet. Shoes and dark-green trousers covered.
 - Around $100 per look makes sense; **$500 total costume budget** available, not $500 per night. This is a ceiling, not an instruction to spend it all or authorization for agent checkout.
 - Two different looks needed for Friday October 23 and Saturday October 24; reuse Antler King one night and October 31.
@@ -14,7 +26,7 @@ Checked Wednesday, October 21, 2026, America/New_York. **Research/proposal only:
 
 **Friday: Eclipse God.** Gold sunburst halo, black mesh tank, gold body chain, owned trousers/shoes. Black trousers if already owned; dark-green trousers also work, so no additional trouser purchase assumed. This is an original styling suggestion, not an official character/theme requirement. Use an existing plain black top instead of mesh if a less sheer look is preferred.
 
-**Saturday: quick Antler King.** Brown antlers, beige lace-up cotton shirt, short doubled gauze shoulder drape, gold mesh for photos. The fast antler choices are deliberate deadline compromises: neither matches the Norway casts or the screen crown. Do not market the cheap rack as an aesthetic breakthrough. Use a simpler removable brow-hung panel this weekend rather than improvising a tall load-bearing antler canopy. The mesh is the one listed component arriving Friday, so Saturday leaves time to fit it.
+**Saturday: compact Antler King.** Smaller bone-look crown (specific item still needed), beige lace-up cotton shirt, short doubled gauze shoulder drape, gold mesh for photos. Keep veil lifted back/off while moving or dancing. Use a simple removable panel, not a tall load-bearing antler canopy. Mesh was observed arriving Friday, leaving Saturday for fitting. Earlier large antlers below are historical fallbacks, not the latest weekend recommendation.
 
 ### City of Gods evidence
 
@@ -23,6 +35,8 @@ Checked Wednesday, October 21, 2026, America/New_York. **Research/proposal only:
 No weapons or weapon-like props, including toy weapons; no ceremonial Native American headdresses, blackface/brownface or ethnicity-as-costume. Keep natural skin visible; use limited gold cosmetic accents only if desired, not full dark face paint. Avoid a staff/trident. Do not infer ticket rules from stale third-party listings; tickets were outside this task.
 
 ## Amazon list • exact variants and observed promises
+
+**Headpiece update:** the large IGMaryBox antlers are superseded for City of Gods. Retain their row as dated research only. Other pieces remain proposals; the complete basket needs the compact crown and a decision on Eclipse styling.
 
 Verified in signed-in **Chrome** with delivery header **Brooklyn 11211**, not inferred from a search engine's old copy. Prices before tax; no coupons assumed. All dates are observations, not delivery guarantees. Recheck the selected variant and checkout date when ordering today. Shipper shown as Amazon for the seven selected products; third-party sellers vary.
 
@@ -36,7 +50,7 @@ Verified in signed-in **Chrome** with delivery header **Brooklyn 11211**, not in
 | Eclipse God | [JOGAL fishnet tank](https://www.amazon.com/dp/B07D7S3RCF) | **Small / Black**, **$14.99** | **Thu Oct 22**, free | Selected size/color checked. 92% polyester/8% spandex, deliberately see-through. Layer a plain tank if wanted; fit untested. |
 | Eclipse God | [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold chain shown, **$19.62** | **Thu Oct 22**, free | Actual photo inspected: collar with draped chest/waist chains, not solid shoulder armor. Seller says alloy/extender/free size; maximum neck/torso measurements and fit unverified. Try loose; omit if tight or snagging mesh. Seller's “no irritation” claim is not a tested guarantee. |
 
-Antler King listed subtotal: **$55.96**. Eclipse God listed subtotal: **$44.60**. **Combined $100.56**, before tax and finishing supplies. Allow another **$20–$40 estimated** for clips/pins/ribbon, optional cosmetic gold and minor fit fixes; not vendor quotes. Replacing the Amazon antlers with Abracadabra's $18.95 elope pair makes the combined listed subtotal **$102.52**, before tax/finishing. Do not buy both headpieces unless intentionally choosing a backup. Delivery-threshold qualification must be confirmed at checkout; don't add unrelated filler to qualify.
+**Historical initial-basket math, superseded as a complete weekend basket:** Antler King $55.96 + Eclipse God $44.60 = $100.56 before tax/finishing. Replacing the former Amazon antlers with the $18.95 elope pair would have made $102.52, but neither is the current compact bone-crown recommendation. Use the latest-direction subtotal above instead. Allow $20–$40 estimated for clips/pins/ribbon, optional cosmetic gold and minor fit fixes, not vendor quotes. Confirm delivery-threshold qualification at checkout; don't add unrelated filler.
 
 ## NYC pickup plan and honest stock status
 
@@ -63,8 +77,8 @@ Live product-location controls inspected October 21:
 
 ## Today / tomorrow actions for the user
 
-1. **Order selected Amazon pieces today**, preserving the exact colors and Small sizes above. Check every delivery date; “before Halloween” alone is useless for October 23. Prefer tomorrow for Friday essentials. Buy only the selected antler route.
-2. If using local antlers, place a **NYC Abracadabra pickup** today and collect after the ready notice, ideally Thursday. Mood is a separate call-first option, not a confirmed pickup order.
+1. **Order only selected Amazon pieces today**, preserving exact colors and Small sizes above. Check every delivery date; “before Halloween” alone is useless for October 23. Prefer tomorrow for Friday essentials. Do not order the large weekend antlers under the revised brief; compact crown sourcing and Eclipse styling selection are still open.
+2. Compact bone-crown sourcing remains open; do not interpret the old elope local-antler fallback as a verified bone crown. For any eventual Abracadabra selection, verify NYC stock and collect only after the ready notice. Mood remains a separate call-first mesh option, not a confirmed pickup order.
 3. Thursday: try both tops, crown and body chain unaltered. If needed, replace fragile/tight chain with a simpler owned necklace or local cuff. Secure phone in an owned zipped pocket/bag; don't leave valuables exposed in a loose costume pocket.
 4. Fold gauze double into a shoulder mantle, ends above hips; secure to clothing with a couple of pins/clips, not a throat tie. Trial the gold panel on a padded brow/base with accessible clips. Don't hang fabric load from bendable antler tips. Veil up/off for moving or dancing. No craft glitter/paint near the eyes.
 5. Friday: Eclipse God. Saturday: Antler King after Friday mesh arrival. Both still need a quick movement, sightline and removal check; arrival promises are not physical fit tests.

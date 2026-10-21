@@ -4,6 +4,8 @@ Status: Active planning and urgent sourcing. Antler King remains the October 31 
 **Current deadline plan:** [October 23–24 two-look shopping/pickup list](05-weekend-costumes-2026-10-21.md). Exact Amazon variants, current delivery observations and Manhattan pickup stock are recorded there. Earlier October 7 shipping estimates below are historical. Eclipse God Friday / Antler King Saturday is a proposal, not a selected or purchased pair of costumes.
 
 ## Direction
+**October 21 visual review:** [Eclipse and compact King renders](06-weekend-costume-renders-2026-10-21.md). The host now accepts a smaller bone-look crown for City of Gods, instead of large antlers; see the [latest weekend direction](05-weekend-costumes-2026-10-21.md#latest-direction). Specific compact crown sourcing remains open.
+
 A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. Current user decisions and product comparisons live in the [sourcing shortlist](03-sourcing-shortlist.md): gold metallic netting is preferred over mail; the crown remains unresolved after a broader U.S.-shipping search. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
 
 [Look and build brief](01-look-and-build.md) · [Sourcing shortlist](03-sourcing-shortlist.md) · [Broad antler search audit](04-antler-search-2026-10-07.md) · [Costume task tracker](02-task-tracker.md) · [Real image references](references/README.md)

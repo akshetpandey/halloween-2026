@@ -1,10 +1,18 @@
 # Weekend outfit renders — October 21, 2026
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** Generic male models, not the user's likeness. Trousers, belt and shoes are illustrative stand-ins; only dark-green trousers and shoes are confirmed owned.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** Generic male models, not the user's likeness. Trousers, belt and shoes are illustrative stand-ins; dark-green trousers, black jeans and shoes are confirmed owned, but their exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [weekend plan](05-weekend-costumes-2026-10-21.md#latest-direction).
 
-**Later host feedback:** likes the original gold body chain and says it improves the outfit. Keep it; the no-chain variant below is comparison history, not the preferred styling route. Black jeans are now confirmed owned and recommended to try in place of green for Eclipse. Additional black-trouser/cuff render edits were rejected by the built-in tool; no successful new images exist or are represented by these original files. See the weekend plan for the current proposed cuff offer and styling advice.
+**Latest preview:** the host requested Eclipse with the short black faux-fur jacket, retained gold body chain and black jeans. **D below is now a successful new preview**, using the original generated model/halo/chain as its edit target. Earlier black-trouser/cuff edit attempts failed; that history does not describe the new fur preview. The no-chain variant remains comparison history, not the preferred styling route. No new product selection, purchase or fit test inferred.
+
+## D — Eclipse with short black faux fur and black jeans
+
+![Eclipse with black faux fur, gold body chain and black jeans](renders/2026-10-21/eclipse-black-fur.png)
+
+Requested October 21 after the [layer shortlist](08-layer-shopping-2026-10-21.md). Preserves the original gold sunray halo, black mesh tank and delicate gold body chain; adds an open, hip-length shaggy black jacket and replaces green tailored trousers with matte black slim-straight jeans. No cuffs added. Full-body studio styling preview on the same generic adult male model.
+
+The jacket approximates the silhouette of the [Gihuo short faux-fur jacket](https://www.amazon.com/dp/B0F4X9GTPM) from its previously inspected product image and written description; **the retailer photo was not an input to this edit**, so pile, collar, proportions and construction are not photo-exact. Jeans/shoes are stand-ins, not a photo of owned items. The render is not evidence of warmth, jacket sizing, chain durability or delivery. Keep the chain supported by the base outfit so the jacket can come off independently; avoid snagging delicate chains in the fur.
 
 ## A — Original Eclipse shopping-list combination
 
@@ -34,7 +42,7 @@ The host confirmed compact bone-crown direction for City of Gods. This does not 
 
 ## Generation record
 
-Created with the built-in image-generation tool using the imagegen skill. Three independent first-pass assets; one targeted edit changed the King's crown from brown/twig-like to ivory bone-look without changing the outfit. Only the three selected outputs are copied here; the rejected brown-crown draft remains in the tool's original generated-images directory.
+Created with the built-in image-generation tool using the imagegen skill. Three independent first-pass assets; one targeted edit changed the King's crown from brown/twig-like to ivory bone-look without changing the outfit. A later successful edit of Original Eclipse adds the black fur jacket and black jeans. Four selected outputs are copied here; the rejected brown-crown draft remains in the tool's original generated-images directory. The new 1024 × 1536 PNG was visually inspected for full-body framing, open black fur, black jeans, retained halo/mesh/chain and absence of extra accessories.
 
 [Exact generation and correction prompts](renders/2026-10-21/prompts.md).
 

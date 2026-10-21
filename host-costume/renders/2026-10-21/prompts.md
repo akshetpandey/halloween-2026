@@ -2,6 +2,12 @@
 
 Generated with the built-in image-generation tool. Each initial asset had its own call.
 
+## D — Black-fur Eclipse edit
+
+Input image: `eclipse-original.png`, an existing AI-generated generic adult model/outfit, used as the edit target. No user photo or new retailer-photo input. Built-in tool; nontransparent output; one successful attempt. Selected result: `eclipse-black-fur.png`, 1024 × 1536. Jacket is a description-led approximation, not an exact garment composite.
+
+Use case: precise-object-edit. Asset type: photorealistic Halloween costume styling preview. Image 1 is the edit target, an existing AI-generated outfit on a generic adult male model, not a real user's photo. Change only the outfit as follows: add a hip-length BLACK faux-fur jacket, worn open with ordinary long sleeves and broad soft lapels. The jacket has dense long shaggy black pile throughout, like an affordable short Gihuo men's faux-fur jacket; a full jacket, not a cape, stole, leather coat, or floor-length fur. Its open front frames the existing gold jewelry and leaves the center of the black mesh tank visible. Arms rest naturally inside sleeves, hands visible. Replace the green tailored trousers with solid deep BLACK jeans, slim-straight fit, normal denim seams and pockets, no rips, fading, gold trim, or leather shine. Preserve the existing delicate gold body-chain design: three narrow flat gold collar bands, many fine chains tapering to the central chest join then draping around the waist; jewelry stays over the existing black mesh tank and is not attached to the fur. Preserve the gold sunray/rhinestone headband, generic adult male model, natural proportions, face, hair, neutral standing pose, plain black shoes, full-body head-to-shoes framing, dark-gray studio background and even readable light. The jacket should broaden the shoulder silhouette without turning into giant fantasy armor. No added accessories, cuffs, weapons, props, makeup, magical effects, text, logos or watermark. Realistic wearable clothes and inexpensive gold-tone jewelry, with honest shaggy-fur and denim textures.
+
 ## A — Original Eclipse
 
 Input images in order: Zoestar halo retailer photo; JOGAL tank retailer photo; screenshot of Nicute chain listing. References/credits linked in [render notes](../../06-weekend-costume-renders-2026-10-21.md).

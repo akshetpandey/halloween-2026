@@ -19,7 +19,7 @@ Current gates October 21: user orders/pickup requests October 21–22; try unalt
 - [Two-look shopping/pickup plan](05-weekend-costumes-2026-10-21.md) supersedes old shipping promises for the immediate weekend. Sizes/variants and observed dates are explicit; not a checkout guarantee.
 - Confirmed user inventory, Small and total budget ceiling are recorded in that plan and [shared budget](../operations/budget.md). No purchases yet; user will buy/collect.
 - Antler King remains ivory/green/gold, with a quick clipped veil rather than a new rigid canopy build. Latest user direction replaces large weekend antlers with a compact bone-look crown, still unsourced; October 31's larger reference target remains open.
-- [Three AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are complete. Later feedback likes the gold body chain; retain it. Host owns black jeans and is open to a bolder look within the same ceiling. Suggested cuff pair has a dated Oct 22 Amazon promise; not selected/purchased. Further render edits failed, so no new black-trouser preview exists.
+- [Four AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are complete, now including the requested open black-fur jacket, retained gold body chain and black jeans on the original generic model. This later edit succeeded; earlier cuff-edit failures remain history. No cuffs added in the fur render; actual fit, warmth and product selection untested. Suggested cuff pair remains optional/unpurchased.
 - All essential Eclipse components observed for Thursday; gold veil mesh Friday, hence proposed night order. Local Abracadabra has product-level stock evidence; Mood store stock and Halloween Adventure product inventory unverified.
 
 ## Historical direction • October 7, 2026

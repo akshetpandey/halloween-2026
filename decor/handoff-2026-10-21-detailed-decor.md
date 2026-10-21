@@ -13,3 +13,12 @@
 - Dependencies: game owns bought small figures/tags/premade stickers/bases/phone validation; scenery counted once in decor. Proposed allocation 11 Grove / 3 Hollow / 1 bath threshold preserves 5/5/5 identities. Music owns playback; no new control code. Food/supplies own wrapped gifts.
 - Unresolved physical cost risk: heavy bed support or a new drape rig is not silently funded; use reuse/flat-face guardian and documented scope cuts. Fabric shipping/opacity and actual delivered total not guaranteed.
 - Commits: focused main checkpoint(s) reported in final response; no push. Unrelated costume changes preserved.
+
+## Verification and checkpoint
+
+- Checkpoint **0bd00cb** on main saved the decor plan, basket, materials/atmospheric assets and scan-derived layout/cutaways. Final follow-up reconciles shared operations and physical-game placement crosslink, improves cutaway readability and records checks. Sibling costume commit **85fa015** preserved.
+- Local Markdown links checked across this task's changed documents; all 21 basket line calculations verified: $734.16 merchandise, $75 gaps, $72.82 planning tax, $60 shipping, $50 buffer = **$991.98**.
+- Fifteen unique entity slots checked, five in each category; coordinate markers count fifteen. Desk/bed bounds and 0.30-m guardian band checked against scan-based room bounds. This is geometry verification, not bed-support certification or an occupancy test.
+- SVG XML and all six selected PNG assets opened/verified; materials and room images visually inspected. Rejected AI layout edits are not selected/persisted as deliverables. Direct cutaways preserve real footprint; pale window planes and lowered walls expose the layout.
+- git diff --check passed. No raw GLB/screenshot or account UI image tracked. Actual shipping/arrival, opacity, bed/storage/mounting, electrical and nine-hour tests remain future host execution.
+- Shared changes: operations budget/decisions/cart/tracker; one physical/entity-plan.md distribution paragraph points to current measured proposal. No game code or costume content edited.

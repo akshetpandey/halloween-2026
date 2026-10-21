@@ -1,6 +1,6 @@
-# Wood and skull sample cart
+# Decor shopping status and historical wood/skull cart
 
-**October 21 current status:** use the [single current decor basket](../../decor/shopping-ready.md). **Host confirms nothing new ordered; only the gold lamp/stand with full-color LIFX is owned decor.** The branch/three raven skulls/wolf remain proposed at **$60.49 before tax** inside the basket. The signed-in Amazon cart badge showed zero; no cart changes/purchase made by this task. The September snapshot below is history, not a live cart or proof of ownership.
+**October 21 current:** [single detailed decor basket](../../decor/shopping-ready.md), **$991.98 planning envelope** including shipping/buffer. Host confirms no new orders, only gold tree/full-color LIFX owned. Active branch + three raven pendants **$38.94 before tax**, included once; wolf skull now optional/excluded. Raw black fabric covers all bedroom walls; no ready-made bedroom curtain panels. No cart change, checkout or purchase by this task. The September cart snapshot below is history, not a live cart or ownership record.
 
 Checked September 3, 2026. **Added to the actual Amazon cart: three line items, $59.93 before tax. No checkout or purchase.**
 

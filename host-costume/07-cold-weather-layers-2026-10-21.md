@@ -10,18 +10,20 @@ The [official 2026 FAQ](https://www.cityofgods.nyc/faq) confirms indoor warehous
 
 Weather tool checked October 21 for **Brooklyn, Kings County**, not the unrelated Brooklyn in Delaware County also returned by the query: daily lows about **47°F / 8°C for Oct 23–24**, **52°F / 11°C Oct 25**. These are changing daily forecasts, not hourly courtyard temperatures or a wind-chill measurement. A direct NWS point page could not be retrieved; don't present this as NWS-confirmed. Recheck the relevant overnight/morning before departure.
 
-## One shared warm coat, two styled outfits
+## Current inventory — leather jacket first
 
-**Preferred approach:** reuse an owned genuinely warm black coat if suitable; inventory response is still pending. A matte black wool/wool-blend overcoat creates a dark regal outline for Eclipse and can also sit under the King's pale shoulder drape. A lined black leather/bomber jacket is a shorter alternative if owned, with adequate insulation underneath. A thin faux-leather jacket, unlined fashion trench, gauze mantle or polyester costume cape is **not** assumed to supply enough warmth by itself.
+**Confirmed in the later October 21 reply:** leather jacket owned; no brown coat; black overcoat owned but far too large for costume/party wear. **Exclude that oversized overcoat from the party outfit.** Leather-jacket color, lining, fit over layers and actual warmth are not yet known. Thermal-top ownership was not confirmed by the reply.
 
-Aim for a coat around mid-thigh/knee, not a floor-dragging robe. Exact length depends on height and fit; the sourced longline coat below may be too long for some wearers. Do not buy it solely because the label says Small.
+**Revised preferred approach:** build around the owned leather jacket for both nights, subject to a warmth/fit check, and pause the proposed new long coat purchase. If black, it is especially compatible with Eclipse's black-and-gold palette, but do not record the jacket as black without confirmation. Open lapels can frame the chain; jacket comes off indoors without dismantling the costume. For King, pale shirt/drape/crown retain the woodland identity over a shorter leather silhouette.
+
+Favor a **thin close-knit removable cardigan/zip layer**, if it fits beneath the jacket, rather than automatically buying the chunky shawl-collar cardigan researched below. No exact thin-layer SKU/price is selected. A fitted black long-sleeve base with the chain over it is the more covered Eclipse alternative. A thin cream base beneath King's shirt avoids adding outer bulk. Don't assume a leather shell or decorative fabric alone is sufficient through dawn: if unlined or tight, revise warmth/fit before relying on it. The rejected oversized coat is not a solution for wearing inside the party.
 
 | Look | Warm indoor dancing | Cool rooms / outdoor stage intervals | Queues, transit and 4–9 a.m. |
 |---|---|---|---|
-| **Eclipse God** | Black mesh tank, retained gold body chain, owned black jeans, halo; optional cuffs | Add a **removable open-front black knit cardigan** or suitable owned jacket over the base; necklace remains visible in the opening | Add real warm black coat; close it when needed. Halo/cuffs keep a costume cue even when chest jewelry is covered. Gloves and a warm hat for travel; remove crown before putting on a hat |
-| **Compact Antler King** | Beige lace-up shirt, short pale gauze shoulder drape, green trousers, compact bone-look crown; gold netting lifted/off face | Thin cream/beige thermal under shirt if wanted; optional close-knit cream or black cardigan. Pale shoulder drape can be positioned over a suitable jacket for photos | Same real black coat, with the pale mantle laid over shoulders only if secured and not interfering with closure; otherwise pack mantle while travelling. Crown/veil removable, face clear |
+| **Eclipse God** | Black mesh tank, retained gold body chain, owned black jeans, halo; optional cuffs | Owned leather jacket over base; optional thin removable knit beneath jacket if it fits. Necklace visible when open | Close jacket when needed; add appropriate thin insulation if required by actual warmth test. Gloves and warm travel hat; remove crown before putting on hat. If inadequate, secure a suitable warmer alternative before the event |
+| **Compact Antler King** | Beige lace-up shirt, short pale gauze shoulder drape, green trousers, compact bone-look crown; gold netting lifted/off face | Thin cream/beige base under shirt if wanted, plus owned leather jacket. Pale shoulder drape can sit over jacket for photos | Same jacket with adequate insulation, subject to test; pale mantle secured without obstructing closure, or packed for travel. Face clear; crown/veil removable. No oversized party overcoat |
 
-Styling choices are proposals, not physical comfort tests. For Eclipse the open black lapels frame the gold and can make the costume feel more complete rather than hide it. For King the pale shoulders plus small ivory crown carry the woodland identity over a dark coat. **No extra coat needs buying for each night.**
+Styling choices are proposals, not physical comfort tests. The jacket can be part of both looks, not a second costume to buy. Prior preference for a new long black overcoat is superseded by the inventory reply; additional outerwear is only reconsidered if the owned jacket cannot meet warmth/fit needs.
 
 ### Alternate warm-base Eclipse
 
@@ -39,9 +41,9 @@ Tradeoff: a base thermal under mesh/chain is harder to remove discreetly than an
 - Use venue coat check for the substantial coat when appropriate; keep a manageable removable midlayer available if exploring outdoor stages. Exact re-access arrangements/queues unverified. Secure phone in a monitored zipped pocket, not a loose open tote.
 - Test costume plus layers sitting, reaching and turning for at least 15–20 minutes; then do the existing longer costume rehearsal if time allows. Check coat hem/stairs, chain catching, pockets, warmth, quick removal and crown clearance.
 
-## Exact optional layer offers checked in Chrome
+## Earlier optional new-layer offers — not the current buying recommendation
 
-Checked October 21, signed-in Chrome delivery header **Brooklyn 11211**. **Nothing ordered/carted/reserved.** Reuse existing layers first; both selected Small variants below showed Friday, not Thursday. Variant-selection state and product-page buy boxes were inspected; search cards/default larger sizes had earlier dates and lower prices.
+Checked earlier October 21, signed-in Chrome delivery header **Brooklyn 11211**; not rechecked after the inventory reply. **Nothing ordered/carted/reserved.** Retained as research history: do not order this coat just because it was the previous proposal, or assume the shawl cardigan fits under a leather jacket. Both selected Small variants showed Friday, not Thursday. Search cards/default larger sizes had earlier dates and lower prices.
 
 | Optional item | Selected variant / observed price | Delivery observation and limitations |
 |---|---|---|
@@ -54,6 +56,6 @@ UNIQLO's indexed older black wool/cashmere Chesterfield listing showed sold out 
 
 ## Budget, not a new spending approval
 
-Current costume base including the optional gold cuffs is **$97.56 before tax/finishing, plus an unpriced compact King crown**; shoes/black jeans/green trousers reused. Buying the two layers above adds **$127.38 once for both nights**, not twice, producing **$224.94 plus crown, tax, finishing and any separately needed thermals/gloves/hat**. No coupon assumed. This is an optional scenario, not a selected order or proof every remaining item fits the deadline.
+Current costume base including optional gold cuffs is **$97.56 before tax/finishing, plus an unpriced compact King crown**; shoes/black jeans/green trousers and now the owned leather jacket are reuse candidates. **No new coat or chunky cardigan in the current preferred basket.** Any needed thin insulation/gloves/hat remain unpriced and unselected.
 
-If reusing coat and cardigan, neither cost belongs in new spend. The **$500 total costume ceiling is unchanged**. Prioritize genuinely warm layers and a real compact crown over new trousers or more decorative jewelry. Owned coat/thermal inventory is the next useful input, not a reason to stop planning.
+The earlier **$127.38 new coat/cardigan add-on and $224.94 scenario** are superseded as the preferred buying route, not money saved from an actual order. The **$500 total costume ceiling is unchanged**. Next useful check: jacket color/lining and a try-on over the intended thin layers; don't assume these from ownership alone. No purchase, refund or cancellation occurred.

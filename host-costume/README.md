@@ -5,7 +5,7 @@ Status: Active planning and urgent sourcing. Antler King remains the October 31 
 
 Latest feedback: host likes the Eclipse gold body chain; keep it. Owned black jeans are now confirmed and are the first Eclipse trouser option to try. Optional gold-cuff upgrade and its delivery/NYC limitations are recorded in the current plan; no new purchase reported.
 
-**Overnight warmth:** [layering plan](07-cold-weather-layers-2026-10-21.md) covers the user's 10 p.m.–4 a.m. event and possible 4–9 a.m. afterparty. Reuse one real warm coat across both looks, with removable costume-compatible layers; owned outerwear inventory remains pending.
+**Overnight warmth:** [layering plan](07-cold-weather-layers-2026-10-21.md) covers 10 p.m.–4 a.m. and possible 4–9 a.m. afterparty. Leather jacket now confirmed owned; use it as the first styling/fit candidate for both looks. Owned black overcoat is too large for party wear; exclude it. Jacket color/lining/warmth and thin-layer fit remain unchecked; pause the earlier new-coat/bulky-cardigan proposal.
 
 ## Direction
 **October 21 visual review:** [Eclipse and compact King renders](06-weekend-costume-renders-2026-10-21.md). The host now accepts a smaller bone-look crown for City of Gods, instead of large antlers; see the [latest weekend direction](05-weekend-costumes-2026-10-21.md#latest-direction). Specific compact crown sourcing remains open.

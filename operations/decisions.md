@@ -25,6 +25,8 @@ Host accepts a smaller bone-look crown for City of Gods because large antlers wi
 
 **Overnight costume requirement, later October 21:** user reports a 10 p.m.–4 a.m. external event with possible 4–9 a.m. afterparty and asks for warm layers that suit the costumes. Use the [cold-weather layering plan](../host-costume/07-cold-weather-layers-2026-10-21.md): a real shared warm coat, removable midlayers and optional thermal base; no reliance on gauze/costume cape for warmth. These user-reported external hours do not change October 31 home-party timing. Owned outerwear inventory and exact layer selection remain open; no new purchase or afterparty reservation.
 
+**Outerwear inventory reply, October 21:** leather jacket owned, no brown coat, black overcoat owned but too large for costume/party wear. Exclude the oversized overcoat from party styling. Prefer trying the owned leather jacket with thin layers for both looks; pause the previously proposed new long coat and bulky shawl cardigan. Leather-jacket color, lining and warmth are not confirmed; no claim that it alone is sufficient through dawn. [Current layer plan](../host-costume/07-cold-weather-layers-2026-10-21.md). No purchase/refund/cancellation or budget-ceiling change.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

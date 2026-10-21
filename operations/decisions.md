@@ -41,6 +41,8 @@ Host accepts a smaller bone-look crown for City of Gods because large antlers wi
 
 **Final availability update in the same pass:** COSUCOS reload now shows **Saturday October 24**, after Friday cutoff expired. Excluded from the Friday shortlist/budget scenarios; present only TRDDYYY and Zivyes Thursday offers as current deadline choices. No order.
 
+**Latest traditional-crown request, October 21 — supersedes the two halo choices above:** host rejects TRDDYYY for weak review/purchase evidence and Zivyes for appearance; asks for a dimensional traditional crown that fits Eclipse. Permits Antler King Friday / Eclipse Saturday if needed, not a fixed assignment. [12](../host-costume/12-eclipse-round-crowns-2026-10-21.md) recommends plain SWEETV Gold $26.99/Thursday, with Feltent Retro Gold and Black $16.99/Friday as an alternative; selected offers and actual photos checked to 11211, with review/fit cautions retained. Neither requires Saturday. Black fur, gold chain and $500 ceiling unchanged; no messages/purchases. [Budget](budget.md) replaces former halo scenarios with base plus one crown, $444.31/$434.31.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

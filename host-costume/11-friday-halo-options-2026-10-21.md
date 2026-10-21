@@ -1,5 +1,7 @@
 # Friday halo options for the black fur Eclipse costume
 
+**Superseded:** user rejects TRDDYYY for review/purchase evidence and Zivyes for appearance. Neither is an active recommendation. Use [12 — traditional Eclipse crowns](12-eclipse-round-crowns-2026-10-21.md) for current options and replacement budget scenarios. The observations below are research history. User now permits Saturday Eclipse if needed.
+
 Black fur is confirmed. The halo only needs to look better than the rejected Zoestar; artisan production and all-metal construction are not requirements. These are appearance-led alternatives, not claims of premium durability. Choose one. No orders or maker messages.
 
 Checked October 21 in signed-in Chrome with Amazon destination Brooklyn 11211. **Two active options below showed Thursday October 22 delivery. COSUCOS lost its Friday cutoff on the final reload and now shows Saturday October 24, so it is excluded from the Friday shortlist.** Recheck selected buy boxes at checkout. All times America/New_York, EDT.

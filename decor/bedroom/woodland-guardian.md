@@ -11,3 +11,5 @@ Use one intact warm USB string: two LED clusters behind pale eye diffusers, rema
 DEC-03 target sits on guest-facing front-left desk fascia on separate nonmetal scenic carrier, away from speakers/controller. No targets behind bed. All-whole scenery cost belongs to decor once; NFC/markers incremental to game.
 
 Completion checks: reads from doorway, does not tip/shed with gentle incidental contact in empty room, no sharp projecting tips, no equipment heat obstruction, floor-clear cloth, nine-hour light trial and scan reach. None passed yet. [Room plan](../final-room-plan.md) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Basket](../shopping-ready.md).
+
+**Desk finish, host request October 21:** [complete velvet U-skirt, attached moss fascia, two trailing ivy strands and rug](rug-and-desk-finish-2026-10-21.md). Keep DEC-03 target visible and gear top/vents clear; reuse existing cloth/moss/ivy allocations.

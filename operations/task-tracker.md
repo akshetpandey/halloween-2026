@@ -2,7 +2,7 @@
 
 ## October 21 • decor execution status
 
-[Current plan / actual scan layout](../decor/final-room-plan.md), [single $991.98 basket](../decor/shopping-ready.md), [setup](../decor/setup-schedule.md), [handoff](../decor/handoff-2026-10-21-detailed-decor.md) supersede old decor quantities/deadlines below. Host ceiling $1,000 includes permanent lights. Plans/visuals/sourcing complete; no purchases/physical tests.
+[Current plan / actual scan layout](../decor/final-room-plan.md), [single $996.36 basket](../decor/shopping-ready.md), [setup](../decor/setup-schedule.md), [handoff](../decor/handoff-2026-10-21-detailed-decor.md) supersede old decor quantities/deadlines below. Host ceiling $1,000 includes permanent lights. Plans/visuals/sourcing complete; no purchases/physical tests.
 
 | Task | Current status / next action | Target |
 |---|---|---|
@@ -12,7 +12,7 @@
 | LIGHT-LR / LIGHT-BED / BATH-08 | Budget two-PAR sound mode, steady guardian eyes, permanent violet lamp and cordless bath tests documented, untested | Receipt / trials Oct 24–27; nine-hour elapsed run |
 | BED-01 / PROP-01 | Upright corner accepted for plan; support still unresolved. Independent 3–5-hour guardian bust or flat-face fallback | Resolve before moving bed |
 | SHOP-04 / BUY-01 | Host verifies actual delivered totals/stock/arrival and orders; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
-| SET-03 | Full-wall fabric, broad counter moss, vines, scenery + after-dark route/game reach/light rehearsal | 24–32 hands-on h across 3–4 days; complete Oct 30 |
+| SET-03 | Full-wall fabric, broad counter moss, rug/grip trial, velvet/moss/vine desk + after-dark route/game reach/light rehearsal | 25–33 hands-on h across 3–4 days; complete Oct 30 |
 
 **September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.

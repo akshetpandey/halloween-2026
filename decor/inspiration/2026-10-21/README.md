@@ -16,7 +16,7 @@ Use: moss-covered counters, low seating circle, hanging ivy, pumpkins, stone tex
 
 ![The Hollow](hollow-concept.png)
 
-Use: plush black fabric covering all walls, glowing guardian eyes, automated desk and compact speakers in the rear-right corner. Buy two PAR fixtures; the image depicts extra light sources and a different rug. Keep fabric hems above the floor rather than reproducing the illustrated pooling. No rug purchase is planned. Bed storage is concealed behind the guardian; support must be resolved before physical setup.
+Use: plush black fabric covering all walls, glowing guardian eyes, automated desk and compact speakers in the rear-right corner. Buy two PAR fixtures; the image depicts extra light sources and a different rug. Keep fabric hems above the floor rather than reproducing the illustrated pooling. **Later host approval:** rug and moss/vine/velvet desk finish now explicitly requested. [Measured fit, product and build allocation](../../bedroom/rug-and-desk-finish-2026-10-21.md) govern the actual 5 × 7-ft rug; the illustrated pattern is a style reference, not the sourced item. Bed storage is concealed behind the guardian; support must be resolved before physical setup.
 
 ## Material board
 

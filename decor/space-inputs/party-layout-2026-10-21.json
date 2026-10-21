@@ -86,6 +86,27 @@
         0.7493
       ]
     },
+    "rug": {
+      "min_xy": [
+        0.9,
+        0.5
+      ],
+      "size_xy": [
+        1.524,
+        2.1336
+      ],
+      "nominal_size_ft": [
+        5,
+        7
+      ],
+      "floor_status": "actual substrate/grip and door swing untested"
+    },
+    "desk_finish": {
+      "front_and_sides": "black velvet offcut U-skirt",
+      "moss_sqft_reserved": 2,
+      "ivy_strands_7ft": 2,
+      "equipment_top": "clear"
+    },
     "guardian": {
       "size_xy": [
         1,

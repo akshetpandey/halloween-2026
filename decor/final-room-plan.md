@@ -30,9 +30,9 @@ Cutaways use the same scan geometry and host dimensions. Walls are lowered selec
 
 Lay moss on removable wipeable underlayers. Set clean washable trays/risers into the moss for drinks, cups and food; no food/ice contacts moss. Place cups at the approach end, drinks on the long counter and water at its far accessible end. Test filling a cup while another person passes. No countertop scenery dangles into walking space.
 
-**Vines:** one 12-strand / 84-ft green ivy pack. Allocate eight strands (~56 ft) to selected window heads/wall tops and cabinet edges, two (~14 ft) trailing down fixed scenic ends, one (~7 ft) shrine and one spare. This is a high perimeter treatment, not a dense ceiling canopy. Use separate compatible low-load clips; no real wood suspended overhead.
+**Vines:** one 12-strand / 84-ft pack shared between rooms. Grove receives ten: eight strands (~56 ft) on selected window heads/wall tops/cabinet edges, one (~7 ft) trailing accent and one (~7 ft) shrine. Two strands (~14 ft) dress the Hollow desk. This is a high perimeter treatment, not a dense ceiling canopy. Use separate compatible low-load clips; no real wood suspended overhead.
 
-**Wood/stone/harvest:** one purchased 63-in faux branch on the shrine cabinet with its own support; recycled-card silhouettes add breadth. Five small pumpkins/gourds across shrine/counters/low-table centerpiece. Make three lightweight faux stones from crumpled packaging/card, charcoal paint and dry-brushed bone, rather than buying heavy rocks. Add a few attached rust paper leaves from craft offcuts. A very low central moss/stone ring leaves most coffee-table area usable.
+**Wood/stone/harvest:** card/kraft branch silhouettes on independent supports at the shrine cabinet; the purchased 63-in branch is removed to fund the bedroom rug. Five small pumpkins/gourds across shrine/counters/low-table centerpiece. Make three lightweight faux stones from crumpled packaging/card, charcoal paint and dry-brushed bone, rather than buying heavy rocks. Add a few attached rust paper leaves from craft offcuts. A very low central moss/stone ring leaves most coffee-table area usable.
 
 **Moon and purple:** choose a **24-in handmade light-backed moon disk** on the existing right-side Grove cabinet/wall area, not the $89.99 six-pound sconce. Reused card + thin bone-colored paper/crater paint; one H12 warm USB string retained intact behind/in a shallow vented disk frame. Do not cut/shorten electrical strings or pack them tightly against heat-sensitive material. Test brightness/temperature and sturdy support; if backlighting fails, use an opaque painted disk lit from an existing practical. It remains DEC-01 with a separate reachable target.
 
@@ -45,6 +45,10 @@ Store bed upright on its long edge against the rear closet wall, shifted right; 
 The scan-based study estimates ~120.6 sq ft inside walls, ~98.3 sq ft unoccupied including circulation and **~54.5 sq ft front dance area** after a ~33.5-in side-route allowance. **5–6 comfortable; 7–8 lively; 9–10 snug** is a planning judgment, not an occupancy approval. Corner grouping consolidates side pockets; it does not make all remaining floor danceable.
 
 Bed support, actual leg removal and closet access remain physical setup dependencies. The model uses the requested depth without claiming a restraint design. Guardian never supports or stabilizes the bed. If stable storage cannot be established, a covered flat bed is the fallback, with the earlier study's roughly 27 sq ft front area; do not advertise the upright-layout capacity for that fallback.
+
+### Rug and fully dressed desk
+
+Host approved the Hollow mood image as the material direction and requested a rug plus moss/vines/black cloth over the desk. [Exact rug offer, measured fit and desk cut/allocation plan](bedroom/rug-and-desk-finish-2026-10-21.md): one charcoal distressed **5 × 7-ft low-pile rug** on the front floor, clear of the reserved side route, with a $15 conditional grip reserve. Desk front and both sides get a full floor-clear black velvet U-skirt, ~2 sq ft attached moss on the fascia, and two existing ivy strands. Keep equipment top/vents/speaker fronts clear. The rug does not increase capacity; actual traction, edges and door swing need testing.
 
 ### Every wall is black raw fabric
 
@@ -60,7 +64,7 @@ Steady amber eyes: use the second H12 warm string, intact, with two clusters beh
 
 ## Moon Well
 
-Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded second black tablecloth in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
+Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded/overlapped black velvet offcuts in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
 
 Separate cordless warm lamp on a stable dry shelf lights sink/lock/route. Charge both bath lamps outside room and test at selected brightness for nine elapsed hours; advertised runtime is not a passed test. No charging/mains leads in tub. If runtime fails, retain normal usable light; orb can remain a reflective prop. Remove scenery before bathing.
 
@@ -92,10 +96,10 @@ All fifteen get distinct reachable nonmetal touchpoints. No targets behind bed, 
 
 ## Shared supplies, checks and completion
 
-Two USB strings: one Grove moon, one guardian. Twelve tea lights: six Grove, four bath, two spare. Two black tablecloths: desk front and dry tub. One 84-ft ivy pack Grove; separate 10-ft vine bath. Three moss sheets first cover actual counters, then small offcuts for guardian/shrine/bath; if template waste exhausts material, preserve counters and use painted texture on small props.
+Two USB strings: one Grove moon, one guardian. Twelve tea lights: six Grove, four bath, two spare. Velvet offcuts: full desk front/sides and dry-tub scene base; no separate tablecloth pack. One 84-ft ivy pack: 70 ft Grove, 14 ft desk; separate 10-ft vine bath. Three moss sheets first cover actual counters, then reserve ~2 sq ft desk fascia, followed by other small guardian/shrine/bath offcuts; if template waste exhausts material, preserve counters and use painted texture on small props.
 
 Start with two 15-ft H19 power supplies: Grove's new lamp + moon at one position; bedroom two PARs + guardian USB at another. Owned tree and existing audio/TV retain their existing supplies. If outlet distances require a third unit, fund it from buffer after re-costing, or move the light. Each supply goes directly to suitable wall outlet; no daisy chain or floor-crossing assumption. Read actual loads/ratings, secure leads at perimeter, preserve switch access.
 
 Before setup: one tape wall scale check; actual fabric drop/substrate/24-hour trial; bed support; desk equipment templates; nightstand/closet fit; cabinet relocation; outlet/cable map; tub/shelf fit. After setup: after-dark cup-carrying route, chair access, three-person dance/door trial, music-reactive/reset trial, nine-hour light/battery test, NFC reach/scan rehearsal. Nothing on this physical checklist is claimed tested.
 
-If cost/time grows, keep all-wall fabric, open floor and working lights. Simplify card-built guardian detail, omit purchased branch/pendants or reduce pumpkins before changing the host's full-wall request. No whole-floor moss, new drape rig or premium light show is silently included.
+If cost/time grows, keep all-wall fabric, open floor and working lights. Simplify card-built guardian detail, the purchased branch is already replaced by card; omit optional pendants or reduce pumpkins before changing the host's full-wall request. No whole-floor moss, new drape rig or premium light show is silently included.

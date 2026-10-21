@@ -4,6 +4,6 @@
 
 October 21 accepted corner arrangement: upright bed at 15-in stored depth, independent guardian, automated 49 × 29.5-in desk, two speakers on desk, no human DJ. ~54.5 sq ft front dance study; actual bed support/fit unverified. All walls/windows in **raw black velvet**, no ready-made curtains.
 
-[Draping/cut plan](draping/02-shopping-and-sample.md) · [Rootkeeper](woodland-guardian.md) · [Budget club lights](../lighting/02-bedroom-party.md) · [Basket](../shopping-ready.md) · [Setup](../setup-schedule.md).
+[Rug + moss/velvet desk](rug-and-desk-finish-2026-10-21.md) · [Draping/cut plan](draping/02-shopping-and-sample.md) · [Rootkeeper](woodland-guardian.md) · [Budget club lights](../lighting/02-bedroom-party.md) · [Basket](../shopping-ready.md) · [Setup](../setup-schedule.md).
 
 Original [scan analysis/workbench](../space-inputs/scan-review-2026-10-21.md) remains useful for comparisons; its initial default is not the current accepted corner placement. No purchase, mount or light test completed.

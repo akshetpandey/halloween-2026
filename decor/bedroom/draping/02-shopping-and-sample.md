@@ -26,7 +26,7 @@ Use minimum **58-in usable width**, **12 drops × 3.25 yd = 39 yd**, plus **1 yd
 | Door head | Last 1 yd, cross-cut after actual head height | Shallow valance over opening; entry itself clear | 2 |
 | **Total** | **40 yd** | **15 full-height pieces + one valance** | **40 planned + 2 spare** |
 
-Keep substantial full-height width offcuts for stored-bed concealment and guardian shoulders; they are not discarded or a second fabric order. These are estimated cuts; tape-check each run/drop and support interval. Do not glue closet-access panels shut.
+Keep substantial full-height width offcuts for stored-bed concealment, the [complete desk U-skirt](../rug-and-desk-finish-2026-10-21.md), dry-tub base and guardian shoulders; they are not discarded or a second fabric order. These are estimated cuts; tape-check each run/drop and support interval. Do not glue closet-access panels shut.
 
 ## Supports
 

@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-21",
+  "status": "scan-derived estimates; no tape measurement supplied",
+  "source_sha256": "11f62df6f940c3e3ad5f7cb7491b4b37390114324f2746e3b0d6d8b1ce539bbd",
+  "units": "metres",
+  "coordinate_system": "GLB +Y up; plan X horizontal, Z downward; orientation matches supplied screenshot, not compass north",
+  "method": "top floor triangles; walls cut at Y=1.2m; bedroom usable shell inset 0.05m from floor boundary to inner faces of model 0.10m walls; furniture axis-aligned bounding boxes",
+  "room_labels": {
+    "Floor_Other_1": "Entrance vestibule; coat closet to right (host-confirmed)",
+    "Floor_Other_2": "Small closet (host-confirmed)",
+    "Floor_Living_Room+Floor_Dining_Room+Floor_Kitchen": "October Grove, one open area (host-confirmed)",
+    "Floor_Bedroom": "Techno dungeon / The Hollow (host-confirmed)"
+  },
+  "floor_areas_m2": {
+    "Floor_Bedroom": 11.9079,
+    "Floor_Other_1": 4.3843,
+    "Floor_Kitchen": 10.915,
+    "Floor_Bathroom": 4.9898,
+    "Floor_Other_2": 0.6263,
+    "Floor_Living_Room": 7.7143,
+    "Floor_Dining_Room": 10.2021
+  },
+  "bedroom_inner_polygon_xz_m": [
+    [
+      4.652200000000001,
+      -2.9725
+    ],
+    [
+      5.0017000000000005,
+      -2.9725
+    ],
+    [
+      5.0017000000000005,
+      -2.2576
+    ],
+    [
+      5.257000000000001,
+      -2.2576
+    ],
+    [
+      5.257000000000001,
+      0.7505999999999999
+    ],
+    [
+      2.4625,
+      0.7505999999999999
+    ],
+    [
+      2.4625,
+      -3.4199
+    ],
+    [
+      4.652200000000001,
+      -3.4199
+    ]
+  ],
+  "bedroom_inner_area_m2": 11.2014,
+  "bedroom_inner_bounds_m": [
+    2.4625,
+    -3.4199,
+    5.257000000000001,
+    0.7505999999999999
+  ],
+  "objects": {
+    "Door_0": {
+      "bbox_min_xyz_m": [
+        -5.0929,
+        -0.0,
+        3.4705
+      ],
+      "bbox_max_xyz_m": [
+        -4.1808,
+        2.4749,
+        3.4705
+      ],
+      "size_xyz_m": [
+        0.9121,
+        2.4749,
+        0.0
+      ]
+    },
+    "Door_1": {
+      "bbox_min_xyz_m": [
+        2.7804,
+        -0.0,
+        0.7996
+      ],
+      "bbox_max_xyz_m": [
+        3.5288,
+        2.5045,
+        0.7996
+      ],
+      "size_xyz_m": [
+        0.7484,
+        2.5045,
+        0.0
+      ]
+    },
+    "Door_2": {
+      "bbox_min_xyz_m": [
+        4.192,
+        -0.0,
+        0.7996
+      ],
+      "bbox_max_xyz_m": [
+        4.9184,
+        2.4823,
+        0.7996
+      ],
+      "size_xyz_m": [
+        0.7264,
+        2.4823,
+        0.0
+      ]
+    },
+    "Door_3": {
+      "bbox_min_xyz_m": [
+        -3.7196,
+        -0.0,
+        1.66
+      ],
+      "bbox_max_xyz_m": [
+        -3.7196,
+        2.5193,
+        2.8879
+      ],
+      "size_xyz_m": [
+        0.0,
+        2.5193,
+        1.2279
+      ]
+    },
+    "Door_4": {
+      "bbox_min_xyz_m": [
+        2.4135,
+        -0.0,
+        -3.2007
+      ],
+      "bbox_max_xyz_m": [
+        2.4135,
+        2.534,
+        -2.3515
+      ],
+      "size_xyz_m": [
+        0.0,
+        2.534,
+        0.8491
+      ]
+    },
+    "Door_5": {
+      "bbox_min_xyz_m": [
+        -0.4332,
+        -0.0,
+        -1.0686
+      ],
+      "bbox_max_xyz_m": [
+        0.3055,
+        2.4454,
+        -1.0686
+      ],
+      "size_xyz_m": [
+        0.7387,
+        2.4454,
+        0.0
+      ]
+    },
+    "Door_6": {
+      "bbox_min_xyz_m": [
+        1.4193,
+        -0.0,
+        -1.0686
+      ],
+      "bbox_max_xyz_m": [
+        2.2824,
+        2.5119,
+        -1.0686
+      ],
+      "size_xyz_m": [
+        0.8631,
+        2.5119,
+        0.0
+      ]
+    },
+    "bathtub_0": {
+      "bbox_min_xyz_m": [
+        0.6015,
+        0.018,
+        0.618
+      ],
+      "bbox_max_xyz_m": [
+        2.1591,
+        0.5119,
+        1.4261
+      ],
+      "size_xyz_m": [
+        1.5576,
+        0.494,
+        0.8082
+      ]
+    },
+    "table_dining_rect_0": {
+      "bbox_min_xyz_m": [
+        -4.7753,
+        0.018,
+        -3.0087
+      ],
+      "bbox_max_xyz_m": [
+        -4.0308,
+        0.4247,
+        -1.8478
+      ],
+      "size_xyz_m": [
+        0.7446,
+        0.4068,
+        1.1609
+      ]
+    },
+    "table_other_rect_0": {
+      "bbox_min_xyz_m": [
+        2.4125,
+        0.018,
+        -2.3687
+      ],
+      "bbox_max_xyz_m": [
+        2.8468,
+        0.7273,
+        -1.9102
+      ],
+      "size_xyz_m": [
+        0.4343,
+        0.7093,
+        0.4585
+      ]
+    },
+    "sofa_rect_0": {
+      "bbox_min_xyz_m": [
+        -3.7559,
+        0.018,
+        -3.4199
+      ],
+      "bbox_max_xyz_m": [
+        -2.695,
+        0.7972,
+        -1.1265
+      ],
+      "size_xyz_m": [
+        1.0609,
+        0.7792,
+        2.2934
+      ]
+    },
+    "table_dining_rect_1": {
+      "bbox_min_xyz_m": [
+        -2.479,
+        0.018,
+        -3.1358
+      ],
+      "bbox_max_xyz_m": [
+        -1.6245,
+        0.7944,
+        -1.7481
+      ],
+      "size_xyz_m": [
+        0.8545,
+        0.7765,
+        1.3877
+      ]
+    },
+    "bed_0": {
+      "bbox_min_xyz_m": [
+        2.4125,
+        0.018,
+        -1.8801
+      ],
+      "bbox_max_xyz_m": [
+        4.6016,
+        0.6136,
+        -0.198
+      ],
+      "size_xyz_m": [
+        2.1891,
+        0.5956,
+        1.6821
+      ]
+    }
+  },
+  "windows": [
+    {
+      "id": "W1",
+      "source_node": "Window_0",
+      "width_m": 1.8135,
+      "height_m": 2.118,
+      "bottom_y_m": 0.6974,
+      "top_y_m": 2.8155,
+      "center_xz_m": [
+        -3.6588265895843506,
+        -3.4689230918884277
+      ]
+    },
+    {
+      "id": "W2",
+      "source_node": "Window_1",
+      "width_m": 1.7962,
+      "height_m": 2.1528,
+      "bottom_y_m": 0.6454,
+      "top_y_m": 2.7981,
+      "center_xz_m": [
+        -1.3533756732940674,
+        -3.4689230918884277
+      ]
+    },
+    {
+      "id": "W3",
+      "source_node": "Window_2",
+      "width_m": 1.8653,
+      "height_m": 2.0312,
+      "bottom_y_m": 0.8016,
+      "top_y_m": 2.8328,
+      "center_xz_m": [
+        1.414865493774414,
+        -3.4689230918884277
+      ]
+    },
+    {
+      "id": "W4",
+      "source_node": "Window_3",
+      "width_m": 2.0285,
+      "height_m": 2.1203,
+      "bottom_y_m": 0.7388,
+      "top_y_m": 2.8591,
+      "center_xz_m": [
+        3.622934341430664,
+        -3.4689230918884277
+      ]
+    },
+    {
+      "id": "W5",
+      "source_node": "Window_4",
+      "width_m": 1.843,
+      "height_m": 2.1048,
+      "bottom_y_m": 0.6311,
+      "top_y_m": 2.736,
+      "center_xz_m": [
+        -5.30523681640625,
+        -0.34097471833229065
+      ]
+    },
+    {
+      "id": "W6",
+      "source_node": "Window_5",
+      "width_m": 2.6576,
+      "height_m": 2.0994,
+      "bottom_y_m": 0.7536,
+      "top_y_m": 2.853,
+      "center_xz_m": [
+        5.306029796600342,
+        -0.7931363582611084
+      ]
+    },
+    {
+      "id": "W7",
+      "source_node": "Window_6",
+      "width_m": 1.939,
+      "height_m": 2.0255,
+      "bottom_y_m": 0.6575,
+      "top_y_m": 2.683,
+      "center_xz_m": [
+        -5.30523681640625,
+        2.4329123497009277
+      ]
+    }
+  ],
+  "host_inputs_2026_10_21": {
+    "desk_width_in": 49,
+    "desk_depth_in": 29.5,
+    "stored_bed_depth_in": 15,
+    "bed_depth_basis": "Host asks to assume legs removed, or flipped / concealed by guardian. Support unresolved.",
+    "human_dj": false,
+    "speakers": "Two small speakers directly on desk",
+    "guardian_support_allowance_m": [
+      1.0,
+      0.3
+    ],
+    "side_route_allowance_m": 0.85,
+    "nightstand_and_low_cabinet": "Relocated elsewhere inside apartment; destinations unverified",
+    "study_results_approx_sqft": {
+      "unoccupied_including_circulation": 98,
+      "front_dance_area_excluding_route": 54,
+      "flat_bed_same_booth_unoccupied": 68,
+      "flat_bed_same_booth_front_dance_area": 27
+    }
+  }
+}

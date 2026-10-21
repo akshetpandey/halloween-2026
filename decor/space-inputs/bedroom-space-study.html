@@ -1,0 +1,158 @@
+<div id="hollow-space-study">
+  <h3>Bedroom space study</h3>
+  <div class="viz-controls">
+    <label class="form-label">Bed at closet wall
+      <select class="form-select" data-field="mode"><option value="upright">Upright footprint proposal</option><option value="flat">Flat bed, same booth arrangement</option></select>
+    </label>
+    <label class="form-label">Stored bed depth: <span data-value="bedDepth"></span> in
+      <input class="form-range" data-field="bedDepth" aria-label="Stored bed depth in inches" type="range" min="10" max="30" step="0.5" value="15">
+    </label>
+    <label class="form-label">Desk width × depth, inches
+      <span class="viz-row"><input class="form-control" data-field="deskWidth" aria-label="Desk width in inches" type="number" min="36" max="72" step="0.5" value="49"><span>×</span><input class="form-control" data-field="deskDepth" aria-label="Desk depth in inches" type="number" min="20" max="36" step="0.5" value="29.5"></span>
+    </label>
+  </div>
+  <div class="viz-grid" aria-live="polite">
+    <div class="card viz-stat"><span>Unoccupied floor</span><div class="viz-stat-value tabular-nums" data-result="free"></div><span class="text-small">Includes circulation; speakers sit on the automated desk</span></div>
+    <div class="card viz-stat"><span>Front dance study</span><div class="viz-stat-value tabular-nums" data-result="dance"></div><span class="text-small">Ahead of desk; entry and side access excluded</span></div>
+  </div>
+  <div data-map></div>
+  <div class="viz-controls">
+    <label class="form-label">Move block — or drag it
+      <select class="form-select" data-field="selected"><option value="booth">Automated desk + guardian</option><option value="bed">Bed</option></select>
+    </label>
+    <label class="form-label">Left edge, inches<input class="form-control" data-field="left" aria-label="Selected block left edge in inches" type="number" step="1"></label>
+    <label class="form-label">Top edge, inches<input class="form-control" data-field="top" aria-label="Selected block top edge in inches" type="number" step="1"></label>
+  </div>
+  <div class="text-small" data-status aria-live="polite"></div>
+  <div class="text-small text-muted">Scan estimate · Host: 15-in bed depth, 49 × 29.5-in desk · Upright support unresolved · Closet access blocked by bed · Nightstand and low cabinet relocated within apartment</div>
+</div>
+<style>
+#hollow-space-study { color: var(--foreground); }
+#hollow-space-study [data-map] { width: 100%; margin: 12px 0; }
+#hollow-space-study svg { display: block; width: 100%; touch-action: none; }
+#hollow-space-study svg text { font-family: inherit; font-size: var(--font-size-base); fill: var(--foreground); font-weight: 400; }
+#hollow-space-study .room { fill: var(--muted); fill-opacity: .25; stroke: var(--foreground); stroke-width: 1.5; }
+#hollow-space-study .object { fill: var(--viz-series-2); fill-opacity: .2; stroke: var(--border); stroke-width: 1; }
+#hollow-space-study .booth { fill: var(--viz-series-3); fill-opacity: .2; }
+#hollow-space-study .standing { fill: var(--muted); fill-opacity: .7; stroke: var(--muted-foreground); stroke-dasharray: 4 4; stroke-width: 1; }
+#hollow-space-study .route { fill: var(--muted); fill-opacity: .7; }
+#hollow-space-study .dance { fill: var(--viz-series-1); fill-opacity: .16; }
+#hollow-space-study .structure { stroke: var(--muted-foreground); stroke-width: 1; fill: none; }
+#hollow-space-study .door { stroke: var(--orange); stroke-width: 2; stroke-dasharray: 4 4; }
+#hollow-space-study .drag-block { cursor: grab; }
+#hollow-space-study .drag-block:active { cursor: grabbing; }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('hollow-space-study');
+  const inch = .0254, sqft = 10.7639104167;
+  const polygon = [[0,0],[2.1897,0],[2.1897,.4474],[2.5392,.4474],[2.5392,1.1623],[2.7945,1.1623],[2.7945,4.1705],[0,4.1705]];
+  const roomWidth = 2.7945, roomDepth = 4.1705;
+  const defaults = {mode:'upright',bedDepth:15,deskWidth:49,deskDepth:29.5,selected:'booth',positions:{}};
+  let state = {...defaults, positions:{}}, parts = [], groups = {}, scale = 100, offsetX = 40, offsetY = 40, drag = null;
+  const field = key => root.querySelector(`[data-field="${key}"]`);
+  const inside = (x,y) => {
+    let yes = false;
+    for (let i=0,j=polygon.length-1;i<polygon.length;j=i++) {
+      const [a,b]=polygon[i], [c,d]=polygon[j];
+      if ((b>y)!=(d>y) && x<(c-a)*(y-b)/(d-b)+a) yes=!yes;
+    }
+    return yes;
+  };
+  const inRect = (x,y,r) => x>=r.x && x<r.x+r.w && y>=r.y && y<r.y+r.h;
+  function applySaved(saved) {
+    const incoming = saved?.modelContent?.hollowLayout;
+    if (!incoming || incoming.version!==3) return;
+    state={...defaults,...incoming,positions:incoming.positions||{}};
+    if (!['upright','flat'].includes(state.mode)) state.mode='upright';
+    for (const [key,min,max] of [['bedDepth',10,30],['deskWidth',36,72],['deskDepth',20,36]]) {
+      state[key]=Math.min(max,Math.max(min,Number(state[key])||defaults[key]));
+    }
+    if (!['booth','bed'].includes(state.selected)) state.selected='booth';
+  }
+  function persist() {
+    if (window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{hollowLayout:{...state,version:3,assumptions:'scan shell; host-provided 15-in stored bed depth and 49x29.5-in desk; guardian 1.0x0.30m; automated desk, no standing DJ; speakers on desk; route 0.85m'}},privateContent:null}).catch(()=>{});
+  }
+  function geometry() {
+    const bedDepth=state.mode==='flat'?1.6821:state.bedDepth*inch;
+    const deskW=state.deskWidth*inch, deskD=state.deskDepth*inch;
+    const bedY=roomDepth-bedDepth, guardianY=bedY-.30, deskY=guardianY-deskD;
+    groups={bed:{x:(roomWidth-2.1891)/2,y:bedY},booth:{x:.90,y:deskY}};
+    for (const key of Object.keys(groups)) {
+      const p=state.positions[key];
+      if (p && Number.isFinite(p.x) && Number.isFinite(p.y)) groups[key]={x:p.x,y:p.y};
+    }
+    parts=[
+      {...groups.bed,w:2.1891,h:bedDepth,name:state.mode==='upright'?'Upright bed':'Flat bed',group:'bed',kind:'object'},
+      {...groups.booth,w:deskW,h:deskD,name:'Desk',group:'booth',kind:'object booth'},
+      {x:groups.booth.x+(deskW-1)/2,y:groups.booth.y+deskD,w:1,h:.30,name:'Guardian',group:'booth',kind:'object booth'}
+    ];
+    return {deskY:groups.booth.y,route:{x:0,y:.2192,w:.85,h:Math.max(.95,groups.booth.y+deskD-.2192)}};
+  }
+  function calculate(g) {
+    const step=.01; let free=0,dance=0;
+    for(let y=step/2;y<roomDepth;y+=step) for(let x=step/2;x<roomWidth;x+=step) {
+      if (!inside(x,y) || parts.some(r=>inRect(x,y,r))) continue;
+      free+=step*step;
+      if (y<g.deskY && !inRect(x,y,g.route)) dance+=step*step;
+    }
+    return {free,dance};
+  }
+  const pt=(x,y)=>`${offsetX+x*scale},${offsetY+y*scale}`;
+  function rect(r,klass,extra='') { return `<rect class="${klass}" x="${offsetX+r.x*scale}" y="${offsetY+r.y*scale}" width="${r.w*scale}" height="${r.h*scale}" ${extra}/>`; }
+  function label(r,text) { return `<text x="${offsetX+(r.x+r.w/2)*scale}" y="${offsetY+(r.y+r.h/2)*scale}" text-anchor="middle" dominant-baseline="central">${text}</text>`; }
+  function render() {
+    const g=geometry(), stats=calculate(g);
+    ['mode','bedDepth','deskWidth','deskDepth','selected'].forEach(k=>{if(document.activeElement!==field(k))field(k).value=state[k];});
+    root.querySelector('[data-value="bedDepth"]').textContent=state.bedDepth.toFixed(1);
+    field('bedDepth').disabled=state.mode==='flat';
+    const p=groups[state.selected]; if(document.activeElement!==field('left'))field('left').value=(p.x/inch).toFixed(1);if(document.activeElement!==field('top'))field('top').value=(p.y/inch).toFixed(1);
+    root.querySelector('[data-result="free"]').textContent=`~${Math.round(stats.free*sqft)} sq ft`;
+    root.querySelector('[data-result="dance"]').textContent=`~${Math.round(stats.dance*sqft)} sq ft`;
+    const map=root.querySelector('[data-map]'), width=Math.max(280,map.clientWidth);
+    scale=(Math.min(width,470)-76)/roomWidth;offsetX=(width-roomWidth*scale)/2;offsetY=42;
+    const height=roomDepth*scale+90, outline=polygon.map(p=>pt(...p)).join(' ');
+    let html=`<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Scaled bedroom plan. Bed against bottom closet wall; guardian and automated desk in front. Speakers on desk, no human DJ. Drag blocks or use position inputs."><defs><clipPath id="hollow-room-clip"><polygon points="${outline}"/></clipPath></defs><polygon class="room" points="${outline}"/><g clip-path="url(#hollow-room-clip)">${rect({x:0,y:0,w:roomWidth,h:Math.max(0,g.deskY)},'dance')}${rect(g.route,'route')}</g>`;
+    html+=`<text x="${width/2}" y="18" text-anchor="middle">~9′2″ maximum inside width</text>`;
+    html+=`<line class="door" x1="${offsetX}" y1="${offsetY+.2192*scale}" x2="${offsetX}" y2="${offsetY+1.0684*scale}"/><text x="${offsetX+10}" y="${offsetY+.15*scale}">Entry</text>`;
+    html+=`<text x="${offsetX+.2*scale}" y="${offsetY+1.28*scale}" transform="rotate(90 ${offsetX+.2*scale} ${offsetY+1.28*scale})">Route</text>`;
+    for(const r of parts) html+=`<g data-block="${r.group}" class="drag-block">${rect(r,r.kind)}${label(r,r.name)}</g>`;
+    html+=`<text x="${width/2}" y="${height-24}" text-anchor="middle">Closet wall · total room depth ~13′8″</text></svg>`;
+    map.innerHTML=html;
+    const outside=parts.some(r=>[[.001,.001],[r.w-.001,.001],[.001,r.h-.001],[r.w-.001,r.h-.001]].some(([a,b])=>!inside(r.x+a,r.y+b)));
+    let overlap=false;
+    for(let i=0;i<parts.length;i++)for(let j=i+1;j<parts.length;j++){
+      const a=parts[i],b=parts[j];if(Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x)>.005 && Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y)>.005)overlap=true;
+    }
+    const routeBlocked=parts.some(a=>Math.min(a.x+a.w,g.route.x+g.route.w)-Math.max(a.x,g.route.x)>.005 && Math.min(a.y+a.h,g.route.y+g.route.h)-Math.max(a.y,g.route.y)>.005);
+    root.querySelector('[data-status]').textContent=[outside?'A block crosses the room boundary.':'',overlap?'Blocks overlap.':'',routeBlocked?'A block occupies the reserved route.':'',`Stored bed ~${Math.round(parts[0].w*parts[0].h*sqft)} sq ft; front study excludes the shaded 0.85 m route.`].filter(Boolean).join(' ');
+    root.querySelector('[data-status]').classList.toggle('text-destructive',outside||overlap||routeBlocked);
+  }
+  for(const key of ['mode','bedDepth','deskWidth','deskDepth']) field(key).addEventListener('change',()=>{
+    const min={bedDepth:10,deskWidth:36,deskDepth:20},max={bedDepth:30,deskWidth:72,deskDepth:36};
+    state[key]=key==='mode'?field(key).value:Math.min(max[key],Math.max(min[key],Number(field(key).value)||defaults[key]));
+    state.positions={};render();persist();
+  });
+  for(const key of ['deskWidth','deskDepth'])field(key).addEventListener('input',()=>{
+    const min=key==='deskWidth'?36:20,max=key==='deskWidth'?72:36,value=Number(field(key).value);
+    if(value>=min && value<=max){state[key]=value;state.positions={};render();}
+  });
+  field('bedDepth').addEventListener('input',()=>{state.bedDepth=Number(field('bedDepth').value);state.positions={};render();});
+  field('selected').addEventListener('change',()=>{state.selected=field('selected').value;render();persist();});
+  for(const key of ['left','top']) {
+    field(key).addEventListener('input',()=>{
+      const val=Number(field(key).value);if(field(key).value.trim()==='' || !Number.isFinite(val))return;
+      state.positions[state.selected]={...groups[state.selected],[key==='left'?'x':'y']:val*inch};render();
+    });
+    field(key).addEventListener('change',persist);
+  }
+  const map=root.querySelector('[data-map]');
+  function pointer(e){const svg=map.querySelector('svg'),r=svg.getBoundingClientRect();return {x:(e.clientX-r.left-offsetX)/scale,y:(e.clientY-r.top-offsetY)/scale};}
+  map.addEventListener('pointerdown',e=>{const target=e.target.closest('[data-block]');if(!target)return;const key=target.dataset.block,p=pointer(e);drag={key,p,start:{...groups[key]}};state.selected=key;map.setPointerCapture(e.pointerId);e.preventDefault();});
+  map.addEventListener('pointermove',e=>{if(!drag)return;const p=pointer(e);state.positions[drag.key]={x:drag.start.x+p.x-drag.p.x,y:drag.start.y+p.y-drag.p.y};render();});
+  for(const type of ['pointerup','pointercancel'])map.addEventListener(type,()=>{if(!drag)return;drag=null;render();persist();});
+  applySaved(window.openai?.widgetState);render();
+  new ResizeObserver(()=>render()).observe(map);
+  window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState){applySaved(e.detail.globals.widgetState);render();}});
+})();
+</script>

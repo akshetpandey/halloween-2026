@@ -1,10 +1,10 @@
 # Three-room execution plan — provisional October 21
 
-**Planning result; room survey pending.** Host confirmed October 21: **$1,000 including permanent lights**, nothing newly ordered, one owned gold lamp/stand with full-color LIFX, furniture can move but must stay in the apartment, nightstands may move into closets, 2–4 full days available, **iPhone 16 Pro**. No dimensions, outlet map, wall finish or closet/storage fit yet. Placement is a design recipe, not a measured apartment floor plan. [Shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md) · [Capture and layout-tool guide](space-inputs/README.md).
+**Planning result; scan received, tape/mounting checks pending.** Host confirmed October 21: **$1,000 including permanent lights**, nothing newly ordered, one owned gold lamp/stand with full-color LIFX, furniture can move but must stay in the apartment, nightstands may move into closets, 2–4 full days available, **iPhone 16 Pro**. The GLB now provides estimated geometry; host supplied 49 × 29.5-in desk and 15-in stored bed depth. Outlet map, wall finish, bed support and closet/storage fit remain unresolved. [Shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md) · [Scan review and bedroom calculation](space-inputs/scan-review-2026-10-21.md).
 
-![Provisional top-down room arrangements](room-layout-provisional.png)
+![Scan-derived apartment base plan](space-inputs/apartment-base-plan-2026-10-21.png)
 
-The three diagram boxes are independent room studies, not real apartment adjacency. Door/window positions, furniture footprints and fixture locations are illustrative. Rotate/mirror the recipe around actual entry, windows, outlets and routes after photos. Diagram source: [SVG](room-layout-provisional.svg).
+The base plan shows actual scan adjacency and furniture in scanned positions, with host-corrected room uses. Dimensions remain estimates until one tape scale check. Door swings/outlets/closet interiors are not established. Source: [SVG](space-inputs/apartment-base-plan-2026-10-21.svg). The [earlier three-box diagram](room-layout-provisional.png) remains a conceptual decor reference only, superseded for apartment geometry.
 
 ## Shared design
 
@@ -26,9 +26,11 @@ Place cups, drinks and water along existing counter/surfaces after the route sur
 
 ## The Hollow / bedroom
 
+**Later October 21 host proposal:** stand the bed upright on its edge against the closet wall, guardian in front, automated desk in front of that. Use the host's **15-in stored bed depth** (assume legs removed or flipped/hidden behind guardian) and **49 × 29.5-in desk**. **No human DJ: the guardian is the pretend DJ; two small speakers sit on the desk.** The [scan-based footprint study](space-inputs/scan-review-2026-10-21.md) finds ~121 sq ft inside the room, ~98 sq ft unoccupied including circulation and ~54 sq ft in the front dance study. Nightstand/low cabinet relocation is assumed. Tabletop fit and bed construction/securement remain unresolved. This is not an approved upright-bed installation; keep the flat fallback below until support/storage is resolved.
+
 Keep the bed **flat as the provisional default**. Put a tight dark cover on it and accept the smaller dance footprint. **All furniture must stay in the apartment**; nightstands move into closets only after opening/interior dimensions and later access are checked. Disassembly is relevant only if the frame/mattress can genuinely be stored flat inside the apartment, with instructions/clear route/two helpers confirmed. No external storage is assumed. No upright tied bed or mattress forms the guardian's support.
 
-Locate the DJ table on a perimeter wall away from the entry path. Keep a side for operating controller/laptop, both speaker stands outside dancing, vents/controls open, and drinks on a separate surface. The scenic treatment starts with a roughly human-scale **card/kraft face and branch crown** on its own broad stable low support. Do not build a full articulated body. A black table front, two raven pendants, paper roots and four sheer cloth panels imply shoulders/scale. The second warm string can outline a small root/crown detail; red/amber sidelight can supply the eyes without extra electronics.
+Locate the automated playback desk away from the entry path. Both small speakers sit directly on the desk, per the host; check controller/laptop/speaker footprints, vents and wiring together. Keep occasional controls access from the side and drinks on a separate surface. The guardian is the pretend DJ, with no human standing bay reserved behind the desk. The scenic treatment starts with a roughly human-scale **card/kraft face and branch crown** on its own broad stable low support. Do not build a full articulated body. A black table front, two raven pendants, paper roots and four sheer cloth panels imply shoulders/scale. The second warm string can outline a small root/crown detail; red/amber sidelight can supply the eyes without extra electronics.
 
 First cover one DJ backdrop plus measured window runs. Use matte duvetyne for the backdrop; its manufacturer reports about 50% light blocking, so the window alternative is fitted opaque curtains or existing effective coverings. Sample panel weight, wall compatibility, clip grip and removal for 24 hours. Hooks/clips and direct tape are host-accepted approaches; the recommended prototype remains hooks/clips. H16 gaffer is not automatically a paint-safe load-bearing fabric adhesive. No room-wide fabric order precedes the survey.
 
@@ -71,19 +73,19 @@ All linear entries should be in **inches**, with a tape check of at least one wa
 
 | Input | Current source / confidence | Needed for |
 |---|---|---|
-| Each room shell, door positions/swings, usable routes | Missing / unknown | Actual annotated apartment plan; guest-flow and scene footprints |
-| Each bedroom window span + mounting-to-finish drop | Missing / unknown | H23 pairs/length, separate-run quantities |
+| Each room shell, door positions/swings, usable routes | GLB + screenshot received; host corrected entrance/Grove/closet labels. Shell/door planes estimated; swings and routes unverified | [Actual base plan](space-inputs/apartment-base-plan-2026-10-21.png); final guest-flow and scene footprints |
+| Each bedroom window span + mounting-to-finish drop | Scan W4 ~79.9 in, W6 ~104.6 in; opening heights ~83 in. Tape/mounting drop missing | H23 example two-pair 84-in choice is not confirmed; recalculate after photos/tape |
 | DJ-backdrop span + drop + top/bottom fold allowance | Missing / unknown | H22 raw yardage and panel count |
 | Wall finish, paint condition, complete panel mass, clip fit | Missing / unknown | H24/25 trial and final supports; mounting cannot be inferred from LiDAR |
 | Moon wall material, permitted fixings, outlet distance | Missing / unknown | H02 vs lightweight fallback, mounting kit/lead |
-| Bed/table/speaker footprints, nightstand/closet openings/interiors | Furniture stays inside apartment / confirmed; dimensions missing | Keep-flat dance area, closet fit; disassembly only if internal flat storage is real |
-| Tub interior, curtain rail width/drop, dry shelf footprint | Missing / unknown | H03–06/H14 fit and reachable gifts |
+| Bed/table/speaker footprints, nightstand/closet openings/interiors | Bed scan ~86.2 × 66.2 in; host supplies 15-in stored depth and 49 × 29.5-in desk. No human DJ; speakers on desk. Tabletop fit, support and storage fit unverified | Compare footprint proposal with flat fallback; no assumed securement or closet fit |
+| Tub interior, curtain rail width/drop, dry shelf footprint | Tub asset outer bounds available; actual interior/rail/shelf still unknown | H03–06/H14 fit and reachable gifts |
 | Outlets, existing cord lengths, fixture label loads | Missing / unknown | H19 count/length and final perimeter routes |
 | Existing carpet attachment/edge heights | Host says laminate + low/no-pile carpet / confirmed type, unknown edges | Preserve stable floor and transitions; no green covering order |
 | Decor inventory / ceiling / available time | Host Oct 21 / confirmed: only gold stand/color LIFX, $1,000 including permanent lights, 2–4 full days; helpers unconfirmed | One permanent Govee + bedroom kit; $973.12 example envelope; solo build plan |
-| Phone / photos or export | iPhone 16 Pro confirmed; captures pending | Polycam Floorplan supported; dimensioned views + photos + furniture list, optional GLTF ZIP |
+| Phone / photos or export | iPhone 16 Pro; GLB and top-down screenshot received/processed locally, ordinary photos pending | [Scan review / next small input packet](space-inputs/scan-review-2026-10-21.md); originals ignored in Git |
 
-Photos/scan can refine this plan whenever convenient; the shortlist and modest builds do not depend on a perfect model. Until supplied, every diagram position and large quantity stays **provisional**.
+The scan refines geometry without requiring a paid export. Decor positions and large quantities stay **provisional** until the remaining photos, tape dimensions and support trials are supplied. No repeat whole-apartment scan is needed.
 
 ## Minimum scope if time or ceiling contracts
 

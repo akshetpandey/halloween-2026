@@ -2,6 +2,12 @@
 
 Prepared October 21, 2026. Optional LiDAR capture can help us understand the apartment; ordinary photos plus a measured sketch are sufficient to start. We need positions and usable dimensions for decor decisions, not a perfect digital twin.
 
+## Scan received — October 21
+
+The supplied GLB and top-down screenshot have been processed locally. **No Business floor-plan export is needed for this planning pass.** Start with the [corrected base plan](apartment-base-plan-2026-10-21.png), [scan review and bedroom space calculation](scan-review-2026-10-21.md), and [derived measurements](scan-measurements-2026-10-21.json). The bedroom space study is shown inline in the decor chat; its [source](bedroom-space-study.html) is retained here. Original inputs remain ignored under `raw/`.
+
+Host corrected Other 1 to the main entrance / coat closet area, Other 2 to a small closet, and living/dining/kitchen to one October Grove. Bedroom is The Hollow. Model the upright-bed/guardian/automated-desk arrangement using the host's **15-in stored bed depth and 49 × 29.5-in desk**. There is no human DJ; both small speakers sit on the desk. Upright support remains unresolved. Remaining checks are one tape scale reference, tabletop fit, construction/mounting details and photos; do not repeat the whole scan. The capture instructions below are retained as reference.
+
 ## Confirmed phone and recommended workflow
 
 Host confirmed **iPhone 16 Pro** October 21. Apple lists its [LiDAR scanner](https://support.apple.com/en-us/121031), and [Polycam's supported-device list](https://learn.poly.cam/hc/en-us/articles/30299187161620-How-to-Create-Floorplan-Captures) explicitly includes it. Use **Polycam Floorplan for capture, Floorplanner for moving furniture and comparing layouts**. The capture should take a short session; do not spend a full build day perfecting it.
@@ -37,4 +43,4 @@ The new task can inspect exported geometry and use screenshots/photos to make an
 
 Place original scans and personal room photos in `decor/space-inputs/raw/` (ignored by Git). Use clear room names. Start with a small packet rather than repeated huge uploads. Share it in the new decor task or provide its local paths; no public scan-map upload is needed.
 
-Commit only the useful derived measurements, inventory and annotated plans the host wants retained. Keep private identifying details out of those exports. No scan or photos have been supplied as of this guide's creation.
+Commit only the useful derived measurements, inventory and annotated plans the host wants retained. Keep private identifying details out of those exports. October 21: the GLB and screenshot are now received; neither raw file is tracked in Git.

@@ -45,6 +45,8 @@ Quantities are packs/units unless marked yards. These IDs are shopping IDs, sepa
 
 ## Measured fabric package — replace this example
 
+**Scan received later October 21:** bedroom openings are approximately **79.9 and 104.6 in wide**, roughly 83 in high before mounting/edge allowances. The two 72-in runs / 84-in curtain length below are superseded as geometry assumptions. **Keep H22–25 on hold**; do not order those example counts/lengths. [Scan review and separate-panel calculation](space-inputs/scan-review-2026-10-21.md). No fitted-price total has been verified yet; $973.12 remains the old scale example, not a newly confirmed basket fit.
+
 The following **$191.13** is a pricing example, not an apartment measurement or an instruction to buy six panels. Example: a 7-ft DJ backdrop + **two separate 6-ft window runs**, finished drop fitting 84-inch curtains, 1.25 fullness. Neither those spans nor that drop is known. Supports remain a DIY trial, not a certified combined-load system.
 
 | ID | Exact product / variant | Example calculation | Qty | Unit USD | Line USD | Gate / delivery |

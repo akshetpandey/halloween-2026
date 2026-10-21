@@ -1,5 +1,7 @@
 # Cold-weather layers for City of Gods — October 21, 2026
 
+**Current purchase/status pointer:** host now approves the black-fur Eclipse styling and requests deeper-black loose Levi's. [09 — final buying list](09-final-weekend-shopping-2026-10-21.md) owns refreshed exact offers, priced compact crown and consolidated budget; 08 and the older offer table below are comparison history. Layering/removal guidance here remains relevant; no warmth test or purchase performed.
+
 **Confirmed user requirement:** the event is 10 p.m.–4 a.m., with a possible 4–9 a.m. afterparty. Plan outfits that look intentional with warm layers, not just an indoor photograph. These are the user's expected hours, not a newly verified afterparty listing.
 
 For October 23 and 24 nights, interpret this as 22:00–04:00 the next day, potentially continuing 04:00–09:00, all **America/New_York / EDT (UTC−04:00)**. This does not change October 31 home-party hours. No afterparty location, entry or re-entry policy established.
@@ -16,7 +18,7 @@ Weather tool checked October 21 for **Brooklyn, Kings County**, not the unrelate
 
 **Latest explicit user instruction:** we do not have to work with this jacket; find options to buy if required. **This supersedes the leather-first/pause-new-outerwear proposal.** The stripes give the owned jacket a sporting rather than celestial/woodland read; it can remain an optional travel fallback, but do not keep asking the user to solve the costume around it. Do not paint/tape/alter the leather.
 
-The [current layer-shopping shortlist](08-layer-shopping-2026-10-21.md) owns exact products, prices, size-specific delivery, local stock and budget scenarios. Preferred visual upgrade: short black faux fur framing Eclipse's gold chain/halo. Practical shared local candidate: black aviator with brown teddy-fleece collar/lining. Functional packable option: black PUFFTECH for travel/outdoor stretches, not the costume centerpiece. These are alternatives, not a three-jacket basket; none is selected or physically tested.
+The [final buying list](09-final-weekend-shopping-2026-10-21.md) owns exact products, size-specific delivery, local stock and consolidated totals. **Short black faux fur is now approved visually**, framing Eclipse's gold chain/halo. Black PUFFTECH is a proposed shared functional backup, not the costume centerpiece. Earlier H&M/long-coat alternatives are not extra purchases in that basket. No garment has been purchased or physically warmth-tested.
 
 A thin close-knit removable midlayer may help if it fits the chosen jacket; don't automatically buy the older chunky shawl cardigan. A fitted black long-sleeve base with the chain over it is the more covered Eclipse alternative. A thin cream base beneath King's shirt avoids adding outer bulk. Decorative fur, a leather-like shell and manufacturer warmth language are not evidence of personal comfort through dawn.
 
@@ -58,6 +60,6 @@ UNIQLO's indexed older black wool/cashmere Chesterfield listing showed sold out 
 
 ## Budget, not a new spending approval
 
-Current costume base including optional gold cuffs is **$97.56 before tax/finishing, plus an unpriced compact King crown**; shoes/black jeans/green trousers are reused. New outerwear is explicitly in scope for research. [Current separate buying scenarios](08-layer-shopping-2026-10-21.md#budget-scenarios--alternatives-not-one-basket) range from **$147.55 base + fur** to **$227.45 base + fur + functional backup**, before crown/tax/finishing. Thin base/gloves/hat remain unpriced and unselected. Nothing ordered or reserved.
+Use the [final consolidated budget](09-final-weekend-shopping-2026-10-21.md#4-total-and-small-supplies): **$281.46 both costumes including priced crown, new Levi's, fur and cuffs; $377.31 with shared PUFFTECH and optional gold pigment**, before tax/small supplies. New jeans replace the earlier reuse assumption; do not add separate earlier scenarios. Thin base/gloves/hat remain unselected. Nothing ordered or reserved.
 
 The earlier **$127.38 longline coat/cardigan add-on and $224.94 scenario** remain historical, not money saved from an order. The **$500 total costume ceiling is unchanged**. Next useful step: select a manageable new layer, recheck availability, collect/receive it and try the actual outfit with closure, reaching, crown removal and a brief outside comfort check. No purchase, refund or cancellation occurred.

@@ -1,6 +1,6 @@
-# Two costumes for October 23–24 • buy/pick up October 21–22
+# Earlier two-costume sourcing — superseded buying list
 
-Checked Wednesday, October 21, 2026, America/New_York. **Research/proposal only: nothing ordered, carted, reserved or purchased; no shop contacted.** User will place orders and collect items. This is the current weekend shopping plan; earlier October 7 arrival estimates are historical, not valid offers now.
+Checked Wednesday, October 21, 2026, America/New_York. **Use [09 — final weekend buying list](09-final-weekend-shopping-2026-10-21.md) for current dates, newly sourced crown, new Levi's and totals.** This file preserves earlier passes and fallback research; its “unpriced crown,” “reuse black jeans” and Thursday shirt statements are superseded. Nothing ordered, carted, reserved or purchased; no shop contacted.
 
 ## Confirmed user constraints
 

@@ -1,5 +1,7 @@
 # Buyable layers for City of Gods — October 21, 2026
 
+**Historical comparison pass.** Host subsequently approves black-fur Eclipse styling; [09 — final buying list](09-final-weekend-shopping-2026-10-21.md) owns the refreshed current offers, new Levi's/crown, shared PUFFTECH option and complete totals. Do not add the separate scenarios here to that final basket. No jacket purchased or warmth-tested.
+
 **Latest user instruction:** the owned striped jacket is optional; find alternatives to buy. This supersedes the leather-first/pause-buying proposal. Small tops, $500 total costume ceiling, October 23–24 deadline and user-managed ordering/pickup remain unchanged. Research only: no purchase, cart addition, reservation or store message.
 
 ## Shortlist and recommendation

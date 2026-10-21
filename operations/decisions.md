@@ -43,6 +43,8 @@ Host accepts a smaller bone-look crown for City of Gods because large antlers wi
 
 **Latest traditional-crown request, October 21 — supersedes the two halo choices above:** host rejects TRDDYYY for weak review/purchase evidence and Zivyes for appearance; asks for a dimensional traditional crown that fits Eclipse. Permits Antler King Friday / Eclipse Saturday if needed, not a fixed assignment. [12](../host-costume/12-eclipse-round-crowns-2026-10-21.md) recommends plain SWEETV Gold $26.99/Thursday, with Feltent Retro Gold and Black $16.99/Friday as an alternative; selected offers and actual photos checked to 11211, with review/fit cautions retained. Neither requires Saturday. Black fur, gold chain and $500 ceiling unchanged; no messages/purchases. [Budget](budget.md) replaces former halo scenarios with base plus one crown, $444.31/$434.31.
 
+**Solar correction, October 21 — current:** host rejects both royal crowns because neither fits the solar halo theme. A traditional crown must not replace radiating solar imagery with generic royal motifs. [13](../host-costume/13-solar-corona-shortlist-2026-10-21.md) supplies new COSUCOS double-arc 10 Kc Glod $16.99 and all-gold BLESSUME C $22.87, both selected Friday offers to 11211, with actual photos and variant-pooled review limitations. Neither is a full 360-degree circlet; no such deadline-cleared option verified. User choice pending; black fur/chain and optional King Friday / Eclipse Saturday unchanged. No orders/outreach. [Budget](budget.md) now base plus one solar headpiece, $434.31/$440.19, replacing rejected royal scenarios.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

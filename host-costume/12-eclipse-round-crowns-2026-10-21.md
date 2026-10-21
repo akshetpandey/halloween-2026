@@ -1,5 +1,7 @@
 # Traditional crowns for the Eclipse costume
 
+**Rejected and superseded:** user says neither royal crown fits the solar halo theme. Neither SWEETV nor Feltent is an active recommendation, and their budget scenarios are withdrawn. Use [13 — solar corona shortlist](13-solar-corona-shortlist-2026-10-21.md). The earlier assessment below is retained as rejected research, not the current design brief.
+
 The plain antique-gold SWEETV circlet is the strongest current alternative to the rejected flat halos. Its embossed sun-like centerpiece, pointed tips and full circular form suit a black-fur, gold-chain Eclipse King. This is a styling judgment, not a literal eclipse emblem or a physical quality test.
 
 User rejects TRDDYYY for weak review/purchase evidence and Zivyes for appearance. Black fur remains confirmed. A traditional crown is welcome; Antler King Friday October 23 and Eclipse Saturday October 24 is permitted if useful, not a fixed assignment. No maker messages. Same $500 total costume ceiling.

@@ -1,5 +1,7 @@
 # Host costume • The Antler King
-Status: Active planning task. Host is leaning toward an Antler Queen-inspired **Antler King**; exact build and budget remain proposals. Event: October 31, 2026, Williamsburg apartment.
+Status: Active planning and urgent sourcing. Antler King remains the October 31 host look; two costumes are also needed October 23–24. Small size and total costume ceiling confirmed; no costume purchases reported as of October 21.
+
+**Current deadline plan:** [October 23–24 two-look shopping/pickup list](05-weekend-costumes-2026-10-21.md). Exact Amazon variants, current delivery observations and Manhattan pickup stock are recorded there. Earlier October 7 shipping estimates below are historical. Eclipse God Friday / Antler King Saturday is a proposal, not a selected or purchased pair of costumes.
 
 ## Direction
 A reigning woodland king at the end of his season: the specific Yellowjackets Antler Queen crown silhouette, weathered ivory, broad draped shoulders and one oxblood accent. Current user decisions and product comparisons live in the [sourcing shortlist](03-sourcing-shortlist.md): gold metallic netting is preferred over mail; the crown remains unresolved after a broader U.S.-shipping search. The host can welcome guests and dance with the face uncovered, then lower the veil for a short ceremonial moment.
@@ -10,7 +12,7 @@ A reigning woodland king at the end of his season: the specific Yellowjackets An
 - The host needs to move through a crowded apartment, serve drinks, use the bathroom and reach music controls.
 - The crown and veil must be removable without undressing; no floor-dragging train.
 - **Confirmed October 7:** shoes already owned; owned dark-green trousers likely work, pending outfit try-on. Remove replacement shoes/trousers from the purchase proposal.
-- Original additional-spend allowance **$100–$150** was unapproved and is not a current quote for the revised crown/metal-veil direction. Current leads, price limitations and timing gates live in the sourcing shortlist; budget treatment must be resolved before purchases.
+- The original unapproved $100–$150 allowance is superseded by the [October 21 confirmed costume ceiling](../operations/budget.md). Do not treat a budget ceiling as a purchase or permission for agent checkout.
 - Treat costume costs as a separate line, provisionally inside the party’s $1,000–$3,000 ceiling until host says otherwise. No costume purchases or additional cart changes authorized by this brief.
 - This is the host’s costume folder. The succession story and website feasibility live in [interactive-story](../interactive-game/README.md).
 
@@ -18,4 +20,4 @@ A reigning woodland king at the end of his season: the specific Yellowjackets An
 The host begins as the Antler King. If the optional succession hunt runs, a winner receives a separate lightweight twig/leaf crown or medallion. The host keeps the fitted antler crown, avoiding a mid-party fit/hygiene problem. No succession mechanic goes on the invite.
 
 ## Needed from host, when convenient
-Height; usual shirt size; head circumference; existing cream shirt or wrap; preferred spend; veil coverage; willingness to use a maker or do a small mounting build. Shoes are covered and dark-green trousers are the current reuse candidate. Measurements are not needed to compare concepts, but they are needed before ordering fitted pieces.
+Shirt/jacket **Small** is confirmed October 21; shoes and dark-green trousers are covered, and nothing costume-related has been bought. Need actual fit/head measurements only where a chosen item requires them. Ready-to-wear with a quick clip/pin adaptation is the current deadline proposal, not an overseas/custom build.

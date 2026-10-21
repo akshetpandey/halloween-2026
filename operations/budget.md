@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## October 21 • confirmed host costume ceiling
+
+Host confirmed **$500 total costume budget**, with around $100 per look sensible, for two October 23–24 looks and Antler King reuse October 31. This replaces the old unapproved $100–$150 host-costume allowance; it is **not $500 per night, a selected basket or money spent**. User will order/collect; no agent checkout authorized. [Current costume list](../host-costume/05-weekend-costumes-2026-10-21.md): seven core items **$100.56 before tax**, plus **$20–$40 estimated** finishing supplies. No costume purchases reported. Do not also add $500 to the party scenario table or count reused costume pieces twice; allocation inside/outside the overall party ceiling remains unreconciled, not automatically an increase.
+
 **Current story budget scope • September 4:** The [15-entity 5/5/5 plan](../interactive-game/physical/entity-plan.md) supersedes the earlier story mixes and their estimates below. Re-cost five purchased figures, five homemade stick/straw figures and fifteen NFC targets plus spares/mounts. Reuse existing decor budgets; charge only incremental integration here. Winner crown: separate approximately **$100 host target**. Hosting/domain separate. No revised delivered total or spending commitment yet.
 Updated September 3, 2026. Host range: $1,000–$3,000 including drinks.
 **Recommended working target: $1,800**, not yet host-approved as a spending commitment.
@@ -87,8 +91,8 @@ Draft only; no supplier contacted.
 ## Cart status • September 3
 Three wood/skull items added to the real Amazon cart, subtotal **$59.93 before tax**. No checkout, payment or order; paid/committed spend remains unchanged. Absorb these into existing scenic allocations, substituting for less useful generic decor. [Cart record](shopping/CART.md).
 
-## Proposed costume and story allowances • September 3
-Host’s costume is a separate workstream: proposed $100–$150 additional spend, provisionally within the overall $1,000–$3,000 ceiling. Succession/NFC story materials: proposed $25–$50, replacing the earlier $20 paper-only allowance if selected. These are unapproved planning allowances, not orders or additions to the verified $59.93 decor cart. Confirm reuse and priority tradeoffs before committing.
+## Historical costume and story allowances • September 3
+Host’s old proposed $100–$150 costume allowance is superseded by the October 21 ceiling above. It was provisionally inside the overall $1,000–$3,000 party ceiling; no consolidated party reallocation has been approved. Succession/NFC story materials: proposed $25–$50, replacing the earlier $20 paper-only allowance if selected. These historical allowances are not orders or additions to the verified $59.93 decor cart. Confirm reuse and priority tradeoffs before committing.
 
 ## Proposed bathtub expansion • September 3
 [Moon Well proposal](../decor/bathroom/installation/README.md): $50 total bathroom decor would replace the existing $25 line, a $25 increase funded from the existing contingency if selected. Working total remains $1,800; no reallocation approved or recorded as spent. Soft ceiling $70 decor only after inventory. Chocolate approximately $23–$25 before tax/shipping belongs within the existing $180 food line, replacing the original small-sweets quantity. Favor packaging/printing $3–$8 belongs within the existing supplies line. [Product alternatives](../decor/bathroom/installation/02-sourcing.md) remain separate from the actual Amazon cart.

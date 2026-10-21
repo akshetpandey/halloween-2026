@@ -1,8 +1,12 @@
 # Antler King • sourcing shortlist
 
-Updated October 7, 2026 · Party October 31, 2026 · **Proposal only; nothing ordered, carted or reserved.**
+Updated October 21, 2026 · Party October 31, plus events October 23–24 · **Proposal only; no costume pieces ordered, carted or reserved by the agent.**
 
-## Recommendation
+## Current urgent sourcing • October 21
+
+Use the [two-look weekend plan](05-weekend-costumes-2026-10-21.md) for live-checked Amazon variants/dates and NYC pickup evidence. User confirms Small, nothing bought, shoes/trousers covered and a total costume ceiling; [shared budget](../operations/budget.md) records the ceiling. Seven listed core products total $100.56 before tax/finishing, not spent. Fast antlers are acknowledged compromises, not an exact-match discovery. Do not use the older October 7 arrival dates below for a new order.
+
+## October 7 design target and research history
 
 **Confirmed October 7:** shoes are already owned; owned dark-green trousers likely work. The host wants the saved Yellowjackets Antler Queen image as the crown target, likes the Norway roe replicas' shape, and prefers **metallic gold netting over chainmail**. The latest MudandMajesty/Fiore options are only possible fallbacks and do not look good enough to the host. Continue looking for a stronger U.S.-shipped match; no purchase or seller contact authorized.
 
@@ -10,7 +14,7 @@ Updated October 7, 2026 · Party October 31, 2026 · **Proposal only; nothing or
 
 **Crown and veil sourcing is reopened.** The following are concrete research leads, not an approved or Halloween-ready buying set. Do not order the earlier RedKraken/Mud & Majesty racks simply because they are larger. No verified ready-made exact replica was found in this pass.
 
-## Latest follow-up — broader antler search
+## October 7 follow-up — broader antler search (historical dates)
 
 The host requested a substantial listing pass before another shortlist. [Dated search audit](04-antler-search-2026-10-07.md) records individual product-page checks and photo-grid exclusions, including craft/taxidermy replicas. **No exact, ready-to-wear U.S. replacement for the Norway casts was verified.** Only two new U.S. build leads warrant closer consideration; neither is an approved crown.
 
@@ -54,7 +58,7 @@ Other visually inspected leads: TheCraftCryptShop [Antler Crown](https://www.ets
 - Florida shipment, advertised free shipping, seven-day exchanges/buyer postage. Estimate **October 16–November 9** used ZIP 50307, not Brooklyn. Need finished weight and definite party-safe arrival; no quick-release claim verified.
 - Less expensive lead checked and **not recommended as a face veil**: [Jaitue Gold Armored Chainmail Veil](https://www.etsy.com/listing/4408037312/handmade-gold-armored-chainmail-veil), $106.26. Visually it is an open-face cap with chain drops; the apparent blindfold in its picture is separate cloth, not chainmail eye coverage. Metal alloy and weight are unpublished; Türkiye shipment/no returns. Also [Josey Creates coif](https://www.joseycreates.com/shop/p/headpiece-coif), $250, states anodized aluminum and silver/grey ready to ship, but is a coif rather than a verified detachable full-face panel. Do not substitute a lower-face mask, bridal chain fringe or armor hood without a design decision.
 
-## Decision and fit gates for this revision
+## October 7 decision and fit gates (historical; see current weekend plan)
 
 1. Decide whether to commission/lightly build the crown geometry or keep strictly to ready-made stock. No seller messages sent; asking a maker is a next step requiring user authorization.
 2. If using actual mail, favor an aluminum decorative front panel with smooth closed rings and a padded independent support, not a heavy steel coif. Get actual mass, coverage dimensions, finish/alloy and mounting/removal details. "Aluminum" alone does not establish comfort; a tall full drape plus crown can still be cumbersome.

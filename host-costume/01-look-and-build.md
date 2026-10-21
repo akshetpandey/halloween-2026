@@ -1,8 +1,8 @@
 # The Antler King • build direction
-Updated October 7, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. Exact crown, veil and budget remain open.
+Updated October 21, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. Exact crown and fit remain open. [Urgent weekend plan](05-weekend-costumes-2026-10-21.md) has current shopping/delivery evidence, Small size and budget confirmation; the general silhouette below remains the October 31 target.
 
 ## Recommended silhouette
-**Weathered ivory king:** owned dark-green trousers and shoes with an oversized cream tunic/shirt; a short cape or asymmetrical shoulder mantle; natural-brown upright forked antlers matching the [Yellowjackets reference](references/README.md); a removable full-face veil using the preferred gold metallic netting direction; a dark belt and one oxblood detail. The trousers remain a likely fit rather than a tested outfit. See [current decisions and sourcing](03-sourcing-shortlist.md); no exact replacement spend cap is approved.
+**Weathered ivory king:** owned dark-green trousers and shoes with an oversized cream tunic/shirt; a short cape or asymmetrical shoulder mantle; natural-brown upright forked antlers matching the [Yellowjackets reference](references/README.md); a removable full-face veil using the preferred gold metallic netting direction; a dark belt and one oxblood detail. The trousers remain a reuse candidate rather than a tested full outfit. See [current decisions and sourcing](03-sourcing-shortlist.md). The fast weekend headpieces are acknowledged aesthetic compromises, not a final screen-accurate crown decision.
 
 The reference's key relationship is two upright, relatively narrow antler clusters framing a tall hanging mesh veil. Broad white stag fans, palmate elk antlers and ornate forehead crowns are not substitutes the host has accepted. This is a visual reading of the saved photograph, not a verified species identification or dimensional blueprint. The costume designer describes the original veil as a crocheted 1990s dress; actual metal chainmail would be an intentional reinterpretation.
 

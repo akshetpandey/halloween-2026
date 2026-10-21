@@ -3,6 +3,10 @@
 **Latest interactive decisions are recorded in the September 9 website entry below; September 4 remains the mechanics baseline.** Earlier dated succession notes remain history; use the [current design index](../interactive-game/README.md) for active requirements.
 Updated September 3, 2026. This file preserves context between sessions.
 
+## October 21 • urgent two-costume sourcing
+
+Confirmed by host: shirt/jacket **Small**, no costume pieces bought, shoes/dark-green trousers covered; two looks needed Friday October 23/Saturday October 24. Around $100 per look makes sense; **$500 total costume ceiling**, recorded in [budget](budget.md), not agent purchase permission. Prioritize Amazon within two days and NYC pickup; user will order/collect October 21–22. [Current researched plan](../host-costume/05-weekend-costumes-2026-10-21.md) proposes Eclipse God Friday and a quick Antler King Saturday/October 31, with live delivery/pickup caveats. Neither look/product basket has been explicitly selected or purchased. No change to the separate winner crown, game or party theme.
+
 ## Confirmed by host
 | ID | Decision / fact | Date |
 |---|---|---|

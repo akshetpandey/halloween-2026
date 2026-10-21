@@ -3,22 +3,22 @@
 | ID | Task | Status | Depends on |
 |---|---|---|---|
 | KING-01 | Save brief and real references | Done | Host’s Antler King direction |
-| KING-02 | Compare crown, veil and mantle purchase/build options | Sosation pale branching crown now sourced for Friday; large-fit risk | [Final list / actual-crown caveats](09-final-weekend-shopping-2026-10-21.md); specific item proposed, not purchased or the AI crown |
+| KING-02 | Compare crown, veil and mantle purchase/build options | User likes Sosation branching crown; Friday rechecked; large-fit risk | [Quality review](10-halo-and-crown-review-2026-10-21.md); possible compact October 31 reuse/tier-up, not purchased or fitted |
 | KING-03 | Confirm sizes, owned base clothes and final spend | Small top; usual waist 28–30/inseam 30–32; faded owned jeans prompt new deep-black loose Levi's | 29 × 30 black 568 pickup checked, not measured fit; [final totals](09-final-weekend-shopping-2026-10-21.md) within unchanged $500 ceiling |
 | KING-04 | Order or borrow selected pieces | To do | KING-02/03; explicit purchase instruction |
 | KING-05 | Build and fit crown/veil and short mantle | To do | Materials; unaltered crown try-on; prewash mantle before sizing |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
-| KING-08 | Assemble second City of Gods look | Host approves black-fur Eclipse; final buying list includes new jeans/cuffs | [Current exact list](09-final-weekend-shopping-2026-10-21.md); user checkout and fit test; optional pigment |
+| KING-08 | Assemble second City of Gods look | Eclipse concept approved; specific Zoestar halo rejected, replacement unresolved; black/gray choice reopened | [Quality review](10-halo-and-crown-review-2026-10-21.md); no substantiated premium Friday option; user declines rush/maker messages |
 | KING-09 | Make both looks work with overnight warm layers | Fur selected visually, shared functional PUFFTECH backup proposed | [Refreshed Small pickup stock](09-final-weekend-shopping-2026-10-21.md) and [layering strategy](07-cold-weather-layers-2026-10-21.md); actual warmth/removal still untested |
 
-Current gates October 21: user orders/pickup requests October 21–22; Thursday try received halo/chain/mesh/cuffs. **Fur, crown, Small beige shirt and gold netting now show Friday Oct 23**, requiring a Friday pre-departure check. Proposed Eclipse Friday / King Saturday; night split not separately fixed. October 31 reuse remains. No costume purchase/fitting reported; old October 18 fit target was missed.
+Current gates October 21: user orders/pickup requests October 21–22; Thursday try received chain/mesh/cuffs. **Eclipse halo unresolved after quality rejection. Fur, crown, Small beige shirt and gold netting show Friday Oct 23 in their dated checks**, requiring a Friday pre-departure check. Proposed Eclipse Friday / King Saturday; night split not separately fixed. October 31 compact crown reuse now explicitly possible. No costume purchase/fitting reported; old October 18 fit target was missed.
 
 ## Current direction • October 21, 2026
 
-- [Final two-look buying list](09-final-weekend-shopping-2026-10-21.md) supersedes earlier shopping lists/dates/totals. Sizes/variants and stock are explicit; not a checkout guarantee.
+- [Two-look buying list](09-final-weekend-shopping-2026-10-21.md) supersedes earlier shopping lists/dates/totals; **now excludes rejected halo and is incomplete**. [Latest quality review](10-halo-and-crown-review-2026-10-21.md) records no deadline-cleared premium upgrade. User explicitly declines maker outreach; no rush-dependent purchases recommended.
 - Confirmed user inventory, Small and total budget ceiling are recorded in that plan and [shared budget](../operations/budget.md). No purchases yet; user will buy/collect.
-- Antler King remains ivory/green/gold with a quick clipped veil; Sosation pale branching crown is the newly sourced deadline candidate, not an exact render match. Size/fit and final user item choice remain; October 31's larger reference target remains open.
+- Antler King remains ivory/green/gold with a quick clipped veil; user likes the actual Sosation pale branching crown, not an exact render match. Size/fit remains open. A similar compact tier-up for October 31 is now possible; bigger is not automatically preferred. Painted Craft Crypt lead misses Halloween under current estimates, so not added.
 - [Four AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are complete, now including the requested open black-fur jacket, retained gold body chain and black jeans on the original generic model. This later edit succeeded; earlier cuff-edit failures remain history. No cuffs added in the fur render; actual fit, warmth and product selection untested. Suggested cuff pair remains optional/unpurchased.
 - Current essential dates are in 09; no blanket Thursday arrival. Levi's 29 × 30 and PUFFTECH Men S have NYC pickup evidence. Abracadabra Yellow Gold pigment has NYC stock; Mood and Halloween Adventure remain unverified for the needed crown/mesh. No better premium bone crown with verified NYC pickup found.
 

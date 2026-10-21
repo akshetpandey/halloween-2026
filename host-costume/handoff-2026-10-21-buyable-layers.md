@@ -1,0 +1,16 @@
+# Buyable costume layers — handoff
+
+- Session title and ID: Antler King / Eclipse cold-weather purchase alternatives; current host-costume chat.
+- Updated date: October 21, 2026, America/New_York.
+- Scope / owned files: new `08-layer-shopping-2026-10-21.md`; host-costume README, tracker, 05/07 plans; scoped costume paragraphs in operations budget/decisions; this handoff.
+- Checkout, branch and base commit: `/Users/akshet/workspace/halloween-2026`, shared `main`, base `d8f2dc3`; no worktree/branch created.
+- Status: sourcing pass complete; user selection/order/fit and compact-crown work remain.
+- Confirmed user decisions: owned striped leather jacket is optional; buy alternatives if needed. Small tops and $500 total costume ceiling unchanged. Gold body chain retained, black jeans owned, small bone-look crown still desired. User orders/collects; no agent checkout.
+- Proposals awaiting decision: Gihuo short black fur for strongest Eclipse styling; H&M black/brown lined aviator for one local shared coat; UNIQLO black PUFFTECH as functional alternative/backup. Do not treat all as one basket.
+- Completed work and canonical file links: [size-specific offers, stores, caveats and scenario math](08-layer-shopping-2026-10-21.md); [updated overnight strategy](07-cold-weather-layers-2026-10-21.md). Removed leather-first assumption from active family/shared pointers. Product-style attachment described, not copied or treated as host identity.
+- Checks actually run and results: selected Amazon Small radio, settled buy box/date and child URL; H&M Small store-location panel and Fulton address/hours; UNIQLO Men S/Black price and five named NYC inventory results. Actual product photos inspected. Local Markdown target check passed (83 targets after fixing the checker's handling of a pre-existing conversation URI); budget anchor and all four scenario sums checked; `git diff --check` passed. No physical fitting or temperature test.
+- Purchases / external changes / deployments actually performed: none. No cart, checkout, ready pickup, hold, message, account setting, image upload or push. Read-only browser searches and product-option selections only.
+- Remaining work in priority order: user selects/receives or collects warm layer; recheck live promises; test closure/movement/jewelry snags and outdoor comfort; source compact bone-look King crown; finish both looks. Thin bases/gloves/hat unselected. Friday fur arrival leaves limited recovery time.
+- Dependencies on sibling tasks: costume budget stays within confirmed $500 ceiling; relation to overall party envelope remains unreconciled. No decor/game/winner-crown changes.
+- Unpersisted conversation details or access limitations: none material. H&M/UNIQLO dynamic controls occasionally timed out; recovered via fresh state and screenshots. Small stock—not initial default larger-size state—recorded. UNIQLO Williamsburg Small out of stock; do not infer from Medium. No Zara pickup verified.
+- Commit(s) on main and remaining unrelated dirty files: saved before final focused commit; report resulting hash in final. Unrelated untracked decor assets appeared during research (`apartment-base-plan-2026-10-21.png`, `.svg`, `scan-measurements-2026-10-21.json`, `bedroom-space-study.html`); preserve and do not stage. Recheck status before commit.

@@ -21,6 +21,8 @@ Confirmed by host: shirt/jacket **Small**, no costume pieces bought, shoes/dark-
 
 Host accepts a smaller bone-look crown for City of Gods because large antlers will be cumbersome. This supersedes the large-antler weekend purchase proposal, not the unresolved October 31 reference target. Host requested Eclipse God renders and raised concern that the original combination reads feminine; no final Eclipse styling selected. [AI outfit previews](../host-costume/06-weekend-costume-renders-2026-10-21.md) compare original chain styling, a no-chain/black-underlayer proposal and a compact King concept. The illustrated bone crown is not a sourced product. [Latest weekend direction](../host-costume/05-weekend-costumes-2026-10-21.md#latest-direction) owns detailed requirements and revised incomplete-basket math. Budget ceiling unchanged; no purchase, reservation or seller contact.
 
+**Later feedback supersedes the unresolved chain preference above:** host likes the gold body chain and says it improves Eclipse. Retain it. Host is willing to buy additional pieces and be a bit extra within the same $500 ceiling; usual trouser waist **28–30 inches**, inseam **30–32**, and **black jeans already owned**. Try black jeans for Eclipse and retain green for King as a styling recommendation, not a physical fit result. Gold cuff pair is an optional proposed upgrade with dated Amazon delivery evidence in the current weekend plan. No new trouser purchase, costume checkout, reserved pickup or external message.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

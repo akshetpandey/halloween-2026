@@ -10,13 +10,14 @@ Checked Wednesday, October 21, 2026, America/New_York. **Research/proposal only:
 
 **Confirmed by user:** use a smaller bone-look crown for City of Gods; large antlers will be cumbersome there. This replaces the large-antler weekend proposal below, not necessarily the October 31 Yellowjackets-inspired target. **Do not order the large Amazon antlers as the current City of Gods recommendation.** Specific compact crown, price and timely availability still need verification.
 
-The user requested Eclipse renders and raised concern that the original combination reads somewhat feminine. [Three outfit previews](06-weekend-costume-renders-2026-10-21.md) show the original pieces, a no-chain version with an optional opaque black under-tank, and a compact bone-crown King. These are AI illustrations on a generic male model, not exact try-ons, sourced crown photos or selected costumes. Chain omission/underlayer remain proposals; no purchase approval inferred.
+The user initially raised concern that Eclipse reads feminine, then **liked the rendered outfit and said the gold necklace makes it better**. Keep the gold body chain in the styling direction; the no-chain proposal is no longer the preferred route. The user is open to buying more and being a bit extra, within the unchanged total ceiling. [Three outfit previews](06-weekend-costume-renders-2026-10-21.md) remain illustrative, not exact try-ons or sourced crown photos. No purchase approval inferred.
 
-The earlier $100.56 seven-item subtotal is **not a current complete basket**. Removing only the $16.99 large antlers leaves **$83.57 before tax/finishing, plus an unpriced compact crown**. Omitting the $19.62 chain too leaves $63.95, plus crown and any needed underlayer. The $500 total ceiling is unchanged. Prices/dates below remain observations from the initial sourcing pass, not a new checkout verification.
+The earlier $100.56 seven-item subtotal is **not a current complete basket**. Removing only the $16.99 large antlers leaves **$83.57 before tax/finishing, plus an unpriced compact crown**. Adding the proposed $13.99 cuff pair below makes **$97.56 plus crown, tax and finishing**, with both pairs of trousers and shoes reused. The old $63.95 no-chain comparison is superseded as the preferred styling route. The $500 ceiling is unchanged. Earlier prices/dates below are from the initial sourcing pass, not reverified checkout promises.
 
 ### Previously confirmed constraints
 
 - Shirt/jacket **Small**; nothing costume-related bought yet. Shoes and dark-green trousers covered.
+- Later October 21 reply: **waist 28–30 inches, inseam 30–32 inches**, usual ranges rather than exact garment measurements. **Black jeans also owned**; try these for Eclipse before buying trousers. Their wash/cut and full-outfit fit have not been seen/tested.
 - Around $100 per look makes sense; **$500 total costume budget** available, not $500 per night. This is a ceiling, not an instruction to spend it all or authorization for agent checkout.
 - Two different looks needed for Friday October 23 and Saturday October 24; reuse Antler King one night and October 31.
 - Amazon within the next couple of days, plus NYC shops with online pickup. User will order/pick up today or tomorrow; Chrome authorized if built-in access blocked.
@@ -24,7 +25,7 @@ The earlier $100.56 seven-item subtotal is **not a current complete basket**. Re
 
 ## Recommended split
 
-**Friday: Eclipse God.** Gold sunburst halo, black mesh tank, gold body chain, owned trousers/shoes. Black trousers if already owned; dark-green trousers also work, so no additional trouser purchase assumed. This is an original styling suggestion, not an official character/theme requirement. Use an existing plain black top instead of mesh if a less sheer look is preferred.
+**Friday: Eclipse God.** Gold sunburst halo, black mesh tank, retained gold body chain, **owned black jeans** and shoes; optional gold cuff pair below. Styling recommendation: solid dark black gives the jewelry more contrast and separates this look from the green/ivory King; green is workable but more woodland. Try jeans first. If heavily faded/distressed or the host wants a dressier silhouette, consider black pleated relaxed-straight trousers rather than buying another pair of jeans. No new trouser purchase assumed. This is our interpretation, not an official required character. A plain black underlayer remains optional if less sheer coverage is wanted.
 
 **Saturday: compact Antler King.** Smaller bone-look crown (specific item still needed), beige lace-up cotton shirt, short doubled gauze shoulder drape, gold mesh for photos. Keep veil lifted back/off while moving or dancing. Use a simple removable panel, not a tall load-bearing antler canopy. Mesh was observed arriving Friday, leaving Saturday for fitting. Earlier large antlers below are historical fallbacks, not the latest weekend recommendation.
 
@@ -36,7 +37,7 @@ No weapons or weapon-like props, including toy weapons; no ceremonial Native Ame
 
 ## Amazon list • exact variants and observed promises
 
-**Headpiece update:** the large IGMaryBox antlers are superseded for City of Gods. Retain their row as dated research only. Other pieces remain proposals; the complete basket needs the compact crown and a decision on Eclipse styling.
+**Headpiece update:** the large IGMaryBox antlers are superseded for City of Gods. Retain their row as dated research only. The host likes the Eclipse body chain; complete purchasing still needs compact crown selection, fit checks and user checkout.
 
 Verified in signed-in **Chrome** with delivery header **Brooklyn 11211**, not inferred from a search engine's old copy. Prices before tax; no coupons assumed. All dates are observations, not delivery guarantees. Recheck the selected variant and checkout date when ordering today. Shipper shown as Amazon for the seven selected products; third-party sellers vary.
 
@@ -49,6 +50,18 @@ Verified in signed-in **Chrome** with delivery header **Brooklyn 11211**, not in
 | Eclipse God | [Zoestar sun halo](https://www.amazon.com/dp/B0GFCZ3KG2) | **Gold**, **$9.99** | **Thu Oct 22**, free | Individual photo inspected: gold rays/rhinestone tips. Alloy bars, not foam; try for pressure/tips before dancing. 4.2/5, 12 ratings, frequently-returned warning. Do not treat package weight as verified worn weight. |
 | Eclipse God | [JOGAL fishnet tank](https://www.amazon.com/dp/B07D7S3RCF) | **Small / Black**, **$14.99** | **Thu Oct 22**, free | Selected size/color checked. 92% polyester/8% spandex, deliberately see-through. Layer a plain tank if wanted; fit untested. |
 | Eclipse God | [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold chain shown, **$19.62** | **Thu Oct 22**, free | Actual photo inspected: collar with draped chest/waist chains, not solid shoulder armor. Seller says alloy/extender/free size; maximum neck/torso measurements and fit unverified. Try loose; omit if tight or snagging mesh. Seller's “no irritation” claim is not a tested guarantee. |
+
+### Eclipse finishing upgrade — later October 21 check
+
+**Proposed, not selected/ordered:** [BROCC two-piece gold cuff set, B0DYX6ZR2Z](https://www.amazon.com/dp/B0DYX6ZR2Z), selected **Color B**, **New $13.99 for two**, seller BROCC / ships Amazon. Actual product page and photos inspected in Chrome, Brooklyn 11211 header: **free delivery Thursday October 22**. The cheaper used offer showed October 30 and is **not** the deadline option. Seller lists zinc, open adjustable design marketed for women's wrists; no verified adjustment range, mass or comfort test. Do not assume it fits the host solely because it is adjustable. Product photo shows broad slightly curved smooth gold cuffs; actual appearance inspected, not an AI mockup. 4.4/5 from 38 ratings at this check. Recheck variant, date and fit before buying; no allergy/quality guarantee inferred.
+
+Eclipse's three original listed pieces total **$44.60**; with this proposed cuff pair and owned jeans/shoes, **$58.59 before tax/finishing**. No need to spend toward the $500 ceiling. Optional styling-only extras: one or two gold rings, or a small gold cosmetic accent at the temples/cheeks; not new sourced SKUs or required purchases. Avoid full gold trousers or layering another large necklace over the body chain: our styling preference is to keep the gold focus at the head/chest/wrists. Leather-look black trousers are a more club-oriented alternative but not the default purchase; no timely listing or comfort claim verified.
+
+**NYC cuff fallback checked, not confirmed pickup:** [Abracadabra Small Hammered Cuff](https://abracadabranyc.com/products/small-hammered-cuff), **Gold, SKU 8386-G, $14.95 each**. Chrome showed three left overall, but the location widget stayed on “Loading locations”; **NYC-specific stock unverified**. Main gallery initially displayed silver despite Gold selected, though a gold thumbnail was visible; confirm actual finish in person. Two would be $29.90 before tax, not $14.95 for a pair. Call before detouring; wait for ready notice if ordering pickup. [Gold Roman Cuff](https://abracadabranyc.com/products/gold-roman-cuff), $38.95, showed sold out on its actual page despite collection-card availability and conflicting pair/individual copy; not a ready alternative.
+
+**Only if new trousers are wanted after trying jeans:** [UNIQLO men's Pleated Wide Pants, Black](https://www.uniqlo.com/us/en/products/E462197-000/00?colorDisplayCode=09&sizeDisplayCode=003). Official indexed result displayed $59.90; live accessible page confirms black, pleated straight/wide cut and store-stock controls, **not a verified current NYC stock count, correct size, checkout price or weekend delivery**. Do not infer trouser Small from shirt Small. No trouser item added to the current basket.
+
+Updated outfit edits were attempted with the imagegen skill, but the built-in tool rejected them; **no new successful render saved or claimed**. Existing green-trouser previews remain the only completed Eclipse images. No fallback API/CLI run or credential requested.
 
 **Historical initial-basket math, superseded as a complete weekend basket:** Antler King $55.96 + Eclipse God $44.60 = $100.56 before tax/finishing. Replacing the former Amazon antlers with the $18.95 elope pair would have made $102.52, but neither is the current compact bone-crown recommendation. Use the latest-direction subtotal above instead. Allow $20–$40 estimated for clips/pins/ribbon, optional cosmetic gold and minor fit fixes, not vendor quotes. Confirm delivery-threshold qualification at checkout; don't add unrelated filler.
 
@@ -77,7 +90,7 @@ Live product-location controls inspected October 21:
 
 ## Today / tomorrow actions for the user
 
-1. **Order only selected Amazon pieces today**, preserving exact colors and Small sizes above. Check every delivery date; “before Halloween” alone is useless for October 23. Prefer tomorrow for Friday essentials. Do not order the large weekend antlers under the revised brief; compact crown sourcing and Eclipse styling selection are still open.
+1. **Order only selected Amazon pieces today**, preserving exact colors and Small top sizes above. Check every delivery date; “before Halloween” alone is useless for October 23. Prefer tomorrow for Friday essentials. Retain the body chain; try owned black jeans. Cuffs remain optional. Do not order the large weekend antlers under the revised brief; compact crown sourcing remains open.
 2. Compact bone-crown sourcing remains open; do not interpret the old elope local-antler fallback as a verified bone crown. For any eventual Abracadabra selection, verify NYC stock and collect only after the ready notice. Mood remains a separate call-first mesh option, not a confirmed pickup order.
 3. Thursday: try both tops, crown and body chain unaltered. If needed, replace fragile/tight chain with a simpler owned necklace or local cuff. Secure phone in an owned zipped pocket/bag; don't leave valuables exposed in a loose costume pocket.
 4. Fold gauze double into a shoulder mantle, ends above hips; secure to clothing with a couple of pins/clips, not a throat tie. Trial the gold panel on a padded brow/base with accessible clips. Don't hang fabric load from bendable antler tips. Veil up/off for moving or dancing. No craft glitter/paint near the eyes.

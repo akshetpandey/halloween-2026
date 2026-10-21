@@ -4,6 +4,8 @@ AI-generated styling previews, requested by the host. **Not photographs of purch
 
 Current user decisions, shopping status and revised subtotal live in the [weekend plan](05-weekend-costumes-2026-10-21.md#latest-direction).
 
+**Later host feedback:** likes the original gold body chain and says it improves the outfit. Keep it; the no-chain variant below is comparison history, not the preferred styling route. Black jeans are now confirmed owned and recommended to try in place of green for Eclipse. Additional black-trouser/cuff render edits were rejected by the built-in tool; no successful new images exist or are represented by these original files. See the weekend plan for the current proposed cuff offer and styling advice.
+
 ## A — Original Eclipse shopping-list combination
 
 ![Original Eclipse outfit](renders/2026-10-21/eclipse-original.png)

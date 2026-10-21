@@ -4,12 +4,12 @@
 |---|---|---|---|
 | KING-01 | Save brief and real references | Done | Host’s Antler King direction |
 | KING-02 | Compare crown, veil and mantle purchase/build options | Compact bone-look crown confirmed for City of Gods; actual product still needed | [Current weekend sourcing](05-weekend-costumes-2026-10-21.md); large fast antlers superseded for weekend |
-| KING-03 | Confirm sizes, owned base clothes and final spend | Small, owned shoes/trousers and total ceiling confirmed October 21 | Chosen-item fit/head measurements and final delivered basket still unchecked |
+| KING-03 | Confirm sizes, owned base clothes and final spend | Small top; waist 28–30/inseam 30–32; black jeans, green trousers, shoes and ceiling confirmed | Usual size ranges, not measured fit; final delivered basket unchecked |
 | KING-04 | Order or borrow selected pieces | To do | KING-02/03; explicit purchase instruction |
 | KING-05 | Build and fit crown/veil and short mantle | To do | Materials; unaltered crown try-on; prewash mantle before sizing |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
-| KING-08 | Assemble second City of Gods look | Original and simplified Eclipse renders ready; style selection pending | [Visual comparison](06-weekend-costume-renders-2026-10-21.md); user order and fit test |
+| KING-08 | Assemble second City of Gods look | Host likes chain version; black-jeans reuse and gold cuffs proposed | [Current styling and exact cuff offer](05-weekend-costumes-2026-10-21.md); user order/fit test |
 
 Current gates October 21: user orders/pickup requests October 21–22; try unaltered pieces Thursday October 22; proposed Eclipse look Friday October 23 and Antler King Saturday October 24, allowing Friday mesh arrival. October 31 host-costume reuse still planned. No costume purchase or fitting reported. Earlier October 18 fit target was missed, not a future deadline.
 
@@ -18,7 +18,7 @@ Current gates October 21: user orders/pickup requests October 21–22; try unalt
 - [Two-look shopping/pickup plan](05-weekend-costumes-2026-10-21.md) supersedes old shipping promises for the immediate weekend. Sizes/variants and observed dates are explicit; not a checkout guarantee.
 - Confirmed user inventory, Small and total budget ceiling are recorded in that plan and [shared budget](../operations/budget.md). No purchases yet; user will buy/collect.
 - Antler King remains ivory/green/gold, with a quick clipped veil rather than a new rigid canopy build. Latest user direction replaces large weekend antlers with a compact bone-look crown, still unsourced; October 31's larger reference target remains open.
-- [Three AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are complete. The user raised concern that Eclipse reads feminine and requested renders before choosing. Omitting the chain and adding an opaque black under-tank remains a styling proposal, not an approved substitution.
+- [Three AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are complete. Later feedback likes the gold body chain; retain it. Host owns black jeans and is open to a bolder look within the same ceiling. Suggested cuff pair has a dated Oct 22 Amazon promise; not selected/purchased. Further render edits failed, so no new black-trouser preview exists.
 - All essential Eclipse components observed for Thursday; gold veil mesh Friday, hence proposed night order. Local Abracadabra has product-level stock evidence; Mood store stock and Halloween Adventure product inventory unverified.
 
 ## Historical direction • October 7, 2026

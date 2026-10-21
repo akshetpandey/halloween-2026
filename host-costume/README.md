@@ -3,6 +3,8 @@ Status: Active planning and urgent sourcing. Antler King remains the October 31 
 
 **Current deadline plan:** [October 23–24 two-look shopping/pickup list](05-weekend-costumes-2026-10-21.md). Exact Amazon variants, current delivery observations and Manhattan pickup stock are recorded there. Earlier October 7 shipping estimates below are historical. Eclipse God Friday / Antler King Saturday is a proposal, not a selected or purchased pair of costumes.
 
+Latest feedback: host likes the Eclipse gold body chain; keep it. Owned black jeans are now confirmed and are the first Eclipse trouser option to try. Optional gold-cuff upgrade and its delivery/NYC limitations are recorded in the current plan; no new purchase reported.
+
 ## Direction
 **October 21 visual review:** [Eclipse and compact King renders](06-weekend-costume-renders-2026-10-21.md). The host now accepts a smaller bone-look crown for City of Gods, instead of large antlers; see the [latest weekend direction](05-weekend-costumes-2026-10-21.md#latest-direction). Specific compact crown sourcing remains open.
 

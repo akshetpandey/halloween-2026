@@ -1,92 +1,101 @@
-# Three-room execution plan — provisional October 21
+# Apartment decor execution plan — October 21, 2026
 
-**Planning result; scan received, tape/mounting checks pending.** Host confirmed October 21: **$1,000 including permanent lights**, nothing newly ordered, one owned gold lamp/stand with full-color LIFX, furniture can move but must stay in the apartment, nightstands may move into closets, 2–4 full days available, **iPhone 16 Pro**. The GLB now provides estimated geometry; host supplied 49 × 29.5-in desk and 15-in stored bed depth. Outlet map, wall finish, bed support and closet/storage fit remain unresolved. [Shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md) · [Scan review and bedroom calculation](space-inputs/scan-review-2026-10-21.md).
+**Layout accepted by host; decor/product choices proposed.** $1,000 including permanent lights; only gold tree/full-color LIFX owned, nothing new ordered; 2–4 full days. Latest instruction: raw black fabric on **all Hollow walls**, no ready-made curtains. Dining table is gone; other relocated furniture stays inside. [Basket](shopping-ready.md) · [Schedule](setup-schedule.md) · [Materials and atmospheric references](inspiration/2026-10-21/README.md).
 
-![Scan-derived apartment base plan](space-inputs/apartment-base-plan-2026-10-21.png)
+## Grounded visual plan
 
-The base plan shows actual scan adjacency and furniture in scanned positions, with host-corrected room uses. Dimensions remain estimates until one tape scale check. Door swings/outlets/closet interiors are not established. Source: [SVG](space-inputs/apartment-base-plan-2026-10-21.svg). The [earlier three-box diagram](room-layout-provisional.png) remains a conceptual decor reference only, superseded for apartment geometry.
+![Party arrangement over the actual scan](space-inputs/party-layout-2026-10-21.png)
 
-## Shared design
+[Editable SVG](space-inputs/party-layout-2026-10-21.svg) · [Coordinates](space-inputs/party-layout-2026-10-21.json) · [Original scan baseline](space-inputs/apartment-base-plan-2026-10-21.png).
 
-Use deep green, charcoal, bone, muted autumn leaves and small amber accents. Living room is a dim violet forest clearing with a separate neutral moon; bedroom is a red/violet root chamber; bathroom is a quiet warm scene around a small white moon. Concentrate scenery against walls and on stable furniture. Existing floors, seating and functional surfaces supply negative space; floor coverage/canopy remain optional later studies.
+The scan preserves the real adjacency, stepped bedroom corner, window/door planes and kitchen. Furniture boxes are simplified. The top-down plan controls spatial decisions; generated mood images do not establish extra furniture/windows/counters. Raw model/screenshot remain local and ignored. One tape scale check, door swings, outlet positions and physical support checks are outstanding.
 
-Confirmed inventory: gold tree lamp with **full-color LIFX**, DDJ-FLX4/Mac, two powered bedroom speakers, two living-room Google Homes, TV/soundbar. Only the lamp is redeployed; no move/configuration happened. Host confirms no new decor ordered, so September cart items are not owned. Ordinary trays/tools/cords still need a quick household check. The basket includes new supplies conservatively. Helpers are not confirmed; use the solo 2–4-day schedule and keep the bed flat.
+![Grove cutaway](space-inputs/grove-cutaway-2026-10-21.png)
 
-## October Grove / living room
+![Hollow cutaway](space-inputs/hollow-cutaway-2026-10-21.png)
 
-Choose **one focal wall/dead corner visible on arrival**, outside the bar queue and through-route. Center the H02 19.7-in moon there if the wall supports its proper bracket; position one 63-in branch to one side rather than building an entire forest. Set the resin wolf skull on a stable low tray with one raven accent, a dark base, narrow moss edging and three small pumpkins. Keep an adjacent clear, reachable nonmetal game touchpoint area; the physical game task supplies the NFC components.
+Cutaways use the same scan geometry and host dimensions. Walls are lowered selectively for visibility; no photorealistic lighting or actual fabric blackout simulation is claimed.
 
-Move the owned gold tree lamp beside this group, with bulb/socket and shade unobstructed. Its full-color LIFX and **one new H26 Govee Basic permanent corner lamp** provide separated violet bounces; the warm string reveals wood/bone. Exact saturation/output comes from the test; the tree lamp's geometry may limit its wash, and black cloth/windows are poor bounce surfaces. Test before adding another fixture. A 66-ft warm string traces the focal cluster or selected edge; it is not a mandate to run all its length around the ceiling. Existing practical counter/seating lights remain available.
+## October Grove: furniture first
 
-Keep the couch/TV nook and four intended coffee-table seats functional. A second shallow tray can suggest a fairy circle using attached leaf/mushroom shapes from reused card; no separate miniature purchase is necessary. Leave most table space for drinks. Four foliage strands are the entire living-room allocation, 22.4 ft; use only where visible under the lights. Six tea lights distribute between table and scenic edge. Google Homes stay clear of greenery and spills; approved silent TV visuals continue independently.
+1. Remove the dining-height table from this party arrangement, as host confirms it is gone.
+2. Move coffee table (~29.3 × 45.7 in, 16-in scan height) to the former dining-table center. Put four existing dining chairs around it, approached from open south/east sides. The narrow gap between west chair backs and sofa is **not** a through-route.
+3. Shift sofa ~22 in toward TV. Proposed TV-front-to-sofa gap **31.5 in / 0.8 m** is a starting walk-through clearance, not a code/comfort certification. Check seated knees and actual TV projection; move back slightly if needed.
+4. Move scanned bedroom low cabinet (~47.9 × 13.8 in) under the Grove's upper/right window for the shrine. Nightstand goes into closet after actual opening/interior fit. Keep the fifth small chair beside the TV nook if it clears entry flow.
+5. Keep broad central kitchen/social floor open. Main door is bottom-left vestibule with coat closet on right; the central recess is not the main entrance.
 
-Place cups, drinks and water along existing counter/surfaces after the route survey. Keep water accessible without returning through a drinks line. Walk from apartment entry to both room entrances and bathroom carrying a cup. Mark actual furniture and door swing envelopes before placing props. No floor-size or 60-person capacity claim is made from this sketch.
+### Forest treatment, on actual surfaces
 
-**Moon mounting gate:** current large light is roughly 6 lb and needs a suitable bracket/fastener system. Hooks for light strings/fabric are not its mounting plan. If screw mounting is unsuitable or unwanted, select the lightweight 24-in bone-painted card moon with an existing indirect lamp instead; reduce basket cost accordingly. No hardwiring project is proposed.
+**Counters:** cover the usable non-appliance countertop broadly with green faux moss mats, not just a tiny tray. Scan estimates ~24.4 sq ft after excluding sink; order three 39 × 39-in sheets = ~31.7 sq ft nominal to allow cuts, seams and scenic offcuts. Trace paper templates first. Long sink-side run needs joined pieces; offcuts cover the short stove-side sections. Keep sink basin, taps, cooktop, switches/outlets and hot appliances clear.
 
-## The Hollow / bedroom
+Lay moss on removable wipeable underlayers. Set clean washable trays/risers into the moss for drinks, cups and food; no food/ice contacts moss. Place cups at the approach end, drinks on the long counter and water at its far accessible end. Test filling a cup while another person passes. No countertop scenery dangles into walking space.
 
-**Later October 21 host proposal:** stand the bed upright on its edge against the closet wall, guardian in front, automated desk in front of that. Use the host's **15-in stored bed depth** (assume legs removed or flipped/hidden behind guardian) and **49 × 29.5-in desk**. **No human DJ: the guardian is the pretend DJ; two small speakers sit on the desk.** The [scan-based footprint study](space-inputs/scan-review-2026-10-21.md) finds ~121 sq ft inside the room, ~98 sq ft unoccupied including circulation and ~54 sq ft in the front dance study. Nightstand/low cabinet relocation is assumed. Tabletop fit and bed construction/securement remain unresolved. This is not an approved upright-bed installation; keep the flat fallback below until support/storage is resolved.
+**Vines:** one 12-strand / 84-ft green ivy pack. Allocate eight strands (~56 ft) to selected window heads/wall tops and cabinet edges, two (~14 ft) trailing down fixed scenic ends, one (~7 ft) shrine and one spare. This is a high perimeter treatment, not a dense ceiling canopy. Use separate compatible low-load clips; no real wood suspended overhead.
 
-Keep the bed **flat as the provisional default**. Put a tight dark cover on it and accept the smaller dance footprint. **All furniture must stay in the apartment**; nightstands move into closets only after opening/interior dimensions and later access are checked. Disassembly is relevant only if the frame/mattress can genuinely be stored flat inside the apartment, with instructions/clear route/two helpers confirmed. No external storage is assumed. No upright tied bed or mattress forms the guardian's support.
+**Wood/stone/harvest:** one purchased 63-in faux branch on the shrine cabinet with its own support; recycled-card silhouettes add breadth. Five small pumpkins/gourds across shrine/counters/low-table centerpiece. Make three lightweight faux stones from crumpled packaging/card, charcoal paint and dry-brushed bone, rather than buying heavy rocks. Add a few attached rust paper leaves from craft offcuts. A very low central moss/stone ring leaves most coffee-table area usable.
 
-Locate the automated playback desk away from the entry path. Both small speakers sit directly on the desk, per the host; check controller/laptop/speaker footprints, vents and wiring together. Keep occasional controls access from the side and drinks on a separate surface. The guardian is the pretend DJ, with no human standing bay reserved behind the desk. The scenic treatment starts with a roughly human-scale **card/kraft face and branch crown** on its own broad stable low support. Do not build a full articulated body. A black table front, two raven pendants, paper roots and four sheer cloth panels imply shoulders/scale. The second warm string can outline a small root/crown detail; red/amber sidelight can supply the eyes without extra electronics.
+**Moon and purple:** choose a **24-in handmade light-backed moon disk** on the existing right-side Grove cabinet/wall area, not the $89.99 six-pound sconce. Reused card + thin bone-colored paper/crater paint; one H12 warm USB string retained intact behind/in a shallow vented disk frame. Do not cut/shorten electrical strings or pack them tightly against heat-sensitive material. Test brightness/temperature and sturdy support; if backlighting fails, use an opaque painted disk lit from an existing practical. It remains DEC-01 with a separate reachable target.
 
-First cover one DJ backdrop plus measured window runs. Use matte duvetyne for the backdrop; its manufacturer reports about 50% light blocking, so the window alternative is fitted opaque curtains or existing effective coverings. Sample panel weight, wall compatibility, clip grip and removal for 24 hours. Hooks/clips and direct tape are host-accepted approaches; the recommended prototype remains hooks/clips. H16 gaffer is not automatically a paint-safe load-bearing fabric adhesive. No room-wide fabric order precedes the survey.
+Owned gold tree/LIFX near shrine; new permanent Govee Basic at opposite Grove edge supplies another violet bounce. Match color by eye; turn down TV glare. White lumen claims do not establish saturated-purple coverage. Do not count tree/LIFX in bedroom simultaneously.
 
-Two H01 fixtures start static: red/amber skims the guardian/branches, violet hits a pale surface or ceiling. Start low, strobe off; only keep a slow program if it stays within the intended palette and a test shows it works. A protected edge/factory bracket is preferred over stands in dancing. Record controls and restore settings; no Mac lighting software or music-sync dependency.
+## The Hollow: accepted corner arrangement
 
-Leave a visible route to the door, actual ventilation/window access, and access to playback controls. The guardian's touchpoint belongs on a separate reachable guest-facing scenic edge away from gear/cables. Five bedroom perimeter checkpoints are a game-planning example, not permission to fill five separate floor footprints.
+Store bed upright on its long edge against the rear closet wall, shifted right; host-supplied **15-in stored depth**, assuming legs removed or flipped/concealed. Reserve **12 in / 0.30 m** ahead for independent guardian support, then **49 × 29.5-in automated desk**. No human DJ bay. Two small powered speakers sit on desk. Leave side access to controls; drinks outside room.
 
-**Time limit:** guardian is a 3–5 person-hour bust proposal plus drying time. If that time/support is unavailable by Oct 26, use the same face/root silhouette on an appropriately mounted light board and spend the remaining time testing drapes/light. If no suitable support/mount exists, keep the backdrop/lighting and flag the guardian anchor substitution to the game task.
+The scan-based study estimates ~120.6 sq ft inside walls, ~98.3 sq ft unoccupied including circulation and **~54.5 sq ft front dance area** after a ~33.5-in side-route allowance. **5–6 comfortable; 7–8 lively; 9–10 snug** is a planning judgment, not an occupancy approval. Corner grouping consolidates side pockets; it does not make all remaining floor danceable.
 
-## Moon Well / bathroom
+Bed support, actual leg removal and closet access remain physical setup dependencies. The model uses the requested depth without claiming a restraint design. Guardian never supports or stabilizes the bed. If stable storage cannot be established, a covered flat bed is the fallback, with the earlier study's roughly 27 sq ft front area; do not advertise the upright-layout capacity for that fallback.
 
-Measure existing curtain rail/drop and reveal the compact scene by leaving the H05 forest curtain partly open. Place one folded H14 dark cloth **inside the clean dry tub**, with a soft non-scratch layer under hard bases. At one visible end, the 5.9-in H03 moon stays on its supplied stand. Coil the single 10-ft H06 vine around the base as roots; attach allocated moss and two sheer cloth panels to the removable base. No loose moss near drains or cloth on bathroom floor.
+### Every wall is black raw fabric
 
-Place the separate cordless H04 warm ambient on a stable **dry shelf outside splash**, aimed/positioned for usable light on sink, lock and floor. Use the moon white and the room warm. Four tea lights provide low accents; they do not establish that the room is bright enough by themselves. Retain ordinary lighting for practical use; no charging cord, mains light or extension enters the tub. No water/humidity rating has been established for these lamps; normal bathing requires removing the dry installation.
+[40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): Big Z black plush stretch velvet, shallow folds, 15 full-height pieces plus entry-head valance. Cover windows within the same wall spans; keep the doorway open. Large offcuts conceal the bed and form guardian shoulders. Actual opacity/attachment/heat/airflow require a room trial.
 
-The chocolate/fortune station is a clean covered jar on an existing reachable dry shelf/caddy, separate from scenery. If a stable reachable station does not fit, move gifts to the living-room food table and leave a small note. Guests never lean into or step into the tub. Keep the game's threshold target outside the bathroom, with the bathroom entry clear; no new scored bathroom checkpoint.
+### Guardian and EDM lights
 
-Assembly estimate: 45–60 minutes scenery after fit, plus 45–60 minutes for 36–72 gifts/fortunes. The existing buy-first Moon Well scene remains the selected concept; no giant well/forest-god sculpture added.
+[Rootkeeper build](bedroom/woodland-guardian.md): a 3–5-hour lightweight bust, bark-card face, paper/faux twig antlers, offcut velvet body. Face about 16–20 in high, crown tops below ceiling; prototype from doorway. Its independently supported body fits the reserved ~39 × 12-in band, never bolted to audio gear or relied on as bed restraint. If no suitable base exists within allowance, mount a flat lightweight face/root board independently and preserve its visual presence.
 
-## Shared allocation and electrical plan
+Steady amber eyes: use the second H12 warm string, intact, with two clusters behind pale paper diffusers; remaining LEDs form sparse roots on the same support, controller/USB accessible. Test for heat/glare and nine-hour operation. Body effect: one H01 PAR skims face/branches red/amber; the other grazes violet/blue across velvet and ceiling. Two fixtures total, on protected manufacturer brackets at perimeter, outside the side-route envelope and away from fabric.
 
-| Shared item | Living room | Bedroom | Bathroom / reserve |
-|---|---|---|---|
-| Two PAR fixtures + permanent RGB lamp | One Govee Basic + owned color LIFX | Two PAR red/violet washes | None |
-| Six foliage strands | Four | One | One bath |
-| Two moss strips | One, edging across trays | 16 in of second | 31 in of second, bath |
-| Two opaque tablecloths | None | One table front | One folded tub base |
-| Six sheer cloths | None | Four | Two bath |
-| Two USB strings | One | One | None |
-| Twelve tea lights | Six | None required | Four bath / two spare |
-| Gold tree/LIFX | One, moved from bedroom | Not counted here simultaneously | — |
+**Music reaction:** H01 listing offers sound-active mode using onboard microphone. It is not beat-grid synchronization, and restricted red/violet colors or strobe-free behavior in that mode are not established. Test the exact units at party volume; use reactive mode only if behavior suits the room. Save a dim static red/violet, strobe-off default with reachable reset. No new Mac/DMX integration or laser/fog purchase.
 
-Power proposal: three H19 15-ft supplies are a placeholder maximum for separated living-room light positions plus bedroom light position, each directly to an appropriate wall outlet. Two PARs + large moon + Govee Basic = four new mains loads; tree lamp remains at its own existing wall supply. Two USB strings use two of six integrated USB-A ports. Recharge the two cordless bath lamps outside the room before use. Existing TV/audio supplies remain part of the music inventory, not assumed spare outlets. Buy fewer cord units if the actual outlet map supports that.
+## Moon Well
 
-Record actual fixture label watts and existing loads before connecting; advertised LED counts are not circuit-load measurements. Verify all selected supplies' ratings/instructions and wall reach. Route every lead at perimeter with accessible switches; no chained strips or leads hidden under rugs. If a route crosses dancing/exit access, move the fixture first. Cord covers/extra lengths are conditional additions with explicit costs in the basket. This is a planning topology, not an installed electrical test.
+Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded second black tablecloth in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
 
-## Purchase-critical measurements and input register
+Separate cordless warm lamp on a stable dry shelf lights sink/lock/route. Charge both bath lamps outside room and test at selected brightness for nine elapsed hours; advertised runtime is not a passed test. No charging/mains leads in tub. If runtime fails, retain normal usable light; orb can remain a reflective prop. Remove scenery before bathing.
 
-All linear entries should be in **inches**, with a tape check of at least one wall against any scan. A model can simplify furniture and miss mirrors/windows/outlets. Keep originals under ignored `space-inputs/raw/`; do not publish the apartment model.
+Wrapped chocolates/fortunes in clean covered jar on reachable dry surface, no reaching into tub. Sweets belong to food budget ($25 proposed), bags/printing to supplies ($5), not decor twice. Game threshold remains **outside bathroom**.
 
-| Input | Current source / confidence | Needed for |
+## Place all 15 entities
+
+Preserve [5 decor / 5 bought / 5 handmade identities](../interactive-game/physical/entity-plan.md). Proposal below uses **11 Grove / 3 Hollow / 1 bath threshold**, replacing the earlier illustrative 9/5/1 split to reduce queues/extra stands on the small dance floor. This is a placement recommendation, not a change to game IDs, puzzles or code.
+
+| ID / plan marker | Proposed reachable location | Integration |
 |---|---|---|
-| Each room shell, door positions/swings, usable routes | GLB + screenshot received; host corrected entrance/Grove/closet labels. Shell/door planes estimated; swings and routes unverified | [Actual base plan](space-inputs/apartment-base-plan-2026-10-21.png); final guest-flow and scene footprints |
-| Each bedroom window span + mounting-to-finish drop | Scan W4 ~79.9 in, W6 ~104.6 in; opening heights ~83 in. Tape/mounting drop missing | H23 example two-pair 84-in choice is not confirmed; recalculate after photos/tape |
-| DJ-backdrop span + drop + top/bottom fold allowance | Missing / unknown | H22 raw yardage and panel count |
-| Wall finish, paint condition, complete panel mass, clip fit | Missing / unknown | H24/25 trial and final supports; mounting cannot be inferred from LiDAR |
-| Moon wall material, permitted fixings, outlet distance | Missing / unknown | H02 vs lightweight fallback, mounting kit/lead |
-| Bed/table/speaker footprints, nightstand/closet openings/interiors | Bed scan ~86.2 × 66.2 in; host supplies 15-in stored depth and 49 × 29.5-in desk. No human DJ; speakers on desk. Tabletop fit, support and storage fit unverified | Compare footprint proposal with flat fallback; no assumed securement or closet fit |
-| Tub interior, curtain rail width/drop, dry shelf footprint | Tub asset outer bounds available; actual interior/rail/shelf still unknown | H03–06/H14 fit and reachable gifts |
-| Outlets, existing cord lengths, fixture label loads | Missing / unknown | H19 count/length and final perimeter routes |
-| Existing carpet attachment/edge heights | Host says laminate + low/no-pile carpet / confirmed type, unknown edges | Preserve stable floor and transitions; no green covering order |
-| Decor inventory / ceiling / available time | Host Oct 21 / confirmed: only gold stand/color LIFX, $1,000 including permanent lights, 2–4 full days; helpers unconfirmed | One permanent Govee + bedroom kit; $973.12 example envelope; solo build plan |
-| Phone / photos or export | iPhone 16 Pro; GLB and top-down screenshot received/processed locally, ordinary photos pending | [Scan review / next small input packet](space-inputs/scan-review-2026-10-21.md); originals ignored in Git |
+| DEC-01 / D01 moon | Right-side Grove cabinet/wall moon, below light | Separate dry nonmetal target plaque |
+| DEC-02 / D02 gold tree | Shrine-side tree base, guest-facing | Target beside lamp, not on socket/metal |
+| DEC-03 / D03 Rootkeeper | Front-left desk fascia | Target on separate scenic edge away from controls/speakers |
+| DEC-04 / D04 Well threshold | Grove-facing trim outside bathroom | Own flat carrier; no bathroom queue inside |
+| DEC-05 / D05 branch/skull shrine | Center of relocated cabinet | Lightweight raven-skull/bark display; expensive wolf skull optional |
+| BUY-01 / B01 raven | Left side of shrine cabinet | Distinct stable base |
+| BUY-02 / B02 barn owl | Right side of shrine cabinet | Distinct base, not hidden in vines |
+| BUY-03 / B03 fox | Low table's attached scenic centerpiece | Reachable from chair; clear cup space |
+| BUY-04 / B04 stag | Existing upper-window cabinet, left | Stable base and separate marker |
+| BUY-05 / B05 hare | Same cabinet, right | Visually separate from stag target |
+| MAKE-01 / M01 forked twig, ochre | Above upper-window cabinet | Flat light figure on independent attachment |
+| MAKE-02 / M02 straw fan, rust | Dry counter back edge, above serving zone | Flat board carrier, clear of splashes |
+| MAKE-03 / M03 crossed twig, indigo | Hollow left wall beyond entry swing | Independent flat wall attachment through removable cloth gap |
+| MAKE-04 / M04 straw bundle, moss green | Grove right cabinet's lower scenic panel | Bound straw, no shedding into bar |
+| MAKE-05 / M05 arched twig, ivory | Hollow right perimeter ahead of desk | Flat figure, own support, outside beam/traffic |
 
-The scan refines geometry without requiring a paid export. Decor positions and large quantities stay **provisional** until the remaining photos, tape dimensions and support trials are supplied. No repeat whole-apartment scan is needed.
+All fifteen get distinct reachable nonmetal touchpoints. No targets behind bed, in private closets, on drinks, near water or hidden among cables. Wall figures attach independently of velvet; no extra floor stands. Game pays only incremental tags, premade moon stickers, small bought figures and handmade bases; full scenery charged once here. Exact small figures/NFC install and phone testing remain with physical-game work, not purchased or encoded by this task.
 
-## Minimum scope if time or ceiling contracts
+## Shared supplies, checks and completion
 
-Preserve functional lighting/clear routes, purple Grove, one moon shape, dark DJ backdrop, flat bed and Moon Well curtain/reveal. Drop extra skulls/creepy cloth and paper-build the branch/moon before dropping practical mounting/power/testing. Use the three-panel fabric scale if it actually fits. Recalculate the single basket after those substitutions; do not buy a second complete design. Construction and nine-hour hardware tests remain future host execution, not completed planning checks.
+Two USB strings: one Grove moon, one guardian. Twelve tea lights: six Grove, four bath, two spare. Two black tablecloths: desk front and dry tub. One 84-ft ivy pack Grove; separate 10-ft vine bath. Three moss sheets first cover actual counters, then small offcuts for guardian/shrine/bath; if template waste exhausts material, preserve counters and use painted texture on small props.
+
+Start with two 15-ft H19 power supplies: Grove's new lamp + moon at one position; bedroom two PARs + guardian USB at another. Owned tree and existing audio/TV retain their existing supplies. If outlet distances require a third unit, fund it from buffer after re-costing, or move the light. Each supply goes directly to suitable wall outlet; no daisy chain or floor-crossing assumption. Read actual loads/ratings, secure leads at perimeter, preserve switch access.
+
+Before setup: one tape wall scale check; actual fabric drop/substrate/24-hour trial; bed support; desk equipment templates; nightstand/closet fit; cabinet relocation; outlet/cable map; tub/shelf fit. After setup: after-dark cup-carrying route, chair access, three-person dance/door trial, music-reactive/reset trial, nine-hour light/battery test, NFC reach/scan rehearsal. Nothing on this physical checklist is claimed tested.
+
+If cost/time grows, keep all-wall fabric, open floor and working lights. Simplify card-built guardian detail, omit purchased branch/pendants or reduce pumpkins before changing the host's full-wall request. No whole-floor moss, new drape rig or premium light show is silently included.

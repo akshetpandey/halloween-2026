@@ -1,6 +1,6 @@
 # Bathroom • The Moon Well
 
-**October 21 current execution:** [three-room placement plan](../final-room-plan.md), [shopping basket](../shopping-ready.md), [setup schedule](../setup-schedule.md). Buy-first Moon Well retained; current proposed ambient is cordless O'Bright, with Oasis a conditional alternative. Earlier prices/budget variants below are history. No purchase or installed-light test.
+**October 21 current execution:** [three-room placement plan](../final-room-plan.md), [shopping basket](../shopping-ready.md), [setup schedule](../setup-schedule.md). Buy-first Moon Well retained; current proposed ambient is cordless O'Bright, with Oasis a conditional alternative. Current quantities/costs are centralized in the basket; use offcuts from the three counter moss sheets, not a second moss order. Earlier prices/budget variants below are history. No purchase or installed-light test.
 
 Status: Ready to review. Priority P1 for bathroom function, P2 for expanded installation. Owner: host. Original allowance: $25 decor; active buy-first Moon Well proposal: $75–$90 decor, plus any separately allocated ambient light. Toiletries and sweets belong to their existing hospitality lines.
 

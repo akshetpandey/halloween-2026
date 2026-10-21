@@ -1,11 +1,9 @@
 # The Hollow — decor
 
-[All decor](../README.md)
+[All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 
-**October 21 execution:** [current placement plan](../final-room-plan.md) · [current basket](../shopping-ready.md) · [setup dates](../setup-schedule.md). Keep bed flat pending a real disassembly/storage plan. Duvetyne is backdrop masking; window opacity and all mounts need separate tests.
+October 21 accepted corner arrangement: upright bed at 15-in stored depth, independent guardian, automated 49 × 29.5-in desk, two speakers on desk, no human DJ. ~54.5 sq ft front dance study; actual bed support/fit unverified. All walls/windows in **raw black velvet**, no ready-made curtains.
 
-**Later October 21 scan:** [bedroom footprint study](../space-inputs/scan-review-2026-10-21.md) models the host's upright-bed → guardian → automated desk proposal. **No human DJ; both small speakers sit on the desk.** Host supplied **15-in stored bed depth and 49 × 29.5-in desk**. Room is ~121 sq ft inside walls; the study leaves ~54 sq ft in front after a side route. Upright support remains unresolved, so the flat-bed execution fallback above still applies. Tabletop fit and one tape wall check are next.
+[Draping/cut plan](draping/02-shopping-and-sample.md) · [Rootkeeper](woodland-guardian.md) · [Budget club lights](../lighting/02-bedroom-party.md) · [Basket](../shopping-ready.md) · [Setup](../setup-schedule.md).
 
-[Main plan](plan.md) · [Draping](draping/README.md) · [Fabric shopping/sample](draping/02-shopping-and-sample.md) · [DJ guardian](woodland-guardian.md) · [Club lighting](../lighting/02-bedroom-party.md)
-
-Start with the main plan; specialty folders contain the detailed research and build tasks. Save new task notes and handoffs here. Shared budget: [operations](../../operations/budget.md).
+Original [scan analysis/workbench](../space-inputs/scan-review-2026-10-21.md) remains useful for comparisons; its initial default is not the current accepted corner placement. No purchase, mount or light test completed.

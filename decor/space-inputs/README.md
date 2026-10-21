@@ -2,6 +2,10 @@
 
 Prepared October 21, 2026. Optional LiDAR capture can help us understand the apartment; ordinary photos plus a measured sketch are sufficient to start. We need positions and usable dimensions for decor decisions, not a perfect digital twin.
 
+## Current party arrangement — later October 21
+
+[Scaled party layout](party-layout-2026-10-21.png) · [SVG](party-layout-2026-10-21.svg) · [Coordinates](party-layout-2026-10-21.json) · [Grove cutaway](grove-cutaway-2026-10-21.png) · [Hollow cutaway](hollow-cutaway-2026-10-21.png). These implement the accepted corner/desk and Grove furniture moves on actual geometry. They supersede the original scanned furniture positions as the proposed party arrangement. The earlier interactive workbench retains comparison defaults; it is not the final arrangement. All raw sources remain ignored.
+
 ## Scan received — October 21
 
 The supplied GLB and top-down screenshot have been processed locally. **No Business floor-plan export is needed for this planning pass.** Start with the [corrected base plan](apartment-base-plan-2026-10-21.png), [scan review and bedroom space calculation](scan-review-2026-10-21.md), and [derived measurements](scan-measurements-2026-10-21.json). The bedroom space study is shown inline in the decor chat; its [source](bedroom-space-study.html) is retained here. Original inputs remain ignored under `raw/`.
@@ -18,7 +22,7 @@ For this chat, the best packet is a top-down view with dimensions/units, two or 
 
 Fast sequence: scan one room, confirm a screenshot/export can be saved, then capture the others. Send the dimensioned view + photos + furniture sizes in this decor chat, or give their local paths. A **GLTF ZIP including BIN/textures** is useful if convenient; Polycam currently lists GLTF as its free export. Check the actual export screen; floor-plan PDF/PNG/measurement exports vary by tier/mode. A screenshot plus tape measurements is enough if export is paywalled. No paid subscription is needed for the first planning pass.
 
-After inputs arrive, compare **A: minimal furniture movement** with **B: nightstands stored in closets / furniture redistributed within the apartment**. Both retain the flat bed unless a genuinely workable internal flat-storage solution is documented. Derive the actual plan and fabric/cable quantities from those options; the [current schematic](../final-room-plan.md) remains explicitly unmeasured until then.
+After inputs arrive, compare **A: minimal furniture movement** with **B: nightstands stored in closets / furniture redistributed within the apartment**. That early keep-flat default is superseded for planning by the accepted upright corner arrangement above; actual support remains unresolved. Derive the actual plan and fabric/cable quantities from those options; the [current plan](../final-room-plan.md) now contains the scan-derived arrangement and remaining tape checks.
 
 ## Recommended route
 

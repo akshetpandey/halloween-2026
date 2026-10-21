@@ -1,9 +1,7 @@
 # October Grove — decor
 
-[All decor](../README.md)
+[All decor](../README.md) · [Current plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/grove-cutaway-2026-10-21.png).
 
-**October 21 execution:** [current placement plan](../final-room-plan.md) · [current basket](../shopping-ready.md) · [setup dates](../setup-schedule.md). Layout/large quantities remain provisional pending room inputs; earlier room studies below preserve direction and alternatives.
+October 21 host furniture changes are mapped: dining table gone; coffee table plus four chairs at its old position, sofa toward TV. Broad counter moss, hanging ivy, branches/card stones/pumpkins; moon and dim violet wash. [Detailed surface/lighting placement](../final-room-plan.md#october-grove-furniture-first) · [Basket](../shopping-ready.md).
 
-[Main plan](plan.md) · [Floor covering](floor/README.md) · [Purple dusk and glowing moon](../lighting/05-purple-grove-and-glowing-moon.md) · [Fixtures and existing LIFX](../lighting/04-fixtures-and-existing-lifx.md)
-
-Start with the main plan; specialty folders contain the detailed research and build tasks. Save new task notes and handoffs here. Shared budget: [operations](../../operations/budget.md).
+[Floor study](floor/README.md) and [permanent lighting comparisons](../lighting/05-purple-grove-and-glowing-moon.md) remain alternatives/context, not added purchases. Nothing ordered or installed.

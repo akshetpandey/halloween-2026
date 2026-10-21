@@ -1,4 +1,6 @@
 # Inspiration board • The Hollow Court
+
+**October 21 current:** [material board and illustrative concepts](2026-10-21/README.md), [actual-layout plan/cutaways](../final-room-plan.md#grounded-visual-plan). Use the scan for spatial choices; historic professional photos and mood pictures are texture references. All-wall Hollow fabric now replaces the old one-backdrop example below.
 Updated September 3, 2026. Eight original web references plus eight newly sourced costume artworks saved locally. Two shareable costume art boards are in the guest pack.
 
 This is our private visual reference library. Sourced photographs are not pictures of the apartment. Professional-event photos are detail references, not production promises. For guest costume inspiration, use the new credited public-domain art boards. The older event/costume photos below remain private references; their reuse rights are not established.

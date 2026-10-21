@@ -1,48 +1,49 @@
-# Fabric, hooks and clips: sample shortlist
+# Full-wall raw velvet — cut plan and sourcing
 
-**October 21:** [current basket and per-run formulas](../../shopping-ready.md) supersede the dated price/sample basket below. Rose Brand still lists black 8 oz cut yardage at $7.60/yd, but its [comparison chart](https://www.rosebrand.com/products/fabric/masking-blackout-fabrics) describes roughly 50% light blocking: use for DJ backdrop, not guaranteed window blackout. New window alternative/support quantities remain measurement- and trial-dependent; no fabric ordered.
+Updated October 21, 2026. **Host direction: bulk fabric, not ready-made curtains; cover all Hollow walls and both windows.** No rods. Hooks/clips and direct tape are accepted; independent clipped panels are proposed. Nothing ordered or physically tested.
 
-Checked September 4, 2026. Research and proposed sample basket only; no cart changes or purchases. Host accepts both hooks + bulk fabric and direct tape; no curtain rods owned. Prices exclude tax/shipping. Brooklyn stock, dispatch date and delivered totals remain unverified.
+## Selected proposal
 
-## Recommended material and alternatives
-| Item | Exact product / purchase link | Observed price | Decision |
-|---|---|---:|---|
-| Matte black stage cloth | [Rose Brand DVT80001, 54-inch 8 oz Duvetyn, Black, FR](https://www.rosebrand.com/duvetyn-54-in-fr-8-oz-black) | $7.60 per cut yard | First-value candidate: brushed matte cotton, sold as masking fabric. A 3-yard cut is $22.80 and measures 54 × 108 inches before folds/trimming. |
-| Richer velvet-like cloth | [Rose Brand 15 oz Encore synthetic velour IFR, black option](https://www.rosebrand.com/15-oz-encore-synthetic-velour-ifr?variant_attribute_nominal_color=30705) | $22.90 per cut yard observed in prior pass; product page rechecked, final variant quote still needed | 62-inch width; 3 yards at this rate = $68.70. More expensive and requires checking panel mass; keep as a texture alternative, not the default room-wide buy. |
-| Removable hooks | [Command 17069-3ES, three large wire hooks + eight strips, Home Depot](https://www.homedepot.com/p/302339723) | $9.93 per 3-pack | Two packs supply six hooks for a trial; four proposed top attachment points with two spares. Only use on compatible surfaces following package instructions. |
-| Simple fabric grip | [Staples 1.25-inch medium black binder clips, 24-pack, Walmart listing](https://www.wal-mart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | Search listing showed $6.21; direct fetch failed | Low-cost clip candidate, not a confirmed delivered quote. Reuse owned binder clips first. Budget $3–$7 for a small pack; no need for a 144-pack. |
+[Big Z black Stretch Velvet Velour Spandex 360 Grams Costume Fabric, SSV360-LA-BLACK](https://bigzfabric.com/collections/stretch-velvet-spandex-360-grams-costume-fabric/products/stretch-velvet-velour-spandex-360-grams-costume-fabric-black-sold-by-the-yard): 58/60-in width, 90% polyester / 10% spandex, two-way stretch. Chrome October 21 showed **$7.34/yd; 40+ yd $6.24/yd**. Budget **40 × $6.24 = $249.60** using the rounded displayed rate. Forty discounted yards cost less than 35 at regular price ($256.90).
 
-Rose Brand's duvetyne page lists opacity as solid, sheen matte and finish brushed. Test against the actual window light before calling the installed result blackout. Product offers a sample option (sample price unverified); cut yardage is nonreturnable. Confirm quantity/unit and stock before checkout. Avoid quoting full-roll price $5.42 as cut-yard price $7.60. Manufacturer nominal fabric weights alone do not establish assembled panel weight; weigh the actual cloth plus clips.
+Plush clothing velvet has some sheen: hang nap consistently. “360 grams” is the seller's label, not an independently verified GSM or complete panel mass. No FR or blackout certification assumed. Test actual opacity and stretch. Enabled quantity/Add to Cart does not guarantee 40 yd can dispatch immediately.
 
-Amazon remains preferred when a matching product is readily available, but no exact matching Amazon fabric/hook/clip offer was verified in this pass. These direct-store links make the options concrete without inventing ASINs. No new store signup or seller message needed for this research.
+**Shipping/arrival unquoted.** [Processing policy](https://help.bigzfabric.com/portal/en/kb/articles/what-is-the-order-process-and-timeline) and [shipping information](https://help.bigzfabric.com/portal/en/kb/articles/shipping-delivery-10-8-2021) describe processing/transit options, not an October arrival promise. Host must check actual delivered price and receipt by Oct 27 before ordering. Shared basket reserves $60 shipping. No cart change, signup or supplier message performed. Inspect before cutting and verify current return terms.
 
-## Suggested full-height trial basket
-- 3 cut yards of 54-inch black duvetyne: $22.80.
-- Two 3-packs of Command large wire hooks: $19.86.
-- Reused binder clips: $0, or small pack allowance $3–$7.
+## Scan-based cut schedule
 
-**$42.66 using owned clips; approximately $45.66–$49.66 buying clips**, before tax/shipping. Using the indexed $6.21 clip listing gives $48.87, but its exact offer remains unverified. This is a priceable test concept, not an instruction to buy a 9-foot drop without measuring. A swatch can check texture/opacity first; the full-height sample checks installation. If ceiling/mounting height needs more than 108 inches plus edge allowance, 3 yards is too short.
+Maximum inside size ~110.0 × 164.2 in, stepped corner, ceiling ~113.5 in. Full perimeter ~548.4 in / 45.7 ft; entry opening ~33.4 in. Windows are included in wall widths, not counted twice. Window tops ~112–113 in leave little wall above glass: actual top support location needs a photo/tape check.
 
-The hook/clip assembly is a DIY proposal, not a manufacturer-approved curtain system. [3M's exact hook page](https://www.command.com/3M/en_US/p/d/b5005604139/) lists a 5 lb hook rating; that does not mean four hooks certify a 20 lb curtain. Wall adhesion, clip slip and pulling on the fabric also matter. Match hook instructions to the actual wall surface; no tape directly onto fuzzy fabric is needed for this version.
+Use minimum **58-in usable width**, **12 drops × 3.25 yd = 39 yd**, plus **1 yd for door-head valance**. Each drop is 117 in before folds; a 3–4-in top fold leaves 113–114 in before lower finishing. Verify mounting-to-finish drop before cutting all twelve. Shallow folds about 1.0–1.05 fullness, not deep theatrical pleats.
 
-## Assembly
-1. Confirm the wall finish and final drop. Hold the material up to the bedroom lighting and window first; choose its matte face toward the room.
-2. Apply hooks on suitable surfaces, with removal tabs accessible; follow preparation and wait times on the selected package. Do not conceal inaccessible adhesive tabs permanently behind glued trim.
-3. Fold the top edge over and grip it with binder clips; flip up a handle to hang each clip from a hook. Check the handle fits the hook and the grip holds the folded cloth without tearing. Four spread points across one 54-inch trial panel is a starting proposal, not a structural specification.
-4. Keep a little slack, not a tensioned line across the wall. Clip/fold the bottom clear of feet for the trial; decide fabric-appropriate edge finishing after selection.
-5. Leave up for at least 24 hours with normal airflow, inspect grip/sag, and test one adhesive removal. Final curtains must still leave windows/ventilation and equipment access usable.
+| Run, as oriented in the plan | Drops allocated | Working widths before small side folds | Hook/clip points |
+|---|---:|---|---:|
+| Right long wall below step, 118.4 in | 3 | 58 + 58 + 12.5 in, two ~2-in overlaps → ~124.5 in | 8 |
+| Rear closet wall, 110.0 in | 2 | 58 + 58 in, ~2-in overlap → 114 in | 6 |
+| Left wall below entry, 122.1 in | 3 | 58 + 58 + 14.5 in, two ~2-in overlaps → ~126.5 in | 8 |
+| Top window wall, 86.2 in | 2 | 58 + 33 in, ~2-in overlap → 89 in | 6 |
+| Five short returns, ~8.6 / 17.6 / 13.8 / 28.1 / 10.1 in | 2, slit into strips | ~10 / 19 / 15 / 30 / 12 in; distribute across the two drops | 10 |
+| Door head | Last 1 yd, cross-cut after actual head height | Shallow valance over opening; entry itself clear | 2 |
+| **Total** | **40 yd** | **15 full-height pieces + one valance** | **40 planned + 2 spare** |
 
-Do not attach branch props, lights or spirits to the same cloth supports without separately assessing the additional load. Hide visible hardware behind a loose fabric fold if practical; don't obstruct removal tabs. A small amount of fabric work is acceptable in the broader project; the premade-only constraint applies to moon stickers.
+Keep substantial full-height width offcuts for stored-bed concealment and guardian shoulders; they are not discarded or a second fabric order. These are estimated cuts; tape-check each run/drop and support interval. Do not glue closet-access panels shut.
 
-## How much fabric later?
-For each separate run, in inches:
-- Number of panels = round up (covered width × chosen fullness ÷ fabric width).
-- Yards per panel = (finished drop + top/bottom finishing allowance) ÷ 36, rounded up to the seller's cut increment.
-- Total yards = panels × yards per panel; calculate separate runs before combining the order.
+## Supports
 
-Use roughly 1.2–1.5 fullness for shallow folds, with 1.0 only for a mostly flat panel. At 1.25 fullness, a 54-inch panel covers about 43.2 inches / 3.6 feet before seam/edge losses.
+[Command 17003-MPES large utility hooks, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524): **$14.61/pack**, retailer page Oct 21; three packs **42 hooks / $43.83**. Local stock not checked.
 
-**Illustration, not the apartment's measurements:** a 12-foot-wide run at 1.25 fullness needs four 54-inch panels. If each needs a 3-yard cut, that is 12 yards = $91.20 cloth. At four mounting points per panel, 16 hooks require six 3-packs = $59.58, plus clips. This makes clear why mounting belongs in the budget; no complete-room total is possible until measurements.
+[Staples 831602 medium black 1.25-in binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277): **$6.19 indexed offer**; direct checkout blocked/unverified. Two packs **48 clips / $12.38**. Reuse suitable clips first.
 
-## Decision and next input
-Recommendation: sample matte duvetyne first; keep velour if the deeper plush look is worth the extra material/support cost. Exact mounting remains conditional on wall finish. Need bedroom wall/window photo, total desired covered widths, mounting-to-floor height and any existing hooks/clips inventory. No additional approval question needed until a concrete purchase is requested; nothing has been ordered.
+**Cloth/support proposal $305.81 before tax/shipping.** These are DIY supports, not a certified curtain system. Do not sum hook ratings. Three points across a wide panel is a trial starting point, not proof of safe spacing. Weigh one complete folded panel; check clip handle fit, grip, actual substrate and removal. Follow exact package preparation/wait directions, observe a loaded sample for at least 24 h, then remove one attachment. Increase support/re-cost if needed.
+
+No tensioned ceiling wire; no branches, lights or guardian on fabric supports. Gaffer is not the plush fabric load system. Keep removal tabs accessible, hems above feet, and windows/vents/heaters reachable through independent removable sections. Cover walls visually without sealing ventilation or wrapping equipment.
+
+## Alternatives, replacing the cloth line
+
+| Source | October 21 evidence | Tradeoff |
+|---|---|---|
+| [Rose Brand DVT80001, black 54-in 8 oz FR duvetyne](https://www.rosebrand.com/duvetyn-54-in-fr-8-oz-black) | $7.60 cut yd; nominal 50-yd roll at $5.42/yd = $271; roll ±10% / actual-length billing could be $298.10 at 55 yd | Brushed matte, less plush; manufacturer comparison reports about 50% light blocking. Recalculate narrower widths, shipping and window backing |
+| [FabricEmpire black stretch velvet 58/60 in](https://www.fabricempire.com/stretch-velvet-fabric-19-black-58-wide-sold-by-the-yard.aspx) | $8.35/yd, 40 yd $334 | $84.40 more before shipping; needs scope cuts |
+| [Fabric Wholesale Direct velvet](https://fabricwholesaledirect.com/products/stretch-velvet-fabric) | Black swatch sold out in Chrome | Excluded; the quantity price shown for White is not a black-fabric offer |
+
+If delivery fails, take this same cut list to a local raw-fabric supplier, match usable width/opacity/weight, and replace the cloth line. Keep all-wall coverage; reduce optional ornaments first. A failed support trial remains an unresolved installation requirement, not permission to claim the full installation passed.

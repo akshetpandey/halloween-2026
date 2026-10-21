@@ -2,7 +2,7 @@
 
 [All decor](../README.md). Room layout lives in each room folder; this folder owns product comparisons, shared fixtures and system choices.
 
-**October 21:** [current fixture allocation / power plan](../final-room-plan.md) and [current prices, variants and alternatives](../shopping-ready.md) take priority over September price snapshots. Host confirms full-color LIFX and **$1,000 decor including permanent lights**. Proposed core is **one permanent Govee Basic + owned LIFX in the living room, one two-PAR kit in the bedroom**, plus separate moons/warm accents. Further permanent upgrades are alternatives within the same ceiling. No installation/test performed.
+**October 21:** [current fixture allocation / power plan](../final-room-plan.md) and [current prices, variants and alternatives](../shopping-ready.md) take priority over September price snapshots. Host confirms full-color LIFX and **$1,000 decor including permanent lights**. Proposed core is **one permanent Govee Basic + owned LIFX in the living room, one two-PAR kit in the bedroom**, plus a handmade light-backed Grove moon, small bath moon and warm accents. All-wall raw velvet is now in scope; the [budget bedroom page](02-bedroom-party.md) supersedes premium rental examples. Further permanent upgrades are alternatives within the same ceiling. No installation/test performed.
 
 - [Overall lighting and power](overview.md)
 - [Living-room permanent upgrade](01-living-room-permanent.md)

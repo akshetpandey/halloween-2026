@@ -1,5 +1,7 @@
 # Friday halo comparison handoff
 
+**Final update:** last COSUCOS reload changed to Saturday October 24, so removed from active Friday shortlist. Only TRDDYYY/Zivyes Thursday offers presented as deadline choices; base plus one is $427.31/$430.31. Earlier three-option observations below are superseded on COSUCOS availability, not a third current recommendation.
+
 - Session title and ID: Black fur Eclipse Friday halo comparison, current chat.
 - Updated date: October 21, 2026, America/New_York EDT.
 - Scope / owned files: 11 comparison, family README/tracker, 09 shopping, operations costume budget/decisions, this handoff.

@@ -9,7 +9,7 @@
 | KING-05 | Build and fit crown/veil and short mantle | To do | Materials; unaltered crown try-on; prewash mantle before sizing |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
-| KING-08 | Assemble second City of Gods look | Black fur confirmed; three appearance-led halo alternatives sourced, choice/fit pending | [Friday halo options](11-friday-halo-options-2026-10-21.md); artisan/all-metal not required; no maker messages |
+| KING-08 | Assemble second City of Gods look | Black fur confirmed; two appearance-led Thursday halo options, choice/fit pending | [Friday halo options](11-friday-halo-options-2026-10-21.md); long COSUCOS now Saturday/excluded; no maker messages |
 | KING-09 | Make both looks work with overnight warm layers | Fur selected visually, shared functional PUFFTECH backup proposed | [Refreshed Small pickup stock](09-final-weekend-shopping-2026-10-21.md) and [layering strategy](07-cold-weather-layers-2026-10-21.md); actual warmth/removal still untested |
 
 Current gates October 21: user chooses one [halo](11-friday-halo-options-2026-10-21.md), then orders/picks up pieces October 21–22. Black fur confirmed; material restriction relaxed. Thursday try received chain/mesh/cuffs. **Fur, crown, Small beige shirt and gold netting show Friday Oct 23 in dated checks**, requiring Friday pre-departure fitting. Proposed Eclipse Friday / King Saturday; night split not separately fixed. October 31 compact crown reuse possible. No purchase/fitting reported.

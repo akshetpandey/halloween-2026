@@ -39,6 +39,8 @@ Host accepts a smaller bone-look crown for City of Gods because large antlers wi
 
 **Latest halo clarification, October 21:** **black fur confirmed**. Halo need not be artisan or all metal; better appearance than rejected Zoestar is the requirement. [11](../host-costume/11-friday-halo-options-2026-10-21.md) shows compact clustered TRDDYYY Gold $9.99/Thursday, fuller Zivyes Gold $12.99/Thursday and long COSUCOS Glod $23.99/Friday with tight cutoff, checked to 11211 in selected buy boxes. Choose one; no user selection or order yet. Earlier premium-search failure is not a failure to find visually better mass-market alternatives under this clarified brief. No maker messages, same $500 ceiling.
 
+**Final availability update in the same pass:** COSUCOS reload now shows **Saturday October 24**, after Friday cutoff expired. Excluded from the Friday shortlist/budget scenarios; present only TRDDYYY and Zivyes Thursday offers as current deadline choices. No order.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

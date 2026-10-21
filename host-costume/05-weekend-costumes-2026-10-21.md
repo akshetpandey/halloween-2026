@@ -25,6 +25,8 @@ The earlier $100.56 seven-item subtotal is **not a current complete basket**. Re
 
 ## Recommended split
 
+**Latest cold-weather requirement:** the user expects 10 p.m.–4 a.m., potentially continuing 4–9 a.m. Add the [three-mode layering plan](07-cold-weather-layers-2026-10-21.md) to both looks; neither mesh nor gauze is sufficient outerwear. Reuse one genuinely warm coat if possible. Exact optional Small coat/cardigan offers and Friday-delivery caveats live there; no new layer selected or purchased. These are external-event hours, not a change to October 31 home-party timing.
+
 **Friday: Eclipse God.** Gold sunburst halo, black mesh tank, retained gold body chain, **owned black jeans** and shoes; optional gold cuff pair below. Styling recommendation: solid dark black gives the jewelry more contrast and separates this look from the green/ivory King; green is workable but more woodland. Try jeans first. If heavily faded/distressed or the host wants a dressier silhouette, consider black pleated relaxed-straight trousers rather than buying another pair of jeans. No new trouser purchase assumed. This is our interpretation, not an official required character. A plain black underlayer remains optional if less sheer coverage is wanted.
 
 **Saturday: compact Antler King.** Smaller bone-look crown (specific item still needed), beige lace-up cotton shirt, short doubled gauze shoulder drape, gold mesh for photos. Keep veil lifted back/off while moving or dancing. Use a simple removable panel, not a tall load-bearing antler canopy. Mesh was observed arriving Friday, leaving Saturday for fitting. Earlier large antlers below are historical fallbacks, not the latest weekend recommendation.

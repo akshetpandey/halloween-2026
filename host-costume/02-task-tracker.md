@@ -10,6 +10,7 @@
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
 | KING-08 | Assemble second City of Gods look | Host likes chain version; black-jeans reuse and gold cuffs proposed | [Current styling and exact cuff offer](05-weekend-costumes-2026-10-21.md); user order/fit test |
+| KING-09 | Make both looks work with overnight warm layers | Three-mode plan ready; owned coat/thermal inventory pending | [Cold-weather plan](07-cold-weather-layers-2026-10-21.md); real coat in hand, fit and removal checks |
 
 Current gates October 21: user orders/pickup requests October 21–22; try unaltered pieces Thursday October 22; proposed Eclipse look Friday October 23 and Antler King Saturday October 24, allowing Friday mesh arrival. October 31 host-costume reuse still planned. No costume purchase or fitting reported. Earlier October 18 fit target was missed, not a future deadline.
 

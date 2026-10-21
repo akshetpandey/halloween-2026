@@ -23,6 +23,8 @@ Host accepts a smaller bone-look crown for City of Gods because large antlers wi
 
 **Later feedback supersedes the unresolved chain preference above:** host likes the gold body chain and says it improves Eclipse. Retain it. Host is willing to buy additional pieces and be a bit extra within the same $500 ceiling; usual trouser waist **28–30 inches**, inseam **30–32**, and **black jeans already owned**. Try black jeans for Eclipse and retain green for King as a styling recommendation, not a physical fit result. Gold cuff pair is an optional proposed upgrade with dated Amazon delivery evidence in the current weekend plan. No new trouser purchase, costume checkout, reserved pickup or external message.
 
+**Overnight costume requirement, later October 21:** user reports a 10 p.m.–4 a.m. external event with possible 4–9 a.m. afterparty and asks for warm layers that suit the costumes. Use the [cold-weather layering plan](../host-costume/07-cold-weather-layers-2026-10-21.md): a real shared warm coat, removable midlayers and optional thermal base; no reliance on gauze/costume cape for warmth. These user-reported external hours do not change October 31 home-party timing. Owned outerwear inventory and exact layer selection remain open; no new purchase or afterparty reservation.
+
 | ID | Decision / fact | Date |
 |---|---|---|
 | D01 | Party Saturday October 31, 2026 | Sep 3 |

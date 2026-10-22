@@ -1,5 +1,7 @@
 # Solar corona options for Eclipse
 
+**Sourcing history after the October 21 order:** the user's order contains Atoden, Zivyes and Zoestar halos, which can be compared in person; neither COSUCOS/BLESSUME option below is ordered. [Current order and remaining list](09-final-weekend-shopping-2026-10-21.md) owns actual costs and ETAs. Do not add another halo or use this page's earlier budget scenarios as current spending. The bone crown now estimates Saturday, so Eclipse Friday / King Saturday is proposed, conditional on delivery and fit. The remaining text records the earlier research pass.
+
 The Eclipse headpiece must visibly radiate like the sun. Ordinary medieval crowns, fleur-de-lis points and black gemstones do not meet that requirement. The user rejects both royal crowns in [12](12-eclipse-round-crowns-2026-10-21.md); their shopping recommendations are withdrawn. Black fur, gold body chain and black jeans remain the costume direction. Antler King Friday October 23 / Eclipse Saturday October 24 is allowed if useful, not a fixed assignment.
 
 ## Two new Friday options

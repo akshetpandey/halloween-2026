@@ -1,0 +1,27 @@
+# Amazon costume order reconciliation handoff
+
+- Session title and ID: Amazon costume order reconciliation, current local Codex session.
+- Updated date: October 21, 2026, America/New_York / EDT (UTC−04:00).
+- Scope / owned files: costume README, look brief, task tracker, sourcing index, current shopping/order list and solar shortlist history marker; shared budget, decisions and task tracker; this handoff. No decor/game/music implementation changes.
+- Checkout, branch and base commit: `/Users/akshet/workspace/halloween-2026`, shared `main`, base `531664437662c09b2f95446903ab2a49dcbb4a17`. No branch/worktree created.
+- Status: **Complete for order audit and list updates**; deliveries, remaining buying and physical fitting are ready to continue.
+- Confirmed user decisions: October 21 user reports Amazon orders placed and requests website cross-check/list updates. Existing Small sizing, black-fur Eclipse, gold body chain, compact King crown, $500 total ceiling and no maker messages remain unchanged. No purchase/cancellation/return authority granted to the agent.
+- Proposals awaiting a decision: choose the keeper among three ordered halos after receipt; confirm jeans and functional warmth pickup; Eclipse Friday / King Saturday is proposed because the bone crown now estimates Saturday. Any compact October 31 tier-up remains unpriced and unpurchased.
+- Completed work and canonical file links:
+  - [Order and remaining purchases](09-final-weekend-shopping-2026-10-21.md): seven items, one each, item subtotal $146.48, shipping $0, estimated tax $5.49, order grand total **$151.97**. Small/Black clothing titles confirmed in Order Details.
+  - **Thursday Oct 22:** Nicute body chain and Zoestar Gold halo. **Friday Oct 23:** JOGAL S/Black mesh, Gihuo Black-S fur, Atoden halo and Zivyes halo. **Saturday Oct 24:** Sosation bone-look crown. Actual order estimates replace earlier product-page quotes; mesh moved from Thursday to Friday and crown from Friday to Saturday.
+  - King shirt, gauze and gold netting are absent from the latest costume order; optional cuffs also absent. Levi's, PUFFTECH and pigment purchases/pickups are unconfirmed, not proof they were never bought elsewhere.
+  - [Costume tracker](02-task-tracker.md), [README](README.md), [brief](01-look-and-build.md), [sourcing index](03-sourcing-shortlist.md) and [solar history](13-solar-corona-shortlist-2026-10-21.md) no longer instruct buying another halo by default or call all pieces unpurchased. COSUCOS/BLESSUME were not in the order.
+  - [Shared budget](../operations/budget.md): $151.97 order + $258.81 remaining merchandise at earlier October 21 quotes + $20 supplies estimate + $24.51 remaining tax/price reserve = **$455.29**, **$44.71** below ceiling. All three halos counted once, no refunds assumed, $5.49 already included tax deducted from original $30 reserve.
+  - [Decisions](../operations/decisions.md) and [master tracker](../operations/task-tracker.md) distinguish ordered, remaining and untested; unrelated decor status preserved.
+- Checks actually run and results: signed-in Chrome Amazon Orders and costume Order Details read; line items, quantities, titles, prices, summary and ETAs reconciled. Integer-cent arithmetic and all seven ASIN/ETA rows passed. **162 local Markdown file/heading targets across ten files passed**; two old costume anchor references repaired. Private order-ID/URL pattern scan passed. `git diff --check` and `git diff --cached --check` passed; staged diff reviewed with only the intended files present.
+- Purchases / external changes / deployments actually performed: **None by the agent.** User's existing order verified read-only. No cart edits, messages, reservations, returns, cancellations, payment/address changes or deployments. No delivery, settled-charge, fit or warmth test claimed.
+- Remaining work in priority order:
+  1. User resolves King shirt/short mantle/gold netting and confirms local jeans/warmth purchases; old quotes need stock/arrival recheck before buying.
+  2. Receive Thursday/Friday Eclipse pieces, compare halos unaltered and test clothing/chain/headpiece fit, movement, snagging and quick removal before departure.
+  3. Receive Saturday crown before relying on King; check large-fit/tip risks unaltered, independent veil support and face-clear dancing. No exact in-hand NYC bone-crown backup verified.
+  4. Confirm a real warm layer for queues/return/possible dawn afterparty; decorative fur alone is not a tested insulation plan.
+  5. Record actual receipts/fit results and any separately authorized returns or later purchases. Do not assume refunds to create budget room.
+- Dependencies on sibling tasks: costume allocation remains provisionally inside total party budget; full party allocation is not reconciled here. Winner crown stays separately owned by the game. No unrelated older Amazon orders were added to the costume ledger.
+- Unpersisted conversation details or access limitations: Amazon account address, order number, payment details and raw order snapshots are deliberately excluded. Other retailer accounts/local receipts were not checked. Remaining-item offers were not refreshed during this order audit.
+- Commit(s) on main and remaining unrelated dirty files: focused commit planned as `Reconcile Amazon costume order and remaining purchases`; resulting hash reported in final response, not self-inserted here. Checkout was clean at start; only the named costume/operations files were changed during this work. No push requested.

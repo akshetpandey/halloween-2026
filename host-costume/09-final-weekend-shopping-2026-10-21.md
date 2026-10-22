@@ -1,94 +1,109 @@
-# Final two-costume shopping list — October 21, 2026
+# Two costume shopping and order status
 
-**Latest solar correction:** ordinary SWEETV/Feltent royal crowns rejected for losing the solar halo theme. [13 — solar corona shortlist](13-solar-corona-shortlist-2026-10-21.md) is current: **COSUCOS double-arc 10 Kc Glod $16.99** cleaner pick or **BLESSUME C $22.87** ornate option, both selected buy boxes **Friday Oct 23 to 11211**. Add one to the base below: **$434.31 / $440.19 planning envelopes**. No true 360-degree solar crown verified. Black fur retained; King Friday / Eclipse Saturday permitted if useful, not fixed. Earlier headpiece scenarios are superseded.
+Updated October 21, 2026. **Seven costume items are ordered from Amazon: $151.97 including estimated tax.** The order contains black fur, a Small black mesh tank, the gold body chain, three solar halos and the compact bone-look crown. The remaining list is below; do not order another halo just because an earlier shortlist recommended one.
 
-**Current buying list; supersedes earlier totals/dates in 05/07/08.** Black fur confirmed. Host likes actual Sosation branching crown and may use a tier-up compact version October 31. User chooses a solar headpiece from 13; no premium bone-crown replacement established. **$500 total ceiling unchanged. User orders/collects; nothing purchased, carted, reserved or messaged by the agent.** Product choices are recommendations, not evidence of payment or physical fit.
+**Timing change: the bone crown now estimates Saturday October 24, not Friday.** Fur and mesh estimate Friday October 23. Eclipse Friday / Antler King Saturday is therefore the practical proposed split, subject to actual delivery before departure and obtaining the King's remaining clothes. The previously permitted King Friday / Eclipse Saturday swap is not supported by this crown's current ETA.
 
-Checked October 21 in signed-in Chrome, Amazon destination **Brooklyn 11211**. All Amazon essentials below displayed free delivery **by Friday October 23** in the specified variant. Promises can change at checkout; Friday delivery leaves limited fit time. Prices before tax, no speculative coupons or cross-item discounts counted. Dates are America/New_York / EDT (UTC−04:00).
+The **$500 total costume ceiling** covers both October 23–24 looks and King reuse October 31. Dates below are America/New_York / EDT (UTC−04:00). Ordered does not mean delivered, fitted or warmth-tested.
 
-## 1. Eclipse God — the approved black-fur look
+## Verified Amazon order
 
-| Buy one unless stated | Exact selection | Price | Current delivery / pickup |
+Order placed October 21; quantities are one each. Prices and ETAs below come from signed-in Amazon **Order Details**, checked October 21, rather than current product-page quotes. [Amazon Orders](https://www.amazon.com/gp/css/order-history) is the live delivery reference; account, payment and private order identifiers are not stored here.
+
+| Ordered item | Selection confirmed in order | Item price | Order delivery estimate |
 |---|---|---:|---|
-| [Gihuo short black faux-fur jacket](https://www.amazon.com/dp/B0F4X9GTPM) | **Small / Black** | **$49.99** | Amazon **Fri Oct 23** |
-| [JOGAL black mesh tank](https://www.amazon.com/dp/B07D7S3RCF) | **Small / Black** | **$14.99** | Amazon **Thu Oct 22** |
-| [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold collar/chest/waist drape pictured | **$19.62** | Amazon **Thu Oct 22** |
-| [Solar coronas — choose one](13-solar-corona-shortlist-2026-10-21.md) | **COSUCOS 10 Kc Glod B0DJ26RG7G** or **BLESSUME C B0B7RMT6YL** | **$16.99 / $22.87** | Both selected buy boxes **Fri Oct 23**. Add one price to base subtotals; no royal crown or extra halo |
-| [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066) | **Welcome To The Rodeo — Black**; **29 × 30 checked** | **$110.00** | **NYC pickup**: Times Square in stock; 34th Street / Hudson Yards fewer than five. All displayed ready within three hours, not an order-ready confirmation |
-| [BROCC gold cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z) | **Color B / New; two cuffs** | **$13.99** | Amazon **Thu Oct 22** |
-| **Eclipse listed subtotal, excluding unresolved halo** | Shoes reused; new jeans included once | **$208.59** | No replacement shoes or extra necklace |
+| [JOGAL mesh tank](https://www.amazon.com/dp/B07D7S3RCF) | **S / Black** | $14.99 | **Friday October 23**; previously quoted Thursday |
+| [Atoden solar halo](https://www.amazon.com/dp/B0FF13ZL35) | Solar headpiece | $14.99 | **Friday October 23** |
+| [Gihuo faux-fur jacket](https://www.amazon.com/dp/B0F4X9GTPM) | **Black-S** | $49.99 | **Friday October 23** |
+| [Zivyes halo](https://www.amazon.com/dp/B08QMVZYN2) | Solar headpiece | $12.99 | **Friday October 23** |
+| [Zoestar halo](https://www.amazon.com/dp/B0GFCZ3KG2) | **Gold** | $9.99 | **Thursday October 22** |
+| [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold body-chain piece | $19.62 | **Thursday October 22** |
+| [Sosation branching bone-look crown](https://www.amazon.com/dp/B0H69GX4HF) | Compact branching crown | $23.91 | **Saturday October 24**; previously quoted Friday |
 
-Wear the fur open over the mesh and body chain; chain supported by the base outfit, not threaded into fur. Cuffs are the first extra gold accent, not another torso necklace. [The approved preview](06-weekend-costume-renders-2026-10-21.md#d--eclipse-with-short-black-faux-fur-and-black-jeans) used **slim-straight** jeans; these Levi's are a deliberately roomier silhouette, not the exact illustrated pair. Later live check retained Small/Black at $49.99 Friday; [Small/Blackgrey](https://www.amazon.com/dp/B0FKMF76G8) also $49.99 Friday. Actual gray photo inspected; black remains recommended for gold contrast, not because gray is unavailable. See 10 for comparison.
+| Order summary | Amount |
+|---|---:|
+| Items | **$146.48** |
+| Shipping and handling | **$0.00** |
+| Total before tax | **$146.48** |
+| Estimated tax to be collected | **$5.49** |
+| **Grand total** | **$151.97** |
 
-### Jeans: fit, blackness and pickup
+All three halos count once in this order. Compare them in person and choose the final keeper after checking appearance, tips, stability and comfort; **no return, refund or cancellation is assumed**. Zoestar/Zivyes were aesthetically rejected during earlier sourcing, but the user's actual order supersedes their unpurchased status. COSUCOS B0DJ26RG7G and BLESSUME C B0B7RMT6YL from [13](13-solar-corona-shortlist-2026-10-21.md) are **not in this order** and are no longer an extra item in the active basket.
 
-Actual product photo inspected: deep solid black rather than a faded charcoal wash. **568 is loose-straight, not Levi's widest/extreme-baggy cut.** Website fit copy inconsistently calls the leg straight/tapered; photo shows a roomy fall and a stacked ankle. 100% cotton, nonstretch. Host's usual waist 28–30 / inseam 30–32 does **not** establish exact Levi's fit. **29 × 30 is a checked try-on starting point, not a prescribed size.** Other waist/inseam store stocks were not verified; select the actual size before ordering.
+## Remaining purchases and pickup options
 
-Verified pickup-location panel for **29 × 30 / this black wash**, with “only stores with stock” enabled:
+These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. Prices and stock notes are from the earlier October 21 sourcing pass, not a fresh availability check; recheck selected variants and arrival/pickup before buying.
 
-- **Times Square:** 1535 Broadway, New York 10036; 347-809-5241; shown in stock; published daily 09:00–23:00.
-- **34th Street:** 45 West 34th Street, New York 10001; 212-643-4358; fewer than five; published daily 10:00–20:00.
-- **Hudson Yards:** 20 Hudson Yards RU224A, New York 10001; 332-206-8501; fewer than five; Mon–Sat 10:00–21:00, Sun 11:00–19:00.
-
-Site advertised $25 off $100 / $50 off $150 / $75 off $200, auto-applied at checkout. **Not applied or counted here**; don't buy unnecessary items to unlock it. Older indexed $77 prices did not match the current $110 product page. Prefer a local try-on and check the leg hem won't drag underfoot.
-
-## 2. Compact Antler King
-
-| Buy one unless stated | Exact selection | Price | Current delivery |
+| Priority | Item and selection | Earlier quoted price | Status and next action |
 |---|---|---:|---|
-| [Sosation branching bone-look antler crown](https://www.amazon.com/dp/B0H69GX4HF) | Pale warm-ivory/blush material pictured; one size | **$23.91** | Amazon **Fri Oct 23**, in stock; exclusive Prime offer observed |
-| [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL) | **Small / Beige**, not White or Beige D | **$19.99** | Amazon **Fri Oct 23** — **moved from Thursday** in earlier notes |
-| [FEXIA gauze shoulder cloth](https://www.amazon.com/dp/B0BQBSXHB3) | **Beige / 1 Pack–10FT**, 35 × 120 inches | **$8.99** | Amazon **Thu Oct 22** |
-| [CABODYALS gold netting](https://www.amazon.com/dp/B0G1MJB43K) | **Golden / 1 yard × 50.39 inches** | **$9.99** | Amazon **Fri Oct 23**, 14 remaining shown |
-| **King subtotal** | Owned dark-green trousers and shoes | **$62.88** | Reuse optional gold cuffs/pigment rather than duplicate |
+| King base | [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL), **Small / Beige**, not White or Beige D | $19.99 | **Not confirmed ordered.** Earlier buy box said Friday; verify again before relying on it |
+| King shoulders | [FEXIA gauze cloth](https://www.amazon.com/dp/B0BQBSXHB3), **Beige / 1 Pack–10FT**, 35 × 120 inches | $8.99 | **Not confirmed ordered.** Short shoulder mantle; earlier Thursday quote is not an order ETA |
+| King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered.** Preferred gold textile, not chainmail; earlier Friday quote needs rechecking |
+| Eclipse jeans | [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066), **Welcome To The Rodeo — Black** | $110.00 | **Pickup/purchase unconfirmed.** 29 × 30 was checked at Times Square, 34th Street and Hudson Yards; try on first |
+| Optional gold accent | [BROCC cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z), **Color B / New**, two cuffs | $13.99 | **Not confirmed ordered.** One pair shared between looks; no second necklace needed |
+| Functional warmth | [UNIQLO PUFFTECH Jacket, 486171](https://www.uniqlo.com/us/en/products/E486171-000/00?colorDisplayCode=09&sizeDisplayCode=003), **Men S / 09 Black** | $79.90 | **Pickup/purchase unconfirmed.** Earlier [Small inventory](https://www.uniqlo.com/us/en/products/E486171-000/00/store-inventory?colorDisplayCode=09&sizeDisplayCode=003) showed Manhattan stores, not Williamsburg |
+| Optional gold makeup | [Mehron Artist Pigment, Yellow Gold](https://abracadabranyc.com/products/mehron-metallic-artist-pigment?variant=46682438664354), **129-AP-YGD** | $15.95 | **Pickup/purchase unconfirmed.** Earlier NYC stock at Abracadabra, 19 W 21st Street; await ready notice |
+| **Unconfirmed merchandise total** | Includes all optional rows above | **$258.81** | Not a placed order or current delivered quote |
+
+Shoes and dark-green King trousers are owned. Faded black jeans can be a fallback if the host decides against new Levi's. Small tops, usual waist 28–30 and inseam 30–32 are confirmed; these are not garment fit results. Clips/safety pins, soft padding and ribbon retain a **$20 estimated allowance**, with no exact products or purchase confirmed.
+
+### Jeans fit and pickup
+
+The inspected Levi's photo showed deep solid black, not charcoal. **568 is loose-straight, not Levi's widest/extreme-baggy cut.** Site copy inconsistently calls the leg straight/tapered; the photo shows a roomy fall and stacked ankle. Fabric is 100% cotton, nonstretch. **29 × 30 is a checked try-on starting point, not a prescribed size.** The approved [fur preview](06-weekend-costume-renders-2026-10-21.md#d--eclipse-with-short-black-faux-fur-and-black-jeans) used slimmer jeans; the 568 deliberately changes that silhouette.
+
+Earlier October 21 pickup panel for this wash and 29 × 30 showed Times Square in stock and 34th Street/Hudson Yards fewer than five, advertised ready within three hours. Those were not holds or ready notices:
+
+- **Times Square:** 1535 Broadway; published daily 09:00–23:00.
+- **34th Street:** 45 West 34th Street; published daily 10:00–20:00.
+- **Hudson Yards:** 20 Hudson Yards RU224A; published Mon–Sat 10:00–21:00, Sun 11:00–19:00.
+
+No advertised multi-item promotion is counted. Select the actual size before requesting pickup, and check that the hem will not drag underfoot.
+
+## Styling and fit checks
+
+### Eclipse
+
+Wear the black fur open over the mesh and gold body chain, with deep-black jeans. Support the chain on the base outfit, not through the fur. Choose among the **three already ordered halos**, not an automatic fourth purchase. Optional cuffs add gold without competing with the body chain.
+
+The fur is the approved visual layer, not proven overnight insulation. For queues, outdoor periods and the trip home, arrange a real warm layer such as the proposed PUFFTECH; collect it before relying on it. Try it under the fur only if sleeves and closure fit. Retrieve any coat before moving to a separate afterparty. A thin black long-sleeve base is an optional more covered Eclipse version; no exact thermal SKU is selected. Do not depend on decorative fur alone through a possible 4–9 a.m. afterparty.
 
 ### Crown assessment — actual product, not the AI crown
 
-The Sosation crown is the closest verified deadline option in this pass: **interlaced pale branching circlet with upright forked tips close to the head**, not two broad deer fans. Actual worn photo inspected. **Host now explicitly likes this actual product**; may reuse a similar compact direction October 31. Later live refresh still $23.91 Prime, in stock, free Friday Oct 23 to 11211. **PLA plastic, not actual bone**; smooth warm pale finish rather than the render's weathered chalky skeletal texture. It is more ornate/elf-like than that AI concept. No promise of a screen-accurate Yellowjackets piece.
+The **ordered Sosation crown** is an interlaced pale branching circlet with upright forked tips close to the head, not broad deer fans. The host likes this actual product and may reuse a similar compact direction October 31. Its **Saturday order ETA supersedes the earlier Friday product-page estimate**. It is PLA plastic, not actual bone, with a smooth warm pale finish rather than the render's weathered skeletal texture; it is not a screen-accurate Yellowjackets replica.
 
-Seller description dimensions: approximately **22 × 20 × 12.5 cm overall**; these are not head circumference or tine projection above the hair. Open-back design. Later catalog bullets list 13.78 × 6.69 × 4.72 inches / 5.28 oz, inconsistent with description dimensions; do not treat these as independently verified worn dimensions or finished mass. **Material fit risk:** 3.4/5 from four ratings at this check, with visible reviews reporting large fit. Try unaltered first. A discreet ribbon at the back and removable soft padding are potential fit aids, not a guarantee. Do **not** follow the seller's heat/force-bending suggestions as the default last-minute fix. Do not accept a shifting crown or sharp tip near the face. Refund/replacement offer observed; actual return eligibility depends on condition/policy.
+Earlier seller dimensions were inconsistent: approximately 22 × 20 × 12.5 cm in the description versus 13.78 × 6.69 × 4.72 inches / 5.28 oz in catalog bullets. Neither establishes head circumference or verified worn mass. The earlier check showed 3.4/5 from four ratings, with large-fit reports. **Try unaltered first.** Removable soft padding or a discreet back ribbon may help, but do not guarantee fit. Do not heat/force-bend it as a last-minute default or wear a shifting crown/sharp tip near the face.
 
-For the look: fold the gauze double into a shoulder mantle, **ends above hips**, pin to clothing without a tight throat tie. Clip a small gold-net panel to a padded band/base independently of the tines; **veil lifted/off while walking and dancing**. Cloth is polyester despite “cheesecloth” naming; netting is textile, not chainmail. Need actual visibility, snag and movement check.
+For King, fold the gauze double into a short mantle with ends above the hips; attach to clothing without a tight throat tie. Clip a small gold-net panel to a padded independent support, not the tines. **Veil lifted/off for walking and dancing.** Gauze is polyester despite its cheesecloth name; the veil is textile, not mail. Test sightlines, snagging, quick removal and sitting/dancing before wear. The functional coat may go over the shirt; do not mistake the pale drape for warmth.
 
-## 3. Shared warmth and optional extra gold
+Gold pigment is optional. Use cosmetic product according to its label; patch test, avoid inhaling loose powder and keep it away from the eye/waterline. The quoted pigment is not a powder/mixing-liquid kit; mixing liquid is a separate unbudgeted purchase. No craft glitter or craft paint on skin.
 
-| Item | Selection / cost | Verified local route / limitations |
-|---|---|---|
-| [UNIQLO PUFFTECH Jacket, 486171](https://www.uniqlo.com/us/en/products/E486171-000/00?colorDisplayCode=09&sizeDisplayCode=003) | **Men S / 09 Black — $79.90** | Small/Black [inventory page](https://www.uniqlo.com/us/en/products/E486171-000/00/store-inventory?colorDisplayCode=09&sizeDisplayCode=003) refreshed: **SoHo, Union Square, World Trade Center, 5th Ave and Bryant Park in stock**, Pick Up Today. **Williamsburg out of Small.** Stock based on earlier today, not a hold |
-| [Mehron Artist Pigment, Yellow Gold](https://abracadabranyc.com/products/mehron-metallic-artist-pigment?variant=46682438664354) | **Yellow Gold / SKU 129-AP-YGD — $15.95**, optional for either night | **13 NYC / 11 NJ** shown after choosing Yellow Gold; exact shade/product photo inspected. NYC pickup at **19 W 21st Street**; wait for ready notice. Gold powder for a light shimmer, not the discontinued powder/mixing-liquid kit |
+## Budget after the order
 
-**Warmth:** bring the PUFFTECH for queues, outdoor periods and return home; use venue coat check when appropriate and retrieve it before a separate afterparty. It is the functional backup, not a substitute for the approved fur styling. Try it under the roomy fur only if sleeves/closure fit; do not assume stacking works. For King it can go over the shirt, with the pale short drape for photos. A thin black long-sleeve base under Eclipse's mesh is an optional more covered version if substantially outdoors, but no exact new thermal SKU is selected. Gloves/warm socks/hat: use suitable owned pieces if available; inventory not confirmed. **No purchased layer is temperature-tested; don't depend on decorative fur alone through 4–9 a.m.**
-
-**Gold finish:** my recommendation is cuffs plus a little cosmetic shimmer at the temples/upper cheeks, not a second necklace or extra full-body gold. Follow the label; patch test, avoid inhaling loose powder and keep it away from the eye/waterline. Retailer permits dry use for shimmer; mixing liquid would be a separate purchase for a painted metallic finish and is **not included**. No craft glitter or craft gold paint on skin. No ring purchase required without knowing fit.
-
-## 4. Total and small supplies
-
-| Scope | Subtotal before tax / small supplies |
+| Component | Amount |
 |---|---:|
-| Eclipse including new Levi's, fur and cuff pair; **no halo yet** | **$208.59** |
-| King including the newly sourced crown | **$62.88** |
-| **Both looks, excluding unresolved halo** | **$271.47** |
-| Both + shared PUFFTECH; no halo | **$351.37** |
-| **Both + PUFFTECH + optional Yellow Gold pigment; no halo** | **$367.32** |
+| **Placed Amazon order, including $5.49 estimated tax** | **$151.97** |
+| Remaining merchandise, including all optional items above | $258.81 |
+| Small supplies estimate | $20.00 |
+| Remaining tax/price reserve: original $30 less $5.49 included above | $24.51 |
+| **Full optional planning envelope** | **$455.29** |
+| **Headroom below unchanged $500 ceiling** | **$44.71** |
 
-Reserve **$20 estimated** for a few small clips/safety pins, soft padding and ribbon; **$30 conservative tax/price buffer**, not a tax calculation. **$417.32 incomplete planning envelope**, with **$82.68 below the $500 ceiling for the missing halo AND any needed thin base/other warmth, transport or price changes**. Rejected halo removed, not refunded; nothing purchased. No exact supplies/store stock, delivery fee or travel cost quoted. This is **not a complete costume basket, checkout-confirmed delivered total or money spent**. If skipping new jeans, subtract $110; if skipping pigment, subtract $15.95. No late artisan crown/halo is included. Don't add old historical basket scenarios to this total.
+This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. Final tax collection/charges, remaining stock, travel and any additional warmth needs can change the total. Skipping new jeans reduces the plan by $110; skipping cuffs/pigment reduces it by $13.99/$15.95. The earlier $417.32 pre-halo and $434.31/$440.19 single-new-halo scenarios are superseded, not extra charges. [Shared budget](../operations/budget.md) carries the same reconciliation.
 
-## 5. Order / collect / fit sequence
+## Receipt and fitting sequence
 
-1. **Today, Oct 21:** user orders the exact Amazon choices, checking every selected variant still says arrival by **Fri Oct 23**. Priority is **fur, crown, Small beige shirt and gold netting**, all currently Friday. Order the remaining Thursday items too; don't wait on a Friday list refresh.
-2. **Today/tomorrow:** try Levi's locally; 29 × 30 is verified stock, not a fit verdict. Request pickup only for the chosen size and wait for ready notice. Collect Small black PUFFTECH from a named in-stock Manhattan store if needed. Abracadabra is an optional separate stop for Yellow Gold, not a required crown detour.
-3. **Thursday:** try any received chain, mesh and cuffs; get clips/padding/ribbon as needed. **Both new solar headpieces show Friday. Do not assume the King shirt, fur or bone crown arrives Thursday.**
-4. **Friday before departure:** fit newly arrived pieces unaltered, check chain snagging, crown stability/tip clearance and internal edges, clear sightlines and quick removal. Ensure adequate in-hand warm layer. User permits King Friday / Eclipse Saturday if needed; decide after pieces are in hand. This does not eliminate King's Friday-delivery dependencies.
-5. No item should be worn or modified past returnability before checking it works. If crown fit is unsafe, do not force it; an exact bone-look in-hand NYC backup was **not** established. Local general crowns are different aesthetics, not verified replacements for the render.
+1. **October 21–22:** resolve the King shirt, shoulder cloth and netting first; none appears in this order. Try jeans locally and arrange a functional warm layer. Recheck any new delivery/pickup promise before committing.
+2. **Thursday October 22:** expected Nicute chain and Zoestar halo. Inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is promised in this shipment.
+3. **Friday October 23:** expected Small black fur, Small black mesh, Atoden and Zivyes halos. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. **Eclipse Friday is proposed, not a guaranteed complete outfit before delivery.**
+4. **Saturday October 24:** expected Sosation crown. Complete King crown/veil/mantle fit before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established. Do not plan King Friday around this package.
+5. Leave tags/condition intact until fit and return eligibility are checked. Unsafe or uncomfortable headwear is not a wearable backup. No returns, cancellations, exchanges or messages have been initiated.
 
-## Fancier crown / rejected routes — don't spend just to spend
+## Earlier sourcing history
 
-- The direct [Abracadabra Gold Laurel Leaf Crown](https://abracadabranyc.com/products/laurel-leaf-crown-in-gold), $39.95, showed **only four at Wall NJ**, not NYC shelf stock. Site says transfers usually within 24 hours, not guaranteed; **not a confirmed NYC pickup upgrade** and not bone-look.
-- Abracadabra sun/moon/stars and Mary ornate halos show sold-out signals; don't use collection cards as readiness proof. Its crown/halo search pages were inspected, including metal/royal/flower alternatives; these do not improve this pale branching brief enough to replace the main crown.
-- A [ready-made Aviatrix NYC skull/lace-fan headdress](https://www.aviatrixnyc.com/shop-michellepalmer/p/mardi-grascarnival-headdress-day-of-the-deaddia-de-los-muertos-headpiece-skull-headdress-lace-fan-headpiece-halloween-headdress) is $795, beyond the **entire** costume ceiling and bulky; no visit/pickup arranged. Party Expert's haunted bone crown/veil was sold out online and Canadian-priced; not a deadline alternative. No premium smaller bone crown with confirmed NYC pickup found in this pass.
-- Abracadabra's old $14.95 gold powder/mixing-liquid kit search result led to **404 live**. Do not buy from its stale indexed offer; current Yellow Gold pigment above is a distinct product without mixing liquid.
-- No overseas/custom crown, large rack, extra shoe, second necklace, H&M aviator or old longline coat/cardigan added to this final basket. H&M remains a historical alternative, not another coat charge.
+[10](10-halo-and-crown-review-2026-10-21.md) preserves the premium search and fur comparison; [11](11-friday-halo-options-2026-10-21.md), [12](12-eclipse-round-crowns-2026-10-21.md) and [13](13-solar-corona-shortlist-2026-10-21.md) preserve earlier headpiece proposals. Their unpurchased status, historical ETAs and alternative basket totals do not override this order record.
+
+No premium compact bone upgrade with verified NYC pickup was established. Abracadabra's $39.95 laurel was Wall NJ stock, not confirmed NYC; it is not bone-look. The $795 Aviatrix piece exceeds the entire costume ceiling. Late artisan/overseas pieces and sold-out local halos are not added. User declines maker messages/rush enquiries. No additional shoes, necklace, H&M aviator or longline coat is included.
 
 ## Verification scope
 
-Earlier October 21 buying pass refreshed Amazon pages for fur, former halo, tank, body chain, cuff pair, shirt, gauze, gold netting and crown; exact size/color and buy-box dates observed rather than search cards. Later quality pass rechecked Small Black/Blackgrey fur and Sosation crown, removed rejected halo and inspected artisan alternatives with live Brooklyn dates. Other item observations remain from the earlier same-day pass, not a second full-basket refresh. New crown, Levi's black wash and selected Yellow Gold inspected visually. Levi's 29 × 30 pickup locations and UNIQLO Men S inventory explicitly checked in that earlier pass. No stock holds, payment, checkout, store message, call or fitting. User explicitly declines maker outreach. No new render generated in this review.
+October 21 Amazon Orders and this costume order's Order Details were read in signed-in Chrome. The seven line items, quantities, selected Small/Black clothing titles, prices, order summary and three delivery dates were reconciled above. This is an order audit, not a fresh stock check for unbought items or proof of settled payment, delivery or physical fit. No other-retailer purchase history was checked. The agent made no purchase, cart change, cancellation, return, reservation, outreach or account/payment change. Private address, order number and payment details are deliberately omitted.

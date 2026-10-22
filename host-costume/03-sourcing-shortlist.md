@@ -1,14 +1,14 @@
 # Antler King • sourcing shortlist
 
-Updated October 21, 2026 · Party October 31, plus events October 23–24 · **Proposal only; no costume pieces ordered, carted or reserved by the agent.**
+Updated October 21, 2026 · Party October 31, plus events October 23–24 · **User's seven-item Amazon order verified; remaining sourcing below is history unless linked as current. No agent purchases.**
 
 ## Current urgent sourcing • October 21
 
-**Latest quality update:** [10 — fur/headpiece review](10-halo-and-crown-review-2026-10-21.md): host rejects the specific Zoestar halo but retains sunrays; no materially better Friday/NYC-stock replacement verified. Black versus gray fur reopened; black recommended. Host likes actual Sosation crown and may use a similar compact tier-up October 31, so the older large-rack brief is not mandatory. User declines maker messages/rush enquiries. [09 — current buying list](09-final-weekend-shopping-2026-10-21.md) owns variant/delivery/cost evidence and now **excludes the halo, making the basket incomplete**. Earlier “unsourced crown,” no-new-jeans and large-rack-only statements below are historical, not current purchase instructions.
+**Current purchase status:** [09 — verified order and remaining list](09-final-weekend-shopping-2026-10-21.md) supersedes all earlier basket totals/delivery quotes. Seven items ordered for **$151.97 including estimated tax**: black fur, black mesh, body chain, Atoden/Zivyes/Zoestar halos and Sosation crown. Crown now **Saturday October 24**; fur/mesh Friday. Compare the three ordered halos before further headpiece shopping. King shirt/cloth/gold netting and non-Amazon pickups remain unconfirmed. Black fur confirmed; no maker messages/rush enquiries. Physical fit remains pending.
 
-**Later visual-review update:** the host wants a smaller bone-look crown for City of Gods, not the large fast antlers. Specific compact crown price/arrival remain unverified. The seven-item subtotal in the earlier sourcing paragraph below is superseded as a complete basket; use the [latest weekend direction](05-weekend-costumes-2026-10-21.md#latest-direction). [AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are illustrative, not newly sourced products.
+The host wants a smaller bone-look crown for City of Gods, not large fast antlers, and likes the ordered Sosation product. A similar compact tier-up for October 31 remains possible, not an additional purchase. [AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are illustrative, not exact product/fit evidence.
 
-Use the [two-look weekend plan](05-weekend-costumes-2026-10-21.md) for live-checked Amazon variants/dates and NYC pickup evidence. User confirms Small, nothing bought, shoes/trousers covered and a total costume ceiling; [shared budget](../operations/budget.md) records the ceiling. Seven listed core products total $100.56 before tax/finishing, not spent. Fast antlers are acknowledged compromises, not an exact-match discovery. Do not use the older October 7 arrival dates below for a new order.
+The [earlier two-look plan](05-weekend-costumes-2026-10-21.md) is sourcing history; its $100.56 incomplete basket is not the actual seven-item order. Small, owned shoes/green trousers and the **$500 total ceiling** remain confirmed; [shared budget](../operations/budget.md) reflects the order once. Do not use older October 7 arrival dates or historical “nothing bought” statements for current status.
 
 ## October 7 design target and research history
 

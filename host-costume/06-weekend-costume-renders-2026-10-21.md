@@ -1,10 +1,18 @@
-# Weekend outfit renders — October 21, 2026
+# Weekend outfit renders
 
 AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** Generic male models, not the user's likeness. Trousers, belt and shoes are illustrative stand-ins; dark-green trousers, black jeans and shoes are confirmed owned, but their exact appearance/fit is not established by these images.
 
-Current user decisions, shopping status and revised subtotal live in the [weekend plan](05-weekend-costumes-2026-10-21.md#latest-direction).
+Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
-**Latest preview:** the host requested Eclipse with the short black faux-fur jacket, retained gold body chain and black jeans. **D below is now a successful new preview**, using the original generated model/halo/chain as its edit target. Earlier black-trouser/cuff edit attempts failed; that history does not describe the new fur preview. The no-chain variant remains comparison history, not the preferred styling route. No new product selection, purchase or fit test inferred.
+**Latest preview:** [Ivory versus oxblood King comparison](#e-antler-king-ivory-versus-oxblood) varies the shirt while keeping the green trousers, bone-look crown, gold veil and pale shoulder drape visually matched. Shirt color is not selected by requesting this image. **D remains the approved black-fur Eclipse styling direction**; the no-chain variant is comparison history. No purchase or fit test inferred.
+
+## E Antler King ivory versus oxblood
+
+![Antler King comparison with ivory shirt left and oxblood shirt right](renders/2026-10-22/antler-king-ivory-vs-oxblood.png)
+
+Requested October 22. Left: warm ivory/parchment. Right: deep oxblood/wine. The existing compact King concept in C was the edit target; the same generic model, pose, dark-green trousers, pale bone-look crown, lifted-back gold net veil, pale gauze shoulder mantle, belt, shoes and gray studio lighting are visually matched. The mantle stays pale in both versions: this is a shirt-color comparison, not a whole-palette restyle. Minor generative detail variation is possible; not a pixel-identical photographic recolor.
+
+The crown is still the **illustrated concept**, not a photo-exact rendering of the ordered Sosation product. No real user photograph or new retailer photo was used. The oxblood shirt is a styling idea, **not a newly sourced Small product or verified weekend delivery**. No color chosen, new order or budget change. [Exact prompt and input/output record](renders/2026-10-22/prompts.md).
 
 ## D — Eclipse with short black faux fur and black jeans
 
@@ -43,6 +51,8 @@ The host confirmed compact bone-crown direction for City of Gods. This does not 
 ## Generation record
 
 Created with the built-in image-generation tool using the imagegen skill. Three independent first-pass assets; one targeted edit changed the King's crown from brown/twig-like to ivory bone-look without changing the outfit. A later successful edit of Original Eclipse adds the black fur jacket and black jeans. Four selected outputs are copied here; the rejected brown-crown draft remains in the tool's original generated-images directory. The new 1024 × 1536 PNG was visually inspected for full-body framing, open black fur, black jeans, retained halo/mesh/chain and absence of extra accessories.
+
+October 22 adds one built-in edit output, the ivory/oxblood diptych. Visually inspected for correct left/right labels, full-body framing, shirt colors and matched green trousers/crown/gold veil/pale mantle. Source concept retained unchanged. The comparison asset and its exact prompt are saved in `renders/2026-10-22/`; it does not replace the four October 21 previews.
 
 [Exact generation and correction prompts](renders/2026-10-21/prompts.md).
 

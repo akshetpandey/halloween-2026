@@ -48,6 +48,8 @@ Shoes, dark-green King trousers and a similar functional warm layer are owned. T
 
 ### Antler King shirt colors
 
+[Side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#e-antler-king-ivory-versus-oxblood): ivory left, oxblood right, with matching green trousers, illustrated bone crown, gold veil and pale mantle. Color remains unselected; the image is not proof of exact products or fit.
+
 **Styling recommendation, not a confirmed color selection:** keep warm ivory/ecru as the first choice with the pale crown, green trousers and gold veil. The actual American Trends **Beige** photo reads pale parchment/ivory rather than camel tan. A textured, matte finish suits the woodland direction and distinguishes Saturday from Friday's black fur/jeans.
 
 - **Deep oxblood/wine:** strongest darker alternative; more ominous/regal, with the pale crown and gauze contrasting against it. Keep the red very dark, not bright scarlet. Wine was not offered in the current Small selector; this is a palette idea, not a deadline-cleared Small product.

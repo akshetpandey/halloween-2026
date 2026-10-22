@@ -48,7 +48,7 @@ Shoes, dark-green King trousers and a similar functional warm layer are owned. T
 
 ### Antler King shirt colors
 
-[Side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#e-antler-king-ivory-versus-oxblood): ivory left, oxblood right, with matching green trousers, illustrated bone crown, gold veil and pale mantle. Color remains unselected; the image is not proof of exact products or fit.
+[Latest side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#f-antler-king-with-full-face-gold-veil): ivory left, oxblood right, now with matching **full-face front gold veils**, green trousers, compact illustrated bone crown and pale mantle. Color remains unselected; the image is not proof of exact products, fit or mesh visibility.
 
 **Styling recommendation, not a confirmed color selection:** keep warm ivory/ecru as the first choice with the pale crown, green trousers and gold veil. The actual American Trends **Beige** photo reads pale parchment/ivory rather than camel tan. A textured, matte finish suits the woodland direction and distinguishes Saturday from Friday's black fur/jeans.
 
@@ -84,7 +84,13 @@ The **ordered Sosation crown** is an interlaced pale branching circlet with upri
 
 Earlier seller dimensions were inconsistent: approximately 22 × 20 × 12.5 cm in the description versus 13.78 × 6.69 × 4.72 inches / 5.28 oz in catalog bullets. Neither establishes head circumference or verified worn mass. The earlier check showed 3.4/5 from four ratings, with large-fit reports. **Try unaltered first.** Removable soft padding or a discreet back ribbon may help, but do not guarantee fit. Do not heat/force-bend it as a last-minute default or wear a shifting crown/sharp tip near the face.
 
-For King, fold the gauze double into a short mantle with ends above the hips; attach to clothing without a tight throat tie. Clip a small gold-net panel to a padded independent support, not the tines. **Veil lifted/off for walking and dancing.** Gauze is polyester despite its cheesecloth name; the veil is textile, not mail. Test sightlines, snagging, quick removal and sitting/dancing before wear. The functional coat may go over the shirt; do not mistake the pale drape for warmth.
+For King, fold the gauze double into a short mantle with ends above the hips; attach to clothing without a tight throat tie. The functional coat may go over the shirt; do not mistake the pale drape for warmth. Gauze is polyester despite its cheesecloth name.
+
+### Full face gold veil
+
+**Confirmed visual direction October 22:** netting hangs from the crown/brow band **in front of the entire face to upper chest**, not only behind the head. Keep the compact crown; this is a smaller front drape rather than the reference's tall antler canopy. Clip a front panel to an independent padded band/support, not the antler tips, with accessible lift/removal. **Veil lifted/off for walking and dancing.**
+
+Start the material trial with **one layer of open gold textile netting**, not actual chainmail. Finer mesh is not automatically easier to see through: compare open-hole area, strand thickness, folds, glare and light on either side. Avoid doubling fabric across the eyes just to hide the face more in photos. The CABODYALS listing remains a proposed material, **not verified for face visibility**; no fabric change, new order or revised price is implied by the render. Before cutting/attaching, test the actual netting at its intended face distance in dim light and with a light in front, then check peripheral vision, snagging and quick removal. Lift it if sightlines are impaired; a rendered face visible through mesh is not a wearer-visibility test.
 
 Gold pigment is optional. Use cosmetic product according to its label; patch test, avoid inhaling loose powder and keep it away from the eye/waterline. The quoted pigment is not a powder/mixing-liquid kit; mixing liquid is a separate unbudgeted purchase. No craft glitter or craft paint on skin.
 

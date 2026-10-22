@@ -4,9 +4,19 @@ AI-generated styling previews, requested by the host. **Not photographs of purch
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
-**Latest preview:** [Ivory versus oxblood King comparison](#e-antler-king-ivory-versus-oxblood) varies the shirt while keeping the green trousers, bone-look crown, gold veil and pale shoulder drape visually matched. Shirt color is not selected by requesting this image. **D remains the approved black-fur Eclipse styling direction**; the no-chain variant is comparison history. No purchase or fit test inferred.
+**Latest preview:** [Full-face gold-veil correction](#f-antler-king-with-full-face-gold-veil) follows the host's Yellowjackets reference: netting in front of the entire face, not only behind the head. It retains the ivory/oxblood comparison and compact crown. Shirt color remains open. **D remains the approved black-fur Eclipse styling direction**; no purchase or fit test inferred.
+
+## F Antler King with full face gold veil
+
+![Ivory and oxblood Antler King looks with front gold net veils covering the full face](renders/2026-10-22/antler-king-front-veil-ivory-vs-oxblood.png)
+
+Requested October 22 after E. The host's attached Yellowjackets still guided **front placement and gold-net texture only**; its tall antlers, large cloak and scene were not copied. The existing E diptych was edited so both veils cover forehead, eyes, nose, mouth, chin and neck to the upper chest. The compact illustrated bone crown, ivory-left/oxblood-right shirts, green trousers, pale shoulder mantle, belt/shoes, model, full-body framing and studio light remain visually matched. Earlier images are retained as face-clear/lifted-mode comparisons, not the target veiled silhouette.
+
+The mesh is an illustrative open gold textile, **not a photo-exact reproduction or proof of visibility through CABODYALS or another product**. Single-layer openness, thread thickness, folds, glare and room lighting all need actual trials. Use independently accessible clips on a padded band/support, not sharp crown tips; lift/remove for normal walking/dancing and whenever sightlines are poor. This compact front drape does not reproduce the reference's tall antler-supported canopy. Crown remains a concept rather than an exact rendering of the ordered Sosation piece. No shirt color, new product or spending change inferred. [Exact prompt and input record](renders/2026-10-22/prompts.md#full-face-veil-correction).
 
 ## E Antler King ivory versus oxblood
+
+Earlier face-clear comparison; F above corrects the veil placement for the host's intended full-face look.
 
 ![Antler King comparison with ivory shirt left and oxblood shirt right](renders/2026-10-22/antler-king-ivory-vs-oxblood.png)
 
@@ -53,6 +63,8 @@ The host confirmed compact bone-crown direction for City of Gods. This does not 
 Created with the built-in image-generation tool using the imagegen skill. Three independent first-pass assets; one targeted edit changed the King's crown from brown/twig-like to ivory bone-look without changing the outfit. A later successful edit of Original Eclipse adds the black fur jacket and black jeans. Four selected outputs are copied here; the rejected brown-crown draft remains in the tool's original generated-images directory. The new 1024 × 1536 PNG was visually inspected for full-body framing, open black fur, black jeans, retained halo/mesh/chain and absence of extra accessories.
 
 October 22 adds one built-in edit output, the ivory/oxblood diptych. Visually inspected for correct left/right labels, full-body framing, shirt colors and matched green trousers/crown/gold veil/pale mantle. Source concept retained unchanged. The comparison asset and its exact prompt are saved in `renders/2026-10-22/`; it does not replace the four October 21 previews.
+
+Later October 22 adds one further built-in edit using that diptych plus the user-attached reference still: full-face veil placement, saved as a separate sibling PNG. Visually checked for continuous face coverage, chest-length gold netting, compact crown retained, matching mesh between panels, unchanged clothes/palette and legible labels. The uploaded reference itself was not copied into Git. See the existing [Yellowjackets reference credits](references/README.md) for related source imagery.
 
 [Exact generation and correction prompts](renders/2026-10-21/prompts.md).
 

@@ -1,8 +1,8 @@
 # Two costume shopping and order status
 
-Updated October 21, 2026. **Seven costume items are ordered from Amazon: $151.97 including estimated tax.** The order contains black fur, a Small black mesh tank, the gold body chain, three solar halos and the compact bone-look crown. The remaining list is below; do not order another halo just because an earlier shortlist recommended one.
+Updated October 22, 2026. **Confirmed nights: Eclipse Friday October 23; Antler King Saturday October 24.** The host already owns a similar functional warm layer, so the proposed $79.90 PUFFTECH is removed from remaining purchases, not refunded. Black fur stays in the Eclipse outfit.
 
-**Timing change: the bone crown now estimates Saturday October 24, not Friday.** Fur and mesh estimate Friday October 23. Eclipse Friday / Antler King Saturday is therefore the practical proposed split, subject to actual delivery before departure and obtaining the King's remaining clothes. The previously permitted King Friday / Eclipse Saturday swap is not supported by this crown's current ETA.
+**Seven costume items are ordered from Amazon: $151.97 including estimated tax**, verified October 21. The order contains black fur, a Small black mesh tank, the gold body chain, three solar halos and the compact bone-look crown. The bone crown's last checked order ETA is Saturday October 24; fur/mesh Friday October 23. Arrival before departure, King's remaining clothes and physical fit still need checking. Do not order another halo just because an earlier shortlist recommended one.
 
 The **$500 total costume ceiling** covers both October 23–24 looks and King reuse October 31. Dates below are America/New_York / EDT (UTC−04:00). Ordered does not mean delivered, fitted or warmth-tested.
 
@@ -32,20 +32,29 @@ All three halos count once in this order. Compare them in person and choose the 
 
 ## Remaining purchases and pickup options
 
-These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. Prices and stock notes are from the earlier October 21 sourcing pass, not a fresh availability check; recheck selected variants and arrival/pickup before buying.
+These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. The Small shirt colors were rechecked October 22; other prices/stock notes remain October 21 observations and need rechecking before buying.
 
 | Priority | Item and selection | Earlier quoted price | Status and next action |
 |---|---|---:|---|
-| King base | [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL), **Small / Beige**, not White or Beige D | $19.99 | **Not confirmed ordered.** Earlier buy box said Friday; verify again before relying on it |
+| King base | [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL), **Small / Beige**, pale ivory-looking option | $19.99 | **Not confirmed ordered; color choice pending.** Oct 22 selected buy box: free **Sat Oct 24**, two left. Separate $21.99 Friday offer displayed, not selected or included in base total |
 | King shoulders | [FEXIA gauze cloth](https://www.amazon.com/dp/B0BQBSXHB3), **Beige / 1 Pack–10FT**, 35 × 120 inches | $8.99 | **Not confirmed ordered.** Short shoulder mantle; earlier Thursday quote is not an order ETA |
 | King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered.** Preferred gold textile, not chainmail; earlier Friday quote needs rechecking |
 | Eclipse jeans | [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066), **Welcome To The Rodeo — Black** | $110.00 | **Pickup/purchase unconfirmed.** 29 × 30 was checked at Times Square, 34th Street and Hudson Yards; try on first |
 | Optional gold accent | [BROCC cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z), **Color B / New**, two cuffs | $13.99 | **Not confirmed ordered.** One pair shared between looks; no second necklace needed |
-| Functional warmth | [UNIQLO PUFFTECH Jacket, 486171](https://www.uniqlo.com/us/en/products/E486171-000/00?colorDisplayCode=09&sizeDisplayCode=003), **Men S / 09 Black** | $79.90 | **Pickup/purchase unconfirmed.** Earlier [Small inventory](https://www.uniqlo.com/us/en/products/E486171-000/00/store-inventory?colorDisplayCode=09&sizeDisplayCode=003) showed Manhattan stores, not Williamsburg |
 | Optional gold makeup | [Mehron Artist Pigment, Yellow Gold](https://abracadabranyc.com/products/mehron-metallic-artist-pigment?variant=46682438664354), **129-AP-YGD** | $15.95 | **Pickup/purchase unconfirmed.** Earlier NYC stock at Abracadabra, 19 W 21st Street; await ready notice |
-| **Unconfirmed merchandise total** | Includes all optional rows above | **$258.81** | Not a placed order or current delivered quote |
+| **Unconfirmed merchandise total** | Includes all optional rows above; no extra warm jacket | **$178.91** | Not a placed order or current delivered quote |
 
-Shoes and dark-green King trousers are owned. Faded black jeans can be a fallback if the host decides against new Levi's. Small tops, usual waist 28–30 and inseam 30–32 are confirmed; these are not garment fit results. Clips/safety pins, soft padding and ribbon retain a **$20 estimated allowance**, with no exact products or purchase confirmed.
+Shoes, dark-green King trousers and a similar functional warm layer are owned. The new warmth confirmation does not identify its exact color, brand or layering fit. Faded black jeans can be a fallback if the host decides against new Levi's. Small tops, usual waist 28–30 and inseam 30–32 are confirmed; these are not garment fit results. Clips/safety pins, soft padding and ribbon retain a **$20 estimated allowance**, with no exact products or purchase confirmed.
+
+### Antler King shirt colors
+
+**Styling recommendation, not a confirmed color selection:** keep warm ivory/ecru as the first choice with the pale crown, green trousers and gold veil. The actual American Trends **Beige** photo reads pale parchment/ivory rather than camel tan. A textured, matte finish suits the woodland direction and distinguishes Saturday from Friday's black fur/jeans.
+
+- **Deep oxblood/wine:** strongest darker alternative; more ominous/regal, with the pale crown and gauze contrasting against it. Keep the red very dark, not bright scarlet. Wine was not offered in the current Small selector; this is a palette idea, not a deadline-cleared Small product.
+- **Black:** strongest graphic bone/gold contrast, but closer to Eclipse and less woodland-distinctive. [Small / Black](https://www.amazon.com/dp/B0C33R9V9N) was selected and visually inspected October 22: **$15.99, free Saturday October 24**. This replaces the shirt only if chosen; no second shirt is budgeted.
+- **White:** cleaner/brighter than the desired aged-bone look. [Small / White](https://www.amazon.com/dp/B0FJM6CPVW) was selected and visually inspected October 22: **$19.99, free Saturday October 24**. Prefer warm ivory unless the host wants the sharper contrast.
+
+Avoid choosing by the word beige alone: camel/light-khaki is a different palette from pale bone. None of these photo assessments establishes the fabric's exact in-person color or fit. No shirt ordered or carted during this comparison.
 
 ### Jeans fit and pickup
 
@@ -65,7 +74,7 @@ No advertised multi-item promotion is counted. Select the actual size before req
 
 Wear the black fur open over the mesh and gold body chain, with deep-black jeans. Support the chain on the base outfit, not through the fur. Choose among the **three already ordered halos**, not an automatic fourth purchase. Optional cuffs add gold without competing with the body chain.
 
-The fur is the approved visual layer, not proven overnight insulation. For queues, outdoor periods and the trip home, arrange a real warm layer such as the proposed PUFFTECH; collect it before relying on it. Try it under the fur only if sleeves and closure fit. Retrieve any coat before moving to a separate afterparty. A thin black long-sleeve base is an optional more covered Eclipse version; no exact thermal SKU is selected. Do not depend on decorative fur alone through a possible 4–9 a.m. afterparty.
+The fur is the approved visual layer, not proven overnight insulation. Use the host's **already-owned functional warm layer** for queues, outdoor periods and the trip home; no new PUFFTECH purchase is needed. Try it under the fur only if sleeves and closure fit. Retrieve any coat before moving to a separate afterparty. A thin black long-sleeve base is an optional more covered Eclipse version; no exact thermal SKU is selected. Do not depend on decorative fur alone through a possible 4–9 a.m. afterparty.
 
 ### Crown assessment — actual product, not the AI crown
 
@@ -82,20 +91,20 @@ Gold pigment is optional. Use cosmetic product according to its label; patch tes
 | Component | Amount |
 |---|---:|
 | **Placed Amazon order, including $5.49 estimated tax** | **$151.97** |
-| Remaining merchandise, including all optional items above | $258.81 |
+| Remaining merchandise, including all optional items above | $178.91 |
 | Small supplies estimate | $20.00 |
 | Remaining tax/price reserve: original $30 less $5.49 included above | $24.51 |
-| **Full optional planning envelope** | **$455.29** |
-| **Headroom below unchanged $500 ceiling** | **$44.71** |
+| **Full optional planning envelope** | **$375.39** |
+| **Headroom below unchanged $500 ceiling** | **$124.61** |
 
-This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. Final tax collection/charges, remaining stock, travel and any additional warmth needs can change the total. Skipping new jeans reduces the plan by $110; skipping cuffs/pigment reduces it by $13.99/$15.95. The earlier $417.32 pre-halo and $434.31/$440.19 single-new-halo scenarios are superseded, not extra charges. [Shared budget](../operations/budget.md) carries the same reconciliation.
+This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. The $79.90 unpurchased PUFFTECH proposal is removed because a similar warm layer is owned: **$455.29 − $79.90 = $375.39**. The plan retains one $19.99 shirt, not an assumed new color purchase; choosing the displayed $21.99 Friday offer would add $2. Final tax collection/charges, remaining stock and travel can change the total. Skipping new jeans reduces the plan by $110; skipping cuffs/pigment reduces it by $13.99/$15.95. Older basket scenarios are superseded, not extra charges. [Shared budget](../operations/budget.md) carries the same reconciliation.
 
 ## Receipt and fitting sequence
 
-1. **October 21–22:** resolve the King shirt, shoulder cloth and netting first; none appears in this order. Try jeans locally and arrange a functional warm layer. Recheck any new delivery/pickup promise before committing.
+1. **October 22:** choose the King shirt color and resolve shirt, shoulder cloth and netting; none appears in the checked order. Try jeans locally and fit the **owned** warm layer with both looks. Recheck any new delivery/pickup promise before committing.
 2. **Thursday October 22:** expected Nicute chain and Zoestar halo. Inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is promised in this shipment.
-3. **Friday October 23:** expected Small black fur, Small black mesh, Atoden and Zivyes halos. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. **Eclipse Friday is proposed, not a guaranteed complete outfit before delivery.**
-4. **Saturday October 24:** expected Sosation crown. Complete King crown/veil/mantle fit before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established. Do not plan King Friday around this package.
+3. **Friday October 23 — confirmed Eclipse night:** expected Small black fur, Small black mesh, Atoden and Zivyes halos, per October 21 order check. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. Confirmed night choice does not guarantee delivery before departure.
+4. **Saturday October 24 — confirmed Antler King night:** expected Sosation crown, per October 21 order check. Complete King crown/veil/mantle fit before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
 5. Leave tags/condition intact until fit and return eligibility are checked. Unsafe or uncomfortable headwear is not a wearable backup. No returns, cancellations, exchanges or messages have been initiated.
 
 ## Earlier sourcing history
@@ -107,3 +116,5 @@ No premium compact bone upgrade with verified NYC pickup was established. Abraca
 ## Verification scope
 
 October 21 Amazon Orders and this costume order's Order Details were read in signed-in Chrome. The seven line items, quantities, selected Small/Black clothing titles, prices, order summary and three delivery dates were reconciled above. This is an order audit, not a fresh stock check for unbought items or proof of settled payment, delivery or physical fit. No other-retailer purchase history was checked. The agent made no purchase, cart change, cancellation, return, reservation, outreach or account/payment change. Private address, order number and payment details are deliberately omitted.
+
+October 22: the host confirmed the night assignments and already-owned warm layer. The American Trends selected Small/Beige, Small/White and Small/Black photos and buy boxes were inspected in signed-in Chrome to Brooklyn 11211. Other unbought-item stock and the Amazon order's delivery progress were not refreshed in this color comparison. No new purchase or account change.

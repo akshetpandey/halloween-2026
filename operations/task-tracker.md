@@ -14,15 +14,15 @@
 | SHOP-04 / BUY-01 | Host verifies actual delivered totals/stock/arrival and orders; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
 | SET-03 | Full-wall fabric, broad counter moss, rug/grip trial, velvet/moss/vine desk + after-dark route/game reach/light rehearsal | 25–33 hands-on h across 3–4 days; complete Oct 30 |
 
-## October 21 host costume order status
+## October 22 host costume status
 
-[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern the two October 23–24 looks and October 31 King reuse. **Seven Amazon items ordered by host, $151.97 including estimated tax**; full optional plan $455.29 within $500 ceiling. No delivery/fit test confirmed. Decor purchase status above is unchanged.
+[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern the two October 23–24 looks and October 31 King reuse. **Eclipse Friday / King Saturday now confirmed; similar functional warm layer already owned, no new PUFFTECH needed.** Seven Amazon items ordered by host, $151.97 including estimated tax, verified October 21; revised full optional plan **$375.39** within $500 ceiling. No delivery/fit test confirmed. Decor status above is unchanged.
 
 | Task | Current status and next action | Target |
 |---|---|---|
-| KING-04 | Fur/mesh/chain, three halos and bone crown ordered; King shirt/cloth/netting and local jeans/warmth pickups unconfirmed | Resolve remaining pieces Oct 21–22 |
-| KING-08 / KING-09 | Chain/Zoestar Thu; fur/mesh/Atoden/Zivyes Fri. Compare ordered halos; test fit and functional warmth; no automatic fourth halo | Before Eclipse departure Oct 23 |
-| KING-05 / KING-06 | Bone crown now **Saturday Oct 24**, not Friday. Fit crown/veil/mantle unaltered after receipt; propose King Saturday, conditional on arrival | Before King departure Oct 24 |
+| KING-04 | Fur/mesh/chain, three halos and bone crown ordered; choose King shirt color and resolve shirt/cloth/netting plus jeans/optional accents. No extra warm-layer pickup | Resolve remaining pieces Oct 22 |
+| KING-08 / KING-09 | Last checked ETAs chain/Zoestar Thu; fur/mesh/Atoden/Zivyes Fri. Compare halos, fit **owned** warm layer; no automatic fourth halo | Confirmed Eclipse night Oct 23; test before departure |
+| KING-05 / KING-06 | Last checked crown ETA **Saturday Oct 24**. Fit crown/veil/mantle unaltered after timely receipt | Confirmed King night Oct 24; test before departure |
 
 **September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.

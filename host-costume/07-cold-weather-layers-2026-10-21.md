@@ -1,6 +1,6 @@
 # Cold-weather layers for City of Gods — October 21, 2026
 
-**Current purchase/status pointer:** host now approves the black-fur Eclipse styling and requests deeper-black loose Levi's. [09 — final buying list](09-final-weekend-shopping-2026-10-21.md) owns refreshed exact offers, priced compact crown and consolidated budget; 08 and the older offer table below are comparison history. Layering/removal guidance here remains relevant; no warmth test or purchase performed.
+**Current status October 22:** host confirms **Eclipse Friday October 23 / Antler King Saturday October 24** and already owns a similar functional warm layer. **No new PUFFTECH/warm-jacket purchase needed**; remove the unpurchased $79.90 proposal, not the ordered black costume fur. [09 — current order and remaining list](09-final-weekend-shopping-2026-10-21.md) owns actual order history and revised **$375.39** planning envelope. Fit/removal guidance here remains relevant; 08 and the old offer table below are shopping history, not additional buys.
 
 **Confirmed user requirement:** the event is 10 p.m.–4 a.m., with a possible 4–9 a.m. afterparty. Plan outfits that look intentional with warm layers, not just an indoor photograph. These are the user's expected hours, not a newly verified afterparty listing.
 
@@ -12,22 +12,24 @@ The [official 2026 FAQ](https://www.cityofgods.nyc/faq) confirms indoor warehous
 
 Weather tool checked October 21 for **Brooklyn, Kings County**, not the unrelated Brooklyn in Delaware County also returned by the query: daily lows about **47°F / 8°C for Oct 23–24**, **52°F / 11°C Oct 25**. These are changing daily forecasts, not hourly courtyard temperatures or a wind-chill measurement. A direct NWS point page could not be retrieved; don't present this as NWS-confirmed. Recheck the relevant overnight/morning before departure.
 
-## Current inventory and direction — buying alternatives
+## Current inventory and layering
+
+**Confirmed October 22:** a similar functional warm layer is already owned. Its exact brand, color, cut and fit with the costumes are not established; do not assume it is literally the shortlisted black PUFFTECH or the earlier striped leather jacket. Bring the owned layer for outdoor/transit periods and try it with both looks. No new insulation item is selected or required by the current shopping list.
 
 **Confirmed October 21:** leather jacket owned; no brown coat; black overcoat owned but far too large for costume/party wear. **Exclude that oversized overcoat from the party outfit.** The later attached product-style jacket photo shows a dark café-racer jacket with red chest/arm bands, cream arm stripes and red piping. It is a jacket reference, not an established photo of the host. Actual lining, fit over layers and warmth remain unknown; thermal ownership unconfirmed. No copy of the attachment added to Git.
 
-**Latest explicit user instruction:** we do not have to work with this jacket; find options to buy if required. **This supersedes the leather-first/pause-new-outerwear proposal.** The stripes give the owned jacket a sporting rather than celestial/woodland read; it can remain an optional travel fallback, but do not keep asking the user to solve the costume around it. Do not paint/tape/alter the leather.
+**Earlier October 21 instruction:** we do not have to work with the striped jacket; find options to buy if required. This superseded the leather-first proposal, but **October 22's owned-warm-layer confirmation removes the need for another functional jacket**. Do not keep asking the user to solve the costume around the striped leather or paint/tape/alter it.
 
-The [final buying list](09-final-weekend-shopping-2026-10-21.md) owns exact products, size-specific delivery, local stock and consolidated totals. **Short black faux fur is now approved visually**, framing Eclipse's gold chain/halo. Black PUFFTECH is a proposed shared functional backup, not the costume centerpiece. Earlier H&M/long-coat alternatives are not extra purchases in that basket. No garment has been purchased or physically warmth-tested.
+The [current list](09-final-weekend-shopping-2026-10-21.md) owns products, dated delivery/stock and totals. **Short black faux fur is ordered as Eclipse's visual layer**, framing the gold chain/halo; the owned functional warm layer handles outdoor/transit use. PUFFTECH, H&M and long-coat alternatives are not active purchases. Ordered fur and confirmed ownership are not physical fit/warmth tests.
 
 A thin close-knit removable midlayer may help if it fits the chosen jacket; don't automatically buy the older chunky shawl cardigan. A fitted black long-sleeve base with the chain over it is the more covered Eclipse alternative. A thin cream base beneath King's shirt avoids adding outer bulk. Decorative fur, a leather-like shell and manufacturer warmth language are not evidence of personal comfort through dawn.
 
 | Look | Warm indoor dancing | Cool rooms / outdoor stage intervals | Queues, transit and 4–9 a.m. |
 |---|---|---|---|
-| **Eclipse God** | Black mesh tank, retained gold body chain, owned black jeans, halo; optional cuffs | Proposed short black fur or lined aviator over base; optional thin removable knit if it fits. Chain visible when open | Close outerwear and use adequate insulation after an actual warmth test. Packable functional jacket is a sourced local option; gloves/warm travel hat still unpriced. Remove crown before putting on hat |
-| **Compact Antler King** | Beige lace-up shirt, short pale gauze shoulder drape, green trousers, compact bone-look crown; gold netting lifted/off face | Thin cream/beige base if wanted, plus selected warm layer. Aviator's brown collar bridges the palette; pale shoulder drape may sit over it for photos | Close jacket; mantle secured without obstructing closure or packed for travel. Adequate insulation subject to test; face clear and crown/veil removable. No oversized party overcoat |
+| **Eclipse God** | Black mesh tank, gold body chain, black jeans, halo; optional cuffs | Ordered short black fur; owned warm layer added/removed as needed. Chain supported by base outfit | Close the owned warm layer for outdoor/transit periods after fit/comfort trial. Gloves/warm travel hat ownership unconfirmed. Remove crown before putting on hat |
+| **Compact Antler King** | Ivory-looking shirt recommended, final color open; short pale gauze, green trousers, compact crown; gold netting lifted/off face | Thin cream base if wanted, plus owned functional warm layer. Pale shoulder drape only if it does not interfere with closure/removal | Close owned jacket; mantle secured clear of closure or packed for travel. Face clear, crown/veil removable. No oversized party overcoat |
 
-Styling choices are proposals, not comfort tests. A new jacket may serve both looks; there is no requirement to buy two separate costume coats or to prove the owned striped jacket unusable before buying. Choose manageable length/fit and independently removable accessories.
+Styling remains subject to comfort tests. One **owned functional layer** may serve both looks; no new jacket is needed. Check manageable length/fit and independently removable accessories rather than adding more purchases.
 
 ### Alternate warm-base Eclipse
 
@@ -60,6 +62,6 @@ UNIQLO's indexed older black wool/cashmere Chesterfield listing showed sold out 
 
 ## Budget, not a new spending approval
 
-Use the [final consolidated budget](09-final-weekend-shopping-2026-10-21.md#4-total-and-small-supplies): **$281.46 both costumes including priced crown, new Levi's, fur and cuffs; $377.31 with shared PUFFTECH and optional gold pigment**, before tax/small supplies. New jeans replace the earlier reuse assumption; do not add separate earlier scenarios. Thin base/gloves/hat remain unselected. Nothing ordered or reserved.
+Use the [current consolidated budget](09-final-weekend-shopping-2026-10-21.md#budget-after-the-order): **$151.97 Amazon order commitment + $178.91 remaining merchandise + $20 supplies + $24.51 remaining tax/price reserve = $375.39**. New jeans, cuffs and optional pigment remain in that planning envelope; no new functional jacket. Thin base/gloves/hat remain unselected. Do not add earlier basket scenarios to this total.
 
-The earlier **$127.38 longline coat/cardigan add-on and $224.94 scenario** remain historical, not money saved from an order. The **$500 total costume ceiling is unchanged**. Next useful step: select a manageable new layer, recheck availability, collect/receive it and try the actual outfit with closure, reaching, crown removal and a brief outside comfort check. No purchase, refund or cancellation occurred.
+The earlier longline coat/cardigan and PUFFTECH scenarios are historical, not refunds or cancelled orders. The **$500 total costume ceiling is unchanged**, with **$124.61** planning headroom. Next step is to try the **owned** warm layer with closure, reaching, chain/crown clearance and a brief comfort check. No new purchase, refund or cancellation occurred in this update.

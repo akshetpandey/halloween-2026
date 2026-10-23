@@ -4,6 +4,8 @@ AI-generated styling previews, requested by the host. **Not photographs of purch
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
+**Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
+
 **Latest preview:** [Gilded Stag](#h-gilded-stag-full-outfit-and-detail) develops Wild Hunt into the requested woodland-deity concept: bone crown, black fur, green trousers, gold-leaf collar and gold face accents. The host requested this visualization, not final purchase/fit approval. Earlier G alternatives remain unselected. **D remains the approved black-fur Eclipse styling direction**.
 
 ## H Gilded Stag full outfit and detail

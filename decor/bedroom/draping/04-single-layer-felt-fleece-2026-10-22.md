@@ -1,5 +1,7 @@
 # One thicker black material for the Hollow — October 22, 2026
 
+**Superseded on quantity, material decision and budget:** host accepts fleece, requests some pleating, drops laser and seeks cheaper laptop control plus a larger rug. [Current gathered 54-yd cuts](02-shopping-and-sample.md) · [Current control/budget](../../lighting/laser-free-and-value-control-2026-10-22.md). The 40-yd near-flat estimate and $1,657.38 basket below are historical, not the current order.
+
 **Confirmed host direction:** cover every wall/window with black felt or fleece that supplies the look and some sound deadening in one material. No separate hidden pads or thin-fabric skin. Velvet and ready-made curtains are unnecessary. **Proposed selection: black anti-pill fleece, two 20-yard bolts / $220 before tax.** Not purchased, delivered or physically tested. Approximately $1,600 decor ceiling remains; this selection needs the budget reconciliation below.
 
 ## Sources and actual whole-plan quantities

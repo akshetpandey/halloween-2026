@@ -1,10 +1,12 @@
 # Cheaper fabric and combined Hollow rig — October 22, 2026
 
+**Superseded by later host decisions:** lasers removed; MAX sold out per host. [Current three-fixture rig, $15.99 laptop interface and revised budget](laser-free-and-value-control-2026-10-22.md) replaces the laser/MAX choices and wiring below. [Gathered 54-yd fleece plan](../bedroom/draping/02-shopping-and-sample.md) replaces earlier cloth quantities. Below preserves original offer evidence, not a current purchase list.
+
 **Confirmed today:** host rejects $249.60 stretch velvet, means **all three linked lighting products together**, and replies **“Allow about $1,600 total for the combined rig”** to the question explicitly describing the **whole decor plan**. Use approximately $1,600 including permanent lights, replacing the earlier $1,000 decor ceiling. Planning authorization, not a purchase instruction. Accepted layout, full-wall bulk fabric, rug and dressed automated desk remain.
 
 ## Latest cloth clarification
 
-**Fabric sections below are superseded by the later host instruction for one thicker black felt/fleece material on every wall, with no separate pads.** [Current source comparison](../bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) proposes $220 fleece; current basket $1,657.38, $57.38 above the unchanged approximate $1,600 target. Lighting choices below remain current. Earlier poplin/velvet prices are historical evidence, not extra orders.
+**Fabric sections below are superseded by the later host instruction for one thicker black felt/fleece material on every wall, with no separate pads.** [Current source comparison](../bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) proposes $220 fleece; current basket $1,657.38, $57.38 above the unchanged approximate $1,600 target. Earlier lighting choices below preserve offer evidence; laser/MAX choices are now superseded. Earlier poplin/velvet prices are historical, not extra orders.
 
 ## Cheaper cloth
 

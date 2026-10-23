@@ -1,5 +1,5 @@
 # Lighting and power
-**October 22 current:** [combined rig and automation](fabric-and-combined-rig-2026-10-22.md) and [current basket](../shopping-ready.md) supersede historical allowances/defaults below. Whole-decor ceiling now about $1,600 including permanent lights; laser is conditional, mounts/footprints/arrival unverified. No install/test.
+**Latest October 22:** [laser-free LED rig and cheaper laptop control](laser-free-and-value-control-2026-10-22.md) and [current basket](../shopping-ready.md) supersede old defaults. Host removes lasers, reports MAX sold out; OPPSK + two U’King heads / proposed $15.99 SH-RS09B / free QLC+. Whole decor $1,508.80 within approximately $1,600 target. Independent supports/footprints/outlets, arrival and actual music/media-load tests pending. Nothing installed/tested.
 
 ## Historical September overview
 Status: Shortlist ready; room test needed. Owner: host / lighting helper TBD.

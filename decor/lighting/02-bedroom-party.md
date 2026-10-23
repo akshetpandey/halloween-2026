@@ -1,8 +1,8 @@
-# Hollow lights — combined DMX proposal
+# Hollow lights — laser-free LED rig
 
-**October 22 supersedes the baseline below:** host means all three linked lighting products together and allows **about $1,600 for the whole decor plan including permanent lights**. [Current exact offers, Mac/DMX setup, automation and physical dependencies](fabric-and-combined-rig-2026-10-22.md) are authoritative. Four fixtures: OPPSK $179.99 + Gruolin $169.98 + U’King two-head pack $129.99 = $479.96; buffered DMXking MAX $119 + $50 cable allowance → **$648.96 before tax/shipping**, extra power/supports counted in [house basket](../shopping-ready.md). Free QLC+, firmware v4.5+ required for MAX. No purchase or test.
+**Latest October 22:** host removes lasers and reports MAX interface sold out. [Current exact offers, cheaper Mac control and automation](laser-free-and-value-control-2026-10-22.md) are authoritative: OPPSK $179.99 + U’King pair $129.99 + proposed DSD TECH SH-RS09B $15.99 + $50 connection reserve = **$375.97**. Three fixtures, free QLC+, simple coordinated scenes/audio triggers subject to actual hardware and music/media-load test. [Current basket](../shopping-ready.md) $1,508.80 includes 54 yd gathered fleece, expanded mounts and larger rug. No purchases/tests.
 
-Use coordinated cues/audio triggers or a tested premix timeline; no human DJ required. Guardian USB eyes remain steady, outside DMX. **Gruolin laser and fixture mounts remain conditional**, not an approved crowd-scanning setup. No fog/haze included. Accepted floor-area numbers are conditional on fixture/support fit outside routes. Allow 3–5 extra setup hours.
+Guardian eyes stay steady outside DMX. No laser replacement, fog/haze or need for an expensive console. Fixture built-in modes are the zero-interface fallback, without central choreography. Actual independent mounts/outlets remain unresolved; preserve dance/side routes. Basic patch/rehearsal estimate remains 3–5 hands-on hours. Earlier all-three/MAX research is [historical](fabric-and-combined-rig-2026-10-22.md).
 
 ## Superseded October 21 baseline / low-cost fallback
 

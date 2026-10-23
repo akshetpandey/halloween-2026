@@ -6,6 +6,10 @@ Prepared October 21, 2026. Optional LiDAR capture can help us understand the apa
 
 [Scaled party layout](party-layout-2026-10-21.png) · [SVG](party-layout-2026-10-21.svg) · [Coordinates](party-layout-2026-10-21.json) · [Grove cutaway](grove-cutaway-2026-10-21.png) · [Hollow cutaway](hollow-cutaway-2026-10-21.png). These implement the accepted corner/desk and Grove furniture moves on actual geometry. They supersede the original scanned furniture positions as the proposed party arrangement. The earlier interactive workbench retains comparison defaults; it is not the final arrangement. All raw sources remain ignored.
 
+## Later October 22 — larger Hollow rug
+
+[New 8 × 10-ft rug fit](hollow-rug-fit-2026-10-22.png) · [Vector](hollow-rug-fit-2026-10-22.svg). Current coordinates update the rug only, with accepted furniture positions preserved. Earlier whole-apartment PNG/SVG and cutaway retain the old 5 × 7 rug as historical sizing evidence; use this new diagram for rug decisions. Actual door sweep, rug grip and furniture contact remain untested.
+
 ## Scan received — October 21
 
 The supplied GLB and top-down screenshot have been processed locally. **No Business floor-plan export is needed for this planning pass.** Start with the [corrected base plan](apartment-base-plan-2026-10-21.png), [scan review and bedroom space calculation](scan-review-2026-10-21.md), and [derived measurements](scan-measurements-2026-10-21.json). The bedroom space study is shown inline in the decor chat; its [source](bedroom-space-study.html) is retained here. Original inputs remain ignored under `raw/`.

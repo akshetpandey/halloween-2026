@@ -88,21 +88,22 @@
     },
     "rug": {
       "min_xy": [
-        0.9,
+        0.05,
         0.5
       ],
       "size_xy": [
-        1.524,
-        2.1336
+        2.4384,
+        3.048
       ],
       "nominal_size_ft": [
-        5,
-        7
+        8,
+        10
       ],
-      "floor_status": "actual substrate/grip and door swing untested"
+      "floor_status": "proposed larger rug on scan shell; actual door/grip/desk-guardian foot contact untested",
+      "latest_fit_diagram": "hollow-rug-fit-2026-10-22.png"
     },
     "desk_finish": {
-      "front_and_sides": "black velvet offcut U-skirt",
+      "front_and_sides": "black fleece furnishing-drop U-skirt",
       "moss_sqft_reserved": 2,
       "ivy_strands_7ft": 2,
       "equipment_top": "clear"
@@ -222,5 +223,6 @@
         -1.1
       ]
     }
-  ]
+  ],
+  "updated": "2026-10-22"
 }

@@ -2,18 +2,19 @@
 
 ## October 22 • decor execution status
 
-[Current room plan](../decor/final-room-plan.md) · [single $1,657.38 proposed basket](../decor/shopping-ready.md) · [fabric/combined-rig research](../decor/lighting/fabric-and-combined-rig-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [latest material handoff](../decor/bedroom/draping/handoff-2026-10-22-single-layer.md). Host revised ceiling **about $1,600 including permanent lights**. Current single-layer fleece proposal is $57.38 over target; resolve cost before ordering. Offers/automation design documented; hardware fit/suitability, final accessories and physical tests pending. No decor purchases.
+[Current room plan](../decor/final-room-plan.md) · [single $1,508.80 basket](../decor/shopping-ready.md) · [laser-free/value-control plan](../decor/lighting/laser-free-and-value-control-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [latest handoff](../decor/lighting/handoff-2026-10-22-laser-free-gathered-fleece.md). Ceiling **about $1,600 including permanent lights**, $91.20 headroom beyond $30.48 contingency. Host drops laser, accepts gathered fleece/mild echo effect and bigger rug; MAX sold out. No decor purchases or physical tests.
 
 | Task | Current status / next action | Target |
 |---|---|---|
-| SHOP-01 / SET-02 | Three-room layout/15 entities unchanged; combine all three linked lights as host intends. Rig footprints/supports not yet fitted | Before claiming previous dance capacity with rig |
-| OPS-01 / BUD-01 / SHOP-02 | Ceiling unchanged; resolve $57.38 proposed cost gap without silent cuts. Tape scale, closets, actual outlets/circuits and fixture supports remain | Oct 22–24 physical checks |
-| SHOP-03 / DRAPE-01–04 | Host wants one thicker material across all walls, no separate pads. Two 20-yd black fleece bolts / $220 proposed; 72-in 2-mm felt alternative sourced. Verify fresh stock/arrival, heavier mounting, opacity and echo effect; valance comes from wide offcut, not two short bolt ends | Before cutting/order |
-| LIGHT-BED | Four-fixture DMX design, $119 buffered interface and free QLC+ selected as proposal. Resolve conditional laser suitability, real mounts, firmware ≥4.5 and cable SKUs/lengths | Receipt target Oct 27; prototype by Oct 29 |
-| LIGHT-LR / BATH-08 | Permanent violet lamp, steady eyes and cordless bath tests still unperformed | Nine-hour elapsed trial |
-| BED-01 / PROP-01 | Upright corner accepted; actual bed support unresolved, guardian independent | Before moving bed |
-| SHOP-04 / BUY-01 | Verify fabric/interface actual receipt date and delivered totals; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
-| SET-03 | Scenery 25–33 h + basic DMX 3–5 h = **28–38 hands-on h**. Simplify craft detail to preserve rehearsal time; bespoke nine-hour cue programming extra | Complete Oct 30 incl audio/TV/light/loss-of-control rehearsal |
+| SHOP-01 / SET-02 | Furniture/15 entities unchanged; OPPSK + two U’King heads, no laser. Real supports/footprints not fitted | Before confirming prior dance capacity |
+| OPS-01 / BUD-01 / SHOP-02 | $1,508.80 proposal reconciled; keep headroom for actual support/cable needs. Scale, closets and outlets remain | Oct 22–24 checks |
+| SHOP-03 / DRAPE-01–04 | Fleece accepted. Proposed 54 yd / $303.86 at ~1.5× fullness, 56 hooks / 72 clips. Dedicated furnishing/header cuts. Confirm stock/continuous cut/arrival, actual height, gathered load/grip/opacity/removal | Before order/cutting |
+| RUG-01 | 8 × 10 Bitter Black / $83.99 replaces 5 × 7; [scan fit](../decor/space-inputs/hollow-rug-fit-2026-10-22.png). Test door clearance, whole support feet/level and grip | Before purchase/install |
+| LIGHT-BED | Proposed SH-RS09B $15.99 / free QLC+, two extra DMX leads/terminator/USB adapter in $50 reserve. Verify hardware/maps, Mac host-timing under full music/media load; built-in-mode fallback | Receive by Oct 27, prototype Oct 29 |
+| LIGHT-LR / BATH-08 | Permanent violet lamp, guardian steady eyes and cordless bath tests unperformed | Nine-hour elapsed trial |
+| BED-01 / PROP-01 | Upright corner accepted; bed restraint unresolved, guardian independent | Before moving bed |
+| SHOP-04 / BUY-01 | Verify actual fabric/interface/rug receipt and delivered totals; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
+| SET-03 | Scenery 25–33 h + basic DMX 3–5 h = **28–38 hands-on h**. Keep craft simple and preserve rehearsal | Complete Oct 30 |
 
 ## October 22 host costume status
 

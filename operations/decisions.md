@@ -1,10 +1,14 @@
 # Decision log and open questions
 
-## Latest October 22 • one thicker black felt/fleece material
+## Latest October 22 • laser removed, fleece accepted, pleating and larger rug
 
-**Confirmed host:** wants all walls covered with one thicker black felt/fleece material for appearance and some sound deadening, rather than thin fabric plus separate pads. Velvet unnecessary. [Current source comparison](../decor/bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) proposes 40 yd black fleece in two 20-yd bolts / $220; 32 yd 72-in / 2-mm felt is $217.28. Neither product is an acoustically rated assembly.
+**Confirmed host:** remove lasers for safety; MAX interface is sold out; find cheaper laptop control. Accept fleece, add some pleating, seek only mild curtain-like sound softening plus a larger carpet. No dedicated acoustic target/pads. Approximately $1,600 whole-decor target unchanged.
 
-**Proposed, not host-finalized or purchased:** fleece replaces H22 poplin and removes H33 pads. [Current basket](../decor/shopping-ready.md) **$1,657.38**, $57.38 above unchanged approximately $1,600 ceiling. Preserve scenery/contingency for now; optional trims documented but not applied. Live felt price/specs checked in Chrome; fleece indexed price requires fresh stock/arrival confirmation because live site remains at security verification. Actual material opacity/weight/support and echo trial pending. Combined lights and accepted furniture layout unchanged.
+**Proposed:** [54 yd 280-GSM black fleece / $303.86, ~1.5× fullness](../decor/bedroom/draping/02-shopping-and-sample.md), expanded supports, [8 × 10 rug / $83.99](../decor/bedroom/rug-and-desk-finish-2026-10-21.md), [DSD TECH SH-RS09B $15.99 + free QLC+](../decor/lighting/laser-free-and-value-control-2026-10-22.md) for retained OPPSK + two U’King LED fixtures. Live Chrome confirmed cable/rug offers; physical Mac/fixture fit and fabric quantity/arrival unverified. Extra third supply removed with laser. Current [basket](../decor/shopping-ready.md) **$1,508.80**, $91.20 headroom beyond included $30.48 contingency. No purchases/installs/tests; no changes to furniture or other scenery.
+
+## Earlier October 22 • single-material sourcing before pleating
+
+Host wanted one thick black felt/fleece material instead of thin cloth plus pads. [40-yd near-flat fleece / felt comparison](../decor/bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) and $1,657.38 budget are **superseded by the accepted fleece/gathering and laser-free direction above**. No additional order.
 
 ## Earlier October 22 • black atmosphere and some sound deadening
 
@@ -14,7 +18,7 @@ Host confirmed velvet unnecessary. The earlier poplin + two hidden felted pads /
 
 **Confirmed host:** expensive raw stretch velvet rejected; all Hollow walls still bulk fabric. All three linked lights are intended **together**. Host explicitly replies **“Allow about $1,600 total for the combined rig”** to the whole-decor budget question. Revised decor ceiling about $1,600 including permanent lights; no purchase authorization inferred.
 
-**Earlier fabric proposal (superseded above); lighting design remains:** [40-yd black poplin / combined DMX design](../decor/lighting/fabric-and-combined-rig-2026-10-22.md), free QLC+ and buffered DMXking MAX. Basket at that point $1,593.66, replacing $996.36. Four fixtures because U’King link is a pair. Actual mounts/footprints, conditional laser suitability, delivered fabric/interface quotes and audio/lighting rehearsal remain unresolved. No orders, installs or tests. [Handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md).
+**Historical all-three/MAX proposal, superseded above:** [40-yd black poplin / combined DMX design](../decor/lighting/fabric-and-combined-rig-2026-10-22.md), free QLC+ and buffered DMXking MAX. Basket at that point $1,593.66, replacing $996.36. Four fixtures because U’King link is a pair. Actual mounts/footprints, conditional laser suitability, delivered fabric/interface quotes and audio/lighting rehearsal remain unresolved. No orders, installs or tests. [Handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md).
 
 ## October 21 • earlier house decor decisions and proposal
 

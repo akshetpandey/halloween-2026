@@ -1,47 +1,47 @@
-# Full-wall raw black fabric — cut plan and sourcing
+# Full-wall black fleece — gathered cut plan
 
-Updated October 22, 2026. **Host direction: bulk fabric, not ready-made curtains; cover all Hollow walls and both windows.** No rods. Hooks/clips and direct tape are accepted; independent clipped panels are proposed. Nothing ordered or physically tested.
+Updated October 22, 2026. **Host accepts fleece**, one material on every Hollow wall/window; wants some pleating and only mild curtain-like echo softening. No separate pads or acoustic-engineering target. Raw fabric, no rods or ready-made curtains. Nothing ordered or physically tested.
 
-## Current one-material proposal — October 22
+## Material and order recommendation
 
-**Host requests black felt or fleece across every wall, replacing thin cloth plus separate pads.** Proposed [FabricDirect black anti-pill fleece, SKU 31707](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/), **two 20-yd bolts / 40 yd / $220** before tax. Vendor's indexed page lists 280 GSM, 100% polyester, 58-in description / 60-in actual-width field. Live Chrome is held at security verification; fresh stock/price and arrival are not confirmed. Use minimum 58-in usable width. [Source comparison, 72-in felt alternative, sound expectations and budget](04-single-layer-felt-fleece-2026-10-22.md).
+[FabricDirect solid black fleece, SKU 31707, 20-yd bolt](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/): indexed vendor offer **$110 per bolt / $5.50 per yd**, **280 GSM**, polyester, 58-in description / 60-in actual-width field. Its linked cut-yard offer is **$5.99/yd**. Conservative usable width **58 in**. Vendor indexed prices accessed Oct 22; live site security verification prevents fresh stock/checkout confirmation. Receipt by Oct 27 is unconfirmed; published processing/transit windows do not promise it.
 
-Fleece provides one soft black surface with modest unmeasured echo-control potential; no NRC, blackout, flame-retardant or bass-isolation claim. No separate pads or lining. Current whole-decor proposal is **$1,657.38**, $57.38 over the approximate $1,600 target; ceiling has not been raised. Prior $143.64 poplin + $17.90 pads and $249.60 velvet proposals are superseded, not extra orders. Receipt by Oct 27 and actual opacity/supports need verification before cutting.
+**Recommend ordering 54 yd: two 20-yd bolts + one continuous 14-yd cut = $303.86 before tax.** Ask for matching dye lot when ordering; matching appearance across units is not guaranteed. This yields moderate **about 1.5× fullness** on main runs: about 15 ft of cloth across a 10-ft wall, gathered into loose folds. Short returns get similar allowance. **The old 40-yd plan was near-flat coverage**, not this gathered treatment.
 
-## Scan-based cut schedule
+Simpler bolt-only alternative: **three 20-yd bolts / 60 yd / $330**, $26.14 more material / $28.49 more all-in under the current planning tax. Extra reserve rather than a need for 60 yd to cover the walls. If cut-yard continuity or current stock fails, this alternative stays within the current approximate $1,600 whole-decor target; do not silently substitute a narrower cloth.
 
-Maximum inside size ~110.0 × 164.2 in, stepped corner, ceiling ~113.5 in. Full perimeter ~548.4 in / 45.7 ft; entry opening ~33.4 in. Windows are included in wall widths, not counted twice. Window tops ~112–113 in leave little wall above glass: actual top support location needs a photo/tape check.
+**GSM means grams per square metre: weight over an area. Millimetres measure thickness.** There is no fixed conversion between them because fabric density/fluff differs. The recommended 280-GSM fleece is a soft medium-weight blanket-like material; its actual thickness is not specified. The prior 2-mm felt figure measured a different property, not a proven acoustic advantage. Fleece plus the larger low-pile rug fits the host's mild reflection-softening goal; no separate acoustic pads needed.
 
-Use minimum **58-in usable width**, **12 drops × 3.25 yd = 39 yd**, within two 20-yd bolts. Each bolt supplies six drops and leaves 18 in; reserve the door-head valance from a wide full-height offcut, not an assumed continuous final yard. Each drop is 117 in before folds; a 3–4-in top fold leaves 113–114 in before lower finishing. Verify mounting-to-finish drop before cutting all twelve. Shallow folds about 1.0–1.05 fullness, not deep theatrical pleats.
+## Gathered wall cuts — scan estimates, tape-check before cutting
 
-| Run, as oriented in the plan | Drops allocated | Working widths before small side folds | Hook/clip points |
-|---|---:|---|---:|
-| Right long wall below step, 118.4 in | 3 | 58 + 58 + 12.5 in, two ~2-in overlaps → ~124.5 in | 8 |
-| Rear closet wall, 110.0 in | 2 | 58 + 58 in, ~2-in overlap → 114 in | 6 |
-| Left wall below entry, 122.1 in | 3 | 58 + 58 + 14.5 in, two ~2-in overlaps → ~126.5 in | 8 |
-| Top window wall, 86.2 in | 2 | 58 + 33 in, ~2-in overlap → 89 in | 6 |
-| Five short returns, ~8.6 / 17.6 / 13.8 / 28.1 / 10.1 in | 2, slit into strips | ~10 / 19 / 15 / 30 / 12 in; distribute across the two drops | 10 |
-| Door head | Wide full-height offcut; reserve ~36 × 36 in before other furnishing cuts | Shallow valance over opening; entry itself clear | 2 |
-| **Total** | **40 yd** | **15 full-height pieces + one valance** | **40 planned + 2 spare** |
+Maximum inside size ~110 × 164.2 in, stepped corner, ceiling ~113.5 in. Full perimeter ~548.4 in; entry opening ~33.4 in. Windows are part of these wall spans, never added twice. Tops of windows ~112–113 in: top support position still needs physical confirmation.
 
-Keep substantial full-height width offcuts for stored-bed concealment, the [complete desk U-skirt](../rug-and-desk-finish-2026-10-21.md), dry-tub base and guardian shoulders; they are not discarded or a second fabric order. These are estimated cuts; tape-check each run/drop and support interval. Do not glue closet-access panels shut.
+**Sixteen drops × 117 in (3.25 yd) = 52 yd:** fourteen wall drops, two reserved for furnishings. Header uses a separate 1-yd piece from the continuous 14-yd cut, leaving two short bolt-end remnants as contingency. Actual ceiling-to-clip drop, top folds and floor-clear hem need a sample; fleece can stretch. The cuts below include ~2-in panel overlaps, with small finishing margins. About 1.5× means loose curtain folds, not deep 2× theatrical gathering.
 
-## Supports
+| Wall run | Full-height pieces before gathering | Width after ~2-in overlaps / fullness | Full 117-in drops used | Starting hook/clip points |
+|---|---|---|---:|---:|
+| Right 118.4 in | 58 + 58 + 58 + 10 in | 178 in / 1.50× | 4 | 11 |
+| Rear 110 in | 58 + 58 + 58 in | 170 in / 1.55× | 3 | 9 |
+| Left 122.1 in | 58 + 58 + 58 + 15 in | 183 in / 1.50× | 4 | 11 |
+| Top window 86.2 in | 58 + 58 + 17 in | 129 in / 1.50× | 3 | 8 |
+| Five returns ~8.6 / 17.6 / 13.8 / 28.1 / 10.1 in | 15 / 28 / 23 / 44 / 18-in strips from main-run offcuts | Small strips retain finishing allowance and approximately 1.5× gathering | 0 extra | 10 |
+| Door head | Separate 58 × 36-in piece, trim to actual header | Opening itself remains clear | 1 yd separate | 2 |
+| **Walls/header** | **19 full-height pieces + header** | Moderate loose folds | **14 drops + 1 yd** | **51 points** |
 
-[Command 17003-MPES large utility hooks, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524): **$14.61/pack**, retailer page Oct 21; three packs **42 hooks / $43.83**. Local stock not checked.
+Pack return strips without extra drops: the right partial drop leaves 48 in → 44-in return; left leaves 43 in → 28 + 15; top leaves 41 in → 23 + 18. These wall leftovers are mostly consumed by gathering: **they can no longer be promised as the full desk/bed fabric reserve**.
 
-[Staples 831602 medium black 1.25-in binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277): **$6.19 indexed offer**; direct checkout blocked/unverified. Two packs **48 clips / $12.38**. Reuse suitable clips first.
+### Cut order and furnishing reserve
 
-**Cloth/support proposal $276.21 before tax/shipping** ($220 + $43.83 + $12.38). A full 58 × 117-in fleece drop is about 2.7 lb before clips at the listed 280 GSM. These are DIY supports, not a certified curtain system. Do not sum hook ratings. Three points across a wide panel is a trial starting point, not proof of safe spacing. Weigh one complete folded panel; check clip handle fit, grip, actual substrate and removal. Follow exact package preparation/wait directions, observe a loaded sample for at least 24 h, then remove one attachment. Increase support/re-cost if needed.
+- Bolt A, 20 yd: six 117-in wall drops (19.5 yd), 18-in end remnant.
+- Bolt B, 20 yd: six 117-in wall drops (19.5 yd), 18-in end remnant.
+- Continuous 14-yd piece: two 117-in wall drops + **two 117-in furnishing drops** (13 yd), then **one 36-in header piece** (1 yd).
 
-No tensioned ceiling wire; no branches, lights or guardian on fabric supports. Gaffer is not the fabric load system. Keep removal tabs accessible, hems above feet, and windows/vents/heaters reachable through independent removable sections. Cover walls visually without sealing ventilation or wrapping equipment.
+Reserve both furnishing drops before installation: one can supply the complete **117 × ~34-in desk U-skirt** (108-in visible wrap plus returns; height unconfirmed), with the remaining width available for patches. The second drop and patch material conceal the scan's ~86 × 66-in stored-bed face with seams/overlaps; exact stored face still needs measurement. Remaining furnishing/header/bolt-end offcuts supply guardian shoulders and dry-tub base. No separate desk cloth or pads. Keep speaker fronts, equipment top and vents clear.
 
-## Alternatives, replacing the cloth line
+## Supports and trial
 
-| Source | October 21 evidence | Tradeoff |
-|---|---|---|
-| [Rose Brand DVT80001, black 54-in 8 oz FR duvetyne](https://www.rosebrand.com/duvetyn-54-in-fr-8-oz-black) | $7.60 cut yd; nominal 50-yd roll at $5.42/yd = $271; roll ±10% / actual-length billing could be $298.10 at 55 yd | Brushed matte, less plush; manufacturer comparison reports about 50% light blocking. Recalculate narrower widths, shipping and window backing |
-| [FabricEmpire black stretch velvet 58/60 in](https://www.fabricempire.com/stretch-velvet-fabric-19-black-58-wide-sold-by-the-yard.aspx) | $8.35/yd, 40 yd $334 | $84.40 more before shipping; needs scope cuts |
-| [Fabric Wholesale Direct velvet](https://fabricwholesaledirect.com/products/stretch-velvet-fabric) | Black swatch sold out in Chrome | Excluded; the quantity price shown for White is not a black-fabric offer |
+[Command 17003-MPES large hooks, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524), dated retailer quote **$14.61/pack**: **four packs / 56 hooks / $58.44**, 51 wall/header starting points + 5 spare. [Staples 831602 1.25-in black binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277), indexed **$6.19/pack**: **three packs / 72 clips / $18.57**, 51 wall/header + six desk + 15 spare. Reuse suitable supplies first; local stock and clip fit unverified. Added gathering increases supports by **$20.80** over the near-flat proposal.
 
-If delivery fails, take this same cut list to a local raw-fabric supplier, match usable width/opacity/weight, and replace the cloth line. Keep all-wall coverage; reduce optional ornaments first. A failed support trial remains an unresolved installation requirement, not permission to claim the full installation passed.
+**Fabric + proposed hooks/clips = $380.87 before tax/shipping.** A complete 58 × 117-in drop is about 2.7 lb at 280 GSM before clips. Broad panels start with three points; narrow pieces two. This is an untested inventory, not a certified attachment design. Follow exact substrate/preparation/wait instructions; trial full folded/gathered material, clip grip, stretch/sag and one removal for 24 h. Increase support/re-cost if needed; do not sum hook ratings. Independent removable panels preserve closet/window access; hems stay above feet and clear of rug edges. Stage lights and guardian use their own supports.
+
+Compare the same short music/voice passage before/after at the same level if useful; mild curtain-like softening is the goal. No extra pad project. [Larger rug/desk plan](../rug-and-desk-finish-2026-10-21.md) · [Laser-free laptop lighting](../../lighting/laser-free-and-value-control-2026-10-22.md) · [Current single basket](../../shopping-ready.md).

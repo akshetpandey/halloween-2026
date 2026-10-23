@@ -1,10 +1,10 @@
 # Full-wall black fleece — gathered cut plan
 
-Updated October 22, 2026. **Host accepts fleece**, one material on every Hollow wall/window; wants some pleating and only mild curtain-like echo softening. No separate pads or acoustic-engineering target. Raw fabric, no rods or ready-made curtains. Nothing ordered or physically tested.
+Updated October 23, 2026. **Host accepts fleece**, one material on every Hollow wall/window; wants some pleating and only mild curtain-like echo softening. No separate pads or acoustic-engineering target. Raw fabric, no rods or ready-made curtains. Nothing ordered or physically tested.
 
 ## Material and order recommendation
 
-[FabricDirect solid black fleece, SKU 31707, 20-yd bolt](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/): indexed vendor offer **$110 per bolt / $5.50 per yd**, **280 GSM**, polyester, 58-in description / 60-in actual-width field. Its linked cut-yard offer is **$5.99/yd**. Conservative usable width **58 in**. Vendor indexed prices accessed Oct 22; live site security verification prevents fresh stock/checkout confirmation. Receipt by Oct 27 is unconfirmed; published processing/transit windows do not promise it.
+[FabricDirect solid black fleece, SKU 31707, 20-yd bolt](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/): indexed vendor offer **$110 per bolt / $5.50 per yd**, **280 GSM**, polyester, 58-in description / 60-in actual-width field. Its linked cut-yard offer is **$5.99/yd**. Conservative usable width **58 in**. Vendor indexed prices accessed Oct 22; **Oct 23 recheck still blocked by live site security verification**. Exact cut-yard URL and current 14-yd continuity remain unverified. [Live backup/stock evidence](../../research/final-offer-check-2026-10-23.md): **fabric order on HOLD**, no confirmed alternative arrival. Receipt by Oct 27 is unconfirmed; published processing/transit windows do not promise it.
 
 **Recommend ordering 54 yd: two 20-yd bolts + one continuous 14-yd cut = $303.86 before tax.** Ask for matching dye lot when ordering; matching appearance across units is not guaranteed. This yields moderate **about 1.5× fullness** on main runs: about 15 ft of cloth across a 10-ft wall, gathered into loose folds. Short returns get similar allowance. **The old 40-yd plan was near-flat coverage**, not this gathered treatment.
 
@@ -36,7 +36,7 @@ Pack return strips without extra drops: the right partial drop leaves 48 in → 
 - Bolt B, 20 yd: six 117-in wall drops (19.5 yd), 18-in end remnant.
 - Continuous 14-yd piece: two 117-in wall drops + **two 117-in furnishing drops** (13 yd), then **one 36-in header piece** (1 yd).
 
-Reserve both furnishing drops before installation: one can supply the complete **117 × ~34-in desk U-skirt** (108-in visible wrap plus returns; height unconfirmed), with the remaining width available for patches. The second drop and patch material conceal the scan's ~86 × 66-in stored-bed face with seams/overlaps; exact stored face still needs measurement. Remaining furnishing/header/bolt-end offcuts supply guardian shoulders and dry-tub base. No separate desk cloth or pads. Keep speaker fronts, equipment top and vents clear.
+Reserve both furnishing drops before installation: one can supply the complete **117 × ~34-in desk U-skirt** (108-in visible wrap plus returns; height unconfirmed), with the remaining width available for patches. The second drop and patch material conceal the scan's ~86 × 66-in stored-bed face with seams/overlaps; exact stored face still needs measurement. Remaining furnishing/header/bolt-end offcuts supply the [Guardian’s ~30 × 48-in shoulder drape](../woodland-guardian.md) and dry-tub base; piece/reduce the shoulder drape if actual bed templates consume more. No separate desk cloth or pads. Keep speaker fronts, equipment top and vents clear.
 
 ## Supports and trial
 

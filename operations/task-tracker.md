@@ -1,20 +1,20 @@
 # Task tracker and timeline
 
-## October 22 • decor execution status
+## October 23 • decor shopping and build status
 
-[Current room plan](../decor/final-room-plan.md) · [single $1,508.80 basket](../decor/shopping-ready.md) · [laser-free/value-control plan](../decor/lighting/laser-free-and-value-control-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [latest handoff](../decor/lighting/handoff-2026-10-22-laser-free-gathered-fleece.md). Ceiling **about $1,600 including permanent lights**, $91.20 headroom beyond $30.48 contingency. Host drops laser, accepts gathered fleece/mild echo effect and bigger rug; MAX sold out. No decor purchases or physical tests.
+[Current room plan](../decor/final-room-plan.md) · [single $1,554.25 basket](../decor/shopping-ready.md) · [today’s offers](../decor/research/final-offer-check-2026-10-23.md) · [Guardian construction](../decor/bedroom/woodland-guardian.md) · [latest handoff](../decor/handoff-2026-10-23-final-shopping.md). Ceiling **about $1,600 including permanent lights**, $45.75 headroom beyond included $30.48 contingency. Host accepts direction; products unpurchased and physical tests unperformed.
 
 | Task | Current status / next action | Target |
 |---|---|---|
-| SHOP-01 / SET-02 | Furniture/15 entities unchanged; OPPSK + two U’King heads, no laser. Real supports/footprints not fitted | Before confirming prior dance capacity |
-| OPS-01 / BUD-01 / SHOP-02 | $1,508.80 proposal reconciled; keep headroom for actual support/cable needs. Scale, closets and outlets remain | Oct 22–24 checks |
-| SHOP-03 / DRAPE-01–04 | Fleece accepted. Proposed 54 yd / $303.86 at ~1.5× fullness, 56 hooks / 72 clips. Dedicated furnishing/header cuts. Confirm stock/continuous cut/arrival, actual height, gathered load/grip/opacity/removal | Before order/cutting |
-| RUG-01 | 8 × 10 Bitter Black / $83.99 replaces 5 × 7; [scan fit](../decor/space-inputs/hollow-rug-fit-2026-10-22.png). Test door clearance, whole support feet/level and grip | Before purchase/install |
-| LIGHT-BED | Proposed SH-RS09B $15.99 / free QLC+, two extra DMX leads/terminator/USB adapter in $50 reserve. Verify hardware/maps, Mac host-timing under full music/media load; built-in-mode fallback | Receive by Oct 27, prototype Oct 29 |
-| LIGHT-LR / BATH-08 | Permanent violet lamp, guardian steady eyes and cordless bath tests unperformed | Nine-hour elapsed trial |
-| BED-01 / PROP-01 | Upright corner accepted; bed restraint unresolved, guardian independent | Before moving bed |
-| SHOP-04 / BUY-01 | Verify actual fabric/interface/rug receipt and delivered totals; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
-| SET-03 | Scenery 25–33 h + basic DMX 3–5 h = **28–38 hands-on h**. Keep craft simple and preserve rehearsal | Complete Oct 30 |
+| SHOP-01 / SET-02 | Furniture/15 entities unchanged; three LED fixtures, no laser. Independent stage-light supports still unresolved, $25 reserve not a rig quote | Before buying heavy lights / confirming dance fit |
+| OPS-01 / BUD-01 / SHOP-02 | $1,554.25 estimate reconciled; exact connections and Guardian stand counted once, price refresh included | Actual delivered total before payment |
+| SHOP-03 / DRAPE-01–04 | **HOLD:** 54 yd / $303.86, ~1.5× fullness, 56 hooks/72 clips. FabricDirect live quantity/continuous cut/arrival unconfirmed; Big Z quote has no arrival date. Confirm actual height, gathered load/grip/opacity/removal | Before order/cutting; receipt target Oct 27 |
+| RUG-01 | 8 × 10 Bitter Black / $83.99, live Oct 23 stock/Oct 24 option. Test door clearance, whole support feet/level and grip | Before use |
+| LIGHT-BED | SH-RS09B $15.99/free QLC+, exact two DMX leads + terminator/USB adapter packs $44.96. Verify received maps, first-lead reach, Mac host-timing under music/media load; built-in-mode fallback | Receive by Oct 27, prototype Oct 29 |
+| LIGHT-LR / BATH-08 | Govee price now $99.99; lamp/curtain discounts partly offset. Guardian steady eyes and cordless bath tests unperformed | Nine-hour elapsed trial |
+| BED-01 / PROP-01 | Upright-bed restraint unresolved. Guardian card/kraft/fleece bust now has concrete build/BOM and proposed $34.99 independent stand, Oct 27 option; actual stability test pending | Before final prop assembly/bed move |
+| SHOP-04 / BUY-01 | Live fabric and support gaps reported; no agent purchase. Verify retail mounting stock and actual receipts | Receipt target Oct 27, local fallback Oct 29 |
+| SET-03 | Scenery + basic DMX **28–38 hands-on h**; Guardian 3–5 h within scenery, stand trial after arrival; simplify detail for rehearsal | Complete Oct 30 |
 
 ## October 23 host costume status
 

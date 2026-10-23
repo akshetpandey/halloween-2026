@@ -1,85 +1,82 @@
-# House decor basket — October 22, 2026
+# House decor shopping plan — October 23, 2026
 
-**Current single basket. Proposed, not ordered or tested.** Confirmed revised ceiling **about $1,600 including permanent lights** (Oct 22 reply for the combined rig). Only owned decor: gold tree/full-color LIFX. All-wall **bulk black fabric**, not ready-made curtains. [Room/layout plan](final-room-plan.md) · [Cut schedule](bedroom/draping/02-shopping-and-sample.md) · [Setup](setup-schedule.md) · [Offer evidence](research/full-wall-offers-2026-10-21.md).
+**Host accepts the fleece / gathered-wall / larger-rug / laser-free direction. Products remain unpurchased and installations untested.** Ceiling **about $1,600 including permanent lights**. Only owned decor: gold tree/full-color LIFX. All Hollow walls use bulk black fabric, not ready-made curtains. [Room/layout](final-room-plan.md) · [54-yd cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Setup](setup-schedule.md) · [Today's stock/delivery evidence](research/final-offer-check-2026-10-23.md).
 
-**$1,508.80 proposed planning cash envelope**, including $60 shipping and $30.48 contingency: **$91.20 below approximately $1,600 beyond that contingency**. Latest host decisions remove the laser and accept fleece with some pleating, mild curtain-like sound softening and a larger rug. Three fixtures, cheaper USB-DMX proposal, 54 yd fleece and expanded supports. Delivered fabric quantity/receipt, heavier gathered mounting, rug door/feet/grip, fixture supports and actual Mac operation still need checks. Nothing purchased, added to cart, reserved or installed.
+**$1,554.25 planning cash envelope**, including $60 shipping and $30.48 contingency: **$45.75 below about $1,600 beyond that contingency**. This is the reconciled shopping list, not a fully delivered checkout quote. Two material buying holds remain: **FabricDirect stock/arrival is unconfirmed**, and **actual independent supports for the stage lights are unresolved**. Retail mounting stock, gathered-fabric/rug fit and Mac operation also need checks. No decor order placed by this task.
 
-## Prioritized products
+## Exact products and quantities
 
-New fabric/rig prices checked October 22, 2026, America/New_York; other prices retain their October 21 evidence. P1 = fabric/support/light/function first; P2 = scenery after fit. New one-time Amazon offers exclude coupons/subscriptions/used alternatives. Existing Brooklyn 11211 delivery estimates are conditional at check time; no exact address entered or stored. Core offer evidence comes from [October 21 Chrome checks](research/offer-check-2026-10-21.md); moss/ivy evidence is in the Oct 21 register; [Oct 22 combined-rig evidence](lighting/fabric-and-combined-rig-2026-10-22.md) records lighting; [latest gathered fleece cuts](bedroom/draping/02-shopping-and-sample.md) and [laser-free rig](lighting/laser-free-and-value-control-2026-10-22.md) supersede its cloth/laser/interface choices.
+**Amazon offers refreshed October 23 in Chrome:** all listed Amazon items displayed In Stock and an October 24 delivery choice, except Guardian stand October 27 (USB adapter also offered October 26 standard). Estimates are account/cutoff dependent, not guaranteed. Moss quantity 3 and warm-string quantity 2 were selected without adding to cart; other Amazon checks used one product/pack. No optional coupon, used offer or subscription counted. Home Depot, Walmart and Target retain older quotes; their current stock/arrival is not confirmed. FabricDirect remains indexed evidence only.
 
-| ID | Exact product / variant | Qty | Unit USD | Line USD | Allocation / delivery / status |
+| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Allocation / limits |
 |---|---|---:|---:|---:|---|
-| H22 P1 | [FabricDirect solid black fleece **31707**, 280 GSM / conservative 58-in width](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/) | 2 × 20-yd bolts + 14 continuous cut yd = 54 yd | 110 bolt / 5.99 cut yd | 303.86 | Host accepts fleece. About 1.5× fullness; 14 wall + two furnishing drops/header. Indexed vendor prices; live full stock/arrival unverified. [Gathered cuts](bedroom/draping/02-shopping-and-sample.md). 60-yd bolt-only alternative $330 |
-| H24 P1 | [Command large utility 17003-MPES, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524) | 4 packs | 14.61 | 58.44 | 56 fabric hooks: 51 planned gathered-wall/header points + 5 spare. Added pack for pleating; retailer quote/local stock unverified. Actual complete gathered-panel trial required |
-| H25 P1 | [Staples 831602, 1.25-in black binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | 3 packs | 6.19 | 18.57 | 72: 51 wall/header + six desk + 15 spare. Indexed offer/checkout unverified. Added pack for pleating; reuse suitable clips first and trial grip/fit |
-| H29 P1 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Combined Hollow wash/pixel effect; 18/268CH, dim/strobe. Chrome Oct 22 free Oct 24; listed 10.6 lb. Exact manual, independent supports and nameplate load pending |
-| H31 P1 | [U’King 25W moving heads **2PCS**, selected Brown / black pictured, B0836CXMW6](https://www.amazon.com/dp/B0836CXMW6) | 1 pair | 129.99 | 129.99 | Two fixtures, not $129.99 each. Chrome Oct 22 free Oct 25; 9/11CH each, no remote. Exact footprint/support trial pending |
-| H32 P1 proposed | [DSD TECH **SH-RS09B 5.9-ft**, USB-A to 3-pin female DMX, B07WV6P5W6](https://www.amazon.com/dp/B07WV6P5W6) | 1 | 15.99 | 15.99 | Chrome Oct 22 in stock/free Oct 24, Amazon ships / DSD TECH Direct sells. Seller FTDI/Mac/QLC+ support; Open DMX host-timed class, exact Mac/music-load test pending. Replaces sold-out MAX per host; no MAX firmware/snapshot requirement |
-| H26 P1 permanent | [Govee RGBIC Floor Lamp Basic, **Black**, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | 1 | 69.99 | 69.99 | Grove violet bounce opposite owned LIFX. Oct 22 7–11 a.m. shown; listed white 1000 lm is not purple-coverage proof |
-| H03 P1 | [Mydethun moon, **5.9-in White & Yellow, Non-engraved**, wood stand](https://www.amazon.com/dp/B075JHP7TK) | 1 | 24.99 | 24.99 | Moon Well. Oct 24 shown; recharge outside bathroom, nine-hour test required |
-| H04 P1 | [O'Bright Seraph mini, **Black**, cordless warm ambient](https://www.amazon.com/dp/B0D92YB4RH) | 1 | 36.99 | 36.99 | Dry bathroom shelf. Oct 22 4–8 a.m. shown; shelf/brightness/runtime untested, no water-rating assumed |
-| H05 P1 | [ORTIGIA **Dark Green 72 × 72 in**, forest shower curtain + hooks](https://www.amazon.com/dp/B07YD2X9NB) | 1 | 14.99 | 14.99 | Existing bath rail only. Oct 22 qualifying delivery shown; verify rail/drop. This bathroom item is distinct from rejected bedroom curtain panels |
-| H06 P2 | [DUSPRO bendable moss vine, **10 ft**](https://www.amazon.com/dp/B0B3XC33R5) | 1 | 13.32 | 13.32 | Dry-tub roots. Oct 22 shown. Not load-bearing |
-| H08 P2 | [HTZNHXT raven skull pendants, selected **3Pcs**](https://www.amazon.com/dp/B0D73D5W3Y) | 1 pack | 8.95 | 8.95 | Two guardian, one shrine. Oct 23 shown; selected pack governs conflicting copy |
-| H11 P1 | [USMOLA **Green 39 × 39 in / 100 × 100 cm** moss sheet, B0FZD67YDD](https://www.amazon.com/dp/B0FZD67YDD) | 3 | 16.99 | 50.97 | ~31.7 sq ft nominal; first cover ~24.4 sq ft actual counters, reserve ~2 sq ft desk fascia, then other small props. Chrome product screenshot: in stock, Oct 22 free, Amazon ships / Usmola sells. Recheck quantity-three arrival |
-| H27 P2 | [KASZOO **12 Pack with 80 LED**, green ivy, 84 ft, B07H1GQB36](https://www.amazon.com/dp/B07H1GQB36) | 1 pack | 9.99 | 9.99 | 12 × 7-ft strands: ten Grove, two Hollow desk. Chrome product: in stock / Oct 22 free / KASZOO.shop, Amazon ships. Included battery string is optional spare, not needed for core lighting; battery type/inclusion unverified |
-| H12 P1 | [Twinkle Star **Warm White USB 66 ft / 200 LED**, remote](https://www.amazon.com/dp/B07GMQ42GG) | 2 | 9.99 | 19.98 | One light-backs Grove moon and continues along shrine/vines; one guardian eyes/roots + protected backdrop edge. Strings intact, no tight surplus coil. Oct 22 qualifying offer |
-| H13 P1 | [Homemory **warm-white glow, white body, 12-pack** tea lights](https://www.amazon.com/dp/B01EDKGFGU) | 1 pack | 7.99 | 7.99 | Six Grove, four bath, two spare; listed cells included. Oct 22 qualifying offer; test timers/runtime |
-| H16 P1 | [DIY Doctor black gaffer **2 in × 30 yd, 1 Pack**](https://www.amazon.com/dp/B0GH865ZQG) | 1 | 8.99 | 8.99 | Repairs/perimeter cable retention after finish trial; not fabric load system. Oct 22 qualifying offer |
-| H17 P1 | [Skalon **8-in black ties, 100-pack**](https://www.amazon.com/dp/B09PJ8L58G) | 1 | 3.99 | 3.99 | Shared scenic fastening, trim ends; Oct 22 qualifying offer |
-| H18 P1 | [Command 17026CLRVPES, **40 decorating clips / 48 strips**](https://www.homedepot.com/p/203431559) | 3 packs | 9.93 | 29.79 | 120 light-wire/ivy clips: up to 70 string + ~24 ivy points + spare. Separate from fabric hooks. Retail price; local stock/actual load compatibility unverified |
-| H19 P1 | [HDX FSEX29 **15-ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | 2 | 19.98 | 39.96 | One Grove and one Hollow, each direct to suitable wall outlet; three Hollow fixture AC plugs plus guardian USB. Extra third supply removed with laser; actual audio/Mac power/outlet map may need re-costing. Retail quote/local stock unverified |
-| H20 P1 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | 1 | 4.49 | 4.49 | Two candle/remote spares only if actual labels match. Retail price/local availability unverified. Do not buy extra CR2025 speculatively |
-| H28 P1 proposed | [WITSHOCK **B0CYL5S6LW, Bitter Black / 8 × 10 ft**, low-pile rug](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Chrome Oct 22 selected exact size/color, in stock/free Oct 26, Amazon ships / SshiY sells. Replaces 5 × 7, 80 sq ft / ~66% room floor. Door sweep, feet/level and grip need trial; [measured fit](bedroom/rug-and-desk-finish-2026-10-21.md) |
-| **A merchandise** | | | | **1,136.21** | Nothing ordered; quoted and indexed evidence distinguished above |
+| H22 **HOLD** | [FabricDirect solid black fleece **31707**, 280 GSM, conservative 58-in width](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/) | **2 × 20-yd bolts + 14 continuous cut yd = 54 yd** | 110/bolt; 5.99/cut yd | 303.86 | About 1.5× fullness, 14 wall + two furnishing drops/header. Exact bolt URL; linked cut-yard offer's own URL/continuity unverified. Confirm all 54 yd and delivered date before paying. Optional 3 bolts / 60 yd / $330 also unconfirmed |
+| H24 | [Command 17003-MPES large utility hooks, **14 hooks / 16 strips**](https://www.homedepot.com/p/206180524) | **4 packs** | 14.61 | 58.44 | 56 hooks: 51 wall/header points + five spare. Older retailer quote; full gathered-panel substrate/load/removal trial required |
+| H25 | [Staples 831602 black **1.25-in binder clips, 24-pack**](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | **3 packs** | 6.19 | 18.57 | 72 clips: 51 wall/header + six desk + 15 spare. Indexed quote; reuse suitable clips first; grip/fit pending |
+| H29 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | **1** | 179.99 | 179.99 | Hollow wash/pixel effect; 18/268CH. Independent support and nameplate/manual checks unresolved; no laser |
+| H31 | [U’King 25W moving heads **2PCS**, Brown selected / black pictured, B0836CXMW6](https://www.amazon.com/dp/B0836CXMW6) | **1 pair** | 129.99/pair | 129.99 | Two fixtures, not this price each. 9/11CH each; independent supports/beam paths still need physical fit |
+| H32 | [DSD TECH **SH-RS09B 5.9FT**, USB-A to 3-pin female DMX, B07WV6P5W6](https://www.amazon.com/dp/B07WV6P5W6) | **1** | 15.99 | 15.99 | Includes first USB-to-fixture lead. Seller Mac/QLC+ support; exact same-Mac music-load test pending; free QLC+ software |
+| H35 | [Cable Matters **22AWG 3-pin DMX, 25ft, 2-pack**, B08SQG6GBF](https://www.amazon.com/dp/B08SQG6GBF) | **1 pack** | 26.99 | 26.99 | Two inter-fixture leads; route extra length at perimeter, never under rug. SKU 500053-25x2 |
+| H36 | [Cable Matters **120-ohm 3-pin male DMX terminators, 2-pack**, B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | **1 pack** | 8.99 | 8.99 | One at final fixture DMX OUT, one spare |
+| H37 conditional | [Anker **A8731 USB-C to USB-A data adapter, Gray 2-pack**, B08HZ6PS61](https://www.amazon.com/dp/B08HZ6PS61) | **1 pack** | 8.98 | 8.98 | One used, one spare; omit purchase if a suitable owned data hub/adapter works. Included in total conservatively |
+| H34 | [Pyle **PMKS5 straight microphone stand, 1 Pack / Black**, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | **1** | 34.99 | 34.99 | Proposed independent lightweight Guardian support; 9.8-in round base, ~33.5–60-in pole. Oct 27 estimate. Scenic adaptation requires actual stability test; not a light stand or bed restraint |
+| H26 permanent | [Govee **RGBIC Floor Lamp Basic / Black**, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | **1** | **99.99** | **99.99** | Grove violet bounce opposite owned LIFX. Price up $30; saturated-purple coverage not tested |
+| H03 | [Mydethun moon **5.9-in White & Yellow / Non-engraved**, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | **1** | 24.99 | 24.99 | Moon Well, charge outside bath; nine-hour trial pending |
+| H04 | [O’Bright **Seraph mini / Black** cordless lamp, B0D92YB4RH](https://www.amazon.com/dp/B0D92YB4RH) | **1** | **31.44** | **31.44** | Dry bathroom shelf; down $5.55; no water-rating claim, fit/runtime pending |
+| H05 | [ORTIGIA **Dark Green 72 × 72-in** forest shower curtain + hooks, B07YD2X9NB](https://www.amazon.com/dp/B07YD2X9NB) | **1** | **12.29** | **12.29** | Prime price, down $2.70. Existing bath rail, distinct from bedroom raw cloth |
+| H06 | [DUSPRO bendable moss vine **10ft**, B0B3XC33R5](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 13.32 | 13.32 | Dry-tub roots; not load-bearing |
+| H08 | [HTZNHXT raven pendants **3Pcs**, B0D73D5W3Y](https://www.amazon.com/dp/B0D73D5W3Y) | **1 pack** | 8.95 | 8.95 | Two Guardian, one Grove shrine; selected 3Pcs governs conflicting copy |
+| H11 | [USMOLA **Green 39 × 39-in / 100 × 100-cm moss sheet**, B0FZD67YDD](https://www.amazon.com/dp/B0FZD67YDD) | **3 sheets** | 16.99 | 50.97 | ~31.7 sq ft nominal; counters ~24.4 sq ft first, ~2 sq ft desk reserved, then small prop scraps. Template waste/quality pending |
+| H27 | [KASZOO **12 Pack with 80 LED / Green**, 84-ft ivy, B07H1GQB36](https://www.amazon.com/dp/B07H1GQB36) | **1 pack** | 9.99 | 9.99 | Ten 7-ft strands Grove, two desk. Included battery LEDs optional spare, not core lighting |
+| H12 | [Twinkle Star **Warm White USB 66ft / 200 LED**, remote, B07GMQ42GG](https://www.amazon.com/dp/B07GMQ42GG) | **2 strings** | 9.99 | 19.98 | One Grove moon/shrine, one Guardian eyes/roots/backdrop; intact strings, no tight surplus coil |
+| H13 | [Homemory **warm-white glow / white body, 12-pack** tea lights, B01EDKGFGU](https://www.amazon.com/dp/B01EDKGFGU) | **1 pack** | 7.99 | 7.99 | Six Grove, four bath, two spare; listed cells included, runtime trial pending |
+| H16 | [DIY Doctor **black gaffer 2in × 30yd / 1 Pack**, B0GH865ZQG](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | 8.99 | Shared scenery/perimeter cables after finish trial; not fabric load system |
+| H17 | [Skalon **black 8-in ties / 100 Pack**, B09PJ8L58G](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack** | 3.99 | 3.99 | Shared fastening; ~12 Guardian, trim ends |
+| H18 | [Command **17026CLRVPES, 40 decorating clips / 48 strips**](https://www.homedepot.com/p/203431559) | **3 packs** | 9.93 | 29.79 | 120 light-wire/ivy clips; separate from fabric hooks. Older retail quote/local stock unverified |
+| H19 | [HDX **FSEX29 15ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | **2** | 19.98 | 39.96 | One Grove, one Hollow, directly to suitable outlets. Three Hollow fixtures + Guardian USB; actual audio/Mac/outlet map pending. Older retail quote |
+| H20 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | **1 pack** | 4.49 | 4.49 | Buy only if actual device labels match. Older retail quote/local stock unverified |
+| H28 | [WITSHOCK **Bitter Black / 8 × 10ft**, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | **1 rug** | 83.99 | 83.99 | 80 sq ft, ~66% room floor. Door sweep, whole support feet/level and grip need trial; [measured fit](bedroom/rug-and-desk-finish-2026-10-21.md) |
+| **A merchandise** | | | | **1,237.91** | Includes held/conditional items, not paid spending |
 
-Latest host decisions: fleece accepted; add moderate pleating and larger carpet; mild curtain-like echo effect is sufficient. **Laser removed**, MAX sold out per host, **$15.99 SH-RS09B proposed**. [Current three-fixture control/automation plan](lighting/laser-free-and-value-control-2026-10-22.md) · [54-yd gathered fleece cuts](bedroom/draping/02-shopping-and-sample.md). No separate pads. Net merchandise change from preceding basket **−$136.31**, aggregate tax **−$12.27**, envelope **−$148.58**. No scenery trims needed.
+The exact connections **$44.96 replace the old $50 L06 allowance**, not added on top. Stand $34.99 replaces the missing-base portion of L04, which drops $20 → $10. Fresh lamp/curtain price changes net +$21.75. Net change from the October 22 $1,508.80 plan: **+$45.45 including planning tax**.
 
-## Local/reuse gaps
+## Local and household items — quantities, not quoted retail SKUs
+
+These remain allowances and inventory checks, not exact stock-confirmed purchases. No false exact link is supplied for a reused box, local pumpkin or an unresolved support system.
 
 | ID | Need / quantity | Allowance USD | Status |
 |---|---|---:|---|
-| L01 | Five small pumpkins/gourds, ~7 average | 35.00 | Local estimate, not a stock/price quote |
-| L02 | Small matte charcoal/brown/green/bone paint + adhesive; reused card/paper for face, stones and autumn leaves | 15.00 | Estimate, inventory brushes/glue tools first; no new tool kit assumed |
-| L03 | 24-in moon disk/frame materials, reused card plus light-diffusing paper | 5.00 | Estimate; H12 is its light source, already counted |
-| L04 | Missing stable guardian support, independent light-figure attachments, two trays/wipeable underlayer and covered jar | 20.00 | Gap reserve assumes substantial household reuse. If suitable guardian base missing, use independent flat face board; no unpriced tall rig |
-| L05 | Thin floor-compatible rug grip/edge treatment if actual rug needs it | 15.00 | Conditional reserve; included TPR backing tested first, no pad SKU selected before substrate check |
-| L06 | Two DMX-rated 3-pin inter-fixture leads, 120-ohm terminator, USB-C to USB-A data adapter if needed | 50.00 | Interface includes 5.9-ft first lead; route/lengths/exact SKUs unselected, allowance not quoted kit |
-| L07 | Independent light support materials | 25.00 | Provisional reserve only; not an overhead rig quote. No use of fabric hooks/guardian/bed for stage fixtures; actual support method can force re-costing |
-| **B local/reuse allowances** | | **165.00** | Not quoted products |
+| L01 | **Five small pumpkins/gourds** | 35.00 | Local estimate ~$7 each, buy near Oct 28–29 |
+| L02 | **~4oz PVA glue; ~2oz each charcoal/black, dark brown, ivory acrylic**, small green as needed; brush/cutting tools if missing. Reuse clean corrugated card/kraft for face, branches, stones/leaves | 15.00 | Shared craft estimate, inventory first; Guardian alone needs roughly two large card sheets. Tool kit not assumed included |
+| L03 | Materials for **one 24-in moon disk/frame**, reused card plus diffusing paper | 5.00 | Handmade; H12 string already counted |
+| L04 | **Two washable serving trays, wipeable counter underlayer**, covered sweets jar, light-figure attachments if missing | 10.00 | Heavy reuse assumed; new Guardian stand separately quoted as H34, no double charge |
+| L05 | Thin floor-compatible rug grip/edge treatment **only if needed** | 15.00 | Test included TPR backing first; no pad SKU chosen before substrate check |
+| L07 **HOLD** | Independent support materials for **one OPPSK + two moving heads** | 25.00 | Provisional reserve only, **no adequate rig or support SKU confirmed**. Physical placement/fixture footprint must be resolved before buying lights; no fabric-hook/Guardian/bed support |
+| **B local/reuse allowances** | | **105.00** | L06 removed after exact connection sourcing |
 
 | Cash component | USD |
 |---|---:|
-| A merchandise | 1,136.21 |
-| B local/reuse gaps | 165.00 |
-| **Merchandise + local allowances** | **1,301.21** |
-| 9% planning tax allowance, rounded; not a statutory-rate claim | 117.11 |
-| Shipping allowance across fabric/hardware | 60.00 |
+| A merchandise | 1,237.91 |
+| B local/reuse allowances | 105.00 |
+| **Merchandise + local allowances** | **1,342.91** |
+| 9% planning tax, rounded; not a statutory-rate claim | 120.86 |
+| Shipping allowance | 60.00 |
 | Price/missing-item buffer | 30.48 |
-| **Total planning cash envelope** | **1,508.80** |
-| Headroom below approximately $1,600 beyond included contingency | 91.20 |
+| **Total planning cash envelope** | **1,554.25** |
+| Headroom below approximately $1,600 beyond included contingency | 45.75 |
 
-Actual checkout tax/shipping may differ. Target remains **all-in total about $1,600**; the revised proposal is within target. Retain contingency and headroom for actual mounting/connection/receipt needs. The basket replaces old decor-category allowances ($705), the earlier hypothetical $973.12 example and its tax/logistics share, not added to them. At $3,000 party ceiling it leaves $1,491.20 for other costs; $500 host costume and ~$100 winner crown, if both counted inside, leave $891.20. This is arithmetic, not an approved consolidated party reallocation.
+Actual checkout tax/shipping/required supports may change this. The basket replaces old decor-category allowances and prior examples; do not add them again. At the unchanged $3,000 party ceiling, $1,445.75 remains for other costs; fully allocating $500 costume + ~$100 winner crown leaves $845.75. This is arithmetic, not an approved hospitality allocation.
 
-## Buying sequence and concrete substitutions
+## Remaining buying holds and sequence
 
-1. **Host checks immediately:** 54 yd fleece (two bolts + continuous 14-yd cut), current total/arrival, actual drop, cloth/fixture support trials, rug fit, interface arrival/compatibility, outlet routes and ordinary supplies. Nothing in this document authorizes agent purchases.
-2. P1 lights/supports/moss arrive and get tested first; prefer receipt **Oct 27**. Measure/clip a full panel before cutting the full cloth.
-3. Fit furniture/counter paper templates; reserve bed concealment, full desk skirt and tub-base offcuts before cutting. Reserve two ivy strands and ~2 sq ft moss for desk. Flatten/test the 8 × 10-ft rug before party use, then cut fabric/mats. Buy local pumpkins near Oct 28–29.
-4. By **Oct 29**, stop adding mail-order dependencies. Maintain full-wall raw-fabric scope; a local fabric replacement must meet the measured cut schedule and same budget.
+1. **Fleece:** FabricDirect must confirm 54 yd, continuous cut/width and delivered date, ideally **Oct 27**. Live security verification prevents us confirming stock or receipt. Phone **856-705-0275**, no outreach made. Exact cut-yard link remains unverified. Three 20-yd bolts / 60 yd are a simpler optional order at $330, bringing the same planning envelope to **$1,582.74**; still not stock/delivery confirmed.
+2. **Backup fleece:** [Big Z Black / 30 Yard Roll](https://bigzfabric.com/products/fleece-fabric-solid-black-sold-by-the-yard?variant=53799506346291), two rolls / $318.78, accepted into temporary cart. Ground $89.57, Express Saver $226.46, **no calendar arrival date**. Not selected; ground substitution totals about **$1,600.08** and express **$1,736.97** under the same assumptions. Temporary cart was restored empty; [evidence](research/final-offer-check-2026-10-23.md). Its 385-GSM weight requires a fresh support trial.
+3. **Stage-light supports:** fit actual fixtures/supports outside dance/side route; re-cost if $25 cannot cover an adequate solution. Guardian stand is not one of these supports. **Upright-bed securement** is also unresolved and independent of this prop build.
+4. Verify local mounting stock, wall/drop measurements, clip grip and one full gathered panel for 24 h before cutting all fabric. Reserve desk/bed/Guardian/tub pieces first; floor-clear hems and removable access panels.
+5. Receive core supplies by Oct 27 if possible. Test rug/door/feet/grip, bath runtime and full Mac/music/DMX operation. SH-RS09B prototype failure falls back to tested fixture built-in sound/auto/static modes, not a second speculative interface.
+6. By Oct 29, stop adding mail-order dependencies. Maintain full-wall scope; any local material substitution must match cut widths, opacity/load and delivered budget. No secured local replacement is claimed.
 
-| Issue | Substitution / budget effect |
-|---|---|
-| Fabric shipping above $60 or extra mounts needed | Use $91.20 headroom, then included contingency; re-cost before buying if actual supports exceed these reserves. Re-cost a real support solution before buying heavy lights |
-| Fleece/interface cannot arrive by Oct 27 | Verify local/raw-fabric or controller substitute; match usable width and actual QLC+ compatibility. No secured local stock claimed |
-| Opacity inadequate | Test existing blinds first; if insufficient, select a more opaque single material and re-cost rather than adding separate full-room backing |
-| Cloth or fixture supports fail | Actual substrate/load-appropriate independent support required; no unseen drape/truss rig included. Preserve routes and report unresolved installation |
-| Guardian support exceeds L04 | Independent flat face/root board; bed support remains a separate unresolved physical dependency |
-| Mac DMX prototype fails | Fixture built-in sound/auto/static fallback, no centrally timed show; test behavior before relying on it. No second interface bought speculatively |
-| H26 dim purple fails | Test owned LIFX and a re-costed alternative; no second fixture kit assumed included |
-| Bath moon/lamp runtime fails | Normal usable bathroom light + moon as reflective prop, no mains/charging in tub |
-| Broad moss sheet quality/shedding fails | Return/replace equivalent broad mats within H11 allocation; do not substitute two 4-in strips and call counters covered |
+Nothing purchased, reserved or installed. This turn temporarily used and emptied **only Big Z's cart** for a shipping quote; Amazon carts unchanged. No seller messages, account setting changes or physical tests.
 
 ## Removed from the active order
 

@@ -1,15 +1,47 @@
 # The Rootkeeper — automated desk guardian
 
-Current October 21 build proposal: ancient bark/twig bust pretending to operate the automated setup. **No human DJ.** Use the accepted corner band: bed behind (15-in stored depth), independent guardian support ~39 × 12 in, then 49 × 29.5-in desk with two small speakers on top.
+Updated October 23, 2026. **Recommended construction, not built or tested.** A handmade bark-spirit bust with a branching crown, glowing eyes and a fleece body, pretending to operate the automated desk. No human DJ or animatronic mechanism. The large creature in the mood image is a texture/light reference; this build is shallow enough for the accepted apartment layout, subject to the actual mockup.
 
-Build in 3–5 hands-on hours plus drying: folded reused-card face ~16–20 in tall; charcoal base, brown/bone dry-brush, sparse moss; lightweight paper/faux twig crown; black velvet offcut shoulders. Crown below ceiling and clear of windows/cloth/heads. Two small raven-skull accents repeat shrine motif; not a heavy resin skull suspended overhead.
+Bed stays behind at the host's 15-in stored depth; guardian has an independent **~39 × 12-in band**, followed by the **49 × 29.5-in desk** with two small speakers on top. Bed securement remains separate and unresolved. [Room plan](../final-room-plan.md) · [Measured cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Single basket](../shopping-ready.md).
 
-Own broad stable support fits the reserved band and stays independent of the bed and audio gear. Identify actual support before building around it. If none fits the shared support allowance, use a lightweight face/root board on suitable independent attachment, maintaining the same footprint and visual anchor. No bed restraint design or verified securement is supplied here.
+## What it consists of
 
-Use one intact warm USB string: two LED clusters behind pale eye diffusers, remainder as sparse roots, no cutting or tight electrical coil. One PAR skims body red/amber, second adds violet/blue depth; sound-active mode conditional on real trial. Eyes stay steady. Keep vents/controls accessible and all power on protected perimeter.
+| Part | Actual material / quantity | Finished target |
+|---|---|---|
+| Independent skeleton/base | **One Pyle PMKS5 1 Pack / Black**, [B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU), $34.99; two-height ties to a doubled cardboard spine ~6 × 28 in | [Manufacturer](https://www.pyleaudio.com/sku/pmks5/compact-base-black-microphone-stand): 9.8-in round base, roughly 33.5–60-in adjustable pole. Fits the nominal 12-in depth; actual room/rug/stability trial pending |
+| Bark face | Reused corrugated card: brow, cheeks, tapered nose/muzzle and jaw folded into a shallow mask; torn card/kraft bark strips; PVA glue | ~16–20 in high, ~12–16 in wide, 2–3-in relief. Charcoal base, brown and bone dry-brush. Dark eye recesses |
+| Branching crown | Two or three laminated corrugated branch silhouettes wrapped/textured with kraft; rounded tips | ~24–30 in wide, ~16–20 in above face. Lightweight card rather than heavy wood, resin antlers or a purchased full mask |
+| Shoulders/body | Small card crosspiece ~24–30 in wide; **one ~30 × 48-in fleece offcut** from furnishing reserve, pieced if needed | Drape hides the pole and joins the dark bed backdrop. Hem above floor; desk hides the lower body. No separate fabric purchase |
+| Eyes/root glow | **One intact H12 warm-white USB 66-ft string**, two little pale-paper diffusers; two small LED clusters behind the eyes | Steady warm eyes. Remaining string loosely routed as sparse roots/protected backdrop edge; no electrical cutting or tightly packed surplus |
+| Forest details | **Two of the H08 three raven pendants**, at most ~¼ sq ft attached H11 moss offcuts after counters/desk reserve, spare kraft bark | Two small chest/shoulder relics, restrained moss. Painted texture replaces moss if counter cuts use the allocation |
 
-DEC-03 target sits on guest-facing front-left desk fascia on separate nonmetal scenic carrier, away from speakers/controller. No targets behind bed. All-whole scenery cost belongs to decor once; NFC/markers incremental to game.
+Set the pole at roughly 55–60 in. Aim for face center ~60–64 in, face top ~70–74 in and crown top ~86–94 in, below the scan's 113.5-in ceiling. These are fabrication targets, not measured installation heights. Keep the light bust centered above the base and inside its band. Card may project above the pole on its doubled spine; test that leverage with the actual pieces before painting.
 
-Completion checks: reads from doorway, does not tip/shed with gentle incidental contact in empty room, no sharp projecting tips, no equipment heat obstruction, floor-clear cloth, nine-hour light trial and scan reach. None passed yet. [Room plan](../final-room-plan.md) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Basket](../shopping-ready.md).
+**The stand is a scenic adaptation of a microphone product.** No manufacturer prop load rating is claimed. It must support only lightweight card, fleece and decorative LEDs. Do not attach stage fixtures, heavy branches or bed restraints. If the full-size mockup wobbles or cannot pass a gentle incidental-contact test, reduce crown/face size or source a suitable independent base and re-cost before proceeding. The desk and bed must not prop it up.
 
-**Desk finish, host request October 21:** [complete velvet U-skirt, attached moss fascia, two trailing ivy strands and rug](rug-and-desk-finish-2026-10-21.md). Keep DEC-03 target visible and gear top/vents clear; reuse existing cloth/moss/ivy allocations.
+## Shopping and reuse checklist
+
+- H34 stand: **1**, $34.99, live October 23 offer / October 27 delivery estimate; not purchased.
+- H12 USB string: **1 of the two already in the basket**, $9.99 allocation, no extra string.
+- H08 raven pendants: **2 of the 3-pack**, pack already $8.95 in basket; third goes to Grove.
+- Fleece: **~30 × 48 in from furnishing remnants**, not an extra yard. Reserve the complete desk and stored-bed covers first; make a smaller/pieced shoulder drape if actual templates consume more.
+- Moss: small attached scraps only, within the three sheets already counted.
+- Reuse/inventory: roughly **two large clean corrugated sheets (~24 × 36 in each)**, kraft packing paper, one small translucent-paper scrap, scissors/craft knife and a brush. More packaging may be needed for the moon/other scenery; ownership is not confirmed.
+- Shared consumables: about **12 ties from H17's 100-pack**, gaffer tape from H16, **~4 oz PVA glue**, **~2 oz each matte black/charcoal, dark brown and ivory acrylic**. L02's $15 shared paint/glue allowance covers the craft supplies proposal; no exact local checkout quote or new tool kit is claimed. Existing green paint/other small craft needs draw on that same allowance.
+
+No paid mask, body mannequin, motor, articulated arms or extra spotlight is required. The stand/eye string/raven pack are already counted in the single basket; do not add the prop's share again to decor or game totals.
+
+## Build sequence — 3–5 hands-on hours plus overnight drying
+
+1. **Mock up the whole silhouette, 45–60 min.** Assemble stand in its actual rug/band position. Double the card spine, add shoulder crosspiece, fold the face and cut light branching crown. Tie spine at two heights, keeping mass centered. Check height/depth and stability before adding finish.
+2. **Make bark and paint, 60–90 min.** Glue torn/corrugated strips and crumpled kraft to the face/crown. Keep eye openings clear. Paint charcoal, then dry-brush brown and bone on raised ridges. Let adhesive/paint dry fully, preferably overnight.
+3. **Eyes and body, 45–60 min.** Secure diffusers and LED clusters without cutting the string. Loosely route the remainder along protected roots/backdrop. Drape fleece over shoulders, tie on two raven pendants and a few fixed moss scraps. Keep controller/USB accessible.
+4. **Dress desk and rehearse, 30–60 min.** Fit the dedicated **117 × ~34-in fleece U-skirt**, ~2 sq ft attached moss fascia and **two 7-ft ivy strands**, all already allocated. Keep equipment top, vents and speaker fronts clear. Check from doorway under actual lighting, then stability, routes, glare and nine-hour light operation.
+
+OPPSK LED wash/pixel effects and the two U’King moving heads provide changing red/amber/violet light on body/backdrop from **their own suitable supports**; eyes remain warm and steady. No laser, and no claim that these fixtures all fit on the desk. See [laser-free control plan](../lighting/laser-free-and-value-control-2026-10-22.md). Actual stage-light supports remain a separate unresolved purchase/setup dependency.
+
+DEC-03's reachable target belongs on the guest-facing **front-left desk fascia**, on its own nonmetal scenic carrier away from speakers/controls. Nothing behind the bed. This file makes no game/NFC code or token changes.
+
+## Completion checks — none passed yet
+
+Reads as one creature from the doorway; full mockup remains stable during gentle incidental contact in an empty room; no sharp tips/shedding; no obstructed vents; cloth floor-clear; protected perimeter cables; reachable controls/target; nine-hour light trial; upright bed separately secured. Physical failure changes the build or support choice before guests arrive.

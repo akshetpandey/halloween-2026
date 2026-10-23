@@ -2,6 +2,8 @@
 
 Checked **October 23, 2026**, America/New_York / EDT (UTC−04:00). Event: **Saturday October 31**. This is a separate home-party brief; Friday Eclipse and Saturday October 24 Gilded Stag are unchanged.
 
+**Later October 23 update:** host **declines contacting people** and asks to explore larger resin or real sheds and DIY mounting. [18 is current for that follow-up](18-larger-antlers-and-diy-mount-2026-10-23.md). The maker proposal/permission question below records the earlier pass only; it is **declined, not pending**. Textile evidence remains dated research, not a selected order.
+
 ## Outcome and source gate
 
 **Not yet a complete, deadline-cleared costume.** No finished headpiece found in this pass satisfies both the host's close Yellowjackets reference and a live arrival window wholly before October 31. One natural-cast antler **component** has a workable delivery estimate, and a crochet **material donor** is in stock for Monday. Neither establishes a fitted, finished antler-and-veil assembly. No new render, order, reservation, seller message or rush fee.
@@ -69,7 +71,7 @@ A [fan wardrobe-identification post](https://www.tumblr.com/yellowjacketsfashion
 - B&J Cotton Lurex Mesh Gold SKU 78147172, **$40/yard, 53 inches**, was photo-checked but looks finer/more opaque; not preferred over 9254956.
 - [Metatron gold chain-mesh fabric](https://metatronfabrics.com/products/chain-mesh-shiny-fabric-gold-metallic-chainmail-faux-chain-fabric-sold-by-the-yard): primary web page **$34.12/yard, 58–60 inches**, 1–2 business days dispatch plus 3–5 business days transit. No exact arrival/pickup or visual qualification; **not deadline-cleared**. Michaels fishnet marketplace results similarly do not establish NYC-store stock.
 
-## Proposed local build route • permission/quote required
+## Proposed local build route • declined in later October 23 follow-up
 
 The necessary skill is **headpiece fabrication, natural finish and textile support**, not merely printing a larger rack. None of these makers has quoted this job or confirmed a Halloween slot:
 
@@ -87,7 +89,7 @@ The [canonical weekend record](09-final-weekend-shopping-2026-10-21.md#budget-af
 
 No quote or product selected, so **no shared budget/cart cost changes**. Other sessions were editing operations files; they were left untouched.
 
-1. Obtain the host's answer about NYC availability/quote outreach. Without it, remain within currently published stock; do not silently commission or message.
+1. **Superseded:** host has now answered **no outreach**. Continue published-stock and DIY investigation in [18](18-larger-antlers-and-diy-mount-2026-10-23.md); do not commission or message.
 2. Resolve antler quality, mass and mount first. A timely raw component is not a deadline-cleared costume.
 3. Confirm B&J physical stock/pickup or trial the Amazon donor; choose **one** veil route after usable area and openness are checked.
 4. Source actual Small ivory base/robe and a non-dragging drape after the headpiece/build route is settled. Older Small-shirt and cloth offers require current checks; none was added this pass.

@@ -8,7 +8,7 @@
 |---|---|---|
 | SHOP-01 / SET-02 | Three-room layout/15 entities unchanged; combine all three linked lights as host intends. Rig footprints/supports not yet fitted | Before claiming previous dance capacity with rig |
 | OPS-01 / BUD-01 / SHOP-02 | New ceiling and proposed cost reconciled; tape scale, closets, actual outlets/circuits and fixture supports remain | Oct 22–24 physical checks |
-| SHOP-03 / DRAPE-01–04 | 40-yd 170-GSM black poplin $143.64 replaces $249.60 velvet; same cuts. Arrival, opacity and 24-h complete-panel trial unverified | Before cutting/order |
+| SHOP-03 / DRAPE-01–04 | Velvet not required. 40-yd black poplin $143.64 + two $8.95 hidden felted pads proposed for local echo trial; same cuts. Arrival, opacity, combined-load mount trial and sound benefit unverified | Before cutting/order |
 | LIGHT-BED | Four-fixture DMX design, $119 buffered interface and free QLC+ selected as proposal. Resolve conditional laser suitability, real mounts, firmware ≥4.5 and cable SKUs/lengths | Receipt target Oct 27; prototype by Oct 29 |
 | LIGHT-LR / BATH-08 | Permanent violet lamp, steady eyes and cordless bath tests still unperformed | Nine-hour elapsed trial |
 | BED-01 / PROP-01 | Upright corner accepted; actual bed support unresolved, guardian independent | Before moving bed |

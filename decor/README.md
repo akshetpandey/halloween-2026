@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 22: host-confirmed revised ceiling **about $1,600 including permanent lights**, only owned gold tree/full-color LIFX, no new orders and 2–4 full days. Accepted bedroom corner arrangement and Grove furniture moves are in the **[scan-based party layout](space-inputs/party-layout-2026-10-21.png)**. All Hollow walls/windows use **bulk fabric, no ready-made curtains**. Current [poplin + combined DMX proposal](lighting/fabric-and-combined-rig-2026-10-22.md) **$1,593.66**, including $60 shipping/$50 buffer; not a delivered quote. Laser suitability, fixture supports/fit and fabric/interface arrival remain unresolved.
+October 22: host-confirmed revised ceiling **about $1,600 including permanent lights**, only owned gold tree/full-color LIFX, no new orders and 2–4 full days. Accepted bedroom corner arrangement and Grove furniture moves are in the **[scan-based party layout](space-inputs/party-layout-2026-10-21.png)**. All Hollow walls/windows use **bulk fabric, no ready-made curtains**. Current [poplin + combined DMX proposal](lighting/fabric-and-combined-rig-2026-10-22.md) **$1,593.66**, including $60 shipping/$30.48 buffer; not a delivered quote. Laser suitability, fixture supports/fit and fabric/interface arrival remain unresolved.
 
 | Room / deliverable | Current source |
 |---|---|

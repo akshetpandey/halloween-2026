@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Later October 22 • black atmosphere and some sound deadening
+
+**Confirmed host:** velvet is not required at all; black atmosphere and some sound deadening wanted. [Current material proposal](../decor/bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) uses black poplin plus two hidden felted pads for an unmeasured local echo-control trial. $19.52 merchandise/tax effect is reallocated from buffer; total stays $1,593.66, buffer $30.48. No change to combined lighting or approximately $1,600 ceiling. No acoustic measurement, purchase or neighbor-noise guarantee.
+
 ## October 22 • fabric, all-three lighting and revised ceiling
 
 **Confirmed host:** expensive raw stretch velvet rejected; all Hollow walls still bulk fabric. All three linked lights are intended **together**. Host explicitly replies **“Allow about $1,600 total for the combined rig”** to the whole-decor budget question. Revised decor ceiling about $1,600 including permanent lights; no purchase authorization inferred.

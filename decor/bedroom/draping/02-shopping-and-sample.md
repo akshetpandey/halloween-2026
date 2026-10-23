@@ -2,6 +2,10 @@
 
 Updated October 22, 2026. **Host direction: bulk fabric, not ready-made curtains; cover all Hollow walls and both windows.** No rods. Hooks/clips and direct tape are accepted; independent clipped panels are proposed. Nothing ordered or physically tested.
 
+## Latest material and sound requirement
+
+Host clarifies **velvet is not required**; seek black/dark atmosphere and some sound deadening. [Current acoustic proposal](03-black-cloth-and-echo-2026-10-22.md): retain poplin as visible full coverage and trial two hidden felted furniture pads on one exposed wall. **Poplin alone is not a rated acoustic treatment**. No bass-isolation claim. Pads must be included in complete-load/support trial; cuts below remain unchanged.
+
 ## Current lower-cost proposal — October 22
 
 Host rejects the $249.60 stretch-velvet price while retaining **all-wall bulk black fabric**. Use proposed [FWD Polyester Poplin (60 Inch), Black SV571640](https://fabricwholesaledirect.com/products/polyester-poplin-60-inch-fabric?variant=39460331880563), **40 yd / $143.64 displayed total**, checked in Chrome Oct 22 with Black selected and quantity 40. Rounded 25–99-yard label is $3.60/yd; actual calculator total is $143.64. Saves **$105.96** before tax/shipping. Plain woven/subtly textured, 100% polyester, 58/60-in width, 170 GSM, 0.40 mm. Less plush than velvet; opacity and full-panel mounting remain untested. [Offer evidence, cheaper alternatives and combined lighting](../../lighting/fabric-and-combined-rig-2026-10-22.md).

@@ -1,6 +1,6 @@
 # Decor setup — October 21–30, 2026
 
-Proposed host work, **28–38 hands-on hours** (original scenery 25–33 + 3–5 for basic DMX patch/presets/reactivity), plus drying/24-hour mount observation/nine-hour elapsed tests. Allow roughly four full days; upper end exceeds 32 hours, so simplify craft detail to preserve rehearsal time. Helpers unconfirmed. All October dates America/New_York, **EDT / UTC−04:00**. [Current full-wall basket](shopping-ready.md) · [Room plan](final-room-plan.md).
+Proposed host work, **28–38 hands-on hours** (original scenery 25–33 + 3–5 for basic DMX patch/presets/reactivity), plus ~0.5–1 h for the [hidden felted-backing trial](bedroom/draping/03-black-cloth-and-echo-2026-10-22.md), drying/24-hour mount observation/nine-hour elapsed tests. Allow roughly four full days; upper end exceeds 32 hours, so simplify craft detail to preserve rehearsal time. Helpers unconfirmed. All October dates America/New_York, **EDT / UTC−04:00**. [Current full-wall basket](shopping-ready.md) · [Room plan](final-room-plan.md).
 
 | Block | Work | Hands-on |
 |---|---|---:|

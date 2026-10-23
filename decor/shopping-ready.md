@@ -2,7 +2,7 @@
 
 **Current single basket. Proposed, not ordered or tested.** Confirmed revised ceiling **about $1,600 including permanent lights** (Oct 22 reply for the combined rig). Only owned decor: gold tree/full-color LIFX. All-wall **bulk black fabric**, not ready-made curtains. [Room/layout plan](final-room-plan.md) · [Cut schedule](bedroom/draping/02-shopping-and-sample.md) · [Setup](setup-schedule.md) · [Offer evidence](research/full-wall-offers-2026-10-21.md).
 
-**$1,593.66 planning cash envelope**, including $60 shipping and $50 buffer, leaves $6.34 beyond that buffer. This is not a delivered quote. Raw-fabric arrival/shipping, fabric mounting, heavy-fixture supports/footprints, laser suitability and conditional supplies still need checks. Nothing has been purchased, added to a cart, reserved or installed.
+**$1,593.66 planning cash envelope**, including $60 shipping and $30.48 buffer, leaves $6.34 beyond that buffer. This is not a delivered quote. Raw-fabric arrival/shipping, fabric mounting, heavy-fixture supports/footprints, combined cloth/pad support trial, laser suitability and conditional supplies still need checks. Nothing has been purchased, added to a cart, reserved or installed.
 
 ## Prioritized products
 
@@ -11,6 +11,7 @@ New fabric/rig prices checked October 22, 2026, America/New_York; other prices r
 | ID | Exact product / variant | Qty | Unit USD | Line USD | Allocation / delivery / status |
 |---|---|---:|---:|---:|---|
 | H22 P1 | [FWD Polyester Poplin (60 Inch), **Black SV571640**, 58/60 in](https://fabricwholesaledirect.com/products/polyester-poplin-60-inch-fabric?variant=39460331880563) | 40 yd | ~3.591 | 143.64 | Chrome Oct 22 Black selected / qty 40 displayed total; 170 GSM plain woven cloth replaces velvet, same cuts/offcuts. Standard free-shipping threshold met; actual arrival/dispatch unverified, full-drop opacity/mount trial pending |
+| H33 P1 proposed trial | [U-Haul Furniture Pad **FP, 68 × 85 in**](https://www.uhaul.com/MovingSupplies/Packing-Supplies/Furniture-Pad/?id=2670) | 2 | 8.95 | 17.90 | Hidden felted backing behind black cloth on one wall; official Oct 22 price, 2.45 lb each / ~1/8 in. Local stock/arrival and combined mount load unverified; no measured acoustic rating. Reuse clean suitable blankets first if available |
 | H24 P1 | [Command large utility 17003-MPES, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524) | 3 packs | 14.61 | 43.83 | 42 fabric hooks: 40 planned + 2 spare. Retailer price; local stock unverified. Complete-panel/load/surface trial required |
 | H25 P1 | [Staples 831602, 1.25-in black binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | 2 packs | 6.19 | 12.38 | 48, six beyond hook count. Indexed offer; direct checkout unverified. Reuse first, check grip/handle fit |
 | H29 P1 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Combined Hollow wash/pixel effect; 18/268CH, dim/strobe. Chrome Oct 22 free Oct 24; listed 10.6 lb. Exact manual, independent supports and nameplate load pending |
@@ -33,7 +34,9 @@ New fabric/rig prices checked October 22, 2026, America/New_York; other prices r
 | H19 P1 | [HDX FSEX29 **15-ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | 3 | 19.98 | 59.94 | One Grove and two Hollow supplies for four fixtures/guardian USB, each direct to suitable wall outlet. Actual routes/circuit loads pending; no strip daisy-chain. Retail price/local stock unverified |
 | H20 P1 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | 1 | 4.49 | 4.49 | Two candle/remote spares only if actual labels match. Retail price/local availability unverified. Do not buy extra CR2025 speculatively |
 | H28 P1 | [WITSHOCK B0CYL8FC6C, **Bitter Black 5 × 7 ft rectangular**, low-pile washable rug](https://www.amazon.com/dp/B0CYL8FC6C) | 1 | 31.99 | 31.99 | Planning cap; Chrome Oct 21 sale $28.79, displayed typical $31.99, in stock / free Oct 22 / Amazon ships, SshiY sells. Actual floor grip/door trial required; [fit and desk finish](bedroom/rug-and-desk-finish-2026-10-21.md) |
-| **A merchandise** | | | | **1,196.16** | Nothing ordered; quoted and indexed evidence distinguished above |
+| **A merchandise** | | | | **1,214.06** | Nothing ordered; quoted and indexed evidence distinguished above |
+
+Latest host clarification: velvet is unnecessary; black/dark feel and some sound deadening are wanted. [Two hidden felted pads](bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) add $17.90 merchandise / $19.52 with aggregate planning-tax effect, reallocated from buffer. Poplin is visual coverage; pad trial aims at reflected sound, no bass-isolation claim. No whole-room acoustic performance promised.
 
 ## Local/reuse gaps
 
@@ -50,12 +53,12 @@ New fabric/rig prices checked October 22, 2026, America/New_York; other prices r
 
 | Cash component | USD |
 |---|---:|
-| A merchandise | 1,196.16 |
+| A merchandise | 1,214.06 |
 | B local/reuse gaps | 165.00 |
-| **Merchandise + local allowances** | **1,361.16** |
-| 9% planning tax allowance, rounded; not a statutory-rate claim | 122.50 |
+| **Merchandise + local allowances** | **1,379.06** |
+| 9% planning tax allowance, rounded; not a statutory-rate claim | 124.12 |
 | Shipping allowance across fabric/hardware | 60.00 |
-| Price/missing-item buffer | 50.00 |
+| Price/missing-item buffer | 30.48 |
 | **Total planning cash envelope** | **1,593.66** |
 | Remaining below about $1,600 beyond included buffer | 6.34 |
 

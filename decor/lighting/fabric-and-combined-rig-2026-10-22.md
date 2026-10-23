@@ -2,6 +2,10 @@
 
 **Confirmed today:** host rejects $249.60 stretch velvet, means **all three linked lighting products together**, and replies **“Allow about $1,600 total for the combined rig”** to the question explicitly describing the **whole decor plan**. Use approximately $1,600 including permanent lights, replacing the earlier $1,000 decor ceiling. Planning authorization, not a purchase instruction. Accepted layout, full-wall bulk fabric, rug and dressed automated desk remain.
 
+## Latest cloth clarification
+
+Host now explicitly wants **black atmosphere plus some sound deadening, without requiring velvet**. [Current material/acoustic proposal](../bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) adds two $8.95 hidden felted pads to the poplin skin, reallocating $19.52 including planning-tax effect from buffer. Whole estimate stays $1,593.66; buffer now $30.48. No measured acoustic/bass isolation claim. Lighting choices below are unchanged.
+
 ## Cheaper cloth
 
 [FWD Polyester Poplin (60 Inch), Black, SV571640 / variant 39460331880563](https://fabricwholesaledirect.com/products/polyester-poplin-60-inch-fabric?variant=39460331880563). Chrome October 22: **Black checked**, quantity **40**, Add to cart enabled, **displayed total $143.64**. Regular $3.99/yd; 25–99 tier displays rounded $3.60/yd; calculator uses the more precise discount. Use actual displayed total rather than multiplying the rounded label. Saves **$105.96 / 42.5%** before tax/shipping.

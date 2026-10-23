@@ -54,6 +54,8 @@ Host approved the Hollow mood image as the material direction and requested a ru
 
 [40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): FWD black 170-GSM polyester poplin, $143.64 proposed after host rejects expensive stretch velvet, shallow folds, 15 full-height pieces plus entry-head valance. Cover windows within the same wall spans; keep the doorway open. Large offcuts conceal the bed and form guardian shoulders. Actual opacity/attachment/heat/airflow require a room trial.
 
+Latest material clarification: **velvet is not required, some sound deadening is wanted**. [Black cloth + felted backing](bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) proposes two 68 × 85-in pads hidden behind the exposed left-wall run as a modest echo-control trial. Poplin remains the full-height visual layer; pad band is partial-height. Check combined mounting load/door/route fit, keep speaker faces clear, and do not claim bass isolation. No actual sound test performed.
+
 ### Guardian and EDM lights
 
 [Rootkeeper build](bedroom/woodland-guardian.md): a 3–5-hour lightweight bust, bark-card face, paper/faux twig antlers, black-fabric offcut body. Face about 16–20 in high, crown tops below ceiling; prototype from doorway. Its independently supported body fits the reserved ~39 × 12-in band, never bolted to audio gear or relied on as bed restraint. If no suitable base exists within allowance, mount a flat lightweight face/root board independently and preserve its visual presence.

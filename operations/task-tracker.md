@@ -2,18 +2,18 @@
 
 ## October 23 • decor shopping and build status
 
-[Current room plan](../decor/final-room-plan.md) · [single $1,536.87 basket](../decor/shopping-ready.md) · [Amazon fleece offer](../decor/bedroom/draping/05-amazon-fleece-2026-10-23.md) · [Guardian construction](../decor/bedroom/woodland-guardian.md) · [latest handoff](../decor/bedroom/draping/handoff-2026-10-23-amazon-fleece.md). Ceiling **about $1,600 including permanent lights**, $63.13 headroom beyond included $30.48 contingency. Amazon deadline/budget request recorded; nine-blanket alternative recommended, exact SKU unpurchased and physical tests unperformed.
+[Current room plan](../decor/final-room-plan.md) · [single $1,421.20 basket](../decor/shopping-ready.md) · [Flat fleece/thin-cover offers](../decor/bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md) · [Guardian construction](../decor/bedroom/woodland-guardian.md) · [latest handoff](../decor/bedroom/draping/handoff-2026-10-23-flat-fleece-thin-covers.md). Ceiling **about $1,600 including permanent lights**, $178.80 headroom beyond included $30.48 contingency. Host confirms no fleece pleating, cheaper thinner furniture cloth. Exact products unpurchased, physical tests unperformed.
 
 | Task | Current status / next action | Target |
 |---|---|---|
 | SHOP-01 / SET-02 | Furniture/15 entities unchanged; three LED fixtures, no laser. Independent stage-light supports still unresolved, $25 reserve not a rig quote | Before buying heavy lights / confirming dance fit |
-| OPS-01 / BUD-01 / SHOP-02 | $1,536.87 estimate reconciled; exact connections and Guardian stand counted once, price refresh included | Actual delivered total before payment |
-| SHOP-03 / DRAPE-01–04 | Recommended nine Black / 120 × 120-in fleece blankets / $287.91, quantity-nine stock/free Oct 25 shown. Seven walls/~1.5× fullness + furnishings/reserve; 49 starting points within 56 hooks/72 clips. Check actual width/drop, load/grip/nap/opacity/removal | Receipt by Oct 27; recheck cutoff now; 24-h trial before cutting |
+| OPS-01 / BUD-01 / SHOP-02 | $1,421.20 estimate reconciled; exact connections and Guardian stand counted once, price refresh included | Actual delivered total before payment |
+| SHOP-03 / DRAPE-01–04 | Five flat-wall fleece / $159.95 + thin-cover two-pack / $21.84, each stock/Oct 24 shown. Five-source cuts cover all runs/header; two thin cloths cover furniture/Guardian/tub. 43 starting points inside 56 hooks/72 clips; trial width/drop/weight/grip/opacity/removal | Receipt by Oct 27; 24-h trial before full cutting |
 | RUG-01 | 8 × 10 Bitter Black / $83.99, live Oct 23 stock/Oct 24 option. Test door clearance, whole support feet/level and grip | Before use |
 | LIGHT-BED | SH-RS09B $15.99/free QLC+, exact two DMX leads + terminator/USB adapter packs $44.96. Verify received maps, first-lead reach, Mac host-timing under music/media load; built-in-mode fallback | Receive by Oct 27, prototype Oct 29 |
 | LIGHT-LR / BATH-08 | Govee price now $99.99; lamp/curtain discounts partly offset. Guardian steady eyes and cordless bath tests unperformed | Nine-hour elapsed trial |
-| BED-01 / PROP-01 | Upright-bed restraint unresolved. Guardian card/kraft/fleece bust now has concrete build/BOM and proposed $34.99 independent stand, Oct 27 option; actual stability test pending | Before final prop assembly/bed move |
-| SHOP-04 / BUY-01 | Amazon quantity-nine fabric estimate meets deadline; support gaps remain; no agent purchase. Verify retail mounting stock and actual receipts | Receipt target Oct 27, local fallback Oct 29 |
+| BED-01 / PROP-01 | Upright-bed restraint unresolved. Guardian card/kraft/thin-cloth bust now has concrete build/BOM and proposed $34.99 independent stand, Oct 27 option; actual stability test pending | Before final prop assembly/bed move |
+| SHOP-04 / BUY-01 | Amazon quantity-five fleece and thin-cover estimates meet deadline; support gaps remain; no agent purchase. Verify retail mounting stock and actual receipts | Receipt target Oct 27, local fallback Oct 29 |
 | SET-03 | Scenery + basic DMX **28–38 hands-on h**; Guardian 3–5 h within scenery, stand trial after arrival; simplify detail for rehearsal | Complete Oct 30 |
 
 ## October 23 host costume status

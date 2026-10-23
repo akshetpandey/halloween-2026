@@ -1,5 +1,7 @@
 # Fleece cost and partial coverage — October 23, 2026
 
+**Superseded later October 23:** host removes fleece pleating and permits thin furniture cloth. [Current five-fleece/full-flat-wall + thin-cover plan](07-flat-walls-thin-covers-2026-10-23.md) and [cuts](02-shopping-and-sample.md) replace the recommendation/cost discussion below. Dated evidence retained, no additional order.
+
 Host reacts to the $287.91 nine-blanket recommendation: hoped for about $100 to cover the whole/most of the room, but likes the blanket idea. **Budget preference discussion, no confirmed quantity/scope switch.** [Current nine-piece basket](../../shopping-ready.md) and [full gathered cut plan](02-shopping-and-sample.md) remain unchanged. No purchase.
 
 ## Why the total grows

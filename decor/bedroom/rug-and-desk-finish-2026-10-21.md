@@ -1,4 +1,4 @@
-# Hollow larger rug and desk finish — updated October 22, 2026
+# Hollow larger rug and desk finish — updated October 23, 2026
 
 **Confirmed host:** bigger carpet to cover a large floor area; accepts black fleece with only mild curtain-like sound softening. Keep accepted upright-bed/guardian/automated-desk arrangement. No human DJ; two small speakers on desk. No purchases or traction/door/installation tests.
 
@@ -16,7 +16,7 @@ Flatten several days early; test ordinary footwear and turns on the real floor. 
 
 ## Automated desk: woodland altar finish
 
-- **Black base:** reserve a furnishing drop from the [54-yd gathered fleece plan](draping/02-shopping-and-sample.md). A **117 × ~34-in U-skirt** wraps 49 + 29.5 + 29.5 = 108 in, leaving 9 in for returns/folds. Actual desk height still needed; keep a floor-clear hem. Use six of 72 proposed clips. Gathered wall offcuts are mostly consumed by short wall returns, so do not depend on the old 45.5-in offcut for this skirt.
+- **Black base:** host permits cheaper thin furniture fabric (Oct 23). Use a **117 × ~34-in U-skirt** from H14 Utopia Black / 90 × 132-in two-pack, [exact source/nesting](draping/07-flat-walls-thin-covers-2026-10-23.md). Visible wrap 49 + 29.5 + 29.5 = 108 in, with 9 in for folds/attachment. Desk height still needed; floor-clear hem and six shared clips. One thin cloth covers bed; the second supplies desk/Guardian/tub. Wall fleece is flat and allocated to walls/header only; no furnishing fleece blanket.
 - **Moss:** ~2 sq ft of the existing large-sheet offcuts on upper fascia/side returns, reserved after counter templates and before smaller prop detailing. No loose moss under gear.
 - **Vines:** two existing 7-ft strands / 14 ft on front/side edges, fixed above floor; ten strands remain Grove. No second pack.
 - **Top/service access:** clear firm surface for laptop/controller/two speakers, vents and controls; back remains accessible. Speaker fronts clear. Keep the Rootkeeper target accessible independently of gear.
@@ -24,6 +24,6 @@ Flatten several days early; test ordinary footwear and turns on the real floor. 
 
 ## Cost and remaining work
 
-Rug + conditional grip = **$98.99** before tax. Whole decor with 54 yd pleated fleece, expanded fabric supports, no laser and proposed $15.99 USB-DMX cable: **$1,508.80** including planning tax/shipping/contingency. [Single basket](../shopping-ready.md) · [Current lighting](../lighting/laser-free-and-value-control-2026-10-22.md).
+Rug + conditional grip = **$98.99** before tax. [Single basket](../shopping-ready.md) owns current whole-decor total and thin-cover pack; [current flat-wall plan](draping/02-shopping-and-sample.md) replaces earlier pleated fleece/furnishing allowances. No laser; cheaper DMX control retained.
 
-Remaining: rug door/foot/grip trial, true desk height and bed face, fixture supports/footprints, actual fabric receipt and gathered mounting. No extra physical dancing capacity inferred. Prior October 21 5 × 7 offer/cost remains in Git history; current 8 × 10 proposal replaces it.
+Remaining: rug door/foot/grip trial, true desk height and bed face, fixture supports/footprints, actual fabric receipt and flat-panel mounting. No extra physical dancing capacity inferred. Prior October 21 5 × 7 offer/cost remains in Git history; current 8 × 10 proposal replaces it.

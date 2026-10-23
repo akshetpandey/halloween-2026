@@ -1,18 +1,16 @@
-# The Hollow — gathered black fleece
+# The Hollow — flat black fleece
 
-Host wants every wall/window in one black fleece material, moderate pleating and mild curtain-like echo softening. No separate pads or ready-made bedroom curtains.
+**Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 
-**October 23 Amazon recommendation:** [BEDELITE Black / 120 × 120-in fleece blankets](https://www.amazon.com/dp/B0BJ238J66), **nine at $31.99 / $287.91**. These are oversized blankets used/cut as fabric, not raw bolts; exact substitution remains recommended, not purchased. Live Chrome with **quantity nine** showed **In Stock / free October 25**, before requested October 27. Conditional estimate, no reserved shipment.
+[Current flat cuts and furniture nesting](02-shopping-and-sample.md) · [Current exact offers](07-flat-walls-thin-covers-2026-10-23.md) · [Single basket](../../shopping-ready.md).
 
-[Current cuts and allocation](02-shopping-and-sample.md) · [Exact offer/material limits](05-amazon-fleece-2026-10-23.md) · [Larger rug / desk](../rug-and-desk-finish-2026-10-21.md) · [Single basket](../../shopping-ready.md).
+**Recommend five [BEDELITE Black / 120 × 120-in blankets](https://www.amazon.com/dp/B0BJ238J66) / $159.95** for all wall runs, returns and header, plus **one [Utopia Kitchen Black / two-pack 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) / $21.84** for bed, desk, Guardian and dry tub. Live quantity-five fleece and quantity-one cover-pack each showed stock/free **Oct 24**, before requested Oct 27; estimates, no order. **All fabric $181.79**, no extra fleece furnishing/sample blanket.
 
-Seven blankets supply 13 full-height wall pieces at ~1.5× fullness; one supplies bed/desk; one supplies trial/header/Guardian/tub/reserve. Retain **56 hooks / 72 clips**, starting with 49 wall/header points; wide panels get six points. Fleece + proposed mounts **$364.92**. Whole decor **$1,536.87** including shipping/contingency; $63.13 headroom. At displayed $37.99 list-price scenario, whole plan **$1,595.73**. [Latest handoff](handoff-2026-10-23-amazon-fleece.md).
+Five fleece sources pack eleven full-height flat wall pieces + three header pieces from offcuts. Starting **43 wall/header points** within retained 56 hooks / 72 clips; wide panels get six points. Received height/weight/opacity, clip grip and 24-hour substrate/load/removal trial remain untested. Whole-decor estimate **$1,421.20**, $178.80 below approximately $1,600 beyond included contingency. [Latest handoff](handoff-2026-10-23-flat-fleece-thin-covers.md).
 
-- [ ] Recheck exact Black / 120 × 120 variant, quantity-nine delivery and final total at checkout; no order yet.
-- [ ] Confirm actual dimensions/height, weight, nap/opacity and wall substrate before cutting.
-- [ ] Trial complete wide gathered panel/clip grip/sag/removal for 24 h. GSM is unspecified, not the old 280 GSM.
-- [ ] Reserve H/I furnishing/trial/header pieces; preserve floor-clear hems and removable access panels.
+- [ ] Recheck exact variants/quantities and total/date at checkout; no purchase.
+- [ ] Tape-check walls/drop/header and actual bed/desk/tub templates before cuts.
+- [ ] Trial an intact wide fleece source for 24 h before cutting that same blanket; no separate sample ordered.
+- [ ] Test thin covers/fastening under actual light, preserve equipment vents and floor clearance.
 
-Earlier FabricDirect 54-yd recommendation and Big Z shipping are [dated history](../../research/final-offer-check-2026-10-23.md), not additional orders. [40-yd felt/fleece comparison](04-single-layer-felt-fleece-2026-10-22.md) and [backing research](03-black-cloth-and-echo-2026-10-22.md) are also superseded.
-
-[Lower-cost coverage comparison](06-cost-and-partial-coverage-2026-10-23.md): host hoped for about $100. Three/four oversized blankets can give selective or mostly flat coverage; bulk small throws have joining/opacity tradeoffs. **No quantity or scope change selected.** [Value handoff](handoff-2026-10-23-value-coverage.md).
+Earlier [nine-piece gathered proposal](05-amazon-fleece-2026-10-23.md), [partial-coverage discussion](06-cost-and-partial-coverage-2026-10-23.md), [raw-yardage checks](../../research/final-offer-check-2026-10-23.md), [felt/fleece comparison](04-single-layer-felt-fleece-2026-10-22.md) and [backing research](03-black-cloth-and-echo-2026-10-22.md) are history, not additional orders.

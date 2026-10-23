@@ -1,8 +1,14 @@
 # Decision log and open questions
 
-## Latest October 23 • Amazon fleece by October 27, budget retained
+## Latest October 23 • flat fleece, thin furniture covers
 
-**Host asks:** find Amazon black fleece for every wall with pleating and delivery by October 27; whole plan around $1,600. **Recommendation:** [nine BEDELITE Black / 120 × 120-in fleece blankets](../decor/bedroom/draping/05-amazon-fleece-2026-10-23.md), used/cut as fabric rather than raw bolts, $287.91 at displayed $31.99 deal. Live **quantity-nine** buy box: In Stock / free **Sunday October 25**. Exact SKU/finished-blanket substitution remains proposed, not purchased or separately host-confirmed; no arrival guarantee.
+**Confirmed host:** “for the flece blanket we don't need pleating”; “for furniture cover we can use cheaper thinner fabric.” Retain full-wall/window fleece, larger rug, accepted layout, laser-free lights and approximately $1,600 decor target. No purchase authorization.
+
+**Revised recommendation:** [five Black / 120 × 120-in BEDELITE fleece $159.95 + one Black / 90 × 132-in Utopia polyester two-pack $21.84](../decor/bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md). All fabric **$181.79**, [whole basket](../decor/shopping-ready.md) **$1,421.20**, $178.80 headroom beyond included buffer. Live quantity-five fleece and one new cover pack each stock/free Oct 24; no guaranteed receipt. [Flat cuts/furniture nesting](../decor/bedroom/draping/02-shopping-and-sample.md) cover all runs/header with five fleece, and bed/desk/Guardian/tub with the two thin cloths; 43 starting wall/header points, retained mounting inventory for trial/spares. Exact products proposed, not bought or physically tested. Previous pleating/nine-piece and fleece-furniture allocations superseded. Stage-light/bed support and received-material trials remain open.
+
+## Earlier October 23 • Amazon fleece by October 27, budget retained
+
+**Dated gathered proposal, quantities/cost superseded by the flat/thin decision above. Host asks:** find Amazon black fleece for every wall with pleating and delivery by October 27; whole plan around $1,600. **Recommendation:** [nine BEDELITE Black / 120 × 120-in fleece blankets](../decor/bedroom/draping/05-amazon-fleece-2026-10-23.md), used/cut as fabric rather than raw bolts, $287.91 at displayed $31.99 deal. Live **quantity-nine** buy box: In Stock / free **Sunday October 25**. Exact SKU/finished-blanket substitution remains proposed, not purchased or separately host-confirmed; no arrival guarantee.
 
 [Updated cuts](../decor/bedroom/draping/02-shopping-and-sample.md) use seven for ~1.5× gathered walls, one bed/desk, one trial/header/Guardian/tub/reserve, no horizontal wall seams; 49 starting wall/header points inside retained 56-hook/72-clip inventory. [Current basket](../decor/shopping-ready.md) **$1,536.87** including all reserves, $63.13 headroom. Displayed $37.99 list-price scenario **$1,595.73**. No other scenery/lighting scope cuts. Raw-bolt offers checked are late or costly; prior FabricDirect and Big Z routes are sourcing history. No cart additions/checkout/messages/physical tests. Received material/mounts and independent stage-light supports still need validation.
 

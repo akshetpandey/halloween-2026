@@ -1,50 +1,54 @@
-# Full-wall black fleece — Amazon panel cut plan
+# Full-wall black fleece — flat panels and thin furniture covers
 
-Updated October 23, 2026. Host asks for Amazon fleece arriving by October 27, all walls with some pleating, whole decor around $1,600. **Recommended substitution: nine oversized black fleece blankets used as fabric.** Not raw yardage or ready-made curtains; exact SKU not separately host-selected. No order or physical test.
+Updated October 23, 2026. **Confirmed host: fleece does not need pleating; cheaper thinner fabric may cover furniture.** This replaces the nine-piece gathered plan. All walls/windows remain black fleece, using existing measured shell. No order or physical test.
 
-## Material and quantity
+## Order and material
 
-[BEDELITE **Black / Oversized King 120 × 120 in**, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66): **nine at $31.99 = $287.91**. Live signed-in Chrome Oct 23, **quantity nine selected: In Stock / free Sunday October 25**, Amazon ships / Elite Collection US sells. Conditional estimate meets Oct 27; no booked delivery. [Offer evidence and raw-yardage comparisons](05-amazon-fleece-2026-10-23.md).
+- [BEDELITE **Black / Oversized King 120 × 120-in fleece**, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66): **five / $159.95**, $31.99 each. Live Chrome **quantity five**: stock/free **Oct 24**, before requested Oct 27.
+- [Utopia Kitchen **Black / 2 Pack 90 × 132-in polyester cloths**, B0854M59WT](https://www.amazon.com/dp/B0854M59WT): **one two-pack / $21.84**, live new offer stock/free **Oct 24**. Bed/desk/Guardian/tub, no fleece furnishing blanket.
 
-Double-sided brushed polyester flannel fleece, soft/plush with some sheen in photos. **GSM and thickness unspecified**; the old 280-GSM specification does not apply. Detail table lists 6.29 lb per full blanket; verify received dimensions/weight/opacity and clip grip. Mild curtain-like echo softening plus carpet remains the goal; no blackout, soundproofing or measured acoustic rating claimed. No separate pads.
+[Current exact offer evidence](07-flat-walls-thin-covers-2026-10-23.md). Dates are conditional estimates, not reserved inventory. Fleece GSM/thickness unspecified; listed 6.29 lb/full blanket is not received load data. Photos show plush nap/sheen. Thin covers listed 100% polyester. Mild reflection softening plus rug is enough; no separate pads or blackout/soundproofing claim.
 
-**Allocation: seven wall blankets + one furnishings blanket + one trial/header/Guardian/tub/reserve blanket.** Nominal 900 sq ft total. The old 54-yd FabricDirect and 60-yd Big Z routes are superseded recommendations, not extra purchases. Their [earlier evidence](../../research/final-offer-check-2026-10-23.md) remains dated history.
+## Flat wall cuts — tape-check before cutting
 
-## Wall cuts — actual tape check before cutting
+Scan: max ~110 × 164.2 in, stepped shell, ceiling ~113.5 in; perimeter ~548.4 in minus ~33.4-in entry. Windows already included. Conservatively use **118-in usable width × 117-in full-height drop** from each nominal 120-in square; confirm actual dimensions, top fold/support position and floor-clear hem first. Actual flatness still allows small overlaps/ease, **no deliberate gathering**.
 
-Scan shell: maximum ~110 × 164.2 in, stepped corner, ceiling ~113.5 in. Perimeter ~548.4 in less ~33.4-in entry. Windows already included. Start from **118-in usable width × 117-in full-height drops**, conservatively allowing 2 in of width trim/hem and 3 in of height trim from each nominal 120-in square. Confirm actual top fold, support position and floor clearance first; do not assume the nominal blanket tolerances.
-
-**All wall pieces remain full height.** Join adjacent widths by about 2-in vertical overlap, hung independently; no sewing or horizontal joining of short cuts required. Gather main runs to about 1.5× their wall width.
-
-| Run | Raw widths, full 117-in height | After one ~2-in overlap / fullness | Source blankets | Starting hook/clip points |
+| Wall run | Full-height raw widths | Effective span after ~2-in vertical overlap | Sources | Starting hook/clip points |
 |---|---|---|---|---:|
-| Right 118.4 in | 118 + 62 in | 178 in / 1.50× | A full; B partial | 6 + 4 = 10 |
-| Left 122.1 in | 118 + 68 in | 184 in / 1.51× | C full; D partial | 6 + 4 = 10 |
-| Rear 110 in | 118 + 50 in | 166 in / 1.51× | E full; F partial | 6 + 3 = 9 |
-| Top window 86.2 in | 118 + 14 in | 130 in / 1.51× | G full; B offcut | 6 + 2 = 8 |
-| Five returns ~8.6 / 17.6 / 13.8 / 28.1 / 10.1 in | 15 / 28 / 23 / 44 / 18-in strips | About 1.5× with small finishing/overlap allowances | B/D/F offcuts below | 10 |
-| Door header, opening clear | One ~58 × 36-in piece, trim to actual head | Actual opening/drop check | Reserve blanket I | 2 |
-| **Total** | **13 full-height wall pieces + header** | Moderate loose folds | **Seven wall blankets + header from I** | **49** |
+| Right 118.4 in | 101 + 20 in | 119 in | A / E | 6 + 2 = 8 |
+| Left 122.1 in | 100 + 25 in | 123 in | B / E | 6 + 2 = 8 |
+| Rear 110 in | 112 in | 112 in | C | 6 |
+| Top window 86.2 in | 89 in | 89 in | D | 5 |
+| Five returns ~8.6 / 17.6 / 13.8 / 28.1 / 10.1 in | 13 / 22 / 18 / 33 / 15-in strips | About 4–5-in corner/edge allowance each; actual overlap check | D / E below | 10 |
+| Door header | Three pieces **17 × 40**, **18 × 40**, **6 × 40 in** | 37-in assembled width after two 2-in overlaps; trim to actual ~33.4-in opening/header height | A / B / C side offcuts | 6 |
+| **Total** | **11 full-height pieces + 3 header pieces** | **Flat coverage** | **Five fleece blankets** | **43** |
 
-### Exact offcut packing
+Each wall piece hangs independently with vertical overlap. Header also overlaps vertically between its small pieces; no horizontal seam added to a full-height wall panel. Opening remains unobstructed. Returns can turn onto neighboring faces; their allowance carries the edge overlap. Main-panel width margins are small, so actual tape/received width checks matter; do not stretch cloth taut or promise this as a finished installation.
 
-- **B:** 118 − 62 = 56-in remainder. Cut 14-in top-wall strip and 15-in return: 29 in used, 27 in left.
-- **D:** 118 − 68 = 50-in remainder. Cut 28 + 18-in returns: 46 in used, 4 in left.
-- **F:** 118 − 50 = 68-in remainder. Cut 44 + 23-in returns: 67 in used, 1 in left.
+### Five-source packing
 
-These cover every listed return while keeping each wall piece 117 in tall. Small leftovers do not substitute for the furnishing reserve. If tape dimensions/usable width differ, adjust against reserve I and recheck fullness before cutting; do not reduce all walls to near-flat coverage silently.
+- **A:** cut 101 × 117-in right panel; remaining 17 × 117-in side strip supplies **17 × 40-in header**.
+- **B:** cut 100 × 117-in left panel; remaining 18 × 117 supplies **18 × 40-in header**.
+- **C:** cut 112 × 117-in rear panel; remaining 6 × 117 supplies **6 × 40-in header**.
+- **D:** across its 118-in usable width, cut **89 + 15 + 13 = 117 in**, all 117 in tall: top wall and two returns. One-inch width remainder.
+- **E:** cut **20 + 25 + 33 + 22 + 18 = 118 in**, all 117 in tall: right/left infill and three returns.
 
-## Furnishings and reserve
+Header leaves 17 × 77, 18 × 77 and 6 × 77-in side remnants, plus small trims; these are patch reserves, not another full blanket. Trial one intact wide blanket for mount/grip/opacity/removal before cutting that same source. **No sixth fleece is required for header, furnishings or a separate sacrificial sample.** Actual errors/dimensions can still force re-costing.
 
-- **H, furnishings:** dedicated ~117 × 34-in desk U-skirt across the top of a 120-in square, then ~86 × 66-in bed-face cover in the remaining 120 × 86-in area. Nominal fit: desk strip height 34 + bed height 66 = 100 in, leaving 20 in along bottom plus ~34-in side offcut. Actual desk height, stored bed and hem sizes still need templates.
-- **I, reserve:** use the full blanket for mounting/grip/opacity trial before cutting it. After trial, cut actual door header (~58 × 36), [Guardian shoulder drape ~30 × 48](../woodland-guardian.md), dry-tub base patches and spare strips. This extra blanket protects the bed/desk covers and absorbs size/cut errors; it is included in nine, not an extra tenth item.
+## Thin furniture covers
 
-Equipment top, vents and speaker fronts stay clear. Hemmed edges may be retained where convenient; fleece cut edges still need a handling/shedding test. No purchased desk cloth, separate backing layer or ready-made bedroom curtain panels.
+One pack contains **two 90 × 132-in cloths**. Work against a conservative **88 × 130-in usable rectangle** after small edge/hem allowance; template actual furniture first.
 
-## Supports and 24-hour trial
+1. **Cloth 1, stored bed:** keep intact or trim after fitting. Its 130-in width / 88-in height covers the scan's ~86 × 66-in face, nominal 15-in side returns (116-in total width) and 15-in top return (81-in total height). Actual stored configuration/fastening/opacity still untested. Cover does not restrain bed.
+2. **Cloth 2, desk:** take **117 × ~34 in** across its 130-in width. Visible U-wrap = 49 + 29.5 + 29.5 = 108 in, with 9 in for folds/attachment. Floor-clear skirt; actual desk height needed.
+3. **Same cloth 2 remainder:** 130 × 54 in after skirt. Place a **62 × 32-in dry-tub base** and **30 × 48-in Guardian body** side-by-side (62 + 30 = 92 ≤ 130; both heights ≤54). Remaining cloth supplies ties/patches. Tub base sits on the existing soft protective underlayer; remove before bathing.
 
-Retain [Command 17003-MPES, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524), **four packs / 56 hooks / $58.44**, and [Staples 831602 black 1.25-in binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277), **three packs / 72 clips / $18.57**. Older retailer quotes; local stock unverified. **49 wall/header points + seven spare hooks**; clips cover 49 wall/header + six desk + 17 spare. Mounts remain $77.01. **Fleece + proposed mounts $364.92 before tax/shipping.**
+Equipment top, vents and speaker fronts stay clear. Use six desk clips from shared stock; lighter cloth may need a folded clip edge. Guardian remains on independent support. Thin polyester is a scenic cover, no opacity/acoustic rating; inspect it against the actual bed under chosen lighting.
 
-Widest 118-in panels start with **six points** at about 24-in spacing; narrow sections use the listed counts. A full blanket's listed 6.29-lb weight is a conservative starting reference, not verified load data. Follow actual substrate/preparation/wait instructions; trial full gathered material for 24 h, clip grip/stretch/sag, opacity with existing blinds, and one removal before scaling up. Do not sum hook ratings. Received blanket weight, wall finish or clip design may require a revised support method/cost. Independent removable panels preserve access; hems clear floor/rug edges. Stage fixtures and Guardian have their own supports.
+## Supports, trial and cost
 
-[Whole decor basket](../../shopping-ready.md): **$1,536.87**, retaining $60 shipping/$30.48 contingency, $63.13 headroom below $1,600. If all nine instead cost the displayed $37.99 list price, model **$1,595.73**; actual future/checkout price can differ. Nothing purchased or tested.
+Retain **four [Command 17003-MPES packs](https://www.homedepot.com/p/206180524) / 56 hooks / $58.44** and **three [Staples 831602 24-packs](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) / 72 binder clips / $18.57**. Older retail quotes/local stock unverified. **43 wall/header points + 13 spare hooks**; **43 wall/header + six desk + 23 spare clips**. Keep this trial margin instead of assuming minimum hooks will work on unseen surfaces. Widest panels start with six points; about 20–24-in spacing. This is provisional inventory, not a certified attachment design.
+
+Follow actual substrate/prep/wait directions. Trial full wide material for **24 h**, clip grip/sag/stretch, one removal, and opacity with existing blinds before scaling/cutting. Do not sum hook ratings. Removable access sections, floor-clear hems and independent stage-light/Guardian supports retained. Received material/finish can require a different method/re-cost.
+
+**Fleece $159.95 + mounts $77.01 = $236.96**; **all fabric plus mounts $258.80** before tax/shipping. [Whole-decor basket](../../shopping-ready.md) **$1,421.20** including $60 shipping/$30.48 buffer, $178.80 headroom below about $1,600. No purchases/tests. Earlier gathered, partial-coverage and raw-bolt proposals are history.

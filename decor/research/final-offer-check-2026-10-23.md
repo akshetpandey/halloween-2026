@@ -1,6 +1,6 @@
 # Earlier decor offer checks — October 23, 2026
 
-**Later same-day Amazon fleece recommendation supersedes the FabricDirect/Big Z buying routes and their cost scenarios here.** [Current nine-piece offer/cuts](../bedroom/draping/05-amazon-fleece-2026-10-23.md) · [Current basket](../shopping-ready.md). Other dated core-offer evidence remains useful.
+**Later same-day Amazon fleece recommendation supersedes the FabricDirect/Big Z buying routes and their cost scenarios here.** [Current flat fleece/thin-cover offers](../bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md) · [Current basket](../shopping-ready.md). Other dated core-offer evidence remains useful.
 
 Checked in the host's signed-in Chrome, America/New_York (EDT, UTC−04:00), for Brooklyn ZIP 11211. No exact address entered or persisted. These are displayed offers and conditional delivery estimates, not reservations, purchases or guaranteed receipt. [Current basket](../shopping-ready.md) owns the buying quantities and total; this file owns today's evidence.
 

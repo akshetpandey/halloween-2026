@@ -1,5 +1,7 @@
 # Amazon black fleece replacement — October 23, 2026
 
+**Superseded later October 23:** host removes fleece pleating and permits thin furniture cloth. [Current five-fleece/full-flat-wall + thin-cover plan](07-flat-walls-thin-covers-2026-10-23.md) and [cuts](02-shopping-and-sample.md) replace the recommendation/cost discussion below. Dated evidence retained, no additional order.
+
 **Recommended alternative, not purchased or physically tested.** Host asks for Amazon black fleece sufficient for all walls with pleating, delivery by October 27, whole decor around $1,600. This is **finished oversized fleece blankets used/cut as fabric**, not raw polar-fleece yardage or ready-made curtains. That construction/finish difference is explicit; host has not separately confirmed this exact SKU.
 
 ## Exact recommended offer

@@ -2,7 +2,9 @@
 
 October 23, 2026 • America/New_York / EDT (UTC−04:00) • needed for Saturday October 31.
 
-## Current decisions and outcome
+**Superseded follow-up:** [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) is current. Host now **excludes every used/pre-owned eBay listing**, including the local leads below, authorizes a faster-shipping enquiry to **jandmantlers only**, and limits headpiece construction to **a couple of hours**. The earlier blanket no-contact statement and local-used options below are history, not current recommendations. No other maker outreach/commission authorized.
+
+## Earlier decisions and outcome
 
 **Confirmed:** the host declines all outreach: **“No, don't contact people.”** Do not message sellers or makers, submit quote forms or book work. The earlier [local-maker proposal in 17](17-hollow-court-sourcing-2026-10-23.md) is declined, not awaiting permission.
 
@@ -23,6 +25,8 @@ The [bottlecapco shop search](https://www.etsy.com/shop/bottlecapco?search_query
 These are different measurement types: the 12-inch cast's **base-to-tip length is not established worn vertical height**, and 8-inch width is **one antler**, not a finished pair's span. A second same-handed cast can be rotated for a front silhouette, but its depth/curvature will differ; that is an untested compromise, not an exact mirrored pair.
 
 ## Real antlers • local stock and actual delivery
+
+**History, not a buying list:** the Ridgewood, Brooklyn, Great Neck and Dover listings are used/pre-owned and now excluded. Only the new jandmantlers pair proceeds to the current investigation in 19.
 
 Individual pages, selected offers, actual photographs and relevant descriptions were inspected in Chrome October 23. eBay pickup signals are **published collection options, not arranged appointments or holds**. Buy-It-Now prices used; no offers, messages or purchases made. Arrival dates are estimates.
 

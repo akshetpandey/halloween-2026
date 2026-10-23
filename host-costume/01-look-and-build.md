@@ -1,5 +1,5 @@
 # The Antler King • build direction
-Updated October 23, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. [Current weekend order and shopping list](09-final-weekend-shopping-2026-10-21.md) owns purchased-product/budget evidence; [latest Hollow Court component/mount investigation](18-larger-antlers-and-diy-mount-2026-10-23.md) owns the reopened October 31 brief. **Host wants tall upright antlers and a full-face veil very close to Yellowjackets; no contacting people.** Investigate larger resin/real sheds and DIY mounting. He has a small drill; no-drill preferred, but availability/quality/effect take priority. No finished assembly or ivory body garment is deadline-cleared yet. Compact October 24 Gilded Stag and $500 combined ceiling remain unchanged.
+Updated October 23, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. [Current weekend order and shopping list](09-final-weekend-shopping-2026-10-21.md) owns purchased-product/budget evidence; [latest Hollow Court seller/two-hour assessment](19-jandmantlers-and-two-hour-build-2026-10-23.md) owns the reopened October 31 brief. **Tall upright antlers/full-face gold veil very close to Yellowjackets; no used/pre-owned eBay items.** Host likes jandmantlers' new sheds and permits asking that seller about faster delivery, not other outreach/commissions. **Headgear build must fit a couple of hours.** Small drill owned; no-drill preferred, but availability/quality/effect take priority. No reliable two-hour assembly, ivory body garment or complete look is deadline-cleared. Compact October 24 Gilded Stag and $500 combined ceiling remain unchanged.
 
 ## Recommended silhouette
 
@@ -25,6 +25,9 @@ The crown and mantle are the two useful places to spend. Avoid padding the outfi
 | Dance | Veil off; mantle removed if warm | Comfortable movement; crown stays only if secure |
 
 ## Build sequence
+
+**October 23 time-limit correction:** the generic sequence below is not a ready two-hour kit. [19](19-jandmantlers-and-two-hour-build-2026-10-23.md#what-the-guide-actually-means) explains the screw-through-base method and estimates roughly **2–3+ hours active including fitting**, plus any specified adhesive cure, for unprepared real sheds/base/veil. Treat that as a planning estimate, not a measured tutorial time. Prepared mounting parts and known mass/geometry are prerequisites to promising a shorter assembly; no-drill cradles are not an established shortcut.
+
 1. Fit the base outfit first; do a squat/sit/stairs test and check pockets.
 2. Choose a broad headband or fitted lightweight cap base for the selected replicas. Soft foam remains a comfort option, but it must have the right geometry. A resin/printed candidate requires actual weight and mounting checks; do not assume a seller's lightweight claim proves all-night comfort. Do not substitute real antlers or heavy resin without a separate fit decision.
 3. Shape the silhouette upward rather than far sideways. Final width depends on doors and the host’s comfort, so do not order oversized antlers without measurements.

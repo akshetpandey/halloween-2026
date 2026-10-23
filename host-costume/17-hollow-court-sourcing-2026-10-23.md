@@ -2,6 +2,8 @@
 
 Checked **October 23, 2026**, America/New_York / EDT (UTC−04:00). Event: **Saturday October 31**. This is a separate home-party brief; Friday Eclipse and Saturday October 24 Gilded Stag are unchanged.
 
+**Latest follow-up is [19](19-jandmantlers-and-two-hour-build-2026-10-23.md):** no used/pre-owned eBay; a jandmantlers-only faster-shipping enquiry is permitted; headpiece build maximum a couple of hours. Other outreach/commissions remain declined. Textile checks below are dated research, not reverified stock or a completed two-hour veil build.
+
 **Later October 23 update:** host **declines contacting people** and asks to explore larger resin or real sheds and DIY mounting. [18 is current for that follow-up](18-larger-antlers-and-diy-mount-2026-10-23.md). The maker proposal/permission question below records the earlier pass only; it is **declined, not pending**. Textile evidence remains dated research, not a selected order.
 
 ## Outcome and source gate

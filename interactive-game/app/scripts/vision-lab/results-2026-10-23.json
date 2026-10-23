@@ -165,9 +165,7 @@
       "ms": 2332.8999996185303,
       "score": 0.6122711896896362,
       "box": [
-        222.73236083984375,
-        236.55108642578125,
-        439.3993225097656,
+        222.73236083984375, 236.55108642578125, 439.3993225097656,
         388.1982727050781
       ],
       "detections": 1
@@ -178,9 +176,7 @@
       "ms": 2155.199999809265,
       "score": 0.7067912220954895,
       "box": [
-        221.82373046875,
-        170.59835815429688,
-        447.11322021484375,
+        221.82373046875, 170.59835815429688, 447.11322021484375,
         445.5513610839844
       ],
       "detections": 1
@@ -191,9 +187,7 @@
       "ms": 2343.199999809265,
       "score": 0.17463231086730957,
       "box": [
-        125.55602264404297,
-        377.72894287109375,
-        261.25738525390625,
+        125.55602264404297, 377.72894287109375, 261.25738525390625,
         519.7230224609375
       ],
       "detections": 0
@@ -233,6 +227,29 @@
       "view": 1,
       "ms": 7362.10000038147,
       "area": 0.0015055338541666667
+    }
+  ],
+  "failures": [
+    {
+      "model": "edge-gpu",
+      "stage": "prepare",
+      "result": "ORT session creation failed: Cast_7 had no assigned execution provider."
+    },
+    {
+      "model": "edge-hybrid",
+      "stage": "prepare",
+      "result": "Same Cast_7 initialization failure with explicit WebGPU and WASM providers."
+    },
+    {
+      "model": "sam2-gpu",
+      "stage": "infer",
+      "result": "No completed inference before manual termination; latency not measured."
+    },
+    {
+      "model": "modern-gpu",
+      "view": 2,
+      "stage": "infer",
+      "result": "Segmentation failed after first-view tiny mask."
     }
   ]
 }

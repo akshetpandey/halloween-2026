@@ -8,6 +8,8 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 ## G Autumn Court versus Wild Hunt without veils
 
+**Subsequent host feedback:** these need a stronger City of Gods aesthetic. Wild Hunt might be adapted, not accepted unchanged; Autumn Court's thematic fit is questioned. [Official-mood-board assessment and proposed woodland-deity rework](handoff-2026-10-22-city-of-gods-reassessment.md). The previous assistant preference for Autumn Court is not a host selection or the current recommendation.
+
 ![Autumn Court in oxblood with an ivory shoulder drape, left; Wild Hunt in ivory with black fur, right; both with compact crowns and green trousers](renders/2026-10-22/autumn-court-vs-wild-hunt.png)
 
 Requested October 22 to visualize the two proposed pivots. **Left — Autumn Court:** oxblood lace-up shirt, one broad asymmetric ivory shoulder drape and small gold clasp/cuff. **Right — Wild Hunt:** ivory lace-up shirt and open short black faux-fur jacket, with a gold cuff. Both retain the same illustrated compact bone crown, dark-green trousers and face-clear styling; no netting, sun halo or body chain. The right-hand look proposes reusing the ordered Eclipse fur, not buying another jacket.

@@ -16,6 +16,8 @@ Current gates October 22: **choose King silhouette and shirt color before buying
 
 ## Current direction • October 22, 2026
 
+- **Latest host feedback:** stronger City of Gods styling required. Wild Hunt needs work; Autumn Court's fit is questioned. [Reassessment](handoff-2026-10-22-city-of-gods-reassessment.md) proposes a gilded woodland-deity development, not a selected outfit or newly sourced shopping basket. Prior Autumn Court preference was the assistant's, not the host's.
+
 - [Verified order and remaining list](09-final-weekend-shopping-2026-10-21.md) is current. [Solar corona shortlist](13-solar-corona-shortlist-2026-10-21.md) is sourcing history; COSUCOS/BLESSUME were not ordered. Earlier Zoestar/Zivyes aesthetic objections do not override the user's actual purchases; final keeper is undecided. No artisan/all-metal requirement or maker outreach.
 - Confirmed inventory, Small and total budget ceiling are recorded in that list and [shared budget](../operations/budget.md). Actual ordered total **$151.97**; revised full optional planning envelope **$375.39** after removing unpurchased PUFFTECH, with no assumed refunds or double-counted tax.
 - [King shirt palette](09-final-weekend-shopping-2026-10-21.md#antler-king-shirt-colors) is open: warm ivory/ecru recommended; actual Beige reads pale parchment, $19.99/Saturday in selected Small offer October 22. Black/White Small inspected; oxblood is an unverified palette alternative, not an added shirt.

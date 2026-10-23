@@ -1,5 +1,7 @@
 # Gilded Stag — obtainable collar alternatives and gold makeup
 
+**Superseded later October 22:** host declines face makeup and wants a less feminine, more substantial necklace. Do not buy this makeup kit or automatically choose the small-leaf options below. [Current substantial-neckpiece pass](15-substantial-stag-neckpieces-2026-10-22.md) owns the revised brief and proposals; this file preserves the earlier research only.
+
 Checked October 22, 2026, approximately 22:00–22:10 America/New_York (EDT, UTC−04:00). Target: **Saturday October 24 before departure**, not October 31. Prices are before tax. Public sources and signed-in Chrome product pages were inspected; Amazon location was Brooklyn 11211. **Nothing ordered, carted, reserved or messaged.**
 
 ## Result

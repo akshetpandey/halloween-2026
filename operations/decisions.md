@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 22 late evening • no face makeup, substantial Stag neckpiece
+
+**Confirmed host:** skip face makeup; he will not apply it himself. Wants a less feminine, more substantial necklace than the earlier gold leaves. No artist appointment, DIY substitute, purchase or outreach requested. [Current sourcing](../host-costume/15-substantial-stag-neckpieces-2026-10-22.md) compares local cast-brass strands and exact Saturday Amazon alternatives, with closure/fit/quality limits. Nothing chosen or bought; future Gilded Stag renders omit makeup and must use a verified real neckpiece. [Budget](budget.md#october-22-confirmed-host-costume-ceiling) removes only the unbought $15.95 pigment from the prior master basket ($375.39 → $359.44 before choosing the replacement); the separate earlier liquid/brush proposal was never part of that basket. Existing $151.97 order and $500 ceiling unchanged.
+
 ## Latest October 22 • laser removed, fleece accepted, pleating and larger rug
 
 **Confirmed host:** remove lasers for safety; MAX interface is sold out; find cheaper laptop control. Accept fleece, add some pleating, seek only mild curtain-like sound softening plus a larger carpet. No dedicated acoustic target/pads. Approximately $1,600 whole-decor target unchanged.

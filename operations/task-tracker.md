@@ -18,7 +18,7 @@
 
 ## October 22 host costume status
 
-[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern the two October 23–24 looks and October 31 King reuse. **Eclipse Friday / King Saturday now confirmed; similar functional warm layer already owned, no new PUFFTECH needed.** Seven Amazon items ordered by host, $151.97 including estimated tax, verified October 21; revised full optional plan **$375.39** within $500 ceiling. No delivery/fit test confirmed. Decor status above is unchanged.
+[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern the two October 23–24 looks and October 31 King reuse. **Eclipse Friday / King Saturday confirmed; warm layer owned; later October 22, makeup declined and a less feminine substantial necklace requested.** Seven Amazon items ordered by host, $151.97 including estimated tax, verified October 21. Legacy optional basket less pigment **$359.44 before choosing a replacement neckpiece**, not a final Gilded Stag quote; [current options/scenarios](../host-costume/15-substantial-stag-neckpieces-2026-10-22.md) remain unselected. No delivery/fit test confirmed. Decor status above is unchanged.
 
 | Task | Current status and next action | Target |
 |---|---|---|

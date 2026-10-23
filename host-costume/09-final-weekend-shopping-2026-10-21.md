@@ -32,6 +32,8 @@ All three halos count once in this order. Compare them in person and choose the 
 
 ## Remaining purchases and pickup options
 
+**Latest host change, October 22 late evening:** **skip all face makeup**, no DIY application or artist appointment. [Current substantial-neckpiece options](15-substantial-stag-neckpieces-2026-10-22.md) supersede the small-leaf/pigment proposal below. No necklace chosen or bought; local brass-strand closure/fit and Amazon day-of delivery risks remain. Historical Gilded Stag visuals still include makeup, but future previews must omit it. The remaining legacy basket below removes pigment; it is not a selected Gilded Stag quote.
+
 These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. The Small shirt colors were rechecked October 22; other prices/stock notes remain October 21 observations and need rechecking before buying.
 
 **Latest visual exploration:** [Gilded Stag](06-weekend-costume-renders-2026-10-21.md#h-gilded-stag-full-outfit-and-detail) shows the requested bone crown, black fur, green trousers, botanical gold collar and gold face accents over a black mesh base, without veil. Visualization is not final outfit/product approval. [October 22 source-first research](14-gilded-stag-collar-makeup-2026-10-22.md) verifies real necklace alternatives with Saturday Amazon estimates and NYC makeup stock, not the exact sculpted collar/raised facial branches. Shop LC plus pigment/liquid/brush is a **$61.84 before-tax proposal**, not a purchase or approved replacement basket. That note owns current variants, counts, alternative photos and a non-double-counted replacement scenario. Hold earlier King shirt/cloth/netting choices until the silhouette is chosen. The table/budget below preserves the previously priced basket, not a quote for this new concept or an instruction to buy both sets.
@@ -43,8 +45,7 @@ These items were **not found in the latest costume order**. Purchases elsewhere 
 | King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered; veil under review.** Gold textile preferred over mail if retained; earlier Friday quote needs rechecking |
 | Eclipse jeans | [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066), **Welcome To The Rodeo — Black** | $110.00 | **Pickup/purchase unconfirmed.** 29 × 30 was checked at Times Square, 34th Street and Hudson Yards; try on first |
 | Optional gold accent | [BROCC cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z), **Color B / New**, two cuffs | $13.99 | **Not confirmed ordered.** One pair shared between looks; no second necklace needed |
-| Optional gold makeup | [Mehron Artist Pigment, Yellow Gold](https://abracadabranyc.com/products/mehron-metallic-artist-pigment?variant=46682438664354), **129-AP-YGD** | $15.95 | **Pickup/purchase unconfirmed.** October 22 evening refresh: 9 NYC stock at Abracadabra, 19 W 21st Street; [liquid/brush proposal and pickup conditions](14-gilded-stag-collar-makeup-2026-10-22.md); await ready notice |
-| **Unconfirmed merchandise total** | Includes all optional rows above; no extra warm jacket | **$178.91** | Not a placed order or current delivered quote |
+| **Unconfirmed merchandise total** | Includes optional cuffs above; **no makeup or extra warm jacket; replacement neckpiece not yet selected** | **$162.96** | Legacy shirt/cloth/veil scenario, not a placed order, current delivered quote or final Gilded Stag basket |
 
 Shoes, dark-green King trousers and a similar functional warm layer are owned. The new warmth confirmation does not identify its exact color, brand or layering fit. Faded black jeans can be a fallback if the host decides against new Levi's. Small tops, usual waist 28–30 and inseam 30–32 are confirmed; these are not garment fit results. Clips/safety pins, soft padding and ribbon retain a **$20 estimated allowance**, with no exact products or purchase confirmed.
 
@@ -96,20 +97,20 @@ If retaining the earlier gauze mantle, fold it double with ends above the hips; 
 
 Start the material trial with **one layer of open gold textile netting**, not actual chainmail. Finer mesh is not automatically easier to see through: compare open-hole area, strand thickness, folds, glare and light on either side. Avoid doubling fabric across the eyes just to hide the face more in photos. The CABODYALS listing remains a proposed material, **not verified for face visibility**; no fabric change, new order or revised price is implied by the render. Before cutting/attaching, test the actual netting at its intended face distance in dim light and with a light in front, then check peripheral vision, snagging and quick removal. Lift it if sightlines are impaired; a rendered face visible through mesh is not a wearer-visibility test.
 
-Gold pigment is optional. Use cosmetic product according to its label; patch test, avoid inhaling loose powder and keep it away from the eye/waterline. The quoted pigment is not a powder/mixing-liquid kit. Mixing liquid and a detail brush are priced in the [new Gilded Stag proposal](14-gilded-stag-collar-makeup-2026-10-22.md), **not** included in the historical basket below. No craft glitter or craft paint on skin.
+**Makeup removed by the host October 22 late evening.** Do not buy pigment, mixing liquid or detail brush from the [superseded research](14-gilded-stag-collar-makeup-2026-10-22.md). No makeup appointment requested or sourced.
 
 ## Budget after the order
 
 | Component | Amount |
 |---|---:|
 | **Placed Amazon order, including $5.49 estimated tax** | **$151.97** |
-| Remaining merchandise, including all optional items above | $178.91 |
+| Remaining legacy merchandise above; no pigment, new neckpiece not selected | $162.96 |
 | Small supplies estimate | $20.00 |
 | Remaining tax/price reserve: original $30 less $5.49 included above | $24.51 |
-| **Full optional planning envelope** | **$375.39** |
-| **Headroom below unchanged $500 ceiling** | **$124.61** |
+| **Legacy optional planning envelope before choosing replacement neckpiece** | **$359.44** |
+| **Headroom below unchanged $500 ceiling, before replacement choice** | **$140.56** |
 
-This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. The $79.90 unpurchased PUFFTECH proposal is removed because a similar warm layer is owned: **$455.29 − $79.90 = $375.39**. The plan retains one $19.99 shirt, not an assumed new color purchase; choosing the displayed $21.99 Friday offer would add $2. Final tax collection/charges, remaining stock and travel can change the total. Skipping new jeans reduces the plan by $110; skipping cuffs/pigment reduces it by $13.99/$15.95. Older basket scenarios are superseded, not extra charges. [Shared budget](../operations/budget.md) carries the same reconciliation.
+This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. The unpurchased PUFFTECH and pigment are removed: **$455.29 − $79.90 − $15.95 = $359.44**. Mixing liquid/brush were never in that basket, so do not subtract them again. The legacy scenario retains one $19.99 shirt plus gauze/veil pending silhouette selection, not an assumed second color purchase. Choosing the displayed $21.99 Friday shirt offer would add $2. [Current replacement-neckpiece scenarios](15-substantial-stag-neckpieces-2026-10-22.md#budget-and-next-action) omit superseded shirt/gauze/veil and all makeup rather than stacking both looks: the $78 brass-strand scenario would be $398.47 if wearable/selected, not an approved order total. Final tax, stock and travel can change totals. Skipping new jeans/cuffs reduces their scenario by $110/$13.99. [Shared budget](../operations/budget.md) carries the same reconciliation.
 
 ## Receipt and fitting sequence
 

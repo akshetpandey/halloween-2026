@@ -4,6 +4,8 @@ import {
   normalizeVector,
   VISION_DIMENSIONS,
   VISION_MODEL,
+  RECOGNITION_ASSETS,
+  VISION_ASSETS,
   type VisionManifest,
 } from "../src/shared/vision";
 import { GPU_WASM, visionRuntimeAsset } from "../src/worker/vision-assets";
@@ -137,4 +139,38 @@ it("never mistakes SPA fallback HTML or missing pieces for a WASM binary", async
       ))!.status,
     ).toBe(405);
   }
+});
+
+it("caches successful ONNX binaries even when Static Assets omits MIME metadata, while retaining HTML/error safeguards", () => {
+  for (const path of [
+    RECOGNITION_ASSETS + "mobilenet-features.onnx",
+    VISION_ASSETS + "sam-encoder.onnx",
+    VISION_ASSETS + "model_quantized.onnx_data",
+  ]) {
+    const request = new Request("https://hollow-court.com" + path);
+    const binary = responseHeaders(
+      request,
+      new Response(new Uint8Array([1, 2, 3])),
+    );
+    expect(binary.headers.get("Content-Type")).toBe("application/octet-stream");
+    expect(binary.headers.get("Cache-Control")).toBe(
+      "public, max-age=31536000, immutable",
+    );
+    for (const response of [
+      new Response("<html>fallback</html>", {
+        headers: { "Content-Type": "text/html" },
+      }),
+      new Response(null, { status: 404 }),
+      new Response(null, { status: 304 }),
+    ]) {
+      expect(
+        responseHeaders(request, response).headers.get("Cache-Control"),
+      ).toBe("no-store");
+    }
+  }
+  const unversioned = responseHeaders(
+    new Request("https://hollow-court.com/models/unknown.onnx"),
+    new Response(new Uint8Array([1])),
+  );
+  expect(unversioned.headers.get("Cache-Control")).toBe("no-store");
 });

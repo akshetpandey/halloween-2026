@@ -38,7 +38,19 @@ export function responseHeaders(
     headers.set("Strict-Transport-Security", "max-age=31536000");
   }
 
-  const type = headers.get("Content-Type")?.split(";")[0].trim().toLowerCase();
+  let type = headers.get("Content-Type")?.split(";")[0].trim().toLowerCase();
+  // Workers Static Assets can omit MIME metadata for ONNX binaries. Give only
+  // successful versioned model files an explicit type so they can be reused.
+  // Never relabel fallback HTML, errors or ambiguous 304 responses as a model.
+  if (
+    !type &&
+    response.ok &&
+    VERSIONED_MODEL.test(url.pathname) &&
+    /\.onnx(?:_data)?$/.test(url.pathname)
+  ) {
+    type = "application/octet-stream";
+    headers.set("Content-Type", type);
+  }
   const privateResponse =
     url.pathname.startsWith("/api/") || headers.has("Set-Cookie");
   if (privateResponse) {

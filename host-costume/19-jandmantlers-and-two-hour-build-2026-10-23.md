@@ -2,6 +2,8 @@
 
 Checked October 23, 2026 • America/New_York / EDT (UTC−04:00) • event Saturday October 31.
 
+**Follow-up:** [20](20-ready-bases-and-mounting-kits-2026-10-23.md) checks ready bases/mounting kits while waiting for the seller reply. Timely bridge/bump-cap components found, but no compatible complete wearable kit or reliable two-hour build established. This page remains the antler/sent-enquiry record; no duplicate enquiry authorized or sent.
+
 ## Confirmed scope and outcome
 
 - **Exclude all used/pre-owned eBay listings**, not just unattractive ones. Earlier Ridgewood/Brooklyn/Great Neck/Dover/other used leads are excluded history in [18](18-larger-antlers-and-diy-mount-2026-10-23.md).

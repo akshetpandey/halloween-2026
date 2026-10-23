@@ -28,6 +28,8 @@ The crown and mantle are the two useful places to spend. Avoid padding the outfi
 
 **October 23 time-limit correction:** the generic sequence below is not a ready two-hour kit. [19](19-jandmantlers-and-two-hour-build-2026-10-23.md#what-the-guide-actually-means) explains the screw-through-base method and estimates roughly **2–3+ hours active including fitting**, plus any specified adhesive cure, for unprepared real sheds/base/veil. Treat that as a planning estimate, not a measured tutorial time. Prepared mounting parts and known mass/geometry are prerequisites to promising a shorter assembly; no-drill cradles are not an established shortcut.
 
+[20's ready-component check](20-ready-bases-and-mounting-kits-2026-10-23.md) finds an obtainable Shed Spreader bridge and adjustable bump-cap base, but **no verified compatible plate-to-cap connector or high veil support**. In-stock parts do not reduce the validated build time automatically. Foam showgirl bases, open wall cradles and manufacturer-prohibited hard-hat alteration are not cleared alternatives.
+
 1. Fit the base outfit first; do a squat/sit/stairs test and check pockets.
 2. Choose a broad headband or fitted lightweight cap base for the selected replicas. Soft foam remains a comfort option, but it must have the right geometry. A resin/printed candidate requires actual weight and mounting checks; do not assume a seller's lightweight claim proves all-night comfort. Do not substitute real antlers or heavy resin without a separate fit decision.
 3. Shape the silhouette upward rather than far sideways. Final width depends on doors and the host’s comfort, so do not order oversized antlers without measurements.

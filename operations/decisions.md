@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## Latest October 22 • torc ordered for Gilded Stag
+## Latest October 23 • Zivyes selected, actual cuffs and personalized previews
+
+Host selects **Zivyes for Friday Eclipse**, reports a different cuff pair bought, and requests clean-shaven previews using his supplied photo. Signed-in Amazon confirms **Karace Style B two-cuff set $13.05** and **NauticalMart torc $31.57**, both arriving Saturday October 24. Earlier seven-item order remains $151.97; combined **$196.59 including estimated tax**. [Current list](../host-costume/09-final-weekend-shopping-2026-10-21.md) owns evidence and **$347.47 optional-inclusive envelope**, under unchanged $500 ceiling. BROCC was not bought; no second cuff pair. Saturday keeps green trousers, crown, fur/mesh, torc and cuffs; no makeup/veil. Friday has Zivyes, chain and black jeans, no Saturday cuffs. [Both personalized previews](../host-costume/16-personalized-previews-2026-10-23.md) completed after exact-photo/deadline checks; likeness assets/prompts remain local and Git-ignored. No physical fit, settled-payment or before-departure arrival guarantee. User handled Amazon checkbox; no agent purchases/messages/returns/cancellations.
+
+## Earlier October 22 • torc ordered for Gilded Stag — account status superseded above
 
 Host reports **“ordered the torc, had 5 mins to sat delivery.”** Context identifies the NauticalMart brass-finish iron torc B0GGB8HT25 from the preceding shortlist. Record user-reported ordered with Saturday October 24 checkout ETA; final charge/exact variant/account status not independently checked. [Current list](../host-costume/09-final-weekend-shopping-2026-10-21.md#latest-purchase--torc-october-22) owns details. Current Saturday proposal: bone crown, black fur/mesh, torc, green trousers; **no makeup or veil**, no extra poet shirt/gauze or necklace. Other neckpieces are sourcing history. Budget uses a **$29 last-listed allowance**, giving **$349.47 planning envelope**, not confirmed combined checkout spending. Earlier audited seven-item $151.97 order and $500 ceiling remain; receipt/fit/arrival-before-departure unverified. No agent purchase, external account check or new render this turn.
 

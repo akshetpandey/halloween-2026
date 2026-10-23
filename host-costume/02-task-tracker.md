@@ -5,16 +5,23 @@
 | KING-01 | Save brief and real references | Done | Host’s Antler King direction |
 | KING-02 | Compare crown, veil and mantle purchase/build options | Liked Sosation crown ordered; **Saturday Oct 24 ETA**; large-fit risk | [Actual order](09-final-weekend-shopping-2026-10-21.md); veil/mantle unconfirmed; compact October 31 reuse/tier-up possible, not fitted |
 | KING-03 | Confirm sizes, owned base clothes and final spend | Small top; usual waist 28–30/inseam 30–32; faded owned jeans prompt new deep-black loose Levi's | 29 × 30 black 568 pickup checked, not measured fit; [final totals](09-final-weekend-shopping-2026-10-21.md) within unchanged $500 ceiling |
-| KING-04 | Order or borrow selected pieces | **Core current looks ordered/reused: audited seven-item order $151.97 + user-reported torc order** | [Current list](09-final-weekend-shopping-2026-10-21.md); torc final charge/receipt pending, optional jeans/cuffs unconfirmed; no extra shirt/gauze/veil/makeup/warm coat |
-| KING-05 | Fit real crown, torc and layers | **Torc selected/reported ordered; no makeup or veil** | Saturday crown/torc receipt before departure, rigid-neck-opening/comfort check, unaltered crown try-on and secure/removable layers |
+| KING-04 | Order or borrow selected pieces | **Nine line items account-confirmed across three orders, $196.59 incl. estimated tax** | [Current list](09-final-weekend-shopping-2026-10-21.md); optional jeans only remain unconfirmed; no extra cuffs/shirt/gauze/veil/makeup/coat/necklace |
+| KING-05 | Fit real crown, torc, cuffs and layers | **Crown/torc/Karace Style B pair arriving Saturday; no makeup/veil** | Receipt before departure, rigid-neck-opening/cuff-edge/comfort checks, unaltered crown try-on and secure/removable layers |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
-| KING-08 | Assemble second City of Gods look | **Core Eclipse pieces ordered**; Oct 22 Amazon marks chain/Zoestar delivered, fur/mesh/Atoden/Zivyes arriving Fri Oct 23; final halo/fit pending | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); new Levi's unconfirmed, owned jeans fallback; no automatic fourth halo or maker messages |
+| KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 
-Current gates October 22: **retrieve/inspect delivered chain/Zoestar; receive/fit Friday Eclipse pieces; resolve optional new jeans or owned fallback; receive/fit Saturday crown and torc**. The host reports ordering the torc with Saturday checkout delivery; account ETA/final charge not independently refreshed. Earlier King shirt/gauze/netting are not required for the current fur/mesh/torc proposal. **Eclipse Friday / King Saturday remains confirmed**, while physical possession and fit are not established by delivered labels or checkout promises. A warm layer is owned; no new warm-jacket pickup.
+Current gates October 23: retrieve/inspect chain and Friday fur/mesh/**selected Zivyes**; choose owned jeans or optional new Levi's; receive/fit Saturday crown, torc and **actual Karace cuffs**. No mandatory additional buy identified. Keep green trousers Saturday to distinguish the woodland look. **Eclipse Friday / King Saturday confirmed**; physical receipt, before-departure timing and fit are unverified. Owned functional warm layer remains; no makeup/veil/new coat.
 
-## Current direction • October 22, 2026
+## Current direction • October 23, 2026
+
+- Host selects Zivyes and requests updated clean-shaven previews using his own supplied photo. [Both private personalized previews](16-personalized-previews-2026-10-23.md) completed after the source-first delivery/photo checks. Likeness assets and exact prompts stay out of Git.
+- Account confirms torc **$31.57** and Karace **Style B two-cuff set $13.05**, both arriving Saturday. Proposed BROCC cuffs were not bought; do not order another pair. Friday preview deliberately has no cuffs.
+- Combined order totals **$196.59**, including estimated tax. Current optional-inclusive envelope **$347.47**, **$152.53 below $500**; no assumed refunds. [Canonical budget](09-final-weekend-shopping-2026-10-21.md#budget-after-the-order).
+- Real-world receipt/fit/safety/warmth checks remain. No source-first waiver, new purchase, makeup, artist appointment or maker message.
+
+## Earlier direction • October 22, 2026 — superseded where changed above
 
 - **Latest host purchase:** torc ordered with Saturday checkout delivery reported; neckpiece selection is settled. [Current list](09-final-weekend-shopping-2026-10-21.md) replaces the earlier necklace choices and shirt/gauze/veil basket with the real torc proposal. No makeup, artist booking or new render. Final torc charge, receipt and fit remain unverified.
 

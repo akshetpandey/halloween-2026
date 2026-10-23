@@ -1,6 +1,6 @@
 # Gilded Stag — substantial neckpieces, no face makeup
 
-**Later October 22 purchase update:** host reports **ordering the torc**, with five minutes left for Saturday delivery. Context identifies **NauticalMart B0GGB8HT25**, last-listed $29; no receipt/exact variant, final charge or account ETA independently checked. Neckpiece selection is settled: other necklaces below are research history, not extra purchases. [09](09-final-weekend-shopping-2026-10-21.md#latest-purchase--torc-october-22) owns the current order and $349.47 planning envelope. Keep the actual torc's size/rigidity/review caveats; ordered does not establish fit or timely receipt. Future previews use the real torc and omit makeup.
+**October 23 account confirmation:** ordered **NauticalMart B0GGB8HT25**, $29 + $2.57 estimated tax = **$31.57**, free shipping; arriving Saturday October 24. Other necklaces below are research history, not extra buys. [09](09-final-weekend-shopping-2026-10-21.md#latest-purchase--torc-october-22) owns the current order/budget; [updated private previews](16-personalized-previews-2026-10-23.md) use the real torc and no makeup. Preserve size/rigidity/review caveats: order status is not fit or timely receipt evidence.
 
 Checked October 22, 2026, approximately 22:55–23:15 America/New_York (EDT, UTC−04:00). Deadline: **Saturday October 24 before departure**. Prices before tax. No purchase, cart change, reservation, message or render.
 

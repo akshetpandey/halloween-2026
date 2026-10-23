@@ -16,15 +16,15 @@
 | SHOP-04 / BUY-01 | Verify actual fabric/interface/rug receipt and delivered totals; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
 | SET-03 | Scenery 25–33 h + basic DMX 3–5 h = **28–38 hands-on h**. Keep craft simple and preserve rehearsal | Complete Oct 30 |
 
-## October 22 host costume status
+## October 23 host costume status
 
-[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern both weekend looks and October 31 reuse. **Eclipse Friday / King Saturday; warm layer owned; no makeup; torc now selected/reported ordered with Saturday checkout ETA.** Earlier seven-item order $151.97 is audited; new torc final charge/account ETA unverified. **$349.47 planning envelope** uses $29 torc allowance plus optional jeans/cuffs/reserves, not verified combined spending. Core pieces ordered/reused, physical receipt/fit still pending. Decor unchanged.
+[Order/list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern both looks and October 31 reuse. **Eclipse Friday with selected Zivyes / King Saturday with actual torc and Karace Style B cuff pair; warm layer owned, no makeup/veil.** Three account-confirmed order totals **$196.59** incl. estimated tax; **$347.47 planning envelope** with optional jeans/supplies/reserve, not settled spending. [Private personalized previews](../host-costume/16-personalized-previews-2026-10-23.md) complete; physical receipt/fit pending. Decor unchanged.
 
 | Task | Current status and next action | Target |
 |---|---|---|
-| KING-04 | Fur/mesh/chain, three halos and crown audited ordered; torc user-reported ordered. No extra shirt/gauze/veil/makeup/coat/necklace required; optional jeans/cuffs unconfirmed | Receive/fit before each night |
-| KING-08 / KING-09 | Last checked ETAs chain/Zoestar Thu; fur/mesh/Atoden/Zivyes Fri. Compare halos, fit **owned** warm layer; no automatic fourth halo | Confirmed Eclipse night Oct 23; test before departure |
-| KING-05 / KING-06 | Crown last checked Saturday; torc Saturday checkout ETA per host. Fit crown/torc/fur/mesh after timely receipt; no makeup/veil | Confirmed King night Oct 24; test before departure |
+| KING-04 | Nine costume line items audited across three orders. No extra cuffs/shirt/gauze/veil/makeup/coat/necklace required; optional jeans only unconfirmed | Receive/fit before each night |
+| KING-08 / KING-09 | Oct 23 refresh: chain/Zoestar marked delivered Oct 22; fur/mesh/Atoden/Zivyes Friday. **Zivyes selected**, no Friday cuffs; fit owned warm layer | Eclipse Oct 23; test before departure |
+| KING-05 / KING-06 | Crown/torc/Karace cuffs arrive Saturday. Fit after timely receipt; keep green trousers; no makeup/veil | King Oct 24; test before departure |
 
 **September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.

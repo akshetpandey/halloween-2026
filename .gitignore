@@ -50,3 +50,6 @@ tmp/
 temp/
 *.tmp
 
+# Private host-photo try-ons and generation references (never commit likeness assets)
+host-costume/renders/private/
+

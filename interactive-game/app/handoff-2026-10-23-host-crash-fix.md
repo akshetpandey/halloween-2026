@@ -4,7 +4,7 @@
 - Updated date: October 23, 2026, America/New_York.
 - Checkout, branch and base: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `641655f`.
 - Scope: segmentation/runtime/prewarm lifecycle, host test, regression checks and camera docs.
-- Status: implementation, regression and browser checks passed; publishing next. Physical iPhone Chrome retest remains open.
+- Status: implemented, committed, deployed and verified on both hosted domains. Physical iPhone Chrome retest remains open.
 - Confirmed user evidence: host test reliably crashes iPhone Chrome just after initialization, before starting a camera/photo (October 23).
 - Proposals awaiting decisions: none needed for the fix.
 
@@ -24,11 +24,13 @@
 - `npm run build`: passed; client `index-fXSpQV_o.js`, recognizer `vision.worker-CKQRZfqP.js`, outline `segmentation.worker-LmolQjFk.js`.
 - Chrome Play actual-model browser check: replacement warm-up **2.53s**, held-out synthetic owl recognition **0.10s**, outline **0.96s**, usable mask. No personal images/webcam used. This is Mac browser evidence, not a phone benchmark or proof of physical iPhone stability.
 - Final Chrome browser build: preparation **2.33s**, video fixture stable owl match **0.60s / 3 frames**, outline **0.86s**, refinement **0.87s**. Closing/reopening host Lens reused both ready models. A held-out photo also produced a mask in **0.89s**. Screenshot ignored at `private/lightweight-outline-verified.png`.
-- Actual UI reload during an outline left recognition ready and displayed the interrupted-outline message plus explicit retry, without restarting that outline automatically. Explicit retry started the new preparation. This exercises the guard without killing a browser process.
+- Actual UI reload during an outline left recognition ready and displayed the interrupted-outline message plus explicit retry, without restarting that outline automatically. Explicit retry returned to **Lens ready · awakening ready** in **2.53s**. This exercises the guard without killing a browser process. Ready-state screenshot ignored at `private/host-crash-fix-ready.png`.
 - Current CLI recognition smoke: finite 1024-value features, warmed median **9.0ms**, p95 **9.5ms**. Default smoke no longer initializes SAM.
-- `git diff --check`, local Markdown links, and Wrangler dry-run passed (173.92 KiB / 57.37 KiB gzip). Deployed version/exact hosted checks follow below.
+- `git diff --check`, local Markdown links, and Wrangler dry-run passed (173.92 KiB / 57.37 KiB gzip).
+- Published existing `hollow-court-preview` to Workers preview and `hollow-court.com`, version **`3781fcb7-336a-4922-a298-3484b604f28b`**, October 23 EDT. Nine changed assets uploaded; no resource creation/migration. Existing narrow Wrangler identity/scopes verified, without adding unrelated permissions.
+- Both hosts serve exact local bytes for the client, recognizer Worker, segmentation Worker, TFLite model, JS loader and WASM runtime. All generated/versioned assets are immutable; HTML is `no-store`. TFLite is binary MIME and WASM is `application/wasm`. Public state remains sealed, preview disabled, camera references 404; Workers preview allows rehearsal and unauthenticated references return 401.
 - External changes: no new Cloudflare resources, schemas, user data, auth permissions or paid services. Public time gate and preview-only camera rollout remain unchanged.
 - Remaining: host closes the old/crashed tab, reopens the host dashboard on iPhone Chrome and tests preparation, a held-out photo and repeated scans. Phone memory pressure, real-prop mask quality and dim-light recognition acceptance remain open. New model's peak browser memory is not yet measured; no exact reduction percentage is claimed.
 - Dependencies on sibling tasks: none.
 - Unpersisted details: all durable findings are here; no secret/private guest data was saved to Git.
-- Commits/unrelated dirty files: implementation checkpoint pending. No unrelated dirty files observed.
+- Commits/unrelated dirty files: **`f12ec5e`** implements the replacement, safety guard, tests and docs. Deployment-evidence documentation committed afterward. No unrelated dirty files observed. Local test tab, proxy and Wrangler dev server closed/stopped.

@@ -4,7 +4,7 @@
 
 ## Latest cloth clarification
 
-Host now explicitly wants **black atmosphere plus some sound deadening, without requiring velvet**. [Current material/acoustic proposal](../bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) adds two $8.95 hidden felted pads to the poplin skin, reallocating $19.52 including planning-tax effect from buffer. Whole estimate stays $1,593.66; buffer now $30.48. No measured acoustic/bass isolation claim. Lighting choices below are unchanged.
+**Fabric sections below are superseded by the later host instruction for one thicker black felt/fleece material on every wall, with no separate pads.** [Current source comparison](../bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) proposes $220 fleece; current basket $1,657.38, $57.38 above the unchanged approximate $1,600 target. Lighting choices below remain current. Earlier poplin/velvet prices are historical evidence, not extra orders.
 
 ## Cheaper cloth
 

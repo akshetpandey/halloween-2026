@@ -2,13 +2,13 @@
 
 ## October 22 • decor execution status
 
-[Current room plan](../decor/final-room-plan.md) · [single $1,593.66 basket](../decor/shopping-ready.md) · [fabric/combined-rig research](../decor/lighting/fabric-and-combined-rig-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md). Host revised ceiling **about $1,600 including permanent lights**. Offers/automation design documented; hardware fit/suitability, final accessories and physical tests pending. No decor purchases.
+[Current room plan](../decor/final-room-plan.md) · [single $1,657.38 proposed basket](../decor/shopping-ready.md) · [fabric/combined-rig research](../decor/lighting/fabric-and-combined-rig-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [latest material handoff](../decor/bedroom/draping/handoff-2026-10-22-single-layer.md). Host revised ceiling **about $1,600 including permanent lights**. Current single-layer fleece proposal is $57.38 over target; resolve cost before ordering. Offers/automation design documented; hardware fit/suitability, final accessories and physical tests pending. No decor purchases.
 
 | Task | Current status / next action | Target |
 |---|---|---|
 | SHOP-01 / SET-02 | Three-room layout/15 entities unchanged; combine all three linked lights as host intends. Rig footprints/supports not yet fitted | Before claiming previous dance capacity with rig |
-| OPS-01 / BUD-01 / SHOP-02 | New ceiling and proposed cost reconciled; tape scale, closets, actual outlets/circuits and fixture supports remain | Oct 22–24 physical checks |
-| SHOP-03 / DRAPE-01–04 | Velvet not required. 40-yd black poplin $143.64 + two $8.95 hidden felted pads proposed for local echo trial; same cuts. Arrival, opacity, combined-load mount trial and sound benefit unverified | Before cutting/order |
+| OPS-01 / BUD-01 / SHOP-02 | Ceiling unchanged; resolve $57.38 proposed cost gap without silent cuts. Tape scale, closets, actual outlets/circuits and fixture supports remain | Oct 22–24 physical checks |
+| SHOP-03 / DRAPE-01–04 | Host wants one thicker material across all walls, no separate pads. Two 20-yd black fleece bolts / $220 proposed; 72-in 2-mm felt alternative sourced. Verify fresh stock/arrival, heavier mounting, opacity and echo effect; valance comes from wide offcut, not two short bolt ends | Before cutting/order |
 | LIGHT-BED | Four-fixture DMX design, $119 buffered interface and free QLC+ selected as proposal. Resolve conditional laser suitability, real mounts, firmware ≥4.5 and cable SKUs/lengths | Receipt target Oct 27; prototype by Oct 29 |
 | LIGHT-LR / BATH-08 | Permanent violet lamp, steady eyes and cordless bath tests still unperformed | Nine-hour elapsed trial |
 | BED-01 / PROP-01 | Upright corner accepted; actual bed support unresolved, guardian independent | Before moving bed |

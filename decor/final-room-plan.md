@@ -52,9 +52,9 @@ Host approved the Hollow mood image as the material direction and requested a ru
 
 ### Every wall is black raw fabric
 
-[40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): FWD black 170-GSM polyester poplin, $143.64 proposed after host rejects expensive stretch velvet, shallow folds, 15 full-height pieces plus entry-head valance. Cover windows within the same wall spans; keep the doorway open. Large offcuts conceal the bed and form guardian shoulders. Actual opacity/attachment/heat/airflow require a room trial.
+[40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): proposed black 280-GSM anti-pill fleece, two 20-yd bolts / $220, one material across every wall/window. Shallow folds, 15 full-height pieces plus entry-head valance cut from a wide offcut; each bolt supplies six 117-in drops and leaves 18 in. Offcuts also dress desk/bed/guardian/tub. Keep the doorway open; verify actual opacity/attachment/stretch/heat/airflow in a room trial.
 
-Latest material clarification: **velvet is not required, some sound deadening is wanted**. [Black cloth + felted backing](bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) proposes two 68 × 85-in pads hidden behind the exposed left-wall run as a modest echo-control trial. Poplin remains the full-height visual layer; pad band is partial-height. Check combined mounting load/door/route fit, keep speaker faces clear, and do not claim bass isolation. No actual sound test performed.
+Latest host direction: **one thicker black felt/fleece layer for look and some sound deadening; no separate pads**. [Material comparison and unresolved cost](bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md): 72-in / 2-mm felt alternative is $217.28 for 32 yd. Fleece proposal brings all decor to $1,657.38, $57.38 above the approximate $1,600 target without silently cutting scenery. Acoustic benefit is unmeasured; heavier mounting and sound trial remain pending.
 
 ### Guardian and EDM lights
 
@@ -70,7 +70,7 @@ Steady amber eyes: second H12 warm string intact, two diffused clusters and spar
 
 ## Moon Well
 
-Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded/overlapped black poplin offcuts in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
+Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded/overlapped black fleece offcuts in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
 
 Separate cordless warm lamp on a stable dry shelf lights sink/lock/route. Charge both bath lamps outside room and test at selected brightness for nine elapsed hours; advertised runtime is not a passed test. No charging/mains leads in tub. If runtime fails, retain normal usable light; orb can remain a reflective prop. Remove scenery before bathing.
 

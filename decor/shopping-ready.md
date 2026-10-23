@@ -2,16 +2,15 @@
 
 **Current single basket. Proposed, not ordered or tested.** Confirmed revised ceiling **about $1,600 including permanent lights** (Oct 22 reply for the combined rig). Only owned decor: gold tree/full-color LIFX. All-wall **bulk black fabric**, not ready-made curtains. [Room/layout plan](final-room-plan.md) · [Cut schedule](bedroom/draping/02-shopping-and-sample.md) · [Setup](setup-schedule.md) · [Offer evidence](research/full-wall-offers-2026-10-21.md).
 
-**$1,593.66 planning cash envelope**, including $60 shipping and $30.48 buffer, leaves $6.34 beyond that buffer. This is not a delivered quote. Raw-fabric arrival/shipping, fabric mounting, heavy-fixture supports/footprints, combined cloth/pad support trial, laser suitability and conditional supplies still need checks. Nothing has been purchased, added to a cart, reserved or installed.
+**$1,657.38 proposed planning cash envelope**, including $60 shipping and $30.48 buffer: **$57.38 above the approximately $1,600 target**. The ceiling has not been raised; resolve this gap before ordering. This is not a delivered quote. Raw-fabric arrival/shipping, fabric mounting, heavy-fixture supports/footprints, heavier single-layer fleece support trial, laser suitability and conditional supplies still need checks. Nothing has been purchased, added to a cart, reserved or installed.
 
 ## Prioritized products
 
-New fabric/rig prices checked October 22, 2026, America/New_York; other prices retain their October 21 evidence. P1 = fabric/support/light/function first; P2 = scenery after fit. New one-time Amazon offers exclude coupons/subscriptions/used alternatives. Existing Brooklyn 11211 delivery estimates are conditional at check time; no exact address entered or stored. Core offer evidence comes from [October 21 Chrome checks](research/offer-check-2026-10-21.md); moss/ivy evidence is in the Oct 21 register; [Oct 22 fabric and combined-rig evidence](lighting/fabric-and-combined-rig-2026-10-22.md) records the new proposal.
+New fabric/rig prices checked October 22, 2026, America/New_York; other prices retain their October 21 evidence. P1 = fabric/support/light/function first; P2 = scenery after fit. New one-time Amazon offers exclude coupons/subscriptions/used alternatives. Existing Brooklyn 11211 delivery estimates are conditional at check time; no exact address entered or stored. Core offer evidence comes from [October 21 Chrome checks](research/offer-check-2026-10-21.md); moss/ivy evidence is in the Oct 21 register; [Oct 22 combined-rig evidence](lighting/fabric-and-combined-rig-2026-10-22.md) records lighting; [latest single-layer sourcing](bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) supersedes its fabric choice.
 
 | ID | Exact product / variant | Qty | Unit USD | Line USD | Allocation / delivery / status |
 |---|---|---:|---:|---:|---|
-| H22 P1 | [FWD Polyester Poplin (60 Inch), **Black SV571640**, 58/60 in](https://fabricwholesaledirect.com/products/polyester-poplin-60-inch-fabric?variant=39460331880563) | 40 yd | ~3.591 | 143.64 | Chrome Oct 22 Black selected / qty 40 displayed total; 170 GSM plain woven cloth replaces velvet, same cuts/offcuts. Standard free-shipping threshold met; actual arrival/dispatch unverified, full-drop opacity/mount trial pending |
-| H33 P1 proposed trial | [U-Haul Furniture Pad **FP, 68 × 85 in**](https://www.uhaul.com/MovingSupplies/Packing-Supplies/Furniture-Pad/?id=2670) | 2 | 8.95 | 17.90 | Hidden felted backing behind black cloth on one wall; official Oct 22 price, 2.45 lb each / ~1/8 in. Local stock/arrival and combined mount load unverified; no measured acoustic rating. Reuse clean suitable blankets first if available |
+| H22 P1 proposed | [FabricDirect solid black anti-pill fleece **31707**, 58-in conservative width, 280 GSM](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/) | 2 × 20-yd bolts | 110.00 | 220.00 | One thicker material across all walls/windows and furnishings; no separate pads. Indexed vendor offer accessed Oct 22; live Chrome security verification prevents fresh stock/checkout confirmation. Free standard threshold met; actual receipt/opacity/heavier-mount trial pending. [Evidence and felt alternative](bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) |
 | H24 P1 | [Command large utility 17003-MPES, 14 hooks / 16 strips](https://www.homedepot.com/p/206180524) | 3 packs | 14.61 | 43.83 | 42 fabric hooks: 40 planned + 2 spare. Retailer price; local stock unverified. Complete-panel/load/surface trial required |
 | H25 P1 | [Staples 831602, 1.25-in black binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | 2 packs | 6.19 | 12.38 | 48, six beyond hook count. Indexed offer; direct checkout unverified. Reuse first, check grip/handle fit |
 | H29 P1 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Combined Hollow wash/pixel effect; 18/268CH, dim/strobe. Chrome Oct 22 free Oct 24; listed 10.6 lb. Exact manual, independent supports and nameplate load pending |
@@ -34,9 +33,9 @@ New fabric/rig prices checked October 22, 2026, America/New_York; other prices r
 | H19 P1 | [HDX FSEX29 **15-ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | 3 | 19.98 | 59.94 | One Grove and two Hollow supplies for four fixtures/guardian USB, each direct to suitable wall outlet. Actual routes/circuit loads pending; no strip daisy-chain. Retail price/local stock unverified |
 | H20 P1 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | 1 | 4.49 | 4.49 | Two candle/remote spares only if actual labels match. Retail price/local availability unverified. Do not buy extra CR2025 speculatively |
 | H28 P1 | [WITSHOCK B0CYL8FC6C, **Bitter Black 5 × 7 ft rectangular**, low-pile washable rug](https://www.amazon.com/dp/B0CYL8FC6C) | 1 | 31.99 | 31.99 | Planning cap; Chrome Oct 21 sale $28.79, displayed typical $31.99, in stock / free Oct 22 / Amazon ships, SshiY sells. Actual floor grip/door trial required; [fit and desk finish](bedroom/rug-and-desk-finish-2026-10-21.md) |
-| **A merchandise** | | | | **1,214.06** | Nothing ordered; quoted and indexed evidence distinguished above |
+| **A merchandise** | | | | **1,272.52** | Nothing ordered; quoted and indexed evidence distinguished above |
 
-Latest host clarification: velvet is unnecessary; black/dark feel and some sound deadening are wanted. [Two hidden felted pads](bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) add $17.90 merchandise / $19.52 with aggregate planning-tax effect, reallocated from buffer. Poplin is visual coverage; pad trial aims at reflected sound, no bass-isolation claim. No whole-room acoustic performance promised.
+Latest host instruction: **one thicker black felt/fleece material across all walls; no thin cloth plus separate pads**. [Current source comparison and budget delta](bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md): fleece replaces H22 poplin and removes H33 pads. Net merchandise +$58.46 / whole envelope +$63.72. A 32-yd 72-in felt alternative costs $217.28 instead of $220, with different cuts and a separate support trial. No measured sound benefit or bass isolation promised.
 
 ## Local/reuse gaps
 
@@ -53,29 +52,29 @@ Latest host clarification: velvet is unnecessary; black/dark feel and some sound
 
 | Cash component | USD |
 |---|---:|
-| A merchandise | 1,214.06 |
+| A merchandise | 1,272.52 |
 | B local/reuse gaps | 165.00 |
-| **Merchandise + local allowances** | **1,379.06** |
-| 9% planning tax allowance, rounded; not a statutory-rate claim | 124.12 |
+| **Merchandise + local allowances** | **1,437.52** |
+| 9% planning tax allowance, rounded; not a statutory-rate claim | 129.38 |
 | Shipping allowance across fabric/hardware | 60.00 |
 | Price/missing-item buffer | 30.48 |
-| **Total planning cash envelope** | **1,593.66** |
-| Remaining below about $1,600 beyond included buffer | 6.34 |
+| **Total planning cash envelope** | **1,657.38** |
+| Amount above approximately $1,600 target | 57.38 |
 
-Actual checkout tax/shipping may differ. Design to **all-in total about $1,600**; retain buffer until measurements/arrivals. The basket replaces old decor-category allowances ($705), the earlier hypothetical $973.12 example and its tax/logistics share, not added to them. At $3,000 party ceiling it leaves $1,406.34 for other costs; $500 host costume and ~$100 winner crown, if both counted inside, leave $806.34. This is arithmetic, not an approved consolidated party reallocation.
+Actual checkout tax/shipping may differ. Target remains **all-in total about $1,600**; the current one-material proposal is over target and not ready for purchase. Retain buffer until measurements/arrivals or make explicit optional cuts. The basket replaces old decor-category allowances ($705), the earlier hypothetical $973.12 example and its tax/logistics share, not added to them. At $3,000 party ceiling it leaves $1,342.62 for other costs; $500 host costume and ~$100 winner crown, if both counted inside, leave $742.62. This is arithmetic, not an approved consolidated party reallocation.
 
 ## Buying sequence and concrete substitutions
 
-1. **Host checks immediately:** 40-yd poplin total/arrival, actual drop, cloth/fixture support trials, laser suitability, interface firmware/arrival, outlet routes and ordinary supplies. Nothing in this document authorizes agent purchases.
+1. **Host checks immediately:** two 20-yd fleece bolts, current total/arrival, actual drop, cloth/fixture support trials, laser suitability, interface firmware/arrival, outlet routes and ordinary supplies. Nothing in this document authorizes agent purchases.
 2. P1 lights/supports/moss arrive and get tested first; prefer receipt **Oct 27**. Measure/clip a full panel before cutting the full cloth.
 3. Fit furniture/counter paper templates; reserve bed concealment, full desk skirt and tub-base offcuts before cutting. Reserve two ivy strands and ~2 sq ft moss for desk. Flatten/test the 5 × 7-ft rug before party use, then cut fabric/mats. Buy local pumpkins near Oct 28–29.
 4. By **Oct 29**, stop adding mail-order dependencies. Maintain full-wall raw-fabric scope; a local fabric replacement must meet the measured cut schedule and same budget.
 
 | Issue | Substitution / budget effect |
 |---|---|
-| Fabric shipping above $60 or extra mounts needed | Use $6.34 headroom, then documented buffer; optional H08 pendants/pumpkins can be reduced. Re-cost a real support solution before buying heavy lights |
-| Poplin/interface cannot arrive by Oct 27 | Verify local/raw-fabric or controller substitute; match usable width and actual QLC+ compatibility. No secured local stock claimed |
-| Opacity inadequate | Existing opaque backing first, then price targeted window backing; do not call untested poplin blackout |
+| Fabric shipping above $60 or extra mounts needed | Already $57.38 above target; resolve this plus any new cost. Optional H08 pendants/pumpkins and contingency can be reduced explicitly; see source note for a $1,600 example. Re-cost a real support solution before buying heavy lights |
+| Fleece/interface cannot arrive by Oct 27 | Verify local/raw-fabric or controller substitute; match usable width and actual QLC+ compatibility. No secured local stock claimed |
+| Opacity inadequate | Test existing blinds first; if insufficient, select a more opaque single material and re-cost rather than adding separate full-room backing |
 | Cloth or fixture supports fail | Actual substrate/load-appropriate independent support required; no unseen drape/truss rig included. Preserve routes and report unresolved installation |
 | Guardian support exceeds L04 | Independent flat face/root board; bed support remains a separate unresolved physical dependency |
 | Laser class/output/projection unsuitable | Hold H30 and re-cost a non-laser pattern effect or retain LED wash/movers. No unapproved substitute purchase |
@@ -86,7 +85,7 @@ Actual checkout tax/shipping may differ. Design to **all-in total about $1,600**
 
 ## Removed from the active order
 
-H02 $89.99 large six-pound plug-in moon + $15 heavy mounting allowance are replaced by L03/H12 handmade glowing disk. H09 $21.55 wolf skull is optional; shrine uses raven skull/bark. H10 $22.40 maple garlands replaced by H27 green ivy plus attached paper autumn leaves. H15 creepy cloth unnecessary with black-fabric offcuts. H21 speculative CR2025 pack omitted. H23 ready-made bedroom curtains removed by explicit host instruction. Big Z $249.60 stretch velvet is replaced by H22 poplin; H01 $39.99 two-PAR kit is replaced by H29–32 combined rig, not added to it. H11 old two narrow strips replaced by three large sheets. H07 purchased branch is replaced by card/kraft branches; H14 tablecloth pack is replaced by reserved black-fabric offcuts for desk and dry tub. H28 rug + L05 conditional grip reserve are now included by host request. Do not buy both old and new versions.
+H02 $89.99 large six-pound plug-in moon + $15 heavy mounting allowance are replaced by L03/H12 handmade glowing disk. H09 $21.55 wolf skull is optional; shrine uses raven skull/bark. H10 $22.40 maple garlands replaced by H27 green ivy plus attached paper autumn leaves. H15 creepy cloth unnecessary with black-fabric offcuts. H21 speculative CR2025 pack omitted. H23 ready-made bedroom curtains removed by explicit host instruction. Big Z $249.60 stretch velvet and later $143.64 poplin + H33 $17.90 pads are replaced by H22 fleece; H01 $39.99 two-PAR kit is replaced by H29–32 combined rig, not added to it. H11 old two narrow strips replaced by three large sheets. H07 purchased branch is replaced by card/kraft branches; H14 tablecloth pack is replaced by reserved black-fabric offcuts for desk and dry tub. H28 rug + L05 conditional grip reserve are now included by host request. Do not buy both old and new versions.
 
 One 5 × 7-ft Hollow rug is included; no whole-room fitted carpet, premium lighting rental, drape/truss rig, fog/haze, new speakers, full articulated guardian or large faux trees included. Gruolin laser is a priced conditional candidate; safe installation is not established. Game's five bought figures, tags, premade NFC moon stickers and incremental bases belong to its own budget; whole scenic anchors counted once here. Both crowns, food/drink and costume excluded.
 

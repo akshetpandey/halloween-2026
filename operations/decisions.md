@@ -1,14 +1,20 @@
 # Decision log and open questions
 
-## Later October 22 • black atmosphere and some sound deadening
+## Latest October 22 • one thicker black felt/fleece material
 
-**Confirmed host:** velvet is not required at all; black atmosphere and some sound deadening wanted. [Current material proposal](../decor/bedroom/draping/03-black-cloth-and-echo-2026-10-22.md) uses black poplin plus two hidden felted pads for an unmeasured local echo-control trial. $19.52 merchandise/tax effect is reallocated from buffer; total stays $1,593.66, buffer $30.48. No change to combined lighting or approximately $1,600 ceiling. No acoustic measurement, purchase or neighbor-noise guarantee.
+**Confirmed host:** wants all walls covered with one thicker black felt/fleece material for appearance and some sound deadening, rather than thin fabric plus separate pads. Velvet unnecessary. [Current source comparison](../decor/bedroom/draping/04-single-layer-felt-fleece-2026-10-22.md) proposes 40 yd black fleece in two 20-yd bolts / $220; 32 yd 72-in / 2-mm felt is $217.28. Neither product is an acoustically rated assembly.
+
+**Proposed, not host-finalized or purchased:** fleece replaces H22 poplin and removes H33 pads. [Current basket](../decor/shopping-ready.md) **$1,657.38**, $57.38 above unchanged approximately $1,600 ceiling. Preserve scenery/contingency for now; optional trims documented but not applied. Live felt price/specs checked in Chrome; fleece indexed price requires fresh stock/arrival confirmation because live site remains at security verification. Actual material opacity/weight/support and echo trial pending. Combined lights and accepted furniture layout unchanged.
+
+## Earlier October 22 • black atmosphere and some sound deadening
+
+Host confirmed velvet unnecessary. The earlier poplin + two hidden felted pads / $1,593.66 proposal is **superseded by the single-material direction above**, not an additional order. [Historical acoustic research](../decor/bedroom/draping/03-black-cloth-and-echo-2026-10-22.md).
 
 ## October 22 • fabric, all-three lighting and revised ceiling
 
 **Confirmed host:** expensive raw stretch velvet rejected; all Hollow walls still bulk fabric. All three linked lights are intended **together**. Host explicitly replies **“Allow about $1,600 total for the combined rig”** to the whole-decor budget question. Revised decor ceiling about $1,600 including permanent lights; no purchase authorization inferred.
 
-**Proposed:** [40-yd black poplin / combined DMX design](../decor/lighting/fabric-and-combined-rig-2026-10-22.md), free QLC+ and buffered DMXking MAX. [Current basket](../decor/shopping-ready.md) $1,593.66, replacing $996.36. Four fixtures because U’King link is a pair. Actual mounts/footprints, conditional laser suitability, delivered fabric/interface quotes and audio/lighting rehearsal remain unresolved. No orders, installs or tests. [Handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md).
+**Earlier fabric proposal (superseded above); lighting design remains:** [40-yd black poplin / combined DMX design](../decor/lighting/fabric-and-combined-rig-2026-10-22.md), free QLC+ and buffered DMXking MAX. Basket at that point $1,593.66, replacing $996.36. Four fixtures because U’King link is a pair. Actual mounts/footprints, conditional laser suitability, delivered fabric/interface quotes and audio/lighting rehearsal remain unresolved. No orders, installs or tests. [Handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md).
 
 ## October 21 • earlier house decor decisions and proposal
 

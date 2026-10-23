@@ -1,5 +1,7 @@
 # Black atmosphere plus modest echo control — October 22, 2026
 
+**Superseded by the later host request for one thicker black felt/fleece material on every wall, with no separate pads.** [Current sources and budget](04-single-layer-felt-fleece-2026-10-22.md) · [Current cuts](02-shopping-and-sample.md). Below is historical research, not an active order or recommendation.
+
 **Latest confirmed host clarification:** velvet is not required at all. Aim for black, a dark/soft room feeling, and **some sound deadening**. Full-wall raw-fabric coverage and approximately $1,600 whole-decor ceiling remain. Interpretation for this proposal: reduce reflected sound inside the Hollow; do not claim isolation of techno bass to neighbors. The host has not supplied an acoustic measurement or a required reduction.
 
 ## Recommended budget proposal

@@ -2,23 +2,23 @@
 
 Updated October 22, 2026. **Confirmed nights: Eclipse Friday October 23; Antler King Saturday October 24.** The host already owns a similar functional warm layer, so the proposed $79.90 PUFFTECH is removed from remaining purchases, not refunded. Black fur stays in the Eclipse outfit.
 
-**Seven costume items are ordered from Amazon: $151.97 including estimated tax**, verified October 21. The order contains black fur, a Small black mesh tank, the gold body chain, three solar halos and the compact bone-look crown. The bone crown's last checked order ETA is Saturday October 24; fur/mesh Friday October 23. Arrival before departure, King's remaining clothes and physical fit still need checking. Do not order another halo just because an earlier shortlist recommended one.
+**Seven costume items are ordered from Amazon: $151.97 including estimated tax**, contents/pricing verified October 21; **delivery progress refreshed October 22**. Amazon marks the gold chain and Zoestar halo delivered October 22, with fur/Small mesh/Atoden/Zivyes arriving Friday October 23 and the bone crown Saturday October 24. Physical receipt, arrival before departure and fit still need checking. Do not order another halo just because an earlier shortlist recommended one.
 
 The **$500 total costume ceiling** covers both October 23–24 looks and King reuse October 31. Dates below are America/New_York / EDT (UTC−04:00). Ordered does not mean delivered, fitted or warmth-tested.
 
 ## Verified Amazon order
 
-Order placed October 21; quantities are one each. Prices and ETAs below come from signed-in Amazon **Order Details**, checked October 21, rather than current product-page quotes. [Amazon Orders](https://www.amazon.com/gp/css/order-history) is the live delivery reference; account, payment and private order identifiers are not stored here.
+Order placed October 21; quantities are one each. Prices/summary come from signed-in Amazon **Order Details**, checked October 21; the progress column was refreshed from the matching order on **Amazon Orders October 22**, rather than product-page promises. [Amazon Orders](https://www.amazon.com/gp/css/order-history) is the live delivery reference; account, payment and private order identifiers are not stored here.
 
-| Ordered item | Selection confirmed in order | Item price | Order delivery estimate |
+| Ordered item | Selection confirmed in order | Item price | Order progress checked October 22 |
 |---|---|---:|---|
-| [JOGAL mesh tank](https://www.amazon.com/dp/B07D7S3RCF) | **S / Black** | $14.99 | **Friday October 23**; previously quoted Thursday |
-| [Atoden solar halo](https://www.amazon.com/dp/B0FF13ZL35) | Solar headpiece | $14.99 | **Friday October 23** |
-| [Gihuo faux-fur jacket](https://www.amazon.com/dp/B0F4X9GTPM) | **Black-S** | $49.99 | **Friday October 23** |
-| [Zivyes halo](https://www.amazon.com/dp/B08QMVZYN2) | Solar headpiece | $12.99 | **Friday October 23** |
-| [Zoestar halo](https://www.amazon.com/dp/B0GFCZ3KG2) | **Gold** | $9.99 | **Thursday October 22** |
-| [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold body-chain piece | $19.62 | **Thursday October 22** |
-| [Sosation branching bone-look crown](https://www.amazon.com/dp/B0H69GX4HF) | Compact branching crown | $23.91 | **Saturday October 24**; previously quoted Friday |
+| [JOGAL mesh tank](https://www.amazon.com/dp/B07D7S3RCF) | **S / Black** | $14.99 | **Arriving Friday October 23** |
+| [Atoden solar halo](https://www.amazon.com/dp/B0FF13ZL35) | Solar headpiece | $14.99 | **Arriving Friday October 23** |
+| [Gihuo faux-fur jacket](https://www.amazon.com/dp/B0F4X9GTPM) | **Black-S** | $49.99 | **Arriving Friday October 23** |
+| [Zivyes halo](https://www.amazon.com/dp/B08QMVZYN2) | Solar headpiece | $12.99 | **Arriving Friday October 23** |
+| [Zoestar halo](https://www.amazon.com/dp/B0GFCZ3KG2) | **Gold** | $9.99 | **Amazon reports delivered Thursday October 22**, mail room; host receipt/fit unconfirmed |
+| [Nicute gold body chain](https://www.amazon.com/dp/B07S2Q4V4J) | Gold body-chain piece | $19.62 | **Amazon reports delivered Thursday October 22**, mail room; host receipt/fit unconfirmed |
+| [Sosation branching bone-look crown](https://www.amazon.com/dp/B0H69GX4HF) | Compact branching crown | $23.91 | **Arriving Saturday October 24** |
 
 | Order summary | Amount |
 |---|---:|
@@ -76,6 +76,8 @@ No advertised multi-item promotion is counted. Select the actual size before req
 
 ### Eclipse
 
+**Ordering completeness checked October 22:** the core distinctive pieces are all ordered—fur, Small mesh tank, body chain and three halo alternatives. **New deep-black Levi's remain unconfirmed**, with owned faded-black jeans available as the fallback. Shoes and a functional warm layer are owned. Cuffs/makeup are optional and not confirmed bought; the Gilded Stag's botanical collar is not an Eclipse requirement. Only one halo needs to be worn, with the keeper still to be chosen after inspection. Amazon's delivery status is not proof of host possession or wearable fit.
+
 Wear the black fur open over the mesh and gold body chain, with deep-black jeans. Support the chain on the base outfit, not through the fur. Choose among the **three already ordered halos**, not an automatic fourth purchase. Optional cuffs add gold without competing with the body chain.
 
 The fur is the approved visual layer, not proven overnight insulation. Use the host's **already-owned functional warm layer** for queues, outdoor periods and the trip home; no new PUFFTECH purchase is needed. Try it under the fur only if sleeves and closure fit. Retrieve any coat before moving to a separate afterparty. A thin black long-sleeve base is an optional more covered Eclipse version; no exact thermal SKU is selected. Do not depend on decorative fur alone through a possible 4–9 a.m. afterparty.
@@ -112,9 +114,9 @@ This counts all three ordered halos once and assumes no refunds. Only **$151.97 
 ## Receipt and fitting sequence
 
 1. **October 22:** choose the King silhouette and shirt color before resolving shirt/shoulder cloth or any retained netting; none appears in the checked order. The latest no-veil concepts require selection and any new materials need sourcing. Try jeans locally and fit the **owned** warm layer with both looks. Recheck any new delivery/pickup promise before committing.
-2. **Thursday October 22:** expected Nicute chain and Zoestar halo. Inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is promised in this shipment.
-3. **Friday October 23 — confirmed Eclipse night:** expected Small black fur, Small black mesh, Atoden and Zivyes halos, per October 21 order check. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. Confirmed night choice does not guarantee delivery before departure.
-4. **Saturday October 24 — confirmed Antler King night:** expected Sosation crown, per October 21 order check. Complete the selected King crown/shoulder-layer fit, and veil tests only if retained, before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
+2. **Thursday October 22:** Amazon now reports Nicute chain and Zoestar halo delivered to the mail room. Retrieve/confirm physical receipt, inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is in these delivered groups.
+3. **Friday October 23 — confirmed Eclipse night:** Small black fur, Small black mesh, Atoden and Zivyes halos still show arriving Friday in the October 22 order check. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. No delivery time window was established; an arriving-Friday label is not a before-departure guarantee.
+4. **Saturday October 24 — confirmed Antler King night:** Sosation crown still shows arriving Saturday in the October 22 order check. Complete the selected King crown/shoulder-layer fit, and veil tests only if retained, before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
 5. Leave tags/condition intact until fit and return eligibility are checked. Unsafe or uncomfortable headwear is not a wearable backup. No returns, cancellations, exchanges or messages have been initiated.
 
 ## Earlier sourcing history
@@ -128,3 +130,5 @@ No premium compact bone upgrade with verified NYC pickup was established. Abraca
 October 21 Amazon Orders and this costume order's Order Details were read in signed-in Chrome. The seven line items, quantities, selected Small/Black clothing titles, prices, order summary and three delivery dates were reconciled above. This is an order audit, not a fresh stock check for unbought items or proof of settled payment, delivery or physical fit. No other-retailer purchase history was checked. The agent made no purchase, cart change, cancellation, return, reservation, outreach or account/payment change. Private address, order number and payment details are deliberately omitted.
 
 October 22: the host confirmed the night assignments and already-owned warm layer. The American Trends selected Small/Beige, Small/White and Small/Black photos and buy boxes were inspected in signed-in Chrome to Brooklyn 11211. Other unbought-item stock and the Amazon order's delivery progress were not refreshed in this color comparison. No new purchase or account change.
+
+Later October 22: the host asks whether everything for Eclipse is ordered. Read the matching seven-item costume order in signed-in Chrome on Amazon Orders: Nicute/Zoestar marked delivered today to mail room; Atoden/Zivyes/JOGAL and Gihuo marked arriving tomorrow; Sosation marked arriving Saturday. Relative dates resolve to October 22/23/24, respectively. Order card total remains $151.97; no new invoice/settled-charge audit. No other-retailer account history, new jeans purchase, optional extras, physical receipt or fit verified. No purchase, cart edit, cancellation, return or contact performed.

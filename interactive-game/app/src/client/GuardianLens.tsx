@@ -14,6 +14,7 @@ import {
 import { api } from "./api";
 import { GuardianArt } from "./Art";
 import { recognitionSession } from "./recognition-session";
+import { lensCamera, recognitionFrames, captureFrames } from "./lens-camera";
 import {
   getSegmentationSession,
   type SegmentationSession,
@@ -63,13 +64,16 @@ export function GuardianLens({
     outlinePrepareBackend: "",
     liveMs: 0,
     frames: 0,
+    cameraMs: 0,
+    previewMs: 0,
+    rememberedCamera: false,
   });
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [backend, setBackend] = useState<"auto" | "wasm">("auto"),
     [continuing, setContinuing] = useState(false);
   const outlineSession = useRef<SegmentationSession | null>(null);
-  const stream = useRef<MediaStream | null>(null),
-    video = useRef<HTMLVideoElement>(null),
+  const video = useRef<HTMLVideoElement>(null),
+    cameraStarted = useRef(0),
     clip = useRef("");
   const action = useRef(0),
     mounted = useRef(true),
@@ -141,8 +145,9 @@ export function GuardianLens({
     if (ready) void warmOutline().catch(() => {});
   }, [ready, backend]);
   function stopCamera() {
-    stream.current?.getTracks().forEach((t) => t.stop());
-    stream.current = null;
+    lensCamera.stop();
+    recognitionFrames.clear();
+    captureFrames.clear();
     if (video.current) {
       video.current.pause();
       video.current.srcObject = null;
@@ -168,6 +173,9 @@ export function GuardianLens({
       ...old,
       liveMs: 0,
       frames: 0,
+      cameraMs: 0,
+      previewMs: 0,
+      rememberedCamera: false,
       embedMs: 0,
       embedBackend: "",
       segmentMs: 0,
@@ -192,42 +200,21 @@ export function GuardianLens({
     };
   }, []);
   useEffect(() => {
+    const suspend = () => {
+      if (lensCamera.stream || lensCamera.opening || clip.current) reset();
+    };
     const hide = () => {
-      if (document.hidden && (stream.current || clip.current)) reset();
+      if (document.hidden) suspend();
     };
     document.addEventListener("visibilitychange", hide);
-    return () => document.removeEventListener("visibilitychange", hide);
+    window.addEventListener("pagehide", suspend);
+    return () => {
+      document.removeEventListener("visibilitychange", hide);
+      window.removeEventListener("pagehide", suspend);
+    };
   }, []);
-  function frameCanvas(v: HTMLVideoElement, maxEdge = 1280) {
-    const viewWidth = v.clientWidth || 3,
-      viewHeight = v.clientHeight || 4;
-    const scale = Math.max(
-      viewWidth / v.videoWidth,
-      viewHeight / v.videoHeight,
-    );
-    const width = viewWidth / scale,
-      height = viewHeight / scale,
-      ratio = Math.min(1, maxEdge / Math.max(width, height));
-    const canvas = document.createElement("canvas");
-    canvas.width = Math.max(1, Math.round(width * ratio));
-    canvas.height = Math.max(1, Math.round(height * ratio));
-    canvas
-      .getContext("2d")!
-      .drawImage(
-        v,
-        (v.videoWidth - width) / 2,
-        (v.videoHeight - height) / 2,
-        width,
-        height,
-        0,
-        0,
-        canvas.width,
-        canvas.height,
-      );
-    return canvas;
-  }
   async function snapshot(v: HTMLVideoElement) {
-    const canvas = frameCanvas(v);
+    const canvas = captureFrames.draw(v, 1280);
     const blob = await new Promise<Blob | null>((resolve) =>
       canvas.toBlob(resolve, "image/jpeg", 0.9),
     );
@@ -378,7 +365,7 @@ export function GuardianLens({
         const begin = performance.now();
         // One transferable frame in flight; the worker downsamples directly to 224px.
         // Avoid an extra low-resolution resize, which distorts small prop details.
-        const bitmap = await createImageBitmap(frameCanvas(v, 960));
+        const bitmap = await createImageBitmap(recognitionFrames.draw(v, 960));
         if (attempt !== action.current) {
           bitmap.close();
           return;
@@ -432,10 +419,18 @@ export function GuardianLens({
     const v = video.current,
       attempt = action.current;
     if (clip.current) v.src = clip.current;
-    else if (stream.current) v.srcObject = stream.current;
+    else if (lensCamera.stream) v.srcObject = lensCamera.stream;
     void v
       .play()
-      .then(() => scan(v, attempt))
+      .then(() => {
+        if (attempt !== action.current) return;
+        if (!clip.current)
+          setDetails((old) => ({
+            ...old,
+            previewMs: performance.now() - cameraStarted.current,
+          }));
+        return scan(v, attempt);
+      })
       .catch((e) => {
         if (attempt === action.current) {
           setError(
@@ -450,24 +445,15 @@ export function GuardianLens({
   async function openCamera() {
     reset();
     const attempt = action.current;
+    cameraStarted.current = performance.now();
     try {
-      if (!navigator.mediaDevices?.getUserMedia)
-        throw Error(
-          "The live camera is unavailable. Use the phone camera or choose a photo below.",
-        );
-      const media = await navigator.mediaDevices.getUserMedia({
-        video: {
-          facingMode: { ideal: "environment" },
-          width: { ideal: 1280 },
-          height: { ideal: 960 },
-        },
-        audio: false,
-      });
-      if (attempt !== action.current) {
-        media.getTracks().forEach((t) => t.stop());
-        return;
-      }
-      stream.current = media;
+      const opened = await lensCamera.open();
+      if (!opened || attempt !== action.current) return;
+      setDetails((old) => ({
+        ...old,
+        cameraMs: opened.ms,
+        rememberedCamera: opened.remembered,
+      }));
       setPhase("camera");
     } catch (e) {
       if (attempt === action.current)
@@ -778,6 +764,18 @@ export function GuardianLens({
                 : ""}
               . Recognition runs on the warmed small CPU model; outline backend
               is selected above.
+              {details.cameraMs > 0 && (
+                <>
+                  {" "}
+                  Camera opened: {(details.cameraMs / 1000).toFixed(2)}s ·
+                  preview ready: {(details.previewMs / 1000).toFixed(2)}s from
+                  tap ·{" "}
+                  {details.rememberedCamera
+                    ? "remembered camera"
+                    : "initial camera selection"}
+                  .
+                </>
+              )}
             </p>
           )}
           {host && match && (

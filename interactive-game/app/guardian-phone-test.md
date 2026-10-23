@@ -20,10 +20,11 @@ Reference photos are stored privately for the host; recognition features are sha
 4. Choose **Scan another guardian**, then **Open the live lens** and allow camera access. Point at the real object, keeping the whole object centred. Hold steady: three consecutive matches over at least half a second trigger capture automatically.
 5. The greeting, glow and **Hear its trial** appear as soon as recognition succeeds. The segmented cutout follows the new-photo inference; the trial remains available while it runs. Verify that the trial opens the right guardian.
 6. Repeat with an ordinary object and an empty patch of room. The Lens should keep looking rather than confidently name a guardian. Try another angle and dimmer light too.
+7. Close the live lens or leave its page. Check that the active camera indicator turns off. Re-entering the Lens must not start recording by itself. Tap **Open the live lens** again: the previous camera is a selection hint, while all tracks are newly acquired. Also try switching apps while scanning, and leaving while a permission request is still pending; returning must require another explicit open.
 
 If you only have pictures for now, use a separate, untrained picture via **Choose a photo**. You can also point the live camera at a picture on another screen or a print. That tests the camera and awakening flow; repeat with the physical object before judging real-world recognition.
 
-Host diagnostics separate **Awakening preparation** from the **Outline … per photograph** timing. Record both and the selected backend. Explicit CPU processing is available for comparison; changing that selector prepares a new session.
+Host diagnostics separate **Awakening preparation** from the **Outline … per photograph** timing. Record both and the selected backend. Live camera tests also show **Camera opened**, **preview ready** from tap and initial/remembered camera selection. A permission prompt counts toward those times, so compare subsequent opens after permission has already been granted. Explicit CPU processing is available for comparison; changing that selector prepares a new session.
 
 ## 3. Check onboarding prewarming
 
@@ -39,6 +40,6 @@ For a quick guest scanner check without registering again, use **Field notes →
 - Phone model, OS and browser version; Wi-Fi or cellular.
 - Recognition: correct/wrong/kept looking, and time to capture. Host live diagnostics include sampled frame count and stable-match time.
 - Segmentation: preparation time, per-photo outline time/backend and whether the whole creature was selected. Note whether tapping improved it.
-- Whether the second Lens visit was ready immediately, and any crash or tab reload.
+- Whether the second Lens visit was ready immediately, camera-opening/preview times on first and subsequent opens, whether the camera stopped outside scanning, and any crash or tab reload.
 
 Prewarming removes download/session setup and first-run compilation from the scan. It cannot remove inference for a new photo. The October 23 Mac CPU smoke took about five seconds per photo even after warm-up; phone/WebGPU performance remains to be measured. The greeting and trial do not wait for the cutout. If matching struggles, add more varied references before lowering the host calibration thresholds.

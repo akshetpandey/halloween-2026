@@ -4,7 +4,7 @@
 - Updated date: October 23, 2026, America/New_York.
 - Scope: client fox rig, renderer, Lens controls, geometry tests and camera documentation.
 - Checkout, branch and base: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `610e7a1`.
-- Status: implemented and locally verified; deployment evidence follows.
+- Status: implemented, committed, deployed and verified on both hosted domains. Physical iPhone animation testing remains open.
 - Confirmed user request: add a little life, such as blinking or head/tail motion, and identify the current segmentation model. Implemented head/tail movement; no blinking or generated video is claimed.
 - Proposals awaiting decision: none required for this prototype.
 
@@ -29,6 +29,7 @@
 
 - Next: refresh the host page on iPhone, choose **Test the Looking Lens**, wait for both ready messages and choose the side-view fox photo. Watch head/tail movement, pause/resume, and adjust points if needed. Follow the [phone guide](guardian-phone-test.md) for a fresh photo and live-object test afterward.
 - Remaining: iPhone performance/stability, held-out recognition, varied/front/right-facing poses, live scans, and whether a future saved per-reference rig/landmark model is worth adding. No promise of correct semantic placement on arbitrary animals or views.
-- External changes/deployment: pending the tested code checkpoint; no new Cloudflare resources or permissions, reference uploads/calibration changes or paid services.
+- Published existing `hollow-court-preview`, version **`aef41780-fea6-4cea-9682-530bf6caf8e5`**, to Workers preview and `hollow-court.com`. Uploaded three changed static assets: HTML, `index-BM9X3xXn.js` and `index-DS5KTLBf.css`. Both hosts serve exact local client/CSS bytes, with immutable asset caching and `no-store` HTML. Existing recognizer/outline Workers and model files are unchanged.
+- Remote gate checks: both anonymous states remain sealed; public preview is disabled and vision references return 404, while Workers preview enables rehearsal and unauthenticated vision references return 401. No new Cloudflare resources or permissions, reference uploads/calibration changes or paid services.
 - Sibling dependencies: none. All durable decisions/findings are in these camera documents; private reference photos/features remain out of Git.
-- Commits/unrelated files: focused implementation checkpoint follows this handoff; no unrelated dirty paths observed. Local proxy/test Worker and owned browser tab will be closed after final verification.
+- Commits/unrelated files: **`3d6958d`** implements the tested animation and docs; deployment-evidence documentation follows. No unrelated dirty paths observed. Local proxy/test Worker stopped and owned browser tab closed after verification.

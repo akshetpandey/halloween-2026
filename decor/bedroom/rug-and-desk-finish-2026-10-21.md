@@ -1,5 +1,7 @@
 # Hollow rug and desk finish — October 21, 2026
 
+**October 22 update:** [current fabric/DMX plan](../lighting/fabric-and-combined-rig-2026-10-22.md) replaces expensive stretch velvet with same-width black poplin. Desk dimensions, moss/ivy allocations and offcut cut remain; read “velvet offcut” below as black fabric. The October 21 cost calculation below is historical; use the [current basket](../shopping-ready.md).
+
 **Confirmed host direction:** the Hollow mood image is a styling reference; add a bedroom carpet/rug, and dress the automated desk in moss, vines and black velvet/cloth. Keep the accepted scan-based corner layout. This replaces the earlier “no rug purchase” exclusion. [Updated cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Scaled plan](../space-inputs/party-layout-2026-10-21.png) · [Basket](../shopping-ready.md).
 
 ## Rug proposal

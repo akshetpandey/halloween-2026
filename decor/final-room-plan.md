@@ -1,6 +1,6 @@
-# Apartment decor execution plan — October 21, 2026
+# Apartment decor execution plan — updated October 22, 2026
 
-**Layout accepted by host; decor/product choices proposed.** $1,000 including permanent lights; only gold tree/full-color LIFX owned, nothing new ordered; 2–4 full days. Latest instruction: raw black fabric on **all Hollow walls**, no ready-made curtains. Dining table is gone; other relocated furniture stays inside. [Basket](shopping-ready.md) · [Schedule](setup-schedule.md) · [Materials and atmospheric references](inspiration/2026-10-21/README.md).
+**Layout accepted by host; decor/product choices proposed.** Revised ceiling about $1,600 including permanent lights (Oct 22); only gold tree/full-color LIFX owned, nothing new ordered; 2–4 full days. Latest instruction: raw black fabric on **all Hollow walls**, no ready-made curtains. Dining table is gone; other relocated furniture stays inside. [Basket](shopping-ready.md) · [Schedule](setup-schedule.md) · [Materials and atmospheric references](inspiration/2026-10-21/README.md).
 
 ## Grounded visual plan
 
@@ -48,23 +48,27 @@ Bed support, actual leg removal and closet access remain physical setup dependen
 
 ### Rug and fully dressed desk
 
-Host approved the Hollow mood image as the material direction and requested a rug plus moss/vines/black cloth over the desk. [Exact rug offer, measured fit and desk cut/allocation plan](bedroom/rug-and-desk-finish-2026-10-21.md): one charcoal distressed **5 × 7-ft low-pile rug** on the front floor, clear of the reserved side route, with a $15 conditional grip reserve. Desk front and both sides get a full floor-clear black velvet U-skirt, ~2 sq ft attached moss on the fascia, and two existing ivy strands. Keep equipment top/vents/speaker fronts clear. The rug does not increase capacity; actual traction, edges and door swing need testing.
+Host approved the Hollow mood image as the material direction and requested a rug plus moss/vines/black cloth over the desk. [Exact rug offer, measured fit and desk cut/allocation plan](bedroom/rug-and-desk-finish-2026-10-21.md): one charcoal distressed **5 × 7-ft low-pile rug** on the front floor, clear of the reserved side route, with a $15 conditional grip reserve. Desk front and both sides get a full floor-clear black fabric U-skirt, ~2 sq ft attached moss on the fascia, and two existing ivy strands. Keep equipment top/vents/speaker fronts clear. The rug does not increase capacity; actual traction, edges and door swing need testing.
 
 ### Every wall is black raw fabric
 
-[40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): Big Z black plush stretch velvet, shallow folds, 15 full-height pieces plus entry-head valance. Cover windows within the same wall spans; keep the doorway open. Large offcuts conceal the bed and form guardian shoulders. Actual opacity/attachment/heat/airflow require a room trial.
+[40-yard cut schedule and supports](bedroom/draping/02-shopping-and-sample.md): FWD black 170-GSM polyester poplin, $143.64 proposed after host rejects expensive stretch velvet, shallow folds, 15 full-height pieces plus entry-head valance. Cover windows within the same wall spans; keep the doorway open. Large offcuts conceal the bed and form guardian shoulders. Actual opacity/attachment/heat/airflow require a room trial.
 
 ### Guardian and EDM lights
 
-[Rootkeeper build](bedroom/woodland-guardian.md): a 3–5-hour lightweight bust, bark-card face, paper/faux twig antlers, offcut velvet body. Face about 16–20 in high, crown tops below ceiling; prototype from doorway. Its independently supported body fits the reserved ~39 × 12-in band, never bolted to audio gear or relied on as bed restraint. If no suitable base exists within allowance, mount a flat lightweight face/root board independently and preserve its visual presence.
+[Rootkeeper build](bedroom/woodland-guardian.md): a 3–5-hour lightweight bust, bark-card face, paper/faux twig antlers, black-fabric offcut body. Face about 16–20 in high, crown tops below ceiling; prototype from doorway. Its independently supported body fits the reserved ~39 × 12-in band, never bolted to audio gear or relied on as bed restraint. If no suitable base exists within allowance, mount a flat lightweight face/root board independently and preserve its visual presence.
 
-Steady amber eyes: use the second H12 warm string, intact, with two clusters behind pale paper diffusers; remaining LEDs form sparse roots on the same support, controller/USB accessible. Test for heat/glare and nine-hour operation. Body effect: one H01 PAR skims face/branches red/amber; the other grazes violet/blue across velvet and ceiling. Two fixtures total, on protected manufacturer brackets at perimeter, outside the side-route envelope and away from fabric.
+Steady amber eyes: second H12 warm string intact, two diffused clusters and sparse root lights on independent guardian support; controller/USB accessible. Not DMX-addressable. Test temperature/glare and nine-hour runtime.
 
-**Music reaction:** H01 listing offers sound-active mode using onboard microphone. It is not beat-grid synchronization, and restricted red/violet colors or strobe-free behavior in that mode are not established. Test the exact units at party volume; use reactive mode only if behavior suits the room. Save a dim static red/violet, strobe-off default with reachable reset. No new Mac/DMX integration or laser/fog purchase.
+**October 22 combined lighting proposal:** [exact offers, control and automation](lighting/fabric-and-combined-rig-2026-10-22.md): one OPPSK segmented wash/strobe + one conditional Gruolin laser + U’King two-moving-head pack, buffered DMXking MAX and free QLC+. Replaces the two-PAR kit. OPPSK provides restrained wash/pixel chases, LED movers provide controlled gobo/color projection, laser would add confined surface patterns only if its actual class/output and projection/support arrangement are suitable. No fog/haze; no crowd scanning or unrestricted laser auto mode. Keep rapid strobe disabled for initial prototype.
+
+**Placement is unresolved:** the measured dance-study polygons are unchanged, but that capacity assumes all new fixtures/supports fit outside them and the side route. No claim four fixtures fit on the equipped desk. OPPSK (listed 10.6 lb) and moving heads cannot hang from cloth hooks, guardian or bed. Physical support/outlet/beam-path plan required; re-cost if provisional support reserve is insufficient.
+
+**Automation proposal, not built:** coordinated repeating looks and tested QLC+ audio-frequency triggers, or final rendered premix and lights on a shared Show Manager timeline after audio/TV rehearsal. Independent starts of two apps do not establish nine-hour sync. Save normal/static/blackout controls and test power/data-loss behavior. See lighting plan for firmware, profiles and audio routing dependencies.
 
 ## Moon Well
 
-Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded/overlapped black velvet offcuts in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
+Keep the documented buy-first dry-tub scene: 72 × 72-in dark-green forest shower curtain partly open; folded/overlapped black poplin offcuts in dry tub on a soft protective underlayer, 5.9-in moon on its supplied stand and 10-ft moss root vine. Small offcuts on removable bases; no loose moss by drain or on floor.
 
 Separate cordless warm lamp on a stable dry shelf lights sink/lock/route. Charge both bath lamps outside room and test at selected brightness for nine elapsed hours; advertised runtime is not a passed test. No charging/mains leads in tub. If runtime fails, retain normal usable light; orb can remain a reflective prop. Remove scenery before bathing.
 
@@ -92,14 +96,14 @@ Preserve [5 decor / 5 bought / 5 handmade identities](../interactive-game/physic
 | MAKE-04 / M04 straw bundle, moss green | Grove right cabinet's lower scenic panel | Bound straw, no shedding into bar |
 | MAKE-05 / M05 arched twig, ivory | Hollow right perimeter ahead of desk | Flat figure, own support, outside beam/traffic |
 
-All fifteen get distinct reachable nonmetal touchpoints. No targets behind bed, in private closets, on drinks, near water or hidden among cables. Wall figures attach independently of velvet; no extra floor stands. Game pays only incremental tags, premade moon stickers, small bought figures and handmade bases; full scenery charged once here. Exact small figures/NFC install and phone testing remain with physical-game work, not purchased or encoded by this task.
+All fifteen get distinct reachable nonmetal touchpoints. No targets behind bed, in private closets, on drinks, near water or hidden among cables. Wall figures attach independently of black fabric; no extra floor stands. Game pays only incremental tags, premade moon stickers, small bought figures and handmade bases; full scenery charged once here. Exact small figures/NFC install and phone testing remain with physical-game work, not purchased or encoded by this task.
 
 ## Shared supplies, checks and completion
 
-Two USB strings: one Grove moon, one guardian. Twelve tea lights: six Grove, four bath, two spare. Velvet offcuts: full desk front/sides and dry-tub scene base; no separate tablecloth pack. One 84-ft ivy pack: 70 ft Grove, 14 ft desk; separate 10-ft vine bath. Three moss sheets first cover actual counters, then reserve ~2 sq ft desk fascia, followed by other small guardian/shrine/bath offcuts; if template waste exhausts material, preserve counters and use painted texture on small props.
+Two USB strings: one Grove moon, one guardian. Twelve tea lights: six Grove, four bath, two spare. Black-fabric offcuts: full desk front/sides and dry-tub scene base; no separate tablecloth pack. One 84-ft ivy pack: 70 ft Grove, 14 ft desk; separate 10-ft vine bath. Three moss sheets first cover actual counters, then reserve ~2 sq ft desk fascia, followed by other small guardian/shrine/bath offcuts; if template waste exhausts material, preserve counters and use painted texture on small props.
 
-Start with two 15-ft H19 power supplies: Grove's new lamp + moon at one position; bedroom two PARs + guardian USB at another. Owned tree and existing audio/TV retain their existing supplies. If outlet distances require a third unit, fund it from buffer after re-costing, or move the light. Each supply goes directly to suitable wall outlet; no daisy chain or floor-crossing assumption. Read actual loads/ratings, secure leads at perimeter, preserve switch access.
+Propose three 15-ft H19 supplies: one Grove and two Hollow for four fixtures + guardian USB. Each must connect directly to a suitable wall outlet; actual circuit/nameplate loads and fixture ports require inspection. Owned tree and existing audio/TV retain their existing supplies. The third supply is now included; additional outlet/support needs require re-costing. Each supply goes directly to suitable wall outlet; no daisy chain or floor-crossing assumption. Read actual loads/ratings, secure leads at perimeter, preserve switch access.
 
 Before setup: one tape wall scale check; actual fabric drop/substrate/24-hour trial; bed support; desk equipment templates; nightstand/closet fit; cabinet relocation; outlet/cable map; tub/shelf fit. After setup: after-dark cup-carrying route, chair access, three-person dance/door trial, music-reactive/reset trial, nine-hour light/battery test, NFC reach/scan rehearsal. Nothing on this physical checklist is claimed tested.
 
-If cost/time grows, keep all-wall fabric, open floor and working lights. Simplify card-built guardian detail, the purchased branch is already replaced by card; omit optional pendants or reduce pumpkins before changing the host's full-wall request. No whole-floor moss, new drape rig or premium light show is silently included.
+If cost/time grows, keep all-wall fabric, open floor and working lights. Simplify card-built guardian detail, the purchased branch is already replaced by card; omit optional pendants or reduce pumpkins before changing the host's full-wall request. No whole-floor moss, truss/drape rig or extra light package beyond the itemized combined-rig proposal is included.

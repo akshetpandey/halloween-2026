@@ -1,4 +1,7 @@
 # Lighting and power
+**October 22 current:** [combined rig and automation](fabric-and-combined-rig-2026-10-22.md) and [current basket](../shopping-ready.md) supersede historical allowances/defaults below. Whole-decor ceiling now about $1,600 including permanent lights; laser is conditional, mounts/footprints/arrival unverified. No install/test.
+
+## Historical September overview
 Status: Shortlist ready; room test needed. Owner: host / lighting helper TBD.
 Working allowance: $160 for decorative lights plus $100 for shared hardware/power in the budget. A rental-heavy setup may require moving money from another category.
 

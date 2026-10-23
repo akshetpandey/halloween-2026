@@ -2,7 +2,7 @@
 
 [All decor](../README.md). Room layout lives in each room folder; this folder owns product comparisons, shared fixtures and system choices.
 
-**October 21:** [current fixture allocation / power plan](../final-room-plan.md) and [current prices, variants and alternatives](../shopping-ready.md) take priority over September price snapshots. Host confirms full-color LIFX and **$1,000 decor including permanent lights**. Proposed core is **one permanent Govee Basic + owned LIFX in the living room, one two-PAR kit in the bedroom**, plus a handmade light-backed Grove moon, small bath moon and warm accents. All-wall raw velvet is now in scope; the [budget bedroom page](02-bedroom-party.md) supersedes premium rental examples. Further permanent upgrades are alternatives within the same ceiling. No installation/test performed.
+**October 22:** [current room/power plan](../final-room-plan.md) and [single basket](../shopping-ready.md) are authoritative. Host raises whole-decor ceiling to **about $1,600 including permanent lights** and wants all three linked lighting products together. [Combined-rig proposal](fabric-and-combined-rig-2026-10-22.md): OPPSK wash/pixels + conditional Gruolin laser + two U’King moving heads, DMXking MAX and free QLC+. Grove still uses one Govee Basic + owned full-color LIFX, handmade moon and warm accents. Cheaper all-wall poplin replaces stretch velvet. Exact mounts/footprints, laser suitability and delivered quotes remain unresolved; no hardware/software installation or test.
 
 - [Overall lighting and power](overview.md)
 - [Living-room permanent upgrade](01-living-room-permanent.md)

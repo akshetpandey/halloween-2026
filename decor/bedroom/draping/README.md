@@ -4,10 +4,10 @@
 
 [Current cut schedule, exact sources and trial](02-shopping-and-sample.md) · [Room plan](../../final-room-plan.md) · [Single basket](../../shopping-ready.md).
 
-Proposal: 40 yd Big Z black stretch velvet, twelve 117-in drops plus door-head material, cut into wall-sized pieces with shallow folds. Cloth/hooks/clips **$305.81 before tax/shipping**. Actual drop, opacity, surface, panel weight and 24-hour attachment/removal trial remain untested. No order. The old backdrop + separate ready-made curtain-pair scope is superseded.
+**October 22 proposal:** 40 yd FWD black polyester poplin, same twelve 117-in drops and door-head material, **$143.64** fabric / **$199.85** with hooks/clips before tax/shipping. Host rejected $249.60 stretch velvet. Actual drop, backlit-window opacity, surface and 24-hour complete-panel attachment/removal trial remain untested. No order. [Dated evidence and lighting plan](../../lighting/fabric-and-combined-rig-2026-10-22.md).
 
 - [ ] Tape-check all runs/drop and available top supports above tall windows.
-- [ ] Verify 40-yd black offer, delivered total and arrival; inspect before cutting.
+- [ ] Verify 40-yd black poplin offer, delivered total and arrival; inspect before cutting.
 - [ ] Weigh and trial one complete panel, clips, sag and removal for 24 h.
 - [ ] Mark actual cut schedule; reserve offcuts for bed/guardian.
 - [ ] Install every wall with removable access sections and floor-clear hems.

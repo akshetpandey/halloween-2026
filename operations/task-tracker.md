@@ -1,18 +1,19 @@
 # Task tracker and timeline
 
-## October 21 • decor execution status
+## October 22 • decor execution status
 
-[Current plan / actual scan layout](../decor/final-room-plan.md), [single $996.36 basket](../decor/shopping-ready.md), [setup](../decor/setup-schedule.md), [handoff](../decor/handoff-2026-10-21-detailed-decor.md) supersede old decor quantities/deadlines below. Host ceiling $1,000 includes permanent lights. Plans/visuals/sourcing complete; no purchases/physical tests.
+[Current room plan](../decor/final-room-plan.md) · [single $1,593.66 basket](../decor/shopping-ready.md) · [fabric/combined-rig research](../decor/lighting/fabric-and-combined-rig-2026-10-22.md) · [setup](../decor/setup-schedule.md) · [handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md). Host revised ceiling **about $1,600 including permanent lights**. Offers/automation design documented; hardware fit/suitability, final accessories and physical tests pending. No decor purchases.
 
 | Task | Current status / next action | Target |
 |---|---|---|
-| SHOP-01 / SET-02 | Detailed three-room plan, measured party layout/cutaways, all-15-entity placement and costed basket complete | Oct 21 planning done |
-| OPS-01 / BUD-01 / SHOP-02 | Scan processed; host furniture moves mapped. Tape scale, closet fit, outlets, actual wall/tub surfaces and household supplies remain | Oct 22–24 physical checks |
-| SHOP-03 / DRAPE-01–04 | Raw black velvet all-wall 40-yd cut list/supports priced; no ready-made bedroom curtains. Actual drop/opacity/shipping/24-h sample trial remain | Resolve before cutting/order |
-| LIGHT-LR / LIGHT-BED / BATH-08 | Budget two-PAR sound mode, steady guardian eyes, permanent violet lamp and cordless bath tests documented, untested | Receipt / trials Oct 24–27; nine-hour elapsed run |
-| BED-01 / PROP-01 | Upright corner accepted for plan; support still unresolved. Independent 3–5-hour guardian bust or flat-face fallback | Resolve before moving bed |
-| SHOP-04 / BUY-01 | Host verifies actual delivered totals/stock/arrival and orders; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
-| SET-03 | Full-wall fabric, broad counter moss, rug/grip trial, velvet/moss/vine desk + after-dark route/game reach/light rehearsal | 25–33 hands-on h across 3–4 days; complete Oct 30 |
+| SHOP-01 / SET-02 | Three-room layout/15 entities unchanged; combine all three linked lights as host intends. Rig footprints/supports not yet fitted | Before claiming previous dance capacity with rig |
+| OPS-01 / BUD-01 / SHOP-02 | New ceiling and proposed cost reconciled; tape scale, closets, actual outlets/circuits and fixture supports remain | Oct 22–24 physical checks |
+| SHOP-03 / DRAPE-01–04 | 40-yd 170-GSM black poplin $143.64 replaces $249.60 velvet; same cuts. Arrival, opacity and 24-h complete-panel trial unverified | Before cutting/order |
+| LIGHT-BED | Four-fixture DMX design, $119 buffered interface and free QLC+ selected as proposal. Resolve conditional laser suitability, real mounts, firmware ≥4.5 and cable SKUs/lengths | Receipt target Oct 27; prototype by Oct 29 |
+| LIGHT-LR / BATH-08 | Permanent violet lamp, steady eyes and cordless bath tests still unperformed | Nine-hour elapsed trial |
+| BED-01 / PROP-01 | Upright corner accepted; actual bed support unresolved, guardian independent | Before moving bed |
+| SHOP-04 / BUY-01 | Verify fabric/interface actual receipt date and delivered totals; no agent checkout | Receipt target Oct 27, local fallback Oct 29 |
+| SET-03 | Scenery 25–33 h + basic DMX 3–5 h = **28–38 hands-on h**. Simplify craft detail to preserve rehearsal time; bespoke nine-hour cue programming extra | Complete Oct 30 incl audio/TV/light/loss-of-control rehearsal |
 
 ## October 22 host costume status
 

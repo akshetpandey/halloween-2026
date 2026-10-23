@@ -1,14 +1,14 @@
-# Full-wall raw velvet — cut plan and sourcing
+# Full-wall raw black fabric — cut plan and sourcing
 
-Updated October 21, 2026. **Host direction: bulk fabric, not ready-made curtains; cover all Hollow walls and both windows.** No rods. Hooks/clips and direct tape are accepted; independent clipped panels are proposed. Nothing ordered or physically tested.
+Updated October 22, 2026. **Host direction: bulk fabric, not ready-made curtains; cover all Hollow walls and both windows.** No rods. Hooks/clips and direct tape are accepted; independent clipped panels are proposed. Nothing ordered or physically tested.
 
-## Selected proposal
+## Current lower-cost proposal — October 22
 
-[Big Z black Stretch Velvet Velour Spandex 360 Grams Costume Fabric, SSV360-LA-BLACK](https://bigzfabric.com/collections/stretch-velvet-spandex-360-grams-costume-fabric/products/stretch-velvet-velour-spandex-360-grams-costume-fabric-black-sold-by-the-yard): 58/60-in width, 90% polyester / 10% spandex, two-way stretch. Chrome October 21 showed **$7.34/yd; 40+ yd $6.24/yd**. Budget **40 × $6.24 = $249.60** using the rounded displayed rate. Forty discounted yards cost less than 35 at regular price ($256.90).
+Host rejects the $249.60 stretch-velvet price while retaining **all-wall bulk black fabric**. Use proposed [FWD Polyester Poplin (60 Inch), Black SV571640](https://fabricwholesaledirect.com/products/polyester-poplin-60-inch-fabric?variant=39460331880563), **40 yd / $143.64 displayed total**, checked in Chrome Oct 22 with Black selected and quantity 40. Rounded 25–99-yard label is $3.60/yd; actual calculator total is $143.64. Saves **$105.96** before tax/shipping. Plain woven/subtly textured, 100% polyester, 58/60-in width, 170 GSM, 0.40 mm. Less plush than velvet; opacity and full-panel mounting remain untested. [Offer evidence, cheaper alternatives and combined lighting](../../lighting/fabric-and-combined-rig-2026-10-22.md).
 
-Plush clothing velvet has some sheen: hang nap consistently. “360 grams” is the seller's label, not an independently verified GSM or complete panel mass. No FR or blackout certification assumed. Test actual opacity and stretch. Enabled quantity/Add to Cart does not guarantee 40 yd can dispatch immediately.
+**The same minimum-58-in cut plan below applies**, including desk/bed/tub offcuts. No need to buy finished curtains or recalculate at a narrower width. FWD advertises free standard shipping over $99, but forty-yard dispatch and arrival by Oct 27/expedited fees remain unquoted. Keep shared shipping reserve; no order/cart action. Inspect before cutting. Test backlit windows; existing opaque backing first if needed. No blackout/FR/acoustic certification assumed.
 
-**Shipping/arrival unquoted.** [Processing policy](https://help.bigzfabric.com/portal/en/kb/articles/what-is-the-order-process-and-timeline) and [shipping information](https://help.bigzfabric.com/portal/en/kb/articles/shipping-delivery-10-8-2021) describe processing/transit options, not an October arrival promise. Host must check actual delivered price and receipt by Oct 27 before ordering. Shared basket reserves $60 shipping. No cart change, signup or supplier message performed. Inspect before cutting and verify current return terms.
+The old Big Z SSV360-LA-BLACK 40-yd/$249.60 proposal and its shipping notes are superseded on price; [Oct 21 evidence](../../research/full-wall-offers-2026-10-21.md) remains history, not an additional order.
 
 ## Scan-based cut schedule
 
@@ -34,9 +34,9 @@ Keep substantial full-height width offcuts for stored-bed concealment, the [comp
 
 [Staples 831602 medium black 1.25-in binder clips, 24-pack](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277): **$6.19 indexed offer**; direct checkout blocked/unverified. Two packs **48 clips / $12.38**. Reuse suitable clips first.
 
-**Cloth/support proposal $305.81 before tax/shipping.** These are DIY supports, not a certified curtain system. Do not sum hook ratings. Three points across a wide panel is a trial starting point, not proof of safe spacing. Weigh one complete folded panel; check clip handle fit, grip, actual substrate and removal. Follow exact package preparation/wait directions, observe a loaded sample for at least 24 h, then remove one attachment. Increase support/re-cost if needed.
+**Cloth/support proposal $199.85 before tax/shipping** ($143.64 + $43.83 + $12.38). These are DIY supports, not a certified curtain system. Do not sum hook ratings. Three points across a wide panel is a trial starting point, not proof of safe spacing. Weigh one complete folded panel; check clip handle fit, grip, actual substrate and removal. Follow exact package preparation/wait directions, observe a loaded sample for at least 24 h, then remove one attachment. Increase support/re-cost if needed.
 
-No tensioned ceiling wire; no branches, lights or guardian on fabric supports. Gaffer is not the plush fabric load system. Keep removal tabs accessible, hems above feet, and windows/vents/heaters reachable through independent removable sections. Cover walls visually without sealing ventilation or wrapping equipment.
+No tensioned ceiling wire; no branches, lights or guardian on fabric supports. Gaffer is not the fabric load system. Keep removal tabs accessible, hems above feet, and windows/vents/heaters reachable through independent removable sections. Cover walls visually without sealing ventilation or wrapping equipment.
 
 ## Alternatives, replacing the cloth line
 

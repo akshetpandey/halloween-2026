@@ -1,6 +1,14 @@
 # Decision log and open questions
 
-## October 21 • current house decor decisions and proposal
+## October 22 • fabric, all-three lighting and revised ceiling
+
+**Confirmed host:** expensive raw stretch velvet rejected; all Hollow walls still bulk fabric. All three linked lights are intended **together**. Host explicitly replies **“Allow about $1,600 total for the combined rig”** to the whole-decor budget question. Revised decor ceiling about $1,600 including permanent lights; no purchase authorization inferred.
+
+**Proposed:** [40-yd black poplin / combined DMX design](../decor/lighting/fabric-and-combined-rig-2026-10-22.md), free QLC+ and buffered DMXking MAX. [Current basket](../decor/shopping-ready.md) $1,593.66, replacing $996.36. Four fixtures because U’King link is a pair. Actual mounts/footprints, conditional laser suitability, delivered fabric/interface quotes and audio/lighting rehearsal remain unresolved. No orders, installs or tests. [Handoff](../decor/lighting/handoff-2026-10-22-fabric-dmx.md).
+
+## October 21 • earlier house decor decisions and proposal
+
+Cost/fabric/lighting choices in this dated entry are superseded by October 22 above; accepted furniture layout, full-wall coverage and rug/desk styling remain.
 
 **Confirmed host instructions:** $1,000 decor including permanent lights; no new orders; gold tree/full-color LIFX is the only owned decor; 2–4 full days. Dining-height table is gone; coffee table goes to its former place with chairs around it, sofa closer to TV with walking gap. Accepted Hollow rear-right corner: upright bed at **15-in stored depth**, independent guardian, **49 × 29.5-in automated desk**, two speakers on desk, **no human DJ**. Bed support/leg removal remain physical dependencies, not a verified installation.
 

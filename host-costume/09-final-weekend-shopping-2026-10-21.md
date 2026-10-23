@@ -34,11 +34,13 @@ All three halos count once in this order. Compare them in person and choose the 
 
 These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. The Small shirt colors were rechecked October 22; other prices/stock notes remain October 21 observations and need rechecking before buying.
 
+**Latest visual exploration:** [Autumn Court versus Wild Hunt](06-weekend-costume-renders-2026-10-21.md#g-autumn-court-versus-wild-hunt-without-veils) shows no-veil alternatives. Neither is selected. Hold King cloth/netting choices until the silhouette is chosen; the broad ivory drape/clasp and oxblood shirt are not sourced or priced. The table/budget below preserves the previously priced basket, not a quote for these new concepts.
+
 | Priority | Item and selection | Earlier quoted price | Status and next action |
 |---|---|---:|---|
 | King base | [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL), **Small / Beige**, pale ivory-looking option | $19.99 | **Not confirmed ordered; color choice pending.** Oct 22 selected buy box: free **Sat Oct 24**, two left. Separate $21.99 Friday offer displayed, not selected or included in base total |
-| King shoulders | [FEXIA gauze cloth](https://www.amazon.com/dp/B0BQBSXHB3), **Beige / 1 Pack–10FT**, 35 × 120 inches | $8.99 | **Not confirmed ordered.** Short shoulder mantle; earlier Thursday quote is not an order ETA |
-| King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered.** Preferred gold textile, not chainmail; earlier Friday quote needs rechecking |
+| King shoulders | [FEXIA gauze cloth](https://www.amazon.com/dp/B0BQBSXHB3), **Beige / 1 Pack–10FT**, 35 × 120 inches | $8.99 | **Not confirmed ordered; pending look choice.** Earlier short mantle is not the new broad drape's verified material; earlier Thursday quote is not an order ETA |
+| King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered; veil under review.** Gold textile preferred over mail if retained; earlier Friday quote needs rechecking |
 | Eclipse jeans | [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066), **Welcome To The Rodeo — Black** | $110.00 | **Pickup/purchase unconfirmed.** 29 × 30 was checked at Times Square, 34th Street and Hudson Yards; try on first |
 | Optional gold accent | [BROCC cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z), **Color B / New**, two cuffs | $13.99 | **Not confirmed ordered.** One pair shared between looks; no second necklace needed |
 | Optional gold makeup | [Mehron Artist Pigment, Yellow Gold](https://abracadabranyc.com/products/mehron-metallic-artist-pigment?variant=46682438664354), **129-AP-YGD** | $15.95 | **Pickup/purchase unconfirmed.** Earlier NYC stock at Abracadabra, 19 W 21st Street; await ready notice |
@@ -48,9 +50,9 @@ Shoes, dark-green King trousers and a similar functional warm layer are owned. T
 
 ### Antler King shirt colors
 
-[Latest side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#f-antler-king-with-full-face-gold-veil): ivory left, oxblood right, now with matching **full-face front gold veils**, green trousers, compact illustrated bone crown and pale mantle. Color remains unselected; the image is not proof of exact products, fit or mesh visibility.
+[Latest side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#g-autumn-court-versus-wild-hunt-without-veils): **Autumn Court left — oxblood plus broad ivory drape; Wild Hunt right — ivory plus black fur**. Both keep green trousers and compact illustrated bone crowns, with no veil. This compares whole styling directions, not shirt color alone. Neither look/color is selected; the image is not exact product or fit evidence. The earlier [controlled color comparison](06-weekend-costume-renders-2026-10-21.md#e-antler-king-ivory-versus-oxblood) remains available.
 
-**Styling recommendation, not a confirmed color selection:** keep warm ivory/ecru as the first choice with the pale crown, green trousers and gold veil. The actual American Trends **Beige** photo reads pale parchment/ivory rather than camel tan. A textured, matte finish suits the woodland direction and distinguishes Saturday from Friday's black fur/jeans.
+**Earlier palette recommendation, not a confirmed color selection:** warm ivory/ecru works with the pale crown, green trousers and gold veil if retained. The actual American Trends **Beige** photo reads pale parchment/ivory rather than camel tan. A textured, matte finish suits the woodland direction. The new Autumn Court proposal instead uses oxblood to distinguish Saturday from Friday's black fur; Wild Hunt deliberately reuses that fur.
 
 - **Deep oxblood/wine:** strongest darker alternative; more ominous/regal, with the pale crown and gauze contrasting against it. Keep the red very dark, not bright scarlet. Wine was not offered in the current Small selector; this is a palette idea, not a deadline-cleared Small product.
 - **Black:** strongest graphic bone/gold contrast, but closer to Eclipse and less woodland-distinctive. [Small / Black](https://www.amazon.com/dp/B0C33R9V9N) was selected and visually inspected October 22: **$15.99, free Saturday October 24**. This replaces the shirt only if chosen; no second shirt is budgeted.
@@ -84,11 +86,11 @@ The **ordered Sosation crown** is an interlaced pale branching circlet with upri
 
 Earlier seller dimensions were inconsistent: approximately 22 × 20 × 12.5 cm in the description versus 13.78 × 6.69 × 4.72 inches / 5.28 oz in catalog bullets. Neither establishes head circumference or verified worn mass. The earlier check showed 3.4/5 from four ratings, with large-fit reports. **Try unaltered first.** Removable soft padding or a discreet back ribbon may help, but do not guarantee fit. Do not heat/force-bend it as a last-minute default or wear a shifting crown/sharp tip near the face.
 
-For King, fold the gauze double into a short mantle with ends above the hips; attach to clothing without a tight throat tie. The functional coat may go over the shirt; do not mistake the pale drape for warmth. Gauze is polyester despite its cheesecloth name.
+If retaining the earlier gauze mantle, fold it double with ends above the hips; attach to clothing without a tight throat tie. It is not verified as the broad opaque cloth shown in Autumn Court. The functional coat may go over the shirt; do not mistake a pale drape for warmth. Gauze is polyester despite its cheesecloth name.
 
 ### Full face gold veil
 
-**Confirmed visual direction October 22:** netting hangs from the crown/brow band **in front of the entire face to upper chest**, not only behind the head. Keep the compact crown; this is a smaller front drape rather than the reference's tall antler canopy. Clip a front panel to an independent padded band/support, not the antler tips, with accessible lift/removal. **Veil lifted/off for walking and dancing.**
+**Earlier October 22 exploration, now under review:** netting hangs from the crown/brow band **in front of the entire face to upper chest**, not only behind the head. The host subsequently questioned this effect with the small crown; the latest two concepts omit the veil, with no final choice yet. If retained, this is a smaller front drape rather than the reference's tall antler canopy. Clip a front panel to an independent padded band/support, not the antler tips, with accessible lift/removal. **Veil lifted/off for walking and dancing.** Do not buy netting solely because of this earlier proposal.
 
 Start the material trial with **one layer of open gold textile netting**, not actual chainmail. Finer mesh is not automatically easier to see through: compare open-hole area, strand thickness, folds, glare and light on either side. Avoid doubling fabric across the eyes just to hide the face more in photos. The CABODYALS listing remains a proposed material, **not verified for face visibility**; no fabric change, new order or revised price is implied by the render. Before cutting/attaching, test the actual netting at its intended face distance in dim light and with a light in front, then check peripheral vision, snagging and quick removal. Lift it if sightlines are impaired; a rendered face visible through mesh is not a wearer-visibility test.
 
@@ -109,10 +111,10 @@ This counts all three ordered halos once and assumes no refunds. Only **$151.97 
 
 ## Receipt and fitting sequence
 
-1. **October 22:** choose the King shirt color and resolve shirt, shoulder cloth and netting; none appears in the checked order. Try jeans locally and fit the **owned** warm layer with both looks. Recheck any new delivery/pickup promise before committing.
+1. **October 22:** choose the King silhouette and shirt color before resolving shirt/shoulder cloth or any retained netting; none appears in the checked order. The latest no-veil concepts require selection and any new materials need sourcing. Try jeans locally and fit the **owned** warm layer with both looks. Recheck any new delivery/pickup promise before committing.
 2. **Thursday October 22:** expected Nicute chain and Zoestar halo. Inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is promised in this shipment.
 3. **Friday October 23 — confirmed Eclipse night:** expected Small black fur, Small black mesh, Atoden and Zivyes halos, per October 21 order check. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. Confirmed night choice does not guarantee delivery before departure.
-4. **Saturday October 24 — confirmed Antler King night:** expected Sosation crown, per October 21 order check. Complete King crown/veil/mantle fit before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
+4. **Saturday October 24 — confirmed Antler King night:** expected Sosation crown, per October 21 order check. Complete the selected King crown/shoulder-layer fit, and veil tests only if retained, before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
 5. Leave tags/condition intact until fit and return eligibility are checked. Unsafe or uncomfortable headwear is not a wearable backup. No returns, cancellations, exchanges or messages have been initiated.
 
 ## Earlier sourcing history

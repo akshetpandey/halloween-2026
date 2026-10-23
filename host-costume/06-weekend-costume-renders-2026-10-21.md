@@ -4,19 +4,29 @@ AI-generated styling previews, requested by the host. **Not photographs of purch
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
-**Latest preview:** [Full-face gold-veil correction](#f-antler-king-with-full-face-gold-veil) follows the host's Yellowjackets reference: netting in front of the entire face, not only behind the head. It retains the ivory/oxblood comparison and compact crown. Shirt color remains open. **D remains the approved black-fur Eclipse styling direction**; no purchase or fit test inferred.
+**Latest preview:** [Autumn Court versus Wild Hunt](#g-autumn-court-versus-wild-hunt-without-veils) explores two face-clear alternatives after the host noted the compact crown cannot recreate the tall Yellowjackets veil silhouette. Neither look nor shirt color is selected; permanent veil removal is not yet confirmed. **D remains the approved black-fur Eclipse styling direction**; no purchase or fit test inferred.
+
+## G Autumn Court versus Wild Hunt without veils
+
+![Autumn Court in oxblood with an ivory shoulder drape, left; Wild Hunt in ivory with black fur, right; both with compact crowns and green trousers](renders/2026-10-22/autumn-court-vs-wild-hunt.png)
+
+Requested October 22 to visualize the two proposed pivots. **Left — Autumn Court:** oxblood lace-up shirt, one broad asymmetric ivory shoulder drape and small gold clasp/cuff. **Right — Wild Hunt:** ivory lace-up shirt and open short black faux-fur jacket, with a gold cuff. Both retain the same illustrated compact bone crown, dark-green trousers and face-clear styling; no netting, sun halo or body chain. The right-hand look proposes reusing the ordered Eclipse fur, not buying another jacket.
+
+The previous color diptych supplied model/crown/trouser continuity; D supplied the fur silhouette only. These are achievable styling ideas, **not exact product try-ons**: the crown is still illustrative rather than the ordered Sosation design, and the new broad drape/clasp/oxblood shirt are not sourced or deadline-cleared. No outfit selected, new purchase or budget revision. [Exact prompt and input/output record](renders/2026-10-22/autumn-court-wild-hunt-prompt.md).
 
 ## F Antler King with full face gold veil
 
+Earlier full-face exploration, now under review after the host questioned its proportions with a small crown. G above shows alternatives; this is not a current instruction to buy netting.
+
 ![Ivory and oxblood Antler King looks with front gold net veils covering the full face](renders/2026-10-22/antler-king-front-veil-ivory-vs-oxblood.png)
 
-Requested October 22 after E. The host's attached Yellowjackets still guided **front placement and gold-net texture only**; its tall antlers, large cloak and scene were not copied. The existing E diptych was edited so both veils cover forehead, eyes, nose, mouth, chin and neck to the upper chest. The compact illustrated bone crown, ivory-left/oxblood-right shirts, green trousers, pale shoulder mantle, belt/shoes, model, full-body framing and studio light remain visually matched. Earlier images are retained as face-clear/lifted-mode comparisons, not the target veiled silhouette.
+Requested October 22 after E. The host's attached Yellowjackets still guided **front placement and gold-net texture only**; its tall antlers, large cloak and scene were not copied. The existing E diptych was edited so both veils cover forehead, eyes, nose, mouth, chin and neck to the upper chest. The compact illustrated bone crown, ivory-left/oxblood-right shirts, green trousers, pale shoulder mantle, belt/shoes, model, full-body framing and studio light remain visually matched. This records the earlier full-face request, not selection of that silhouette over G.
 
 The mesh is an illustrative open gold textile, **not a photo-exact reproduction or proof of visibility through CABODYALS or another product**. Single-layer openness, thread thickness, folds, glare and room lighting all need actual trials. Use independently accessible clips on a padded band/support, not sharp crown tips; lift/remove for normal walking/dancing and whenever sightlines are poor. This compact front drape does not reproduce the reference's tall antler-supported canopy. Crown remains a concept rather than an exact rendering of the ordered Sosation piece. No shirt color, new product or spending change inferred. [Exact prompt and input record](renders/2026-10-22/prompts.md#full-face-veil-correction).
 
 ## E Antler King ivory versus oxblood
 
-Earlier face-clear comparison; F above corrects the veil placement for the host's intended full-face look.
+Earlier shirt-color comparison; F subsequently explored full-face placement, and G now explores a no-veil restyle.
 
 ![Antler King comparison with ivory shirt left and oxblood shirt right](renders/2026-10-22/antler-king-ivory-vs-oxblood.png)
 
@@ -65,6 +75,8 @@ Created with the built-in image-generation tool using the imagegen skill. Three 
 October 22 adds one built-in edit output, the ivory/oxblood diptych. Visually inspected for correct left/right labels, full-body framing, shirt colors and matched green trousers/crown/gold veil/pale mantle. Source concept retained unchanged. The comparison asset and its exact prompt are saved in `renders/2026-10-22/`; it does not replace the four October 21 previews.
 
 Later October 22 adds one further built-in edit using that diptych plus the user-attached reference still: full-face veil placement, saved as a separate sibling PNG. Visually checked for continuous face coverage, chest-length gold netting, compact crown retained, matching mesh between panels, unchanged clothes/palette and legible labels. The uploaded reference itself was not copied into Git. See the existing [Yellowjackets reference credits](references/README.md) for related source imagery.
+
+A subsequent October 22 built-in edit creates G, the 1448 × 1086 no-veil diptych, from E plus D as a jacket-only reference. Visually checked for both clear faces, matched compact crown/green trousers, oxblood with broad ivory drape on left, ivory with black fur jacket on right, legible labels and no solar accessories or weapons. Previous outputs retained unchanged; no retailer/account checks or selection implied.
 
 [Exact generation and correction prompts](renders/2026-10-21/prompts.md).
 

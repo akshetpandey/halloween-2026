@@ -4,7 +4,15 @@ AI-generated styling previews, requested by the host. **Not photographs of purch
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
-**Latest preview:** [Autumn Court versus Wild Hunt](#g-autumn-court-versus-wild-hunt-without-veils) explores two face-clear alternatives after the host noted the compact crown cannot recreate the tall Yellowjackets veil silhouette. Neither look nor shirt color is selected; permanent veil removal is not yet confirmed. **D remains the approved black-fur Eclipse styling direction**; no purchase or fit test inferred.
+**Latest preview:** [Gilded Stag](#h-gilded-stag-full-outfit-and-detail) develops Wild Hunt into the requested woodland-deity concept: bone crown, black fur, green trousers, gold-leaf collar and gold face accents. The host requested this visualization, not final purchase/fit approval. Earlier G alternatives remain unselected. **D remains the approved black-fur Eclipse styling direction**.
+
+## H Gilded Stag full outfit and detail
+
+![Gilded Stag with compact bone crown, black fur, green trousers, botanical gold collar and branching gold face accents; full body left and detail right](renders/2026-10-22/gilded-stag.png)
+
+Requested October 22 following the [City of Gods styling reassessment](handoff-2026-10-22-city-of-gods-reassessment.md). The right-hand Wild Hunt model/outfit from G was the edit target. It retains the compact illustrated pale bone crown, open black fur jacket, dark-green trousers, belt/shoes and small gold cuff; the ivory lace-up shirt is replaced by a fitted black mesh tank. A broad antique-gold botanical collar sits inside the open lapels, with fine branching gold accents at the temples/upper cheeks. No veil, solar halo or full-body chain. Full-body framing left and matching close-up right make the collar/face work visible.
+
+**Design preview, not a final outfit choice or exact product try-on.** The crown is not a photo-exact Sosation rendering; the new collar and cosmetic effect are not sourced or stock-verified. Fine raised-looking leaf/branch details are an illustrative target, not a claim that ordinary pigment will reproduce them. Base/mesh, cuff and jacket details remain approximate. No new purchase, delivery check, fit/warmth test or budget revision. [Exact prompt and input/output record](renders/2026-10-22/gilded-stag-prompt.md).
 
 ## G Autumn Court versus Wild Hunt without veils
 
@@ -79,6 +87,8 @@ October 22 adds one built-in edit output, the ivory/oxblood diptych. Visually in
 Later October 22 adds one further built-in edit using that diptych plus the user-attached reference still: full-face veil placement, saved as a separate sibling PNG. Visually checked for continuous face coverage, chest-length gold netting, compact crown retained, matching mesh between panels, unchanged clothes/palette and legible labels. The uploaded reference itself was not copied into Git. See the existing [Yellowjackets reference credits](references/README.md) for related source imagery.
 
 A subsequent October 22 built-in edit creates G, the 1448 × 1086 no-veil diptych, from E plus D as a jacket-only reference. Visually checked for both clear faces, matched compact crown/green trousers, oxblood with broad ivory drape on left, ivory with black fur jacket on right, legible labels and no solar accessories or weapons. Previous outputs retained unchanged; no retailer/account checks or selection implied.
+
+One further October 22 built-in edit creates H from the right-hand G figure. The 1448 × 1086 PNG was visually checked for all five requested design ingredients, black mesh replacing the poet shirt, matching outfit/detail views, unobstructed face and absence of veil/halo/body chain/weapons. Previous images retained unchanged; original output copied into the project without image processing.
 
 [Exact generation and correction prompts](renders/2026-10-21/prompts.md).
 

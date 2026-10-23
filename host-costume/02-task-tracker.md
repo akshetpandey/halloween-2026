@@ -6,7 +6,7 @@
 | KING-02 | Compare crown, veil and mantle purchase/build options | Liked Sosation crown ordered; **Saturday Oct 24 ETA**; large-fit risk | [Actual order](09-final-weekend-shopping-2026-10-21.md); veil/mantle unconfirmed; compact October 31 reuse/tier-up possible, not fitted |
 | KING-03 | Confirm sizes, owned base clothes and final spend | Small top; usual waist 28–30/inseam 30–32; faded owned jeans prompt new deep-black loose Levi's | 29 × 30 black 568 pickup checked, not measured fit; [final totals](09-final-weekend-shopping-2026-10-21.md) within unchanged $500 ceiling |
 | KING-04 | Order or borrow selected pieces | **Partly done: seven Amazon items ordered, $151.97 incl. estimated tax** | King shirt color/cloth/netting and jeans/optional accents not confirmed; owned warm layer removes PUFFTECH purchase; [remaining list](09-final-weekend-shopping-2026-10-21.md) |
-| KING-05 | Choose silhouette, then build and fit crown and shoulder layer | To do; **no-veil Autumn Court/Wild Hunt previews complete, neither selected** | Look/color choice before cloth/netting purchase; unaltered crown try-on; secure/removable fabric; visibility test if veil retained |
+| KING-05 | Choose silhouette, then build and fit crown and shoulder layer | To do; **Gilded Stag render complete; final look/product choices pending** | Collar/cosmetic sourcing if selected; unaltered crown try-on; secure/removable layers; visibility test only if a veil is retained |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
 | KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
 | KING-08 | Assemble second City of Gods look | **Eclipse Fri Oct 23 / King Sat Oct 24 confirmed Oct 22**; pieces ordered, final halo keeper and fitting pending | [Actual order](09-final-weekend-shopping-2026-10-21.md): Atoden/Zivyes/Zoestar; no automatic fourth halo or maker messages |
@@ -17,6 +17,8 @@ Current gates October 22: **choose King silhouette and shirt color before buying
 ## Current direction • October 22, 2026
 
 - **Latest host feedback:** stronger City of Gods styling required. Wild Hunt needs work; Autumn Court's fit is questioned. [Reassessment](handoff-2026-10-22-city-of-gods-reassessment.md) proposes a gilded woodland-deity development, not a selected outfit or newly sourced shopping basket. Prior Autumn Court preference was the assistant's, not the host's.
+
+- [Requested Gilded Stag render](06-weekend-costume-renders-2026-10-21.md#h-gilded-stag-full-outfit-and-detail) completed October 22: bone crown, black fur, green trousers, gold-leaf collar and branching gold face accents, with black mesh base and full-outfit/detail views. No final purchase selection or stock/fit verification inferred; collar/cosmetic details are illustrative and unsourced.
 
 - [Verified order and remaining list](09-final-weekend-shopping-2026-10-21.md) is current. [Solar corona shortlist](13-solar-corona-shortlist-2026-10-21.md) is sourcing history; COSUCOS/BLESSUME were not ordered. Earlier Zoestar/Zivyes aesthetic objections do not override the user's actual purchases; final keeper is undecided. No artisan/all-metal requirement or maker outreach.
 - Confirmed inventory, Small and total budget ceiling are recorded in that list and [shared budget](../operations/budget.md). Actual ordered total **$151.97**; revised full optional planning envelope **$375.39** after removing unpurchased PUFFTECH, with no assumed refunds or double-counted tax.

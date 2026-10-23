@@ -34,7 +34,7 @@ All three halos count once in this order. Compare them in person and choose the 
 
 These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. The Small shirt colors were rechecked October 22; other prices/stock notes remain October 21 observations and need rechecking before buying.
 
-**Latest visual exploration:** [Autumn Court versus Wild Hunt](06-weekend-costume-renders-2026-10-21.md#g-autumn-court-versus-wild-hunt-without-veils) shows no-veil alternatives. Neither is selected. Hold King cloth/netting choices until the silhouette is chosen; the broad ivory drape/clasp and oxblood shirt are not sourced or priced. The table/budget below preserves the previously priced basket, not a quote for these new concepts.
+**Latest visual exploration:** [Gilded Stag](06-weekend-costume-renders-2026-10-21.md#h-gilded-stag-full-outfit-and-detail) shows the requested bone crown, black fur, green trousers, botanical gold collar and gold face accents over a black mesh base, without veil. Visualization is not final outfit/product approval; collar/cosmetic details are unsourced. Hold earlier King shirt/cloth/netting choices until the silhouette is chosen. The table/budget below preserves the previously priced basket, not a quote for this new concept or an instruction to buy both sets.
 
 | Priority | Item and selection | Earlier quoted price | Status and next action |
 |---|---|---:|---|

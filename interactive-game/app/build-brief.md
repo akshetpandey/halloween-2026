@@ -80,3 +80,7 @@ Carry forward all [phone feasibility](../physical/phone-and-nfc-feasibility.md),
 - Direct NFC deep links on the hosted domain, actual invitation QR readability, no localhost/music-Mac dependency and a reconciled paper fallback.
 
 These are future acceptance criteria, not tests already run. The [previous implementation brief](../history/2026-09-04-before-hollow-court/interactive-story__03-website-build-brief.md.txt) preserves earlier requirements verbatim; instant claims, nickname-only onboarding, private-only standings, blanket QR ban and earlier timestamps are superseded.
+
+## October 23 — authorized camera discovery prototype
+
+The host authorized building reference-photo enrollment, local recognition, segmentation and an animated awakening. [Prototype implementation and test workflow](guardian-camera-prototype.md) is the current implementation authority for this pilot. Prefer WebGPU where usable, with CPU/WASM fallback. LiDAR is optional host asset work; guests must not need it. The camera pilot is restricted to rehearsal until actual props and supported phones pass acceptance. Existing NFC routes remain usable; no entity QR fallback was added.

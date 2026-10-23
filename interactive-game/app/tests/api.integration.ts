@@ -495,3 +495,155 @@ describe("local Worker integration", () => {
     expect(audit[0].results[0].total).toBe(1);
   });
 });
+
+describe("guardian camera prototype", () => {
+  it("protects original references, validates enrollment, filters paused guardians and opens trials without awarding Favor", async () => {
+    const { VISION_MODEL, VISION_DIMENSIONS } =
+      await import("../src/shared/vision");
+    const host = new Client(),
+      guest = new Client(),
+      anon = new Client();
+    host.jwt = hostJwt;
+    await guest.json("/session/start", "POST", { preview: true, demo: true });
+    const old = await (await host.req("/admin/vision")).json();
+    const ids: string[] = [];
+    const features = [1, ...Array(VISION_DIMENSIONS - 1).fill(0)];
+    const jpg = await portrait();
+    function form(
+      overrides: Record<string, string> = {},
+      photo: Blob = new Blob([jpg], { type: "image/jpeg" }),
+    ) {
+      const data = new FormData();
+      data.set("guardianId", "BUY-02");
+      data.set("model", VISION_MODEL);
+      data.set("vector", JSON.stringify(features));
+      data.set("photo", photo, "reference.jpg");
+      for (const [key, value] of Object.entries(overrides))
+        data.set(key, value);
+      return data;
+    }
+    try {
+      expect((await anon.req("/admin/vision")).status).toBe(401);
+      expect(
+        (await anon.req("/admin/vision/references", "POST", form())).status,
+      ).toBe(401);
+      expect((await guest.req("/admin/vision")).status).toBe(401);
+      expect((await anon.req("/vision/references")).status).toBe(401);
+      for (const overrides of [
+        { guardianId: "made-up" },
+        { model: "old-model" },
+        { vector: "[]" },
+        { vector: JSON.stringify(Array(VISION_DIMENSIONS).fill(0)) },
+      ])
+        expect(
+          (await host.req("/admin/vision/references", "POST", form(overrides)))
+            .status,
+        ).toBe(overrides.model ? 409 : 422);
+      expect(
+        (
+          await host.req(
+            "/admin/vision/references",
+            "POST",
+            form({}, new Blob(["not a jpeg".repeat(3)])),
+          )
+        ).status,
+      ).toBe(422);
+      expect(
+        (
+          await host.req("/admin/vision/settings", "POST", {
+            threshold: 2,
+            margin: 0.04,
+          })
+        ).status,
+      ).toBe(422);
+      const saved = await host.req("/admin/vision/references", "POST", form());
+      expect(saved.status).toBe(201);
+      const id = (await saved.json()).id;
+      ids.push(id);
+      expect(
+        (await host.req("/admin/vision/references", "POST", form())).status,
+      ).toBe(409);
+      const original = await host.req("/admin/vision/references/" + id);
+      expect(original.status).toBe(200);
+      expect(original.headers.get("Cache-Control")).toBe("private, no-store");
+      expect([...new Uint8Array(await original.arrayBuffer())]).toEqual([
+        ...jpg,
+      ]);
+      expect((await guest.req("/admin/vision/references/" + id)).status).toBe(
+        401,
+      );
+      expect(
+        (await anon.req("/admin/vision/references/" + id, "DELETE")).status,
+      ).toBe(401);
+      const enabled = () =>
+        host.req("/admin/vision/guardian", "POST", {
+          guardianId: "BUY-02",
+          enabled: true,
+        });
+      await enabled();
+      const publicManifest = await (
+        await guest.req("/vision/references")
+      ).json();
+      expect(
+        publicManifest.references.find((r: { id: string }) => r.id === id)
+          .vector,
+      ).toEqual(features);
+      expect(Object.keys(publicManifest).sort()).toEqual([
+        "model",
+        "references",
+        "settings",
+      ]);
+      expect(JSON.stringify(publicManifest)).not.toMatch(
+        /photo_key|photo_hash|note|tag_code|guardian-reference/,
+      );
+      const before = await guest.json("/state");
+      const encounter = await guest.req("/vision/encounter", "POST", {
+        guardianId: "BUY-02",
+        model: VISION_MODEL,
+      });
+      expect(encounter.status).toBe(200);
+      expect((await encounter.json()).code).toMatch(/^[a-f0-9]{12}$/);
+      expect((await guest.json("/state")).favors).toEqual(before.favors);
+      expect(
+        (
+          await guest.req("/vision/encounter", "POST", {
+            guardianId: "BUY-02",
+            model: "stale",
+          })
+        ).status,
+      ).toBe(409);
+      await host.req("/admin/vision/guardian", "POST", {
+        guardianId: "BUY-02",
+        enabled: false,
+      });
+      expect(
+        (await (await guest.req("/vision/references")).json()).references.some(
+          (r: { id: string }) => r.id === id,
+        ),
+      ).toBe(false);
+      expect(
+        (
+          await guest.req("/vision/encounter", "POST", {
+            guardianId: "BUY-02",
+            model: VISION_MODEL,
+          })
+        ).status,
+      ).toBe(404);
+    } finally {
+      for (const id of ids) {
+        expect(
+          (await host.req("/admin/vision/references/" + id, "DELETE")).status,
+        ).toBe(200);
+        expect((await host.req("/admin/vision/references/" + id)).status).toBe(
+          404,
+        );
+      }
+      await host.req("/admin/vision/settings", "POST", old.settings);
+      await host.req("/admin/vision/guardian", "POST", {
+        guardianId: "BUY-02",
+        enabled: old.guardians.find((g: { id: string }) => g.id === "BUY-02")
+          .enabled,
+      });
+    }
+  }, 60000);
+});

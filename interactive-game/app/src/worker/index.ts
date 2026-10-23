@@ -10,6 +10,9 @@ import { hex, hash, fail, json, readBody, body } from "./request";
 import { adminApi, redeemHostRecovery } from "./admin";
 import { costumeApi, costumeAward } from "./costumes";
 import { COSTUME_REMINDER_AT, reminderDue } from "../shared/costumes";
+import { visionManifest } from "./vision";
+import { VISION_MODEL } from "../shared/vision";
+import { visionRuntimeAsset } from "./vision-assets";
 export type RowPlayer = {
   id: string;
   name: string;
@@ -176,6 +179,35 @@ async function api(request: Request, env: Env): Promise<Response> {
     await rate(request, env, path);
   }
   if (path.startsWith("/api/admin/")) return adminApi(request, env);
+  if (path === "/api/vision/references" || path === "/api/vision/encounter") {
+    // The camera prototype is confined to rehearsal. Host enrollment/tests use Access.
+    if (env.PREVIEW !== "true")
+      fail("The Looking Lens is still in rehearsal.", 404);
+    registered(p);
+    open(env, p);
+    if (path === "/api/vision/references" && request.method === "GET")
+      return json(await visionManifest(env));
+    if (path === "/api/vision/encounter" && request.method === "POST") {
+      const input = await body(request);
+      if (input.model !== VISION_MODEL)
+        fail("Reload the Looking Lens before continuing.", 409);
+      const found = await env.DB.prepare(
+        `SELECT g.code FROM guardians g
+        LEFT JOIN vision_guardians v ON v.guardian_id=g.id
+        WHERE g.id=? AND COALESCE(v.enabled,1)=1 AND EXISTS(SELECT 1 FROM vision_references r WHERE r.guardian_id=g.id AND r.model_version=?)`,
+      )
+        .bind(
+          typeof input.guardianId === "string" ? input.guardianId : "",
+          VISION_MODEL,
+        )
+        .first<{ code: string }>();
+      if (!found)
+        fail("This guardian is not ready for camera encounters yet.", 404);
+      // Resolving an encounter awards nothing. The existing puzzle endpoint still validates a solution.
+      return json({ code: found.code });
+    }
+    fail("Not found.", 404);
+  }
   if (path === "/api/costumes" || path === "/api/costumes/reminder") {
     registered(p);
     return costumeApi(request, env, p);
@@ -566,7 +598,8 @@ export default {
             })
           : pathname.startsWith("/api/")
             ? await api(request, requestEnv)
-            : await env.ASSETS.fetch(request);
+            : ((await visionRuntimeAsset(request, env.ASSETS)) ??
+              (await env.ASSETS.fetch(request)));
     } catch (e) {
       if (e instanceof Response) {
         response = e;

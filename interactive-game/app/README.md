@@ -22,6 +22,10 @@ On the Workers preview, **Field notes → First Summons reveal / Second Summons 
 
 September 9: [costume leaves and host award](handoff-2026-09-09-costume-leaves.md) replace pairwise judgments. The Looking Glass is available at zero Favors, with optional prompts after the first Favor and at Borrowed Eyes (six). A site reminder is fixed to **November 1 at the first 1 a.m. EDT**, `2026-11-01T01:00:00-04:00`. Open pages refresh at that instant; returning guests see it until closing unless acknowledged. This is an in-app reminder, not background push or email. Field notes includes **Looking Glass gallery** and **Preview 1 AM reminder**. The host dashboard has private vote totals, recipient selection, a private note and reviewed final publication; live publication unlocks at closing, rehearsal publication immediately.
 
+## Guardian camera prototype · October 23
+
+The [Looking Lens prototype and testing guide](guardian-camera-prototype.md) adds private host reference-photo enrollment, local DINOv3 recognition, WebGPU preference with CPU/WASM fallback, SlimSAM outlines and a captured-photo awakening into the existing puzzles. Host tests are under **Guardian reference photos**; guest testing is confined to the Workers preview. Real guardian photographs and phone accuracy/performance tests remain pending. [Implementation and deployment evidence](handoff-2026-10-23-guardian-camera-prototype.md).
+
 ## Try it locally
 
 ```sh

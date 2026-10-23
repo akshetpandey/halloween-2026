@@ -182,3 +182,12 @@ it("applies security and no-store to thrown responses and unexpected failures", 
     log.mockRestore();
   }
 });
+
+it("keeps camera prototype APIs unavailable on the public domain", async () => {
+  const { env, prepare } = fixture();
+  for (const path of ["/api/vision/references", "/api/vision/encounter"]) {
+    const response = await worker.fetch(new Request(origin + path), env, ctx);
+    expect(response.status).toBe(404);
+  }
+  expect(prepare).not.toHaveBeenCalled();
+});

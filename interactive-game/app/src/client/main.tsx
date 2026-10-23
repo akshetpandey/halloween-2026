@@ -36,6 +36,8 @@ import { api } from "./api";
 import { HostDashboard } from "./HostDashboard";
 import { StoryReveal, type Reveal } from "./Reveals";
 import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
+import { GuardianLens } from "./GuardianLens";
+import { VISION_MODEL } from "../shared/vision";
 function App() {
   const [location, setLocation] = useState(
       window.location.pathname + window.location.search,
@@ -576,6 +578,19 @@ function App() {
         </button>
       </section>
     );
+  else if (path === "/scan" && state.previewAvailable)
+    content = (
+      <GuardianLens
+        onContinue={async (guardianId) => {
+          const result = await api<{ code: string }>(
+            "/vision/encounter",
+            "POST",
+            { guardianId, model: VISION_MODEL },
+          );
+          go("/g/" + result.code);
+        }}
+      />
+    );
   else if (path === "/costumes")
     content = (
       <CostumeGalleryPage onSaved={() => void refresh().catch(() => {})} />
@@ -583,6 +598,23 @@ function App() {
   else if (path === "/court" || path === "/")
     content = (
       <>
+        {state.previewAvailable && (
+          <section className="lens-home-link panel">
+            <div>
+              <span className="eyebrow">
+                THE LOOKING LENS · CAMERA REHEARSAL
+              </span>
+              <h2>
+                Something in the room <em>is waiting.</em>
+              </h2>
+              <p>Photograph a guardian and see what wakes beneath its shape.</p>
+            </div>
+            <button className="btn" onClick={() => go("/scan")}>
+              <Camera size={18} />
+              Awaken a guardian
+            </button>
+          </section>
+        )}
         <section className="court-hero">
           <Forest />
           <div className="hero-copy">
@@ -1357,6 +1389,12 @@ function App() {
               </button>
               <button onClick={() => go("/recover")}>Recovery login</button>
               <button onClick={() => go("/host")}>Host guest book</button>
+              <button
+                disabled={busy}
+                onClick={() => void start(true, true, "/scan")}
+              >
+                Looking Lens · camera prototype
+              </button>
               <button
                 disabled={busy}
                 onClick={() => void start(true, true, "/costumes")}

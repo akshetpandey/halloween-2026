@@ -5,3 +5,4 @@ private/
 playwright-report/
 test-results/
 worker-configuration.d.ts
+public/models/

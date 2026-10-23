@@ -93,7 +93,9 @@ Host requested hiding debug and activating the time gate on `hollow-court.com`. 
 | ID | Task | Status |
 |---|---|---|
 | VISION-01 | Research phone-local / Cloudflare recognition, segmentation and animated guardian reveals as an NFC replacement | Complete — [findings, model sizes and recommendation](design/guardian-camera-feasibility-2026-10-23.md); research only |
-| VISION-02 | Capture actual guardians and test local matchers/cloud fallback on held-out images in party lighting | Proposed next step — real references and phone benchmark required |
-| VISION-03 | Integrate successful photo recognition, skippable awakening and existing guardian puzzles | Pending pilot; no camera feature deployed |
+| VISION-02 | Capture actual guardians and test local matchers/cloud fallback on held-out images in party lighting | Prototype enrollment/testing built — actual references and phone benchmark required |
+| VISION-03 | Integrate successful photo recognition, skippable awakening and existing guardian puzzles | Prototype implemented — [test guide](app/guardian-camera-prototype.md); physical pilot pending |
 
 The host's new request explores changing the earlier NFC-only approach. Existing tag work is not evidence of camera accuracy, and this research does not mark any tag replaced, prop acquired, model inference measured or Cloudflare setting changed. [Research handoff](design/handoff-2026-10-23-guardian-camera-research.md).
+
+October 23 implementation: the host authorized VISION-02/03 and requested WebGPU preference with CPU fallback. The [Looking Lens guide](app/guardian-camera-prototype.md) and [implementation handoff](app/handoff-2026-10-23-guardian-camera-prototype.md) record delivery and verification. This is a rehearsal feature; camera acceptance and any permanent replacement of NFC remain separate gates.

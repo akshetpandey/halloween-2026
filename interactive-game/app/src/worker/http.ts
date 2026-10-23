@@ -2,6 +2,8 @@ const LOOPBACK_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]"]);
 // Vite emits an eight-character content hash in these public asset filenames.
 const HASHED_ASSET =
   /^\/assets\/[^/]+-[\w-]{8}\.(?:js|css|webp|png|jpe?g|gif|svg|avif|ico|woff2?|ttf|otf)$/i;
+const VERSIONED_MODEL =
+  /^\/models\/hc-vision-48988dfe-5850ab45-ort130-v1\/[\w.-]+$/;
 
 export function httpsRedirect(request: Request): Response | null {
   const url = new URL(request.url);
@@ -29,7 +31,7 @@ export function responseHeaders(
   );
   headers.set(
     "Content-Security-Policy",
-    "default-src 'self'; img-src 'self' blob: data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+    "default-src 'self'; img-src 'self' blob: data:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
   );
   if (url.protocol === "https:" && !LOOPBACK_HOSTS.has(url.hostname)) {
     // Host-only: future subdomains are not committed to HSTS or preload.
@@ -51,7 +53,10 @@ export function responseHeaders(
     // A missing asset can resolve to SPA HTML, even at a hash-shaped URL.
     // A 304 without a content type is also kept conservative.
     headers.set("Cache-Control", "no-store");
-  } else if (HASHED_ASSET.test(url.pathname)) {
+  } else if (
+    HASHED_ASSET.test(url.pathname) ||
+    VERSIONED_MODEL.test(url.pathname)
+  ) {
     headers.set("Cache-Control", "public, max-age=31536000, immutable");
   } else {
     headers.set("Cache-Control", "no-cache");

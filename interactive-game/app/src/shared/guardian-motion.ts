@@ -273,3 +273,25 @@ export function alignMotion(
   }
   return best;
 }
+
+// A raised tail can put the bounding-box centre in empty space. Anchor the
+// body prompt between actual part pivots instead of including that background.
+export function motionPrompts(
+  pose: Pick<MotionPose, "rig" | "parts">,
+): MotionPoint[] {
+  const { rig, parts } = pose;
+  const body =
+    parts === "head"
+      ? rig.neck
+      : parts === "tail"
+        ? rig.rump
+        : {
+            x: (rig.neck.x + rig.rump.x) / 2,
+            y: (rig.neck.y + rig.rump.y) / 2,
+          };
+  return [
+    body,
+    ...(parts === "tail" ? [] : [rig.head]),
+    ...(parts === "head" ? [] : [rig.tail]),
+  ];
+}

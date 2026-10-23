@@ -43,6 +43,8 @@ export function FoxAwakening({
   parts?: "head" | "tail" | "both";
 }) {
   const canvas = useRef<HTMLCanvasElement>(null);
+  const available = useRef(onAvailable);
+  available.current = onAvailable;
   const live = useRef({ rig, moving, parts });
   live.current = { rig, moving, parts };
   const rebuild = useRef<(() => void) | null>(null);
@@ -58,7 +60,7 @@ export function FoxAwakening({
       stencil: false,
       premultipliedAlpha: false,
     });
-    onAvailable(false);
+    available.current(false);
     if (!gl) return;
     let disposed = false,
       frame = 0,
@@ -90,7 +92,7 @@ export function FoxAwakening({
     };
     const fail = () => {
       stop();
-      onAvailable(false);
+      available.current(false);
     };
     const lost = () => {
       disposed = true;
@@ -225,7 +227,7 @@ export function FoxAwakening({
           resume();
         };
         rebuild.current();
-        onAvailable(true);
+        available.current(true);
       } catch {
         fail();
       }
@@ -247,6 +249,15 @@ export function FoxAwakening({
       gl.getExtension("WEBGL_lose_context")?.loseContext();
       element.width = element.height = 1;
     };
-  }, [src, onAvailable]);
-  return <canvas ref={canvas} className="lens-fox-puppet" aria-hidden="true" />;
+  }, [src]);
+  // A new texture gets a fresh canvas; the previous context is explicitly lost
+  // on cleanup and must never be reused for the next outline.
+  return (
+    <canvas
+      key={src}
+      ref={canvas}
+      className="lens-fox-puppet"
+      aria-hidden="true"
+    />
+  );
 }

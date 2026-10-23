@@ -12,6 +12,7 @@ import {
 } from "../shared/vision";
 export function HostReferences() {
   const [editingMotion, setEditingMotion] = useState("");
+  const [testPhoto, setTestPhoto] = useState<Blob | null>(null);
   const [data, setData] = useState<HostVision | null>(null),
     [selected, setSelected] = useState("BUY-02"),
     [note, setNote] = useState("");
@@ -164,13 +165,17 @@ export function HostReferences() {
     return (
       <GuardianLens
         host
+        initialPhoto={testPhoto ?? undefined}
         manifest={{
           ...data,
           references: data.references.filter(
             (r) => r.guardianId === null || enabled.has(r.guardianId),
           ),
         }}
-        onClose={() => setTesting(false)}
+        onClose={() => {
+          setTesting(false);
+          setTestPhoto(null);
+        }}
       />
     );
   }
@@ -235,7 +240,10 @@ export function HostReferences() {
                     data.guardians.find((g) => g.id === r.guardianId)?.enabled,
                 )
               }
-              onClick={() => setTesting(true)}
+              onClick={() => {
+                setTestPhoto(null);
+                setTesting(true);
+              }}
             >
               <Camera size={18} />
               Test the Looking Lens
@@ -352,6 +360,30 @@ export function HostReferences() {
                     {data.motionReferences.includes(p.id)
                       ? "Edit saved movement"
                       : "Set up movement"}
+                  </button>
+                )}
+                {chosen && !p.needsProcessing && (
+                  <button
+                    className="text-button"
+                    disabled={busy}
+                    onClick={() => {
+                      setBusy(true);
+                      setError("");
+                      void fetch("/api/admin/vision/references/" + p.id)
+                        .then(async (r) => {
+                          if (!r.ok)
+                            throw Error("Could not open this reference.");
+                          return r.blob();
+                        })
+                        .then((blob) => {
+                          setTestPhoto(blob);
+                          setTesting(true);
+                        })
+                        .catch((e) => setError(e.message))
+                        .finally(() => setBusy(false));
+                    }}
+                  >
+                    Test this reference
                   </button>
                 )}
                 <button

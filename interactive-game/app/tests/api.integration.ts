@@ -631,6 +631,41 @@ describe("guardian camera prototype", () => {
         ),
       ).toBe(false);
       expect((await host.req(motionPath, "POST", motion)).status).toBe(200);
+      // Concurrent distinct-view saves must respect the per-guardian memory budget.
+      const extra: string[] = [];
+      for (let i = 0; i < 6; i++) {
+        const jpg = await sharp({
+          create: {
+            width: 64,
+            height: 64,
+            channels: 3,
+            background: { r: 30 + i * 20, g: 80, b: 110 },
+          },
+        })
+          .jpeg()
+          .toBuffer();
+        const response = await host.req(
+          "/admin/vision/references",
+          "POST",
+          form({}, new Blob([jpg], { type: "image/jpeg" })),
+        );
+        expect(response.status).toBe(201);
+        const next = (await response.json()).id;
+        ids.push(next);
+        extra.push(next);
+      }
+      const saves = await Promise.all(
+        extra.map((next) =>
+          host.req(
+            "/admin/vision/references/" + next + "/motion",
+            "POST",
+            motion,
+          ),
+        ),
+      );
+      expect(saves.filter((r) => r.status === 200)).toHaveLength(5);
+      expect(saves.filter((r) => r.status === 409)).toHaveLength(1);
+      expect((await host.req(motionPath, "POST", motion)).status).toBe(200);
       const publicManifest = await (
         await guest.req("/vision/references")
       ).json();

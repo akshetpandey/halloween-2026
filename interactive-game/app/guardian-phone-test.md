@@ -16,7 +16,7 @@ Reference photos are stored privately for the host; recognition features are sha
 
 1. In the host dashboard, choose **Test the Looking Lens**. The test uses **MagicTouch · WebGL GPU**, with the existing CPU/WASM path as fallback. It does not load the retired high-memory SAM model.
 2. Wait for **Lens ready · awakening ready**. This means recognition and segmentation have both completed a warm-up. First preparation downloads models/runtime and can take longer than later scans; keep the page in the foreground.
-3. Choose **Choose a photo**, then select the held-out guardian photo. Check that it names the correct guardian, shows its greeting, and produces a useful glowing cutout. Tap the actual creature in the photo to refine an outline that selects only a face or background.
+3. Choose **Choose a photo**, then select the held-out guardian photo. **Test this reference** under a saved host photo is a quick reveal replay, but does not test recognition on a new image. Check that it names the correct guardian, shows its greeting, and produces a useful glowing cutout. Tap the actual creature in the photo to refine an outline that selects only a face or background.
 4. Choose **Scan another guardian**, then **Open the live lens** and allow camera access. Point at the real object, keeping the whole object centred. Hold steady: three consecutive matches over at least half a second trigger capture automatically.
 5. Recognition reveals the guardian name and greeting immediately, followed by a gold scan line and segmented cutout over the darkened photo. A guardian with aligned saved movement tilts its head and/or swishes its tail; other cutouts float gently amid gold pollen. **Let it rest / Wake it again** pauses/resumes puppet motion. The host test offers **Back to reference photos**. The guest rehearsal offers **Hear its trial** while the outline runs; verify there that the trial opens the right guardian. This is 2D photo motion, with no 3D tracking or spoken greeting.
 6. Repeat with an ordinary object and an empty patch of room. The Lens should keep looking rather than confidently name a guardian. Try another angle and dimmer light too.
@@ -26,8 +26,8 @@ If you only have pictures for now, use a separate, untrained picture via **Choos
 
 ### Save movement once per useful reference angle
 
-1. Return to **Guardian reference photos**, choose the fox, and tap **Set up movement** below a reference photo.
-2. Choose **Boundary: top left**, then tap just above/left of the whole fox. Choose **Boundary: bottom right**, then tap just below/right, including its entire tail.
+1. Return to **Guardian reference photos**, choose the fox, and tap **Set up movement** (or **Edit saved movement**) below a reference photo. The three current fox views have starter movement setups prepared from their photographs; review them with **Preview awakening** and adjust if necessary.
+2. Use **Place a marker** to choose **Boundary: top left**, then tap just above/left of the whole fox. Choose **Boundary: bottom right**, then tap just below/right, including its entire tail. The compact selector stays visible as you scroll the photo.
 3. Choose **Head**, **Neck**, **Tail tip** and **Tail base** in turn, tapping each position in the photo. Choose head/tail/both under **Moving parts**. This editor also works for other guardians.
 4. Tap **Preview awakening**. The outline uses the body, head and tail points rather than only the photo centre. Check the whole tail is included and the correct regions move. Adjust if necessary, then tap **Save movement**.
 5. Set up the other useful reference angles too (up to six saved movement views per guardian). Reopen **Edit saved movement** or reload the dashboard to verify persistence.

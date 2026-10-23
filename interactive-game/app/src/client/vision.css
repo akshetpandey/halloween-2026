@@ -691,3 +691,29 @@
   border-color: var(--gold);
   background: #4c432d;
 }
+.motion-toolbar {
+  position: sticky;
+  top: 8px;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  background: #14231bf5;
+  padding: 12px;
+  max-width: 480px;
+  margin: 1rem auto;
+  border-radius: 12px;
+}
+.motion-toolbar label {
+  display: grid;
+  gap: 6px;
+  font-size: 12px;
+}
+.motion-toolbar select {
+  min-height: 44px;
+  min-width: 0;
+  width: 100%;
+}
+.motion-setup-photo {
+  width: min(100%, 420px, calc((100svh - 160px) * 0.75));
+}

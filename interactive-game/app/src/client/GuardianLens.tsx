@@ -22,7 +22,11 @@ import {
 import { preparePhoto, cutoutPhoto, type PreparedPhoto } from "./vision-engine";
 import type { MaskResult, VisionReply } from "./vision.worker";
 import { motionRequest } from "./motion-engine";
-import type { MotionAlignment, MotionPose } from "../shared/guardian-motion";
+import {
+  motionPrompts,
+  type MotionAlignment,
+  type MotionPose,
+} from "../shared/guardian-motion";
 import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
 import "./vision.css";
@@ -31,12 +35,18 @@ export function GuardianLens({
   host = false,
   onContinue,
   onClose,
+  initialPhoto,
 }: {
   manifest?: VisionManifest;
+  initialPhoto?: Blob;
   host?: boolean;
   onContinue?: (id: string) => Promise<void>;
   onClose?: () => void;
 }) {
+  const section = useRef<HTMLElement>(null);
+  useEffect(() => {
+    section.current?.scrollIntoView({ block: "start", behavior: "instant" });
+  }, []);
   const [manifest, setManifest] = useState(provided ?? null);
   const [photo, setPhoto] = useState<PreparedPhoto | null>(null),
     [cutout, setCutout] = useState("");
@@ -111,6 +121,9 @@ export function GuardianLens({
   useEffect(() => {
     void load().catch((e) => setError(e.message));
   }, [provided]);
+  useEffect(() => {
+    if (host && initialPhoto) void recognize(initialPhoto);
+  }, [initialPhoto]);
   function getRecognizer() {
     return recognitionSession.getEngine();
   }
@@ -272,24 +285,7 @@ export function GuardianLens({
         },
         point ??
           (aligned.current
-            ? [
-                {
-                  x:
-                    (aligned.current.bounds.left +
-                      aligned.current.bounds.right) /
-                    2,
-                  y:
-                    (aligned.current.bounds.top +
-                      aligned.current.bounds.bottom) /
-                    2,
-                },
-                ...(aligned.current.parts === "tail"
-                  ? []
-                  : [aligned.current.rig.head]),
-                ...(aligned.current.parts === "head"
-                  ? []
-                  : [aligned.current.rig.tail]),
-              ]
+            ? motionPrompts(aligned.current)
             : { x: 0.5, y: 0.5 }),
       );
       if (attempt !== action.current) return;
@@ -585,7 +581,10 @@ export function GuardianLens({
     void outlinePhoto(photo, ++action.current, point);
   }
   return (
-    <section className={"guardian-lens " + (host ? "host-lens" : "page-top")}>
+    <section
+      ref={section}
+      className={"guardian-lens " + (host ? "host-lens" : "page-top")}
+    >
       <div className="lens-title">
         <div>
           <span className="eyebrow">THE LOOKING LENS · REHEARSAL</span>
@@ -609,6 +608,8 @@ export function GuardianLens({
       {host && (
         <p className="small muted">
           Outline processing: MagicTouch · GPU with CPU fallback
+          {initialPhoto &&
+            ". Testing a saved reference checks the reveal, not accuracy on a new photo."}
         </p>
       )}
       {ready && (
@@ -845,7 +846,9 @@ export function GuardianLens({
                   photo && void outlinePhoto(photo, ++action.current)
                 }
               >
-                Trace from the centre again
+                {alignment
+                  ? "Trace saved points again"
+                  : "Trace from the centre again"}
               </button>
               <button
                 className="btn"

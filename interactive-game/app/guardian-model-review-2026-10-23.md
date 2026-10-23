@@ -18,7 +18,7 @@ Three private, already-enrolled fox photographs, all 768×1024, on macOS 26.6.2 
 | New MagicTouch 768 int8, CPU | 30.53 MB | 32.73 / 30.32 / 30.29s | Still misses much of the same tails; reject default upgrade |
 | New MagicTouch 768, GPU | 30.53 MB | First 7.36s produced a tiny mask; next image threw `Segmentation failed` | Export/runtime combination not reliable enough here |
 | EdgeSAM 3× ONNX, CPU | 38.04 MB total | 12.42 / 11.86 / 12.71s with a fixed box | Single point often selects a Lego detail; boxes recover more but have holes. Fixed box clips part of view 1; no fair IoU claim |
-| EdgeSAM, WebGPU only | Same | Session creation failed at an unassigned Cast node | No deployable result from this export |
+| EdgeSAM, WebGPU only | Same | Session creation failed at an unassigned Cast node, including an explicit WebGPU + WASM retry | No deployable result from this export |
 | SAM 2.1 Hiera Tiny, quantized ONNX, CPU | 61.97 MB total | 73.13s for view 1 with a manual object box; stopped remaining views | Too slow for the requested phone flow |
 | Same SAM2, WebGPU | Same | 40.69s preparation; no completed inference before manual stop | Incomplete experiment, not a measured GPU latency |
 | YOLOE26n visual reference, ONNX CPU | 10.6 MB derived export | 2.33 / 2.16 / 2.34s; detects views 1/2, no detection over .25 in view 3 | Misses upper tail in view 1 and front view entirely; keep experimental |

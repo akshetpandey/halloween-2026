@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { api } from "./api";
 import { motionRequest } from "./motion-engine";
 import { FOX_POINTS, type FoxRig } from "./fox-rig";
 import { getSegmentationSession } from "./segmentation-session";
 import { cutoutPhoto, preparePhoto, type PreparedPhoto } from "./vision-engine";
 import { FoxAwakening } from "./FoxAwakening";
-import type { MotionBounds, MotionPose } from "../shared/guardian-motion";
+import {
+  motionPrompts,
+  type MotionBounds,
+  type MotionPose,
+} from "../shared/guardian-motion";
 type PointKey = keyof FoxRig | "corner1" | "corner2";
 export function GuardianMotionEditor({
   referenceId,
@@ -20,6 +24,7 @@ export function GuardianMotionEditor({
   onClose: () => void;
   onSaved: () => Promise<void>;
 }) {
+  const section = useRef<HTMLElement>(null);
   const [photo, setPhoto] = useState<PreparedPhoto | null>(null),
     [rig, setRig] = useState<FoxRig>({
       head: { x: 0.4, y: 0.5 },
@@ -39,8 +44,11 @@ export function GuardianMotionEditor({
     [error, setError] = useState(""),
     [status, setStatus] = useState(""),
     [cutout, setCutout] = useState(""),
-    [preview, setPreview] = useState(false);
+    [preview, setPreview] = useState(false),
+    [playing, setPlaying] = useState(true),
+    [puppetReady, setPuppetReady] = useState(false);
   useEffect(() => {
+    section.current?.scrollIntoView({ block: "start", behavior: "instant" });
     let alive = true,
       p: PreparedPhoto | undefined;
     void (async () => {
@@ -125,14 +133,7 @@ export function GuardianMotionEditor({
     try {
       const session = getSegmentationSession();
       await session.prepare(setStatus);
-      const points = [
-        {
-          x: (bounds.left + bounds.right) / 2,
-          y: (bounds.top + bounds.bottom) / 2,
-        },
-        ...(parts === "tail" ? [] : [rig.head]),
-        ...(parts === "head" ? [] : [rig.tail]),
-      ];
+      const points = motionPrompts({ rig, parts });
       const result = await session.segment(
         photo.blob,
         photo.key,
@@ -143,6 +144,7 @@ export function GuardianMotionEditor({
         throw Error("The outline needs a clearer reference.");
       setCutout(await cutoutPhoto(photo, result.segmentation));
       setPreview(true);
+      setPlaying(true);
       setStatus(
         "Previewing saved-style movement. Save when the points look right.",
       );
@@ -153,7 +155,7 @@ export function GuardianMotionEditor({
     }
   }
   return (
-    <section className="guardian-motion-editor">
+    <section ref={section} className="guardian-motion-editor">
       <span className="eyebrow">SAVED MOVEMENT · {name}</span>
       <h2>
         Give this view <em>a little life.</em>
@@ -169,9 +171,54 @@ export function GuardianMotionEditor({
         </p>
       )}
       {status && <p role="status">{status}</p>}
+      <div className="motion-toolbar">
+        <label>
+          Place a marker
+          <select
+            aria-label="Place a marker"
+            value={point}
+            disabled={busy}
+            onChange={(e) => {
+              setPoint(e.target.value as PointKey);
+              setPreview(false);
+            }}
+          >
+            {[
+              { key: "corner1", label: "Boundary: top left" },
+              { key: "corner2", label: "Boundary: bottom right" },
+              ...FOX_POINTS,
+            ].map(({ key, label }) => (
+              <option key={key} value={key}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Moving parts
+          <select
+            aria-label="Moving parts"
+            value={parts}
+            disabled={busy}
+            onChange={(e) => {
+              setParts(e.target.value as MotionPose["parts"]);
+              setPreview(false);
+            }}
+          >
+            <option value="both">Head and tail</option>
+            <option value="head">Head only</option>
+            <option value="tail">Tail only</option>
+          </select>
+        </label>
+      </div>
       {photo && (
         <div
-          className="lens-photo motion-setup-photo"
+          className={
+            "lens-photo motion-setup-photo " +
+            (preview
+              ? "is-awake is-fox " + (puppetReady ? "has-fox-puppet" : "")
+              : "")
+          }
           style={{ aspectRatio: `${photo.width}/${photo.height}` }}
           onClick={place}
         >
@@ -181,12 +228,15 @@ export function GuardianMotionEditor({
             alt={name + " movement reference"}
           />
           {preview && cutout && (
+            <img className="lens-cutout" src={cutout} alt="" />
+          )}
+          {preview && cutout && (
             <FoxAwakening
               src={cutout}
               rig={rig}
               parts={parts}
-              moving
-              onAvailable={() => {}}
+              moving={playing}
+              onAvailable={setPuppetReady}
             />
           )}
           {!preview && (
@@ -221,46 +271,16 @@ export function GuardianMotionEditor({
           )}
         </div>
       )}
-      <label>
-        Moving parts
-        <select
-          value={parts}
-          disabled={busy}
-          onChange={(e) => {
-            setParts(e.target.value as MotionPose["parts"]);
-            setPreview(false);
-          }}
-        >
-          <option value="both">Head and tail</option>
-          <option value="head">Head only</option>
-          <option value="tail">Tail only</option>
-        </select>
-      </label>
-      <div className="lens-rig-controls">
-        {[
-          { key: "corner1", label: "Boundary: top left" },
-          { key: "corner2", label: "Boundary: bottom right" },
-          ...FOX_POINTS,
-        ].map(({ key, label }) => (
-          <button
-            key={key}
-            className="btn secondary"
-            disabled={busy}
-            aria-pressed={!preview && point === key}
-            onClick={() => {
-              setPoint(key as PointKey);
-              setPreview(false);
-            }}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
       <p className="small muted">
         {preview
           ? "Movement plays even with Reduce Motion enabled."
           : `Choose a control, then tap its position in the photo. Selected: ${point}.`}
       </p>
+      {preview && (
+        <button className="text-button" onClick={() => setPlaying(!playing)}>
+          {playing ? "Let it rest" : "Wake it again"}
+        </button>
+      )}
       <div className="lens-actions">
         <button
           className="btn"

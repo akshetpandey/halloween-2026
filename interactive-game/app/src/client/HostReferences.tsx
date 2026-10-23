@@ -52,7 +52,7 @@ export function HostReferences() {
     setError("");
     let saved = 0;
     const errors: string[] = [];
-    engine.current = new VisionEngine();
+    engine.current = new VisionEngine("wasm");
     try {
       for (const [i, file] of files.entries()) {
         if (!alive.current) break;
@@ -99,6 +99,38 @@ export function HostReferences() {
       engine.current?.close();
       engine.current = null;
       if (alive.current) setBusy(false);
+    }
+  }
+  async function refreshFeatures() {
+    const stale = photos.filter((p) => p.needsProcessing);
+    if (!stale.length) return;
+    setBusy(true);
+    setError("");
+    engine.current = new VisionEngine("wasm");
+    try {
+      for (const [i, p] of stale.entries()) {
+        if (!alive.current) break;
+        setStatus(`Refreshing saved view ${i + 1} of ${stale.length}…`);
+        const response = await fetch("/api/admin/vision/references/" + p.id);
+        if (!response.ok) throw Error("Could not open a saved view.");
+        const result = await engine.current.request(
+          "embed",
+          await response.blob(),
+          p.id,
+        );
+        await api("/admin/vision/references/" + p.id + "/features", "POST", {
+          model: VISION_MODEL,
+          vector: result.vector,
+        });
+      }
+      await load();
+      setStatus("Saved views refreshed for the fast lens.");
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      engine.current?.close();
+      engine.current = null;
+      setBusy(false);
     }
   }
   async function remove(ref: string) {
@@ -203,7 +235,7 @@ export function HostReferences() {
               <h3>{chosen?.name ?? "The ordinary room"}</h3>
               <p>
                 {chosen
-                  ? "Keep the whole guardian clear in the photo, with a little space around it. Add its front, both sides, and a few views in dim light. Photos of this exact object work better than illustrations."
+                  ? "Centre the whole guardian inside the middle square of the photo, with a little space around it. Add its front, both sides, and a few views in dim light. Photos of this exact object work better than illustrations."
                   : "Add an empty shelf, nearby decoration or ordinary room object. These teach the lens when to say ‘not a guardian’."}
               </p>
               <p className="small muted">
@@ -245,6 +277,18 @@ export function HostReferences() {
               placeholder="e.g. front and sides, purple room light"
             />
           </label>
+          {photos.some((p) => p.needsProcessing) && (
+            <div className="panel">
+              <p>These saved photos need features for the new fast lens.</p>
+              <button
+                className="btn"
+                disabled={busy}
+                onClick={() => void refreshFeatures()}
+              >
+                Refresh saved views
+              </button>
+            </div>
+          )}
           <div className="reference-upload">
             <label className="btn file-button">
               <ImagePlus size={18} />
@@ -355,11 +399,11 @@ export function HostReferences() {
               </button>
             </div>
             <p className="small muted">
-              DINOv3 recognition and SlimSAM outlines run locally. Automatic
-              mode prefers WebGPU, with WASM CPU fallback. The test view reports
-              the selected backend and timing. Model/runtime files are
-              downloaded on first use and cached. A LiDAR scan is not required:
-              use normal photos from any phone.
+              The small MobileNet recognizer runs locally on a warmed CPU model.
+              SlimSAM outlines prefer WebGPU, with WASM CPU fallback. The test
+              view reports the selected backend and timing. Model/runtime files
+              are downloaded on first use and cached. A LiDAR scan is not
+              required: use normal photos from any phone.
             </p>
           </details>
         </>

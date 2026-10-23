@@ -13,6 +13,7 @@ type ReferenceRow = {
   vector: string;
   created_at: number;
   note: string;
+  model_version: string;
 };
 async function settings(env: Env) {
   return (await env.DB.prepare(
@@ -22,22 +23,24 @@ async function settings(env: Env) {
 export async function visionManifest(env: Env, host = false) {
   const rows = (
     await env.DB.prepare(
-      `SELECT r.id,r.guardian_id,r.vector,r.created_at,r.note FROM vision_references r
+      `SELECT r.id,r.guardian_id,r.vector,r.created_at,r.note,r.model_version FROM vision_references r
     LEFT JOIN vision_guardians g ON g.guardian_id=r.guardian_id
-    WHERE r.model_version=? ${host ? "" : "AND (r.guardian_id IS NULL OR COALESCE(g.enabled,1)=1)"}
+    WHERE (r.model_version=? OR ?=1) ${host ? "" : "AND (r.guardian_id IS NULL OR COALESCE(g.enabled,1)=1)"}
     ORDER BY r.created_at,r.id`,
     )
-      .bind(VISION_MODEL)
+      .bind(VISION_MODEL, host ? 1 : 0)
       .all<ReferenceRow>()
   ).results;
   const manifest: VisionManifest = {
     model: VISION_MODEL,
     settings: await settings(env),
-    references: rows.map((r) => ({
-      id: r.id,
-      guardianId: r.guardian_id,
-      vector: JSON.parse(r.vector),
-    })),
+    references: rows
+      .filter((r) => r.model_version === VISION_MODEL)
+      .map((r) => ({
+        id: r.id,
+        guardianId: r.guardian_id,
+        vector: JSON.parse(r.vector),
+      })),
   };
   if (!host) return manifest;
   const enabled = (
@@ -52,6 +55,7 @@ export async function visionManifest(env: Env, host = false) {
       guardianId: r.guardian_id,
       createdAt: r.created_at,
       note: r.note,
+      needsProcessing: r.model_version !== VISION_MODEL,
     })),
     guardians: guardians.map((g) => ({
       id: g.id,
@@ -201,6 +205,31 @@ export async function visionAdmin(
       throw error;
     }
     return json({ id: ref }, 201);
+  }
+  const features = path.match(
+    /^\/api\/admin\/vision\/references\/([a-f0-9]{32})\/features$/,
+  );
+  if (features && request.method === "POST") {
+    let input: Record<string, unknown>;
+    try {
+      input = JSON.parse(
+        new TextDecoder().decode(await readBody(request, 64000)),
+      );
+    } catch (error) {
+      if (error instanceof Response) throw error;
+      fail("Image features could not be read.", 422);
+    }
+    if (!input || input.model !== VISION_MODEL)
+      fail("Reload to use the current lens model.", 409);
+    const vector = normalizeVector(input.vector);
+    if (!vector) fail("Image features are incomplete.", 422);
+    const result = await env.DB.prepare(
+      "UPDATE vision_references SET vector=?,model_version=? WHERE id=?",
+    )
+      .bind(JSON.stringify(vector), VISION_MODEL, features[1])
+      .run();
+    if (!result.meta.changes) fail("Reference photo unavailable.", 404);
+    return json({ ok: true });
   }
   const match = path.match(
     /^\/api\/admin\/vision\/references\/([a-f0-9]{32})$/,

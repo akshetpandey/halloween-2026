@@ -3,12 +3,13 @@ import {
   normalizeVector,
   VISION_ASSETS,
   VISION_DIMENSIONS,
+  RECOGNITION_ASSETS,
 } from "../shared/vision";
 
 export type VisionRequest = {
   id: number;
-  kind: "embed" | "segment";
-  image: Blob;
+  kind: "prepare" | "embed" | "segment";
+  image: Blob | ImageBitmap;
   imageKey: string;
   point?: { x: number; y: number };
   backend?: "auto" | "wasm";
@@ -31,6 +32,7 @@ export type VisionReply = {
   segmentation?: MaskResult;
   backend?: string;
   retryCPU?: boolean;
+  ready?: boolean;
 };
 let ort: typeof Ort,
   preferGPU = false,
@@ -82,7 +84,7 @@ async function session(
   sessionBackends.set(result, "WASM CPU");
   return result;
 }
-let dino: Ort.InferenceSession | null = null;
+let embedder: Ort.InferenceSession | null = null;
 let decoder: Ort.InferenceSession | null = null;
 let imageCache: {
   key: string;
@@ -101,8 +103,13 @@ function progress(id: number, text: string) {
 function dispose(tensors: Record<string, Ort.Tensor>) {
   for (const t of Object.values(tensors)) t.dispose();
 }
-async function asset(name: string, id: number, label: string) {
-  const response = await fetch(VISION_ASSETS + name, { cache: "force-cache" });
+async function asset(
+  name: string,
+  id: number,
+  label: string,
+  base = VISION_ASSETS,
+) {
+  const response = await fetch(base + name, { cache: "force-cache" });
   if (
     !response.ok ||
     response.headers.get("Content-Type")?.includes("text/html")
@@ -143,12 +150,26 @@ function pixels(
   width: number,
   height: number,
   padded = false,
+  crop = false,
 ) {
   const canvas = new OffscreenCanvas(width, height),
     ctx = canvas.getContext("2d")!;
   ctx.imageSmoothingEnabled = true;
   ctx.imageSmoothingQuality = "high";
-  ctx.drawImage(image, 0, 0, width, height);
+  if (crop) {
+    const side = Math.min(image.width, image.height) * 0.875;
+    ctx.drawImage(
+      image,
+      (image.width - side) / 2,
+      (image.height - side) / 2,
+      side,
+      side,
+      0,
+      0,
+      width,
+      height,
+    );
+  } else ctx.drawImage(image, 0, 0, width, height);
   const rgba = ctx.getImageData(0, 0, width, height).data;
   const side = padded ? 1024 : width,
     fullHeight = padded ? 1024 : height;
@@ -178,58 +199,68 @@ async function releaseModels() {
     dispose(imageCache.embeddings);
     imageCache = null;
   }
-  const sessions = [dino, decoder];
-  dino = null;
+  const sessions = [embedder, decoder];
+  embedder = null;
   decoder = null;
   await Promise.all(sessions.map((model) => model?.release().catch(() => {})));
 }
-async function embed(job: VisionRequest) {
+async function prepareRecognition(job: VisionRequest) {
+  if (embedder) return;
+  progress(
+    job.id,
+    "Preparing the fast lens · first use downloads its small recognition model",
+  );
+  const graph = await asset(
+    "mobilenet-features.onnx",
+    job.id,
+    "Preparing the fast lens",
+    RECOGNITION_ASSETS,
+  );
+  embedder = await session(graph, job, { graphOptimizationLevel: "all" });
+}
+async function warm(job: VisionRequest) {
   const started = performance.now();
-  if (!dino) {
-    // Release the previous segmentation image before loading the other model.
-    if (imageCache) {
-      dispose(imageCache.embeddings);
-      imageCache = null;
-    }
-    if (decoder) {
-      await decoder.release();
-      decoder = null;
-    }
-    progress(
-      job.id,
-      "Preparing the eyes of the wood · first use may take a moment",
-    );
-    const graph = await asset("dino.onnx", job.id, "Preparing recognition");
-    const data = await asset(
-      "model_quantized.onnx_data",
-      job.id,
-      "Preparing recognition",
-    );
-    dino = await session(graph, job, {
-      externalData: [{ path: "model_quantized.onnx_data", data }],
-      graphOptimizationLevel: "all",
-    });
+  await prepareRecognition(job);
+  const input = new ort.Tensor(
+    "float32",
+    new Float32Array(3 * 224 * 224),
+    [1, 3, 224, 224],
+  );
+  let out: Record<string, Ort.Tensor> | undefined;
+  try {
+    out = await run(embedder!, { pixel_values: input });
+  } finally {
+    input.dispose();
+    if (out) dispose(out);
   }
-  progress(job.id, "Looking for a familiar creature…");
-  const image = await createImageBitmap(job.image);
-  const input = pixels(image, 224, 224);
+  self.postMessage({
+    id: job.id,
+    ready: true,
+    ms: performance.now() - started,
+    backend: sessionBackends.get(embedder!),
+  } satisfies VisionReply);
+}
+async function embed(job: VisionRequest) {
+  await prepareRecognition(job);
+  const started = performance.now();
+  const image =
+    job.image instanceof Blob ? await createImageBitmap(job.image) : job.image;
+  const input = pixels(image, 224, 224, false, true);
   image.close();
   let out: Record<string, Ort.Tensor> | undefined;
   try {
-    out = await run(dino, { pixel_values: input });
-    const features = out.pooler_output ?? out.last_hidden_state;
-    if (!features)
-      throw Error("The recognition model returned no image features.");
-    const vector = normalizeVector(
-      Array.from(features.data.slice(0, VISION_DIMENSIONS), Number),
-    );
+    out = await run(embedder!, { pixel_values: input });
+    const features = out["/flatten/Flatten_output_0"];
+    if (!features || features.data.length !== VISION_DIMENSIONS)
+      throw Error("The lens returned incomplete image features.");
+    const vector = normalizeVector(Array.from(features.data, Number));
     if (!vector)
-      throw Error("The photo could not be read. Move closer and try again.");
+      throw Error("The frame could not be read. Move closer and try again.");
     self.postMessage({
       id: job.id,
       vector,
       ms: performance.now() - started,
-      backend: sessionBackends.get(dino),
+      backend: sessionBackends.get(embedder!),
     } satisfies VisionReply);
   } finally {
     input.dispose();
@@ -243,9 +274,9 @@ async function segment(job: VisionRequest) {
       dispose(imageCache.embeddings);
       imageCache = null;
     }
-    if (dino) {
-      await dino.release();
-      dino = null;
+    if (embedder) {
+      await embedder.release();
+      embedder = null;
     }
     progress(job.id, "Something stirs · preparing its outline");
     const graph = await asset(
@@ -256,7 +287,10 @@ async function segment(job: VisionRequest) {
     const encoder = await session(graph, job, {
       graphOptimizationLevel: "all",
     });
-    const image = await createImageBitmap(job.image);
+    const image =
+      job.image instanceof Blob
+        ? await createImageBitmap(job.image)
+        : job.image;
     const ratio = 1024 / Math.max(image.width, image.height),
       width = image.width,
       height = image.height;
@@ -367,7 +401,12 @@ self.onmessage = (event: MessageEvent<VisionRequest>) => {
   queue = queue.then(async () => {
     try {
       await runtime(job);
-      const execute = () => (job.kind === "embed" ? embed(job) : segment(job));
+      const execute = () =>
+        job.kind === "prepare"
+          ? warm(job)
+          : job.kind === "embed"
+            ? embed(job)
+            : segment(job);
       try {
         await execute();
       } catch (error) {

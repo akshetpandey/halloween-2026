@@ -1,6 +1,7 @@
-export const VISION_MODEL = "dinov3-vits16-q8-48988dfe-cls-v1";
-export const VISION_DIMENSIONS = 384;
+export const VISION_MODEL = "mobilenetv3-small-f32-b1a19675-features-v2";
+export const VISION_DIMENSIONS = 1024;
 export const VISION_ASSETS = "/models/hc-vision-48988dfe-5850ab45-ort130-v1/";
+export const RECOGNITION_ASSETS = "/models/hc-lens-mbv3-b1a19675-f32-v2/";
 export const MAX_REFERENCES = 40;
 export type VisionSettings = { threshold: number; margin: number };
 export type VisionReference = {
@@ -18,6 +19,7 @@ export type HostReference = {
   guardianId: string | null;
   createdAt: number;
   note: string;
+  needsProcessing: boolean;
 };
 export type HostVision = VisionManifest & {
   photos: HostReference[];

@@ -596,6 +596,61 @@ describe("guardian camera prototype", () => {
       expect(JSON.stringify(publicManifest)).not.toMatch(
         /photo_key|photo_hash|note|tag_code|guardian-reference/,
       );
+      // Upgrade a saved v1 reference without replacing or exposing its original photo.
+      await wranglerJson([
+        "d1",
+        "execute",
+        "DB",
+        "--local",
+        "--json",
+        "--command",
+        `UPDATE vision_references SET model_version='dinov3-v1-fixture',vector='${JSON.stringify([1, ...Array(383).fill(0)])}' WHERE id='${id}'`,
+      ]);
+      const staleManifest = await (await host.req("/admin/vision")).json();
+      expect(
+        staleManifest.photos.find((p: { id: string }) => p.id === id)
+          .needsProcessing,
+      ).toBe(true);
+      expect(
+        staleManifest.references.some((r: { id: string }) => r.id === id),
+      ).toBe(false);
+      expect(
+        (await (await guest.req("/vision/references")).json()).references.some(
+          (r: { id: string }) => r.id === id,
+        ),
+      ).toBe(false);
+      const featurePath = "/admin/vision/references/" + id + "/features";
+      const upgrade = { model: VISION_MODEL, vector: features };
+      expect((await anon.req(featurePath, "POST", upgrade)).status).toBe(401);
+      expect((await guest.req(featurePath, "POST", upgrade)).status).toBe(401);
+      expect(
+        (await host.req(featurePath, "POST", { ...upgrade, model: "stale" }))
+          .status,
+      ).toBe(409);
+      expect(
+        (
+          await host.req(featurePath, "POST", {
+            ...upgrade,
+            vector: [1, ...Array(383).fill(0)],
+          })
+        ).status,
+      ).toBe(422);
+      expect((await host.req(featurePath, "POST", upgrade)).status).toBe(200);
+      const refreshed = await (await host.req("/admin/vision")).json();
+      expect(
+        refreshed.photos.find((p: { id: string }) => p.id === id)
+          .needsProcessing,
+      ).toBe(false);
+      expect(
+        refreshed.references.find((r: { id: string }) => r.id === id).vector,
+      ).toEqual(features);
+      expect([
+        ...new Uint8Array(
+          await (
+            await host.req("/admin/vision/references/" + id)
+          ).arrayBuffer(),
+        ),
+      ]).toEqual([...jpg]);
       const before = await guest.json("/state");
       const encounter = await guest.req("/vision/encounter", "POST", {
         guardianId: "BUY-02",

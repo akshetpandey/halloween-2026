@@ -21,7 +21,18 @@ if (!photo)
 const mean = [0.485, 0.456, 0.406],
   std = [0.229, 0.224, 0.225];
 async function input(width, height, pad = false) {
-  const data = await sharp(photo)
+  let image = sharp(photo);
+  if (!pad) {
+    const meta = await image.metadata();
+    const side = Math.floor(Math.min(meta.width, meta.height) * 0.875);
+    image = image.extract({
+      left: Math.floor((meta.width - side) / 2),
+      top: Math.floor((meta.height - side) / 2),
+      width: side,
+      height: side,
+    });
+  }
+  const data = await image
     .resize(width, height, { fit: "fill" })
     .removeAlpha()
     .toColourspace("srgb")
@@ -54,23 +65,44 @@ async function model(name, external = false) {
       : {}),
   });
 }
-const dino = await model("dino.onnx", true),
+const recognizer = await ort.InferenceSession.create(
+    await readFile(
+      new URL(
+        "../public/models/hc-lens-mbv3-b1a19675-f32-v2/mobilenet-features.onnx",
+        import.meta.url,
+      ),
+    ),
+    { executionProviders: ["wasm"] },
+  ),
   small = await input(224, 224),
   start = performance.now();
-const features = await dino.run({ pixel_values: small });
+const features = await recognizer.run({ pixel_values: small });
 if (
-  features.pooler_output.data.length !== 384 ||
-  !Array.from(features.pooler_output.data).every(Number.isFinite)
+  features["/flatten/Flatten_output_0"].data.length !== 1024 ||
+  !Array.from(features["/flatten/Flatten_output_0"].data).every(Number.isFinite)
 )
-  throw Error("Invalid DINO features");
+  throw Error("Invalid MobileNet features");
 console.log(
-  "DINO: finite 384-value embedding, " +
+  "MobileNet: finite 1024-value embedding, " +
     Math.round(performance.now() - start) +
     "ms inference",
 );
 small.dispose();
 Object.values(features).forEach((t) => t.dispose());
-await dino.release();
+const times = [];
+const benchInput = await input(224, 224);
+for (let i = 0; i < 20; i++) {
+  const start = performance.now();
+  const result = await recognizer.run({ pixel_values: benchInput });
+  times.push(performance.now() - start);
+  Object.values(result).forEach((t) => t.dispose());
+}
+times.sort((a, b) => a - b);
+console.log(
+  `MobileNet warmed CPU: median ${times[10].toFixed(1)}ms, p95 ${times[18].toFixed(1)}ms over 20 inferences (not a phone benchmark)`,
+);
+benchInput.dispose();
+await recognizer.release();
 const meta = await sharp(photo).metadata(),
   ratio = 1024 / Math.max(meta.width, meta.height),
   width = Math.round(meta.width * ratio),

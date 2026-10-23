@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "dev:worker": "wrangler dev --port 8787",
-    "build": "node scripts/prepare-vision.mjs && tsc --noEmit && vite build",
-    "models:prepare": "node scripts/prepare-vision.mjs",
+    "build": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs && tsc --noEmit && vite build",
+    "models:prepare": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs",
     "types": "wrangler types --strict-vars=false",
     "test": "vitest run",
     "deploy": "npm run build && wrangler deploy",
@@ -35,6 +35,7 @@
     "@vitejs/plugin-react": "^6.1.1",
     "jsqr": "^1.4.0",
     "prettier": "^3.9.6",
+    "protobufjs": "^8.8.1",
     "sharp": "^0.35.4",
     "typescript": "^7.0.2",
     "vite": "^8.2.2",

@@ -3,10 +3,14 @@ import { Camera, ImagePlus, Leaf, RefreshCw, X } from "lucide-react";
 import { guardians } from "../shared/catalog";
 import {
   matchGuardian,
-  VISION_MODEL,
   type VisionManifest,
   type VisionMatch,
 } from "../shared/vision";
+import {
+  StableGuardian,
+  SCAN_INTERVAL_MS,
+  STABLE_FRAMES,
+} from "../shared/vision-live";
 import { api } from "./api";
 import { GuardianArt } from "./Art";
 import {
@@ -15,9 +19,8 @@ import {
   cutoutPhoto,
   type PreparedPhoto,
 } from "./vision-engine";
-import type { MaskResult } from "./vision.worker";
+import type { MaskResult, VisionReply } from "./vision.worker";
 import "./vision.css";
-
 export function GuardianLens({
   manifest: provided,
   host = false,
@@ -33,27 +36,40 @@ export function GuardianLens({
   const [photo, setPhoto] = useState<PreparedPhoto | null>(null),
     [cutout, setCutout] = useState("");
   const [phase, setPhase] = useState<
-    "idle" | "camera" | "reading" | "unknown" | "outlining" | "awake"
+    "idle" | "camera" | "reading" | "unknown" | "awake"
   >("idle");
   const [progress, setProgress] = useState(""),
     [error, setError] = useState("");
   const [match, setMatch] = useState<VisionMatch | null>(null),
     [outline, setOutline] = useState<MaskResult | null>(null);
+  const [outlining, setOutlining] = useState(false),
+    [modelReady, setModelReady] = useState(false),
+    [prepareProgress, setPrepareProgress] = useState(
+      "Preparing the fast lens…",
+    );
   const [details, setDetails] = useState({
     embedBackend: "",
     segmentBackend: "",
     embedMs: 0,
     segmentMs: 0,
+    prepareMs: 0,
+    liveMs: 0,
+    frames: 0,
   });
+  const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [backend, setBackend] = useState<"auto" | "wasm">("auto"),
     [continuing, setContinuing] = useState(false);
-  const engine = useRef<VisionEngine | null>(null),
-    stream = useRef<MediaStream | null>(null),
-    video = useRef<HTMLVideoElement>(null);
+  const recognizer = useRef<VisionEngine | null>(null),
+    outlineEngine = useRef<VisionEngine | null>(null),
+    warmPromise = useRef<Promise<VisionReply> | null>(null);
+  const stream = useRef<MediaStream | null>(null),
+    video = useRef<HTMLVideoElement>(null),
+    clip = useRef("");
   const action = useRef(0),
+    mounted = useRef(true),
     currentPhoto = useRef<PreparedPhoto | null>(null),
     cutoutRef = useRef("");
-  const busy = phase === "reading" || phase === "outlining";
+  const busy = phase === "reading";
   const guardian = guardians.find((g) => g.id === match?.guardianId);
   const ready = !!manifest?.references.some((r) => r.guardianId);
   async function load() {
@@ -62,23 +78,77 @@ export function GuardianLens({
   useEffect(() => {
     void load().catch((e) => setError(e.message));
   }, [provided]);
+  function getRecognizer() {
+    if (!recognizer.current || recognizer.current.closed) {
+      recognizer.current = new VisionEngine("wasm");
+      warmPromise.current = null;
+    }
+    return recognizer.current;
+  }
+  function warmRecognizer() {
+    const engine = getRecognizer();
+    if (!warmPromise.current) {
+      setModelReady(false);
+      warmPromise.current = engine
+        .prepare((text) => {
+          if (mounted.current) setPrepareProgress(text);
+        })
+        .then((result) => {
+          if (mounted.current) {
+            setModelReady(true);
+            setPrepareProgress("Lens ready · live frames stay on your phone");
+            setDetails((old) => ({ ...old, prepareMs: result.ms ?? 0 }));
+          }
+          return result;
+        })
+        .catch((error) => {
+          engine.close();
+          warmPromise.current = null;
+          throw error;
+        });
+    }
+    return warmPromise.current;
+  }
+  useEffect(() => {
+    if (ready)
+      void warmRecognizer().catch((e) => {
+        if (mounted.current) setError(e.message);
+      });
+  }, [ready]);
   function stopCamera() {
     stream.current?.getTracks().forEach((t) => t.stop());
     stream.current = null;
+    if (video.current) {
+      video.current.pause();
+      video.current.srcObject = null;
+    }
+    if (clip.current) URL.revokeObjectURL(clip.current);
+    clip.current = "";
   }
-  function stopEngine() {
-    engine.current?.close();
-    engine.current = null;
+  function stopOutline() {
+    outlineEngine.current?.close();
+    outlineEngine.current = null;
+    setOutlining(false);
   }
   function reset() {
     action.current++;
     stopCamera();
-    stopEngine();
+    stopOutline();
     setPhase("idle");
     setError("");
     setMatch(null);
     setOutline(null);
     setProgress("");
+    setLive({ count: 0, frames: 0, ms: 0 });
+    setDetails((old) => ({
+      ...old,
+      liveMs: 0,
+      frames: 0,
+      embedMs: 0,
+      embedBackend: "",
+      segmentMs: 0,
+      segmentBackend: "",
+    }));
     if (currentPhoto.current) URL.revokeObjectURL(currentPhoto.current.url);
     currentPhoto.current = null;
     setPhoto(null);
@@ -86,82 +156,72 @@ export function GuardianLens({
     cutoutRef.current = "";
     setCutout("");
   }
-  useEffect(
-    () => () => {
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
       action.current++;
       stopCamera();
-      stopEngine();
+      recognizer.current?.close();
+      outlineEngine.current?.close();
       if (currentPhoto.current) URL.revokeObjectURL(currentPhoto.current.url);
       if (cutoutRef.current) URL.revokeObjectURL(cutoutRef.current);
-    },
-    [],
-  );
-  useEffect(() => {
-    if (phase === "camera" && video.current && stream.current) {
-      video.current.srcObject = stream.current;
-      void video.current
-        .play()
-        .catch(() =>
-          setError("Tap the camera button again or choose a photo below."),
-        );
-    }
-  }, [phase]);
+    };
+  }, []);
   useEffect(() => {
     const hide = () => {
-      if (document.hidden && stream.current) {
-        stopCamera();
-        setPhase("idle");
-      }
+      if (document.hidden && (stream.current || clip.current)) reset();
     };
     document.addEventListener("visibilitychange", hide);
     return () => document.removeEventListener("visibilitychange", hide);
   }, []);
-  function getEngine() {
-    if (!engine.current || engine.current.closed)
-      engine.current = new VisionEngine(backend);
-    return engine.current;
+  function frameCanvas(v: HTMLVideoElement, maxEdge = 1280) {
+    const viewWidth = v.clientWidth || 3,
+      viewHeight = v.clientHeight || 4;
+    const scale = Math.max(
+      viewWidth / v.videoWidth,
+      viewHeight / v.videoHeight,
+    );
+    const width = viewWidth / scale,
+      height = viewHeight / scale,
+      ratio = Math.min(1, maxEdge / Math.max(width, height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(width * ratio));
+    canvas.height = Math.max(1, Math.round(height * ratio));
+    canvas
+      .getContext("2d")!
+      .drawImage(
+        v,
+        (v.videoWidth - width) / 2,
+        (v.videoHeight - height) / 2,
+        width,
+        height,
+        0,
+        0,
+        canvas.width,
+        canvas.height,
+      );
+    return canvas;
   }
-  async function openCamera() {
-    reset();
-    const attempt = action.current;
-    try {
-      if (!navigator.mediaDevices?.getUserMedia)
-        throw Error(
-          "The live camera is unavailable here. Use Take a photo below, or open this page in Safari or Chrome.",
-        );
-      const media = await navigator.mediaDevices.getUserMedia({
-        video: {
-          facingMode: { ideal: "environment" },
-          width: { ideal: 1280 },
-          height: { ideal: 960 },
-        },
-        audio: false,
-      });
-      if (attempt !== action.current) {
-        media.getTracks().forEach((t) => t.stop());
-        return;
-      }
-      stream.current = media;
-      setPhase("camera");
-    } catch (e) {
-      if (attempt === action.current)
-        setError(
-          e instanceof DOMException && e.name === "NotAllowedError"
-            ? "Camera access was declined. You can allow it in browser settings, or choose a photo below."
-            : (e as Error).message,
-        );
-    }
+  async function snapshot(v: HTMLVideoElement) {
+    const canvas = frameCanvas(v);
+    const blob = await new Promise<Blob | null>((resolve) =>
+      canvas.toBlob(resolve, "image/jpeg", 0.9),
+    );
+    if (!blob) throw Error("The frame could not be captured.");
+    return blob;
   }
   async function outlinePhoto(
     p: PreparedPhoto,
     attempt: number,
     point = { x: 0.5, y: 0.5 },
   ) {
-    setPhase("outlining");
-    setError("");
-    setProgress("Something in the photograph is waking…");
+    setOutlining(true);
+    setProgress("Tracing its shape · you can enter the trial now");
     try {
-      const result = await getEngine().request(
+      if (!outlineEngine.current || outlineEngine.current.closed)
+        outlineEngine.current = new VisionEngine(backend);
+      const result = await outlineEngine.current.request(
         "segment",
         p.blob,
         p.key,
@@ -192,21 +252,49 @@ export function GuardianLens({
         cutoutRef.current = "";
         setCutout("");
         setError(
-          "The outline caught the wrong shape. Tap the creature in the photograph to trace it again.",
+          "Tap the creature in your photograph to trace its outline again.",
         );
       }
     } catch (e) {
       if (attempt === action.current)
         setError(
-          "The creature was recognized, but its outline could not be drawn on this attempt. You can still meet it. " +
+          "The creature is ready. Its outline can wait. " +
             (host ? (e as Error).message : ""),
         );
     } finally {
       if (attempt === action.current) {
-        setPhase("awake");
+        setOutlining(false);
         setProgress("");
       }
     }
+  }
+  async function reveal(
+    file: Blob,
+    found: VisionMatch,
+    result: VisionReply,
+    attempt: number,
+    liveMs = 0,
+    frames = 0,
+  ) {
+    const p = await preparePhoto(file);
+    if (attempt !== action.current) {
+      URL.revokeObjectURL(p.url);
+      return;
+    }
+    currentPhoto.current = p;
+    setPhoto(p);
+    setMatch(found);
+    setPhase("awake");
+    setDetails((old) => ({
+      ...old,
+      embedBackend: result.backend || "",
+      embedMs: result.ms || 0,
+      segmentBackend: "",
+      segmentMs: 0,
+      liveMs,
+      frames,
+    }));
+    void outlinePhoto(p, attempt);
   }
   async function recognize(file: Blob) {
     if (!manifest || !ready) return;
@@ -214,37 +302,33 @@ export function GuardianLens({
     const attempt = action.current;
     setPhase("reading");
     try {
+      await warmRecognizer();
+      if (attempt !== action.current) return;
       const p = await preparePhoto(file);
       if (attempt !== action.current) {
         URL.revokeObjectURL(p.url);
         return;
       }
-      currentPhoto.current = p;
-      setPhoto(p);
-      const started = performance.now();
-      const result = await getEngine().request(
-        "embed",
-        p.blob,
-        p.key,
-        (text) => {
-          if (attempt === action.current) setProgress(text);
-        },
-      );
-      if (attempt !== action.current) return;
+      const result = await getRecognizer().request("embed", p.blob, p.key);
       const found = matchGuardian(result.vector!, manifest);
-      setMatch(found);
-      setDetails({
-        embedBackend: result.backend || "",
-        segmentBackend: "",
-        embedMs: performance.now() - started,
-        segmentMs: 0,
-      });
-      if (!found.guardianId) {
-        setPhase("unknown");
-        setProgress("");
+      if (attempt !== action.current) {
+        URL.revokeObjectURL(p.url);
         return;
       }
-      await outlinePhoto(p, attempt);
+      if (!found.guardianId) {
+        currentPhoto.current = p;
+        setPhoto(p);
+        setMatch(found);
+        setPhase("unknown");
+        setDetails((old) => ({
+          ...old,
+          embedMs: result.ms || 0,
+          embedBackend: result.backend || "",
+        }));
+        return;
+      }
+      URL.revokeObjectURL(p.url);
+      await reveal(file, found, result, attempt);
     } catch (e) {
       if (attempt === action.current) {
         setError((e as Error).message);
@@ -252,59 +336,156 @@ export function GuardianLens({
       }
     }
   }
+  async function scan(v: HTMLVideoElement, attempt: number) {
+    if (!manifest) return;
+    try {
+      await warmRecognizer();
+      if (attempt !== action.current) return;
+      const stable = new StableGuardian(),
+        started = performance.now();
+      let lastTime = -1,
+        frames = 0;
+      while (attempt === action.current && !document.hidden) {
+        if (v.readyState < 2 || !v.videoWidth || v.currentTime === lastTime) {
+          await new Promise((r) => setTimeout(r, 80));
+          continue;
+        }
+        lastTime = v.currentTime;
+        const begin = performance.now();
+        // One transferable frame in flight; the worker downsamples directly to 224px.
+        // Avoid an extra low-resolution resize, which distorts small prop details.
+        const bitmap = await createImageBitmap(frameCanvas(v, 960));
+        if (attempt !== action.current) {
+          bitmap.close();
+          return;
+        }
+        const result = await getRecognizer().request(
+          "embed",
+          bitmap,
+          "live-" + frames,
+        );
+        if (attempt !== action.current) return;
+        const found = matchGuardian(result.vector!, manifest),
+          streak = stable.observe(found.guardianId, performance.now());
+        frames++;
+        setLive({
+          count: Math.min(STABLE_FRAMES, streak.count),
+          frames,
+          ms: result.ms || 0,
+        });
+        if (host) setMatch(found);
+        if (streak.stable) {
+          const file = await snapshot(v);
+          if (attempt !== action.current) return;
+          stopCamera();
+          await reveal(
+            file,
+            found,
+            result,
+            attempt,
+            performance.now() - started,
+            frames,
+          );
+          return;
+        }
+        await new Promise((r) =>
+          setTimeout(
+            r,
+            Math.max(0, SCAN_INTERVAL_MS - (performance.now() - begin)),
+          ),
+        );
+      }
+    } catch (e) {
+      if (attempt === action.current) {
+        stopCamera();
+        setError((e as Error).message);
+        setPhase("idle");
+      }
+    }
+  }
+  useEffect(() => {
+    if (phase !== "camera" || !video.current) return;
+    const v = video.current,
+      attempt = action.current;
+    if (clip.current) v.src = clip.current;
+    else if (stream.current) v.srcObject = stream.current;
+    void v
+      .play()
+      .then(() => scan(v, attempt))
+      .catch((e) => {
+        if (attempt === action.current) {
+          setError(
+            "The video could not start. Choose another photo or camera. " +
+              (host ? e.message : ""),
+          );
+          stopCamera();
+          setPhase("idle");
+        }
+      });
+  }, [phase]);
+  async function openCamera() {
+    reset();
+    const attempt = action.current;
+    try {
+      if (!navigator.mediaDevices?.getUserMedia)
+        throw Error(
+          "The live camera is unavailable. Use the phone camera or choose a photo below.",
+        );
+      const media = await navigator.mediaDevices.getUserMedia({
+        video: {
+          facingMode: { ideal: "environment" },
+          width: { ideal: 1280 },
+          height: { ideal: 960 },
+        },
+        audio: false,
+      });
+      if (attempt !== action.current) {
+        media.getTracks().forEach((t) => t.stop());
+        return;
+      }
+      stream.current = media;
+      setPhase("camera");
+    } catch (e) {
+      if (attempt === action.current)
+        setError(
+          e instanceof DOMException && e.name === "NotAllowedError"
+            ? "Camera access was declined. Allow it in browser settings, or choose a photo below."
+            : (e as Error).message,
+        );
+    }
+  }
+  function openTestVideo(file: File) {
+    reset();
+    if (file.size > 50 * 1024 * 1024) {
+      setError("Choose a test video up to 50 MB.");
+      return;
+    }
+    clip.current = URL.createObjectURL(file);
+    setPhase("camera");
+  }
   async function capture() {
     const v = video.current;
-    if (!v || !v.videoWidth) return;
-    const canvas = document.createElement("canvas");
-    // Match the visible object-fit: cover framing rather than capturing unseen sides.
-    const scale = Math.max(
-      v.clientWidth / v.videoWidth,
-      v.clientHeight / v.videoHeight,
-    );
-    const width = v.clientWidth / scale,
-      height = v.clientHeight / scale;
-    canvas.width = Math.round(width);
-    canvas.height = Math.round(height);
-    canvas
-      .getContext("2d")!
-      .drawImage(
-        v,
-        (v.videoWidth - width) / 2,
-        (v.videoHeight - height) / 2,
-        width,
-        height,
-        0,
-        0,
-        canvas.width,
-        canvas.height,
-      );
+    if (!v?.videoWidth) return;
     const attempt = action.current;
-    stopCamera();
-    const blob = await new Promise<Blob | null>((resolve) =>
-      canvas.toBlob(resolve, "image/jpeg", 0.9),
-    );
-    if (attempt !== action.current) return;
-    if (blob) await recognize(blob);
-    else {
-      setError("The photo could not be captured. Try again.");
-      setPhase("idle");
+    try {
+      const blob = await snapshot(v);
+      if (attempt === action.current) await recognize(blob);
+    } catch (e) {
+      if (attempt === action.current) setError((e as Error).message);
     }
   }
   function skipOutline() {
     action.current++;
-    stopEngine();
-    setPhase("awake");
+    stopOutline();
     setProgress("");
   }
   function refine(event: React.MouseEvent<HTMLDivElement>) {
-    if (!photo || !guardian || busy || phase !== "awake") return;
+    if (!photo || !guardian || outlining || phase !== "awake") return;
     const box = event.currentTarget.getBoundingClientRect();
-    const point = {
+    void outlinePhoto(photo, ++action.current, {
       x: Math.max(0, Math.min(1, (event.clientX - box.left) / box.width)),
       y: Math.max(0, Math.min(1, (event.clientY - box.top) / box.height)),
-    };
-    const attempt = ++action.current;
-    void outlinePhoto(photo, attempt, point);
+    });
   }
   return (
     <section className={"guardian-lens " + (host ? "host-lens" : "page-top")}>
@@ -330,10 +511,10 @@ export function GuardianLens({
       </p>
       {host && (
         <label className="lens-backend">
-          PROCESSING PATH
+          OUTLINE PROCESSING
           <select
             value={backend}
-            disabled={busy || phase === "camera"}
+            disabled={busy || outlining || phase === "camera"}
             onChange={(e) => {
               reset();
               setBackend(e.target.value as "auto" | "wasm");
@@ -343,6 +524,13 @@ export function GuardianLens({
             <option value="wasm">CPU / WASM · compare timing</option>
           </select>
         </label>
+      )}
+      {ready && (
+        <p className="lens-ready" role="status">
+          {modelReady
+            ? "Lens ready · automatic live scanning"
+            : prepareProgress}
+        </p>
       )}
       {error && (
         <p className="inline-error" role="alert">
@@ -366,14 +554,20 @@ export function GuardianLens({
         <>
           {phase === "camera" ? (
             <div className="lens-camera">
-              <video ref={video} playsInline muted autoPlay />
-              <div className="lens-reticle" />
+              <video ref={video} playsInline muted autoPlay loop />
+              <div
+                className={"lens-reticle " + (live.count ? "is-steady" : "")}
+              />
               <p className="lens-camera-hint">
-                One creature, comfortably inside the frame
+                {!modelReady
+                  ? "Preparing the lens…"
+                  : live.count
+                    ? `Hold steady · ${live.count} of ${STABLE_FRAMES}`
+                    : "Centre one creature · it will wake automatically"}
               </p>
               <button
                 className="lens-shutter"
-                aria-label="Photograph the guardian"
+                aria-label="Take a photo instead"
                 onClick={() => void capture()}
               >
                 <Camera />
@@ -409,7 +603,7 @@ export function GuardianLens({
                   ))}
                 </div>
               )}
-              {busy && <div className="lens-scan-line" />}
+              {(busy || outlining) && <div className="lens-scan-line" />}
             </div>
           ) : (
             <div className="lens-empty">
@@ -417,17 +611,16 @@ export function GuardianLens({
               <p>A familiar shape is enough to begin.</p>
             </div>
           )}
-          {busy && (
+          {(busy || outlining) && (
             <div className="lens-progress" role="status">
               <span className="status-dot" />
-              {progress || "Listening to the shape…"}
+              {progress ||
+                (modelReady ? "Listening to the shape…" : prepareProgress)}
               <button
                 className="text-button"
-                onClick={phase === "outlining" ? skipOutline : reset}
+                onClick={outlining ? skipOutline : reset}
               >
-                {phase === "outlining"
-                  ? "Meet it without the outline"
-                  : "Cancel"}
+                {outlining ? "Meet it without the outline" : "Cancel"}
               </button>
             </div>
           )}
@@ -455,7 +648,7 @@ export function GuardianLens({
               </p>
               <button
                 className="text-button lens-retrace"
-                disabled={busy}
+                disabled={outlining}
                 onClick={() =>
                   photo && void outlinePhoto(photo, ++action.current)
                 }
@@ -491,7 +684,7 @@ export function GuardianLens({
                 onClick={() => void openCamera()}
               >
                 <Camera size={18} />
-                {photo ? "Try another photograph" : "Open the camera"}
+                {photo ? "Scan another guardian" : "Open the live lens"}
               </button>
               <label className="btn secondary file-button">
                 <ImagePlus size={18} />
@@ -506,6 +699,20 @@ export function GuardianLens({
                   }}
                 />
               </label>
+              {host && (
+                <label className="btn secondary file-button">
+                  Test a video
+                  <input
+                    type="file"
+                    accept="video/*"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0];
+                      e.target.value = "";
+                      if (file) openTestVideo(file);
+                    }}
+                  />
+                </label>
+              )}
               <label className="text-button file-button">
                 Take a photo with the phone camera
                 <input
@@ -526,6 +733,17 @@ export function GuardianLens({
               Close camera
             </button>
           )}
+          {host && (
+            <p className="small muted">
+              Model preparation: {(details.prepareMs / 1000).toFixed(2)}s. Live
+              frames: {live.frames} · last frame {live.ms.toFixed(0)}ms
+              {details.liveMs > 0
+                ? ` · stable match in ${(details.liveMs / 1000).toFixed(2)}s (${details.frames} frames)`
+                : ""}
+              . Recognition runs on the warmed small CPU model; outline backend
+              is selected above.
+            </p>
+          )}
           {host && match && (
             <details className="lens-diagnostics" open>
               <summary>Recognition diagnostics</summary>
@@ -533,8 +751,8 @@ export function GuardianLens({
                 Recognition: {details.embedBackend || "Local processing"} ·{" "}
                 {(details.embedMs / 1000).toFixed(2)}s. Outline:{" "}
                 {details.segmentBackend || "pending"} ·{" "}
-                {(details.segmentMs / 1000).toFixed(2)}s. Includes
-                preparation/downloads on first use.
+                {(details.segmentMs / 1000).toFixed(2)}s. Recognition excludes
+                model preparation; outline includes first-use preparation.
               </p>
               <p>
                 Decision: <strong>{match.reason}</strong> · similarity{" "}

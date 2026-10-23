@@ -2,7 +2,7 @@
 
 - Session: guardian reference enrollment, local recognition and animated awakening; current local Codex session.
 - Checkout: shared `/Users/akshet/workspace/halloween-2026`, `main`; research baseline `1ec8c29`. Other sessions are committing decor/host-costume work concurrently; no worktrees/branches used.
-- Status: implementation complete; deployment and final hosted checks being recorded below. Actual guardian/phone pilot remains open.
+- Status: v1 deployed and verified; its slow DINO/photo-first path is superseded by the [live Lens revision](handoff-2026-10-23-live-lens.md). Actual guardian/phone pilot remains open.
 - Confirmed host decisions: implement reference uploads in the host dashboard, phone-local recognition, segmentation and animated awakening; prefer WebGPU where usable, WASM CPU fallback. Host has an iPhone 16 Pro/LiDAR, but guests must not need LiDAR. Existing Access sign-in is reused. No new paid service or storage binding.
 - Canonical implementation/testing guide: [The Looking Lens](guardian-camera-prototype.md). Existing rules/story/puzzle scoring remain authoritative in design documents. This prototype does not finalize replacement of NFC.
 
@@ -31,7 +31,7 @@
 
 ## Deployment / final checks
 
-Pending evidence entry after deployment. Wrangler's old OAuth token had expired. Automatic approval review rejected reusing its broad legacy scopes; a narrower Worker/D1/KV/routes/account-read/zone-read login was used instead. The user completed Cloudflare 2FA and approved the final CLI login. No Access policy/host identity permission was expanded. Browser-controller reconnection failures caused callback retries; no browser warning/CAPTCHA/security protection was bypassed.
+Migration 0006 applied remotely and v1 deployed to the existing Worker/domain, version `443cdb22-7b70-4fb2-a58a-64a03f6d9d34`, commit `7ae4426`. Hosted checks: public state sealed, public vision API 404, preview unauthenticated API 401, host/API redirect to Access, model manifest 200, GPU runtime served with immutable cache and exactly the npm runtime checksum (26,781,914 bytes). Wrangler's old OAuth token had expired. Automatic approval review rejected reusing its broad legacy scopes; a narrower Worker/D1/KV/routes/account-read/zone-read login was used instead. The user completed Cloudflare 2FA and approved the final CLI login. No Access policy/host identity permission was expanded. Browser-controller reconnection failures caused callback retries; no browser warning/CAPTCHA/security protection was bypassed.
 
 ## Next actions
 

@@ -66,7 +66,7 @@ export class VisionEngine {
   }
   request(
     kind: VisionRequest["kind"],
-    image: Blob,
+    image: Blob | ImageBitmap,
     imageKey: string,
     progress?: (text: string) => void,
     point?: { x: number; y: number },
@@ -88,8 +88,16 @@ export class VisionEngine {
         180000,
       );
       this.pending.set(id, { request, resolve, reject, progress, timer });
-      this.worker.postMessage(request);
+      this.worker.postMessage(
+        request,
+        typeof ImageBitmap !== "undefined" && image instanceof ImageBitmap
+          ? [image]
+          : [],
+      );
     });
+  }
+  prepare(progress?: (text: string) => void) {
+    return this.request("prepare", new Blob(), "prepare", progress);
   }
   close(message = "The lens was closed.") {
     this.closed = true;

@@ -2,6 +2,8 @@
 
 Research checked **October 23, 2026**. Requested by the host as a possible replacement for NFC, with segmentation, scan effects and animated guardians. **Feasible architecture; recognition accuracy and phone performance have not been tested.** This document proposes a pilot. It does not mark a camera feature deployed or change the currently implemented NFC encounters.
 
+**Implementation update, October 23:** the host subsequently authorized the [Looking Lens](../app/guardian-camera-prototype.md), now using live frame sampling and a warmed MobileNet CPU recognizer, with asynchronous segmentation. This research remains the historical comparison; [current implementation evidence](../app/handoff-2026-10-23-live-lens.md) distinguishes Mac checks from pending real-prop/phone acceptance.
+
 [Game home](../README.md) · [Physical roster](../physical/entity-plan.md) · [Application](../app/README.md) · [Handoff](handoff-2026-10-23-guardian-camera-research.md)
 
 ## Recommendation

@@ -2,7 +2,7 @@
 
 - Session: preload and warm the guardian recognition model during login/name/selfie onboarding, then reuse it when the camera opens.
 - Checkout: shared `/Users/akshet/workspace/halloween-2026`, `main`; starting release notes `e57e432`. No worktree, separate branch or delegated session.
-- Status: implementation and local verification complete; hosted release evidence below. Real phone/prop acceptance remains the existing pilot gate.
+- Status: deployed; local and hosted checks passed. Real phone/prop acceptance remains the existing pilot gate.
 - Confirmed user request, October 23: start model preparation during login + selfie so camera entry avoids a cold start. No additional product decision needed.
 - Scope / owned files: `src/client/recognition-session.ts`, `main.tsx`, `GuardianLens.tsx`, `tests/recognition-session.test.ts`, application README, [current prototype guide](guardian-camera-prototype.md), this handoff.
 
@@ -25,6 +25,6 @@
 ## Release and remaining work
 
 - Target: existing `hollow-court-preview` Worker, Workers preview and `hollow-court.com`; no new bindings/migrations.
-- Hosted publication and final checks: pending evidence entry.
+- Source commit **`cfc21b1`** deployed as Worker version **`4d952043-12a2-44c6-96be-109ad0c54498`**. Both hostnames serve the new `index-Bz4tbP22.js` bundle with the exact local build checksum. Hosted HTML remains no-store; the bundle and model retain immutable caching. Public state remains sealed with preview disabled, preview state permits rehearsal, and the public camera API remains 404. Wrangler’s expired login was refreshed using the same previously authorized deployment scopes; no Access policy or host permissions changed.
 - Next: verify the normal phone signup-to-camera journey and cold-network behavior on iPhone Safari and Android, then continue the existing real-prop acceptance pilot. Camera public rollout is unchanged.
-- No purchases, messages, new chats or browser permission changes. Local test resources remain ignored. Commit hashes are reported in the final response; this handoff is saved before committing and need not contain its own hash.
+- No purchases, messages, new chats or browser permission changes. Local test resources remain ignored; the temporary local Worker and browser test tab were closed. Commit hashes are reported in the final response; this handoff is saved before committing and need not contain its own hash.

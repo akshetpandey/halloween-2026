@@ -14,3 +14,5 @@ Seven blankets supply 13 full-height wall pieces at ~1.5× fullness; one supplie
 - [ ] Reserve H/I furnishing/trial/header pieces; preserve floor-clear hems and removable access panels.
 
 Earlier FabricDirect 54-yd recommendation and Big Z shipping are [dated history](../../research/final-offer-check-2026-10-23.md), not additional orders. [40-yd felt/fleece comparison](04-single-layer-felt-fleece-2026-10-22.md) and [backing research](03-black-cloth-and-echo-2026-10-22.md) are also superseded.
+
+[Lower-cost coverage comparison](06-cost-and-partial-coverage-2026-10-23.md): host hoped for about $100. Three/four oversized blankets can give selective or mostly flat coverage; bulk small throws have joining/opacity tradeoffs. **No quantity or scope change selected.** [Value handoff](handoff-2026-10-23-value-coverage.md).

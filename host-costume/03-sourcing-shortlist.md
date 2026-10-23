@@ -1,14 +1,14 @@
 # Antler King • sourcing shortlist
 
-Updated October 21, 2026 · Party October 31, plus events October 23–24 · **User's seven-item Amazon order verified; remaining sourcing below is history unless linked as current. No agent purchases.**
+Updated October 23, 2026 · Party October 31, plus events October 23–24 · **Current purchased-weekend evidence is in 09; new tall home-party sourcing is in 17. Earlier quotes below are history. No agent purchases.**
 
-## Current urgent sourcing • October 21
+## Current sourcing • October 23
 
-**Current purchase status:** [09 — verified order and remaining list](09-final-weekend-shopping-2026-10-21.md) supersedes all earlier basket totals/delivery quotes. Seven items ordered for **$151.97 including estimated tax**: black fur, black mesh, body chain, Atoden/Zivyes/Zoestar halos and Sosation crown. Crown now **Saturday October 24**; fur/mesh Friday. Compare the three ordered halos before further headpiece shopping. King shirt/cloth/gold netting and non-Amazon pickups remain unconfirmed. Black fur confirmed; no maker messages/rush enquiries. Physical fit remains pending.
+**October 31 Hollow Court:** [17 — current tall-antler/full-face-veil audit](17-hollow-court-sourcing-2026-10-23.md) records the host's renewed Yellowjackets-close brief, exact product photos and current delivery checks. A natural-cast rack **component** estimates October 26–30; a Gold/XL crochet **material donor** is in stock for Monday October 26. B&J has a promising $50/yard local texture lead, physical stock/pickup unconfirmed. **No finished reference-close, deadline-cleared headpiece/veil assembly yet.** Published rush add-ons do not guarantee delivery; safe mount, mass, finish, textile support and ivory body sourcing remain open. Permission for NYC maker enquiries requested, unanswered; no contact or booking.
 
-The host wants a smaller bone-look crown for City of Gods, not large fast antlers, and likes the ordered Sosation product. A similar compact tier-up for October 31 remains possible, not an additional purchase. [AI outfit previews](06-weekend-costume-renders-2026-10-21.md) are illustrative, not exact product/fit evidence.
+**October 23–24 purchase status:** [09 — verified order and remaining list](09-final-weekend-shopping-2026-10-21.md) supersedes earlier basket totals/delivery quotes. Nine line items across three orders total **$196.59 including estimated tax**. Friday Eclipse uses selected Zivyes; Saturday Gilded Stag uses the Sosation compact crown, torc, actual Karace cuffs, black fur/mesh and green trousers, **no makeup or veil**. No mandatory extra weekend buy; physical receipt/fit pending. These are separate from the tall October 31 request.
 
-The [earlier two-look plan](05-weekend-costumes-2026-10-21.md) is sourcing history; its $100.56 incomplete basket is not the actual seven-item order. Small, owned shoes/green trousers and the **$500 total ceiling** remain confirmed; [shared budget](../operations/budget.md) reflects the order once. Do not use older October 7 arrival dates or historical “nothing bought” statements for current status.
+Small, owned shoes/green trousers and the **$500 combined ceiling** remain. [Canonical weekend budget](09-final-weekend-shopping-2026-10-21.md#budget-after-the-order): $347.47 optional-inclusive envelope leaves $152.53; omitting unpurchased optional $110 jeans leaves $262.53. No new quote selected or shared budget/cart mutation. [Earlier two-look plan](05-weekend-costumes-2026-10-21.md) and October 7 quotes below are history, not current stock or additive baskets.
 
 ## October 7 design target and research history
 

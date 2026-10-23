@@ -1,5 +1,5 @@
 # The Antler King • build direction
-Updated October 22, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. [Current order and shopping list](09-final-weekend-shopping-2026-10-21.md) owns product/date/budget evidence; [quality review](10-halo-and-crown-review-2026-10-21.md) preserves black/gray and premium headpiece research. Host has ordered the liked compact Sosation crown, with Saturday October 24 ETA last checked October 21, and may use a similar tier-up for October 31; physical fit and home-party crown choice remain open. The larger reference target below is no longer the only possible October 31 direction.
+Updated October 23, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. [Current weekend order and shopping list](09-final-weekend-shopping-2026-10-21.md) owns purchased-product/budget evidence; [current Hollow Court sourcing](17-hollow-court-sourcing-2026-10-23.md) owns the reopened October 31 brief. **Host now explicitly wants tall upright antlers and a full-face veil very close to Yellowjackets for October 31.** This supersedes compact-crown home-party reuse as the current target, but leaves October 24 Gilded Stag unchanged. No finished tall assembly or ivory body garment is deadline-cleared yet; local maker outreach awaits permission. The $500 combined ceiling remains.
 
 ## Recommended silhouette
 

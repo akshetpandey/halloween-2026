@@ -22,6 +22,7 @@
     "@fontsource/dm-sans": "^5.3.0",
     "@mediapipe/tasks-vision": "1.1.1",
     "jose": "^6.2.12",
+    "jsfeat": "0.0.8",
     "lucide-react": "^1.43.0",
     "onnxruntime-web": "1.30.0",
     "qrcode": "^1.5.4",

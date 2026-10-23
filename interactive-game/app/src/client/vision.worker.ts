@@ -11,7 +11,7 @@ export type VisionRequest = {
   kind: "prepare" | "prepare-segment" | "embed" | "segment" | "release-image";
   image: Blob | ImageBitmap;
   imageKey: string;
-  point?: { x: number; y: number };
+  point?: { x: number; y: number } | { x: number; y: number }[];
   backend?: "auto" | "wasm";
 };
 export type MaskResult = {

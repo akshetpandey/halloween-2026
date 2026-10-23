@@ -2438,9 +2438,25 @@ footer small {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *:before,
-  *:after {
+  /* The host explicitly requests full Lens motion, with its own pause control. */
+  *:not(
+    .guardian-lens,
+    .guardian-lens *,
+    .guardian-motion-editor,
+    .guardian-motion-editor *
+  ),
+  *:not(
+      .guardian-lens,
+      .guardian-lens *,
+      .guardian-motion-editor,
+      .guardian-motion-editor *
+    ):before,
+  *:not(
+      .guardian-lens,
+      .guardian-lens *,
+      .guardian-motion-editor,
+      .guardian-motion-editor *
+    ):after {
     animation: none !important;
     scroll-behavior: auto !important;
     transition: none !important;

@@ -144,3 +144,64 @@ it("closes failed models and can retry without a GPU/CPU fallback loop", async (
   expect(fixture.creations).toBe(2);
   expect(fixture.masksLive).toBe(0);
 });
+it("uses GPU when requested, combines bounded prompts, and reports CPU retry on failure", async () => {
+  const send = await worker();
+  // The CPU path remains covered above; explicitly exercise an accelerated job.
+  const scope = self as unknown as {
+    onmessage: (e: { data: VisionRequest }) => void;
+    postMessage: (r: VisionReply) => void;
+  };
+  const replies: VisionReply[] = [];
+  const original = scope.postMessage;
+  scope.postMessage = (r) => {
+    replies.push(r);
+    original(r);
+  };
+  scope.onmessage({
+    data: {
+      id: 999,
+      kind: "prepare-segment",
+      image: new Blob(),
+      imageKey: "warm",
+      backend: "auto",
+    },
+  });
+  await vi.waitFor(() =>
+    expect(replies.some((r) => r.id === 999 && r.ready)).toBe(true),
+  );
+  expect(fixture.options.baseOptions.delegate).toBe("GPU");
+  const before = fixture.traces;
+  scope.onmessage({
+    data: {
+      id: 1000,
+      kind: "segment",
+      image: new Blob(),
+      imageKey: "photo",
+      backend: "auto",
+      point: [
+        { x: 0.4, y: 0.5 },
+        { x: 0.6, y: 0.2 },
+        { x: 0.3, y: 0.4 },
+      ],
+    },
+  });
+  await vi.waitFor(() =>
+    expect(replies.some((r) => r.id === 1000 && r.segmentation)).toBe(true),
+  );
+  expect(fixture.traces - before).toBe(3);
+  expect(fixture.masksLive).toBe(0);
+  fixture.fail = true;
+  scope.onmessage({
+    data: {
+      id: 1001,
+      kind: "segment",
+      image: new Blob(),
+      imageKey: "photo",
+      backend: "auto",
+    },
+  });
+  await vi.waitFor(() =>
+    expect(replies.find((r) => r.id === 1001 && r.error)?.retryCPU).toBe(true),
+  );
+  expect(fixture.closed).toBe(1);
+});

@@ -1,0 +1,238 @@
+{
+  "environment": "macOS 26.6.2, desktop Chrome via signed-in Play profile; exploratory, not a phone benchmark",
+  "notes": [
+    "Three private fox reference photos. No held-out labels or exact ground-truth masks.",
+    "First photo may include lazy shader compilation. Preparation reported separately.",
+    "Early CPU experiments may overlap native research work; do not treat these as controlled p50/p95 values.",
+    "Edge CPU used a fixed box; later mixed-GPU trial uses per-view object boxes.",
+    "SAM2 GPU was stopped manually without a completed inference; no latency is reported for it."
+  ],
+  "results": [
+    {
+      "model": "legacy",
+      "prepareMs": 1530.6999998092651
+    },
+    {
+      "model": "legacy",
+      "view": 1,
+      "ms": 1281.7000002861023,
+      "area": 0.0710296630859375
+    },
+    {
+      "model": "legacy",
+      "view": 2,
+      "ms": 2918.800000190735,
+      "area": 0.08591206868489583
+    },
+    {
+      "model": "legacy",
+      "view": 3,
+      "ms": 2027.5,
+      "area": 0.0359649658203125
+    },
+    {
+      "model": "edge-box",
+      "prepareMs": 2832.199999809265
+    },
+    {
+      "model": "edge-box",
+      "view": 1,
+      "ms": 12424.900000095367,
+      "area": 0.06875356038411458
+    },
+    {
+      "model": "edge-box",
+      "view": 2,
+      "ms": 11856.400000095367,
+      "area": 0.08009847005208333
+    },
+    {
+      "model": "edge-box",
+      "view": 3,
+      "ms": 12714.199999809265,
+      "area": 0.047986348470052086
+    },
+    {
+      "model": "xfeat",
+      "prepareMs": 1895.3000001907349
+    },
+    {
+      "model": "xfeat",
+      "view": 1,
+      "ms": 954.1000003814697,
+      "features": 1880
+    },
+    {
+      "model": "xfeat",
+      "view": 2,
+      "ms": 426.40000009536743,
+      "features": 1750
+    },
+    {
+      "model": "xfeat",
+      "view": 3,
+      "ms": 447.7999997138977,
+      "features": 2153
+    },
+    {
+      "model": "legacy",
+      "prepareMs": 620.5
+    },
+    {
+      "model": "modern",
+      "prepareMs": 452.19999980926514
+    },
+    {
+      "model": "modern",
+      "view": 1,
+      "ms": 32734.800000190735,
+      "area": 0.06281647858796297
+    },
+    {
+      "model": "modern",
+      "view": 2,
+      "ms": 30320.800000190735,
+      "area": 0.0816921657986111
+    },
+    {
+      "model": "modern",
+      "view": 3,
+      "ms": 30288.299999713898,
+      "area": 0.03675898799189815
+    },
+    {
+      "model": "legacy-gpu",
+      "prepareMs": 490.8999996185303
+    },
+    {
+      "model": "legacy-gpu",
+      "view": 1,
+      "ms": 5131,
+      "area": 0.07114664713541667
+    },
+    {
+      "model": "legacy-gpu",
+      "view": 2,
+      "ms": 45.700000286102295,
+      "area": 0.08593241373697917
+    },
+    {
+      "model": "legacy-gpu",
+      "view": 3,
+      "ms": 51.09999990463257,
+      "area": 0.0360107421875
+    },
+    {
+      "model": "legacy-multi-gpu",
+      "prepareMs": 470.40000009536743
+    },
+    {
+      "model": "legacy-multi-gpu",
+      "view": 1,
+      "ms": 1284.2000002861023,
+      "area": 0.08625284830729167
+    },
+    {
+      "model": "legacy-multi-gpu",
+      "view": 2,
+      "ms": 126.40000009536743,
+      "area": 0.08715311686197917
+    },
+    {
+      "model": "legacy-multi-gpu",
+      "view": 3,
+      "ms": 158.5,
+      "area": 0.04949951171875
+    },
+    {
+      "model": "sam2",
+      "prepareMs": 2938.5
+    },
+    {
+      "model": "sam2",
+      "view": 1,
+      "ms": 73132,
+      "area": 0.0806121826171875,
+      "score": 0.9311986565589905
+    },
+    {
+      "model": "yolo",
+      "prepareMs": 1068.0999999046326
+    },
+    {
+      "model": "yolo",
+      "view": 1,
+      "ms": 2332.8999996185303,
+      "score": 0.6122711896896362,
+      "box": [
+        222.73236083984375,
+        236.55108642578125,
+        439.3993225097656,
+        388.1982727050781
+      ],
+      "detections": 1
+    },
+    {
+      "model": "yolo",
+      "view": 2,
+      "ms": 2155.199999809265,
+      "score": 0.7067912220954895,
+      "box": [
+        221.82373046875,
+        170.59835815429688,
+        447.11322021484375,
+        445.5513610839844
+      ],
+      "detections": 1
+    },
+    {
+      "model": "yolo",
+      "view": 3,
+      "ms": 2343.199999809265,
+      "score": 0.17463231086730957,
+      "box": [
+        125.55602264404297,
+        377.72894287109375,
+        261.25738525390625,
+        519.7230224609375
+      ],
+      "detections": 0
+    },
+    {
+      "model": "orb",
+      "prepareMs": 0
+    },
+    {
+      "model": "orb",
+      "view": 1,
+      "ms": 419.80000019073486,
+      "features": 1024
+    },
+    {
+      "model": "orb",
+      "view": 2,
+      "ms": 303.69999980926514,
+      "features": 1022
+    },
+    {
+      "model": "orb",
+      "view": 3,
+      "ms": 333.2999997138977,
+      "features": 1024
+    },
+    {
+      "model": "sam2-gpu",
+      "prepareMs": 40687.40000009537
+    },
+    {
+      "model": "modern-gpu",
+      "prepareMs": 652.8000001907349
+    },
+    {
+      "model": "modern-gpu",
+      "view": 1,
+      "ms": 7362.10000038147,
+      "area": 0.0015055338541666667
+    }
+  ]
+}

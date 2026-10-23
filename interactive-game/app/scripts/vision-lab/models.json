@@ -1,0 +1,54 @@
+[
+  {
+    "name": "xfeat.onnx",
+    "url": "https://github.com/DavideCatto/XFeat-ONNX/releases/download/V1.0.0/xfeat.onnx",
+    "bytes": 2681450,
+    "sha256": "41336466bbbb09b701b815e33932c7da69cff6ab75a068230418468430482912"
+  },
+  {
+    "name": "edge-encoder.onnx",
+    "url": "https://huggingface.co/spaces/chongzhou/EdgeSAM/resolve/main/weights/edge_sam_3x_encoder.onnx",
+    "bytes": 22098300,
+    "sha256": "719a498cf5b3fe9be9f01ee513e13d3915f9028aa4f23dfd30eaaa0a17143159"
+  },
+  {
+    "name": "edge-decoder.onnx",
+    "url": "https://huggingface.co/spaces/chongzhou/EdgeSAM/resolve/main/weights/edge_sam_3x_decoder.onnx",
+    "bytes": 15937006,
+    "sha256": "83a2174d54571596913dcb7455d021e713623c3dca30a31c8c41ab98c9fb0863"
+  },
+  {
+    "name": "sam2-encoder.onnx",
+    "out": "sam2-encoder.onnx",
+    "url": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_quantized.onnx",
+    "bytes": 441167,
+    "sha256": "8800fdd04b9045cb6060ba8962b83c78ce9bb0976da8f030afa073467a888524"
+  },
+  {
+    "name": "sam2-encoder.onnx_data",
+    "out": "sam2-encoder.onnx_data",
+    "url": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_quantized.onnx_data",
+    "bytes": 52573088,
+    "sha256": "ea1f677596dc82cef0dc317d78135d892f4b26e20a4439f899aa58d84965b324"
+  },
+  {
+    "name": "sam2-decoder.onnx",
+    "out": "sam2-decoder.onnx",
+    "url": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_quantized.onnx",
+    "bytes": 290416,
+    "sha256": "a5f31dba5a7f03203dc3a130fdd7766f0fea952eb4aac1f55458549170eb51ff"
+  },
+  {
+    "name": "sam2-decoder.onnx_data",
+    "out": "sam2-decoder.onnx_data",
+    "url": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_quantized.onnx_data",
+    "bytes": 8662016,
+    "sha256": "fdb3179a32388267a944a416c0f992c77a138b69a4bfd94f0bbf7089430d7489"
+  },
+  {
+    "name": "magic-touch-768.task",
+    "url": "https://storage.googleapis.com/mediapipe-models/interactive_segmenter_v2/magic_touch/int8/latest/interactive_segmentation.task",
+    "bytes": 30525312,
+    "sha256": "38431bc66b883404e8397f74c3579404315b9b52b04a46c6346fe906a7309b03"
+  }
+]

@@ -1,0 +1,52 @@
+# Guardian recognition and outlines — October 23, 2026
+
+**Decision:** retain MobileNet reference-image recognition and the small MagicTouch 512 model. Improve the outline with saved head/tail prompts, use a warmed GPU delegate with a fresh CPU-worker fallback, and store movement setup per reference view. A small ORB registration worker transfers that setup only after geometric verification. No larger candidate earned a default mobile rollout in this pilot.
+
+The host confirmed Reduce Motion was suppressing animation and explicitly requested bypassing it. The Lens puppet now ignores that setting and retains its own pause/resume control. Camera capture requests 12fps, capped at 15; recognition remains serial at up to 4 samples/sec with three stable matches spanning at least 0.5sec. At recognition, the app freezes a still and stops camera tracks before alignment, segmentation and animation. No continuous segmentation or 3D/LiDAR dependency was added.
+
+## What was actually measured
+
+Three private, already-enrolled fox photographs, all 768×1024, on macOS 26.6.2 in desktop Chrome using the signed-in Play profile. ORT Web 1.30.0, one WASM thread; MediaPipe Tasks Vision 1.1.1. The [loopback benchmark harness and sanitized records](scripts/vision-lab/README.md) are reproducible. Timings include preprocessing and mask readback, with model creation reported separately. First-image time can include lazy compilation. Early exploratory runs may overlap native research work; these are samples, not controlled p50/p95 claims.
+
+**No new iPhone/Android latency or peak browser-memory measurement was made.** There is one enrolled object and no held-out photo/negative set or exact ground-truth masks. Mask area and model confidence are not accuracy metrics. Quality comments below are visual inspection of the actual cutouts; manual box/head/tail prompts are extra assistance and are labeled accordingly.
+
+| Candidate | Weights downloaded | Actual desktop-browser result | Decision |
+|---|---:|---|---|
+| Current MagicTouch 512, centre point, CPU | 6.23 MB | 1.28 / 2.92 / 2.03s across the three images | Preserve CPU fallback; misses tail tips in views 1 and 3 |
+| Same model, WebGL GPU | Same weights | First 5.13s; later 45.7 / 51.1ms | Clear warm-speed benefit; move compilation into onboarding warm-up |
+| Same model, GPU, body + head + tail cues | Same weights | First 1.28s; later 126 / 159ms | Tail tips restored in views 1 and 3; adopt when saved points align |
+| New MagicTouch 768 int8, CPU | 30.53 MB | 32.73 / 30.32 / 30.29s | Still misses much of the same tails; reject default upgrade |
+| New MagicTouch 768, GPU | 30.53 MB | First 7.36s produced a tiny mask; next image threw `Segmentation failed` | Export/runtime combination not reliable enough here |
+| EdgeSAM 3× ONNX, CPU | 38.04 MB total | 12.42 / 11.86 / 12.71s with a fixed box | Single point often selects a Lego detail; boxes recover more but have holes. Fixed box clips part of view 1; no fair IoU claim |
+| EdgeSAM, WebGPU only | Same | Session creation failed at an unassigned Cast node | No deployable result from this export |
+| SAM 2.1 Hiera Tiny, quantized ONNX, CPU | 61.97 MB total | 73.13s for view 1 with a manual object box; stopped remaining views | Too slow for the requested phone flow |
+| Same SAM2, WebGPU | Same | 40.69s preparation; no completed inference before manual stop | Incomplete experiment, not a measured GPU latency |
+| YOLOE26n visual reference, ONNX CPU | 10.6 MB derived export | 2.33 / 2.16 / 2.34s; detects views 1/2, no detection over .25 in view 3 | Misses upper tail in view 1 and front view entirely; keep experimental |
+| XFeat local features, ONNX CPU | 2.68 MB | 954 / 426 / 448ms extraction | Too few reliable cross-angle pairs in this Lego pilot to justify another model |
+| ORB local registration, JS CPU | No model weights; 64.7 KB built worker | 420 / 304 / 333ms extraction in Chrome | Adopt as an optional one-shot registration step after recognition |
+
+Native CPU/WASM experiments are separate from those browser numbers: EdgeSAM encoder/decoder took roughly 1.31s / .15s and reached 414–517 MiB total Node-process RSS; XFeat extraction was roughly 56ms warm with 269 MiB total process RSS. Those figures include the harness/runtime and are **not** iOS memory measurements. The former app's retired SlimSAM path reached 1,968 MiB process RSS; see [the crash investigation](handoff-2026-10-23-host-crash-fix.md). Download size is a useful budget constraint, but does not establish peak memory.
+
+## Recognition versus segmentation
+
+[YOLOE](https://github.com/THU-MIG/yoloe) is the most relevant semantic candidate: its visual encoder accepts example regions, rather than forcing our objects into generic class labels. The [current Ultralytics implementation](https://docs.ultralytics.com/models/yoloe) supports reference images and boxes; static exports bake those classes, so adding new references is not a runtime host-upload operation without a split/custom export. It identifies visually prompted categories; it is not proof of the identity of a particular physical instance. This pilot used one box on view 2 and the official YOLOE26n checkpoint. Native PyTorch also missed the front view and included an overly broad secondary box in the reference view. AGPL licensing would need to be accommodated before adoption.
+
+[SAM 2.1](https://github.com/facebookresearch/sam2) and [EdgeSAM](https://github.com/chongzhou96/EdgeSAM) produce masks from prompts; they do not replace guardian identity matching. Their native/mobile demonstrations should not be read as Safari timing. The tested SAM2 export is a community ONNX conversion with quantized external weights, not Meta's native runtime. SAM2's image-only path avoids a video memory bank, but its tested browser path still greatly exceeds our budget. EdgeSAM's CNN is smaller than SAM2, but the actual single-point behavior on this articulated Lego object is poor. Its repository uses NTUS-Lab License 1.0; do not describe it as Apache-2.0.
+
+[Google's updated MagicTouch interface](https://developers.google.com/edge/mediapipe/solutions/vision/interactive_segmenter) uses a different stateful 768px model. It is not a drop-in weight substitution for our legacy 512 API. Both APIs were tested correctly here. The larger model failed to establish a quality benefit, while multiple positive parts on the existing model visibly recovered the missing tail. The current pinned model and runtime remain self-hosted.
+
+## Mapping saved movement to a new photo
+
+[XFeat](https://github.com/verlab/accelerated_features) offers compact learned local descriptors and is well suited to investigating reference correspondence. The tested third-party ONNX export has coordinate-scaling caveats and did not yield enough stable mutual matches across these large 3D viewpoint changes. Cropping tightly to the fox improved one pair to 13 descriptor matches but still failed our geometric acceptance threshold. Native ORB/SIFT were also weak across opposing views. None justifies promising automatic 3D head/tail correspondence from one photograph.
+
+The chosen [JSFeat ORB implementation](https://github.com/inspirit/jsfeat) adds no ML download. Only features inside the host's object boundary are saved; the query extracts up to 1,024 corners once, after identity recognition. Mutual Hamming-ratio matches feed deterministic affine RANSAC. Acceptance requires at least eight inliers, sufficient inlier ratio, spatial coverage, low reprojection error, positive bounded scale and movement points inside the captured image. A synthetic 7° camera rotation of view 1 aligned with 115 inliers and .00123 normalized mean error; this tests registration, **not** held-out guardian recognition. Different 3D sides may need their own one-time setup.
+
+The host can save up to six movement views per guardian, choose head/tail/both, preview the cutout, edit or clear the setup later. Guests receive only bounded descriptors, points and object bounds; originals stay behind Cloudflare Access. Failed alignment leaves the guardian available and avoids applying saved motion to an unverified view. The fox's old silhouette estimate remains only when no saved setup exists. Other configured guardians can use the same mesh. It is a small 2D puppet, not generated video, eyelid reconstruction or true 3D articulation.
+
+## Mobile compatibility and next acceptance test
+
+Safari 26 [ships WebGPU](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/). Browser GPU availability and operator support still vary; [ORT's WebGPU provider](https://onnxruntime.ai/docs/tutorials/web/ep-webgpu.html) does not automatically expose CoreML/ANE performance. Our selected MagicTouch acceleration uses **WebGL**, with the same WASM CPU implementation as fallback. It therefore does not require WebGPU, a Pro iPhone, LiDAR or cross-origin isolation. GPU failure restarts a fresh CPU worker once; it cannot loop through repeated GPU initialization. Small transient masks are copied and released, and model warm-up remains serial after the recognizer.
+
+[EdgeTAM](https://github.com/facebookresearch/EdgeTAM) is promising for continuous mobile video tracking, but native iPhone frame-rate demonstrations do not establish browser speed. Its video memory system adds little to our frozen-still reveal. DINOv3 and MobileCLIP2 remain possible global-reference-embedding upgrades, but bring larger downloads and do not solve part alignment by themselves. They were screened, not benchmarked as new recognizers here; no unsupported accuracy improvement is claimed. The existing MobileNet enrollment features stay compatible.
+
+Follow [the phone walkthrough](guardian-phone-test.md): configure the three fox reference views, scan a **new** photo and the real prop from nearby angles, then test empty shelf/other objects and repeat at least ten times. Record warm recognition, alignment and outline times separately; verify tail inclusion, pause/resume, release of camera indicators, background/resume and CPU fallback. Add a second guardian and background negatives before judging rejection accuracy. A 0.5–1s warm recognition target remains an acceptance goal, not a result established by these three saved photographs.

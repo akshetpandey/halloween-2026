@@ -116,7 +116,7 @@ it("retains warmed segmentation models while releasing a previous photo", async 
   const worker = TestWorker.instances[0];
   expect(worker.sent[0]).toMatchObject({
     kind: "prepare-segment",
-    backend: "wasm",
+    backend: "auto",
   });
   worker.reply({ ready: true, backend: "MagicTouch · WASM CPU" });
   await warm;
@@ -132,7 +132,7 @@ it("retains warmed segmentation models while releasing a previous photo", async 
   expect(worker.terminated).toBe(false);
 });
 
-it("reuses one lightweight CPU segmentation session across Lens visits", async () => {
+it("reuses one lightweight accelerated segmentation session across Lens visits", async () => {
   vi.stubGlobal("Worker", TestWorker);
   const first = getSegmentationSession();
   sessions.push(first);
@@ -143,7 +143,7 @@ it("reuses one lightweight CPU segmentation session across Lens visits", async (
   expect(next).toBe(first);
   await next.prepare();
   expect(TestWorker.instances).toHaveLength(1);
-  expect(TestWorker.instances[0].sent[0].backend).toBe("wasm");
+  expect(TestWorker.instances[0].sent[0].backend).toBe("auto");
   expect(next.ready).toBe(true);
 });
 

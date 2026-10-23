@@ -34,15 +34,17 @@ export function FoxAwakening({
   rig,
   moving,
   onAvailable,
+  parts = "both",
 }: {
   src: string;
   rig: FoxRig;
   moving: boolean;
   onAvailable: (ready: boolean) => void;
+  parts?: "head" | "tail" | "both";
 }) {
   const canvas = useRef<HTMLCanvasElement>(null);
-  const live = useRef({ rig, moving });
-  live.current = { rig, moving };
+  const live = useRef({ rig, moving, parts });
+  live.current = { rig, moving, parts };
   const rebuild = useRef<(() => void) | null>(null);
   useEffect(() => {
     rebuild.current?.();
@@ -66,7 +68,6 @@ export function FoxAwakening({
       texture: WebGLTexture | null = null;
     const shaders: WebGLShader[] = [];
     const image = new Image();
-    const reduced = matchMedia("(prefers-reduced-motion: reduce)");
     let count = 0,
       draw: ((time: number) => void) | null = null;
     const stop = () => {
@@ -80,8 +81,7 @@ export function FoxAwakening({
         draw(time);
         last = time;
       }
-      if (live.current.moving && !reduced.matches)
-        frame = requestAnimationFrame(tick);
+      if (live.current.moving) frame = requestAnimationFrame(tick);
     };
     const resume = () => {
       stop();
@@ -98,7 +98,6 @@ export function FoxAwakening({
     };
     element.addEventListener("webglcontextlost", lost);
     document.addEventListener("visibilitychange", resume);
-    reduced.addEventListener("change", resume);
     image.onload = () => {
       if (disposed) return;
       try {
@@ -153,12 +152,14 @@ export function FoxAwakening({
         const started = performance.now();
         draw = (time) => {
           const t = (time - started) / 1000;
-          const animated = live.current.moving && !reduced.matches;
+          const animated = live.current.moving;
           const arrival = Math.min(1, t / 1.4);
           gl.uniform2f(
             angles,
-            animated ? Math.sin(t * 1.25) * 0.075 * arrival : 0,
-            animated
+            animated && live.current.parts !== "tail"
+              ? Math.sin(t * 1.25) * 0.075 * arrival
+              : 0,
+            animated && live.current.parts !== "head"
               ? (Math.sin(t * 1.8) + 0.3 * Math.sin(t * 3.3)) * 0.11 * arrival
               : 0,
           );
@@ -239,7 +240,6 @@ export function FoxAwakening({
       image.src = "";
       element.removeEventListener("webglcontextlost", lost);
       document.removeEventListener("visibilitychange", resume);
-      reduced.removeEventListener("change", resume);
       if (texture) gl.deleteTexture(texture);
       if (buffer) gl.deleteBuffer(buffer);
       if (program) gl.deleteProgram(program);

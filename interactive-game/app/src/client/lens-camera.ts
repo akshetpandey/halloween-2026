@@ -37,7 +37,7 @@ export class LensCamera {
           ...(this.deviceId ? { deviceId: { ideal: this.deviceId } } : {}),
           width: { ideal: 1280 },
           height: { ideal: 960 },
-          frameRate: { ideal: 24, max: 30 },
+          frameRate: { ideal: 12, max: 15 },
         },
       });
       // getUserMedia has no abort signal. Release a late result immediately if

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Camera, ImagePlus, Trash2 } from "lucide-react";
 import { api } from "./api";
+import { GuardianMotionEditor } from "./GuardianMotionEditor";
 import { GuardianLens } from "./GuardianLens";
 import { GuardianArt } from "./Art";
 import { VisionEngine, preparePhoto } from "./vision-engine";
@@ -10,6 +11,7 @@ import {
   type HostVision,
 } from "../shared/vision";
 export function HostReferences() {
+  const [editingMotion, setEditingMotion] = useState("");
   const [data, setData] = useState<HostVision | null>(null),
     [selected, setSelected] = useState("BUY-02"),
     [note, setNote] = useState("");
@@ -145,6 +147,16 @@ export function HostReferences() {
       setBusy(false);
     }
   }
+  if (editingMotion && chosen)
+    return (
+      <GuardianMotionEditor
+        referenceId={editingMotion}
+        guardianId={chosen.id}
+        name={chosen.name}
+        onClose={() => setEditingMotion("")}
+        onSaved={load}
+      />
+    );
   if (testing && data) {
     const enabled = new Set(
       data.guardians.filter((g) => g.enabled).map((g) => g.id),
@@ -331,6 +343,17 @@ export function HostReferences() {
                   alt={(chosen?.name ?? "Background") + " reference"}
                 />
                 <p>{p.note || "Reference view"}</p>
+                {chosen && !p.needsProcessing && (
+                  <button
+                    className="text-button"
+                    disabled={busy}
+                    onClick={() => setEditingMotion(p.id)}
+                  >
+                    {data.motionReferences.includes(p.id)
+                      ? "Edit saved movement"
+                      : "Set up movement"}
+                  </button>
+                )}
                 <button
                   className="text-button"
                   disabled={busy}
@@ -402,10 +425,10 @@ export function HostReferences() {
             </div>
             <p className="small muted">
               The small MobileNet recognizer runs locally on a warmed CPU model.
-              MagicTouch outlines use a lighter CPU model. The test view reports
-              the selected backend and timing. Model/runtime files are
-              downloaded on first use and cached. A LiDAR scan is not required:
-              use normal photos from any phone.
+              MagicTouch outlines try GPU acceleration and fall back to CPU. The
+              test view reports the selected backend and timing. Model/runtime
+              files are downloaded on first use and cached. A LiDAR scan is not
+              required: use normal photos from any phone.
             </p>
           </details>
         </>

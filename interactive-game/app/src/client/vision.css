@@ -599,26 +599,6 @@
     width: 130px;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  .lens-cutout,
-  .lens-fox-puppet,
-  .lens-spirit,
-  .lens-spirit-owl [fill="#15211d"],
-  .lens-pollen i,
-  .lens-scan-line,
-  .lens-awakening {
-    animation: none !important;
-  }
-  .lens-cutout {
-    opacity: 1;
-  }
-  .lens-capture-base {
-    transition: none;
-  }
-  .lens-pollen {
-    display: none;
-  }
-}
 
 .lens-retrace {
   display: block;
@@ -682,4 +662,32 @@
   font-size: 12px;
   color: var(--muted);
   min-height: 22px;
+}
+
+.motion-setup-photo {
+  max-width: 420px;
+  margin: 1rem auto;
+}
+.motion-setup-photo .lens-rig-points rect {
+  fill: transparent;
+  stroke: #ffe5a0;
+  stroke-width: 0.5;
+  stroke-dasharray: 2 1;
+}
+.guardian-motion-editor > label {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.guardian-motion-editor .lens-rig-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.guardian-motion-editor .lens-rig-controls .btn {
+  min-height: 44px;
+}
+.guardian-motion-editor [aria-pressed="true"] {
+  border-color: var(--gold);
+  background: #4c432d;
 }

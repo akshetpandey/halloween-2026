@@ -79,7 +79,7 @@ export class VisionEngine {
     image: Blob | ImageBitmap,
     imageKey: string,
     progress?: (text: string) => void,
-    point?: { x: number; y: number },
+    point?: VisionRequest["point"],
   ) {
     if (this.closed) return Promise.reject(Error("The lens was closed."));
     const id = ++nextId,

@@ -22,6 +22,7 @@ export type HostReference = {
   needsProcessing: boolean;
 };
 export type HostVision = VisionManifest & {
+  motionReferences: string[];
   photos: HostReference[];
   guardians: { id: string; name: string; art: string; enabled: boolean }[];
 };

@@ -6,6 +6,29 @@ import {
   type VisionManifest,
 } from "../shared/vision";
 import { body, fail, hex, json, readBody } from "./request";
+import { validMotion, type MotionPose } from "../shared/guardian-motion";
+
+export async function guardianMotion(
+  env: Env,
+  guardian: string,
+  host = false,
+): Promise<MotionPose[]> {
+  const rows = (
+    await env.DB.prepare(
+      `SELECT m.reference_id,m.guardian_id,m.data FROM guardian_motion m
+    JOIN vision_references r ON r.id=m.reference_id LEFT JOIN vision_guardians g ON g.guardian_id=m.guardian_id
+    WHERE m.guardian_id=? AND r.model_version=? ${host ? "" : "AND COALESCE(g.enabled,1)=1"} ORDER BY m.updated_at DESC LIMIT 6`,
+    )
+      .bind(guardian, VISION_MODEL)
+      .all<{ reference_id: string; guardian_id: string; data: string }>()
+  ).results;
+  return rows.flatMap((r) => {
+    const data = JSON.parse(r.data);
+    return validMotion(data)
+      ? [{ ...data, referenceId: r.reference_id, guardianId: r.guardian_id }]
+      : [];
+  });
+}
 
 type ReferenceRow = {
   id: string;
@@ -56,7 +79,13 @@ export async function visionManifest(env: Env, host = false) {
       createdAt: r.created_at,
       note: r.note,
       needsProcessing: r.model_version !== VISION_MODEL,
+      // The original photograph remains host-only; guests receive descriptors.
     })),
+    motionReferences: (
+      await env.DB.prepare("SELECT reference_id FROM guardian_motion").all<{
+        reference_id: string;
+      }>()
+    ).results.map((r) => r.reference_id),
     guardians: guardians.map((g) => ({
       id: g.id,
       name: g.name,
@@ -79,6 +108,79 @@ export async function visionAdmin(
   const path = new URL(request.url).pathname;
   if (path === "/api/admin/vision" && request.method === "GET")
     return json(await visionManifest(env, true));
+  const motionRead = path.match(
+    /^\/api\/admin\/vision\/motion\/([A-Z]+-\d{2})$/,
+  );
+  if (motionRead && request.method === "GET")
+    return json(await guardianMotion(env, motionRead[1], true));
+  const motionSave = path.match(
+    /^\/api\/admin\/vision\/references\/([a-f0-9]{32})\/motion$/,
+  );
+  if (motionSave && request.method === "DELETE") {
+    await env.DB.prepare("DELETE FROM guardian_motion WHERE reference_id=?")
+      .bind(motionSave[1])
+      .run();
+    await env.DB.prepare(
+      "INSERT INTO host_audit(actor_hash,action,created_at) VALUES(?,'vision_motion_clear',?)",
+    )
+      .bind(actor, Date.now())
+      .run();
+    return json({ ok: true });
+  }
+  if (motionSave && request.method === "POST") {
+    let input: unknown;
+    try {
+      input = JSON.parse(
+        new TextDecoder().decode(await readBody(request, 128000)),
+      );
+    } catch (e) {
+      if (e instanceof Response) throw e;
+      fail("Movement setup could not be read.", 422);
+    }
+    if (!validMotion(input))
+      fail(
+        "Set four movement points, an object boundary and valid reference features.",
+        422,
+      );
+    const row = await env.DB.prepare(
+      "SELECT guardian_id FROM vision_references WHERE id=? AND model_version=?",
+    )
+      .bind(motionSave[1], VISION_MODEL)
+      .first<{ guardian_id: string | null }>();
+    if (!row?.guardian_id)
+      fail("Choose a current guardian reference photograph.", 404);
+    const result = await env.DB.prepare(
+      `INSERT INTO guardian_motion(reference_id,guardian_id,data,updated_at)
+      SELECT ?,?,?,? WHERE EXISTS(SELECT 1 FROM guardian_motion WHERE reference_id=?) OR
+      (SELECT COUNT(*) FROM guardian_motion WHERE guardian_id=?)<6
+      ON CONFLICT(reference_id) DO UPDATE SET data=excluded.data,updated_at=excluded.updated_at`,
+    )
+      .bind(
+        motionSave[1],
+        row.guardian_id,
+        JSON.stringify({
+          rig: input.rig,
+          parts: input.parts,
+          bounds: input.bounds,
+          features: input.features,
+        }),
+        Date.now(),
+        motionSave[1],
+        row.guardian_id,
+      )
+      .run();
+    if (!result.meta.changes)
+      fail(
+        "Keep up to six movement views per guardian. Edit an existing view.",
+        409,
+      );
+    await env.DB.prepare(
+      "INSERT INTO host_audit(actor_hash,action,created_at) VALUES(?,'vision_motion_save',?)",
+    )
+      .bind(actor, Date.now())
+      .run();
+    return json({ ok: true });
+  }
   if (path === "/api/admin/vision/settings" && request.method === "POST") {
     const input = await body(request);
     if (

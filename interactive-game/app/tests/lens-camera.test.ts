@@ -43,7 +43,7 @@ it("keeps no stream before opening, stops every track, then reuses only an optio
     video: {
       facingMode: { ideal: "environment" },
       width: { ideal: 1280 },
-      frameRate: { ideal: 24, max: 30 },
+      frameRate: { ideal: 12, max: 15 },
     },
   });
   camera.stop();

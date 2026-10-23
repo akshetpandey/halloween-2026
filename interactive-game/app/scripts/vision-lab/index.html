@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="UTF-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Guardian model comparison · local only</title>
+  <style>
+    body {
+      font: 16px system-ui;
+      background: #14231b;
+      color: #eee8ce;
+      padding: 20px;
+      max-width: 1300px;
+      margin: auto;
+    }
+    button,
+    label {
+      display: inline-block;
+      padding: 14px;
+      border: 1px solid #b7a779;
+      margin: 8px;
+      color: inherit;
+      background: #25392b;
+      border-radius: 8px;
+    }
+    input {
+      max-width: 100%;
+    }
+    #results {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    article {
+      max-width: 360px;
+    }
+    canvas {
+      width: 100%;
+      max-height: 500px;
+      object-fit: contain;
+    }
+    pre {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  </style>
+  <h1>Guardian model comparison</h1>
+  <p>
+    Loopback development tool. Photos stay in this browser. One worker/model at
+    a time; selecting a model stops the previous one. Timings include image
+    preprocessing, not downloads/preparation.
+  </p>
+  <label
+    >Test photos <input id="photos" type="file" accept="image/*" multiple
+  /></label>
+  <button id="fixtures">Load local fox fixtures</button>
+  <div>
+    <button data-model="legacy">MagicTouch 512 CPU</button
+    ><button data-model="legacy-gpu">MagicTouch 512 GPU</button
+    ><button data-model="legacy-multi-gpu">
+      MagicTouch 512 GPU three points</button
+    ><button data-model="modern">MagicTouch 768 CPU</button
+    ><button data-model="modern-gpu">MagicTouch 768 GPU</button
+    ><button data-model="edge">EdgeSAM CPU point</button
+    ><button data-model="edge-box">EdgeSAM CPU box</button
+    ><button data-model="edge-gpu">EdgeSAM WebGPU box</button
+    ><button data-model="edge-hybrid">EdgeSAM WebGPU + WASM box</button
+    ><button data-model="xfeat">XFeat CPU</button
+    ><button data-model="sam2">SAM 2.1 Tiny CPU box</button
+    ><button data-model="sam2-gpu">SAM 2.1 Tiny WebGPU box</button
+    ><button data-model="yolo">YOLOE26n visual CPU</button
+    ><button data-model="orb">ORB registration CPU</button
+    ><button id="stop">Stop</button>
+  </div>
+  <p id="status" role="status">Choose photos.</p>
+  <pre id="metrics"></pre>
+  <div id="results"></div>
+  <script type="module" src="./lab.ts"></script>
+</html>

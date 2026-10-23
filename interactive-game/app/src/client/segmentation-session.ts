@@ -6,7 +6,7 @@ import type { VisionReply } from "./vision.worker";
 export class SegmentationSession extends PreparedVisionSession {
   private safety = new OutlineSafety();
   constructor() {
-    super("prepare-segment", "wasm", "segmentation");
+    super("prepare-segment", "auto", "segmentation");
   }
   prepare(progress?: (text: string) => void) {
     return this.safety.run(() => super.prepare(progress));
@@ -18,7 +18,7 @@ export class SegmentationSession extends PreparedVisionSession {
     image: Blob,
     key: string,
     progress: (text: string) => void,
-    point: { x: number; y: number },
+    point: { x: number; y: number } | { x: number; y: number }[],
   ): Promise<VisionReply> {
     return this.safety.run(() =>
       this.getEngine().request("segment", image, key, progress, point),

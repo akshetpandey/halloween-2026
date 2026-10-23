@@ -1,6 +1,6 @@
 # Guardian camera — phone test
 
-Updated October 23, 2026 after the host-test crash fix. Close an already-open/crashed test tab and reopen the host link to load the replacement model; saved reference photos remain usable. Use normal phone photographs; LiDAR is not needed. This pilot tests recognition and a captured-photo awakening. It does not animate a continuously tracked 3D creature.
+Updated October 23, 2026 for saved movement and accelerated outlines. Close an already-open/crashed test tab and reopen the host link to load the replacement model; saved reference photos remain usable. Use normal phone photographs; LiDAR is not needed. This pilot tests recognition and a captured-photo awakening. It does not animate a continuously tracked 3D creature.
 
 ## 1. Teach the Lens a guardian
 
@@ -14,19 +14,27 @@ Reference photos are stored privately for the host; recognition features are sha
 
 ## 2. Try a photo, then the live camera
 
-1. In the host dashboard, choose **Test the Looking Lens**. The current test uses **MagicTouch · CPU / WASM**; it replaces the high-memory SAM/WebGPU path.
+1. In the host dashboard, choose **Test the Looking Lens**. The test uses **MagicTouch · WebGL GPU**, with the existing CPU/WASM path as fallback. It does not load the retired high-memory SAM model.
 2. Wait for **Lens ready · awakening ready**. This means recognition and segmentation have both completed a warm-up. First preparation downloads models/runtime and can take longer than later scans; keep the page in the foreground.
 3. Choose **Choose a photo**, then select the held-out guardian photo. Check that it names the correct guardian, shows its greeting, and produces a useful glowing cutout. Tap the actual creature in the photo to refine an outline that selects only a face or background.
 4. Choose **Scan another guardian**, then **Open the live lens** and allow camera access. Point at the real object, keeping the whole object centred. Hold steady: three consecutive matches over at least half a second trigger capture automatically.
-5. Recognition reveals the guardian name and greeting immediately, followed by a gold scan line and segmented cutout over the darkened photo. The fox tilts its head and swishes its tail; other cutouts float gently amid gold pollen. **Let it rest / Wake it again** pauses/resumes fox motion. The host test offers **Back to reference photos**. The guest rehearsal offers **Hear its trial** while the outline runs; verify there that the trial opens the right guardian. This is 2D photo motion, with no 3D tracking or spoken greeting.
+5. Recognition reveals the guardian name and greeting immediately, followed by a gold scan line and segmented cutout over the darkened photo. A guardian with aligned saved movement tilts its head and/or swishes its tail; other cutouts float gently amid gold pollen. **Let it rest / Wake it again** pauses/resumes puppet motion. The host test offers **Back to reference photos**. The guest rehearsal offers **Hear its trial** while the outline runs; verify there that the trial opens the right guardian. This is 2D photo motion, with no 3D tracking or spoken greeting.
 6. Repeat with an ordinary object and an empty patch of room. The Lens should keep looking rather than confidently name a guardian. Try another angle and dimmer light too.
 7. Close the live lens or leave its page. Check that the active camera indicator turns off. Re-entering the Lens must not start recording by itself. Tap **Open the live lens** again: the previous camera is a selection hint, while all tracks are newly acquired. Also try switching apps while scanning, and leaving while a permission request is still pending; returning must require another explicit open.
 
 If you only have pictures for now, use a separate, untrained picture via **Choose a photo**. You can also point the live camera at a picture on another screen or a print. That tests the camera and awakening flow; repeat with the physical object before judging real-world recognition.
 
-### Current fox pilot
+### Save movement once per useful reference angle
 
-The fox now has a photo-puppet prototype. In **Adjust fox movement**, choose **1. Head** and tap its centre, then set **2. Neck**, **3. Tail tip** and **4. Tail base** in the photo. Tap **Watch movement** to preview. The initial movement points are silhouette estimates for an upright-tail fox, so adjust them if the wrong region bends. These settings apply only to the current captured photo. Tapping outside adjustment mode still refines segmentation and resets the pose estimate. Motion cannot recover a piece missing from the segmentation mask, such as the upper tail tip in the first view. Try the side-view photo too; its tested outline includes the whole tail. Blinking is not implemented.
+1. Return to **Guardian reference photos**, choose the fox, and tap **Set up movement** below a reference photo.
+2. Choose **Boundary: top left**, then tap just above/left of the whole fox. Choose **Boundary: bottom right**, then tap just below/right, including its entire tail.
+3. Choose **Head**, **Neck**, **Tail tip** and **Tail base** in turn, tapping each position in the photo. Choose head/tail/both under **Moving parts**. This editor also works for other guardians.
+4. Tap **Preview awakening**. The outline uses the body, head and tail points rather than only the photo centre. Check the whole tail is included and the correct regions move. Adjust if necessary, then tap **Save movement**.
+5. Set up the other useful reference angles too (up to six saved movement views per guardian). Reopen **Edit saved movement** or reload the dashboard to verify persistence.
+6. Open **Test the Looking Lens** and choose a new photo from a similar angle. Diagnostics should say **Saved movement aligned** with a matching-detail count. A new side of a 3D object may need a reference setup from that side; uncertain geometry leaves the guardian available without applying an unverified puppet.
+7. Reduce Motion no longer suppresses Lens motion, per the host's request. **Let it rest / Wake it again** is still available. **Adjust this capture’s movement** changes only the current reveal; use the reference editor for permanent changes.
+
+The cutout is a lightweight 2D mesh. It does not reconstruct hidden parts or eyelids, and blinking is not implemented. Saved part prompts improved the missing tail in the three-photo desktop pilot; that does not establish quality on every new camera angle. [Model research and measured comparison](guardian-model-review-2026-10-23.md).
 
 October 23: the host confirms the test page now opens on iPhone Chrome. All three saved fox views use the current recognition model. A Mac browser test of one saved view recognized **The Fox of Small Print** in 0.08 seconds and outlined it in 0.84 seconds after warm-up. The mask missed the upper tail tip; tap refinement and further phone testing remain useful. This saved-reference test demonstrates the flow, not held-out recognition accuracy.
 
@@ -50,4 +58,4 @@ For a quick guest scanner check without registering again, use **Field notes →
 - Segmentation: preparation time, per-photo outline time/backend and whether the whole creature was selected. Note whether tapping improved it.
 - Whether the second Lens visit was ready immediately, camera-opening/preview times on first and subsequent opens, whether the camera stopped outside scanning, and any crash or tab reload.
 
-Prewarming removes download/session setup and first-run compilation from the scan. It cannot remove inference for a new photo. The retired SAM model took about five seconds per photo and reached almost 2 GiB of local process memory. The replacement produced an outline in about one second in the Mac browser test; iPhone/Android performance and stability still require your test. The greeting and trial do not wait for the cutout. If matching struggles, add more varied references before lowering the host calibration thresholds.
+Prewarming removes download/session setup and first-run compilation from the scan. It cannot remove inference for a new photo. The retired SAM model took about five seconds per photo and reached almost 2 GiB of local process memory. The current accelerated path produced warmed single-point outlines in about 46–51ms and three-point outlines in 126–159ms in the desktop experiment. Cold compilation, alignment and phone performance are separate; iPhone/Android performance and stability still require your test. The greeting and trial do not wait for the cutout. If matching struggles, add more varied references before lowering the host calibration thresholds.

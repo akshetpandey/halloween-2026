@@ -10,7 +10,7 @@ import { hex, hash, fail, json, readBody, body } from "./request";
 import { adminApi, redeemHostRecovery } from "./admin";
 import { costumeApi, costumeAward } from "./costumes";
 import { COSTUME_REMINDER_AT, reminderDue } from "../shared/costumes";
-import { visionManifest } from "./vision";
+import { visionManifest, guardianMotion } from "./vision";
 import { VISION_MODEL } from "../shared/vision";
 import { visionRuntimeAsset } from "./vision-assets";
 export type RowPlayer = {
@@ -179,12 +179,19 @@ async function api(request: Request, env: Env): Promise<Response> {
     await rate(request, env, path);
   }
   if (path.startsWith("/api/admin/")) return adminApi(request, env);
-  if (path === "/api/vision/references" || path === "/api/vision/encounter") {
+  if (
+    path === "/api/vision/references" ||
+    path === "/api/vision/encounter" ||
+    path.startsWith("/api/vision/motion/")
+  ) {
     // The camera prototype is confined to rehearsal. Host enrollment/tests use Access.
     if (env.PREVIEW !== "true")
       fail("The Looking Lens is still in rehearsal.", 404);
     registered(p);
     open(env, p);
+    const motion = path.match(/^\/api\/vision\/motion\/([A-Z]+-\d{2})$/);
+    if (motion && request.method === "GET")
+      return json(await guardianMotion(env, motion[1]));
     if (path === "/api/vision/references" && request.method === "GET")
       return json(await visionManifest(env));
     if (path === "/api/vision/encounter" && request.method === "POST") {

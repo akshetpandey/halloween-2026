@@ -21,6 +21,8 @@ import {
 } from "./segmentation-session";
 import { preparePhoto, cutoutPhoto, type PreparedPhoto } from "./vision-engine";
 import type { MaskResult, VisionReply } from "./vision.worker";
+import { motionRequest } from "./motion-engine";
+import type { MotionAlignment, MotionPose } from "../shared/guardian-motion";
 import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
 import "./vision.css";
@@ -72,6 +74,11 @@ export function GuardianLens({
   });
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [continuing, setContinuing] = useState(false);
+  const [alignment, setAlignment] = useState<MotionAlignment | null>(null),
+    [motionKnown, setMotionKnown] = useState(false),
+    [motionStatus, setMotionStatus] = useState("");
+  const aligned = useRef<MotionAlignment | null>(null);
+  const poses = useRef(new Map<string, Promise<MotionPose[]>>());
   const [foxRig, setFoxRig] = useState<FoxRig | null>(null);
   const [moving, setMoving] = useState(true);
   const [puppetReady, setPuppetReady] = useState(false);
@@ -87,10 +94,16 @@ export function GuardianLens({
   const busy = phase === "reading";
   const guardian = guardians.find((g) => g.id === match?.guardianId);
   const isFox = guardian?.art === "fox";
+  const puppetEligible = isFox || !!alignment;
   useEffect(() => {
-    setFoxRig(isFox && outline?.usable ? estimateFoxRig(outline) : null);
+    setFoxRig(
+      outline?.usable
+        ? (alignment?.rig ??
+            (!motionKnown && isFox ? estimateFoxRig(outline) : null))
+        : null,
+    );
     setRigPoint(null);
-  }, [outline, isFox]);
+  }, [outline, isFox, alignment, motionKnown]);
   const ready = !!manifest?.references.some((r) => r.guardianId);
   async function load() {
     setManifest(provided ?? (await api<VisionManifest>("/vision/references")));
@@ -181,6 +194,10 @@ export function GuardianLens({
     setProgress("");
     setLive({ count: 0, frames: 0, ms: 0 });
     setFoxRig(null);
+    setAlignment(null);
+    aligned.current = null;
+    setMotionKnown(false);
+    setMotionStatus("");
     setPuppetReady(false);
     setRigPoint(null);
     setMoving(true);
@@ -239,7 +256,7 @@ export function GuardianLens({
   async function outlinePhoto(
     p: PreparedPhoto,
     attempt: number,
-    point = { x: 0.5, y: 0.5 },
+    point?: { x: number; y: number },
   ) {
     setOutlining(true);
     setProgress("Tracing its shape · you can enter the trial now");
@@ -253,7 +270,27 @@ export function GuardianLens({
         (text) => {
           if (attempt === action.current) setProgress(text);
         },
-        point,
+        point ??
+          (aligned.current
+            ? [
+                {
+                  x:
+                    (aligned.current.bounds.left +
+                      aligned.current.bounds.right) /
+                    2,
+                  y:
+                    (aligned.current.bounds.top +
+                      aligned.current.bounds.bottom) /
+                    2,
+                },
+                ...(aligned.current.parts === "tail"
+                  ? []
+                  : [aligned.current.rig.head]),
+                ...(aligned.current.parts === "head"
+                  ? []
+                  : [aligned.current.rig.tail]),
+              ]
+            : { x: 0.5, y: 0.5 }),
       );
       if (attempt !== action.current) return;
       const seg = result.segmentation!;
@@ -319,7 +356,38 @@ export function GuardianLens({
       liveMs,
       frames,
     }));
-    void outlinePhoto(p, attempt);
+    setOutlining(true);
+    try {
+      let pending = poses.current.get(found.guardianId!);
+      if (!pending) {
+        pending = api<MotionPose[]>(
+          (host ? "/admin" : "") + "/vision/motion/" + found.guardianId,
+        );
+        poses.current.set(found.guardianId!, pending);
+      }
+      const saved = await pending;
+      if (attempt !== action.current) return;
+      setMotionKnown(saved.length > 0);
+      if (saved.length) {
+        setProgress("Finding its familiar features…");
+        const result = await motionRequest(p.blob, { poses: saved });
+        if (attempt !== action.current) return;
+        aligned.current = result.alignment ?? null;
+        setAlignment(aligned.current);
+        setMotionStatus(
+          aligned.current
+            ? `Saved movement aligned · ${aligned.current.inliers} matching details`
+            : "No reliable movement alignment for this angle. Add a movement setup for a closer reference view.",
+        );
+      } else setMotionStatus("No saved movement for this guardian yet.");
+    } catch {
+      if (attempt !== action.current) return;
+      setMotionKnown(true);
+      setMotionStatus(
+        "Saved movement is unavailable. The guardian's trial is still ready.",
+      );
+    }
+    if (attempt === action.current) void outlinePhoto(p, attempt);
   }
   async function recognize(file: Blob) {
     if (!manifest || !ready) return;
@@ -540,7 +608,7 @@ export function GuardianLens({
       </p>
       {host && (
         <p className="small muted">
-          Outline processing: MagicTouch · CPU / WASM
+          Outline processing: MagicTouch · GPU with CPU fallback
         </p>
       )}
       {ready && (
@@ -618,8 +686,8 @@ export function GuardianLens({
               className={
                 "lens-photo " +
                 (phase === "awake" ? "is-awake " : "") +
-                (isFox ? "is-fox " : "") +
-                (isFox && puppetReady ? "has-fox-puppet" : "")
+                (puppetEligible ? "is-fox " : "") +
+                (puppetEligible && puppetReady ? "has-fox-puppet" : "")
               }
               style={
                 {
@@ -635,10 +703,11 @@ export function GuardianLens({
                 alt="Your guardian photograph"
               />
               {cutout && <img className="lens-cutout" src={cutout} alt="" />}
-              {cutout && isFox && foxRig && (
+              {cutout && puppetEligible && foxRig && (
                 <FoxAwakening
                   src={cutout}
                   rig={foxRig}
+                  parts={alignment?.parts}
                   moving={moving && !rigPoint}
                   onAvailable={setPuppetReady}
                 />
@@ -723,12 +792,12 @@ export function GuardianLens({
               <p className="lens-voice">“{guardian.greeting}”</p>
               <p className="small muted">
                 {rigPoint
-                  ? `Tap the fox’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
+                  ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
                   : cutout
                     ? "Tap the creature in your photograph to refine its outline."
                     : "Its voice is waiting, even if the outline is quiet."}
               </p>
-              {isFox && cutout && puppetReady && (
+              {puppetEligible && cutout && puppetReady && (
                 <button
                   className="text-button lens-retrace"
                   onClick={() => setMoving(!moving)}
@@ -737,18 +806,20 @@ export function GuardianLens({
                   {moving ? "Let it rest" : "Wake it again"}
                 </button>
               )}
-              {host && isFox && cutout && foxRig && (
+              {host && puppetEligible && cutout && foxRig && (
                 <details
                   className="lens-rig-editor"
                   onToggle={(e) => {
                     if (!e.currentTarget.open) setRigPoint(null);
                   }}
                 >
-                  <summary>Adjust fox movement</summary>
+                  <summary>Adjust this capture’s movement</summary>
                   <p className="small muted">
                     The starting pose estimates a head and upright tail from the
                     outline. Choose a point, then tap its position in this
-                    photo. Adjustments apply only to this capture.
+                    photo. Adjustments here apply only to this capture. Save
+                    permanent points with “Set up movement” on a reference
+                    photo.
                   </p>
                   <div className="lens-rig-controls">
                     {FOX_POINTS.map(({ key, label }, i) => (
@@ -866,7 +937,8 @@ export function GuardianLens({
               {details.outlinePrepareBackend
                 ? ` · ${details.outlinePrepareBackend}`
                 : ""}
-              . Recognition and outlines use separate warmed CPU models.
+              . Recognition uses a warmed CPU model; outlines try GPU with CPU
+              fallback.
               {details.cameraMs > 0 && (
                 <>
                   {" "}
@@ -902,6 +974,7 @@ export function GuardianLens({
                   {c.score.toFixed(3)}
                 </div>
               ))}
+              {motionStatus && <p>{motionStatus}</p>}
               {outline && (
                 <p>
                   Mask area {(outline.area * 100).toFixed(1)}% · mask score{" "}

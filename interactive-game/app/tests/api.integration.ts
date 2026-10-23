@@ -581,6 +581,56 @@ describe("guardian camera prototype", () => {
           enabled: true,
         });
       await enabled();
+      const { MOTION_MODEL } = await import("../src/shared/guardian-motion");
+      const motion = {
+        rig: {
+          head: { x: 0.3, y: 0.4 },
+          neck: { x: 0.4, y: 0.4 },
+          tail: { x: 0.6, y: 0.2 },
+          rump: { x: 0.6, y: 0.5 },
+        },
+        parts: "both",
+        bounds: { left: 0.1, top: 0.1, right: 0.8, bottom: 0.8 },
+        features: {
+          model: MOTION_MODEL,
+          points: Array.from({ length: 12 }, (_, i) => [
+            0.2 + (i % 4) * 0.1,
+            0.2 + Math.floor(i / 4) * 0.1,
+          ]).flat(),
+          descriptors: btoa("x".repeat(12 * 32)),
+        },
+      };
+      const motionPath = "/admin/vision/references/" + id + "/motion";
+      expect((await anon.req(motionPath, "POST", motion)).status).toBe(401);
+      expect((await guest.req(motionPath, "POST", motion)).status).toBe(401);
+      expect(
+        (await host.req(motionPath, "POST", { ...motion, parts: "wrong" }))
+          .status,
+      ).toBe(422);
+      expect((await host.req(motionPath, "POST", motion)).status).toBe(200);
+      expect(
+        (await (await host.req("/admin/vision")).json()).motionReferences,
+      ).toContain(id);
+      const posesResponse = await guest.req("/vision/motion/BUY-02");
+      expect(posesResponse.headers.get("Cache-Control")).toBe(
+        "private, no-store",
+      );
+      const poses = await posesResponse.json();
+      expect(
+        poses.find((p: { referenceId: string }) => p.referenceId === id),
+      ).toMatchObject(motion);
+      expect(JSON.stringify(poses)).not.toMatch(
+        /photo_key|photo_hash|guardian-reference/,
+      );
+      expect((await anon.req("/vision/motion/BUY-02")).status).toBe(401);
+      // Clear/update survives separate requests, and deleting the reference cascades.
+      expect((await host.req(motionPath, "DELETE")).status).toBe(200);
+      expect(
+        (await (await host.req("/admin/vision/motion/BUY-02")).json()).some(
+          (p: { referenceId: string }) => p.referenceId === id,
+        ),
+      ).toBe(false);
+      expect((await host.req(motionPath, "POST", motion)).status).toBe(200);
       const publicManifest = await (
         await guest.req("/vision/references")
       ).json();
@@ -676,6 +726,9 @@ describe("guardian camera prototype", () => {
           (r: { id: string }) => r.id === id,
         ),
       ).toBe(false);
+      expect(await (await guest.req("/vision/motion/BUY-02")).json()).toEqual(
+        [],
+      );
       expect(
         (
           await guest.req("/vision/encounter", "POST", {
@@ -692,6 +745,11 @@ describe("guardian camera prototype", () => {
         expect((await host.req("/admin/vision/references/" + id)).status).toBe(
           404,
         );
+        expect(
+          (await (await host.req("/admin/vision/motion/BUY-02")).json()).some(
+            (p: { referenceId: string }) => p.referenceId === id,
+          ),
+        ).toBe(false);
       }
       await host.req("/admin/vision/settings", "POST", old.settings);
       await host.req("/admin/vision/guardian", "POST", {

@@ -1,5 +1,7 @@
 # Ready-made bases and mounting kits • October 31 headpiece
 
+**Superseded construction proposal:** [21](21-wearable-frame-and-veil-build-2026-10-23.md) investigates actual wearable cosplay builds and proposes eliminating the plate/cap interface with a padded circlet/crossband and separate removable veil bridge. This page retains the earlier product checks/exclusions; its $33.91 pairing is **not a buying instruction or completed kit**.
+
 Checked October 23, 2026, America/New_York / EDT (UTC−04:00). Host requests an obtainable ready base or mounting kit to keep the **entire headpiece build under two hours** while waiting for jandmantlers' reply. [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) retains antler candidates and the already-sent enquiry; no seller messages or reply checks made this turn.
 
 ## Outcome

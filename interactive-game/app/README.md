@@ -28,6 +28,8 @@ The [Looking Lens prototype](guardian-camera-prototype.md) adds private host ref
 
 October 23 crash correction: the former SlimSAM warm-up reached **1,968 MiB peak process RSS** in a local CPU smoke. It has been replaced by a 512px MagicTouch CNN with pinned MediaPipe CPU runtime, sequential preparation and an interrupted-outline retry guard. Recognition features/reference photos are unchanged. [Crash investigation and release](handoff-2026-10-23-host-crash-fix.md). Earlier SlimSAM/WebGPU implementation notes below and in historical handoffs are superseded for current camera processing.
 
+October 23 fox movement: the fox's captured cutout now tilts its head and swishes its tail using a small local 2D mesh, with pause/resume and optional per-capture host movement-point adjustment. Other guardians retain their existing reveal. This adds no ML download; it uses the current MagicTouch mask. Phone performance and pose quality remain pilot acceptance items. [Fox animation implementation and verification](handoff-2026-10-23-fox-puppet.md).
+
 The Lens also retains an in-memory camera selection hint and cleared frame buffers across visits. Camera tracks are fully stopped outside active scanning; no disabled/hidden stream stays alive. Pending camera requests are invalidated on navigation or backgrounding and late streams are immediately stopped. Host diagnostics separate camera-request and preview-readiness time from model/recognition time. [Camera lifecycle update](handoff-2026-10-23-camera-reuse.md).
 
 ## Try it locally

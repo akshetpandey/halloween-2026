@@ -21,6 +21,8 @@ import {
 } from "./segmentation-session";
 import { preparePhoto, cutoutPhoto, type PreparedPhoto } from "./vision-engine";
 import type { MaskResult, VisionReply } from "./vision.worker";
+import { FoxAwakening } from "./FoxAwakening";
+import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
 import "./vision.css";
 export function GuardianLens({
   manifest: provided,
@@ -70,6 +72,10 @@ export function GuardianLens({
   });
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [continuing, setContinuing] = useState(false);
+  const [foxRig, setFoxRig] = useState<FoxRig | null>(null);
+  const [moving, setMoving] = useState(true);
+  const [puppetReady, setPuppetReady] = useState(false);
+  const [rigPoint, setRigPoint] = useState<keyof FoxRig | null>(null);
   const outlineSession = useRef<SegmentationSession | null>(null);
   const video = useRef<HTMLVideoElement>(null),
     cameraStarted = useRef(0),
@@ -80,6 +86,11 @@ export function GuardianLens({
     cutoutRef = useRef("");
   const busy = phase === "reading";
   const guardian = guardians.find((g) => g.id === match?.guardianId);
+  const isFox = guardian?.art === "fox";
+  useEffect(() => {
+    setFoxRig(isFox && outline?.usable ? estimateFoxRig(outline) : null);
+    setRigPoint(null);
+  }, [outline, isFox]);
   const ready = !!manifest?.references.some((r) => r.guardianId);
   async function load() {
     setManifest(provided ?? (await api<VisionManifest>("/vision/references")));
@@ -169,6 +180,10 @@ export function GuardianLens({
     setOutline(null);
     setProgress("");
     setLive({ count: 0, frames: 0, ms: 0 });
+    setFoxRig(null);
+    setPuppetReady(false);
+    setRigPoint(null);
+    setMoving(true);
     setDetails((old) => ({
       ...old,
       liveMs: 0,
@@ -491,10 +506,15 @@ export function GuardianLens({
   function refine(event: React.MouseEvent<HTMLDivElement>) {
     if (!photo || !guardian || outlining || phase !== "awake") return;
     const box = event.currentTarget.getBoundingClientRect();
-    void outlinePhoto(photo, ++action.current, {
+    const point = {
       x: Math.max(0, Math.min(1, (event.clientX - box.left) / box.width)),
       y: Math.max(0, Math.min(1, (event.clientY - box.top) / box.height)),
-    });
+    };
+    if (host && rigPoint && foxRig) {
+      setFoxRig({ ...foxRig, [rigPoint]: point });
+      return;
+    }
+    void outlinePhoto(photo, ++action.current, point);
   }
   return (
     <section className={"guardian-lens " + (host ? "host-lens" : "page-top")}>
@@ -595,7 +615,12 @@ export function GuardianLens({
             </div>
           ) : photo ? (
             <div
-              className={"lens-photo " + (phase === "awake" ? "is-awake" : "")}
+              className={
+                "lens-photo " +
+                (phase === "awake" ? "is-awake " : "") +
+                (isFox ? "is-fox " : "") +
+                (isFox && puppetReady ? "has-fox-puppet" : "")
+              }
               style={
                 {
                   aspectRatio: `${photo.width}/${photo.height}`,
@@ -610,6 +635,41 @@ export function GuardianLens({
                 alt="Your guardian photograph"
               />
               {cutout && <img className="lens-cutout" src={cutout} alt="" />}
+              {cutout && isFox && foxRig && (
+                <FoxAwakening
+                  src={cutout}
+                  rig={foxRig}
+                  moving={moving && !rigPoint}
+                  onAvailable={setPuppetReady}
+                />
+              )}
+              {host && rigPoint && foxRig && (
+                <svg
+                  className="lens-rig-points"
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d={`M${foxRig.head.x * 100},${foxRig.head.y * 100} L${foxRig.neck.x * 100},${foxRig.neck.y * 100} M${foxRig.tail.x * 100},${foxRig.tail.y * 100} L${foxRig.rump.x * 100},${foxRig.rump.y * 100}`}
+                  />
+                  {FOX_POINTS.map(({ key }, i) => (
+                    <g key={key}>
+                      <circle
+                        cx={foxRig[key].x * 100}
+                        cy={foxRig[key].y * 100}
+                        r={key === rigPoint ? 2 : 1.3}
+                      />
+                      <text
+                        x={foxRig[key].x * 100 + 2.5}
+                        y={foxRig[key].y * 100}
+                      >
+                        {i + 1}
+                      </text>
+                    </g>
+                  ))}
+                </svg>
+              )}
               {(busy || phase === "awake") && (
                 <div className="lens-pollen" aria-hidden="true">
                   {Array.from({ length: 12 }, (_, i) => (
@@ -662,10 +722,51 @@ export function GuardianLens({
               <h2>{guardian.name}</h2>
               <p className="lens-voice">“{guardian.greeting}”</p>
               <p className="small muted">
-                {cutout
-                  ? "Tap the creature in your photograph to refine its outline."
-                  : "Its voice is waiting, even if the outline is quiet."}
+                {rigPoint
+                  ? `Tap the fox’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
+                  : cutout
+                    ? "Tap the creature in your photograph to refine its outline."
+                    : "Its voice is waiting, even if the outline is quiet."}
               </p>
+              {isFox && cutout && puppetReady && (
+                <button
+                  className="text-button lens-retrace"
+                  onClick={() => setMoving(!moving)}
+                  aria-pressed={!moving}
+                >
+                  {moving ? "Let it rest" : "Wake it again"}
+                </button>
+              )}
+              {host && isFox && cutout && foxRig && (
+                <details
+                  className="lens-rig-editor"
+                  onToggle={(e) => {
+                    if (!e.currentTarget.open) setRigPoint(null);
+                  }}
+                >
+                  <summary>Adjust fox movement</summary>
+                  <p className="small muted">
+                    The starting pose estimates a head and upright tail from the
+                    outline. Choose a point, then tap its position in this
+                    photo. Adjustments apply only to this capture.
+                  </p>
+                  <div className="lens-rig-controls">
+                    {FOX_POINTS.map(({ key, label }, i) => (
+                      <button
+                        className="btn secondary"
+                        key={key}
+                        aria-pressed={rigPoint === key}
+                        onClick={() => setRigPoint(key)}
+                      >
+                        {i + 1}. {label}
+                      </button>
+                    ))}
+                    <button className="btn" onClick={() => setRigPoint(null)}>
+                      Watch movement
+                    </button>
+                  </div>
+                </details>
+              )}
               <button
                 className="text-button lens-retrace"
                 disabled={outlining}

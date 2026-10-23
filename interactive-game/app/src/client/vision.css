@@ -265,6 +265,72 @@
     lens-breathe 5s 3s ease-in-out infinite;
   transform-origin: 50% 65%;
 }
+.lens-fox-puppet {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+  filter: drop-shadow(0 0 2px #fff6bc) drop-shadow(0 0 8px #c5ab5588);
+  animation: lens-spirit-enter 1.2s ease both;
+}
+.has-fox-puppet .lens-cutout {
+  visibility: hidden;
+}
+.is-fox .lens-cutout {
+  animation: none;
+}
+.lens-rig-points {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+  fill: #ffe7a0;
+}
+.lens-rig-points path {
+  fill: none;
+  stroke: #ffe7a0;
+  stroke-width: 0.35;
+}
+.lens-rig-points circle {
+  stroke: #16231c;
+  stroke-width: 0.5;
+}
+.lens-rig-points text {
+  font: 3px sans-serif;
+  paint-order: stroke;
+  stroke: #16231c;
+  stroke-width: 0.5;
+}
+.lens-rig-editor {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+  margin: 16px 0;
+  text-align: left;
+}
+.lens-rig-editor summary {
+  cursor: pointer;
+  color: var(--gold);
+  min-height: 32px;
+}
+.lens-rig-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.lens-rig-controls button {
+  flex: 1;
+  min-width: 110px;
+  min-height: 44px;
+  font-size: 12px;
+}
+.lens-rig-controls [aria-pressed="true"] {
+  outline: 2px solid var(--gold);
+}
 .lens-photo .lens-pollen {
   position: absolute;
   inset: 0;
@@ -535,6 +601,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .lens-cutout,
+  .lens-fox-puppet,
   .lens-spirit,
   .lens-spirit-owl [fill="#15211d"],
   .lens-pollen i,

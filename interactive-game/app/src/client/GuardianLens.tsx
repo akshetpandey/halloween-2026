@@ -15,11 +15,10 @@ import { api } from "./api";
 import { GuardianArt } from "./Art";
 import { recognitionSession } from "./recognition-session";
 import {
-  VisionEngine,
-  preparePhoto,
-  cutoutPhoto,
-  type PreparedPhoto,
-} from "./vision-engine";
+  getSegmentationSession,
+  type SegmentationSession,
+} from "./segmentation-session";
+import { preparePhoto, cutoutPhoto, type PreparedPhoto } from "./vision-engine";
 import type { MaskResult, VisionReply } from "./vision.worker";
 import "./vision.css";
 export function GuardianLens({
@@ -48,19 +47,27 @@ export function GuardianLens({
     [prepareProgress, setPrepareProgress] = useState(
       "Preparing the fast lens…",
     );
+  const [outlineState, setOutlineState] = useState<
+    "preparing" | "ready" | "failed"
+  >(() => (getSegmentationSession().ready ? "ready" : "preparing"));
+  const [outlineProgress, setOutlineProgress] = useState(
+    "Preparing the awakening…",
+  );
   const [details, setDetails] = useState({
     embedBackend: "",
     segmentBackend: "",
     embedMs: 0,
     segmentMs: 0,
     prepareMs: 0,
+    outlinePrepareMs: 0,
+    outlinePrepareBackend: "",
     liveMs: 0,
     frames: 0,
   });
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [backend, setBackend] = useState<"auto" | "wasm">("auto"),
     [continuing, setContinuing] = useState(false);
-  const outlineEngine = useRef<VisionEngine | null>(null);
+  const outlineSession = useRef<SegmentationSession | null>(null);
   const stream = useRef<MediaStream | null>(null),
     video = useRef<HTMLVideoElement>(null),
     clip = useRef("");
@@ -101,6 +108,38 @@ export function GuardianLens({
         if (mounted.current) setError(e.message);
       });
   }, [ready]);
+  function getOutlineSession() {
+    const session = getSegmentationSession(backend);
+    outlineSession.current = session;
+    return session;
+  }
+  function warmOutline(session = getOutlineSession()) {
+    setOutlineState(session.ready ? "ready" : "preparing");
+    return session
+      .prepare((text) => {
+        if (mounted.current && outlineSession.current === session)
+          setOutlineProgress(text);
+      })
+      .then((result) => {
+        if (mounted.current && outlineSession.current === session) {
+          setOutlineState("ready");
+          setDetails((old) => ({
+            ...old,
+            outlinePrepareMs: result.ms ?? 0,
+            outlinePrepareBackend: result.backend || "",
+          }));
+        }
+        return result;
+      })
+      .catch((error) => {
+        if (mounted.current && outlineSession.current === session)
+          setOutlineState("failed");
+        throw error;
+      });
+  }
+  useEffect(() => {
+    if (ready) void warmOutline().catch(() => {});
+  }, [ready, backend]);
   function stopCamera() {
     stream.current?.getTracks().forEach((t) => t.stop());
     stream.current = null;
@@ -112,8 +151,7 @@ export function GuardianLens({
     clip.current = "";
   }
   function stopOutline() {
-    outlineEngine.current?.close();
-    outlineEngine.current = null;
+    outlineSession.current?.clearImage();
     setOutlining(false);
   }
   function reset() {
@@ -148,7 +186,7 @@ export function GuardianLens({
       mounted.current = false;
       action.current++;
       stopCamera();
-      outlineEngine.current?.close();
+      outlineSession.current?.clearImage();
       if (currentPhoto.current) URL.revokeObjectURL(currentPhoto.current.url);
       if (cutoutRef.current) URL.revokeObjectURL(cutoutRef.current);
     };
@@ -204,9 +242,10 @@ export function GuardianLens({
     setOutlining(true);
     setProgress("Tracing its shape · you can enter the trial now");
     try {
-      if (!outlineEngine.current || outlineEngine.current.closed)
-        outlineEngine.current = new VisionEngine(backend);
-      const result = await outlineEngine.current.request(
+      const session = getOutlineSession();
+      await warmOutline(session);
+      if (attempt !== action.current) return;
+      const result = await session.getEngine().request(
         "segment",
         p.blob,
         p.key,
@@ -513,9 +552,16 @@ export function GuardianLens({
       {ready && (
         <p className="lens-ready" role="status">
           {modelReady
-            ? "Lens ready · automatic live scanning"
+            ? outlineState === "ready"
+              ? "Lens ready · awakening ready"
+              : outlineState === "failed"
+                ? "Lens ready · you can meet the guardian without its outline"
+                : "Lens ready · preparing the awakening…"
             : prepareProgress}
         </p>
+      )}
+      {host && ready && outlineState === "preparing" && (
+        <p className="small muted">{outlineProgress}</p>
       )}
       {error && (
         <p className="inline-error" role="alert">
@@ -725,6 +771,11 @@ export function GuardianLens({
               {details.liveMs > 0
                 ? ` · stable match in ${(details.liveMs / 1000).toFixed(2)}s (${details.frames} frames)`
                 : ""}
+              . Awakening preparation:{" "}
+              {(details.outlinePrepareMs / 1000).toFixed(2)}s
+              {details.outlinePrepareBackend
+                ? ` · ${details.outlinePrepareBackend}`
+                : ""}
               . Recognition runs on the warmed small CPU model; outline backend
               is selected above.
             </p>
@@ -736,8 +787,8 @@ export function GuardianLens({
                 Recognition: {details.embedBackend || "Local processing"} ·{" "}
                 {(details.embedMs / 1000).toFixed(2)}s. Outline:{" "}
                 {details.segmentBackend || "pending"} ·{" "}
-                {(details.segmentMs / 1000).toFixed(2)}s. Recognition excludes
-                model preparation; outline includes first-use preparation.
+                {(details.segmentMs / 1000).toFixed(2)}s per photograph. Model
+                warm-up is reported separately above.
               </p>
               <p>
                 Decision: <strong>{match.reason}</strong> · similarity{" "}

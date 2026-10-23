@@ -38,10 +38,8 @@ import { StoryReveal, type Reveal } from "./Reveals";
 import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
 import { GuardianLens } from "./GuardianLens";
 import { VISION_MODEL } from "../shared/vision";
-import {
-  recognitionSession,
-  shouldWarmRecognition,
-} from "./recognition-session";
+import { shouldWarmRecognition } from "./recognition-session";
+import { prepareArrivalVision } from "./segmentation-session";
 function App() {
   const [location, setLocation] = useState(
       window.location.pathname + window.location.search,
@@ -116,8 +114,8 @@ function App() {
   const warmRecognition = shouldWarmRecognition(state, path);
   useEffect(() => {
     // Signup/recovery never waits for camera preparation. A failed preload is
-    // retried by the Lens; the shared worker survives these route changes.
-    if (warmRecognition) void recognitionSession.prepare().catch(() => {});
+    // retried by the Lens; the shared sessions survive these route changes.
+    if (warmRecognition) void prepareArrivalVision().catch(() => {});
   }, [warmRecognition]);
   useEffect(() => {
     setEncounter(null);

@@ -108,44 +108,66 @@ const meta = await sharp(photo).metadata(),
   width = Math.round(meta.width * ratio),
   height = Math.round(meta.height * ratio);
 const encoder = await model("sam-encoder.onnx"),
-  large = await input(width, height, true),
-  samStart = performance.now();
-const embeddings = await encoder.run({ pixel_values: large });
-large.dispose();
-await encoder.release();
-const decoder = await model("sam-decoder.onnx");
-const points = new ort.Tensor(
+  decoder = await model("sam-decoder.onnx");
+const labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
+const warmInput = new ort.Tensor(
+  "float32",
+  new Float32Array(3 * 1024 * 1024),
+  [1, 3, 1024, 1024],
+);
+const warmPoint = new ort.Tensor(
+  "float32",
+  new Float32Array([512, 512]),
+  [1, 1, 1, 2],
+);
+const warmStart = performance.now();
+const warmEmbeddings = await encoder.run({ pixel_values: warmInput });
+const warmMasks = await decoder.run({
+  ...warmEmbeddings,
+  input_points: warmPoint,
+  input_labels: labels,
+});
+console.log(
+  `SlimSAM zero-input warm-up: ${Math.round(performance.now() - warmStart)}ms`,
+);
+warmInput.dispose();
+warmPoint.dispose();
+Object.values(warmMasks).forEach((t) => t.dispose());
+Object.values(warmEmbeddings).forEach((t) => t.dispose());
+for (let pass = 1; pass <= 2; pass++) {
+  const large = await input(width, height, true);
+  const points = new ort.Tensor(
     "float32",
     new Float32Array([width / 2, height / 2]),
     [1, 1, 1, 2],
-  ),
-  labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
-const masks = await decoder.run({
-  ...embeddings,
-  input_points: points,
-  input_labels: labels,
-});
-if (
-  masks.pred_masks.dims.at(-1) !== 256 ||
-  !Array.from(masks.iou_scores.data).every(Number.isFinite)
-)
-  throw Error("Invalid SAM output");
-console.log(
-  "SlimSAM: " +
-    JSON.stringify(masks.pred_masks.dims) +
-    ", scores " +
-    Array.from(masks.iou_scores.data)
+  );
+  const start = performance.now();
+  const embeddings = await encoder.run({ pixel_values: large });
+  const masks = await decoder.run({
+    ...embeddings,
+    input_points: points,
+    input_labels: labels,
+  });
+  if (
+    masks.pred_masks.dims.at(-1) !== 256 ||
+    !Array.from(masks.iou_scores.data).every(Number.isFinite)
+  )
+    throw Error("Invalid SAM output");
+  console.log(
+    `SlimSAM warmed photo ${pass}: ${Math.round(performance.now() - start)}ms, finite masks ${JSON.stringify(masks.pred_masks.dims)}; scores ${Array.from(
+      masks.iou_scores.data,
+    )
       .map((n) => n.toFixed(3))
-      .join(", ") +
-    ", " +
-    Math.round(performance.now() - samStart) +
-    "ms encode/decode",
-);
-points.dispose();
+      .join(", ")}`,
+  );
+  large.dispose();
+  points.dispose();
+  Object.values(masks).forEach((t) => t.dispose());
+  Object.values(embeddings).forEach((t) => t.dispose());
+}
 labels.dispose();
-Object.values(embeddings).forEach((t) => t.dispose());
-Object.values(masks).forEach((t) => t.dispose());
+await encoder.release();
 await decoder.release();
 console.log(
-  "Model execution passed. Test recognition accuracy and camera behavior on real phones separately.",
+  "Model execution and retained-session reuse passed. These are Mac CPU timings; test actual phone performance separately.",
 );

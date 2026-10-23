@@ -5,6 +5,10 @@ import {
 } from "../src/client/recognition-session";
 import type { VisionReply, VisionRequest } from "../src/client/vision.worker";
 import type { State } from "../src/shared/types";
+import {
+  SegmentationSession,
+  getSegmentationSession,
+} from "../src/client/segmentation-session";
 
 class TestWorker {
   static instances: TestWorker[] = [];
@@ -100,6 +104,51 @@ it("returns a rejected preload promise when Workers are unavailable, so onboardi
   vi.stubGlobal("Worker", undefined);
   await expect(s.prepare()).rejects.toThrow();
   expect(s.ready).toBe(false);
+});
+
+it("retains warmed segmentation models while releasing a previous photo", async () => {
+  vi.stubGlobal("Worker", TestWorker);
+  const s = new SegmentationSession();
+  sessions.push(s);
+  s.clearImage();
+  expect(TestWorker.instances).toHaveLength(0);
+  const warm = s.prepare();
+  const worker = TestWorker.instances[0];
+  expect(worker.sent[0]).toMatchObject({
+    kind: "prepare-segment",
+    backend: "auto",
+  });
+  worker.reply({ ready: true, backend: "WebGPU + WASM fallback" });
+  await warm;
+  s.clearImage();
+  expect(worker.sent[1].kind).toBe("release-image");
+  worker.reply({ ready: true });
+  await s.prepare();
+  expect(worker.sent.map((r) => r.kind)).toEqual([
+    "prepare-segment",
+    "release-image",
+  ]);
+  expect(s.ready).toBe(true);
+  expect(worker.terminated).toBe(false);
+});
+
+it("retains only one large segmentation worker when the host changes backend", async () => {
+  vi.stubGlobal("Worker", TestWorker);
+  const gpu = getSegmentationSession("auto");
+  sessions.push(gpu);
+  const warming = gpu.prepare();
+  TestWorker.instances[0].reply({ ready: true });
+  await warming;
+  const cpu = getSegmentationSession("wasm");
+  sessions.push(cpu);
+  expect(TestWorker.instances[0].terminated).toBe(true);
+  expect(gpu.ready).toBe(false);
+  const ready = cpu.prepare();
+  expect(TestWorker.instances[1].sent[0].backend).toBe("wasm");
+  TestWorker.instances[1].reply({ ready: true });
+  await ready;
+  expect(cpu.ready).toBe(true);
+  expect(TestWorker.instances.filter((w) => !w.terminated)).toHaveLength(1);
 });
 
 const state = (

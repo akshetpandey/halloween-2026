@@ -8,7 +8,7 @@ import {
 
 export type VisionRequest = {
   id: number;
-  kind: "prepare" | "embed" | "segment";
+  kind: "prepare" | "prepare-segment" | "embed" | "segment" | "release-image";
   image: Blob | ImageBitmap;
   imageKey: string;
   point?: { x: number; y: number };
@@ -85,7 +85,9 @@ async function session(
   return result;
 }
 let embedder: Ort.InferenceSession | null = null;
+let encoder: Ort.InferenceSession | null = null;
 let decoder: Ort.InferenceSession | null = null;
+let segmentationWarmed = false;
 let imageCache: {
   key: string;
   embeddings: Record<string, Ort.Tensor>;
@@ -199,9 +201,11 @@ async function releaseModels() {
     dispose(imageCache.embeddings);
     imageCache = null;
   }
-  const sessions = [embedder, decoder];
+  const sessions = [embedder, encoder, decoder];
   embedder = null;
+  encoder = null;
   decoder = null;
+  segmentationWarmed = false;
   await Promise.all(sessions.map((model) => model?.release().catch(() => {})));
 }
 async function prepareRecognition(job: VisionRequest) {
@@ -267,26 +271,74 @@ async function embed(job: VisionRequest) {
     if (out) dispose(out);
   }
 }
-async function segment(job: VisionRequest) {
-  const started = performance.now();
-  if (imageCache?.key !== job.imageKey) {
-    if (imageCache) {
-      dispose(imageCache.embeddings);
-      imageCache = null;
-    }
-    if (embedder) {
-      await embedder.release();
-      embedder = null;
-    }
-    progress(job.id, "Something stirs · preparing its outline");
+function clearImage() {
+  if (imageCache) dispose(imageCache.embeddings);
+  imageCache = null;
+}
+async function prepareSegmentation(job: VisionRequest) {
+  if (!encoder) {
     const graph = await asset(
       "sam-encoder.onnx",
       job.id,
-      "Preparing the outline",
+      "Preparing the awakening",
     );
-    const encoder = await session(graph, job, {
-      graphOptimizationLevel: "all",
-    });
+    encoder = await session(graph, job, { graphOptimizationLevel: "all" });
+  }
+  if (!decoder) {
+    const graph = await asset(
+      "sam-decoder.onnx",
+      job.id,
+      "Preparing the awakening",
+    );
+    decoder = await session(graph, job, { graphOptimizationLevel: "all" });
+  }
+}
+async function warmSegmentation(job: VisionRequest) {
+  const started = performance.now();
+  await prepareSegmentation(job);
+  if (!segmentationWarmed) {
+    progress(job.id, "Waking the woodland light · preparing its first outline");
+    const input = new ort.Tensor(
+      "float32",
+      new Float32Array(3 * 1024 * 1024),
+      [1, 3, 1024, 1024],
+    );
+    const points = new ort.Tensor(
+      "float32",
+      new Float32Array([512, 512]),
+      [1, 1, 1, 2],
+    );
+    const labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
+    let embeddings: Record<string, Ort.Tensor> | undefined;
+    let masks: Record<string, Ort.Tensor> | undefined;
+    try {
+      embeddings = await run(encoder!, { pixel_values: input });
+      masks = await run(decoder!, {
+        ...embeddings,
+        input_points: points,
+        input_labels: labels,
+      });
+      segmentationWarmed = true;
+    } finally {
+      input.dispose();
+      points.dispose();
+      labels.dispose();
+      if (masks) dispose(masks);
+      if (embeddings) dispose(embeddings);
+    }
+  }
+  self.postMessage({
+    id: job.id,
+    ready: true,
+    ms: performance.now() - started,
+    backend: sessionBackends.get(encoder!),
+  } satisfies VisionReply);
+}
+async function segment(job: VisionRequest) {
+  const started = performance.now();
+  await prepareSegmentation(job);
+  if (imageCache?.key !== job.imageKey) {
+    clearImage();
     const image =
       job.image instanceof Blob
         ? await createImageBitmap(job.image)
@@ -300,7 +352,7 @@ async function segment(job: VisionRequest) {
     image.close();
     try {
       progress(job.id, "Tracing the creature through the leaves…");
-      const embeddings = await run(encoder, { pixel_values: input });
+      const embeddings = await run(encoder!, { pixel_values: input });
       imageCache = {
         key: job.imageKey,
         embeddings,
@@ -308,20 +360,11 @@ async function segment(job: VisionRequest) {
         height,
         resizedW,
         resizedH,
-        backend: sessionBackends.get(encoder)!,
+        backend: sessionBackends.get(encoder!)!,
       };
     } finally {
       input.dispose();
-      await encoder.release();
     }
-  }
-  if (!decoder) {
-    const graph = await asset(
-      "sam-decoder.onnx",
-      job.id,
-      "Preparing the outline",
-    );
-    decoder = await session(graph, job, { graphOptimizationLevel: "all" });
   }
   const cache = imageCache!,
     point = job.point ?? { x: 0.5, y: 0.5 };
@@ -333,7 +376,7 @@ async function segment(job: VisionRequest) {
   const labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
   let result: Record<string, Ort.Tensor> | undefined;
   try {
-    result = await run(decoder, {
+    result = await run(decoder!, {
       ...cache.embeddings,
       input_points: points,
       input_labels: labels,
@@ -400,13 +443,18 @@ self.onmessage = (event: MessageEvent<VisionRequest>) => {
   const job = event.data;
   queue = queue.then(async () => {
     try {
+      if (job.kind === "release-image") {
+        clearImage();
+        self.postMessage({ id: job.id, ready: true } satisfies VisionReply);
+        return;
+      }
       await runtime(job);
-      const execute = () =>
-        job.kind === "prepare"
-          ? warm(job)
-          : job.kind === "embed"
-            ? embed(job)
-            : segment(job);
+      const execute = () => {
+        if (job.kind === "prepare") return warm(job);
+        if (job.kind === "prepare-segment") return warmSegmentation(job);
+        if (job.kind === "embed") return embed(job);
+        return segment(job);
+      };
       try {
         await execute();
       } catch (error) {

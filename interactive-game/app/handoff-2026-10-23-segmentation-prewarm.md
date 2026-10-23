@@ -4,7 +4,7 @@
 - Updated date: October 23, 2026, America/New_York.
 - Scope / owned files: shared vision session lifecycle, SlimSAM Worker warm-up/reuse, Lens status/host diagnostics, focused tests and CPU smoke, camera documentation.
 - Checkout, branch and base commit: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `5a963b8`.
-- Status: implementation and local verification complete; publishing next. Real-phone and real-prop acceptance remains open.
+- Status: implemented, committed, deployed and verified on both hosted domains. Real-phone and real-prop acceptance remains open.
 - Confirmed user decision: preload and warm segmentation during onboarding alongside recognition, and provide a practical phone test with guardian pictures (October 23).
 - Proposals awaiting a decision: none required for this change.
 
@@ -21,13 +21,14 @@
 - `npm run build`: passed TypeScript and Vite; client `index-DTmOCMJV.js`, Worker `vision.worker-V4R-hgoC.js`.
 - Real local ONNX CPU smoke: recognition median **9.2 ms**, p95 **9.6 ms**; SlimSAM zero-input warm-up **5,394 ms**, two new photos with retained sessions **5,071 / 5,047 ms**, finite masks/scores. This is a Mac CPU result, not phone performance.
 - Chrome Play browser: both model downloads occurred on `/recover` before Lens entry; Lens immediately reported both ready. A held-out synthetic owl photo matched correctly, produced the greeting/trial then the glowing segmented cutout. Court → Lens navigation remained ready with no additional model requests. Screenshot stays ignored at `private/segmentation-prewarm-ready.png`. No personal photo or real webcam stream used.
-- Deployment/dry-run/hosted verification: pending below.
+- `npx wrangler deploy --dry-run`: passed; Worker bundle 173.88 KiB (57.34 KiB gzip). The first dry-run logged a sandbox restriction on Wrangler's default log directory but completed successfully; publishing used the writable `/tmp` log path.
+- Hosted checks: both domains serve the exact local bytes for `index-DTmOCMJV.js` and `vision.worker-V4R-hgoC.js`, with immutable one-year caching. HTML is `no-store` with HSTS. Both SlimSAM ONNX files return binary MIME and immutable caching. Public state remains sealed with preview disabled and guest camera references return 404; preview state enables rehearsal and its unauthenticated camera references return 401.
 
 ## External changes and next actions
 
 - No new Cloudflare resources, migrations, auth scopes, reference uploads or paid services are needed. Existing weights, versions, runtime storage and public pilot gate remain unchanged.
-- Publish the existing Worker, verify exact hosted bundles/cache/gates, then record deployment evidence here.
+- Published existing `hollow-court-preview` to Workers preview and `hollow-court.com`: version **`4225f013-8d59-492b-aece-200b49eba31c`**, October 23 around 14:46 EDT. Three changed assets uploaded; no resources or migrations created.
 - Host: follow the phone walkthrough using the actual props. Measure warm-up, stable match and new-photo inference separately, including WebGPU/CPU backend and ordinary-object rejection. Mobile memory pressure, dim-light accuracy and whole-object segmentation are still unmeasured.
 - Dependencies on sibling tasks: none; no budget or physical-tag changes.
 - Unpersisted details/access limits: all durable decisions/results are here. Guest camera remains preview-only. A full reload or browser-reclaimed session reinitializes, with cached weights where available.
-- Commits on main / unrelated dirty files: source/documentation checkpoint pending; no unrelated dirty files observed before this handoff.
+- Commits on main / unrelated dirty files: **`e3c1fe1`** implements the warm-up and test guide. Release-evidence documentation committed afterward. No unrelated dirty files observed before final documentation commit. Local browser/dev-server cleanup follows verification.

@@ -1,16 +1,16 @@
 # The Hollow — gathered black fleece
 
-**Confirmed October 22:** host accepts fleece for every wall/window and wants only mild curtain-like echo softening. One material, no pads, no velvet requirement or ready-made curtains. Some pleating is now included; the earlier 40-yd estimate was near-flat.
+Host wants every wall/window in one black fleece material, moderate pleating and mild curtain-like echo softening. No separate pads or ready-made bedroom curtains.
 
-[Current gathered cut plan and GSM explanation](02-shopping-and-sample.md) · [Larger rug / desk](../rug-and-desk-finish-2026-10-21.md) · [Laser-free lighting](../../lighting/laser-free-and-value-control-2026-10-22.md) · [Single basket](../../shopping-ready.md).
+**October 23 Amazon recommendation:** [BEDELITE Black / 120 × 120-in fleece blankets](https://www.amazon.com/dp/B0BJ238J66), **nine at $31.99 / $287.91**. These are oversized blankets used/cut as fabric, not raw bolts; exact substitution remains recommended, not purchased. Live Chrome with **quantity nine** showed **In Stock / free October 25**, before requested October 27. Conditional estimate, no reserved shipment.
 
-**Proposed order: 54 yd of 280-GSM black fleece, two 20-yd bolts + continuous 14-yd cut, $303.86.** About 1.5× fullness: 14 wall drops + two furnishing drops at 117 in, separate header and short end reserves. Supports increase to 56 hooks / 72 clips. Fabric/support estimate **$380.87** before tax/shipping. Alternative: 60 yd as three bolts / $330. Live full stock/arrival, actual drop, opacity and 24-hour full-load support/removal trial remain pending. Nothing ordered/tested.
+[Current cuts and allocation](02-shopping-and-sample.md) · [Exact offer/material limits](05-amazon-fleece-2026-10-23.md) · [Larger rug / desk](../rug-and-desk-finish-2026-10-21.md) · [Single basket](../../shopping-ready.md).
 
-Current whole decor **$1,554.25**, including larger rug and cheaper laser-free DMX control, $60 shipping/$30.48 contingency; $45.75 below the unchanged approximate $1,600 target. [Latest handoff](../../handoff-2026-10-23-final-shopping.md). **October 23: stock/arrival still unconfirmed; fabric order on HOLD.** [Live backup shipping check](../../research/final-offer-check-2026-10-23.md) gives no promised arrival either.
+Seven blankets supply 13 full-height wall pieces at ~1.5× fullness; one supplies bed/desk; one supplies trial/header/Guardian/tub/reserve. Retain **56 hooks / 72 clips**, starting with 49 wall/header points; wide panels get six points. Fleece + proposed mounts **$364.92**. Whole decor **$1,536.87** including shipping/contingency; $63.13 headroom. At displayed $37.99 list-price scenario, whole plan **$1,595.73**. [Latest handoff](handoff-2026-10-23-amazon-fleece.md).
 
-- [ ] Confirm quantity/continuous 14-yd cut, matching dye lot and receipt by Oct 27; no live fabric delivery quote.
-- [ ] Tape-check room runs/drop, upper window supports and furniture cover templates.
-- [ ] Trial complete gathered panel/clip weight, stretch/sag, opacity and removal for 24 h.
-- [ ] Reserve furnishing/header pieces; gather removable access sections with floor-clear hems.
+- [ ] Recheck exact Black / 120 × 120 variant, quantity-nine delivery and final total at checkout; no order yet.
+- [ ] Confirm actual dimensions/height, weight, nap/opacity and wall substrate before cutting.
+- [ ] Trial complete wide gathered panel/clip grip/sag/removal for 24 h. GSM is unspecified, not the old 280 GSM.
+- [ ] Reserve H/I furnishing/trial/header pieces; preserve floor-clear hems and removable access panels.
 
-[Earlier 40-yd felt/fleece comparison](04-single-layer-felt-fleece-2026-10-22.md) and [superseded backing research](03-black-cloth-and-echo-2026-10-22.md) are history.
+Earlier FabricDirect 54-yd recommendation and Big Z shipping are [dated history](../../research/final-offer-check-2026-10-23.md), not additional orders. [40-yd felt/fleece comparison](04-single-layer-felt-fleece-2026-10-22.md) and [backing research](03-black-cloth-and-echo-2026-10-22.md) are also superseded.

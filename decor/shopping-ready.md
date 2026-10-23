@@ -1,18 +1,18 @@
 # House decor shopping plan — October 23, 2026
 
-**Host accepts the fleece / gathered-wall / larger-rug / laser-free direction. Products remain unpurchased and installations untested.** Ceiling **about $1,600 including permanent lights**. Only owned decor: gold tree/full-color LIFX. All Hollow walls use bulk black fabric, not ready-made curtains. [Room/layout](final-room-plan.md) · [54-yd cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Setup](setup-schedule.md) · [Today's stock/delivery evidence](research/final-offer-check-2026-10-23.md).
+**Host accepts the fleece / gathered-wall / larger-rug / laser-free direction. Products remain unpurchased and installations untested.** Ceiling **about $1,600 including permanent lights**. Only owned decor: gold tree/full-color LIFX. All Hollow walls use bulk black fabric, not ready-made curtains. [Room/layout](final-room-plan.md) · [Amazon fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Setup](setup-schedule.md) · [Amazon fleece offer](bedroom/draping/05-amazon-fleece-2026-10-23.md) · [Earlier core offer evidence](research/final-offer-check-2026-10-23.md).
 
-**$1,554.25 planning cash envelope**, including $60 shipping and $30.48 contingency: **$45.75 below about $1,600 beyond that contingency**. This is the reconciled shopping list, not a fully delivered checkout quote. Two material buying holds remain: **FabricDirect stock/arrival is unconfirmed**, and **actual independent supports for the stage lights are unresolved**. Retail mounting stock, gathered-fabric/rug fit and Mac operation also need checks. No decor order placed by this task.
+**$1,536.87 planning cash envelope**, including $60 shipping and $30.48 contingency: **$63.13 below about $1,600 beyond that contingency**. Latest Amazon recommendation replaces uncertain raw-bolt fleece with **nine Black / 120 × 120-in BEDELITE fleece blankets used as fabric**. **Quantity nine selected: In Stock / free October 25**, checked Oct 23. Finished blanket fleece differs from raw polar-fleece yardage; recommendation is explicit, not a host-confirmed exact SKU or purchase. Actual stage-light supports, received cloth/mount/rug fit and Mac tests remain unresolved.
 
 ## Exact products and quantities
 
-**Amazon offers refreshed October 23 in Chrome:** all listed Amazon items displayed In Stock and an October 24 delivery choice, except Guardian stand October 27 (USB adapter also offered October 26 standard). Estimates are account/cutoff dependent, not guaranteed. Moss quantity 3 and warm-string quantity 2 were selected without adding to cart; other Amazon checks used one product/pack. No optional coupon, used offer or subscription counted. Home Depot, Walmart and Target retain older quotes; their current stock/arrival is not confirmed. FabricDirect remains indexed evidence only.
+**Other Amazon offers refreshed earlier October 23 in Chrome:** these core items displayed In Stock and an October 24 delivery choice, except Guardian stand October 27 (USB adapter also offered October 26 standard). Estimates are account/cutoff dependent, not guaranteed. Moss quantity 3 and warm-string quantity 2 were selected without adding to cart; other earlier Amazon checks used one product/pack. No optional coupon, used offer or subscription counted. Home Depot, Walmart and Target retain older quotes; their current stock/arrival is not confirmed. **New fleece quantity-nine offer is October 25**, not the October 24 single-unit estimate. [Fleece evidence](bedroom/draping/05-amazon-fleece-2026-10-23.md).
 
 | ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Allocation / limits |
 |---|---|---:|---:|---:|---|
-| H22 **HOLD** | [FabricDirect solid black fleece **31707**, 280 GSM, conservative 58-in width](https://www.fabricdirect.com/shop/fleece-fabric-and-minky-fabric/fleece-fabric/fleece-fabric-solid-black-20-yard-bolt/) | **2 × 20-yd bolts + 14 continuous cut yd = 54 yd** | 110/bolt; 5.99/cut yd | 303.86 | About 1.5× fullness, 14 wall + two furnishing drops/header. Exact bolt URL; linked cut-yard offer's own URL/continuity unverified. Confirm all 54 yd and delivered date before paying. Optional 3 bolts / 60 yd / $330 also unconfirmed |
-| H24 | [Command 17003-MPES large utility hooks, **14 hooks / 16 strips**](https://www.homedepot.com/p/206180524) | **4 packs** | 14.61 | 58.44 | 56 hooks: 51 wall/header points + five spare. Older retailer quote; full gathered-panel substrate/load/removal trial required |
-| H25 | [Staples 831602 black **1.25-in binder clips, 24-pack**](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | **3 packs** | 6.19 | 18.57 | 72 clips: 51 wall/header + six desk + 15 spare. Indexed quote; reuse suitable clips first; grip/fit pending |
+| H22 recommended | [BEDELITE **Black / Oversized King 120 × 120-in fleece blanket**, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66) | **9 blankets** | 31.99 | 287.91 | Seven walls at ~1.5× fullness, one bed/desk, one trial/header/Guardian/tub/reserve. Live quantity-nine stock/free Oct 25, Amazon / Elite Collection US. GSM unspecified; plush nap/finish differs from raw fleece. [Cuts](bedroom/draping/02-shopping-and-sample.md). Not purchased |
+| H24 | [Command 17003-MPES large utility hooks, **14 hooks / 16 strips**](https://www.homedepot.com/p/206180524) | **4 packs** | 14.61 | 58.44 | 56 hooks: 49 wall/header points + seven spare. Older retailer quote; full gathered-panel substrate/load/removal trial required |
+| H25 | [Staples 831602 black **1.25-in binder clips, 24-pack**](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | **3 packs** | 6.19 | 18.57 | 72 clips: 49 wall/header + six desk + 17 spare. Indexed quote; reuse suitable clips first; grip/fit pending |
 | H29 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | **1** | 179.99 | 179.99 | Hollow wash/pixel effect; 18/268CH. Independent support and nameplate/manual checks unresolved; no laser |
 | H31 | [U’King 25W moving heads **2PCS**, Brown selected / black pictured, B0836CXMW6](https://www.amazon.com/dp/B0836CXMW6) | **1 pair** | 129.99/pair | 129.99 | Two fixtures, not this price each. 9/11CH each; independent supports/beam paths still need physical fit |
 | H32 | [DSD TECH **SH-RS09B 5.9FT**, USB-A to 3-pin female DMX, B07WV6P5W6](https://www.amazon.com/dp/B07WV6P5W6) | **1** | 15.99 | 15.99 | Includes first USB-to-fixture lead. Seller Mac/QLC+ support; exact same-Mac music-load test pending; free QLC+ software |
@@ -36,9 +36,9 @@
 | H19 | [HDX **FSEX29 15ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | **2** | 19.98 | 39.96 | One Grove, one Hollow, directly to suitable outlets. Three Hollow fixtures + Guardian USB; actual audio/Mac/outlet map pending. Older retail quote |
 | H20 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | **1 pack** | 4.49 | 4.49 | Buy only if actual device labels match. Older retail quote/local stock unverified |
 | H28 | [WITSHOCK **Bitter Black / 8 × 10ft**, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | **1 rug** | 83.99 | 83.99 | 80 sq ft, ~66% room floor. Door sweep, whole support feet/level and grip need trial; [measured fit](bedroom/rug-and-desk-finish-2026-10-21.md) |
-| **A merchandise** | | | | **1,237.91** | Includes held/conditional items, not paid spending |
+| **A merchandise** | | | | **1,221.96** | Includes held/conditional items, not paid spending |
 
-The exact connections **$44.96 replace the old $50 L06 allowance**, not added on top. Stand $34.99 replaces the missing-base portion of L04, which drops $20 → $10. Fresh lamp/curtain price changes net +$21.75. Net change from the October 22 $1,508.80 plan: **+$45.45 including planning tax**.
+The exact connections **$44.96 replace the old $50 L06 allowance**, not added on top. Stand $34.99 replaces the missing-base portion of L04, which drops $20 → $10. Fresh lamp/curtain price changes net +$21.75. **Amazon fleece substitution:** $303.86 old raw-yardage allowance → **$287.91**, saving $15.95 before tax; whole envelope $1,554.25 → **$1,536.87** after aggregate tax rounding. Other product rows and local reserves unchanged. Nine at displayed $37.99 list price would instead give **$1,595.73**; future checkout price is not guaranteed.
 
 ## Local and household items — quantities, not quoted retail SKUs
 
@@ -56,29 +56,31 @@ These remain allowances and inventory checks, not exact stock-confirmed purchase
 
 | Cash component | USD |
 |---|---:|
-| A merchandise | 1,237.91 |
+| A merchandise | 1,221.96 |
 | B local/reuse allowances | 105.00 |
-| **Merchandise + local allowances** | **1,342.91** |
-| 9% planning tax, rounded; not a statutory-rate claim | 120.86 |
+| **Merchandise + local allowances** | **1,326.96** |
+| 9% planning tax, rounded; not a statutory-rate claim | 119.43 |
 | Shipping allowance | 60.00 |
 | Price/missing-item buffer | 30.48 |
-| **Total planning cash envelope** | **1,554.25** |
-| Headroom below approximately $1,600 beyond included contingency | 45.75 |
+| **Total planning cash envelope** | **1,536.87** |
+| Headroom below approximately $1,600 beyond included contingency | 63.13 |
 
-Actual checkout tax/shipping/required supports may change this. The basket replaces old decor-category allowances and prior examples; do not add them again. At the unchanged $3,000 party ceiling, $1,445.75 remains for other costs; fully allocating $500 costume + ~$100 winner crown leaves $845.75. This is arithmetic, not an approved hospitality allocation.
+Actual checkout tax/shipping/required supports may change this. The basket replaces old decor-category allowances and prior examples; do not add them again. At the unchanged $3,000 party ceiling, $1,463.13 remains for other costs; fully allocating $500 costume + ~$100 winner crown leaves $863.13. This is arithmetic, not an approved hospitality allocation.
 
 ## Remaining buying holds and sequence
 
-1. **Fleece:** FabricDirect must confirm 54 yd, continuous cut/width and delivered date, ideally **Oct 27**. Live security verification prevents us confirming stock or receipt. Phone **856-705-0275**, no outreach made. Exact cut-yard link remains unverified. Three 20-yd bolts / 60 yd are a simpler optional order at $330, bringing the same planning envelope to **$1,582.74**; still not stock/delivery confirmed.
-2. **Backup fleece:** [Big Z Black / 30 Yard Roll](https://bigzfabric.com/products/fleece-fabric-solid-black-sold-by-the-yard?variant=53799506346291), two rolls / $318.78, accepted into temporary cart. Ground $89.57, Express Saver $226.46, **no calendar arrival date**. Not selected; ground substitution totals about **$1,600.08** and express **$1,736.97** under the same assumptions. Temporary cart was restored empty; [evidence](research/final-offer-check-2026-10-23.md). Its 385-GSM weight requires a fresh support trial.
+1. **Amazon fleece recommendation:** exact **Black / Oversized King 120 × 120 in**, **quantity nine**, live $31.99 each / $287.91 and free **Oct 25**. [Current offer and comparisons](bedroom/draping/05-amazon-fleece-2026-10-23.md). Recheck quantity-nine buy box and total at checkout; no order/arrival guarantee. No further FabricDirect call required for this proposed route.
+2. **Cut and mounting trial:** [seven-blanket wall cut plan](bedroom/draping/02-shopping-and-sample.md) preserves ~1.5× fullness, 13 full-height wall pieces + header, 49 starting points. Blankets H/I protect bed/desk/header/Guardian/tub and a full-panel trial. Received dimensions, weight, nap/opacity and support/removal still need validation. No separate pads.
 3. **Stage-light supports:** fit actual fixtures/supports outside dance/side route; re-cost if $25 cannot cover an adequate solution. Guardian stand is not one of these supports. **Upright-bed securement** is also unresolved and independent of this prop build.
-4. Verify local mounting stock, wall/drop measurements, clip grip and one full gathered panel for 24 h before cutting all fabric. Reserve desk/bed/Guardian/tub pieces first; floor-clear hems and removable access panels.
+4. Verify local mounting stock, wall/drop measurements, clip grip and one full gathered panel for 24 h before cutting all fabric. Reserve blankets H/I for desk/bed/Guardian/tub and trial first; floor-clear hems and removable access panels.
 5. Receive core supplies by Oct 27 if possible. Test rug/door/feet/grip, bath runtime and full Mac/music/DMX operation. SH-RS09B prototype failure falls back to tested fixture built-in sound/auto/static modes, not a second speculative interface.
 6. By Oct 29, stop adding mail-order dependencies. Maintain full-wall scope; any local material substitution must match cut widths, opacity/load and delivered budget. No secured local replacement is claimed.
 
-Nothing purchased, reserved or installed. This turn temporarily used and emptied **only Big Z's cart** for a shipping quote; Amazon carts unchanged. No seller messages, account setting changes or physical tests.
+Nothing purchased, reserved or installed. Latest turn changed only the Amazon quantity selector to nine, no cart additions. Earlier Big Z quote cart was restored empty; [dated evidence](research/final-offer-check-2026-10-23.md). No seller messages, account setting changes or physical tests.
 
 ## Removed from the active order
+
+**Latest:** FabricDirect 54 yd / $303.86 and Big Z 60-yd backup are replaced by H22 nine Amazon fleece blankets, not additional cloth orders. The old 280-GSM specification and 54-yd cut packing no longer apply to the selected recommendation.
 
 H02 $89.99 large six-pound plug-in moon + $15 heavy mounting allowance are replaced by L03/H12 handmade glowing disk. H09 $21.55 wolf skull is optional; shrine uses raven skull/bark. H10 $22.40 maple garlands replaced by H27 green ivy plus attached paper autumn leaves. H15 creepy cloth unnecessary with black-fabric offcuts. H21 speculative CR2025 pack omitted. H23 ready-made bedroom curtains removed by explicit host instruction. Big Z $249.60 stretch velvet and later $143.64 poplin + H33 $17.90 pads are replaced by H22 fleece; H01 $39.99 two-PAR kit is replaced by H29–32 combined rig, not added to it. H11 old two narrow strips replaced by three large sheets. H07 purchased branch is replaced by card/kraft branches; H14 tablecloth pack is replaced by reserved black-fabric offcuts for desk and dry tub. H30 laser removed by host; H32 MAX replaced by SH-RS09B; H28 5 × 7 rug replaced by 8 × 10; extra third H19 removed after laser deletion. L05 grip reserve retained. Do not buy both old and new versions.
 

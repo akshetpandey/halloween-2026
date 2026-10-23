@@ -1,8 +1,14 @@
 # Decision log and open questions
 
-## Latest October 23 • decor accepted; exact basket and Guardian construction
+## Latest October 23 • Amazon fleece by October 27, budget retained
 
-**Host:** “Ok lets go with that”; asks to confirm fleece stock/deadline, final links/quantities and how Guardian is built. Accepted direction: gathered black fleece, larger rug, laser-free OPPSK/U’King rig with cheaper laptop control. No purchase authorization inferred. [Single list](../decor/shopping-ready.md) now **$1,554.25**, $45.75 headroom beyond included $30.48 buffer; [budget](budget.md) reconciles exact connections, new Guardian stand and refreshed prices once.
+**Host asks:** find Amazon black fleece for every wall with pleating and delivery by October 27; whole plan around $1,600. **Recommendation:** [nine BEDELITE Black / 120 × 120-in fleece blankets](../decor/bedroom/draping/05-amazon-fleece-2026-10-23.md), used/cut as fabric rather than raw bolts, $287.91 at displayed $31.99 deal. Live **quantity-nine** buy box: In Stock / free **Sunday October 25**. Exact SKU/finished-blanket substitution remains proposed, not purchased or separately host-confirmed; no arrival guarantee.
+
+[Updated cuts](../decor/bedroom/draping/02-shopping-and-sample.md) use seven for ~1.5× gathered walls, one bed/desk, one trial/header/Guardian/tub/reserve, no horizontal wall seams; 49 starting wall/header points inside retained 56-hook/72-clip inventory. [Current basket](../decor/shopping-ready.md) **$1,536.87** including all reserves, $63.13 headroom. Displayed $37.99 list-price scenario **$1,595.73**. No other scenery/lighting scope cuts. Raw-bolt offers checked are late or costly; prior FabricDirect and Big Z routes are sourcing history. No cart additions/checkout/messages/physical tests. Received material/mounts and independent stage-light supports still need validation.
+
+## Earlier October 23 • decor accepted; exact basket and Guardian construction
+
+**Earlier check, fabric recommendation/cost superseded above. Host:** “Ok lets go with that”; asks to confirm fleece stock/deadline, final links/quantities and how Guardian is built. Accepted direction: gathered black fleece, larger rug, laser-free OPPSK/U’King rig with cheaper laptop control. No purchase authorization inferred. [Single list](../decor/shopping-ready.md) now **$1,554.25**, $45.75 headroom beyond included $30.48 buffer; [budget](budget.md) reconciles exact connections, new Guardian stand and refreshed prices once.
 
 [Live Chrome evidence](../decor/research/final-offer-check-2026-10-23.md): **FabricDirect stock/54-yd continuous-cut/arrival still unconfirmed** due site verification; stale indexed stock is not confirmation. Big Z two 30-yd rolls are orderable but ground shipping $89.57 and no calendar delivery date; not selected. Temporary quote cart restored empty. Amazon displayed Oct 24 options except independent stand Oct 27; no receipt promise. Local mounting stock and stage-light supports remain unresolved.
 

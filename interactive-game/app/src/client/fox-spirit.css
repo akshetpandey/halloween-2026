@@ -1,0 +1,277 @@
+.fox-spirit-reveal {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  overflow: hidden;
+  isolation: isolate;
+  color: #efe8cf;
+  background: #071b17;
+  font-family: "DM Sans", sans-serif;
+  outline: none;
+}
+.fox-spirit-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.55;
+  filter: brightness(0.6) saturate(0.65);
+  transition:
+    filter 1.8s,
+    opacity 1.8s;
+}
+.fox-spirit-reveal.is-ready .fox-spirit-photo {
+  opacity: 0.3;
+  filter: blur(8px) brightness(0.4) saturate(0.6);
+}
+.fox-spirit-atmosphere {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 32%, #30755c45, transparent 47%),
+    radial-gradient(ellipse at 48% 56%, #b99b4a18, transparent 40%),
+    linear-gradient(180deg, #0a24180a, #0b1c1744 40%, #071812e8 77%, #071812);
+}
+.fox-spirit-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at 50% 40%,
+    transparent 12%,
+    #04120b55 67%,
+    #030b09aa
+  );
+  box-shadow: inset 0 0 100px #03100baa;
+}
+.fox-spirit-header {
+  position: absolute;
+  z-index: 3;
+  top: max(20px, env(safe-area-inset-top));
+  left: max(22px, env(safe-area-inset-left));
+  right: max(18px, env(safe-area-inset-right));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.fox-spirit-header .eyebrow {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: #c1b584;
+}
+.fox-spirit-location {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 7px;
+  color: #dfd9bc;
+}
+.fox-spirit-tools {
+  display: flex;
+  gap: 5px;
+}
+.fox-spirit-tools button {
+  width: 42px;
+  height: 44px;
+  border: 1px solid #dfd5a527;
+  border-radius: 50%;
+  background: #122b2355;
+  display: grid;
+  place-items: center;
+  color: #e7dfbd;
+}
+.fox-spirit-tools button:disabled {
+  opacity: 0.35;
+}
+.fox-spirit-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  touch-action: manipulation;
+}
+.fox-spirit-capture-tools {
+  position: absolute;
+  z-index: 4;
+  top: 90px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #d5cba9;
+}
+.fox-spirit-capture-tools .text-button {
+  color: #e5d4a2;
+}
+.fox-spirit-capture-tools small {
+  font-size: 10px;
+}
+.fox-spirit-canvas:focus-visible {
+  box-shadow: inset 0 0 0 2px #dcc88a;
+}
+.fox-spirit-loading {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 26px;
+  color: #ded4ab;
+  pointer-events: none;
+}
+.fox-spirit-footer {
+  position: absolute;
+  z-index: 3;
+  left: 24px;
+  right: 24px;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  pointer-events: none;
+}
+.fox-spirit-footer > * {
+  pointer-events: auto;
+}
+.fox-spirit-footer .eyebrow {
+  color: #b9aa72;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+}
+.fox-spirit-footer h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 8px 0 10px;
+}
+.fox-spirit-voice {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.3;
+  color: #cbc8ac;
+  margin: 0;
+}
+.fox-spirit-touch {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  color: #a2b79c;
+  font-size: 11px;
+  margin: 13px 0 16px;
+}
+.fox-spirit-footer .btn {
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  background: #d5c68e;
+  color: #15231a;
+  border-color: #d5c68e;
+  letter-spacing: normal;
+  font-size: 13px;
+}
+.fox-spirit-details {
+  margin: 13px auto 0;
+  max-height: 150px;
+  overflow: auto;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #9dae96;
+}
+.fox-spirit-details summary {
+  cursor: pointer;
+  font-size: 9px;
+  letter-spacing: 0.04em;
+}
+.fox-spirit-details[open] {
+  padding: 12px;
+  background: #091a13ee;
+  border: 1px solid #d3c48d30;
+  border-radius: 10px;
+  text-align: left;
+}
+.fox-spirit-details p {
+  margin: 7px 0;
+  font-size: 10px;
+}
+.fox-spirit-details a {
+  color: #d5c68e;
+}
+.fox-spirit-fallback {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  font-size: 13px;
+  color: #d4c99e;
+}
+.fox-spirit-fallback svg {
+  width: 150px;
+  height: 170px;
+}
+.fox-spirit-fallback .text-button {
+  margin: auto;
+}
+@media (max-height: 650px) {
+  .fox-spirit-header {
+    top: 10px;
+  }
+  .fox-spirit-footer {
+    bottom: 10px;
+  }
+  .fox-spirit-footer h2 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .fox-spirit-voice {
+    font-size: 16px;
+  }
+  .fox-spirit-touch {
+    margin: 8px 0;
+  }
+  .fox-spirit-details {
+    margin-top: 7px;
+  }
+  .fox-spirit-location {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .fox-spirit-footer h2 {
+    font-size: 46px;
+  }
+  .fox-spirit-header {
+    left: 36px;
+    right: 30px;
+  }
+}
+@media (min-aspect-ratio: 6/5) and (max-height: 650px) {
+  .fox-spirit-footer {
+    left: 57%;
+    right: 24px;
+    bottom: 24px;
+  }
+  .fox-spirit-voice {
+    font-size: 17px;
+  }
+  .fox-spirit-header {
+    top: 14px;
+  }
+  .fox-spirit-capture-tools {
+    top: 58px;
+    right: 48%;
+    font-size: 9px;
+  }
+}

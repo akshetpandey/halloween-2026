@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Camera, ImagePlus, Leaf, RefreshCw, X } from "lucide-react";
 import { guardians } from "../shared/catalog";
 import {
@@ -29,16 +29,22 @@ import {
 } from "../shared/guardian-motion";
 import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
+import { preloadFoxSpirit } from "./fox-spirit-loader";
+import { spiritOrigin, type SpiritOrigin } from "./spirit-motion";
+import type { SpiritAsset } from "./spirit-asset";
 import "./vision.css";
+const FoxSpiritReveal = lazy(() => import("./FoxSpiritReveal"));
 export function GuardianLens({
   manifest: provided,
   host = false,
   onContinue,
   onClose,
   initialPhoto,
+  spiritAsset,
 }: {
   manifest?: VisionManifest;
   initialPhoto?: Blob;
+  spiritAsset?: SpiritAsset;
   host?: boolean;
   onContinue?: (id: string) => Promise<void>;
   onClose?: () => void;
@@ -93,6 +99,9 @@ export function GuardianLens({
   const [moving, setMoving] = useState(true);
   const [puppetReady, setPuppetReady] = useState(false);
   const [rigPoint, setRigPoint] = useState<keyof FoxRig | null>(null);
+  const [spiritOpen, setSpiritOpen] = useState(false),
+    [spiritStart, setSpiritStart] = useState<SpiritOrigin | null>(null),
+    [spiritPrepared, setSpiritPrepared] = useState(false);
   const outlineSession = useRef<SegmentationSession | null>(null);
   const video = useRef<HTMLVideoElement>(null),
     cameraStarted = useRef(0),
@@ -104,6 +113,7 @@ export function GuardianLens({
   const busy = phase === "reading";
   const guardian = guardians.find((g) => g.id === match?.guardianId);
   const isFox = guardian?.art === "fox";
+  const foxPrototype = host && isFox;
   const puppetEligible = isFox || !!alignment;
   useEffect(() => {
     setFoxRig(
@@ -145,13 +155,18 @@ export function GuardianLens({
   useEffect(() => {
     if (ready)
       void warmRecognizer()
-        .then(() => {
-          if (mounted.current) return warmOutline();
+        .then(async () => {
+          if (!mounted.current) return;
+          if (host)
+            await preloadFoxSpirit().then(() => {
+              if (mounted.current) setSpiritPrepared(true);
+            });
+          else await warmOutline();
         })
         .catch((e) => {
           if (mounted.current) setError(e.message);
         });
-  }, [ready]);
+  }, [ready, host]);
   function getOutlineSession() {
     const session = getSegmentationSession();
     outlineSession.current = session;
@@ -214,6 +229,8 @@ export function GuardianLens({
     setPuppetReady(false);
     setRigPoint(null);
     setMoving(true);
+    setSpiritOpen(false);
+    setSpiritStart(null);
     setDetails((old) => ({
       ...old,
       liveMs: 0,
@@ -352,6 +369,57 @@ export function GuardianLens({
       liveMs,
       frames,
     }));
+    if (
+      host &&
+      guardians.find((g) => g.id === found.guardianId)?.art === "fox"
+    ) {
+      setSpiritOpen(true);
+      // The anchor only supplies the first keyframe. Never hold the reveal up
+      // for segmentation or a difficult reference view.
+      const deadline = performance.now() + 850;
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      let matched: MotionAlignment | null = null;
+      try {
+        let pending = poses.current.get(found.guardianId!);
+        if (!pending) {
+          pending = api<MotionPose[]>(
+            "/admin/vision/motion/" + found.guardianId,
+          );
+          poses.current.set(found.guardianId!, pending);
+          void pending.catch(() => poses.current.delete(found.guardianId!));
+        }
+        const saved = await Promise.race([
+          pending,
+          new Promise<MotionPose[]>((resolve) => {
+            timer = setTimeout(() => resolve([]), 850);
+          }),
+        ]);
+        const remaining = deadline - performance.now();
+        if (attempt !== action.current) return;
+        if (saved.length && remaining > 50)
+          matched =
+            (
+              await motionRequest(p.blob, {
+                poses: saved,
+                timeoutMs: remaining,
+              })
+            ).alignment ?? null;
+      } catch {
+        // A centred entrance is enough when the view cannot be aligned quickly.
+      } finally {
+        clearTimeout(timer);
+      }
+      if (attempt !== action.current) return;
+      setAlignment(matched);
+      setMotionStatus(
+        matched
+          ? `Entrance anchored to the reference · ${matched.inliers} matching details. Final pose faces the screen.`
+          : "Entrance starts at the lens centre. Final pose faces the screen.",
+      );
+      setSpiritStart(spiritOrigin(matched?.bounds));
+      setProgress("");
+      return;
+    }
     setOutlining(true);
     try {
       let pending = poses.current.get(found.guardianId!);
@@ -568,7 +636,8 @@ export function GuardianLens({
     setProgress("");
   }
   function refine(event: React.MouseEvent<HTMLDivElement>) {
-    if (!photo || !guardian || outlining || phase !== "awake") return;
+    if (foxPrototype || !photo || !guardian || outlining || phase !== "awake")
+      return;
     const box = event.currentTarget.getBoundingClientRect();
     const point = {
       x: Math.max(0, Math.min(1, (event.clientX - box.left) / box.width)),
@@ -607,7 +676,8 @@ export function GuardianLens({
       </p>
       {host && (
         <p className="small muted">
-          Outline processing: MagicTouch · GPU with CPU fallback
+          Fox prototype: a rigged 3D spirit, with no outline processing. Other
+          guardians use MagicTouch · GPU with CPU fallback.
           {initialPhoto &&
             ". Testing a saved reference checks the reveal, not accuracy on a new photo."}
         </p>
@@ -615,18 +685,19 @@ export function GuardianLens({
       {ready && (
         <p className="lens-ready" role="status">
           {modelReady
-            ? outlineState === "ready"
-              ? "Lens ready · awakening ready"
-              : outlineState === "failed"
-                ? "Lens ready · you can meet the guardian without its outline"
-                : "Lens ready · preparing the awakening…"
+            ? host
+              ? spiritPrepared
+                ? "Lens ready · fox asset ready"
+                : "Lens ready · preparing the fox spirit…"
+              : outlineState === "ready"
+                ? "Lens ready · awakening ready"
+                : outlineState === "failed"
+                  ? "Lens ready · you can meet the guardian without its outline"
+                  : "Lens ready · preparing the awakening…"
             : prepareProgress}
         </p>
       )}
-      {host && ready && outlineState === "preparing" && (
-        <p className="small muted">{outlineProgress}</p>
-      )}
-      {ready && outlineState === "failed" && (
+      {ready && outlineState === "failed" && !foxPrototype && (
         <button
           className="text-button"
           onClick={() => {
@@ -792,11 +863,13 @@ export function GuardianLens({
               <h2>{guardian.name}</h2>
               <p className="lens-voice">“{guardian.greeting}”</p>
               <p className="small muted">
-                {rigPoint
-                  ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
-                  : cutout
-                    ? "Tap the creature in your photograph to refine its outline."
-                    : "Its voice is waiting, even if the outline is quiet."}
+                {foxPrototype
+                  ? "The fox’s spirit is ready to greet you. Its animation does not need an outline."
+                  : rigPoint
+                    ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
+                    : cutout
+                      ? "Tap the creature in your photograph to refine its outline."
+                      : "Its voice is waiting, even if the outline is quiet."}
               </p>
               {puppetEligible && cutout && puppetReady && (
                 <button
@@ -839,17 +912,26 @@ export function GuardianLens({
                   </div>
                 </details>
               )}
-              <button
-                className="text-button lens-retrace"
-                disabled={outlining}
-                onClick={() =>
-                  photo && void outlinePhoto(photo, ++action.current)
-                }
-              >
-                {alignment
-                  ? "Trace saved points again"
-                  : "Trace from the centre again"}
-              </button>
+              {foxPrototype ? (
+                <button
+                  className="btn secondary"
+                  onClick={() => setSpiritOpen(true)}
+                >
+                  Replay fox spirit
+                </button>
+              ) : (
+                <button
+                  className="text-button lens-retrace"
+                  disabled={outlining}
+                  onClick={() =>
+                    photo && void outlinePhoto(photo, ++action.current)
+                  }
+                >
+                  {alignment
+                    ? "Trace saved points again"
+                    : "Trace from the centre again"}
+                </button>
+              )}
               <button
                 className="btn"
                 disabled={continuing}
@@ -940,8 +1022,8 @@ export function GuardianLens({
               {details.outlinePrepareBackend
                 ? ` · ${details.outlinePrepareBackend}`
                 : ""}
-              . Recognition uses a warmed CPU model; outlines try GPU with CPU
-              fallback.
+              . Recognition uses a warmed CPU model. The host fox uses a 3D
+              reveal; other guardians use outlines with GPU/CPU fallback.
               {details.cameraMs > 0 && (
                 <>
                   {" "}
@@ -962,8 +1044,10 @@ export function GuardianLens({
               <p>
                 Recognition: {details.embedBackend || "Local processing"} ·{" "}
                 {(details.embedMs / 1000).toFixed(2)}s. Outline:{" "}
-                {details.segmentBackend || "pending"} ·{" "}
-                {(details.segmentMs / 1000).toFixed(2)}s per photograph. Model
+                {foxPrototype
+                  ? "skipped for 3D fox"
+                  : details.segmentBackend || "pending"}{" "}
+                · {(details.segmentMs / 1000).toFixed(2)}s per photograph. Model
                 warm-up is reported separately above.
               </p>
               <p>
@@ -1001,6 +1085,20 @@ export function GuardianLens({
             its trial; its Favor comes from solving it.
           </p>
         </>
+      )}
+      {spiritOpen && photo && (
+        <Suspense fallback={<p role="status">Opening the fox spirit…</p>}>
+          <FoxSpiritReveal
+            asset={spiritAsset}
+            photo={photo}
+            origin={spiritStart}
+            onClose={() => setSpiritOpen(false)}
+            onScanAgain={() => {
+              reset();
+              void openCamera();
+            }}
+          />
+        </Suspense>
       )}
     </section>
   );

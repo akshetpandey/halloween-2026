@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Camera, ImagePlus, Trash2 } from "lucide-react";
 import { api } from "./api";
 import { GuardianMotionEditor } from "./GuardianMotionEditor";
@@ -6,11 +6,41 @@ import { GuardianLens } from "./GuardianLens";
 import { GuardianArt } from "./Art";
 import { VisionEngine, preparePhoto } from "./vision-engine";
 import {
+  inspectSpiritGLB,
+  MAX_SPIRIT_BYTES,
+  type SpiritAsset,
+} from "./spirit-asset";
+const FoxSpiritReveal = lazy(() => import("./FoxSpiritReveal"));
+import {
   MAX_REFERENCES,
   VISION_MODEL,
   type HostVision,
 } from "../shared/vision";
 export function HostReferences() {
+  const [previewFox, setPreviewFox] = useState(false);
+  const [capture, setCapture] = useState<SpiritAsset | undefined>();
+  const captureURL = useRef("");
+  useEffect(
+    () => () => {
+      if (captureURL.current) URL.revokeObjectURL(captureURL.current);
+    },
+    [],
+  );
+  async function tryCapture(file: File) {
+    setError("");
+    try {
+      if (file.size > MAX_SPIRIT_BYTES)
+        throw Error("Choose a GLB capture up to 12 MB.");
+      inspectSpiritGLB(await file.arrayBuffer());
+      if (!alive.current) return;
+      if (captureURL.current) URL.revokeObjectURL(captureURL.current);
+      captureURL.current = URL.createObjectURL(file);
+      setCapture({ url: captureURL.current, name: file.name });
+      setPreviewFox(true);
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
   const [editingMotion, setEditingMotion] = useState("");
   const [testPhoto, setTestPhoto] = useState<Blob | null>(null);
   const [data, setData] = useState<HostVision | null>(null),
@@ -165,6 +195,7 @@ export function HostReferences() {
     return (
       <GuardianLens
         host
+        spiritAsset={capture}
         initialPhoto={testPhoto ?? undefined}
         manifest={{
           ...data,
@@ -181,6 +212,17 @@ export function HostReferences() {
   }
   return (
     <section className="host-references">
+      {previewFox && (
+        <Suspense fallback={<p role="status">Opening the fox spirit…</p>}>
+          <FoxSpiritReveal
+            asset={capture}
+            onFrontChange={(front) =>
+              setCapture((old) => (old ? { ...old, front } : old))
+            }
+            onClose={() => setPreviewFox(false)}
+          />
+        </Suspense>
+      )}
       <span className="eyebrow">FOR THE KEEPER · CAMERA PROTOTYPE</span>
       <h2>
         Teach the wood <em>its creatures.</em>
@@ -248,7 +290,49 @@ export function HostReferences() {
               <Camera size={18} />
               Test the Looking Lens
             </button>
+            <button
+              className="btn secondary"
+              disabled={busy}
+              onClick={() => setPreviewFox(true)}
+            >
+              {capture ? "Preview captured guardian" : "Preview fox spirit"}
+            </button>
+            <label className="btn secondary file-button">
+              Try a GLB capture
+              <input
+                type="file"
+                accept=".glb,model/gltf-binary"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  e.target.value = "";
+                  if (file) void tryCapture(file);
+                }}
+              />
+            </label>
           </div>
+          <p className="small muted">
+            The fox now emerges as a 3D spirit and greets you at a consistent
+            screen size. Preview it directly, or recognize your fox through the
+            Lens to test the complete entrance.
+          </p>
+          <p className="small muted">
+            The animated sample fox tests the choreography; it does not
+            reproduce your LEGO red panda. A Polycam GLB can preview the real
+            shape and texture here. Captures stay on this device for this visit;
+            head, tail and sitting animation require a rigged model.
+          </p>
+          {capture && (
+            <button
+              className="text-button"
+              onClick={() => {
+                if (captureURL.current) URL.revokeObjectURL(captureURL.current);
+                captureURL.current = "";
+                setCapture(undefined);
+              }}
+            >
+              Clear local capture · use sample fox
+            </button>
+          )}
           <div className="reference-guide panel">
             {chosen && <GuardianArt kind={chosen.art} />}
             <div>

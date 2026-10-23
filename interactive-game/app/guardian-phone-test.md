@@ -1,6 +1,12 @@
 # Guardian camera — phone test
 
-Updated October 23, 2026 for saved movement and accelerated outlines. Close an already-open/crashed test tab and reopen the host link to load the replacement model; saved reference photos remain usable. Use normal phone photographs; LiDAR is not needed. This pilot tests recognition and a captured-photo awakening. It does not animate a continuously tracked 3D creature.
+Updated October 23, 2026. Reload the host link to load the latest build; saved reference photos remain usable. Use normal phone photographs; LiDAR is not needed. This pilot tests recognition followed by a screen-space character performance, without continuous 3D tracking.
+
+## New: host fox spirit
+
+Open [Guardian reference photos](https://hollow-court.com/host?tab=guardians) and tap **Preview fox spirit**. Then select **The Fox of Small Print** and **Test this reference** to test its entrance from an existing photo, or **Test the Looking Lens → Open the live lens** for a live scan. Wait for **Lens ready · fox asset ready**. The host fox skips segmentation and plays an emergence, tail chase, provisional seated/crouched settle and front-facing greeting. Try replay, pause and tapping it. The model is a clearly labeled stand-in; the final asset must match the LEGO 31394 red panda. **Try a GLB capture** previews a Polycam mesh locally for this visit. [Complete steps, capture requirements and storyboard](guardian-spirit-prototype.md).
+
+The outline and saved-puppet steps below apply to other guardians, guest rehearsal and the movement editor. Saved fox boundaries still supply its optional 3D entrance anchor; head/tail points no longer deform the host fox’s reveal.
 
 ## 1. Teach the Lens a guardian
 
@@ -14,8 +20,8 @@ Reference photos are stored privately for the host; recognition features are sha
 
 ## 2. Try a photo, then the live camera
 
-1. In the host dashboard, choose **Test the Looking Lens**. The test uses **MagicTouch · WebGL GPU**, with the existing CPU/WASM path as fallback. It does not load the retired high-memory SAM model.
-2. Wait for **Lens ready · awakening ready**. This means recognition and segmentation have both completed a warm-up. First preparation downloads models/runtime and can take longer than later scans; keep the page in the foreground.
+1. In the host dashboard, choose **Test the Looking Lens**. The host fox uses 3D; other guardians use **MagicTouch · WebGL GPU** with CPU fallback. The retired high-memory SAM model is not loaded.
+2. Wait for **Lens ready · fox asset ready** in the host test. Guest rehearsal reports **Lens ready · awakening ready** after recognition and segmentation warm up. First preparation downloads model/runtime files; keep the page in the foreground.
 3. Choose **Choose a photo**, then select the held-out guardian photo. **Test this reference** under a saved host photo is a quick reveal replay, but does not test recognition on a new image. Check that it names the correct guardian, shows its greeting, and produces a useful glowing cutout. Tap the actual creature in the photo to refine an outline that selects only a face or background.
 4. Choose **Scan another guardian**, then **Open the live lens** and allow camera access. Point at the real object, keeping the whole object centred. Hold steady: three consecutive matches over at least half a second trigger capture automatically.
 5. Recognition reveals the guardian name and greeting immediately, followed by a gold scan line and segmented cutout over the darkened photo. A guardian with aligned saved movement tilts its head and/or swishes its tail; other cutouts float gently amid gold pollen. **Let it rest / Wake it again** pauses/resumes puppet motion. The host test offers **Back to reference photos**. The guest rehearsal offers **Hear its trial** while the outline runs; verify there that the trial opens the right guardian. This is 2D photo motion, with no 3D tracking or spoken greeting.

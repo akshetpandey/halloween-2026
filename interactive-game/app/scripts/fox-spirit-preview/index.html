@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <title>Fox spirit · developer preview</title>
+  <style>
+    body {
+      margin: 0;
+      background: #18241f;
+      color: #ddd9c5;
+      font: 14px system-ui;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+    }
+    button {
+      padding: 10px 16px;
+      cursor: pointer;
+    }
+    iframe {
+      display: block;
+      width: 390px;
+      height: 844px;
+      border: 1px solid #556156;
+      transform-origin: top left;
+    }
+    #frame {
+      width: 390px;
+      height: 844px;
+      margin: 0 auto 24px;
+    }
+  </style>
+  <nav>
+    <strong>Real renderer · phone viewport</strong>
+    <button onclick="start('centre')">Centre entrance</button>
+    <button onclick="start('left')">Small / upper left</button>
+    <button onclick="start('right')">Large / lower right</button>
+    <button onclick="resize(390, 844)">Portrait</button>
+    <button onclick="resize(844, 390)">Landscape</button>
+    <button onclick="resize(375, 667)">Small phone</button>
+    <button
+      onclick="document.getElementById('phone').src = 'stage.html?capture=1'"
+    >
+      GLB capture fixture
+    </button>
+  </nav>
+  <div id="frame">
+    <iframe id="phone" title="Fox spirit preview" src="stage.html"></iframe>
+  </div>
+  <script>
+    function start(origin) {
+      document.getElementById("phone").src = "stage.html?origin=" + origin;
+    }
+    function resize(w, h) {
+      const f = document.getElementById("phone");
+      f.style.width = w + "px";
+      f.style.height = h + "px";
+      const scale = Math.min(1, (innerWidth - 32) / w);
+      f.style.transform = `scale(${scale})`;
+      document.getElementById("frame").style.width = w * scale + "px";
+      document.getElementById("frame").style.height = h * scale + "px";
+    }
+  </script>
+</html>

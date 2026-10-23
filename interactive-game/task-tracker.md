@@ -87,3 +87,13 @@ The host reports purchasing `hollow-court.com`; it is connected to the existing 
 ## September 9 — public time gate and preview isolation
 
 Host requested hiding debug and activating the time gate on `hollow-court.com`. The public hostname now enforces the configured event clock; debug remains available on the Workers preview hostname. Server checks reject debug APIs and ignore/reject rehearsal sessions and recovery on the public domain. Local HTTP development retains rehearsal tools. No data deleted or event times changed.
+
+## October 23 — guardian camera recognition research
+
+| ID | Task | Status |
+|---|---|---|
+| VISION-01 | Research phone-local / Cloudflare recognition, segmentation and animated guardian reveals as an NFC replacement | Complete — [findings, model sizes and recommendation](design/guardian-camera-feasibility-2026-10-23.md); research only |
+| VISION-02 | Capture actual guardians and test local matchers/cloud fallback on held-out images in party lighting | Proposed next step — real references and phone benchmark required |
+| VISION-03 | Integrate successful photo recognition, skippable awakening and existing guardian puzzles | Pending pilot; no camera feature deployed |
+
+The host's new request explores changing the earlier NFC-only approach. Existing tag work is not evidence of camera accuracy, and this research does not mark any tag replaced, prop acquired, model inference measured or Cloudflare setting changed. [Research handoff](design/handoff-2026-10-23-guardian-camera-research.md).

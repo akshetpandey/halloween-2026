@@ -5,6 +5,7 @@
 - [A Name for the Hollow — narrative arc, characters and scripts](narrative-arc.md) — September 8 treatment, approved by the host for the first website build
 - [Current game rules and narrative integration](narrative-and-game.md)
 - [Selected puzzle families](puzzles.md) · [September 9 phone-first revision](puzzle-revision-2026-09-09.md)
+- [October 23 camera-recognition feasibility](guardian-camera-feasibility-2026-10-23.md) — proposed NFC replacement, local/cloud model options, segmentation and animated reveal pilot
 - [Volunteer runbook](../volunteer-runbook.md)
 - [Paper-only ritual alternative](last-leaf-fallback.md)
 

@@ -90,6 +90,7 @@ it.each([
   ["/assets/index-Abcd_-12.css", "text/css"],
   ["/assets/qr-art-BrfDLJ7R.webp", "image/webp"],
   ["/assets/dm-sans-CW0RaeGs.woff2", "font/woff2"],
+  ["/assets/Fox-CslrZzG2.glb", "model/gltf-binary"],
 ])(
   "caches fingerprinted asset %s immutably for GET, HEAD and typed 304 responses",
   async (path, type) => {
@@ -124,6 +125,8 @@ it("revalidates unhashed assets and keeps errors, redirects and ambiguous 304s u
   for (const [path, status, type, cache] of [
     ["/favicon.svg", 200, "image/svg+xml", "no-cache"],
     ["/assets/index.js", 200, "text/javascript", "no-cache"],
+    ["/assets/Fox.glb", 200, "model/gltf-binary", "no-cache"],
+    ["/assets/Fox-CslrZzG2.glb", 200, "text/html", "no-store"],
     ["/assets/missing-Abcd1234.js", 404, "text/plain", "no-store"],
     ["/assets/index-Abcd1234.js", 304, "", "no-store"],
     ["/r", 302, "", "no-store"],

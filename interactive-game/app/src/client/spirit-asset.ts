@@ -1,4 +1,9 @@
-export type SpiritAsset = { url: string; name: string; front?: number };
+export type SpiritAsset = {
+  url: string;
+  name: string;
+  front?: number;
+  bytes?: ArrayBuffer;
+};
 export const MAX_SPIRIT_BYTES = 12 * 1024 * 1024;
 type GLBScene = {
   asset?: { version?: string };

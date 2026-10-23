@@ -323,7 +323,11 @@ export function mountFoxSpirit(
   canvas.addEventListener("webglcontextlost", lost);
   document.addEventListener("visibilitychange", resume);
   const ready = (
-    asset ? new GLTFLoader().loadAsync(asset.url) : prepareFoxSpirit()
+    asset
+      ? asset.bytes
+        ? new GLTFLoader().parseAsync(asset.bytes, "")
+        : new GLTFLoader().loadAsync(asset.url)
+      : prepareFoxSpirit()
   )
     .then(async (gltf) => {
       if (disposed) return;

@@ -31,11 +31,12 @@ export function HostReferences() {
     try {
       if (file.size > MAX_SPIRIT_BYTES)
         throw Error("Choose a GLB capture up to 12 MB.");
-      inspectSpiritGLB(await file.arrayBuffer());
+      const bytes = await file.arrayBuffer();
+      inspectSpiritGLB(bytes);
       if (!alive.current) return;
       if (captureURL.current) URL.revokeObjectURL(captureURL.current);
       captureURL.current = URL.createObjectURL(file);
-      setCapture({ url: captureURL.current, name: file.name });
+      setCapture({ url: captureURL.current, name: file.name, bytes });
       setPreviewFox(true);
     } catch (e) {
       setError((e as Error).message);

@@ -1,7 +1,7 @@
 const LOOPBACK_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]"]);
 // Vite emits an eight-character content hash in these public asset filenames.
 const HASHED_ASSET =
-  /^\/assets\/[^/]+-[\w-]{8}\.(?:js|css|webp|png|jpe?g|gif|svg|avif|ico|woff2?|ttf|otf)$/i;
+  /^\/assets\/[^/]+-[\w-]{8}\.(?:js|css|webp|png|jpe?g|gif|svg|avif|ico|woff2?|ttf|otf|glb)$/i;
 const VERSIONED_MODEL =
   /^\/models\/(?:hc-vision-48988dfe-5850ab45-ort130-v1|hc-lens-mbv3-b1a19675-f32-v2|hc-outline-magic-touch-v1-mp111)\/[\w.-]+$/;
 

@@ -16,6 +16,8 @@ Requested October 22 following the [City of Gods styling reassessment](handoff-2
 
 **Design preview, not a final outfit choice or exact product try-on.** The crown is not a photo-exact Sosation rendering; the new collar and cosmetic effect are not sourced or stock-verified. Fine raised-looking leaf/branch details are an illustrative target, not a claim that ordinary pigment will reproduce them. Base/mesh, cuff and jacket details remain approximate. No new purchase, delivery check, fit/warmth test or budget revision. [Exact prompt and input/output record](renders/2026-10-22/gilded-stag-prompt.md).
 
+**Later October 22 sourcing:** [actual necklace alternatives and NYC makeup](14-gilded-stag-collar-makeup-2026-10-22.md) now have Saturday Amazon estimates / location-specific pickup stock. None reproduces the exact broad oak collar above; face accents would be flat painted branches, not raised filigree. No substitute selected or new render made. Refresh day-of delivery risk and pickup stock before depicting a chosen real version.
+
 ## G Autumn Court versus Wild Hunt without veils
 
 **Subsequent host feedback:** these need a stronger City of Gods aesthetic. Wild Hunt might be adapted, not accepted unchanged; Autumn Court's thematic fit is questioned. [Official-mood-board assessment and proposed woodland-deity rework](handoff-2026-10-22-city-of-gods-reassessment.md). The previous assistant preference for Autumn Court is not a host selection or the current recommendation.

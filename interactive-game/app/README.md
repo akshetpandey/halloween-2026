@@ -24,7 +24,7 @@ September 9: [costume leaves and host award](handoff-2026-09-09-costume-leaves.m
 
 ## Guardian camera prototype · October 23
 
-The [Looking Lens prototype and testing guide](guardian-camera-prototype.md) adds private host reference-photo enrollment, a warmed MobileNet recognizer with automatic live frame sampling, asynchronous SlimSAM outlines with WebGPU preference/CPU fallback, and a captured-frame awakening into the existing puzzles. Host tests are under **Guardian reference photos**; guest testing is confined to the Workers preview. Real guardian photographs and phone accuracy/performance tests remain pending. [Live implementation and deployment evidence](handoff-2026-10-23-live-lens.md).
+The [Looking Lens prototype and testing guide](guardian-camera-prototype.md) adds private host reference-photo enrollment, a warmed MobileNet recognizer with automatic live frame sampling, asynchronous SlimSAM outlines with WebGPU preference/CPU fallback, and a captured-frame awakening into the existing puzzles. Host tests are under **Guardian reference photos**; guest testing is confined to the Workers preview. Real guardian photographs and phone accuracy/performance tests remain pending. [Live implementation and deployment evidence](handoff-2026-10-23-live-lens.md). [Onboarding prewarm update](handoff-2026-10-23-arrival-prewarm.md): recognition starts during name/selfie or recovery entry and the same warmed worker survives navigation into and out of the Lens.
 
 ## Try it locally
 

@@ -13,6 +13,7 @@ import {
 } from "../shared/vision-live";
 import { api } from "./api";
 import { GuardianArt } from "./Art";
+import { recognitionSession } from "./recognition-session";
 import {
   VisionEngine,
   preparePhoto,
@@ -43,7 +44,7 @@ export function GuardianLens({
   const [match, setMatch] = useState<VisionMatch | null>(null),
     [outline, setOutline] = useState<MaskResult | null>(null);
   const [outlining, setOutlining] = useState(false),
-    [modelReady, setModelReady] = useState(false),
+    [modelReady, setModelReady] = useState(recognitionSession.ready),
     [prepareProgress, setPrepareProgress] = useState(
       "Preparing the fast lens…",
     );
@@ -59,9 +60,7 @@ export function GuardianLens({
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
   const [backend, setBackend] = useState<"auto" | "wasm">("auto"),
     [continuing, setContinuing] = useState(false);
-  const recognizer = useRef<VisionEngine | null>(null),
-    outlineEngine = useRef<VisionEngine | null>(null),
-    warmPromise = useRef<Promise<VisionReply> | null>(null);
+  const outlineEngine = useRef<VisionEngine | null>(null);
   const stream = useRef<MediaStream | null>(null),
     video = useRef<HTMLVideoElement>(null),
     clip = useRef("");
@@ -79,35 +78,22 @@ export function GuardianLens({
     void load().catch((e) => setError(e.message));
   }, [provided]);
   function getRecognizer() {
-    if (!recognizer.current || recognizer.current.closed) {
-      recognizer.current = new VisionEngine("wasm");
-      warmPromise.current = null;
-    }
-    return recognizer.current;
+    return recognitionSession.getEngine();
   }
   function warmRecognizer() {
-    const engine = getRecognizer();
-    if (!warmPromise.current) {
-      setModelReady(false);
-      warmPromise.current = engine
-        .prepare((text) => {
-          if (mounted.current) setPrepareProgress(text);
-        })
-        .then((result) => {
-          if (mounted.current) {
-            setModelReady(true);
-            setPrepareProgress("Lens ready · live frames stay on your phone");
-            setDetails((old) => ({ ...old, prepareMs: result.ms ?? 0 }));
-          }
-          return result;
-        })
-        .catch((error) => {
-          engine.close();
-          warmPromise.current = null;
-          throw error;
-        });
-    }
-    return warmPromise.current;
+    setModelReady(recognitionSession.ready);
+    return recognitionSession
+      .prepare((text) => {
+        if (mounted.current) setPrepareProgress(text);
+      })
+      .then((result) => {
+        if (mounted.current) {
+          setModelReady(true);
+          setPrepareProgress("Lens ready · live frames stay on your phone");
+          setDetails((old) => ({ ...old, prepareMs: result.ms ?? 0 }));
+        }
+        return result;
+      });
   }
   useEffect(() => {
     if (ready)
@@ -162,7 +148,6 @@ export function GuardianLens({
       mounted.current = false;
       action.current++;
       stopCamera();
-      recognizer.current?.close();
       outlineEngine.current?.close();
       if (currentPhoto.current) URL.revokeObjectURL(currentPhoto.current.url);
       if (cutoutRef.current) URL.revokeObjectURL(cutoutRef.current);

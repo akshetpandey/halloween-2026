@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## October 22 late evening • no face makeup, substantial Stag neckpiece
+## Latest October 22 • torc ordered for Gilded Stag
+
+Host reports **“ordered the torc, had 5 mins to sat delivery.”** Context identifies the NauticalMart brass-finish iron torc B0GGB8HT25 from the preceding shortlist. Record user-reported ordered with Saturday October 24 checkout ETA; final charge/exact variant/account status not independently checked. [Current list](../host-costume/09-final-weekend-shopping-2026-10-21.md#latest-purchase--torc-october-22) owns details. Current Saturday proposal: bone crown, black fur/mesh, torc, green trousers; **no makeup or veil**, no extra poet shirt/gauze or necklace. Other neckpieces are sourcing history. Budget uses a **$29 last-listed allowance**, giving **$349.47 planning envelope**, not confirmed combined checkout spending. Earlier audited seven-item $151.97 order and $500 ceiling remain; receipt/fit/arrival-before-departure unverified. No agent purchase, external account check or new render this turn.
+
+## Earlier October 22 late evening • no face makeup, substantial Stag neckpiece
 
 **Confirmed host:** skip face makeup; he will not apply it himself. Wants a less feminine, more substantial necklace than the earlier gold leaves. No artist appointment, DIY substitute, purchase or outreach requested. [Current sourcing](../host-costume/15-substantial-stag-neckpieces-2026-10-22.md) compares local cast-brass strands and exact Saturday Amazon alternatives, with closure/fit/quality limits. Nothing chosen or bought; future Gilded Stag renders omit makeup and must use a verified real neckpiece. [Budget](budget.md#october-22-confirmed-host-costume-ceiling) removes only the unbought $15.95 pigment from the prior master basket ($375.39 → $359.44 before choosing the replacement); the separate earlier liquid/brush proposal was never part of that basket. Existing $151.97 order and $500 ceiling unchanged.
 

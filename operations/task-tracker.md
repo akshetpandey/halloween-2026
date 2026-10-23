@@ -18,13 +18,13 @@
 
 ## October 22 host costume status
 
-[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern the two October 23–24 looks and October 31 King reuse. **Eclipse Friday / King Saturday confirmed; warm layer owned; later October 22, makeup declined and a less feminine substantial necklace requested.** Seven Amazon items ordered by host, $151.97 including estimated tax, verified October 21. Legacy optional basket less pigment **$359.44 before choosing a replacement neckpiece**, not a final Gilded Stag quote; [current options/scenarios](../host-costume/15-substantial-stag-neckpieces-2026-10-22.md) remain unselected. No delivery/fit test confirmed. Decor status above is unchanged.
+[Order and remaining list](../host-costume/09-final-weekend-shopping-2026-10-21.md) and [costume tracker](../host-costume/02-task-tracker.md) govern both weekend looks and October 31 reuse. **Eclipse Friday / King Saturday; warm layer owned; no makeup; torc now selected/reported ordered with Saturday checkout ETA.** Earlier seven-item order $151.97 is audited; new torc final charge/account ETA unverified. **$349.47 planning envelope** uses $29 torc allowance plus optional jeans/cuffs/reserves, not verified combined spending. Core pieces ordered/reused, physical receipt/fit still pending. Decor unchanged.
 
 | Task | Current status and next action | Target |
 |---|---|---|
-| KING-04 | Fur/mesh/chain, three halos and bone crown ordered; choose King shirt color and resolve shirt/cloth/netting plus jeans/optional accents. No extra warm-layer pickup | Resolve remaining pieces Oct 22 |
+| KING-04 | Fur/mesh/chain, three halos and crown audited ordered; torc user-reported ordered. No extra shirt/gauze/veil/makeup/coat/necklace required; optional jeans/cuffs unconfirmed | Receive/fit before each night |
 | KING-08 / KING-09 | Last checked ETAs chain/Zoestar Thu; fur/mesh/Atoden/Zivyes Fri. Compare halos, fit **owned** warm layer; no automatic fourth halo | Confirmed Eclipse night Oct 23; test before departure |
-| KING-05 / KING-06 | Last checked crown ETA **Saturday Oct 24**. Fit crown/veil/mantle unaltered after timely receipt | Confirmed King night Oct 24; test before departure |
+| KING-05 / KING-06 | Crown last checked Saturday; torc Saturday checkout ETA per host. Fit crown/torc/fur/mesh after timely receipt; no makeup/veil | Confirmed King night Oct 24; test before departure |
 
 **September 4 interactive scope:** [Current story tracker](../interactive-game/task-tracker.md) governs the 15-entity 5/5/5 plan, puzzle-earned Favor, costume voting, Summons and finale. September 9: approved narrative and [first website rehearsal](../interactive-game/app/handoff-2026-09-09-first-build.md) are deployed; physical playtesting, shopping and final event/admin work remain future tasks. Earlier dated story updates below are history.
 Updated September 3, 2026. Event October 31. Owners below are proposed roles, not recruited people. Priority: P0 essential, P1 high value, P2 optional.

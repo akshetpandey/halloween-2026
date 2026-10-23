@@ -3,7 +3,7 @@ Updated October 22, 2026. Pop-culture woodland ceremony; no claim of historical 
 
 ## Recommended silhouette
 
-**Latest host instruction, October 22 late evening:** **omit face makeup**; no DIY application or artist appointment requested. Seek a less feminine, more substantial neckpiece rather than the earlier delicate leaves. [Current source pass](15-substantial-stag-neckpieces-2026-10-22.md) offers local aged cast-brass beads and Saturday Amazon collar alternatives, with closure/fit/quality caveats. Final neckpiece remains unselected; the earlier render's facial branches and small-leaf shopping proposal are history.
+**Latest host purchase, October 22 late evening:** **torc ordered**, with Saturday October 24 checkout delivery reported by host. Context identifies the [NauticalMart brass-finish iron torc](15-substantial-stag-neckpieces-2026-10-22.md); receipt/final charge/account ETA not independently checked. Current Gilded Stag proposal uses compact bone crown, black fur over ordered black mesh, real torc, green trousers and owned shoes; **no face makeup or veil**, no new poet shirt/gauze required. Alternative necklaces and earlier render's leaf collar/facial branches are history. Torc fit, rigid opening, weight and timely receipt remain physical checks; do not force-bend it.
 
 **City of Gods exception, confirmed October 21:** smaller bone-look crown rather than large antlers for the crowded external event. [Current weekend styling](09-final-weekend-shopping-2026-10-21.md#styling-and-fit-checks) and [illustrative renders](06-weekend-costume-renders-2026-10-21.md). This does not settle or cancel the larger October 31 reference target below.
 

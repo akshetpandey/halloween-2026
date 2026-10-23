@@ -1,5 +1,7 @@
 # Gilded Stag — substantial neckpieces, no face makeup
 
+**Later October 22 purchase update:** host reports **ordering the torc**, with five minutes left for Saturday delivery. Context identifies **NauticalMart B0GGB8HT25**, last-listed $29; no receipt/exact variant, final charge or account ETA independently checked. Neckpiece selection is settled: other necklaces below are research history, not extra purchases. [09](09-final-weekend-shopping-2026-10-21.md#latest-purchase--torc-october-22) owns the current order and $349.47 planning envelope. Keep the actual torc's size/rigidity/review caveats; ordered does not establish fit or timely receipt. Future previews use the real torc and omit makeup.
+
 Checked October 22, 2026, approximately 22:55–23:15 America/New_York (EDT, UTC−04:00). Deadline: **Saturday October 24 before departure**. Prices before tax. No purchase, cart change, reservation, message or render.
 
 ## Confirmed change
@@ -36,6 +38,8 @@ Signed-in Chrome, delivery location Brooklyn 11211. All prices/ETAs below came f
 - Search screening: most ornate heavy Celtic brass torcs miss Saturday (October 27–November); silver/black versions are not warm gold. Shoulder-chain results mostly delicate drapes/rhinestones. An uninspected $69.99 scale-shoulder-armor result with only one rating is not a necklace or verified selected gold variant; not promoted.
 
 ## Budget and next action
+
+**Historical preselection scenarios below are superseded by the user-reported torc order and [current budget](09-final-weekend-shopping-2026-10-21.md#budget-after-the-order).** No need to buy a second necklace or visit Beads of Paradise by default.
 
 No new item selected or bought. Existing Amazon commitment remains **$151.97 including estimated tax**. Remove the **unbought $15.95 pigment** from the prior optional basket: $375.39 − $15.95 = **$359.44**, with unconfirmed merchandise **$162.96** and **$140.56** headroom. This is only the legacy shirt/gauze/veil/jeans/cuffs scenario **before choosing a replacement neckpiece**, not a final Gilded Stag quote. Mixing liquid/brush were never included in that master basket; no double subtraction or refund.
 

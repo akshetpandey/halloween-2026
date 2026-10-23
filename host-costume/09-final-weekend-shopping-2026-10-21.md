@@ -2,9 +2,15 @@
 
 Updated October 22, 2026. **Confirmed nights: Eclipse Friday October 23; Antler King Saturday October 24.** The host already owns a similar functional warm layer, so the proposed $79.90 PUFFTECH is removed from remaining purchases, not refunded. Black fur stays in the Eclipse outfit.
 
-**Seven costume items are ordered from Amazon: $151.97 including estimated tax**, contents/pricing verified October 21; **delivery progress refreshed October 22**. Amazon marks the gold chain and Zoestar halo delivered October 22, with fur/Small mesh/Atoden/Zivyes arriving Friday October 23 and the bone crown Saturday October 24. Physical receipt, arrival before departure and fit still need checking. Do not order another halo just because an earlier shortlist recommended one.
+**Earlier seven-item Amazon order: $151.97 including estimated tax**, audited October 21, delivery progress refreshed October 22. **Torc added by host October 22: user-reported purchase with Saturday checkout ETA, final charge unknown.** Amazon's earlier order shows chain/Zoestar delivered October 22, fur/Small mesh/Atoden/Zivyes arriving Friday October 23, crown Saturday October 24. Core current looks are ordered/reused, not receipt/fit-tested. Do not buy another necklace/halo from older shortlists by default.
 
 The **$500 total costume ceiling** covers both October 23–24 looks and King reuse October 31. Dates below are America/New_York / EDT (UTC−04:00). Ordered does not mean delivered, fitted or warmth-tested.
+
+## Latest purchase — torc October 22
+
+**Host reports: “ordered the torc, had 5 mins to sat delivery.”** Context identifies the [NauticalMart brass-finish iron torc, B0GGB8HT25](https://www.amazon.com/dp/B0GGB8HT25), last-listed **$29 before tax** in the [source audit](15-substantial-stag-neckpieces-2026-10-22.md). Record as **user-reported ordered**, with checkout ETA **Saturday October 24**. No receipt/exact variant, final price/tax/shipping, actual account ETA or payment settlement independently checked this turn. No exact before-departure delivery window or physical fit established. This is **in addition to**, not inside, the earlier seven-item $151.97 order below. Do not present $180.97 as a verified combined paid total.
+
+Current Saturday Gilded Stag styling: ordered bone crown, open black fur over ordered black mesh, real brass-finish torc, owned green trousers/shoes and functional warm layer. **No face makeup or veil.** No extra poet shirt/gauze or second necklace needed for this proposal; previous necklace alternatives are history. Core current costume pieces are ordered/reused, not yet receipt/fit-tested. Optional deep-black Levi's and cuff pair remain unconfirmed.
 
 ## Verified Amazon order
 
@@ -32,24 +38,23 @@ All three halos count once in this order. Compare them in person and choose the 
 
 ## Remaining purchases and pickup options
 
-**Latest host change, October 22 late evening:** **skip all face makeup**, no DIY application or artist appointment. [Current substantial-neckpiece options](15-substantial-stag-neckpieces-2026-10-22.md) supersede the small-leaf/pigment proposal below. No necklace chosen or bought; local brass-strand closure/fit and Amazon day-of delivery risks remain. Historical Gilded Stag visuals still include makeup, but future previews must omit it. The remaining legacy basket below removes pigment; it is not a selected Gilded Stag quote.
+**Latest host change, October 22 late evening:** torc now selected/reported ordered; **skip all face makeup**, no artist appointment. The alternative necklaces in [15](15-substantial-stag-neckpieces-2026-10-22.md) are now history, not extra shopping. Historical Gilded Stag visuals include unsourced leaves/makeup; future previews use the actual torc and omit makeup. Day-of arrival before departure and fit remain unresolved.
 
 These items were **not found in the latest costume order**. Purchases elsewhere or local pickups are not confirmed. The Small shirt colors were rechecked October 22; other prices/stock notes remain October 21 observations and need rechecking before buying.
 
-**Latest visual exploration:** [Gilded Stag](06-weekend-costume-renders-2026-10-21.md#h-gilded-stag-full-outfit-and-detail) shows the requested bone crown, black fur, green trousers, botanical gold collar and gold face accents over a black mesh base, without veil. Visualization is not final outfit/product approval. [October 22 source-first research](14-gilded-stag-collar-makeup-2026-10-22.md) verifies real necklace alternatives with Saturday Amazon estimates and NYC makeup stock, not the exact sculpted collar/raised facial branches. Shop LC plus pigment/liquid/brush is a **$61.84 before-tax proposal**, not a purchase or approved replacement basket. That note owns current variants, counts, alternative photos and a non-double-counted replacement scenario. Hold earlier King shirt/cloth/netting choices until the silhouette is chosen. The table/budget below preserves the previously priced basket, not a quote for this new concept or an instruction to buy both sets.
+**Historical visual:** [Gilded Stag preview](06-weekend-costume-renders-2026-10-21.md#h-gilded-stag-full-outfit-and-detail) uses an imagined leaf collar and facial branches; these are superseded by the real ordered torc and no-makeup instruction. [Earlier $61.84 Shop LC/makeup proposal](14-gilded-stag-collar-makeup-2026-10-22.md) was never selected/bought. The unpurchased poet shirt/gauze/netting proposals are not required by the current black-fur/mesh/torc look and are removed from its budget, not refunded.
 
 | Priority | Item and selection | Earlier quoted price | Status and next action |
 |---|---|---:|---|
-| King base | [American Trends lace-up shirt](https://www.amazon.com/dp/B0C33P9WRL), **Small / Beige**, pale ivory-looking option | $19.99 | **Not confirmed ordered; color choice pending.** Oct 22 selected buy box: free **Sat Oct 24**, two left. Separate $21.99 Friday offer displayed, not selected or included in base total |
-| King shoulders | [FEXIA gauze cloth](https://www.amazon.com/dp/B0BQBSXHB3), **Beige / 1 Pack–10FT**, 35 × 120 inches | $8.99 | **Not confirmed ordered; pending look choice.** Earlier short mantle is not the new broad drape's verified material; earlier Thursday quote is not an order ETA |
-| King veil | [CABODYALS netting](https://www.amazon.com/dp/B0G1MJB43K), **Golden / 1 yard × 50.39 inches** | $9.99 | **Not confirmed ordered; veil under review.** Gold textile preferred over mail if retained; earlier Friday quote needs rechecking |
 | Eclipse jeans | [Levi's 568 Loose Straight, 290370066](https://www.levi.com/US/en_US/clothing/men/jeans/loose/568TM-loose-straight-mens-jeans/p/290370066), **Welcome To The Rodeo — Black** | $110.00 | **Pickup/purchase unconfirmed.** 29 × 30 was checked at Times Square, 34th Street and Hudson Yards; try on first |
 | Optional gold accent | [BROCC cuff pair](https://www.amazon.com/dp/B0DYX6ZR2Z), **Color B / New**, two cuffs | $13.99 | **Not confirmed ordered.** One pair shared between looks; no second necklace needed |
-| **Unconfirmed merchandise total** | Includes optional cuffs above; **no makeup or extra warm jacket; replacement neckpiece not yet selected** | **$162.96** | Legacy shirt/cloth/veil scenario, not a placed order, current delivered quote or final Gilded Stag basket |
+| **Unconfirmed optional merchandise total** | New jeans + cuff pair only; **no extra shirt/cloth/veil/makeup/coat/necklace** | **$123.99** | Not a placed order or current delivered quote |
 
 Shoes, dark-green King trousers and a similar functional warm layer are owned. The new warmth confirmation does not identify its exact color, brand or layering fit. Faded black jeans can be a fallback if the host decides against new Levi's. Small tops, usual waist 28–30 and inseam 30–32 are confirmed; these are not garment fit results. Clips/safety pins, soft padding and ribbon retain a **$20 estimated allowance**, with no exact products or purchase confirmed.
 
 ### Antler King shirt colors
+
+**Historical alternatives:** current fur/mesh/torc proposal does not need another shirt or drape. Retain the dated comparisons below only for an explicitly chosen later variation, not as missing mandatory shopping.
 
 [Latest side-by-side styling preview](06-weekend-costume-renders-2026-10-21.md#g-autumn-court-versus-wild-hunt-without-veils): **Autumn Court left — oxblood plus broad ivory drape; Wild Hunt right — ivory plus black fur**. Both keep green trousers and compact illustrated bone crowns, with no veil. This compares whole styling directions, not shirt color alone. Neither look/color is selected; the image is not exact product or fit evidence. The earlier [controlled color comparison](06-weekend-costume-renders-2026-10-21.md#e-antler-king-ivory-versus-oxblood) remains available.
 
@@ -77,7 +82,7 @@ No advertised multi-item promotion is counted. Select the actual size before req
 
 ### Eclipse
 
-**Ordering completeness checked October 22:** the core distinctive pieces are all ordered—fur, Small mesh tank, body chain and three halo alternatives. **New deep-black Levi's remain unconfirmed**, with owned faded-black jeans available as the fallback. Shoes and a functional warm layer are owned. Cuffs/makeup are optional and not confirmed bought; the Gilded Stag's botanical collar is not an Eclipse requirement. Only one halo needs to be worn, with the keeper still to be chosen after inspection. Amazon's delivery status is not proof of host possession or wearable fit.
+**Ordering completeness checked October 22:** the core distinctive pieces are all ordered—fur, Small mesh tank, body chain and three halo alternatives. **New deep-black Levi's remain unconfirmed**, with owned faded-black jeans available as the fallback. Shoes and a functional warm layer are owned. Cuffs are optional/unconfirmed; makeup is declined. The Saturday torc is not an Eclipse requirement. Only one halo needs to be worn, with the keeper still to be chosen after inspection. Amazon's delivery status is not proof of host possession or wearable fit.
 
 Wear the black fur open over the mesh and gold body chain, with deep-black jeans. Support the chain on the base outfit, not through the fur. Choose among the **three already ordered halos**, not an automatic fourth purchase. Optional cuffs add gold without competing with the body chain.
 
@@ -104,20 +109,21 @@ Start the material trial with **one layer of open gold textile netting**, not ac
 | Component | Amount |
 |---|---:|
 | **Placed Amazon order, including $5.49 estimated tax** | **$151.97** |
-| Remaining legacy merchandise above; no pigment, new neckpiece not selected | $162.96 |
+| **New host-reported torc order — last-listed allowance, actual charge unverified** | **$29.00** |
+| Remaining optional merchandise: jeans + cuff pair | $123.99 |
 | Small supplies estimate | $20.00 |
 | Remaining tax/price reserve: original $30 less $5.49 included above | $24.51 |
-| **Legacy optional planning envelope before choosing replacement neckpiece** | **$359.44** |
-| **Headroom below unchanged $500 ceiling, before replacement choice** | **$140.56** |
+| **Current torc-look planning envelope, not verified combined checkout spend** | **$349.47** |
+| **Planning headroom below unchanged $500 ceiling** | **$150.53** |
 
-This counts all three ordered halos once and assumes no refunds. Only **$151.97 is an order commitment**; the remaining rows are estimates, not spending. The unpurchased PUFFTECH and pigment are removed: **$455.29 − $79.90 − $15.95 = $359.44**. Mixing liquid/brush were never in that basket, so do not subtract them again. The legacy scenario retains one $19.99 shirt plus gauze/veil pending silhouette selection, not an assumed second color purchase. Choosing the displayed $21.99 Friday shirt offer would add $2. [Current replacement-neckpiece scenarios](15-substantial-stag-neckpieces-2026-10-22.md#budget-and-next-action) omit superseded shirt/gauze/veil and all makeup rather than stacking both looks: the $78 brass-strand scenario would be $398.47 if wearable/selected, not an approved order total. Final tax, stock and travel can change totals. Skipping new jeans/cuffs reduces their scenario by $110/$13.99. [Shared budget](../operations/budget.md) carries the same reconciliation.
+Eight costume items are now reported ordered: the earlier seven-item order is audited at **$151.97**, and the later torc order is **user-reported with final charge unknown**. Use $29 only as its last-listed planning allowance; the $24.51 reserve must cover remaining tax/price differences, not be counted as settled tax. All three halos count once, with no refunds assumed. New total **$359.44 − $19.99 shirt − $8.99 gauze − $9.99 netting + $29 torc = $349.47**. No makeup or extra warm coat; liquid/brush were never in the master basket. Other necklaces and earlier baskets are not additive. Final torc charge, optional purchases, actual tax/travel can change the envelope. Skipping optional jeans/cuffs reduces it by $110/$13.99. [Shared budget](../operations/budget.md) carries the same reconciliation.
 
 ## Receipt and fitting sequence
 
-1. **October 22:** choose the King silhouette and shirt color before resolving shirt/shoulder cloth or any retained netting; none appears in the checked order. The latest no-veil concepts require selection and any new materials need sourcing. Try jeans locally and fit the **owned** warm layer with both looks. Recheck any new delivery/pickup promise before committing.
+1. **October 22:** torc selected/reported ordered; no other necklace, poet shirt/gauze/veil or makeup required by the current Saturday proposal. Reconcile its actual order/charge when convenient; no before-departure window supplied. Decide optional new jeans versus owned fallback and fit the **owned** warm layer with both looks.
 2. **Thursday October 22:** Amazon now reports Nicute chain and Zoestar halo delivered to the mail room. Retrieve/confirm physical receipt, inspect unaltered, check chain adjustment and assess the halo; neither tank nor cuffs is in these delivered groups.
 3. **Friday October 23 — confirmed Eclipse night:** Small black fur, Small black mesh, Atoden and Zivyes halos still show arriving Friday in the October 22 order check. Compare received halos and complete Eclipse's comfort/snag/quick-removal test before departure. No delivery time window was established; an arriving-Friday label is not a before-departure guarantee.
-4. **Saturday October 24 — confirmed Antler King night:** Sosation crown still shows arriving Saturday in the October 22 order check. Complete the selected King crown/shoulder-layer fit, and veil tests only if retained, before departure if the crown arrives in time. No exact bone-look NYC in-hand backup was established.
+4. **Saturday October 24 — confirmed Antler King night:** Sosation crown last checked arriving Saturday; host reports Saturday checkout delivery for torc. Confirm both are in hand before departure; test unaltered torc opening/pressure/weight/snagging and crown/fur/mesh comfort. Do not force-bend rigid metal. No veil or makeup. No exact bone-look NYC in-hand crown backup established.
 5. Leave tags/condition intact until fit and return eligibility are checked. Unsafe or uncomfortable headwear is not a wearable backup. No returns, cancellations, exchanges or messages have been initiated.
 
 ## Earlier sourcing history
@@ -133,3 +139,5 @@ October 21 Amazon Orders and this costume order's Order Details were read in sig
 October 22: the host confirmed the night assignments and already-owned warm layer. The American Trends selected Small/Beige, Small/White and Small/Black photos and buy boxes were inspected in signed-in Chrome to Brooklyn 11211. Other unbought-item stock and the Amazon order's delivery progress were not refreshed in this color comparison. No new purchase or account change.
 
 Later October 22: the host asks whether everything for Eclipse is ordered. Read the matching seven-item costume order in signed-in Chrome on Amazon Orders: Nicute/Zoestar marked delivered today to mail room; Atoden/Zivyes/JOGAL and Gihuo marked arriving tomorrow; Sosation marked arriving Saturday. Relative dates resolve to October 22/23/24, respectively. Order card total remains $151.97; no new invoice/settled-charge audit. No other-retailer account history, new jeans purchase, optional extras, physical receipt or fit verified. No purchase, cart edit, cancellation, return or contact performed.
+
+Latest October 22 torc update is **direct host-reported purchase evidence**, not a fresh account inspection. Context identifies the preceding NauticalMart torc; exact receipt/variant, final charge and account ETA were not checked. $29 is only the preceding listing price used for planning. No additional agent external action or render.

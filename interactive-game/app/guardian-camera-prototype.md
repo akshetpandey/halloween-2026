@@ -41,7 +41,7 @@ The effect is a captured-frame 2D awakening after live recognition. It is not a 
 
 `npm run build` downloads pinned sources with SHA-256 validation, deterministically prunes the MobileNet classifier using the official ONNX schema, checks the derived checksum, writes licenses/manifests, type-checks and builds Vite. `scripts/prepare-fast-vision.mjs` records the new source and output hashes. Weights stay in ignored `public/models/`; private photos, fixture keys and runtime data stay out of Git. MobileNet/SlimSAM are Apache-2.0; ORT is MIT. Retained historical DINO assets include Meta's separate license.
 
-The GPU runtime exceeds the [25 MiB static-file limit](https://developers.cloudflare.com/workers/platform/limits/), so the Worker streams its two static pieces with backpressure/cancellation. Successful versioned model/runtime URLs are immutable for a year. HTML fallbacks/errors never receive model caching. HTTPS, HSTS, CSP, private API caching and existing host protections remain.
+The GPU runtime exceeds the [25 MiB static-file limit](https://developers.cloudflare.com/workers/platform/limits/), so the Worker streams its two static pieces with backpressure/cancellation. Successful versioned model/runtime URLs are immutable for a year. The Worker supplies a binary content type when Static Assets omits ONNX MIME metadata, so model downloads can actually stay in browser cache. HTML fallbacks/errors never receive model caching. HTTPS, HSTS, CSP, private API caching and existing host protections remain.
 
 ```sh
 npm run db:local

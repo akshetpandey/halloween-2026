@@ -2,7 +2,7 @@
 
 - Session: guardian camera prototype, continued after the host reported unacceptable laptop latency.
 - Checkout: shared `/Users/akshet/workspace/halloween-2026`, `main`; prior prototype commit `7ae4426`. No branches/worktrees or delegated sessions.
-- Status: implementation and local checks complete; hosted release evidence below. Actual-prop/phone acceptance remains pending.
+- Status: live revision deployed and hosted checks passed. Actual-prop/phone acceptance remains pending.
 - Confirmed user direction: recognition should run in seconds on a live camera feed using frame extraction. Preserve local processing, host reference uploads, segmentation and animated awakening. Ordinary guest phones must work without LiDAR.
 - Current implementation/testing authority: [Looking Lens guide](guardian-camera-prototype.md). Earlier DINO build is recorded separately in the [v1 handoff](handoff-2026-10-23-guardian-camera-prototype.md).
 
@@ -17,7 +17,7 @@
 
 ## Verification actually performed
 
-- `npm test`: **89 tests passed**, including temporal stability, matching, fallback, 9,000 generated puzzle cases, QR and DST checks. The existing native Apple Vision QR check ran with normal macOS cache access.
+- `npm test`: **90 tests passed**, including temporal stability, matching, fallback, 9,000 generated puzzle cases, QR and DST checks. The existing native Apple Vision QR check ran with normal macOS cache access.
 - `npm run test:integration`: **6 tests passed**, including anonymous/guest host API denial, private original bytes/cache policy, legacy-feature exclusion, bad model/dimension rejection, authorized refresh preserving the original photo and ID, guardian pause and no Favor for recognition. Local synthetic fixtures only.
 - `npm run build`: TypeScript/Vite passed. `wrangler deploy --dry-run` passed; same Worker and bindings. `npm audit --omit=dev`: zero vulnerabilities. `git diff --check`: clean.
 - Actual full-precision ONNX CPU execution: finite 1024-value output; **9.5 ms median / 11.1 ms p95 over 20 warmed inferences** on this Mac. SlimSAM finite masks/scores; about 6.36 seconds encode/decode. These are execution checks, not phone or real-object accuracy results.
@@ -32,7 +32,7 @@
 
 - Remote pre-upgrade check: **zero enrolled references**. No actual host photos have been changed by this session.
 - Migration **0007_fast_vision.sql applied remotely**, all six SQL statements succeeded. Existing enrollment storage was preserved; local preservation/refresh was tested above.
-- Worker publication and post-release checks: pending final entry.
+- Live scanner implementation committed as `7d2f9a1`; ONNX MIME/cache regression fixed in `8b8d2d2`. Initial live release `0bda7c6d-4bc4-42b7-8e7a-9c10c3273c85` exposed missing MIME metadata on Cloudflare ONNX assets. The final release explicitly labels successful versioned model binaries, retains HTML/error no-store safeguards, and has a regression test for that production behavior. Final version **`6d378e50-8086-40f8-9e27-966d63a3be0c`** is deployed on both the Workers preview and `hollow-court.com`. Hosted checks passed: new client/Worker bundles and model manifest 200; complete 6,082,421-byte recognition graph SHA-256 matches the pinned derived model; MobileNet and SAM binaries carry explicit binary MIME and one-year immutable cache; missing-model HTML remains no-store; public HTML no-store with one-year HSTS; HTTP 308 upgrade; public state sealed/debug disabled; public camera API 404; preview unauthenticated camera API 401; host dashboard/API redirect to Access. Remote migration 0007 is recorded and reference count remains zero.
 - No new resource, paid API, Access scope/policy, host identity or retention deadline. Existing authentication from the preceding authorized CLI login is reused.
 
 ## Next acceptance steps

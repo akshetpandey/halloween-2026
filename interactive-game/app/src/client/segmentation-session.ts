@@ -1,9 +1,28 @@
 import { PreparedVisionSession } from "./prepared-vision-session";
 import { recognitionSession } from "./recognition-session";
+import { OutlineSafety } from "./outline-safety";
+import type { VisionReply } from "./vision.worker";
 
 export class SegmentationSession extends PreparedVisionSession {
-  constructor(backend: "auto" | "wasm" = "auto") {
-    super("prepare-segment", backend);
+  private safety = new OutlineSafety();
+  constructor() {
+    super("prepare-segment", "wasm", "segmentation");
+  }
+  prepare(progress?: (text: string) => void) {
+    return this.safety.run(() => super.prepare(progress));
+  }
+  retry() {
+    this.safety.retry();
+  }
+  segment(
+    image: Blob,
+    key: string,
+    progress: (text: string) => void,
+    point: { x: number; y: number },
+  ): Promise<VisionReply> {
+    return this.safety.run(() =>
+      this.getEngine().request("segment", image, key, progress, point),
+    );
   }
   clearImage() {
     // Queue disposal after any in-flight inference without throwing away the
@@ -14,16 +33,8 @@ export class SegmentationSession extends PreparedVisionSession {
         .catch(() => {});
   }
 }
-let current: { backend: "auto" | "wasm"; session: SegmentationSession } | null =
-  null;
-export function getSegmentationSession(backend: "auto" | "wasm" = "auto") {
-  // Retain only one large segmentation session, including in host comparison mode.
-  if (!current || current.backend !== backend) {
-    current?.session.close();
-    current = { backend, session: new SegmentationSession(backend) };
-  }
-  return current.session;
-}
+const current = new SegmentationSession();
+export const getSegmentationSession = () => current;
 export async function prepareArrivalVision() {
   // Give the small recognizer priority; signup never awaits either model.
   await recognitionSession.prepare();

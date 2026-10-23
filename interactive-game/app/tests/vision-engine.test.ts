@@ -6,7 +6,7 @@ class TestWorker {
   onerror: (() => void) | null = null;
   sent: any[] = [];
   terminated = false;
-  constructor() {
+  constructor(public url: URL) {
     TestWorker.instances.push(this);
   }
   postMessage(message: unknown) {
@@ -22,6 +22,15 @@ class TestWorker {
 afterEach(() => {
   vi.unstubAllGlobals();
   TestWorker.instances = [];
+});
+it("routes segmentation into its own lightweight worker with no GPU initialization", () => {
+  vi.stubGlobal("Worker", TestWorker);
+  const engine = new VisionEngine("wasm", "segmentation");
+  expect(TestWorker.instances[0].url.pathname).toContain(
+    "segmentation.worker.ts",
+  );
+  expect(TestWorker.instances).toHaveLength(1);
+  engine.close();
 });
 it("restarts a failed GPU initialization in a fresh CPU worker and preserves the request", async () => {
   vi.stubGlobal("Worker", TestWorker);

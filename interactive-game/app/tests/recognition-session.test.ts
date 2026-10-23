@@ -116,9 +116,9 @@ it("retains warmed segmentation models while releasing a previous photo", async 
   const worker = TestWorker.instances[0];
   expect(worker.sent[0]).toMatchObject({
     kind: "prepare-segment",
-    backend: "auto",
+    backend: "wasm",
   });
-  worker.reply({ ready: true, backend: "WebGPU + WASM fallback" });
+  worker.reply({ ready: true, backend: "MagicTouch · WASM CPU" });
   await warm;
   s.clearImage();
   expect(worker.sent[1].kind).toBe("release-image");
@@ -132,23 +132,19 @@ it("retains warmed segmentation models while releasing a previous photo", async 
   expect(worker.terminated).toBe(false);
 });
 
-it("retains only one large segmentation worker when the host changes backend", async () => {
+it("reuses one lightweight CPU segmentation session across Lens visits", async () => {
   vi.stubGlobal("Worker", TestWorker);
-  const gpu = getSegmentationSession("auto");
-  sessions.push(gpu);
-  const warming = gpu.prepare();
+  const first = getSegmentationSession();
+  sessions.push(first);
+  const warming = first.prepare();
   TestWorker.instances[0].reply({ ready: true });
   await warming;
-  const cpu = getSegmentationSession("wasm");
-  sessions.push(cpu);
-  expect(TestWorker.instances[0].terminated).toBe(true);
-  expect(gpu.ready).toBe(false);
-  const ready = cpu.prepare();
-  expect(TestWorker.instances[1].sent[0].backend).toBe("wasm");
-  TestWorker.instances[1].reply({ ready: true });
-  await ready;
-  expect(cpu.ready).toBe(true);
-  expect(TestWorker.instances.filter((w) => !w.terminated)).toHaveLength(1);
+  const next = getSegmentationSession();
+  expect(next).toBe(first);
+  await next.prepare();
+  expect(TestWorker.instances).toHaveLength(1);
+  expect(TestWorker.instances[0].sent[0].backend).toBe("wasm");
+  expect(next.ready).toBe(true);
 });
 
 const state = (

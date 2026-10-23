@@ -103,6 +103,12 @@ console.log(
 );
 benchInput.dispose();
 await recognizer.release();
+if (!process.argv.includes("--legacy-sam")) {
+  console.log(
+    "Recognition smoke passed. Test the current MagicTouch outline in the host Lens. --legacy-sam explicitly profiles the retired high-memory outline for comparison.",
+  );
+  process.exit(0);
+}
 const meta = await sharp(photo).metadata(),
   ratio = 1024 / Math.max(meta.width, meta.height),
   width = Math.round(meta.width * ratio),

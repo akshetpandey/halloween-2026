@@ -5,6 +5,7 @@ export class VisionEngine {
   private backend: "auto" | "wasm";
   private worker!: Worker;
   private fellBack = false;
+  private task: "recognition" | "segmentation";
   private pending = new Map<
     number,
     {
@@ -15,8 +16,12 @@ export class VisionEngine {
       timer: ReturnType<typeof setTimeout>;
     }
   >();
-  constructor(backend: "auto" | "wasm" = "auto") {
+  constructor(
+    backend: "auto" | "wasm" = "auto",
+    task: "recognition" | "segmentation" = "recognition",
+  ) {
     this.backend = backend;
+    this.task = task;
     this.startWorker();
   }
   private fallback() {
@@ -30,9 +35,14 @@ export class VisionEngine {
     }
   }
   private startWorker() {
-    this.worker = new Worker(new URL("./vision.worker.ts", import.meta.url), {
-      type: "module",
-    });
+    this.worker =
+      this.task === "segmentation"
+        ? new Worker(new URL("./segmentation.worker.ts", import.meta.url), {
+            type: "module",
+          })
+        : new Worker(new URL("./vision.worker.ts", import.meta.url), {
+            type: "module",
+          });
     this.worker.onmessage = (event: MessageEvent<VisionReply>) => {
       const reply = event.data,
         job = this.pending.get(reply.id);

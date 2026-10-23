@@ -326,6 +326,8 @@ export function HostReferences() {
               <article key={p.id}>
                 <img
                   src={"/api/admin/vision/references/" + p.id}
+                  loading="lazy"
+                  decoding="async"
                   alt={(chosen?.name ?? "Background") + " reference"}
                 />
                 <p>{p.note || "Reference view"}</p>
@@ -400,10 +402,10 @@ export function HostReferences() {
             </div>
             <p className="small muted">
               The small MobileNet recognizer runs locally on a warmed CPU model.
-              SlimSAM outlines prefer WebGPU, with WASM CPU fallback. The test
-              view reports the selected backend and timing. Model/runtime files
-              are downloaded on first use and cached. A LiDAR scan is not
-              required: use normal photos from any phone.
+              MagicTouch outlines use a lighter CPU model. The test view reports
+              the selected backend and timing. Model/runtime files are
+              downloaded on first use and cached. A LiDAR scan is not required:
+              use normal photos from any phone.
             </p>
           </details>
         </>

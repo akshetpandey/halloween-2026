@@ -3,7 +3,7 @@ const LOOPBACK_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]"]);
 const HASHED_ASSET =
   /^\/assets\/[^/]+-[\w-]{8}\.(?:js|css|webp|png|jpe?g|gif|svg|avif|ico|woff2?|ttf|otf)$/i;
 const VERSIONED_MODEL =
-  /^\/models\/(?:hc-vision-48988dfe-5850ab45-ort130-v1|hc-lens-mbv3-b1a19675-f32-v2)\/[\w.-]+$/;
+  /^\/models\/(?:hc-vision-48988dfe-5850ab45-ort130-v1|hc-lens-mbv3-b1a19675-f32-v2|hc-outline-magic-touch-v1-mp111)\/[\w.-]+$/;
 
 export function httpsRedirect(request: Request): Response | null {
   const url = new URL(request.url);
@@ -46,7 +46,7 @@ export function responseHeaders(
     !type &&
     response.ok &&
     VERSIONED_MODEL.test(url.pathname) &&
-    /\.onnx(?:_data)?$/.test(url.pathname)
+    /\.(?:onnx(?:_data)?|tflite)$/.test(url.pathname)
   ) {
     type = "application/octet-stream";
     headers.set("Content-Type", type);

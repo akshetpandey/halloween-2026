@@ -34,69 +34,8 @@ export type VisionReply = {
   retryCPU?: boolean;
   ready?: boolean;
 };
-let ort: typeof Ort,
-  preferGPU = false,
-  runtimeReady = false;
-const sessionBackends = new WeakMap<Ort.InferenceSession, string>();
-async function runtime(job: VisionRequest) {
-  if (runtimeReady) return;
-  if (job.backend !== "wasm") {
-    try {
-      const gpu = (
-        self.navigator as Navigator & {
-          gpu?: { requestAdapter: () => Promise<object | null> };
-        }
-      ).gpu;
-      preferGPU = !!(await gpu?.requestAdapter());
-    } catch {
-      preferGPU = false;
-    }
-  }
-  ort = preferGPU
-    ? await import("onnxruntime-web/webgpu")
-    : await import("onnxruntime-web/wasm");
-  ort.env.wasm.numThreads = 1;
-  ort.env.wasm.proxy = false;
-  ort.env.wasm.wasmPaths = new URL(VISION_ASSETS, self.location.origin).href;
-  runtimeReady = true;
-}
-async function session(
-  graph: Uint8Array,
-  job: VisionRequest,
-  options: Ort.InferenceSession.SessionOptions = {},
-) {
-  if (preferGPU) {
-    try {
-      const result = await ort.InferenceSession.create(graph, {
-        ...options,
-        executionProviders: ["webgpu", "wasm"],
-      });
-      sessionBackends.set(result, "WebGPU + WASM fallback");
-      return result;
-    } catch {
-      progress(job.id, "This model is taking the CPU path on this phone…");
-    }
-  }
-  const result = await ort.InferenceSession.create(graph, {
-    ...options,
-    executionProviders: ["wasm"],
-  });
-  sessionBackends.set(result, "WASM CPU");
-  return result;
-}
+let ort: typeof Ort;
 let embedder: Ort.InferenceSession | null = null;
-let encoder: Ort.InferenceSession | null = null;
-let decoder: Ort.InferenceSession | null = null;
-let segmentationWarmed = false;
-let imageCache: {
-  key: string;
-  embeddings: Record<string, Ort.Tensor>;
-  width: number;
-  height: number;
-  resizedW: number;
-  resizedH: number;
-  backend: string;
-} | null = null;
 const mean = [0.485, 0.456, 0.406],
   std = [0.229, 0.224, 0.225];
 function progress(id: number, text: string) {
@@ -147,18 +86,14 @@ async function asset(
   }
   return bytes;
 }
-function pixels(
-  image: ImageBitmap,
-  width: number,
-  height: number,
-  padded = false,
-  crop = false,
-) {
+function pixels(image: ImageBitmap) {
+  const width = 224,
+    height = 224;
   const canvas = new OffscreenCanvas(width, height),
     ctx = canvas.getContext("2d")!;
   ctx.imageSmoothingEnabled = true;
   ctx.imageSmoothingQuality = "high";
-  if (crop) {
+  {
     const side = Math.min(image.width, image.height) * 0.875;
     ctx.drawImage(
       image,
@@ -171,10 +106,10 @@ function pixels(
       width,
       height,
     );
-  } else ctx.drawImage(image, 0, 0, width, height);
+  }
   const rgba = ctx.getImageData(0, 0, width, height).data;
-  const side = padded ? 1024 : width,
-    fullHeight = padded ? 1024 : height;
+  const side = width,
+    fullHeight = height;
   const values = new Float32Array(3 * side * fullHeight);
   for (let y = 0; y < height; y++)
     for (let x = 0; x < width; x++)
@@ -183,33 +118,12 @@ function pixels(
           (rgba[(y * width + x) * 4 + c] / 255 - mean[c]) / std[c];
   return new ort.Tensor("float32", values, [1, 3, fullHeight, side]);
 }
-class GPUExecutionError extends Error {}
-async function run(
-  model: Ort.InferenceSession,
-  feeds: Record<string, Ort.Tensor>,
-) {
-  try {
-    return await model.run(feeds);
-  } catch (error) {
-    if (sessionBackends.get(model)?.startsWith("WebGPU"))
-      throw new GPUExecutionError(String(error));
-    throw error;
-  }
-}
-async function releaseModels() {
-  if (imageCache) {
-    dispose(imageCache.embeddings);
-    imageCache = null;
-  }
-  const sessions = [embedder, encoder, decoder];
-  embedder = null;
-  encoder = null;
-  decoder = null;
-  segmentationWarmed = false;
-  await Promise.all(sessions.map((model) => model?.release().catch(() => {})));
-}
 async function prepareRecognition(job: VisionRequest) {
   if (embedder) return;
+  ort = await import("onnxruntime-web/wasm");
+  ort.env.wasm.numThreads = 1;
+  ort.env.wasm.proxy = false;
+  ort.env.wasm.wasmPaths = new URL(VISION_ASSETS, self.location.origin).href;
   progress(
     job.id,
     "Preparing the fast lens · first use downloads its small recognition model",
@@ -220,7 +134,10 @@ async function prepareRecognition(job: VisionRequest) {
     "Preparing the fast lens",
     RECOGNITION_ASSETS,
   );
-  embedder = await session(graph, job, { graphOptimizationLevel: "all" });
+  embedder = await ort.InferenceSession.create(graph, {
+    executionProviders: ["wasm"],
+    graphOptimizationLevel: "all",
+  });
 }
 async function warm(job: VisionRequest) {
   const started = performance.now();
@@ -232,7 +149,7 @@ async function warm(job: VisionRequest) {
   );
   let out: Record<string, Ort.Tensor> | undefined;
   try {
-    out = await run(embedder!, { pixel_values: input });
+    out = await embedder!.run({ pixel_values: input });
   } finally {
     input.dispose();
     if (out) dispose(out);
@@ -241,7 +158,7 @@ async function warm(job: VisionRequest) {
     id: job.id,
     ready: true,
     ms: performance.now() - started,
-    backend: sessionBackends.get(embedder!),
+    backend: "WASM CPU",
   } satisfies VisionReply);
 }
 async function embed(job: VisionRequest) {
@@ -249,11 +166,11 @@ async function embed(job: VisionRequest) {
   const started = performance.now();
   const image =
     job.image instanceof Blob ? await createImageBitmap(job.image) : job.image;
-  const input = pixels(image, 224, 224, false, true);
+  const input = pixels(image);
   image.close();
   let out: Record<string, Ort.Tensor> | undefined;
   try {
-    out = await run(embedder!, { pixel_values: input });
+    out = await embedder!.run({ pixel_values: input });
     const features = out["/flatten/Flatten_output_0"];
     if (!features || features.data.length !== VISION_DIMENSIONS)
       throw Error("The lens returned incomplete image features.");
@@ -264,214 +181,27 @@ async function embed(job: VisionRequest) {
       id: job.id,
       vector,
       ms: performance.now() - started,
-      backend: sessionBackends.get(embedder!),
+      backend: "WASM CPU",
     } satisfies VisionReply);
   } finally {
     input.dispose();
     if (out) dispose(out);
   }
 }
-function clearImage() {
-  if (imageCache) dispose(imageCache.embeddings);
-  imageCache = null;
-}
-async function prepareSegmentation(job: VisionRequest) {
-  if (!encoder) {
-    const graph = await asset(
-      "sam-encoder.onnx",
-      job.id,
-      "Preparing the awakening",
-    );
-    encoder = await session(graph, job, { graphOptimizationLevel: "all" });
-  }
-  if (!decoder) {
-    const graph = await asset(
-      "sam-decoder.onnx",
-      job.id,
-      "Preparing the awakening",
-    );
-    decoder = await session(graph, job, { graphOptimizationLevel: "all" });
-  }
-}
-async function warmSegmentation(job: VisionRequest) {
-  const started = performance.now();
-  await prepareSegmentation(job);
-  if (!segmentationWarmed) {
-    progress(job.id, "Waking the woodland light · preparing its first outline");
-    const input = new ort.Tensor(
-      "float32",
-      new Float32Array(3 * 1024 * 1024),
-      [1, 3, 1024, 1024],
-    );
-    const points = new ort.Tensor(
-      "float32",
-      new Float32Array([512, 512]),
-      [1, 1, 1, 2],
-    );
-    const labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
-    let embeddings: Record<string, Ort.Tensor> | undefined;
-    let masks: Record<string, Ort.Tensor> | undefined;
-    try {
-      embeddings = await run(encoder!, { pixel_values: input });
-      masks = await run(decoder!, {
-        ...embeddings,
-        input_points: points,
-        input_labels: labels,
-      });
-      segmentationWarmed = true;
-    } finally {
-      input.dispose();
-      points.dispose();
-      labels.dispose();
-      if (masks) dispose(masks);
-      if (embeddings) dispose(embeddings);
-    }
-  }
-  self.postMessage({
-    id: job.id,
-    ready: true,
-    ms: performance.now() - started,
-    backend: sessionBackends.get(encoder!),
-  } satisfies VisionReply);
-}
-async function segment(job: VisionRequest) {
-  const started = performance.now();
-  await prepareSegmentation(job);
-  if (imageCache?.key !== job.imageKey) {
-    clearImage();
-    const image =
-      job.image instanceof Blob
-        ? await createImageBitmap(job.image)
-        : job.image;
-    const ratio = 1024 / Math.max(image.width, image.height),
-      width = image.width,
-      height = image.height;
-    const resizedW = Math.round(width * ratio),
-      resizedH = Math.round(height * ratio);
-    const input = pixels(image, resizedW, resizedH, true);
-    image.close();
-    try {
-      progress(job.id, "Tracing the creature through the leaves…");
-      const embeddings = await run(encoder!, { pixel_values: input });
-      imageCache = {
-        key: job.imageKey,
-        embeddings,
-        width,
-        height,
-        resizedW,
-        resizedH,
-        backend: sessionBackends.get(encoder!)!,
-      };
-    } finally {
-      input.dispose();
-    }
-  }
-  const cache = imageCache!,
-    point = job.point ?? { x: 0.5, y: 0.5 };
-  const points = new ort.Tensor(
-    "float32",
-    new Float32Array([point.x * cache.resizedW, point.y * cache.resizedH]),
-    [1, 1, 1, 2],
-  );
-  const labels = new ort.Tensor("int64", new BigInt64Array([1n]), [1, 1, 1]);
-  let result: Record<string, Ort.Tensor> | undefined;
-  try {
-    result = await run(decoder!, {
-      ...cache.embeddings,
-      input_points: points,
-      input_labels: labels,
-    });
-    const raw = result.pred_masks.data as Float32Array,
-      scores = result.iou_scores.data as Float32Array;
-    const maskSide = result.pred_masks.dims.at(-1)!,
-      plane = maskSide * maskSide;
-    const ratio = Math.min(1, 768 / Math.max(cache.width, cache.height));
-    const width = Math.round(cache.width * ratio),
-      height = Math.round(cache.height * ratio);
-    const masks = Array.from({ length: scores.length }, (_, index) => {
-      const mask = new Uint8Array(width * height);
-      let count = 0;
-      for (let y = 0; y < height; y++)
-        for (let x = 0; x < width; x++) {
-          const mx = Math.min(
-            maskSide - 1,
-            Math.floor((((x / width) * cache.resizedW) / 1024) * maskSide),
-          );
-          const my = Math.min(
-            maskSide - 1,
-            Math.floor((((y / height) * cache.resizedH) / 1024) * maskSide),
-          );
-          if (raw[index * plane + my * maskSide + mx] > 0) {
-            mask[y * width + x] = 255;
-            count++;
-          }
-        }
-      return {
-        mask,
-        area: count / (width * height),
-        quality: Number(scores[index]),
-      };
-    });
-    const selected =
-      masks
-        .filter((m) => m.area > 0.008 && m.area < 0.88)
-        .sort((a, b) => b.quality - a.quality)[0] ?? masks[0];
-    const segmentation: MaskResult = {
-      ...selected,
-      width,
-      height,
-      usable: selected.area > 0.008 && selected.area < 0.88,
-      ms: performance.now() - started,
-    };
-    self.postMessage(
-      {
-        id: job.id,
-        segmentation,
-        backend: cache.backend,
-      } satisfies VisionReply,
-      { transfer: [segmentation.mask.buffer as ArrayBuffer] },
-    );
-  } finally {
-    points.dispose();
-    labels.dispose();
-    if (result) dispose(result);
-  }
-}
-// Serialize calls so uploads and mask refinements never share mutable inference buffers.
+// Recognition never initializes the former high-memory segmentation graph.
 let queue = Promise.resolve();
 self.onmessage = (event: MessageEvent<VisionRequest>) => {
   const job = event.data;
   queue = queue.then(async () => {
     try {
-      if (job.kind === "release-image") {
-        clearImage();
-        self.postMessage({ id: job.id, ready: true } satisfies VisionReply);
-        return;
-      }
-      await runtime(job);
-      const execute = () => {
-        if (job.kind === "prepare") return warm(job);
-        if (job.kind === "prepare-segment") return warmSegmentation(job);
-        if (job.kind === "embed") return embed(job);
-        return segment(job);
-      };
-      try {
-        await execute();
-      } catch (error) {
-        if (!(error instanceof GPUExecutionError)) throw error;
-        progress(job.id, "This phone is switching to the CPU path…");
-        preferGPU = false;
-        await releaseModels();
-        await execute();
-      }
-    } catch (e) {
+      if (job.kind === "prepare") await warm(job);
+      else if (job.kind === "embed") await embed(job);
+      else throw Error("This worker only handles recognition.");
+    } catch (error) {
       self.postMessage({
         id: job.id,
-        retryCPU: preferGPU,
         error:
-          e instanceof Error
-            ? e.message
-            : "This phone could not prepare the lens. Try again.",
+          error instanceof Error ? error.message : "The lens could not start.",
       } satisfies VisionReply);
     }
   });

@@ -159,6 +159,21 @@ it("protects private portraits and responses that set cookies from public cachin
   }
 });
 
+it("serves the pinned lightweight model as immutable binary but never caches its HTML fallback", () => {
+  const request = new Request(
+    origin + "/models/hc-outline-magic-touch-v1-mp111/magic_touch.tflite",
+  );
+  const model = responseHeaders(request, new Response(new Uint8Array([1, 2])));
+  expect(model.headers.get("Content-Type")).toBe("application/octet-stream");
+  expect(model.headers.get("Cache-Control")).toContain("immutable");
+  const fallback = responseHeaders(
+    request,
+    new Response("<html></html>", { headers: { "Content-Type": "text/html" } }),
+  );
+  expect(fallback.headers.get("Content-Type")).toBe("text/html");
+  expect(fallback.headers.get("Cache-Control")).toBe("no-store");
+});
+
 it("applies security and no-store to thrown responses and unexpected failures", async () => {
   const log = vi.spyOn(console, "error").mockImplementation(() => {});
   try {

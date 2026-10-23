@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "dev:worker": "wrangler dev --port 8787",
-    "build": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs && tsc --noEmit && vite build",
-    "models:prepare": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs",
+    "build": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs && node scripts/prepare-segmentation.mjs && tsc --noEmit && vite build",
+    "models:prepare": "node scripts/prepare-vision.mjs && node scripts/prepare-fast-vision.mjs && node scripts/prepare-segmentation.mjs",
     "types": "wrangler types --strict-vars=false",
     "test": "vitest run",
     "deploy": "npm run build && wrangler deploy",
@@ -20,6 +20,7 @@
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
     "@fontsource/dm-sans": "^5.3.0",
+    "@mediapipe/tasks-vision": "1.1.1",
     "jose": "^6.2.12",
     "lucide-react": "^1.43.0",
     "onnxruntime-web": "1.30.0",

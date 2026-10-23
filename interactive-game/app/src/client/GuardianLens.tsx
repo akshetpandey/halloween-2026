@@ -69,8 +69,7 @@ export function GuardianLens({
     rememberedCamera: false,
   });
   const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
-  const [backend, setBackend] = useState<"auto" | "wasm">("auto"),
-    [continuing, setContinuing] = useState(false);
+  const [continuing, setContinuing] = useState(false);
   const outlineSession = useRef<SegmentationSession | null>(null);
   const video = useRef<HTMLVideoElement>(null),
     cameraStarted = useRef(0),
@@ -108,12 +107,16 @@ export function GuardianLens({
   }
   useEffect(() => {
     if (ready)
-      void warmRecognizer().catch((e) => {
-        if (mounted.current) setError(e.message);
-      });
+      void warmRecognizer()
+        .then(() => {
+          if (mounted.current) return warmOutline();
+        })
+        .catch((e) => {
+          if (mounted.current) setError(e.message);
+        });
   }, [ready]);
   function getOutlineSession() {
-    const session = getSegmentationSession(backend);
+    const session = getSegmentationSession();
     outlineSession.current = session;
     return session;
   }
@@ -141,9 +144,6 @@ export function GuardianLens({
         throw error;
       });
   }
-  useEffect(() => {
-    if (ready) void warmOutline().catch(() => {});
-  }, [ready, backend]);
   function stopCamera() {
     lensCamera.stop();
     recognitionFrames.clear();
@@ -232,8 +232,7 @@ export function GuardianLens({
       const session = getOutlineSession();
       await warmOutline(session);
       if (attempt !== action.current) return;
-      const result = await session.getEngine().request(
-        "segment",
+      const result = await session.segment(
         p.blob,
         p.key,
         (text) => {
@@ -520,20 +519,9 @@ export function GuardianLens({
         Bring one creature into view. Let the wood recognize what is waiting.
       </p>
       {host && (
-        <label className="lens-backend">
-          OUTLINE PROCESSING
-          <select
-            value={backend}
-            disabled={busy || outlining || phase === "camera"}
-            onChange={(e) => {
-              reset();
-              setBackend(e.target.value as "auto" | "wasm");
-            }}
-          >
-            <option value="auto">Prefer WebGPU · fall back to CPU</option>
-            <option value="wasm">CPU / WASM · compare timing</option>
-          </select>
-        </label>
+        <p className="small muted">
+          Outline processing: MagicTouch · CPU / WASM
+        </p>
       )}
       {ready && (
         <p className="lens-ready" role="status">
@@ -548,6 +536,21 @@ export function GuardianLens({
       )}
       {host && ready && outlineState === "preparing" && (
         <p className="small muted">{outlineProgress}</p>
+      )}
+      {ready && outlineState === "failed" && (
+        <button
+          className="text-button"
+          onClick={() => {
+            const session = getOutlineSession();
+            session.retry();
+            setError("");
+            if (currentPhoto.current && guardian)
+              void outlinePhoto(currentPhoto.current, action.current);
+            else void warmOutline(session).catch((e) => setError(e.message));
+          }}
+        >
+          Retry awakening outline
+        </button>
       )}
       {error && (
         <p className="inline-error" role="alert">
@@ -762,8 +765,7 @@ export function GuardianLens({
               {details.outlinePrepareBackend
                 ? ` · ${details.outlinePrepareBackend}`
                 : ""}
-              . Recognition runs on the warmed small CPU model; outline backend
-              is selected above.
+              . Recognition and outlines use separate warmed CPU models.
               {details.cameraMs > 0 && (
                 <>
                   {" "}

@@ -6,6 +6,7 @@ export class PreparedVisionSession {
   constructor(
     private kind: "prepare" | "prepare-segment" = "prepare",
     private backend: "auto" | "wasm" = "wasm",
+    private task: "recognition" | "segmentation" = "recognition",
   ) {}
   protected engine: VisionEngine | null = null;
   private preparation: Promise<VisionReply> | null = null;
@@ -17,7 +18,7 @@ export class PreparedVisionSession {
   }
   getEngine() {
     if (!this.engine || this.engine.closed) {
-      this.engine = new VisionEngine(this.backend);
+      this.engine = new VisionEngine(this.backend, this.task);
       this.preparation = null;
       this.prepared = false;
     }

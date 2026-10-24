@@ -2,7 +2,7 @@
 
 - Session: Hollow Court fox asset revision, desktop thread `01a08367-2c08-7451-8ede-52803d3c1c40`.
 - Checkout: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `ece0921`; no worktree or branch.
-- Status: clean authored character implemented and locally verified; deployment evidence follows below.
+- Status: implemented, deployed and verified; real-phone art/performance acceptance remains open.
 - Confirmed direction: host supplied a Polycam capture of LEGO 31394, then rejected the scan-derived appearance, loose geometry and broken tail. The earlier modeled fox was cuter. Use captured proportions and colors as reference while prioritizing a deliberately modeled character. The host explicitly permits prop-specific geometry, rigs, recognition and choreography.
 
 ## Completed
@@ -16,10 +16,10 @@
 
 ## Verification
 
-- New contract checks load the real GLB with GLTFLoader and SkeletonUtils clone, validate mobile import limits/checksum, no images/textures, one watertight tail component, normalized five-bone weights, finite deformed positions, matching painted-seam deformation, named clips, real blinks and seamless loops.
+- New contract checks load the real GLB with GLTFLoader and SkeletonUtils clone, validate mobile import limits/checksum, no images/textures, one watertight outward-facing tail component, normalized five-bone weights, finite deformed positions, matching painted-seam deformation, named clips, real blinks and seamless loops.
 - Motion regression checks include equivalent yaw at entry/exit of the chase.
-- Full suite: 135/135 passed before the final ankle/yaw refinement; final verification recorded below. The first sandboxed suite failed only because Apple Vision could not load its native ANE inference plan; the same suite passed with normal macOS access. QR code/decoder sources were not changed.
-- Typecheck/build and Wrangler dry run passed during implementation; final checks below.
+- Full suite: **136/136 passed across 19 files**, including ankle/yaw/resize changes. The final outward-facing tail surface/cap correction subsequently passed all eight focused model/motion checks. The first sandboxed suite failed only because Apple Vision could not load its native ANE inference plan; the same suite passed with normal macOS access. QR code/decoder sources were not changed.
+- Final `npm run build` (including TypeScript), `wrangler deploy --dry-run`, and `git diff --check` passed. The existing lazy Three.js chunk remains about 160kB gzip; Vite reports its usual chunk-size advisory.
 - Real renderer inspected in the 390×844 phone harness, including recorded chase frames. Desktop diagnostics showed approximately 26 FPS, 20 draw calls (before separate ankle groups), 27,598 rendered triangles including effects and 0.05s ready time on the warm laptop. These are laptop observations, not phone benchmarks.
 - Original scan is unchanged; no new modeling service, dependency, purchase, API or database migration.
 
@@ -30,4 +30,11 @@
 3. Check repeated open/close, background/resume and camera-to-reveal memory/performance. No phone FPS or scan-fidelity acceptance is claimed here.
 4. Storyboard and author distinct characters for the remaining guardians; do not stamp the fox chase onto all fifteen.
 
-Commit and deployment evidence will be added after publishing. All changed files belong to this task; no unrelated dirty files were present at the start.
+## Release evidence
+
+- Source checkpoint on `main`: **`7be123a`**. Final evidence is committed separately. No push was performed.
+- Published existing Worker `hollow-court-preview` on the existing account/resources, no bindings/schema/access changes. Version **`16b94877-b162-44b8-acc2-c5928726344c`**, serving `hollow-court.com` and the Workers preview hostname.
+- Live `/assets/RedPanda-BbIkPUON.glb`: **965,376 bytes**, SHA-256 **`f3f23ffad7caa456042041602a3318dab2059b32bdc4df5f84048a439075c7e9`**, identical to the committed asset. 26,252 model triangles, 20 primitives, zero image textures. Runtime `/assets/fox-spirit-runtime-jTxTiUvy.js`, reveal `/assets/FoxSpiritReveal-BFiMN8JM.js`, entry `/assets/index-2e-eZ8Gk.js` verified live.
+- Hashed assets return immutable one-year caching and HSTS. HTML returns `no-store`; HTTP upgrades with 308. Public `/api/state` remains sealed with no player/preview access; `/api/debug/guardians` is 404. Unauthenticated host/admin requests still redirect to the existing Cloudflare Access sign-in.
+- Final real-renderer checks: portrait 390×844, small phone 375×667, landscape 844×390, pause then resize, replay and greeting. Paused resize now retains the character. Recorded the final emergence/chase/sit/paw hello in `private/panda-scan-2026-10-24/final-motion/red-panda-reveal.gif`, with screenshot frames/contact sheet beside it. This was the local harness using the same checksum-verified deployed model; an authenticated live phone session was not exercised by the agent.
+- Original Downloads scan checksum rechecked unchanged. All modified files belong to this task; no unrelated dirty files were present. Temporary Vite/browser inspection resources are closed after verification.

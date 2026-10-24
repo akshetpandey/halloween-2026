@@ -5,8 +5,8 @@
   "reference": "Host LEGO 31394 prop; photographed proportions and orange/brown/white palette only",
   "sourceScanGeometry": false,
   "sourcePhotoTextures": false,
-  "bytes": 965376,
-  "sha256": "f3f23ffad7caa456042041602a3318dab2059b32bdc4df5f84048a439075c7e9",
+  "bytes": 1088928,
+  "sha256": "3662611873fa430b08c540f351789a8de7bc245f1f2cc500f447768220244b37",
   "triangles": 26252,
   "primitives": 20,
   "images": 0,
@@ -18,12 +18,24 @@
       "duration": 3.2
     },
     {
+      "name": "Anticipate",
+      "duration": 0.8
+    },
+    {
       "name": "Run",
       "duration": 0.64
     },
     {
+      "name": "Pounce",
+      "duration": 0.85
+    },
+    {
       "name": "Settle",
-      "duration": 0.8
+      "duration": 1
+    },
+    {
+      "name": "Curious",
+      "duration": 1.1
     },
     {
       "name": "Greet",

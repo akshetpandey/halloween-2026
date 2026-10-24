@@ -4,6 +4,7 @@ import { clone } from "three/addons/utils/SkeletonUtils.js";
 import { PANDA_MODEL, pandaClip } from "./panda-model";
 import {
   coverOrigin,
+  FOX_TIMING,
   foxStory,
   spiritFrame,
   type SpiritOrigin,
@@ -212,7 +213,7 @@ export function mountFoxSpirit(
         height *
         0.035;
     const next = choreographed
-      ? actions.get(pandaClip(story.beat))
+      ? actions.get(pandaClip(story.beat, actions))
       : actions.values().next().value;
     if (next && next !== active) {
       next.reset().play();
@@ -220,46 +221,37 @@ export function mountFoxSpirit(
       active = next;
     }
     mixer?.update(
-      dt * (story.running ? 1.1 : story.beat === "settle" ? 1 : 0.85),
+      dt * (story.running ? 1.2 : story.beat === "emerge" ? 0.85 : 1),
     );
     if (head) {
-      head.rotateY(story.turnToTail * 0.9);
       head.rotateX(Math.sin(elapsed * 7) * reaction * 0.07);
     }
     const turn = yaw + story.yaw;
-    // During the chase the long side of the fox must also fit on the phone.
-    const projectedWidth =
-      Math.abs(Math.cos(turn)) * modelSize.x +
-      Math.abs(Math.sin(turn)) * modelSize.z;
+    // Keep one scale throughout the circle; ease into/out of it instead of
+    // resizing on every change of silhouette or at the clip boundary.
     const stageWidth = width * (width > height * 1.1 ? 0.54 : 1);
-    const frameFit = Math.min(
+    const chaseFit = Math.min(
       fit,
-      (stageWidth * (story.running ? 0.52 : 0.77)) / projectedWidth,
+      (stageWidth * 0.6) / Math.max(modelSize.x, modelSize.z),
     );
+    const frameFit = fit + (chaseFit - fit) * story.chaseAmount;
     root.position.set(
       (pose.x - 0.5) * width + story.x * stageWidth,
-      (0.5 - pose.y) * height +
-        Math.sin(elapsed * 1.9) * height * 0.003 * pose.arrival +
-        hop +
-        story.y * height -
-        modelSize.y * frameFit * story.sit * 0.08,
+      (0.5 - pose.y) * height + hop + story.y * height,
       0,
     );
     root.scale.setScalar(frameFit * pose.scale);
     // The scanned view never supplies rotation: the character faces the viewer.
     body.rotation.set(
-      0.08 - story.sit * 0.13,
+      0,
       turn,
-      Math.sin(elapsed * 1.6) * 0.012 * pose.arrival +
-        Math.sin(elapsed * 8) * reaction * 0.025,
+      story.bank + Math.sin(elapsed * 8) * reaction * 0.025,
     );
     for (const m of modelMaterials) {
       m.opacity = pose.opacity;
       m.emissiveIntensity = 0.1 + pose.portal * 0.2 + reaction * 0.16;
     }
-    const floor =
-        root.position.y -
-        modelSize.y * frameFit * pose.scale * (0.47 - story.sit * 0.08),
+    const floor = root.position.y - modelSize.y * frameFit * pose.scale * 0.5,
       radius =
         Math.min(width * 0.34, modelSize.x * fit * 0.7) *
         (0.75 + pose.portal * 0.15);
@@ -271,7 +263,11 @@ export function mountFoxSpirit(
     }
     ringMaterial.opacity = (0.35 + pose.portal * 0.5) * pose.opacity;
     shadow.position.set(root.position.x, floor, -45);
-    shadow.scale.set(radius * 1.2, radius * 0.32, 1);
+    shadow.scale.set(
+      radius * (1.2 - story.flight * 0.25),
+      radius * (0.32 - story.flight * 0.07),
+      1,
+    );
     (shadow.material as THREE.MeshBasicMaterial).opacity = pose.opacity * 0.8;
     for (let i = 0; i < count; i++) {
       const seed = seeds[i],
@@ -327,7 +323,7 @@ export function mountFoxSpirit(
       mixer = new THREE.AnimationMixer(model);
       for (const clip of gltf.animations) {
         const action = mixer.clipAction(clip);
-        if (clip.name === "Settle") {
+        if (["Anticipate", "Pounce", "Settle", "Curious"].includes(clip.name)) {
           action.setLoop(THREE.LoopOnce, 1);
           action.clampWhenFinished = true;
         }
@@ -394,7 +390,7 @@ export function mountFoxSpirit(
       resume();
     },
     greet() {
-      if (choreographed) elapsed = Math.max(elapsed, 6.6);
+      if (choreographed) elapsed = Math.max(elapsed, FOX_TIMING.greet);
       replyAt = elapsed;
       resume();
     },

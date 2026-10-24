@@ -9,6 +9,7 @@ import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
 import { mkdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { solvePlanarLeg } from "../../src/shared/guardian-ik.ts";
 
 // GLTFExporter uses the browser FileReader interface even for buffer-only scenes.
 globalThis.FileReader = class {
@@ -445,57 +446,151 @@ function tailWag(t, amount = 0.1) {
     b.rotation.x = Math.sin((t * Math.PI * 2) / 3.2 - i * 0.35) * amount * 0.35;
   });
 }
-function seated(amount) {
-  root.position.y -= 0.014 * amount;
-  root.rotation.x = -0.16 * amount;
-  head.rotation.x = 0.16 * amount;
-  for (const { leg, knee, foot, rear } of legs) {
-    leg.rotation.x = (rear ? -1.35 : 0.16) * amount;
-    knee.rotation.x = (rear ? 2.7 : -0.15) * amount;
-    foot.rotation.x = -leg.rotation.x - knee.rotation.x;
+// Targets are authored in model/ground space, then solved after body movement.
+// This makes the front paws bear weight instead of folding the legs in mid-air.
+const soleHeight = 0.0135;
+function feet(targets = () => ({})) {
+  root.updateMatrix();
+  const inverse = root.matrix.clone().invert();
+  for (const l of legs) {
+    const target = targets(l);
+    const restZ = l.rear ? -0.077 : 0.046;
+    const local = new T.Vector3(
+      l.leg.position.x,
+      soleHeight + (target.y ?? 0),
+      restZ + (target.z ?? 0),
+    )
+      .applyMatrix4(inverse)
+      .sub(l.leg.position);
+    const angles = solvePlanarLeg(local.y, local.z, 0.043, 0.041);
+    l.leg.rotation.x = angles.hip;
+    l.knee.rotation.x = angles.knee;
+    l.foot.rotation.x = -root.rotation.x - angles.hip - angles.knee;
   }
 }
+function perchTail(amount) {
+  bones[0].rotation.x += 0.52 * amount;
+  bones[0].rotation.z += 0.5 * amount;
+}
+function seated(amount) {
+  root.position.y -= 0.034 * amount;
+  root.position.z -= 0.006 * amount;
+  root.rotation.x = -0.52 * amount;
+  head.rotation.x = 0.52 * amount;
+  feet((l) => ({ z: l.rear ? 0.031 * amount : 0 }));
+}
+const bump = (t, start, peak, end) =>
+  t < peak
+    ? smooth((t - start) / (peak - start))
+    : 1 - smooth((t - peak) / (end - peak));
 const clips = [
   tracksFor("Survey", 3.2, (t) => {
-    head.rotation.z = Math.sin((t * Math.PI * 2) / 3.2) * 0.1;
-    head.rotation.y = Math.sin((t * Math.PI * 2) / 3.2) * 0.1;
-    tailWag(t, 0.08);
+    feet();
+    head.rotation.z = Math.sin((t * Math.PI * 2) / 3.2) * 0.055;
+    head.rotation.y = Math.sin((t * Math.PI * 2) / 3.2) * 0.07;
+    tailWag(t, 0.065);
     blink(t, [0.85, 2.65]);
     scene.getObjectByName("PandaEarR").rotation.z =
       Math.sin((t * Math.PI * 4) / 3.2) * 0.05;
   }),
+  tracksFor("Anticipate", 0.8, (t) => {
+    const look = bump(t, 0, 0.26, 0.65),
+      bow = bump(t, 0.4, 0.62, 0.8);
+    root.position.y -= 0.01 * bow;
+    root.rotation.x = 0.1 * bow;
+    head.rotation.y = 0.65 * look;
+    head.rotation.z = -0.12 * look;
+    head.rotation.x = -0.1 * bow;
+    feet();
+    bones.forEach((b, i) => {
+      b.rotation.z = Math.sin(t * 7 - i * 0.55) * 0.13 * look;
+      b.rotation.x = 0.12 * look * (i / 4);
+    });
+    scene.getObjectByName("PandaEarL").rotation.z = -0.15 * look;
+    scene.getObjectByName("PandaEarR").rotation.z = 0.1 * look;
+  }),
   tracksFor("Run", 0.64, (t, d) => {
     const phase = (t / d) * Math.PI * 2;
-    root.position.y += 0.006 * (1 - Math.cos(phase * 2));
-    head.rotation.x = Math.sin(phase * 2) * 0.05;
-    for (const { leg, knee, foot, rear, side } of legs) {
-      const p = phase + (side < 0 ? Math.PI : 0) + (rear ? Math.PI : 0);
-      leg.rotation.x = Math.sin(p) * 0.54;
-      knee.rotation.x = Math.max(0, -Math.sin(p)) * 0.65;
-      foot.rotation.x = -leg.rotation.x - knee.rotation.x;
-    }
-    bones.forEach((b, i) => (b.rotation.z = Math.sin(phase - i * 0.5) * 0.09));
+    // A light gallop: forelegs land before hind legs, with a little suspension.
+    const lift = 0.007 * (1 - Math.cos(phase));
+    root.position.y += lift;
+    root.rotation.x = Math.sin(phase) * 0.07;
+    head.rotation.x = -root.rotation.x * 0.65;
+    head.rotation.y = -0.15;
+    feet((l) => {
+      const p = phase + (l.rear ? 2.0 : 0) + (l.side < 0 ? 0.28 : 0);
+      return {
+        y: lift + 0.02 * Math.pow(Math.max(0, Math.sin(p)), 1.5),
+        z: 0.022 * Math.cos(p),
+      };
+    });
+    bones.forEach((b, i) => {
+      b.rotation.z = Math.sin(phase - i * 0.65) * 0.15;
+      b.rotation.x = Math.sin(phase - i * 0.65) * 0.065;
+    });
+    scene.getObjectByName("PandaEarL").rotation.x = Math.sin(phase - 0.6) * 0.1;
+    scene.getObjectByName("PandaEarR").rotation.x = Math.sin(phase - 0.8) * 0.1;
   }),
-  tracksFor("Settle", 0.8, (t, d) => {
+  tracksFor("Pounce", 0.85, (t) => {
+    const crouch = bump(t, 0, 0.13, 0.26),
+      flight = bump(t, 0.18, 0.37, 0.6),
+      land = bump(t, 0.53, 0.65, 0.85);
+    root.position.y += -0.012 * crouch + 0.052 * flight - 0.014 * land;
+    root.rotation.x = 0.1 * crouch - 0.1 * flight + 0.12 * land;
+    head.rotation.x = -root.rotation.x * 0.7;
+    feet((l) => ({
+      y: 0.052 * flight + (l.rear ? 0.018 : 0.008) * flight,
+      z: (l.rear ? -0.015 : 0.025) * flight,
+    }));
+    bones.forEach((b, i) => {
+      const lag = bump(t - i * 0.025, 0.36, 0.57, 0.88);
+      b.rotation.x = -0.1 * flight + 0.14 * lag;
+      b.rotation.z = Math.sin((t - i * 0.025) * 8) * 0.06 * (flight + land);
+    });
+    blink(t, [0.68]);
+  }),
+  tracksFor("Settle", 1, (t, d) => {
     seated(smooth(t / d));
-    tailWag(t, 0.06);
-    blink(t, [0.5]);
+    const damp = Math.exp(-t * 5);
+    bones.forEach((b, i) => {
+      b.rotation.x = Math.sin(t * 8 - i * 0.3) * 0.055 * damp;
+      b.rotation.z = Math.sin(t * 7 - i * 0.4) * 0.055 * damp;
+    });
+    perchTail(smooth(t / d));
+    blink(t, [0.75]);
+  }),
+  tracksFor("Curious", 1.1, (t) => {
+    seated(1);
+    const tilt = smooth((t - 0.12) / 0.43);
+    head.rotation.z = -0.24 * tilt;
+    head.rotation.y = 0.065 * tilt;
+    head.rotation.x += -0.035 * tilt;
+    scene.getObjectByName("PandaEarL").rotation.z = -0.1 * tilt;
+    scene.getObjectByName("PandaEarR").rotation.z = 0.055 * tilt;
+    bones.forEach((b, i) => {
+      b.rotation.z = Math.sin(t * 2 - i * 0.35) * 0.025;
+    });
+    perchTail(1);
   }),
   tracksFor("Greet", 3.2, (t, d) => {
     seated(1);
     const phase = (t / d) * Math.PI * 2;
-    head.rotation.z = Math.sin(phase) * 0.09;
-    head.rotation.x += Math.sin(phase) * 0.04;
-    tailWag(t, 0.065);
-    blink(t, [0.65, 2.35]);
-    const ear = scene.getObjectByName("PandaEarL");
-    ear.rotation.z = Math.sin(phase * 2) * 0.07;
-    // Small paw hello, then both feet return to the ground before the loop closes.
-    const wave =
-      Math.sin(Math.PI * smooth(Math.min(1, t / 1.7))) * (t < 1.7 ? 1 : 0);
-    legs[0].leg.rotation.x -= wave * 0.65;
-    legs[0].leg.rotation.z = -wave * 0.22;
-    legs[0].knee.rotation.x -= wave * 0.2;
+    // Keep the curious pose instead of perpetually rocking the whole character.
+    head.rotation.z = -0.24 + Math.sin(phase) * 0.018;
+    head.rotation.y = 0.065;
+    head.rotation.x -= 0.035;
+    scene.getObjectByName("PandaEarL").rotation.z = -0.1;
+    scene.getObjectByName("PandaEarR").rotation.z = 0.055;
+    tailWag(t, 0.025);
+    perchTail(1);
+    blink(t, [1.4, 2.75]);
+    const wave = bump(t, 0.35, 0.8, 1.35) * 0.8;
+    if (wave)
+      feet((l) =>
+        !l.rear && l.side < 0
+          ? { y: 0.02 * wave, z: 0.012 * wave }
+          : { z: l.rear ? 0.031 : 0 },
+      );
   }),
 ];
 scene.updateMatrixWorld(true);

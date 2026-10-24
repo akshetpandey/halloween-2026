@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { clone } from "three/addons/utils/SkeletonUtils.js";
+import { pandaClip } from "../src/client/panda-model";
 import { inspectSpiritGLB } from "../src/client/spirit-asset";
 const file = readFileSync(
   new URL("../src/client/assets/red-panda/RedPanda.glb", import.meta.url),
@@ -37,7 +38,7 @@ it("ships the authored mobile character without scan geometry or photo texture a
   expect(json.textures ?? []).toHaveLength(0);
   expect(inspectSpiritGLB(bytes)).toEqual({
     triangles: manifest.triangles,
-    clips: 4,
+    clips: 7,
   });
 });
 
@@ -130,8 +131,11 @@ it("has real blinks, valid named choreography, and seamless idle/run loops", asy
   const { scene, animations } = await new GLTFLoader().parseAsync(bytes, "");
   expect(animations.map((c) => c.name)).toEqual([
     "Survey",
+    "Anticipate",
     "Run",
+    "Pounce",
     "Settle",
+    "Curious",
     "Greet",
   ]);
   expect(scene.getObjectByName("PandaHead")).toBeDefined();
@@ -139,7 +143,7 @@ it("has real blinks, valid named choreography, and seamless idle/run loops", asy
     for (const track of clip.tracks) {
       expect(Array.from(track.values).every(Number.isFinite)).toBe(true);
       expect(scene.getObjectByName(track.name.split(".")[0])).toBeDefined();
-      if (clip.name !== "Settle") {
+      if (["Survey", "Run", "Greet"].includes(clip.name)) {
         const size = track.getValueSize(),
           values = track.values;
         for (let i = 0; i < size; i++)
@@ -151,4 +155,49 @@ it("has real blinks, valid named choreography, and seamless idle/run loops", asy
   expect(
     Math.min(...Array.from(eye.values).filter((_, i) => i % 3 === 1)),
   ).toBeLessThan(0.2);
+});
+
+it("plants the forepaws as the rump lowers, then holds a curious viewer-facing sit", async () => {
+  const { scene, animations } = await new GLTFLoader().parseAsync(bytes, "");
+  const mixer = new THREE.AnimationMixer(scene),
+    body = scene.getObjectByName("PandaBody")!,
+    head = scene.getObjectByName("PandaHead")!;
+  for (const name of ["Settle", "Curious", "Greet"]) {
+    mixer.stopAllAction();
+    const clip = animations.find((c) => c.name === name)!;
+    mixer.clipAction(clip).play();
+    for (const t of [0.1, 0.5, 0.9]) {
+      mixer.setTime(t);
+      scene.updateMatrixWorld(true);
+      for (const side of ["L", "R"]) {
+        // Greet raises one paw deliberately; the other remains the weight-bearing anchor.
+        if (name === "Greet" && side === "L") continue;
+        const foot = scene.getObjectByName(`PandaFore${side}Foot`)!;
+        expect(foot.getWorldPosition(new THREE.Vector3()).y).toBeCloseTo(
+          0.0135,
+          3,
+        );
+        expect(
+          new THREE.Euler().setFromQuaternion(
+            foot.getWorldQuaternion(new THREE.Quaternion()),
+          ).x,
+        ).toBeCloseTo(0, 3);
+      }
+    }
+    if (name !== "Settle") {
+      expect(body.position.y).toBeLessThan(0.082);
+      expect(body.rotation.x).toBeLessThan(-0.45);
+      expect(head.rotation.z).toBeLessThan(-0.2);
+    }
+  }
+});
+
+it("keeps previous four-clip panda imports seated during the new curious beat", () => {
+  const previous = new Set(["Survey", "Run", "Settle", "Greet"]);
+  expect(pandaClip("curious", previous)).toBe("Greet");
+  expect(pandaClip("pounce", previous)).toBe("Run");
+  expect(pandaClip("notice", previous)).toBe("Survey");
+  expect(pandaClip("curious", new Set([...previous, "Curious"]))).toBe(
+    "Curious",
+  );
 });

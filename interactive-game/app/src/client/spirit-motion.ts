@@ -72,36 +72,56 @@ export function spiritFrame(
     complete: seconds >= 2.4,
   };
 }
-// A small authored story, not a random idle: arrive, notice, chase, settle, greet.
+export const FOX_TIMING = {
+  notice: 2.4,
+  chase: 3.2,
+  pounce: 5.4,
+  settle: 6.25,
+  curious: 7.25,
+  greet: 8.35,
+};
+// The arc has anticipation, acceleration and a held reaction, rather than a
+// constant-speed orbit. The model's authored clips supply the actual pounce/IK sit.
 export function foxStory(seconds: number) {
-  const chase = clamp((seconds - 3.1) / 2.7),
-    angle = chase * Math.PI * 2;
-  const running = seconds >= 3.1 && seconds < 5.8;
+  const t = FOX_TIMING;
+  const chase = clamp((seconds - t.chase) / (t.pounce - t.chase));
+  const angle = (0.5 - 0.5 * Math.cos(chase * Math.PI)) * Math.PI * 2;
+  const running = seconds >= t.chase && seconds < t.pounce;
+  const chaseAmount =
+    smooth((seconds - (t.chase - 0.35)) / 0.35) *
+    (1 - smooth((seconds - (t.pounce + 0.18)) / 0.42));
+  const yaw = running
+    ? Math.PI / 2 - angle
+    : seconds >= t.pounce && seconds < t.pounce + 0.35
+      ? -Math.PI * 1.5 - (Math.PI / 2) * smooth((seconds - t.pounce) / 0.35)
+      : seconds >= t.chase - 0.35 && seconds < t.chase
+        ? (Math.PI / 2) * smooth((seconds - (t.chase - 0.35)) / 0.35)
+        : 0;
   return {
     beat:
-      seconds < 2.4
+      seconds < t.notice
         ? "emerge"
-        : seconds < 3.1
+        : seconds < t.chase
           ? "notice"
           : running
             ? "chase"
-            : seconds < 6.6
-              ? "settle"
-              : "greet",
+            : seconds < t.settle
+              ? "pounce"
+              : seconds < t.curious
+                ? "settle"
+                : seconds < t.greet
+                  ? "curious"
+                  : "greet",
     running,
-    yaw: running
-      ? Math.PI / 2 - angle
-      : seconds >= 5.8 && seconds < 6.35
-        ? -Math.PI * 1.5 - (Math.PI / 2) * smooth((seconds - 5.8) / 0.55)
-        : seconds >= 2.75 && seconds < 3.1
-          ? (Math.PI / 2) * smooth((seconds - 2.75) / 0.35)
-          : 0,
-    x: running ? Math.sin(angle) * 0.15 : 0,
-    y: running ? (Math.cos(angle) - 1) * 0.025 : 0,
-    turnToTail:
-      seconds >= 2.4 && seconds < 3.1
-        ? Math.sin(((seconds - 2.4) / 0.7) * Math.PI)
+    yaw,
+    chaseAmount,
+    bank: running ? -0.045 * Math.sin(angle) * Math.sin(chase * Math.PI) : 0,
+    x: running ? Math.sin(angle) * (0.14 + 0.02 * Math.sin(angle)) : 0,
+    y: running ? (Math.cos(angle) - 1) * 0.022 : 0,
+    flight:
+      seconds >= t.pounce && seconds < t.settle
+        ? Math.sin(clamp((seconds - t.pounce - 0.18) / 0.42) * Math.PI)
         : 0,
-    sit: smooth((seconds - 5.8) / 0.8),
+    sit: smooth((seconds - t.settle) / (t.curious - t.settle)),
   };
 }

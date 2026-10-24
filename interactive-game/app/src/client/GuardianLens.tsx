@@ -31,6 +31,7 @@ import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
 import { preloadFoxSpirit } from "./fox-spirit-loader";
 import { spiritOrigin, type SpiritOrigin } from "./spirit-motion";
+import { resolveSpiritEntrance } from "./spirit-entrance";
 import type { SpiritAsset } from "./spirit-asset";
 import "./vision.css";
 const FoxSpiritReveal = lazy(() => import("./FoxSpiritReveal"));
@@ -134,6 +135,17 @@ export function GuardianLens({
   useEffect(() => {
     if (host && initialPhoto) void recognize(initialPhoto);
   }, [initialPhoto]);
+  function getMotionPoses(id: string) {
+    let pending = poses.current.get(id);
+    if (!pending) {
+      pending = api<MotionPose[]>(
+        (host ? "/admin" : "") + "/vision/motion/" + id,
+      );
+      poses.current.set(id, pending);
+      void pending.catch(() => poses.current.delete(id));
+    }
+    return pending;
+  }
   function getRecognizer() {
     return recognitionSession.getEngine();
   }
@@ -153,6 +165,9 @@ export function GuardianLens({
       });
   }
   useEffect(() => {
+    if (ready && host)
+      for (const g of guardians.filter((g) => g.art === "fox"))
+        void getMotionPoses(g.id).catch(() => {});
     if (ready)
       void warmRecognizer()
         .then(async () => {
@@ -374,41 +389,18 @@ export function GuardianLens({
       guardians.find((g) => g.id === found.guardianId)?.art === "fox"
     ) {
       setSpiritOpen(true);
-      // The anchor only supplies the first keyframe. Never hold the reveal up
-      // for segmentation or a difficult reference view.
-      const deadline = performance.now() + 850;
-      let timer: ReturnType<typeof setTimeout> | undefined;
-      let matched: MotionAlignment | null = null;
-      try {
-        let pending = poses.current.get(found.guardianId!);
-        if (!pending) {
-          pending = api<MotionPose[]>(
-            "/admin/vision/motion/" + found.guardianId,
-          );
-          poses.current.set(found.guardianId!, pending);
-          void pending.catch(() => poses.current.delete(found.guardianId!));
-        }
-        const saved = await Promise.race([
-          pending,
-          new Promise<MotionPose[]>((resolve) => {
-            timer = setTimeout(() => resolve([]), 850);
-          }),
-        ]);
-        const remaining = deadline - performance.now();
-        if (attempt !== action.current) return;
-        if (saved.length && remaining > 50)
-          matched =
-            (
-              await motionRequest(p.blob, {
-                poses: saved,
-                timeoutMs: remaining,
-              })
-            ).alignment ?? null;
-      } catch {
-        // A centred entrance is enough when the view cannot be aligned quickly.
-      } finally {
-        clearTimeout(timer);
-      }
+      const matched = await resolveSpiritEntrance(
+        getMotionPoses(found.guardianId!),
+        async (saved, remaining) =>
+          attempt === action.current
+            ? ((
+                await motionRequest(p.blob, {
+                  poses: saved,
+                  timeoutMs: remaining,
+                })
+              ).alignment ?? null)
+            : null,
+      );
       if (attempt !== action.current) return;
       setAlignment(matched);
       setMotionStatus(

@@ -33,15 +33,17 @@ it("converges from different photo positions and sizes to one large front-facing
   }
 });
 it("plays a complete story and always settles facing the viewer", () => {
-  expect([0, 2.5, 4, 6, 8].map((t) => foxStory(t).beat)).toEqual([
+  expect([0, 2.5, 4, 5.8, 6.8, 7.8, 9].map((t) => foxStory(t).beat)).toEqual([
     "emerge",
     "notice",
     "chase",
+    "pounce",
     "settle",
+    "curious",
     "greet",
   ]);
   expect(foxStory(4).running).toBe(true);
-  for (const t of [6.6, 8, 100])
+  for (const t of [8.35, 10, 100])
     expect(foxStory(t)).toMatchObject({
       running: false,
       yaw: 0,
@@ -68,10 +70,22 @@ it("maps cover-fitted photos into portrait and landscape viewports and keeps the
 });
 
 it("turns continuously into and out of the chase, including equivalent full rotations", () => {
-  for (const time of [3.1, 5.8, 6.35]) {
+  for (const time of [3.2, 5.4, 5.75]) {
     const before = foxStory(time - 0.0001).yaw,
       after = foxStory(time + 0.0001).yaw;
     expect(Math.cos(before)).toBeCloseTo(Math.cos(after), 3);
     expect(Math.sin(before)).toBeCloseTo(Math.sin(after), 3);
   }
+});
+
+it("eases the chase fit and lets the pounce leave a fixed stage floor", () => {
+  for (const t of [2.85, 3.2, 5.4, 6.1, 6.9])
+    expect(
+      Math.abs(
+        foxStory(t - 0.0001).chaseAmount - foxStory(t + 0.0001).chaseAmount,
+      ),
+    ).toBeLessThan(0.001);
+  expect(foxStory(5.8).flight).toBeGreaterThan(0.9);
+  expect(foxStory(6.3).flight).toBe(0);
+  expect(foxStory(10).bank).toBe(0);
 });

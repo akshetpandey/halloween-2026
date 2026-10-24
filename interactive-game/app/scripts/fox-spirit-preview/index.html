@@ -54,14 +54,27 @@
     function start(origin) {
       document.getElementById("phone").src = "stage.html?origin=" + origin;
     }
+    let viewportWidth = 390,
+      viewportHeight = 844;
     function resize(w, h) {
+      viewportWidth = w;
+      viewportHeight = h;
       const f = document.getElementById("phone");
       f.style.width = w + "px";
       f.style.height = h + "px";
-      const scale = Math.min(1, (innerWidth - 32) / w);
+      const scale = Math.min(
+        1,
+        (innerWidth - 32) / w,
+        (innerHeight -
+          document.querySelector("nav").getBoundingClientRect().height -
+          24) /
+          h,
+      );
       f.style.transform = `scale(${scale})`;
       document.getElementById("frame").style.width = w * scale + "px";
       document.getElementById("frame").style.height = h * scale + "px";
     }
+    addEventListener("resize", () => resize(viewportWidth, viewportHeight));
+    resize(viewportWidth, viewportHeight);
   </script>
 </html>

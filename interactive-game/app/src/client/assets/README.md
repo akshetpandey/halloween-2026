@@ -1,6 +1,6 @@
-# Woodland QR artwork
+# Public visual assets
 
-The separate [fox-spirit](fox-spirit/SOURCE.md) folder contains the licensed animated 3D stand-in used by the host spirit prototype. Its [provenance](fox-spirit/provenance.json) and [license](fox-spirit/LICENSE.md) are committed with the public model. Private guest/guardian captures do not belong in this folder.
+The [red-panda](red-panda/SOURCE.md) folder contains the authored woodland character now used by the host spirit prototype. It uses newly modeled geometry and vertex colors, with no scan triangles or original photo textures. The separate [fox-spirit](fox-spirit/SOURCE.md) folder preserves the previous licensed animated stand-in. Its [provenance](fox-spirit/provenance.json) and [license](fox-spirit/LICENSE.md) are committed with the public model. Private guest/guardian captures do not belong in this folder.
 
 `woodland-portal.webp` is an original generated illustration for the September 9, 2026 artistic QR revision. Generated with the built-in `image_gen` tool, then resized/encoded with Sharp to 1000×1000 WebP. It is consumed by `WoodlandQR.tsx`; QR data, structural markers and code rendering are deterministic application code. The user-supplied image was visual direction, not copied artwork. No guest data is included.
 

@@ -66,3 +66,12 @@ it("maps cover-fitted photos into portrait and landscape viewports and keeps the
     coverOrigin(spiritOrigin(), undefined, { width: 844, height: 390 }),
   ).toEqual(spiritOrigin());
 });
+
+it("turns continuously into and out of the chase, including equivalent full rotations", () => {
+  for (const time of [3.1, 5.8, 6.35]) {
+    const before = foxStory(time - 0.0001).yaw,
+      after = foxStory(time + 0.0001).yaw;
+    expect(Math.cos(before)).toBeCloseTo(Math.cos(after), 3);
+    expect(Math.sin(before)).toBeCloseTo(Math.sin(after), 3);
+  }
+});

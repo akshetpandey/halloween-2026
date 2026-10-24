@@ -1,0 +1,38 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-24",
+  "generator": "scripts/guardian-models/build-red-panda.mjs",
+  "reference": "Host LEGO 31394 prop; photographed proportions and orange/brown/white palette only",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 965376,
+  "sha256": "f3f23ffad7caa456042041602a3318dab2059b32bdc4df5f84048a439075c7e9",
+  "triangles": 26252,
+  "primitives": 20,
+  "images": 0,
+  "texturePixels": 0,
+  "tailBones": 5,
+  "clips": [
+    {
+      "name": "Survey",
+      "duration": 3.2
+    },
+    {
+      "name": "Run",
+      "duration": 0.64
+    },
+    {
+      "name": "Settle",
+      "duration": 0.8
+    },
+    {
+      "name": "Greet",
+      "duration": 3.2
+    }
+  ],
+  "dimensions": [
+    0.14882554994523525,
+    0.34966840233151875,
+    0.3350916578173637
+  ]
+}

@@ -89,7 +89,13 @@ export function foxStory(seconds: number) {
               ? "settle"
               : "greet",
     running,
-    yaw: running ? -angle : 0,
+    yaw: running
+      ? Math.PI / 2 - angle
+      : seconds >= 5.8 && seconds < 6.35
+        ? -Math.PI * 1.5 - (Math.PI / 2) * smooth((seconds - 5.8) / 0.55)
+        : seconds >= 2.75 && seconds < 3.1
+          ? (Math.PI / 2) * smooth((seconds - 2.75) / 0.35)
+          : 0,
     x: running ? Math.sin(angle) * 0.15 : 0,
     y: running ? (Math.cos(angle) - 1) * 0.025 : 0,
     turnToTail:

@@ -10,6 +10,7 @@ import {
   MAX_SPIRIT_BYTES,
   type SpiritAsset,
 } from "./spirit-asset";
+import { PANDA_MODEL } from "./panda-model";
 const FoxSpiritReveal = lazy(() => import("./FoxSpiritReveal"));
 import {
   MAX_REFERENCES,
@@ -317,11 +318,18 @@ export function HostReferences() {
             Lens to test the complete entrance.
           </p>
           <p className="small muted">
-            The animated sample fox tests the choreography; it does not
-            reproduce your LEGO red panda. A Polycam GLB can preview the real
-            shape and texture here. Captures stay on this device for this visit;
-            head, tail and sitting animation require a rigged model.
+            The fox uses a clean woodland character inspired by your red panda’s
+            colors and shape, with blinking eyes and a connected striped tail.
+            You can also try another GLB locally for this visit. Unrigged
+            captures need their own movement setup.
           </p>
+          <a
+            className="text-button"
+            href={PANDA_MODEL.url}
+            download="Hollow-Court-Red-Panda.glb"
+          >
+            Download red panda model
+          </a>
           {capture && (
             <button
               className="text-button"
@@ -331,7 +339,7 @@ export function HostReferences() {
                 setCapture(undefined);
               }}
             >
-              Clear local capture · use sample fox
+              Clear local capture · use woodland panda
             </button>
           )}
           <div className="reference-guide panel">

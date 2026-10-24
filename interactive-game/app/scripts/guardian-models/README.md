@@ -1,0 +1,5 @@
+# Guardian character tools
+
+The shipped fox character is a **clean authored woodland red panda**. Build it with `node scripts/guardian-models/build-red-panda.mjs`, using the project's existing Three.js dependency. No model downloads, Blender, external service or original capture is required. The GLB and its checksum/metrics are written to `src/client/assets/red-panda/`. Its five-bone tail is one continuous skinned mesh; the remaining closed shapes move as rigid toy parts.
+
+`prepare_red_panda.py` preserves the earlier **rejected scan extraction experiment**. It uses NumPy/Pillow, an exact source checksum and host-specific measured table/crop coordinates. It removes table geometry, repacks only the retained object's texture islands and builds a provisional rigid rig. Its output is **not** the shipped character: surface noise, tail cuts and rigid part artifacts failed the host's visual review. Keep source scans, intermediate atlases and experimental output under ignored `private/`; never copy these into the public asset folder. The original Downloads file was not modified.

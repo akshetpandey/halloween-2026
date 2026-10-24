@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { GLTFLoader, type GLTF } from "three/addons/loaders/GLTFLoader.js";
 import { clone } from "three/addons/utils/SkeletonUtils.js";
-import FOX_URL from "./assets/fox-spirit/Fox.glb?url";
+import { PANDA_MODEL, pandaClip } from "./panda-model";
 import {
   coverOrigin,
   foxStory,
@@ -12,7 +12,7 @@ import type { SpiritAsset } from "./spirit-asset";
 let template: Promise<GLTF> | null = null;
 export function prepareFoxSpirit() {
   if (!template)
-    template = new GLTFLoader().loadAsync(FOX_URL).catch((e) => {
+    template = new GLTFLoader().loadAsync(PANDA_MODEL.url).catch((e) => {
       template = null;
       throw e;
     });
@@ -76,17 +76,10 @@ export function mountFoxSpirit(
   fill.position.set(3, 0.2, 3);
   scene.add(fill);
   let yaw = asset?.front ?? 0;
-  let neck: THREE.Object3D | undefined, head: THREE.Object3D | undefined;
-  const neckRest = new THREE.Quaternion(),
-    headRest = new THREE.Quaternion();
-  let survey: THREE.AnimationAction | undefined,
-    run: THREE.AnimationAction | undefined,
-    running = false;
-  const hindLegs: {
-    joint: THREE.Object3D;
-    axis: THREE.Vector3;
-    angle: number;
-  }[] = [];
+  let head: THREE.Object3D | undefined;
+  let choreographed = false;
+  const actions = new Map<string, THREE.AnimationAction>();
+  let active: THREE.AnimationAction | undefined;
   let disposed = false,
     paused = false,
     frame = 0,
@@ -188,20 +181,22 @@ export function mountFoxSpirit(
       (w * (w > h * 1.1 ? 0.54 : 1) * 0.79) / modelSize.x,
       (h * 0.45) / modelSize.y,
     );
+    // Resizing clears the drawing buffer, even while the character is paused.
+    if (model) render(performance.now(), true);
   };
   const observer = new ResizeObserver(resize);
   observer.observe(canvas);
   resize();
-  function render(time: number) {
-    frame = 0;
-    if (disposed || paused || document.hidden) return;
-    if (time - last < 1000 / 30) {
+  function render(time: number, redraw = false) {
+    if (!redraw) frame = 0;
+    if (disposed || (!redraw && (paused || document.hidden))) return;
+    if (!redraw && time - last < 1000 / 30) {
       frame = requestAnimationFrame(render);
       return;
     }
-    const actualDt = last ? (time - last) / 1000 : 0;
+    const actualDt = !redraw && last ? (time - last) / 1000 : 0;
     const dt = Math.min(0.065, actualDt);
-    last = time;
+    if (!redraw) last = time;
     elapsed += dt;
     const mapped = coverOrigin(origin, image, { width, height }),
       pose = spiritFrame(elapsed, mapped, {
@@ -209,32 +204,28 @@ export function mountFoxSpirit(
         y: width > height * 1.1 ? 0.48 : 0.34,
         size: 1,
       }),
-      story = foxStory(asset ? 0 : elapsed),
+      story = foxStory(choreographed ? elapsed : 0),
       reaction = Math.max(0, 1 - (elapsed - replyAt) / 1.3),
       hop =
         Math.sin(Math.min(1, (elapsed - replyAt) / 0.7) * Math.PI) *
         Math.max(0, reaction) *
         height *
         0.035;
-    if (run && survey && running !== story.running) {
-      running = story.running;
-      mixer?.stopAllAction();
-      const next = running ? run : survey;
+    const next = choreographed
+      ? actions.get(pandaClip(story.beat))
+      : actions.values().next().value;
+    if (next && next !== active) {
       next.reset().play();
-      if (!running) next.time = 6;
+      active?.crossFadeTo(next, 0.12, false);
+      active = next;
     }
-    mixer?.update(dt * (story.running ? 1.15 : 0.72));
-    if (head && neck) {
-      head.quaternion.slerp(headRest, 0.82);
-      neck.quaternion.slerp(neckRest, 0.82);
-      head.rotateY(story.turnToTail * 0.65);
-      head.rotateZ(
-        Math.sin(elapsed * 1.4) * 0.025 +
-          Math.sin(elapsed * 7) * reaction * 0.09,
-      );
+    mixer?.update(
+      dt * (story.running ? 1.1 : story.beat === "settle" ? 1 : 0.85),
+    );
+    if (head) {
+      head.rotateY(story.turnToTail * 0.9);
+      head.rotateX(Math.sin(elapsed * 7) * reaction * 0.07);
     }
-    for (const { joint, axis, angle } of hindLegs)
-      joint.rotateOnAxis(axis, angle * story.sit);
     const turn = yaw + story.yaw;
     // During the chase the long side of the fox must also fit on the phone.
     const projectedWidth =
@@ -307,7 +298,7 @@ export function mountFoxSpirit(
       drawn = 0;
       measured = 0;
     }
-    frame = requestAnimationFrame(render);
+    if (!redraw) frame = requestAnimationFrame(render);
   }
   const resume = () => {
     cancelAnimationFrame(frame);
@@ -334,41 +325,26 @@ export function mountFoxSpirit(
       model = clone(gltf.scene);
       body.add(model);
       mixer = new THREE.AnimationMixer(model);
-      const idle =
-        gltf.animations.find((c) => c.name === "Survey") ?? gltf.animations[0];
-      if (idle) survey = mixer.clipAction(idle).play();
-      if (!asset) {
-        const chase = gltf.animations.find((c) => c.name === "Run");
-        if (chase) run = mixer.clipAction(chase);
-        mixer.setTime(6);
-        neck = model.getObjectByName("b_Neck_04");
-        head = model.getObjectByName("b_Head_05");
-        if (neck) neckRest.copy(neck.quaternion);
-        if (head) headRest.copy(head.quaternion);
-        model.updateMatrixWorld(true);
-        for (const [name, angle] of [
-          ["b_LeftLeg01_015", 0.9],
-          ["b_LeftLeg02_016", -1.4],
-          ["b_RightLeg01_019", 0.9],
-          ["b_RightLeg02_020", -1.4],
-        ] as const) {
-          const joint = model.getObjectByName(name);
-          if (joint)
-            hindLegs.push({
-              joint,
-              angle,
-              axis: new THREE.Vector3(1, 0, 0).applyQuaternion(
-                joint.getWorldQuaternion(new THREE.Quaternion()).invert(),
-              ),
-            });
+      for (const clip of gltf.animations) {
+        const action = mixer.clipAction(clip);
+        if (clip.name === "Settle") {
+          action.setLoop(THREE.LoopOnce, 1);
+          action.clampWhenFinished = true;
         }
+        actions.set(clip.name, action);
       }
+      choreographed =
+        !!model.getObjectByName("PandaHead") &&
+        ["Survey", "Run", "Settle", "Greet"].every((name) => actions.has(name));
+      if (choreographed) head = model.getObjectByName("PandaHead");
+      active = actions.get("Survey") ?? actions.values().next().value;
+      active?.play();
       mixer.update(0);
       model.updateMatrixWorld(true);
       const bounds = new THREE.Box3().setFromObject(model);
       bounds.getSize(modelSize);
       const center = bounds.getCenter(new THREE.Vector3());
-      if (neck) center.x = neck.getWorldPosition(new THREE.Vector3()).x;
+      if (head) center.x = head.getWorldPosition(new THREE.Vector3()).x;
       model.position.sub(center);
       model.traverse((object) => {
         if (!(object instanceof THREE.Mesh)) return;
@@ -379,9 +355,10 @@ export function mountFoxSpirit(
         const copies = materials.map((original) => {
           const copy = (original as THREE.MeshStandardMaterial).clone();
           if (!copy.emissive) copy.emissive = new THREE.Color();
-          copy.emissive.set(asset ? 0x000000 : 0x6b4920);
+          copy.emissive.set(0x000000);
           copy.emissiveIntensity = 0.15;
           copy.transparent = true;
+          copy.forceSinglePass = true;
           modelMaterials.push(copy);
           return copy;
         });
@@ -410,15 +387,14 @@ export function mountFoxSpirit(
     replay() {
       elapsed = 0;
       replyAt = -100;
-      running = false;
       mixer?.stopAllAction();
-      survey?.reset().play();
-      if (survey && !asset) survey.time = 6;
+      active = actions.get("Survey") ?? actions.values().next().value;
+      active?.reset().play();
       mixer?.update(0);
       resume();
     },
     greet() {
-      if (!asset) elapsed = Math.max(elapsed, 6.6);
+      if (choreographed) elapsed = Math.max(elapsed, 6.6);
       replyAt = elapsed;
       resume();
     },
@@ -439,11 +415,18 @@ export function mountFoxSpirit(
         if (object instanceof THREE.SkinnedMesh) object.skeleton.dispose();
         if (asset && object instanceof THREE.Mesh) object.geometry.dispose();
       });
+      const textures = new Set<THREE.Texture>();
       for (const m of modelMaterials) {
         if (asset)
           for (const value of Object.values(m))
-            if (value instanceof THREE.Texture) value.dispose();
+            if (value instanceof THREE.Texture) textures.add(value);
         m.dispose();
+      }
+      for (const texture of textures) {
+        texture.dispose();
+        const source = texture.source.data;
+        if (typeof ImageBitmap !== "undefined" && source instanceof ImageBitmap)
+          source.close();
       }
       ring.geometry.dispose();
       inner.geometry.dispose();

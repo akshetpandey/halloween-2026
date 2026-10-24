@@ -261,35 +261,21 @@ export default function FoxSpiritReveal({
           ) : (
             <>
               <p>
-                Fox model: PixelMannen (CC0). Rigging & animation: tomkranis.
-                glTF conversion: Asobo Studio & scurest (
-                <a
-                  href="https://creativecommons.org/licenses/by/4.0/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  CC BY 4.0
-                </a>
-                ).{" "}
-                <a
-                  href="https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source
-                </a>
-                . Custom woodland lighting, animation timing and effects.
+                An original woodland character inspired by the host’s LEGO 31394
+                red panda: warm orange, ivory markings, a striped tail and a
+                little mischief. Built for Hollow Court.
               </p>
               <p>
-                Temporary animation stand-in. The final model must match the
-                LEGO 31394 guardian’s brick shape and colors.
+                Clean modeled shapes, a connected bendable tail, blinking eyes
+                and custom head, ear and paw animation. The capture was used
+                only as a shape and color reference.
               </p>
             </>
           )}
           <p>
             {stats
               ? `${stats.fps.toFixed(0)} FPS · ${stats.drawCalls} draw calls · ${stats.triangles.toLocaleString()} triangles · renderer ready ${(stats.readyMs / 1000).toFixed(2)}s`
-              : "Preparing the 163 KB animated fox."}{" "}
+              : "Preparing the woodland red panda."}{" "}
             Starting point:{" "}
             {origin?.source === "reference"
               ? "matched reference view"

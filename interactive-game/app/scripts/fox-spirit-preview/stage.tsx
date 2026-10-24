@@ -6,7 +6,8 @@ import "@fontsource/dm-sans/latin-400.css";
 import "../../src/client/style.css";
 import FoxSpiritReveal from "../../src/client/FoxSpiritReveal";
 import { spiritOrigin } from "../../src/client/spirit-motion";
-import FOX_URL from "../../src/client/assets/fox-spirit/Fox.glb?url";
+import { PANDA_MODEL } from "../../src/client/panda-model";
+const FOX_URL = PANDA_MODEL.url;
 import {
   inspectSpiritGLB,
   type SpiritAsset,

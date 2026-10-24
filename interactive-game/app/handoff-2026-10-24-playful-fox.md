@@ -2,7 +2,7 @@
 
 - Session: desktop `01a08367-2c08-7451-8ede-52803d3c1c40`, October 24, 2026, America/New_York.
 - Checkout: shared `main`, base `c591fd7`; no task branch/worktree.
-- Status: implemented and independently reviewed; final checks/deployment evidence below.
+- Status: implemented, independently reviewed, deployed and verified. Final real-phone art/performance acceptance remains open.
 - Confirmed host direction: clean authored fox is “exactly what we need”; make tail pursuit less stiff, add a little pounce, proper sit and curious head tilt. Investigate faster detection and document a repeatable reference-photo authoring process with subagent reviews.
 
 ## Changes
@@ -26,4 +26,15 @@
 - Reload [host Guardian reference photos](https://hollow-court.com/host?tab=guardians), use **Preview fox spirit**, then **Test this reference** or live Lens. Check pounce, planted landing/sit, held tilt and repeated open/close on the real iPhone.
 - Phone FPS, thermal/peak memory, held-out recognition of all fifteen props and false-wake rejection still require actual devices and a broader fixture set. Laptop inference timings are not phone measurements or full encounter time.
 - Use the documented workflow for each next guardian. Keep raw photos/scans private; give each guardian its own authored action rather than copying this chase.
-- No game/scoring/access/schema changes, purchase or push. All edits are task-owned; source checkpoint and deployment details will be recorded after final verification.
+- No game/scoring/access/schema changes, purchase or push. All edits are task-owned; source checkpoint and deployment details are recorded below.
+
+## Final checks and release
+
+- Source checkpoint **`facef42`** on shared `main`; final release evidence committed separately. No unrelated dirty files.
+- **143/143 tests across 21 files passed**, including real-GLB topology/skin/loop checks, ground-contact checks, planar IK singularities, old four-clip compatibility, optional-anchor fetch/match deadlines, and existing camera/identity/game tests. Native QR regression ran with normal macOS Vision access. `npm run build` (including TypeScript), Wrangler dry run, Markdown relative-link check and `git diff --check` passed. The usual lazy Three.js chunk advisory remains (~160kB gzip).
+- Final recorded actual component: `private/fox-playful-2026-10-24/release/fox-playful.gif`; contact sheet and screenshot frames beside it. Inspected portrait390×844, small375×667, landscape844×390, replay, pause/resume, paused resize and tap-to-greet. These are desktop browser layouts, not physical-phone measurements. The developer harness now fits the entire phone frame to available window height without changing its internal viewport.
+- Published existing `hollow-court-preview` Worker on the existing account and bindings, version **`2fd0772e-8e05-4633-a4a0-c1032d2ebaa4`**. Both `hollow-court.com` and the Workers preview hostname serve it. No migration/resource/access-policy change.
+- Live `/assets/RedPanda-ONREQxr6.glb` is **1,088,928 bytes**, SHA-256 **`3662611873fa430b08c540f351789a8de7bc245f1f2cc500f447768220244b37`**, matching the committed model. Runtime `/assets/fox-spirit-runtime-BQXW0lC8.js`, reveal `/assets/FoxSpiritReveal-BhKNjzrm.js` and entry `/assets/index-BgjkW_RG.js` verified.
+- Hashed assets return immutable one-year caching/HSTS; HTML is `no-store`; HTTP upgrades with308. Public state remains sealed with preview disabled, debug guardian endpoint404, and unauthenticated host/admin requests redirect to existing Cloudflare Access.
+- Main affected files: builder/asset/provenance/source note, `spirit-motion.ts`, `panda-model.ts`, `fox-spirit-runtime.ts`, `guardian-ik.ts`, `GuardianLens.tsx`, `spirit-entrance.ts`, focused asset/motion/IK/entrance tests, preview harness, workflow/research/prototype docs and app README. Recognition model/runtime files and server game code are unchanged.
+- Temporary root Vite process/browser inspection tab are closed after verification. Private references, benchmark outputs and working recordings remain outside Git.

@@ -7,6 +7,7 @@ import { resolve, dirname } from "node:path";
 import {
   focusSignature,
   FOCUS_MODEL,
+  validFocus,
 } from "../src/shared/recognition-focus.ts";
 const [source, destination] = process.argv.slice(2);
 if (!source || !destination)
@@ -61,13 +62,16 @@ for (const row of input) {
     x: p[0] / meta.width,
     y: p[1] / meta.height,
   }));
+  const setup = focusSignature(
+    { model: FOCUS_MODEL, data, width: meta.width, height: meta.height },
+    polygon,
+  );
+  if (!validFocus(setup))
+    throw Error("Invalid outline: use 3–48 points within the photograph.");
   profiles.push({
     referenceId: row.referenceId,
     guardianId: row.guardianId,
-    ...focusSignature(
-      { model: FOCUS_MODEL, data, width: meta.width, height: meta.height },
-      polygon,
-    ),
+    ...setup,
   });
   tensor.dispose();
   Object.values(out).forEach((t) => t.dispose());

@@ -462,7 +462,15 @@ function feet(targets = () => ({})) {
     )
       .applyMatrix4(inverse)
       .sub(l.leg.position);
-    const angles = solvePlanarLeg(local.y, local.z, 0.043, 0.041);
+    // Fore elbows fold back; hind knees fold forward. Keep each branch through
+    // every clip so crossfades never straighten through an inverted knee.
+    const angles = solvePlanarLeg(
+      local.y,
+      local.z,
+      0.043,
+      0.041,
+      l.rear ? 1 : -1,
+    );
     l.leg.rotation.x = angles.hip;
     l.knee.rotation.x = angles.knee;
     l.foot.rotation.x = -root.rotation.x - angles.hip - angles.knee;
@@ -511,17 +519,18 @@ const clips = [
   }),
   tracksFor("Run", 0.64, (t, d) => {
     const phase = (t / d) * Math.PI * 2;
-    // A light gallop: forelegs land before hind legs, with a little suspension.
-    const lift = 0.007 * (1 - Math.cos(phase));
-    root.position.y += lift;
-    root.rotation.x = Math.sin(phase) * 0.07;
+    // A low, springy gallop. Ground-space stance targets stay planted while
+    // the torso moves; the small crouch keeps both links within their reach.
+    root.position.y += -0.009 + 0.0015 * (1 - Math.cos(phase));
+    root.rotation.x = Math.sin(phase) * 0.04;
     head.rotation.x = -root.rotation.x * 0.65;
     head.rotation.y = -0.15;
     feet((l) => {
       const p = phase + (l.rear ? 2.0 : 0) + (l.side < 0 ? 0.28 : 0);
       return {
-        y: lift + 0.02 * Math.pow(Math.max(0, Math.sin(p)), 1.5),
-        z: 0.022 * Math.cos(p),
+        y: 0.014 * Math.pow(Math.max(0, Math.sin(p)), 1.5),
+        // +Z faces forward: swing rear→front; push front→rear on the ground.
+        z: -0.022 * Math.cos(p),
       };
     });
     bones.forEach((b, i) => {

@@ -209,16 +209,118 @@
   border-radius: 40% 40% 20% 20%;
   box-shadow: 0 0 0 120px #07150c44;
   pointer-events: none;
+  transition:
+    border-color 0.16s,
+    box-shadow 0.16s;
 }
-.lens-camera-hint {
+.lens-reticle.is-sighted {
+  border: 2px solid #e7ca81;
+  box-shadow:
+    0 0 0 120px #07150c66,
+    0 0 28px #e7ca8155,
+    inset 0 0 20px #e7ca8120;
+}
+.lens-reticle.is-confirmed {
+  border-color: #cff0b5;
+  box-shadow:
+    0 0 0 120px #07150c66,
+    0 0 36px #b5eaa477,
+    inset 0 0 26px #b5eaa433;
+}
+.lens-lock {
   position: absolute;
-  top: 0;
-  left: 12px;
-  right: 12px;
+  left: calc(50% - 21px);
+  top: calc(50% - 21px);
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #d9f6c8;
+  border-radius: 50%;
+  background: #183820e6;
+  color: #e0f6cf;
+}
+.lens-confirmation {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  z-index: 2;
+  padding: 10px 12px;
+  border: 1px solid #e0d8b52b;
+  border-radius: 14px;
+  background: #0b2118de;
+  backdrop-filter: blur(8px);
   text-align: center;
-  color: #fff9df;
-  text-shadow: 0 1px 5px #000;
-  font-size: 12px;
+  color: #fff6da;
+  pointer-events: none;
+  transition:
+    background 0.16s,
+    border-color 0.16s;
+}
+.lens-confirmation-copy {
+  display: grid;
+  gap: 4px;
+}
+.lens-confirmation strong {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  line-height: 1.05;
+  font-weight: 500;
+}
+.lens-confirmation:not(.has-sighting) strong {
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.lens-confirmation.has-sighting {
+  border-color: #e7ca8177;
+  background: #162d20ed;
+}
+.lens-sighting-label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #ddc888;
+}
+.lens-sighting-hint {
+  font-size: 11px;
+  line-height: 1.4;
+  color: #e1dfc3;
+}
+.lens-confirmation-leaves {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 7px;
+}
+.lens-confirmation-leaves span {
+  color: #60765d;
+  transition:
+    color 0.1s,
+    filter 0.1s;
+}
+.lens-confirmation-leaves .is-lit {
+  color: #f4d28a;
+  filter: drop-shadow(0 0 4px #dfbb6866);
+}
+.lens-confirmation-leaves .is-lit svg {
+  fill: #e4be6c44;
+}
+.lens-confirmation.is-confirmed {
+  border-color: #c8eba7aa;
+}
+@media (max-height: 500px) {
+  .lens-confirmation {
+    top: 8px;
+    padding: 6px 10px;
+  }
+  .lens-confirmation strong {
+    font-size: 21px;
+  }
+  .lens-sighting-label {
+    display: none;
+  }
 }
 .lens-shutter {
   position: absolute;

@@ -201,3 +201,53 @@ it("keeps previous four-clip panda imports seated during the new curious beat", 
     "Curious",
   );
 });
+
+it("returns airborne paws forward and pushes planted paws backward with level ground contact", async () => {
+  const { scene, animations } = await new GLTFLoader().parseAsync(bytes, "");
+  const run = animations.find((c) => c.name === "Run")!;
+  const mixer = new THREE.AnimationMixer(scene);
+  mixer.clipAction(run).play();
+  const foot = scene.getObjectByName("PandaForeRFoot")!;
+  function sample(time: number) {
+    mixer.setTime(time);
+    scene.updateMatrixWorld(true);
+    return {
+      position: foot.getWorldPosition(new THREE.Vector3()),
+      pitch: new THREE.Euler().setFromQuaternion(
+        foot.getWorldQuaternion(new THREE.Quaternion()),
+      ).x,
+    };
+  }
+  const swingStart = sample(run.duration * 0.125),
+    swingEnd = sample(run.duration * 0.375);
+  expect(swingEnd.position.z - swingStart.position.z).toBeGreaterThan(0.025);
+  expect(swingStart.position.y).toBeGreaterThan(0.019);
+  expect(swingEnd.position.y).toBeGreaterThan(0.019);
+  const pushStart = sample(run.duration * 0.625),
+    pushEnd = sample(run.duration * 0.875);
+  expect(pushEnd.position.z - pushStart.position.z).toBeLessThan(-0.025);
+  for (const p of [pushStart, pushEnd]) {
+    expect(p.position.y).toBeCloseTo(0.0135, 4);
+    expect(p.pitch).toBeCloseTo(0, 4);
+  }
+});
+
+it("keeps fore elbows and hind knees on their anatomical branch throughout every clip", async () => {
+  const { scene, animations } = await new GLTFLoader().parseAsync(bytes, "");
+  const mixer = new THREE.AnimationMixer(scene);
+  for (const clip of animations) {
+    mixer.stopAllAction();
+    mixer.clipAction(clip).play();
+    for (let frame = 0; frame < 20; frame++) {
+      mixer.setTime((frame / 20) * clip.duration);
+      for (const side of ["L", "R"]) {
+        expect(
+          scene.getObjectByName(`PandaFore${side}Knee`)!.rotation.x,
+        ).toBeLessThan(0);
+        expect(
+          scene.getObjectByName(`PandaHind${side}Knee`)!.rotation.x,
+        ).toBeGreaterThan(0);
+      }
+    }
+  }
+});

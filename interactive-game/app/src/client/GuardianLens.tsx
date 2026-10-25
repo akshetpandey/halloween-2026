@@ -13,6 +13,7 @@ import {
 } from "../shared/vision-live";
 import { api } from "./api";
 import { GuardianArt } from "./Art";
+import { LensConfirmation } from "./LensConfirmation";
 import { recognitionSession } from "./recognition-session";
 import { lensCamera, recognitionFrames, captureFrames } from "./lens-camera";
 import {
@@ -89,7 +90,14 @@ export function GuardianLens({
     previewMs: 0,
     rememberedCamera: false,
   });
-  const [live, setLive] = useState({ count: 0, frames: 0, ms: 0 });
+  const [live, setLive] = useState({
+    count: 0,
+    frames: 0,
+    ms: 0,
+    candidateId: null as string | null,
+    confirmed: false,
+    noticed: false,
+  });
   const [continuing, setContinuing] = useState(false);
   const [alignment, setAlignment] = useState<MotionAlignment | null>(null),
     [motionKnown, setMotionKnown] = useState(false),
@@ -235,7 +243,14 @@ export function GuardianLens({
     setMatch(null);
     setOutline(null);
     setProgress("");
-    setLive({ count: 0, frames: 0, ms: 0 });
+    setLive({
+      count: 0,
+      frames: 0,
+      ms: 0,
+      candidateId: null,
+      confirmed: false,
+      noticed: false,
+    });
     setFoxRig(null);
     setAlignment(null);
     aligned.current = null;
@@ -517,11 +532,14 @@ export function GuardianLens({
         const found = matchGuardian(result.vector!, manifest),
           streak = stable.observe(found.guardianId, performance.now());
         frames++;
-        setLive({
+        setLive((previous) => ({
           count: Math.min(STABLE_FRAMES, streak.count),
           frames,
           ms: result.ms || 0,
-        });
+          candidateId: streak.id,
+          confirmed: streak.stable,
+          noticed: previous.noticed || !!streak.id,
+        }));
         if (host) setMatch(found);
         if (streak.stable) {
           const file = await snapshot(v);
@@ -727,19 +745,19 @@ export function GuardianLens({
           {phase === "camera" ? (
             <div className="lens-camera">
               <video ref={video} playsInline muted autoPlay loop />
-              <div
-                className={"lens-reticle " + (live.count ? "is-steady" : "")}
+              <LensConfirmation
+                ready={modelReady}
+                candidateName={
+                  guardians.find((g) => g.id === live.candidateId)?.name
+                }
+                count={live.count}
+                confirmed={live.confirmed}
+                noticed={live.noticed}
               />
-              <p className="lens-camera-hint">
-                {!modelReady
-                  ? "Preparing the lens…"
-                  : live.count
-                    ? `Hold steady · ${live.count} of ${STABLE_FRAMES}`
-                    : "Centre one creature · it will wake automatically"}
-              </p>
               <button
                 className="lens-shutter"
                 aria-label="Take a photo instead"
+                disabled={live.confirmed}
                 onClick={() => void capture()}
               >
                 <Camera />

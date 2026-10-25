@@ -1,0 +1,999 @@
+{
+  "checked_at": "2026-10-25T21:39:48.620636+00:00",
+  "analysis_version": "mix-evidence-2",
+  "scope": "Local evidence on twelve existing audition sources; selective vocal analysis on two. No new timeline/render or host approvals.",
+  "purchase_cost_usd": 0,
+  "audio_uploaded": false,
+  "render_changed": false,
+  "host_votes_changed": false,
+  "party_ready": false,
+  "model_weights_sha256": {
+    "beat_this_final0": "8c328b45f59d8dd3dff219253ff6a8d6482be57d0133a29140e2febbf8eb8331",
+    "htdemucs_955717e8": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4"
+  },
+  "packages": {
+    "beat-this": "1.1.0",
+    "torch": "2.5.1",
+    "torchaudio": "2.5.1",
+    "demucs": "4.0.1",
+    "essentia": "2.1b6.dev1389",
+    "numpy": "1.26.4",
+    "soxr": "1.1.0",
+    "soundfile": "0.14.0"
+  },
+  "counts": {
+    "beat_and_tonal_sources": 12,
+    "vocal_sources": 2,
+    "sources_with_rhythm_review_flags": 10,
+    "interior_cuts_annotated": 12,
+    "joins_annotated": 11,
+    "joins_with_both_vocal_models": 1
+  },
+  "tracks": [
+    {
+      "id": "hollow-01-012",
+      "artist": "Dom Dolla",
+      "title": "Take It",
+      "source_sha256": "eada98063b50f3043955de64b999702203195ca12e662d303cc2101047bbeba4",
+      "baseline_bpm": 122.9993695108243,
+      "model_beat_count": 481,
+      "model_downbeat_count": 123,
+      "median_eight_beat_bpm": 123.0769230769229,
+      "single_interval_median_bpm": 124.99999999999896,
+      "interval_fraction_near_baseline_beat": 1.0,
+      "interval_fraction_near_half_time": 0.0,
+      "interval_fraction_near_double_time": 0.0,
+      "baseline_beat_agreement_70ms": 0.997920997920998,
+      "baseline_beat_residual_p95_ms": 47.3980247746445,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 121,
+        "2": 2
+      },
+      "dominant_downbeat_class": 0,
+      "dominant_class_fraction": 0.983739837398374,
+      "review_flags": [],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 234.45189583333334,
+        "key": "C",
+        "scale": "minor",
+        "profile_strength": 0.890803873538971
+      },
+      "tonal_window_count": 15,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-002",
+      "artist": "Mau P",
+      "title": "Drugs From Amsterdam",
+      "source_sha256": "492e2a6fa1b6029752c5898442feec32fb1dd6b43eb0ce1d2d86741c8db416be",
+      "baseline_bpm": 124.99777695854686,
+      "model_beat_count": 452,
+      "model_downbeat_count": 145,
+      "median_eight_beat_bpm": 124.99999999999989,
+      "single_interval_median_bpm": 124.99999999999989,
+      "interval_fraction_near_baseline_beat": 0.9711751662971175,
+      "interval_fraction_near_half_time": 0.004434589800443459,
+      "interval_fraction_near_double_time": 0.013303769401330377,
+      "baseline_beat_agreement_70ms": 0.9690265486725663,
+      "baseline_beat_residual_p95_ms": 41.54316435342102,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 3,
+        "1": 113,
+        "2": 4,
+        "3": 25
+      },
+      "dominant_downbeat_class": 1,
+      "dominant_class_fraction": 0.7793103448275862,
+      "review_flags": [
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 236.41397916666668,
+        "key": "Eb",
+        "scale": "major",
+        "profile_strength": 0.8459574580192566
+      },
+      "tonal_window_count": 16,
+      "vocal_candidate_fraction": 0.30349306570127194,
+      "vocal_candidate_region_count": 30
+    },
+    {
+      "id": "hollow-01-007",
+      "artist": "John Summit",
+      "title": "Deep End",
+      "source_sha256": "0461e346ba6ff3a50e3a5246ca0434105ba6572db62eeda6c1860f33f0e0a780",
+      "baseline_bpm": 126.0007667258693,
+      "model_beat_count": 328,
+      "model_downbeat_count": 98,
+      "median_eight_beat_bpm": 126.31578947368384,
+      "single_interval_median_bpm": 125.00000000000011,
+      "interval_fraction_near_baseline_beat": 0.9694189602446484,
+      "interval_fraction_near_half_time": 0.0,
+      "interval_fraction_near_double_time": 0.027522935779816515,
+      "baseline_beat_agreement_70ms": 0.09451219512195122,
+      "baseline_beat_residual_p95_ms": 223.19946906267492,
+      "downbeat_class_counts_vs_baseline": {
+        "1": 26,
+        "2": 2,
+        "3": 70
+      },
+      "dominant_downbeat_class": 3,
+      "dominant_class_fraction": 0.7142857142857143,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 156.21047916666666,
+        "key": "B",
+        "scale": "major",
+        "profile_strength": 0.4855232238769531
+      },
+      "tonal_window_count": 10,
+      "vocal_candidate_fraction": 0.7938007938007938,
+      "vocal_candidate_region_count": 32
+    },
+    {
+      "id": "hollow-01-016",
+      "artist": "Adam Beyer, Bart Skils",
+      "title": "Your Mind - Radio Edit",
+      "source_sha256": "37f487d76d1bfd4bdd53bc70bff188a0e113707df671a892bad25d7efbe8e309",
+      "baseline_bpm": 125.9991955228659,
+      "model_beat_count": 581,
+      "model_downbeat_count": 160,
+      "median_eight_beat_bpm": 126.31578947368384,
+      "single_interval_median_bpm": 125.00000000000173,
+      "interval_fraction_near_baseline_beat": 0.9568965517241379,
+      "interval_fraction_near_half_time": 0.0034482758620689655,
+      "interval_fraction_near_double_time": 0.022413793103448276,
+      "baseline_beat_agreement_70ms": 0.9466437177280551,
+      "baseline_beat_residual_p95_ms": 92.58497435665828,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 131,
+        "1": 25,
+        "3": 4
+      },
+      "dominant_downbeat_class": 0,
+      "dominant_class_fraction": 0.81875,
+      "review_flags": [],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 285.85741666666667,
+        "key": "B",
+        "scale": "major",
+        "profile_strength": 0.817945659160614
+      },
+      "tonal_window_count": 19,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-044",
+      "artist": "Reinier Zonneveld",
+      "title": "Acid Incident",
+      "source_sha256": "d8040a4574534617f734d189f636a4f60eb102226379d45ba12452ccd50550b0",
+      "baseline_bpm": 127.99964414364155,
+      "model_beat_count": 825,
+      "model_downbeat_count": 270,
+      "median_eight_beat_bpm": 128.3422459893045,
+      "single_interval_median_bpm": 130.43478260869338,
+      "interval_fraction_near_baseline_beat": 0.9429611650485437,
+      "interval_fraction_near_half_time": 0.0,
+      "interval_fraction_near_double_time": 0.05703883495145631,
+      "baseline_beat_agreement_70ms": 0.0993939393939394,
+      "baseline_beat_residual_p95_ms": 209.37077285984577,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 33,
+        "1": 13,
+        "2": 25,
+        "3": 199
+      },
+      "dominant_downbeat_class": 3,
+      "dominant_class_fraction": 0.737037037037037,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 376.17189583333334,
+        "key": "C",
+        "scale": "major",
+        "profile_strength": 0.8525975942611694
+      },
+      "tonal_window_count": 25,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-024",
+      "artist": "999999999",
+      "title": "X0004000X",
+      "source_sha256": "54661d5ad69a30039bc98522b89a9c702159ec138bc634b7572f08b6b5e7adf6",
+      "baseline_bpm": 132.99995339206194,
+      "model_beat_count": 702,
+      "model_downbeat_count": 262,
+      "median_eight_beat_bpm": 133.3333333333325,
+      "single_interval_median_bpm": 130.43478260870145,
+      "interval_fraction_near_baseline_beat": 0.9828815977175464,
+      "interval_fraction_near_half_time": 0.0,
+      "interval_fraction_near_double_time": 0.0028530670470756064,
+      "baseline_beat_agreement_70ms": 0.9273504273504274,
+      "baseline_beat_residual_p95_ms": 116.09733349343557,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 29,
+        "1": 78,
+        "2": 147,
+        "3": 8
+      },
+      "dominant_downbeat_class": 2,
+      "dominant_class_fraction": 0.5610687022900763,
+      "review_flags": [
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 317.5893541666667,
+        "key": "F",
+        "scale": "major",
+        "profile_strength": 0.8197811245918274
+      },
+      "tonal_window_count": 22,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-031",
+      "artist": "Eli Brown",
+      "title": "Be The One",
+      "source_sha256": "e9839f1589f123910365b47536172baaad47941c8c3eaa4cfe846fa306942621",
+      "baseline_bpm": 136.00070562718992,
+      "model_beat_count": 375,
+      "model_downbeat_count": 140,
+      "median_eight_beat_bpm": 136.36363636363598,
+      "single_interval_median_bpm": 136.36363636363706,
+      "interval_fraction_near_baseline_beat": 0.9973262032085561,
+      "interval_fraction_near_half_time": 0.00267379679144385,
+      "interval_fraction_near_double_time": 0.0,
+      "baseline_beat_agreement_70ms": 0.0,
+      "baseline_beat_residual_p95_ms": 219.82303902404556,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 22,
+        "1": 45,
+        "2": 62,
+        "3": 11
+      },
+      "dominant_downbeat_class": 2,
+      "dominant_class_fraction": 0.44285714285714284,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 169.85295833333333,
+        "key": "Bb",
+        "scale": "minor",
+        "profile_strength": 0.8101823329925537
+      },
+      "tonal_window_count": 12,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-005",
+      "artist": "Push",
+      "title": "Universal Nation",
+      "source_sha256": "ecdc9d9e375b0fa65589747d7d189fec6dac6e3a8c3017f3ef4beddeed014f1b",
+      "baseline_bpm": 138.01377690477554,
+      "model_beat_count": 520,
+      "model_downbeat_count": 131,
+      "median_eight_beat_bpm": 137.93103448275875,
+      "single_interval_median_bpm": 136.36363636363706,
+      "interval_fraction_near_baseline_beat": 0.9788053949903661,
+      "interval_fraction_near_half_time": 0.0,
+      "interval_fraction_near_double_time": 0.02119460500963391,
+      "baseline_beat_agreement_70ms": 0.8288461538461539,
+      "baseline_beat_residual_p95_ms": 211.2543246008801,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 20,
+        "3": 111
+      },
+      "dominant_downbeat_class": 3,
+      "dominant_class_fraction": 0.8473282442748091,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat is 3 beat(s) after baseline bar phase"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 225.87960416666667,
+        "key": "Ab",
+        "scale": "minor",
+        "profile_strength": 0.862565815448761
+      },
+      "tonal_window_count": 16,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-040",
+      "artist": "Armin van Buuren",
+      "title": "Communication",
+      "source_sha256": "f255f3347339fee8e10b59e50a4cd6e6464c48618cca9580405c11d37c539bcc",
+      "baseline_bpm": 135.99534712755693,
+      "model_beat_count": 468,
+      "model_downbeat_count": 119,
+      "median_eight_beat_bpm": 136.36363636363598,
+      "single_interval_median_bpm": 136.36363636363706,
+      "interval_fraction_near_baseline_beat": 0.9164882226980728,
+      "interval_fraction_near_half_time": 0.004282655246252677,
+      "interval_fraction_near_double_time": 0.057815845824411134,
+      "baseline_beat_agreement_70ms": 0.8632478632478633,
+      "baseline_beat_residual_p95_ms": 204.5705289881625,
+      "downbeat_class_counts_vs_baseline": {
+        "1": 107,
+        "2": 11,
+        "3": 1
+      },
+      "dominant_downbeat_class": 1,
+      "dominant_class_fraction": 0.8991596638655462,
+      "review_flags": [
+        "model downbeat is 1 beat(s) after baseline bar phase"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 199.66722916666666,
+        "key": "C",
+        "scale": "minor",
+        "profile_strength": 0.889348566532135
+      },
+      "tonal_window_count": 14,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-008",
+      "artist": "Sub Focus",
+      "title": "Solar System",
+      "source_sha256": "40a9510238df6f6792affc23d6c2d272bceae8044ead2e011cf64926810e987a",
+      "baseline_bpm": 174.00015772348567,
+      "model_beat_count": 700,
+      "model_downbeat_count": 181,
+      "median_eight_beat_bpm": 173.91304347826144,
+      "single_interval_median_bpm": 176.47058823529235,
+      "interval_fraction_near_baseline_beat": 0.8140200286123033,
+      "interval_fraction_near_half_time": 0.18454935622317598,
+      "interval_fraction_near_double_time": 0.0,
+      "baseline_beat_agreement_70ms": 0.0,
+      "baseline_beat_residual_p95_ms": 168.3218487076939,
+      "downbeat_class_counts_vs_baseline": {
+        "1": 3,
+        "2": 178
+      },
+      "dominant_downbeat_class": 2,
+      "dominant_class_fraction": 0.9834254143646409,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat is 2 beat(s) after baseline bar phase"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 289.4831875,
+        "key": "F",
+        "scale": "minor",
+        "profile_strength": 0.9466026425361633
+      },
+      "tonal_window_count": 26,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-013",
+      "artist": "Dimension",
+      "title": "DJ Turn It Up",
+      "source_sha256": "f18c7dd076f9a535f23133e874c55812ed5701c0246062d7b9c3a7a8ab886ba4",
+      "baseline_bpm": 173.9977010917484,
+      "model_beat_count": 331,
+      "model_downbeat_count": 112,
+      "median_eight_beat_bpm": 99.58506224066404,
+      "single_interval_median_bpm": 88.23529411764802,
+      "interval_fraction_near_baseline_beat": 0.40606060606060607,
+      "interval_fraction_near_half_time": 0.5727272727272728,
+      "interval_fraction_near_double_time": 0.0,
+      "baseline_beat_agreement_70ms": 1.0,
+      "baseline_beat_residual_p95_ms": 48.82249618213413,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 85,
+        "1": 22,
+        "3": 5
+      },
+      "dominant_downbeat_class": 0,
+      "dominant_class_fraction": 0.7589285714285714,
+      "review_flags": [
+        "model median tempo disagrees with baseline by over 2 percent; inspect half/double time or missing beats",
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 177.92291666666668,
+        "key": "F",
+        "scale": "minor",
+        "profile_strength": 0.8087426424026489
+      },
+      "tonal_window_count": 16,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    },
+    {
+      "id": "hollow-01-026",
+      "artist": "Charlotte de Witte",
+      "title": "Sgadi Li Mi",
+      "source_sha256": "c32e35505e5c7c00d1fb8d0e1506f65419233c15b25417b690ee021ab40044ec",
+      "baseline_bpm": 134.99874085903983,
+      "model_beat_count": 747,
+      "model_downbeat_count": 316,
+      "median_eight_beat_bpm": 134.83146067415723,
+      "single_interval_median_bpm": 136.36363636363706,
+      "interval_fraction_near_baseline_beat": 0.9557640750670241,
+      "interval_fraction_near_half_time": 0.010723860589812333,
+      "interval_fraction_near_double_time": 0.005361930294906166,
+      "baseline_beat_agreement_70ms": 0.009370816599732263,
+      "baseline_beat_residual_p95_ms": 156.44552726131627,
+      "downbeat_class_counts_vs_baseline": {
+        "0": 137,
+        "1": 58,
+        "2": 41,
+        "3": 80
+      },
+      "dominant_downbeat_class": 0,
+      "dominant_class_fraction": 0.43354430379746833,
+      "review_flags": [
+        "fewer than 85 percent of model beats agree within 70 ms of baseline grid",
+        "model downbeat phase changes relative to baseline; inspect sections separately"
+      ],
+      "human_verified": false,
+      "tonal_global": {
+        "start_seconds": 0,
+        "end_seconds": 384.3873125,
+        "key": "C",
+        "scale": "minor",
+        "profile_strength": 0.7425335049629211
+      },
+      "tonal_window_count": 27,
+      "vocal_candidate_fraction": null,
+      "vocal_candidate_region_count": null
+    }
+  ],
+  "existing_edit_review": [
+    {
+      "id": "hollow-01-012",
+      "interior_cuts": [],
+      "entry": {
+        "source_seconds": 15.651781822500057,
+        "nearest_model_downbeat_seconds": 15.68,
+        "distance_to_model_downbeat_ms": 28.2181774999426,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 124.92063460972709,
+        "nearest_model_downbeat_seconds": 124.96,
+        "distance_to_model_downbeat_ms": 39.36539027290564,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-002",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 62.57945476781028,
+            "nearest_model_downbeat_seconds": 62.12,
+            "distance_to_model_downbeat_ms": 459.4547678102856,
+            "candidate_vocal_fraction_near_boundary": 0.9706496683004024
+          },
+          "incoming": {
+            "source_seconds": 93.30000111219417,
+            "nearest_model_downbeat_seconds": 93.82,
+            "distance_to_model_downbeat_ms": 519.9988878058264,
+            "candidate_vocal_fraction_near_boundary": 1.0
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 1.1383620790424989,
+        "nearest_model_downbeat_seconds": 1.64,
+        "distance_to_model_downbeat_ms": 501.637920957501,
+        "candidate_vocal_fraction_near_boundary": 0.34051725577499825
+      },
+      "exit": {
+        "source_seconds": 139.38082062877,
+        "nearest_model_downbeat_seconds": 139.88,
+        "distance_to_model_downbeat_ms": 499.17937122998524,
+        "candidate_vocal_fraction_near_boundary": 0.0
+      },
+      "candidate_vocal_fraction_first_8_bars": 0.520824070660612,
+      "candidate_vocal_fraction_last_8_bars": 0.1614198208343521,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-007",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 45.95830919790121,
+            "nearest_model_downbeat_seconds": 45.28,
+            "distance_to_model_downbeat_ms": 678.309197901207,
+            "candidate_vocal_fraction_near_boundary": 1.0
+          },
+          "incoming": {
+            "source_seconds": 76.43431422376274,
+            "nearest_model_downbeat_seconds": 75.74,
+            "distance_to_model_downbeat_ms": 694.3142237627455,
+            "candidate_vocal_fraction_near_boundary": 1.0
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 0.24430165910890156,
+        "nearest_model_downbeat_seconds": 1.46,
+        "distance_to_model_downbeat_ms": 1215.6983408910985,
+        "candidate_vocal_fraction_near_boundary": 1.0
+      },
+      "exit": {
+        "source_seconds": 137.38632427548583,
+        "nearest_model_downbeat_seconds": 137.66,
+        "distance_to_model_downbeat_ms": 273.6757245141632,
+        "candidate_vocal_fraction_near_boundary": 1.0
+      },
+      "candidate_vocal_fraction_first_8_bars": 0.9343746006636098,
+      "candidate_vocal_fraction_last_8_bars": 0.27812060729970683,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-016",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 32.37632468014582,
+            "nearest_model_downbeat_seconds": 32.38,
+            "distance_to_model_downbeat_ms": 3.67531985418168,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 62.852709740105425,
+            "nearest_model_downbeat_seconds": 62.86,
+            "distance_to_model_downbeat_ms": 7.290259894574547,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        },
+        {
+          "outgoing": {
+            "source_seconds": 93.32909480006504,
+            "nearest_model_downbeat_seconds": 93.34,
+            "distance_to_model_downbeat_ms": 10.905199934967413,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 169.52005744996407,
+            "nearest_model_downbeat_seconds": 169.54,
+            "distance_to_model_downbeat_ms": 19.94255003592116,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 1.89993962018621,
+        "nearest_model_downbeat_seconds": 1.92,
+        "distance_to_model_downbeat_ms": 20.060379813789943,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 230.4728275698833,
+        "nearest_model_downbeat_seconds": 230.48,
+        "distance_to_model_downbeat_ms": 7.17243011669666,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-044",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 75.68143238023852,
+            "nearest_model_downbeat_seconds": 75.0,
+            "distance_to_model_downbeat_ms": 681.4323802385189,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 90.68147408227146,
+            "nearest_model_downbeat_seconds": 90.02,
+            "distance_to_model_downbeat_ms": 661.474082271468,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        },
+        {
+          "outgoing": {
+            "source_seconds": 135.68159918837028,
+            "nearest_model_downbeat_seconds": 135.02,
+            "distance_to_model_downbeat_ms": 661.5991883702748,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 210.681807698535,
+            "nearest_model_downbeat_seconds": 210.48,
+            "distance_to_model_downbeat_ms": 201.80769853502056,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 45.681348976172636,
+        "nearest_model_downbeat_seconds": 45.02,
+        "distance_to_model_downbeat_ms": 661.3489761726328,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 255.68193280463385,
+        "nearest_model_downbeat_seconds": 255.02,
+        "distance_to_model_downbeat_ms": 661.9328046338353,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-024",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 116.38044531670835,
+            "nearest_model_downbeat_seconds": 115.48,
+            "distance_to_model_downbeat_ms": 900.4453167083426,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 145.2526358856803,
+            "nearest_model_downbeat_seconds": 144.36,
+            "distance_to_model_downbeat_ms": 892.6358856802779,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 58.63606417876444,
+        "nearest_model_downbeat_seconds": 57.74,
+        "distance_to_model_downbeat_ms": 896.0641787644406,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 188.56092173913822,
+        "nearest_model_downbeat_seconds": 187.68,
+        "distance_to_model_downbeat_ms": 880.9217391382163,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-026",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 72.67943046452153,
+            "nearest_model_downbeat_seconds": 71.92,
+            "distance_to_model_downbeat_ms": 759.4304645215288,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 229.12533407522736,
+            "nearest_model_downbeat_seconds": 227.9,
+            "distance_to_model_downbeat_ms": 1225.3340752273516,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 30.01236584341994,
+        "nearest_model_downbeat_seconds": 30.16,
+        "distance_to_model_downbeat_ms": 147.63415658006096,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 286.0147535700295,
+        "nearest_model_downbeat_seconds": 286.14,
+        "distance_to_model_downbeat_ms": 125.2464299705025,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-031",
+      "interior_cuts": [],
+      "entry": {
+        "source_seconds": 1.5311754172156258,
+        "nearest_model_downbeat_seconds": 2.2,
+        "distance_to_model_downbeat_ms": 668.8245827843743,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 100.35419209216006,
+        "nearest_model_downbeat_seconds": 101.04,
+        "distance_to_model_downbeat_ms": 685.8079078399442,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-040",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 29.813679655444922,
+            "nearest_model_downbeat_seconds": 30.5,
+            "distance_to_model_downbeat_ms": 686.320344555078,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 58.04993980042084,
+            "nearest_model_downbeat_seconds": 58.52,
+            "distance_to_model_downbeat_ms": 470.0601995791658,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 1.5774195104690119,
+        "nearest_model_downbeat_seconds": 2.02,
+        "distance_to_model_downbeat_ms": 442.5804895309882,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 128.6405901628606,
+        "nearest_model_downbeat_seconds": 129.08,
+        "distance_to_model_downbeat_ms": 439.40983713940795,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-005",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 28.323680229744106,
+            "nearest_model_downbeat_seconds": 27.9,
+            "distance_to_model_downbeat_ms": 423.68022974410735,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 70.05864415276021,
+            "nearest_model_downbeat_seconds": 69.86,
+            "distance_to_model_downbeat_ms": 198.64415276020964,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 0.5003709477333743,
+        "nearest_model_downbeat_seconds": 0.3,
+        "distance_to_model_downbeat_ms": 200.37094773337432,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 139.61691735778706,
+        "nearest_model_downbeat_seconds": 139.2,
+        "distance_to_model_downbeat_ms": 416.91735778707084,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-008",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 155.81453048002865,
+            "nearest_model_downbeat_seconds": 156.34,
+            "distance_to_model_downbeat_ms": 525.4695199713524,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 199.95242150541932,
+            "nearest_model_downbeat_seconds": 200.48,
+            "distance_to_model_downbeat_ms": 527.5784945806663,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 78.57322118559499,
+        "nearest_model_downbeat_seconds": 79.1,
+        "distance_to_model_downbeat_ms": 526.7788144050058,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 233.05583977446233,
+        "nearest_model_downbeat_seconds": 233.58,
+        "distance_to_model_downbeat_ms": 524.1602255376847,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    },
+    {
+      "id": "hollow-01-013",
+      "interior_cuts": [
+        {
+          "outgoing": {
+            "source_seconds": 88.2814309328616,
+            "nearest_model_downbeat_seconds": 88.3,
+            "distance_to_model_downbeat_ms": 18.569067138400897,
+            "candidate_vocal_fraction_near_boundary": null
+          },
+          "incoming": {
+            "source_seconds": 132.41994513053115,
+            "nearest_model_downbeat_seconds": 132.46,
+            "distance_to_model_downbeat_ms": 40.05486946886094,
+            "candidate_vocal_fraction_near_boundary": null
+          }
+        }
+      ],
+      "entry": {
+        "source_seconds": 22.073659636357267,
+        "nearest_model_downbeat_seconds": 22.12,
+        "distance_to_model_downbeat_ms": 46.34036364273442,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "exit": {
+        "source_seconds": 176.55845932820068,
+        "nearest_model_downbeat_seconds": 176.58,
+        "distance_to_model_downbeat_ms": 21.540671799328948,
+        "candidate_vocal_fraction_near_boundary": null
+      },
+      "candidate_vocal_fraction_first_8_bars": null,
+      "candidate_vocal_fraction_last_8_bars": null,
+      "note": "Evidence for revising cuts/joins; existing edit decisions, audio and host approvals are unchanged."
+    }
+  ],
+  "existing_join_review": [
+    {
+      "outgoing_id": "hollow-01-012",
+      "incoming_id": "hollow-01-002",
+      "overlap_seconds": 7.742024564936393,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-002",
+      "incoming_id": "hollow-01-007",
+      "overlap_seconds": 7.649446772942403,
+      "reset_before": false,
+      "both_vocal_evidence_available": true,
+      "simultaneous_vocal_candidate_fraction": 0.43478260869565216,
+      "review_flags": [
+        "both separated vocal candidates active through over 25 percent of central overlap; inspect or choose a quieter vocal window"
+      ]
+    },
+    {
+      "outgoing_id": "hollow-01-007",
+      "incoming_id": "hollow-01-016",
+      "overlap_seconds": 7.619048760431458,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-016",
+      "incoming_id": "hollow-01-044",
+      "overlap_seconds": 15.118179299723574,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-044",
+      "incoming_id": "hollow-01-024",
+      "overlap_seconds": 14.712666365221908,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-024",
+      "incoming_id": "hollow-01-026",
+      "overlap_seconds": 14.328428019884702,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-026",
+      "incoming_id": "hollow-01-031",
+      "overlap_seconds": 7.084885319489243,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-031",
+      "incoming_id": "hollow-01-040",
+      "overlap_seconds": 7.058925968058896,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-040",
+      "incoming_id": "hollow-01-005",
+      "overlap_seconds": 7.007065939065023,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-005",
+      "incoming_id": "hollow-01-008",
+      "overlap_seconds": 0.04,
+      "reset_before": true,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    },
+    {
+      "outgoing_id": "hollow-01-008",
+      "incoming_id": "hollow-01-013",
+      "overlap_seconds": 11.034550652332632,
+      "reset_before": false,
+      "both_vocal_evidence_available": false,
+      "simultaneous_vocal_candidate_fraction": null,
+      "review_flags": []
+    }
+  ],
+  "reference_render_hashes_unchanged": {
+    "master_sha256": "2c23b30408b41ba3f01dae60bf417c21409966a07529001253f58800a4b8b8ee",
+    "mp3_sha256": "c2eae683d50b48555fae113f66d81fccd7c3ccc3b52e94b29b2054cc9f882301"
+  },
+  "interpretation": "Model disagreements and vocal candidates require editorial checks, not automatic corrections. Key strength, timing agreement and activity fractions are not calibrated accuracy/confidence. Missing vocal evidence remains null. No human-verified musical downbeat, phrase or word transcription is claimed."
+}

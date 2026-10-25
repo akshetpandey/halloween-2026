@@ -6,6 +6,8 @@
 
 **Real-track audition:** [12-track sample, source provenance, cut sheet and reproduction](AUDITION-01.md). The host explicitly authorized an audition from the unrated bedroom batch; this separate path preserves votes and does not mark its sources approved. Public-stream test copies and all actual music renders remain ignored. Production still uses the host-Keep-only bridge below.
 
+**Optional audio intelligence:** [beat/downbeat, key and vocal evidence](AUDIO-INTELLIGENCE.md) now has a separate local model environment and report generator. It annotates existing edit points without changing the liked audition, votes or production approvals.
+
 This standard-library Python tool reads the hosted Playlist Lab database **read-only** and exports host bedroom Keeps as JSON/CSV and a local-file M3U8. It does not select from unrated candidates, change votes, access Spotify or render audio. Guest votes do not confer host approval. A Cut for the same bedroom URI/ISRC blocks a duplicate Keep; repeated recordings are deduplicated.
 
 From repository root:

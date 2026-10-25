@@ -1,34 +1,91 @@
-// Keep only camera selection and empty drawing surfaces between Lens visits.
-// An inactive stream (even a disabled track) is deliberately never retained.
+type CameraOpen = {
+  media: MediaStream;
+  ms: number;
+  remembered: boolean;
+  reused: boolean;
+};
+
+// One page-owned, camera-only stream survives SPA navigation. Between scans its
+// video tracks are disabled; only another explicit open enables them again.
 export class LensCamera {
   private media: MediaStream | null = null;
   private generation = 0;
-  private pending = false;
+  private pending: Promise<CameraOpen | null> | null = null;
   private deviceId = "";
 
   get stream() {
     return this.media;
   }
+  get retained() {
+    return !!this.media?.getVideoTracks().some((t) => t.readyState === "live");
+  }
   get opening() {
-    return this.pending;
+    return !!this.pending;
+  }
+  park() {
+    this.generation++;
+    this.pending = null;
+    this.media?.getVideoTracks().forEach((track) => {
+      track.enabled = false;
+    });
   }
   stop() {
-    this.generation++;
-    this.pending = false;
+    this.park();
     this.media?.getTracks().forEach((track) => track.stop());
     this.media = null;
   }
-  async open() {
+  bindPageLifecycle() {
+    const hide = () => {
+        if (document.hidden) this.park();
+      },
+      leave = () => this.stop();
+    document.addEventListener("visibilitychange", hide);
+    window.addEventListener("pagehide", leave);
+    return () => {
+      document.removeEventListener("visibilitychange", hide);
+      window.removeEventListener("pagehide", leave);
+      this.stop();
+    };
+  }
+  async open(): Promise<CameraOpen | null> {
+    if (document.hidden) {
+      this.park();
+      return null;
+    }
+    const started = performance.now();
+    if (this.retained) {
+      this.media!.getVideoTracks().forEach((track) => {
+        if (track.readyState === "live") track.enabled = true;
+      });
+      return {
+        media: this.media!,
+        ms: performance.now() - started,
+        remembered: true,
+        reused: true,
+      };
+    }
+    // Rapid taps share the same permission request instead of opening twice.
+    if (this.pending) return this.pending;
     this.stop();
-    if (document.hidden) return null;
     if (!navigator.mediaDevices?.getUserMedia)
       throw Error(
         "The live camera is unavailable. Use the phone camera or choose a photo below.",
       );
     const generation = this.generation,
-      started = performance.now(),
       remembered = !!this.deviceId;
-    this.pending = true;
+    const request = this.acquire(generation, started, remembered).finally(
+      () => {
+        if (this.pending === request) this.pending = null;
+      },
+    );
+    this.pending = request;
+    return request;
+  }
+  private async acquire(
+    generation: number,
+    started: number,
+    remembered: boolean,
+  ) {
     try {
       const media = await navigator.mediaDevices.getUserMedia({
         audio: false,
@@ -40,20 +97,37 @@ export class LensCamera {
           frameRate: { ideal: 12, max: 15 },
         },
       });
-      // getUserMedia has no abort signal. Release a late result immediately if
-      // navigation, another request or backgrounding invalidated this opening.
+      // A cancelled or backgrounded permission request must never leave capture
+      // enabled when it eventually resolves. It is not retained for later use.
       if (generation !== this.generation || document.hidden) {
         media.getTracks().forEach((track) => track.stop());
         return null;
       }
+      // audio:false is the request boundary. Also reject unexpected audio from
+      // an injected/nonconforming provider before retaining or exposing a stream.
+      media.getAudioTracks().forEach((track) => {
+        track.stop();
+        media.removeTrack(track);
+      });
+      if (
+        !media.getVideoTracks().some((track) => track.readyState === "live")
+      ) {
+        media.getTracks().forEach((track) => track.stop());
+        throw Error(
+          "The camera did not provide a live video track. Try opening it again.",
+        );
+      }
       this.deviceId = media.getVideoTracks()[0]?.getSettings().deviceId || "";
       this.media = media;
-      return { media, ms: performance.now() - started, remembered };
+      return {
+        media,
+        ms: performance.now() - started,
+        remembered,
+        reused: false,
+      };
     } catch (error) {
       if (generation !== this.generation || document.hidden) return null;
       throw error;
-    } finally {
-      if (generation === this.generation) this.pending = false;
     }
   }
 }

@@ -1,5 +1,7 @@
 # Camera preparation without an idle stream
 
+**Historical policy:** the host explicitly changed this requirement on October 25. [Retained camera-only session](handoff-2026-10-25-camera-session.md) is current; the full-stop behavior below describes this earlier release.
+
 - Session title: Lens camera lifecycle and reusable frame buffers.
 - Updated date: October 23, 2026, America/New_York.
 - Scope / owned files: Lens camera acquisition, frame surfaces, host startup diagnostics, tests and current camera docs.

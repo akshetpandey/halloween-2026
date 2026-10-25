@@ -40,7 +40,10 @@ import { GuardianLens } from "./GuardianLens";
 import { VISION_MODEL } from "../shared/vision";
 import { shouldWarmRecognition } from "./recognition-session";
 import { prepareArrivalVision } from "./segmentation-session";
+import { lensCamera } from "./lens-camera";
 function App() {
+  // Own the retained stream above route components, including host-tab changes.
+  useEffect(() => lensCamera.bindPageLifecycle(), []);
   const [location, setLocation] = useState(
       window.location.pathname + window.location.search,
     ),

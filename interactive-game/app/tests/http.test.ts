@@ -32,6 +32,7 @@ function secure(response: Response) {
     "frame-ancestors 'none'",
   );
   expect(response.headers.get("Permissions-Policy")).toContain("camera=(self)");
+  expect(response.headers.get("Permissions-Policy")).toContain("microphone=()");
 }
 
 it.each(["GET", "HEAD", "POST"])(

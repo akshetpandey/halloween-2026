@@ -72,6 +72,7 @@ export function GuardianLens({
   >("idle");
   const [progress, setProgress] = useState(""),
     [error, setError] = useState("");
+  const [cameraOpening, setCameraOpening] = useState(false);
   const [match, setMatch] = useState<VisionMatch | null>(null),
     [outline, setOutline] = useState<MaskResult | null>(null);
   const [outlining, setOutlining] = useState(false),
@@ -98,6 +99,7 @@ export function GuardianLens({
     cameraMs: 0,
     previewMs: 0,
     rememberedCamera: false,
+    reusedCamera: false,
   });
   const [live, setLive] = useState({
     count: 0,
@@ -141,7 +143,7 @@ export function GuardianLens({
     try {
       const file = video.current ? await snapshot(video.current) : photo?.blob;
       if (!file) throw Error("Open the camera or choose a photograph first.");
-      stopCamera();
+      pauseCamera();
       setFocusHint(null);
       const found: VisionMatch = {
         guardianId: id,
@@ -158,7 +160,7 @@ export function GuardianLens({
       );
     } catch (e) {
       if (attempt === action.current) {
-        stopCamera();
+        pauseCamera();
         setError((e as Error).message);
         setPhase("idle");
       }
@@ -301,8 +303,8 @@ export function GuardianLens({
         throw error;
       });
   }
-  function stopCamera() {
-    lensCamera.stop();
+  function pauseCamera() {
+    lensCamera.park();
     recognitionFrames.clear();
     captureFrames.clear();
     if (video.current) {
@@ -318,7 +320,7 @@ export function GuardianLens({
   }
   function reset() {
     action.current++;
-    stopCamera();
+    pauseCamera();
     stopOutline();
     setPhase("idle");
     setError("");
@@ -351,6 +353,7 @@ export function GuardianLens({
       cameraMs: 0,
       previewMs: 0,
       rememberedCamera: false,
+      reusedCamera: false,
       embedMs: 0,
       embedBackend: "",
       segmentMs: 0,
@@ -368,7 +371,7 @@ export function GuardianLens({
     return () => {
       mounted.current = false;
       action.current++;
-      stopCamera();
+      pauseCamera();
       outlineSession.current?.clearImage();
       if (currentPhoto.current) URL.revokeObjectURL(currentPhoto.current.url);
       if (cutoutRef.current) URL.revokeObjectURL(cutoutRef.current);
@@ -376,7 +379,7 @@ export function GuardianLens({
   }, []);
   useEffect(() => {
     const suspend = () => {
-      if (lensCamera.stream || lensCamera.opening || clip.current) reset();
+      if (video.current || lensCamera.opening || clip.current) reset();
     };
     const hide = () => {
       if (document.hidden) suspend();
@@ -631,7 +634,7 @@ export function GuardianLens({
         if (streak.stable) {
           const file = await snapshot(v);
           if (attempt !== action.current) return;
-          stopCamera();
+          pauseCamera();
           await reveal(
             file,
             found,
@@ -651,7 +654,7 @@ export function GuardianLens({
       }
     } catch (e) {
       if (attempt === action.current) {
-        stopCamera();
+        pauseCamera();
         setError((e as Error).message);
         setPhase("idle");
       }
@@ -680,13 +683,15 @@ export function GuardianLens({
             "The video could not start. Choose another photo or camera. " +
               (host ? e.message : ""),
           );
-          stopCamera();
+          pauseCamera();
           setPhase("idle");
         }
       });
   }, [phase]);
   async function openCamera() {
+    if (lensCamera.opening) return;
     reset();
+    setCameraOpening(true);
     const attempt = action.current;
     cameraStarted.current = performance.now();
     try {
@@ -696,6 +701,7 @@ export function GuardianLens({
         ...old,
         cameraMs: opened.ms,
         rememberedCamera: opened.remembered,
+        reusedCamera: opened.reused,
       }));
       setPhase("camera");
     } catch (e) {
@@ -705,6 +711,8 @@ export function GuardianLens({
             ? "Camera access was declined. Allow it in browser settings, or choose a photo below."
             : (e as Error).message,
         );
+    } finally {
+      if (mounted.current) setCameraOpening(false);
     }
   }
   function openTestVideo(file: File) {
@@ -1096,10 +1104,15 @@ export function GuardianLens({
             <div className="lens-actions">
               <button
                 className="btn secondary"
+                disabled={cameraOpening}
                 onClick={() => void openCamera()}
               >
                 <Camera size={18} />
-                {photo ? "Scan another guardian" : "Open the live lens"}
+                {cameraOpening
+                  ? "Opening camera…"
+                  : photo
+                    ? "Scan another guardian"
+                    : "Open the live lens"}
               </button>
               <label className="btn secondary file-button">
                 <ImagePlus size={18} />
@@ -1145,8 +1158,22 @@ export function GuardianLens({
           )}
           {phase === "camera" && (
             <button className="text-button" onClick={reset}>
-              Close camera
+              Close live view
             </button>
+          )}
+          {phase !== "camera" && lensCamera.retained && (
+            <div className="small muted">
+              <p>Camera paused for your next guardian. Microphone stays off.</p>
+              <button
+                className="text-button"
+                onClick={() => {
+                  reset();
+                  lensCamera.stop();
+                }}
+              >
+                Release camera
+              </button>
+            </div>
           )}
           {host && (
             <p className="small muted">
@@ -1163,15 +1190,17 @@ export function GuardianLens({
               . Recognition uses a warmed CPU model. The host fox and Gilded
               Root use a 3D reveal; other guardians use outlines with GPU/CPU
               fallback.
-              {details.cameraMs > 0 && (
+              {(details.reusedCamera || details.cameraMs > 0) && (
                 <>
                   {" "}
                   Camera opened: {(details.cameraMs / 1000).toFixed(2)}s ·
                   preview ready: {(details.previewMs / 1000).toFixed(2)}s from
                   tap ·{" "}
-                  {details.rememberedCamera
-                    ? "remembered camera"
-                    : "initial camera selection"}
+                  {details.reusedCamera
+                    ? "same camera stream reused · no new permission request"
+                    : details.rememberedCamera
+                      ? "remembered camera"
+                      : "initial camera selection"}
                   .
                 </>
               )}

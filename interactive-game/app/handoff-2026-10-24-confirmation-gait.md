@@ -4,7 +4,7 @@
 - Updated date: October 24, 2026, America/New_York.
 - Scope / owned files: `GuardianLens.tsx`, new `LensConfirmation.tsx` and preview harness, `vision.css`; signed planar leg solver, red-panda generator/GLB/provenance/source note, focused tests; current camera/spirit/phone/workflow docs, app README and family tracker.
 - Checkout, branch and base commit: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `c325b3a`. No branch/worktree created.
-- Status: implementation and local verification complete; deployment verification pending below.
+- Status: complete — implemented, tested, committed and deployed; host phone acceptance remains open.
 - Confirmed user decisions: October 24 — recognition speed is acceptable; make the three-frame confirmation obvious. Fox artwork/performance is approved; correct the backward/weird running legs. Preserve existing model, identity thresholds, camera lifecycle, story and guest/host scope.
 - Proposals awaiting a decision: none for these fixes.
 
@@ -28,7 +28,7 @@ Final authored GLB: **1,089,416 bytes**, 26,252 triangles, 20 primitives, seven 
 
 ## Release
 
-Pending final source commit, publication and remote checksum/header/gate checks. Existing target: Worker `hollow-court-preview`, custom domain `hollow-court.com`, account ending `e736a`. No migrations, Access changes, guest data writes or purchases. Initial sandboxed `whoami` could not refresh the OAuth token; rerunning with filesystem permission refreshed the existing login and verified the expected account. No expanded login scopes requested.
+Source commit **`401556a`** published successfully to Worker `hollow-court-preview`, custom domain `hollow-court.com` and its Workers preview, account ending `e736a`. Deployment version **`ffd36b9a-844b-4a53-b6fa-17a59060ec31`**, October 24, 2026. Final build and Wrangler dry run passed. Remote model `/assets/RedPanda-LYwl8gTo.glb` returns exactly 1,089,416 bytes and the checksum above; `/assets/index-C75O5_Sj.js` includes the new confirmation copy, and both hostnames serve that current entry point. HTML is `no-store`; hashed JS/GLB are immutable for a year; Worker HTTPS responses send one-year HSTS and HTTP redirects with 308. Anonymous public state remains `sealed` with `previewAvailable: false`; public debug returns 404 and host/admin still redirect to Cloudflare Access. No migrations, Access changes, guest data writes or purchases. Initial sandboxed `whoami` could not refresh the OAuth token; rerunning with filesystem permission refreshed the existing login and verified the expected account. No expanded login scopes requested.
 
 ## Remaining work / handoff
 
@@ -36,4 +36,4 @@ Pending final source commit, publication and remote checksum/header/gate checks.
 2. **Preview fox spirit**: check the natural forward-running paw motion, pounce, sit and curious tilt; replay/pause remain available. Final phone acceptance of these two corrections remains open.
 3. Existing held-out multi-guardian/lighting recognition acceptance and other guardian assets remain separate work. No guest 3D release or recognition model switch in this change.
 
-Dependencies on sibling tasks: none. Shared costs/rules unchanged. Raw reference photos and scan remain private. Read-only review agent edited no files. Commit(s) on main and unrelated dirty files: source commit pending; no unrelated dirty files found at start. A final documentation checkpoint will record publication evidence without amending this file merely to insert its own hash.
+Dependencies on sibling tasks: none. Shared costs/rules unchanged. Raw reference photos and scan remain private. Read-only review agent edited no files. Commit(s) on main: implementation **`401556a`**, followed by this release evidence checkpoint. No unrelated dirty files found. Private temporary inspection files stay ignored; local dev server and task browser tabs are closed at completion. Markdown local links and `git diff --check` pass.

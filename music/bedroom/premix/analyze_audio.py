@@ -257,14 +257,20 @@ def loudness(path):
             'source': 'FFmpeg ebur128 on decoded source audio'}
 
 
-def analyze_track(track, root, include_loudness=True):
+def analyze_track(track, root, include_loudness=True, source=None):
     import librosa
     import soundfile as sf
     ident = track['id']
-    if not re.fullmatch(r'hollow-01-\d{3}', ident):
+    audition = source is None
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,95}', ident):
+        raise ValueError('Unsafe analysis track ID')
+    if audition and not re.fullmatch(r'hollow-01-\d{3}', ident):
         raise ValueError('Unexpected audition track ID')
-    source = root / 'sources' / f'{ident}.webm'
-    wav = source.with_suffix('.wav')
+    source = (root / 'sources' / f'{ident}.webm') if audition else Path(source).resolve()
+    wav = source.with_suffix('.wav') if audition else root / 'decoded' / f'{ident}.wav'
+    if wav.resolve() == source.resolve():
+        raise ValueError('Decoded output must not replace the original source')
+    wav.parent.mkdir(parents=True, exist_ok=True)
     cache = root / 'cache' / f'{ident}.json'
     source_hash = digest(source)
     prior = catalog_prior(track)
@@ -277,6 +283,7 @@ def analyze_track(track, root, include_loudness=True):
             old = {}
         if (old.get('analysis_version') == VERSION and old.get('source_sha256') == source_hash
                 and old.get('catalog_tempo') == prior and old.get('sha256') == digest(wav)
+                and old.get('audition_only') == audition
                 and (not include_loudness or old.get('loudness'))):
             return old
     run(['ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', str(source), '-map', '0:a:0',
@@ -288,7 +295,7 @@ def analyze_track(track, root, include_loudness=True):
               'source_path': str(source.resolve()), 'source_sha256': source_hash,
               'duration_seconds': info.frames / info.samplerate,
               'catalog_duration_seconds': track['duration_ms'] / 1000,
-              'catalog_tempo': prior, 'audition_only': True,
+              'catalog_tempo': prior, 'audition_only': audition,
               'decode_format': '48 kHz stereo IEEE float32 WAV; source overs preserved before gain',
               'host_approved': False, 'measured_at': datetime.now(timezone.utc).isoformat(),
               'feature_note': 'Phrase RMS/lowband are mono analysis measures, not LUFS or room loudness.'}

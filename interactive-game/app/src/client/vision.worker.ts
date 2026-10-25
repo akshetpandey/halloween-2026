@@ -240,6 +240,7 @@ async function regions(job: VisionRequest, quiet = false, preserve = false) {
     } finally {
       input.dispose();
     }
+    regionFailed = false;
     self.postMessage({
       id: job.id,
       ready: true,

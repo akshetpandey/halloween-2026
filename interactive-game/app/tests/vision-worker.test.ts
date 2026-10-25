@@ -23,9 +23,12 @@ afterEach(() => {
   fixture.tensors.length = 0;
   fixture.create.mockReset();
 });
-async function worker(failRegions = false) {
+async function worker(failRegions: boolean | number = false) {
   fixture.create.mockImplementation(async (bytes: Uint8Array) => {
-    if (bytes[0] === 2 && failRegions) throw Error("Region model unavailable");
+    if (bytes[0] === 2 && failRegions) {
+      if (typeof failRegions === "number") failRegions--;
+      throw Error("Region model unavailable");
+    }
     return {
       run: async () => {
         const tensor = {
@@ -143,4 +146,12 @@ it("falls back to the existing scene encoder when foreground initialization fail
   expect(r.error).toBeUndefined();
   await send("observe");
   expect(fixture.create).toHaveBeenCalledTimes(2);
+});
+it("recovers foreground matching after an explicit successful preparation retry", async () => {
+  const send = await worker(1);
+  expect((await send("observe")).focusUnavailable).toBe(true);
+  expect((await send("prepare-regions")).ready).toBe(true);
+  const restored = await send("observe");
+  expect(restored.focusUnavailable).toBeUndefined();
+  expect(restored.focusMatch).toBeDefined();
 });

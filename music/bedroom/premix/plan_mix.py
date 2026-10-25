@@ -14,12 +14,14 @@ from pathlib import Path
 
 from actual_audition import warped_clip
 from analyze_audio import analyze_track, digest, write_json
+from arrangement import boundary_cost, loop_tail, measure_arrangement, phrase_position
 from audio_intelligence import join_evidence, vocal_fraction
+from mix_automation import automate
 from prepare import DEFAULT_DB, approved_pool, check_file, host_rows, probe_duration
 from reaper_proof import save_plan
 
 BASE = Path(__file__).resolve().parent
-VERSION = "mix-planner-1"
+VERSION = "mix-planner-2"
 LANES = ["Tech house", "Acid", "Techno", "Trance", "Drum & bass"]
 KEYS = {
     "C": 0,
@@ -168,6 +170,10 @@ def cut_repeats(track, evidence, grid, start, end):
             grid["anchor_seconds"]
             + round((p["start_seconds"] - grid["anchor_seconds"]) / bar) * bar
         )
+        phrase = track.get("arrangement", {}).get("phrases", {})
+        if phrase.get("supported"):
+            phrase_anchor = grid["anchor_seconds"] + phrase["phase_bars"] * bar
+            a = phrase_anchor + round((a - phrase_anchor) / width) * width
         b = a + width
         previous = phrase_at(track, max(start, a - width / 2))
         following = phrase_at(track, min(end, b + width / 2))
@@ -179,6 +185,13 @@ def cut_repeats(track, evidence, grid, start, end):
             or end - start - width * (len(removals) + 1) < 90
             or abs(p["rms_dbfs"] - previous["rms_dbfs"]) > 1.5
             or following["rms_dbfs"] - p["rms_dbfs"] > 2
+            or not phrase_position(track, grid, a)["supported"]
+            or boundary_cost(track, grid, a) > 0.1
+            or boundary_cost(track, grid, b) > 0.1
+            or any(
+                x["novelty"] >= 0.35 and a + 0.01 < x["time"] < b - 0.01
+                for x in phrase.get("boundaries", [])
+            )
             or vocal_fraction(voice, a, b) > 0.05
             or vocal_fraction(voice, a - 0.35, a + 0.35) > 0.05
             or vocal_fraction(voice, b - 0.35, b + 0.35) > 0.05
@@ -210,7 +223,8 @@ def candidates(track, evidence):
     starts = [
         t
         for i, t in enumerate(ends)
-        if i % 4 == 0 and t <= duration - min(90, duration * 0.6)
+        if (i % 4 == 0 or boundary_cost(track, grid, t) <= 0.1)
+        and t <= duration - min(90, duration * 0.6)
     ]
     minimum = min(90, duration * 0.60)
     target = min(165, duration * 0.85)
@@ -235,6 +249,9 @@ def candidates(track, evidence):
             quality += 0.15 * ((entry or 0) + (exit or 0))
             quality += 2 * (entry_boundary or 0) + (exit_boundary or 0)
             quality -= 0.07 * len(removed)
+            quality += 0.9 * (
+                boundary_cost(track, grid, start) + boundary_cost(track, grid, end)
+            )
             choices.append(
                 {
                     "id": track["id"],
@@ -247,6 +264,8 @@ def candidates(track, evidence):
                     "selection_cost": quality,
                     "protected_peak_seconds": peak_time,
                     "vocal_evidence_available": voice is not None,
+                    "entry_phrase": phrase_position(track, grid, start),
+                    "exit_phrase": phrase_position(track, grid, end),
                     "boundary_vocal_candidates": {
                         "entry": entry_boundary,
                         "exit": exit_boundary,
@@ -285,11 +304,18 @@ def transition(a, b, tracks, evidence):
     key_b = local_key(evidence[b["id"]], b["start"], b["start"] + 16 * 60 / bpm_b)
     harmony = harmonic_cost(key_a, key_b)
     options = []
-    for bars in (1, 4, 8):
+    bridge = loop_tail(outgoing, evidence[a["id"]], a)
+    for bars, loop in [(1, None), (4, None), (8, None)] + (
+        [(4, bridge)]
+        if bridge and phrase_position(incoming, b["grid"], b["start"])["supported"]
+        else []
+    ):
         overlap = bars * 240 / shared
         prior = {
             "id": a["id"],
-            "retained_source_ranges": a["ranges"],
+            "retained_source_ranges": a["ranges"]
+            if loop is None
+            else [[loop["source_start"], loop["source_end"]]] * loop["repeat_count"],
             "outgoing_bpm": shared,
             "measured_bpm": bpm_a,
         }
@@ -303,17 +329,41 @@ def transition(a, b, tracks, evidence):
         voice = join_evidence(prior, latter, evidence)[
             "simultaneous_vocal_candidate_fraction"
         ]
+        if loop:
+            # The repeated tail was positively checked as vocal-free; do not
+            # extrapolate a four-bar window backwards through a two-bar cycle.
+            voice = 0.0 if evidence[b["id"]].get("vocals") is not None else None
         kind = (
-            "quick_handover"
-            if bars == 1
-            else "short_bass_swap"
-            if bars == 4
-            else "harmonic_blend"
+            "loop_bridge"
+            if loop
+            else (
+                "quick_handover"
+                if bars == 1
+                else "short_bass_swap"
+                if bars == 4
+                else "harmonic_blend"
+            )
         )
         cost = (voice * 8 if voice is not None else 1.0) + harmony * bars / 4
         cost += 0.8 if bars == 1 else 0.0 if bars == 4 else 0.15
+        phase_a = phrase_position(outgoing, a["grid"], a["end"] - bars * 240 / bpm_a)
+        phase_b = phrase_position(incoming, b["grid"], b["start"])
+        if loop:
+            # Neutral percussion can support an incoming phrase without a lead clash.
+            cost += 0.35
+        elif phase_a["phase_bars"] is not None and phase_b["phase_bars"] is not None:
+            distance = abs(phase_a["phase_bars"] - phase_b["phase_bars"])
+            cost += 0.3 * min(distance, 8 - distance)
+        else:
+            cost += 0.35
         # Long melody/vocal overlaps need positive evidence, not missing data.
-        if bars == 8 and (harmony > 0.1 or voice is None or voice > 0.1):
+        if bars == 8 and (
+            harmony > 0.1
+            or voice is None
+            or voice > 0.1
+            or phase_a["phase_bars"] is None
+            or phase_b["phase_bars"] is None
+        ):
             continue
         options.append(
             {
@@ -325,6 +375,8 @@ def transition(a, b, tracks, evidence):
                 "vocal_overlap": voice,
                 "harmonic_cost": harmony,
                 "local_keys": [key_a, key_b],
+                "phrase_alignment": {"outgoing": phase_a, "incoming": phase_b},
+                "loop": loop,
                 "cost": cost,
                 "reason": "score aligned vocal activity, local harmony and blend length; no key transposition",
             }
@@ -458,7 +510,7 @@ def gain_for(measured):
     return gain
 
 
-def compile_timeline(ordered, joins, tracks, gains):
+def compile_timeline(ordered, joins, tracks, gains, evidence=None):
     by_id = {t["id"]: t for t in tracks}
     definitions = []
     details = []
@@ -471,14 +523,17 @@ def compile_timeline(ordered, joins, tracks, gains):
         before = joins[i - 1] if i else None
         after = joins[i] if i < len(joins) else None
         reset_in = bool(before and before["kind"] == "reset")
-        reset_out = bool(after and after["kind"] == "reset")
         incoming = before["incoming_bpm"] if before else bpm
         outgoing = after["outgoing_bpm"] if after else bpm
+        bridge = after.get("loop") if after else None
+        bridge_beats = bridge["extension_bars"] * 4 if bridge else 0
         overlap = before["overlap_seconds"] if before else 0.0
         start = end - overlap
-        total = round(sum(b - a for a, b in choice["ranges"]) * bpm / 60)
+        total = round(sum(b - a for a, b in choice["ranges"]) * bpm / 60) + bridge_beats
         hold = 4 * max(
-            before["bars"] if before else 0, after["bars"] if after else 0, 1
+            before["bars"] if before else 0,
+            (after["bars"] if after else 0) + bridge_beats / 4,
+            1,
         )
         offset = 0
         local = 0.0
@@ -503,29 +558,44 @@ def compile_timeline(ordered, joins, tracks, gains):
             )
             local += item["length"]
             offset += beats
+        bridge_start = start + local
+        if bridge:
+            for repeat in range(bridge["repeat_count"]):
+                item, tempos, item_rates = warped_clip(
+                    bridge["source_start"],
+                    bridge["cycle_bars"] * 4,
+                    bpm,
+                    offset,
+                    total,
+                    incoming,
+                    outgoing,
+                    hold,
+                )
+                cycle_length = item["length"]
+                lead = bridge["seam_fade_seconds"]
+                clips[-1]["fade_out"] = lead
+                item["source_start"] -= lead * outgoing / bpm
+                item["stretch_markers"] = [
+                    {"position": 0.0, "source": item["source_start"]}
+                ] + [
+                    {"position": p["position"] + lead, "source": p["source"]}
+                    for p in item["stretch_markers"]
+                ]
+                item.update(
+                    position=start + local - lead,
+                    length=cycle_length + lead,
+                    fade_in=lead,
+                    fade_out=0.003,
+                    loop_iteration=repeat + 1,
+                )
+                clips.append(item)
+                rates.extend(item_rates)
+                tempo_map.extend(
+                    {"time": start + local + p["time"], "bpm": p["bpm"]} for p in tempos
+                )
+                local += cycle_length
+                offset += bridge["cycle_bars"] * 4
         end = start + local
-        fade = after["overlap_seconds"] if after else 1.5
-        clips[0]["fade_in"] = overlap if before and not reset_in else 0.04
-        clips[-1]["fade_out"] = (
-            fade if after and not reset_out else 0.12 if after else 1.5
-        )
-        shelf = [{"time": 0, "db": -24 if before and not reset_in else 0}]
-        if before and not reset_in:
-            shelf.extend(
-                [
-                    {"time": start + overlap * 0.5 - 0.04, "db": -24},
-                    {"time": start + overlap * 0.5 + 0.04, "db": 0},
-                ]
-            )
-        if after and not reset_out:
-            shelf.extend(
-                [
-                    {"time": end - fade * 0.5 - 0.04, "db": 0},
-                    {"time": end - fade * 0.5 + 0.04, "db": -24},
-                ]
-            )
-        else:
-            shelf.append({"time": end, "db": 0})
         if any(
             c["position"] < 0 or max(c["fade_in"], c["fade_out"]) > c["length"]
             for c in clips
@@ -538,7 +608,6 @@ def compile_timeline(ordered, joins, tracks, gains):
                 "sha256": track["sha256"],
                 "gain_db": gains[track["id"]],
                 "clips": clips,
-                "shelf": shelf,
             }
         )
         markers.append(
@@ -568,8 +637,20 @@ def compile_timeline(ordered, joins, tracks, gains):
                 "gain_db": gains[track["id"]],
                 "boundary_vocal_candidates": choice["boundary_vocal_candidates"],
                 "vocal_evidence_available": choice["vocal_evidence_available"],
+                "phrase_alignment": {
+                    "entry": phrase_position(track, choice["grid"], choice["start"]),
+                    "exit": phrase_position(track, choice["grid"], choice["end"]),
+                },
+                "loop_bridge": {
+                    **bridge,
+                    "start_seconds": bridge_start,
+                    "end_seconds": end,
+                }
+                if bridge
+                else None,
             }
         )
+    automate(definitions, details, joins, evidence or {})
     return definitions, details, markers, tempo_map, end
 
 
@@ -652,6 +733,8 @@ def build_plan(
         "tracks": [],
         "transitions": [],
         "planned_seconds": 0.0,
+        "loop_bridge_seconds": 0.0,
+        "planned_seconds_excluding_bridges": 0.0,
         "rendered": False,
         "party_ready": False,
         "human_verified": False,
@@ -667,6 +750,15 @@ def build_plan(
         },
     }
     if tracks:
+        tracks = [
+            {
+                **t,
+                "arrangement": measure_arrangement(
+                    t, choose_grid(t, evidence[t["id"]]), output / "arrangement-cache"
+                ),
+            }
+            for t in tracks
+        ]
         ordered, joins = sequence(tracks, evidence)
         measured = {
             c["id"]: retained_loudness(
@@ -678,7 +770,7 @@ def build_plan(
         }
         gains = {ident: gain_for(value) for ident, value in measured.items()}
         definitions, details, markers, tempo_map, end = compile_timeline(
-            ordered, joins, tracks, gains
+            ordered, joins, tracks, gains, evidence
         )
         # Re-read approvals/files after expensive measurements, before emitting
         # a plan. Later changes still require rebuilding before final rendering.
@@ -704,10 +796,27 @@ def build_plan(
             tracks=details,
             transitions=joins,
             planned_seconds=end,
+            planned_seconds_excluding_bridges=end
+            - sum(
+                d["loop_bridge"]["end_seconds"] - d["loop_bridge"]["start_seconds"]
+                for d in details
+                if d["loop_bridge"]
+            ),
             retained_loudness=measured,
             native_manifest_sha256=native["manifest_sha256"],
             native_plan=str(output / "native/planned-chapter-plan.json"),
-            meets_nine_hour_planned_duration=end >= 32400,
+            loop_bridge_seconds=sum(
+                d["loop_bridge"]["end_seconds"] - d["loop_bridge"]["start_seconds"]
+                for d in details
+                if d["loop_bridge"]
+            ),
+            meets_nine_hour_planned_duration=end
+            - sum(
+                d["loop_bridge"]["end_seconds"] - d["loop_bridge"]["start_seconds"]
+                for d in details
+                if d["loop_bridge"]
+            )
+            >= 32400,
             production_sources_verified=not audition,
         )
         # Chapter index only; no chapter audio is exported.
@@ -767,6 +876,8 @@ def refresh_analysis(database, file_map, output):
 
 def validate_current(report, database, require_production=True):
     """Recheck frozen inputs, current votes/acquisitions and native fingerprint."""
+    if report.get("version") != VERSION:
+        raise ValueError("Planner version changed; rebuild the plan")
     if not report["tracks"]:
         raise ValueError("Empty planning result")
     audition = report["source_policy"] == "audition engineering test"

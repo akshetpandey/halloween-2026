@@ -39,17 +39,17 @@ local function pitch_mode()
   return selected, name
 end
 
-local function low_shelf(track, points)
-  local fx = reaper.TrackFX_AddByName(track, 'ReaEQ (Cockos)', false, -1)
-  assert(fx >= 0, 'Bundled ReaEQ unavailable')
+local function eq_band(track, fx, band)
+  local kind, band_index = band.band_type, band.band_index
   local gain_index
   for p = 0, reaper.TrackFX_GetNumParams(track, fx)-1 do
-    local ok, kind, band, parameter = reaper.TrackFX_GetEQParam(track, fx, p)
-    if ok and kind == 1 and band == 0 and parameter == 1 then gain_index = p end
+    local ok, t, b, parameter = reaper.TrackFX_GetEQParam(track, fx, p)
+    if ok and t == kind and b == band_index and parameter == 1 then gain_index = p end
   end
-  assert(gain_index, 'Cannot find low-shelf gain parameter')
-  assert(reaper.TrackFX_SetEQParam(track, fx, 1, 0, 0, 180, false))
-  assert(reaper.TrackFX_SetEQBandEnabled(track, fx, 1, 0, true))
+  assert(gain_index, 'Cannot find EQ band gain parameter')
+  assert(reaper.TrackFX_SetEQParam(track, fx, kind, band_index, 0, band.frequency_hz, false))
+  if band.q then assert(reaper.TrackFX_SetEQParam(track, fx, kind, band_index, 2, band.q, false)) end
+  assert(reaper.TrackFX_SetEQBandEnabled(track, fx, kind, band_index, true))
   -- Calibrate against the actual plugin's dB readout, not a guessed gain scale.
   local function parameter_value(db)
     local function boundary(strict)
@@ -58,7 +58,7 @@ local function low_shelf(track, points)
         local middle = (lo + hi) / 2
         local ok, label = reaper.TrackFX_FormatParamValue(track, fx, gain_index, middle)
         local actual = ok and tonumber(label:match('[-+]?%d+%.?%d*'))
-        assert(actual, 'Cannot read low-shelf gain in dB')
+        assert(actual, 'Cannot read EQ gain in dB')
         if actual < db or (strict and actual == db) then lo = middle else hi = middle end
       end
       return (lo + hi) / 2
@@ -70,18 +70,78 @@ local function low_shelf(track, points)
   local mode = reaper.GetEnvelopeScalingMode(envelope)
   reaper.DeleteEnvelopePointRange(envelope, -1e10, 1e10)
   local values = {}
-  for _, point in ipairs(points) do
+  for _, point in ipairs(band.points) do
     -- FX envelopes use raw parameter units, not TrackFX_SetParamNormalized units.
     local raw = parameter_value(point.db)
     local ok, formatted = reaper.TrackFX_FormatParamValue(track, fx, gain_index, raw)
-    values[#values+1] = {time=point.time, db=point.db, parameter_value=raw,
-                        plugin_readout=formatted}
     assert(reaper.InsertEnvelopePoint(envelope, point.time,
       reaper.ScaleToEnvelopeMode(mode, raw), 0, 0, false, true))
   end
   reaper.Envelope_SortPoints(envelope)
+  for i = 0, reaper.CountEnvelopePoints(envelope)-1 do
+    local ok, time, value = reaper.GetEnvelopePoint(envelope, i)
+    assert(ok, 'Could not read EQ envelope point')
+    local raw = reaper.ScaleFromEnvelopeMode(mode, value)
+    local _, formatted = reaper.TrackFX_FormatParamValue(track, fx, gain_index, raw)
+    values[#values+1] = {time=time, db=band.points[i+1].db,
+                        parameter_value=raw, plugin_readout=formatted}
+  end
+  local parameters = {}
+  for p = 0, reaper.TrackFX_GetNumParams(track, fx)-1 do
+    local ok, t, b, parameter = reaper.TrackFX_GetEQParam(track, fx, p)
+    if ok and t == kind and b == band_index then
+      parameters[tostring(parameter)] = select(2, reaper.TrackFX_GetFormattedParamValue(track, fx, p, ''))
+    end
+  end
   reaper.SetMediaTrackInfo_Value(track, 'I_AUTOMODE', 1)
-  return {effect='ReaEQ (Cockos)', shelf_hz=180, gain_parameter=gain_index, points=values}
+  local _, state = reaper.GetEnvelopeStateChunk(envelope, '', false)
+  return {effect='ReaEQ (Cockos)', name=band.name, band_type=kind,
+    enabled=reaper.TrackFX_GetEQBandEnabled(track, fx, kind, band_index),
+    automation_active=state:find('ACT 1', 1, true) ~= nil,
+    shelf_hz=band.frequency_hz, gain_parameter=gain_index, parameters=parameters, points=values}
+end
+
+local function volume_envelope(track, points, gain)
+  local envelope = reaper.GetTrackEnvelopeByChunkName(track, '<VOLENV2')
+  if not envelope then
+    local command = reaper.kbd_getTextFromCmd(40406, 0)
+    assert(command:lower():find('volume envelope'), 'Unexpected volume-envelope action')
+    reaper.SetOnlyTrackSelected(track)
+    reaper.Main_OnCommand(40406, 0)
+    envelope = reaper.GetTrackEnvelopeByChunkName(track, '<VOLENV2')
+  end
+  assert(envelope, 'Could not create native volume envelope')
+  -- A built-in envelope handle can exist while its lane is inactive. Enable it
+  -- with the native action before editing; a chunk edit alone is ignored here.
+  local ok, state = reaper.GetEnvelopeStateChunk(envelope, '', false)
+  assert(ok, 'Cannot read volume envelope activation')
+  if not state:find('ACT 1', 1, true) then
+    local command = reaper.kbd_getTextFromCmd(40406, 0)
+    assert(command:lower():find('volume envelope'), 'Unexpected volume-envelope action')
+    reaper.SetOnlyTrackSelected(track)
+    reaper.Main_OnCommand(40406, 0)
+    envelope = assert(reaper.GetTrackEnvelopeByChunkName(track, '<VOLENV2'))
+    local _, activated = reaper.GetEnvelopeStateChunk(envelope, '', false)
+    assert(activated:find('ACT 1', 1, true), 'Native action did not activate volume envelope')
+  end
+  local mode = reaper.GetEnvelopeScalingMode(envelope)
+  reaper.DeleteEnvelopePointRange(envelope, -1e10, 1e10)
+  for _, point in ipairs(points) do
+    assert(point.amplitude >= 0 and point.amplitude <= 1, 'Volume must only attenuate')
+    assert(reaper.InsertEnvelopePoint(envelope, point.time,
+      reaper.ScaleToEnvelopeMode(mode, point.amplitude * 10^(gain/20)), 0, 0, false, true))
+  end
+  reaper.Envelope_SortPoints(envelope)
+  reaper.SetMediaTrackInfo_Value(track, 'I_AUTOMODE', 1)
+  local values = {}
+  for i = 0, reaper.CountEnvelopePoints(envelope)-1 do
+    local ok, time, value = reaper.GetEnvelopePoint(envelope, i)
+    assert(ok, 'Could not read volume envelope')
+    values[#values+1] = {time=time, amplitude=reaper.ScaleFromEnvelopeMode(mode, value)}
+  end
+  local _, state = reaper.GetEnvelopeStateChunk(envelope, '', false)
+  return {points=values, automation_mode=reaper.GetTrackAutomationMode(track),
+          active=state:find('ACT 1', 1, true) ~= nil}
 end
 
 function M.build(plan)
@@ -99,7 +159,8 @@ function M.build(plan)
   local pitch, pitch_name = pitch_mode()
   local report = {version=reaper.GetAppVersion(), pitch_algorithm=pitch_name,
     project=plan.project, end_seconds=plan.end_seconds, tracks={}, markers=plan.markers,
-    manifest_sha256=plan.manifest_sha256, run_id=plan.run_id}
+    manifest_sha256=plan.manifest_sha256, run_id=plan.run_id,
+    global_automation_override=reaper.GetGlobalAutomationOverride()}
   reaper.SetTempoTimeSigMarker(0, -1, 0, -1, -1, plan.bpm, 4, 4, false)
   for _, point in ipairs(plan.tempo_map or {}) do
     if point.time > 0.000001 then
@@ -119,7 +180,27 @@ function M.build(plan)
     assert(reaper.SetMediaTrackInfo_Value(track, 'D_VOL', 10^(gain/20)))
     local actual = {name=definition.name, source_sha256=definition.sha256,
       gain_db=20*math.log(reaper.GetMediaTrackInfo_Value(track, 'D_VOL'), 10), clips={}}
-    if definition.shelf then actual.eq = low_shelf(track, definition.shelf) end
+    if definition.eq_bands or definition.shelf then
+      local fx = reaper.TrackFX_AddByName(track, 'ReaEQ (Cockos)', false, -1)
+      assert(fx >= 0, 'Bundled ReaEQ unavailable')
+      if definition.eq_bands then
+        -- Disable unused default bands; explicitly enable the three defined bands.
+        for p = 0, reaper.TrackFX_GetNumParams(track, fx)-1 do
+          local ok, kind, band, parameter = reaper.TrackFX_GetEQParam(track, fx, p)
+          if ok and kind >= 0 and parameter == 0 then
+            assert(reaper.TrackFX_SetEQBandEnabled(track, fx, kind, band, false))
+          end
+        end
+        actual.eq_bands = {}
+        for _, band in ipairs(definition.eq_bands) do
+          actual.eq_bands[#actual.eq_bands+1] = eq_band(track, fx, band)
+        end
+      else
+        actual.eq = eq_band(track, fx, {name='low', band_type=1, band_index=0,
+          frequency_hz=180, points=definition.shelf})
+      end
+    end
+    if definition.volume then actual.volume = volume_envelope(track, definition.volume, gain) end
     for _, clip in ipairs(definition.clips) do
       local source = assert(reaper.PCM_Source_CreateFromFile(definition.path))
       local item = assert(reaper.AddMediaItemToTrack(track))

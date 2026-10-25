@@ -53,6 +53,9 @@ def fixture(ident="a", bpm=120, duration=160):
         "lane": "Tech house",
         "grid": {"usable_constant_grid": True},
         "phrases": phrases,
+        "arrangement": {
+            "phrases": {"supported": True, "phase_bars": 0, "boundaries": []}
+        },
     }
     beats = [0.2 + i * period for i in range(int((duration - 0.2) / period))]
     evidence = {

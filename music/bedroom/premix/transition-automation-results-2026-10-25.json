@@ -1,0 +1,242 @@
+{
+  "checked_at": "2026-10-25T23:00:53.675529+00:00",
+  "implementation_commit": "a566163",
+  "scope": "phrase, loop bridge, three-band EQ and stereo vocal ducking; no rendering",
+  "unit_tests": {
+    "passed": 80,
+    "skipped": 0
+  },
+  "ruff_lint_and_format": "passed",
+  "native_procedural": {
+    "passed": true,
+    "tracks": 3,
+    "items": 5,
+    "eq_bands": 9,
+    "volume_points": 780,
+    "rendered": false,
+    "hardware_playback_tested": false,
+    "reaper_version": "7.82/macOS-arm64",
+    "pitch_algorithm": "\u00e9lastique 3.3.3 Pro"
+  },
+  "procedural_loop_bridges": 1,
+  "procedural_duck_regions": 1,
+  "native_keep_plan": {
+    "passed": true,
+    "tracks": 6,
+    "items": 6,
+    "eq_bands": 18,
+    "volume_points": 888,
+    "rendered": false,
+    "hardware_playback_tested": false,
+    "reaper_version": "7.82/macOS-arm64",
+    "pitch_algorithm": "\u00e9lastique 3.3.3 Pro"
+  },
+  "keep_only_plan": {
+    "version": "mix-planner-2",
+    "tracks": [
+      {
+        "id": "hollow-01-002",
+        "source_sha256": "492e2a6fa1b6029752c5898442feec32fb1dd6b43eb0ce1d2d86741c8db416be",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": null,
+            "local_novelty": 0.4586419035942182,
+            "supported": true,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": null,
+            "local_novelty": 0.444083954421583,
+            "supported": true,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": true,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": true
+        },
+        "loop_bridge": null
+      },
+      {
+        "id": "hollow-01-007",
+        "source_sha256": "0461e346ba6ff3a50e3a5246ca0434105ba6572db62eeda6c1860f33f0e0a780",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": null,
+            "local_novelty": 0.06696438017038757,
+            "supported": false,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": null,
+            "local_novelty": 0.0,
+            "supported": false,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": true,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": false
+        },
+        "loop_bridge": null
+      },
+      {
+        "id": "hollow-01-044",
+        "source_sha256": "d8040a4574534617f734d189f636a4f60eb102226379d45ba12452ccd50550b0",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": 0.0,
+            "local_novelty": 1.0,
+            "supported": true,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": 0.0,
+            "local_novelty": 0.7170674875260193,
+            "supported": true,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": false,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": false
+        },
+        "loop_bridge": null
+      },
+      {
+        "id": "hollow-01-031",
+        "source_sha256": "e9839f1589f123910365b47536172baaad47941c8c3eaa4cfe846fa306942621",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": null,
+            "local_novelty": 0.0,
+            "supported": false,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": null,
+            "local_novelty": 0.287622776481187,
+            "supported": false,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": false,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": false
+        },
+        "loop_bridge": null
+      },
+      {
+        "id": "hollow-01-013",
+        "source_sha256": "f18c7dd076f9a535f23133e874c55812ed5701c0246062d7b9c3a7a8ab886ba4",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": null,
+            "local_novelty": 0.41556665129281295,
+            "supported": true,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": null,
+            "local_novelty": 0.03285460272995511,
+            "supported": false,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": false,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": false
+        },
+        "loop_bridge": null
+      },
+      {
+        "id": "hollow-01-008",
+        "source_sha256": "40a9510238df6f6792affc23d6c2d272bceae8044ead2e011cf64926810e987a",
+        "phrase_alignment": {
+          "entry": {
+            "phase_bars": null,
+            "local_novelty": 0.5031076490930749,
+            "supported": true,
+            "human_verified": false
+          },
+          "exit": {
+            "phase_bars": null,
+            "local_novelty": 0.35008868628879575,
+            "supported": true,
+            "human_verified": false
+          }
+        },
+        "vocal_evidence_available": false,
+        "vocal_ducking": {
+          "regions": [],
+          "depth_db": -4.5,
+          "attack_seconds": 0.06,
+          "release_seconds": 0.25,
+          "priority": "incoming lead",
+          "target": "outgoing stereo mix",
+          "evidence_available": false
+        },
+        "loop_bridge": null
+      }
+    ],
+    "planned_seconds": 890.5985167921019,
+    "bridge_seconds": 0,
+    "planned_seconds_excluding_bridges": 890.5985167921019,
+    "transition_kinds": [
+      "short_bass_swap",
+      "short_bass_swap",
+      "reset",
+      "reset",
+      "short_bass_swap"
+    ],
+    "current_inputs": {
+      "current_inputs_valid": true,
+      "production_sources_verified": false,
+      "rendered": false
+    }
+  },
+  "render_directories_empty": {
+    "procedural": true,
+    "keep_plan": true
+  },
+  "reference_audio_hashes_unchanged": {
+    "master": true,
+    "mp3": true
+  },
+  "new_mix_rendered": false,
+  "audio_uploaded": false,
+  "votes_changed": false,
+  "purchases_usd": 0,
+  "human_phrase_or_listening_verification": false,
+  "party_ready": false
+}

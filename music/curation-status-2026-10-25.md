@@ -23,7 +23,7 @@ Living Batch 06 is complete: **7 Keep / 43 Cut**. Its winners were Saving Up, Ra
 
 Bedroom Batch 01 is complete: **25 Keep / 25 Cut**. Acid kept 6/10; techno, tech house and trance each 5/10; DnB 4/10. Contemporary acid and bouncy trance performed better than most classic-trance probes. Batch 02 will retain all five lanes, with a modest acid emphasis, returning winning producers and new artists. Neither catalog energy nor one narrow BPM cutoff explains the votes.
 
-New 50-track living Batch 07 and bedroom Batch 02 are in preparation. Earlier votes remain attached to their original records. Review candidates do not count toward the Keep targets until approved.
+**Two new 50-track batches are live:** [living Batch 07](https://music.hollow-court.com/?room=living-room&batch=07) ([guide](living-room/october-grove-batch-07.md)) and [bedroom Batch 02](https://music.hollow-court.com/?room=bedroom&batch=hollow-02) ([guide](bedroom/the-hollow-batch-02.md)). The hosted library now contains **391 living / 100 bedroom records**, with **89 / 50 unrated** respectively. All 391 previous track records and every saved vote, note, listening score and snapshot were preserved. New candidates do not count toward Keep targets until approved. Catalog enrichment covers 95/100 with ReccoBeats and 93/100 with YouTube listening candidates; Spotify fallback remains. These are catalog/identity checks, not independent listening or guaranteed video embeddability.
 
 ## Improve the mix without changing the successful approach
 

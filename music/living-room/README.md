@@ -8,4 +8,4 @@ Follow the latest host brief in playlist.md and read the october-grove exports. 
 
 Track exports and versioned files are stored beside this plan. Keep new handoffs here.
 
-[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-11.json) · [Current 50-track batch](october-grove-batch-06.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest handoff](../handoff-2026-10-19-batches-and-auto-dj.md).
+[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-11.json) · [Current 50-track batch](october-grove-batch-07.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest handoff](../handoff-2026-10-25-batches-and-progress.md).

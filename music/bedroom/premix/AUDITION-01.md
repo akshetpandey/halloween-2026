@@ -2,6 +2,8 @@
 
 October 19, 2026. **Private 12-track engineering audition, not a party-approved set.** The host explicitly requested selections from the bedroom batch and delegated cuts/transitions. This allows this audition to use unrated candidates; no Keep/Cut votes, Spotify playlist or hosted review data were changed. The normal [approved-crate exporter](README.md) remains host-Keep-only.
 
+October 25 feedback: the host said the mix sounds great. Six demo recordings are now Keeps and six Cuts; broad mix feedback does not reinstate the Cuts. Continue the production approach with approved replacements and the [current refinement priorities](../../curation-status-2026-10-25.md). No new render is claimed in this update.
+
 The editable REAPER timeline is **19:42.06**. Its 12 recordings total **50:53.89** before selection; **21:21.69** remains before overlaps/rate changes. Twelve interior jumps plus lead-in/tail trims remove long weak sections and repeated passages. Feature similarity suggests repetition; it does not establish that an arrangement is boring or a hook is expendable.
 
 ## Listen locally

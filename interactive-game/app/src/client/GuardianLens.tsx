@@ -30,6 +30,7 @@ import {
 } from "../shared/guardian-motion";
 import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
+import { hostSpiritCharacter } from "./spirit-character";
 import { preloadFoxSpirit } from "./fox-spirit-loader";
 import { spiritOrigin, type SpiritOrigin } from "./spirit-motion";
 import { resolveSpiritEntrance } from "./spirit-entrance";
@@ -122,7 +123,8 @@ export function GuardianLens({
   const busy = phase === "reading";
   const guardian = guardians.find((g) => g.id === match?.guardianId);
   const isFox = guardian?.art === "fox";
-  const foxPrototype = host && isFox;
+  const spiritCharacter = hostSpiritCharacter(guardian?.art);
+  const spiritPrototype = host && !!spiritCharacter;
   const puppetEligible = isFox || !!alignment;
   useEffect(() => {
     setFoxRig(
@@ -174,17 +176,19 @@ export function GuardianLens({
   }
   useEffect(() => {
     if (ready && host)
-      for (const g of guardians.filter((g) => g.art === "fox"))
+      for (const g of guardians.filter((g) => hostSpiritCharacter(g.art)))
         void getMotionPoses(g.id).catch(() => {});
     if (ready)
       void warmRecognizer()
         .then(async () => {
           if (!mounted.current) return;
-          if (host)
-            await preloadFoxSpirit().then(() => {
-              if (mounted.current) setSpiritPrepared(true);
-            });
-          else await warmOutline();
+          if (host) {
+            // Keep model preparation sequential on memory-constrained phones.
+            await preloadFoxSpirit("fox");
+            if (!mounted.current) return;
+            await preloadFoxSpirit("tree");
+            if (mounted.current) setSpiritPrepared(true);
+          } else await warmOutline();
         })
         .catch((e) => {
           if (mounted.current) setError(e.message);
@@ -401,7 +405,7 @@ export function GuardianLens({
     }));
     if (
       host &&
-      guardians.find((g) => g.id === found.guardianId)?.art === "fox"
+      hostSpiritCharacter(guardians.find((g) => g.id === found.guardianId)?.art)
     ) {
       setSpiritOpen(true);
       const matched = await resolveSpiritEntrance(
@@ -646,7 +650,13 @@ export function GuardianLens({
     setProgress("");
   }
   function refine(event: React.MouseEvent<HTMLDivElement>) {
-    if (foxPrototype || !photo || !guardian || outlining || phase !== "awake")
+    if (
+      spiritPrototype ||
+      !photo ||
+      !guardian ||
+      outlining ||
+      phase !== "awake"
+    )
       return;
     const box = event.currentTarget.getBoundingClientRect();
     const point = {
@@ -686,8 +696,8 @@ export function GuardianLens({
       </p>
       {host && (
         <p className="small muted">
-          Fox prototype: a rigged 3D spirit, with no outline processing. Other
-          guardians use MagicTouch · GPU with CPU fallback.
+          Fox and Gilded Root prototypes: authored 3D spirits, with no outline
+          processing. Other guardians use MagicTouch · GPU with CPU fallback.
           {initialPhoto &&
             ". Testing a saved reference checks the reveal, not accuracy on a new photo."}
         </p>
@@ -697,8 +707,8 @@ export function GuardianLens({
           {modelReady
             ? host
               ? spiritPrepared
-                ? "Lens ready · fox asset ready"
-                : "Lens ready · preparing the fox spirit…"
+                ? "Lens ready · spirit assets ready"
+                : "Lens ready · preparing the spirits…"
               : outlineState === "ready"
                 ? "Lens ready · awakening ready"
                 : outlineState === "failed"
@@ -707,7 +717,7 @@ export function GuardianLens({
             : prepareProgress}
         </p>
       )}
-      {ready && outlineState === "failed" && !foxPrototype && (
+      {ready && outlineState === "failed" && !spiritPrototype && (
         <button
           className="text-button"
           onClick={() => {
@@ -873,8 +883,8 @@ export function GuardianLens({
               <h2>{guardian.name}</h2>
               <p className="lens-voice">“{guardian.greeting}”</p>
               <p className="small muted">
-                {foxPrototype
-                  ? "The fox’s spirit is ready to greet you. Its animation does not need an outline."
+                {spiritPrototype
+                  ? "Its spirit is ready to greet you. This animation does not need an outline."
                   : rigPoint
                     ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
                     : cutout
@@ -922,12 +932,12 @@ export function GuardianLens({
                   </div>
                 </details>
               )}
-              {foxPrototype ? (
+              {spiritPrototype ? (
                 <button
                   className="btn secondary"
                   onClick={() => setSpiritOpen(true)}
                 >
-                  Replay fox spirit
+                  Replay guardian spirit
                 </button>
               ) : (
                 <button
@@ -1032,8 +1042,9 @@ export function GuardianLens({
               {details.outlinePrepareBackend
                 ? ` · ${details.outlinePrepareBackend}`
                 : ""}
-              . Recognition uses a warmed CPU model. The host fox uses a 3D
-              reveal; other guardians use outlines with GPU/CPU fallback.
+              . Recognition uses a warmed CPU model. The host fox and Gilded
+              Root use a 3D reveal; other guardians use outlines with GPU/CPU
+              fallback.
               {details.cameraMs > 0 && (
                 <>
                   {" "}
@@ -1054,8 +1065,8 @@ export function GuardianLens({
               <p>
                 Recognition: {details.embedBackend || "Local processing"} ·{" "}
                 {(details.embedMs / 1000).toFixed(2)}s. Outline:{" "}
-                {foxPrototype
-                  ? "skipped for 3D fox"
+                {spiritPrototype
+                  ? "skipped for 3D spirit"
                   : details.segmentBackend || "pending"}{" "}
                 · {(details.segmentMs / 1000).toFixed(2)}s per photograph. Model
                 warm-up is reported separately above.
@@ -1097,9 +1108,10 @@ export function GuardianLens({
         </>
       )}
       {spiritOpen && photo && (
-        <Suspense fallback={<p role="status">Opening the fox spirit…</p>}>
+        <Suspense fallback={<p role="status">Opening the guardian spirit…</p>}>
           <FoxSpiritReveal
-            asset={spiritAsset}
+            character={spiritCharacter ?? "fox"}
+            asset={spiritCharacter === "fox" ? spiritAsset : undefined}
             photo={photo}
             origin={spiritStart}
             onClose={() => setSpiritOpen(false)}

@@ -34,6 +34,11 @@ function Preview() {
   if (importing && !asset) return <p>Reading the GLB fixture…</p>;
   return (
     <FoxSpiritReveal
+      character={
+        new URLSearchParams(location.search).get("guardian") === "tree"
+          ? "tree"
+          : "fox"
+      }
       asset={asset}
       origin={origin}
       onClose={() => location.reload()}

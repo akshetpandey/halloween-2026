@@ -1,0 +1,46 @@
+# Second guardian — Gilded Root lamp spirit
+
+- Session title and ID: Hollow Court — Gilded Root authoring and recognition coverage; current local Work session.
+- Updated date: October 24, 2026, America/New_York.
+- Scope / owned files: new lamp builder/GLB/source/provenance, Gilded Root identity/storyboard and recognition evidence; bounded fox/tree character profiles, shared spirit runtime/loader/dialog, host Lens and previews, focused asset tests, real-component developer harness; current docs/README/tracker.
+- Checkout, branch and base commit: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `d98492d`. No branch/worktree.
+- Status: implementation and review complete; local regression complete; publication pending below.
+- Confirmed user decisions: October 24 — use the fox authoring/review process for another enrolled guardian; two Gilded Root photos added; actual prop is a tree lamp. Explain recognition under relocation, changing lamp color, darkness, people/backgrounds. Existing preference: authored cute performance faces the viewer at a standard size, no continuous AR; keep camera stopped during reveal.
+- Proposals awaiting a decision: none for implementation. Host art/phone acceptance remains open.
+
+## Completed work
+
+Read the current enrolled gallery through Cloudflare CLI (read-only D1/KV): three fox photos and two Gilded Root lamp photos. Retrieved only the two lamp images into ignored private storage. Neither the reference photo keys/vectors, room pixels nor photos are committed or sent to external asset services.
+
+Selected **The Gilded Root**: antique honey-gold slender cast branch trunk, irregular twig forks, tapered parchment linen shade and splayed root base. Its small expressive knot is part of the continuous upper trunk; a slight standardized presentation tilt exposes three root tips. Its own reveal is shade wake/blink → escaping luminous ledger leaf → late reach → fortunate catch → proud presentation → shallow rooted bow → welcome. A tap tips its shade and acknowledges **A fine new entry.** No fox running, orbit or hop. Existing narrative greeting is retained. [Identity and storyboard](gilded-root-character.md).
+
+[Editable generator](scripts/guardian-models/build-gilded-root.mjs) exports a self-contained **827,320-byte** GLB, **24,700 triangles**, **19 primitives**, four spine bones, six clips, zero image textures. SHA-256 **`516e4e4481628a884b60ac5cf563b77ff88794faf177863cc3a0c345776dd10d`**. [Provenance](src/client/assets/gilded-root/provenance.json), [source note](src/client/assets/gilded-root/SOURCE.md).
+
+The existing lazy renderer/dialog now accepts a bounded fox/tree profile. It caches templates separately, preserves existing fox/custom-import behavior, prepares host assets sequentially and retains pause/replay/greet/close/disposal. **Preview Gilded Root spirit** is beside the fox preview. Host recognition of either opens its own 3D reveal before any segmentation; other guardians and all guest rehearsal retain the existing 2D pipeline. Empty saved entrance geometry falls back to the centre. Camera/recognition settings, public gates, scoring, Access and data are unchanged.
+
+## Recognition finding
+
+[Measured coverage report](gilded-root-recognition-check.md) and [sanitized metrics](scripts/guardian-models/evidence/gilded-root-recognition-2026-10-24.json). Current MobileNet f32/1,024-D model and .80/.04 settings are unchanged. Stored lamp views have only .7516 cosine to each other. Offline CPU/Sharp source-excluded originals reject at .7158/.7094. With the originating image retained, 27/28 synthetic cases match; one artificial zoom-out rejects. Darkening, desaturation and blue/purple channel changes are diagnostic transformations, **not held-out room/people accuracy**. Resampling differs from browser Canvas, explicitly documented.
+
+Relocation has no coordinate map to invalidate, but global image features respond to background, light and framing. Both existing centre crops omit most shade/root anchors. Added lamp-specific host enrollment guidance: 12–20 actual varied views across final/new locations and warm/neutral/purple/blue light; fork/trunk clear in centre square; background/similar-lamp negatives; hold out fresh views with people/partial occlusion. Severe darkness/obstruction needs clearer camera information. No threshold reduction or automatic reference writes.
+
+## Reviews and checks actually performed
+
+- Independent art review inspected both private photos and actual portrait/contact sheets. Required blending the original round face into the trunk and exposing the root star; both corrected and passed re-review. Eyes remain visible at bow; gold/linen proportions read as the real lamp.
+- Independent motion review inspected recorded samples, source and actual GLB. Requested disabling the shared greeting body roll and exact leaf-stem attachment; both corrected. Roots fixed throughout every clip, Idle/Greet loops close.
+- Independent technical review validated 122,127 geometry attribute values, indices, normalized/bounded skinning and finite animation tracks; actual 30fps transition/crossfade simulation kept roots planted and leaf stem within ~`1.24e-7m` of branch through bow/greet. Host-only routing, cache/retry/disposal, guest behavior and old fox imports passed review. Reviewers made no tracked edits; recognition checker wrote only ignored private diagnostic files.
+- Actual browser `GuardianLens` local fixture used real saved vectors/photos and production recognition worker; only the optional geometry API was mocked to `[]`. Both saved lamp photos recognized (.931/.944 similarity) and opened **The Gilded Root** 3D dialog, diagnostics **skipped for 3D spirit**; close/reopen worked. About20ms per image on this Mac is not a phone timing claim. This is saved-reference flow validation, not held-out accuracy. No camera permission, guest records, production writes or segmentation required.
+- Actual component recorded in portrait, with private screenshots/GIF and contact sheet under ignored `private/gilded-root-2026-10-24/`. Verified small-phone 375×667 and landscape 844×390, pause/resume, paused resize redraw, replay, per-character tap greeting, close/reopen and fox selection. The tree uses a smaller fit on short portrait screens so its shade/roots clear header/footer. Final proof: `final-reveal/gilded-root-reveal.gif`, `final-portrait.png`, `small-phone-final.png`, `paused-landscape.png`.
+- Focused asset tests check real GLB bounds/provenance/privacy, root contact, normalized skin weights, finite deformations, blink/loop closure, caught leaf attachment and distinct rooted story. Existing fox asset/motion tests remain.
+
+## Release
+
+`npm test`: **152 tests / 23 files pass**, including native QR regression. `npm run build`: pass; lazy Three.js runtime remains ~160kB gzip with the existing chunk-size warning. Wrangler4.130.0 dry run passes with unchanged resources; expected account verified. Focused final asset/motion checks, Markdown local links and `git diff --check` pass. Source commit, publication and remote verification pending. Target remains Worker `hollow-court-preview`, `hollow-court.com` and configured Workers preview; no config/binding/migration/security-scope change. No purchases, guest data changes or remote enrollment/calibration writes.
+
+## Remaining work / phone steps
+
+1. Reload [host guardians](https://hollow-court.com/host?tab=guardians). Tap **Preview Gilded Root spirit**, check its identity/charm and wake/leaf/catch/bow sequence. Try replay/pause, then tap for the shade greeting.
+2. Select **The Gilded Root → Test this reference** beneath either photo for recognition → correct 3D reveal. **Test the Looking Lens** should say **Lens ready · spirit assets ready**; a live match uses the same route. No saved movement setup is required for the centre entrance.
+3. Add varied real lighting/location references and negatives, then test unused photos/live clips on iPhone and Android with people in background. Final host art, live-phone recognition/repeated-scan stability and phone performance remain acceptance gates. Other guardians and guest 3D release remain separate work.
+
+Dependencies on sibling tasks: none; physical lamp already supplied by host, no budget change. Private input paths and diagnostics remain ignored. Commit(s) on main and unrelated dirty files: pending source checkpoint; no unrelated changes at session start. Read-only review limits are stated above; recorded desktop views are not phone FPS evidence.

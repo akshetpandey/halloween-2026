@@ -1,6 +1,6 @@
 # From reference photos to a guardian character
 
-Updated October 24, 2026. **The fox proves the authoring approach; the staged review workflow below is the reusable process proposed for the remaining guardians.** This is deliberate character modeling and animation from visual references, not an automatic photo-to-3D conversion. The host approved the clean modeled fox over the scan-derived version and asked for more playful movement, a pounce, a proper sit and a curious look toward the camera.
+Updated October 24, 2026. **The fox established the authoring approach; the staged review workflow was reused for the Gilded Root lamp, with its own silhouette, rig and leaf-catching performance.** This is deliberate character modeling and animation from visual references, not an automatic photo-to-3D conversion. The host approved the clean modeled fox over the scan-derived version and asked for more playful movement, a pounce, a proper sit and a curious look toward the camera.
 
 Use this alongside the [spirit prototype](guardian-spirit-prototype.md), [camera prototype](guardian-camera-prototype.md) and [physical roster](../physical/entity-plan.md). Narrative identity comes from the [approved character voices](../design/narrative-arc.md). Physical names and puzzle assignments still follow their current authoritative documents.
 
@@ -133,3 +133,5 @@ Package each approved guardian with:
 - A task-local handoff using the [repository template](../../coordination/handoff-template.md): status, decisions, owned files, branch/base and commit references, checks, deployment evidence, remaining acceptance and next guardian.
 
 Host approval of the fox establishes the visual direction. It does not approve every future guardian or eliminate the need for distinct storyboards and phone review. The process is successful when the prop is recognizable, the character has a clear little personality and the full reveal feels charming in motion while remaining small and dependable on a phone.
+
+Second worked example: [Gilded Root identity brief and storyboard](gilded-root-character.md), [recognition coverage](gilded-root-recognition-check.md), [model source](src/client/assets/gilded-root/SOURCE.md) and [release/review evidence](handoff-2026-10-24-gilded-root.md). The shared renderer now accepts a bounded fox/tree profile; the tree uses its own clip map/timing, planted roots and shade greeting. Authoring still needs guardian-specific decisions rather than a universal auto-rig.

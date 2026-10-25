@@ -2,6 +2,9 @@ import * as THREE from "three";
 import { GLTFLoader, type GLTF } from "three/addons/loaders/GLTFLoader.js";
 import { clone } from "three/addons/utils/SkeletonUtils.js";
 import { PANDA_MODEL, pandaClip } from "./panda-model";
+import { ROOT_MODEL, rootClip } from "./gilded-root-model";
+import { ROOT_TIMING, rootStory } from "./gilded-root-motion";
+import type { SpiritCharacter } from "./spirit-character";
 import {
   coverOrigin,
   FOX_TIMING,
@@ -10,14 +13,19 @@ import {
   type SpiritOrigin,
 } from "./spirit-motion";
 import type { SpiritAsset } from "./spirit-asset";
-let template: Promise<GLTF> | null = null;
-export function prepareFoxSpirit() {
-  if (!template)
-    template = new GLTFLoader().loadAsync(PANDA_MODEL.url).catch((e) => {
-      template = null;
-      throw e;
-    });
-  return template;
+const templates = new Map<SpiritCharacter, Promise<GLTF>>();
+export function prepareFoxSpirit(character: SpiritCharacter = "fox") {
+  let pending = templates.get(character);
+  if (!pending) {
+    pending = new GLTFLoader()
+      .loadAsync(character === "tree" ? ROOT_MODEL.url : PANDA_MODEL.url)
+      .catch((e) => {
+        templates.delete(character);
+        throw e;
+      });
+    templates.set(character, pending);
+  }
+  return pending;
 }
 export type SpiritStats = {
   fps: number;
@@ -43,8 +51,13 @@ export function mountFoxSpirit(
     stats: (stats: SpiritStats) => void;
   },
   asset?: SpiritAsset,
+  character: SpiritCharacter = "fox",
 ): SpiritStage {
   const started = performance.now();
+  // The tall shade/root silhouette needs more breathing room above the footer
+  // on short portrait phones; landscape already has a separate text column.
+  const heightRatio = (w: number, h: number) =>
+    character === "tree" ? (w <= h * 1.1 && h < 720 ? 0.45 : 0.53) : 0.45;
   const renderer = new THREE.WebGLRenderer({
     canvas,
     alpha: true,
@@ -180,7 +193,7 @@ export function mountFoxSpirit(
     camera.updateProjectionMatrix();
     fit = Math.min(
       (w * (w > h * 1.1 ? 0.54 : 1) * 0.79) / modelSize.x,
-      (h * 0.45) / modelSize.y,
+      (h * heightRatio(w, h)) / modelSize.y,
     );
     // Resizing clears the drawing buffer, even while the character is paused.
     if (model) render(performance.now(), true);
@@ -205,15 +218,22 @@ export function mountFoxSpirit(
         y: width > height * 1.1 ? 0.48 : 0.34,
         size: 1,
       }),
-      story = foxStory(choreographed ? elapsed : 0),
+      story =
+        character === "tree"
+          ? rootStory(choreographed ? elapsed : 0)
+          : foxStory(choreographed ? elapsed : 0),
       reaction = Math.max(0, 1 - (elapsed - replyAt) / 1.3),
       hop =
         Math.sin(Math.min(1, (elapsed - replyAt) / 0.7) * Math.PI) *
         Math.max(0, reaction) *
         height *
-        0.035;
+        (character === "tree" ? 0 : 0.035);
     const next = choreographed
-      ? actions.get(pandaClip(story.beat, actions))
+      ? actions.get(
+          character === "tree"
+            ? rootClip(story.beat)
+            : pandaClip(story.beat, actions),
+        )
       : actions.values().next().value;
     if (next && next !== active) {
       next.reset().play();
@@ -243,13 +263,15 @@ export function mountFoxSpirit(
     root.scale.setScalar(frameFit * pose.scale);
     // The scanned view never supplies rotation: the character faces the viewer.
     body.rotation.set(
-      0,
+      character === "tree" ? 0.14 : 0,
       turn,
-      story.bank + Math.sin(elapsed * 8) * reaction * 0.025,
+      story.bank +
+        (character === "tree" ? 0 : Math.sin(elapsed * 8) * reaction * 0.025),
     );
     for (const m of modelMaterials) {
       m.opacity = pose.opacity;
-      m.emissiveIntensity = 0.1 + pose.portal * 0.2 + reaction * 0.16;
+      m.emissiveIntensity =
+        (m.userData.baseEmission ?? 0.1) + pose.portal * 0.2 + reaction * 0.16;
     }
     const floor = root.position.y - modelSize.y * frameFit * pose.scale * 0.5,
       radius =
@@ -314,7 +336,7 @@ export function mountFoxSpirit(
       ? asset.bytes
         ? new GLTFLoader().parseAsync(asset.bytes, "")
         : new GLTFLoader().loadAsync(asset.url)
-      : prepareFoxSpirit()
+      : prepareFoxSpirit(character)
   )
     .then(async (gltf) => {
       if (disposed) return;
@@ -323,17 +345,40 @@ export function mountFoxSpirit(
       mixer = new THREE.AnimationMixer(model);
       for (const clip of gltf.animations) {
         const action = mixer.clipAction(clip);
-        if (["Anticipate", "Pounce", "Settle", "Curious"].includes(clip.name)) {
+        if (
+          [
+            "Anticipate",
+            "Pounce",
+            "Settle",
+            "Curious",
+            "Wake",
+            "ChaseLeaf",
+            "Catch",
+            "Bow",
+          ].includes(clip.name)
+        ) {
           action.setLoop(THREE.LoopOnce, 1);
           action.clampWhenFinished = true;
         }
         actions.set(clip.name, action);
       }
       choreographed =
-        !!model.getObjectByName("PandaHead") &&
-        ["Survey", "Run", "Settle", "Greet"].every((name) => actions.has(name));
-      if (choreographed) head = model.getObjectByName("PandaHead");
-      active = actions.get("Survey") ?? actions.values().next().value;
+        character === "tree"
+          ? !!model.getObjectByName("RootFace") &&
+            ["Idle", "Wake", "ChaseLeaf", "Catch", "Bow", "Greet"].every(
+              (name) => actions.has(name),
+            )
+          : !!model.getObjectByName("PandaHead") &&
+            ["Survey", "Run", "Settle", "Greet"].every((name) =>
+              actions.has(name),
+            );
+      if (choreographed)
+        head = model.getObjectByName(
+          character === "tree" ? "RootShade" : "PandaHead",
+        );
+      active =
+        actions.get(character === "tree" ? "Idle" : "Survey") ??
+        actions.values().next().value;
       active?.play();
       mixer.update(0);
       model.updateMatrixWorld(true);
@@ -351,7 +396,9 @@ export function mountFoxSpirit(
         const copies = materials.map((original) => {
           const copy = (original as THREE.MeshStandardMaterial).clone();
           if (!copy.emissive) copy.emissive = new THREE.Color();
-          copy.emissive.set(0x000000);
+          if (character === "fox") copy.emissive.set(0x000000);
+          copy.userData.baseEmission =
+            character === "tree" ? copy.emissiveIntensity : 0.1;
           copy.emissiveIntensity = 0.15;
           copy.transparent = true;
           copy.forceSinglePass = true;
@@ -362,7 +409,7 @@ export function mountFoxSpirit(
       });
       fit = Math.min(
         (width * (width > height * 1.1 ? 0.54 : 1) * 0.79) / modelSize.x,
-        (height * 0.45) / modelSize.y,
+        (height * heightRatio(width, height)) / modelSize.y,
       );
       await renderer.compileAsync(scene, camera);
       if (disposed) return;
@@ -384,13 +431,19 @@ export function mountFoxSpirit(
       elapsed = 0;
       replyAt = -100;
       mixer?.stopAllAction();
-      active = actions.get("Survey") ?? actions.values().next().value;
+      active =
+        actions.get(character === "tree" ? "Idle" : "Survey") ??
+        actions.values().next().value;
       active?.reset().play();
       mixer?.update(0);
       resume();
     },
     greet() {
-      if (choreographed) elapsed = Math.max(elapsed, FOX_TIMING.greet);
+      if (choreographed)
+        elapsed = Math.max(
+          elapsed,
+          character === "tree" ? ROOT_TIMING.greet : FOX_TIMING.greet,
+        );
       replyAt = elapsed;
       resume();
     },

@@ -5,17 +5,20 @@ import { GuardianArt } from "./Art";
 import { preloadFoxSpirit } from "./fox-spirit-loader";
 import { spiritOrigin, type SpiritOrigin } from "./spirit-motion";
 import type { SpiritStage, SpiritStats } from "./fox-spirit-runtime";
+import { spiritCharacters, type SpiritCharacter } from "./spirit-character";
 import type { SpiritAsset } from "./spirit-asset";
 import "./fox-spirit.css";
 const CENTRE = spiritOrigin();
 export default function FoxSpiritReveal({
   photo,
+  character = "fox",
   origin = CENTRE,
   onClose,
   onScanAgain,
   asset,
   onFrontChange,
 }: {
+  character?: SpiritCharacter;
   photo?: { url: string; width: number; height: number };
   origin?: SpiritOrigin | null;
   onClose: () => void;
@@ -23,6 +26,7 @@ export default function FoxSpiritReveal({
   asset?: SpiritAsset;
   onFrontChange?: (angle: number) => void;
 }) {
+  const identity = spiritCharacters[character];
   const canvas = useRef<HTMLCanvasElement>(null),
     dialog = useRef<HTMLElement>(null),
     stage = useRef<SpiritStage | null>(null);
@@ -50,7 +54,7 @@ export default function FoxSpiritReveal({
     setPaused(false);
     setFront(asset?.front ?? 0);
     if (!origin) return;
-    void preloadFoxSpirit()
+    void preloadFoxSpirit(character)
       .then((runtime) => {
         if (!alive || !canvas.current) return;
         stage.current = runtime.mountFoxSpirit(
@@ -72,6 +76,7 @@ export default function FoxSpiritReveal({
             },
           },
           asset,
+          character,
         );
         return stage.current.ready;
       })
@@ -95,6 +100,7 @@ export default function FoxSpiritReveal({
     photo?.height,
     retry,
     asset?.url,
+    character,
   ]);
   function greet() {
     if (!ready || paused) return;
@@ -111,7 +117,7 @@ export default function FoxSpiritReveal({
       }
       role="dialog"
       aria-modal="true"
-      aria-label="The Fox of Small Print awakens"
+      aria-label={`${identity.name} awakens`}
       tabIndex={-1}
       onKeyDown={(e) => {
         if (e.key === "Escape") onClose();
@@ -161,7 +167,11 @@ export default function FoxSpiritReveal({
             <RotateCcw size={18} />
           </button>
           <button
-            aria-label={paused ? "Resume fox animation" : "Pause fox animation"}
+            aria-label={
+              paused
+                ? `Resume ${identity.noun} animation`
+                : `Pause ${identity.noun} animation`
+            }
             disabled={!ready}
             onClick={() => {
               stage.current?.pause(!paused);
@@ -201,7 +211,7 @@ export default function FoxSpiritReveal({
         className="fox-spirit-canvas"
         role="button"
         tabIndex={0}
-        aria-label="Greet the fox"
+        aria-label={`Greet the ${identity.noun}`}
         onClick={greet}
         onKeyDown={(e) => {
           if (e.key === "Enter" || e.key === " ") {
@@ -219,8 +229,8 @@ export default function FoxSpiritReveal({
       )}
       {error && (
         <div className="fox-spirit-fallback">
-          <GuardianArt kind="fox" />
-          <p>The fox is here. Its magic is taking a moment.</p>
+          <GuardianArt kind={character} />
+          <p>{identity.name} is here. Its magic is taking a moment.</p>
           <button
             className="text-button"
             onClick={() => setRetry((n) => n + 1)}
@@ -231,20 +241,17 @@ export default function FoxSpiritReveal({
       )}
       <footer className="fox-spirit-footer">
         <span className="eyebrow">
-          {ready ? "A CREATURE STIRS" : "THE FOX OF SMALL PRINT"}
+          {ready ? "A CREATURE STIRS" : identity.name.toUpperCase()}
         </span>
-        <h2>{greeting ? "Well, hello there." : "You found me."}</h2>
-        <p className="fox-spirit-voice">
-          “The terms are before you.
-          <br />I do recommend reading them.”
-        </p>
+        <h2>{greeting ? identity.hello : "You found me."}</h2>
+        <p className="fox-spirit-voice">“{identity.greeting}”</p>
         <p className="fox-spirit-touch">
           {ready
             ? paused
               ? "Resting for a moment."
               : greeting
-                ? "A promising witness."
-                : "Tap the fox to say hello."
+                ? identity.response
+                : `Tap the ${identity.noun} to say hello.`
             : "The Court has been expecting you."}
         </p>
         <button className="btn" onClick={onScanAgain ?? onClose}>
@@ -260,22 +267,14 @@ export default function FoxSpiritReveal({
             </p>
           ) : (
             <>
-              <p>
-                An original woodland character inspired by the host’s LEGO 31394
-                red panda: warm orange, ivory markings, a striped tail and a
-                little mischief. Built for Hollow Court.
-              </p>
-              <p>
-                Clean modeled shapes, a connected bendable tail, blinking eyes
-                and custom head, ear and paw animation. The capture was used
-                only as a shape and color reference.
-              </p>
+              <p>{identity.credits}</p>
+              <p>{identity.craft}</p>
             </>
           )}
           <p>
             {stats
               ? `${stats.fps.toFixed(0)} FPS · ${stats.drawCalls} draw calls · ${stats.triangles.toLocaleString()} triangles · renderer ready ${(stats.readyMs / 1000).toFixed(2)}s`
-              : "Preparing the woodland red panda."}{" "}
+              : `Preparing ${identity.name}.`}{" "}
             Starting point:{" "}
             {origin?.source === "reference"
               ? "matched reference view"

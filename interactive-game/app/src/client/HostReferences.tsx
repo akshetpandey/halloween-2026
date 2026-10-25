@@ -19,6 +19,7 @@ import {
 } from "../shared/vision";
 export function HostReferences() {
   const [previewFox, setPreviewFox] = useState(false);
+  const [previewRoot, setPreviewRoot] = useState(false);
   const [capture, setCapture] = useState<SpiritAsset | undefined>();
   const captureURL = useRef("");
   useEffect(
@@ -225,6 +226,14 @@ export function HostReferences() {
           />
         </Suspense>
       )}
+      {previewRoot && (
+        <Suspense fallback={<p role="status">Opening the Gilded Root…</p>}>
+          <FoxSpiritReveal
+            character="tree"
+            onClose={() => setPreviewRoot(false)}
+          />
+        </Suspense>
+      )}
       <span className="eyebrow">FOR THE KEEPER · CAMERA PROTOTYPE</span>
       <h2>
         Teach the wood <em>its creatures.</em>
@@ -299,6 +308,13 @@ export function HostReferences() {
             >
               {capture ? "Preview captured guardian" : "Preview fox spirit"}
             </button>
+            <button
+              className="btn secondary"
+              disabled={busy}
+              onClick={() => setPreviewRoot(true)}
+            >
+              Preview Gilded Root spirit
+            </button>
             <label className="btn secondary file-button">
               Try a GLB capture
               <input
@@ -313,9 +329,9 @@ export function HostReferences() {
             </label>
           </div>
           <p className="small muted">
-            The fox now emerges as a 3D spirit and greets you at a consistent
-            screen size. Preview it directly, or recognize your fox through the
-            Lens to test the complete entrance.
+            The fox and Gilded Root emerge as 3D spirits and greet you at a
+            consistent screen size. Preview it directly, or recognize either
+            guardian through the Lens to test the complete entrance.
           </p>
           <p className="small muted">
             The fox uses a clean woodland character inspired by your red panda’s
@@ -351,6 +367,18 @@ export function HostReferences() {
                   ? "Centre the whole guardian inside the middle square of the photo, with a little space around it. Add its front, both sides, and a few views in dim light. Photos of this exact object work better than illustrations."
                   : "Add an empty shelf, nearby decoration or ordinary room object. These teach the lens when to say ‘not a guardian’."}
               </p>
+              {chosen?.art === "tree" && (
+                <p className="small muted">
+                  For this lamp, add warm, neutral and colored-light views in
+                  its intended location. Include different angles and distances,
+                  with the distinctive fork and trunk visible in the centre
+                  square. The Lens does not remember room coordinates, but
+                  backgrounds and lighting affect matching. Add empty-room and
+                  similar-lamp examples under “Room backgrounds”, then test
+                  fresh views with people behind it. Two photos begin the test;
+                  they do not establish reliability in a new setting.
+                </p>
+              )}
               <p className="small muted">
                 {photos.length} of {MAX_REFERENCES} reference views
                 {photos.length > 0 && photos.length < 3

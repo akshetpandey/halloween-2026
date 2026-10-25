@@ -1,0 +1,504 @@
+{
+  "date": "2026-10-24",
+  "model": "mobilenetv3-small-f32-b1a19675-features-v2",
+  "dimensions": 1024,
+  "weightsSha256": "a6232f9b79219f2c283cf3b058378248fa7e89c3d93d4b149bb9aa82ad5eff56",
+  "settings": {
+    "threshold": 0.8,
+    "margin": 0.04
+  },
+  "referenceCounts": {
+    "tree": 2,
+    "fox": 3,
+    "background": 0
+  },
+  "diagnosticAccepted": 27,
+  "diagnosticCount": 28,
+  "sourceExcludedAccepted": 0,
+  "conditions": [
+    {
+      "view": 1,
+      "condition": "original",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9299274612027548,
+        "gap": 0.8239399585120253
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7157994511039154,
+        "gap": 0.6098119484131859
+      }
+    },
+    {
+      "view": 1,
+      "condition": "exposure-0.5",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9157362751697444,
+        "gap": 0.8151337055664875
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6962482467417209,
+        "gap": 0.595645677138464
+      }
+    },
+    {
+      "view": 1,
+      "condition": "exposure-0.25",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8296825192735294,
+        "gap": 0.7330344706082627
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6628758768142937,
+        "gap": 0.566227828149027
+      }
+    },
+    {
+      "view": 1,
+      "condition": "desaturated",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8662374255735988,
+        "gap": 0.7873598251590004
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6708326790036536,
+        "gap": 0.5919550785890552
+      }
+    },
+    {
+      "view": 1,
+      "condition": "purple-tint",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8390038283034659,
+        "gap": 0.71364667455819
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6826880693965003,
+        "gap": 0.5573309156512243
+      }
+    },
+    {
+      "view": 1,
+      "condition": "blue-tint",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.825804020848823,
+        "gap": 0.7253756820991891
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6262451581488105,
+        "gap": 0.5258168193991767
+      }
+    },
+    {
+      "view": 1,
+      "condition": "frame-left-48px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9153062855535055,
+        "gap": 0.7999116349658945
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7147927883945363,
+        "gap": 0.5993981378069253
+      }
+    },
+    {
+      "view": 1,
+      "condition": "frame-right-48px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9075493709853305,
+        "gap": 0.806946310472405
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6730451238806405,
+        "gap": 0.572442063367715
+      }
+    },
+    {
+      "view": 1,
+      "condition": "frame-up-80px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8532554470671415,
+        "gap": 0.7592569153472822
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7026278753038188,
+        "gap": 0.6086293435839595
+      }
+    },
+    {
+      "view": 1,
+      "condition": "frame-down-80px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8640412624998881,
+        "gap": 0.7425897640580885
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.676576357537177,
+        "gap": 0.5551248590953775
+      }
+    },
+    {
+      "view": 1,
+      "condition": "zoom-in-1.15",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8639393921021972,
+        "gap": 0.746662822939433
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6128134945745031,
+        "gap": 0.4955369254117388
+      }
+    },
+    {
+      "view": 1,
+      "condition": "zoom-out-0.85-flat-padding",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8477223627922481,
+        "gap": 0.7529750119729596
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7447755525181504,
+        "gap": 0.6500282016988619
+      }
+    },
+    {
+      "view": 1,
+      "condition": "central-occluder",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8044739304682834,
+        "gap": 0.6608544347148562
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6939431539294758,
+        "gap": 0.5503236581760486
+      }
+    },
+    {
+      "view": 1,
+      "condition": "corner-occluder-control",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9246797125010782,
+        "gap": 0.8181142261348595
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7157330579502379,
+        "gap": 0.6091675715840192
+      }
+    },
+    {
+      "view": 2,
+      "condition": "original",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9401648011980674,
+        "gap": 0.7945388219702327
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7094030254342186,
+        "gap": 0.5637770462063839
+      }
+    },
+    {
+      "view": 2,
+      "condition": "exposure-0.5",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9136591200215304,
+        "gap": 0.7806858888943801
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7383323090913578,
+        "gap": 0.6053590779642075
+      }
+    },
+    {
+      "view": 2,
+      "condition": "exposure-0.25",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8409943828607472,
+        "gap": 0.7044515728890033
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6984561185737262,
+        "gap": 0.5619133086019823
+      }
+    },
+    {
+      "view": 2,
+      "condition": "desaturated",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.829884605461752,
+        "gap": 0.7103118540802068
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.629924165919914,
+        "gap": 0.5103514145383687
+      }
+    },
+    {
+      "view": 2,
+      "condition": "purple-tint",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8426244171642508,
+        "gap": 0.6690678267543777
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6156509098500162,
+        "gap": 0.4420943194401431
+      }
+    },
+    {
+      "view": 2,
+      "condition": "blue-tint",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8242193641634827,
+        "gap": 0.6699735267398876
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6316350989405638,
+        "gap": 0.47738926151696875
+      }
+    },
+    {
+      "view": 2,
+      "condition": "frame-left-48px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9271336593388655,
+        "gap": 0.779803662669467
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6892468024962884,
+        "gap": 0.54191680582689
+      }
+    },
+    {
+      "view": 2,
+      "condition": "frame-right-48px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.9264277149169158,
+        "gap": 0.7959467391428872
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7291763229932812,
+        "gap": 0.5986953472192525
+      }
+    },
+    {
+      "view": 2,
+      "condition": "frame-up-80px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8147292873769695,
+        "gap": 0.6986003244200807
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.596049846536989,
+        "gap": 0.47992088358010027
+      }
+    },
+    {
+      "view": 2,
+      "condition": "frame-down-80px",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8217668929715232,
+        "gap": 0.6698967128371628
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6623158609411276,
+        "gap": 0.5104456808067672
+      }
+    },
+    {
+      "view": 2,
+      "condition": "zoom-in-1.15",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8670332260984035,
+        "gap": 0.7254101106749256
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.744518124781877,
+        "gap": 0.602895009358399
+      }
+    },
+    {
+      "view": 2,
+      "condition": "zoom-out-0.85-flat-padding",
+      "sourceIncluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.7942026185628204,
+        "gap": 0.6787155461632641
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.5909685459271551,
+        "gap": 0.4754814735275988
+      }
+    },
+    {
+      "view": 2,
+      "condition": "central-occluder",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8557107670507974,
+        "gap": 0.6844476519491299
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6394995766144924,
+        "gap": 0.46823646151282494
+      }
+    },
+    {
+      "view": 2,
+      "condition": "corner-occluder-control",
+      "sourceIncluded": {
+        "identity": "tree",
+        "reason": "match",
+        "score": 0.8832069503623794,
+        "gap": 0.7379689385718455
+      },
+      "sourceExcluded": {
+        "identity": null,
+        "reason": "weak",
+        "score": 0.6705223584601268,
+        "gap": 0.5252843466695929
+      }
+    }
+  ],
+  "preprocessing": {
+    "crop": "center square .875 * min(width,height); 672x672 from 768x1024 fixtures; same as current worker",
+    "size": [
+      224,
+      224
+    ],
+    "layout": "NCHW RGB float32",
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "resampler": "Sharp/libvips Lanczos3; not pixel-identical to browser Canvas high-quality smoothing",
+    "matcher": "Imports current normalizeVector and matchGuardian directly"
+  },
+  "limitations": [
+    "Two enrollment photographs of the same lamp; source-included tests measure perturbation sensitivity, not independent accuracy",
+    "Source-excluded tests use the other already-enrolled angle, still not an independent room/lighting capture",
+    "Brightness is multiplication of encoded RGB values; tints are simple channel gains; neither reproduces actual LED spectra or phone exposure/noise processing",
+    "Scale-out fills unavailable surrounding context with a flat color",
+    "Occluders are flat rectangles covering 3.6% of cropped input area, not people",
+    "Gallery contains only this lamp and fox; no room-background negatives",
+    "No phone/browser/end-to-end stability timing measured; offline runtime single-thread CPU"
+  ],
+  "primarySources": [
+    "https://arxiv.org/abs/1903.12261",
+    "https://arxiv.org/abs/1811.12231",
+    "https://developers.google.com/edge/mediapipe/solutions/vision/image_embedder"
+  ]
+}

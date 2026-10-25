@@ -1,6 +1,6 @@
 # Foreground-first guardian recognition pilot
 
-October 24, 2026. **Implemented and locally verified; phone/party-light validation remains open.** This extends [the runtime review](guardian-recognition-review-2026-10-24.md) in response to the host's preference for recall over precision: a missed guardian is worse than an occasional mistaken suggestion, but empty rooms must not wake guardians continuously.
+October 24, 2026. **Deployed and locally/browser verified; phone/party-light validation remains open.** Source `7481924`; Worker version `f85ef590-f459-49e1-950c-c75f75130a4b`. This extends [the runtime review](guardian-recognition-review-2026-10-24.md) in response to the host's preference for recall over precision: a missed guardian is worse than an occasional mistaken suggestion, but empty rooms must not wake guardians continuously.
 
 ## Decision and behavior
 

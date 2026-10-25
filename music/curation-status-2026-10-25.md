@@ -1,40 +1,43 @@
 # Music curation progress · October 25
 
-The final requirement remains **nine hours in each room after real edits, transitions and unavailable recordings**. Track counts below are working planning targets, not a substitute for measuring the final programme. Counts come from the authoritative hosted Playlist Lab database, backed up with SQLite's online backup API before preparing the next batches. No votes were changed.
+Latest snapshot follows the completed living Batch 07 and bedroom Batch 02, plus import of the next 50 per room. Counts come from the authoritative hosted database and fresh SQLite backups; all old votes/notes were preserved. **Each room still needs nine hours after actual edits, transitions and unavailable recordings.** New review candidates do not count as approved music.
 
-| Room | Host Keeps | Approved raw duration | Reviewed candidates | Cuts | Older unrated | Working Keep target | More Keeps needed |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Living room · October Grove | 55 | 3:21:29 | 302 | 247 | 39 | 160–170 | 105–115 |
-| Bedroom · The Hollow | 25 | 2:07:12 | 50 | 25 | 0 | About 220 | About 195 |
+| Room | Keeps | Approved raw time | Reviewed | Cuts | Older pending | New pending | Working Keep target | More Keeps needed |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Living · October Grove | 72 | 4:16:02 | 352 | 280 | 39 | 50 | About 170 | About 98 |
+| Bedroom · The Hollow | 45 | 3:44:10 | 100 | 55 | 0 | 50 | About 220 | About 175 |
 
-**Approved music, live Spotify content and finished audio are different inventories.** A fresh Spotify read still found 48 tracks / 2:57:46 in the living-room main: the seven newly approved Batch 06 tracks have not been synced there. The bedroom Spotify URL still holds the 50-track Batch 01 audition. Its 25 Keeps are not a finished sequence. The read-only approved-file exporter now lists 25 bedroom recordings but zero verified production-file bindings. The 19:42 demo is a successful test of the production direction, not a nine-hour approved master.
+At import, the library contains **591 records: living 441 / bedroom 150**. The living Needs review queue has 89 choices, including 39 older Batch 05 entries; bedroom has 50. Neither queue includes Cuts. Saved global Likes remain distinct from party Keeps.
 
-## Why those track targets
+## Current batches
 
-Living-room Keeps currently average **3:39.8 raw**. Roughly 165 similar-length tracks give about 10:04 raw; illustrative 10–15-second overlaps leave about 9:23–9:37. These are planning scenarios, not a Google Home crossfade test. 160–170 provides a useful working range while we add individual tracks and keep artist/album concentration low.
+| Room | Review | Spotify audition | New tracks | Raw time | ReccoBeats | YouTube candidates |
+|---|---|---|---:|---:|---:|---:|
+| Living | [Batch 08 · Closer to the groove](https://music.hollow-court.com/?room=living-room&batch=08) | [Spotify](https://open.spotify.com/playlist/5RuTtiUr0Gh8MDyaOEqYCh) | 50 | 2:37:36 | 39/50 | 43/50 |
+| Bedroom | [Batch 03 · Bounce under pressure](https://music.hollow-court.com/?room=bedroom&batch=hollow-03) | [Spotify](https://open.spotify.com/playlist/7vyjIIQ91hAiJGmfBBfhNF) | 50 | 2:59:19 | 34/50 | 49/50 |
 
-The bedroom demo averaged only **1:38.5 net per recording**: repeating that density for nine hours would require 329 tracks. The full set should give developing tracks more room, at roughly **2½–3 minutes net** on average. Nine hours then needs 216 or 180 tracks respectively. A target of about 220 Keeps supports the faster end of that range. Actual chapter renders decide the total; adding 220 raw tracks alone cannot establish readiness.
+[Living selection guide](living-room/october-grove-batch-08.md) · [Bedroom selection guide](bedroom/the-hollow-batch-03.md) · [Publication/import handoff](handoff-2026-10-25-liked-batches.md).
 
-The explicit-offset event window remains 7.5 elapsed hours, with the extra prepared material as reserve. The nine-hour target does not extend the 4 a.m. closing.
+Private saved-library sourcing supplied 91 of the 100 candidates; nine new bedroom discoveries add acid/producer variety. The complete 2,699-track source export, saved timestamps and per-track source-membership map remain ignored. All 100 are exact Spotify US-playable recordings. Deduplication covers all 491 prior review records, each other and the old 140-track bedroom pool by URI/ISRC and same-artist/base-title checks. No credited artist appears more than twice within either batch; each batch has 50 distinct album IDs.
 
-## What the latest votes change
+Both Spotify orders and signed-in hosted pages passed verification. Spotify still reports the auditions as public despite private creation/update requests; Access protects the review pages and votes. No main playlist or Spotify Likes were changed. Catalog descriptors are not actual-file analysis; video candidates are not guaranteed identical versions or embeddable. Missing metrics stay unknown, without extra manual rating work.
 
-Living Batch 06 is complete: **7 Keep / 43 Cut**. Its winners were Saving Up, Raingurl, I Get Around, Makeba, Jungle, We Are Your Friends and Clap Your Hands. The next batch focuses more closely on compact vocal/club hooks and bounce, using all 55 approved tracks and the rejection history rather than repeating the broad dance-punk/global expansion. A Cut is evidence about that recording, not a ban on the entire artist or genre. The 39 unrated Batch 05 tracks remain available separately and are not fabricated rejections.
+## What the completed votes support
 
-Bedroom Batch 01 is complete: **25 Keep / 25 Cut**. Acid kept 6/10; techno, tech house and trance each 5/10; DnB 4/10. Contemporary acid and bouncy trance performed better than most classic-trance probes. Batch 02 will retain all five lanes, with a modest acid emphasis, returning winning producers and new artists. Neither catalog energy nor one narrow BPM cutoff explains the votes.
+Living Batch 07 returned **17 Keep / 33 Cut**, compared with 7/50 kept in Batch 06. Breathe, My Love, Hurting, On My Mind, Forget It, Do It To It, 360, 2 Die 4, Eat Your Man and Fasta support a stronger vocal/bass-hook focus. The new batch uses varied house/club and selected dance-pop candidates from the private source pool. Neither a familiar producer nor a global Like is automatic room approval. The earlier 39 pending choices remain available separately.
 
-**Two new 50-track batches are live:** [living Batch 07](https://music.hollow-court.com/?room=living-room&batch=07) ([guide](living-room/october-grove-batch-07.md)) and [bedroom Batch 02](https://music.hollow-court.com/?room=bedroom&batch=hollow-02) ([guide](bedroom/the-hollow-batch-02.md)). The hosted library now contains **391 living / 100 bedroom records**, with **89 / 50 unrated** respectively. All 391 previous track records and every saved vote, note, listening score and snapshot were preserved. New candidates do not count toward Keep targets until approved. Catalog enrichment covers 95/100 with ReccoBeats and 93/100 with YouTube listening candidates; Spotify fallback remains. These are catalog/identity checks, not independent listening or guaranteed video embeddability.
+Bedroom Batch 02 returned **20 Keep / 30 Cut**: Acid 6/12, Tech house 4/9, Techno 4/11, Trance 3/10 and DnB 3/8 kept. Batch 03 gives acid a modest emphasis: 14 Acid / 12 Techno / 9 Trance / 8 Tech house / 7 DnB. It retains dark, bouncy pressure while varying producers and exact recordings. Both rooms' interpretations are hypotheses: no written reasons accompanied the latest votes.
 
-## Improve the mix without changing the successful approach
+## Live music and runtime targets
 
-The host said the supplied mix sounds great on October 25. This supports continuing REAPER/Python; it does not assert that every join or downbeat was individually checked. Six demo recordings are now Keeps and six Cuts. The next production sequence must replace the Cuts, even though the overall mix received positive feedback.
+The living main remains the API-verified **48 tracks / 2:57:46**, in its October 11 order; **24 newer Keeps are not yet synced**. The new 50-track auditions are separate. The bedroom approved-file exporter now lists 45 Keeps, but **zero verified production-file bindings**. Catalog tracks, live playlists, acquired exact files and finished mixes are different inventories.
 
-Priority order:
+Living Keeps average roughly **3:33 raw**. At this observed length, 165 tracks with hypothetical 15-second joins yield about 9:06; 170 yield about 9:22. Shorter future approvals may need more tracks, so use **about 170** as a working target and measure the real programme. This updates the earlier 160–170 planning range toward its safer end; it is not a Google Home crossfade test.
 
-1. **Refine cuts and pacing.** Check the musical downbeat and 8/16/32-bar phrase phase around each join, preserve builds that earn their payoff, and let stronger tracks play longer. Make coherent 60–90-minute genre/energy chapters rather than repeating the sample's quick tour of all five genres.
-2. **Choose compatible transition partners.** Add actual-file tonal/key strength and vocal/lead overlap checks alongside tempo. Use percussion-led joins and short bass swaps where melodies conflict. Stems are a selective rescue for worthwhile joins, not a requirement to process every file or transpose every track. Essentia's [KeyExtractor](https://essentia.upf.edu/reference/std_KeyExtractor.html) exposes key/scale/strength; that remains a proposed analysis addition, not an installed or validated component here.
-3. **Match the shortened sections and rehearse the output.** Measure retained bodies and overlaps rather than relying only on whole-track LUFS. Keep drops impactful without abrupt gain jumps, use verified production masters, and test the actual FLX4/two-speaker route. The existing −17.17 LUFS / −2 dBTP demo does not justify heavier limiting merely to make it louder.
+For bedroom, roughly **2½–3 minutes net** per recording requires 216–180 tracks for nine hours. About 220 Keeps remains a practical working target. The quick demo's 1:38.5 net average should not dictate the long set. Loop-bridge extensions cannot pad the new planner's nine-hour gate. The explicit-offset event window remains 7.5 elapsed hours because of the rollback; nine prepared hours provide reserve without extending the 4 a.m. closing.
 
-The native [ReaScript route](https://www.reaper.fm/sdk/reascript/reascript.php) already supports repeatable editing and automation. No new DAW, paid plugin or software upgrade is required by these proposed refinements. The agent continues owning detailed production choices; host review remains the track-taste filter.
+## Mix system status
 
-[Living-room plan](living-room/playlist.md) · [Bedroom plan](bedroom/playlist.md) · [Premix plan](bedroom/premixed-set-plan-2026-10-19.md) · [Existing audition and measured results](bedroom/premix/AUDITION-01.md)
+The host liked the original 19:42 real-audio audition. Continue REAPER/Python and preserve host Cuts. [Audio intelligence](bedroom/premix/AUDIO-INTELLIGENCE.md), the [planner](bedroom/premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking extension](bedroom/premix/TRANSITION-AUTOMATION.md) are now implemented and tested. The latest extension passed 80 tests and native build/readback on procedural sources and six approved engineering sources, with no new audio rendering. This curation turn changed neither that code nor the original sample.
+
+Next acquire/bind approved production versions, complete vocal evidence and unresolved phrase/grid checks, then perform a later sound/peak comparison when rendering resumes. Build coherent chapters, prove nine actual hours and rehearse FLX4/two speakers, separate Google Homes, backups and muted Jellyfin. No physical playback rehearsal, new source audio acquisition, purchase or audio upload happened in this curation turn.

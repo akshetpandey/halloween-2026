@@ -1,6 +1,6 @@
 # October Grove 08 · Closer to the groove
 
-Prepared October 25, 2026. **50 new candidates for host review; not an approved party sequence.** Hosted import is pending until the verification note below is updated.
+Prepared October 25, 2026. **50 new candidates for host review; not an approved party sequence.** Published and imported into the protected listening room; signed-in Chrome verification passed.
 
 [Review this batch](https://music.hollow-court.com/?room=living-room&batch=08) · [Exact track data](october-grove-batch-08.json) · [Spotify audition](https://open.spotify.com/playlist/5RuTtiUr0Gh8MDyaOEqYCh)
 
@@ -71,4 +71,4 @@ Spotify reports the audition as public despite private creation/update requests.
 
 Detailed selection hypotheses, risks, exact identity checks and sourced metadata are in the JSON. No new source audio was acquired or uploaded, no vote was changed, and no mix was rendered.
 
-Spotify publication: exact 50-track order independently read back; hosted import is pending.
+Publication/import verified October 25: exact Spotify order, 50 sequential unrated entries in the correct hosted room, preserved prior track records/votes/notes/scores/snapshots, SQLite integrity and signed-in Chrome page. No test votes were cast.

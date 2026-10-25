@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-10-25T23:29:28Z",
+  "old_track_records_unchanged": 491,
+  "new_track_records_exact": 100,
+  "old_tables_preserved": {
+    "feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "snapshots": true,
+    "events": true
+  },
+  "new_unrated": 100,
+  "sqlite_integrity": "ok",
+  "counts": {
+    "living-room": {
+      "total": 441,
+      "votes": {
+        "down": 280,
+        "up": 72,
+        "unrated": 89
+      }
+    },
+    "bedroom": {
+      "total": 150,
+      "votes": {
+        "up": 45,
+        "down": 55,
+        "unrated": 50
+      }
+    }
+  },
+  "security_configuration_changed": false,
+  "liked_source_snapshot_count": 2699,
+  "private_eligible_source_count": 2483,
+  "selected_from_private_source": 91,
+  "spotify_exact_orders_verified": true,
+  "browser_pages_verified": true,
+  "queue_checks": {
+    "living-room": {
+      "latest": "08",
+      "new_unrated": 50,
+      "needs_review": 89,
+      "cuts_in_needs_review": 0
+    },
+    "bedroom": {
+      "latest": "hollow-03",
+      "new_unrated": 50,
+      "needs_review": 50,
+      "cuts_in_needs_review": 0
+    }
+  },
+  "reccobeats": 73,
+  "youtube_candidates": 92,
+  "artist_genres_nonempty": 88,
+  "main_playlist_changed": false,
+  "spotify_likes_changed": false,
+  "audio_acquired": false,
+  "audio_uploaded": false,
+  "new_mix_rendered": false,
+  "purchases_usd": 0
+}

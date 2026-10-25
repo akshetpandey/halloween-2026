@@ -1,12 +1,12 @@
 # Playlist Lab
 
-**Hosted status October 25:** two new 50-track batches are live: [October Grove Batch 07](https://music.hollow-court.com/?room=living-room&batch=07) and [The Hollow Batch 02](https://music.hollow-court.com/?room=bedroom&batch=hollow-02). The hosted library contains **491 records: 391 living room / 100 bedroom**. At import, living has 55 Keep / 247 Cut / 89 unrated; bedroom 25 Keep / 25 Cut / 50 unrated. All 391 previous serialized track records, host/reviewer feedback, notes, listening scores and snapshots were preserved exactly. Current votes may change after this snapshot. See [counts, duration and targets](../curation-status-2026-10-25.md).
+**Latest hosted status · October 25:** [October Grove Batch 08](https://music.hollow-court.com/?room=living-room&batch=08) and [The Hollow Batch 03](https://music.hollow-court.com/?room=bedroom&batch=hollow-03) each contain 50 new unrated candidates. Both signed-in Chrome pages and Spotify orders are verified. The hosted library has **591 records: living 441 (72 Keep / 280 Cut / 89 unrated), bedroom 150 (45 Keep / 55 Cut / 50 unrated)** at import. The 39 extra living pending choices are older Batch 05 entries. All 491 previous serialized track records, votes, notes, scores, events and snapshots were preserved. [Current handoff](../handoff-2026-10-25-liked-batches.md).
 
-A Python tool for persistent track votes, embedded listening, sourced metadata and exact Spotify API playlist management. The existing Compose/Access setup was retained. Both signed-in hosted batch pages show the correct new 50, room counts, Spotify audition links and sourced details. Compose publishes no host port; correct-host origin requests without a signed JWT return 401. Anonymous CLI traffic was denied by Cloudflare with 403/1010 (a client-access block, not a fresh Access-login redirect test). No Cloudflare settings or permissions changed. [Hosting guide](HOSTING.md) · [Import and verification handoff](../handoff-2026-10-25-batches-and-progress.md).
+Private saved-library sourcing supplied 91 of these 100 recordings, filtered for room fit and deduplicated against prior reviews/old bedroom pool. A library save is not a party approval. Full exports, saved timestamps, OAuth credentials and source-membership mapping remain ignored. No Spotify Likes were changed. New metadata coverage: **73/100 ReccoBeats, 92/100 YouTube candidates and 88/100 nonempty artist genres**; all selected artist lookups completed. Missing values remain unknown and no manual metric entry is required. [Living guide](../living-room/october-grove-batch-08.md) · [Bedroom guide](../bedroom/the-hollow-batch-03.md).
 
-**Main playlist status, rechecked October 25:** the live [October Grove playlist](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) remains 48 Keeps / 2:57:46 raw in the exact [saved order](../living-room/october-grove-approved-2026-10-11.json). Seven new Keeps are not yet synced. The older bedroom Spotify URL still holds Batch 01. This round created separate audition playlists; neither existing playlist changed. Votes do not automatically sync to Spotify. No Google Home playback test is claimed.
+The main living Spotify playlist remains the verified **48-track October 11 order**; 24 newer Keeps are not synced. The two new auditions are separate. Spotify reports their visibility as **public despite private creation/update requests**; Access protects the review page and votes, not Spotify links. No app code, Access/DNS/Tunnel setting or permissions changed. Compose has no published host ports; expected-host origin without JWT returns 401 and an unexpected Host returns 403. [Hosting](HOSTING.md) · [Current counts/targets](../curation-status-2026-10-25.md).
 
-**Latest calibration:** [Living Batch 07](../living-room/october-grove-batch-07.md) follows Batch 06's 7 Keep / 43 Cut result; 39 older Batch 05 choices remain unrated. [Bedroom Batch 02](../bedroom/the-hollow-batch-02.md) follows Batch 01's 25 Keep / 25 Cut, with slightly more acid and contemporary rave/trance. Both new exact 50-track Spotify orders are verified. Spotify reports both auditions as public despite private creation requests; Access protects the review app and its votes, not Spotify links. New catalog coverage: **95/100 ReccoBeats, 93/100 YouTube candidates**. All tracks have artist-genre lookups, with nonempty genres for 84/100. Missing values remain unknown; descriptors are not independent audio analysis and videos are not guaranteed identical/embeddable.
+A Python tool for persistent track votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted votes remain distinct from the old local database. No Google Home or physical playback test is claimed.
 
 ## Listen and vote now
 
@@ -22,8 +22,10 @@ python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-0
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-05.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-06.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-07.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-08.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-01.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-02.json
+python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-03.json
 python3 music/playlist-lab/lab.py serve
 ```
 

@@ -1,0 +1,436 @@
+{
+  "checked_at": "2026-10-25T22:15:04.039935+00:00",
+  "version": "mix-planner-1",
+  "scope": "Unrendered planning system; six current host Keeps using existing audition copies. Production source bindings remain missing.",
+  "source_policy": "audition engineering test",
+  "host_votes_changed": false,
+  "audio_uploaded": false,
+  "new_music_acquired": false,
+  "reaper_launched": false,
+  "audio_rendered": false,
+  "party_ready": false,
+  "purchase_cost_usd": 0,
+  "planned_track_count": 6,
+  "planned_seconds": 868.4859778475695,
+  "other_approved_tracks_missing_test_analysis": 19,
+  "production_gate": {
+    "planned_track_count": 0,
+    "blocked_approvals": 25,
+    "expected_exit_code": 2
+  },
+  "tracks": [
+    {
+      "id": "hollow-01-002",
+      "artist": "Mau P",
+      "title": "Drugs From Amsterdam",
+      "lane": "Tech house",
+      "source_sha256": "492e2a6fa1b6029752c5898442feec32fb1dd6b43eb0ce1d2d86741c8db416be",
+      "ranges": [
+        [
+          40.05727254639602,
+          209.02027744050744
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 124.99777695854686,
+        "anchor_seconds": 1.6565896159161637,
+        "beat_support": 0.9690265486725663,
+        "bar_support": 0.7793103448275862,
+        "splice_supported": true,
+        "shift_from_baseline_seconds": 0.5182275368736649,
+        "human_verified": false,
+        "notes": [],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 0.0,
+      "end_seconds": 168.62500731055678,
+      "incoming_bpm": 124.99777695854686,
+      "outgoing_bpm": 125.49927184220809,
+      "source_bpm": 124.99777695854686,
+      "rate_range": [
+        1.0,
+        1.0040120304205693
+      ],
+      "gain_db": -4.0,
+      "boundary_vocal_candidates": {
+        "entry": 0.0,
+        "exit": 0.0
+      },
+      "vocal_evidence_available": true,
+      "original_source_seconds": 236.41397916666668,
+      "original_whole_track_lufs": -10.2,
+      "retained_body_lufs": -10.0,
+      "retained_body_true_peak_dbfs": 0.9,
+      "expected_body_lufs_before_master": -14.0
+    },
+    {
+      "id": "hollow-01-007",
+      "artist": "John Summit",
+      "title": "Deep End",
+      "lane": "Tech house",
+      "source_sha256": "0461e346ba6ff3a50e3a5246ca0434105ba6572db62eeda6c1860f33f0e0a780",
+      "ranges": [
+        [
+          62.41506713321611,
+          155.74783252491707
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 126.0007667258693,
+        "anchor_seconds": 1.4630570814930304,
+        "beat_support": 0.9054878048780488,
+        "bar_support": 0.7142857142857143,
+        "splice_supported": true,
+        "shift_from_baseline_seconds": 1.2187554223841288,
+        "human_verified": false,
+        "notes": [],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 160.97556053761437,
+      "end_seconds": 254.1257230917305,
+      "incoming_bpm": 125.49927184220809,
+      "outgoing_bpm": 127.00020543475543,
+      "source_bpm": 126.0007667258693,
+      "rate_range": [
+        0.9960199060950774,
+        1.0079320049778788
+      ],
+      "gain_db": -6.4,
+      "boundary_vocal_candidates": {
+        "entry": 0.28571428571428864,
+        "exit": 0.0
+      },
+      "vocal_evidence_available": true,
+      "original_source_seconds": 156.21047916666666,
+      "original_whole_track_lufs": -9.6,
+      "retained_body_lufs": -9.3,
+      "retained_body_true_peak_dbfs": 3.4,
+      "expected_body_lufs_before_master": -15.700000000000001
+    },
+    {
+      "id": "hollow-01-044",
+      "artist": "Reinier Zonneveld",
+      "title": "Acid Incident",
+      "lane": "Acid",
+      "source_sha256": "d8040a4574534617f734d189f636a4f60eb102226379d45ba12452ccd50550b0",
+      "ranges": [
+        [
+          114.39202824575237,
+          279.3924869681148
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 127.99964414364155,
+        "anchor_seconds": 0.01671026775117336,
+        "beat_support": 0.9006060606060606,
+        "bar_support": 0.7592592592592593,
+        "splice_supported": true,
+        "shift_from_baseline_seconds": -0.6645136023226376,
+        "human_verified": false,
+        "notes": [],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 246.56668020110158,
+      "end_seconds": 412.2148390393138,
+      "incoming_bpm": 127.00020543475543,
+      "outgoing_bpm": 127.99964414364155,
+      "source_bpm": 127.99964414364155,
+      "rate_range": [
+        0.9921918633792095,
+        1.0
+      ],
+      "gain_db": -6.5,
+      "boundary_vocal_candidates": {
+        "entry": null,
+        "exit": null
+      },
+      "vocal_evidence_available": false,
+      "original_source_seconds": 376.17189583333334,
+      "original_whole_track_lufs": -7.6,
+      "retained_body_lufs": -7.5,
+      "retained_body_true_peak_dbfs": 2.9,
+      "expected_body_lufs_before_master": -14.0
+    },
+    {
+      "id": "hollow-01-031",
+      "artist": "Eli Brown",
+      "title": "Be The One",
+      "lane": "Techno",
+      "source_sha256": "e9839f1589f123910365b47536172baaad47941c8c3eaa4cfe846fa306942621",
+      "ranges": [
+        [
+          1.3182742458268883,
+          146.023405805567
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 136.00070562718992,
+        "anchor_seconds": 1.3182742458268883,
+        "beat_support": 0.9973333333333333,
+        "bar_support": 0.55,
+        "splice_supported": false,
+        "shift_from_baseline_seconds": -0.21290117138873743,
+        "human_verified": false,
+        "notes": [
+          "uncertain bar phase: disable interior splices and use a reset"
+        ],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 412.1348390393138,
+      "end_seconds": 556.839970599054,
+      "incoming_bpm": 136.00070562718992,
+      "outgoing_bpm": 136.00070562718992,
+      "source_bpm": 136.00070562718992,
+      "rate_range": [
+        1.0,
+        1.0
+      ],
+      "gain_db": -6.5,
+      "boundary_vocal_candidates": {
+        "entry": null,
+        "exit": null
+      },
+      "vocal_evidence_available": false,
+      "original_source_seconds": 169.85295833333333,
+      "original_whole_track_lufs": -7.4,
+      "retained_body_lufs": -7.5,
+      "retained_body_true_peak_dbfs": 2.2,
+      "expected_body_lufs_before_master": -14.0
+    },
+    {
+      "id": "hollow-01-008",
+      "artist": "Sub Focus",
+      "title": "Solar System",
+      "lane": "Drum & bass",
+      "source_sha256": "40a9510238df6f6792affc23d6c2d272bceae8044ead2e011cf64926810e987a",
+      "ranges": [
+        [
+          0.4863949080274248,
+          166.00348625324244
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 174.00015772348567,
+        "anchor_seconds": 0.4863949080274248,
+        "beat_support": 0.9942857142857143,
+        "bar_support": 0.988950276243094,
+        "splice_supported": true,
+        "shift_from_baseline_seconds": -0.8455169831338829,
+        "human_verified": false,
+        "notes": [],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 556.759970599054,
+      "end_seconds": 722.2776461628731,
+      "incoming_bpm": 174.00015772348567,
+      "outgoing_bpm": 173.99892940761703,
+      "source_bpm": 174.00015772348567,
+      "rate_range": [
+        0.9999929407197975,
+        1.0
+      ],
+      "gain_db": -6.8,
+      "boundary_vocal_candidates": {
+        "entry": null,
+        "exit": null
+      },
+      "vocal_evidence_available": false,
+      "original_source_seconds": 289.4831875,
+      "original_whole_track_lufs": -7.2,
+      "retained_body_lufs": -7.5,
+      "retained_body_true_peak_dbfs": 3.8,
+      "expected_body_lufs_before_master": -14.3
+    },
+    {
+      "id": "hollow-01-013",
+      "artist": "Dimension",
+      "title": "DJ Turn It Up",
+      "lane": "Drum & bass",
+      "source_sha256": "f18c7dd076f9a535f23133e874c55812ed5701c0246062d7b9c3a7a8ab886ba4",
+      "ranges": [
+        [
+          22.106603823869342,
+          173.83274637835842
+        ]
+      ],
+      "removed_repeats": [],
+      "grid": {
+        "bpm": 173.9977010917484,
+        "anchor_seconds": 0.03734672503456688,
+        "beat_support": 0.9848942598187311,
+        "bar_support": 0.7589285714285714,
+        "splice_supported": true,
+        "shift_from_baseline_seconds": 0.032944187512074535,
+        "human_verified": false,
+        "notes": [],
+        "method": "baseline measured tempo; circular model beat phase and dominant 4/4 class; heuristic support, not probability"
+      },
+      "start_seconds": 716.7603708367068,
+      "end_seconds": 868.4859778475695,
+      "incoming_bpm": 173.99892940761703,
+      "outgoing_bpm": 173.9977010917484,
+      "source_bpm": 173.9977010917484,
+      "rate_range": [
+        1.0,
+        1.0000070593798707
+      ],
+      "gain_db": -10.5,
+      "boundary_vocal_candidates": {
+        "entry": null,
+        "exit": null
+      },
+      "vocal_evidence_available": false,
+      "original_source_seconds": 177.92291666666668,
+      "original_whole_track_lufs": -3.8,
+      "retained_body_lufs": -3.5,
+      "retained_body_true_peak_dbfs": 5.4,
+      "expected_body_lufs_before_master": -14.0
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "short_bass_swap",
+      "bars": 4,
+      "overlap_seconds": 7.649446772942403,
+      "incoming_bpm": 125.49927184220809,
+      "outgoing_bpm": 125.49927184220809,
+      "vocal_overlap": 0.0,
+      "harmonic_cost": 0.5,
+      "local_keys": [
+        [
+          3,
+          "minor"
+        ],
+        null
+      ],
+      "cost": 0.5,
+      "reason": "score aligned vocal activity, local harmony and blend length; no key transposition"
+    },
+    {
+      "kind": "short_bass_swap",
+      "bars": 4,
+      "overlap_seconds": 7.559042890628917,
+      "incoming_bpm": 127.00020543475543,
+      "outgoing_bpm": 127.00020543475543,
+      "vocal_overlap": null,
+      "harmonic_cost": 0.5,
+      "local_keys": [
+        null,
+        [
+          0,
+          "major"
+        ]
+      ],
+      "cost": 1.5,
+      "reason": "score aligned vocal activity, local harmony and blend length; no key transposition"
+    },
+    {
+      "kind": "reset",
+      "bars": 0,
+      "overlap_seconds": 0.08,
+      "incoming_bpm": 136.00070562718992,
+      "outgoing_bpm": 127.99964414364155,
+      "vocal_overlap": null,
+      "harmonic_cost": null,
+      "cost": 2.0,
+      "reason": "tempo/family/phase uncertainty: intentional short reset; no forced beatmatch"
+    },
+    {
+      "kind": "reset",
+      "bars": 0,
+      "overlap_seconds": 0.08,
+      "incoming_bpm": 174.00015772348567,
+      "outgoing_bpm": 136.00070562718992,
+      "vocal_overlap": null,
+      "harmonic_cost": null,
+      "cost": 2.0,
+      "reason": "tempo/family/phase uncertainty: intentional short reset; no forced beatmatch"
+    },
+    {
+      "kind": "short_bass_swap",
+      "bars": 4,
+      "overlap_seconds": 5.517275326166316,
+      "incoming_bpm": 173.99892940761703,
+      "outgoing_bpm": 173.99892940761703,
+      "vocal_overlap": null,
+      "harmonic_cost": 0.1,
+      "local_keys": [
+        [
+          5,
+          "minor"
+        ],
+        [
+          0,
+          "minor"
+        ]
+      ],
+      "cost": 1.1,
+      "reason": "score aligned vocal activity, local harmony and blend length; no key transposition"
+    }
+  ],
+  "chapters": [
+    {
+      "lane": "Tech house",
+      "start_seconds": 0.0,
+      "end_seconds": 254.1257230917305,
+      "ids": [
+        "hollow-01-002",
+        "hollow-01-007"
+      ]
+    },
+    {
+      "lane": "Acid",
+      "start_seconds": 246.56668020110158,
+      "end_seconds": 412.2148390393138,
+      "ids": [
+        "hollow-01-044"
+      ]
+    },
+    {
+      "lane": "Techno",
+      "start_seconds": 412.1348390393138,
+      "end_seconds": 556.839970599054,
+      "ids": [
+        "hollow-01-031"
+      ]
+    },
+    {
+      "lane": "Drum & bass",
+      "start_seconds": 556.759970599054,
+      "end_seconds": 868.4859778475695,
+      "ids": [
+        "hollow-01-008",
+        "hollow-01-013"
+      ]
+    }
+  ],
+  "regression_tests": {
+    "passed": 68,
+    "skipped": 0
+  },
+  "cache_repeat": {
+    "deterministic_choices_gains_timing": true,
+    "elapsed_seconds": 1.94
+  },
+  "synthetic_scale_check": {
+    "tracks": 60,
+    "unique_tracks_planned": 60,
+    "joins": 59,
+    "elapsed_seconds": 0.33,
+    "scope": "Synthetic descriptors without vocal stems; not an ML/runtime or musical-quality benchmark"
+  },
+  "reference_master_mp3_hashes_unchanged": true,
+  "limits": "Inferred grids/structure/vocal candidates, not human-verified phrases/lyrics. Gain measurements use retained source timing before native warp/EQ/fades. New native build/readback, rendered peaks/loudness, listening and nine-hour/hardware tests remain.",
+  "vocal_transition_comparison": {
+    "outgoing_id": "hollow-01-002",
+    "incoming_id": "hollow-01-007",
+    "reference_central_candidate_overlap": 0.43478260869565216,
+    "planned_central_candidate_overlap": 0.0,
+    "method": "Same central-overlap source-activity metric at matched tempo; modeled risk, not an audible-clash verdict"
+  }
+}

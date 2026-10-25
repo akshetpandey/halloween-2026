@@ -50,6 +50,8 @@ NUMBA_CACHE_DIR=/private/tmp/hollow-numba-cache MPLCONFIGDIR=/private/tmp/hollow
 
 ## Production use and next refinements
 
+**Applied October 25:** the [unrendered mix planner](MIX-PLANNER.md) now consumes this evidence to choose source bodies, safe repetition cuts, vocal/tonal transitions and retained-section gains. Its source/approval guards and native plan generation are tested; no new mix is rendered.
+
 Use the report to revise phrase anchors and propose safer vocal/tonal partners before changing a timeline. Preserve the host-liked render as a reference. Correct the evidence disagreements, replace now-Cut recordings and let stronger approved tracks develop in coherent chapters. Then measure loudness on the actual retained bodies/overlaps and render a short comparison before the long master. The agent handles these decisions; no per-edit host approval queue.
 
 **All-In-One** is a useful next candidate for learned section boundaries/labels; it has not been installed or validated here. Its pop-style verse/chorus labels would remain hypotheses on techno and DnB. Optional local Whisper/faster-whisper transcription could help when a vocal boundary is ambiguous, preferably on isolated vocals; no full lyric collection or claimed accurate singing transcription is part of this pass. Models complement source/arrangement checks and listening; their output alone does not establish musical quality or nine-hour readiness.

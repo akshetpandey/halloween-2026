@@ -4,7 +4,7 @@
 - Updated date: October 24, 2026, America/New_York.
 - Scope / owned files: new lamp builder/GLB/source/provenance, Gilded Root identity/storyboard and recognition evidence; bounded fox/tree character profiles, shared spirit runtime/loader/dialog, host Lens and previews, focused asset tests, real-component developer harness; current docs/README/tracker.
 - Checkout, branch and base commit: shared `/Users/akshet/workspace/halloween-2026`, `main`, base `d98492d`. No branch/worktree.
-- Status: implementation and review complete; local regression complete; publication pending below.
+- Status: complete — implemented, reviewed, tested, committed and deployed; host art/phone acceptance remains open.
 - Confirmed user decisions: October 24 — use the fox authoring/review process for another enrolled guardian; two Gilded Root photos added; actual prop is a tree lamp. Explain recognition under relocation, changing lamp color, darkness, people/backgrounds. Existing preference: authored cute performance faces the viewer at a standard size, no continuous AR; keep camera stopped during reveal.
 - Proposals awaiting a decision: none for implementation. Host art/phone acceptance remains open.
 
@@ -35,7 +35,7 @@ Relocation has no coordinate map to invalidate, but global image features respon
 
 ## Release
 
-`npm test`: **152 tests / 23 files pass**, including native QR regression. `npm run build`: pass; lazy Three.js runtime remains ~160kB gzip with the existing chunk-size warning. Wrangler4.130.0 dry run passes with unchanged resources; expected account verified. Focused final asset/motion checks, Markdown local links and `git diff --check` pass. Source commit, publication and remote verification pending. Target remains Worker `hollow-court-preview`, `hollow-court.com` and configured Workers preview; no config/binding/migration/security-scope change. No purchases, guest data changes or remote enrollment/calibration writes.
+`npm test`: **152 tests / 23 files pass**, including native QR regression. `npm run build`: pass; lazy Three.js runtime remains ~160kB gzip with the existing chunk-size warning. Wrangler4.130.0 dry run passes with unchanged resources; expected account verified. Focused final asset/motion checks, Markdown local links and `git diff --check` pass. Source commit **`a371dab`** published successfully; Worker version **`78b01ac1-81a4-4fc2-8846-c0f82c762327`**. The custom domain and Workers preview serve current entry `/assets/index-Da3EtzCo.js`, including the new host preview button. `/assets/GildedRoot-DE_GWBHy.glb` returns exactly 827,320 bytes and the reviewed checksum above, immutable for a year. Existing fox `/assets/RedPanda-LYwl8gTo.glb` remains byte-for-byte unchanged (SHA `5e5fa50ca11887c77d53be7c5c67fc2eefa98002e9cc5e7a5b398d1dee3bf7d5`). HTML is `no-store`; HTTP308/HSTS remain; anonymous public state is sealed with preview disabled, public debug404, host/admin302 to Access. Remote checks are anonymous reads only. Target remains Worker `hollow-court-preview`, `hollow-court.com` and configured Workers preview; no config/binding/migration/security-scope change. No purchases, guest data changes or remote enrollment/calibration writes.
 
 ## Remaining work / phone steps
 
@@ -43,4 +43,4 @@ Relocation has no coordinate map to invalidate, but global image features respon
 2. Select **The Gilded Root → Test this reference** beneath either photo for recognition → correct 3D reveal. **Test the Looking Lens** should say **Lens ready · spirit assets ready**; a live match uses the same route. No saved movement setup is required for the centre entrance.
 3. Add varied real lighting/location references and negatives, then test unused photos/live clips on iPhone and Android with people in background. Final host art, live-phone recognition/repeated-scan stability and phone performance remain acceptance gates. Other guardians and guest 3D release remain separate work.
 
-Dependencies on sibling tasks: none; physical lamp already supplied by host, no budget change. Private input paths and diagnostics remain ignored. Commit(s) on main and unrelated dirty files: pending source checkpoint; no unrelated changes at session start. Read-only review limits are stated above; recorded desktop views are not phone FPS evidence.
+Dependencies on sibling tasks: none; physical lamp already supplied by host, no budget change. Private input paths and diagnostics remain ignored. Commit(s) on main: **`a371dab`** implementation, followed by this release evidence checkpoint; no unrelated changes. Dev server and two temporary task test tabs are closed at completion. Read-only review limits are stated above; recorded desktop views are not phone FPS evidence.

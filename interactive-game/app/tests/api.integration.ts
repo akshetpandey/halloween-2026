@@ -581,6 +581,44 @@ describe("guardian camera prototype", () => {
           enabled: true,
         });
       await enabled();
+      const { FOCUS_MODEL } = await import("../src/shared/recognition-focus");
+      const code = (n: number) =>
+        btoa(
+          String.fromCharCode(
+            ...Array.from({ length: 576 }, (_, i) => (i === n ? 127 : 0)),
+          ),
+        );
+      const focus = {
+        model: FOCUS_MODEL,
+        polygon: [
+          { x: 0.1, y: 0.1 },
+          { x: 0.8, y: 0.1 },
+          { x: 0.8, y: 0.8 },
+          { x: 0.1, y: 0.8 },
+        ],
+        foreground: code(0),
+        background: code(1),
+      };
+      const focusPath = "/admin/vision/references/" + id + "/focus";
+      expect((await anon.req(focusPath, "POST", focus)).status).toBe(401);
+      expect((await guest.req(focusPath, "POST", focus)).status).toBe(401);
+      expect(
+        (await host.req(focusPath, "POST", { ...focus, foreground: "wrong" }))
+          .status,
+      ).toBe(422);
+      expect((await host.req(focusPath, "POST", focus)).status).toBe(200);
+      expect(await (await host.req(focusPath)).json()).toMatchObject(focus);
+      const focusManifest = await (
+        await guest.req("/vision/references")
+      ).json();
+      expect(
+        focusManifest.focus.find(
+          (p: { referenceId: string }) => p.referenceId === id,
+        ),
+      ).toMatchObject({ model: FOCUS_MODEL, guardianId: "BUY-02" });
+      expect(JSON.stringify(focusManifest.focus)).not.toMatch(
+        /polygon|photo_key|photo_hash|guardian-reference/,
+      );
       const { MOTION_MODEL } = await import("../src/shared/guardian-motion");
       const motion = {
         rig: {
@@ -666,6 +704,18 @@ describe("guardian camera prototype", () => {
       expect(saves.filter((r) => r.status === 200)).toHaveLength(5);
       expect(saves.filter((r) => r.status === 409)).toHaveLength(1);
       expect((await host.req(motionPath, "POST", motion)).status).toBe(200);
+      const focusSaves = await Promise.all(
+        extra.map((next) =>
+          host.req(
+            "/admin/vision/references/" + next + "/focus",
+            "POST",
+            focus,
+          ),
+        ),
+      );
+      expect(focusSaves.filter((r) => r.status === 200)).toHaveLength(5);
+      expect(focusSaves.filter((r) => r.status === 409)).toHaveLength(1);
+      expect((await host.req(focusPath, "POST", focus)).status).toBe(200);
       const publicManifest = await (
         await guest.req("/vision/references")
       ).json();
@@ -674,6 +724,7 @@ describe("guardian camera prototype", () => {
           .vector,
       ).toEqual(features);
       expect(Object.keys(publicManifest).sort()).toEqual([
+        "focus",
         "model",
         "references",
         "settings",
@@ -761,6 +812,11 @@ describe("guardian camera prototype", () => {
           (r: { id: string }) => r.id === id,
         ),
       ).toBe(false);
+      expect(
+        (await (await guest.req("/vision/references")).json()).focus.some(
+          (p: { referenceId: string }) => p.referenceId === id,
+        ),
+      ).toBe(false);
       expect(await (await guest.req("/vision/motion/BUY-02")).json()).toEqual(
         [],
       );
@@ -780,6 +836,11 @@ describe("guardian camera prototype", () => {
         expect((await host.req("/admin/vision/references/" + id)).status).toBe(
           404,
         );
+        expect(
+          await (
+            await host.req("/admin/vision/references/" + id + "/focus")
+          ).json(),
+        ).toBeNull();
         expect(
           (await (await host.req("/admin/vision/motion/BUY-02")).json()).some(
             (p: { referenceId: string }) => p.referenceId === id,

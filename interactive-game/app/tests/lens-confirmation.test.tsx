@@ -62,3 +62,20 @@ it("drops stale identity/progress on lost or changed sightings and hides it unti
     "The Very Certain Owl",
   );
 });
+
+it("labels tentative sightings as a choice, without a fake confirmation progress bar", () => {
+  const view = renderToStaticMarkup(
+    <LensConfirmation
+      ready
+      candidateName="The Gilded Root"
+      count={0}
+      confirmed={false}
+      noticed
+      tentative
+    />,
+  );
+  expect(view).toContain("Could it be");
+  expect(view).toContain("Tap below");
+  expect(view).not.toContain('role="progressbar"');
+  expect(view).not.toContain("Hold steady");
+});

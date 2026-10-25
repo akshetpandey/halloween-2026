@@ -7,6 +7,7 @@ export type LensSighting = {
   count: number;
   confirmed: boolean;
   noticed: boolean;
+  tentative?: boolean;
 };
 export function LensConfirmation({
   ready,
@@ -14,6 +15,7 @@ export function LensConfirmation({
   count,
   confirmed,
   noticed,
+  tentative = false,
 }: LensSighting) {
   const found = ready && !!candidateName;
   const complete = found && confirmed;
@@ -54,13 +56,19 @@ export function LensConfirmation({
           {found ? (
             <>
               <span className="lens-sighting-label">
-                {complete ? "A creature stirs" : "A familiar presence…"}
+                {complete
+                  ? "A creature stirs"
+                  : tentative
+                    ? "Could it be…?"
+                    : "A familiar presence…"}
               </span>
               <strong>{candidateName}</strong>
               <span className="lens-sighting-hint">
                 {complete
                   ? "You found it. Waking the guardian…"
-                  : "Hold steady · it’s coming into focus"}
+                  : tentative
+                    ? "Tap below if this is who you found."
+                    : "Hold steady · it’s coming into focus"}
               </span>
             </>
           ) : (
@@ -82,7 +90,7 @@ export function LensConfirmation({
             </>
           )}
         </div>
-        {found && (
+        {found && !tentative && (
           <div
             className="lens-confirmation-leaves"
             role="progressbar"

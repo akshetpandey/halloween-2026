@@ -7,6 +7,11 @@ import {
 } from "../shared/vision";
 import { body, fail, hex, json, readBody } from "./request";
 import { validMotion, type MotionPose } from "../shared/guardian-motion";
+import {
+  FOCUS_MODEL,
+  validFocus,
+  type FocusSetup,
+} from "../shared/recognition-focus";
 
 export async function guardianMotion(
   env: Env,
@@ -65,6 +70,30 @@ export async function visionManifest(env: Env, host = false) {
         vector: JSON.parse(r.vector),
       })),
   };
+  const focused = (
+    await env.DB.prepare(
+      `SELECT f.reference_id,r.guardian_id,f.data FROM recognition_focus f
+    JOIN vision_references r ON r.id=f.reference_id LEFT JOIN vision_guardians g ON g.guardian_id=r.guardian_id
+    WHERE f.model_version=? AND r.model_version=? AND r.guardian_id IS NOT NULL ${host ? "" : "AND COALESCE(g.enabled,1)=1"}
+    ORDER BY f.updated_at DESC LIMIT 90`,
+    )
+      .bind(FOCUS_MODEL, VISION_MODEL)
+      .all<{ reference_id: string; guardian_id: string; data: string }>()
+  ).results;
+  manifest.focus = focused.flatMap((row) => {
+    const data: unknown = JSON.parse(row.data);
+    return validFocus(data)
+      ? [
+          {
+            referenceId: row.reference_id,
+            guardianId: row.guardian_id,
+            model: data.model,
+            foreground: data.foreground,
+            background: data.background,
+          },
+        ]
+      : [];
+  });
   if (!host) return manifest;
   const enabled = (
     await env.DB.prepare(
@@ -108,6 +137,86 @@ export async function visionAdmin(
   const path = new URL(request.url).pathname;
   if (path === "/api/admin/vision" && request.method === "GET")
     return json(await visionManifest(env, true));
+  const focusPath = path.match(
+    /^\/api\/admin\/vision\/references\/([a-f0-9]{32})\/focus$/,
+  );
+  if (focusPath) {
+    const ref = focusPath[1];
+    if (request.method === "GET") {
+      const row = await env.DB.prepare(
+        "SELECT data FROM recognition_focus WHERE reference_id=?",
+      )
+        .bind(ref)
+        .first<{ data: string }>();
+      return json(row ? JSON.parse(row.data) : null);
+    }
+    if (request.method === "DELETE") {
+      await env.DB.prepare("DELETE FROM recognition_focus WHERE reference_id=?")
+        .bind(ref)
+        .run();
+      await env.DB.prepare(
+        "INSERT INTO host_audit(actor_hash,action,created_at) VALUES(?,'vision_focus_clear',?)",
+      )
+        .bind(actor, Date.now())
+        .run();
+      return json({ ok: true });
+    }
+    if (request.method === "POST") {
+      let input: unknown;
+      try {
+        input = JSON.parse(
+          new TextDecoder().decode(await readBody(request, 60000)),
+        );
+      } catch (e) {
+        if (e instanceof Response) throw e;
+        fail("The foreground setup could not be read.", 422);
+      }
+      if (!validFocus(input))
+        fail(
+          "Outline the guardian and compute current foreground features.",
+          422,
+        );
+      const row = await env.DB.prepare(
+        "SELECT guardian_id FROM vision_references WHERE id=? AND model_version=?",
+      )
+        .bind(ref, VISION_MODEL)
+        .first<{ guardian_id: string | null }>();
+      if (!row?.guardian_id)
+        fail("Choose a current guardian reference photograph.", 404);
+      const clean: FocusSetup = {
+        model: input.model,
+        foreground: input.foreground,
+        background: input.background,
+        polygon: input.polygon,
+      };
+      const saved = await env.DB.prepare(
+        `INSERT INTO recognition_focus(reference_id,model_version,data,updated_at)
+        SELECT ?,?,?,? WHERE EXISTS(SELECT 1 FROM recognition_focus WHERE reference_id=?) OR
+        (SELECT COUNT(*) FROM recognition_focus f JOIN vision_references r ON r.id=f.reference_id WHERE r.guardian_id=?)<6
+        ON CONFLICT(reference_id) DO UPDATE SET model_version=excluded.model_version,data=excluded.data,updated_at=excluded.updated_at`,
+      )
+        .bind(
+          ref,
+          FOCUS_MODEL,
+          JSON.stringify(clean),
+          Date.now(),
+          ref,
+          row.guardian_id,
+        )
+        .run();
+      if (!saved.meta.changes)
+        fail(
+          "Keep up to six foreground views for each guardian. Edit an existing view.",
+          409,
+        );
+      await env.DB.prepare(
+        "INSERT INTO host_audit(actor_hash,action,created_at) VALUES(?,'vision_focus_save',?)",
+      )
+        .bind(actor, Date.now())
+        .run();
+      return json({ ok: true });
+    }
+  }
   const motionRead = path.match(
     /^\/api\/admin\/vision\/motion\/([A-Z]+-\d{2})$/,
   );

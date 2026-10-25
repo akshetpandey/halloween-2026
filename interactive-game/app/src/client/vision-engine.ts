@@ -1,4 +1,5 @@
 import type { MaskResult, VisionReply, VisionRequest } from "./vision.worker";
+import type { FocusReference } from "../shared/recognition-focus";
 let nextId = 0;
 export class VisionEngine {
   closed = false;
@@ -80,6 +81,7 @@ export class VisionEngine {
     imageKey: string,
     progress?: (text: string) => void,
     point?: VisionRequest["point"],
+    focus?: FocusReference[],
   ) {
     if (this.closed) return Promise.reject(Error("The lens was closed."));
     const id = ++nextId,
@@ -90,6 +92,7 @@ export class VisionEngine {
         imageKey,
         point,
         backend: this.backend,
+        ...(focus ? { focus } : {}),
       };
     return new Promise<VisionReply>((resolve, reject) => {
       const timer = setTimeout(

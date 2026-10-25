@@ -209,3 +209,14 @@ it("keeps camera prototype APIs unavailable on the public domain", async () => {
   }
   expect(prepare).not.toHaveBeenCalled();
 });
+
+it("caches only the successful pinned foreground encoder as immutable binary", () => {
+  const r = new Request(
+    origin + "/models/hc-lens-regions-b1a19675-v1/regions.onnx",
+  );
+  const ok = responseHeaders(r, new Response(new Uint8Array([1])));
+  expect(ok.headers.get("Content-Type")).toBe("application/octet-stream");
+  expect(ok.headers.get("Cache-Control")).toContain("immutable");
+  const bad = responseHeaders(r, new Response("missing", { status: 404 }));
+  expect(bad.headers.get("Cache-Control")).toBe("no-store");
+});

@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Camera, ImagePlus, Trash2 } from "lucide-react";
 import { api } from "./api";
+import { GuardianFocusEditor } from "./GuardianFocusEditor";
 import { GuardianMotionEditor } from "./GuardianMotionEditor";
 import { GuardianLens } from "./GuardianLens";
 import { GuardianArt } from "./Art";
@@ -45,6 +46,7 @@ export function HostReferences() {
     }
   }
   const [editingMotion, setEditingMotion] = useState("");
+  const [editingFocus, setEditingFocus] = useState("");
   const [testPhoto, setTestPhoto] = useState<Blob | null>(null);
   const [data, setData] = useState<HostVision | null>(null),
     [selected, setSelected] = useState("BUY-02"),
@@ -181,6 +183,15 @@ export function HostReferences() {
       setBusy(false);
     }
   }
+  if (editingFocus && chosen)
+    return (
+      <GuardianFocusEditor
+        referenceId={editingFocus}
+        name={chosen.name}
+        onClose={() => setEditingFocus("")}
+        onSaved={load}
+      />
+    );
   if (editingMotion && chosen)
     return (
       <GuardianMotionEditor
@@ -472,6 +483,17 @@ export function HostReferences() {
                   alt={(chosen?.name ?? "Background") + " reference"}
                 />
                 <p>{p.note || "Reference view"}</p>
+                {chosen && !p.needsProcessing && (
+                  <button
+                    className="text-button"
+                    disabled={busy}
+                    onClick={() => setEditingFocus(p.id)}
+                  >
+                    {data.focus?.some((f) => f.referenceId === p.id)
+                      ? "Edit guardian outline"
+                      : "Outline for recognition"}
+                  </button>
+                )}
                 {chosen && !p.needsProcessing && (
                   <button
                     className="text-button"

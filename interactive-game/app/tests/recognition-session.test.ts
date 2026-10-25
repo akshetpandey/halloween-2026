@@ -85,6 +85,29 @@ it("allows camera retry after a failed background preload", async () => {
   await retry;
   expect(s.ready).toBe(true);
 });
+it("sends a focus gallery once per session and replaces it after gallery changes or worker reclamation", async () => {
+  const s = session(),
+    refs: [] = [];
+  const first = s.configureFocus(refs),
+    same = s.configureFocus(refs);
+  expect(first).toBe(same);
+  expect(TestWorker.instances[0].sent).toHaveLength(1);
+  expect(TestWorker.instances[0].sent[0]).toMatchObject({
+    kind: "configure-focus",
+    focus: [],
+  });
+  TestWorker.instances[0].reply({ ready: true });
+  await first;
+  const changed = s.configureFocus([]);
+  expect(TestWorker.instances[0].sent).toHaveLength(2);
+  TestWorker.instances[0].reply({ ready: true });
+  await changed;
+  s.getEngine().close();
+  const restored = s.configureFocus(refs);
+  expect(TestWorker.instances).toHaveLength(2);
+  TestWorker.instances[1].reply({ ready: true });
+  await restored;
+});
 
 it("rebuilds a reclaimed worker rather than claiming a dead session is ready", async () => {
   const s = session(),

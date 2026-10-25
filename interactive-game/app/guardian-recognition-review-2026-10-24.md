@@ -2,6 +2,8 @@
 
 **Decision: retain the current MobileNetV3-small reference matcher on single-thread WASM CPU.** A fresh same-model WebGPU comparison did not establish a faster, lighter replacement. Recognition and the authored 3D performance remain separate: reference photographs identify the physical prop; the clean character asset performs after recognition. The fox host prototype skips segmentation.
 
+**Later October 24 update:** the [foreground-first pilot](foreground-recognition-2026-10-24.md) adds a small spatial feature export from the same pinned backbone and saved host outlines. The runtime comparison below remains valid; its original no-model-change statement describes the earlier checkpoint.
+
 This extends the [October 23 model comparison](guardian-model-review-2026-10-23.md). It does not change production weights, enrollment vectors, thresholds, temporal confirmation or the current rehearsal-only camera rollout.
 
 ## Fresh runtime comparison

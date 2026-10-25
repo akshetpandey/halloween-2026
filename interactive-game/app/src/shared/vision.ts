@@ -3,6 +3,7 @@ export const VISION_DIMENSIONS = 1024;
 export const VISION_ASSETS = "/models/hc-vision-48988dfe-5850ab45-ort130-v1/";
 export const RECOGNITION_ASSETS = "/models/hc-lens-mbv3-b1a19675-f32-v2/";
 export const MAX_REFERENCES = 40;
+import type { FocusReference } from "./recognition-focus";
 export type VisionSettings = { threshold: number; margin: number };
 export type VisionReference = {
   id: string;
@@ -13,6 +14,7 @@ export type VisionManifest = {
   model: string;
   settings: VisionSettings;
   references: VisionReference[];
+  focus?: FocusReference[];
 };
 export type HostReference = {
   id: string;

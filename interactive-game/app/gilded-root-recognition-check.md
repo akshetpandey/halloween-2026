@@ -1,5 +1,7 @@
 # Gilded Root — recognition coverage check
 
+**Superseded matching recommendation:** [the later foreground-first pilot](foreground-recognition-2026-10-24.md) improves cross-view lamp matching with saved outlines and tests existing references before requesting many lighting duplicates. The measurements below document the original global matcher.
+
 October 24, 2026. Two real tree-lamp reference images and three fox references are currently enrolled; no background negatives. This checks the current implementation, not a replacement model. [Sanitized numerical results](scripts/guardian-models/evidence/gilded-root-recognition-2026-10-24.json); private photos, feature vectors, keys and working scripts remain under ignored `private/gilded-root-2026-10-24/recognition-check/`.
 
 ## What moving the lamp changes

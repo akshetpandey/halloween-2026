@@ -1,4 +1,11 @@
-import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
+import React, {
+  lazy,
+  Suspense,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { Camera, ImagePlus, Leaf, RefreshCw, X } from "lucide-react";
 import { guardians } from "../shared/catalog";
 import {
@@ -11,6 +18,7 @@ import {
   SCAN_INTERVAL_MS,
   STABLE_FRAMES,
 } from "../shared/vision-live";
+import type { FocusMatch } from "../shared/recognition-focus";
 import { api } from "./api";
 import { GuardianArt } from "./Art";
 import { LensConfirmation } from "./LensConfirmation";
@@ -99,6 +107,63 @@ export function GuardianLens({
     confirmed: false,
     noticed: false,
   });
+  const [focusEnabled, setFocusEnabled] = useState(true),
+    [focusHint, setFocusHint] = useState<FocusMatch | null>(null);
+  const focusedReferences = useMemo(() => manifest?.focus ?? [], [manifest]);
+  function decide(result: VisionReply): VisionMatch {
+    if (result.focusUnavailable) setFocusEnabled(false);
+    const scene = matchGuardian(result.vector!, manifest!);
+    const focused =
+      result.focusMatch && focusEnabled ? result.focusMatch : null;
+    setFocusHint(scene.guardianId && !focused?.guardianId ? null : focused);
+    if (!focused?.guardianId) return scene;
+    const score = Math.min(1, focused.score);
+    return {
+      guardianId: focused.guardianId,
+      score,
+      gap: focused.gap,
+      reason: "match",
+      candidates: [
+        { guardianId: focused.guardianId, score },
+        ...scene.candidates.filter((c) => c.guardianId !== focused.guardianId),
+      ],
+    };
+  }
+  const recognitionKind =
+    focusEnabled && focusedReferences.length
+      ? ("observe" as const)
+      : ("embed" as const);
+  async function acceptSuggestion() {
+    const id = focusHint?.suggestion;
+    if (!id) return;
+    const attempt = ++action.current;
+    setPhase("reading");
+    try {
+      const file = video.current ? await snapshot(video.current) : photo?.blob;
+      if (!file) throw Error("Open the camera or choose a photograph first.");
+      stopCamera();
+      setFocusHint(null);
+      const found: VisionMatch = {
+        guardianId: id,
+        score: Math.min(1, focusHint!.score),
+        gap: focusHint!.gap,
+        reason: "match",
+        candidates: [{ guardianId: id, score: focusHint!.score }],
+      };
+      await reveal(
+        file,
+        found,
+        { id: 0, backend: "Shape · confirmed by you", ms: live.ms },
+        attempt,
+      );
+    } catch (e) {
+      if (attempt === action.current) {
+        stopCamera();
+        setError((e as Error).message);
+        setPhase("idle");
+      }
+    }
+  }
   const [continuing, setContinuing] = useState(false);
   const [alignment, setAlignment] = useState<MotionAlignment | null>(null),
     [motionKnown, setMotionKnown] = useState(false),
@@ -165,7 +230,8 @@ export function GuardianLens({
       .prepare((text) => {
         if (mounted.current) setPrepareProgress(text);
       })
-      .then((result) => {
+      .then(async (result) => {
+        await recognitionSession.configureFocus(focusedReferences);
         if (mounted.current) {
           setModelReady(true);
           setPrepareProgress("Lens ready · live frames stay on your phone");
@@ -182,6 +248,18 @@ export function GuardianLens({
       void warmRecognizer()
         .then(async () => {
           if (!mounted.current) return;
+          if (focusEnabled && focusedReferences.length) {
+            try {
+              await getRecognizer().request(
+                "prepare-regions",
+                new Blob(),
+                "prepare-regions",
+              );
+            } catch {
+              if (mounted.current) setFocusEnabled(false);
+            }
+          }
+          if (!mounted.current) return;
           if (host) {
             // Keep model preparation sequential on memory-constrained phones.
             await preloadFoxSpirit("fox");
@@ -193,7 +271,7 @@ export function GuardianLens({
         .catch((e) => {
           if (mounted.current) setError(e.message);
         });
-  }, [ready, host]);
+  }, [ready, host, focusedReferences, focusEnabled]);
   function getOutlineSession() {
     const session = getSegmentationSession();
     outlineSession.current = session;
@@ -245,6 +323,7 @@ export function GuardianLens({
     setPhase("idle");
     setError("");
     setMatch(null);
+    setFocusHint(null);
     setOutline(null);
     setProgress("");
     setLive({
@@ -477,12 +556,16 @@ export function GuardianLens({
         URL.revokeObjectURL(p.url);
         return;
       }
-      const result = await getRecognizer().request("embed", p.blob, p.key);
-      const found = matchGuardian(result.vector!, manifest);
+      const result = await getRecognizer().request(
+        recognitionKind,
+        p.blob,
+        p.key,
+      );
       if (attempt !== action.current) {
         URL.revokeObjectURL(p.url);
         return;
       }
+      const found = decide(result);
       if (!found.guardianId) {
         currentPhoto.current = p;
         setPhoto(p);
@@ -528,12 +611,12 @@ export function GuardianLens({
           return;
         }
         const result = await getRecognizer().request(
-          "embed",
+          recognitionKind,
           bitmap,
           "live-" + frames,
         );
         if (attempt !== action.current) return;
-        const found = matchGuardian(result.vector!, manifest),
+        const found = decide(result),
           streak = stable.observe(found.guardianId, performance.now());
         frames++;
         setLive((previous) => ({
@@ -702,6 +785,20 @@ export function GuardianLens({
             ". Testing a saved reference checks the reveal, not accuracy on a new photo."}
         </p>
       )}
+      {host && focusedReferences.length > 0 && (
+        <label className="reference-enabled">
+          <input
+            type="checkbox"
+            checked={focusEnabled}
+            disabled={phase === "camera" || phase === "reading"}
+            onChange={(e) => {
+              setFocusEnabled(e.target.checked);
+              setFocusHint(null);
+            }}
+          />
+          Use guardian outlines · compare with the original lens
+        </label>
+      )}
       {ready && (
         <p className="lens-ready" role="status">
           {modelReady
@@ -758,12 +855,24 @@ export function GuardianLens({
               <LensConfirmation
                 ready={modelReady}
                 candidateName={
-                  guardians.find((g) => g.id === live.candidateId)?.name
+                  guardians.find(
+                    (g) => g.id === (live.candidateId ?? focusHint?.suggestion),
+                  )?.name
                 }
                 count={live.count}
                 confirmed={live.confirmed}
                 noticed={live.noticed}
+                tentative={!live.candidateId && !!focusHint?.suggestion}
               />
+              {!live.confirmed && focusHint?.suggestion && (
+                <button
+                  className="btn lens-suggestion"
+                  onClick={() => void acceptSuggestion()}
+                >
+                  Wake{" "}
+                  {guardians.find((g) => g.id === focusHint.suggestion)?.name}
+                </button>
+              )}
               <button
                 className="lens-shutter"
                 aria-label="Take a photo instead"
@@ -850,6 +959,15 @@ export function GuardianLens({
             <div className="lens-empty">
               <Leaf size={42} />
               <p>A familiar shape is enough to begin.</p>
+            </div>
+          )}
+          {phase === "unknown" && focusHint?.suggestion && (
+            <div className="lens-progress" role="status">
+              <p>A familiar shape. Is this who you found?</p>
+              <button className="btn" onClick={() => void acceptSuggestion()}>
+                Wake{" "}
+                {guardians.find((g) => g.id === focusHint.suggestion)?.name}
+              </button>
             </div>
           )}
           {(busy || outlining) && (
@@ -1062,6 +1180,19 @@ export function GuardianLens({
           {host && match && (
             <details className="lens-diagnostics" open>
               <summary>Recognition diagnostics</summary>
+              {focusHint && (
+                <p>
+                  Foreground score {focusHint.score.toFixed(3)} ·
+                  foreground/background contrast {focusHint.contrast.toFixed(3)}{" "}
+                  · distinct-guardian gap {focusHint.gap.toFixed(3)}. A score is
+                  not a probability.{" "}
+                  {focusHint.suggestion
+                    ? "Awaiting your confirmation."
+                    : focusHint.guardianId
+                      ? "Shape accepted."
+                      : "No shape accepted; scene fallback remains available."}
+                </p>
+              )}
               <p>
                 Recognition: {details.embedBackend || "Local processing"} ·{" "}
                 {(details.embedMs / 1000).toFixed(2)}s. Outline:{" "}

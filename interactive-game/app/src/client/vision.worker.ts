@@ -5,14 +5,34 @@ import {
   VISION_DIMENSIONS,
   RECOGNITION_ASSETS,
 } from "../shared/vision";
+import {
+  FOCUS_ASSETS,
+  FOCUS_MODEL,
+  matchFocus,
+  prepareFocus,
+  type DecodedFocus,
+  type FocusMatch,
+  type FocusReference,
+  type RegionFeatures,
+} from "../shared/recognition-focus";
 
 export type VisionRequest = {
   id: number;
-  kind: "prepare" | "prepare-segment" | "embed" | "segment" | "release-image";
+  kind:
+    | "prepare"
+    | "prepare-regions"
+    | "configure-focus"
+    | "observe"
+    | "regions"
+    | "prepare-segment"
+    | "embed"
+    | "segment"
+    | "release-image";
   image: Blob | ImageBitmap;
   imageKey: string;
   point?: { x: number; y: number } | { x: number; y: number }[];
   backend?: "auto" | "wasm";
+  focus?: FocusReference[];
 };
 export type MaskResult = {
   mask: Uint8Array;
@@ -28,14 +48,20 @@ export type VisionReply = {
   progress?: string;
   error?: string;
   vector?: number[];
+  regions?: RegionFeatures;
+  focusMatch?: FocusMatch;
   ms?: number;
   segmentation?: MaskResult;
   backend?: string;
   retryCPU?: boolean;
+  focusUnavailable?: boolean;
   ready?: boolean;
 };
 let ort: typeof Ort;
 let embedder: Ort.InferenceSession | null = null;
+let regionEncoder: Ort.InferenceSession | null = null;
+let regionFailed = false;
+let focusBank: DecodedFocus[] = [];
 const mean = [0.485, 0.456, 0.406],
   std = [0.229, 0.224, 0.225];
 function progress(id: number, text: string) {
@@ -161,13 +187,13 @@ async function warm(job: VisionRequest) {
     backend: "WASM CPU",
   } satisfies VisionReply);
 }
-async function embed(job: VisionRequest) {
+async function embed(job: VisionRequest, quiet = false, preserve = false) {
   await prepareRecognition(job);
   const started = performance.now();
   const image =
     job.image instanceof Blob ? await createImageBitmap(job.image) : job.image;
   const input = pixels(image);
-  image.close();
+  if (!preserve) image.close();
   let out: Record<string, Ort.Tensor> | undefined;
   try {
     out = await embedder!.run({ pixel_values: input });
@@ -177,14 +203,100 @@ async function embed(job: VisionRequest) {
     const vector = normalizeVector(Array.from(features.data, Number));
     if (!vector)
       throw Error("The frame could not be read. Move closer and try again.");
-    self.postMessage({
+    const reply = {
       id: job.id,
       vector,
       ms: performance.now() - started,
       backend: "WASM CPU",
-    } satisfies VisionReply);
+    } satisfies VisionReply;
+    if (!quiet) self.postMessage(reply);
+    return reply;
   } finally {
     input.dispose();
+    if (out) dispose(out);
+  }
+}
+async function regions(job: VisionRequest, quiet = false, preserve = false) {
+  await prepareRecognition(job);
+  if (!regionEncoder)
+    regionEncoder = await ort.InferenceSession.create(
+      await asset(
+        "regions.onnx",
+        job.id,
+        "Preparing the foreground lens",
+        FOCUS_ASSETS,
+      ),
+      { executionProviders: ["wasm"], graphOptimizationLevel: "all" },
+    );
+  const start = performance.now();
+  if (job.kind === "prepare-regions") {
+    const input = new ort.Tensor(
+      "float32",
+      new Float32Array(3 * 224 * 224),
+      [1, 3, 224, 224],
+    );
+    try {
+      dispose(await regionEncoder.run({ pixel_values: input }));
+    } finally {
+      input.dispose();
+    }
+    self.postMessage({
+      id: job.id,
+      ready: true,
+      ms: performance.now() - start,
+      backend: "Foreground · WASM CPU",
+    } satisfies VisionReply);
+    return;
+  }
+  const image =
+    job.image instanceof Blob ? await createImageBitmap(job.image) : job.image;
+  const width = image.width,
+    height = image.height,
+    canvas = new OffscreenCanvas(224, 224),
+    ctx = canvas.getContext("2d")!;
+  ctx.fillStyle = "rgb(128,128,128)";
+  ctx.fillRect(0, 0, 224, 224);
+  const scale = 224 / Math.max(width, height),
+    w = width * scale,
+    h = height * scale;
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+  ctx.drawImage(image, (224 - w) / 2, (224 - h) / 2, w, h);
+  if (!preserve) image.close();
+  const rgba = ctx.getImageData(0, 0, 224, 224).data,
+    input = new Float32Array(3 * 224 * 224);
+  for (let i = 0; i < 224 * 224; i++)
+    for (let c = 0; c < 3; c++)
+      input[c * 224 * 224 + i] = (rgba[i * 4 + c] / 255 - mean[c]) / std[c];
+  const tensor = new ort.Tensor("float32", input, [1, 3, 224, 224]);
+  let out: Record<string, Ort.Tensor> | undefined;
+  try {
+    out = await regionEncoder.run({ pixel_values: tensor });
+    const raw = out["/blocks/blocks.5/blocks.5.0/bn1/act/Mul_output_0"];
+    if (!raw || raw.data.length !== 576 * 49)
+      throw Error("Incomplete foreground features");
+    const data = new Float32Array(576 * 49);
+    for (let p = 0; p < 49; p++) {
+      let norm = 0;
+      for (let c = 0; c < 576; c++) {
+        const n = Number(raw.data[c * 49 + p]);
+        if (!Number.isFinite(n)) throw Error("Invalid foreground features");
+        data[p * 576 + c] = n;
+        norm += n * n;
+      }
+      norm = Math.sqrt(norm) || 1;
+      for (let c = 0; c < 576; c++) data[p * 576 + c] /= norm;
+    }
+    const reply = {
+      id: job.id,
+      regions: { model: FOCUS_MODEL, data, width, height },
+      ms: performance.now() - start,
+      backend: "Foreground · WASM CPU",
+    } satisfies VisionReply;
+    if (!quiet) self.postMessage(reply, { transfer: [data.buffer] });
+    return reply;
+  } finally {
+    tensor.dispose();
     if (out) dispose(out);
   }
 }
@@ -194,8 +306,49 @@ self.onmessage = (event: MessageEvent<VisionRequest>) => {
   const job = event.data;
   queue = queue.then(async () => {
     try {
-      if (job.kind === "prepare") await warm(job);
+      if (job.kind === "configure-focus") {
+        focusBank = prepareFocus(job.focus ?? []);
+        self.postMessage({ id: job.id, ready: true } satisfies VisionReply);
+      } else if (job.kind === "prepare") await warm(job);
       else if (job.kind === "embed") await embed(job);
+      else if (job.kind === "observe") {
+        const image =
+          job.image instanceof Blob
+            ? await createImageBitmap(job.image)
+            : job.image;
+        try {
+          const scene = await embed({ ...job, image }, true, true);
+          let focused: Awaited<ReturnType<typeof regions>>;
+          if (!regionFailed)
+            try {
+              focused = await regions({ ...job, image }, true, true);
+            } catch {
+              regionFailed = true;
+            }
+          if (focused?.regions) {
+            const matchingStart = performance.now(),
+              focusMatch = matchFocus(focused.regions, focusBank);
+            self.postMessage({
+              ...scene,
+              focusMatch,
+              ms:
+                (scene?.ms ?? 0) +
+                (focused.ms ?? 0) +
+                performance.now() -
+                matchingStart,
+              backend: "Shape + scene · WASM CPU",
+            } satisfies VisionReply);
+          } else
+            self.postMessage({
+              ...scene,
+              id: job.id,
+              focusUnavailable: true,
+            } satisfies VisionReply);
+        } finally {
+          image.close();
+        }
+      } else if (job.kind === "regions" || job.kind === "prepare-regions")
+        await regions(job);
       else throw Error("This worker only handles recognition.");
     } catch (error) {
       self.postMessage({

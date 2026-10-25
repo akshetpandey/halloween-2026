@@ -106,3 +106,65 @@ await writeFile(
 console.log(
   "Fast recognition: " + features.length + " bytes, SHA-256 " + hash(features),
 );
+
+// Spatial foreground matcher: expose the 7x7 map before global pooling. Keep the
+// existing global graph/version unchanged so stored enrollment stays compatible.
+const regional = Model.decode(source),
+  regionOutput = "/blocks/blocks.5/blocks.5.0/bn1/act/Mul_output_0",
+  needed = new Set([regionOutput]),
+  regionNodes = [];
+for (const node of [...regional.graph.node].reverse())
+  if (node.output.some((name) => needed.has(name))) {
+    regionNodes.push(node);
+    node.input.forEach((name) => needed.add(name));
+  }
+regional.graph.node = regionNodes.reverse();
+regional.graph.initializer = regional.graph.initializer.filter((t) =>
+  needed.has(t.name),
+);
+regional.graph.valueInfo = [];
+regional.graph.output = [
+  {
+    name: regionOutput,
+    type: {
+      tensorType: {
+        elemType: 1,
+        shape: { dim: [1, 576, 7, 7].map((dimValue) => ({ dimValue })) },
+      },
+    },
+  },
+];
+const regionBytes = Model.encode(regional).finish();
+if (
+  regionBytes.length !== 3718329 ||
+  hash(regionBytes) !==
+    "77e5b1653beb883822338bd6d4100d3b2655f4861e45c056babc8275f89e29b7"
+)
+  throw Error("Unexpected regional graph size");
+const regionTarget = new URL(
+  "../public/models/hc-lens-regions-b1a19675-v1/",
+  import.meta.url,
+);
+await mkdir(regionTarget, { recursive: true });
+await writeFile(new URL("regions.onnx", regionTarget), regionBytes);
+await writeFile(new URL("LICENSE.txt", regionTarget), license);
+await writeFile(
+  new URL("manifest.json", regionTarget),
+  JSON.stringify(
+    {
+      model: "mbv3-regions-b1a19675-v1",
+      bytes: regionBytes.length,
+      sha256: hash(regionBytes),
+      sourceSha256: hash(source),
+      output: regionOutput,
+      shape: [1, 576, 7, 7],
+      preprocessing:
+        "whole frame contain-fit to224 on RGB128; ImageNet normalization",
+    },
+    null,
+    2,
+  ) + "\n",
+);
+console.log(
+  `Foreground regions: ${regionBytes.length} bytes, SHA-256 ${hash(regionBytes)}`,
+);

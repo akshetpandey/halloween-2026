@@ -14,13 +14,19 @@ On the same [host guardian page](https://hollow-court.com/host?tab=guardians), t
 
 Select **The Gilded Root**, then **Test this reference** below either saved photo to check the real recognition → 3D reveal path. It should show the Gilded Root, skip outlining, then play the lamp rather than the fox. Closing returns to the recognized photo; **Replay guardian spirit** opens it again. The optional geometry match falls back to the centre when no movement setup exists.
 
-For a meaningful live test, use a new angle/photo after adding views in the final location and lighting. With just two warm-lit references, the current cross-view check falls below the unchanged match threshold. Moving the lamp is allowed; its new background and color still need representation in the references. [Results and a short capture plan for colored lights, dimness and people](gilded-root-recognition-check.md).
+For a meaningful live test, use a new angle/photo after adding views in the final location and lighting. With just two warm-lit references, the current cross-view check falls below the unchanged match threshold. Moving the lamp is allowed; try the new foreground outlines first, then add a useful view only if the actual test needs one. [Results and a short capture plan for colored lights, dimness and people](gilded-root-recognition-check.md).
+
+## New: outline the guardian for recognition
+
+[Foreground pilot and measured limits](foreground-recognition-2026-10-24.md). In the host reference list, choose **Outline for recognition** / **Edit guardian outline**. Tap around the whole object, leaving its wall/table outside, then save. The two lamp and three fox views have starter outlines. This is separate from animation movement. Use a genuinely new photo in another location/light, then compare **Use guardian outlines** on/off in the host Lens. Strong matches retain three-frame confirmation; a weaker **Could it be…?** offers **Wake [guardian]** for a tap rather than silently failing. No new-photo segmentation is required for recognition. Phone speed and real dim-room accuracy remain unverified.
+
+The older suggestions below to collect 10–20 lighting/background variants are a baseline strategy, not a requirement of this foreground pilot. Start with 3–6 distinct useful outlined views and add specific failed angles/lighting only after testing. NFC is the preferred no-light contingency; QR still needs readable contrast and light.
 
 ## 1. Teach the Lens a guardian
 
 1. On your phone, open [Guardian reference photos in the host dashboard](https://hollow-court.com/host?tab=guardians). Sign in through Cloudflare Access with the host account.
 2. Choose the character that should represent your physical object. Start with 3–6 distinct photos: front, left, right and a few distances. Centre the entire object in the middle square, with space around it. These are reference photos of your object, rather than the website illustration.
-3. Keep at least one different photo **out of the reference set** for testing. After a first successful test, build toward 10–20 useful reference views including the room's actual lighting.
+3. Keep at least one different photo **out of the reference set** for testing. After a first successful test, add a few useful failed angles or actual party-light views rather than every background/color combination.
 4. Add a few **Room backgrounds · not a guardian** photos: an empty shelf, nearby decorations and ordinary objects. A second guardian is helpful for testing mistaken identities. One guardian can test the flow, but cannot establish rejection accuracy.
 5. If **Refresh saved views** is offered, use it to update older saved photos to the current recognition model. It reuses the private originals.
 

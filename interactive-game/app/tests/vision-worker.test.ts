@@ -23,19 +23,26 @@ afterEach(() => {
   fixture.tensors.length = 0;
   fixture.create.mockReset();
 });
-async function worker() {
-  fixture.create.mockResolvedValue({
-    run: async () => {
-      const tensor = {
-        data: new Float32Array(1024).fill(1),
-        disposed: false,
-        dispose() {
-          this.disposed = true;
-        },
-      };
-      fixture.tensors.push(tensor);
-      return { "/flatten/Flatten_output_0": tensor };
-    },
+async function worker(failRegions = false) {
+  fixture.create.mockImplementation(async (bytes: Uint8Array) => {
+    if (bytes[0] === 2 && failRegions) throw Error("Region model unavailable");
+    return {
+      run: async () => {
+        const tensor = {
+          data: new Float32Array(bytes[0] === 2 ? 576 * 49 : 1024).fill(1),
+          disposed: false,
+          dispose() {
+            this.disposed = true;
+          },
+        };
+        fixture.tensors.push(tensor);
+        return {
+          [bytes[0] === 2
+            ? "/blocks/blocks.5/blocks.5.0/bn1/act/Mul_output_0"
+            : "/flatten/Flatten_output_0"]: tensor,
+        };
+      },
+    };
   });
   let id = 0;
   const pending = new Map<number, (reply: VisionReply) => void>();
@@ -53,8 +60,10 @@ async function worker() {
   vi.stubGlobal(
     "fetch",
     vi.fn(async (url: string) => {
-      expect(url).toContain("mobilenet-features.onnx");
-      return new Response(new Uint8Array([1]));
+      expect(url).toMatch(/mobilenet-features.onnx|regions.onnx/);
+      return new Response(
+        new Uint8Array([url.includes("regions.onnx") ? 2 : 1]),
+      );
     }),
   );
   vi.stubGlobal(
@@ -67,6 +76,7 @@ async function worker() {
       getContext() {
         return {
           drawImage() {},
+          fillRect() {},
           getImageData() {
             return { data: new Uint8ClampedArray(224 * 224 * 4) };
           },
@@ -75,11 +85,11 @@ async function worker() {
     },
   );
   await import("../src/client/vision.worker");
-  return (kind: VisionRequest["kind"]) =>
+  return (kind: VisionRequest["kind"], focus?: VisionRequest["focus"]) =>
     new Promise<VisionReply>((resolve) => {
       pending.set(++id, resolve);
       scope.onmessage!({
-        data: { id, kind, image: new Blob(), imageKey: "photo" },
+        data: { id, kind, image: new Blob(), imageKey: "photo", focus },
       });
     });
 }
@@ -97,4 +107,40 @@ it("rejects outline work without loading SAM or any recognition model", async ()
     "only handles recognition",
   );
   expect(fixture.create).not.toHaveBeenCalled();
+});
+
+it("returns bounded normalized regions to the editor and matches live frames inside the worker", async () => {
+  const send = await worker();
+  const regions = await send("regions");
+  expect(regions.regions?.data).toHaveLength(49 * 576);
+  expect(regions.regions?.data[0]).toBeCloseTo(1 / 24, 6);
+  const { FOCUS_MODEL } = await import("../src/shared/recognition-focus");
+  await send("configure-focus", [
+    {
+      model: FOCUS_MODEL,
+      referenceId: "test",
+      guardianId: "tree",
+      foreground: btoa(String.fromCharCode(...Array(576).fill(5))),
+      background: btoa(String.fromCharCode(127, ...Array(575).fill(0))),
+    },
+  ]);
+  const r = await send("observe");
+  expect(r.vector).toHaveLength(1024);
+  expect(r.regions).toBeUndefined();
+  expect(r.focusMatch?.guardianId).toBe("tree");
+  expect(fixture.create).toHaveBeenCalledTimes(2);
+  expect(fixture.tensors.every((t) => t.disposed)).toBe(true);
+  await send("observe");
+  expect(fixture.create).toHaveBeenCalledTimes(2);
+  await send("configure-focus", []);
+  expect((await send("observe")).focusMatch?.guardianId).toBeNull();
+});
+it("falls back to the existing scene encoder when foreground initialization fails", async () => {
+  const send = await worker(true);
+  const r = await send("observe");
+  expect(r.vector).toHaveLength(1024);
+  expect(r.focusUnavailable).toBe(true);
+  expect(r.error).toBeUndefined();
+  await send("observe");
+  expect(fixture.create).toHaveBeenCalledTimes(2);
 });

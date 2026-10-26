@@ -1,5 +1,7 @@
 # Music curation progress · October 25
 
+Historical snapshot. [Current October 26 status](curation-status-2026-10-26.md) supersedes these counts and batches.
+
 Latest snapshot follows completion of **all 591 prior choices**, including living Batch 08, bedroom Batch 03 and the older living pending tracks. The next 50 per room are published/imported. Counts come from the authoritative hosted database with fresh online/stopped backups; no earlier votes or notes changed. Each room still needs **nine hours after actual edits, transitions and unavailable recordings**.
 
 | Room | Keeps | Approved raw time | Reviewed | Cuts | Older pending | New pending | Working Keep target | More Keeps needed |

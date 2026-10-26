@@ -3,7 +3,7 @@
   "name": "Batch 05 · Bounce after dark",
   "room": "bedroom",
   "created_at": "2026-10-26T23:51:13Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published/imported and verified; 50 new unrated candidates. Not an approved party sequence.",
   "selection_policy": {
     "grove": "Upbeat, fun, happy, hopeful, loving and new beginnings; bouncy, melodic and sexy. No acid/techno; avoid chart-pop/top-five-hit character, sad music and negative lyrics.",
     "hollow": "High energy, bouncy, hard, dark and fast. This batch prioritizes hard bounce and fast rave/trance with a smaller compact acid/techno lane; no new DnB this round.",
@@ -7266,5 +7266,15 @@
   "spotify_playlist_name": "The Hollow — Batch 05 · Bounce after dark",
   "spotify_verified_snapshot_id": "AAAAAXdl6trzahco8CIY5+c/G1qmMwlT",
   "spotify_order_verified_at": "2026-10-26T23:44:56Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-26T23:51:59Z",
+  "hosted_import_verification": {
+    "old_track_records_unchanged": 691,
+    "new_records_exact_total": 100,
+    "old_feedback_notes_scores_snapshots_preserved": true,
+    "old_events_preserved_as_prefix": true,
+    "new_batch_unrated_count": 50,
+    "hosted_total": 791,
+    "sqlite_integrity": "ok"
+  }
 }

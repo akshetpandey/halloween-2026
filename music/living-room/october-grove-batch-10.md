@@ -1,6 +1,6 @@
 # October Grove 10 · Bright hooks, fresh pulse
 
-October 26, 2026 · **50 new candidates; not an approved party sequence.** Spotify published and exact order verified. Hosted import pending.
+October 26, 2026 · **50 new candidates; not an approved party sequence.** Spotify published, hosted import and exact order verified.
 
 [Review this batch](https://music.hollow-court.com/?room=living-room&batch=10) · [Spotify audition](https://open.spotify.com/playlist/2IECrckAf4m6RJQkiD4ZY3) · [Exact data](october-grove-batch-10.json)
 
@@ -79,4 +79,4 @@ Spotify reports this audition as public despite private creation/update requests
 
 No audio acquired/uploaded, no mix rendered, no purchases or Like/unlike operations. Spotify main playlists are separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 691 previous serialized records and old feedback/notes/scores/snapshots/events preserved; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated choices. Signed-in Chrome counts, filters, details and audition links checked without casting votes. Playback was not tested.

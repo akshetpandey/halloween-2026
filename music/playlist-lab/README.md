@@ -1,12 +1,12 @@
 # Playlist Lab
 
-**Current October 25:** [Grove Batch 09](https://music.hollow-court.com/?room=living-room&batch=09) and [Hollow Batch 04](https://music.hollow-court.com/?room=bedroom&batch=hollow-04) each have 50 new unrated candidates. All 591 earlier choices are rated; old track data, votes, notes, scores, snapshots and event history were preserved. The hosted library now has **691 tracks: living 491 (79 Keep / 362 Cut / 50 new), bedroom 200 (68 Keep / 82 Cut / 50 new)**. Needs review contains only the new 50 per room.
+**Current October 26:** [Grove Batch 10](https://music.hollow-court.com/?room=living-room&batch=10) and [Hollow Batch 05](https://music.hollow-court.com/?room=bedroom&batch=hollow-05) each have 50 new unrated candidates. All 691 earlier choices are rated; their track records, votes, notes, scores, snapshots and old events were preserved. Hosted library: **791 tracks: living 541 (79 Keep / 412 Cut / 50 new), bedroom 250 (93 Keep / 107 Cut / 50 new)**. Needs review contains only the new 50 per room at import.
 
-The latest distinct-room briefs govern selection. Metadata covers **88/100 ReccoBeats, 89/100 YouTube candidates, 94/100 nonempty artist genres**. Sixteen selected Grove tracks have paraphrased positive-theme lyric sources; complete lyric/listening certification is not claimed. Unknown metrics stay unknown. Full saved-library exports, lyric caches, feedback and credentials remain ignored. No manual six-metric entry is needed. [Current status/targets](../curation-status-2026-10-25.md) · [Handoff](../handoff-2026-10-25-distinct-room-batches.md).
+Grove shifts toward modern vocal/bass house after the host said the last batch had the wrong style. Hollow prioritizes hard bounce and fast rave after strong lane results. Metadata covers **81/100 ReccoBeats, 87/100 YouTube candidates, 86/100 nonempty artist genres**, plus 16 paraphrased Grove lyric themes. Unknown values and unverified exact-edit lyrics stay unknown; no manual six-metric entry required. Full saved-library exports, source membership, feedback, lyric caches and credentials stay ignored. [Current counts/targets](../curation-status-2026-10-26.md) · [Handoff](../handoff-2026-10-26-next-room-batches.md).
 
-Both live review pages and Spotify orders are verified. Main living Spotify remains the 48-track approved October 11 order; 31 newer Keeps are unsynced. Votes never sync automatically. The new auditions report public visibility despite private requests; Access protects the review pages and votes. No app code, permissions or Cloudflare settings changed; no published host ports, origin without JWT 401 / wrong Host 403. [Hosting](HOSTING.md).
+Both signed-in Chrome pages and exact Spotify orders passed; no votes cast during checks. Living main remains the 48-track October 11 order with 31 newer Keeps unsynced. The two auditions report public visibility despite private requests; Access protects review pages/votes. No application code or security configuration changed. Origin without JWT 401 / wrong Host 403, no published host ports. [Hosting](HOSTING.md).
 
-A Python tool for persistent votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted state is separate from the old local database; physical speaker playback remains untested.
+A Python tool for persistent votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted state is separate from the older local database; physical speaker playback remains untested.
 
 October 26 maintenance: the Tunnel connector is updated and restarted on pinned cloudflared 2026.10.4. [Verification and recovery](HOSTING.md#cloudflared-maintenance--october-26).
 
@@ -26,10 +26,12 @@ python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-0
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-07.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-08.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-09.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-10.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-01.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-02.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-03.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-04.json
+python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-05.json
 python3 music/playlist-lab/lab.py serve
 ```
 

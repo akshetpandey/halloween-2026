@@ -3,7 +3,7 @@
   "name": "Batch 10 · Bright hooks, fresh pulse",
   "room": "living-room",
   "created_at": "2026-10-26T23:51:13Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published/imported and verified; 50 new unrated candidates. Not an approved party sequence.",
   "selection_policy": {
     "grove": "Upbeat, fun, happy, hopeful, loving and new beginnings; bouncy, melodic and sexy. No acid/techno; avoid chart-pop/top-five-hit character, sad music and negative lyrics.",
     "hollow": "High energy, bouncy, hard, dark and fast. This batch prioritizes hard bounce and fast rave/trance with a smaller compact acid/techno lane; no new DnB this round.",
@@ -8349,5 +8349,15 @@
   "spotify_playlist_name": "October Grove — Batch 10 · Bright hooks, fresh pulse",
   "spotify_verified_snapshot_id": "AAAAAk/SgEGPvce4gMYapAT4J0FNDdB8",
   "spotify_order_verified_at": "2026-10-26T23:49:49Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-26T23:51:59Z",
+  "hosted_import_verification": {
+    "old_track_records_unchanged": 691,
+    "new_records_exact_total": 100,
+    "old_feedback_notes_scores_snapshots_preserved": true,
+    "old_events_preserved_as_prefix": true,
+    "new_batch_unrated_count": 50,
+    "hosted_total": 791,
+    "sqlite_integrity": "ok"
+  }
 }

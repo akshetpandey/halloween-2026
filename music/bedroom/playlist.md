@@ -6,7 +6,7 @@ Updated October 25, 2026. **[Batch 03 · Bounce under pressure](the-hollow-batch
 
 ## Current host brief
 
-**Techno, tech house, DnB, acid and trance: high energy, bouncy, dark underground rave vibes**, with varied established producers and selected new leads. Select individual engaging tracks; no album blocks, standalone intros/interludes/outros or long repetitive stretches. Club drum passages can support transitions, but approval does not commit us to full-length playback. The living-room brief remains separate.
+**Techno, tech house, DnB, acid and trance: high energy, bouncy, hard, dark and fast underground rave vibes**, with varied established producers and selected new leads. Select individual engaging tracks; no album blocks, standalone intros/interludes/outros or long repetitive stretches. Club drum passages can support transitions, but approval does not commit us to full-length playback. The Grove is happy, hopeful and loving; preserve a clear contrast, with only limited house overlap.
 
 [Batch 03](the-hollow-batch-03.md) tests **14 Acid / 12 Techno / 9 Trance / 8 Tech house / 7 DnB** candidates. The latest acid result was 6/12 kept, ahead of the other lane fractions; this supports a modest emphasis, not a hard genre rule. New exact recordings follow kept producers while a private saved-library pool supplies most candidates. A global Like is not automatic room approval. The batch has 40 leads and no credited artist appears more than twice. Catalog genres/metrics are distinct from editorial lanes and actual-file analysis.
 

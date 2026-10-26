@@ -7,15 +7,17 @@ The approved room pool is now **72 Keeps / 4:16:02 raw**. The live [October Grov
 
 ## Current selection calibration
 
-Follow the latest [batch guide](october-grove-batch-08.md): upbeat, bouncy, melodic and sexy vocal/bass-house hooks, with varied leads and limited contrasting dance-pop. Keep artist/album concentration low, and exclude prior recordings and standalone intro/interlude/outro tracks. No written vote reasons were supplied; fit explanations are hypotheses. The 39 older unrated Batch 05 songs remain available separately.
+**Host clarification · October 25:** the Grove is upbeat, fun, happy, hopeful, loving and about new beginnings. Keep the bounce, melody and sensuality while making this a distinct, welcoming space. **No acid or techno; avoid chart-pop/top-five-hit character, sad music and negative lyrics.** Some house overlap is acceptable, but heavy, hard, dark and fast rave energy belongs in the Hollow. A high BPM, high valence score or a saved Spotify Like cannot override this brief.
 
-## Earlier calibration and original brief
+For new candidates, favor bright disco/funk house, buoyant piano/garage grooves, playful instrumentals and positive vocals. Screen the actual lyric theme where sources exist; an uplifting title or production alone is insufficient. Do not reinterpret old Keeps as new dislikes: existing votes remain intact, with any future running-order fit audit kept separate. Artist/album caps, prior-recording exclusions and the ban on standalone intros/interludes/outros still apply.
+
+## Earlier calibration and original brief · superseded where inconsistent
 
 The original 141-track review retained only Now U Do, Hypnotized, Chemicals and Joy; Batch 02 retained 12/25, Batch 03 17/25 and Batch 04 12/50. Smooth disco/house mostly lost in Batch 04 while bolder vocal/electro/dance-punk tracks did better. No written reasons were supplied, and catalog BPM/energy do not yield a reliable cutoff. The interpretation and full candidate list are in the current batch notes. The final nine-hour programme remains a later step.
 
 Keep the enchanted/eerie woodland atmosphere, with **upbeat, interesting, higher-tempo, bouncy, melodic and sexy** party music. No interludes, intros or outros. Avoid tracks that drag through repetition, and reduce artist/album concentration. This supersedes the September 3 blanket approval of the existing living-room collection and its soft-ending proposal. The room remains house-oriented and conversational; bedroom techno is a separate programme.
 
-Proposed musical lanes: sensual vocal house/disco; elastic funk and French disco; melodic/percussive/organic house with darker textures. Theme comes from timbre, percussion and atmosphere, not ambient filler or Halloween novelty songs. A lower volume is enough for conversation; the music itself should still move.
+Historical musical lanes included sensual vocal house/disco, elastic funk/French disco and darker organic textures. The latest clarification removes dark/sad or techno-led boundary tests from new Grove batches. Theme comes from timbre, percussion and atmosphere, not ambient filler or Halloween novelty songs. A lower volume is enough for conversation; the music itself should still move.
 
 ## What the archive shows
 Analysis of [V2](october-grove-v2.json), not a fresh Spotify read:

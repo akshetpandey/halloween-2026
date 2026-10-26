@@ -3,7 +3,7 @@
   "name": "Batch 04 · Harder in the dark",
   "room": "bedroom",
   "created_at": "2026-10-26T01:25:06Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published to Spotify, exact order verified and imported into protected hosted Playlist Lab. All 50 unrated at import; not an approved party sequence.",
   "selection_policy": {
     "grove": "Upbeat, fun, happy, hopeful, loving and new beginnings. No acid/techno; avoid chart-pop/top-five-hit character, sad music and negative lyrics.",
     "hollow": "High energy, bouncy, hard, dark and fast techno/acid/rave, with limited house overlap and a reduced DnB lane.",
@@ -7544,5 +7544,14 @@
   "spotify_playlist_name": "The Hollow — Batch 04 · Harder in the dark",
   "spotify_verified_snapshot_id": "AAAAAcrxivjuYENd7kVif9HPqdsWSNlQ",
   "spotify_order_verified_at": "2026-10-26T01:22:15Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-26T01:25:45Z",
+  "hosted_import_verification": {
+    "prior_records_preserved": 591,
+    "prior_feedback_notes_scores_snapshots_preserved": true,
+    "new_batch_records_exact": 50,
+    "new_batch_votes_unrated": 50,
+    "signed_in_chrome_page_checked": true,
+    "security_configuration_changed": false
+  }
 }

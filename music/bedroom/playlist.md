@@ -1,14 +1,14 @@
 # The Hollow · bedroom rave programme
 
-Updated October 25, 2026. **[Batch 03 · Bounce under pressure](the-hollow-batch-03.md) is the current 50-track audition**, published to Spotify and imported into the protected listening room. Batch 02 is complete: **20 Keep / 30 Cut**; both completed rounds now provide **45 Keeps / 55 Cuts**. The older audition playlists remain historical batches, not approved running orders.
+Updated October 25, 2026. **[Batch 04 · Harder in the dark](the-hollow-batch-04.md)** is the current 50-track audition, published/imported and verified. Batch 03 finished **23 Keep / 27 Cut**; all 150 older choices are rated, with **68 Keeps / 82 Cuts** across the room. Earlier auditions remain historical batches, not approved running orders.
 
-[Review Batch 03](https://music.hollow-court.com/?room=bedroom&batch=hollow-03) · [Exact tracks and rationale](the-hollow-batch-03.md) · [Portable data](the-hollow-batch-03.json) · [Counts and targets](../curation-status-2026-10-25.md) · [Latest handoff](../handoff-2026-10-25-liked-batches.md)
+[Review Batch 04](https://music.hollow-court.com/?room=bedroom&batch=hollow-04) · [Exact data](the-hollow-batch-04.json) · [Counts and targets](../curation-status-2026-10-25.md) · [Current handoff](../handoff-2026-10-25-distinct-room-batches.md)
 
 ## Current host brief
 
 **Techno, tech house, DnB, acid and trance: high energy, bouncy, hard, dark and fast underground rave vibes**, with varied established producers and selected new leads. Select individual engaging tracks; no album blocks, standalone intros/interludes/outros or long repetitive stretches. Club drum passages can support transitions, but approval does not commit us to full-length playback. The Grove is happy, hopeful and loving; preserve a clear contrast, with only limited house overlap.
 
-[Batch 03](the-hollow-batch-03.md) tests **14 Acid / 12 Techno / 9 Trance / 8 Tech house / 7 DnB** candidates. The latest acid result was 6/12 kept, ahead of the other lane fractions; this supports a modest emphasis, not a hard genre rule. New exact recordings follow kept producers while a private saved-library pool supplies most candidates. A global Like is not automatic room approval. The batch has 40 leads and no credited artist appears more than twice. Catalog genres/metrics are distinct from editorial lanes and actual-file analysis.
+[Batch 04](the-hollow-batch-04.md) tests **18 hard techno / 10 acid / 10 hard bounce / 6 rave-trance / 3 driving club / 3 DnB** candidates. The previous DnB lane returned one Keep out of seven. Twenty-eight new choices come from the private unreviewed saved-library pool; a global Like is not automatic room approval. Every credited artist appears at most twice. Catalog genres/metrics are distinct from editorial lanes and actual-file analysis.
 
 ## Listen, vote, then sequence
 
@@ -18,9 +18,9 @@ After feedback, source the next batch in the successful lanes and reduce bright/
 
 ## Runtime and readiness
 
-**45 approved tracks total 3:44:10 raw**. Working target: **about 220 Keeps**, roughly 175 more, assuming 2½–3 minutes net per track; actual finished chapters decide readiness. The [target arithmetic](../curation-status-2026-10-25.md) explains why the quick demo's 1:38.5 net average should not dictate the full programme.
+**68 approved tracks total 5:05:13 raw**. Working target: **about 220 Keeps**, roughly 152 more, assuming 2½–3 minutes net per track; actual finished chapters decide readiness. The [target arithmetic](../curation-status-2026-10-25.md) explains why the quick demo's 1:38.5 net average should not dictate the full programme.
 
-The new 50 candidates total **2:59:19 raw**. Hypothetical 45-second joins leave **2:22:34**; 60-second joins **2:10:19**. These are planning scenarios, not measured mixing or approved programme time.
+The new 50 candidates total **3:40:40 raw**. Hypothetical 45-second joins leave **3:03:55**; 60-second joins **2:51:40**. These are planning scenarios, not measured mixing or approved programme time.
 
 The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 
@@ -28,9 +28,9 @@ The final prepared collection must supply **at least nine hours after real cuts,
 
 The host chose a **premixed bedroom set** after clarifying there will be no human feedback during the event and only a possible phone camera. The [premixed set plan](premixed-set-plan-2026-10-19.md) is current; the [adaptive Auto DJ proposal](adaptive-auto-dj-plan-2026-10-19.md) is deferred. REAPER 7.82 + Python is installed and passes the [synthetic cut/transition/native-render proof](premix/REAPER-PROOF.md). The agent owns sequencing, cuts, transitions and gains; no per-edit host decision queue. No license purchased or approved-track party mix rendered.
 
-The [preparation tool](premix/README.md) exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The refreshed approved export lists 45 Keeps and zero verified production-file bindings. The native builder/renderer now works with a [19:42 real-audio audition](premix/AUDITION-01.md) as well as synthetic fixtures. The host said the mix sounds great on October 25; six sample tracks are now Keeps and six Cuts, so production must replace the Cuts. The [audio-intelligence planner](premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking extension](premix/TRANSITION-AUTOMATION.md) are implemented and tested without a new render. Approved production files, missing vocal/phrase evidence, final sound checks, nine hours and device tests remain. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checks/revisions without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback for a demonstrated blocker.
+The [preparation tool](premix/README.md) exports host bedroom Keeps to JSON/CSV and a verified-file M3U8, read-only. The refreshed approved export lists 68 Keeps and zero verified production-file bindings. The native builder/renderer now works with a [19:42 real-audio audition](premix/AUDITION-01.md) as well as synthetic fixtures. The host said the mix sounds great on October 25; six sample tracks are now Keeps and six Cuts, so production must replace the Cuts. The [audio-intelligence planner](premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking extension](premix/TRANSITION-AUTOMATION.md) are implemented and tested without a new render. Approved production files, missing vocal/phrase evidence, final sound checks, nine hours and device tests remain. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checks/revisions without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback for a demonstrated blocker.
 
-The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](../handoff-2026-10-25-liked-batches.md).
+The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](../handoff-2026-10-25-distinct-room-batches.md).
 
 ## Next checks
 

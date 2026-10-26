@@ -1,6 +1,6 @@
 # The Hollow 04 · Harder in the dark
 
-October 25, 2026 · **50 new candidates; not an approved party sequence.** Spotify published and exact order verified. Hosted import pending.
+October 25, 2026 · **50 new candidates; not an approved party sequence.** Published and imported into protected Playlist Lab; exact Spotify order and signed-in Chrome review page verified.
 
 [Review this batch](https://music.hollow-court.com/?room=bedroom&batch=hollow-04) · [Spotify audition](https://open.spotify.com/playlist/2J8UBfgbpzcylfZwUZLLaH) · [Exact data](the-hollow-batch-04.json)
 
@@ -71,4 +71,4 @@ Spotify reports this audition as public despite private creation/update requests
 
 No audio acquired/uploaded, no mix rendered, no purchases or Like/unlike operations. Spotify main playlists are separate.
 
-Hosted import/verification: pending.
+Hosted import verified: all 591 previous serialized records and old feedback/notes/scores/events/snapshots preserved; 100 new exact records start unrated. Both Needs review queues contain only the new 50. [Current handoff](../handoff-2026-10-25-distinct-room-batches.md).

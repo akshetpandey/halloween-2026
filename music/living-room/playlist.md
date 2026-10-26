@@ -1,9 +1,9 @@
 # October Grove · living-room music
-Updated October 25, 2026. **[Batch 08 · Closer to the groove](october-grove-batch-08.md) is the current 50-track review batch**, live in Playlist Lab and Spotify with exact order verified. It follows Batch 07's **17 Keep / 33 Cut**, using the private saved-library pool alongside the full room feedback. A Spotify Like is a sourcing signal, not a party Keep.
+Updated October 25, 2026. **[Batch 09 · Light, love & lift](october-grove-batch-09.md)** is the current 50-track review batch, published/imported and verified. Batch 08 finished **6 Keep / 44 Cut**, and every older track is rated. The approved room pool now has **79 Keeps / 4:35:04 raw**.
 
-The approved room pool is now **72 Keeps / 4:16:02 raw**. The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) remains the API-verified 48-track October 11 order; **24 newer Keeps are not yet synced**. The new audition does not replace it. Counts/targets and the remaining nine-hour requirement are maintained in [current curation status](../curation-status-2026-10-25.md).
+The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) remains the exact 48-track October 11 order, all still Keeps; **31 newer Keeps are not yet synced**. The audition is separate. [Counts and nine-hour targets](../curation-status-2026-10-25.md).
 
-[Review Batch 08](https://music.hollow-court.com/?room=living-room&batch=08) · [Exact batch data](october-grove-batch-08.json) · [Latest handoff](../handoff-2026-10-25-liked-batches.md)
+[Review Batch 09](https://music.hollow-court.com/?room=living-room&batch=09) · [Exact data](october-grove-batch-09.json) · [Current handoff](../handoff-2026-10-25-distinct-room-batches.md)
 
 ## Current selection calibration
 
@@ -53,7 +53,7 @@ Use [Playlist Lab](../playlist-lab/README.md) for embedded YouTube/Spotify liste
 
 The authorized app returned HTTP 403 for Audio Features but did return popularity for all 141 records. ReccoBeats supplies automatically retrieved BPM/key and available energy/danceability/valence/acousticness/speechiness descriptors; [coverage and analysis](catalog-analysis-2026-09-08.md) distinguishes exact Spotify-ID matches from alternate releases matched by ISRC/title/artists/duration. Artist genres, editorial style lanes and optional listening scores remain distinct. The normal host workflow is only Keep/Cut/Maybe; no manual six-metric entry required.
 
-Next: review the 50 new Batch 08 candidates; the 39 unrated Batch 05 tracks remain available in their own filter. Use saved votes and any written reasons before sourcing the following batch. Expand the approved-only main playlist toward nine hours after actual transitions and rehearse the Google Homes. The October 11 replacement and exact order are API-verified; full programme approval and speaker playback remain pending.
+Next: review the 50 new Batch 09 candidates; all earlier choices are complete. Use saved votes and any written reasons before sourcing the following batch. Expand the approved-only main playlist toward nine hours after actual transitions and rehearse the Google Homes. The October 11 replacement and exact order are API-verified; full programme approval and speaker playback remain pending.
 
 ## Devices and fallback
 Create **October Grove** as a Google speaker group in the phone/tablet Google Home app, or use a supported stereo pair if both devices are the same model. Connect the intended Spotify account and select that destination. [Google groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Spotify setup](https://support.spotify.com/us/article/spotify-on-google-devices/)

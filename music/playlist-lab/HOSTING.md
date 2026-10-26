@@ -6,6 +6,14 @@ Only lab stopped briefly for a fresh stopped SQLite backup/import, then restarte
 
 Historical September 22 rollout: the Compose lab and dedicated Tunnel are running. `music.hollow-court.com` has a proxied DNS record, a separate host-only Cloudflare Access application with a 12-hour session, and a protected Tunnel route. An anonymous public request redirects to Access; direct origin requests without a signed JWT return 401. Host Chrome sign-in loaded all 241 pre-Batch-05 tracks and the migrated choices. A temporary Maybe vote survived reload, then Reset restored the original unrated state. At Batch 05 import the hosted database had **291 tracks: 45 keeps, 196 cuts and 50 unrated Batch 05 candidates**; live vote totals change during review. The older local database had only 207 votes. Reviewer access and isolation await exact invited emails and a live test.
 
+## Cloudflared maintenance · October 26
+
+Updated the official container from **2026.9.0 to [2026.10.4](https://github.com/cloudflare/cloudflared/releases/tag/2026.10.4)**, the stable upstream release verified October 26. Compose pins the version and multi-platform manifest digest `sha256:c6c7ae1d5dfdcb094ad344ed68ccffc26635c9c6be80965664c33baf064b0515`; this Mac runs its Linux arm64 image. Only `tunnel.image` changed in the resolved Compose configuration.
+
+Pulled the pinned image, then ran `docker compose up -d --no-deps --force-recreate tunnel`. The new process reports 2026.10.4 and registered all four connection indexes; the lab container ID/start time did not change. No host ports are published. Anonymous public traffic redirects to Cloudflare Access (302); expected-host origin requests without JWT return 401 and an unexpected Host returns 403. No Access/DNS/routes/credentials changed. This is a connector update verification, not a new penetration test or authenticated browser playback test.
+
+A private online SQLite backup and sanitized verification evidence are in ignored `.local/cloudflared-update-2026-10-26/`. [Maintenance handoff and rollback](handoff-2026-10-26-cloudflared-update.md). Future Docker updates replace the container image; `--no-autoupdate` stays enabled so the running version matches Compose. See [Cloudflare's update procedure](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/downloads/update-cloudflared/).
+
 ## Architecture
 
 `https://music.hollow-court.com` is a separate Cloudflare Access self-hosted application, not an added path on the game-admin application. It reuses the existing host-only email policy. Add invited reviewers' exact email addresses only when supplied by the host; use a separate music reviewer policy, not the game-admin policy, when expanding access. Access email one-time PIN uses the existing team login method. This application has its own audience (AUD). The existing `/host` and `/api/admin` policy and audience on `hollow-court.com` remain scoped to game administration.

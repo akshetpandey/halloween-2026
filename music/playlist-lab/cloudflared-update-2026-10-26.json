@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-10-26T20:33:52.968310+00:00",
+  "old_version": "2026.9.0",
+  "new_version": "2026.10.4",
+  "upstream_release": "https://github.com/cloudflare/cloudflared/releases/tag/2026.10.4",
+  "image_reference": "cloudflare/cloudflared:2026.10.4@sha256:c6c7ae1d5dfdcb094ad344ed68ccffc26635c9c6be80965664c33baf064b0515",
+  "platform": "linux/arm64",
+  "container_recreated": true,
+  "lab_container_not_restarted": true,
+  "restart_count": 0,
+  "registered_connection_indexes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "no_published_host_ports": true,
+  "origin_expected_host_without_jwt": 401,
+  "origin_unexpected_host": 403,
+  "anonymous_public_probe": {
+    "status": 302,
+    "redirects_to_cloudflare_access": true
+  },
+  "compose_change_scope": "tunnel.image only",
+  "access_dns_routes_credentials_changed": false,
+  "library_track_count": 691,
+  "library_integrity": "ok",
+  "library_tables_unchanged": {
+    "tracks": true,
+    "feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "snapshots": true,
+    "events": true
+  },
+  "metadata_and_feedback_migrations_performed": false,
+  "source_notes": "Upstream release page contains artifact checksums, not a specific CVE remediation claim."
+}

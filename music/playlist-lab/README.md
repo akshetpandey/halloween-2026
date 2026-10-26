@@ -8,6 +8,8 @@ Both live review pages and Spotify orders are verified. Main living Spotify rema
 
 A Python tool for persistent votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted state is separate from the old local database; physical speaker playback remains untested.
 
+October 26 maintenance: the Tunnel connector is updated and restarted on pinned cloudflared 2026.10.4. [Verification and recovery](HOSTING.md#cloudflared-maintenance--october-26).
+
 ## Listen and vote now
 
 **September 9 laptop layout:** compact header and horizontal library counters; track list, player and details sit side by side above 1100 px. Keep / Cut / Maybe / Reset are directly beneath playback controls. ReccoBeats metrics are expanded at the top of track details; optional listening scores and raw metadata stay collapsed. Narrow windows stack the panels. Refresh the listening room to load the layout. [Layout verification and runtime handoff](handoff-2026-09-09-laptop-layout.md).

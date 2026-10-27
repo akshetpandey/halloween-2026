@@ -2,11 +2,11 @@
   "playlist_id": "6FEcecNrYObHqVunRf9Vzf",
   "playlist_name": "October Grove — Halloween 2026",
   "spotify_url": "https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf",
-  "observed_at": "2026-10-27T01:27:01Z",
-  "reported_snapshot_id": "AAAALiuvgJdmAaCbveheYvqeNxZZbdwC",
-  "selection": "Live main playlist: previous 48 October 11 Keeps plus the host-requested Float On. This is 49 of 80 Grove Keeps; 31 others remain unsynced.",
-  "verification": "Full ordered Spotify items readback equals the previous 48 plus exactly one requested recording. Snapshot metadata did not advance; full content, not snapshot change, establishes the append.",
-  "raw_duration_ms": 10874401,
+  "observed_at": "2026-10-27T01:39:34Z",
+  "reported_snapshot_id": "AAAAL+cw+T6bJwCK566OJjBjTEajYB/q",
+  "selection": "Live main playlist: original 48 October 11 Keeps plus the host-requested Float On and Bruises. This is 50 of 81 Grove Keeps; 31 others remain unsynced.",
+  "verification": "Full ordered Spotify items readback equals the previous 49 plus exactly one requested Bruises recording. Full content, rather than snapshot metadata alone, establishes the append.",
+  "raw_duration_ms": 11115867,
   "tracks": [
     {
       "position": 1,
@@ -350,31 +350,38 @@
       "artist": "Modest Mouse",
       "title": "Float On",
       "duration_ms": 208466
+    },
+    {
+      "position": 50,
+      "spotify_uri": "spotify:track:4KCcxVTDOuOntQCaXZkN3R",
+      "artist": "Chairlift",
+      "title": "Bruises",
+      "duration_ms": 241466
     }
   ],
   "addition_verification": {
-    "verified_at": "2026-10-27T01:29:13Z",
-    "old_track_records_preserved": 791,
+    "verified_at": "2026-10-27T01:40:30Z",
+    "old_track_records_preserved": 792,
     "old_feedback_notes_scores_snapshots_and_event_prefix_preserved": true,
     "new_track_count": 1,
     "new_track_vote": "up",
     "numbered_batches_changed": false,
-    "main_track_count": 49,
+    "main_track_count": 50,
     "main_previous_order_preserved": true,
-    "main_added_uri": "spotify:track:2lwwrWVKdf3LR9lbbhnr6R",
-    "main_snapshot": "AAAALiuvgJdmAaCbveheYvqeNxZZbdwC",
-    "main_raw_ms": 10874401,
+    "main_added_uri": "spotify:track:4KCcxVTDOuOntQCaXZkN3R",
+    "main_snapshot": "AAAAL+cw+T6bJwCK566OJjBjTEajYB/q",
+    "main_raw_ms": 11115867,
     "unsynced_grove_keeps": 31,
     "sqlite_integrity": "ok",
     "counts": {
       "living-room": {
-        "total": 542,
+        "total": 543,
         "votes": {
           "down": 412,
-          "up": 80,
+          "up": 81,
           "unrated": 50
         },
-        "approved_raw_ms": 16712883
+        "approved_raw_ms": 16954349
       },
       "bedroom": {
         "total": 250,
@@ -386,7 +393,7 @@
         "approved_raw_ms": 23627591
       }
     },
-    "youtube_candidate_available": false,
+    "youtube_candidate_available": true,
     "reccobeats_available": true,
     "security_configuration_changed": false,
     "spotify_reported_snapshot_unchanged": true

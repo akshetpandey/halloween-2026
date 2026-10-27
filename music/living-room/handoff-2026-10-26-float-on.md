@@ -1,5 +1,7 @@
 # Handoff · Float On added to the Grove
 
+Historical one-song addition. The [later Bruises handoff](handoff-2026-10-26-bruises.md) supersedes the live totals below.
+
 - **Session/date/scope:** explicit one-song request, October 26, 2026, America/New_York; main October Grove playlist, one hosted Keep, portable host-additions seed, current main snapshot and inventory documentation.
 - **Checkout/base/status:** shared `main`, base `e2da485`; complete. Final focused commit follows and is reported in chat. No push.
 - **User decision:** add Float On by Modest Mouse, supplied via [Shazam](https://www.shazam.com/track/40161967). This explicitly approves the individual recording for the Grove; it does not change the general discovery brief or authorize an artist-wide approval.

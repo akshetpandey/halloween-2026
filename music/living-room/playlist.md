@@ -1,11 +1,11 @@
 # October Grove · living-room music
-Updated October 26, 2026. **[Batch 10 · Bright hooks, fresh pulse](october-grove-batch-10.md)** is the current published/imported 50-track review batch. Batch 09 finished **0 Keep / 50 Cut**; the host said it had the **wrong overall style**. All 491 earlier choices are rated. After the explicit Float On addition, the approved room pool is **80 Keeps / 4:38:33 raw**.
+Updated October 26, 2026. **[Batch 10 · Bright hooks, fresh pulse](october-grove-batch-10.md)** is the current published/imported 50-track review batch. Batch 09 finished **0 Keep / 50 Cut**; the host said it had the **wrong overall style**. All 491 earlier choices are rated. After the explicit Float On and Bruises additions, the approved room pool is **81 Keeps / 4:42:34 raw**.
 
-The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) now has **49 tracks / 3:01:14 raw**, all Keeps: the original 48-track order followed by the host-requested **Float On — Modest Mouse**; **31 newer Keeps are not yet synced**. The audition is separate. [Counts and nine-hour targets](../curation-status-2026-10-26.md).
+The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) now has **50 tracks / 3:05:16 raw**, all Keeps: the original 48-track order followed by the host-requested **Float On — Modest Mouse** and **Bruises — Chairlift**; **31 newer Keeps are not yet synced**. The audition is separate. [Counts and nine-hour targets](../curation-status-2026-10-26.md).
 
-[Review Batch 10](https://music.hollow-court.com/?room=living-room&batch=10) · [Exact data](october-grove-batch-10.json) · [Batch handoff](../handoff-2026-10-26-next-room-batches.md) · [Host addition and live snapshot](handoff-2026-10-26-float-on.md)
+[Review Batch 10](https://music.hollow-court.com/?room=living-room&batch=10) · [Exact data](october-grove-batch-10.json) · [Batch handoff](../handoff-2026-10-26-next-room-batches.md) · [Latest host addition and live snapshot](handoff-2026-10-26-bruises.md)
 
-**Individual host addition · October 26:** [Float On — Modest Mouse](https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R), original album recording (3:28), was explicitly requested, appended to the main playlist and saved as a Keep outside numbered batches. [Host-additions seed](october-grove-host-additions.json) · [Current main snapshot](october-grove-approved-2026-10-26.json). This individual guitar-led choice does not replace the overall discovery brief.
+**Individual host additions · October 26:** [Float On — Modest Mouse](https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R), original album recording (3:28), and [Bruises — Chairlift](https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R), original album recording (4:01), were explicitly requested, appended to the main playlist and saved as Keeps outside numbered batches. [Host-additions seed](october-grove-host-additions.json) · [Current main snapshot](october-grove-approved-2026-10-26.json). These individual indie choices do not replace the overall discovery brief.
 
 ## Current selection calibration
 

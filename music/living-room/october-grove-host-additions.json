@@ -141,6 +141,153 @@
           }
         }
       }
+    },
+    {
+      "spotify_uri": "spotify:track:4KCcxVTDOuOntQCaXZkN3R",
+      "spotify_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+      "artist": "Chairlift",
+      "artists": [
+        "Chairlift"
+      ],
+      "artist_ids": [
+        "7hAolICGSgXJuM6DUpK5rp"
+      ],
+      "title": "Bruises",
+      "album": "Does You Inspire You",
+      "album_id": "0LxYnbZ4oZcDYF9UIFxqLF",
+      "duration_ms": 241466,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US28E0834204",
+      "release_date": "2008-09-30",
+      "popularity": 53,
+      "metadata_at": "2026-10-27T01:39:14Z",
+      "is_playable": true,
+      "id": "spotify:track:4KCcxVTDOuOntQCaXZkN3R",
+      "room": "living-room",
+      "origin": "Explicit host request · October 26, 2026",
+      "style": [
+        "Host pick",
+        "Indie pop"
+      ],
+      "features": {},
+      "artist_genres": {
+        "7hAolICGSgXJuM6DUpK5rp": {
+          "name": "Chairlift",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T01:39:14Z"
+        }
+      },
+      "selection_reason": "Host explicitly requested Bruises by Chairlift for the Grove.",
+      "editorial_note": "Host-approved Grove addition. This individual indie-pop choice does not replace the general discovery brief.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf",
+      "verification": {
+        "source": "Spotify exact-ID Web API",
+        "exact_uri_match": true,
+        "observed_at": "2026-10-27T01:39:14Z"
+      },
+      "request_source_url": "https://www.shazam.com/track/46547762?referrer=share",
+      "flags": [],
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+        "isrc": "US28E0834204",
+        "duration_ms": 241466,
+        "observed_at": "2026-10-27T01:39:32Z",
+        "features": {
+          "danceability": {
+            "value": 0.58,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.554,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.103,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0577,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0172,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0263,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 185.276,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.833,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:39:32Z",
+            "track_url": "https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
+      "youtube": {
+        "video_id": "ZQ9hLOHj8ag",
+        "title": "Chairlift - Bruises (Video)",
+        "channel": "chairliftband",
+        "duration_seconds": 241,
+        "url": "https://www.youtube.com/watch?v=ZQ9hLOHj8ag",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4KCcxVTDOuOntQCaXZkN3R",
+        "observed_at": "2026-10-27T01:39:33Z",
+        "alternatives": []
+      }
     }
-  ]
+  ],
+  "updated_at": "2026-10-27T01:40:27Z"
 }

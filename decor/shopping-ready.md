@@ -1,8 +1,10 @@
 # House decor shopping plan — October 27, 2026
 
+**Latest research — moving heads definitively dropped; compact DMX fills proposed:** [fill and effect-panel value comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md). Host confirms all lights/laptop within five feet. Recommended LF105 + LPC018 two-pack + six-foot links gives **$1,214.73** whole decor; OPPSK384 coupon alternative **$1,232.76**; original OPPSK coupon plus fills **$1,299.36**. These upgrades await exact panel/fill selection; the previously selected 23-line OPPSK-only baseline below stays conservative at list price. All new recommended items showed Oct 29 in Chrome. No purchases.
+
 **Host accepts the OPPSK / direct USB-C DMX route and omits extension cables; nothing bought.** Use one OPPSK with the [direct USB-C DMX plan](lighting/oppsk-usb-dmx-2026-10-27.md). The two-PAR replacement proposal is superseded; the earlier three-fixture rig remains only a dated comparison. No moving heads or lasers in this basket. Exact interface/cabling are recommended, not received/tested.
 
-**Whole-decor estimate $1,242.04**, including local allowances, planning tax, shipping and buffer; **$357.96 below the approximately $1,600 ceiling**. This is the selected **23-product-line basket**, using the interface’s included 5.9-ft lead. It saves **$29.42 including planning tax** against the earlier extension-included plan. Remaining products showed Oct 29–30 delivery in the earlier October 27 Chrome checks; no new price/delivery refresh in this update. Dates remain conditional estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
+**Whole-decor estimate $1,242.04**, including local allowances, planning tax, shipping and buffer; **$357.96 below the approximately $1,600 ceiling**. This is the selected **23-product-line basket**, using the interface’s included 5.9-ft lead. It saves **$29.42 including planning tax** against the earlier extension-included plan. Scenery products retain the earlier October 27 Chrome estimates of Oct 29–30; OPPSK/panel/fill/cable offers and coupons were refreshed in the latest linked research. Dates remain conditional estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
 
 ## Exact current products and quantities
 
@@ -32,6 +34,8 @@
 | H28 | [WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Oct 29 |
 | H38 | [Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5](https://www.amazon.com/dp/B0773JCTR5) | 1 | 13.87 | 13.87 | Oct 29 |
 
+**Original OPPSK coupon confirmed:** displayed **$165.59** (not yet applied), versus the conservative **$179.99** H29 table price. If eligible at checkout, the same one-fixture baseline is **$1,226.35**. [Coupon and alternative evidence](research/dmx-fill-and-panel-comparison-2026-10-27.json).
+
 **Products subtotal $951.48.** New one-time offers checked October 27 to existing Brooklyn ZIP 11211. No used/subscription/business/coupon discounts counted. [Current control quotes and machine-readable basket](research/oppsk-usb-dmx-2026-10-27.json) · [Earlier same-day scenery quote evidence](research/price-refresh-and-value-plan-2026-10-27.md). No item ordered or received.
 
 ## Current cash model
@@ -50,6 +54,20 @@
 
 The earlier $1,271.46 included extensions; removing merchandise $26.99 and aggregate planning tax $2.43 saves $29.42. The earlier $1,210.46 OPPSK-only estimate omitted control entirely. Prior two-PAR and full-rig figures are history, not additional allocations.
 
+## Proposed fill / effect upgrade — awaiting host selection
+
+Choose one main panel; do not add every comparison. The baseline product table above is not automatically replaced.
+
+| Proposed item | Quantity | USD | Arrival estimate |
+|---|---:|---:|---|
+| [Betopper LF105 / B0FX2N14PZ](https://www.amazon.com/dp/B0FX2N14PZ), replaces H29 if chosen | 1 | 87.95 | Oct 29 |
+| [Betopper LPC018 RGB / 2 Pack, B0GCCPC16R](https://www.amazon.com/dp/B0GCCPC16R), H40 | 1 two-pack | 49.99 | Oct 29 |
+| [Cable Matters 6-ft DMX / 2 Pack, B08SQMHPF3](https://www.amazon.com/dp/B08SQMHPF3), H41 | 1 two-pack | 16.99 | Oct 29 |
+
+**New panel/fill/link bundle $154.93 before tax**; existing SH-RS09C interface and terminators already counted. **Whole decor $1,214.73** = $926.42 products + $105 local/support + $92.83 aggregate planning tax + $60 shipping + $30.48 buffer. **$385.27 below $1,600**. Keep original OPPSK with fills instead: **$1,299.36 if its $165.59 coupon applies / $1,315.05 without coupon**. OPPSK384 direct-zone option with the same fills/links: **$1,232.76 coupon / $1,238.75 without coupon**.
+
+Host-confirmed five-foot cluster: use the included 5.9-ft interface lead to the panel, then the **two six-foot DMX links** between the three fixtures, existing terminator last. H35 long-extension pack remains omitted. Two short links are needed only if adding DMX fills; no new USB adapter/second controller. New fixtures remain subject to actual low-level output/nameplate/profile/placement and same-Mac rehearsal. [Detailed performance tradeoffs and first patch](lighting/dmx-fill-and-panel-value-2026-10-27.md).
+
 ## Lighting still in the plan
 
 | Area | Current lighting |
@@ -58,7 +76,7 @@ The earlier $1,271.46 included extensions; removing merchandise $26.99 and aggre
 | Grove | Govee RGBIC floor lamp for purple wash; owned LIFX tree lamp; handmade glowing moon and warm string accents |
 | Moon Well | Mydethun moon globe, O’Bright dim ambient lamp and tea lights |
 
-The **original second Hollow effect was the U’King moving-head pair (H31)**. It is **not in this current basket**: the earlier October 27 quote was $129.99 with October 31 arrival, missing the before-Halloween setup target. The two-PAR replacement and removed laser are also excluded. The separate Grove lighting remains; it is not part of the OPPSK DMX chain. No second bedroom effect has silently been added back.
+The **original second Hollow effect was the U’King moving-head pair (H31)**. Host now explicitly confirms **no moving heads**. It is **not in this current basket**: the earlier October 27 quote was $129.99 with October 31 arrival, missing the before-Halloween setup target. The two-PAR replacement and removed laser are also excluded. The separate Grove lighting remains; it is not part of the OPPSK DMX chain. No second bedroom effect has silently been added back.
 
 ## What stays and what changes
 

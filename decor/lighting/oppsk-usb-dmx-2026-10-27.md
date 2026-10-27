@@ -1,5 +1,7 @@
 # OPPSK over USB-C — October 27, 2026
 
+**Later October 27 research:** host confirms no moving heads and all lights/laptop within five feet. [Fill/panel comparison](dmx-fill-and-panel-value-2026-10-27.md) verifies original coupon $165.59 and proposes two LPC018 fills plus cheaper LF105 or OPPSK384. These choices remain unselected; baseline setup below stays available. If fills chosen, add two six-foot interfixture links and move terminator to the last fill. No long Mac extension or second interface.
+
 **Confirmed host:** accept the OPPSK / direct USB-C DMX route and omit extension cables (latest October 27 reply). The current basket uses one OPPSK, with no PAR kit, moving heads or lasers. **Recommended control:** DSD TECH SH-RS09C directly into the Mac's USB-C port, free QLC+, one terminated DMX line. The interface, terminators and OPPSK showed **free Thursday October 29 delivery / In Stock** in signed-in Chrome Play earlier on October 27; no fresh offer check in the extension-removal update. Target receipt Friday October 30; offers can change before checkout. Nothing bought, installed or physically tested.
 
 ## Exact parts and costs

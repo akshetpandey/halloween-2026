@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## October 27 • DMX fill and cheaper effect-panel comparisons
+
+**Confirmed host:** no moving heads; all fixtures/laptop within five feet. Original OPPSK user-reported ~$165 coupon was rechecked as **$165.59 displayed, unchecked**. Existing conservative selected OPPSK-only baseline remains $1,242.04 at $179.99 list; if coupon applies, **$1,226.35** ($937.08 products / $93.79 planning tax). No new exact panel/fill selection or purchase yet.
+
+[New recommended upgrade](../decor/lighting/dmx-fill-and-panel-value-2026-10-27.md): **LF105 $87.95 + LPC018 two-pack $49.99 + six-foot DMX two-pack $16.99**, all In Stock/free Oct 29 Chrome estimates. Whole decor **$1,214.73** = $926.42 products + $105 local/support + $92.83 aggregate 9% tax + $60 shipping + $30.48 buffer; **$385.27** below unchanged $1,600. OPPSK384 coupon with same fills/links **$1,232.76**; original OPPSK coupon with fills/links **$1,299.36**. Coupons conditional/unapplied. These are mutually exclusive scenarios replacing the main panel once, not additive budgets. Six-foot links replace long-link proposal, saving $10 merchandise; no H35 long pack or second interface. No other family allocation/real cart change. [Current shopping list](../decor/shopping-ready.md) · [calculation/evidence](../decor/research/dmx-fill-and-panel-comparison-2026-10-27.json).
+
 ## October 27 • direct USB-C plan accepted, extensions removed
 
 **Confirmed host:** “Ok lets go with that, probably don't need extension cables. Please update shopping list.” [Selected 23-line decor basket](../decor/shopping-ready.md) is **$1,242.04** = **$951.48 products + $105 local/reuse/support + $95.08 aggregate 9% planning tax + $60 shipping + $30.48 buffer**, leaving **$357.96** under approximately $1,600. Remove H35 $26.99; tax allowance falls $2.43, saving **$29.42** from the extension-included model below. OPPSK + SH-RS09C + terminator pack **$208.97 before tax**; control alone $28.98. No added purchase of a USB-A adapter or second controller. Earlier October 27 source quotes retained without new stock/arrival claim.

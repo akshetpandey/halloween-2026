@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 27 latest: **host accepts OPPSK with direct USB-C DMX and omits extension cables**. [Current shopping basket](shopping-ready.md) owns selected quantities/costs; [USB-C setup and lighting inventory](lighting/oppsk-usb-dmx-2026-10-27.md) distinguishes one Hollow DMX fixture from the separate Grove lighting. Original U’King movers remain excluded due the earlier late-arrival quote. Full scenery/flat fleece/rug/moss retained. No purchases or physical tests. [Latest handoff](lighting/handoff-2026-10-27-no-extension.md).
+October 27 latest: host confirms **no moving heads** and a **within-five-foot light/laptop cluster**. [New DMX fill/panel comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md) recommends a Betopper LPC018 pair with a cheaper LF105 panel; OPPSK384 is the direct-zone step-up. New product choices remain proposals. [Single shopping list](shopping-ready.md) separates the selected original-OPPSK baseline, confirmed coupon and proposed upgrade costs. [Accepted USB-C setup](lighting/oppsk-usb-dmx-2026-10-27.md) retained; no long extensions, orders or physical tests. [Latest handoff](lighting/handoff-2026-10-27-fill-and-panel.md).
 
 | Room / deliverable | Current source |
 |---|---|

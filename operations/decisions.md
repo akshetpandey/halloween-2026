@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 27 • no movers; compare compact DMX fills and cheaper panels
+
+**Confirmed host:** “lets not have the moving heads”; asks for best cost/performance wired-DMX fill like Betopper link and alternatives to original OPPSK's coupon price; subsequently confirms all light fixtures/laptop within five feet. Native USB-C lead retained, no long extension. No new exact fixture selection or purchase authorization inferred.
+
+[Research proposal](../decor/lighting/dmx-fill-and-panel-value-2026-10-27.md): one **LPC018 two-pack $49.99** for fill and **LF105 $87.95** for preset-oriented patterns; **OPPSK384 $104.49 coupon** is direct-zone step-up. Original OPPSK coupon verified **$165.59**, not applied. Two six-foot DMX fixture links **$16.99** needed if fills selected; same interface/terminator, no duplicate controllers. New quoted items show Oct 29; U’King cheap-fill comparison Oct 30. [Basket](../decor/shopping-ready.md) keeps original baseline and proposed alternatives separate. No purchase/test; no gameplay/music/costume changes.
+
 ## Latest October 27 • accept direct USB-C control, omit extensions
 
 **Confirmed host:** accepts the proposed OPPSK / SH-RS09C / QLC+ route, says extension cables probably unnecessary and requests shopping-list update. Remove H35 from the buy list, retain included 5.9-ft interface lead and one terminator pack. [Selected basket](../decor/shopping-ready.md) **$1,242.04** including tax/local/shipping/buffer, $29.42 below the previous extension-included model; nothing purchased. No fresh product-offer check in this update.

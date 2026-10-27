@@ -1,6 +1,6 @@
 # Shared lighting
 
-**October 27 current:** host accepts OPPSK / SH-RS09C USB-C / QLC+ and omits extensions; use the included 5.9-ft lead. [Current basket](../shopping-ready.md) owns the selected costs and [USB-C setup/other-lighting clarification](oppsk-usb-dmx-2026-10-27.md) owns control details. The original second Hollow effect (U’King moving-head pair) remains excluded after the earlier Oct 31 quote; Grove Govee/LIFX/moon/warm accents remain separate. No purchases/tests. Earlier dated source plans below are history.
+**October 27 latest:** [DMX fill and effect-panel value comparison](dmx-fill-and-panel-value-2026-10-27.md) adds live LPC018/LPC120/U’King comparisons, original OPPSK coupon and LF105/OPPSK384/960 alternatives. Recommend LPC018 two-pack plus LF105 for preset effects; OPPSK384 for direct zones. Host confirms no moving heads and all fixtures/laptop within five feet; six-foot links proposed, no long extensions. [Shopping list](../shopping-ready.md) keeps current baseline separate from unselected upgrades. No purchase/test.
 
 [All decor](../README.md). Room layout lives in each room folder; this folder owns product comparisons, shared fixtures and system choices.
 

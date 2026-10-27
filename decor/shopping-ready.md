@@ -1,92 +1,72 @@
-# House decor shopping plan — October 23, 2026
+# House decor shopping plan — October 27, 2026
 
-**Purchase status confirmed October 27:** host says nothing bought/ordered yet from this decor/lighting/fabric/rug slate. The full saved estimate remains outstanding. **Prices and delivery dates below retain their original checks; no October 27 offer or arrival refresh has been performed.** Recheck current prices, quantities and arrival before ordering. No scope reduction selected. [Current purchase-status record](../operations/budget.md#october-27--decor-purchase-status-confirmed).
+**Nothing bought, host-confirmed October 27.** Current research is the [price/delivery refresh and value comparison](research/price-refresh-and-value-plan-2026-10-27.md). **Recommended cheaper basket below, not yet a host-selected lighting change or purchase.** Prior selected three-fixture scope is retained as a [repriced comparison](research/price-refresh-and-value-plan-2026-10-27.md#fulfillment-evidence-and-exact-refreshed-comparison), with moving heads Oct 31 and raven pendants Nov 7–9; it does not meet our before-Halloween setup target. No lasers.
 
-**Host confirms flat fleece walls and cheaper thin furniture covers; larger rug and laser-free rig retained. Products remain unpurchased and installations untested.** Ceiling **about $1,600 including permanent lights**. Only owned decor: gold tree/full-color LIFX. All Hollow walls use bulk black fabric, not ready-made curtains. [Room/layout](final-room-plan.md) · [Amazon fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Setup](setup-schedule.md) · [Current flat fleece/thin-cover offers](bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md) · [Earlier core offer evidence](research/final-offer-check-2026-10-23.md).
+Recommend **$1,057.86** including planned tax/shipping/buffer. All quoted items in this proposal show **Oct 29–30 delivery**, targeting receipt before **October 31**. Dates are conditional account/cutoff estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cut/nesting plan](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Compressed setup sequence](research/price-refresh-and-value-plan-2026-10-27.md#order-and-setup-sequence).
 
-**$1,421.20 planning cash envelope**, including $60 shipping and $30.48 contingency: **$178.80 below approximately $1,600 beyond included contingency**. Flat wall cuts need **five Black / 120 × 120-in BEDELITE fleece blankets**, plus **one two-pack of thin Black / 90 × 132-in Utopia polyester cloths** for bed/desk/Guardian/tub. All fabric **$181.79**. Live fleece quantity five and thin-cover quantity one pack each showed **In Stock / free Oct 24**, checked Oct 23. Exact products remain recommended, no purchase. Stage-light supports, received cloth/mount/rug fit and Mac tests still need validation.
+## Exact recommended products and quantities
 
-## Exact products and quantities
-
-**Other Amazon offers refreshed earlier October 23 in Chrome:** these core items displayed In Stock and an October 24 delivery choice, except Guardian stand October 27 (USB adapter also offered October 26 standard). Estimates are account/cutoff dependent, not guaranteed. Moss quantity 3 and warm-string quantity 2 were selected without adding to cart; other earlier Amazon checks used one product/pack. No optional coupon, used offer or subscription counted. Home Depot, Walmart and Target retain older quotes; their current stock/arrival is not confirmed. **Latest fleece quantity-five and thin-cover pack offers each show Oct 24**. [Current fabric evidence](bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md).
-
-| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Allocation / limits |
+| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Arrival / fulfillment |
 |---|---|---:|---:|---:|---|
-| H22 recommended | [BEDELITE **Black / Oversized King 120 × 120-in fleece**, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66) | **5 blankets** | 31.99 | 159.95 | Flat full-wall/window coverage; 11 full-height pieces + header from offcuts. Live quantity-five stock/free Oct 24, Amazon / Elite Collection US. GSM unspecified. [Flat cuts](bedroom/draping/02-shopping-and-sample.md); no furnishing/sample fleece |
-| H14 reinstated, new SKU | [Utopia Kitchen **Black / 2 Pack 90 × 132-in polyester cloths**, B0854M59WT](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | 21.84 | 21.84 | One bed cover; one desk U-skirt + Guardian body + tub base. 100% polyester, no fleece furnishing blanket. Live new offer stock/free Oct 24, Amazon / Utopia Brands; used offer excluded |
-| H24 | [Command 17003-MPES large utility hooks, **14 hooks / 16 strips**](https://www.homedepot.com/p/206180524) | **4 packs** | 14.61 | 58.44 | 56 hooks: 43 wall/header points + 13 spare. Older retailer quote; full flat-panel substrate/load/removal trial required |
-| H25 | [Staples 831602 black **1.25-in binder clips, 24-pack**](https://business.walmart.com/ip/Staples-Medium-Metal-Binder-Clips-Black-1-1-4-Size-with-5-8-Capacity-831602/533015277) | **3 packs** | 6.19 | 18.57 | 72 clips: 43 wall/header + six desk + 23 spare. Indexed quote; reuse suitable clips first; grip/fit pending |
-| H29 | [OPPSK **1080LEDs Stage Light**, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | **1** | 179.99 | 179.99 | Hollow wash/pixel effect; 18/268CH. Independent support and nameplate/manual checks unresolved; no laser |
-| H31 | [U’King 25W moving heads **2PCS**, Brown selected / black pictured, B0836CXMW6](https://www.amazon.com/dp/B0836CXMW6) | **1 pair** | 129.99/pair | 129.99 | Two fixtures, not this price each. 9/11CH each; independent supports/beam paths still need physical fit |
-| H32 | [DSD TECH **SH-RS09B 5.9FT**, USB-A to 3-pin female DMX, B07WV6P5W6](https://www.amazon.com/dp/B07WV6P5W6) | **1** | 15.99 | 15.99 | Includes first USB-to-fixture lead. Seller Mac/QLC+ support; exact same-Mac music-load test pending; free QLC+ software |
-| H35 | [Cable Matters **22AWG 3-pin DMX, 25ft, 2-pack**, B08SQG6GBF](https://www.amazon.com/dp/B08SQG6GBF) | **1 pack** | 26.99 | 26.99 | Two inter-fixture leads; route extra length at perimeter, never under rug. SKU 500053-25x2 |
-| H36 | [Cable Matters **120-ohm 3-pin male DMX terminators, 2-pack**, B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | **1 pack** | 8.99 | 8.99 | One at final fixture DMX OUT, one spare |
-| H37 conditional | [Anker **A8731 USB-C to USB-A data adapter, Gray 2-pack**, B08HZ6PS61](https://www.amazon.com/dp/B08HZ6PS61) | **1 pack** | 8.98 | 8.98 | One used, one spare; omit purchase if a suitable owned data hub/adapter works. Included in total conservatively |
-| H34 | [Pyle **PMKS5 straight microphone stand, 1 Pack / Black**, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | **1** | 34.99 | 34.99 | Proposed independent lightweight Guardian support; 9.8-in round base, ~33.5–60-in pole. Oct 27 estimate. Scenic adaptation requires actual stability test; not a light stand or bed restraint |
-| H26 permanent | [Govee **RGBIC Floor Lamp Basic / Black**, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | **1** | **99.99** | **99.99** | Grove violet bounce opposite owned LIFX. Price up $30; saturated-purple coverage not tested |
-| H03 | [Mydethun moon **5.9-in White & Yellow / Non-engraved**, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | **1** | 24.99 | 24.99 | Moon Well, charge outside bath; nine-hour trial pending |
-| H04 | [O’Bright **Seraph mini / Black** cordless lamp, B0D92YB4RH](https://www.amazon.com/dp/B0D92YB4RH) | **1** | **31.44** | **31.44** | Dry bathroom shelf; down $5.55; no water-rating claim, fit/runtime pending |
-| H05 | [ORTIGIA **Dark Green 72 × 72-in** forest shower curtain + hooks, B07YD2X9NB](https://www.amazon.com/dp/B07YD2X9NB) | **1** | **12.29** | **12.29** | Prime price, down $2.70. Existing bath rail, distinct from bedroom raw cloth |
-| H06 | [DUSPRO bendable moss vine **10ft**, B0B3XC33R5](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 13.32 | 13.32 | Dry-tub roots; not load-bearing |
-| H08 | [HTZNHXT raven pendants **3Pcs**, B0D73D5W3Y](https://www.amazon.com/dp/B0D73D5W3Y) | **1 pack** | 8.95 | 8.95 | Two Guardian, one Grove shrine; selected 3Pcs governs conflicting copy |
-| H11 | [USMOLA **Green 39 × 39-in / 100 × 100-cm moss sheet**, B0FZD67YDD](https://www.amazon.com/dp/B0FZD67YDD) | **3 sheets** | 16.99 | 50.97 | ~31.7 sq ft nominal; counters ~24.4 sq ft first, ~2 sq ft desk reserved, then small prop scraps. Template waste/quality pending |
-| H27 | [KASZOO **12 Pack with 80 LED / Green**, 84-ft ivy, B07H1GQB36](https://www.amazon.com/dp/B07H1GQB36) | **1 pack** | 9.99 | 9.99 | Ten 7-ft strands Grove, two desk. Included battery LEDs optional spare, not core lighting |
-| H12 | [Twinkle Star **Warm White USB 66ft / 200 LED**, remote, B07GMQ42GG](https://www.amazon.com/dp/B07GMQ42GG) | **2 strings** | 9.99 | 19.98 | One Grove moon/shrine, one Guardian eyes/roots/backdrop; intact strings, no tight surplus coil |
-| H13 | [Homemory **warm-white glow / white body, 12-pack** tea lights, B01EDKGFGU](https://www.amazon.com/dp/B01EDKGFGU) | **1 pack** | 7.99 | 7.99 | Six Grove, four bath, two spare; listed cells included, runtime trial pending |
-| H16 | [DIY Doctor **black gaffer 2in × 30yd / 1 Pack**, B0GH865ZQG](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | 8.99 | Shared scenery/perimeter cables after finish trial; not fabric load system |
-| H17 | [Skalon **black 8-in ties / 100 Pack**, B09PJ8L58G](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack** | 3.99 | 3.99 | Shared fastening; ~12 Guardian, trim ends |
-| H18 | [Command **17026CLRVPES, 40 decorating clips / 48 strips**](https://www.homedepot.com/p/203431559) | **3 packs** | 9.93 | 29.79 | 120 light-wire/ivy clips; separate from fabric hooks. Older retail quote/local stock unverified |
-| H19 | [HDX **FSEX29 15ft 14/3, three AC + two USB-A**](https://www.homedepot.com/p/324077724) | **2** | 19.98 | 39.96 | One Grove, one Hollow, directly to suitable outlets. Three Hollow fixtures + Guardian USB; actual audio/Mac/outlet map pending. Older retail quote |
-| H20 conditional | [Energizer **CR2032 2-pack**, Target A-13738815](https://www.target.com/p/-/A-13738815) | **1 pack** | 4.49 | 4.49 | Buy only if actual device labels match. Older retail quote/local stock unverified |
-| H28 | [WITSHOCK **Bitter Black / 8 × 10ft**, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | **1 rug** | 83.99 | 83.99 | 80 sq ft, ~66% room floor. Door sweep, whole support feet/level and grip need trial; [measured fit](bedroom/rug-and-desk-finish-2026-10-21.md) |
-| **A merchandise** | | | | **1,115.84** | Includes held/conditional items, not paid spending |
+| H22 | [BEDELITE Black / Oversized King 120 × 120-in fleece, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66) | 5 | 32.99 | 164.95 | Oct 29 |
+| H14 | [Utopia Kitchen Black / 2 Pack 90 × 132-in polyester cloths, B0854M59WT](https://www.amazon.com/dp/B0854M59WT) | 1 | 21.84 | 21.84 | Oct 29 |
+| H24 | [Command 17003-MPES, 14 large white hooks / 16 strips](https://www.amazon.com/dp/B075Y2M1Q5) | 4 | 14.61 | 58.44 | Oct 29 |
+| H25 | [Amazon Basics Sturdy Binder Clips, Black / Medium 1.25 in / 96 Count (8 Pack of 12)](https://www.amazon.com/dp/B074XTRX7K) | 1 | 10.76 | 10.76 | Oct 29 |
+| H01 | [U’King 36 LED RGB PAR / 2 Packs, B0B9H16RH5](https://www.amazon.com/dp/B0B9H16RH5) | 1 | 39.99 | 39.99 | Oct 30 |
+| H34 | [Pyle PMKS5 straight microphone stand, 1 Pack / Black, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | 1 | 34.99 | 34.99 | Oct 30 |
+| H26 | [Govee RGBIC Floor Lamp Basic / Black, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | 1 | 99.99 | 99.99 | Oct 29 |
+| H03 | [Mydethun moon 5.9-in White & Yellow / Non-engraved, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | 1 | 24.99 | 24.99 | Oct 30 |
+| H04 | [O’Bright Seraph mini / Black cordless lamp, B0D92YB4RH](https://www.amazon.com/dp/B0D92YB4RH) | 1 | 31.44 | 31.44 | Oct 29 |
+| H05 | [ORTIGIA Dark Green 72 × 72-in forest shower curtain + hooks, B07YD2X9NB](https://www.amazon.com/dp/B07YD2X9NB) | 1 | 14.99 | 14.99 | Oct 29 |
+| H06 | [DUSPRO bendable moss vine 10ft, B0B3XC33R5](https://www.amazon.com/dp/B0B3XC33R5) | 1 | 14.80 | 14.80 | Oct 30 |
+| H11 | [USMOLA Green 39 × 39-in / 100 × 100-cm moss sheet, B0FZD67YDD](https://www.amazon.com/dp/B0FZD67YDD) | 3 | 16.99 | 50.97 | Oct 29 |
+| H27 | [KASZOO 12 Pack with 80 LED / Green, 84-ft ivy, B07H1GQB36](https://www.amazon.com/dp/B07H1GQB36) | 1 | 9.99 | 9.99 | Oct 29 |
+| H12 | [Twinkle Star Warm White USB 66ft / 200 LED, remote, B07GMQ42GG](https://www.amazon.com/dp/B07GMQ42GG) | 2 | 9.99 | 19.98 | Oct 29 |
+| H13 | [Homemory warm-white glow / white body, 12-pack tea lights, B01EDKGFGU](https://www.amazon.com/dp/B01EDKGFGU) | 1 | 8.99 | 8.99 | Oct 29 |
+| H16 | [DIY Doctor black gaffer 2in × 30yd / 1 Pack, B0GH865ZQG](https://www.amazon.com/dp/B0GH865ZQG) | 1 | 8.99 | 8.99 | Oct 29 |
+| H17 | [Skalon black 8-in ties / 100 Pack, B09PJ8L58G](https://www.amazon.com/dp/B09PJ8L58G) | 1 | 3.99 | 3.99 | Oct 29 |
+| H18 | [Command clear decorating clips, 40 clips / 48 strips, 1 Pack](https://www.amazon.com/dp/B000M3YGHS) | 3 | 9.05 | 27.15 | Oct 29 |
+| H19 | [GE 50768 White / 15 Ft / 1 Pack, six grounded AC outlets, 14-gauge SJT](https://www.amazon.com/dp/B087N9HCHV) | 2 | 18.70 | 37.40 | Oct 29 |
+| H28 | [WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Oct 29 |
+| H38 | [Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5](https://www.amazon.com/dp/B0773JCTR5) | 1 | 13.87 | 13.87 | Oct 29 |
 
-**Latest fabric change:** nine fleece / $287.91 → **five fleece $159.95 + thin two-pack $21.84 = $181.79**, saving **$106.12 merchandise / $115.67 on whole cash envelope**. Other products/local allowances unchanged. Four fabric-hook packs and three clip packs retained for actual mounting trial/spares. Exact connections $44.96 still replace old $50 reserve; Guardian stand and household reuse are counted once. At both fabrics' displayed list prices ($37.99 fleece / $22.99 cover pack), whole model $1,455.15, not a promised future price.
+**Products subtotal $782.50.** New one-time offers, checked October 27 in Chrome to existing Brooklyn ZIP 11211, with all recommended lines showing October 29–30 delivery estimates. No used, subscription, business or coupon discounts counted. Quantity checks and sellers in [source evidence](research/price-refresh-and-value-plan-2026-10-27.md); no claim of receipt or tested hardware.
 
-## Local and household items — quantities, not quoted retail SKUs
+## Cash comparison
 
-These remain allowances and inventory checks, not exact stock-confirmed purchases. No false exact link is supplied for a reused box, local pumpkin or an unresolved support system.
+| Cash component | Value: two PARs | OPPSK only | Previous rig repriced |
+|---|---:|---:|---:|
+| Products | 782.50 | 922.50 | 1,132.79 |
+| Local/reuse/support allowances | 105.00 | 105.00 | 105.00 |
+| 9% planning tax, rounded | 79.88 | 92.48 | 111.40 |
+| Shipping reserve | 60.00 | 60.00 | 60.00 |
+| Price/missing-item buffer | 30.48 | 30.48 | 30.48 |
+| **Whole-decor estimate** | 1,057.86 | 1,210.46 | 1,439.67 |
 
-| ID | Need / quantity | Allowance USD | Status |
-|---|---|---:|---|
-| L01 | **Five small pumpkins/gourds** | 35.00 | Local estimate ~$7 each, buy near Oct 28–29 |
-| L02 | **~4oz PVA glue; ~2oz each charcoal/black, dark brown, ivory acrylic**, small green as needed; brush/cutting tools if missing. Reuse clean corrugated card/kraft for face, branches, stones/leaves | 15.00 | Shared craft estimate, inventory first; Guardian alone needs roughly two large card sheets. Tool kit not assumed included |
-| L03 | Materials for **one 24-in moon disk/frame**, reused card plus diffusing paper | 5.00 | Handmade; H12 string already counted |
-| L04 | **Two washable serving trays, wipeable counter underlayer**, covered sweets jar, light-figure attachments if missing | 10.00 | Heavy reuse assumed; new Guardian stand separately quoted as H34, no double charge |
-| L05 | Thin floor-compatible rug grip/edge treatment **only if needed** | 15.00 | Test included TPR backing first; no pad SKU chosen before substrate check |
-| L07 **HOLD** | Independent support materials for **one OPPSK + two moving heads** | 25.00 | Provisional reserve only, **no adequate rig or support SKU confirmed**. Physical placement/fixture footprint must be resolved before buying lights; no fabric-hook/Guardian/bed support |
-| **B local/reuse allowances** | | **105.00** | L06 removed after exact connection sourcing |
+The original frozen $1,421.20 is dated history. Refreshed previous-scope comparison **$1,439.67** includes late movers/pendants and a conditional battery without a verified local date. **Two-PAR proposal saves $381.81** versus that refreshed model, keeping the complete fleece/rug/moss/Grove/Guardian/Moon Well scenery. OPPSK-only alternative **$1,210.46** replaces the $39.99 PAR kit with the $179.99 OPPSK; **never buy both by default**. No chosen spending ceiling increase; about $1,600 decor maximum remains.
 
-| Cash component | USD |
-|---|---:|
-| A merchandise | 1,115.84 |
-| B local/reuse allowances | 105.00 |
-| **Merchandise + local allowances** | **1,220.84** |
-| 9% planning tax, rounded; not a statutory-rate claim | 109.88 |
-| Shipping allowance | 60.00 |
-| Price/missing-item buffer | 30.48 |
-| **Total planning cash envelope** | **1,421.20** |
-| Headroom below approximately $1,600 beyond included contingency | 178.80 |
+## What changes and what stays
 
-Actual checkout tax/shipping/required supports may change this. The basket replaces old decor-category allowances and prior examples; do not add them again. At the unchanged $3,000 party ceiling, $1,578.80 remains for other costs; fully allocating $500 costume + ~$100 winner crown leaves $978.80. This is arithmetic, not an approved hospitality allocation.
+- Hollow lighting: one **two-PAR kit**, own controls/remote/sound option, with low static red/violet fallback to test. No moving gobos, pixel-bar effect or laptop choreography. No H31/32/35/36/37 in the recommendation. If keeping OPPSK, use only the priced alternative and resolve its heavier support independently.
+- Preserve **five flat fleece blankets**, no pleating, all walls/windows/header; thin covers for bed/desk/Guardian/tub; **8×10 rug**, **three large moss sheets**, all 84-ft ivy, two warm strings, glowing Guardian and Grove moon, Govee purple wash and all four quoted bathroom pieces.
+- Late raven pendants: painted card/kraft relics on Guardian/shrine instead, within shared craft allowance. No lost game entity or new bought figure.
+- Power: **two 15-ft GE 50768 strips plus H38 USB-A two-pack**, one string supply per room. GE has no USB ports. Reuse owned suitable USB supplies only after testing, then omit H38; it is included in this total. Both room power leads retain 15-ft reach.
+- Keep mounting inventory and full-panel trial. The one medium 96-clip pack leaves 47 spares after 43 wall/header + six desk clips; actual paper capacity 0.61 in is not a fabric grip rating. No mixed mini-clip assortment. Fourteen-hook packs give 56 hooks for 43 starting points; six desk clips are separate from wall/header allocation.
 
-## Remaining buying holds and sequence
+## Local/reuse allowances and remaining checks
 
-1. **Fabric:** exact Black / Oversized King 120 × 120-in fleece **quantity five**, $159.95, plus exact Black / 2 Pack 90 × 132-in polyester covers **quantity one**, $21.84. Both showed stock/free **Oct 24**. [Current source checks](bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md); recheck total/date at checkout, no reserved stock or order guarantee.
-2. **Flat cuts/mounting:** [five-source plan](bedroom/draping/02-shopping-and-sample.md) covers all runs/returns and header without gathering. **43 starting wall/header points** inside 56 hooks/72 clips; no extra fleece sample or furnishing blanket. Trial one intact source for 24 h before cutting it. Actual width/drop/opacity/finish/mount removal and thin-cover templates remain checks.
-3. **Stage-light supports:** fit actual fixtures/supports outside dance/side route; re-cost if $25 cannot cover an adequate solution. Guardian stand is not one of these supports. **Upright-bed securement** is also unresolved and independent of this prop build.
-4. Verify local mounting stock, wall/drop measurements, clip grip and one full flat panel for 24 h before cutting all fabric. Keep thin covers separate for furniture; trial one fleece source before cutting that same blanket; floor-clear hems and removable access panels.
-5. Receive core supplies by Oct 27 if possible. Test rug/door/feet/grip, bath runtime and full Mac/music/DMX operation. SH-RS09B prototype failure falls back to tested fixture built-in sound/auto/static modes, not a second speculative interface.
-6. By Oct 29, stop adding mail-order dependencies. Maintain full-wall scope; any local material substitution must match cut widths, opacity/load and delivered budget. No secured local replacement is claimed.
+| ID | Need | Allowance USD |
+|---|---|---:|
+| L01 | Five small pumpkins/gourds | 35.00 |
+| L02 | Shared paint/glue/craft materials; card/kraft reuse | 15.00 |
+| L03 | One handmade 24-in moon disk/diffuser | 5.00 |
+| L04 | Trays, underlayer, jar, light attachments; reuse assumed | 10.00 |
+| L05 | Conditional rug grip/edge treatment | 15.00 |
+| L07 | Protected fixture support/positioning reserve; no overhead rig quote | 25.00 |
+| **Total local/reuse allowances** | | **105.00** |
 
-Nothing purchased, reserved or installed. Latest turn changed only the Amazon fleece quantity selector to five, no cart additions. Earlier Big Z quote cart was restored empty; [dated evidence](research/final-offer-check-2026-10-23.md). No seller messages, account setting changes or physical tests.
+These are estimates, not stock-confirmed exact SKUs. $25 fixture support/positioning reserve is protected, not an overhead rig quote; supplied PAR brackets/actual floor footprints must be inspected, routes clear and fabric separated. Upright-bed restraint remains unresolved and independent. Received cloth dimensions/opacity/adhesion, rug/door/grip, Guardian stability, actual outlet/nameplates, light modes and runtime remain tests. No product substitution establishes safe installation automatically.
 
-## Removed from the active order
+**Buy timing:** recheck exact quantities and calendar delivery at checkout today; target Oct 30 receipt. Start intact-fleece 24-hour trial on Oct 29, then cut that same source after it passes. Receive late-in-window PARs/stand/moon Oct 30, simplify crafts, rehearse before Oct 31 arrivals. No new mail dependencies after Oct 29 without a confirmed before-party date. [Detailed sequence and evidence](research/price-refresh-and-value-plan-2026-10-27.md).
 
-**Latest:** FabricDirect/Big Z raw yardage and nine-piece gathered Amazon proposal are superseded by five flat-wall fleece + the new H14 thin-cover two-pack. No extra furnishing/sample fleece, separate pads or old tablecloth SKU ordered. The old 280-GSM spec and gathered cut schedules do not apply.
-
-H02 $89.99 large six-pound plug-in moon + $15 heavy mounting allowance are replaced by L03/H12 handmade glowing disk. H09 $21.55 wolf skull is optional; shrine uses raven skull/bark. H10 $22.40 maple garlands replaced by H27 green ivy plus attached paper autumn leaves. H15 creepy cloth unnecessary with black-fabric offcuts. H21 speculative CR2025 pack omitted. H23 ready-made bedroom curtains removed by explicit host instruction. Big Z $249.60 stretch velvet and later $143.64 poplin + H33 $17.90 pads are replaced by H22 fleece; H01 $39.99 two-PAR kit is replaced by H29–32 combined rig, not added to it. H11 old two narrow strips replaced by three large sheets. H07 purchased branch is replaced by card/kraft branches; the earlier H14 tablecloth proposal was removed at that stage; latest host permission now reinstates H14 as the exact Utopia thin-cover pack above, replacing fleece furniture allocations. H30 laser removed by host; H32 MAX replaced by SH-RS09B; H28 5 × 7 rug replaced by 8 × 10; extra third H19 removed after laser deletion. L05 grip reserve retained. Do not buy both old and new versions.
-
-One 8 × 10-ft Hollow rug is included; no whole-room fitted carpet, premium lighting rental, drape/truss rig, fog/haze, new speakers, full articulated guardian or large faux trees included. No laser included by explicit host instruction. Game's five bought figures, tags, premade NFC moon stickers and incremental bases belong to its own budget; whole scenic anchors counted once here. Both crowns, food/drink and costume excluded.
-
-Moon Well gifts: retain $25 wrapped sweets inside food and $5 printing/bags inside supplies, not this decor total. Earlier See's coins offer is sold out; use local wrapped chocolate with packaging/allergens retained. Target ceil(1.2 × guests) pieces; 36 / 54 / 72 for 30 / 45 / 60 guests.
+Exclude old raw-bolt/velvet orders, separate acoustic pads, ready-made bedroom curtains, extra furnishing/sample fleece, lasers, duplicate rigs/controllers, old HDX power when GE is selected, and speculative spare batteries. Food/drink, wrapped sweets/labels, costume, game figures/tags/crown/domain and music costs remain outside decor; charge shared scenery once. No items bought or added to a cart.

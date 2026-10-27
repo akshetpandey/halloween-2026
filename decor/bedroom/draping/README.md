@@ -1,5 +1,7 @@
 # The Hollow — flat black fleece
 
+**October 27 current sourcing:** [refreshed basket](../../shopping-ready.md) and [offer/value comparison](../../research/price-refresh-and-value-plan-2026-10-27.md) supersede dated prices/delivery below. Five flat fleece sources, full coverage and physical cuts remain. Nothing bought or physically tested; lighting savings await host selection.
+
 **Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 
 [Current flat cuts and furniture nesting](02-shopping-and-sample.md) · [Current exact offers](07-flat-walls-thin-covers-2026-10-23.md) · [Single basket](../../shopping-ready.md).

@@ -1,5 +1,7 @@
 # The Rootkeeper — automated desk guardian
 
+**October 27 sourcing/value proposal:** [current basket/comparison](../shopping-ready.md) replaces dated offer timing. Stand shows Oct 30; raven pendants show Nov 7–9. Proposed timely dressing uses painted card/kraft relics from shared craft materials instead of the two pendants, keeping bark face/crown, black body and warm eyes. Two PAR washes newly recommended, pending host choice; OPPSK-only priced separately. No game identity/count, purchase or stability test changed.
+
 Updated October 23, 2026. **Recommended construction, not built or tested.** A handmade bark-spirit bust with a branching crown, glowing eyes and a thin black-cloth body, pretending to operate the automated desk. No human DJ or animatronic mechanism. The large creature in the mood image is a texture/light reference; this build is shallow enough for the accepted apartment layout, subject to the actual mockup.
 
 Bed stays behind at the host's 15-in stored depth; guardian has an independent **~39 × 12-in band**, followed by the **49 × 29.5-in desk** with two small speakers on top. Bed securement remains separate and unresolved. [Room plan](../final-room-plan.md) · [Measured cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Single basket](../shopping-ready.md).

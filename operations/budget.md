@@ -1,5 +1,13 @@
 # Budget, sourcing and purchase ledger
 
+## October 27 • refreshed decor offers and value proposal
+
+Host requests fresh price/arrival checks and cost cuts; nothing bought. [Current basket](../decor/shopping-ready.md) recommends **$1,057.86**, not yet host-selected: **$782.50 products + $105 local/reuse + $79.88 planning tax + $60 shipping + $30.48 buffer**. All 21 proposed product lines showed **October 29–30 delivery** in signed-in Chrome to existing Brooklyn ZIP 11211. New medium 96-clip pack replaces three Staples 24-packs; full fleece/moss/rug quantities retained. Two grounded 15-ft GE strips plus USB-A supply two-pack replace the unverified HDX store route without losing USB power. [Full comparison/evidence](../decor/research/price-refresh-and-value-plan-2026-10-27.md).
+
+Previous-scope repricing **$1,439.67** is a comparison, **not a timely order**: moving heads Oct 31, raven pendants Nov 7–9, conditional Target battery has no local arrival quote. Two-PAR recommendation drops moving heads/laptop-control hardware and replaces the pixel panel, with painted card relics replacing late pendants. **Savings $381.81 vs repriced previous scope / $363.34 vs frozen $1,421.20.** OPPSK-only alternative **$1,210.46**, without heads/DMX hardware; choose one lighting route. Approximately $1,600 decor ceiling unchanged; no confirmed scope switch/order. Keep $25 support/positioning reserve, actual mounting/bed/rug/light tests outstanding. Other party/costume/game allocations untouched.
+
+Latest source/basket supersede old price/date references below. No cart additions, checkout, seller messages, installations or physical tests. [Handoff](../decor/handoff-2026-10-27-price-refresh.md).
+
 ## October 27 • decor purchase status confirmed
 
 **Host confirms “Nothing bought yet”** in response to whether any decor, lighting, fabric or rug had been bought/ordered since October 23. The complete [decor basket](../decor/shopping-ready.md) remains to buy at its **$1,421.20 saved planning estimate**; no decor spending/order is recorded. This is a purchase-status update, not a new quote: October 23 prices and past delivery dates must be refreshed before ordering. No scope cuts selected, including the previously discussed smaller lighting rig. Costume orders remain separate; this reply does not change them. [Status handoff](shopping/handoff-2026-10-27-decor-unpurchased.md).

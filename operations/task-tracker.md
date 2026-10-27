@@ -1,5 +1,7 @@
 # Task tracker and timeline
 
+**October 27 price refresh complete / decision pending:** [current value basket](../decor/shopping-ready.md), [offer evidence and alternatives](../decor/research/price-refresh-and-value-plan-2026-10-27.md), [handoff](../decor/handoff-2026-10-27-price-refresh.md). Nothing bought. All 21 proposed product lines show Oct 29–30 delivery; choose two-PAR versus OPPSK-only before checkout, recheck cutoff, then receive/mount/fit/runtime trials. Full wall/rug/moss scenery retained; old full rig has late movers/pendants. October 23 status below is history, not current delivery or approved purchases.
+
 **October 27 decor status:** host confirms nothing bought/ordered yet for decor, lighting, fabric or rug. The entire [saved basket](../decor/shopping-ready.md) remains to buy. Refresh actual price/arrival and resolve mounting before ordering; October 23 delivery estimates in the dated status below are historical. No lighting/scope cut selected. [Confirmation and handoff](shopping/handoff-2026-10-27-decor-unpurchased.md).
 
 ## October 23 • decor shopping and build status

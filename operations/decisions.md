@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 27 • decor price refresh and proposed savings
+
+**Host confirms no decor bought and asks** to refresh prices/delivery before Halloween and find savings without losing the atmosphere. [Refreshed 21-line proposal](../decor/shopping-ready.md) **$1,057.86** retains full flat fleece, thin furniture covers, rug, counter moss, ivy, Guardian, Grove purple/moon and Moon Well. Newly recommends **one $39.99 two-PAR kit**, own remote/onboard/sound option, replacing the pixel panel/moving-head/laptop-control rig. **Recommendation pending host choice**, not an accepted scope switch or purchase. Losing moving gobos/pixel effects/laptop choreography is explicit. OPPSK-only alternative **$1,210.46**, same scenery, independent heavy-light support still unresolved.
+
+All selected proposal products show **Oct 29–30**; refreshed former-scope model **$1,439.67** contains Oct 31 moving heads, Nov 7–9 pendants and a conditional battery with unverified local date. Painted card relics can replace pendant accents without changing entity count/identity. Binder 96-pack, Amazon hooks/decorating clips and GE 15-ft strips plus USB power are specific timely alternatives. [Sources and calculations](../decor/research/price-refresh-and-value-plan-2026-10-27.md). Received installation, bed support and runtime still need tests. No purchases/cart additions/messages or costume/game changes.
+
 ## Latest October 27 • host costume reuse; large antlers and face cover dropped
 
 **Confirmed host:** second City of Gods night did not happen; repurpose/redesign that outfit for October 31. **No longer Antler King** because large antlers/full-face covering would be annoying. Retire the tall-antler, veil and mounting-kit shopping/build brief; no actual order cancellation, return, seller follow-up or additional purchase authorized/performed.

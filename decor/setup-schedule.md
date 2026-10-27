@@ -1,5 +1,7 @@
 # Decor setup — October 21–30, 2026
 
+**October 27 compressed option:** follow the [current receipt/setup sequence](research/price-refresh-and-value-plan-2026-10-27.md#order-and-setup-sequence): mock up/paint Oct 27–28, receive fleece/moss/power Oct 29 and begin 24-hour full-panel trial, receive PARs/Guardian stand/moon Oct 30, fit and rehearse before Oct 31 guests. The two-PAR proposal removes the extra 3–5-hour DMX programming block below, pending host choice; scenery still needs simplification to fit available time. Arrival is not a passed mount/bed/rug/runtime test. Earlier receipt targets are historical.
+
 Proposed host work, **28–38 hands-on hours** (original scenery 25–33 + 3–5 for basic DMX patch/presets/reactivity), plus drying/24-hour mount observation/nine-hour elapsed tests. The [flat fleece / thin furniture-cover plan](bedroom/draping/02-shopping-and-sample.md) replaces separate backing; trial the complete wide flat panel within the existing mounting task. Allow roughly four full days; upper end exceeds 32 hours, so simplify craft detail to preserve rehearsal time. Helpers unconfirmed. All October dates America/New_York, **EDT / UTC−04:00**. [Current full-wall basket](shopping-ready.md) · [Room plan](final-room-plan.md).
 
 | Block | Work | Hands-on |

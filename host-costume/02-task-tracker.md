@@ -1,6 +1,6 @@
 # Host costume task tracker
 
-**Current October 27:** second City of Gods night did not happen; Antler King/large antlers/full-face veil dropped. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the proposed reuse redesign and source/fit gates. October 23 purchase/ETA evidence below is historical, not confirmed possession. IDs retained for continuity.
+**Current October 27:** second City of Gods night did not happen; Antler King/large antlers/full-face veil dropped. Fur is too hot and plain shirt styling too basic. [23](23-jacket-free-hollow-court-2026-10-27.md) owns the latest dramatic reuse proposal, source/fit gates and private no-fur/upgrade previews. October 23 purchase/ETA evidence below is historical; retailer-delivered refresh is in 09, not physical fit evidence. IDs retained for continuity.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 | KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
-| KING-11 | Redesign unused night-two outfit for October 31 | **Shirt sourcing and requested small-crown personalized preview complete**; final approval/purchase/fit pending | [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns exact Small Burgundy offer/deadline and private render. No new spend |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Plain no-fur and dramatic mantle/hood previews complete**, exact new offers deadline-checked; final approval/purchase/fit pending | [23](23-jacket-free-hollow-court-2026-10-27.md) owns new sources/limits; 22 retains Small Burgundy shirt. No new spend |
 
 ## Historical readiness record • October 23
 

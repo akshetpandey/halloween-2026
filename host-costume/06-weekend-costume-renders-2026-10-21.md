@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–J use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–K use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest preview:** [J](#j-hollow-court-with-burgundy-shirt) repurposes the unused second-night outfit for October 31, after exact Small shirt sourcing and retailer-delivered refresh. [I](#i-personalized-eclipse-and-gilded-stag) retains the October 23 weekend previews. H's imagined leaves/face branches are superseded. D remains the earlier approved black-fur Eclipse direction.
+**Latest previews:** [K](#k-jacket-free-baseline-and-feather-mantle-upgrade) removes fur and proposes more dramatic short feather shoulders/optional woven hood. [J](#j-hollow-court-with-burgundy-shirt) preserves the earlier shirt/fur proposal. [I](#i-personalized-eclipse-and-gilded-stag) retains October 23 weekend previews. H's imagined leaves/face branches are superseded.
+
+## K Jacket-free baseline and feather mantle upgrade
+
+Requested/completed October 27 after host rejects fur heat and plainness: first edit removes only the jacket and reconstructs actual Burgundy shirt sleeves; second adds the real A3-black feather/silver-chain mantle and Black woven hood, showing hood down/up in two full-body views. [23 owns exact sources, check date, private output links and limits](23-jacket-free-hollow-court-2026-10-27.md). Both retain compact crown, gold torc/cuffs, green trousers, clean-shaven likeness and clear face. No makeup, fur, veil or large antlers. Two successful built-in edits; product photos used as object references. New pieces sourced before upgraded render, not ordered. Physical fit/heat and exact fine details untested; private assets/prompts stay Git-ignored.
 
 ## J Hollow Court with Burgundy shirt
 

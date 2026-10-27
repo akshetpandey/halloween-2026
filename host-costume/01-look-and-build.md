@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 27:** reuse the unused second City of Gods outfit for October 31, without large antlers/full-face covering. [22 — current redesign, shirt source and private personalized preview](22-hollow-court-reuse-redesign-2026-10-27.md) is authoritative. Host requests the small bone crown; preview retains torc/cuffs/green trousers/black fur with a newly sourced Burgundy cotton shirt. No new order or physical fit test. Former antler/veil build steps and quotes below are history, not outstanding work.
+**Current October 27:** reuse the unused second City of Gods outfit for October 31, without large antlers/full-face covering. Fur is too hot; host wants more mystery/drama. [23 — current jacket-free revision](23-jacket-free-hollow-court-2026-10-27.md) owns the plain no-fur preview and proposed raven-like feather mantle/optional woven hood, retaining small crown/torc/cuffs/green trousers and sourced Burgundy shirt. New additions deadline-checked before rendering, not ordered or physically fitted. Former antler/veil steps below are history.
 
 ## Historical brief • through October 23
 

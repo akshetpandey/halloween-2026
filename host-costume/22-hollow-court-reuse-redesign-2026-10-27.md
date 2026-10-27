@@ -2,6 +2,8 @@
 
 Updated **Tuesday October 27, 2026**, America/New_York / EDT (UTC−04:00). Event **Saturday October 31**. This is the current costume brief; the large-antler/full-face-veil plans in 17–21 are retired research, not outstanding shopping.
 
+**Later October 27 feedback supersedes the fur-led styling below:** host says fur will be too hot and the shirt look needs more mystery/drama. [23 — current jacket-free revision, exact mantle/hood sources and two private previews](23-jacket-free-hollow-court-2026-10-27.md) is now the current styling brief. This document retains the Small/Burgundy shirt source and earlier render evidence; no shirt purchase is inferred.
+
 ## Confirmed change versus proposal
 
 **Host confirmed October 27:** the second City of Gods night did not happen. Repurpose/redesign its costume for the Halloween apartment party. **No longer doing Antler King** because large antlers and full-face covering would be annoying.

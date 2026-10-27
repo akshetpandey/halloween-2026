@@ -2,7 +2,7 @@
 
 ## Current scope • October 27
 
-The host drops **Antler King, large antlers and full-face covering** and reuses the unused second City of Gods look for October 31. [22 — current redesign and source record](22-hollow-court-reuse-redesign-2026-10-27.md) owns the **JEMITOP Burgundy / Small** deadline-cleared offer and completed private preview with the host-requested compact crown, torc/cuffs/green trousers/removable black fur. Shirt not ordered; physical fit untested. [09](09-final-weekend-shopping-2026-10-21.md) retains the existing purchases and October 27 retailer-delivered refresh; $500 ceiling unchanged. Antler mounts/veil/tools/ivory robe below are retired shopping, not requirements or cancelled orders. No seller follow-up.
+The host drops **Antler King, large antlers and full-face covering**, and says fur is too hot / shirt look needs more mystery. [23 — current jacket-free proposal and exact source record](23-jacket-free-hollow-court-2026-10-27.md) owns the Thursday-ready **A3-black feather mantle and Black woven hood**, completed private previews, exclusions and fit limits. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains JEMITOP Burgundy/Small source. No new pieces ordered; physical fit untested. [09](09-final-weekend-shopping-2026-10-21.md) retains existing orders/delivery refresh; $500 ceiling unchanged. Antler mounts/veil/tools/ivory robe below are retired shopping. No seller follow-up or inferred cancellations.
 
 ## Historical sourcing • through October 23
 

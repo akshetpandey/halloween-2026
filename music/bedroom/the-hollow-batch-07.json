@@ -3,7 +3,7 @@
   "name": "Batch 07 · Afterhours momentum",
   "room": "bedroom",
   "created_at": "2026-10-27T17:17:29Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published/imported and verified; 50 new unrated candidates. Not an approved party sequence.",
   "selection_policy": {
     "grove": "Upbeat, fun, happy, hopeful, loving and new beginnings; bouncy, melodic and sexy. No acid/techno; avoid chart-pop/top-five-hit character, sad music and negative central lyric narratives.",
     "hollow": "High energy, bouncy, hard, dark and fast. Direct rave/trance, hard bounce, acid/driving techno, two psytrance choices; no dedicated tech-house lane; no new DnB this round.",
@@ -6026,5 +6026,15 @@
   "spotify_playlist_name": "The Hollow — Batch 07 · Afterhours momentum",
   "spotify_verified_snapshot_id": "AAAAAbzCzdaGiyrf9p3o94ua12q8xFKS",
   "spotify_order_verified_at": "2026-10-27T17:15:12Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-27T17:18:04Z",
+  "hosted_import_verification": {
+    "old_track_records_unchanged": 893,
+    "new_records_exact_total": 100,
+    "old_feedback_notes_scores_snapshots_preserved": true,
+    "old_events_preserved_as_prefix": true,
+    "new_batch_unrated_count": 50,
+    "hosted_total": 993,
+    "sqlite_integrity": "ok"
+  }
 }

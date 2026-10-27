@@ -1,6 +1,6 @@
 # The Hollow 07 · Afterhours momentum
 
-October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published and exact order verified. Hosted import pending.
+October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published, hosted import and exact order verified.
 
 [Review this batch](https://music.hollow-court.com/?room=bedroom&batch=hollow-07) · [Spotify audition](https://open.spotify.com/playlist/1hyGKj3IXnKb3wGayVvxCG) · [Exact data](the-hollow-batch-07.json)
 
@@ -75,4 +75,4 @@ Spotify reports this audition as public despite the private creation request. Cl
 
 No audio acquired/uploaded, no mix rendered, no purchases or Like/unlike actions. Main playlists remain separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 893 previous serialized records and old feedback/notes/scores/snapshots preserved; events retained as an unchanged prefix; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated choices. Signed-in Chrome counts, filters, details and audition links checked without votes or playback.

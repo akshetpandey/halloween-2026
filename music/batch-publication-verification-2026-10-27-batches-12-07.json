@@ -1,0 +1,97 @@
+{
+  "verified_at": "2026-10-27T17:18:04Z",
+  "old_track_records_unchanged": 893,
+  "new_track_records_exact": 100,
+  "old_tables_preserved": {
+    "feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "snapshots": true,
+    "events": true
+  },
+  "new_unrated": 100,
+  "sqlite_integrity": "ok",
+  "counts": {
+    "living-room": {
+      "total": 643,
+      "votes": {
+        "down": 499,
+        "up": 94,
+        "unrated": 50
+      }
+    },
+    "bedroom": {
+      "total": 350,
+      "votes": {
+        "up": 130,
+        "down": 170,
+        "unrated": 50
+      }
+    }
+  },
+  "security_configuration_changed": false,
+  "spotify_exact_orders_rechecked": true,
+  "main_playlist_unchanged": true,
+  "main_track_count": 50,
+  "spotify_likes_changed": false,
+  "no_published_host_ports": true,
+  "origin_no_jwt_status": 401,
+  "origin_wrong_host_status": 403,
+  "prior_all_rated": true,
+  "batch_defaults": {
+    "living-room": "12",
+    "bedroom": "hollow-07"
+  },
+  "metadata_coverage": {
+    "living-room": {
+      "reccobeats": 47,
+      "youtube_candidates": 42,
+      "artist_genres_nonempty": 32,
+      "artist_lookups_complete": 50
+    },
+    "bedroom": {
+      "reccobeats": 21,
+      "youtube_candidates": 43,
+      "artist_genres_nonempty": 49,
+      "artist_lookups_complete": 50
+    }
+  },
+  "lyric_source_positive_theme_count": 13,
+  "purchases_usd": 0,
+  "audio_downloaded": false,
+  "audio_uploaded": false,
+  "new_mix_rendered": false,
+  "main_all_current_keeps": true,
+  "main_newer_keeps_unsynced": 44,
+  "main_baseline_order_unchanged": true,
+  "main_legacy_ids_joined_by": "spotify_uri",
+  "signed_in_chrome": {
+    "living_room": {
+      "total": 643,
+      "keeps": 94,
+      "needs_review": 50,
+      "latest_batch": "12",
+      "detail_visible": true,
+      "audition_link_matches": true
+    },
+    "bedroom": {
+      "total": 350,
+      "keeps": 130,
+      "needs_review": 50,
+      "latest_batch": "hollow-07",
+      "detail_visible": true,
+      "audition_link_matches": true
+    },
+    "needs_review_all_unrated_both_rooms": true,
+    "votes_cast": false,
+    "playback_tested": false
+  },
+  "batch_tests_passed": 5,
+  "fresh_993_row_ui_filter_checks_passed": true,
+  "approved_bedroom_export": {
+    "keeps": 130,
+    "raw_duration_ms": 30470043,
+    "verified_production_files": 0
+  },
+  "checked_at": "2026-10-27T17:20:54Z"
+}

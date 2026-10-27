@@ -1,6 +1,6 @@
 # OPPSK over USB-C — October 27, 2026
 
-**Confirmed host:** keep the OPPSK and resolve timely laptop DMX. The current basket uses one OPPSK, with no PAR kit, moving heads or lasers. **Recommended control:** DSD TECH SH-RS09C directly into the Mac's USB-C port, free QLC+, one terminated DMX line. All three connection products and OPPSK showed **free Thursday October 29 delivery / In Stock** in signed-in Chrome Play on October 27. Target receipt Friday October 30; offers can change before checkout. Nothing bought, installed or physically tested.
+**Confirmed host:** accept the OPPSK / direct USB-C DMX route and omit extension cables (latest October 27 reply). The current basket uses one OPPSK, with no PAR kit, moving heads or lasers. **Recommended control:** DSD TECH SH-RS09C directly into the Mac's USB-C port, free QLC+, one terminated DMX line. The interface, terminators and OPPSK showed **free Thursday October 29 delivery / In Stock** in signed-in Chrome Play earlier on October 27; no fresh offer check in the extension-removal update. Target receipt Friday October 30; offers can change before checkout. Nothing bought, installed or physically tested.
 
 ## Exact parts and costs
 
@@ -9,11 +9,10 @@
 | H29 | [OPPSK 1080LEDs Stage Light / B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | Oct 29; Amazon ships / OPPSK Pro-Lighting sells |
 | H39 | [DSD TECH SH-RS09C USB-C to DMX512 / 1.8m, 5.9ft / B0FX49ZQ8T](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | 19.99 | Oct 29; Amazon / DSD TECH Direct |
 | H36 | [Cable Matters 120Ω 3-pin male DMX terminator / 2-pack / B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | 1 pack | 8.99 | Oct 29; Amazon / Cable Matters |
-| H35 | [Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack / B08SQG6GBF](https://www.amazon.com/dp/B08SQG6GBF) | 1 pack | 26.99 | Oct 29; Amazon / Cable Matters |
 
-Use one terminator and, if needed, one extension; the other pieces are pack spares. **Control hardware $55.97**, OPPSK plus control **$235.96**, before tax. The [whole-decor basket](../shopping-ready.md) is **$1,271.46**, with aggregate planning tax, local/support allowances, shipping and buffer. No separate USB-A adapter, SH-RS09B or MAX controller is added.
+Use one terminator; the second is a pack spare. **Selected control hardware $28.98**, OPPSK plus control **$208.97**, before tax. The [whole-decor basket](../shopping-ready.md) is **$1,242.04**, including aggregate planning tax, local/support allowances, shipping and buffer. Host has accepted this route; no purchase has been performed.
 
-**Cheapest path:** if the included 5.9-ft interface cable reaches the fixture by a protected route, omit H35. Control hardware becomes **$28.98**, whole decor **$1,242.04**. The main estimate includes H35 to allow a perimeter route from the automated desk; do not assume the short cable can cross the dance floor. No extension reel needs to be purchased in addition to the listed pack.
+**Extension pack omitted by host.** Use the SH-RS09C’s included 5.9-ft lead directly. Confirm the route during setup; adjust equipment position if practical. The [H35 Cable Matters 25-ft two-pack](https://www.amazon.com/dp/B08SQG6GBF), earlier quoted $26.99 / Oct 29, is only a contingency if reach fails, not an item to buy now. Earlier $1,271.46 extension-included total is superseded by the selected direct-cable budget, saving $29.42 with tax allowance.
 
 The SH-RS09C listing identifies **FTDI FT232RL**, macOS and QLC+ support; its product image shows USB-C male and 3-pin female DMX. [Manufacturer page](https://deshide.com/product-details_SH-RS09C.html). This is an active data interface, powered over USB. The fixture still requires its own AC supply. Its seller's other software claims have not been validated.
 
@@ -26,7 +25,6 @@ The SH-RS09C listing identifies **FTDI FT232RL**, macOS and QLC+ support; its pr
 ```text
 Mac USB-C
   → SH-RS09C (USB → actual DMX signal; included 5.9-ft lead)
-  → optional H35: 3-pin male-to-female DMX extension
   → OPPSK DMX IN (male)
 
 OPPSK DMX OUT (female) → H36: 120Ω male terminator
@@ -34,6 +32,12 @@ OPPSK power input → separate suitable grounded AC supply
 ```
 
 The terminator is the end of the single-fixture line, not a USB adapter. Use DMX-rated cable, not a USB microphone interface. Guardian eyes remain on their separate warm-light power/remote system; they are not DMX fixtures. The Guardian's microphone stand does not support the OPPSK. Keep the independent fixture-positioning reserve; no overhead support has been sourced or approved.
+
+## Other lighting / second-system clarification
+
+The original second Hollow effect was the **U’King moving-head pair (H31)**. It was excluded from the current timely basket because the earlier October 27 quote showed **October 31 arrival / $129.99**. It has not been re-added or newly quote-checked in this update. One OPPSK is currently the bedroom’s DMX rig. Guardian eyes remain a separate steady warm accent.
+
+The Grove still has a separate lighting arrangement: **Govee RGBIC floor lamp + owned LIFX tree lamp**, plus the handmade moon and warm string accents. They are not connected to this DMX line. Bathroom lighting also remains in the [shopping list](../shopping-ready.md#lighting-still-in-the-plan).
 
 ## First Mac setup
 

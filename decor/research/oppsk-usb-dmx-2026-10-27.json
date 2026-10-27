@@ -2,7 +2,7 @@
   "checkedDate": "2026-10-27",
   "timezone": "America/New_York",
   "targetArrival": "2026-10-30",
-  "status": "Host retains OPPSK; exact USB-C interface and connection products recommended, not purchased or physically tested.",
+  "status": "Host accepts OPPSK / SH-RS09C / terminator route and omits extension cables October 27. Planning list selected; nothing purchased or physically tested.",
   "currentProducts": [
     {
       "id": "H22",
@@ -85,19 +85,6 @@
       "seller": "Cable Matters",
       "shipsFrom": "Amazon",
       "notes": "Use one in last fixture DMX OUT; second is pack spare."
-    },
-    {
-      "id": "H35",
-      "product": "Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack, B08SQG6GBF",
-      "url": "https://www.amazon.com/dp/B08SQG6GBF",
-      "unit": "26.99",
-      "qty": 1,
-      "line": "26.99",
-      "date": "Oct 29",
-      "status": "In Stock",
-      "seller": "Cable Matters",
-      "shipsFrom": "Amazon",
-      "notes": "Budgeted for perimeter reach; omit entire pack if included 5.9ft adapter reaches. Use one extension, second pack spare."
     },
     {
       "id": "H34",
@@ -356,5 +343,33 @@
       "evidence": "\t\t\t\t176 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t325 heading Value: 1, ID: title, DSD TECH SH-RS09C USB-C to DMX512 Adapter Cable with FTDI Chip Support Freestyler QLC and Pi Open Lighting(1.8M/5.9FT)\n\t\t\t\t\t\t\t\t630 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t193 text $19.99\n\t\t\t\t\t\t\t\t\t\t194 text $3.39 per feet\n\t\t\t\t\t\t\t\t\t\t\t200 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t204 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t205 text 4 hrs 57 mins\n\t\t\t\t\t\t\t\t\t\t213 text In Stock\n\t\t\t\t\t\t\t\t\t214 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t253 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t254 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t257 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t258 link Description: DSD TECH Direct, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t261 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t266 text Gift options\n\t\t\t\t\t\t\t\t\t\t\t269 text See more\n\t\t\t\t\t\t\t\t276 text Save up to 4%  on this product with bulk discounts."
     }
   ],
-  "manualStatus": "Matching LED layout and 18/268 modes found in OPPSK-authored manual mirror. Extracted table not visually verified; no QXF/QXW produced. Received manual/model and first-output test required."
+  "manualStatus": "Matching LED layout and 18/268 modes found in OPPSK-authored manual mirror. Extracted table not visually verified; no QXF/QXW produced. Received manual/model and first-output test required.",
+  "excludedOptions": [
+    {
+      "id": "H35",
+      "product": "Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack, B08SQG6GBF",
+      "url": "https://www.amazon.com/dp/B08SQG6GBF",
+      "unit": "26.99",
+      "qty": 1,
+      "line": "26.99",
+      "date": "Oct 29",
+      "status": "In Stock",
+      "seller": "Cable Matters",
+      "shipsFrom": "Amazon",
+      "notes": "Not selected after host October 27 instruction to omit extension cables; contingency quote only if included 5.9-ft lead cannot reach."
+    }
+  ],
+  "selectedCostMode": "directCableOnly",
+  "lightingInventory": {
+    "Hollow": [
+      "H29 one OPPSK DMX fixture",
+      "Guardian eyes on separate warm H12 string"
+    ],
+    "Grove": [
+      "H26 Govee floor lamp, dim purple wash",
+      "Owned LIFX tree lamp",
+      "Handmade moon diffuser / shared warm H12 string"
+    ],
+    "excludedSecondHollowEffect": "H31 U’King moving-head pair, last quoted October 27 at $129.99 / October 31 arrival, excluded from current timely basket; not newly rechecked."
+  }
 }

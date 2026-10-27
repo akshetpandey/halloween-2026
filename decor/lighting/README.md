@@ -1,6 +1,6 @@
 # Shared lighting
 
-**October 27 current:** host retains OPPSK. [Direct USB-C hardware, Mac setup and automation](oppsk-usb-dmx-2026-10-27.md): SH-RS09C $19.99 + terminator pack $8.99 + 25-ft cable pack $26.99, all Oct 29 estimates. [Whole basket](../shopping-ready.md) $1,271.46; $1,242.04 if included lead reaches. One fixture, no moving heads/PAR kit/laser. No purchases or physical tests. Earlier source plans below are history; received manual/profile and same-Mac rehearsal remain.
+**October 27 current:** host accepts OPPSK / SH-RS09C USB-C / QLC+ and omits extensions; use the included 5.9-ft lead. [Current basket](../shopping-ready.md) owns the selected costs and [USB-C setup/other-lighting clarification](oppsk-usb-dmx-2026-10-27.md) owns control details. The original second Hollow effect (U’King moving-head pair) remains excluded after the earlier Oct 31 quote; Grove Govee/LIFX/moon/warm accents remain separate. No purchases/tests. Earlier dated source plans below are history.
 
 [All decor](../README.md). Room layout lives in each room folder; this folder owns product comparisons, shared fixtures and system choices.
 

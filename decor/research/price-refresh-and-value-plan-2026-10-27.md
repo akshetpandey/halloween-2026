@@ -1,6 +1,6 @@
 # Decor prices, delivery and value options — October 27, 2026
 
-**Later October 27 selection supersedes the two-PAR recommendation:** host retains OPPSK. [USB-C control/quotes](../lighting/oppsk-usb-dmx-2026-10-27.md) and [current basket](../shopping-ready.md) own the $1,271.46 plan. Below is the earlier same-day comparison and scenery evidence, not an additional order.
+**Later October 27 selection supersedes the two-PAR recommendation:** host retains OPPSK. [USB-C control/quotes](../lighting/oppsk-usb-dmx-2026-10-27.md) and [current basket](../shopping-ready.md) own the latest selected direct-cable plan (extensions omitted by host). Below is the earlier same-day comparison and scenery evidence, not an additional order.
 
 Checked October 27, America/New_York / EDT (UTC−04:00). **Host confirms no decor bought.** Research and a concrete cheaper proposal, not a purchase or host selection of the new lighting scope. Target **receive by Friday October 30**, before Saturday Halloween. No guarantee of inventory/cutoff or final checkout delivery.
 

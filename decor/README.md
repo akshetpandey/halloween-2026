@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 27 latest: **host retains OPPSK**. [USB-C/QLC+ plan](lighting/oppsk-usb-dmx-2026-10-27.md) resolves exact timely hardware: native USB-C interface $19.99, terminator pack $8.99, optional-reach 25-ft cable pack $26.99; all showed Oct 29. [Current basket](shopping-ready.md) **$1,271.46** with those parts, or $1,242.04 if the included 5.9-ft lead reaches. Full scenery/flat fleece/rug/moss retained; two-PAR proposal superseded, late heads excluded. Nothing bought, installed or tested; received manual, physical position and same-Mac music/TV rehearsal remain. [Handoff](lighting/handoff-2026-10-27-oppsk-usb-dmx.md).
+October 27 latest: **host accepts OPPSK with direct USB-C DMX and omits extension cables**. [Current shopping basket](shopping-ready.md) owns selected quantities/costs; [USB-C setup and lighting inventory](lighting/oppsk-usb-dmx-2026-10-27.md) distinguishes one Hollow DMX fixture from the separate Grove lighting. Original U’King movers remain excluded due the earlier late-arrival quote. Full scenery/flat fleece/rug/moss retained. No purchases or physical tests. [Latest handoff](lighting/handoff-2026-10-27-no-extension.md).
 
 | Room / deliverable | Current source |
 |---|---|

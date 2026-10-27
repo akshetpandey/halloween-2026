@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## October 27 • direct USB-C plan accepted, extensions removed
+
+**Confirmed host:** “Ok lets go with that, probably don't need extension cables. Please update shopping list.” [Selected 23-line decor basket](../decor/shopping-ready.md) is **$1,242.04** = **$951.48 products + $105 local/reuse/support + $95.08 aggregate 9% planning tax + $60 shipping + $30.48 buffer**, leaving **$357.96** under approximately $1,600. Remove H35 $26.99; tax allowance falls $2.43, saving **$29.42** from the extension-included model below. OPPSK + SH-RS09C + terminator pack **$208.97 before tax**; control alone $28.98. No added purchase of a USB-A adapter or second controller. Earlier October 27 source quotes retained without new stock/arrival claim.
+
+[Lighting inventory/setup](../decor/lighting/oppsk-usb-dmx-2026-10-27.md): one Hollow OPPSK; original U’King moving-head pair remains excluded after the earlier October 31 arrival quote. Grove Govee, owned LIFX, moon and strings retained. No new second bedroom effect or family allocation change. No cart/order/install/test. Confirm included 5.9-ft lead reaches during setup; extension is only a contingency quote outside the basket. [Latest handoff](../decor/lighting/handoff-2026-10-27-no-extension.md). Below is dated accounting history.
+
 ## October 27 • OPPSK retained, direct USB-C DMX priced
 
 **Confirmed host:** keep OPPSK and resolve laptop DMX before Halloween. [Current single basket](../decor/shopping-ready.md) **$1,271.46** = **$978.47 products + $105 local/reuse/support + $97.51 aggregate 9% planning tax + $60 shipping + $30.48 buffer**, leaving **$328.54** within approximately $1,600 decor ceiling. Includes one OPPSK $179.99, native USB-C SH-RS09C $19.99, 120Ω terminator two-pack $8.99 and 25-ft DMX two-pack $26.99; these four offers rechecked In Stock/free Oct 29 in Chrome. Other scenery quantities/offers retain earlier October 27 evidence. [Hardware/automation/source plan](../decor/lighting/oppsk-usb-dmx-2026-10-27.md).

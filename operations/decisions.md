@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 27 • accept direct USB-C control, omit extensions
+
+**Confirmed host:** accepts the proposed OPPSK / SH-RS09C / QLC+ route, says extension cables probably unnecessary and requests shopping-list update. Remove H35 from the buy list, retain included 5.9-ft interface lead and one terminator pack. [Selected basket](../decor/shopping-ready.md) **$1,242.04** including tax/local/shipping/buffer, $29.42 below the previous extension-included model; nothing purchased. No fresh product-offer check in this update.
+
+**Second-lighting clarification:** original second Hollow effect was U’King moving-head pair, currently excluded because the earlier October 27 quote showed October 31 arrival. It has not been silently re-added. Separate Grove Govee + owned LIFX + moon/warm lighting remains; Guardian eyes remain warm outside DMX. [Control and room inventory](../decor/lighting/oppsk-usb-dmx-2026-10-27.md). Lead reach, printed manual/profile and actual hardware/music/TV rehearsal remain physical checks. Later scope reply may select a second bedroom effect; this question alone is not recorded as a new product purchase/selection.
+
 ## Latest October 27 • keep OPPSK, use direct USB-C DMX proposal
 
 **Confirmed host:** “Lets keep the OPPSK” and determine USB control/timely shipment. This selects OPPSK over the two-PAR replacement recommendation. [Current plan](../decor/lighting/oppsk-usb-dmx-2026-10-27.md) proposes **SH-RS09C USB-C $19.99**, QLC+ free, terminators $8.99 and optional-reach extension pack $26.99; all control parts and OPPSK showed free Oct 29 / In Stock. Exact received compatibility is untested, not an additional approved purchase. One OPPSK; late movers remain excluded, lasers removed.

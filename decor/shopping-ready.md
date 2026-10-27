@@ -1,8 +1,8 @@
 # House decor shopping plan — October 27, 2026
 
-**Host selects keeping the OPPSK; nothing bought.** Use one OPPSK with the [direct USB-C DMX plan](lighting/oppsk-usb-dmx-2026-10-27.md). The two-PAR replacement proposal is superseded; the earlier three-fixture rig remains only a dated comparison. No moving heads or lasers in this basket. Exact interface/cabling are recommended, not received/tested.
+**Host accepts the OPPSK / direct USB-C DMX route and omits extension cables; nothing bought.** Use one OPPSK with the [direct USB-C DMX plan](lighting/oppsk-usb-dmx-2026-10-27.md). The two-PAR replacement proposal is superseded; the earlier three-fixture rig remains only a dated comparison. No moving heads or lasers in this basket. Exact interface/cabling are recommended, not received/tested.
 
-**Whole-decor estimate $1,271.46**, including the 25-ft DMX extension pack, local allowances, planning tax, shipping and buffer; **$328.54 below the approximately $1,600 ceiling**. All 24 product lines showed **Oct 29–30 delivery**, targeting receipt by October 30. OPPSK, USB-C interface, extension and terminators were checked in Chrome this session; other lines retain the earlier October 27 refresh. Conditional account/cutoff estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
+**Whole-decor estimate $1,242.04**, including local allowances, planning tax, shipping and buffer; **$357.96 below the approximately $1,600 ceiling**. This is the selected **23-product-line basket**, using the interface’s included 5.9-ft lead. It saves **$29.42 including planning tax** against the earlier extension-included plan. Remaining products showed Oct 29–30 delivery in the earlier October 27 Chrome checks; no new price/delivery refresh in this update. Dates remain conditional estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
 
 ## Exact current products and quantities
 
@@ -15,7 +15,6 @@
 | H29 | [OPPSK 1080LEDs Stage Light, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Oct 29 |
 | H39 | [DSD TECH SH-RS09C USB-C to DMX512 / 1.8m (5.9ft), B0FX49ZQ8T](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | 19.99 | 19.99 | Oct 29 |
 | H36 | [Cable Matters 120Ω 3-pin male DMX terminator / 2-pack, B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | 1 | 8.99 | 8.99 | Oct 29 |
-| H35 | [Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack, B08SQG6GBF](https://www.amazon.com/dp/B08SQG6GBF) | 1 | 26.99 | 26.99 | Oct 29 |
 | H34 | [Pyle PMKS5 straight microphone stand, 1 Pack / Black, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | 1 | 34.99 | 34.99 | Oct 30 |
 | H26 | [Govee RGBIC Floor Lamp Basic / Black, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | 1 | 99.99 | 99.99 | Oct 29 |
 | H03 | [Mydethun moon 5.9-in White & Yellow / Non-engraved, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | 1 | 24.99 | 24.99 | Oct 30 |
@@ -33,21 +32,33 @@
 | H28 | [WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Oct 29 |
 | H38 | [Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5](https://www.amazon.com/dp/B0773JCTR5) | 1 | 13.87 | 13.87 | Oct 29 |
 
-**Products subtotal $978.47.** New one-time offers checked October 27 to existing Brooklyn ZIP 11211. No used/subscription/business/coupon discounts counted. [Current control quotes and machine-readable basket](research/oppsk-usb-dmx-2026-10-27.json) · [Earlier same-day scenery quote evidence](research/price-refresh-and-value-plan-2026-10-27.md). No item ordered or received.
+**Products subtotal $951.48.** New one-time offers checked October 27 to existing Brooklyn ZIP 11211. No used/subscription/business/coupon discounts counted. [Current control quotes and machine-readable basket](research/oppsk-usb-dmx-2026-10-27.json) · [Earlier same-day scenery quote evidence](research/price-refresh-and-value-plan-2026-10-27.md). No item ordered or received.
 
 ## Current cash model
 
-| Cash component | With 25-ft extension pack | If included 5.9-ft cable reaches |
-|---|---:|---:|
-| Products | 978.47 | 951.48 |
-| Local/reuse/support allowances | 105.00 | 105.00 |
-| 9% planning tax, aggregate rounded | 97.51 | 95.08 |
-| Shipping reserve | 60.00 | 60.00 |
-| Price/missing-item buffer | 30.48 | 30.48 |
-| **Whole-decor estimate** | **1,271.46** | **1,242.04** |
-| Headroom below $1,600, after included buffer | 328.54 | 357.96 |
+| Cash component | Selected direct-cable plan |
+|---|---:|
+| Products | 951.48 |
+| Local/reuse/support allowances | 105.00 |
+| 9% planning tax, aggregate rounded | 95.08 |
+| Shipping reserve | 60.00 |
+| Price/missing-item buffer | 30.48 |
+| **Whole-decor estimate** | **1,242.04** |
+| Headroom below $1,600, after included buffer | 357.96 |
 
-**OPPSK plus USB-C control/connections $235.96 before tax**; control alone **$55.97**, or **$28.98** without H35. H35 is included to avoid relying on a short cable across the dance floor. Use one cable and one terminator; remaining pieces are pack spares. Omit H35 only if the included lead reaches by the actual protected route. $1,210.46 OPPSK-only was the same scenery without control hardware; this replaces that amount, not an addition to it. Prior $1,057.86 two-PAR and $1,439.67 late full-rig figures remain dated comparisons.
+**OPPSK plus USB-C interface/terminators $208.97 before tax**; control alone **$28.98**. Buy one SH-RS09C and one two-pack of terminators; use one terminator, second is a pack spare. **H35 extension pack removed**, per host. Check that the included 5.9-ft lead reaches along the actual desk-to-fixture route; move the laptop/fixture within the accepted layout if practical. The $26.99 extension pack remains a dated contingency quote only, outside this basket. No separate USB-A adapter or controller is needed by the selected route.
+
+The earlier $1,271.46 included extensions; removing merchandise $26.99 and aggregate planning tax $2.43 saves $29.42. The earlier $1,210.46 OPPSK-only estimate omitted control entirely. Prior two-PAR and full-rig figures are history, not additional allocations.
+
+## Lighting still in the plan
+
+| Area | Current lighting |
+|---|---|
+| Hollow | One OPPSK on USB DMX; Guardian eyes on a separate warm string |
+| Grove | Govee RGBIC floor lamp for purple wash; owned LIFX tree lamp; handmade glowing moon and warm string accents |
+| Moon Well | Mydethun moon globe, O’Bright dim ambient lamp and tea lights |
+
+The **original second Hollow effect was the U’King moving-head pair (H31)**. It is **not in this current basket**: the earlier October 27 quote was $129.99 with October 31 arrival, missing the before-Halloween setup target. The two-PAR replacement and removed laser are also excluded. The separate Grove lighting remains; it is not part of the OPPSK DMX chain. No second bedroom effect has silently been added back.
 
 ## What stays and what changes
 

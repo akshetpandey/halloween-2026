@@ -1,6 +1,6 @@
 # Decor shopping status and historical wood/skull cart
 
-**October 27 latest:** host retains OPPSK; [current 24-line basket](../../decor/shopping-ready.md) **$1,271.46** includes SH-RS09C USB-C DMX, terminators and 25-ft extension pack. [Exact fresh control offers](../../decor/lighting/oppsk-usb-dmx-2026-10-27.md) all In Stock / Oct 29; omit extension only if included lead reaches, giving $1,242.04. Prior two-PAR recommendation superseded. No additions to real cart, checkout, orders or software installation; historical cart and price snapshots below are not additive purchases.
+**October 27 latest:** host accepts OPPSK / SH-RS09C USB-C / terminator route and omits extension cables. [Current 23-line shopping list](../../decor/shopping-ready.md) **$1,242.04** including tax/local/shipping/buffer; [control and other lighting](../../decor/lighting/oppsk-usb-dmx-2026-10-27.md). Original second Hollow effect, U’King moving-head pair, remains excluded after the earlier Oct 31 quote; Grove lighting stays. Source offers are earlier October 27 checks, not newly refreshed here. No real cart additions, checkout or orders.
 
 **October 27 purchase confirmation:** host reports nothing bought/ordered from the decor, lighting, fabric or rug slate. The entire [current decor list](../../decor/shopping-ready.md) remains outstanding; [budget/status](../budget.md#october-27--decor-purchase-status-confirmed). Prices and delivery evidence below are dated October 23 or earlier, not current October 27 offers. No new cart action or purchase.
 

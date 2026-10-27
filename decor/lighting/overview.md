@@ -1,5 +1,5 @@
 # Lighting and power
-**Latest October 22:** [laser-free LED rig and cheaper laptop control](laser-free-and-value-control-2026-10-22.md) and [current basket](../shopping-ready.md) supersede old defaults. Host removes lasers, reports MAX sold out; OPPSK + two U’King heads / proposed $15.99 SH-RS09B / free QLC+. Whole decor $1,508.80 within approximately $1,600 target. Independent supports/footprints/outlets, arrival and actual music/media-load tests pending. Nothing installed/tested.
+**Current October 27:** [selected shopping list](../shopping-ready.md) and [direct USB-C OPPSK plan](oppsk-usb-dmx-2026-10-27.md) govern execution. Host accepts OPPSK / SH-RS09C / QLC+ and omits extensions. One bedroom DMX fixture; original second effect, U’King moving-head pair, remains excluded due its earlier Oct 31 arrival quote. Separate Grove Govee/LIFX/moon/warm-string lighting retained. No purchases/installs/tests. Earlier budget/rig assumptions below are historical.
 
 ## Historical September overview
 Status: Shortlist ready; room test needed. Owner: host / lighting helper TBD.

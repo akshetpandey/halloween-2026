@@ -1,4 +1,14 @@
-# Host costume • The Antler King
+# Host costume • The Hollow Court
+
+## Current • October 27
+
+**Antler King is dropped.** The host did not attend the second City of Gods night and wants its costume redesigned/reused for October 31, without large antlers or a full-face covering. [22 — current reuse redesign](22-hollow-court-reuse-redesign-2026-10-27.md) owns the confirmed scope and **proposed** Hollow Lord / dark-fae look: reuse torc, tree-of-life cuffs, green trousers/shoes and removable black fur; a Small deep-oxblood open-neck shirt is the proposed main change. Compact purchased crown optional only if wanted/comfortable; no new headwear selected. New garment/source/fit not verified, no fresh spending or render.
+
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. No actual orders/messages were cancelled, returned or sent. [09](09-final-weekend-shopping-2026-10-21.md) remains the dated purchase record; $500 combined ceiling unchanged, actual receipts/fit still need user confirmation. Game mechanics, guest copy and separate winner crown are unchanged. [Current handoff](handoff-2026-10-27-hollow-lord-redesign.md).
+
+## Historical direction • through October 23
+
+Everything below records earlier scope; references to a current tall-antler brief or future October 24 event are superseded by the October 27 update above.
 
 **Latest construction follow-up, October 23:** [21 — wearable frame, veil support and full headpiece BOM](21-wearable-frame-and-veil-build-2026-10-23.md) replaces the display-plate/cap stack with a **documented real-shed cosplay circlet/crossband adaptation**, plus a removable ribbon-supported front veil. Seven selected consumable offers total **$62.93**, showing Amazon October 24–25; snips/pliers separately verified. **Conditional 120-minute plan including 30-minute fitting, not physically tested or guaranteed for the unknown-weight pair.** Antler arrival/mass, missing tools/PPE and actual veil coverage still gate readiness. No orders/new messages; robe remains separate/unsourced. [20](20-ready-bases-and-mounting-kits-2026-10-23.md) is the earlier component audit; **do not buy its $33.91 pair as a finished kit**. [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) owns antlers/sent enquiry.
 

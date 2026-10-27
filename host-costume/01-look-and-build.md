@@ -1,4 +1,9 @@
-# The Antler King • build direction
+# Host costume • build direction
+
+**Current October 27:** host drops Antler King, large antlers and full-face covering, and repurposes the unused second City of Gods outfit for October 31. [22 — reuse redesign](22-hollow-court-reuse-redesign-2026-10-27.md) is authoritative: recommended dark-fae court figure with torc/cuffs/green trousers/removable black fur and a proposed Small oxblood open-neck shirt. Compact crown is an optional fit/preference question, not a requirement. New design not yet selected or sourced; no new render/order/message. Former build steps/quotes below are history, not outstanding work.
+
+## Historical brief • through October 23
+
 Updated October 23, 2026. Pop-culture woodland ceremony; no claim of historical accuracy. [Current weekend order and shopping list](09-final-weekend-shopping-2026-10-21.md) owns purchased-product/budget evidence; [latest Hollow Court seller/two-hour assessment](19-jandmantlers-and-two-hour-build-2026-10-23.md) owns the reopened October 31 brief. **Tall upright antlers/full-face gold veil very close to Yellowjackets; no used/pre-owned eBay items.** Host likes jandmantlers' new sheds and permits asking that seller about faster delivery, not other outreach/commissions. **Headgear build must fit a couple of hours.** Small drill owned; no-drill preferred, but availability/quality/effect take priority. No reliable two-hour assembly, ivory body garment or complete look is deadline-cleared. Compact October 24 Gilded Stag and $500 combined ceiling remain unchanged.
 
 ## Recommended silhouette

@@ -10,7 +10,7 @@
 ## Party context
 - October 31, 2026, Williamsburg/Brooklyn apartment; 30–60 staggered guests; total budget $1,000–$3,000 including drinks. Prior $1,800 working budget is a proposal, not an approved shopping order.
 - Arrivals around 9–10 p.m., peak midnight–1 a.m., wind-down 4 a.m.; November 1 has a daylight-saving rollback. Use explicit America/New_York dates/offsets in software and schedules.
-- Theme: enchanted/eerie woodland pagan/Samhain pop culture. Living room October Grove, bedroom dark dance cave/The Hollow, bathroom Moon Well. Host costume: Antler King.
+- Theme: enchanted/eerie woodland pagan/Samhain pop culture. Living room October Grove, bedroom dark dance cave/The Hollow, bathroom Moon Well. **Host costume update October 27: Antler King dropped; redesign/reuse the unused second City of Gods outfit, with no large antlers or full-face covering.** Current proposal is in `host-costume/22-hollow-court-reuse-redesign-2026-10-27.md`, not a selected new costume or change to game mechanics.
 - Value-conscious, purchased major props preferably Amazon; small crafts welcome. Source real internet art/photos for guest costume inspiration, with credits.
 - Hardware: MacBook Pro/macOS, DDJ-FLX4 + rekordbox; two powered speakers in bedroom; two Google Homes for living-room Spotify; Hisense soundbar works as selected HDMI output; Jellyfin for TV. Roles/integrations still need tests.
 - Both music programs need at least nine hours after planned cuts/transitions. Bedroom needs danceable techno and artist variety; approved living-room direction should not be casually replaced.
@@ -21,7 +21,7 @@
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.
 - `interactive-game/`: game rules, puzzles, physical entities/NFC and app. Read its nested instructions before changing game work.
 - `music/`: room playlists, DJ preparation, audio/TV orchestration.
-- `host-costume/`: the host's Antler King costume; winner crown belongs to the game.
+- `host-costume/`: the host's costume and October 27 reuse redesign; winner crown belongs to the game.
 - `guests/`: invite and guest inspiration; keep the secret succession out of guest-facing invite material.
 - `operations/`: shared tracker, budget, decisions, shopping cart, hospitality and schedule.
 - `coordination/`: repository workflow, handoffs and old-path migration record. Historical snapshots are evidence, not current requirements.

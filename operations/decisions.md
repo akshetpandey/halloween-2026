@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 27 • host costume reuse; large antlers and face cover dropped
+
+**Confirmed host:** second City of Gods night did not happen; repurpose/redesign that outfit for October 31. **No longer Antler King** because large antlers/full-face covering would be annoying. Retire the tall-antler, veil and mounting-kit shopping/build brief; no actual order cancellation, return, seller follow-up or additional purchase authorized/performed.
+
+[Current costume brief/proposal](../host-costume/22-hollow-court-reuse-redesign-2026-10-27.md): **The Hollow Lord**, an autumnal dark-fae look, is an agent recommendation, not a selected new costume or game title. Reuse ordered black fur, torc, tree-of-life cuffs and owned green trousers/shoes; proposed single main addition is a Small oxblood open-neck shirt, not yet sourced. Compact ordered crown optional pending actual receipt/comfort/user preference; no new circlet selected. Source-before-render and no-makeup restrictions persist. Last account-verified order totals **$196.59 on October 23**, not a fresh receipt/refund audit; $500 combined ceiling unchanged, no new budget/cart amount. Game mechanics/guest copy/separate winner crown unchanged; any old literal Antler King story wording needs a separately scoped review, not an automatic app rewrite.
+
 ## Latest October 23 • flat fleece, thin furniture covers
 
 **Confirmed host:** “for the flece blanket we don't need pleating”; “for furniture cover we can use cheaper thinner fabric.” Retain full-wall/window fleece, larger rug, accepted layout, laser-free lights and approximately $1,600 decor target. No purchase authorization.

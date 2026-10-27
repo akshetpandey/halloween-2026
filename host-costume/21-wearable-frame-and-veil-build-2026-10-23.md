@@ -1,5 +1,7 @@
 # Wearable antler frame and removable veil • two-hour proposal
 
+**Retired October 27:** the host no longer wants Antler King, large antlers or a full-face cover. [22 — reuse redesign](22-hollow-court-reuse-redesign-2026-10-27.md) supersedes this entire build/shopping proposal. Do not continue its sourcing, seller investigation or construction; no actual purchase cancellation/return is implied. The dated content below is retained only as research history.
+
 Researched October 23, 2026, America/New_York / EDT (UTC−04:00). For the **October 31 Hollow Court headpiece**, not the October 24 compact Gilded Stag. This is the current construction proposal, superseding [20's display-plate/cap exploration](20-ready-bases-and-mounting-kits-2026-10-23.md). Antler offers and the single authorized seller enquiry remain in [19](19-jandmantlers-and-two-hour-build-2026-10-23.md).
 
 ## Recommendation and honest limits

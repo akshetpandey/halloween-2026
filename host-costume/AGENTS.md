@@ -2,13 +2,15 @@
 
 Read root AGENTS.md, this README, 01-look-and-build.md, 02-task-tracker.md and 03-sourcing-shortlist.md. Work directly on shared main; commit progress as you go.
 
-- Own the host's Antler Queen-inspired Antler King outfit, fit, build, shopping and references here.
-- Keep the branching crown/ivory/veil woodland direction and practical hosting/dancing movement. Measurements and exact selected materials remain open until supplied or confirmed.
+- Own the host's outfit, fit, build, shopping and references here. **October 27: Antler King / large antlers / full-face covering are dropped.** Repurpose the unused second City of Gods costume; [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the current brief and unselected dark-fae proposal.
+- Prior branching-crown/ivory/veil research is history, not an active constraint. Prioritize eerie woodland/harvest/fae theme and practical hosting/dancing. Compact purchased crown is optional pending actual fit and user preference, not automatically retained or rejected. Do not restart large-antler or veil sourcing, build or seller follow-up.
 - Prefer bought major pieces and simple crafts, reuse owned clothes, retain direct product links with dates. Existing estimates are proposals, not orders.
 - Guest costume inspiration lives in ../guests; the winner's separate crown and succession mechanics belong in ../interactive-game. Do not duplicate these purchases or expose the secret on invite copy.
 - Use real reference images with source attribution. Preserve the host's fitted crown during any winner handoff.
 
 ## Source before rendering — host instruction October 22
+
+**October 27 application:** the source gate still applies to any redesigned October 31 preview. Verify actual reuse-piece receipt/references and any new Small shirt/headwear's exact stock/deadline first. No makeup, return/cancellation, new budget or new contact authority inferred. The dated large-antler/full-face requirements below are **superseded by the October 27 change**, not unfinished shopping.
 
 - Before making further outfit renders, verify that **every essential piece can actually be obtained before the relevant event**: Friday October 23 for Eclipse, Saturday October 24 for the King, America/New_York. The host explicitly requires sourcing before renders; a beautiful but unsourced concept is not an acceptable next render.
 - For missing pieces, inspect the exact purchasable product/variant, correct size/color, current price and a live delivery-by-deadline or NYC-store pickup signal. A search snippet, generic Prime badge, dispatch date or unconfirmed store location is insufficient. Record the check date; flag any arrival time that may be after departure rather than promising it will be in hand.

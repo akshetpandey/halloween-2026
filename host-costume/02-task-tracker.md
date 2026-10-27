@@ -1,21 +1,26 @@
-# Antler King task tracker
+# Host costume task tracker
+
+**Current October 27:** second City of Gods night did not happen; Antler King/large antlers/full-face veil dropped. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the proposed reuse redesign and source/fit gates. October 23 purchase/ETA evidence below is historical, not confirmed possession. IDs retained for continuity.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
 | KING-01 | Save brief and real references | Done | Host’s Antler King direction |
-| KING-02 | Compare crown, veil and mantle purchase/build options | Liked Sosation crown ordered for **Saturday Oct 24**; large-fit risk. October 31 tall brief is separate KING-10 | [Actual order](09-final-weekend-shopping-2026-10-21.md); compact crown is not the newly requested tall home-party silhouette |
+| KING-02 | Resolve compact headwear reuse | Sosation ordered; actual receipt/comfort and continued preference need host confirmation. Large headgear/veil no longer required | [Current redesign 22](22-hollow-court-reuse-redesign-2026-10-27.md); do not assume a new circlet or all headwear is rejected |
 | KING-03 | Confirm sizes, owned base clothes and final spend | Small top; usual waist 28–30/inseam 30–32; faded owned jeans prompt new deep-black loose Levi's | 29 × 30 black 568 pickup checked, not measured fit; [final totals](09-final-weekend-shopping-2026-10-21.md) within unchanged $500 ceiling |
 | KING-04 | Order or borrow selected pieces | **Nine line items account-confirmed across three orders, $196.59 incl. estimated tax** | [Current list](09-final-weekend-shopping-2026-10-21.md); optional jeans only remain unconfirmed; no extra cuffs/shirt/gauze/veil/makeup/coat/necklace |
-| KING-05 | Fit real crown, torc, cuffs and layers | **Crown/torc/Karace Style B pair arriving Saturday; no makeup/veil** | Receipt before departure, rigid-neck-opening/cuff-edge/comfort checks, unaltered crown try-on and secure/removable layers |
+| KING-05 | Fit real crown, torc, cuffs and layers | October 24 ETA is historical; second event not attended. Actual receipt/fit unconfirmed October 27 | Rigid-neck-opening/cuff-edge/comfort checks, optional unaltered crown try-on, removable indoor layer |
 | KING-06 | 30–45-minute comfort and light test | To do | Full outfit |
-| KING-07 | Prepare repairs and ceremonial veil cue | To do | Costume and story decisions |
+| KING-07 | Prepare simple repairs and easy removal | To do; veil cue retired | New costume and separately owned game/story decisions |
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
-| KING-10 | Source tall Yellowjackets-close Hollow Court antlers and full-face veil for October 31 | **Wearable blog-based frame/BOM and conditional 120-minute plan proposed**, replacing plate/cap stack; seven consumables $62.93 / October 24–25 | [Current build 21](21-wearable-frame-and-veil-build-2026-10-23.md); [antlers/enquiry 19](19-jandmantlers-and-two-hour-build-2026-10-23.md). Unknown pair mass/rush arrival, unverified bit/clamping/PPE delivery and actual fit/veil coverage prevent finished-kit sign-off. No purchases/new messages |
+| KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Dark-fae Hollow Lord proposal ready for review**: reuse fur/torc/cuffs/green trousers; proposed oxblood shirt | [22](22-hollow-court-reuse-redesign-2026-10-27.md); crown fit/preference, actual receipts, exact new shirt stock/deadline and user design choice remain open; no render/new spend |
+
+## Historical readiness record • October 23
 
 Current weekend gates October 23: retrieve/inspect chain and Friday fur/mesh/**selected Zivyes**; choose owned jeans or optional new Levi's; receive/fit Saturday crown, torc and **actual Karace cuffs**. No mandatory additional weekend buy identified. Keep green trousers Saturday to distinguish the woodland look. **Eclipse Friday / King Saturday confirmed**; physical receipt, before-departure timing and fit are unverified. Owned functional warm layer remains; no weekend makeup/veil/new coat. **October 31 has reopened sourcing under KING-10; do not treat that look as ordered or ready.**
 
-## Current direction • October 23, 2026
+## Historical direction • October 23, 2026
 
 - **Latest home-party instruction:** tall upright antlers/full-face veil very close to Yellowjackets for October 31. **No used/pre-owned eBay; jandmantlers-only shipping enquiry permitted; maximum a couple of hours building.** [19 — current investigation](19-jandmantlers-and-two-hour-build-2026-10-23.md) supersedes 18's local-used routes and blanket no-contact instruction; other maker outreach remains declined. Small drill owned, no-drill preferred but optimize availability/quality/effect. No selected/tested assembly or new spend. Same total ceiling; $152.53 beyond current envelope, or $262.53 without optional unpurchased jeans.
 - Host selects Zivyes and requests updated clean-shaven previews using his own supplied photo. [Both private personalized previews](16-personalized-previews-2026-10-23.md) completed after the source-first delivery/photo checks. Likeness assets and exact prompts stay out of Git.

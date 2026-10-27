@@ -1,8 +1,14 @@
-# Antler King • sourcing shortlist
+# Host costume • sourcing shortlist
+
+## Current scope • October 27
+
+The host drops **Antler King, large antlers and full-face covering** and wants the unused second City of Gods outfit redesigned for October 31. [22 — current reuse proposal](22-hollow-court-reuse-redesign-2026-10-27.md) recommends torc/cuffs/green trousers/removable black fur with one proposed **Small deep-oxblood open-neck shirt**; optional compact crown only if comfortable/wanted. **No exact new shirt/circlet, current delivery or purchase verified this turn.** Retire antler, cap/plate/frame, veil, tools and ivory-robe shopping requirements below. Do not follow up with sellers or infer returns/cancellations. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence, not a live receipt audit; $500 ceiling unchanged.
+
+## Historical sourcing • through October 23
 
 Updated October 23, 2026 · Party October 31, plus events October 23–24 · **Current purchased-weekend evidence is in 09; latest wearable-build/BOM proposal is in 21; 19 owns antlers/sent enquiry; 20/18/17 retain earlier component research. Earlier quotes below are history. No agent purchases.**
 
-## Current sourcing • October 23
+### October 23 observations • superseded scope
 
 **Latest wearable-build proposal:** [21](21-wearable-frame-and-veil-build-2026-10-23.md) provides firsthand build blogs, a padded mesh circlet/crossband adaptation, direct mechanical antler lashings and a removable ribbon/clip veil support. **Eliminates the plate-to-cap joint; do not buy the former $33.91 display-kit/cap pairing as a final kit.** Seven verified consumable offers **$62.93 / October 24–25**, two tools **$23.38 / October 24** separately. Proposed 120-minute schedule includes 30 minutes fitting and hard failure gates; **not timed/tested or cleared for unknown-weight natural sheds**. Exact bit/clamping/PPE delivery remains incomplete after repeated browser challenges/timeouts; antler rush/mass pending. Fine rhinestone net is a sourceable but shinier alternative, not an accepted exact crochet match. No mandatory extra order, purchase or shared-budget change. [20](20-ready-bases-and-mounting-kits-2026-10-23.md) preserves prior kit exclusions.
 

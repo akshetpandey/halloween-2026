@@ -9,7 +9,7 @@ Pick the area you want to work on. Its README points to current plans; its AGENT
 | [Decor](decor/README.md) | Living room, bedroom, bathroom, shared lighting and scenic references |
 | [Interactive game](interactive-game/README.md) | Hollow Court story and puzzles, physical entities/NFC, website code |
 | [Music](music/README.md) | Living-room and bedroom playlists, audio orchestration and TV visuals |
-| [Host costume](host-costume/README.md) | Antler King look, fit, build, shopping and references |
+| [Host costume](host-costume/README.md) | Hollow Court host look, reuse redesign, fit, shopping and references; large-antler/veil plan retired October 27 |
 | [Guests](guests/README.md) | Partiful copy, costume inspiration and shareable guest images |
 | [Operations](operations/README.md) | Task tracker, budget, shopping cart, drinks, supplies and party schedule |
 

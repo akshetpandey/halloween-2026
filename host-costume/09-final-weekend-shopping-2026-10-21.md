@@ -1,5 +1,7 @@
 # Two costume shopping and order status
 
+**October 27 scope update:** the second City of Gods night did not happen. Reuse/redesign its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the proposed new look. This page preserves October 23 order/price/status evidence, **not a fresh delivery/possession or attendance record**. No new spend, return/refund/cancellation, seller contact or physical fit assumed; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
+
 Updated October 23, 2026, shortly after midnight EDT. **Confirmed nights: Eclipse Friday October 23; Antler King Saturday October 24.** The host already owns a similar functional warm layer, so the proposed $79.90 PUFFTECH is removed from remaining purchases, not refunded. Black fur stays in both current looks.
 
 **Three costume orders total $196.59 including estimated tax:** earlier seven-item order $151.97 + torc $31.57 + Karace cuff pair $13.05. Signed-in Amazon Orders and the two new Order Details were checked October 23. Chain/Zoestar remain marked delivered October 22; fur/Small mesh/Atoden/Zivyes arrive Friday October 23; crown/torc/cuffs arrive Saturday October 24. **Host selects Zivyes for Friday.** Ordered/reported delivered is not physical receipt, before-departure delivery, settled payment or fit evidence. No additional necklace, halo or cuff purchase needed.

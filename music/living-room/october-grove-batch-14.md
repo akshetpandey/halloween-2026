@@ -1,6 +1,6 @@
 # October Grove 14 · Familiar sparks
 
-October 27, 2026 · **50 new candidates, all from the freshly read Liked Songs pool; not an approved party sequence.** Spotify exact order verified; hosted import pending.
+October 27, 2026 · **50 new candidates, all from the freshly read Liked Songs pool; not an approved party sequence.** Spotify exact order, hosted import and review queues verified.
 
 [Review this batch](https://music.hollow-court.com/?room=living-room&batch=14) · [Spotify audition](https://open.spotify.com/playlist/0HNOh2gn7id6my8bbAyveT) · [Exact data](october-grove-batch-14.json)
 
@@ -81,4 +81,4 @@ Spotify reports this audition public despite the private creation request. Cloud
 
 No audio acquired/uploaded, no mix rendered, no purchases. Main playlists are separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 1,093 previous serialized records and old feedback/notes/scores/snapshots preserved; events retained as an unchanged prefix; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated candidates. Signed-in Chrome counts, filters, details and audition links passed without votes or playback.

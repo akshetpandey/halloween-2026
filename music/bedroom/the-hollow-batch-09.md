@@ -1,6 +1,6 @@
 # The Hollow 09 · Saved for the rave
 
-October 27, 2026 · **50 new candidates, all from the freshly read Liked Songs pool; not an approved party sequence.** Spotify exact order verified; hosted import pending.
+October 27, 2026 · **50 new candidates, all from the freshly read Liked Songs pool; not an approved party sequence.** Spotify exact order, hosted import and review queues verified.
 
 [Review this batch](https://music.hollow-court.com/?room=bedroom&batch=hollow-09) · [Spotify audition](https://open.spotify.com/playlist/1EyAwESDQVVc9gq85MYqVS) · [Exact data](the-hollow-batch-09.json)
 
@@ -77,4 +77,4 @@ Spotify reports this audition public despite the private creation request. Cloud
 
 No audio acquired/uploaded, no mix rendered, no purchases. Main playlists are separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 1,093 previous serialized records and old feedback/notes/scores/snapshots preserved; events retained as an unchanged prefix; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated candidates. Signed-in Chrome counts, filters, details and audition links passed without votes or playback.

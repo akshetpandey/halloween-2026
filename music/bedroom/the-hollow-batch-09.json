@@ -3,7 +3,7 @@
   "name": "Batch 09 · Saved for the rave",
   "room": "bedroom",
   "created_at": "2026-10-27T23:27:46Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published/imported and verified; 50 new unrated candidates sourced from current Liked Songs. Not an approved party sequence.",
   "selection_policy": {
     "source": "This entire round comes from a freshly read Liked Songs pool. Validate saved source identities, including Spotify market relinks, before publication. A global Like is not a party Keep.",
     "grove": "Upbeat, fun, happy, hopeful, loving/new beginnings; bouncy, melodic and sexy. No acid/techno; avoid chart-pop-heavy discovery and sad central narratives. Familiar club crossovers remain audition risks, not automatic exceptions.",
@@ -6634,5 +6634,15 @@
   "spotify_playlist_name": "The Hollow — Batch 09 · Saved for the rave",
   "spotify_verified_snapshot_id": "AAAAAfw/iocuKli5Ju+zOappKdACdx9s",
   "spotify_order_verified_at": "2026-10-27T23:23:54Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-27T23:28:43Z",
+  "hosted_import_verification": {
+    "old_track_records_unchanged": 1093,
+    "new_records_exact_total": 100,
+    "old_feedback_notes_scores_snapshots_preserved": true,
+    "old_events_preserved_as_prefix": true,
+    "new_batch_unrated_count": 50,
+    "hosted_total": 1193,
+    "sqlite_integrity": "ok"
+  }
 }

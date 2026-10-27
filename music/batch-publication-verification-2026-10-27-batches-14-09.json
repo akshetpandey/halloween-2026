@@ -1,0 +1,124 @@
+{
+  "verified_at": "2026-10-27T23:28:43Z",
+  "old_track_records_unchanged": 1093,
+  "new_track_records_exact": 100,
+  "old_tables_preserved": {
+    "feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "snapshots": true,
+    "events": true
+  },
+  "new_unrated": 100,
+  "sqlite_integrity": "ok",
+  "counts": {
+    "living-room": {
+      "total": 743,
+      "votes": {
+        "down": 595,
+        "up": 98,
+        "unrated": 50
+      }
+    },
+    "bedroom": {
+      "total": 450,
+      "votes": {
+        "up": 161,
+        "down": 239,
+        "unrated": 50
+      }
+    }
+  },
+  "security_configuration_changed": false,
+  "spotify_exact_orders_rechecked": true,
+  "main_playlist_unchanged": true,
+  "main_track_count": 50,
+  "spotify_likes_changed": false,
+  "no_published_host_ports": true,
+  "origin_no_jwt_status": 401,
+  "origin_wrong_host_status": 403,
+  "prior_all_rated": true,
+  "batch_defaults": {
+    "living-room": "14",
+    "bedroom": "hollow-09"
+  },
+  "metadata_coverage": {
+    "living-room": {
+      "reccobeats": 39,
+      "youtube_candidates": 46,
+      "artist_genres_nonempty": 29,
+      "artist_lookups_complete": 50
+    },
+    "bedroom": {
+      "reccobeats": 29,
+      "youtube_candidates": 43,
+      "artist_genres_nonempty": 50,
+      "artist_lookups_complete": 50
+    }
+  },
+  "lyric_source_positive_theme_count": 31,
+  "purchases_usd": 0,
+  "audio_downloaded": false,
+  "audio_uploaded": false,
+  "new_mix_rendered": false,
+  "main_all_current_keeps": true,
+  "main_newer_keeps_unsynced": 48,
+  "main_baseline_order_unchanged": true,
+  "main_legacy_ids_joined_by": "spotify_uri",
+  "signed_in_chrome": {
+    "living_room": {
+      "total": 743,
+      "keeps": 98,
+      "needs_review": 50,
+      "latest_batch": "14",
+      "detail_visible": true,
+      "audition_link_matches": true
+    },
+    "bedroom": {
+      "total": 450,
+      "keeps": 161,
+      "needs_review": 50,
+      "latest_batch": "hollow-09",
+      "detail_visible": true,
+      "audition_link_matches": true
+    },
+    "needs_review_all_unrated_both_rooms": true,
+    "votes_cast": false,
+    "playback_tested": false
+  },
+  "batch_tests_passed": 5,
+  "fresh_1193_row_ui_filter_checks_passed": true,
+  "approved_bedroom_export": {
+    "keeps": 161,
+    "raw_duration_ms": 36244848,
+    "verified_production_files": 0
+  },
+  "liked_source_gate": {
+    "fresh_snapshot": true,
+    "source_reported_entries": 2699,
+    "unique_canonical_uris": 2690,
+    "duplicate_relinked_uris_collapsed": 9,
+    "all_100_saved_source_identities_rechecked": true,
+    "market_relinked_selected_recordings": 3,
+    "per_track_save_flags_timestamps_or_full_library_exported": false,
+    "likes_mutated": false
+  },
+  "working_targets": {
+    "living-room": {
+      "keeps": 175,
+      "more": 77
+    },
+    "bedroom": {
+      "keeps": 220,
+      "more": 59
+    }
+  },
+  "lyric_theme_coverage": {
+    "positive_theme_source_reviewed": 31,
+    "editorial_candidate_not_lyric_certified": 13,
+    "nonnegative_theme_source_reviewed": 2,
+    "instrumental_reported_by_source": 1,
+    "mixed_theme_source_reviewed": 3
+  },
+  "checked_at": "2026-10-27T23:32:01Z"
+}

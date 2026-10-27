@@ -2,7 +2,7 @@
 
 Updated **Tuesday October 27, 2026**, America/New_York / EDT (UTC−04:00). Event **Saturday October 31**. This is the current costume brief; the large-antler/full-face-veil plans in 17–21 are retired research, not outstanding shopping.
 
-**Later October 27 feedback supersedes the fur-led styling below:** host says fur will be too hot and the shirt look needs more mystery/drama. [23 — current jacket-free revision, exact mantle/hood sources and two private previews](23-jacket-free-hollow-court-2026-10-27.md) is now the current styling brief. This document retains the Small/Burgundy shirt source and earlier render evidence; no shirt purchase is inferred.
+**Later October 27 feedback supersedes the fur-led styling below:** fur too hot, shirt too basic, then feathers in 23 rejected. [24 — current party-reference-led revision](24-party-reference-led-direction-2026-10-27.md) owns the next design direction using actual lookbooks and guardians. This document retains the Small/Burgundy shirt source and earlier render evidence; no shirt purchase inferred.
 
 ## Confirmed change versus proposal
 

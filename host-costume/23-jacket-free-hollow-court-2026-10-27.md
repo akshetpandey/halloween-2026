@@ -2,6 +2,8 @@
 
 Updated October 27, 2026, America/New_York / EDT (UTC−04:00). Party Saturday October 31. This supersedes [22's fur-led styling](22-hollow-court-reuse-redesign-2026-10-27.md), retaining its sourced shirt and the existing purchases.
 
+**Later October 27 — feathers rejected by host.** The mantle/hood combination below is history, not an active shopping recommendation or approved look. [24 — current party-reference-led revision](24-party-reference-led-direction-2026-10-27.md) owns the next design direction, using actual lookbooks, imagery and guardians. Neither accessory ordered; hood alone remains unselected.
+
 ## Confirmed feedback and proposed response
 
 Host requests a preview **without the fur jacket because it will be too hot**, and says the previous look is too basic: recover the mysterious/cool impact of the earlier Antler King. Keep the compact purchased bone crown and reuse pieces; no renewed permission for large antlers, full-face covering, makeup, seller outreach or agent buying. No shirt purchase or physical fit result newly reported.

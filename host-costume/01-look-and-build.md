@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 27:** reuse the unused second City of Gods outfit for October 31, without large antlers/full-face covering. Fur is too hot; host wants more mystery/drama. [23 — current jacket-free revision](23-jacket-free-hollow-court-2026-10-27.md) owns the plain no-fur preview and proposed raven-like feather mantle/optional woven hood, retaining small crown/torc/cuffs/green trousers and sourced Burgundy shirt. New additions deadline-checked before rendering, not ordered or physically fitted. Former antler/veil steps below are history.
+**Current October 27:** reuse unused night-two pieces; no large antlers/full-face covering, fur too hot, **feathers rejected**. [24 — current party-reference-led design](24-party-reference-led-direction-2026-10-27.md) recommends one organic asymmetric rootwork feature from actual guardians/lookbooks, with a pale-cloth alternative. Small crown/torc/cuffs/green trousers retained; new defining piece unsourced and no new render/order/fit. Former builds and feather proposal are history.
 
 ## Historical brief • through October 23
 

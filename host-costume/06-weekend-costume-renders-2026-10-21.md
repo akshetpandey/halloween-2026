@@ -6,9 +6,11 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest previews:** [K](#k-jacket-free-baseline-and-feather-mantle-upgrade) removes fur and proposes more dramatic short feather shoulders/optional woven hood. [J](#j-hollow-court-with-burgundy-shirt) preserves the earlier shirt/fur proposal. [I](#i-personalized-eclipse-and-gilded-stag) retains October 23 weekend previews. H's imagined leaves/face branches are superseded.
+**Latest feedback:** host rejects K's feathers and requests actual party lookbooks/imagery/guardians as inspiration. [24](24-party-reference-led-direction-2026-10-27.md) owns that completed review and unsourced next direction; **no further render made**. K's plain no-fur baseline remains available, but feather upgrade is rejected history. J preserves earlier shirt/fur styling; I retains October 23 previews.
 
 ## K Jacket-free baseline and feather mantle upgrade
+
+**Later October 27: feather upgrade rejected by host.** No order/final look inferred; see [24](24-party-reference-led-direction-2026-10-27.md) before new sourcing/renders.
 
 Requested/completed October 27 after host rejects fur heat and plainness: first edit removes only the jacket and reconstructs actual Burgundy shirt sleeves; second adds the real A3-black feather/silver-chain mantle and Black woven hood, showing hood down/up in two full-body views. [23 owns exact sources, check date, private output links and limits](23-jacket-free-hollow-court-2026-10-27.md). Both retain compact crown, gold torc/cuffs, green trousers, clean-shaven likeness and clear face. No makeup, fur, veil or large antlers. Two successful built-in edits; product photos used as object references. New pieces sourced before upgraded render, not ordered. Physical fit/heat and exact fine details untested; private assets/prompts stay Git-ignored.
 

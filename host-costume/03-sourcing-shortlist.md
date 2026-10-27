@@ -2,7 +2,7 @@
 
 ## Current scope • October 27
 
-The host drops **Antler King, large antlers and full-face covering**, and says fur is too hot / shirt look needs more mystery. [23 — current jacket-free proposal and exact source record](23-jacket-free-hollow-court-2026-10-27.md) owns the Thursday-ready **A3-black feather mantle and Black woven hood**, completed private previews, exclusions and fit limits. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains JEMITOP Burgundy/Small source. No new pieces ordered; physical fit untested. [09](09-final-weekend-shopping-2026-10-21.md) retains existing orders/delivery refresh; $500 ceiling unchanged. Antler mounts/veil/tools/ivory robe below are retired shopping. No seller follow-up or inferred cancellations.
+**Feathers rejected; fur too hot; no large antlers/full-face covering.** [24 — current party-reference-led direction](24-party-reference-led-direction-2026-10-27.md) owns lookbook/guardian review, proposed organic rootwork or pale-cloth feature and an excluded timely brocade-cape check. New defining pieces unsourced; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains JEMITOP Burgundy/Small source, not a purchase. Existing crown/torc/cuffs/green trousers/mesh can be reused; fit untested. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. No seller follow-up/return/new render.
 
 ## Historical sourcing • through October 23
 

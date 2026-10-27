@@ -37,7 +37,7 @@ Collect votes, acquire exact permitted files, analyze BPM/key/grids and arrange 
 ## Living-room playlist · October Grove
 The latest Grove brief calls for happy, hopeful, loving and fun music with bounce and melody; no acid/techno, chart-pop character, sad/negative lyrics or standalone intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-On October 11, the host chose an approved-only main playlist: 48 tracks, with the 117 Cut tracks removed and the exact [saved order](living-room/october-grove-approved-2026-10-11.json) verified. The next [50-track Batch 10](living-room/october-grove-batch-10.md) is a separate audition; all earlier choices are now rated. Further review, expansion to nine hours after transitions and Google Home playback validation remain.
+On October 11, the host chose an approved-only main playlist. Its original 48-track order is preserved; the explicitly requested [Float On — Modest Mouse](living-room/handoff-2026-10-26-float-on.md) was appended October 26, giving **49 tracks / 3:01:14 raw**. The [current snapshot](living-room/october-grove-approved-2026-10-26.json) is API-verified. The separate [50-track Batch 10](living-room/october-grove-batch-10.md) remains unrated; 31 other Keeps are not yet synced. Expansion to nine hours after transitions and Google Home playback validation remain.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.

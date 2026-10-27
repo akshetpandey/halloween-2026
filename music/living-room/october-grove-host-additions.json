@@ -1,0 +1,146 @@
+{
+  "name": "October Grove · explicit host additions",
+  "created_at": "2026-10-27T01:29:10Z",
+  "selection": "Individual tracks explicitly requested by the host; outside numbered review batches. Runtime votes remain in private hosted state.",
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:2lwwrWVKdf3LR9lbbhnr6R",
+      "spotify_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+      "artist": "Modest Mouse",
+      "artists": [
+        "Modest Mouse"
+      ],
+      "artist_ids": [
+        "1yAwtBaoHLEDWAnWR87hBT"
+      ],
+      "title": "Float On",
+      "album": "Good News For People Who Love Bad News",
+      "album_id": "0TGTGuc2vXv6ZECoAf52N0",
+      "duration_ms": 208466,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USSM10315494",
+      "release_date": "2004-04-05",
+      "popularity": 76,
+      "metadata_at": "2026-10-27T01:26:35Z",
+      "is_playable": true,
+      "id": "spotify:track:2lwwrWVKdf3LR9lbbhnr6R",
+      "room": "living-room",
+      "origin": "Explicit host request · October 26, 2026",
+      "style": [
+        "Host pick",
+        "Indie rock"
+      ],
+      "features": {},
+      "artist_genres": {
+        "1yAwtBaoHLEDWAnWR87hBT": {
+          "name": "Modest Mouse",
+          "genres": [
+            "indie rock",
+            "indie",
+            "alternative rock"
+          ],
+          "observed_at": "2026-10-27T01:26:35Z",
+          "source": "Spotify artist API"
+        }
+      },
+      "selection_reason": "Host explicitly requested Float On by Modest Mouse for the Grove.",
+      "editorial_note": "Host-approved Grove addition. This guitar-led indie track is an individual choice; it does not replace the general discovery brief.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf",
+      "verification": {
+        "source": "Spotify exact-ID Web API",
+        "exact_uri_match": true,
+        "observed_at": "2026-10-27T01:26:35Z"
+      },
+      "request_source_url": "https://www.shazam.com/track/40161967",
+      "flags": [],
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+        "isrc": "USSM10315494",
+        "duration_ms": 208466,
+        "observed_at": "2026-10-27T01:27:48Z",
+        "features": {
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.553,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.649,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.888,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0293,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "liveness": {
+            "value": 0.0888,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 2.23e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.013,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.807,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 100.975,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-27T01:27:48Z",
+            "track_url": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      }
+    }
+  ]
+}

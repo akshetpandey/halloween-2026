@@ -1,13 +1,13 @@
 # Music curation progress · October 26
 
-Verified October 26, 2026, America/New_York. Counts below are the import snapshot; live votes may advance. This supersedes the [October 25 snapshot](curation-status-2026-10-25.md).
+Verified October 26, 2026, America/New_York. Counts below include the later explicit Float On addition; live votes may advance. This supersedes the [October 25 snapshot](curation-status-2026-10-25.md).
 
-| Room | Approved Keeps | Raw approved duration | Rated before import | Cuts | Maybe | New unrated | Working Keep target | More Keeps needed |
+| Room | Approved Keeps | Raw approved duration | Rated choices | Cuts | Maybe | New unrated | Working Keep target | More Keeps needed |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| October Grove · living | 79 | 4:35:04 | 491 | 412 | 0 | 50 | About 170 | About 91 |
+| October Grove · living | 80 | 4:38:33 | 492 | 412 | 0 | 50 | About 170 | About 90 |
 | The Hollow · bedroom | 93 | 6:33:48 | 200 | 107 | 0 | 50 | About 220 | About 127 |
 
-The hosted library now has **791 records: living 541 / bedroom 250**. All 691 pre-import records are rated. Each Needs review queue contains exactly its new 50, with no Cuts or older pending tracks. Global Spotify Likes remain distinct from party Keeps.
+The hosted library now has **792 records: living 542 / bedroom 250**. All 691 pre-batch records and the later host-added Float On are rated. Each Needs review queue contains exactly its new 50, with no Cuts or older pending tracks. Global Spotify Likes remain distinct from party Keeps.
 
 ## Current batches
 
@@ -32,7 +32,7 @@ Both exact Spotify orders and signed-in Chrome room/filter/detail/audition links
 
 ## Live programmes and nine-hour targets
 
-The living main remains **48 tracks / 2:57:46**, all current Keeps, in the exact October 11 order; **31 newer Keeps remain unsynced**. This request created review auditions, not a main-playlist sync. The read-only bedroom exporter now lists **93 Keeps / 6:33:48 raw**, with **zero verified production-file bindings**. Catalog tracks, Spotify playlists, acquired files and finished mixes remain different inventories.
+The living main now has **49 tracks / 3:01:14 raw**, all Keeps: the exact 48-track October 11 order followed by **Float On — Modest Mouse**, explicitly requested later October 26 and saved as a Keep outside numbered batches. **31 other Keeps remain unsynced**. [Addition evidence and handoff](living-room/handoff-2026-10-26-float-on.md). The read-only bedroom exporter now lists **93 Keeps / 6:33:48 raw**, with **zero verified production-file bindings**. Catalog tracks, Spotify playlists, acquired files and finished mixes remain different inventories.
 
 The Grove's approved average is about **3:29 raw**. At that average, 170 tracks with hypothetical 15-second joins yield roughly 9:10, or 175 roughly 9:26. More short approvals, unavailable tracks or longer overlaps require more reserve; measure the actual programme. This is planning arithmetic, not a Google Home crossfade test.
 

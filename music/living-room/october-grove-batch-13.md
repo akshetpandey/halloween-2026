@@ -1,6 +1,6 @@
 # October Grove 13 · Body language
 
-October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published and exact order verified. Hosted import pending.
+October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published, hosted import and exact order verified.
 
 [Review this batch](https://music.hollow-court.com/?room=living-room&batch=13) · [Spotify audition](https://open.spotify.com/playlist/1mjbmFIvYBVJT4YKczHXWS) · [Exact data](october-grove-batch-13.json)
 
@@ -12,7 +12,7 @@ New comparison allocation: **16 rhythmic indie and electro / 14 cheeky vocal dan
 
 The four host-selected Now U Do / Makeba / Joy / Kisses recordings remain primary references. Float On and Bruises remain individual approvals. This round tests more pronounced body movement and vocal personality after the softer club pass failed, while keeping Grove distinct from Hollow techno/acid.
 
-Lyric sourcing excluded Baby I’m Yours, New Beat, Anthonio and One Girl/One Boy for breakup, abandonment or troubled central narratives. Get Lucky was left out for violent imagery; a misleading Girl Dreams search result was excluded. These editorial sourcing decisions are not host downvotes. Adult sexual language is not automatically sad or negative.
+Lyric sourcing excluded Baby I’m Yours, New Beat, Anthonio and One Girl/One Boy for breakup, abandonment or troubled central narratives. New Young Pony Club’s Get Lucky was left out for violent imagery; a misleading Girl Dreams search result was excluded. These editorial sourcing decisions are not host downvotes. Adult sexual language is not automatically sad or negative.
 
 11 choices have short sourced positive-theme interpretations; 2 have explicit mixed-theme notes. Slyd is physically playful but dismissive about personal affection; thicc contains ambiguous/unfulfilled phrases. Neither is certified uniformly positive. Other exact-edit lyric gaps remain unknown. Some hopeful songs acknowledge earlier difficulty; catalog valence cannot establish lyric sentiment.
 
@@ -81,4 +81,4 @@ Spotify reports this audition as public despite the private creation request. Cl
 
 No audio acquired/uploaded, no mix rendered, no purchases or Like/unlike actions. Main playlists remain separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 993 previous serialized records and old feedback/notes/scores/snapshots preserved; events retained as an unchanged prefix; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated choices. Signed-in Chrome counts, filters, details and audition links checked without votes or playback.

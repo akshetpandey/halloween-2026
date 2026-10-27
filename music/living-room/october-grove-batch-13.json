@@ -3,7 +3,7 @@
   "name": "Batch 13 · Body language",
   "room": "living-room",
   "created_at": "2026-10-27T22:48:13Z",
-  "status": "Published to Spotify with exact order verified; hosted import pending. New candidates, not approved party music.",
+  "status": "Published/imported and verified; 50 new unrated candidates. Not an approved party sequence.",
   "selection_policy": {
     "grove": "Upbeat, fun, happy, hopeful, loving and new beginnings; bouncy, melodic and sexy. No acid/techno; avoid chart-pop/top-five-hit character, sad music and negative central lyric narratives.",
     "hollow": "High energy, bouncy, hard, dark and fast; hard bounce/electro, acid hooks/driving techno, rave/trance drive and two psy choices. No dedicated tech-house or new DnB lane this round.",
@@ -7815,5 +7815,15 @@
   "spotify_playlist_name": "October Grove — Batch 13 · Body language",
   "spotify_verified_snapshot_id": "AAAAAcT54HJeQ5scZpQ+8b2zLO1Jn0R5",
   "spotify_order_verified_at": "2026-10-27T22:46:31Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_imported_at": "2026-10-27T22:48:41Z",
+  "hosted_import_verification": {
+    "old_track_records_unchanged": 993,
+    "new_records_exact_total": 100,
+    "old_feedback_notes_scores_snapshots_preserved": true,
+    "old_events_preserved_as_prefix": true,
+    "new_batch_unrated_count": 50,
+    "hosted_total": 1093,
+    "sqlite_integrity": "ok"
+  }
 }

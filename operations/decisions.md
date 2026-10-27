@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 27 • keep OPPSK, use direct USB-C DMX proposal
+
+**Confirmed host:** “Lets keep the OPPSK” and determine USB control/timely shipment. This selects OPPSK over the two-PAR replacement recommendation. [Current plan](../decor/lighting/oppsk-usb-dmx-2026-10-27.md) proposes **SH-RS09C USB-C $19.99**, QLC+ free, terminators $8.99 and optional-reach extension pack $26.99; all control parts and OPPSK showed free Oct 29 / In Stock. Exact received compatibility is untested, not an additional approved purchase. One OPPSK; late movers remain excluded, lasers removed.
+
+[Whole decor](../decor/shopping-ready.md) **$1,271.46** including extension/tax/local/shipping/buffer, or **$1,242.04** if the included 5.9-ft lead reaches. Flat fleece/rug/moss/Guardian/Grove/Moon Well scenery retained, approximately $1,600 ceiling unchanged. Simple 18CH/address001 QLC+ scenes/audio-trigger proposal; actual manual/model, fixture placement, Mac/music/TV load and fallback still need tests. No real cart changes, orders, installation, messaging or game/costume/music decision changes. Earlier same-day recommendation below is superseded.
+
 ## Latest October 27 • decor price refresh and proposed savings
 
 **Host confirms no decor bought and asks** to refresh prices/delivery before Halloween and find savings without losing the atmosphere. [Refreshed 21-line proposal](../decor/shopping-ready.md) **$1,057.86** retains full flat fleece, thin furniture covers, rug, counter moss, ivy, Guardian, Grove purple/moon and Moon Well. Newly recommends **one $39.99 two-PAR kit**, own remote/onboard/sound option, replacing the pixel panel/moving-head/laptop-control rig. **Recommendation pending host choice**, not an accepted scope switch or purchase. Losing moving gobos/pixel effects/laptop choreography is explicit. OPPSK-only alternative **$1,210.46**, same scenery, independent heavy-light support still unresolved.

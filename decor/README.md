@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 27: host confirms **nothing bought** and requests current prices/delivery plus cost cuts. [Current basket](shopping-ready.md) and [live offer/value comparison](research/price-refresh-and-value-plan-2026-10-27.md) own costs, quantities and October 29–30 delivery/pickup evidence. Two-PAR value rig is a **new recommendation, not host-selected**; earlier three-fixture scope has late movers/pendants. Full flat fleece, thin furniture covers, larger rug, moss/Grove/Guardian/Moon Well and accepted layout retained in the recommendation. [Physical cuts](bedroom/draping/02-shopping-and-sample.md) unchanged. No purchases or physical tests.
+October 27 latest: **host retains OPPSK**. [USB-C/QLC+ plan](lighting/oppsk-usb-dmx-2026-10-27.md) resolves exact timely hardware: native USB-C interface $19.99, terminator pack $8.99, optional-reach 25-ft cable pack $26.99; all showed Oct 29. [Current basket](shopping-ready.md) **$1,271.46** with those parts, or $1,242.04 if the included 5.9-ft lead reaches. Full scenery/flat fleece/rug/moss retained; two-PAR proposal superseded, late heads excluded. Nothing bought, installed or tested; received manual, physical position and same-Mac music/TV rehearsal remain. [Handoff](lighting/handoff-2026-10-27-oppsk-usb-dmx.md).
 
 | Room / deliverable | Current source |
 |---|---|

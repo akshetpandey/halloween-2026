@@ -1,0 +1,360 @@
+{
+  "checkedDate": "2026-10-27",
+  "timezone": "America/New_York",
+  "targetArrival": "2026-10-30",
+  "status": "Host retains OPPSK; exact USB-C interface and connection products recommended, not purchased or physically tested.",
+  "currentProducts": [
+    {
+      "id": "H22",
+      "product": "BEDELITE Black / Oversized King 120 × 120-in fleece, B0BJ238J66",
+      "url": "https://www.amazon.com/dp/B0BJ238J66",
+      "unit": "32.99",
+      "qty": 5,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "164.95"
+    },
+    {
+      "id": "H14",
+      "product": "Utopia Kitchen Black / 2 Pack 90 × 132-in polyester cloths, B0854M59WT",
+      "url": "https://www.amazon.com/dp/B0854M59WT",
+      "unit": "21.84",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "21.84"
+    },
+    {
+      "id": "H24",
+      "product": "Command 17003-MPES, 14 large white hooks / 16 strips",
+      "url": "https://www.amazon.com/dp/B075Y2M1Q5",
+      "unit": "14.61",
+      "qty": 4,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "58.44"
+    },
+    {
+      "id": "H25",
+      "product": "Amazon Basics Sturdy Binder Clips, Black / Medium 1.25 in / 96 Count (8 Pack of 12)",
+      "url": "https://www.amazon.com/dp/B074XTRX7K",
+      "unit": "10.76",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211; Medium 96 Count selected",
+      "status": "In Stock",
+      "line": "10.76"
+    },
+    {
+      "id": "H29",
+      "product": "OPPSK 1080LEDs Stage Light, B0H6HJJ5DP",
+      "url": "https://www.amazon.com/dp/B0H6HJJ5DP",
+      "notes": "Host retained OPPSK October 27. One fixture, 18/268CH. Independent position, received manual, nameplate and actual controls remain untested.",
+      "unit": "179.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "179.99"
+    },
+    {
+      "id": "H39",
+      "product": "DSD TECH SH-RS09C USB-C to DMX512 / 1.8m (5.9ft), B0FX49ZQ8T",
+      "url": "https://www.amazon.com/dp/B0FX49ZQ8T",
+      "unit": "19.99",
+      "qty": 1,
+      "line": "19.99",
+      "date": "Oct 29",
+      "status": "In Stock",
+      "seller": "DSD TECH Direct",
+      "shipsFrom": "Amazon",
+      "notes": "Native USB-C, FT232RL, 3-pin female output. Exact Mac/QLC+/OPPSK combination not physically tested."
+    },
+    {
+      "id": "H36",
+      "product": "Cable Matters 120Ω 3-pin male DMX terminator / 2-pack, B0CSSJP1H4",
+      "url": "https://www.amazon.com/dp/B0CSSJP1H4",
+      "unit": "8.99",
+      "qty": 1,
+      "line": "8.99",
+      "date": "Oct 29",
+      "status": "In Stock",
+      "seller": "Cable Matters",
+      "shipsFrom": "Amazon",
+      "notes": "Use one in last fixture DMX OUT; second is pack spare."
+    },
+    {
+      "id": "H35",
+      "product": "Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack, B08SQG6GBF",
+      "url": "https://www.amazon.com/dp/B08SQG6GBF",
+      "unit": "26.99",
+      "qty": 1,
+      "line": "26.99",
+      "date": "Oct 29",
+      "status": "In Stock",
+      "seller": "Cable Matters",
+      "shipsFrom": "Amazon",
+      "notes": "Budgeted for perimeter reach; omit entire pack if included 5.9ft adapter reaches. Use one extension, second pack spare."
+    },
+    {
+      "id": "H34",
+      "product": "Pyle PMKS5 straight microphone stand, 1 Pack / Black, B002PAW6AU",
+      "url": "https://www.amazon.com/dp/B002PAW6AU",
+      "unit": "34.99",
+      "qty": 1,
+      "date": "Oct 30",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "34.99"
+    },
+    {
+      "id": "H26",
+      "product": "Govee RGBIC Floor Lamp Basic / Black, B099WTN2TR",
+      "url": "https://www.amazon.com/dp/B099WTN2TR",
+      "unit": "99.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "99.99"
+    },
+    {
+      "id": "H03",
+      "product": "Mydethun moon 5.9-in White & Yellow / Non-engraved, wood stand, B075JHP7TK",
+      "url": "https://www.amazon.com/dp/B075JHP7TK",
+      "unit": "24.99",
+      "qty": 1,
+      "date": "Oct 30",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "Only 2 left displayed",
+      "line": "24.99"
+    },
+    {
+      "id": "H04",
+      "product": "O’Bright Seraph mini / Black cordless lamp, B0D92YB4RH",
+      "url": "https://www.amazon.com/dp/B0D92YB4RH",
+      "unit": "31.44",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "31.44"
+    },
+    {
+      "id": "H05",
+      "product": "ORTIGIA Dark Green 72 × 72-in forest shower curtain + hooks, B07YD2X9NB",
+      "url": "https://www.amazon.com/dp/B07YD2X9NB",
+      "unit": "14.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "14.99"
+    },
+    {
+      "id": "H06",
+      "product": "DUSPRO bendable moss vine 10ft, B0B3XC33R5",
+      "url": "https://www.amazon.com/dp/B0B3XC33R5",
+      "unit": "14.80",
+      "qty": 1,
+      "date": "Oct 30",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "14.80"
+    },
+    {
+      "id": "H11",
+      "product": "USMOLA Green 39 × 39-in / 100 × 100-cm moss sheet, B0FZD67YDD",
+      "url": "https://www.amazon.com/dp/B0FZD67YDD",
+      "unit": "16.99",
+      "qty": 3,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "50.97"
+    },
+    {
+      "id": "H27",
+      "product": "KASZOO 12 Pack with 80 LED / Green, 84-ft ivy, B07H1GQB36",
+      "url": "https://www.amazon.com/dp/B07H1GQB36",
+      "unit": "9.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "9.99"
+    },
+    {
+      "id": "H12",
+      "product": "Twinkle Star Warm White USB 66ft / 200 LED, remote, B07GMQ42GG",
+      "url": "https://www.amazon.com/dp/B07GMQ42GG",
+      "unit": "9.99",
+      "qty": 2,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "19.98"
+    },
+    {
+      "id": "H13",
+      "product": "Homemory warm-white glow / white body, 12-pack tea lights, B01EDKGFGU",
+      "url": "https://www.amazon.com/dp/B01EDKGFGU",
+      "unit": "8.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "8.99"
+    },
+    {
+      "id": "H16",
+      "product": "DIY Doctor black gaffer 2in × 30yd / 1 Pack, B0GH865ZQG",
+      "url": "https://www.amazon.com/dp/B0GH865ZQG",
+      "unit": "8.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "8.99"
+    },
+    {
+      "id": "H17",
+      "product": "Skalon black 8-in ties / 100 Pack, B09PJ8L58G",
+      "url": "https://www.amazon.com/dp/B09PJ8L58G",
+      "unit": "3.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "3.99"
+    },
+    {
+      "id": "H18",
+      "product": "Command clear decorating clips, 40 clips / 48 strips, 1 Pack",
+      "url": "https://www.amazon.com/dp/B000M3YGHS",
+      "unit": "9.05",
+      "qty": 3,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "27.15"
+    },
+    {
+      "id": "H19",
+      "product": "GE 50768 White / 15 Ft / 1 Pack, six grounded AC outlets, 14-gauge SJT",
+      "url": "https://www.amazon.com/dp/B087N9HCHV",
+      "unit": "18.70",
+      "qty": 2,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "37.40"
+    },
+    {
+      "id": "H28",
+      "product": "WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW",
+      "url": "https://www.amazon.com/dp/B0CYL5S6LW",
+      "unit": "83.99",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "83.99"
+    },
+    {
+      "id": "H38",
+      "product": "Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5",
+      "url": "https://www.amazon.com/dp/B0773JCTR5",
+      "unit": "13.87",
+      "qty": 1,
+      "date": "Oct 29",
+      "source": "Chrome new one-time offer, existing Brooklyn 11211",
+      "status": "In Stock",
+      "line": "13.87"
+    }
+  ],
+  "localAllowances": [
+    {
+      "id": "L01",
+      "need": "Five small pumpkins/gourds",
+      "amount": "35.00"
+    },
+    {
+      "id": "L02",
+      "need": "Shared paint/glue/craft materials; card/kraft reuse",
+      "amount": "15.00"
+    },
+    {
+      "id": "L03",
+      "need": "One handmade 24-in moon disk/diffuser",
+      "amount": "5.00"
+    },
+    {
+      "id": "L04",
+      "need": "Trays, underlayer, jar, light attachments; reuse assumed",
+      "amount": "10.00"
+    },
+    {
+      "id": "L05",
+      "need": "Conditional rug grip/edge treatment",
+      "amount": "15.00"
+    },
+    {
+      "id": "L07",
+      "need": "Protected fixture support/positioning reserve; no overhead rig quote",
+      "amount": "25.00"
+    }
+  ],
+  "costs": {
+    "withExtension": {
+      "products": "978.47",
+      "local": "105.00",
+      "tax": "97.51",
+      "shipping": "60.00",
+      "buffer": "30.48",
+      "total": "1271.46",
+      "headroom": "328.54"
+    },
+    "directCableOnly": {
+      "products": "951.48",
+      "local": "105.00",
+      "tax": "95.08",
+      "shipping": "60.00",
+      "buffer": "30.48",
+      "total": "1242.04",
+      "headroom": "357.96"
+    }
+  },
+  "sourceBaseline": "price-refresh-2026-10-27.json:oppskOnly",
+  "quotes": [
+    {
+      "id": "USB-C-interface",
+      "url": "https://www.amazon.com/DSD-TECH-SH-RS09C-Freestyler-Lighting/dp/B0FX49ZQ8T/ref=sr_1_1?sr=8-1",
+      "evidence": "\t\t\t\t176 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t326 heading Value: 1, ID: title, DSD TECH SH-RS09C USB-C to DMX512 Adapter Cable with FTDI Chip Support Freestyler QLC and Pi Open Lighting(1.8M/5.9FT)\n\t\t\t\t\t\t\t\t565 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t194 text $19.99\n\t\t\t\t\t\t\t\t\t\t195 text $3.39 per feet\n\t\t\t\t\t\t\t\t\t\t\t201 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t205 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t206 text 5 hrs 4 mins\n\t\t\t\t\t\t\t\t\t\t214 text In Stock\n\t\t\t\t\t\t\t\t\t215 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t254 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t255 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t258 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t259 link Description: DSD TECH Direct, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t262 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t267 text Gift options\n\t\t\t\t\t\t\t\t\t\t\t270 text See more\n\t\t\t\t\t\t\t\t277 text Save up to 4%  on this product with bulk discounts."
+    },
+    {
+      "id": "OPPSK",
+      "url": "https://www.amazon.com/dp/B0H6HJJ5DP",
+      "evidence": "\t\t\t\t173 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t\t307 heading 800W 1080LEDs DJ Strobe Effect Light for Stage Event, Value: 1, ID: title\n\t\t\t\t\t\t\t\t343 container Description: Selected Size is 1080LEDs Stage Light. Tap to collapse., ID: inline-twister-expander-header-size_name\n\t\t\t\t\t\t\t\t633 heading Applications, Value: 1\n\t\t\t\t\t\t\t\t687 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t190 text $179.99\n\t\t\t\t\t\t\t\t\t\t\t196 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t200 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t201 text 5 hrs 1 min\n\t\t\t\t\t\t\t\t\t\t\t\t202 text Arrives 2 days before Halloween\n\t\t\t\t\t\t\t\t\t\t210 text In Stock\n\t\t\t\t\t\t\t\t\t211 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t230 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t231 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t234 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t235 link Description: OPPSK Pro-Lighting, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t238 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t243 text Support\n\t\t\t\t\t\t\t\t\t\t\t246 text See more\n\t\t\t\t\t\t\t\t\t\t\t249 text Add a protection plan:\n\t\t\t\t\t\t\t\t\t\t252 text  for  $28.99\n\t\t\t\t\t\t\t\t\t\t255 text  for  $38.99\n\t\t\t\t\t\t\t\t\t\t258 text  for  $16.99/month"
+    },
+    {
+      "id": "terminator",
+      "url": "https://www.amazon.com/dp/B0CSSJP1H4",
+      "evidence": "\t\t\t\t176 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t\t796 heading Cable Matters 2-Pack 120 Ohm 3-Pin XLR/DMX Terminator, Value: 1, ID: title\n\t\t\t\t\t\t\t\t1148 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t193 text $8.99\n\t\t\t\t\t\t\t\t\t\t194 text $4.50 per count\n\t\t\t\t\t\t\t\t\t\t\t200 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t204 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t205 text 4 hrs 57 mins\n\t\t\t\t\t\t\t\t\t\t213 text In Stock\n\t\t\t\t\t\t\t\t\t214 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t723 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t724 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t727 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t728 link Description: Cable Matters, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t731 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t736 text Gift options\n\t\t\t\t\t\t\t\t\t\t\t739 text See more\n\t\t\t\t\t\t\t\t746 text Save up to 3%  on this product with bulk discounts."
+    },
+    {
+      "id": "extension",
+      "url": "https://www.amazon.com/dp/B08SQG6GBF",
+      "evidence": "\t\t\t\t174 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t\t794 heading Cable Matters 2-Pack 22AWG 3-Pin XLR DMX Lighting Cable, 25ft, Value: 1, ID: title\n\t\t\t\t\t\t\t\t821 container Description: Selected Size is 25 Feet. Tap to collapse., ID: inline-twister-expander-header-size_name\n\t\t\t\t\t\t\t\t1147 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t191 text $26.99\n\t\t\t\t\t\t\t\t\t\t192 text $0.54 per feet\n\t\t\t\t\t\t\t\t\t\t\t198 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t202 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t203 text 4 hrs 57 mins\n\t\t\t\t\t\t\t\t\t\t211 text In Stock\n\t\t\t\t\t\t\t\t\t212 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t721 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t722 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t725 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t726 link Description: Cable Matters, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t729 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t734 text Gift options\n\t\t\t\t\t\t\t\t\t\t\t737 text See more\n\t\t\t\t\t\t\t\t744 text Save up to 3%  on this product with bulk discounts."
+    },
+    {
+      "id": "USB-C-interface-final",
+      "url": "https://www.amazon.com/dp/B0FX49ZQ8T",
+      "evidence": "\t\t\t\t176 heading Product summary presents key product information Keyboard shortcut shift +opt + D, Value: 1, ID: pqv-ingress\n\t\t\t\t\t\t\t\t325 heading Value: 1, ID: title, DSD TECH SH-RS09C USB-C to DMX512 Adapter Cable with FTDI Chip Support Freestyler QLC and Pi Open Lighting(1.8M/5.9FT)\n\t\t\t\t\t\t\t\t630 heading Product information, Value: 1\n\t\t\t\t\t\t\t\t\t\t193 text $19.99\n\t\t\t\t\t\t\t\t\t\t194 text $3.39 per feet\n\t\t\t\t\t\t\t\t\t\t\t200 text Two-Day\n\t\t\t\t\t\t\t\t\t\t\t\t\t204 text FREE delivery  Thursday, October 29 . Order within \n\t\t\t\t\t\t\t\t\t\t\t\t\t205 text 4 hrs 57 mins\n\t\t\t\t\t\t\t\t\t\t213 text In Stock\n\t\t\t\t\t\t\t\t\t214 pop up button (collapsed, settable) Value: 1, ID: quantity, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t\t\t\t\t\t253 text Ships from\n\t\t\t\t\t\t\t\t\t\t\t\t254 text Amazon\n\t\t\t\t\t\t\t\t\t\t\t\t\t257 text Sold by\n\t\t\t\t\t\t\t\t\t\t\t\t258 link Description: DSD TECH Direct, Value: amazon.com/gp/help/…, ID: sellerProfileTriggerId\n\t\t\t\t\t\t\t\t\t\t\t\t\t261 text Returns\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t266 text Gift options\n\t\t\t\t\t\t\t\t\t\t\t269 text See more\n\t\t\t\t\t\t\t\t276 text Save up to 4%  on this product with bulk discounts."
+    }
+  ],
+  "manualStatus": "Matching LED layout and 18/268 modes found in OPPSK-authored manual mirror. Extracted table not visually verified; no QXF/QXW produced. Received manual/model and first-output test required."
+}

@@ -1,6 +1,6 @@
 # Decor shopping status and historical wood/skull cart
 
-**October 27 refresh complete:** [current 21-line value proposal](../../decor/shopping-ready.md) and [exact offers/comparison](../../decor/research/price-refresh-and-value-plan-2026-10-27.md) replace prior prices/delivery. All recommended product lines showed Oct 29–30 delivery; none bought/carted. New cheaper lighting scope awaits host choice; earlier full rig remains only a comparison with late movers/pendants. Chrome quantity/fulfillment selectors changed for quotes, no checkout or order. Historical cart and old dated figures below are not additive purchases.
+**October 27 latest:** host retains OPPSK; [current 24-line basket](../../decor/shopping-ready.md) **$1,271.46** includes SH-RS09C USB-C DMX, terminators and 25-ft extension pack. [Exact fresh control offers](../../decor/lighting/oppsk-usb-dmx-2026-10-27.md) all In Stock / Oct 29; omit extension only if included lead reaches, giving $1,242.04. Prior two-PAR recommendation superseded. No additions to real cart, checkout, orders or software installation; historical cart and price snapshots below are not additive purchases.
 
 **October 27 purchase confirmation:** host reports nothing bought/ordered from the decor, lighting, fabric or rug slate. The entire [current decor list](../../decor/shopping-ready.md) remains outstanding; [budget/status](../budget.md#october-27--decor-purchase-status-confirmed). Prices and delivery evidence below are dated October 23 or earlier, not current October 27 offers. No new cart action or purchase.
 

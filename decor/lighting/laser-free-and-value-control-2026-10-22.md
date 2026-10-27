@@ -1,6 +1,6 @@
 # Laser-free Hollow rig and cheaper laptop control — October 22, 2026
 
-**October 27 sourcing update:** [new price/delivery comparison](../research/price-refresh-and-value-plan-2026-10-27.md) supersedes dated prices/budget below. This document preserves the prior selected rig technical plan. New recommendation uses two PAR washes without laptop DMX, or OPPSK-only at the separately quoted price; neither scope switch is host-selected. No purchases/configuration/tests.
+**October 27 superseding plan:** host retains a single OPPSK. Use [direct USB-C SH-RS09C / QLC+ and fresh delivery quotes](oppsk-usb-dmx-2026-10-27.md), not the old USB-A/adapter/three-fixture patch below. The two-PAR alternative is superseded. [Basket](../shopping-ready.md) $1,271.46 with extension pack; no purchase/install/test.
 
 **Confirmed host:** remove lasers for safety; original DMXking MAX interface is sold out (host report). Keep OPPSK LED wash/pixels and U’King pair of LED moving-head spots. **Three fixtures**, not four. Fleece accepted with mild curtain-like echo goal; larger rug requested. Approximately $1,600 total-decor target unchanged. Nothing bought, installed or tested.
 

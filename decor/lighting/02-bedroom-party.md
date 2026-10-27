@@ -1,6 +1,6 @@
 # Hollow lights — laser-free LED rig
 
-**October 27 current quotes/proposal:** [value comparison](../research/price-refresh-and-value-plan-2026-10-27.md) recommends the $39.99 two-PAR kit, Oct 30 estimate, without laptop DMX, moving heads or OPPSK. OPPSK-only is separately priced. Earlier moving-head pair now shows Oct 31. New recommendation awaits host choice; following October 23 figures are historical, with technical integration retained if chosen. No purchases/tests.
+**October 27 current:** host retains OPPSK. [USB-C/QLC+ control and Oct 29 hardware quotes](oppsk-usb-dmx-2026-10-27.md) replace the two-PAR recommendation and old USB-A/moving-head patch. One OPPSK, SH-RS09C, terminated DMX line; first 18CH/address001, exact received table/profile test pending. [Whole basket](../shopping-ready.md) $1,271.46 including extension pack. Nothing bought/installed/tested; preceding dated rig figures below are history.
 
 **Latest October 23:** host removes lasers and reports MAX interface sold out. [Current exact offers, cheaper Mac control and automation](laser-free-and-value-control-2026-10-22.md) are authoritative: OPPSK $179.99 + U’King pair $129.99 + proposed DSD TECH SH-RS09B $15.99 + $44.96 exact connections = **$370.93**. Three fixtures, free QLC+, simple coordinated scenes/audio triggers subject to actual hardware and music/media-load test. [Current basket](../shopping-ready.md) $1,421.20 includes five flat-wall fleece blankets plus thin furniture covers, expanded mounts and larger rug. No purchases/tests.
 

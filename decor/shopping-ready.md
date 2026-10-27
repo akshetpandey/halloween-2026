@@ -1,18 +1,21 @@
 # House decor shopping plan — October 27, 2026
 
-**Nothing bought, host-confirmed October 27.** Current research is the [price/delivery refresh and value comparison](research/price-refresh-and-value-plan-2026-10-27.md). **Recommended cheaper basket below, not yet a host-selected lighting change or purchase.** Prior selected three-fixture scope is retained as a [repriced comparison](research/price-refresh-and-value-plan-2026-10-27.md#fulfillment-evidence-and-exact-refreshed-comparison), with moving heads Oct 31 and raven pendants Nov 7–9; it does not meet our before-Halloween setup target. No lasers.
+**Host selects keeping the OPPSK; nothing bought.** Use one OPPSK with the [direct USB-C DMX plan](lighting/oppsk-usb-dmx-2026-10-27.md). The two-PAR replacement proposal is superseded; the earlier three-fixture rig remains only a dated comparison. No moving heads or lasers in this basket. Exact interface/cabling are recommended, not received/tested.
 
-Recommend **$1,057.86** including planned tax/shipping/buffer. All quoted items in this proposal show **Oct 29–30 delivery**, targeting receipt before **October 31**. Dates are conditional account/cutoff estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cut/nesting plan](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md) · [Compressed setup sequence](research/price-refresh-and-value-plan-2026-10-27.md#order-and-setup-sequence).
+**Whole-decor estimate $1,271.46**, including the 25-ft DMX extension pack, local allowances, planning tax, shipping and buffer; **$328.54 below the approximately $1,600 ceiling**. All 24 product lines showed **Oct 29–30 delivery**, targeting receipt by October 30. OPPSK, USB-C interface, extension and terminators were checked in Chrome this session; other lines retain the earlier October 27 refresh. Conditional account/cutoff estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
 
-## Exact recommended products and quantities
+## Exact current products and quantities
 
-| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Arrival / fulfillment |
+| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Arrival estimate |
 |---|---|---:|---:|---:|---|
 | H22 | [BEDELITE Black / Oversized King 120 × 120-in fleece, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66) | 5 | 32.99 | 164.95 | Oct 29 |
 | H14 | [Utopia Kitchen Black / 2 Pack 90 × 132-in polyester cloths, B0854M59WT](https://www.amazon.com/dp/B0854M59WT) | 1 | 21.84 | 21.84 | Oct 29 |
 | H24 | [Command 17003-MPES, 14 large white hooks / 16 strips](https://www.amazon.com/dp/B075Y2M1Q5) | 4 | 14.61 | 58.44 | Oct 29 |
 | H25 | [Amazon Basics Sturdy Binder Clips, Black / Medium 1.25 in / 96 Count (8 Pack of 12)](https://www.amazon.com/dp/B074XTRX7K) | 1 | 10.76 | 10.76 | Oct 29 |
-| H01 | [U’King 36 LED RGB PAR / 2 Packs, B0B9H16RH5](https://www.amazon.com/dp/B0B9H16RH5) | 1 | 39.99 | 39.99 | Oct 30 |
+| H29 | [OPPSK 1080LEDs Stage Light, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Oct 29 |
+| H39 | [DSD TECH SH-RS09C USB-C to DMX512 / 1.8m (5.9ft), B0FX49ZQ8T](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | 19.99 | 19.99 | Oct 29 |
+| H36 | [Cable Matters 120Ω 3-pin male DMX terminator / 2-pack, B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | 1 | 8.99 | 8.99 | Oct 29 |
+| H35 | [Cable Matters 22AWG 3-pin DMX cable / 25ft, 2-pack, B08SQG6GBF](https://www.amazon.com/dp/B08SQG6GBF) | 1 | 26.99 | 26.99 | Oct 29 |
 | H34 | [Pyle PMKS5 straight microphone stand, 1 Pack / Black, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | 1 | 34.99 | 34.99 | Oct 30 |
 | H26 | [Govee RGBIC Floor Lamp Basic / Black, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | 1 | 99.99 | 99.99 | Oct 29 |
 | H03 | [Mydethun moon 5.9-in White & Yellow / Non-engraved, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | 1 | 24.99 | 24.99 | Oct 30 |
@@ -30,28 +33,29 @@ Recommend **$1,057.86** including planned tax/shipping/buffer. All quoted items 
 | H28 | [WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Oct 29 |
 | H38 | [Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5](https://www.amazon.com/dp/B0773JCTR5) | 1 | 13.87 | 13.87 | Oct 29 |
 
-**Products subtotal $782.50.** New one-time offers, checked October 27 in Chrome to existing Brooklyn ZIP 11211, with all recommended lines showing October 29–30 delivery estimates. No used, subscription, business or coupon discounts counted. Quantity checks and sellers in [source evidence](research/price-refresh-and-value-plan-2026-10-27.md); no claim of receipt or tested hardware.
+**Products subtotal $978.47.** New one-time offers checked October 27 to existing Brooklyn ZIP 11211. No used/subscription/business/coupon discounts counted. [Current control quotes and machine-readable basket](research/oppsk-usb-dmx-2026-10-27.json) · [Earlier same-day scenery quote evidence](research/price-refresh-and-value-plan-2026-10-27.md). No item ordered or received.
 
-## Cash comparison
+## Current cash model
 
-| Cash component | Value: two PARs | OPPSK only | Previous rig repriced |
-|---|---:|---:|---:|
-| Products | 782.50 | 922.50 | 1,132.79 |
-| Local/reuse/support allowances | 105.00 | 105.00 | 105.00 |
-| 9% planning tax, rounded | 79.88 | 92.48 | 111.40 |
-| Shipping reserve | 60.00 | 60.00 | 60.00 |
-| Price/missing-item buffer | 30.48 | 30.48 | 30.48 |
-| **Whole-decor estimate** | 1,057.86 | 1,210.46 | 1,439.67 |
+| Cash component | With 25-ft extension pack | If included 5.9-ft cable reaches |
+|---|---:|---:|
+| Products | 978.47 | 951.48 |
+| Local/reuse/support allowances | 105.00 | 105.00 |
+| 9% planning tax, aggregate rounded | 97.51 | 95.08 |
+| Shipping reserve | 60.00 | 60.00 |
+| Price/missing-item buffer | 30.48 | 30.48 |
+| **Whole-decor estimate** | **1,271.46** | **1,242.04** |
+| Headroom below $1,600, after included buffer | 328.54 | 357.96 |
 
-The original frozen $1,421.20 is dated history. Refreshed previous-scope comparison **$1,439.67** includes late movers/pendants and a conditional battery without a verified local date. **Two-PAR proposal saves $381.81** versus that refreshed model, keeping the complete fleece/rug/moss/Grove/Guardian/Moon Well scenery. OPPSK-only alternative **$1,210.46** replaces the $39.99 PAR kit with the $179.99 OPPSK; **never buy both by default**. No chosen spending ceiling increase; about $1,600 decor maximum remains.
+**OPPSK plus USB-C control/connections $235.96 before tax**; control alone **$55.97**, or **$28.98** without H35. H35 is included to avoid relying on a short cable across the dance floor. Use one cable and one terminator; remaining pieces are pack spares. Omit H35 only if the included lead reaches by the actual protected route. $1,210.46 OPPSK-only was the same scenery without control hardware; this replaces that amount, not an addition to it. Prior $1,057.86 two-PAR and $1,439.67 late full-rig figures remain dated comparisons.
 
-## What changes and what stays
+## What stays and what changes
 
-- Hollow lighting: one **two-PAR kit**, own controls/remote/sound option, with low static red/violet fallback to test. No moving gobos, pixel-bar effect or laptop choreography. No H31/32/35/36/37 in the recommendation. If keeping OPPSK, use only the priced alternative and resolve its heavier support independently.
-- Preserve **five flat fleece blankets**, no pleating, all walls/windows/header; thin covers for bed/desk/Guardian/tub; **8×10 rug**, **three large moss sheets**, all 84-ft ivy, two warm strings, glowing Guardian and Grove moon, Govee purple wash and all four quoted bathroom pieces.
-- Late raven pendants: painted card/kraft relics on Guardian/shrine instead, within shared craft allowance. No lost game entity or new bought figure.
-- Power: **two 15-ft GE 50768 strips plus H38 USB-A two-pack**, one string supply per room. GE has no USB ports. Reuse owned suitable USB supplies only after testing, then omit H38; it is included in this total. Both room power leads retain 15-ft reach.
-- Keep mounting inventory and full-panel trial. The one medium 96-clip pack leaves 47 spares after 43 wall/header + six desk clips; actual paper capacity 0.61 in is not a fabric grip rating. No mixed mini-clip assortment. Fourteen-hook packs give 56 hooks for 43 starting points; six desk clips are separate from wall/header allocation.
+- **Hollow:** host retains OPPSK. SH-RS09C connects directly to USB-C; free QLC+ controls one fixture, initially address001 / 18CH. Exact map/profile and same-Mac music/TV load remain physical tests. No USB-A adapter, old SH-RS09B, MAX, PAR kit, moving heads or additional lighting controller is in this basket. [Connection and automation walkthrough](lighting/oppsk-usb-dmx-2026-10-27.md).
+- Preserve **five flat fleece blankets**, no pleating, all walls/windows/header; thin bed/desk/Guardian/tub covers; **8×10 rug, three large moss sheets, all 84-ft ivy**, two warm strings, glowing Guardian, Grove moon/Govee purple wash and the four bathroom pieces.
+- Late raven pendants stay out; proposed painted card/kraft relics use the shared craft allowance. No game entity count/identity change.
+- Power stays **two 15-ft GE 50768 strips plus H38 USB-A supply two-pack**, one string supply per room. Those USB power chargers do not replace the DMX data interface. Actual labels/outlets need inspection.
+- Mounting stays 56 large hooks and 96 medium binder clips: 43 starting wall/header points, six desk clips, spares. Paper capacity is not a fabric grip rating; trial full intact fleece before cutting.
 
 ## Local/reuse allowances and remaining checks
 
@@ -65,8 +69,8 @@ The original frozen $1,421.20 is dated history. Refreshed previous-scope compari
 | L07 | Protected fixture support/positioning reserve; no overhead rig quote | 25.00 |
 | **Total local/reuse allowances** | | **105.00** |
 
-These are estimates, not stock-confirmed exact SKUs. $25 fixture support/positioning reserve is protected, not an overhead rig quote; supplied PAR brackets/actual floor footprints must be inspected, routes clear and fabric separated. Upright-bed restraint remains unresolved and independent. Received cloth dimensions/opacity/adhesion, rug/door/grip, Guardian stability, actual outlet/nameplates, light modes and runtime remain tests. No product substitution establishes safe installation automatically.
+These are estimates, not stock-confirmed exact SKUs. $25 fixture support/positioning reserve is protected, not an overhead rig quote; OPPSK bracket/actual footprint must be inspected, routes clear and fabric separated. Upright-bed restraint remains unresolved and independent. Received cloth dimensions/opacity/adhesion, rug/door/grip, Guardian stability, actual outlet/nameplates, light modes and runtime remain tests. No product substitution establishes safe installation automatically.
 
-**Buy timing:** recheck exact quantities and calendar delivery at checkout today; target Oct 30 receipt. Start intact-fleece 24-hour trial on Oct 29, then cut that same source after it passes. Receive late-in-window PARs/stand/moon Oct 30, simplify crafts, rehearse before Oct 31 arrivals. No new mail dependencies after Oct 29 without a confirmed before-party date. [Detailed sequence and evidence](research/price-refresh-and-value-plan-2026-10-27.md).
+**Buy timing:** recheck exact quantities and calendar delivery at checkout today; target Oct 30 receipt. Start intact-fleece 24-hour trial on Oct 29, then cut that same source after it passes. Receive OPPSK/control Oct 29 and stand/moon by Oct 30; allow 3–5 hours for the [first DMX patch/rehearsal](lighting/oppsk-usb-dmx-2026-10-27.md#receipt-and-rehearsal), simplifying crafts to protect that time. No new mail dependencies after Oct 29 without a confirmed before-party date. [DMX sequence and evidence](lighting/oppsk-usb-dmx-2026-10-27.md); other dated product offers remain in the [price refresh](research/price-refresh-and-value-plan-2026-10-27.md).
 
 Exclude old raw-bolt/velvet orders, separate acoustic pads, ready-made bedroom curtains, extra furnishing/sample fleece, lasers, duplicate rigs/controllers, old HDX power when GE is selected, and speculative spare batteries. Food/drink, wrapped sweets/labels, costume, game figures/tags/crown/domain and music costs remain outside decor; charge shared scenery once. No items bought or added to a cart.

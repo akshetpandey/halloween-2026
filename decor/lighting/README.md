@@ -1,6 +1,6 @@
 # Shared lighting
 
-**October 27 current sourcing:** [refreshed prices/delivery and two-PAR value proposal](../research/price-refresh-and-value-plan-2026-10-27.md), [single basket](../shopping-ready.md). Earlier three-fixture scope is repriced for comparison, with late movers. New lower-cost scope awaits host choice; no purchases/tests. October 23 figures below are historical.
+**October 27 current:** host retains OPPSK. [Direct USB-C hardware, Mac setup and automation](oppsk-usb-dmx-2026-10-27.md): SH-RS09C $19.99 + terminator pack $8.99 + 25-ft cable pack $26.99, all Oct 29 estimates. [Whole basket](../shopping-ready.md) $1,271.46; $1,242.04 if included lead reaches. One fixture, no moving heads/PAR kit/laser. No purchases or physical tests. Earlier source plans below are history; received manual/profile and same-Mac rehearsal remain.
 
 [All decor](../README.md). Room layout lives in each room folder; this folder owns product comparisons, shared fixtures and system choices.
 

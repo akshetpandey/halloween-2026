@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## October 27 • OPPSK retained, direct USB-C DMX priced
+
+**Confirmed host:** keep OPPSK and resolve laptop DMX before Halloween. [Current single basket](../decor/shopping-ready.md) **$1,271.46** = **$978.47 products + $105 local/reuse/support + $97.51 aggregate 9% planning tax + $60 shipping + $30.48 buffer**, leaving **$328.54** within approximately $1,600 decor ceiling. Includes one OPPSK $179.99, native USB-C SH-RS09C $19.99, 120Ω terminator two-pack $8.99 and 25-ft DMX two-pack $26.99; these four offers rechecked In Stock/free Oct 29 in Chrome. Other scenery quantities/offers retain earlier October 27 evidence. [Hardware/automation/source plan](../decor/lighting/oppsk-usb-dmx-2026-10-27.md).
+
+If included 5.9-ft adapter cable reaches by a protected route, omit the $26.99 extension pack: **$951.48 products + $105 local + $95.08 tax + $60 shipping + $30.48 buffer = $1,242.04**. No separate USB-A adapter, old interface, PAR kit or late movers counted. Current full model adds **$61.00** to the previous $1,210.46 OPPSK-only estimate, which had no control. These replace, rather than add to, previous decor totals; no other family allocations changed. No cart/order/install/test; exact received manual/profile, independent support and same-Mac rehearsal outstanding. [Handoff](../decor/lighting/handoff-2026-10-27-oppsk-usb-dmx.md). Earlier value discussion below is history.
+
 ## October 27 • refreshed decor offers and value proposal
 
 Host requests fresh price/arrival checks and cost cuts; nothing bought. [Current basket](../decor/shopping-ready.md) recommends **$1,057.86**, not yet host-selected: **$782.50 products + $105 local/reuse + $79.88 planning tax + $60 shipping + $30.48 buffer**. All 21 proposed product lines showed **October 29–30 delivery** in signed-in Chrome to existing Brooklyn ZIP 11211. New medium 96-clip pack replaces three Staples 24-packs; full fleece/moss/rug quantities retained. Two grounded 15-ft GE strips plus USB-A supply two-pack replace the unverified HDX store route without losing USB power. [Full comparison/evidence](../decor/research/price-refresh-and-value-plan-2026-10-27.md).

@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 27:** host drops Antler King, large antlers and full-face covering, and repurposes the unused second City of Gods outfit for October 31. [22 — reuse redesign](22-hollow-court-reuse-redesign-2026-10-27.md) is authoritative: recommended dark-fae court figure with torc/cuffs/green trousers/removable black fur and a proposed Small oxblood open-neck shirt. Compact crown is an optional fit/preference question, not a requirement. New design not yet selected or sourced; no new render/order/message. Former build steps/quotes below are history, not outstanding work.
+**Current October 27:** reuse the unused second City of Gods outfit for October 31, without large antlers/full-face covering. [22 — current redesign, shirt source and private personalized preview](22-hollow-court-reuse-redesign-2026-10-27.md) is authoritative. Host requests the small bone crown; preview retains torc/cuffs/green trousers/black fur with a newly sourced Burgundy cotton shirt. No new order or physical fit test. Former antler/veil build steps and quotes below are history, not outstanding work.
 
 ## Historical brief • through October 23
 

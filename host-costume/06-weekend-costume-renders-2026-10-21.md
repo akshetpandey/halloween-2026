@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I uses the host's requested likeness and stays Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–J use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest previews:** [I](#i-personalized-eclipse-and-gilded-stag) uses the selected Zivyes, actual Sosation/torc/Karace references and requested clean-shaven likeness, no makeup. H's imagined leaves/face branches are superseded. D remains the earlier approved black-fur Eclipse direction.
+**Latest preview:** [J](#j-hollow-court-with-burgundy-shirt) repurposes the unused second-night outfit for October 31, after exact Small shirt sourcing and retailer-delivered refresh. [I](#i-personalized-eclipse-and-gilded-stag) retains the October 23 weekend previews. H's imagined leaves/face branches are superseded. D remains the earlier approved black-fur Eclipse direction.
+
+## J Hollow Court with Burgundy shirt
+
+Requested/completed October 27: compact purchased bone crown, black fur, actual curled torc and tree-of-life cuff pair, green trousers and a newly sourced Burgundy cotton lace-up shirt. [22 owns the exact source, date/deadline, private output and generation record](22-hollow-court-reuse-redesign-2026-10-27.md#shirt-sourcing-and-personalized-preview--october-27). Host likeness inherited from I's private final because the original temporary upload is no longer on disk. One successful built-in edit; full outfit and matching close-up, clean-shaven, no makeup/veil/solar pieces. Image, exact prompt and references remain Git-ignored. New shirt not ordered, actual fit untested; color/scale/engraving approximate. No new purchases or physical tests.
 
 ## I Personalized Eclipse and Gilded Stag
 

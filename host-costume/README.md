@@ -2,9 +2,9 @@
 
 ## Current • October 27
 
-**Antler King is dropped.** The host did not attend the second City of Gods night and wants its costume redesigned/reused for October 31, without large antlers or a full-face covering. [22 — current reuse redesign](22-hollow-court-reuse-redesign-2026-10-27.md) owns the confirmed scope and **proposed** Hollow Lord / dark-fae look: reuse torc, tree-of-life cuffs, green trousers/shoes and removable black fur; a Small deep-oxblood open-neck shirt is the proposed main change. Compact purchased crown optional only if wanted/comfortable; no new headwear selected. New garment/source/fit not verified, no fresh spending or render.
+**Antler King is dropped.** Reuse the unused second City of Gods costume for October 31 without large antlers/full-face covering. [22 — current reuse redesign, shirt source and personalized preview](22-hollow-court-reuse-redesign-2026-10-27.md) owns the dark-fae court look. Host now requests the **small purchased bone crown** in the preview, with fur/torc/tree-of-life cuffs/green trousers and a sourced Burgundy cotton shirt. Preview complete; exact Small shirt has a live deadline-cleared offer, not an order. Fit and final outfit approval remain open.
 
-The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. No actual orders/messages were cancelled, returned or sent. [09](09-final-weekend-shopping-2026-10-21.md) remains the dated purchase record; $500 combined ceiling unchanged, actual receipts/fit still need user confirmation. Game mechanics, guest copy and separate winner crown are unchanged. [Current handoff](handoff-2026-10-27-hollow-lord-redesign.md).
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-27-oxblood-shirt-preview.md).
 
 ## Historical direction • through October 23
 

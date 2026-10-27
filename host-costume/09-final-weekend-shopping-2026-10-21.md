@@ -1,6 +1,8 @@
 # Two costume shopping and order status
 
-**October 27 scope update:** the second City of Gods night did not happen. Reuse/redesign its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the proposed new look. This page preserves October 23 order/price/status evidence, **not a fresh delivery/possession or attendance record**. No new spend, return/refund/cancellation, seller contact or physical fit assumed; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
+**October 27 current scope:** the second City of Gods night did not happen. Repurpose its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the new shirt offer and small-crown preview. New shirt is sourced, not ordered; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
+
+**Delivery refresh October 27:** signed-in Amazon Orders marks Gihuo Black-S fur **delivered October 23**, Sosation crown / NauticalMart torc / Karace Style B cuff pair **delivered October 24**. Also visible: JOGAL/Atoden/Zivyes delivered October 23; Nicute/Zoestar delivered October 22. These update the dated progress rows below; no host retrieval/completeness/fit or settled-payment result inferred. Existing three-order total remains **$196.59**; no new purchase/cart change/return/refund/cancellation or contact. All detailed October 23 charges below remain historical evidence.
 
 Updated October 23, 2026, shortly after midnight EDT. **Confirmed nights: Eclipse Friday October 23; Antler King Saturday October 24.** The host already owns a similar functional warm layer, so the proposed $79.90 PUFFTECH is removed from remaining purchases, not refunded. Black fur stays in both current looks.
 

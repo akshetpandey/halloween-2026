@@ -1,5 +1,7 @@
 # Music curation progress · October 26
 
+Historical snapshot. [Current October 27 status](curation-status-2026-10-27.md) supersedes these counts and batches.
+
 Verified October 26, 2026, America/New_York. Counts below include the later explicit Float On and Bruises additions; live votes may advance. This supersedes the [October 25 snapshot](curation-status-2026-10-25.md).
 
 | Room | Approved Keeps | Raw approved duration | Rated choices | Cuts | Maybe | New unrated | Working Keep target | More Keeps needed |

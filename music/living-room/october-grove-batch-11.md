@@ -1,6 +1,6 @@
 # October Grove 11 · Playful by nature
 
-October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published and exact order verified. Hosted import pending.
+October 27, 2026 · **50 new candidates; not an approved party sequence.** Spotify published, hosted import and exact order verified.
 
 [Review this batch](https://music.hollow-court.com/?room=living-room&batch=11) · [Spotify audition](https://open.spotify.com/playlist/13WNjVCcW36of1lFyarSCI) · [Exact data](october-grove-batch-11.json)
 
@@ -79,4 +79,4 @@ Spotify reports this audition as public despite the private creation request. Cl
 
 No audio acquired/uploaded, no mix rendered, no purchases or Like/unlike actions. Main playlists remain separate.
 
-Hosted import/verification: pending.
+Hosted import passed: all 793 previous serialized records and old feedback/notes/scores/snapshots preserved; events retained as an unchanged prefix; 100 exact new records across both rooms. Each Needs review queue contains only its 50 new unrated choices. Signed-in Chrome counts, filters, details and audition links checked without casting votes. Playback was not tested.

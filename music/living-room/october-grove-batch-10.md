@@ -6,7 +6,7 @@ October 26, 2026 · **50 new candidates; not an approved party sequence.** Spoti
 
 All earlier room choices are rated. Latest batch: **0 Keep / 50 Cut**. Current approved pool: **79 Keeps / 4:35:04 raw**. Previous votes stay intact.
 
-The host said the last batch had the **wrong overall style**. This pass leaves the retro disco, jazzy and gospel-house direction and returns to **compact modern vocal/bass house, playful percussion and colorful electronic hooks**, using earlier Keeps such as Now U Do, Better Love, Kisses, Purple Hat, Makeba, Fasta, Hypnotized, Chemicals and Joy as style anchors. The modern-house emphasis is an editorial hypothesis; the host has not chosen a single anchor subgroup.
+The host said the last batch had the **wrong overall style**. This pass leaves the retro disco, jazzy and gospel-house direction and returns to **compact modern vocal/bass house, playful percussion and colorful electronic hooks**, using earlier Keeps such as Now U Do, Better Love, Kisses, Purple Hat, Makeba, Fasta, Hypnotized, Chemicals and Joy as style anchors. This batch was assembled October 26 before the host's [October 27 reference-track clarification](playlist.md#current-selection-calibration). Its modern-house emphasis was an editorial hypothesis; future sourcing follows the confirmed references in the current brief. The existing batch and votes were not changed by that clarification.
 
 The positive-mood brief still applies: happy, hopeful, love, new beginnings, bouncy/melodic/sexy; no acid/techno or chart-pop staples. Some club tracks feature pop vocalists; this is not a claim that the batch has no pop influence. See the [current brief](playlist.md).
 

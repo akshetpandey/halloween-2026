@@ -1,5 +1,5 @@
 # October Grove · living-room music
-Updated October 26, 2026. **[Batch 10 · Bright hooks, fresh pulse](october-grove-batch-10.md)** is the current published/imported 50-track review batch. Batch 09 finished **0 Keep / 50 Cut**; the host said it had the **wrong overall style**. All 491 earlier choices are rated. After the explicit Float On and Bruises additions, the approved room pool is **81 Keeps / 4:42:34 raw**.
+Selection brief updated October 27, 2026; inventories below are the verified October 26 snapshot. **[Batch 10 · Bright hooks, fresh pulse](october-grove-batch-10.md)** is the current published/imported 50-track review batch. Batch 09 finished **0 Keep / 50 Cut**; the host said it had the **wrong overall style**. All 491 earlier choices are rated. After the explicit Float On and Bruises additions, the approved room pool was **81 Keeps / 4:42:34 raw**.
 
 The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) now has **50 tracks / 3:05:16 raw**, all Keeps: the original 48-track order followed by the host-requested **Float On — Modest Mouse** and **Bruises — Chairlift**; **31 newer Keeps are not yet synced**. The audition is separate. [Counts and nine-hour targets](../curation-status-2026-10-26.md).
 
@@ -11,7 +11,16 @@ The live [October Grove main](https://open.spotify.com/playlist/6FEcecNrYObHqVun
 
 **Host clarification · October 25:** the Grove is upbeat, fun, happy, hopeful, loving and about new beginnings. Keep the bounce, melody and sensuality while making this a distinct, welcoming space. **No acid or techno; avoid chart-pop/top-five-hit character, sad music and negative lyrics.** Some house overlap is acceptable, but heavy, hard, dark and fast rave energy belongs in the Hollow. A high BPM, high valence score or a saved Spotify Like cannot override this brief.
 
-**October 26 style correction:** the entire retro disco/jazzy/gospel-house pass missed. New candidates now favor contemporary, playful vocal/bass house, percussive hooks and colorful electronic melodies, using earlier Keeps as anchors. This sourcing direction is an editorial response to “wrong overall style”; no single anchor subgroup was selected. Favor compact arrangements and immediate hooks, with longer exceptions earning their time. Screen the lyric theme where sources exist; title, valence and production are insufficient. Keep every old vote intact and retain artist/album caps, prior-recording exclusions and the ban on standalone intros/interludes/outros.
+**October 26 style correction:** the entire retro disco/jazzy/gospel-house pass missed. Batch 10 was assembled around contemporary vocal/bass house, percussive hooks and colorful electronic melodies before the host answered the anchor question.
+
+**Host-selected references · October 27:** the host explicitly chose **“now u do / makeba / joy / kisses”** as the closest Grove direction. Use these exact earlier recordings as the primary taste anchors:
+
+- **Now U Do** — DJ Seinfeld, Confidence Man (`spotify:track:6HzL348HHRk2dWHNzx42aj`).
+- **Makeba - Radio Edit** — Jain (`spotify:track:5FkBFIGzG8lYFktLyZNUq6`).
+- **Joy** — salute (`spotify:track:17E3lZxFJnO49Gb0tdgVn0`).
+- **Kisses (feat. bbyclose)** — BL3SS, CamrinWatsin, bbyclose (`spotify:track:2A1aS3mwuGuX2yk1bgxOvA`).
+
+Editorial interpretation for future sourcing: prioritize playful vocal personality, pronounced rhythmic bounce, bright melody, memorable hooks and arrangements that develop. Explore melodic house/garage, percussive indie dance and electronic pop when they match these recordings; the earlier modern/bass-house emphasis was a working hypothesis, not a required genre boundary. Favor compact arrangements, with longer exceptions earning their time. Keep the positive-mood and chart-pop discovery rules above, and screen lyric themes separately from title, valence and production. Named Keeps and explicit host additions remain approved individual choices; they do not imply artist-wide approval. Preserve every vote, artist/album caps, prior-recording exclusions and the ban on standalone intros/interludes/outros. [Clarification handoff](handoff-2026-10-27-grove-anchors.md).
 
 ## Earlier calibration and original brief · superseded where inconsistent
 

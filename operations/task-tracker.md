@@ -1,5 +1,7 @@
 # Task tracker and timeline
 
+**October 27 decor status:** host confirms nothing bought/ordered yet for decor, lighting, fabric or rug. The entire [saved basket](../decor/shopping-ready.md) remains to buy. Refresh actual price/arrival and resolve mounting before ordering; October 23 delivery estimates in the dated status below are historical. No lighting/scope cut selected. [Confirmation and handoff](shopping/handoff-2026-10-27-decor-unpurchased.md).
+
 ## October 23 • decor shopping and build status
 
 [Current room plan](../decor/final-room-plan.md) · [single $1,421.20 basket](../decor/shopping-ready.md) · [Flat fleece/thin-cover offers](../decor/bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md) · [Guardian construction](../decor/bedroom/woodland-guardian.md) · [latest handoff](../decor/bedroom/draping/handoff-2026-10-23-flat-fleece-thin-covers.md). Ceiling **about $1,600 including permanent lights**, $178.80 headroom beyond included $30.48 contingency. Host confirms no fleece pleating, cheaper thinner furniture cloth. Exact products unpurchased, physical tests unperformed.

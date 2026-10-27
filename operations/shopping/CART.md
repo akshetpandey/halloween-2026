@@ -1,5 +1,7 @@
 # Decor shopping status and historical wood/skull cart
 
+**October 27 purchase confirmation:** host reports nothing bought/ordered from the decor, lighting, fabric or rug slate. The entire [current decor list](../../decor/shopping-ready.md) remains outstanding; [budget/status](../budget.md#october-27--decor-purchase-status-confirmed). Prices and delivery evidence below are dated October 23 or earlier, not current October 27 offers. No new cart action or purchase.
+
 **October 23 current:** host confirms **no fleece pleating; thinner cheaper furniture cloth**. [Single decor basket](../../decor/shopping-ready.md) **$1,421.20 proposed envelope**, $178.80 headroom beyond included buffer. [Five BEDELITE Black / 120 × 120-in fleece $159.95 + one Utopia Black / 90 × 132-in polyester two-pack $21.84](../../decor/bedroom/draping/07-flat-walls-thin-covers-2026-10-23.md), each live stock/free Oct 24. All walls/header flat, bed/desk/Guardian/tub separately thin cloth. No extra furnishing/sample fleece. **No cart additions, checkout or purchase this turn**; only fleece quantity selector five checked. Earlier Big Z cart cleanup and September Amazon cart below are history. Actual mounts/supports, material fit and Mac tests remain unverified.
 
 Checked September 3, 2026. **Added to the actual Amazon cart: three line items, $59.93 before tax. No checkout or purchase.**

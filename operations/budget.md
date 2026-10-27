@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## October 27 • decor purchase status confirmed
+
+**Host confirms “Nothing bought yet”** in response to whether any decor, lighting, fabric or rug had been bought/ordered since October 23. The complete [decor basket](../decor/shopping-ready.md) remains to buy at its **$1,421.20 saved planning estimate**; no decor spending/order is recorded. This is a purchase-status update, not a new quote: October 23 prices and past delivery dates must be refreshed before ordering. No scope cuts selected, including the previously discussed smaller lighting rig. Costume orders remain separate; this reply does not change them. [Status handoff](shopping/handoff-2026-10-27-decor-unpurchased.md).
+
 ## October 23 • flat fleece walls and thin furniture covers
 
 **Confirmed host:** no pleating needed for fleece blankets; furniture covers may be cheaper thinner black fabric. Whole decor target remains about **$1,600 including permanent lights**; October 27 receipt target retained. [Single basket](../decor/shopping-ready.md) **$1,421.20 proposed envelope** = $1,115.84 merchandise + $105 local/reuse + $109.88 aggregate planning tax + $60 shipping + $30.48 contingency. **$178.80 headroom beyond included contingency**. No decor purchase/settled spending or overall-party ceiling increase.

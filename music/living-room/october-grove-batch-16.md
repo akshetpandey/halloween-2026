@@ -20,7 +20,7 @@ Variety: **38 lead / 51 credited artists / 40 album IDs**; max two credited appe
 
 Batch duration **2:14:22 raw**. Both final programmes need nine hours after real edits/transitions. Review interleaving is not a final running order.
 
-Metadata: **0/40 ReccoBeats, 36/40 YouTube candidates, 14/40 nonempty artist genres**. Artist metadata dates are retained; unknown metrics stay unknown. Catalog BPM may be half/double-time. Videos pass title/artist/duration/edit candidate screening, not acoustic-identity or embedding proof; Spotify fallback remains.
+Metadata: **37/40 ReccoBeats, 36/40 YouTube candidates, 14/40 nonempty artist genres**. Artist metadata dates are retained; unknown metrics stay unknown. Catalog BPM may be half/double-time. Videos pass title/artist/duration/edit candidate screening, not acoustic-identity or embedding proof; Spotify fallback remains.
 
 Spotify reports these auditions public. Cloudflare Access protects the review service and individual votes, not Spotify playlist visibility. No main-playlist sync, audio acquisition/upload, render or purchase.
 
@@ -67,4 +67,4 @@ Spotify reports these auditions public. Cloudflare Access protects the review se
 | 39 | Saved playful vocal personalities | [MOLIY, Shenseea, Skillibeng, Silent Addy — SHAKE IT TO THE MAX (FLY) - REMIX](https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza) | 2:59 |
 | 40 | Saved rhythmic bands and indie | [Bastille — Of The Night](https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew) | 3:34 |
 
-Hosted import and verification pending.
+Hosted import verified: only new unrated candidates appended, all prior track data/feedback/history preserved inside each transaction, online backups created and no lab/tunnel restart. Signed-in host Chrome verified batch counts, correct Spotify links and sourced metric cards without test votes, notes or playback. [Sanitized readback](../batch-publication-verification-2026-10-28-batches-16-10.json) · [Current status](../curation-status-2026-10-28.md).

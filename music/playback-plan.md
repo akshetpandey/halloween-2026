@@ -1,5 +1,5 @@
 # Music curation and unattended playback
-Updated October 28. See the [current shared curation status](curation-status-2026-10-28.md) for approvals, inventories and targets. Host choices win; otherwise reviewer choices count toward approvals and future batches. Grove 15 and Hollow 09 remain the current review batches. Both finished programmes still need nine hours after actual cuts/transitions; current auditions do not meet that requirement.
+Updated October 28. See the [current shared curation status](curation-status-2026-10-28.md) for approvals, inventories and targets. Host choices win; otherwise reviewer choices count toward approvals and future batches. Grove 16 (40 candidates) and Hollow 10 (50) are current; earlier choices are all rated. Both finished programmes still need nine hours after actual cuts/transitions; current auditions do not meet that requirement.
 Confirmed: MacBook Pro/macOS, DDJ-FLX4, rekordbox already installed. Same Mac runs Jellyfin. Both powered speakers connect to the DDJ in the bedroom. Two Google Homes provide separate house/chill music in the living room via Spotify. Hisense 5.1.2 soundbar already plays from this Mac when selected in macOS Sound settings, as confirmed by the host. Reuse that working connection; its party role remains to decide. Paid software acceptable if reasonably priced.
 
 ## Recommendation
@@ -30,14 +30,14 @@ The BPM bands are programming targets, not measured metadata for the tracks belo
 Peak energy should come from selection and density, not a late-night volume increase.
 
 ## Bedroom selection · The Hollow
-The [current room plan](bedroom/playlist.md) and [50-track Batch 09](bedroom/the-hollow-batch-09.md) follow the October 19 brief: techno, tech house, DnB, acid and trance, with high energy, bounce and dark underground rave character. The review order interleaves styles to calibrate taste; it is not a DJ sequence. The older V1 album pool was replaced, while V2 remains an unreviewed archive.
+The [current room plan](bedroom/playlist.md) and [50-track Batch 10](bedroom/the-hollow-batch-10.md) follow the October 19 brief: techno, tech house, DnB, acid and trance, with high energy, bounce and dark underground rave character. The review order interleaves styles to calibrate taste; it is not a DJ sequence. The older V1 album pool was replaced, while V2 remains an unreviewed archive.
 
 Collect votes, acquire exact permitted files, analyze BPM/key/grids and arrange approved selections into coherent chapters. Give DnB a deliberate entry/exit; do not force a 128-to-174 BPM beatmatch. Use actual mix points and playback rates to prove at least nine hours after cuts/transitions, then rehearse with FLX4, both bedroom speakers, living-room Google Homes and muted Jellyfin.
 
 ## Living-room playlist · October Grove
 The latest Grove brief calls for happy, hopeful, loving and fun music with bounce and melody; no acid/techno, chart-pop character, sad/negative lyrics or standalone intros/interludes/outros. Use the [current living-room plan](living-room/playlist.md), [V3 first audition](living-room/october-grove-v3-audition.md) and [Playlist Lab](playlist-lab/README.md).
 
-On October 11, the host chose an approved-only main playlist. Its original 48-track order is preserved; the explicitly requested [Float On — Modest Mouse](living-room/handoff-2026-10-26-float-on.md) and [Bruises — Chairlift](living-room/handoff-2026-10-26-bruises.md) were appended October 26, giving **50 tracks / 3:05:16 raw**. The [current snapshot](living-room/october-grove-approved-2026-10-26.json) is API-verified. The separate [50-track Batch 15](living-room/october-grove-batch-15.md) now has 23 shared Keeps, 24 Cuts and three pending choices. There are 82 current shared Keeps outside the last verified main snapshot; no Spotify sync was requested. Expansion to nine hours after transitions and Google Home playback validation remain.
+On October 11, the host chose an approved-only main playlist. The original 48-track order plus Float On/Bruises remains 50 tracks / 3:05:16 raw on fresh October 28 API readback. The [historical order snapshot](living-room/october-grove-approved-2026-10-26.json) remains accurate, but current shared votes have diverged; [current status](curation-status-2026-10-28.md) records Cuts awaiting removal and Keeps awaiting addition. Voting does not automatically sync Spotify. The separate [40-track Batch 16](living-room/october-grove-batch-16.md) is the new saved-source audition. Expansion to nine hours after actual transitions and Google Home playback validation remain.
 
 ## Preparation and rehearsal
 - [ ] Confirm rekordbox/macOS versions, music source and speaker connections.

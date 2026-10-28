@@ -6,7 +6,7 @@ October 28, 2026 · **50 new saved-source candidates**, not an approved party se
 
 50 selected; hard techno and rave majority, with bounded contrasts.
 
-All 450 earlier room choices are rated: **183 shared Keeps / 267 Cuts**, approved raw **11:08:48**. Latest batch: **22/50 Keep**. Host decisions win disagreements; otherwise the latest reviewer choice counts. The lower Grove total reflects completed shared voting and host overrides, not deletion of earlier history.
+All 450 earlier room choices are rated: **183 shared Keeps / 267 Cuts**, approved raw **11:08:48**. Latest batch: **22/50 Keep**. Host decisions win disagreements; otherwise the latest reviewer choice counts.
 
 Allocation: **21 saved rave and hard bounce** / **17 saved acid and hard techno** / **5 saved dark melodic contrasts** / **3 saved drum and bass** / **2 saved fast bass and garage** / **2 saved psytrance comparisons**. Editorial lanes are comparison groups, not measured genres.
 
@@ -75,4 +75,4 @@ Spotify reports these auditions public. Cloudflare Access protects the review se
 | 49 | Saved acid and hard techno | [Avis Vox — Back Me My Freedom](https://open.spotify.com/track/6n1hMgNl4AxDt3bWsoTzDs) | 4:24 |
 | 50 | Saved rave and hard bounce | [L.zwo — Lonely Boy](https://open.spotify.com/track/6qDiT0tIyIi6lt4CFkkTNg) | 3:23 |
 
-Hosted import and verification pending.
+Hosted import verified: only new unrated candidates appended, all prior track data/feedback/history preserved inside each transaction, online backups created and no lab/tunnel restart. Signed-in host Chrome verified batch counts, correct Spotify links and sourced metric cards without test votes, notes or playback. [Sanitized readback](../batch-publication-verification-2026-10-28-batches-16-10.json) · [Current status](../curation-status-2026-10-28.md).

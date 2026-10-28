@@ -2,8 +2,8 @@
   "batch_id": "hollow-10",
   "name": "Batch 10 · After-dark momentum",
   "room": "bedroom",
-  "created_at": "2026-10-28T21:13:54Z",
-  "status": "Published to Spotify; exact order verified. Hosted import pending. Review candidates, not approved party music.",
+  "created_at": "2026-10-28T21:16:22Z",
+  "status": "Published to Spotify and atomically imported to hosted Playlist Lab; exact order, shared review queues and preservation verified. Candidates are not party approvals.",
   "selection_policy": {
     "source": "Current Liked Songs, followed by room brief, canonical shared votes and recording/variety exclusions. A Like is not a party Keep.",
     "room_brief": "High-energy, dark, hard, fast and bouncy underground techno, tech house, DnB, acid and trance; distinct from Grove.",
@@ -22,7 +22,7 @@
     "spotify_likes_changed": false
   },
   "feedback_basis": {
-    "observed_at": "2026-10-28T21:13:54Z",
+    "observed_at": "2026-10-28T21:16:22Z",
     "policy": "Canonical shared feedback: host priority; otherwise latest active reviewer vote. No artist-wide approval.",
     "prior_room_tracks": 450,
     "shared_keep": 183,
@@ -7219,5 +7219,6 @@
   "spotify_playlist_name": "The Hollow — Batch 10 · After-dark momentum",
   "spotify_verified_snapshot_id": "AAAAARuTW80iGS2yYJxFcrcF7PqEDPJH",
   "spotify_order_verified_at": "2026-10-28T21:10:26Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_verification": "../batch-publication-verification-2026-10-28-batches-16-10.json"
 }

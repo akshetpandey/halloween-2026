@@ -1,13 +1,21 @@
 # Music curation progress · October 28
 
-Verified snapshot: **October 28, 2026, 3:16 p.m. EDT (America/New_York)**. Live votes may advance. Supersedes the [October 27 snapshot](curation-status-2026-10-27.md).
+Verified snapshot: **October 28, 2026, 5:17 p.m. EDT (America/New_York)**. Votes can advance. This replaces the earlier 3:16 p.m. counts on this page; implementation/migration evidence below remains historical. [Previous day](curation-status-2026-10-27.md).
 
-| Room | Shared Keeps | Raw approved duration | Shared Cuts | Maybe | Unrated | Working Keep target | More Keeps needed |
+| Room | Shared Keeps | Raw approved duration | Shared Cuts | Maybe | New unrated | Working Keep target | More Keeps needed |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| October Grove | 132 | 7:17:04 | 658 | 0 | 3 | About 180 | About 48 |
-| The Hollow | 168 | 10:23:51 | 246 | 0 | 36 | About 220 | About 52 |
+| October Grove | 121 | 6:40:59 | 672 | 0 | 40 | About 180 | About 59 |
+| The Hollow | 183 | 11:08:48 | 267 | 0 | 50 | About 220 | About 37 |
 
-Library: **1,243 records, Grove 793 / Hollow 450**. Current auditions remain [Grove 15](https://music.hollow-court.com/?room=living-room&batch=15) and [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09); no new batch this turn. Grove 15 now has **23 shared Keeps / 24 shared Cuts / three unrated**. Hollow 09's partial result is **7 Keep / 7 Cut / 36 unrated**; voting continues. Needs review uses the shared outcome and excludes shared Keeps/Cuts.
+Library: **1,333 records, Grove 833 / Hollow 500**. Every earlier choice is rated. Grove 15 finished **17 Keep / 33 Cut** and Hollow 09 **22 Keep / 28 Cut**. The decrease from the earlier 132 Grove Keeps reflects completed shared decisions/host overrides; prior personal history remains stored.
+
+Current auditions: **[Grove 16 · Spark and sway](https://music.hollow-court.com/?room=living-room&batch=16), 40 candidates**, and **[Hollow 10 · After-dark momentum](https://music.hollow-court.com/?room=bedroom&batch=hollow-10), 50 candidates**. All 90 come from a fresh full Liked Songs snapshot. Grove is deliberately smaller instead of padding to 50 with weaker fits from the increasingly pop/negative remaining pool. No external-discovery substitutions. The previous band's 4/5 result and playful vocals' 6/12 lead Grove selection; hard techno/rave lead Hollow. [Grove guide](living-room/october-grove-batch-16.md) · [Hollow guide](bedroom/the-hollow-batch-10.md).
+
+The exact 90 new records passed US playability, original saved-identity checks including market relinks, prior 1,243-record/old 140-track pool exclusions, cross-room checks and two-appearance credited artist/album caps. Lyric interpretations and mixed/unknown contexts are explicit; catalog metrics do not certify positivity or final musical suitability. ReccoBeats coverage: **37/40 Grove, 34/50 Hollow**; YouTube candidates: **36/40 and 45/50**. Unknown values stay unknown. No full audio audition or new rendered mix.
+
+Both atomic imports preserved old track bytes and all feedback, host/reviewer histories, scores, settings, snapshots and earlier events inside their transactions. Online backups precede each append. **No lab/tunnel restart or security/configuration change.** Signed-in Chrome verified current batches, counts, audition links and sourced metric cards. Fresh filter assertions show Needs review contains exactly the new 40/50; old Cuts stay excluded. **Seven importer tests and 16 Node tests passed.** No production test votes, notes or playback. [Sanitized verification](batch-publication-verification-2026-10-28-batches-16-10.json) · [Handoff](handoff-2026-10-28-room-batches-16-10.md).
+
+Current [disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements): **97 Grove / zero Hollow**. Individual choices remain visible beside controls; notes/scores stay personal. The current view uses all batches in the selected room.
 
 ## Shared approval policy · confirmed October 28
 
@@ -25,7 +33,7 @@ The production migration adopted **47 previously host-unrated choices: 23 Keep /
 
 Current Liked Songs remain the sourcing gate, followed by room brief, shared votes, recording exclusions and artist/album caps. A global Like is not a party Keep. Four exact Grove anchors, positive-mood/no-acid-techno/chart-pop constraints and the distinct darker Hollow brief remain unchanged. Guest decisions do not confer artist-wide approval.
 
-## Deployment and verification
+## Earlier October 28 deployment verification · historical snapshot
 
 The updated Docker lab image is deployed. Only lab was recreated; the Tunnel's container identity/start time, pinned cloudflared 2026.10.4, Compose configuration, Access policies, DNS, routes and permissions stayed unchanged. A fresh stopped SQLite backup preceded the atomic/idempotent startup migration. **Reload pre-update pages once** for the new controls/save protocol; the restart rotates the CSRF token. Old save clients fail with a reload instruction rather than accidentally adopting a shared vote. Use **Refresh votes** to load others' latest choices; there is no continuous polling.
 
@@ -35,16 +43,18 @@ Signed-in host Chrome showed **132 Grove Keeps / three remaining**, Grove 15's 2
 
 [Implementation/runbook](playlist-lab/README.md#shared-votes-and-host-priority) · [Sanitized evidence](playlist-lab/shared-votes-verification-2026-10-28.json) · [Deployment and rollback handoff](playlist-lab/handoff-2026-10-28-shared-votes.md).
 
-## Disagreement review · later October 28 update
+## Earlier October 28 disagreement-feature verification · historical snapshot
 
-[Disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements) is live: **99 Grove / zero Hollow** at feature verification. It spans all batches in the selected room; different active Keep/Cut/Maybe votes qualify, while Unrated does not. Both signed-in reviewers see each voter’s identity and choice next to the controls; other people’s notes/scores remain private. The shareable filter survives reload and room changes. Changing your vote to agree removes a resolved difference; host priority remains in effect. This display/filter release changed no votes, metadata, settings or history, and did not sync Spotify or create a batch. [Deployment evidence/handoff](playlist-lab/handoff-2026-10-28-disagreements.md).
+[Disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements) is live: **99 Grove / zero Hollow** at feature verification, before the completed-review snapshot above. It spans all batches in the selected room; different active Keep/Cut/Maybe votes qualify, while Unrated does not. Both signed-in reviewers see each voter’s identity and choice next to the controls; other people’s notes/scores remain private. The shareable filter survives reload and room changes. Changing your vote to agree removes a resolved difference; host priority remains in effect. This display/filter release changed no votes, metadata, settings or history, and did not sync Spotify or create a batch. [Deployment evidence/handoff](playlist-lab/handoff-2026-10-28-disagreements.md).
 
 ## Programme inventories and nine-hour planning
 
-No Spotify API calls, playlist synchronization, new candidates, audio acquisition/upload, render, purchase or physical playback test this turn. The last main-playlist readback on October 27 was **50 Keeps / 3:05:16 raw**, original 48 plus Float On/Bruises. Shared voting does not automatically append new approvals. **82 current shared Keeps lie outside that last verified 50-track snapshot**; this is not a fresh Spotify readback. [Main snapshot](living-room/october-grove-approved-2026-10-26.json).
+Fresh Spotify readback confirmed the main Grove playlist's unchanged **50 tracks / 3:05:16 raw** and both previous auditions' exact orders. Voting does not synchronize Spotify: **5 main-playlist tracks are now Cuts**, **45 remain Keeps**, and **76 current Keeps are outside it**. The original approved-only snapshot is historical as an approval label; its recording order remains accurate. This turn created auditions only. A future requested approved-only sync must remove current Cuts and add current Keeps. [Main order snapshot](living-room/october-grove-approved-2026-10-26.json).
 
-Grove's shorter new approvals lower the average to about **3:19 raw**. At hypothetical 15-second joins, 175 similar-length tracks give **8:55:56**; 180 give **9:11:15**. The working target therefore moves from about 175 to **about 180 Keeps, 48 more** for a modest planning buffer. Actual joins, availability and lengths can change this requirement; no Google Home crossfade test is claimed.
+Grove's current approved average is about **3:19 raw**. At hypothetical 15-second joins, its 121 Keeps leave **6:10:59**; 175 similar-length tracks would yield **8:56:26**, and 180 **9:11:45**. Keep the working target **about 180, 59 more**. This is planning arithmetic, not a Google Home crossfade test.
 
-Hollow's working target remains **about 220 Keeps, 52 more**, assuming roughly 2½–3 minutes net per recording. Its 10:23:51 raw leaves **8:18:36 before internal cuts** at hypothetical 45-second joins. The earlier preparation export remains **161 Keeps / 10:04:05 raw**, zero verified production-file bindings; it was not regenerated. Its legacy `host_vote` field reads canonical `feedback` and will include shared approvals on the next export. Approvals, exact acquired files and finished mixes remain separate inventories.
+Hollow's **11:08:48 raw** leaves **8:52:18 before internal cuts** at hypothetical 45-second joins. Its working target remains **about 220, 37 more**, with final chapter lengths deciding readiness. The earlier preparation export remains **161 Keeps / 10:04:05 raw**, zero verified production-file bindings, and was not regenerated. Its legacy `host_vote` field reads canonical `feedback`; refreshed preparation must use current shared approvals.
 
-Both programmes still require **at least nine hours after real cuts, overlaps and rate changes**. Existing [REAPER preparation](bedroom/premix/README.md), [audio intelligence](bedroom/premix/AUDIO-INTELLIGENCE.md), [planner](bedroom/premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking system](bedroom/premix/TRANSITION-AUTOMATION.md) are unchanged. Next finish current shared reviews, source from the current saved pool with shared feedback, separately synchronize approved playlists when requested, bind permitted production files and prove final duration/player/device behavior. The November 1 rollback remains part of the event schedule.
+Both programmes need **at least nine hours after actual cuts, overlaps and rate changes**. Existing [REAPER preparation](bedroom/premix/README.md), [audio intelligence](bedroom/premix/AUDIO-INTELLIGENCE.md), [planner](bedroom/premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking system](bedroom/premix/TRANSITION-AUTOMATION.md) remain unchanged. Next review the current candidates, separately sync approved playlists when requested, bind permitted exact production files, and prove finished duration/player/device behavior. The November 1 rollback remains part of the event schedule.
+
+No global Like/unlike changes, audio acquisition/upload, new render, purchases or physical playback test. Spotify reports the two auditions public; Cloudflare Access protects the review service and individual votes, not playlist visibility. No published host ports; origin without JWT **401**, wrong Host **403**. These are focused continuity checks, not a new penetration test.

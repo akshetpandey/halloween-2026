@@ -1,0 +1,196 @@
+{
+  "imports": [
+    {
+      "verified_at": "2026-10-28T21:16:24Z",
+      "mode": "atomic_append",
+      "old_track_records_unchanged": 1243,
+      "new_track_records_exact": 40,
+      "new_unrated": 40,
+      "old_tables_preserved": {
+        "feedback": true,
+        "host_feedback": true,
+        "reviewer_feedback": true,
+        "reviewer_scores": true,
+        "settings": true,
+        "snapshots": true,
+        "events": true
+      },
+      "old_events_preserved_as_prefix": true,
+      "sqlite_integrity": "ok",
+      "online_backup_created": true,
+      "server_restart_required": false,
+      "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+    },
+    {
+      "verified_at": "2026-10-28T21:16:24Z",
+      "mode": "atomic_append",
+      "old_track_records_unchanged": 1283,
+      "new_track_records_exact": 50,
+      "new_unrated": 50,
+      "old_tables_preserved": {
+        "feedback": true,
+        "host_feedback": true,
+        "reviewer_feedback": true,
+        "reviewer_scores": true,
+        "settings": true,
+        "snapshots": true,
+        "events": true
+      },
+      "old_events_preserved_as_prefix": true,
+      "sqlite_integrity": "ok",
+      "online_backup_created": true,
+      "server_restart_required": false,
+      "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+    }
+  ],
+  "lab_and_tunnel_container_ids_and_starts_unchanged": true,
+  "containers_restarted": false,
+  "verified_at": "2026-10-28T21:17:27Z",
+  "hosted_records": 1333,
+  "rooms": {
+    "living-room": {
+      "records": 833,
+      "keep": 121,
+      "cut": 672,
+      "maybe": 0,
+      "unrated": 40,
+      "approved_raw_ms": 24058981,
+      "previous_batch_result": {
+        "down": 33,
+        "up": 17
+      },
+      "disagreements": 97
+    },
+    "bedroom": {
+      "records": 500,
+      "keep": 183,
+      "cut": 267,
+      "maybe": 0,
+      "unrated": 50,
+      "approved_raw_ms": 40127502,
+      "previous_batch_result": {
+        "down": 28,
+        "up": 22
+      },
+      "disagreements": 0
+    }
+  },
+  "new_batches": [
+    {
+      "room": "living-room",
+      "batch_id": "16",
+      "count": 40,
+      "unrated": 40,
+      "raw_duration_ms": 8062157,
+      "source_gate": {
+        "fresh_liked_songs_snapshot": true,
+        "spotify_reported_source_entries": 2699,
+        "unique_canonical_source_uris": 2690,
+        "duplicate_relinked_uris_collapsed": 9,
+        "selected_saved_recordings": 40,
+        "source_membership_rechecked": true,
+        "market_relinked_recordings_in_batch": 2,
+        "per_track_membership_and_save_timestamps_exported": false,
+        "spotify_likes_changed": false
+      },
+      "metadata_coverage": {
+        "reccobeats": 37,
+        "youtube_candidates": 36,
+        "artist_genres_nonempty": 14,
+        "artist_lookups_complete": 40
+      },
+      "spotify_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "room": "bedroom",
+      "batch_id": "hollow-10",
+      "count": 50,
+      "unrated": 50,
+      "raw_duration_ms": 10265654,
+      "source_gate": {
+        "fresh_liked_songs_snapshot": true,
+        "spotify_reported_source_entries": 2699,
+        "unique_canonical_source_uris": 2690,
+        "duplicate_relinked_uris_collapsed": 9,
+        "selected_saved_recordings": 50,
+        "source_membership_rechecked": true,
+        "market_relinked_recordings_in_batch": 5,
+        "per_track_membership_and_save_timestamps_exported": false,
+        "spotify_likes_changed": false
+      },
+      "metadata_coverage": {
+        "reccobeats": 34,
+        "youtube_candidates": 45,
+        "artist_genres_nonempty": 48,
+        "artist_lookups_complete": 50
+      },
+      "spotify_playlist_url": "https://open.spotify.com/playlist/6zHxKeTr1E3yVmcgFxeCOw"
+    }
+  ],
+  "all_previous_choices_rated": true,
+  "spotify_collections_verified": [
+    {
+      "label": "grove16",
+      "count": 40,
+      "exact_order_verified": true
+    },
+    {
+      "label": "hollow10",
+      "count": 50,
+      "exact_order_verified": true
+    },
+    {
+      "label": "grove15",
+      "count": 50,
+      "exact_order_verified": true
+    },
+    {
+      "label": "hollow09",
+      "count": 50,
+      "exact_order_verified": true
+    },
+    {
+      "label": "main",
+      "count": 50,
+      "exact_order_verified": true
+    }
+  ],
+  "main_spotify_order_unchanged": true,
+  "main_track_count": 50,
+  "main_raw_ms": 11115867,
+  "main_tracks_now_cut": 5,
+  "main_current_keeps": 45,
+  "main_newer_keeps_unsynced": 76,
+  "no_published_host_ports": true,
+  "origin_no_jwt_status": 401,
+  "origin_wrong_host_status": 403,
+  "spotify_likes_changed": false,
+  "audio_downloaded": false,
+  "new_mix_rendered": false,
+  "purchases_usd": 0,
+  "import_unit_tests_passed": 7,
+  "node_tests_passed": 16,
+  "browser_verification": {
+    "signed_in_host_chrome": true,
+    "grove_batch_16_count": 40,
+    "hollow_batch_10_count": 50,
+    "grove_shared_keepers": 121,
+    "hollow_shared_keepers": 183,
+    "grove_still_to_hear": 40,
+    "hollow_still_to_hear": 50,
+    "correct_spotify_audition_links": true,
+    "sourced_reccobeats_card_verified_each_room": true,
+    "production_test_votes_notes_or_playback": false,
+    "separate_friend_login_tested": false
+  },
+  "fresh_snapshot_filter_assertions": {
+    "latest_batch_each_room": true,
+    "exact_batch_order": true,
+    "cross_room_isolation": true,
+    "needs_review_contains_only_new_unrated": {
+      "living-room": 40,
+      "bedroom": 50
+    },
+    "old_cuts_do_not_reappear": true
+  }
+}

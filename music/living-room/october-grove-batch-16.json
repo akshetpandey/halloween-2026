@@ -2,8 +2,8 @@
   "batch_id": "16",
   "name": "Batch 16 · Spark and sway",
   "room": "living-room",
-  "created_at": "2026-10-28T21:13:54Z",
-  "status": "Published to Spotify; exact order verified. Hosted import pending. Review candidates, not approved party music.",
+  "created_at": "2026-10-28T21:16:22Z",
+  "status": "Published to Spotify and atomically imported to hosted Playlist Lab; exact order, shared review queues and preservation verified. Candidates are not party approvals.",
   "selection_policy": {
     "source": "Current Liked Songs, followed by room brief, canonical shared votes and recording/variety exclusions. A Like is not a party Keep.",
     "room_brief": "Upbeat, fun, happy, hopeful, love/new beginnings; bouncy, melodic and sexy. No acid/techno, sad central narratives or chart-pop-heavy selection.",
@@ -22,7 +22,7 @@
     "spotify_likes_changed": false
   },
   "feedback_basis": {
-    "observed_at": "2026-10-28T21:13:54Z",
+    "observed_at": "2026-10-28T21:16:22Z",
     "policy": "Canonical shared feedback: host priority; otherwise latest active reviewer vote. No artist-wide approval.",
     "prior_room_tracks": 793,
     "shared_keep": 121,
@@ -77,7 +77,7 @@
     "listening_status": "Exact catalog identity and saved membership checked; no complete audio audition or mix rendered."
   },
   "metadata_coverage": {
-    "reccobeats": 0,
+    "reccobeats": 37,
     "youtube_candidates": 36,
     "artist_genres_nonempty": 14,
     "artist_lookups_complete": 40
@@ -151,7 +151,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Abstract attraction, light and elemental imagery; not a literal positive-love narrative.",
         "source_url": "https://lrclib.net/api/get/17461580",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Abstract attraction, light and elemental imagery; not a literal positive-love narrative. Individual earlier room Keeps share a credited artist: Heads Will Roll - A-Trak Remix Radio Edit. This is not artist-wide approval.",
@@ -210,6 +210,93 @@
           "fetched_at": 1793142791.197404
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+        "isrc": "USSM12400758",
+        "duration_ms": 221709,
+        "observed_at": "2026-10-28T21:13:57Z",
+        "features": {
+          "liveness": {
+            "value": 0.238,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0403,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00697,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.533,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.642,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 123.128,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.221,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.315,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.488,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:57Z",
+            "track_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "dqJDlRM5Jf4",
         "title": "Madison Beer - make you mine (Official Audio)",
@@ -256,7 +343,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Sexual desire, pleasure and romantic fantasy.",
         "source_url": "https://lrclib.net/api/get/20728812",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual desire, pleasure and romantic fantasy. Individual earlier room Keeps share a credited artist: yes baby. This is not artist-wide approval.",
@@ -326,6 +413,93 @@
           "fetched_at": 1793142800.0518742
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+        "isrc": "SEBGA1500224",
+        "duration_ms": 244510,
+        "observed_at": "2026-10-28T21:13:59Z",
+        "features": {
+          "liveness": {
+            "value": 0.147,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0416,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0153,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.68,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.772,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 105.005,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.535,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.995,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.376,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:13:59Z",
+            "track_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "tBESAFzAzw8",
         "title": "Kygo - Here for You ft. Ella Henderson (Official Audio)",
@@ -372,7 +546,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Reassurance, support and togetherness when another person is struggling.",
         "source_url": "https://lrclib.net/api/get/15676698",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Reassurance, support and togetherness when another person is struggling.",
@@ -431,6 +605,93 @@
           "fetched_at": 1793142796.2042098
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "same ISRC + title + artists + duration; alternate catalog release",
+        "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+        "isrc": "QMV8L1110901",
+        "duration_ms": 162634,
+        "observed_at": "2026-10-28T21:14:07Z",
+        "features": {
+          "liveness": {
+            "value": 0.114,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "speechiness": {
+            "value": 0.0295,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "instrumentalness": {
+            "value": 0.000346,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "danceability": {
+            "value": 0.546,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "energy": {
+            "value": 0.808,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "tempo": {
+            "value": 105.469,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "acousticness": {
+            "value": 0.0014,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "loudness": {
+            "value": -6.507,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "valence": {
+            "value": 0.747,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:07Z",
+            "track_url": "https://open.spotify.com/track/0NCcbiW3kiasTzgg3CiBrf",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          }
+        }
+      },
       "youtube": {
         "video_id": "FeRdl64DJFk",
         "title": "The Only Place",
@@ -446,7 +707,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Sunshine, home, nature and enjoying the place one belongs.",
         "source_url": "https://lrclib.net/api/get/16225746",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sunshine, home, nature and enjoying the place one belongs.",
@@ -515,6 +776,93 @@
           "fetched_at": 1793116880.52979
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+        "isrc": "USAT22102780",
+        "duration_ms": 188442,
+        "observed_at": "2026-10-28T21:14:09Z",
+        "features": {
+          "liveness": {
+            "value": 0.0999,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0449,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.073,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.857,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.627,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 112.002,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0431,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.398,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.26,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:09Z",
+            "track_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "6ksPFaW7_HI",
         "title": "Mia Rodriguez - Billion Dollar Bitch (feat. Yung Baby Tate) [Official Lyric Video]",
@@ -530,7 +878,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Self-confidence, sex and boastful self-possession, including dismissive jabs at others.",
         "source_url": "https://lrclib.net/api/get/11162447",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Self-confidence, sex and boastful self-possession, including dismissive jabs at others. Individual earlier room Keeps share a credited artist: Ride. This is not artist-wide approval.",
@@ -591,6 +939,93 @@
           "fetched_at": 1793142789.582659
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "same ISRC + title + artists + duration; alternate catalog release",
+        "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+        "isrc": "GBUM70900209",
+        "duration_ms": 252818,
+        "observed_at": "2026-10-28T21:14:35Z",
+        "features": {
+          "liveness": {
+            "value": 0.119,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "speechiness": {
+            "value": 0.0938,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "instrumentalness": {
+            "value": 0.00602,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "danceability": {
+            "value": 0.501,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "energy": {
+            "value": 0.809,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "tempo": {
+            "value": 149.964,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "acousticness": {
+            "value": 0.0338,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "loudness": {
+            "value": -5.264,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "valence": {
+            "value": 0.258,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:35Z",
+            "track_url": "https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          }
+        }
+      },
       "youtube": {
         "video_id": "i8CDxQc_9-E",
         "title": "Florence + the Machine - Dog Days Are Over",
@@ -627,7 +1062,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Happiness and escape from earlier trouble, with fearful and violent metaphors.",
         "source_url": "https://lrclib.net/api/get/21069370",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Happiness and escape from earlier trouble, with fearful and violent metaphors.",
@@ -697,6 +1132,93 @@
           "fetched_at": 1793142799.047116
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+        "isrc": "DEA621501138",
+        "duration_ms": 195474,
+        "observed_at": "2026-10-28T21:14:37Z",
+        "features": {
+          "liveness": {
+            "value": 0.0805,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0407,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.48e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.678,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.812,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 110.035,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0365,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -2.698,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.293,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:37Z",
+            "track_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "6Ert2UZMoSY",
         "title": "4 Life (feat. Graham Candy)",
@@ -712,7 +1234,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Renewed love and commitment after earlier loneliness and hurt.",
         "source_url": "https://lrclib.net/api/get/5396462",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Renewed love and commitment after earlier loneliness and hurt.",
@@ -771,6 +1293,93 @@
           "fetched_at": 1793142793.806554
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+        "isrc": "SGB502103181",
+        "duration_ms": 129698,
+        "observed_at": "2026-10-28T21:14:39Z",
+        "features": {
+          "liveness": {
+            "value": 0.486,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.103,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.37e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.66,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.462,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 167.098,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.168,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.203,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.384,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:39Z",
+            "track_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "gEK7Vt5X7CU",
         "title": "Chloe Adams - Dirty Thoughts (Official Lyric Video)",
@@ -797,7 +1406,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Sexual fantasy and anticipation, with religious guilt and passing loneliness.",
         "source_url": "https://lrclib.net/api/get/38009437",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual fantasy and anticipation, with religious guilt and passing loneliness.",
@@ -856,6 +1465,93 @@
           "fetched_at": 1793142797.540559
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+        "isrc": "USRC11200002",
+        "duration_ms": 321280,
+        "observed_at": "2026-10-28T21:14:41Z",
+        "features": {
+          "liveness": {
+            "value": 0.24,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.054,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.472,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.844,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 140.034,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00173,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.578,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.34,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:41Z",
+            "track_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "gP0BRG-oN54",
         "title": "Anna Sun",
@@ -892,7 +1588,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Youthful shared adventures and affection despite poverty and a broken home.",
         "source_url": "https://lrclib.net/api/get/16984136",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful shared adventures and affection despite poverty and a broken home.",
@@ -962,6 +1658,93 @@
           "fetched_at": 1793142792.967552
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+        "isrc": "SE3AA1600012",
+        "duration_ms": 204503,
+        "observed_at": "2026-10-28T21:14:43Z",
+        "features": {
+          "liveness": {
+            "value": 0.0934,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0324,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000133,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.561,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 96.989,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0709,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.576,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.399,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:43Z",
+            "track_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "kbYbvDK-HlY",
         "title": "Mike Perry - Inside the Lines ft. Casso",
@@ -988,7 +1771,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Affection, shared identity and enduring connection despite worry and troubled feelings.",
         "source_url": "https://lrclib.net/api/get/16440531",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Affection, shared identity and enduring connection despite worry and troubled feelings.",
@@ -1047,6 +1830,93 @@
           "fetched_at": 1793142789.146865
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+        "isrc": "USWB11203127",
+        "duration_ms": 280933,
+        "observed_at": "2026-10-28T21:14:45Z",
+        "features": {
+          "liveness": {
+            "value": 0.0881,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0623,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00141,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.597,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.882,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 137.977,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00479,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.958,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.452,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:45Z",
+            "track_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "RT8xWNBcapQ",
         "title": "Come Together",
@@ -1073,7 +1943,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Hope, coming together and pursuing freedom despite pressure.",
         "source_url": "https://lrclib.net/api/get/16830206",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Hope, coming together and pursuing freedom despite pressure.",
@@ -1130,6 +2000,93 @@
           "source": "Spotify artist API",
           "observed_at": "2026-10-27T23:13:15Z",
           "fetched_at": 1793142795.773321
+        }
+      },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+        "isrc": "QM4TW2207715",
+        "duration_ms": 162364,
+        "observed_at": "2026-10-28T21:14:47Z",
+        "features": {
+          "liveness": {
+            "value": 0.134,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0362,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000131,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.779,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.561,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 97.011,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.145,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -8.024,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.543,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:47Z",
+            "track_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+            "match_basis": "exact Spotify ID"
+          }
         }
       },
       "youtube": {
@@ -1224,6 +2181,93 @@
           "fetched_at": 1793142797.12197
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+        "isrc": "GBGLM0400069",
+        "duration_ms": 201706,
+        "observed_at": "2026-10-28T21:14:49Z",
+        "features": {
+          "liveness": {
+            "value": 0.112,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0449,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.587,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.767,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 100.38,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.225,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.713,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.664,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:49Z",
+            "track_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "9AEoUa0Hlso",
         "title": "KT Tunstall - Suddenly I See (Larger Than Life Version)",
@@ -1239,7 +2283,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Admiration, aspiration and finding a clearer sense of self.",
         "source_url": "https://lrclib.net/api/get/23875761",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Admiration, aspiration and finding a clearer sense of self.",
@@ -1298,6 +2342,93 @@
           "fetched_at": 1793142789.5827389
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+        "isrc": "USHR11738178",
+        "duration_ms": 179146,
+        "observed_at": "2026-10-28T21:14:51Z",
+        "features": {
+          "liveness": {
+            "value": 0.179,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0792,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.722,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.773,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 94.997,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0598,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 5,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.378,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.724,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:51Z",
+            "track_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "VclY-tc_Rm4",
         "title": "bea miller • S.L.U.T. • lyric video",
@@ -1324,7 +2455,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Body positivity, agency and resisting others’ criticism.",
         "source_url": "https://lrclib.net/api/get/34706904",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Body positivity, agency and resisting others’ criticism.",
@@ -1394,11 +2525,98 @@
           "fetched_at": 1793142796.675989
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+        "isrc": "USUM71705541",
+        "duration_ms": 201256,
+        "observed_at": "2026-10-28T21:14:53Z",
+        "features": {
+          "liveness": {
+            "value": 0.362,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.314,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.401,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.872,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 104.592,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.167,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.641,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.472,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:53Z",
+            "track_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "mood_screen": {
         "status": "positive_theme_source_reviewed",
         "summary": "Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment.",
         "source_url": "https://lrclib.net/api/get/12083054",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment.",
@@ -1457,6 +2675,93 @@
           "fetched_at": 1793142794.7351801
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+        "isrc": "TCABD1246970",
+        "duration_ms": 192789,
+        "observed_at": "2026-10-28T21:14:55Z",
+        "features": {
+          "liveness": {
+            "value": 0.104,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0319,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00399,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.655,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.818,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 117.956,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.000182,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.852,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.767,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:55Z",
+            "track_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "rWZr2F0qohA",
         "title": "Capital Cities - Safe And Sound (Original)",
@@ -1483,7 +2788,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Reassurance, affection and staying together despite outside trouble.",
         "source_url": "https://lrclib.net/api/get/2575427",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Reassurance, affection and staying together despite outside trouble.",
@@ -1543,6 +2848,93 @@
           "fetched_at": 1793142796.677781
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+        "isrc": "USUG12002896",
+        "duration_ms": 181773,
+        "observed_at": "2026-10-28T21:14:57Z",
+        "features": {
+          "liveness": {
+            "value": 0.0922,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.217,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.13e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.759,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.626,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 115.007,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.212,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 5,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.289,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.651,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:57Z",
+            "track_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "Jd2VNxJNvFc",
         "title": "FLETCHER - The One (Lyrics)",
@@ -1558,7 +2950,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Consensual casual desire and present pleasure; explicitly temporary rather than lasting love.",
         "source_url": "https://lrclib.net/api/get/35282551",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Consensual casual desire and present pleasure; explicitly temporary rather than lasting love.",
@@ -1617,6 +3009,93 @@
           "fetched_at": 1793142788.7050638
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+        "isrc": "USUM71416307",
+        "duration_ms": 218106,
+        "observed_at": "2026-10-28T21:14:59Z",
+        "features": {
+          "liveness": {
+            "value": 0.26,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0533,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00137,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.611,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.797,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 120.041,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00543,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.627,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.518,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:14:59Z",
+            "track_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "RYr96YYEaZY",
         "title": "BØRNS - Electric Love",
@@ -1653,7 +3132,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Sensual romantic euphoria, using intoxication and drowning metaphors.",
         "source_url": "https://lrclib.net/api/get/39625977",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sensual romantic euphoria, using intoxication and drowning metaphors.",
@@ -1721,6 +3200,93 @@
           "fetched_at": 1792969987.821932
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+        "isrc": "GX3Q92462713",
+        "duration_ms": 254769,
+        "observed_at": "2026-10-28T21:15:01Z",
+        "features": {
+          "liveness": {
+            "value": 0.101,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0321,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.848,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.603,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.539,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 129.986,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 4,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -11.854,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.363,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:01Z",
+            "track_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "mood_screen": {
         "status": "editorial_candidate_not_lyric_certified",
         "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
@@ -1786,6 +3352,93 @@
           "fetched_at": 1793142800.05163
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "same ISRC + title + artists + duration; alternate catalog release",
+        "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+        "isrc": "USNO11000079",
+        "duration_ms": 191800,
+        "observed_at": "2026-10-28T21:15:06Z",
+        "features": {
+          "liveness": {
+            "value": 0.112,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "speechiness": {
+            "value": 0.0939,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "instrumentalness": {
+            "value": 0.0783,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "danceability": {
+            "value": 0.706,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "energy": {
+            "value": 0.735,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "tempo": {
+            "value": 132.651,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "acousticness": {
+            "value": 0.028,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "key": {
+            "value": 11,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "loudness": {
+            "value": -6.646,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "valence": {
+            "value": 0.447,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:06Z",
+            "track_url": "https://open.spotify.com/track/5gS1VSIQIW13EHKVZrbWve",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          }
+        }
+      },
       "youtube": {
         "video_id": "dCZI2C-tWzM",
         "title": "Howlin' for You",
@@ -1822,7 +3475,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Physical infatuation and playful, abstract romantic imagery.",
         "source_url": "https://lrclib.net/api/get/23353794",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical infatuation and playful, abstract romantic imagery.",
@@ -1881,6 +3534,93 @@
           "fetched_at": 1793142790.759787
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+        "isrc": "GBAHS1900219",
+        "duration_ms": 202139,
+        "observed_at": "2026-10-28T21:15:08Z",
+        "features": {
+          "liveness": {
+            "value": 0.136,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0864,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 5.62e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.685,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.691,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 92.95,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.058,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 9,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.673,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.302,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:08Z",
+            "track_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "4tiIdgzu9Y4",
         "title": "Stay Young",
@@ -1896,7 +3636,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Youth, ambition and romantic hope mixed with distance, longing and loneliness.",
         "source_url": "https://lrclib.net/api/get/26003037",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Youth, ambition and romantic hope mixed with distance, longing and loneliness.",
@@ -1956,6 +3696,93 @@
           "source": "Spotify artist API",
           "observed_at": "2026-10-27T23:13:09Z",
           "fetched_at": 1793142789.5850089
+        }
+      },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+        "isrc": "DEQ022291067",
+        "duration_ms": 198739,
+        "observed_at": "2026-10-28T21:15:10Z",
+        "features": {
+          "liveness": {
+            "value": 0.079,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.15,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.876,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.9,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.618,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 124.987,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0705,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 4,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -9.499,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.651,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:10Z",
+            "track_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+            "match_basis": "exact Spotify ID"
+          }
         }
       },
       "youtube": {
@@ -2029,6 +3856,93 @@
           "fetched_at": 1793142790.7587671
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+        "isrc": "USSM19100728",
+        "duration_ms": 255333,
+        "observed_at": "2026-10-28T21:15:12Z",
+        "features": {
+          "liveness": {
+            "value": 0.0672,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.059,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.33e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.542,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.904,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 103.566,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00178,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -11.136,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.836,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:12Z",
+            "track_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "rGBEiPsPiHw",
         "title": "Two Princes",
@@ -2065,7 +3979,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Playful courtship and choosing a partner despite parental disapproval.",
         "source_url": "https://lrclib.net/api/get/36336175",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Playful courtship and choosing a partner despite parental disapproval.",
@@ -2124,6 +4038,93 @@
           "fetched_at": 1793142787.695256
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+        "isrc": "USUM71701789",
+        "duration_ms": 231600,
+        "observed_at": "2026-10-28T21:15:14Z",
+        "features": {
+          "liveness": {
+            "value": 0.167,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0298,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0916,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.606,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.62,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 88.984,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0301,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.005,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.543,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:14Z",
+            "track_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "1QpQqt7FLSE",
         "title": "High Enough",
@@ -2170,7 +4171,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors.",
         "source_url": "https://lrclib.net/api/get/26719818",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors.",
@@ -2227,6 +4228,93 @@
           "source": "Spotify artist API",
           "observed_at": "2026-10-27T23:13:14Z",
           "fetched_at": 1793142794.736274
+        }
+      },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+        "isrc": "NLA321090396",
+        "duration_ms": 244400,
+        "observed_at": "2026-10-28T21:15:16Z",
+        "features": {
+          "liveness": {
+            "value": 0.456,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0929,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.02e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.488,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.909,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 129.774,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0011,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 10,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.591,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.643,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:16Z",
+            "track_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+            "match_basis": "exact Spotify ID"
+          }
         }
       },
       "youtube": {
@@ -2350,7 +4438,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Sensual closeness and staying together through the night, with white lies and uncertainty.",
         "source_url": "https://lrclib.net/api/get/33730931",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Sensual closeness and staying together through the night, with white lies and uncertainty.",
@@ -2409,6 +4497,93 @@
           "fetched_at": 1793142798.039386
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+        "isrc": "USUM71516725",
+        "duration_ms": 231813,
+        "observed_at": "2026-10-28T21:15:22Z",
+        "features": {
+          "liveness": {
+            "value": 0.468,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.133,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.556,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.785,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 104.978,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.122,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.842,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.825,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:22Z",
+            "track_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "h161leMNOeE",
         "title": "DNCE - Toothbrush (Audio)",
@@ -2424,7 +4599,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Warm physical intimacy and a casual connection growing closer.",
         "source_url": "https://lrclib.net/api/get/15292568",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Warm physical intimacy and a casual connection growing closer.",
@@ -2483,6 +4658,93 @@
           "fetched_at": 1793142793.806464
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+        "isrc": "USAT21600408",
+        "duration_ms": 193253,
+        "observed_at": "2026-10-28T21:15:24Z",
+        "features": {
+          "liveness": {
+            "value": 0.0828,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0427,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000157,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.636,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.836,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 139.956,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00609,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 8,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.004,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.715,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:24Z",
+            "track_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "Y2V6yjjPbX0",
         "title": "Fitz and the Tantrums - HandClap [Official Video]",
@@ -2509,7 +4771,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Physical attraction and pleasure, mixed with loneliness, crime and drug imagery.",
         "source_url": "https://lrclib.net/api/get/23246208",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical attraction and pleasure, mixed with loneliness, crime and drug imagery. Individual earlier room Keeps share a credited artist: Radio Baby, The Walker. This is not artist-wide approval.",
@@ -2577,6 +4839,93 @@
           "fetched_at": 1793142795.773118
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+        "isrc": "USUG12408963",
+        "duration_ms": 162995,
+        "observed_at": "2026-10-28T21:15:26Z",
+        "features": {
+          "liveness": {
+            "value": 0.109,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0909,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0267,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.819,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.612,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 135.617,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0109,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.305,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.463,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:26Z",
+            "track_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "OJLqG69xrZs",
         "title": "Selena Gomez, benny blanco - Bluest Flame (Official Audio)",
@@ -2603,7 +4952,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Physical pleasure, dancing and intense romantic attraction.",
         "source_url": "https://lrclib.net/api/get/24094542",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Physical pleasure, dancing and intense romantic attraction.",
@@ -2662,11 +5011,98 @@
           "fetched_at": 1793142791.601429
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+        "isrc": "USWB11600222",
+        "duration_ms": 195320,
+        "observed_at": "2026-10-28T21:15:28Z",
+        "features": {
+          "liveness": {
+            "value": 0.162,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.032,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.00243,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.62,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.807,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 75.979,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.00496,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -5.526,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.529,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:28Z",
+            "track_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "mood_screen": {
         "status": "positive_theme_source_reviewed",
         "summary": "Renewed life, courage and self-acceptance after difficulty; includes dark metaphors.",
         "source_url": "https://lrclib.net/api/get/817219",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Renewed life, courage and self-acceptance after difficulty; includes dark metaphors.",
@@ -2798,6 +5234,93 @@
           "fetched_at": 1793142796.201157
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+        "isrc": "USUM71404631",
+        "duration_ms": 224226,
+        "observed_at": "2026-10-28T21:15:43Z",
+        "features": {
+          "liveness": {
+            "value": 0.0974,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0589,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.719,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.935,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 120.022,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.167,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.752,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.737,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:43Z",
+            "track_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "sE5WscjdNZs",
         "title": "OneRepublic - Love Runs Out (Audio)",
@@ -2844,7 +5367,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Urgent commitment and shared drive, with fire, devils and loss imagery.",
         "source_url": "https://lrclib.net/api/get/35027728",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Urgent commitment and shared drive, with fire, devils and loss imagery.",
@@ -2903,6 +5426,93 @@
           "fetched_at": 1793142798.039071
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+        "isrc": "USUG12508393",
+        "duration_ms": 139390,
+        "observed_at": "2026-10-28T21:15:45Z",
+        "features": {
+          "liveness": {
+            "value": 0.05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0906,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000131,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.747,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.768,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 127.991,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0121,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.849,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.928,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:45Z",
+            "track_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "ca76D8cH6iw",
         "title": "Demi Lovato - Kiss (Official Lyric Video)",
@@ -2929,7 +5539,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Playful kissing, sexual pleasure and physical closeness.",
         "source_url": "https://lrclib.net/api/get/25979378",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Playful kissing, sexual pleasure and physical closeness.",
@@ -2999,6 +5609,93 @@
           "fetched_at": 1793142790.760254
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+        "isrc": "DEA621400666",
+        "duration_ms": 179960,
+        "observed_at": "2026-10-28T21:15:47Z",
+        "features": {
+          "liveness": {
+            "value": 0.337,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0375,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 1.28e-05,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.548,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.723,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 125.088,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0969,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.002,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.499,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:47Z",
+            "track_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "RzgKRY3mun8",
         "title": "Sun Goes Down (feat. Jasmine Thompson) (Radio Mix)",
@@ -3025,7 +5722,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Shared romantic moments and closeness without needing a perfect setting.",
         "source_url": "https://lrclib.net/api/get/33156808",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Shared romantic moments and closeness without needing a perfect setting.",
@@ -3087,6 +5784,93 @@
           "fetched_at": 1793142786.850851
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "same ISRC + title + artists + duration; alternate catalog release",
+        "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+        "isrc": "FR59R1899890",
+        "duration_ms": 212571,
+        "observed_at": "2026-10-28T21:15:50Z",
+        "features": {
+          "liveness": {
+            "value": 0.0915,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "speechiness": {
+            "value": 0.0262,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "instrumentalness": {
+            "value": 0.0313,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "danceability": {
+            "value": 0.58,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "energy": {
+            "value": 0.636,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "tempo": {
+            "value": 105.037,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "acousticness": {
+            "value": 0.191,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "key": {
+            "value": 2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "loudness": {
+            "value": -6.649,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "valence": {
+            "value": 0.38,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:50Z",
+            "track_url": "https://open.spotify.com/track/4QK1qv4mgsfdWmMzp1Z3fx",
+            "match_basis": "same ISRC + title + artists + duration; alternate catalog release"
+          }
+        }
+      },
       "youtube": {
         "video_id": "cnOihCJHk3g",
         "title": "Khoj (Passing By)",
@@ -3113,7 +5897,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening.",
         "source_url": "https://lrclib.net/api/get/8030168",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening.",
@@ -3172,6 +5956,93 @@
           "fetched_at": 1792963014.999008
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+        "isrc": "QM5FT1500003",
+        "duration_ms": 223040,
+        "observed_at": "2026-10-28T21:15:52Z",
+        "features": {
+          "liveness": {
+            "value": 0.0875,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0525,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.795,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.749,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 115.003,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.179,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 1,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.604,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.761,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:52Z",
+            "track_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "JiDeN4h6eQk",
         "title": "Dancing In The Dark (From The \"Home\" Soundtrack)",
@@ -3198,7 +6069,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Shared dancing, freedom and intimacy through the night.",
         "source_url": "https://lrclib.net/api/get/15982668",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Shared dancing, freedom and intimacy through the night. Individual earlier room Keeps share a credited artist: S&M. This is not artist-wide approval.",
@@ -3266,6 +6137,93 @@
           "fetched_at": 1793142799.600777
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+        "isrc": "IEACJ2400068",
+        "duration_ms": 146384,
+        "observed_at": "2026-10-28T21:15:54Z",
+        "features": {
+          "liveness": {
+            "value": 0.204,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.237,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 5.75e-06,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.841,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.864,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 173.931,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0531,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 6,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -4.437,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.647,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:54Z",
+            "track_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "TGpr_y3zwXQ",
         "title": "The Spark",
@@ -3292,7 +6250,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Youthful creative confidence, collective energy and pursuing dreams.",
         "source_url": "https://lrclib.net/api/get/16231346",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful creative confidence, collective energy and pursuing dreams.",
@@ -3362,6 +6320,93 @@
           "fetched_at": 1793142797.1213188
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+        "isrc": "CHB701400346",
+        "duration_ms": 175750,
+        "observed_at": "2026-10-28T21:15:56Z",
+        "features": {
+          "liveness": {
+            "value": 0.394,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.133,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.533,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.85,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 128.161,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0236,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 7,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -3.009,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.704,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 1.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:56Z",
+            "track_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "KiKEW38LL9A",
         "title": "Broken Arrows (Didrick Remix)",
@@ -3377,7 +6422,7 @@
         "status": "positive_theme_source_reviewed",
         "summary": "Hope, companionship and seeing beauty in another person’s difficulties.",
         "source_url": "https://lrclib.net/api/get/20427026",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Hope, companionship and seeing beauty in another person’s difficulties.",
@@ -3472,6 +6517,93 @@
           "fetched_at": 1793142791.197876
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+        "isrc": "QZS7J2542546",
+        "duration_ms": 178775,
+        "observed_at": "2026-10-28T21:15:58Z",
+        "features": {
+          "liveness": {
+            "value": 0.155,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.123,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.856,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.548,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 97.997,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.561,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -6.609,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.562,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:15:58Z",
+            "track_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "youtube": {
         "video_id": "awvG6RiENXg",
         "title": "Shake It To The Max (FLY) (Remix)",
@@ -3508,7 +6640,7 @@
         "status": "mixed_theme_source_reviewed",
         "summary": "Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners.",
         "source_url": "https://lrclib.net/api/get/29274243",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners.",
@@ -3567,11 +6699,98 @@
           "fetched_at": 1793142799.6020758
         }
       },
+      "catalog_analysis": {
+        "provider": "ReccoBeats",
+        "match_basis": "exact Spotify ID",
+        "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+        "isrc": "GBUM71306498",
+        "duration_ms": 214205,
+        "observed_at": "2026-10-28T21:16:00Z",
+        "features": {
+          "liveness": {
+            "value": 0.089,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "speechiness": {
+            "value": 0.0427,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "instrumentalness": {
+            "value": 0.000225,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "danceability": {
+            "value": 0.67,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "energy": {
+            "value": 0.829,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "tempo": {
+            "value": 125.01,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "acousticness": {
+            "value": 0.0192,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "key": {
+            "value": 5,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "loudness": {
+            "value": -7.2,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "valence": {
+            "value": 0.349,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          },
+          "mode": {
+            "value": 0.0,
+            "source": "ReccoBeats catalog (not a live Spotify feature measurement)",
+            "observed_at": "2026-10-28T21:16:00Z",
+            "track_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+            "match_basis": "exact Spotify ID"
+          }
+        }
+      },
       "mood_screen": {
         "status": "mixed_theme_source_reviewed",
         "summary": "Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love.",
         "source_url": "https://lrclib.net/api/get/21501551",
-        "observed_at": "2026-10-28T21:13:54Z",
+        "observed_at": "2026-10-28T21:16:22Z",
         "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
       },
       "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love.",
@@ -3586,5 +6805,6 @@
   "spotify_playlist_name": "October Grove — Batch 16 · Spark and sway",
   "spotify_verified_snapshot_id": "AAAAAVryoBXxpUfq9GujzcoFHWCZ0I41",
   "spotify_order_verified_at": "2026-10-28T21:11:46Z",
-  "spotify_reports_public": true
+  "spotify_reports_public": true,
+  "hosted_verification": "../batch-publication-verification-2026-10-28-batches-16-10.json"
 }

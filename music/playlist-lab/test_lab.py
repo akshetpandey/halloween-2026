@@ -37,7 +37,7 @@ class LabTests(unittest.TestCase):
         self.store.vote(ident,'down','boring');self.store.vote(ident,'unrated','retry')
         self.assertEqual(self.store.rows()[0]['vote'],'unrated')
         self.assertEqual(self.store.db.execute("SELECT count(*) FROM events WHERE kind='vote'").fetchone()[0],2)
-    def test_reviewers_keep_independent_votes_notes_and_scores(self):
+    def test_reviewers_share_host_priority_votes_but_not_notes_or_scores(self):
         with self.store.db: ident=self.store.put({'title':'one','features':{'tempo':{'value':120},'bounce':{'value':4}}})
         self.store.vote(ident,'up','host note')
         self.store.vote_as('guest@example.com',ident,'down','too slow')
@@ -46,7 +46,9 @@ class LabTests(unittest.TestCase):
         self.assertEqual(self.store.rows_for('guest@example.com','host@example.com')[0]['reason'],'too slow')
         self.assertEqual(self.store.rows_for('guest@example.com','host@example.com')[0]['features']['bounce']['value'],2)
         other=self.store.rows_for('other@example.com','host@example.com')[0]
-        self.assertEqual(other['vote'],'unrated')
+        self.assertEqual(other['vote'],'up')
+        self.assertEqual(other['personal_vote'],'unrated')
+        self.assertEqual(other['reason'],'')
         self.assertNotIn('bounce',other['features'])
         self.assertEqual(other['features']['tempo']['value'],120)
         self.assertEqual(self.store.review_report()[0]['reviewer'],'guest@example.com')

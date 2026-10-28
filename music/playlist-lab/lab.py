@@ -97,11 +97,49 @@ class Store:
         self.db.executescript('''
         CREATE TABLE IF NOT EXISTS tracks(id TEXT PRIMARY KEY, data TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS feedback(id TEXT PRIMARY KEY, vote TEXT NOT NULL, reason TEXT NOT NULL, updated TEXT NOT NULL);
+        CREATE TABLE IF NOT EXISTS host_feedback(id TEXT PRIMARY KEY, vote TEXT NOT NULL, reason TEXT NOT NULL, updated TEXT NOT NULL);
+        CREATE TABLE IF NOT EXISTS settings(name TEXT PRIMARY KEY, value TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS reviewer_feedback(reviewer TEXT NOT NULL, id TEXT NOT NULL, vote TEXT NOT NULL, reason TEXT NOT NULL, updated TEXT NOT NULL, PRIMARY KEY(reviewer,id));
         CREATE TABLE IF NOT EXISTS reviewer_scores(reviewer TEXT NOT NULL, id TEXT NOT NULL, field TEXT NOT NULL, value REAL NOT NULL, updated TEXT NOT NULL, PRIMARY KEY(reviewer,id,field));
         CREATE TABLE IF NOT EXISTS events(seq INTEGER PRIMARY KEY, at TEXT NOT NULL, kind TEXT NOT NULL, data TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS snapshots(playlist TEXT PRIMARY KEY, snapshot TEXT NOT NULL, data TEXT NOT NULL);
         ''')
+        self.enable_shared_votes()
+
+    def enable_shared_votes(self):
+        """One-time, atomic projection; feedback remains the shared export table."""
+        if self.db.execute("SELECT value FROM settings WHERE name='shared_votes_version'").fetchone():
+            return
+        with self.db:
+            self.db.execute('BEGIN IMMEDIATE')
+            # Another connection may have migrated while this one waited.
+            if self.db.execute("SELECT value FROM settings WHERE name='shared_votes_version'").fetchone():
+                return
+            self.db.execute('INSERT INTO host_feedback SELECT * FROM feedback')
+            hosts = {r['id']: r['vote'] for r in self.db.execute('SELECT id,vote FROM host_feedback')}
+            guests = list(self.db.execute("SELECT id,vote FROM reviewer_feedback WHERE vote != 'unrated'"))
+            candidates = {r['id'] for r in guests if hosts.get(r['id'], 'unrated') == 'unrated'}
+            for ident in candidates:
+                self._resolve_vote(ident)
+            counts = collections.Counter(self.db.execute('SELECT vote FROM feedback WHERE id=?', (ident,)).fetchone()[0]
+                                         for ident in candidates)
+            self.db.execute("INSERT INTO settings VALUES('shared_votes_version','1')")
+            self.event('shared_votes_enabled', {
+                'policy': 'host choice wins; otherwise latest active reviewer choice',
+                'adopted_tracks': len(candidates), 'adopted_votes': dict(counts),
+                'host_disagreements_preserved': sum(hosts.get(r['id'], 'unrated') not in ('unrated', r['vote']) for r in guests)})
+
+    def _resolve_vote(self, ident):
+        """Called inside the writer transaction; never overwrite a host choice."""
+        host = self.db.execute('SELECT vote,reason,updated FROM host_feedback WHERE id=?', (ident,)).fetchone()
+        choice = host if host and host['vote'] != 'unrated' else self.db.execute(
+            "SELECT vote,reason,updated FROM reviewer_feedback WHERE id=? AND vote != 'unrated' "
+            'ORDER BY updated DESC,rowid DESC LIMIT 1', (ident,)).fetchone()
+        choice = choice or host
+        if choice:
+            self.db.execute('INSERT OR REPLACE INTO feedback VALUES(?,?,?,?)', (ident, *tuple(choice)))
+        else:
+            self.db.execute('DELETE FROM feedback WHERE id=?', (ident,))
 
     def event(self, kind, data):
         self.db.execute('INSERT INTO events(at,kind,data) VALUES(?,?,?)', (now(), kind, json.dumps(data)))
@@ -133,21 +171,24 @@ class Store:
         return result
 
     def rows_for(self, reviewer, host_email):
-        """Return the caller's choices; legacy feedback belongs only to the host."""
+        """Shared decisions, with only the caller's personal notes and scores."""
         rows = self.rows()
-        if reviewer == host_email:
-            return rows
-        votes = {r['id']:r for r in self.db.execute(
+        is_host = reviewer == host_email
+        hosts = {r['id']: r for r in self.db.execute('SELECT id,vote,reason FROM host_feedback')}
+        votes = hosts if is_host else {r['id']:r for r in self.db.execute(
             'SELECT id,vote,reason FROM reviewer_feedback WHERE reviewer=?', (reviewer,))}
         scores = collections.defaultdict(dict)
         for r in self.db.execute('SELECT id,field,value,updated FROM reviewer_scores WHERE reviewer=?', (reviewer,)):
             scores[r['id']][r['field']] = {'value':r['value'], 'source':'reviewer listening', 'observed_at':r['updated']}
         for row in rows:
+            host = hosts.get(row['id'])
+            row['vote_origin'] = 'host' if host and host['vote'] != 'unrated' else 'reviewer' if row['vote'] != 'unrated' else 'none'
             choice = votes.get(row['id'])
-            row['vote'] = choice['vote'] if choice else 'unrated'
+            row['personal_vote'] = choice['vote'] if choice else 'unrated'
             row['reason'] = choice['reason'] if choice else ''
-            row['features'] = {k:v for k,v in row.get('features',{}).items() if k not in LISTENING_FIELDS}
-            row['features'].update(scores[row['id']])
+            if not is_host:
+                row['features'] = {k:v for k,v in row.get('features',{}).items() if k not in LISTENING_FIELDS}
+                row['features'].update(scores[row['id']])
         return rows
 
     def review_report(self):
@@ -172,7 +213,8 @@ class Store:
         if vote not in VOTES or len(reason) > 2000:
             raise ValueError('Invalid vote or reason')
         with self.db:
-            self.db.execute('INSERT OR REPLACE INTO feedback VALUES(?,?,?,?)', (ident, vote, reason, now()))
+            self.db.execute('INSERT OR REPLACE INTO host_feedback VALUES(?,?,?,?)', (ident, vote, reason, now()))
+            self._resolve_vote(ident)
             self.event('vote', {'id': ident, 'vote': vote, 'reason': reason})
 
     def vote_as(self, reviewer, ident, vote, reason=''):
@@ -182,7 +224,31 @@ class Store:
         with self.db:
             self.db.execute('INSERT OR REPLACE INTO reviewer_feedback VALUES(?,?,?,?,?)',
                 (reviewer, ident, vote, reason, now()))
+            self._resolve_vote(ident)
             self.event('review_vote', {'reviewer':reviewer, 'id':ident, 'vote':vote})
+
+    def note(self, ident, reason, reviewer=None):
+        """Saving a personal note must never adopt the displayed shared vote."""
+        self.track(ident)
+        if not isinstance(reason, str) or len(reason) > 2000:
+            raise ValueError('Invalid note')
+        with self.db:
+            # Acquire the write lock before reading a possibly concurrent vote.
+            self.db.execute('BEGIN IMMEDIATE')
+            if reviewer is None:
+                old = self.db.execute('SELECT vote FROM host_feedback WHERE id=?', (ident,)).fetchone()
+                if old:
+                    self.db.execute('UPDATE host_feedback SET reason=? WHERE id=?', (reason, ident))
+                else:
+                    self.db.execute('INSERT INTO host_feedback VALUES(?,?,?,?)', (ident, 'unrated', reason, now()))
+            else:
+                old = self.db.execute('SELECT vote FROM reviewer_feedback WHERE reviewer=? AND id=?', (reviewer, ident)).fetchone()
+                if old:
+                    self.db.execute('UPDATE reviewer_feedback SET reason=? WHERE reviewer=? AND id=?', (reason, reviewer, ident))
+                else:
+                    self.db.execute('INSERT INTO reviewer_feedback VALUES(?,?,?,?,?)', (reviewer, ident, 'unrated', reason, now()))
+            self._resolve_vote(ident)
+            self.event('review_note', {'id': ident, 'reviewer': reviewer, 'reason': reason})
 
     def annotate_as(self, reviewer, ident, field, value):
         self.track(ident)
@@ -213,20 +279,33 @@ class Store:
         track = self.track(ident)
         duplicates = [t for t in self.rows() if t.get('spotify_uri') == exact['spotify_uri'] and t['id'] != ident]
         own_vote = self.db.execute('SELECT vote,reason,updated FROM feedback WHERE id=?', (ident,)).fetchone()
+        own_host = self.db.execute('SELECT vote,reason,updated FROM host_feedback WHERE id=?', (ident,)).fetchone()
         for duplicate in duplicates:
+            host = self.db.execute('SELECT vote,reason,updated FROM host_feedback WHERE id=?', (duplicate['id'],)).fetchone()
+            if own_host and host and tuple(own_host[:2]) != tuple(host[:2]):
+                raise ValueError('Both records have different host feedback. Reconcile it before binding.')
+            if any(self.db.execute('SELECT 1 FROM ' + table + ' WHERE id=?', (duplicate['id'],)).fetchone()
+                   for table in ('reviewer_feedback', 'reviewer_scores')):
+                raise ValueError('Duplicate has reviewer history. Reconcile it before binding.')
             other = self.db.execute('SELECT vote,reason,updated FROM feedback WHERE id=?', (duplicate['id'],)).fetchone()
             if own_vote and other and tuple(own_vote[:2]) != tuple(other[:2]):
                 raise ValueError('Both records have different feedback. Reconcile their votes/notes before binding.')
         with self.db:
             for duplicate in duplicates:
+                host = self.db.execute('SELECT vote,reason,updated FROM host_feedback WHERE id=?', (duplicate['id'],)).fetchone()
+                if host and not own_host:
+                    self.db.execute('INSERT INTO host_feedback VALUES(?,?,?,?)', (ident, *tuple(host)))
+                    own_host = host
                 other = self.db.execute('SELECT vote,reason,updated FROM feedback WHERE id=?', (duplicate['id'],)).fetchone()
                 if other and not own_vote:
                     self.db.execute('INSERT OR REPLACE INTO feedback VALUES(?,?,?,?)', (ident,*tuple(other)))
                     own_vote = other
                 track['features'] = {**duplicate.get('features',{}), **track.get('features',{})}
                 self.db.execute('DELETE FROM feedback WHERE id=?', (duplicate['id'],))
+                self.db.execute('DELETE FROM host_feedback WHERE id=?', (duplicate['id'],))
                 self.db.execute('DELETE FROM tracks WHERE id=?', (duplicate['id'],))
             self.put({**track, **exact})
+            self._resolve_vote(ident)
             self.event('explicit_version_binding', {'id':ident, 'before':track, 'after':exact, 'merged_ids':[t['id'] for t in duplicates]})
 
     def import_features(self, path):
@@ -540,14 +619,19 @@ def serve(store, port, public_origin=None, verifier=None, host_email=None):
                 size = int(self.headers.get('Content-Length','0'))
                 if not 0 < size < 16384: raise ValueError('Invalid request size')
                 data = json.loads(self.rfile.read(size))
+                if data.get('review_version') != 2:
+                    raise ValueError('Refresh the page to load shared voting before saving')
                 if self.path == '/api/vote':
                     if hosted and reviewer != host_email: store.vote_as(reviewer, data['id'], data['vote'], data.get('reason',''))
                     else: store.vote(data['id'], data['vote'], data.get('reason',''))
+                elif self.path == '/api/note':
+                    store.note(data['id'], data.get('reason', ''), reviewer if hosted and reviewer != host_email else None)
                 elif self.path == '/api/annotate':
                     if hosted and reviewer != host_email: store.annotate_as(reviewer, data['id'], data['field'], data['value'])
                     else: store.annotate(data['id'], data['field'], data['value'], 'host listening')
                 else: self.send_error(404); return
-                self.respond({'saved':True})
+                row = next(t for t in store.rows_for(reviewer, host_email) if t['id'] == data['id'])
+                self.respond({'saved':True, 'track':row})
             except (ValueError, KeyError, TypeError) as e: self.respond({'error':str(e)}, 400)
     print(f'Playlist Lab: {origin} (Ctrl-C to stop)', flush=True)
     with http.server.HTTPServer(('0.0.0.0' if hosted else '127.0.0.1', port), Handler) as server:

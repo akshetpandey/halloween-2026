@@ -1,5 +1,7 @@
 # Playlist Lab
 
+**October 28 policy update:** shared voting with host priority is implemented and tested; deployment verification is recorded in the [shared-vote handoff](handoff-2026-10-28-shared-votes.md). The earlier per-person approval queues described in historical handoffs are superseded by this policy.
+
 **Current October 27 continuation:** [Grove Batch 15](https://music.hollow-court.com/?room=living-room&batch=15) adds 50 new unrated candidates from a fresh Liked Songs read. Grove 14 finished 11 Keep / 39 Cut. [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09) is still being reviewed and was preserved, with no new Hollow batch. [Current counts and targets](../curation-status-2026-10-27.md) · [Verification/handoff](../living-room/handoff-2026-10-27-batch-15.md).
 
 Source preference and party approval remain separate. Default future batches to the current saved pool, then apply room briefs, votes and exclusions. Recheck original saved identities for market-relinked releases. Full source exports, membership/save timestamps, feedback, lyrics and credentials stay private/ignored. Grove 15 has 38 ReccoBeats records and 40 video candidates; unknown metrics/lyrics stay unknown. No manual six-metric entry required.
@@ -62,7 +64,20 @@ The script caches searches privately for 14 days, uses at most three concurrent 
 
 Listen at conversation volume, including a later section; the built-in video timeline makes that possible without opening another tab. A good opening can conceal minutes of an unchanged loop.
 
-Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Reset makes a vote unrated; selecting Unrated clears a listening score. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. Reopen the local server after a Mac restart. The hosted service starts through Docker Compose and keeps signed-in reviewers' decisions separate. Its hosted database is distinct from this local server's database.
+Your normal workflow is just Keep / Cut / Maybe; no six-field form is required. Notes are optional. A collapsed section offers optional 1–5 scores: bounce, melody, sexy, repetition, theme fit and vocal density. Repetition 5 means “drags”; the other scales run low to high. Changes save in SQLite, survive browser closure, and have an event history. Votes apply to this party, not global judgments about the artist. The hosted database is distinct from the old local server's database.
+
+### Shared votes and host priority
+
+All signed-in reviewers see the same **shared Keep/Cut/Maybe**, approved totals and Needs review queue. The buttons show **your personal vote**, while the nearby summary shows the shared result and whether it comes from the host or a reviewer. **Refresh votes** loads others' latest choices; pages do not continuously poll.
+
+- The host's Keep, Cut or Maybe always wins, regardless of write order.
+- When the host is unrated, use the latest active reviewer vote. If more reviewers join, timestamp then write order breaks ties; this is not majority voting.
+- **Reset mine** removes only your choice. A different person's choice can still keep the shared track rated. Host Reset releases the host override.
+- Notes and optional listening scores remain personal. The host-only reviewer report can still show guest notes. Saving a note never adopts the displayed shared vote or changes which reviewer voted last.
+
+The one-time migration preserves every original host row in `host_feedback`, leaves `reviewer_feedback` and reviewer scores intact, and fills only host-unrated tracks from existing reviewer votes. The canonical `feedback` table contains the resolved shared decision; `Store.rows()`, exports, approval audits, playlist guards and the existing read-only mix preparation query all read this table. **Future batches must use this current shared result**, not a host-only or pre-migration snapshot. Individual history and the migration summary remain private. This changes approvals; it does not automatically change Spotify or create a new batch.
+
+Reload an already-open page once after deployment to load the new controls and save protocol. Old clients are rejected rather than allowing their note-saving behavior to cast a shared vote accidentally.
 
 **Filter meanings:** Needs review contains only unrated and maybe tracks. Editorial flags are older sourcing/variety notes on track records and can remain even after a Keep or Cut vote; inspect them separately with Editorial flags. A flag does not undo your vote.
 

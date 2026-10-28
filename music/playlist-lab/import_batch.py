@@ -10,7 +10,7 @@ import sqlite3
 import sys
 
 
-PRESERVED_TABLES = ('feedback', 'reviewer_feedback', 'reviewer_scores', 'snapshots', 'events')
+PRESERVED_TABLES = ('feedback', 'host_feedback', 'reviewer_feedback', 'reviewer_scores', 'settings', 'snapshots', 'events')
 
 
 def append_batch(database, payload, backup, *, room, batch_id, expected_count=50,
@@ -72,7 +72,7 @@ def append_batch(database, payload, backup, *, room, batch_id, expected_count=50
         # Fixed table names, never supplied by a seed or command-line argument.
         preserved = {name: list(db.execute('SELECT * FROM ' + name + ' ORDER BY rowid'))
                      for name in PRESERVED_TABLES}
-        for name in ('feedback', 'reviewer_feedback', 'reviewer_scores'):
+        for name in ('feedback', 'host_feedback', 'reviewer_feedback', 'reviewer_scores'):
             if encoded.keys() & {row[0] for row in db.execute('SELECT id FROM ' + name)}:
                 raise ValueError('Candidate already has feedback; inspect orphaned records')
         db.executemany('INSERT INTO tracks(id,data) VALUES(?,?)', encoded.items())

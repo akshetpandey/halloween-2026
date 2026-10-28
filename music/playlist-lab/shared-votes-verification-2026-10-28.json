@@ -1,0 +1,74 @@
+{
+  "verified_at": "2026-10-28T19:16:13Z",
+  "code_commit": "c947fa4",
+  "shared_policy": "Host Keep/Cut/Maybe wins; otherwise latest active reviewer vote",
+  "migration": {
+    "policy": "host choice wins; otherwise latest active reviewer choice",
+    "adopted_tracks": 47,
+    "adopted_votes": {
+      "up": 23,
+      "down": 24
+    },
+    "host_disagreements_preserved": 99
+  },
+  "host_original_rows_preserved": 1157,
+  "all_rated_host_choices_preserved": true,
+  "raw_reviewer_votes_unchanged": true,
+  "reviewer_scores_unchanged": true,
+  "track_records_unchanged": 1243,
+  "snapshots_unchanged": true,
+  "old_events_preserved_as_prefix": true,
+  "new_migration_events": 1,
+  "sqlite_integrity": "ok",
+  "notes_and_scores_remain_personal": true,
+  "rooms": {
+    "living-room": {
+      "total": 793,
+      "votes": {
+        "down": 658,
+        "up": 132,
+        "unrated": 3
+      },
+      "approved_raw_duration_ms": 26223826
+    },
+    "bedroom": {
+      "total": 450,
+      "votes": {
+        "up": 168,
+        "down": 246,
+        "unrated": 36
+      },
+      "approved_raw_duration_ms": 37431349
+    }
+  },
+  "python_tests_passed": 59,
+  "javascript_tests_passed": 9,
+  "fresh_stopped_backup_created": true,
+  "lab_recreated": true,
+  "tunnel_unchanged": true,
+  "spotify_modified": false,
+  "production_test_votes_cast": 0,
+  "browser_verification": {
+    "signed_in_host_chrome": true,
+    "grove_shared_keep_count": 132,
+    "grove15_shared_keeps": 23,
+    "grove15_shared_cuts": 24,
+    "grove_needs_review": 3,
+    "grove_needs_review_cuts": 0,
+    "friend_sourced_keep_summary": true,
+    "personal_vote_unrated_on_friend_keep": true,
+    "refresh_votes_button_checked": true,
+    "hollow_keep_count": 168,
+    "hollow_unrated": 36,
+    "notes_personal_in_host_view": true,
+    "votes_cast": 0,
+    "playback_tested": false,
+    "friend_login_tested": false
+  },
+  "no_published_host_ports": true,
+  "origin_without_jwt": 401,
+  "origin_wrong_host": 403,
+  "cloudflare_access_config_changed": false,
+  "deployed_app_sources_match_checkout": true,
+  "host_and_existing_reviewer_store_views_match": true
+}

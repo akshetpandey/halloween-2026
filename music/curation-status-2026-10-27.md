@@ -1,5 +1,7 @@
 # Music curation progress · October 27
 
+**Historical snapshot, superseded by the [October 28 shared-vote status](curation-status-2026-10-28.md).**
+
 Latest verified snapshot: **October 27, 2026, 9:58 p.m. EDT (America/New_York)**; votes may advance. The host finished Grove 14 and is **still working on Hollow 09**. This continuation adds a Grove batch only; the [earlier two-room round](handoff-2026-10-27-room-batches-14-09.md) remains historical evidence.
 
 | Room | Approved Keeps | Raw approved duration | Rated | Cuts | Maybe | Unrated | Working Keep target | More Keeps needed |

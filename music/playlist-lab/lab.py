@@ -171,12 +171,18 @@ class Store:
         return result
 
     def rows_for(self, reviewer, host_email):
-        """Shared decisions, with only the caller's personal notes and scores."""
+        """Shared decisions and individual vote attribution; personal notes/scores."""
         rows = self.rows()
         is_host = reviewer == host_email
         hosts = {r['id']: r for r in self.db.execute('SELECT id,vote,reason FROM host_feedback')}
         votes = hosts if is_host else {r['id']:r for r in self.db.execute(
             'SELECT id,vote,reason FROM reviewer_feedback WHERE reviewer=?', (reviewer,))}
+        individual = collections.defaultdict(dict)
+        reviewers = {reviewer} if not is_host else set()
+        for choice in self.db.execute('SELECT reviewer,id,vote FROM reviewer_feedback'):
+            if choice['reviewer'] != host_email:
+                reviewers.add(choice['reviewer'])
+                individual[choice['id']][choice['reviewer']] = choice['vote']
         scores = collections.defaultdict(dict)
         for r in self.db.execute('SELECT id,field,value,updated FROM reviewer_scores WHERE reviewer=?', (reviewer,)):
             scores[r['id']][r['field']] = {'value':r['value'], 'source':'reviewer listening', 'observed_at':r['updated']}
@@ -186,6 +192,13 @@ class Store:
             choice = votes.get(row['id'])
             row['personal_vote'] = choice['vote'] if choice else 'unrated'
             row['reason'] = choice['reason'] if choice else ''
+            row['votes_by_person'] = [
+                {'reviewer': host_email, 'role': 'host', 'is_you': is_host,
+                 'vote': host['vote'] if host else 'unrated'},
+                *({'reviewer': email, 'role': 'reviewer', 'is_you': email == reviewer,
+                   'vote': individual[row['id']].get(email, 'unrated')} for email in sorted(reviewers))]
+            active_votes = {v['vote'] for v in row['votes_by_person'] if v['vote'] != 'unrated'}
+            row['has_disagreement'] = len(active_votes) > 1
             if not is_host:
                 row['features'] = {k:v for k,v in row.get('features',{}).items() if k not in LISTENING_FIELDS}
                 row['features'].update(scores[row['id']])

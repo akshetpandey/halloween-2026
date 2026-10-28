@@ -90,6 +90,12 @@ class SharedVoteHTTPTests(unittest.TestCase):
         self.assertEqual(data['track']['vote'], 'down')
         self.assertEqual(data['track']['personal_vote'], 'up')
         self.assertEqual(data['track']['vote_origin'], 'host')
+        self.assertTrue(data['track']['has_disagreement'])
+        for who in ('host', 'friend'):
+            row = self.request('/api/tracks', who)[1]['tracks'][0]
+            self.assertEqual({v['reviewer']: v['vote'] for v in row['votes_by_person']},
+                             {'host': 'down', 'friend': 'up'})
+            self.assertTrue(all('reason' not in v for v in row['votes_by_person']))
 
     def test_guards_still_require_identity_host_origin_csrf_and_current_ui(self):
         self.assertEqual(self.request('/api/tracks', who='')[0], 401)

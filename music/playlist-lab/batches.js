@@ -18,6 +18,7 @@
    if(filter==='all')return true;
    if(filter==='audition')return Boolean(t.audition_rank);
    if(filter==='needs-review')return t.vote==='unrated'||t.vote==='maybe';
+   if(filter==='disagreements')return t.has_disagreement===true;
    if(filter==='flagged')return Boolean(t.flags?.length);
    return t.vote===filter;
   };

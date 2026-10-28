@@ -51,6 +51,30 @@ class SharedVoteTests(unittest.TestCase):
         self.store.vote('a', 'down')
         self.assertEqual(self.row()['vote'], 'down')
 
+    def test_disagreements_show_each_vote_to_both_people_without_sharing_notes(self):
+        self.store.vote('a', 'down', 'private host note')
+        self.store.vote_as('friend', 'a', 'up', 'private friend note')
+        for who in ('host', 'friend'):
+            row = self.row(who=who)
+            self.assertTrue(row['has_disagreement'])
+            self.assertEqual({v['reviewer']: v['vote'] for v in row['votes_by_person']},
+                             {'host': 'down', 'friend': 'up'})
+            self.assertEqual([v['reviewer'] for v in row['votes_by_person'] if v['is_you']], [who])
+            self.assertTrue(all(set(v) == {'reviewer', 'role', 'vote', 'is_you'} for v in row['votes_by_person']))
+            self.assertEqual(row['reason'], 'private host note' if who == 'host' else 'private friend note')
+        self.store.vote('a', 'up')
+        self.assertFalse(self.row()['has_disagreement'])
+
+    def test_unrated_is_not_a_disagreement_but_maybe_is_a_choice(self):
+        self.store.vote_as('friend', 'a', 'up')
+        row = self.row()
+        self.assertFalse(row['has_disagreement'])
+        self.assertEqual(row['votes_by_person'][0]['vote'], 'unrated')
+        self.store.vote('a', 'maybe')
+        self.assertTrue(self.row()['has_disagreement'])
+        self.store.vote_as('friend', 'a', 'unrated')
+        self.assertFalse(self.row()['has_disagreement'])
+
     def test_reset_removes_only_callers_vote_and_falls_back(self):
         self.store.vote_as('friend', 'a', 'up')
         self.store.vote('a', 'down')

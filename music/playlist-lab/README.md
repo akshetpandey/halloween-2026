@@ -2,6 +2,8 @@
 
 **Shared voting is live · October 28:** your friend’s choices now count toward approvals and future-batch taste feedback whenever the host is unrated. The host’s Keep/Cut/Maybe wins on disagreement. Existing votes added **23 Keeps / 24 Cuts** and retained **99 host disagreements**; all individual history remains. [Current shared counts and targets](../curation-status-2026-10-28.md) · [Deployment/rollback handoff](handoff-2026-10-28-shared-votes.md).
 
+**Disagreement review · October 28:** the new [Disagreements filter](https://music.hollow-court.com/?room=living-room&filter=disagreements) and individual vote panel are implemented/tested; [rollout status](handoff-2026-10-28-disagreements.md). The panel identifies each voter within the signed-in review service; real account identifiers stay out of Git.
+
 Current auditions remain [Grove 15](https://music.hollow-court.com/?room=living-room&batch=15) and [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09). At the verified October 28 snapshot, Grove has **132 Keeps / three pending** and Hollow **168 Keeps / 36 pending**. No new batch or Spotify sync. Existing pages need one reload for the shared controls/save protocol. **Refresh votes** loads others’ latest choices; notes and scores stay personal.
 
 Source preference and party approval remain separate. Default future batches to current Liked Songs, then apply room brief, shared votes and exclusions. Original saved identities are checked for market relinks. Source exports, per-track membership/save timestamps, feedback, full lyrics and credentials stay private/ignored. Grove 15 retains 38 ReccoBeats records and 40 video candidates; unknown metrics/lyrics stay unknown, with no manual six-field entry required. Its Spotify audition reports public despite private requests; Access protects the review service and votes.
@@ -79,7 +81,11 @@ The one-time migration preserves every original host row in `host_feedback`, lea
 
 Reload an already-open page once after deployment to load the new controls and save protocol. Old clients are rejected rather than allowing their note-saving behavior to cast a shared vote accidentally.
 
-**Filter meanings:** Needs review contains only unrated and maybe tracks. Editorial flags are older sourcing/variety notes on track records and can remain even after a Keep or Cut vote; inspect them separately with Editorial flags. A flag does not undo your vote.
+**Filter meanings:** Needs review contains only unrated and maybe tracks. **Disagreements** contains tracks with different active votes (Keep/Cut/Maybe) from at least two people, across all batches in the selected room. Missing/Unrated versus a rated vote is not a disagreement. Its count updates after saving or refreshing votes; search and room filters still apply. Shareable URLs retain `filter=disagreements`. Resolving the difference removes that track from this view.
+
+**Who voted how** beneath the controls shows **You**, the other voter's sign-in email, the host role and each personal Keep/Cut/Maybe/Unrated. Both authenticated reviewers can see these vote identities; other people's notes and scores remain private. Your host choice still controls the shared result on disagreement. No separate accept/reject step or automatic Spotify change.
+
+Editorial flags are older sourcing/variety notes on track records and can remain even after a Keep or Cut vote; inspect them separately with Editorial flags. A flag does not undo your vote.
 
 ## Connect Spotify once
 

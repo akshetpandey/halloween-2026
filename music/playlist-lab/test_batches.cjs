@@ -28,3 +28,13 @@ test('shared filters use the resolved vote while the summary distinguishes your 
  assert.match(voteSummary(shared[1]),/Shared: Cut \(host\) · Your vote: Keep/);
  assert.match(voteSummary(shared[2]),/Reset mine removes only your choice/);
 });
+test('disagreements span batches but remain room- and search-scoped',()=>{
+ const reviewed=[{id:'one',room:'living-room',artist:'Alpha',vote:'down',batch_id:'02',has_disagreement:true},
+  {id:'two',room:'living-room',artist:'Bravo',vote:'up',batch_id:'15',has_disagreement:true},
+  {id:'same',room:'living-room',artist:'Alpha',vote:'up',has_disagreement:false},
+  {id:'pending',room:'living-room',artist:'Alpha',vote:'up'},
+  {id:'hollow',room:'bedroom',artist:'Alpha',vote:'up',has_disagreement:true}];
+ assert.deepEqual(visibleRows(reviewed,'disagreements','','living-room').map(t=>t.id),['one','two']);
+ assert.deepEqual(visibleRows(reviewed,'disagreements','alpha','living-room').map(t=>t.id),['one']);
+ assert.deepEqual(visibleRows(reviewed,'disagreements','','bedroom').map(t=>t.id),['hollow']);
+});

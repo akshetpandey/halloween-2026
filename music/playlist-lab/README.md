@@ -2,7 +2,7 @@
 
 **Shared voting is live · October 28:** your friend’s choices now count toward approvals and future-batch taste feedback whenever the host is unrated. The host’s Keep/Cut/Maybe wins on disagreement. Existing votes added **23 Keeps / 24 Cuts** and retained **99 host disagreements**; all individual history remains. [Current shared counts and targets](../curation-status-2026-10-28.md) · [Deployment/rollback handoff](handoff-2026-10-28-shared-votes.md).
 
-**Disagreement review · October 28:** the new [Disagreements filter](https://music.hollow-court.com/?room=living-room&filter=disagreements) and individual vote panel are implemented/tested; [rollout status](handoff-2026-10-28-disagreements.md). The panel identifies each voter within the signed-in review service; real account identifiers stay out of Git.
+**Disagreement review · October 28:** the [Disagreements filter](https://music.hollow-court.com/?room=living-room&filter=disagreements) and individual vote panel are live, with **99 Grove / zero Hollow** disagreements at verification. [Verification and handoff](handoff-2026-10-28-disagreements.md). The panel identifies each voter within the signed-in review service; real account identifiers stay out of Git.
 
 Current auditions remain [Grove 15](https://music.hollow-court.com/?room=living-room&batch=15) and [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09). At the verified October 28 snapshot, Grove has **132 Keeps / three pending** and Hollow **168 Keeps / 36 pending**. No new batch or Spotify sync. Existing pages need one reload for the shared controls/save protocol. **Refresh votes** loads others’ latest choices; notes and scores stay personal.
 

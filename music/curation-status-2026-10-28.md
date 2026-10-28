@@ -35,6 +35,10 @@ Signed-in host Chrome showed **132 Grove Keeps / three remaining**, Grove 15's 2
 
 [Implementation/runbook](playlist-lab/README.md#shared-votes-and-host-priority) · [Sanitized evidence](playlist-lab/shared-votes-verification-2026-10-28.json) · [Deployment and rollback handoff](playlist-lab/handoff-2026-10-28-shared-votes.md).
 
+## Disagreement review · later October 28 update
+
+[Disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements) is live: **99 Grove / zero Hollow** at feature verification. It spans all batches in the selected room; different active Keep/Cut/Maybe votes qualify, while Unrated does not. Both signed-in reviewers see each voter’s identity and choice next to the controls; other people’s notes/scores remain private. The shareable filter survives reload and room changes. Changing your vote to agree removes a resolved difference; host priority remains in effect. This display/filter release changed no votes, metadata, settings or history, and did not sync Spotify or create a batch. [Deployment evidence/handoff](playlist-lab/handoff-2026-10-28-disagreements.md).
+
 ## Programme inventories and nine-hour planning
 
 No Spotify API calls, playlist synchronization, new candidates, audio acquisition/upload, render, purchase or physical playback test this turn. The last main-playlist readback on October 27 was **50 Keeps / 3:05:16 raw**, original 48 plus Float On/Bruises. Shared voting does not automatically append new approvals. **82 current shared Keeps lie outside that last verified 50-track snapshot**; this is not a fresh Spotify readback. [Main snapshot](living-room/october-grove-approved-2026-10-26.json).

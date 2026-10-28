@@ -8,6 +8,6 @@ Follow the latest host brief in playlist.md and read the october-grove exports. 
 
 Track exports and versioned files are stored beside this plan. Keep new handoffs here.
 
-[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-26.json) · [Current 50-track batch](october-grove-batch-14.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest handoff](../handoff-2026-10-27-room-batches-14-09.md).
+[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-26.json) · [Current 50-track batch](october-grove-batch-15.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest handoff](handoff-2026-10-27-batch-15.md).
 
 October 26 host additions: [Float On — Modest Mouse](handoff-2026-10-26-float-on.md) and [Bruises — Chairlift](handoff-2026-10-26-bruises.md) are in the main playlist and saved as Keeps, outside the 50-track review batch.

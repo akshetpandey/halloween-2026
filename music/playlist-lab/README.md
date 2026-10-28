@@ -1,10 +1,10 @@
 # Playlist Lab
 
-**Current October 27 source reset:** [Grove Batch 14](https://music.hollow-court.com/?room=living-room&batch=14) and [Hollow Batch 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09), 50 new unrated candidates per room, all from a fresh Liked Songs read with original saved identities checked for market-relinked releases. Earlier votes remain intact. [Current counts, metadata and targets](../curation-status-2026-10-27.md) · [Import verification/handoff](../handoff-2026-10-27-room-batches-14-09.md).
+**Current October 27 continuation:** [Grove Batch 15](https://music.hollow-court.com/?room=living-room&batch=15) adds 50 new unrated candidates from a fresh Liked Songs read. Grove 14 finished 11 Keep / 39 Cut. [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09) is still being reviewed and was preserved, with no new Hollow batch. [Current counts and targets](../curation-status-2026-10-27.md) · [Verification/handoff](../living-room/handoff-2026-10-27-batch-15.md).
 
-Source preference and party approval remain separate. Default future batches to the current saved pool and apply room briefs, earlier votes and deduplication; report a source shortfall rather than silently switching to similar-artist discovery. Full source exports, per-track membership/save timestamps, feedback, lyrics and credentials stay private/ignored. The 100 new choices have 68 ReccoBeats records and 89 video candidates; unknown fields and lyric gaps remain explicit. No manual six-metric entry is required.
+Source preference and party approval remain separate. Default future batches to the current saved pool, then apply room briefs, votes and exclusions. Recheck original saved identities for market-relinked releases. Full source exports, membership/save timestamps, feedback, lyrics and credentials stay private/ignored. Grove 15 has 38 ReccoBeats records and 40 video candidates; unknown metrics/lyrics stay unknown. No manual six-metric entry required.
 
-Both Spotify orders and signed-in Chrome room/count/filter/detail/audition checks passed without votes or playback. Needs review contains only the new 50 per room. Main synchronization is separate. Both auditions report public despite private creation requests; Access protects the review service and votes. No application/security changes. [Hosting](HOSTING.md).
+Signed-in Chrome verified the Grove counts, batch, Needs-review filter, detail/controls and exact audition link without votes or playback. Only its new 50 need review. The atomic append preserved 1,193 earlier tracks/feedback while lab and Tunnel stayed running, so the open Hollow session remains valid. Main synchronization is separate. Spotify reports the new audition public despite private requests; Access protects the review service and votes. [Hosting and live-import procedure](HOSTING.md).
 
 A Python tool for persistent votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted state is separate from the older local database; physical speaker playback remains untested.
 
@@ -31,6 +31,7 @@ python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-1
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-12.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-13.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-14.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-15.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-01.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-02.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-03.json

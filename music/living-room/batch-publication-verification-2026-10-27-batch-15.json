@@ -1,0 +1,100 @@
+{
+  "verified_at": "2026-10-28T01:58:19Z",
+  "mode": "atomic_append",
+  "old_track_records_unchanged": 1193,
+  "new_track_records_exact": 50,
+  "new_unrated": 50,
+  "old_tables_preserved": {
+    "feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "snapshots": true,
+    "events": true
+  },
+  "old_events_preserved_as_prefix": true,
+  "sqlite_integrity": "ok",
+  "online_backup_created": true,
+  "server_restart_required": false,
+  "preservation_scope": "Inside import transaction; legitimate later votes may advance.",
+  "lab_and_tunnel_container_ids_and_starts_unchanged": true,
+  "containers_restarted": false,
+  "hosted_records": 1243,
+  "room_records": {
+    "living-room": 793,
+    "bedroom": 450
+  },
+  "new_batch": {
+    "room": "living-room",
+    "batch_id": "15",
+    "count": 50,
+    "unrated": 50,
+    "raw_duration_ms": 8900430
+  },
+  "grove_previous_all_rated": true,
+  "grove_approved_count": 109,
+  "grove_approved_raw_duration_ms": 22071696,
+  "grove_latest_result": {
+    "keep": 11,
+    "cut": 39
+  },
+  "hollow_current_batch": "hollow-09",
+  "hollow_new_batch_created": false,
+  "hollow_current_result_snapshot": {
+    "down": 2,
+    "up": 4,
+    "unrated": 44
+  },
+  "hollow_approved_count_snapshot": 165,
+  "hollow_approved_raw_duration_ms_snapshot": 36991103,
+  "grove_spotify_exact_order_rechecked": true,
+  "hollow_spotify_order_unchanged": true,
+  "main_spotify_order_unchanged": true,
+  "main_all_current_keeps": true,
+  "main_track_count": 50,
+  "main_newer_keeps_unsynced": 59,
+  "metadata_coverage": {
+    "reccobeats": 38,
+    "youtube_candidates": 40,
+    "artist_genres_nonempty": 17,
+    "artist_lookups_complete": 50
+  },
+  "source_gate": {
+    "fresh_liked_songs_snapshot": true,
+    "spotify_reported_source_entries": 2699,
+    "unique_canonical_source_uris": 2690,
+    "duplicate_relinked_uris_collapsed": 9,
+    "selected_saved_recordings": 50,
+    "source_membership_rechecked": true,
+    "market_relinked_recordings_in_batch": 5,
+    "per_track_membership_and_save_timestamps_exported": false,
+    "spotify_likes_changed": false
+  },
+  "no_published_host_ports": true,
+  "origin_no_jwt_status": 401,
+  "origin_wrong_host_status": 403,
+  "spotify_likes_changed": false,
+  "audio_downloaded": false,
+  "new_mix_rendered": false,
+  "purchases_usd": 0,
+  "import_unit_tests_passed": 7,
+  "batch_filter_tests_passed": 5,
+  "browser_verification": {
+    "browser": "signed-in Chrome Play",
+    "grove_room_records": 793,
+    "grove_keep_count": 109,
+    "batch": "15",
+    "batch_count": 50,
+    "needs_review_unrated": 50,
+    "needs_review_cuts": 0,
+    "audition_url_verified": true,
+    "detail_card_and_player_controls_visible": true,
+    "test_votes_cast": 0,
+    "playback_tested": false,
+    "hollow_tab_navigated_or_reloaded": false
+  },
+  "fresh_library_filter_checks_passed": true,
+  "queue_counts_at_snapshot": {
+    "grove_new_unrated": 50,
+    "hollow09_remaining": 44
+  }
+}

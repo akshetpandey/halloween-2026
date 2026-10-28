@@ -20,7 +20,28 @@ A private online SQLite backup and sanitized verification evidence are in ignore
 
 Cloudflare Tunnel points the music hostname to `http://lab:8765` on the Compose network. Neither Compose service publishes a host port. The lab independently checks the Access JWT signature, issuer, audience, expiration and identity on every HTTP request. Guest votes, notes and optional listening scores are keyed to their signed email; the host's preexisting votes stay in the legacy feedback table. Guests cannot read the host event history or other reviewers' choices. The host can read guest votes and notes from `/api/reviewers`; this endpoint requires the host identity. Votes never modify Spotify automatically.
 
-The Mac running Docker must stay awake and online for the public URL to work. The local server at `127.0.0.1:8765` uses the old local database and is *not* the shared hosted state. For future batch imports and enrichment after cutover, use `--state music/playlist-lab/.local/hosted` with `lab.py`, or `--state` with `enrich.py` and `youtube.py` as appropriate. Do not edit the same SQLite database from host commands while the container is running; stop the lab first, run the command, then restart it.
+The Mac running Docker must stay awake and online for the public URL to work. The local server at `127.0.0.1:8765` uses the old local database and is *not* the shared hosted state. Prepare provider enrichment in isolated ignored databases. For appends of entirely new review batches, use the [atomic live import](#append-a-new-batch-without-interrupting-review) below. Other `lab.py`, `enrich.py`, `youtube.py` or host-side operations that merge/rewrite hosted records still require stopping the lab first; the live append exception does not authorize those writers against the running database.
+
+## Append a new batch without interrupting review
+
+`import_batch.py` is a local maintenance utility, with no HTTP endpoint or authentication changes. It accepts one explicit room/batch, distinct new canonical Spotify IDs and contiguous ranks; it rejects feedback in the payload, reused room/batch IDs, existing IDs, orphaned feedback and an unexpected existing track count. Prepare and audit a complete enriched portable seed before running it.
+
+Copy the utility into the already-running lab container and run it there, feeding the reviewed JSON on stdin. From `music/playlist-lab`, the command shape is:
+
+```sh
+docker compose cp import_batch.py lab:/tmp/import_batch.py
+docker compose exec -T lab python /tmp/import_batch.py \
+  --database /data/library.sqlite3 \
+  --backup /data/backups/UNIQUE-BEFORE-BATCH.sqlite3 \
+  --room living-room --batch NEW_BATCH_ID \
+  --expected-count 50 --expected-existing PREVIOUS_TRACK_COUNT - < ../living-room/REVIEWED-BATCH.json
+```
+
+Replace every placeholder after checking the current library; never overwrite a backup or blindly retry an ambiguous result. No rebuild, stop or restart is needed. Restarting the server rotates its CSRF token and would require already-open review pages to reload before saving again.
+
+The utility creates a restricted **0600 online SQLite backup**, then uses `BEGIN IMMEDIATE` to serialize a short append transaction with active voting. It checks every old serialized track, vote, note, reviewer score and snapshot inside that transaction, preserves old events as a prefix, adds exactly the new rows plus one import event, checks integrity and commits atomically. Any failure rolls back the entire append. Votes can legitimately advance between backup and transaction or after commit; the backup is not a license to overwrite later feedback. See SQLite's [online backup API](https://www.sqlite.org/backup.html) and [transaction isolation](https://www.sqlite.org/isolation.html).
+
+Verify the new exact batch/order is unrated, the other room retains its current batch, and lab/tunnel container IDs and start times are unchanged. `test_import_batch.py` covers preservation with an open reader, concurrent Hollow voting, collision/count/batch guards, orphaned feedback and rollback after a mid-write failure. It does not simulate Cloudflare or provider playback.
 
 ## Deployment and recovery
 

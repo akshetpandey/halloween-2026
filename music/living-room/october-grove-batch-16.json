@@ -1,0 +1,3590 @@
+{
+  "batch_id": "16",
+  "name": "Batch 16 · Spark and sway",
+  "room": "living-room",
+  "created_at": "2026-10-28T21:13:54Z",
+  "status": "Published to Spotify; exact order verified. Hosted import pending. Review candidates, not approved party music.",
+  "selection_policy": {
+    "source": "Current Liked Songs, followed by room brief, canonical shared votes and recording/variety exclusions. A Like is not a party Keep.",
+    "room_brief": "Upbeat, fun, happy, hopeful, love/new beginnings; bouncy, melodic and sexy. No acid/techno, sad central narratives or chart-pop-heavy selection.",
+    "evidence_limit": "Sourced lyric interpretations, artist descriptors, catalog metrics and actual-file listening are separate. No full listening or uniform positive-theme certification.",
+    "batch_size_note": "40 selected rather than padding to 50 with weaker fits from the increasingly pop/negative remaining source pool."
+  },
+  "source_gate": {
+    "fresh_liked_songs_snapshot": true,
+    "spotify_reported_source_entries": 2699,
+    "unique_canonical_source_uris": 2690,
+    "duplicate_relinked_uris_collapsed": 9,
+    "selected_saved_recordings": 40,
+    "source_membership_rechecked": true,
+    "market_relinked_recordings_in_batch": 2,
+    "per_track_membership_and_save_timestamps_exported": false,
+    "spotify_likes_changed": false
+  },
+  "feedback_basis": {
+    "observed_at": "2026-10-28T21:13:54Z",
+    "policy": "Canonical shared feedback: host priority; otherwise latest active reviewer vote. No artist-wide approval.",
+    "prior_room_tracks": 793,
+    "shared_keep": 121,
+    "shared_cut": 672,
+    "unrated": 0,
+    "latest_batch": "15",
+    "latest_result": {
+      "down": 33,
+      "up": 17
+    },
+    "latest_lane_results": {
+      "Saved melodic dance hooks": {
+        "keep": 4,
+        "cut": 9
+      },
+      "Saved vocal house and garage": {
+        "keep": 2,
+        "cut": 10
+      },
+      "Saved playful vocal personalities": {
+        "keep": 6,
+        "cut": 6
+      },
+      "Saved percussive vocal bounce": {
+        "keep": 1,
+        "cut": 7
+      },
+      "Saved band contrasts": {
+        "keep": 4,
+        "cut": 1
+      }
+    }
+  },
+  "audit": {
+    "track_count": 40,
+    "distinct_lead_artists": 38,
+    "distinct_credited_artists": 51,
+    "max_credited_artist_appearances": 2,
+    "distinct_album_ids": 40,
+    "max_album_appearances": 1,
+    "lane_counts": {
+      "Saved rhythmic bands and indie": 17,
+      "Saved playful vocal personalities": 13,
+      "Saved melodic dance and house": 10
+    },
+    "raw_duration_ms": 8062157,
+    "prior_library_records_excluded": 1243,
+    "old_bedroom_pool_records_excluded": 140,
+    "duplicate_uri_isrc_or_same_artist_base_title": 0,
+    "all_spotify_us_playable": true,
+    "nine_hour_minimum_met": false,
+    "listening_status": "Exact catalog identity and saved membership checked; no complete audio audition or mix rendered."
+  },
+  "metadata_coverage": {
+    "reccobeats": 0,
+    "youtube_candidates": 36,
+    "artist_genres_nonempty": 14,
+    "artist_lookups_complete": 40
+  },
+  "privacy_note": "Source exports, saved timestamps, individual votes/identities, credentials and full lyric texts stay ignored. Artist genres are dated catalog evidence, not measured track genres.",
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:6ttg1sxtU12beFZkjoc6j5",
+      "spotify_url": "https://open.spotify.com/track/6ttg1sxtU12beFZkjoc6j5",
+      "artist": "Yeah Yeah Yeahs",
+      "artists": [
+        "Yeah Yeah Yeahs"
+      ],
+      "artist_ids": [
+        "3TNt4aUIxgfy9aoaft5Jj2"
+      ],
+      "title": "Gold Lion",
+      "album": "Show Your Bones",
+      "album_id": "4vILeh9sgKiDXnyL2pHCiz",
+      "duration_ms": 187133,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM70600433",
+      "release_date": "2006-01-01",
+      "popularity": 54,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:6ttg1sxtU12beFZkjoc6j5",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 1,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "3TNt4aUIxgfy9aoaft5Jj2": {
+          "name": "Yeah Yeah Yeahs",
+          "genres": [
+            "indie rock"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-09-22T21:43:54Z",
+          "fetched_at": 1790113434.529239
+        }
+      },
+      "youtube": {
+        "video_id": "jMMkP_ofpXg",
+        "title": "Yeah Yeah Yeahs - Gold Lion (Official Music Video)",
+        "channel": "yeahyeahyeahsmusic",
+        "duration_seconds": 184,
+        "url": "https://www.youtube.com/watch?v=jMMkP_ofpXg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6ttg1sxtU12beFZkjoc6j5",
+        "observed_at": "2026-10-28T21:11:22Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Abstract attraction, light and elemental imagery; not a literal positive-love narrative.",
+        "source_url": "https://lrclib.net/api/get/17461580",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Abstract attraction, light and elemental imagery; not a literal positive-love narrative. Individual earlier room Keeps share a credited artist: Heads Will Roll - A-Trak Remix Radio Edit. This is not artist-wide approval.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Abstract attraction, light and elemental imagery; not a literal positive-love narrative. Individual earlier room Keeps share a credited artist: Heads Will Roll - A-Trak Remix Radio Edit. This is not artist-wide approval.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Abstract attraction, light and elemental imagery; not a literal positive-love narrative. Individual earlier room Keeps share a credited artist: Heads Will Roll - A-Trak Remix Radio Edit. This is not artist-wide approval. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+      "spotify_url": "https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL",
+      "artist": "Madison Beer",
+      "artists": [
+        "Madison Beer"
+      ],
+      "artist_ids": [
+        "2kRfqPViCqYdSGhYSM9R0Q"
+      ],
+      "title": "make you mine",
+      "album": "make you mine",
+      "album_id": "62g7jm7YqkuQOhfhFpDQXC",
+      "duration_ms": 221709,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USSM12400758",
+      "release_date": "2024-02-09",
+      "popularity": 74,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 2,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "2kRfqPViCqYdSGhYSM9R0Q": {
+          "name": "Madison Beer",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:11Z",
+          "fetched_at": 1793142791.197404
+        }
+      },
+      "youtube": {
+        "video_id": "dqJDlRM5Jf4",
+        "title": "Madison Beer - make you mine (Official Audio)",
+        "channel": "Madison Beer",
+        "duration_seconds": 224,
+        "url": "https://www.youtube.com/watch?v=dqJDlRM5Jf4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+        "observed_at": "2026-10-28T21:11:22Z",
+        "alternatives": [
+          {
+            "video_id": "7w2O70G42bs",
+            "title": "Madison Beer - make you mine (Lyric Visualizer)",
+            "channel": "Madison Beer",
+            "duration_seconds": 222,
+            "url": "https://www.youtube.com/watch?v=7w2O70G42bs",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+            "observed_at": "2026-10-28T21:11:22Z"
+          },
+          {
+            "video_id": "FUwxFGt6k6M",
+            "title": "Madison Beer - make you mine (Official Visualizer)",
+            "channel": "Madison Beer",
+            "duration_seconds": 223,
+            "url": "https://www.youtube.com/watch?v=FUwxFGt6k6M",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+            "observed_at": "2026-10-28T21:11:22Z"
+          },
+          {
+            "video_id": "_-v31Yc7RRY",
+            "title": "Madison Beer - Make You Mine (Lyrics)",
+            "channel": "Vibe Music",
+            "duration_seconds": 222,
+            "url": "https://www.youtube.com/watch?v=_-v31Yc7RRY",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:48vIfHaK7by6x0T6ucpODL",
+            "observed_at": "2026-10-28T21:11:22Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Sexual desire, pleasure and romantic fantasy.",
+        "source_url": "https://lrclib.net/api/get/20728812",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual desire, pleasure and romantic fantasy. Individual earlier room Keeps share a credited artist: yes baby. This is not artist-wide approval.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual desire, pleasure and romantic fantasy. Individual earlier room Keeps share a credited artist: yes baby. This is not artist-wide approval.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual desire, pleasure and romantic fantasy. Individual earlier room Keeps share a credited artist: yes baby. This is not artist-wide approval. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+      "spotify_url": "https://open.spotify.com/track/7vqUr6K2Js9Paq4kdNSOm6",
+      "artist": "Kygo, Ella Henderson",
+      "artists": [
+        "Kygo",
+        "Ella Henderson"
+      ],
+      "artist_ids": [
+        "23fqKkggKUBHNkbKtXEls4",
+        "7nDsS0l5ZAzMedVRKPP8F1"
+      ],
+      "title": "Here for You (feat. Ella Henderson)",
+      "album": "Here for You (feat. Ella Henderson)",
+      "album_id": "6HnspnDTGO0iGliX6OuCTd",
+      "duration_ms": 244510,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "SEBGA1500224",
+      "release_date": "2015-09-04",
+      "popularity": 59,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 3,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "23fqKkggKUBHNkbKtXEls4": {
+          "name": "Kygo",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:10Z",
+          "fetched_at": 1793142790.292614
+        },
+        "7nDsS0l5ZAzMedVRKPP8F1": {
+          "name": "Ella Henderson",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:20Z",
+          "fetched_at": 1793142800.0518742
+        }
+      },
+      "youtube": {
+        "video_id": "tBESAFzAzw8",
+        "title": "Kygo - Here for You ft. Ella Henderson (Official Audio)",
+        "channel": "Kygo",
+        "duration_seconds": 246,
+        "url": "https://www.youtube.com/watch?v=tBESAFzAzw8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+        "observed_at": "2026-10-28T21:11:22Z",
+        "alternatives": [
+          {
+            "video_id": "b8PPap4dJog",
+            "title": "Kygo - Here for You ft. Ella Henderson (Official Video)",
+            "channel": "Kygo",
+            "duration_seconds": 246,
+            "url": "https://www.youtube.com/watch?v=b8PPap4dJog",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+            "observed_at": "2026-10-28T21:11:22Z"
+          },
+          {
+            "video_id": "uVLwWvXYMxM",
+            "title": "Kygo feat. Ella Henderson - 'Here For You' Audio",
+            "channel": "Ella Henderson",
+            "duration_seconds": 249,
+            "url": "https://www.youtube.com/watch?v=uVLwWvXYMxM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+            "observed_at": "2026-10-28T21:11:22Z"
+          },
+          {
+            "video_id": "8oXvYHKe6xI",
+            "title": "Kygo - Here for You (feat. Ella Henderson) [Lyric Video]",
+            "channel": "Tropical House Records",
+            "duration_seconds": 245,
+            "url": "https://www.youtube.com/watch?v=8oXvYHKe6xI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7vqUr6K2Js9Paq4kdNSOm6",
+            "observed_at": "2026-10-28T21:11:22Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Reassurance, support and togetherness when another person is struggling.",
+        "source_url": "https://lrclib.net/api/get/15676698",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Reassurance, support and togetherness when another person is struggling.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Reassurance, support and togetherness when another person is struggling.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Reassurance, support and togetherness when another person is struggling. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3CnWeO291zh1bx3eFrEQqK",
+      "spotify_url": "https://open.spotify.com/track/3CnWeO291zh1bx3eFrEQqK",
+      "artist": "Best Coast",
+      "artists": [
+        "Best Coast"
+      ],
+      "artist_ids": [
+        "5YkBrE0wF8cAlq3GCOw5Eu"
+      ],
+      "title": "The Only Place",
+      "album": "The Only Place (Deluxe)",
+      "album_id": "5eHwjOk2UtrA78BjBTjx3U",
+      "duration_ms": 162634,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QMV8L1110901",
+      "release_date": "2012-05-15",
+      "popularity": 38,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:3CnWeO291zh1bx3eFrEQqK",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 4,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5YkBrE0wF8cAlq3GCOw5Eu": {
+          "name": "Best Coast",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:16Z",
+          "fetched_at": 1793142796.2042098
+        }
+      },
+      "youtube": {
+        "video_id": "FeRdl64DJFk",
+        "title": "The Only Place",
+        "channel": "Best Coast",
+        "duration_seconds": 163,
+        "url": "https://www.youtube.com/watch?v=FeRdl64DJFk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3CnWeO291zh1bx3eFrEQqK",
+        "observed_at": "2026-10-28T21:11:24Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Sunshine, home, nature and enjoying the place one belongs.",
+        "source_url": "https://lrclib.net/api/get/16225746",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sunshine, home, nature and enjoying the place one belongs.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sunshine, home, nature and enjoying the place one belongs.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sunshine, home, nature and enjoying the place one belongs. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:2ERxhNVMT1Fd5fNyX6CIcW",
+      "spotify_url": "https://open.spotify.com/track/2ERxhNVMT1Fd5fNyX6CIcW",
+      "artist": "Mia Rodriguez, Baby Tate",
+      "artists": [
+        "Mia Rodriguez",
+        "Baby Tate"
+      ],
+      "artist_ids": [
+        "7Hsfh7YZzoyojYWQeMSHID",
+        "3IJ21966TwNZI24MwZHMu4"
+      ],
+      "title": "Billion Dollar Bitch (feat. Yung Baby Tate)",
+      "album": "Billion Dollar Bitch (feat. Yung Baby Tate)",
+      "album_id": "3fuXDz3sxWe8k9Ny9iqB0O",
+      "duration_ms": 188442,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "USAT22102780",
+      "release_date": "2021-08-12",
+      "popularity": 41,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:2ERxhNVMT1Fd5fNyX6CIcW",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 5,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified",
+        "Explicit vocal: not a clean edit"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "7Hsfh7YZzoyojYWQeMSHID": {
+          "name": "Mia Rodriguez",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:19Z",
+          "fetched_at": 1793142799.6031601
+        },
+        "3IJ21966TwNZI24MwZHMu4": {
+          "name": "Baby Tate",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T16:01:20Z",
+          "fetched_at": 1793116880.52979
+        }
+      },
+      "youtube": {
+        "video_id": "6ksPFaW7_HI",
+        "title": "Mia Rodriguez - Billion Dollar Bitch (feat. Yung Baby Tate) [Official Lyric Video]",
+        "channel": "mia rodriguez",
+        "duration_seconds": 189,
+        "url": "https://www.youtube.com/watch?v=6ksPFaW7_HI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ERxhNVMT1Fd5fNyX6CIcW",
+        "observed_at": "2026-10-28T21:11:24Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Self-confidence, sex and boastful self-possession, including dismissive jabs at others.",
+        "source_url": "https://lrclib.net/api/get/11162447",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Self-confidence, sex and boastful self-possession, including dismissive jabs at others. Individual earlier room Keeps share a credited artist: Ride. This is not artist-wide approval.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Self-confidence, sex and boastful self-possession, including dismissive jabs at others. Individual earlier room Keeps share a credited artist: Ride. This is not artist-wide approval.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Self-confidence, sex and boastful self-possession, including dismissive jabs at others. Individual earlier room Keeps share a credited artist: Ride. This is not artist-wide approval. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:1YLJVmuzeM2YSUkCCaTNUB",
+      "spotify_url": "https://open.spotify.com/track/1YLJVmuzeM2YSUkCCaTNUB",
+      "artist": "Florence + The Machine",
+      "artists": [
+        "Florence + The Machine"
+      ],
+      "artist_ids": [
+        "1moxjboGR7GNWYIMWsRjgG"
+      ],
+      "title": "Dog Days Are Over",
+      "album": "Lungs (Deluxe Edition)",
+      "album_id": "2FgknX5e7fJlriQtxvpLhZ",
+      "duration_ms": 251840,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM70900209",
+      "release_date": "2009",
+      "popularity": 79,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:1YLJVmuzeM2YSUkCCaTNUB",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 6,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1moxjboGR7GNWYIMWsRjgG": {
+          "name": "Florence + The Machine",
+          "genres": [
+            "baroque pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.582659
+        }
+      },
+      "youtube": {
+        "video_id": "i8CDxQc_9-E",
+        "title": "Florence + the Machine - Dog Days Are Over",
+        "channel": "Florence + the Machine",
+        "duration_seconds": 250,
+        "url": "https://www.youtube.com/watch?v=i8CDxQc_9-E",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1YLJVmuzeM2YSUkCCaTNUB",
+        "observed_at": "2026-10-28T21:11:25Z",
+        "alternatives": [
+          {
+            "video_id": "vDHr85LiwUM",
+            "title": "Florence + The Machine - Dog Days Are Over (Official Lyric Video)",
+            "channel": "florencemachine",
+            "duration_seconds": 251,
+            "url": "https://www.youtube.com/watch?v=vDHr85LiwUM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1YLJVmuzeM2YSUkCCaTNUB",
+            "observed_at": "2026-10-28T21:11:25Z"
+          },
+          {
+            "video_id": "P9CvQYMAGzw",
+            "title": "Florence + The Machine - Dog Days Are Over (Lyrics)",
+            "channel": "Lost Panda",
+            "duration_seconds": 253,
+            "url": "https://www.youtube.com/watch?v=P9CvQYMAGzw",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1YLJVmuzeM2YSUkCCaTNUB",
+            "observed_at": "2026-10-28T21:11:25Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Happiness and escape from earlier trouble, with fearful and violent metaphors.",
+        "source_url": "https://lrclib.net/api/get/21069370",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Happiness and escape from earlier trouble, with fearful and violent metaphors.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Happiness and escape from earlier trouble, with fearful and violent metaphors.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Happiness and escape from earlier trouble, with fearful and violent metaphors. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:6OKaib6HaebKVCL5VOoIGR",
+      "spotify_url": "https://open.spotify.com/track/6OKaib6HaebKVCL5VOoIGR",
+      "artist": "Robin Schulz, Graham Candy",
+      "artists": [
+        "Robin Schulz",
+        "Graham Candy"
+      ],
+      "artist_ids": [
+        "3t5xRXzsuZmMDkQzgOX35S",
+        "71KlQX0q5wz5f9iytwPfou"
+      ],
+      "title": "4 Life (feat. Graham Candy)",
+      "album": "Sugar",
+      "album_id": "5XyJzEROSmup2TcWmVjTIt",
+      "duration_ms": 195474,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEA621501138",
+      "release_date": "2015-09-25",
+      "popularity": 42,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:6OKaib6HaebKVCL5VOoIGR",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 7,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "3t5xRXzsuZmMDkQzgOX35S": {
+          "name": "Robin Schulz",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:12Z",
+          "fetched_at": 1793142792.97005
+        },
+        "71KlQX0q5wz5f9iytwPfou": {
+          "name": "Graham Candy",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:19Z",
+          "fetched_at": 1793142799.047116
+        }
+      },
+      "youtube": {
+        "video_id": "6Ert2UZMoSY",
+        "title": "4 Life (feat. Graham Candy)",
+        "channel": "Robin Schulz",
+        "duration_seconds": 196,
+        "url": "https://www.youtube.com/watch?v=6Ert2UZMoSY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6OKaib6HaebKVCL5VOoIGR",
+        "observed_at": "2026-10-28T21:11:27Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Renewed love and commitment after earlier loneliness and hurt.",
+        "source_url": "https://lrclib.net/api/get/5396462",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Renewed love and commitment after earlier loneliness and hurt.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Renewed love and commitment after earlier loneliness and hurt.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Renewed love and commitment after earlier loneliness and hurt. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7zZDRq9CLl37OAywR39KVy",
+      "spotify_url": "https://open.spotify.com/track/7zZDRq9CLl37OAywR39KVy",
+      "artist": "Chloe Adams",
+      "artists": [
+        "Chloe Adams"
+      ],
+      "artist_ids": [
+        "4B1bjBU8CLkIBTYTRklo2u"
+      ],
+      "title": "Dirty Thoughts",
+      "album": "The Monster You Made Me",
+      "album_id": "3aLOGvykDskOiDaLnTghjH",
+      "duration_ms": 129698,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "SGB502103181",
+      "release_date": "2023-04-07",
+      "popularity": 66,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:7zZDRq9CLl37OAywR39KVy",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 8,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "4B1bjBU8CLkIBTYTRklo2u": {
+          "name": "Chloe Adams",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:13Z",
+          "fetched_at": 1793142793.806554
+        }
+      },
+      "youtube": {
+        "video_id": "gEK7Vt5X7CU",
+        "title": "Chloe Adams - Dirty Thoughts (Official Lyric Video)",
+        "channel": "Chloe Adams",
+        "duration_seconds": 129,
+        "url": "https://www.youtube.com/watch?v=gEK7Vt5X7CU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7zZDRq9CLl37OAywR39KVy",
+        "observed_at": "2026-10-28T21:11:28Z",
+        "alternatives": [
+          {
+            "video_id": "aT_cFWXv_mQ",
+            "title": "Chloe Adams - Dirty Thoughts",
+            "channel": "CloudKid",
+            "duration_seconds": 130,
+            "url": "https://www.youtube.com/watch?v=aT_cFWXv_mQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7zZDRq9CLl37OAywR39KVy",
+            "observed_at": "2026-10-28T21:11:28Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Sexual fantasy and anticipation, with religious guilt and passing loneliness.",
+        "source_url": "https://lrclib.net/api/get/38009437",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual fantasy and anticipation, with religious guilt and passing loneliness.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual fantasy and anticipation, with religious guilt and passing loneliness.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Sexual fantasy and anticipation, with religious guilt and passing loneliness. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3e0yTP5trHBBVvV32jwXqF",
+      "spotify_url": "https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF",
+      "artist": "WALK THE MOON",
+      "artists": [
+        "WALK THE MOON"
+      ],
+      "artist_ids": [
+        "6DIS6PRrLS3wbnZsf7vYic"
+      ],
+      "title": "Anna Sun",
+      "album": "Walk The Moon",
+      "album_id": "1QhonXpNQq8wrGEKX0ofbk",
+      "duration_ms": 321280,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USRC11200002",
+      "release_date": "2012-06-19",
+      "popularity": 60,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:3e0yTP5trHBBVvV32jwXqF",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 9,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "6DIS6PRrLS3wbnZsf7vYic": {
+          "name": "WALK THE MOON",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:17Z",
+          "fetched_at": 1793142797.540559
+        }
+      },
+      "youtube": {
+        "video_id": "gP0BRG-oN54",
+        "title": "Anna Sun",
+        "channel": "WALK THE MOON",
+        "duration_seconds": 322,
+        "url": "https://www.youtube.com/watch?v=gP0BRG-oN54",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3e0yTP5trHBBVvV32jwXqF",
+        "observed_at": "2026-10-28T21:11:27Z",
+        "alternatives": [
+          {
+            "video_id": "qDVW81bXo0s",
+            "title": "WALK THE MOON - Anna Sun (Official Video)",
+            "channel": "WALK THE MOON",
+            "duration_seconds": 325,
+            "url": "https://www.youtube.com/watch?v=qDVW81bXo0s",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3e0yTP5trHBBVvV32jwXqF",
+            "observed_at": "2026-10-28T21:11:27Z"
+          },
+          {
+            "video_id": "VJ3TRQQjy-k",
+            "title": "WALK THE MOON - Anna Sun (Lyrics)",
+            "channel": "7clouds Rock",
+            "duration_seconds": 319,
+            "url": "https://www.youtube.com/watch?v=VJ3TRQQjy-k",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3e0yTP5trHBBVvV32jwXqF",
+            "observed_at": "2026-10-28T21:11:27Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Youthful shared adventures and affection despite poverty and a broken home.",
+        "source_url": "https://lrclib.net/api/get/16984136",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful shared adventures and affection despite poverty and a broken home.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful shared adventures and affection despite poverty and a broken home.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Long catalog arrangement: check internal dead space and repetition before any production use.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful shared adventures and affection despite poverty and a broken home. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Long catalog arrangement: check internal dead space and repetition before any production use.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3qaYuV5XZAwiOvGE91HhwS",
+      "spotify_url": "https://open.spotify.com/track/3qaYuV5XZAwiOvGE91HhwS",
+      "artist": "Mike Perry, Casso",
+      "artists": [
+        "Mike Perry",
+        "Casso"
+      ],
+      "artist_ids": [
+        "6lB8vOoI4DRrrVxXwuV19c",
+        "3glG6M6Sm7Zgvms4dFZKbN"
+      ],
+      "title": "Inside the Lines (feat. Casso)",
+      "album": "Inside the Lines (feat. Casso)",
+      "album_id": "72KsBUWczf3pwEuurFQOC7",
+      "duration_ms": 204503,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "SE3AA1600012",
+      "release_date": "2016-10-21",
+      "popularity": 49,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:3qaYuV5XZAwiOvGE91HhwS",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 10,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "6lB8vOoI4DRrrVxXwuV19c": {
+          "name": "Mike Perry",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:18Z",
+          "fetched_at": 1793142798.50784
+        },
+        "3glG6M6Sm7Zgvms4dFZKbN": {
+          "name": "Casso",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:12Z",
+          "fetched_at": 1793142792.967552
+        }
+      },
+      "youtube": {
+        "video_id": "kbYbvDK-HlY",
+        "title": "Mike Perry - Inside the Lines ft. Casso",
+        "channel": "Mike Perry",
+        "duration_seconds": 208,
+        "url": "https://www.youtube.com/watch?v=kbYbvDK-HlY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3qaYuV5XZAwiOvGE91HhwS",
+        "observed_at": "2026-10-28T21:11:29Z",
+        "alternatives": [
+          {
+            "video_id": "0gEAagur0dg",
+            "title": "Mike Perry - Inside the Lines (ft. Casso)(Sub Español)",
+            "channel": "Infinity Music",
+            "duration_seconds": 204,
+            "url": "https://www.youtube.com/watch?v=0gEAagur0dg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3qaYuV5XZAwiOvGE91HhwS",
+            "observed_at": "2026-10-28T21:11:29Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Affection, shared identity and enduring connection despite worry and troubled feelings.",
+        "source_url": "https://lrclib.net/api/get/16440531",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Affection, shared identity and enduring connection despite worry and troubled feelings.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Affection, shared identity and enduring connection despite worry and troubled feelings.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Affection, shared identity and enduring connection despite worry and troubled feelings. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:50pJjHSDBz8DnHYAmHzqQ6",
+      "spotify_url": "https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6",
+      "artist": "Echosmith",
+      "artists": [
+        "Echosmith"
+      ],
+      "artist_ids": [
+        "1PbBg2aYjWLKRk84zJK15x"
+      ],
+      "title": "Come Together",
+      "album": "Talking Dreams (Deluxe Edition)",
+      "album_id": "1oHY6eQmEG8skElDvFgKz2",
+      "duration_ms": 280933,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USWB11203127",
+      "release_date": "2013-10-04",
+      "popularity": 37,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:50pJjHSDBz8DnHYAmHzqQ6",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 11,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1PbBg2aYjWLKRk84zJK15x": {
+          "name": "Echosmith",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.146865
+        }
+      },
+      "youtube": {
+        "video_id": "RT8xWNBcapQ",
+        "title": "Come Together",
+        "channel": "Echosmith",
+        "duration_seconds": 282,
+        "url": "https://www.youtube.com/watch?v=RT8xWNBcapQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:50pJjHSDBz8DnHYAmHzqQ6",
+        "observed_at": "2026-10-28T21:11:29Z",
+        "alternatives": [
+          {
+            "video_id": "bWd3o-xujeE",
+            "title": "Echosmith - Come Together [Official Music Video]",
+            "channel": "Echosmith",
+            "duration_seconds": 276,
+            "url": "https://www.youtube.com/watch?v=bWd3o-xujeE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:50pJjHSDBz8DnHYAmHzqQ6",
+            "observed_at": "2026-10-28T21:11:29Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Hope, coming together and pursuing freedom despite pressure.",
+        "source_url": "https://lrclib.net/api/get/16830206",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Hope, coming together and pursuing freedom despite pressure.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Hope, coming together and pursuing freedom despite pressure.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Hope, coming together and pursuing freedom despite pressure. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3imd2WJDPDoIOyqDmw3plc",
+      "spotify_url": "https://open.spotify.com/track/3imd2WJDPDoIOyqDmw3plc",
+      "artist": "Tessa Violet",
+      "artists": [
+        "Tessa Violet"
+      ],
+      "artist_ids": [
+        "5DD5GZd4ElmQTy9NleMvKJ"
+      ],
+      "title": "YES MOM",
+      "album": "YES MOM",
+      "album_id": "3vE82WGpKX2oHOC8qbCjOS",
+      "duration_ms": 162364,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QM4TW2207715",
+      "release_date": "2022-02-16",
+      "popularity": 48,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:3imd2WJDPDoIOyqDmw3plc",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 12,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5DD5GZd4ElmQTy9NleMvKJ": {
+          "name": "Tessa Violet",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:15Z",
+          "fetched_at": 1793142795.773321
+        }
+      },
+      "youtube": {
+        "video_id": "_rorWXqYCDQ",
+        "title": "Tessa Violet - YES MOM (Official Audio)",
+        "channel": "Tessa Violet",
+        "duration_seconds": 163,
+        "url": "https://www.youtube.com/watch?v=_rorWXqYCDQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3imd2WJDPDoIOyqDmw3plc",
+        "observed_at": "2026-10-28T21:11:30Z",
+        "alternatives": [
+          {
+            "video_id": "mOJ-O7XwfL8",
+            "title": "Tessa Violet - YES MOM (Lyrics)",
+            "channel": "DynamicVibes",
+            "duration_seconds": 163,
+            "url": "https://www.youtube.com/watch?v=mOJ-O7XwfL8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3imd2WJDPDoIOyqDmw3plc",
+            "observed_at": "2026-10-28T21:11:30Z"
+          },
+          {
+            "video_id": "bx525PFbFCo",
+            "title": "Tessa Violet - YES MOM",
+            "channel": "CloudKid",
+            "duration_seconds": 165,
+            "url": "https://www.youtube.com/watch?v=bx525PFbFCo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3imd2WJDPDoIOyqDmw3plc",
+            "observed_at": "2026-10-28T21:11:30Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "editorial_candidate_not_lyric_certified",
+        "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5p9XWUdvbUzmPCukOmwoU3",
+      "spotify_url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
+      "artist": "KT Tunstall",
+      "artists": [
+        "KT Tunstall"
+      ],
+      "artist_ids": [
+        "5zzrJD2jXrE9dZ1AklRFcL"
+      ],
+      "title": "Suddenly I See",
+      "album": "Eye To The Telescope",
+      "album_id": "3j70PDKieTWQAwas3bPHRZ",
+      "duration_ms": 201706,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBGLM0400069",
+      "release_date": "2005-01-01",
+      "popularity": 81,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:5p9XWUdvbUzmPCukOmwoU3",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 13,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5zzrJD2jXrE9dZ1AklRFcL": {
+          "name": "KT Tunstall",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:17Z",
+          "fetched_at": 1793142797.12197
+        }
+      },
+      "youtube": {
+        "video_id": "9AEoUa0Hlso",
+        "title": "KT Tunstall - Suddenly I See (Larger Than Life Version)",
+        "channel": "kttunstallofficial",
+        "duration_seconds": 200,
+        "url": "https://www.youtube.com/watch?v=9AEoUa0Hlso",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5p9XWUdvbUzmPCukOmwoU3",
+        "observed_at": "2026-10-28T21:11:32Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Admiration, aspiration and finding a clearer sense of self.",
+        "source_url": "https://lrclib.net/api/get/23875761",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Admiration, aspiration and finding a clearer sense of self.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Admiration, aspiration and finding a clearer sense of self.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Admiration, aspiration and finding a clearer sense of self. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:6h3lMAmmpQDFqoHk9F99IR",
+      "spotify_url": "https://open.spotify.com/track/6h3lMAmmpQDFqoHk9F99IR",
+      "artist": "Bea Miller",
+      "artists": [
+        "Bea Miller"
+      ],
+      "artist_ids": [
+        "1o2NpYGqHiCq7FoiYdyd1x"
+      ],
+      "title": "S.L.U.T.",
+      "album": "aurora",
+      "album_id": "2rQu10gUgBVYzgsitDZNyU",
+      "duration_ms": 179146,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USHR11738178",
+      "release_date": "2018-02-23",
+      "popularity": 61,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:6h3lMAmmpQDFqoHk9F99IR",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 14,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1o2NpYGqHiCq7FoiYdyd1x": {
+          "name": "Bea Miller",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.5827389
+        }
+      },
+      "youtube": {
+        "video_id": "VclY-tc_Rm4",
+        "title": "bea miller • S.L.U.T. • lyric video",
+        "channel": "bea miller",
+        "duration_seconds": 180,
+        "url": "https://www.youtube.com/watch?v=VclY-tc_Rm4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6h3lMAmmpQDFqoHk9F99IR",
+        "observed_at": "2026-10-28T21:11:32Z",
+        "alternatives": [
+          {
+            "video_id": "6EqpdDFP00M",
+            "title": "Bea Miller - S.L.U.T. (audio only)",
+            "channel": "bea miller",
+            "duration_seconds": 182,
+            "url": "https://www.youtube.com/watch?v=6EqpdDFP00M",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6h3lMAmmpQDFqoHk9F99IR",
+            "observed_at": "2026-10-28T21:11:32Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Body positivity, agency and resisting others’ criticism.",
+        "source_url": "https://lrclib.net/api/get/34706904",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Body positivity, agency and resisting others’ criticism.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Body positivity, agency and resisting others’ criticism.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Body positivity, agency and resisting others’ criticism. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7dOeiXeTSfA1ixaYmQcWu7",
+      "spotify_url": "https://open.spotify.com/track/7dOeiXeTSfA1ixaYmQcWu7",
+      "artist": "OneRepublic, Seeb",
+      "artists": [
+        "OneRepublic",
+        "Seeb"
+      ],
+      "artist_ids": [
+        "5Pwc4xIPtQLFEnJriah9YJ",
+        "5iNrZmtVMtYev5M9yoWpEq"
+      ],
+      "title": "Rich Love (with Seeb)",
+      "album": "Rich Love",
+      "album_id": "0fLgNovzjpxE13hCIWa0sL",
+      "duration_ms": 201256,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71705541",
+      "release_date": "2017-07-14",
+      "popularity": 64,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:7dOeiXeTSfA1ixaYmQcWu7",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 15,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5Pwc4xIPtQLFEnJriah9YJ": {
+          "name": "OneRepublic",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:16Z",
+          "fetched_at": 1793142796.201157
+        },
+        "5iNrZmtVMtYev5M9yoWpEq": {
+          "name": "Seeb",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:16Z",
+          "fetched_at": 1793142796.675989
+        }
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment.",
+        "source_url": "https://lrclib.net/api/get/12083054",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Valuing affection, shared nights and simple pleasures over money; mentions earlier disappointment. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5JVbvCHX10U2pLa5DEqGav",
+      "spotify_url": "https://open.spotify.com/track/5JVbvCHX10U2pLa5DEqGav",
+      "artist": "Capital Cities",
+      "artists": [
+        "Capital Cities"
+      ],
+      "artist_ids": [
+        "4gwpcMTbLWtBUlOijbVpuu"
+      ],
+      "title": "Safe and Sound",
+      "album": "In A Tidal Wave of Mystery",
+      "album_id": "3rLiil7YBkoGXLrFtwYcju",
+      "duration_ms": 192789,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "TCABD1246970",
+      "release_date": "2013-06-04",
+      "popularity": 88,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:5JVbvCHX10U2pLa5DEqGav",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 16,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "4gwpcMTbLWtBUlOijbVpuu": {
+          "name": "Capital Cities",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:14Z",
+          "fetched_at": 1793142794.7351801
+        }
+      },
+      "youtube": {
+        "video_id": "rWZr2F0qohA",
+        "title": "Capital Cities - Safe And Sound (Original)",
+        "channel": "Capital Cities",
+        "duration_seconds": 193,
+        "url": "https://www.youtube.com/watch?v=rWZr2F0qohA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5JVbvCHX10U2pLa5DEqGav",
+        "observed_at": "2026-10-28T21:11:34Z",
+        "alternatives": [
+          {
+            "video_id": "SAYgWRWWxoE",
+            "title": "Capital Cities - Safe And Sound (lyric video)",
+            "channel": "Capital Cities",
+            "duration_seconds": 192,
+            "url": "https://www.youtube.com/watch?v=SAYgWRWWxoE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5JVbvCHX10U2pLa5DEqGav",
+            "observed_at": "2026-10-28T21:11:34Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Reassurance, affection and staying together despite outside trouble.",
+        "source_url": "https://lrclib.net/api/get/2575427",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Reassurance, affection and staying together despite outside trouble.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Reassurance, affection and staying together despite outside trouble.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Reassurance, affection and staying together despite outside trouble. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:2MaWDFu5l9SKXNDd6qCIx6",
+      "spotify_url": "https://open.spotify.com/track/2MaWDFu5l9SKXNDd6qCIx6",
+      "artist": "FLETCHER",
+      "artists": [
+        "FLETCHER"
+      ],
+      "artist_ids": [
+        "5qa31A9HySw3T7MKWI9bGg"
+      ],
+      "title": "The One",
+      "album": "THE S(EX) TAPES",
+      "album_id": "1cppTra3p7ByUGqNsv3Qla",
+      "duration_ms": 181773,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "USUG12002896",
+      "release_date": "2020-09-09",
+      "popularity": 33,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:2MaWDFu5l9SKXNDd6qCIx6",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 17,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified",
+        "Explicit vocal: not a clean edit"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5qa31A9HySw3T7MKWI9bGg": {
+          "name": "FLETCHER",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:16Z",
+          "fetched_at": 1793142796.677781
+        }
+      },
+      "youtube": {
+        "video_id": "Jd2VNxJNvFc",
+        "title": "FLETCHER - The One (Lyrics)",
+        "channel": "GalaxyMusic",
+        "duration_seconds": 181,
+        "url": "https://www.youtube.com/watch?v=Jd2VNxJNvFc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2MaWDFu5l9SKXNDd6qCIx6",
+        "observed_at": "2026-10-28T21:11:34Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Consensual casual desire and present pleasure; explicitly temporary rather than lasting love.",
+        "source_url": "https://lrclib.net/api/get/35282551",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Consensual casual desire and present pleasure; explicitly temporary rather than lasting love.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Consensual casual desire and present pleasure; explicitly temporary rather than lasting love.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Consensual casual desire and present pleasure; explicitly temporary rather than lasting love. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:2GiJYvgVaD2HtM8GqD9EgQ",
+      "spotify_url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
+      "artist": "BØRNS",
+      "artists": [
+        "BØRNS"
+      ],
+      "artist_ids": [
+        "1KP6TWI40m7p3QBTU6u2xo"
+      ],
+      "title": "Electric Love",
+      "album": "Dopamine",
+      "album_id": "17l7MIu0Jh0tdgK7or9ovw",
+      "duration_ms": 218106,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71416307",
+      "release_date": "2015-10-16",
+      "popularity": 82,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:2GiJYvgVaD2HtM8GqD9EgQ",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 18,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1KP6TWI40m7p3QBTU6u2xo": {
+          "name": "BØRNS",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:08Z",
+          "fetched_at": 1793142788.7050638
+        }
+      },
+      "youtube": {
+        "video_id": "RYr96YYEaZY",
+        "title": "BØRNS - Electric Love",
+        "channel": "BØRNS",
+        "duration_seconds": 221,
+        "url": "https://www.youtube.com/watch?v=RYr96YYEaZY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2GiJYvgVaD2HtM8GqD9EgQ",
+        "observed_at": "2026-10-28T21:11:35Z",
+        "alternatives": [
+          {
+            "video_id": "6EaLlR50mmg",
+            "title": "BØRNS - Electric Love (Lyrics)",
+            "channel": "Polar Records",
+            "duration_seconds": 219,
+            "url": "https://www.youtube.com/watch?v=6EaLlR50mmg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2GiJYvgVaD2HtM8GqD9EgQ",
+            "observed_at": "2026-10-28T21:11:35Z"
+          },
+          {
+            "video_id": "7JYb9RIQxx4",
+            "title": "BØRNS - Electric Love (Lyrics)",
+            "channel": "Taj Tracks",
+            "duration_seconds": 219,
+            "url": "https://www.youtube.com/watch?v=7JYb9RIQxx4",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2GiJYvgVaD2HtM8GqD9EgQ",
+            "observed_at": "2026-10-28T21:11:35Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Sensual romantic euphoria, using intoxication and drowning metaphors.",
+        "source_url": "https://lrclib.net/api/get/39625977",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sensual romantic euphoria, using intoxication and drowning metaphors.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sensual romantic euphoria, using intoxication and drowning metaphors.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Sensual romantic euphoria, using intoxication and drowning metaphors. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5BIlXhbvkVJ2jBRVn4Q2ch",
+      "spotify_url": "https://open.spotify.com/track/5BIlXhbvkVJ2jBRVn4Q2ch",
+      "artist": "Tinzo, Jojo Lorenzo",
+      "artists": [
+        "Tinzo",
+        "Jojo Lorenzo"
+      ],
+      "artist_ids": [
+        "0GJISdfop8sLeaYGimeSoG",
+        "6UgM4bgF7TuDaHF0VOF3JW"
+      ],
+      "title": "Normal Friends",
+      "album": "Normal Friends",
+      "album_id": "3oAzuHjRDU79rWC4OBiPS1",
+      "duration_ms": 254769,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GX3Q92462713",
+      "release_date": "2024-04-09",
+      "popularity": 34,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:5BIlXhbvkVJ2jBRVn4Q2ch",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 19,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "0GJISdfop8sLeaYGimeSoG": {
+          "name": "Tinzo",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-25T23:12:45Z",
+          "fetched_at": 1792969965.2715452
+        },
+        "6UgM4bgF7TuDaHF0VOF3JW": {
+          "name": "Jojo Lorenzo",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-25T23:13:07Z",
+          "fetched_at": 1792969987.821932
+        }
+      },
+      "mood_screen": {
+        "status": "editorial_candidate_not_lyric_certified",
+        "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:0grFc6klR3hxoHLcgCYsF4",
+      "spotify_url": "https://open.spotify.com/track/0grFc6klR3hxoHLcgCYsF4",
+      "artist": "The Black Keys",
+      "artists": [
+        "The Black Keys"
+      ],
+      "artist_ids": [
+        "7mnBLXK823vNxN3UWB7Gfz"
+      ],
+      "title": "Howlin' for You",
+      "album": "Brothers",
+      "album_id": "7qE6RXYyz5kj5Tll7mJU0v",
+      "duration_ms": 191800,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USNO11000079",
+      "release_date": "2010-05-18",
+      "popularity": 68,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:0grFc6klR3hxoHLcgCYsF4",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 20,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "7mnBLXK823vNxN3UWB7Gfz": {
+          "name": "The Black Keys",
+          "genres": [
+            "blues rock",
+            "garage rock",
+            "modern blues",
+            "rock"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:20Z",
+          "fetched_at": 1793142800.05163
+        }
+      },
+      "youtube": {
+        "video_id": "dCZI2C-tWzM",
+        "title": "Howlin' for You",
+        "channel": "The Black Keys",
+        "duration_seconds": 192,
+        "url": "https://www.youtube.com/watch?v=dCZI2C-tWzM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0grFc6klR3hxoHLcgCYsF4",
+        "observed_at": "2026-10-28T21:11:37Z",
+        "alternatives": [
+          {
+            "video_id": "Zs3cyuXSFII",
+            "title": "The Black Keys \"Howlin' for You\" Remastered 10th Anniversary Edition [Official Audio]",
+            "channel": "The Black Keys",
+            "duration_seconds": 192,
+            "url": "https://www.youtube.com/watch?v=Zs3cyuXSFII",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0grFc6klR3hxoHLcgCYsF4",
+            "observed_at": "2026-10-28T21:11:37Z"
+          },
+          {
+            "video_id": "TLSpj7q6_mM",
+            "title": "The Black Keys - Howlin' For You [Official Music Video]",
+            "channel": "The Black Keys",
+            "duration_seconds": 193,
+            "url": "https://www.youtube.com/watch?v=TLSpj7q6_mM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0grFc6klR3hxoHLcgCYsF4",
+            "observed_at": "2026-10-28T21:11:37Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Physical infatuation and playful, abstract romantic imagery.",
+        "source_url": "https://lrclib.net/api/get/23353794",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical infatuation and playful, abstract romantic imagery.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical infatuation and playful, abstract romantic imagery.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical infatuation and playful, abstract romantic imagery. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7wjprvfscpUNacftNovfQO",
+      "spotify_url": "https://open.spotify.com/track/7wjprvfscpUNacftNovfQO",
+      "artist": "Maisie Peters",
+      "artists": [
+        "Maisie Peters"
+      ],
+      "artist_ids": [
+        "2RVvqRBon9NgaGXKfywDSs"
+      ],
+      "title": "Stay Young",
+      "album": "Stay Young",
+      "album_id": "2DFhsR9VbaeoR1sWlX04lk",
+      "duration_ms": 202139,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAHS1900219",
+      "release_date": "2019-02-15",
+      "popularity": 39,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:7wjprvfscpUNacftNovfQO",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 21,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "2RVvqRBon9NgaGXKfywDSs": {
+          "name": "Maisie Peters",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:10Z",
+          "fetched_at": 1793142790.759787
+        }
+      },
+      "youtube": {
+        "video_id": "4tiIdgzu9Y4",
+        "title": "Stay Young",
+        "channel": "Maisie Peters",
+        "duration_seconds": 203,
+        "url": "https://www.youtube.com/watch?v=4tiIdgzu9Y4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7wjprvfscpUNacftNovfQO",
+        "observed_at": "2026-10-28T21:11:37Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Youth, ambition and romantic hope mixed with distance, longing and loneliness.",
+        "source_url": "https://lrclib.net/api/get/26003037",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Youth, ambition and romantic hope mixed with distance, longing and loneliness.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Youth, ambition and romantic hope mixed with distance, longing and loneliness.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Youth, ambition and romantic hope mixed with distance, longing and loneliness. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:4zqSXSyqsEGnWl2Gyb5OV9",
+      "spotify_url": "https://open.spotify.com/track/4zqSXSyqsEGnWl2Gyb5OV9",
+      "artist": "sunflwr",
+      "artists": [
+        "sunflwr"
+      ],
+      "artist_ids": [
+        "1vXY7FiXJPu6j456ZcrtIF"
+      ],
+      "title": "hyperspeed",
+      "album": "hyperspeed",
+      "album_id": "3JQ9ybk5o1jtNILwpmRrsb",
+      "duration_ms": 198739,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEQ022291067",
+      "release_date": "2022-07-06",
+      "popularity": 30,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:4zqSXSyqsEGnWl2Gyb5OV9",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 22,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1vXY7FiXJPu6j456ZcrtIF": {
+          "name": "sunflwr",
+          "genres": [
+            "lo-fi house",
+            "jazz house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.5850089
+        }
+      },
+      "youtube": {
+        "video_id": "xWVmjsQjIfg",
+        "title": "hyperspeed",
+        "channel": "sunflwr",
+        "duration_seconds": 199,
+        "url": "https://www.youtube.com/watch?v=xWVmjsQjIfg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4zqSXSyqsEGnWl2Gyb5OV9",
+        "observed_at": "2026-10-28T21:11:38Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "editorial_candidate_not_lyric_certified",
+        "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5OXp3ineToycMdMNZnQLAt",
+      "spotify_url": "https://open.spotify.com/track/5OXp3ineToycMdMNZnQLAt",
+      "artist": "Spin Doctors",
+      "artists": [
+        "Spin Doctors"
+      ],
+      "artist_ids": [
+        "2PSiyldxmJze7xiqbz658m"
+      ],
+      "title": "Two Princes",
+      "album": "So I Married An Axe Murderer Original Motion Picture Soundtrack",
+      "album_id": "5bof4K2oWtFKLj1FUiY8Nm",
+      "duration_ms": 255333,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USSM19100728",
+      "release_date": "1988",
+      "popularity": 30,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:5OXp3ineToycMdMNZnQLAt",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 23,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "2PSiyldxmJze7xiqbz658m": {
+          "name": "Spin Doctors",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:10Z",
+          "fetched_at": 1793142790.7587671
+        }
+      },
+      "youtube": {
+        "video_id": "rGBEiPsPiHw",
+        "title": "Two Princes",
+        "channel": "Spin Doctors",
+        "duration_seconds": 256,
+        "url": "https://www.youtube.com/watch?v=rGBEiPsPiHw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5OXp3ineToycMdMNZnQLAt",
+        "observed_at": "2026-10-28T21:11:39Z",
+        "alternatives": [
+          {
+            "video_id": "wsdy_rct6uo",
+            "title": "Spin Doctors - Two Princes",
+            "channel": "Spin Doctors",
+            "duration_seconds": 260,
+            "url": "https://www.youtube.com/watch?v=wsdy_rct6uo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5OXp3ineToycMdMNZnQLAt",
+            "observed_at": "2026-10-28T21:11:39Z"
+          },
+          {
+            "video_id": "ly4WrNEvBm4",
+            "title": "Spin Doctors - Two Princes (Lyrics)",
+            "channel": "7clouds Rock",
+            "duration_seconds": 258,
+            "url": "https://www.youtube.com/watch?v=ly4WrNEvBm4",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5OXp3ineToycMdMNZnQLAt",
+            "observed_at": "2026-10-28T21:11:39Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Playful courtship and choosing a partner despite parental disapproval.",
+        "source_url": "https://lrclib.net/api/get/36336175",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Playful courtship and choosing a partner despite parental disapproval.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Playful courtship and choosing a partner despite parental disapproval.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Playful courtship and choosing a partner despite parental disapproval. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+      "spotify_url": "https://open.spotify.com/track/1qwno7xb5mJe71xtMS6jl2",
+      "artist": "K.Flay",
+      "artists": [
+        "K.Flay"
+      ],
+      "artist_ids": [
+        "0pCNk4D3E2xtszsm6hMsWr"
+      ],
+      "title": "High Enough",
+      "album": "Every Where Is Some Where",
+      "album_id": "4QwcXvqLh5Yj35wBt2DnTr",
+      "duration_ms": 231600,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71701789",
+      "release_date": "2017-04-07",
+      "popularity": 73,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 24,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "0pCNk4D3E2xtszsm6hMsWr": {
+          "name": "K.Flay",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:07Z",
+          "fetched_at": 1793142787.695256
+        }
+      },
+      "youtube": {
+        "video_id": "1QpQqt7FLSE",
+        "title": "High Enough",
+        "channel": "K.Flay",
+        "duration_seconds": 232,
+        "url": "https://www.youtube.com/watch?v=1QpQqt7FLSE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+        "observed_at": "2026-10-28T21:11:40Z",
+        "alternatives": [
+          {
+            "video_id": "j04JKdcXjkU",
+            "title": "K.Flay - High Enough",
+            "channel": "K.Flay",
+            "duration_seconds": 232,
+            "url": "https://www.youtube.com/watch?v=j04JKdcXjkU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+            "observed_at": "2026-10-28T21:11:40Z"
+          },
+          {
+            "video_id": "dqbVnBtyfoc",
+            "title": "K.Flay - High Enough (Audio)",
+            "channel": "K.Flay",
+            "duration_seconds": 231,
+            "url": "https://www.youtube.com/watch?v=dqbVnBtyfoc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+            "observed_at": "2026-10-28T21:11:40Z"
+          },
+          {
+            "video_id": "FkFVMDlcJF8",
+            "title": "K.Flay - High Enough (Lyric Video)",
+            "channel": "K.Flay",
+            "duration_seconds": 231,
+            "url": "https://www.youtube.com/watch?v=FkFVMDlcJF8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1qwno7xb5mJe71xtMS6jl2",
+            "observed_at": "2026-10-28T21:11:40Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors.",
+        "source_url": "https://lrclib.net/api/get/26719818",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Romantic exhilaration replacing other intoxicants, with bleak world and medical metaphors. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:1KDYN3odJHnj9pqGHN3FVs",
+      "spotify_url": "https://open.spotify.com/track/1KDYN3odJHnj9pqGHN3FVs",
+      "artist": "Young the Giant",
+      "artists": [
+        "Young the Giant"
+      ],
+      "artist_ids": [
+        "4j56EQDQu5XnL7R3E9iFJT"
+      ],
+      "title": "My Body",
+      "album": "Young The Giant (Special Edition)",
+      "album_id": "2ww7MYrkExsljnKhcINDse",
+      "duration_ms": 244400,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "NLA321090396",
+      "release_date": "2011",
+      "popularity": 56,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:1KDYN3odJHnj9pqGHN3FVs",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 25,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "4j56EQDQu5XnL7R3E9iFJT": {
+          "name": "Young the Giant",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:14Z",
+          "fetched_at": 1793142794.736274
+        }
+      },
+      "youtube": {
+        "video_id": "SFsy_Vqo5fs",
+        "title": "My Body",
+        "channel": "Young the Giant",
+        "duration_seconds": 245,
+        "url": "https://www.youtube.com/watch?v=SFsy_Vqo5fs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1KDYN3odJHnj9pqGHN3FVs",
+        "observed_at": "2026-10-28T21:11:41Z",
+        "alternatives": [
+          {
+            "video_id": "WY2fdw_hxGA",
+            "title": "My Body",
+            "channel": "Young the Giant",
+            "duration_seconds": 245,
+            "url": "https://www.youtube.com/watch?v=WY2fdw_hxGA",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1KDYN3odJHnj9pqGHN3FVs",
+            "observed_at": "2026-10-28T21:11:41Z"
+          },
+          {
+            "video_id": "T95arrUeHH4",
+            "title": "My Body (2020 Remaster)",
+            "channel": "Young the Giant",
+            "duration_seconds": 245,
+            "url": "https://www.youtube.com/watch?v=T95arrUeHH4",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1KDYN3odJHnj9pqGHN3FVs",
+            "observed_at": "2026-10-28T21:11:41Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "editorial_candidate_not_lyric_certified",
+        "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:0SZKacJ8DMFQjmdUfSJX2C",
+      "spotify_url": "https://open.spotify.com/track/0SZKacJ8DMFQjmdUfSJX2C",
+      "artist": "James Hype",
+      "artists": [
+        "James Hype"
+      ],
+      "artist_ids": [
+        "43BxCL6t4c73BQnIJtry5v"
+      ],
+      "title": "Seratonin",
+      "album": "Seratonin",
+      "album_id": "2tfGijTAeg0sZ7v6CUwOpj",
+      "duration_ms": 115652,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM72602555",
+      "release_date": "2026-05-15",
+      "popularity": 77,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:0SZKacJ8DMFQjmdUfSJX2C",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 26,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "43BxCL6t4c73BQnIJtry5v": {
+          "name": "James Hype",
+          "genres": [
+            "house",
+            "tech house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-25T23:12:59Z",
+          "fetched_at": 1792969979.544383
+        }
+      },
+      "youtube": {
+        "video_id": "TDXYmEx64_I",
+        "title": "Seratonin",
+        "channel": "James Hype",
+        "duration_seconds": 116,
+        "url": "https://www.youtube.com/watch?v=TDXYmEx64_I",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0SZKacJ8DMFQjmdUfSJX2C",
+        "observed_at": "2026-10-28T21:11:41Z",
+        "alternatives": [
+          {
+            "video_id": "wGnfNiFuHes",
+            "title": "James Hype - Seratonin - (Official Lyric Video)",
+            "channel": "James Hype",
+            "duration_seconds": 116,
+            "url": "https://www.youtube.com/watch?v=wGnfNiFuHes",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0SZKacJ8DMFQjmdUfSJX2C",
+            "observed_at": "2026-10-28T21:11:41Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Sensual closeness and staying together through the night, with white lies and uncertainty.",
+        "source_url": "https://lrclib.net/api/get/33730931",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Sensual closeness and staying together through the night, with white lies and uncertainty.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Sensual closeness and staying together through the night, with white lies and uncertainty.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Sensual closeness and staying together through the night, with white lies and uncertainty. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7ciLq0Cip0yxiz6KANrOUq",
+      "spotify_url": "https://open.spotify.com/track/7ciLq0Cip0yxiz6KANrOUq",
+      "artist": "DNCE",
+      "artists": [
+        "DNCE"
+      ],
+      "artist_ids": [
+        "6T5tfhQCknKG4UnH90qGnz"
+      ],
+      "title": "Toothbrush",
+      "album": "DNCE",
+      "album_id": "3Wv4X8OA65pGpFzBkuUgAh",
+      "duration_ms": 231813,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71516725",
+      "release_date": "2016-11-18",
+      "popularity": 71,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:7ciLq0Cip0yxiz6KANrOUq",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 27,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "6T5tfhQCknKG4UnH90qGnz": {
+          "name": "DNCE",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:18Z",
+          "fetched_at": 1793142798.039386
+        }
+      },
+      "youtube": {
+        "video_id": "h161leMNOeE",
+        "title": "DNCE - Toothbrush (Audio)",
+        "channel": "DNCE",
+        "duration_seconds": 232,
+        "url": "https://www.youtube.com/watch?v=h161leMNOeE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7ciLq0Cip0yxiz6KANrOUq",
+        "observed_at": "2026-10-28T21:11:42Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Warm physical intimacy and a casual connection growing closer.",
+        "source_url": "https://lrclib.net/api/get/15292568",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Warm physical intimacy and a casual connection growing closer.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Warm physical intimacy and a casual connection growing closer.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Warm physical intimacy and a casual connection growing closer. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:4qRaZYiaOsSvWC7VgcxrI0",
+      "spotify_url": "https://open.spotify.com/track/4qRaZYiaOsSvWC7VgcxrI0",
+      "artist": "Fitz and The Tantrums",
+      "artists": [
+        "Fitz and The Tantrums"
+      ],
+      "artist_ids": [
+        "4AcHt3JxKy59IX7JNNlZn4"
+      ],
+      "title": "HandClap",
+      "album": "Fitz and The Tantrums (Deluxe Edition)",
+      "album_id": "4eoIRaV8z8v2LaXQSWy2LC",
+      "duration_ms": 193253,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USAT21600408",
+      "release_date": "2017-07-24",
+      "popularity": 72,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:4qRaZYiaOsSvWC7VgcxrI0",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 28,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "4AcHt3JxKy59IX7JNNlZn4": {
+          "name": "Fitz and The Tantrums",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:13Z",
+          "fetched_at": 1793142793.806464
+        }
+      },
+      "youtube": {
+        "video_id": "Y2V6yjjPbX0",
+        "title": "Fitz and the Tantrums - HandClap [Official Video]",
+        "channel": "Fitz and the Tantrums",
+        "duration_seconds": 192,
+        "url": "https://www.youtube.com/watch?v=Y2V6yjjPbX0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4qRaZYiaOsSvWC7VgcxrI0",
+        "observed_at": "2026-10-28T21:11:43Z",
+        "alternatives": [
+          {
+            "video_id": "m7afbMf_1a0",
+            "title": "Handclap (Made Popular By Fitz And The Tantrums) [Vocal Version]",
+            "channel": "PARTY TYME KARAOKE CHANNEL",
+            "duration_seconds": 194,
+            "url": "https://www.youtube.com/watch?v=m7afbMf_1a0",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:4qRaZYiaOsSvWC7VgcxrI0",
+            "observed_at": "2026-10-28T21:11:43Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Physical attraction and pleasure, mixed with loneliness, crime and drug imagery.",
+        "source_url": "https://lrclib.net/api/get/23246208",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical attraction and pleasure, mixed with loneliness, crime and drug imagery. Individual earlier room Keeps share a credited artist: Radio Baby, The Walker. This is not artist-wide approval.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical attraction and pleasure, mixed with loneliness, crime and drug imagery. Individual earlier room Keeps share a credited artist: Radio Baby, The Walker. This is not artist-wide approval.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Physical attraction and pleasure, mixed with loneliness, crime and drug imagery. Individual earlier room Keeps share a credited artist: Radio Baby, The Walker. This is not artist-wide approval. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:6vuVCtwukUA57ioTnKKeuL",
+      "spotify_url": "https://open.spotify.com/track/6vuVCtwukUA57ioTnKKeuL",
+      "artist": "Selena Gomez, benny blanco",
+      "artists": [
+        "Selena Gomez",
+        "benny blanco"
+      ],
+      "artist_ids": [
+        "0C8ZW7ezQVs4URX5aX7Kqx",
+        "5CiGnKThu5ctn9pBxv7DGa"
+      ],
+      "title": "Bluest Flame",
+      "album": "I Said I Love You First",
+      "album_id": "6NKinHXUZJNCmVejJfYJKC",
+      "duration_ms": 162995,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUG12408963",
+      "release_date": "2025-03-19",
+      "popularity": 65,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:6vuVCtwukUA57ioTnKKeuL",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 29,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "0C8ZW7ezQVs4URX5aX7Kqx": {
+          "name": "Selena Gomez",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:06Z",
+          "fetched_at": 1793142786.852445
+        },
+        "5CiGnKThu5ctn9pBxv7DGa": {
+          "name": "benny blanco",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:15Z",
+          "fetched_at": 1793142795.773118
+        }
+      },
+      "youtube": {
+        "video_id": "OJLqG69xrZs",
+        "title": "Selena Gomez, benny blanco - Bluest Flame (Official Audio)",
+        "channel": "benny blanco",
+        "duration_seconds": 164,
+        "url": "https://www.youtube.com/watch?v=OJLqG69xrZs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6vuVCtwukUA57ioTnKKeuL",
+        "observed_at": "2026-10-28T21:11:44Z",
+        "alternatives": [
+          {
+            "video_id": "1rwaerqUupM",
+            "title": "Selena Gomez, benny blanco - Bluest Flame (Official Lyric Video)",
+            "channel": "Selena Gomez",
+            "duration_seconds": 164,
+            "url": "https://www.youtube.com/watch?v=1rwaerqUupM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6vuVCtwukUA57ioTnKKeuL",
+            "observed_at": "2026-10-28T21:11:44Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Physical pleasure, dancing and intense romantic attraction.",
+        "source_url": "https://lrclib.net/api/get/24094542",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Physical pleasure, dancing and intense romantic attraction.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Physical pleasure, dancing and intense romantic attraction.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Physical pleasure, dancing and intense romantic attraction. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:0Se1ajfYEa51gkPKV5UgLV",
+      "spotify_url": "https://open.spotify.com/track/0Se1ajfYEa51gkPKV5UgLV",
+      "artist": "The Goo Goo Dolls",
+      "artists": [
+        "The Goo Goo Dolls"
+      ],
+      "artist_ids": [
+        "2sil8z5kiy4r76CRTXxBCA"
+      ],
+      "title": "So Alive",
+      "album": "Boxes",
+      "album_id": "5FavjcaDyf8naLuVcP2nR5",
+      "duration_ms": 195320,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USWB11600222",
+      "release_date": "2016-05-06",
+      "popularity": 47,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:0Se1ajfYEa51gkPKV5UgLV",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 30,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "2sil8z5kiy4r76CRTXxBCA": {
+          "name": "The Goo Goo Dolls",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:11Z",
+          "fetched_at": 1793142791.601429
+        }
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Renewed life, courage and self-acceptance after difficulty; includes dark metaphors.",
+        "source_url": "https://lrclib.net/api/get/817219",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Renewed life, courage and self-acceptance after difficulty; includes dark metaphors.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Renewed life, courage and self-acceptance after difficulty; includes dark metaphors.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Renewed life, courage and self-acceptance after difficulty; includes dark metaphors. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3GPNxZDz7VnzGwuJCxQAKY",
+      "spotify_url": "https://open.spotify.com/track/3GPNxZDz7VnzGwuJCxQAKY",
+      "artist": "Danell Arma",
+      "artists": [
+        "Danell Arma"
+      ],
+      "artist_ids": [
+        "3xksDFio6oCdauPR6UE4Aj"
+      ],
+      "title": "4 Minutes",
+      "album": "4 Minutes",
+      "album_id": "5WXtVoRYAe0i28dQV1KEKy",
+      "duration_ms": 164747,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US39N2513201",
+      "release_date": "2025-10-24",
+      "popularity": 57,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:3GPNxZDz7VnzGwuJCxQAKY",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 31,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "3xksDFio6oCdauPR6UE4Aj": {
+          "name": "Danell Arma",
+          "genres": [
+            "slap house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:13Z",
+          "fetched_at": 1793142793.383735
+        }
+      },
+      "youtube": {
+        "video_id": "opWY7MXAbVw",
+        "title": "4 Minutes",
+        "channel": "Danell Arma",
+        "duration_seconds": 165,
+        "url": "https://www.youtube.com/watch?v=opWY7MXAbVw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3GPNxZDz7VnzGwuJCxQAKY",
+        "observed_at": "2026-10-28T21:11:46Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "editorial_candidate_not_lyric_certified",
+        "summary": "Exact-edit vocal context unknown. Catalog title/valence does not certify a positive theme."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+      "spotify_url": "https://open.spotify.com/track/5BJSZocnCeSNeYMj3iVqM7",
+      "artist": "OneRepublic",
+      "artists": [
+        "OneRepublic"
+      ],
+      "artist_ids": [
+        "5Pwc4xIPtQLFEnJriah9YJ"
+      ],
+      "title": "Love Runs Out",
+      "album": "Native",
+      "album_id": "2bbhW5ifCwOYM8DMkqoYBF",
+      "duration_ms": 224226,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71404631",
+      "release_date": "2014-01-01",
+      "popularity": 66,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 32,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5Pwc4xIPtQLFEnJriah9YJ": {
+          "name": "OneRepublic",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:16Z",
+          "fetched_at": 1793142796.201157
+        }
+      },
+      "youtube": {
+        "video_id": "sE5WscjdNZs",
+        "title": "OneRepublic - Love Runs Out (Audio)",
+        "channel": "OneRepublic",
+        "duration_seconds": 225,
+        "url": "https://www.youtube.com/watch?v=sE5WscjdNZs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+        "observed_at": "2026-10-28T21:11:46Z",
+        "alternatives": [
+          {
+            "video_id": "m-j-n-XJ-Tg",
+            "title": "OneRepublic - Love Runs Out (Lyric Video)",
+            "channel": "OneRepublic",
+            "duration_seconds": 225,
+            "url": "https://www.youtube.com/watch?v=m-j-n-XJ-Tg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+            "observed_at": "2026-10-28T21:11:46Z"
+          },
+          {
+            "video_id": "Cp92QUFmoos",
+            "title": "OneRepublic - Love Runs Out (One Night in Malibu)",
+            "channel": "OneRepublic",
+            "duration_seconds": 228,
+            "url": "https://www.youtube.com/watch?v=Cp92QUFmoos",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+            "observed_at": "2026-10-28T21:11:46Z"
+          },
+          {
+            "video_id": "0OWj0CiM8WU",
+            "title": "OneRepublic - Love Runs Out",
+            "channel": "OneRepublic",
+            "duration_seconds": 229,
+            "url": "https://www.youtube.com/watch?v=0OWj0CiM8WU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5BJSZocnCeSNeYMj3iVqM7",
+            "observed_at": "2026-10-28T21:11:46Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Urgent commitment and shared drive, with fire, devils and loss imagery.",
+        "source_url": "https://lrclib.net/api/get/35027728",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Urgent commitment and shared drive, with fire, devils and loss imagery.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Urgent commitment and shared drive, with fire, devils and loss imagery.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Urgent commitment and shared drive, with fire, devils and loss imagery. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:31YoV8zUWlnEZWjoyEL1Yk",
+      "spotify_url": "https://open.spotify.com/track/31YoV8zUWlnEZWjoyEL1Yk",
+      "artist": "Demi Lovato",
+      "artists": [
+        "Demi Lovato"
+      ],
+      "artist_ids": [
+        "6S2OmqARrzebs0tKUEyXyp"
+      ],
+      "title": "Kiss",
+      "album": "Kiss",
+      "album_id": "0ZLsgnTsexXc2QvVeUlI6s",
+      "duration_ms": 139390,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUG12508393",
+      "release_date": "2025-10-10",
+      "popularity": 48,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:31YoV8zUWlnEZWjoyEL1Yk",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 33,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "6S2OmqARrzebs0tKUEyXyp": {
+          "name": "Demi Lovato",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:18Z",
+          "fetched_at": 1793142798.039071
+        }
+      },
+      "youtube": {
+        "video_id": "ca76D8cH6iw",
+        "title": "Demi Lovato - Kiss (Official Lyric Video)",
+        "channel": "Demi Lovato",
+        "duration_seconds": 140,
+        "url": "https://www.youtube.com/watch?v=ca76D8cH6iw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:31YoV8zUWlnEZWjoyEL1Yk",
+        "observed_at": "2026-10-28T21:11:47Z",
+        "alternatives": [
+          {
+            "video_id": "USJK43_cg5Y",
+            "title": "Demi Lovato - Kiss (Lyrics)",
+            "channel": "Urban Paradise",
+            "duration_seconds": 140,
+            "url": "https://www.youtube.com/watch?v=USJK43_cg5Y",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:31YoV8zUWlnEZWjoyEL1Yk",
+            "observed_at": "2026-10-28T21:11:47Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Playful kissing, sexual pleasure and physical closeness.",
+        "source_url": "https://lrclib.net/api/get/25979378",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Playful kissing, sexual pleasure and physical closeness.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Playful kissing, sexual pleasure and physical closeness.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Playful kissing, sexual pleasure and physical closeness. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:4zLBcDtvYNVtF9fnG6lme3",
+      "spotify_url": "https://open.spotify.com/track/4zLBcDtvYNVtF9fnG6lme3",
+      "artist": "Robin Schulz, Jasmine Thompson",
+      "artists": [
+        "Robin Schulz",
+        "Jasmine Thompson"
+      ],
+      "artist_ids": [
+        "3t5xRXzsuZmMDkQzgOX35S",
+        "2TL8gYTNgD6nXkyuUdDrMg"
+      ],
+      "title": "Sun Goes Down (feat. Jasmine Thompson) - Radio Mix",
+      "album": "Prayer",
+      "album_id": "1SrvubPy1Dg2BWJyTMcmgr",
+      "duration_ms": 179960,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEA621400666",
+      "release_date": "2014-09-16",
+      "popularity": 73,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:4zLBcDtvYNVtF9fnG6lme3",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 34,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "3t5xRXzsuZmMDkQzgOX35S": {
+          "name": "Robin Schulz",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:12Z",
+          "fetched_at": 1793142792.97005
+        },
+        "2TL8gYTNgD6nXkyuUdDrMg": {
+          "name": "Jasmine Thompson",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:10Z",
+          "fetched_at": 1793142790.760254
+        }
+      },
+      "youtube": {
+        "video_id": "RzgKRY3mun8",
+        "title": "Sun Goes Down (feat. Jasmine Thompson) (Radio Mix)",
+        "channel": "Robin Schulz",
+        "duration_seconds": 180,
+        "url": "https://www.youtube.com/watch?v=RzgKRY3mun8",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4zLBcDtvYNVtF9fnG6lme3",
+        "observed_at": "2026-10-28T21:11:48Z",
+        "alternatives": [
+          {
+            "video_id": "Mo4cmTaEDIk",
+            "title": "Robin Schulz - Sun Goes Down feat. Jasmine Thompson (Official Music Video)",
+            "channel": "Robin Schulz and Jasmine Thompson",
+            "duration_seconds": 175,
+            "url": "https://www.youtube.com/watch?v=Mo4cmTaEDIk",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:4zLBcDtvYNVtF9fnG6lme3",
+            "observed_at": "2026-10-28T21:11:48Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Shared romantic moments and closeness without needing a perfect setting.",
+        "source_url": "https://lrclib.net/api/get/33156808",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Shared romantic moments and closeness without needing a perfect setting.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Shared romantic moments and closeness without needing a perfect setting.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Shared romantic moments and closeness without needing a perfect setting. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:1NNeTgXD1VaOyGfh9WDIr1",
+      "spotify_url": "https://open.spotify.com/track/1NNeTgXD1VaOyGfh9WDIr1",
+      "artist": "When Chai Met Toast",
+      "artists": [
+        "When Chai Met Toast"
+      ],
+      "artist_ids": [
+        "04hYGGSjYtLekuuJXEGrIl"
+      ],
+      "title": "Khoj (Passing By)",
+      "album": "Believe",
+      "album_id": "5SmflABtlhFrOYadmY6e7H",
+      "duration_ms": 212571,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR59R1899890",
+      "release_date": "2018-09-07",
+      "popularity": 46,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:1NNeTgXD1VaOyGfh9WDIr1",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 35,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "04hYGGSjYtLekuuJXEGrIl": {
+          "name": "When Chai Met Toast",
+          "genres": [
+            "indian indie",
+            "hindi indie"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:06Z",
+          "fetched_at": 1793142786.850851
+        }
+      },
+      "youtube": {
+        "video_id": "cnOihCJHk3g",
+        "title": "Khoj (Passing By)",
+        "channel": "When Chai Met Toast",
+        "duration_seconds": 213,
+        "url": "https://www.youtube.com/watch?v=cnOihCJHk3g",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1NNeTgXD1VaOyGfh9WDIr1",
+        "observed_at": "2026-10-28T21:11:48Z",
+        "alternatives": [
+          {
+            "video_id": "LMEdbBK4bk0",
+            "title": "When Chai Met Toast - Khoj (Passing By)",
+            "channel": "When Chai Met Toast",
+            "duration_seconds": 212,
+            "url": "https://www.youtube.com/watch?v=LMEdbBK4bk0",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1NNeTgXD1VaOyGfh9WDIr1",
+            "observed_at": "2026-10-28T21:11:48Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening.",
+        "source_url": "https://lrclib.net/api/get/8030168",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Searching for identity, freedom and discovery alongside longing and uncertainty; multilingual context needs listening. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. This lighter-texture comparison needs to earn its bounce; no complete listening has verified the perceived energy.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:5J4WHWFvEWRd2FBVhcTcmi",
+      "spotify_url": "https://open.spotify.com/track/5J4WHWFvEWRd2FBVhcTcmi",
+      "artist": "Rihanna",
+      "artists": [
+        "Rihanna"
+      ],
+      "artist_ids": [
+        "5pKCCKE2ajJHZ9KAiaK11H"
+      ],
+      "title": "Dancing In The Dark - From The \"Home\" Soundtrack",
+      "album": "Home (Original Motion Picture Soundtrack)",
+      "album_id": "4jzv8VHqVBSt6wHCNHpWZv",
+      "duration_ms": 223040,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QM5FT1500003",
+      "release_date": "2015-03-23",
+      "popularity": 71,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:5J4WHWFvEWRd2FBVhcTcmi",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 36,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "5pKCCKE2ajJHZ9KAiaK11H": {
+          "name": "Rihanna",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-25T21:16:54Z",
+          "fetched_at": 1792963014.999008
+        }
+      },
+      "youtube": {
+        "video_id": "JiDeN4h6eQk",
+        "title": "Dancing In The Dark (From The \"Home\" Soundtrack)",
+        "channel": "Rihanna",
+        "duration_seconds": 224,
+        "url": "https://www.youtube.com/watch?v=JiDeN4h6eQk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5J4WHWFvEWRd2FBVhcTcmi",
+        "observed_at": "2026-10-28T21:11:49Z",
+        "alternatives": [
+          {
+            "video_id": "O1QVDIL12pU",
+            "title": "Dancing In The Dark (From The \"Home\" Soundtrack)",
+            "channel": "Rihanna",
+            "duration_seconds": 224,
+            "url": "https://www.youtube.com/watch?v=O1QVDIL12pU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5J4WHWFvEWRd2FBVhcTcmi",
+            "observed_at": "2026-10-28T21:11:49Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Shared dancing, freedom and intimacy through the night.",
+        "source_url": "https://lrclib.net/api/get/15982668",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Shared dancing, freedom and intimacy through the night. Individual earlier room Keeps share a credited artist: S&M. This is not artist-wide approval.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Shared dancing, freedom and intimacy through the night. Individual earlier room Keeps share a credited artist: S&M. This is not artist-wide approval.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Shared dancing, freedom and intimacy through the night. Individual earlier room Keeps share a credited artist: S&M. This is not artist-wide approval. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:0bhnFakmRioZbuQcmhVwoH",
+      "spotify_url": "https://open.spotify.com/track/0bhnFakmRioZbuQcmhVwoH",
+      "artist": "Kabin Crew, Lisdoonvarna Crew",
+      "artists": [
+        "Kabin Crew",
+        "Lisdoonvarna Crew"
+      ],
+      "artist_ids": [
+        "6BHou7i94KE1FpHgDVWZEK",
+        "7BUWoquo4gsA4kREUujbSi"
+      ],
+      "title": "The Spark",
+      "album": "The Spark",
+      "album_id": "6xNvkXuK0QL7vr9wEsCREW",
+      "duration_ms": 146384,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "IEACJ2400068",
+      "release_date": "2024-06-13",
+      "popularity": 65,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:0bhnFakmRioZbuQcmhVwoH",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 37,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "6BHou7i94KE1FpHgDVWZEK": {
+          "name": "Kabin Crew",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:17Z",
+          "fetched_at": 1793142797.5402172
+        },
+        "7BUWoquo4gsA4kREUujbSi": {
+          "name": "Lisdoonvarna Crew",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:19Z",
+          "fetched_at": 1793142799.600777
+        }
+      },
+      "youtube": {
+        "video_id": "TGpr_y3zwXQ",
+        "title": "The Spark",
+        "channel": "Kabin Crew - Topic",
+        "duration_seconds": 147,
+        "url": "https://www.youtube.com/watch?v=TGpr_y3zwXQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0bhnFakmRioZbuQcmhVwoH",
+        "observed_at": "2026-10-28T21:11:51Z",
+        "alternatives": [
+          {
+            "video_id": "QP0a5NLOUJQ",
+            "title": "Kabin Crew - The Spark (Lyrics)",
+            "channel": "Pizza Music",
+            "duration_seconds": 147,
+            "url": "https://www.youtube.com/watch?v=QP0a5NLOUJQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0bhnFakmRioZbuQcmhVwoH",
+            "observed_at": "2026-10-28T21:11:51Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Youthful creative confidence, collective energy and pursuing dreams.",
+        "source_url": "https://lrclib.net/api/get/16231346",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful creative confidence, collective energy and pursuing dreams.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful creative confidence, collective energy and pursuing dreams.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Youth-crew novelty: test once for playful bounce rather than assume it belongs in the final programme.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Youthful creative confidence, collective energy and pursuing dreams. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Youth-crew novelty: test once for playful bounce rather than assume it belongs in the final programme.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:3slgAd2EELiqksVXylL29c",
+      "spotify_url": "https://open.spotify.com/track/3slgAd2EELiqksVXylL29c",
+      "artist": "Avicii, Didrick",
+      "artists": [
+        "Avicii",
+        "Didrick"
+      ],
+      "artist_ids": [
+        "1vCWHaC5f2uS3yhpwWbIA6",
+        "5yHFElFCi9F3I316qLU0QA"
+      ],
+      "title": "Broken Arrows - Didrick Remix",
+      "album": "Broken Arrows (Remixes)",
+      "album_id": "3qmjJVxvSp5k7seea8z0PU",
+      "duration_ms": 175750,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "CHB701400346",
+      "release_date": "2015-12-04",
+      "popularity": 25,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved melodic dance and house",
+      "id": "spotify:track:3slgAd2EELiqksVXylL29c",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 38,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved melodic dance and house"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "1vCWHaC5f2uS3yhpwWbIA6": {
+          "name": "Avicii",
+          "genres": [
+            "edm"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.584857
+        },
+        "5yHFElFCi9F3I316qLU0QA": {
+          "name": "Didrick",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:17Z",
+          "fetched_at": 1793142797.1213188
+        }
+      },
+      "youtube": {
+        "video_id": "KiKEW38LL9A",
+        "title": "Broken Arrows (Didrick Remix)",
+        "channel": "Avicii",
+        "duration_seconds": 176,
+        "url": "https://www.youtube.com/watch?v=KiKEW38LL9A",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3slgAd2EELiqksVXylL29c",
+        "observed_at": "2026-10-28T21:11:51Z",
+        "alternatives": []
+      },
+      "mood_screen": {
+        "status": "positive_theme_source_reviewed",
+        "summary": "Hope, companionship and seeing beauty in another person’s difficulties.",
+        "source_url": "https://lrclib.net/api/get/20427026",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Hope, companionship and seeing beauty in another person’s difficulties.",
+      "selection_hypothesis": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Hope, companionship and seeing beauty in another person’s difficulties.",
+      "audition_risk": "Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "A smaller melodic dance/house group around the four exact Now U Do / Makeba / Joy / Kisses references and the previous individual dance Keeps. Vocal context: Hope, companionship and seeing beauty in another person’s difficulties. Audition risk: Reject bland drops and sparse repetition. No acid/techno; dated artist genre tags are not measured track genres. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:0QCIpQV3twfqo9kh0t8Zza",
+      "spotify_url": "https://open.spotify.com/track/0QCIpQV3twfqo9kh0t8Zza",
+      "artist": "MOLIY, Shenseea, Skillibeng, Silent Addy",
+      "artists": [
+        "MOLIY",
+        "Shenseea",
+        "Skillibeng",
+        "Silent Addy"
+      ],
+      "artist_ids": [
+        "2hVWBpjLW4Q7fboYz2pVYK",
+        "1OFOShsIbhy1l5x73yuVyB",
+        "5FkUhnHQ0KC63549LHHtst",
+        "2myuqB0gKAo75dE2eSWgzt"
+      ],
+      "title": "SHAKE IT TO THE MAX (FLY) - REMIX",
+      "album": "SHAKE IT TO THE MAX (FLY) (REMIX)",
+      "album_id": "7jhHpyhKorvt65mYvuhlBs",
+      "duration_ms": 178775,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "QZS7J2542546",
+      "release_date": "2025-02-21",
+      "popularity": 78,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved playful vocal personalities",
+      "id": "spotify:track:0QCIpQV3twfqo9kh0t8Zza",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 39,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved playful vocal personalities"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified",
+        "Explicit vocal: not a clean edit"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "2hVWBpjLW4Q7fboYz2pVYK": {
+          "name": "MOLIY",
+          "genres": [
+            "alté"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:11Z",
+          "fetched_at": 1793142791.196613
+        },
+        "1OFOShsIbhy1l5x73yuVyB": {
+          "name": "Shenseea",
+          "genres": [
+            "dancehall",
+            "soca",
+            "afrobeats"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:09Z",
+          "fetched_at": 1793142789.1463628
+        },
+        "5FkUhnHQ0KC63549LHHtst": {
+          "name": "Skillibeng",
+          "genres": [
+            "dancehall"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:15Z",
+          "fetched_at": 1793142795.774038
+        },
+        "2myuqB0gKAo75dE2eSWgzt": {
+          "name": "Silent Addy",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:11Z",
+          "fetched_at": 1793142791.197876
+        }
+      },
+      "youtube": {
+        "video_id": "awvG6RiENXg",
+        "title": "Shake It To The Max (FLY) (Remix)",
+        "channel": "MOLIY",
+        "duration_seconds": 179,
+        "url": "https://www.youtube.com/watch?v=awvG6RiENXg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0QCIpQV3twfqo9kh0t8Zza",
+        "observed_at": "2026-10-28T21:11:52Z",
+        "alternatives": [
+          {
+            "video_id": "DlFvQ5ZwwEQ",
+            "title": "Shake It To The Max (FLY) (Kalash & Maureen Remix)",
+            "channel": "MOLIY",
+            "duration_seconds": 182,
+            "url": "https://www.youtube.com/watch?v=DlFvQ5ZwwEQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0QCIpQV3twfqo9kh0t8Zza",
+            "observed_at": "2026-10-28T21:11:52Z"
+          },
+          {
+            "video_id": "yRxSADHa0nM",
+            "title": "Shake It To The Max (FLY) (Kalash & Maureen Remix) · MOLIY · Kalash · Maureen · Silent Addy",
+            "channel": "MOLIY and Silent Addy",
+            "duration_seconds": 182,
+            "url": "https://www.youtube.com/watch?v=yRxSADHa0nM",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0QCIpQV3twfqo9kh0t8Zza",
+            "observed_at": "2026-10-28T21:11:52Z"
+          }
+        ]
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners.",
+        "source_url": "https://lrclib.net/api/get/29274243",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners.",
+      "selection_hypothesis": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners.",
+      "audition_risk": "Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Develop the six previous playful-vocal Keeps: distinctive voices, physical bounce and confident hooks rather than another block of glossy EDM. Vocal context: Dancing, physical pleasure and self-confidence, with boastful dismissals of ex-partners. Audition risk: Reject chart-pop character or a chorus that gets tiring. Explicit desire is different from hostile or sad relationship themes. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    },
+    {
+      "spotify_uri": "spotify:track:7BNDyzwDboNRR2wmd7GSew",
+      "spotify_url": "https://open.spotify.com/track/7BNDyzwDboNRR2wmd7GSew",
+      "artist": "Bastille",
+      "artists": [
+        "Bastille"
+      ],
+      "artist_ids": [
+        "7EQ0qTo7fWT7DPxmxtSYEc"
+      ],
+      "title": "Of The Night",
+      "album": "All This Bad Blood",
+      "album_id": "5G6oMu9zNW2acdV0lqzI3L",
+      "duration_ms": 214205,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM71306498",
+      "release_date": "2013-01-01",
+      "popularity": 60,
+      "metadata_at": "2026-10-28T21:11:13Z",
+      "is_playable": true,
+      "lane": "Saved rhythmic bands and indie",
+      "id": "spotify:track:7BNDyzwDboNRR2wmd7GSew",
+      "room": "living-room",
+      "batch_id": "16",
+      "batch_name": "Batch 16 · Spark and sway",
+      "batch_rank": 40,
+      "origin": "Batch 16 · Spark and sway · individual exact recording",
+      "style": [
+        "Saved rhythmic bands and indie"
+      ],
+      "features": {},
+      "flags": [
+        "Full listening required: repetition, dead space and subjective room fit unverified"
+      ],
+      "verification": {
+        "source": "Spotify Web API exact-ID GET /tracks?market=US",
+        "observed_at": "2026-10-28T21:11:13Z",
+        "exact_uri_match": true,
+        "metadata_source": "Exact-ID catalog response; refreshed fields retained"
+      },
+      "artist_genres": {
+        "7EQ0qTo7fWT7DPxmxtSYEc": {
+          "name": "Bastille",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-27T23:13:19Z",
+          "fetched_at": 1793142799.6020758
+        }
+      },
+      "mood_screen": {
+        "status": "mixed_theme_source_reviewed",
+        "summary": "Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love.",
+        "source_url": "https://lrclib.net/api/get/21501551",
+        "observed_at": "2026-10-28T21:13:54Z",
+        "method": "Editorial interpretation of community lyric text, not exact-edit transcription or full listening. No lyric text reproduced."
+      },
+      "selection_reason": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love.",
+      "selection_hypothesis": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love.",
+      "audition_risk": "Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "editorial_note": "Expand the rhythm-led band comparison: four of the five previous band contrasts were kept, alongside the exact Float On/Bruises additions. Preserve strong melody and distinctive song identity. Vocal context: Communal rhythm, dancing and renewed affection, with passing loneliness and pleas for love. Audition risk: Reject sleepy stretches, overfamiliar radio character or a negative central narrative; a band sound alone is not approval. Familiar crossover or pop production: reject if it feels too radio-led for this room.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp"
+    }
+  ],
+  "spotify_playlist_id": "25k3WSpFCpOFcfiu0hhWQp",
+  "spotify_playlist_url": "https://open.spotify.com/playlist/25k3WSpFCpOFcfiu0hhWQp",
+  "spotify_playlist_name": "October Grove — Batch 16 · Spark and sway",
+  "spotify_verified_snapshot_id": "AAAAAVryoBXxpUfq9GujzcoFHWCZ0I41",
+  "spotify_order_verified_at": "2026-10-28T21:11:46Z",
+  "spotify_reports_public": true
+}

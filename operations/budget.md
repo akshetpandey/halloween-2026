@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • hook count reduced after weight check
+
+[Primary-source weight/spacing correction](../decor/bedroom/draping/09-hook-count-2026-10-29.md) replaces three 14-hook packs with **two / 28 hooks / $29.22** at prior $14.61 unit quote. Start 3 per blanket, fourth if needed;18–24 points. Saving **$14.61 merchandise / $15.93 with planning tax**. Quantity 2 delivery not freshly verified; Amazon human prompt prevented optional offer check, no click performed.
+
+[Current ledger](../decor/purchases-and-allocations-2026-10-29.json): six fleece/four moss still host-reported ordered (quoted merchandise value $199.90; actual paid unknown). **11 remaining core lines $247.71 + $22.29 aggregate 9% planning tax = $270.00**. Ordered quote value + remaining gives **$447.61 core merchandise**, about $487.89 with tax allowance. Local$105 and deferred lighting/power unchanged/excluded; earlier 42-hook totals below are history. No new purchase/test.
+
 ## Latest October 29 • two decor orders reported placed
 
 **Host reports fleece and moss orders placed**, recorded as six Black King 108 × 90 fleece and four Green 39 × 39 moss from immediate session quantities. [Purchase/allocation ledger](../decor/purchases-and-allocations-2026-10-29.json) marks **two ordered lines**; **$199.90 is their merchandise value at last quoted unit prices**, not an actual paid/settled total. Receipt tax/shipping/coupons/order-specific arrival unverified. No agent purchase.

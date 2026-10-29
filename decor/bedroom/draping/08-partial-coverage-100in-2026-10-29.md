@@ -1,5 +1,7 @@
 # Partial black fleece at approximately 100-in wall height — October 29, 2026
 
+**Latest mounting correction October 29:** [King listing 3.66 lb /fewer hooks](09-hook-count-2026-10-29.md). Use 3 per blanket to start,4 if needed; two 14-hook packs / 28 hooks supply 18–24 points with 4–10 spare for six ordered blankets. Earlier 36-point/ 42-hook allocation is historical. Purchase status/cloth cuts unchanged.
+
 **Purchase supersession, later October 29:** host confirms fleece and moss orders, recorded as **six King 108 × 90 fleece + four 39 × 39 moss** from session quantities. [Current purpose/allocation list](../../shopping-ready.md) replaces this four-fleece purchasing comparison. Six blankets remain wall material; initial 36 points within 42 hooks, 96 clips include six desk clips and 54 spares. No further fleece/moss order. Earlier quote math below is history; thin cloth still separately required. Actual charged totals/arrival/fit unverified.
 
 **Later October 29 moss supersession:** host now wants full kitchen counters plus 22 × 44-in coffee top and 20 × 40-in other top. [New scan derivation and four-sheet cuts](../../living-room/moss-surfaces-and-cuts-2026-10-29.md) replaces three-sheet and optional two-sheet moss scenarios below. Four-fleece comparison is now$418.24 / about $455.88 including planning tax; six-fleece cart comparison $462.22 / about $503.82, no purchase inferred. Original four-fleece source/coverage math below remains useful; later six-blanket full-coverage question was arithmetic, not an explicit confirmed scope switch.

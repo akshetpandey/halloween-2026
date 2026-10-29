@@ -45,25 +45,26 @@
       "product": "Command Large White Hooks / 14 hooks, 16 strips",
       "url": "https://www.amazon.com/dp/B075Y2M1Q5",
       "room": "The Hollow",
-      "purpose": "Anchor the six ordered fleece blankets to suitable bedroom surfaces. Three 14-hook packs = 42 hooks; initial 6 points per blanket = 36, leaving 6 spares. This is trial inventory, not a tested attachment design. Hooks stay on wall; binder-clip handles hang from them.",
-      "plannedTotalQuantity": 3,
+      "purpose": "Hollow fleece anchors: start3top points per90-in blanket, add a fourth where sag/edge coverage needs it. Six blankets use18–24hooks; two14-hook packs provide28, leaving4–10spares. Spacing/layout proposal, not a tested assembly; follow actual surface/prep/wait instructions. Quantity2 delivery not freshly checked, unit price retained from earlier quote.",
+      "plannedTotalQuantity": 2,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 3,
+      "stillToBuyQuantity": 2,
       "status": "to buy — not reported ordered",
       "lastQuotedUnitUsd": "14.61",
-      "plannedLineUsd": "43.83",
+      "plannedLineUsd": "29.22",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "quantity2DeliveryRechecked": false
     },
     {
       "id": "H25",
       "product": "Amazon Basics Medium 1.25-in binder clips / 96 Count",
       "url": "https://www.amazon.com/dp/B074XTRX7K",
       "room": "The Hollow + desk",
-      "purpose": "Grip fleece top edges and hang clips from large hooks. Initial 36 wall clips + 6 desk-skirt clips = 42 used, 54 spare from 96. Does not replace adhesive hooks; no extra binder-clip pack for desk.",
+      "purpose": "Grip fleece top edges and hang from large hooks.18–24wall clips plus6desk-skirt clips =24–30used,66–72spare from96. Pack quantity remains one; actual folded-edge grip still needs a panel trial.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
       "stillToBuyQuantity": 1,
@@ -242,11 +243,11 @@
   "costs": {
     "orderedMerchandiseAtLastQuotedPrices": "199.90",
     "actualPaidTotal": null,
-    "stillToBuyDecorMerchandise": "262.32",
-    "stillToBuyPlanningTax9pct": "23.61",
-    "stillToBuyWithPlanningTax": "285.93",
-    "wholeDecorOnlyMerchandise": "462.22",
-    "wholeDecorOnlyPlanningTax9pct": "41.60"
+    "stillToBuyDecorMerchandise": "247.71",
+    "stillToBuyPlanningTax9pct": "22.29",
+    "stillToBuyWithPlanningTax": "270.00",
+    "wholeDecorOnlyMerchandise": "447.61",
+    "wholeDecorOnlyPlanningTax9pct": "40.28"
   },
   "lightingDeferred": true,
   "localReuseAllowancesExcluded": true,
@@ -255,8 +256,28 @@
   "notes": [
     "Actual paid tax/ shipping/ coupons and order-specific arrival dates unverified.",
     "Six-fleece full-run purchase replaces prior four-fleece partial-only recommendation; no additional fleece or moss to buy.",
-    "Three hook packs support initial 36 fleece points plus 6 spares; 96 binder clips support 36 wall + 6 desk plus 54 spares.",
-    "Ordered goods and remaining decor sum 462.22 at last quoted prices; do not add earlier alternative baskets.",
+    "Two hook packs provide28hooks for18–24panel points plus4–10spares;96binder clips cover18–24wall +6desk with66–72spares.",
+    "Ordered goods and remaining decor sum 447.61 at last quoted prices; do not add earlier alternative baskets.",
     "Deferred lighting/ power needs a later refresh; local allowances are not stock quotes."
-  ]
+  ],
+  "mountingRevision": {
+    "date": "2026-10-29",
+    "blanketListedWeightLb": "3.66",
+    "blanketWeightSource": "https://www.amazon.com/dp/B08FYBWRQ1",
+    "hooksPerBlanketStart": 3,
+    "hooksPerBlanketIfSag": 4,
+    "blankets": 6,
+    "pointRange": [
+      18,
+      24
+    ],
+    "hookPackCount": 2,
+    "hooksPerPack": 14,
+    "spareHookRange": [
+      4,
+      10
+    ],
+    "physicalTestPassed": false,
+    "note": "Agent spacing correction after host questions six hooks. Listed weight checked live, not a physical weighing. Capacity not additive. New quantity2 stock/delivery unverified; optional hook visit hit human prompt."
+  }
 }

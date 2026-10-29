@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • fewer fleece hooks recommended
+
+**Host asks:** whether six 5-lb hooks per blanket are necessary. Agent corrects the prior spacing allowance after verifying purchased King listing **3.66 lb**. [New recommendation](../decor/bedroom/draping/09-hook-count-2026-10-29.md):3 points each, fourth where needed; **two 14-hook packs / 28 hooks** for 18–24 points,4–10 spare. This is a practical spacing proposal, not a manufacturer blanket assembly rating or new host-confirmed purchase. Capacity not additive; actual grip/substrate/sag still need trial. Purchase status unchanged; no extra clips or lights selected.
+
 ## Latest October 29 • fleece and moss ordered, annotate all purchase purposes
 
 **Confirmed host:** “those twoorders are placed” after the fleece 6 and moss 4 discussion, then asks to update the buying list with exactly what each item is for. Record **six Black King 108 × 90 wall fleece and four Green 39 × 39 moss sheets ordered, host reported**, with quantities from immediate session context; no receipt/arrival/physical-test verification. [Current list](../decor/shopping-ready.md) now gives room, quantity, purpose and shared allocation for ordered goods, 11 remaining core decor lines, local/reused materials and deferred lighting. Initial wall mounts 36 within 42 hooks; 96 binder clips cover 36 wall + 6 desk with 54 spares. No additional moss/fleece, no agent order or newly selected lighting.

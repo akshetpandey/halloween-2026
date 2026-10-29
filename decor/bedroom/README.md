@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 ordered status:** host confirms the fleece order, recorded as **six Black King 108 × 90-in blankets** from the immediate session quantities. All six are allocated to Hollow wall/window coverage; 108 in vertical for ~100-in wall, 90 in across, no pleating. Three hook packs / 42 hooks support initial 36 points plus 6 spares; 96 binder clips cover 36 wall + 6 desk with 54 spares. [Purpose buying list](../shopping-ready.md) · [Purchase ledger](../purchases-and-allocations-2026-10-29.json) · [Handoff](../handoff-2026-10-29-purchases-and-purpose.md). Thin furniture cloth, rug and Guardian stand remain to buy; lights later. Ordered is not received/tested. Earlier four-fleece partial comparison is superseded for purchasing.
+**October 29 current mounting recommendation:** six fleece/four moss remain host-reported ordered. [Listed King blanket weight 3.66 lb and spacing correction](draping/09-hook-count-2026-10-29.md): start 3 hooks per 90-in blanket, add a fourth for sag/edges. **Two 14-hook packs / 28 hooks** cover 18–24 points with 4–10 spares;96 binder clips cover panels + six desk clips with 66–72 spares. [Current buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-fewer-hooks.md). Earlier 36-point allocation superseded. Quantity 2 delivery not newly verified; physical mount/fit tests remain.
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

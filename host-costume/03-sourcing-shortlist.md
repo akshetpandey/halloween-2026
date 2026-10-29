@@ -2,11 +2,11 @@
 
 ## Current scope • October 29
 
-**Latest requested render / repair:** [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the completed private clean-shaven brown-mantle preview and the host's two broken crown fragments. Exact crown listing confirms PLA; gel CA recommended for snug decorative breaks, full 24-hour cure, no physical repair/test. Brown / Small mantle offer refreshed about 4 p.m. before rendering. Glue product-page delivery blocked/unverified; no Friday glue guarantee or new purchase.
+**Latest requested render / repair:** mesh rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the revised opaque-black-top preview, exact Small black top price/Friday delivery verification, and the host's two broken crown fragments. Crown listing confirms PLA; gel CA recommended for snug decorative breaks, full 24-hour cure, no physical repair/test. Glue exact delivery unverified; no new purchase.
 
-**Current practical source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) recommends **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP, $13.16, In Stock / free Friday October 30**, exact offer checked October 29 to Brooklyn 11211. Finished garment over owned mesh/crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. Two Friday-ready gold appliqué alternatives inspected but weaker stylistic/attachment choices; no item selected or ordered.
+**Mantle source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP** comparison and October 29 Friday-offer check. Current preview pairs it with the opaque top in 26 and reuses crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. No new garment order reported.
 
-**Feathers rejected; fur too hot; no large antlers/full-face covering.** [24](24-party-reference-led-direction-2026-10-27.md) retains the lookbook/guardian study; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older JEMITOP Burgundy/Small source, not a purchase or refreshed offer. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. Fit untested; no seller follow-up/return/new render.
+**Feathers and mesh rejected; fur too hot; no large antlers/full-face covering.** [24](24-party-reference-led-direction-2026-10-27.md) retains the lookbook/guardian study; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older JEMITOP Burgundy/Small source, not a purchase or refreshed offer. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. Fit untested; no seller follow-up/return.
 
 ## Historical sourcing • through October 23
 

@@ -1,14 +1,20 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–L use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–M use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** L below shows the host-requested brown mantle with mesh / compact crown / torc / cuffs / green trousers, clean-shaven. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns private output/source refresh and broken-crown repair advice. [24](24-party-reference-led-direction-2026-10-27.md) retains the party reference study; K's feather upgrade remains rejected. Preview does not establish an actual repaired crown, garment purchase or fit.
+**Latest October 29:** mesh rejected; M below replaces it with a sourced opaque black cotton sleeveless top. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the current source, private output and crown repair advice. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Preview does not establish a repaired crown, garment purchase or fit.
+
+## M Brown leaf mantle with opaque black top
+
+Requested/completed October 29 after the host rejects mesh. One built-in imagegen edit of L's clean-shaven final, using the actual Amazon Essentials Black / Small top photo. Exact variant stock and October 30 delivery verified before rendering; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#latest-revision-mesh-rejected-opaque-black-top) owns price/offer/provenance and private links. Same full-outfit/detail layout, brown mantle, compact crown, torc, cuffs, green trousers and clean-shaven likeness. Both torsos visually checked fully opaque, bare arms retained. No new order, physical repair or fit test. L's mesh is superseded; personal assets/prompts remain ignored.
 
 ## L Brown leaf mantle with reused pieces
+
+**Later October 29: mesh rejected; see M for the opaque-top revision.**
 
 Requested/completed October 29 after exact Brown / Small Amazon Friday delivery refresh. Two built-in imagegen edits: replace fur with the real matte brown leaf capelet and expose black mesh/bare arms, then remove remaining beard shadow only. Full outfit and matching detail, 1536 × 1024. Earlier personalized final supplied user likeness; actual mantle/crown/torc/cuff product photos supplied objects. Original uploaded photo no longer present. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) links the private final and exact prompts, all Git-ignored. No new purchase, extra accessory, makeup, veil, fur, feathers, large antlers or physical test. Crown shown intact as intended styling; user reports two small broken pieces and repair remains pending.
 

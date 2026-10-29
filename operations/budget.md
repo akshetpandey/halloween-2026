@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## October 29 • decor-only next-day order batch
+
+Host requests tomorrow-delivery decor first and defers lighting. [Verified twelve-line batch](../decor/research/decor-order-tomorrow-2026-10-29.md) **$462.86 merchandise + $41.66 aggregate 9% planning tax = approximately $504.52**, excluding any checkout shipping/price change. It includes full five-source fleece, thin cover two-pack, retained mounts/moss/ivy, tape/ties, bathroom curtain/vine and a **$75.99 Rugflix 8×10 replacement**. Original rug $83.99 now Nov 1; original Pyle $34.99 stand Oct 31. Replacement InnoGear search quote $29.99/Oct 30 is **not yet detail-verified**, excluded from this batch/total.
+
+This is an urgent **subset of the existing decor plan**, not extra spend on top of it and not a newly complete all-decor/party estimate. Dedicated light fixtures, DMX, power supplies and other old lighting quotes remain unrefreshed/deferred. Local pumpkin/craft allowances not counted in $462.86. [Exact refreshed quotes](../decor/research/decor-nextday-2026-10-29.json). No real cart/order/payment by agent; host recent order status not audited. Reconcile actual receipts when supplied; ceiling unchanged. Older models below retain dated scope/accounting, not current delivery claims.
+
 ## October 27 • DMX fill and cheaper effect-panel comparisons
 
 **Confirmed host:** no moving heads; all fixtures/laptop within five feet. Original OPPSK user-reported ~$165 coupon was rechecked as **$165.59 displayed, unchecked**. Existing conservative selected OPPSK-only baseline remains $1,242.04 at $179.99 list; if coupon applies, **$1,226.35** ($937.08 products / $93.79 planning tax). No new exact panel/fill selection or purchase yet.

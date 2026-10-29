@@ -1,4 +1,14 @@
-# House decor shopping plan — October 27, 2026
+# House decor shopping plan — October 29, 2026
+
+## Current priority: decor arriving Friday October 30
+
+Host asks to order tomorrow-delivery **decor first; lighting later**. Use the [verified 12-line order-now list](research/decor-order-tomorrow-2026-10-29.md): **$462.86 merchandise**, approximately **$504.52 with 9% planning tax**. All twelve product-page offers were checked in signed-in Chrome on October 29 at planned quantities, including five fleece, four hook packs, three moss sheets and three decorating-clip packs. Moss has the shortest displayed cutoff; order it first and recheck **October 30** in checkout. Quantities are planned totals; omit anything already ordered.
+
+Original Bitter Black rug now shows **November 1**; proposed same-size low-pile replacement is **Rugflix 8×10 / 03-black Grey / $75.99 / Oct 30**. Original Pyle stand shows **October 31**. A $29.99 InnoGear search-result alternative is still **detail-unverified behind Amazon’s human checkbox**, excluded from the order-now total. No agent cart additions/purchases. Recent host orders have not been audited. [Exact quote data](research/decor-nextday-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-nextday-decor.md).
+
+## October 27 baseline and lighting comparisons — historical delivery dates
+
+The remainder preserves earlier planned scope and accounting. Its arrival dates and unrefreshed lighting prices are **not current October 29 order guidance**; it is not an additional order on top of the current decor-only batch.
 
 **Latest research — moving heads definitively dropped; compact DMX fills proposed:** [fill and effect-panel value comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md). Host confirms all lights/laptop within five feet. Recommended LF105 + LPC018 two-pack + six-foot links gives **$1,214.73** whole decor; OPPSK384 coupon alternative **$1,232.76**; original OPPSK coupon plus fills **$1,299.36**. These upgrades await exact panel/fill selection; the previously selected 23-line OPPSK-only baseline below stays conservative at list price. All new recommended items showed Oct 29 in Chrome. No purchases.
 
@@ -6,7 +16,7 @@
 
 **Whole-decor estimate $1,242.04**, including local allowances, planning tax, shipping and buffer; **$357.96 below the approximately $1,600 ceiling**. This is the selected **23-product-line basket**, using the interface’s included 5.9-ft lead. It saves **$29.42 including planning tax** against the earlier extension-included plan. Scenery products retain the earlier October 27 Chrome estimates of Oct 29–30; OPPSK/panel/fill/cable offers and coupons were refreshed in the latest linked research. Dates remain conditional estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
 
-## Exact current products and quantities
+## Earlier selected baseline products and quantities (October 27)
 
 | ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Arrival estimate |
 |---|---|---:|---:|---:|---|

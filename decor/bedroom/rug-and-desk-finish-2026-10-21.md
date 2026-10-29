@@ -1,5 +1,7 @@
 # Hollow larger rug and desk finish — updated October 23, 2026
 
+**October 29 delivery correction:** original Bitter Black 8×10 now shows **November 1**. Proposed timely alternative: **Rugflix 8×10 / 03-black Grey / B0FKN3M32V / $75.99 / Oct 30**, verified in Chrome. [Exact tomorrow list and photo evidence](../research/decor-order-tomorrow-2026-10-29.md). Same nominal rug footprint, different black/grey abstract pattern; received pile/backing/door/grip still need checking and do not inherit the original product’s 0.24-in/TPR specifications. Earlier product quote below is historical. No agent purchase or physical test.
+
 **Confirmed host:** bigger carpet to cover a large floor area; accepts black fleece with only mild curtain-like sound softening. Keep accepted upright-bed/guardian/automated-desk arrangement. No human DJ; two small speakers on desk. No purchases or traction/door/installation tests.
 
 ## Larger rug proposal: 8 × 10 ft

@@ -1,6 +1,6 @@
 # The Rootkeeper — automated desk guardian
 
-**October 27 sourcing/value proposal:** [current basket/comparison](../shopping-ready.md) replaces dated offer timing. Stand shows Oct 30; raven pendants show Nov 7–9. Proposed timely dressing uses painted card/kraft relics from shared craft materials instead of the two pendants, keeping bark face/crown, black body and warm eyes. Two PAR washes newly recommended, pending host choice; OPPSK-only priced separately. No game identity/count, purchase or stability test changed.
+**October 29 next-day sourcing:** original Pyle single stand now shows **Oct 31** and is excluded from the [verified tomorrow order](../research/decor-order-tomorrow-2026-10-29.md). InnoGear MS250 appears $29.99/Oct 30 in search but detail verification awaits Amazon’s human checkbox; **do not treat it as stock/delivery-confirmed**. Shared body cloth, ties, gaffer and moss are tomorrow-verified. Reuse clean corrugated packaging/kraft and source paints/PVA locally. Lighting deferred by host; build targets below remain untested, with original stand quotes historical.
 
 Updated October 23, 2026. **Recommended construction, not built or tested.** A handmade bark-spirit bust with a branching crown, glowing eyes and a thin black-cloth body, pretending to operate the automated desk. No human DJ or animatronic mechanism. The large creature in the mood image is a texture/light reference; this build is shallow enough for the accepted apartment layout, subject to the actual mockup.
 

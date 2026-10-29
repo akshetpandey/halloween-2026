@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 27 latest: host confirms **no moving heads** and a **within-five-foot light/laptop cluster**. [New DMX fill/panel comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md) recommends a Betopper LPC018 pair with a cheaper LF105 panel; OPPSK384 is the direct-zone step-up. New product choices remain proposals. [Single shopping list](shopping-ready.md) separates the selected original-OPPSK baseline, confirmed coupon and proposed upgrade costs. [Accepted USB-C setup](lighting/oppsk-usb-dmx-2026-10-27.md) retained; no long extensions, orders or physical tests. [Latest handoff](lighting/handoff-2026-10-27-fill-and-panel.md).
+October 29 latest: **decor ordering first, lights deferred**. [Verified order-now list for Friday October 30](research/decor-order-tomorrow-2026-10-29.md) checks twelve product lines at planned quantities, with a timely replacement 8×10 rug; original Pyle stand is late and its replacement detail check awaits Amazon’s human checkbox. [Shopping index](shopping-ready.md) separates this $462.86 merchandise batch from older lighting/budget history. No agent orders or physical tests; [handoff](handoff-2026-10-29-nextday-decor.md).
 
 | Room / deliverable | Current source |
 |---|---|

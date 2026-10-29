@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## Latest October 29 • order tomorrow-delivery decor first
+
+**Confirmed host:** ordering has been slow; check what can arrive tomorrow so host can order immediately, focusing on decor and leaving lighting for later. Target **Friday October 30, 2026**. No lighting product choice, cancellation or purchase authorized/performed by this request.
+
+[Fresh decor source check](../decor/research/decor-order-tomorrow-2026-10-29.md) verifies twelve lines at planned total quantities, $462.86 merchandise. Original rug now Nov 1; same-size low-pile Rugflix Black Grey $75.99/Oct 30 is a timely substitute proposal. Pyle stand Oct 31; InnoGear $29.99/Oct 30 only search-level evidence pending Amazon human check; excluded from verified total. Fabric cut/nesting, corner furniture layout, forest surfaces and Guardian build intent retained; no physical tests/host-order audit. No agent cart additions/orders. Lighting remains deferred, not removed from the intended scene.
+
 ## Latest October 27 • no movers; compare compact DMX fills and cheaper panels
 
 **Confirmed host:** “lets not have the moving heads”; asks for best cost/performance wired-DMX fill like Betopper link and alternatives to original OPPSK's coupon price; subsequently confirms all light fixtures/laptop within five feet. Native USB-C lead retained, no long extension. No new exact fixture selection or purchase authorization inferred.

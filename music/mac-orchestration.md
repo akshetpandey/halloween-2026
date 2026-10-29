@@ -56,6 +56,19 @@ Remaining digital connection proposals, **not purchased or tested**:
 
 Optical avoids Bluetooth encoding and the analog headphone/AUX conversion path; it does not promise a cure for weak bass, an unpaired subwoofer, unsuitable processing or acoustic cancellation. Preserve the distinct room briefs while evaluating mirror playback. Once basic sound quality is established, verify rekordbox PC MASTER OUT with **DDJ-FLX4 MASTER + the selected Mac output**, retain FLX4 PHONES for cueing, and check both physical outputs and latency at low level. [Mac output setup](https://support.apple.com/guide/audio-midi-setup/set-up-audio-devices-ams59f301fda/mac) · [Current handoff](handoff-2026-10-29-flx4-hdmi.md).
 
+### Proposed USB-speaker / optical mirror · October 29
+
+The host is considering a USB-C-to-TOSLINK adapter plus an AUX backup and reports that the two-channel speakers have a **Micro-B USB input**, allowing a possible FLX4 bypass. No purchase, USB connection or successful mirror is confirmed. Audioengine HD3 was previously observed as a paired Bluetooth device; the physical speaker model should be confirmed before treating that identification as certain. Audioengine documents the original HD3 Micro-USB audio input, plug-and-play Mac support and 16-bit / up-to-48-kHz operation. [HD3 USB specifications](https://audioengineeu.com/support/hd3-usb-specifications/) · [USB format guidance](https://audioengineeu.com/support/when-using-the-usb-input-of-the-hd3-what-sample-rate-and-bit-depth-should-i-set-my-system-to/).
+
+Proposed wiring for **the same finished stereo mix**:
+
+- Mac USB → data-capable Micro-B cable → speakers' USB audio input.
+- Mac USB-C → macOS-compatible USB-audio-to-TOSLINK **output/transmitter** → full-size TOSLINK cable → AX5125H OPTICAL. An integrated USB-to-optical cable may already provide the optical lead; verify the actual listing. Stereo PCM48 support is the relevant requirement. A stereo 3.5 mm TRS male-to-male AUX cable is a proposed fallback, not evidence that AUX quality is resolved.
+
+Once both devices are present, create a macOS **Multi-Output Device**, select the two wired USB audio outputs, and set both to 48 kHz within their bit-depth capabilities. Use the wired speaker interface as primary and enable drift correction for the other independent clock where available. Select that combined output in the playback app/system. [Apple multi-output instructions](https://support.apple.com/en-ca/guide/audio-midi-setup/ams7c093f372/mac).
+
+This makes the DDJ optional for finished-premix playback. It does not import editable REAPER automation into rekordbox, create two different musical programmes, or guarantee matching acoustic timing. Clock drift correction does not compensate for soundbar DSP delay; bar-alone quality and combined listening tests remain necessary. With USB speakers bypassing FLX4, its MASTER knob no longer controls those speakers. Test player pause/volume and each system's own volume before replacing the existing manual quiet fallback. Hardware configuration, optical quality and full-duration operation are not yet tested.
+
 ## Volume and automation boundaries
 The DDJ/amp route and Google Home route each need their own tested lowering/stop control. If the bar is used, include it as a third control path. A macOS volume command may not attenuate a directly addressed DJ device or HDMI output.
 

@@ -1,14 +1,14 @@
 # The Hollow · bedroom rave programme
 
-Updated October 28, 2026, completed shared reviews. **[Batch 10 · After-dark momentum](the-hollow-batch-10.md)** is the current published/imported 50-track saved-source audition. All earlier reviews are complete; current approvals, durations and targets are in the [shared status](../curation-status-2026-10-28.md). Auditions are comparison pools, not approved running orders.
+Updated October 29, 2026, completed shared reviews. **[Batch 11 · Pressure and pulse](the-hollow-batch-11.md)** is the current published/imported 50-track audition: ten saved recordings plus 40 targeted discoveries, authorized after the remaining Likes thinned. Hollow 10 finished 15/50 Keep. All earlier reviews are complete; **198 shared Keeps / 11:58:23 raw**, about **22 more approvals** toward the working 220-track target. [Current counts, cut scenarios and targets](../curation-status-2026-10-29.md). Auditions are comparison pools, not approved running orders.
 
-[Review Batch 10](https://music.hollow-court.com/?room=bedroom&batch=hollow-10) · [Exact data](the-hollow-batch-10.json) · [Current handoff](../handoff-2026-10-28-room-batches-16-10.md)
+[Review Batch 11](https://music.hollow-court.com/?room=bedroom&batch=hollow-11) · [Exact data](the-hollow-batch-11.json) · [Current handoff](../handoff-2026-10-29-room-batches-17-11.md)
 
 ## Current host brief
 
 **Techno, tech house, DnB, acid and trance: high energy, bouncy, hard, dark and fast underground rave vibes**, with varied established producers and selected new leads. Select individual engaging tracks; no album blocks, standalone intros/interludes/outros or long repetitive stretches. Club drum passages can support transitions, but approval does not commit us to full-length playback. The Grove is happy, hopeful and loving; preserve a clear contrast, with only limited house overlap.
 
-**Source correction:** use current Liked Songs, then the room brief and canonical shared votes. [Batch 10](the-hollow-batch-10.md) follows the completed hard-techno/rave successes, keeps three DnB comparisons, reduces ordinary tech house/fast-bass probes and includes only two bounded psytrance comparisons. These editorial lanes are not measured genres or host-wide genre approvals/bans. A Like is source preference, not party approval. Verify original saved identities for market relinks, exclude prior reviews and keep credited artist/album appearances at two. Artist genres, editorial lanes and actual audio analysis remain separate.
+**Source correction:** source current Liked Songs first, then the room brief and canonical shared votes. On October 29 the host explicitly authorized targeted discovery to fill both rooms to 50 after the remaining saved pool thinned. [Batch 11](the-hollow-batch-11.md) expands driving techno, acid and hard bounce after those lanes led the previous results; there is no DnB or ordinary tech-house probe in this round. The broader room brief is unchanged. Editorial lanes are not measured genres or artist-wide approvals. Verify original saved identities for market relinks, exclude prior reviews and keep credited artist/album appearances at two. Artist genres, editorial lanes and actual audio analysis remain separate.
 
 ## Listen, vote, then sequence
 
@@ -18,7 +18,7 @@ After feedback, source the next batch in the successful lanes and reduce bright/
 
 ## Runtime and readiness
 
-Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 28 status](../curation-status-2026-10-28.md). Raw duration is not finished time after cuts/overlaps. The current 50 candidates total **2:51:06 raw**, excluded from approved programme time until kept. Actual finished chapters decide readiness.
+Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 29 status](../curation-status-2026-10-29.md). Raw duration is not finished time after cuts/overlaps. The current 50 candidates total **3:21:47 raw**, excluded from approved programme time until kept. Actual finished chapters decide readiness.
 
 The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 
@@ -28,7 +28,7 @@ The host chose a **premixed bedroom set** after clarifying there will be no huma
 
 The [preparation tool](premix/README.md) exports canonical shared bedroom Keeps (host priority) to JSON/CSV and a verified-file M3U8, read-only. The earlier preparation export lists 161 Keeps and zero verified production-file bindings. The native builder/renderer now works with a [19:42 real-audio audition](premix/AUDITION-01.md) as well as synthetic fixtures. The host said the mix sounds great on October 25; six sample tracks are now Keeps and six Cuts, so production must replace the Cuts. The [audio-intelligence planner](premix/MIX-PLANNER.md) and [phrase/loop/EQ/ducking extension](premix/TRANSITION-AUTOMATION.md) are implemented and tested without a new render. Approved production files, missing vocal/phrase evidence, final sound checks, nine hours and device tests remain. Shorten repetitive sections on verified phrase boundaries and keep the best hooks/builds/drops. The agent handles checks/revisions without treating unrated tracks as approved. DJ.Studio at the host's quoted $20/month remains a fallback for a demonstrated blocker.
 
-The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](../handoff-2026-10-28-room-batches-16-10.md).
+The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine/interface comparison](research/auto-dj-products-2026-10-19.md), [control API evidence](research/adaptive-dj-control-interfaces-2026-10-19.md) and [crowd-response research](research/crowd-responsive-dj-2026-10-19.md) remain historical research. The [local-file analysis workflow](research/local-track-analysis-2026-10-19.md) still informs preparation. [Current handoff](../handoff-2026-10-29-room-batches-17-11.md).
 
 ## Next checks
 

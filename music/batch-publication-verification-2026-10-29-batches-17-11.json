@@ -1,0 +1,139 @@
+{
+  "verified_at": "2026-10-29T21:42:13Z",
+  "verified_at_new_york": "2026-10-29T17:42:13-04:00",
+  "total_records": 1433,
+  "rooms": {
+    "living-room": {
+      "records": 883,
+      "votes": {
+        "down": 706,
+        "up": 127,
+        "unrated": 50
+      },
+      "approved_raw_duration_ms": 25345244,
+      "batch_id": "17",
+      "batch_count": 50,
+      "batch_raw_duration_ms": 9725830,
+      "batch_playlist_url": "https://open.spotify.com/playlist/5JLL3BG3h2OYGbw6uZVitb",
+      "metadata_coverage": {
+        "reccobeats": 49,
+        "youtube_candidates": 47,
+        "artist_genres_nonempty": 20,
+        "artist_lookups_complete": 50,
+        "lyric_context": {
+          "positive_theme_source_reviewed": 35,
+          "mixed_theme_source_reviewed": 15
+        }
+      },
+      "exact_hosted_track_readback": true,
+      "all_new_unrated": true,
+      "artist_caps": 2
+    },
+    "bedroom": {
+      "records": 550,
+      "votes": {
+        "up": 198,
+        "down": 302,
+        "unrated": 50
+      },
+      "approved_raw_duration_ms": 43102744,
+      "batch_id": "hollow-11",
+      "batch_count": 50,
+      "batch_raw_duration_ms": 12107135,
+      "batch_playlist_url": "https://open.spotify.com/playlist/2SkpiscJkYFMhz7HBsWSJf",
+      "metadata_coverage": {
+        "reccobeats": 26,
+        "youtube_candidates": 43,
+        "artist_genres_nonempty": 48,
+        "artist_lookups_complete": 50
+      },
+      "exact_hosted_track_readback": true,
+      "all_new_unrated": true,
+      "artist_caps": 2
+    }
+  },
+  "source": {
+    "grove": {
+      "selected_count": 50,
+      "saved_count": 8,
+      "targeted_discovery_count": 42,
+      "original_identity_membership_rechecked": true,
+      "relinked_selected": 1
+    },
+    "hollow": {
+      "selected_count": 50,
+      "saved_count": 10,
+      "targeted_discovery_count": 40,
+      "original_identity_membership_rechecked": true,
+      "relinked_selected": 1
+    }
+  },
+  "imports": {
+    "living-room": {
+      "verified_at": "2026-10-29T21:41:22Z",
+      "mode": "atomic_append",
+      "old_track_records_unchanged": 1333,
+      "new_track_records_exact": 50,
+      "new_unrated": 50,
+      "old_tables_preserved": {
+        "feedback": true,
+        "host_feedback": true,
+        "reviewer_feedback": true,
+        "reviewer_scores": true,
+        "settings": true,
+        "snapshots": true,
+        "events": true
+      },
+      "old_events_preserved_as_prefix": true,
+      "sqlite_integrity": "ok",
+      "online_backup_created": true,
+      "server_restart_required": false,
+      "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+    },
+    "bedroom": {
+      "verified_at": "2026-10-29T21:41:22Z",
+      "mode": "atomic_append",
+      "old_track_records_unchanged": 1383,
+      "new_track_records_exact": 50,
+      "new_unrated": 50,
+      "old_tables_preserved": {
+        "feedback": true,
+        "host_feedback": true,
+        "reviewer_feedback": true,
+        "reviewer_scores": true,
+        "settings": true,
+        "snapshots": true,
+        "events": true
+      },
+      "old_events_preserved_as_prefix": true,
+      "sqlite_integrity": "ok",
+      "online_backup_created": true,
+      "server_restart_required": false,
+      "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+    }
+  },
+  "container_ids_and_start_times_unchanged": true,
+  "no_restart": true,
+  "no_published_host_ports": true,
+  "sqlite_integrity": "ok",
+  "recording_exclusion_checks": "100 new URIs/ISRCs/same-artist base titles checked against all 1,333 prior records, the old 140-track pool and one another",
+  "tests": {
+    "atomic_importer_python": 7,
+    "node_filter_player_review": 21
+  },
+  "authenticated_browser_check_this_turn": false,
+  "spotify_main_playlists_changed": false,
+  "spotify_global_likes_changed": false,
+  "playback_configuration_changed": false,
+  "private_data_exported": false,
+  "main_grove_readback": {
+    "track_count": 50,
+    "raw_duration_ms": 11115867,
+    "current_keeps": 45,
+    "current_cuts": 5,
+    "approved_outside_main": 82,
+    "order_read_at": "2026-10-29T21:42:40Z",
+    "spotify_playlist_url": "https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf",
+    "changed_this_turn": false
+  }
+}

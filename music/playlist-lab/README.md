@@ -1,14 +1,16 @@
 # Playlist Lab
 
-**Shared voting is live · October 28:** your friend’s choices now count toward approvals and future-batch taste feedback whenever the host is unrated. The host’s Keep/Cut/Maybe wins on disagreement. Existing votes added **23 Keeps / 24 Cuts** and retained **99 host disagreements**; all individual history remains. [Current shared counts and targets](../curation-status-2026-10-28.md) · [Deployment/rollback handoff](handoff-2026-10-28-shared-votes.md).
+**October 29 current batches:** [Grove 17](https://music.hollow-court.com/?room=living-room&batch=17) and [Hollow 11](https://music.hollow-court.com/?room=bedroom&batch=hollow-11), 50 new candidates each, are live. Shared Keeps: **127 Grove / 198 Hollow**. The host authorized targeted discovery to fill 50 after the remaining Likes thinned: 18 saved recordings plus 82 discoveries total. Atomic appends preserved all old feedback/history and kept both containers running. Seven importer tests and 21 Node tests passed. [Current counts/targets](../curation-status-2026-10-29.md) · [Publication handoff](../handoff-2026-10-29-room-batches-17-11.md).
+
+**Shared voting is live · October 28:** your friend’s choices now count toward approvals and future-batch taste feedback whenever the host is unrated. The host’s Keep/Cut/Maybe wins on disagreement. Existing votes added **23 Keeps / 24 Cuts** and retained **99 host disagreements**; all individual history remains. [Current shared counts and targets](../curation-status-2026-10-29.md) · [Deployment/rollback handoff](handoff-2026-10-28-shared-votes.md).
 
 **Disagreement review · October 28:** the [Disagreements filter](https://music.hollow-court.com/?room=living-room&filter=disagreements) and individual vote panel are live, with **99 Grove / zero Hollow** disagreements at verification. [Verification and handoff](handoff-2026-10-28-disagreements.md). The panel identifies each voter within the signed-in review service; real account identifiers stay out of Git.
 
-Current auditions remain [Grove 15](https://music.hollow-court.com/?room=living-room&batch=15) and [Hollow 09](https://music.hollow-court.com/?room=bedroom&batch=hollow-09). At the verified October 28 snapshot, Grove has **132 Keeps / three pending** and Hollow **168 Keeps / 36 pending**. No new batch or Spotify sync. Existing pages need one reload for the shared controls/save protocol. **Refresh votes** loads others’ latest choices; notes and scores stay personal.
+Earlier October 28 shared-vote deployment snapshot: Grove 15 and Hollow 09 were the auditions then; those counts are historical. Current review batches and totals are above. **Refresh votes** loads others' latest choices; notes and scores stay personal. The October 29 append did not restart the service or rotate CSRF.
 
 Source preference and party approval remain separate. Default future batches to current Liked Songs, then apply room brief, shared votes and exclusions. Original saved identities are checked for market relinks. Source exports, per-track membership/save timestamps, feedback, full lyrics and credentials stay private/ignored. Grove 15 retains 38 ReccoBeats records and 40 video candidates; unknown metrics/lyrics stay unknown, with no manual six-field entry required. Its Spotify audition reports public despite private requests; Access protects the review service and votes.
 
-All 59 Python tests passed in Docker, including hosted JWT dependencies; nine Node filter/action tests passed. A real-data-clone migration and live preservation readback passed. Host Chrome verified shared counts, a friend-sourced Keep while personally unrated, Needs review, personal note/control state and both room totals without production test votes or playback. [Hosting](HOSTING.md).
+At the October 28 shared-vote deployment, all 59 Python tests passed in Docker, including hosted JWT dependencies; nine Node filter/action tests passed. A real-data-clone migration and live preservation readback passed. Host Chrome verified shared counts, a friend-sourced Keep while personally unrated, Needs review, personal note/control state and both room totals without production test votes or playback. [Hosting](HOSTING.md).
 
 A Python tool for persistent votes, embedded listening, sourced metadata and exact Spotify API playlist management. Hosted state is separate from the older local database; physical speaker playback remains untested.
 
@@ -36,6 +38,8 @@ python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-1
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-13.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-14.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-15.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-16.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-17.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-01.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-02.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-03.json
@@ -45,6 +49,8 @@ python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-06.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-07.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-08.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-09.json
+python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-10.json
+python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-11.json
 python3 music/playlist-lab/lab.py serve
 ```
 

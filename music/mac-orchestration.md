@@ -1,14 +1,14 @@
 # Mac orchestration • music, Jellyfin, volume
-Status: REAPER 7.82 installed; approved-crate code and [synthetic native cut/transition/render proof](bedroom/premix/REAPER-PROOF.md) passed. The isolated REAPER task profile has no hardware input/output device; no speaker playback or physical device control tested.
+Status: October 29 HDMI troubleshooting is unresolved; see [current hardware checks](#october-29--ax5125h-hdmi-troubleshooting). REAPER 7.82, approved-crate code and [synthetic native cut/transition/render proof](bedroom/premix/REAPER-PROOF.md) passed. The isolated REAPER task profile has no hardware input/output device; successful combined speaker playback remains unverified.
 Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets passed without a recorded device test. Complete real-file preparation and the nine-hour combined rehearsal before treating the setup as ready.
 
 ## Audio topology · hardware confirmed, premixed playback chosen
 - **Bedroom:** Mac / finished local premix in a tested player → USB DDJ-FLX4 → both powered speakers, left/right. REAPER + Python is selected for preparation; REAPER is not required for event playback. Current brief spans techno, tech house, DnB, acid and trance; actual player/output routing still needs rehearsal.
 - **Living room:** Spotify → two Google Homes on Wi-Fi. Separate house/chill playlist; no DJ mixing required.
 - **TV:** Mac-hosted Jellyfin → TV client, visual programme muted. HDMI video from Mac remains a fallback.
-- **Soundbar:** owned Hisense 5.1.2. The host confirms it has already worked with this Mac when selected as the output in macOS Sound settings. Reuse that working connection; exact model is not a blocker. Party role is unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.
+- **Soundbar:** Hisense **AX5125H**, exact model confirmed October 29. Earlier host-reported Mac playback is historical; current direct-HDMI tests are silent. Its party role remains unresolved now the Google Homes cover living-room music. Proposed use: TV audio when wanted, otherwise muted during silent visuals.
 
-This supersedes the earlier plan to use the soundbar as the primary living-room music output. No macOS Multi-Output Device or rekordbox PC MASTER OUT is needed for these independent music zones. Keep PC MASTER OUT off in the proposed party configuration so bedroom music is not mirrored to the TV/bar. These hardware-routing settings have not been changed.
+This supersedes the earlier plan to use the soundbar as the primary living-room music output. No macOS Multi-Output Device or rekordbox PC MASTER OUT is needed for the independent room programmes. The host separately requested a simultaneous FLX4/soundbar mirror test on October 29; that test does not replace the two distinct musical briefs. PC MASTER OUT was observed off; successful mirroring is not yet verified.
 
 ## Google Home setup and control
 Use a speaker group named **October Grove** for synchronized playback on compatible Google speakers. If both are the same supported model, a stereo pair is also possible; confirm the actual models before choosing. A group favors broad room coverage; a stereo pair favors a defined listening position. [Google speaker groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Stereo pairing](https://support.google.com/googlehome/answer/7559493?hl=en-SG)
@@ -19,12 +19,24 @@ Create the group in Google Home on a phone/tablet. Link the intended Spotify acc
 
 Use the local rendered set for bedroom rehearsal. Do not rely on starting two unrelated Spotify streams with the same account. Device automation for the Google group is not yet implemented or proven; first establish a reliable manual route, then investigate a supported control interface.
 
-## Soundbar connection — confirmed by host
-The existing Mac-to-soundbar setup already plays audio when the Hisense is selected in macOS Sound settings. Keep that working cable/connection. No model photo, adapter purchase or new basic compatibility test is needed to proceed. The host previously proposed HDMI, but the exact physical wiring has not been documented.
+## Soundbar connection — earlier report, current fault
+The host previously reported Mac-to-soundbar playback working when selected in macOS Sound settings. That does not establish the current cable/topology works: October 29 direct-HDMI tests below are silent. The exact model and direct wiring are now documented.
 
 Selecting the bar establishes the Mac’s default audio output. The bedroom player must be tested with the DDJ output while Spotify plays independently on the Google Homes. Verify this combined configuration during rehearsal; the host’s successful soundbar playback does not yet confirm simultaneous routing or automatic volume control.
 
 For the planned muted films, leave their audio muted and let the Google Homes provide the living-room music. The bar could handle TV audio when wanted or a local chill backup; its party role remains open. If it is used, prevent Mac notifications from reaching it. Only revisit model/port details if the wiring needs to change or a problem appears.
+
+## October 29 · AX5125H HDMI troubleshooting
+
+Confirmed by the host: Mac HDMI output goes directly to the soundbar's **HDMI IN**; its HDMI OUT is not connected to a TV/monitor. All ordinary app audio is silent on that route. The host selected **HDMI IN** on the bar and confirmed the direct Left-speaker test in Audio MIDI Setup is also silent.
+
+Observed in the native macOS UI: **ITE-FHD (HDMI)** is the selected default output, unmuted; HDMI volume is device-controlled. Its initial format was **8-channel, 24-bit integer, 48 kHz**, with a **5.1.2** speaker layout. Changed only that HDMI device to **2-channel, 16-bit integer, 48 kHz** and verified Left=1 / Right=2. The host still heard no sound. This is a diagnostic baseline, **not a confirmed fix**, and does not prove the original format was unsupported. To undo the format trial, select the original 8-channel/24-bit/48 kHz format and reconfigure the former speaker layout.
+
+Rekordbox was in PERFORMANCE mode, both decks unloaded, and **PC MASTER OUT off**. That can explain missing mirrored rekordbox output, but not the failed direct-device speaker test. No rekordbox audio settings, aggregate devices or application libraries were changed.
+
+Next physical test, pending host result: follow the manufacturer's standard HDMI topology — **Mac → bar HDMI IN → bar HDMI OUT (eARC/ARC) → powered-on TV/monitor**, select that screen input, keep the bar on HDMI IN, check mute/low audible volume, and repeat the direct speaker test. [AX5125H manual, section 5.3](https://files.hisense-usa.com/download/f2564889dd9b4c8b). This is a handshake-isolation test; the manual's diagram does not prove a TV is universally required for audio-only use.
+
+If still silent, test a power/cable reconnect and a known-good cable/source separately before changing more app routing. The bar also has a wired AUX input, a possible audio-only fallback that remains untested. Once direct output works, enable/verify rekordbox PC MASTER OUT with **DDJ-FLX4 MASTER + the selected Mac output**, retain FLX4 PHONES for cueing, and check both physical outputs and latency at low level. [Mac HDMI audio selection](https://support.apple.com/en-us/108928) · [Current handoff](handoff-2026-10-29-flx4-hdmi.md).
 
 ## Volume and automation boundaries
 The DDJ/amp route and Google Home route each need their own tested lowering/stop control. If the bar is used, include it as a third control path. A macOS volume command may not attenuate a directly addressed DJ device or HDMI output.
@@ -36,7 +48,7 @@ The host chose a [premixed set](bedroom/premixed-set-plan-2026-10-19.md) after c
 **Manual “quiet now” fallback:** helper lowers/stops bedroom at the DDJ, stops the October Grove media session and confirms both Google speakers are quiet, then mutes the bar if active. Future software must report success separately for each route. A partial success must not display “all quiet.”
 
 ## First connection test
-- [x] Basic Mac-to-soundbar playback confirmed by host: select the bar in macOS Sound settings.
+- [ ] Restore and verify current Mac-to-soundbar playback; the earlier success report is superseded by the October 29 failed direct-HDMI test above.
 - [ ] Record both Google models, powered speaker models, TV model/Jellyfin client and app versions. Record bar ports only if changing the working connection or troubleshooting.
 - [ ] Create Google group/pair on the phone; test Spotify account and both devices.
 - [ ] Verify bedroom alone, living room alone, then both at low volume.

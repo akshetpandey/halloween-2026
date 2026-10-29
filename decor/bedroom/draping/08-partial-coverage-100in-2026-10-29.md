@@ -1,6 +1,6 @@
 # Partial black fleece at approximately 100-in wall height — October 29, 2026
 
-**Latest October 29 mounting correction:** host confirms [suction for glass, Command for solid wall](09-hook-count-2026-10-29.md). One pack of each proposed: 12 cups + 14 hooks / $20.60, combined 18–24 points subject to fitting/trials. Earlier counts below are history. Six fleece/four moss remain host-reported ordered; thin cloth cuts unchanged.
+**Latest October 29 purchase update:** fleece, mixed mounting hooks, binder clips and thin polyester cover two-pack are now host-reported ordered. [Current purchase/allocation list](../../shopping-ready.md) owns status; latest discussed quantities are carried forward pending receipts. No further order of these goods; fit/physical trial still pending. Thin furniture-cover nesting remains current; earlier wall-buy scenarios below are history.
 
 **Purchase supersession, later October 29:** host confirms fleece and moss orders, recorded as **six King 108 × 90 fleece + four 39 × 39 moss** from session quantities. [Current purpose/allocation list](../../shopping-ready.md) replaces this four-fleece purchasing comparison. Six blankets remain wall material; initial 36 points within 42 hooks, 96 clips include six desk clips and 54 spares. No further fleece/moss order. Earlier quote math below is history; thin cloth still separately required. Actual charged totals/arrival/fit unverified.
 

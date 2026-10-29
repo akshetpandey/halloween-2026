@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: host confirms **suction on glass, Command on solid wall**. [Current mounting plan](bedroom/draping/09-hook-count-2026-10-29.md) proposes **one 12-cup pack + one 14-hook pack / $20.60**; 26 hooks for 18–24 combined points, subject to fitting and trials. [Buying list](shopping-ready.md): **12 remaining lines / $239.09 before tax / $260.61 with planning tax**. Six fleece/four moss remain host-reported ordered; no mounting order reported. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-mixed-mounts.md). Quantity-one arrival not freshly checked.
+October 29 latest: host reports **seven more categories ordered**—Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain—joining fleece and moss. [Buying list](shopping-ready.md): **nine ordered lines; five remaining / $157.92 before tax / $172.13 with planning tax**. Quantities carried from the latest list; paid totals, receipt quantities, arrival and physical tests unverified. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-orders-recorded.md). Lighting/local allowances remain separate.
 
 | Room / deliverable | Current source |
 |---|---|

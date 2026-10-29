@@ -1,5 +1,7 @@
 # Moon Well — decor
 
+**October 29 purchase update:** forest shower curtain and shared thin polyester cloths, gaffer tape and zip ties are host-reported ordered. Bathroom moss vine and deferred lights remain unconfirmed. [Current buying list](../shopping-ready.md) owns quantities/status; actual receipts, paid totals, arrival and setup unverified.
+
 [All decor](../README.md)
 
 **October 21 execution:** [current placement plan](../final-room-plan.md) · [current basket](../shopping-ready.md) · [setup dates](../setup-schedule.md). Buy-first Moon Well direction retained; new cordless ambient candidate and sold-out See's coins recorded in the current basket. No purchase/test inferred.

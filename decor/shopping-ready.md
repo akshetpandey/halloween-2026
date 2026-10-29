@@ -1,12 +1,12 @@
 # Decor buying list — quantities, purpose and purchase status
 
-**Host-confirmed mounting method, October 29:** suction hooks for **glass**, Command hooks for **solid wall**. Starting buy quantities are **one 12-pack KORCCI ($5.99) + one 14-hook Command pack ($14.61)**,26 hooks total/$20.60. This replaces the two-suction-pack proposal. Keep hooks upright on vertical surfaces; lower the row to fit. [Allocation and trial](bedroom/draping/09-hook-count-2026-10-29.md). Pack counts remain proposed; no new purchase reported.
+**Latest purchase update, October 29:** host reports **Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered**. These join the earlier fleece and moss orders: **nine ordered product lines**. Quantities below carry forward the latest discussed list; exact receipt quantities, charges, arrival and physical receipt remain unverified. Do not reorder these items.
 
-Updated **October 29, 2026**. Host confirms **the fleece and moss orders are placed**: six Black King 108 × 90-in fleece and four Green 39 × 39-in moss sheets, using the quantities discussed immediately before confirmation. Status is **ordered, host reported**; receipts, actual charges, order-specific arrival dates and physical receipt have not been checked. Do not reorder either line.
+Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command on solid wall**, upright and lowered enough for full contact/removal access. [Mounting allocation and trial](bedroom/draping/09-hook-count-2026-10-29.md). Ordered goods are not yet recorded as received or tested.
 
-**Remaining core decor: 12 product lines /$239.09 before tax**, approximately **$260.61 with 9% planning tax**. Mounting now includes one pack of each type, counted once. Prices are October 29 quotes; new quantity 1 stock/arrival was not freshly checked for either mount product. Other goods retain their earlier checks; confirm checkout arrival. Lighting/local allowances remain separate; exact support placement and any extra points depend on fitting.
+**Remaining core decor: five product lines / $157.92 before tax**, approximately **$172.13 with 9% planning tax**, at the earlier October 29 quotes. Still unconfirmed: ivy, rug, small decorating clips, bathroom moss vine and Guardian stand. No fresh price/delivery check; lighting and local/reused allowances remain separate.
 
-[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-mixed-mounts.md) · [Current room plan](final-room-plan.md).
+[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-orders-recorded.md) · [Current room plan](final-room-plan.md).
 
 ## Ordered — do not buy again
 
@@ -14,8 +14,15 @@ Updated **October 29, 2026**. Host confirms **the fleece and moss orders are pla
 |---|---:|---|---:|
 | H22 — [BEDELITE Black / King 108 × 90-in single fleece](https://www.amazon.com/dp/B08FYBWRQ1) | **6 blankets** | **Hollow walls/windows.** All six are wall material, 108 in vertical and 90 in wide, flat/no pleating, top fold adjusted to~100-in wall. Nominal 45 ft width for ~43 ft wall run excluding doorway; received usable width, corners and overlaps still need fitting. Furniture uses thinner cloth below. | $131.94 |
 | H11 — [USMOLA Green 39 × 39-in moss](https://www.amazon.com/dp/B0FZD67YDD) | **4 sheets** | **Grove counters and tables:** scan-estimated 24.38 sq ft kitchen tops + 22 × 44-in coffee table + 20 × 40-in other top = 36.66 sq ft. Retain~2 sq ft for Hollow desk fascia, then small Guardian/shrine scraps, within the same four sheets. [Joined cut layout](living-room/moss-surfaces-and-cuts-2026-10-29.md). | $67.96 |
+| H24 — [Command Large White /14 hooks,16 strips per pack](https://www.amazon.com/dp/B075Y2M1Q5) | **1 pack /14 hooks** | **Hollow solid wall.** One 14-hook pack; initial ten wall points plus four spares, subject to fitting. Keep the full backing on suitable vertical wall, with removal access; no ceiling mounting. | $14.61 |
+| H24-S — [KORCCI /12pc-Medium Size suction hooks](https://www.amazon.com/dp/B0DFLZ5FX4) | **1 pack /12 cups** | **Hollow glass.** One 12-cup pack; initial eight glass points plus four spares, subject to pane layout. Upright on bare room-facing panes; binder clips grip the folded fleece. | $5.99 |
+| H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | **Wall/window fleece and desk skirt.** One 96-clip pack supplies 18–24 combined panel grips plus six desk clips; test folded-edge grip. | $10.76 |
+| H14 — [Utopia Kitchen Black / two 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | **Bed, desk, Guardian and dry tub.** One two-pack of thin black 90 × 132-in cloths; allocation and nesting below. Wall fleece stays separate. | $21.84 |
+| H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | **Shared finishing.** One black 2-in × 30-yd roll for underside moss joins, scenic tidying and tested cable edges; not primary fleece suspension. | $8.99 |
+| H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | **Guardian and shared attachments.** One 100-pack of 8-in black ties; reserve about twelve for the card body/spine, remainder for ivy and scenic/cable bundles. | $3.99 |
+| H05 — [ORTIGIA Dark Green forest shower curtain 72 × 72 in + hooks](https://www.amazon.com/dp/B07YD2X9NB) | **1** | **Moon Well backdrop.** One dark-green forest 72 × 72-in shower curtain with supplied hooks on the existing shower support, partly open to the dry-tub scene. | $14.99 |
 
-Combined **$199.90 at last quoted unit prices**; this is not a receipt-verified paid total. Last product-page estimates showed Friday, October 30; actual order arrival dates remain unverified. No agent purchase or payment.
+Combined **$281.07 at last quoted unit prices**, including **$81.17** for the latest seven categories. This is merchandise quote value, not a receipt-verified paid total. Actual quantities, charges and order-specific arrivals remain unverified; no agent purchase or payment.
 
 ## Still to buy — core decor
 
@@ -23,23 +30,16 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 | Item / exact selected option | Buy quantity | Last quoted line USD | Room and exact purpose |
 |---|---:|---:|---|
-| H24 — [Command Large White /14 hooks,16 strips per pack](https://www.amazon.com/dp/B075Y2M1Q5) | **1 pack /14 hooks** | 14.61 | **Hollow solid wall:** initial 10 wall points +4 spare; suitable smooth wall only. Lower row so full ~3-in hook/backing fits and release tab remains accessible. Upright, following package prep/wait. Not glass/ceiling. Earlier unit quote retained; quantity 1 arrival not refreshed. |
-| H24-S — [KORCCI /12pc-Medium Size suction hooks](https://www.amazon.com/dp/B0DFLZ5FX4) | **1 pack /12 cups** | 5.99 | **Hollow glass:** initial 8 glass points +4 spare; bare room-facing panes below frame. Combined panel total 18–24 across both mount types, not per type. Seller claims 10 lb; test attachment/clip grip. Prior quantity 2 showed Oct 30,7–11a.m.; quantity 1 checkout not refreshed, free shipping conditional. |
-| H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | 10.76 | **Hollow blanket grip + desk skirt:** 18–24 panel clips + 6 desk = 24–30 used, 66–72 spare. Wire handles hang on the new suction hooks for glass; actual pane fit and folded-edge grip need trial. |
-| H14 — [Utopia Kitchen Black / two 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | 21.84 | **Stored bed, automated desk, Guardian body and dry-tub base.** Exact allocation below. These are cheap thin covers; the ordered fleece stays on walls. |
 | H27 — [KASZOO Green / 12 strands with 80 LED / 84 ft ivy](https://www.amazon.com/dp/B07H1GQB36) | **1 pack / 12 strands** | 9.99 | **Grove:** 10 strands/~70 ft; 8 high wall/window/cabinet edges, 1 trailing accent, 1 shrine. **Hollow:** 2 strands/~14 ft for desk sides/Guardian backdrop. Included light string is incidental; no extra ivy pack for desk. |
 | H28 replacement — [Rugflix 8 × 10 ft / 03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | **1 rug** | 75.99 | **Hollow dance floor:** 80 sq ft low-pile floor coverage, comfort and mild echo softening; partly under desk/Guardian band. Check door swing, grip and flat edges on receipt. Replaces late original WITSHOCK. |
-| H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | **Shared finishing:** backing under moss butt joins/removable mats, scenic backing tidying and tested perimeter cable edges. The proposed glass support is suction; this tape is not a primary blanket hanger. Avoid untested direct adhesion to finished surfaces. |
-| H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | 3.99 | **Guardian:** reserve ~12 for card spine, shoulders and body on independent stand. **Shared:** remaining ties for ivy on existing supports and loose scenic/cable bundles. |
 | H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. These small clips are not fleece supports; use H24 on wall or H24-S on glass. |
-| H05 — [ORTIGIA Dark Green forest shower curtain 72 × 72 in + hooks](https://www.amazon.com/dp/B07YD2X9NB) | **1** | 14.99 | **Moon Well backdrop:** hangs on existing shower-curtain support, partly open to reveal the dry-tub scene. Supplied hooks attach this curtain. |
 | H06 — [DUSPRO bendable moss vine 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 14.80 | **Moon Well roots:** one bendable root/branch accent around shower backdrop/dry-tub edge. Separate from the shared 84-ft ivy. Fit actual support before installation. |
 | H34 replacement — [InnoGear MS250 / 1 / Black / Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P) | **1 stand** | 29.99 | **Guardian skeleton:** independent 9.8-in weighted round base/pole supporting the lightweight card face, crown, spine and cloth body behind the automated desk. This is a stand, not a complete bought creature. Scenic adaptation remains untested; bed restraint is separate. |
-| **Remaining core decor** | **12 lines** | **239.09** | **About $260.61 with 9% planning tax**, before checkout changes/shipping; fit/trials pending. |
+| **Remaining core decor** | **5 lines** | **157.92** | **About $172.13 with 9% planning tax**, using earlier quotes; checkout dates still need checking. |
 
 ## Mixed mounting allocation
 
-**One pack of each type**, not two full-room systems. Start with 8 suction points on glass + 10 Command points on solid wall, then use the 4 spare of each where needed. These are fitting allowances, not measured positions. Scan window spans total ~15.4 ft within ~42.9 ft of wall run excluding entry. Keep the blanket top lower where required for full backing contact; no ceiling mounting. If either product has already been ordered, reconcile it before placing another order; no new mounting order is recorded. [Current mounting note](bedroom/draping/09-hook-count-2026-10-29.md).
+**Mounting hooks and binder clips are now ordered, host reported.** The last discussed inventory was one 12-cup pack plus one 14-hook pack. Start with three points per blanket (18 total); add only where sag/edges need it. Proposed eight suction + ten Command points and four spares of each remain fitting allowances, not measured positions. Keep both upright on the appropriate vertical surface, lower the row to fit full backing and leave release access. Confirm actual received counts and trial one intact blanket on each support type. [Mounting note](bedroom/draping/09-hook-count-2026-10-29.md).
 
 ## How the shared materials are divided
 
@@ -60,7 +60,7 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 ## Local or reuse — purpose and allowance
 
-These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the $239.09 remaining core subtotal. All shared paint/card work is counted once.
+These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the $157.92 remaining core subtotal. All shared paint/card work is counted once.
 
 | Need | Quantity / allocation | Purpose | Existing allowance USD |
 |---|---|---|---:|
@@ -97,7 +97,7 @@ No lighting is counted as ordered by the host’s two-order confirmation. These 
 
 ## Accounting and other work
 
-At last quoted prices, **ordered merchandise $199.90 + remaining core decor $239.09 = $438.99**, about **$478.50 with aggregate 9% planning tax**. Actual paid totals remain unknown. One suction pack plus one Command pack cost $20.60, replacing the prior suction-only $11.98 proposal; that raises the remaining estimate by $8.62 before tax / $9.40 with planning tax. No duplicate full-room mount orders. Lighting/power/DMX, local/reuse allowances and other party costs remain outside this comparison. Shared moss/cloth/ties counted once.
+At last quoted prices, **ordered merchandise $281.07 + remaining core decor $157.92 = $438.99**, about **$478.50 with aggregate 9% planning tax**. The whole-core quote is unchanged; the latest report transfers $81.17 of goods from remaining to ordered. Actual paid totals stay unknown. Lighting/power/DMX, local/reuse allowances and other party costs remain outside this comparison. Shared moss/cloth/ties are counted once.
 
 Game figures/NFC/premade moon markers/crown, costume, drinks/food/wrapped sweets and hospitality remain in their owning plans, not silently added here. Bed securement, actual mounts, rug grip, Guardian stability and lighting rehearsal remain physical setup dependencies; ordered is distinct from received/tested.
 

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "timezone": "America/New_York",
-  "source": "Direct host says those two orders are placed, referring to six Black King 108 x 90 fleece (previously visible in cart) and four Green 39 x 39 moss sheets. Quantities from immediate session context; no receipt read.",
+  "source": "Host previously reported fleece and moss ordered, then explicitly reported Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered. Quantities carried from latest discussed list, not receipt-verified.",
   "status": "Current procurement and allocation status; dated product-page offers remain evidence, not purchase receipts.",
   "items": [
     {
@@ -47,9 +47,9 @@
       "room": "The Hollow",
       "purpose": "Suitable solid vertical wall sections only; never sunlit glass or ceiling. One14-hook pack; initial allocation10wall points with4spare, subject to mapping. Lower hook row enough for entire ~3-in hook/backing and removal access. Follow actual package prep/wait directions; physical test pending.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — host confirms Command method on solid wall; one-pack quantity proposed",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "14.61",
       "plannedLineUsd": "14.61",
       "quoteDate": "2026-10-29",
@@ -61,7 +61,9 @@
       "includedInActiveBuyList": true,
       "candidateQuantity": 1,
       "mountingFitConfirmed": false,
-      "quantity1DeliveryRechecked": false
+      "quantity1DeliveryRechecked": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H24-S",
@@ -70,10 +72,10 @@
       "room": "The Hollow window glass",
       "purpose": "Window glass only: one12-cup pack, initial allocation8glass points with4spare. Mount upright on room-facing bare panes below frame with binder clips. Actual pane mapping and suction/clip trial pending; seller10lbclaim untested. Combined panel count18–24across glass+wall, not18–24of each.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
       "includedInActiveBuyList": true,
-      "status": "to buy — host confirms suction on glass; one-pack quantity proposed",
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "5.99",
       "plannedLineUsd": "5.99",
       "quoteDate": "2026-10-29",
@@ -85,7 +87,9 @@
       "displayedArrival": "Prior quantity2 check showed Oct30,7–11a.m., conditional free shipping; quantity1 checkout not freshly checked",
       "advertisedCapacityLb": "10",
       "capacityIndependentlyTested": false,
-      "quantity1DeliveryRechecked": false
+      "quantity1DeliveryRechecked": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H25",
@@ -94,16 +98,18 @@
       "room": "The Hollow + desk",
       "purpose": "One96-clip pack supplies18–24combined panel grips (glass plus solid wall) and6desk clips =24–30used,66–72spare. Hang wire handles from appropriate suction or Command hooks; grip/attachment trial pending.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "10.76",
       "plannedLineUsd": "10.76",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H14",
@@ -112,16 +118,18 @@
       "room": "The Hollow + Moon Well",
       "purpose": "Two thin black polyester cloths, 90 x 132 in each. Cloth 1 covers stored bed. Cloth 2 supplies 117 x~34-in desk U-skirt (front + both sides), 30 x 48-in Guardian body, 62 x 32-in dry-tub base. Existing nesting fits the latter cuts in cloth 2; actual templates/ opacity still need checking. Fleece is not spent on furniture.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "21.84",
       "plannedLineUsd": "21.84",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H27",
@@ -166,16 +174,18 @@
       "room": "Shared decor",
       "purpose": "One 2 in x 30 yd black gaffer roll: moss butt-join backing underneath removable mats, scenic backing/ cloth tidying and tested perimeter cable-edge management. Not primary fleece suspension, bed restraint or direct adhesion to untested finished surfaces.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "8.99",
       "plannedLineUsd": "8.99",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H17",
@@ -184,16 +194,18 @@
       "room": "Guardian + shared decor",
       "purpose": "One 100-pack 8-in black ties. Reserve~12 for Guardian cardboard spine/ shoulders/ body on its independent stand; remainder for ivy attachment to existing supports and loose scenic/ cable bundles. No second Guardian tie pack.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "3.99",
       "plannedLineUsd": "3.99",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H18",
@@ -220,16 +232,18 @@
       "room": "Moon Well / bathroom",
       "purpose": "One 72 x 72-in dark-green forest shower curtain plus supplied hooks: forest backdrop on the existing shower-curtain support, partly open to reveal the dry-tub scene. Does not cover bedroom walls.",
       "plannedTotalQuantity": 1,
-      "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "orderedQuantity": 1,
+      "stillToBuyQuantity": 0,
+      "status": "ordered — host reported October 29; quantity carried from latest list",
       "lastQuotedUnitUsd": "14.99",
       "plannedLineUsd": "14.99",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "orderReportedDate": "2026-10-29",
+      "orderQuantityBasis": "Latest discussed shopping-list quantity; exact receipt quantity not independently confirmed"
     },
     {
       "id": "H06",
@@ -269,11 +283,11 @@
     }
   ],
   "costs": {
-    "orderedMerchandiseAtLastQuotedPrices": "199.90",
+    "orderedMerchandiseAtLastQuotedPrices": "281.07",
     "actualPaidTotal": null,
-    "stillToBuyDecorMerchandise": "239.09",
-    "stillToBuyPlanningTax9pct": "21.52",
-    "stillToBuyWithPlanningTax": "260.61",
+    "stillToBuyDecorMerchandise": "157.92",
+    "stillToBuyPlanningTax9pct": "14.21",
+    "stillToBuyWithPlanningTax": "172.13",
     "wholeDecorOnlyMerchandise": "438.99",
     "wholeDecorOnlyPlanningTax9pct": "39.51",
     "mountingCostTbd": null,
@@ -281,25 +295,28 @@
     "previousMountingAllowanceUsd": "29.22",
     "provisionalRemainingIncludingPreviousMountingAllowanceUsd": "247.71",
     "provisionalRemainingIncludingAllowanceAndPlanningTaxUsd": "270.00",
-    "activeRemainingProductLines": 12,
+    "activeRemainingProductLines": 5,
     "selectedGlassMountingCandidateUsd": "5.99",
     "additionalNonGlassSupportsTbd": false,
     "selectedSolidWallMountingCandidateUsd": "14.61",
     "combinedMountingCandidateUsd": "20.60",
     "additionalSupportsConditionalOnFitting": true,
     "previousSuctionOnlyRemainingMerchandiseUsd": "230.47",
-    "previousSuctionOnlyRemainingWithPlanningTaxUsd": "251.21"
+    "previousSuctionOnlyRemainingWithPlanningTaxUsd": "251.21",
+    "orderedProductLines": 9,
+    "newlyReportedOrderMerchandiseAtLastQuotes": "81.17"
   },
   "lightingDeferred": true,
   "localReuseAllowancesExcluded": true,
   "localSupportAllowancesUsd": "105.00",
   "noAgentPurchases": true,
   "notes": [
-    "Actual paid tax/ shipping/ coupons and order-specific arrival dates unverified.",
-    "Six-fleece full-run purchase replaces prior four-fleece partial-only recommendation; no additional fleece or moss to buy.",
-    "Host confirms suction hooks for glass and Command hooks for solid wall. Agent proposes one12-cup pack plus one14-hook pack; initial8glass+10wall points,4spareofeach. Neither mount product reported ordered or tested.",
-    "Ordered quote value199.90 plus12active remaining lines239.09 gives438.99 before tax. Mounting total20.60 counted once; old two-pack and suction-only scenarios are history. Quantity1 checkout/arrival not refreshed.",
-    "Deferred lighting/ power needs a later refresh; local allowances are not stock quotes."
+    "Nine product lines host-reported ordered; exact receipt quantities, actual paid tax/shipping/coupons, arrival and physical receipt unverified.",
+    "Fleece six and moss four remain ordered. Latest seven categories are recorded at the last discussed pack counts; do not reorder them without reconciliation.",
+    "Mixed mounting remains suction on glass and Command on suitable solid vertical wall. Both hooks plus binder clips are now host-reported ordered; fitting and physical trials still pending.",
+    "Ordered quote value281.07 plus five remaining core lines157.92 gives438.99 before tax. Status transfer only: whole-core quoted cost unchanged.",
+    "Small Command decorating clips H18 remain unconfirmed: generic Command hooks in the host report is mapped to the large H24 hooks, not both products.",
+    "Deferred lighting and power need later refresh; local105 allowances remain separate and are not stock quotes."
   ],
   "mountingRevision": {
     "date": "2026-10-29",
@@ -318,8 +335,8 @@
       8
     ],
     "physicalTestPassed": false,
-    "note": "Host explicitly chooses suction for glass and Command for solid wall. One pack of each is a cost-conscious starting inventory; proposed8glass+10wall points is not a measured support map. Lower wall hooks as needed; no ceiling or sunlit-glass use for ordinary Command strips. Quantity1 delivery not refreshed.",
-    "status": "host confirms mixed surface method; quantities proposed, physical trials pending",
+    "note": "Host reports Command hooks, suction cups and binder clips ordered. Record latest proposed counts as context-derived, not receipt-confirmed. Mixed method unchanged; actual positioning, adhesion/grip and receipt quantities still need confirmation. No ceiling mounting.",
+    "status": "mixed mounting goods host-reported ordered; physical fitting/trials pending",
     "availableTopBandHeightIn": "1.5",
     "ceilingRatingEstablished": false,
     "lowerVerticalMountingProposed": true,
@@ -354,6 +371,33 @@
       }
     },
     "surfaceMethodHostConfirmed": true,
-    "purchaseQuantitiesHostConfirmed": false
-  }
+    "purchaseQuantitiesHostConfirmed": false,
+    "mountingItemsHostReportedOrdered": true
+  },
+  "purchaseReports": [
+    {
+      "date": "2026-10-29",
+      "source": "Direct host report that the fleece and moss orders were placed",
+      "ids": [
+        "H22",
+        "H11"
+      ],
+      "receiptVerified": false
+    },
+    {
+      "date": "2026-10-29",
+      "source": "Direct host: Ordered the command hooks, suction cups, binder clips and polyester cloths, gaffer tape, zip ties, shower curtain",
+      "ids": [
+        "H05",
+        "H14",
+        "H16",
+        "H17",
+        "H24",
+        "H24-S",
+        "H25"
+      ],
+      "receiptVerified": false,
+      "quantityBasis": "Latest discussed list; exact quantities unverified"
+    }
+  ]
 }

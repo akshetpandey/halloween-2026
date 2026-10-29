@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • seven more decor orders reported
+
+Host reports seven more categories ordered. At the last discussed quantities and earlier quotes, **$81.17** transfers from remaining to ordered. **Nine ordered lines: $281.07 quoted merchandise value; five remaining: $157.92 + $14.21 aggregate 9% planning tax = $172.13.** Whole-core merchandise remains **$438.99 / about $478.50 with planning tax**; this is a status transfer, not new scope or receipt-verified spending. Actual paid totals, receipt counts, shipping/coupons and arrival remain unverified. Local $105 and deferred lights excluded. [Current ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-orders-recorded.md). Earlier totals below are history.
+
 ## Latest October 29 • mixed mounting confirmed
 
 Host confirms **suction for glass, Command for solid wall**. [Proposed one pack of each](../decor/bedroom/draping/09-hook-count-2026-10-29.md): $5.99 suction + $14.61 Command = **$20.60 mounts**, replacing the $11.98 suction-only proposal. **12 remaining core lines $239.09 + $21.52 aggregate 9% planning tax = $260.61**; increase $8.62 merchandise / $9.40 with tax from the previous suction-only quote. Ordered merchandise quote value $199.90 + remaining $239.09 = **$438.99 / about $478.50 with planning tax**. Actual paid unknown; local $105 and deferred lighting excluded. Unit quotes retained; quantity-one stock/delivery not newly checked. No duplicate mounting scenarios, new purchase or physical test. [Ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-mixed-mounts.md).

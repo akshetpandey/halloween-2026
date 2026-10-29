@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 host-confirmed mounting method:** suction on glass, upright Command hooks on suitable solid wall. [Starting inventory](draping/09-hook-count-2026-10-29.md): **one 12-cup pack + one 14-hook pack**, 26 total for 18–24 combined panel points. Lower the row to fit full backing and release access; no ceiling mounting. Actual positions and one-panel trials for both support types remain. Six fleece/four moss ordered status unchanged. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-mixed-mounts.md).
+**October 29 purchase update:** Command hooks, suction cups, binder clips, thin polyester cloths, gaffer tape and zip ties are now host-reported ordered, joining the six fleece. Mixed method remains suction on glass and upright Command on solid wall. [Mounting quantities and trial](draping/09-hook-count-2026-10-29.md): counts from latest list, receipt quantities/arrival unverified. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-orders-recorded.md). Fitting and physical trials remain; ordered does not mean received/tested.
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

@@ -1,6 +1,6 @@
 # The Hollow — flat black fleece
 
-**October 29 current:** host confirms **suction for glass and Command for solid wall**. [Proposed one pack of each](09-hook-count-2026-10-29.md): 12 cups + 14 hooks / $20.60, 18–24 combined panel points. Neither is for ceiling use; lower the row for full contact and release access. Quantity-one checkout and physical trials pending. Six King 108 × 90 fleece remain ordered; no extra cloth. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-mixed-mounts.md). Earlier buying/cut scenarios below are history; thin furniture nesting remains current.
+**October 29 current:** wall fleece plus Command hooks, suction cups, binder clips and thin polyester furniture cloths are host-reported ordered. [Mixed mounting plan](09-hook-count-2026-10-29.md) remains upright suction on glass/Command on solid wall, starting three points per blanket. Latest list quantities carried forward pending receipts; actual counts, arrival and attachment tests unverified. Thin furniture nesting remains current. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-orders-recorded.md). Earlier buying notices below are history.
 
 **Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 

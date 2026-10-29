@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • seven additional ordered categories confirmed
+
+**Direct host report:** ordered Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain. Record H24, H24-S, H25, H14, H16, H17 and H05 as **ordered, host reported**, using latest list quantities pending receipts. Fleece/moss earlier orders retained; no duplicate purchase instruction. H18 small decorating clips are distinct from the large Command hooks and remain unconfirmed, along with ivy, rug, bathroom vine and Guardian stand. Actual paid totals/arrival/receipt/setup tests remain unverified. [Buying list](../decor/shopping-ready.md) · [Ledger](../decor/purchases-and-allocations-2026-10-29.json). No agent order, payment or price refresh.
+
 ## Latest October 29 • mixed mounting confirmed by host
 
 **Confirmed host:** glass parts use the suction hooks, solid wall parts use Command hooks. This supersedes holding all Command hooks or treating suction as the entire-room solution. **Agent proposes one pack of each:** 12 suction cups + 14 Command hooks / $20.60, with 18–24 combined panel points. Scan windows total about 15.4 ft within approximately 42.9 ft wall run excluding entry; actual top-edge placement still needs fitting. Mount both upright on vertical surfaces, lower the wall row for full backing/removal access; no ceiling mount. [Current method and inventory](../decor/bedroom/draping/09-hook-count-2026-10-29.md). Pack counts proposed, mounting orders and physical tests unconfirmed; no new price/delivery refresh.

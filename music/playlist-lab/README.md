@@ -1,6 +1,6 @@
 # Playlist Lab
 
-**October 29 current batches:** [Grove 17](https://music.hollow-court.com/?room=living-room&batch=17) and [Hollow 11](https://music.hollow-court.com/?room=bedroom&batch=hollow-11), 50 new candidates each, are live. Shared Keeps: **127 Grove / 198 Hollow**. The host authorized targeted discovery to fill 50 after the remaining Likes thinned: 18 saved recordings plus 82 discoveries total. Atomic appends preserved all old feedback/history and kept both containers running. Seven importer tests and 21 Node tests passed. [Current counts/targets](../curation-status-2026-10-29.md) · [Publication handoff](../handoff-2026-10-29-room-batches-17-11.md).
+**October 29 current batches:** [Grove 18](https://music.hollow-court.com/?room=living-room&batch=18) and [Hollow 12](https://music.hollow-court.com/?room=bedroom&batch=hollow-12), 50 candidates each, are live. Shared Keeps: **127 Grove / 202 Hollow**. Astra's maximum-reasoning editorial pass informed the Grove's 40 core / ten adjacent structure. This round contains one saved recording plus 99 authorized discoveries. Atomic appends preserve feedback/history without restarting either container. Seven importer tests and 21 Node tests passed. [Current counts/targets](../curation-status-2026-10-29.md) · [Publication handoff](../handoff-2026-10-29-room-batches-18-12.md).
 
 **Shared voting is live · October 28:** your friend’s choices now count toward approvals and future-batch taste feedback whenever the host is unrated. The host’s Keep/Cut/Maybe wins on disagreement. Existing votes added **23 Keeps / 24 Cuts** and retained **99 host disagreements**; all individual history remains. [Current shared counts and targets](../curation-status-2026-10-29.md) · [Deployment/rollback handoff](handoff-2026-10-28-shared-votes.md).
 
@@ -40,6 +40,7 @@ python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-1
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-15.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-16.json
 python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-17.json
+python3 music/playlist-lab/lab.py import music/living-room/october-grove-batch-18.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-01.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-02.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-03.json
@@ -51,6 +52,7 @@ python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-08.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-09.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-10.json
 python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-11.json
+python3 music/playlist-lab/lab.py import music/bedroom/the-hollow-batch-12.json
 python3 music/playlist-lab/lab.py serve
 ```
 

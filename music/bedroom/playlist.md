@@ -1,14 +1,14 @@
 # The Hollow · bedroom rave programme
 
-Updated October 29, 2026, completed shared reviews. **[Batch 11 · Pressure and pulse](the-hollow-batch-11.md)** is the current published/imported 50-track audition: ten saved recordings plus 40 targeted discoveries, authorized after the remaining Likes thinned. Hollow 10 finished 15/50 Keep. All earlier reviews are complete; **198 shared Keeps / 11:58:23 raw**, about **22 more approvals** toward the working 220-track target. [Current counts, cut scenarios and targets](../curation-status-2026-10-29.md). Auditions are comparison pools, not approved running orders.
+Updated October 29, 2026, completed shared reviews. **[Batch 12 · Hooks under pressure](the-hollow-batch-12.md)** is the current 50-track audition: one current saved recording and 49 authorized discoveries. Hollow 11 finished 4/50 Keep. Earlier reviews are complete; **202 shared Keeps / 12:11:33 raw**, about **18 more approvals** toward the working 220-track target. [Current counts, cut scenarios and targets](../curation-status-2026-10-29.md). Auditions are comparison pools, not final party orders.
 
-[Review Batch 11](https://music.hollow-court.com/?room=bedroom&batch=hollow-11) · [Exact data](the-hollow-batch-11.json) · [Current handoff](../handoff-2026-10-29-room-batches-17-11.md)
+[Review Batch 12](https://music.hollow-court.com/?room=bedroom&batch=hollow-12) · [Exact data](the-hollow-batch-12.json) · [Current handoff](../handoff-2026-10-29-room-batches-18-12.md)
 
 ## Current host brief
 
 **Techno, tech house, DnB, acid and trance: high energy, bouncy, hard, dark and fast underground rave vibes**, with varied established producers and selected new leads. Select individual engaging tracks; no album blocks, standalone intros/interludes/outros or long repetitive stretches. Club drum passages can support transitions, but approval does not commit us to full-length playback. The Grove is happy, hopeful and loving; preserve a clear contrast, with only limited house overlap.
 
-**Source correction:** source current Liked Songs first, then the room brief and canonical shared votes. On October 29 the host explicitly authorized targeted discovery to fill both rooms to 50 after the remaining saved pool thinned. [Batch 11](the-hollow-batch-11.md) expands driving techno, acid and hard bounce after those lanes led the previous results; there is no DnB or ordinary tech-house probe in this round. The broader room brief is unchanged. Editorial lanes are not measured genres or artist-wide approvals. Verify original saved identities for market relinks, exclude prior reviews and keep credited artist/album appearances at two. Artist genres, editorial lanes and actual audio analysis remain separate.
+**Source correction:** source current Liked Songs first, then the room brief and canonical shared votes. On October 29 the host explicitly authorized targeted discovery to fill both rooms to 50 after the remaining saved pool thinned. [Batch 12](the-hollow-batch-12.md) expands distinct hard-bounce hooks, vocals and melodic contrasts after the four latest Keeps, with a single bounded DnB comparison. The broader room brief is unchanged. Editorial lanes are not measured genres or artist-wide approvals. Verify original saved identities for market relinks, exclude prior reviews and keep credited artist/album appearances at two. Artist genres, editorial lanes and actual audio analysis remain separate.
 
 ## Listen, vote, then sequence
 
@@ -18,7 +18,7 @@ After feedback, source the next batch in the successful lanes and reduce bright/
 
 ## Runtime and readiness
 
-Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 29 status](../curation-status-2026-10-29.md). Raw duration is not finished time after cuts/overlaps. The current 50 candidates total **3:21:47 raw**, excluded from approved programme time until kept. Actual finished chapters decide readiness.
+Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 29 status](../curation-status-2026-10-29.md). Raw duration is not finished time after cuts/overlaps. The current 50 candidates total **2:48:40 raw**, excluded from approved programme time until kept. Actual finished chapters decide readiness.
 
 The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 

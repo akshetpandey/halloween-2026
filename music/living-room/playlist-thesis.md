@@ -64,4 +64,4 @@ Proceed with the authorized **50-track Grove batch**: 40 candidates related to t
 
 New candidates add no approved runtime until kept. The nine-hour requirement remains a later finished-duration check; metadata completeness and a full batch do not establish that the revised direction has worked.
 
-[Current room plan](playlist.md) · [Editorial review](editorial-review-2026-10-29.md) · [Previous Grove batch](october-grove-batch-17.md) · [Curation status](../curation-status-2026-10-29.md).
+[Current room plan](playlist.md) · [Editorial review](editorial-review-2026-10-29.md) · [Current Grove 18 audition](october-grove-batch-18.md) · [Previous Grove batch](october-grove-batch-17.md) · [Curation status](../curation-status-2026-10-29.md).

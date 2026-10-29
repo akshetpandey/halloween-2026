@@ -1,10 +1,10 @@
 # Hollow Court • stronger shoulder and cape proposal
 
-October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Source-verified styling proposal, not a selected new outfit, order or fitted combination.**
+October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested personalized pauldron/cape preview complete; outfit purchase, crown repair and physical fit remain pending.** Selection for a preview is not a final-fit approval or order.
 
 ## Latest feedback and proposed change
 
-Host says the [sleeved brown-mantle preview](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#current-personalized-sleeved-preview) still looks basic and he does not love the brown leaf piece. Recommend replacing that mantle. The dissatisfaction is confirmed; the replacement below is the assistant's proposal, not a final user selection. No purchase, cancellation or return inferred.
+Host says the [sleeved brown-mantle preview](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#current-personalized-sleeved-preview) still looks basic and he does not love the brown leaf piece. He then requests the moon-phase armor and black cape with the same black shirt, crown, torc, cuffs and green trousers, using his likeness and clean-shaven styling. The replacement is selected for the completed preview below; no purchase, cancellation, return or final-fit approval inferred.
 
 **Proposed outfit:** compact pale bone crown + sourced black short-sleeved cotton shirt + one embossed moon-phase shoulder pauldron + black half-cape with warm metallic edging + existing substantial gold torc/cuffs + owned green trousers/shoes. Keep the face clear, clean-shaven styling, sleeves and indoor practicality; fur, feathers, mesh/tank, large antlers, full-face veil and self-applied makeup remain excluded.
 
@@ -13,6 +13,8 @@ The pauldron supplies a raised, layered shoulder shape and diagonal chest strap.
 ## Exact Amazon offers checked
 
 Signed-in Chrome to Brooklyn 11211, approximately **5:17–5:20 p.m. EDT October 29**. Both selected product buy boxes say **In Stock / free Saturday October 31 delivery**. No timed window, hold, order or physical fit verified.
+
+A refresh for the next preview encountered Amazon's human-verification checkbox. Its window was brought forward per host preference; no CAPTCHA click performed and no new ETA verified. The successful exact-product checks immediately before this request, only minutes before generation, remain the dated sourcing evidence above. Do not relabel those offers as a newer check or a guaranteed delivery.
 
 | Piece | Exact variant / offer | Actual appearance and limitations |
 |---|---|---|
@@ -27,11 +29,19 @@ Retail photographs downloaded from the selected live listings and visually inspe
 
 ## How to wear it and what to retain
 
-Keep the short-sleeved black shirt tucked into the green trousers. Fit the pauldron's supplied strap over the shirt and try the cape over the opposite shoulder, draped behind that arm so the shoulder piece remains visible. Use the cape's supplied tie, keeping the torc and throat comfortable. This combined arrangement has not been physically tested or rendered; do not imply that both closures have already been proved compatible. No new cloak pin, structural frame, glue or armor fabrication is proposed.
+Keep the short-sleeved black shirt tucked into the green trousers. Fit the pauldron's supplied strap over the shirt and try the cape over the opposite shoulder, draped behind that arm so the shoulder piece remains visible. Use the cape's supplied tie, keeping the torc and throat comfortable. The combination is illustrated below but has not been physically tested; neither closure's compatibility with the torc is proved. No new cloak pin, structural frame, glue or armor fabrication is proposed.
 
 For hosting, leaving the detachable glass vials off is the proposed cleaner configuration; **expect their leather-look loops/holder to remain visible** unless arrival confirms otherwise. Do not render an invented smooth panel with the entire holster magically removed. The existing torc and cuff pair provide the gold accents; no extra necklace needed. Crown repair still follows [26's PLA/gel-CA guidance](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue), with full cure and a real fit trial. No repair or fit was performed.
 
 Both pieces use supplied straps/ties. Plan approximately 15–20 minutes positioning plus a movement trial; this is a planning estimate, not a timed build. Check reaching/serving/sitting and whether cape, shoulder strap and torc interfere. Temperature, stability and comfort are unknown until worn together. The cape can be omitted if the pauldron alone provides enough impact; the proposed full combination is not mandatory shopping.
+
+## Personalized pauldron and cape preview
+
+Final [private moon-phase armor/cape preview](renders/private/2026-10-29/moon-court-pauldron-cape-v2.png), **1536 × 1024**, full body left and matching head/torso detail right. [Exact private prompt set/provenance](renders/private/2026-10-29/moon-court-pauldron-cape-prompts.md). Two built-in imagegen edits: first removes the leaf mantle and inserts the real armor/cape over the black sleeved shirt; second changes only a small accidentally copied beige retailer-model shirt patch under the armor to black. Draft v1 preserved privately. No CLI/manual image processing.
+
+Inputs: previous clean-shaven sleeved personalized final as identity/composition/crown/jewelry/green-trouser base, plus actual armor, cape and shirt photographs above. The original user rooftop upload is absent locally; likeness is inherited through the earlier user-authorized portrait, as disclosed before editing. Retail models supplied objects only. Personal outputs and exact prompts remain **Git-ignored** under renders/private/2026-10-29.
+
+Visual QA: recognizable clean-shaven likeness, compact pale crown, short black sleeves/standing collar/lace-up front, no leaf mantle, one Brown B pauldron with diagonal strap and **all three supplied corked vials**, black metallic-edged half-cape/rope on opposite shoulder, curled torc, both cuffs, green trousers/belt/boots and matching full-body/detail framing. Vials are included to reflect the actual product; their omission for hosting remains optional, not a completed product modification. No fur/feathers/veil/makeup/extra weapon/accessory. Material richness, precise scale, cape length/drape, engraving and fastening/torc fit remain approximate; this is not a physical fit or proof of crown repair.
 
 ## Other screened options and buying status
 
@@ -39,4 +49,4 @@ Both pieces use supplied straps/ties. Plan approximately 15–20 minutes positio
 
 The previously inspected UJUROU damask cape remains a separate, more formal floral product; this recommendation uses the plainer FURPHI scroll-edged version. Feather/fur shoulder products were excluded by the standing user constraints. Higher-rated Willyacos cape search estimate was November 5–10, so it did not clear the deadline; no seller outreach or rushed bespoke work.
 
-**Proposed new statement pieces total $58.49 before tax.** Including the previously sourced, unpurchased $15.99 shirt gives **$74.48 before tax** for the new outfit proposal, replacing the prior shirt/leaf-mantle basket. Existing $196.59 purchase basis stays unchanged; hypothetical merchandise sum $271.07 before any new tax/fees, within the $500 combined ceiling. No assumed refunds, shared-budget charge or new purchase. No AI render made this turn; actual product references are supplied before another requested preview. [Current handoff](handoff-2026-10-29-statement-pieces.md).
+**Proposed new statement pieces total $58.49 before tax.** Including the previously sourced, unpurchased $15.99 shirt gives **$74.48 before tax** for the new outfit proposal, replacing the prior shirt/leaf-mantle basket. Existing $196.59 purchase basis stays unchanged; hypothetical merchandise sum $271.07 before any new tax/fees, within the $500 combined ceiling. No assumed refunds, shared-budget charge or new purchase. [Current render handoff](handoff-2026-10-29-pauldron-cape-render.md); [earlier source handoff](handoff-2026-10-29-statement-pieces.md).

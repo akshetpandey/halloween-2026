@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–N use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–O use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** N completed the requested sleeved brown-mantle preview, but the host now finds it too basic and dislikes the leaf piece. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns the source-verified upgrade proposal and actual product references; no new render yet. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains private outputs and crown repair advice. Previews do not establish a repaired crown, purchase or fit.
+**Latest October 29:** O completes the requested moon-phase armor/black half-cape preview, replacing N's disfavored leaf mantle. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns actual source references, dated offer checks and private outputs. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains prior outputs and crown repair advice. Previews do not establish a repaired crown, purchase or fit.
+
+## O Moon-phase armor and black half-cape
+
+Requested/completed October 29: real Brown B pauldron with supplied three vials and diagonal strap, opposite-shoulder Black metallic-edged cape with supplied rope, black short-sleeved shirt, compact crown, torc/cuff pair, green trousers and clean-shaven likeness. Two built-in edits; the second removes only a cream fabric patch accidentally copied from a retailer model. Full-body/detail, 1536 × 1024. Prior personalized final carries likeness because original upload is absent; three actual garment photos supply objects. [27](27-haunted-court-statement-pieces-2026-10-29.md#personalized-pauldron-and-cape-preview) owns private final/prompts, exact source evidence and approximation limits. Source refresh hit verification; earlier successful exact checks only minutes before generation remain dated evidence. No new purchase, CAPTCHA click, physical fit or crown repair. Personal outputs/prompts remain ignored.
 
 ## N Short-sleeved cotton shirt and brown mantle
 

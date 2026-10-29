@@ -2,7 +2,7 @@
 
 ## Current scope • October 29
 
-**Latest upgrade / repair:** host dislikes the leaf mantle and finds current render too basic. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns source-verified shoulder armor/black half-cape proposal and actual photos; neither selected/ordered or fitted. Keep short-sleeved shirt and purchased/owned pieces. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains old preview and crown repair guidance. No new render/purchase.
+**Latest upgrade / repair:** requested personalized moon-phase armor/black half-cape preview complete in [27](27-haunted-court-statement-pieces-2026-10-29.md), retaining short sleeves and purchased/owned pieces. Exact successful offer checks remain dated; refresh hit verification and did not establish newer stock. No order or physical-fit approval. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains crown repair guidance, still pending.
 
 **Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27 proposes actual embossed PU costume armor instead.
 

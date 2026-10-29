@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29:** sleeved brown-mantle preview still too basic; host dislikes leaf piece. [27](27-haunted-court-statement-pieces-2026-10-29.md) proposes a moon-phase pauldron and metallic-edged black half-cape with exact Saturday sources, keeping short sleeves/crown/torc/cuffs/green trousers. No new outfit selection, render, purchase or fit. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains prior private preview and broken-crown repair guidance. [24](24-party-reference-led-direction-2026-10-27.md) retains party references. Mesh, sleeveless, fur, feathers, large antlers, face cover and makeup excluded.
+**Current October 29:** requested moon-phase pauldron/black half-cape personalized preview complete in [27](27-haunted-court-statement-pieces-2026-10-29.md), with short-sleeved black shirt/crown/torc/cuffs/green trousers and clean-shaven likeness. Leaf mantle replaced; pieces chosen for preview only. Dated exact sources and private outputs recorded; no new purchase or physical fit. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains broken-crown repair guidance, still pending. [24](24-party-reference-led-direction-2026-10-27.md) retains party references. Mesh, sleeveless, fur, feathers, large antlers, face cover and makeup excluded.
 
 ## Historical brief • through October 23
 

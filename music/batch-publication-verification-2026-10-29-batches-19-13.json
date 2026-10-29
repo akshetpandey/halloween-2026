@@ -1,0 +1,146 @@
+{
+  "verified_at": "2026-10-29T22:59:25Z",
+  "library_records": 1608,
+  "room_counts": {
+    "living-room": 958,
+    "bedroom": 650
+  },
+  "old_track_bytes_unchanged_from_turn_start": 1533,
+  "sqlite_integrity": "ok",
+  "batches": {
+    "grove": {
+      "room": "living-room",
+      "batch_id": "19",
+      "count": 25,
+      "initial_unrated": 25,
+      "exact_new_track_readback": true,
+      "spotify_url": "https://open.spotify.com/playlist/1xUuRh05EWdHQVaapY648N",
+      "spotify_order_verified_at": "2026-10-29T22:58:23Z",
+      "spotify_reports_public": true,
+      "source": {
+        "selected_count": 25,
+        "saved_count": 1,
+        "targeted_discovery_count": 24,
+        "original_identity_membership_rechecked": true,
+        "relinked_selected": 0,
+        "targeted_discovery_authorized": true,
+        "authorization": "Host authorized fill to 50 with targeted discovery on October 29 after remaining suitable Likes thinned. Grove uses a tighter 25 this round after two failed 50-track batches.",
+        "spotify_reported_source_entries": 2699,
+        "unique_canonical_source_uris": 2690,
+        "per_track_membership_and_save_timestamps_exported": false,
+        "spotify_likes_changed": false
+      },
+      "metadata_coverage": {
+        "reccobeats": 20,
+        "youtube_candidates": 20,
+        "artist_genres_nonempty": 11,
+        "artist_lookups_complete": 25,
+        "lyric_context": {
+          "positive or neutral interpretation": 24,
+          "instrumental listing": 1
+        }
+      },
+      "credited_artist_cap": 2,
+      "exact_album_cap": 1,
+      "duplicate_exclusion_failures": 0,
+      "shared_keeps": 127,
+      "approved_duration_ms": 25345244,
+      "import_receipt": {
+        "verified_at": "2026-10-29T22:59:22Z",
+        "mode": "atomic_append",
+        "old_track_records_unchanged": 1533,
+        "new_track_records_exact": 25,
+        "new_unrated": 25,
+        "old_tables_preserved": {
+          "feedback": true,
+          "host_feedback": true,
+          "reviewer_feedback": true,
+          "reviewer_scores": true,
+          "settings": true,
+          "snapshots": true,
+          "events": true
+        },
+        "old_events_preserved_as_prefix": true,
+        "sqlite_integrity": "ok",
+        "online_backup_created": true,
+        "server_restart_required": false,
+        "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+      }
+    },
+    "hollow": {
+      "room": "bedroom",
+      "batch_id": "hollow-13",
+      "count": 50,
+      "initial_unrated": 50,
+      "exact_new_track_readback": true,
+      "spotify_url": "https://open.spotify.com/playlist/4Z43vvNO9Y9S0RrUMqmOZ2",
+      "spotify_order_verified_at": "2026-10-29T22:58:26Z",
+      "spotify_reports_public": true,
+      "source": {
+        "selected_count": 50,
+        "saved_count": 2,
+        "targeted_discovery_count": 48,
+        "original_identity_membership_rechecked": true,
+        "relinked_selected": 0,
+        "targeted_discovery_authorized": true,
+        "authorization": "Host authorized fill to 50 with targeted discovery on October 29 after remaining suitable Likes thinned. Grove uses a tighter 25 this round after two failed 50-track batches.",
+        "spotify_reported_source_entries": 2699,
+        "unique_canonical_source_uris": 2690,
+        "per_track_membership_and_save_timestamps_exported": false,
+        "spotify_likes_changed": false
+      },
+      "metadata_coverage": {
+        "reccobeats": 22,
+        "youtube_candidates": 41,
+        "artist_genres_nonempty": 47,
+        "artist_lookups_complete": 50
+      },
+      "credited_artist_cap": 2,
+      "exact_album_cap": 1,
+      "duplicate_exclusion_failures": 0,
+      "shared_keeps": 207,
+      "approved_duration_ms": 44678084,
+      "import_receipt": {
+        "verified_at": "2026-10-29T22:59:23Z",
+        "mode": "atomic_append",
+        "old_track_records_unchanged": 1558,
+        "new_track_records_exact": 50,
+        "new_unrated": 50,
+        "old_tables_preserved": {
+          "feedback": true,
+          "host_feedback": true,
+          "reviewer_feedback": true,
+          "reviewer_scores": true,
+          "settings": true,
+          "snapshots": true,
+          "events": true
+        },
+        "old_events_preserved_as_prefix": true,
+        "sqlite_integrity": "ok",
+        "online_backup_created": true,
+        "server_restart_required": false,
+        "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+      }
+    }
+  },
+  "method": "Online SQLite snapshot and real frontend filter functions; no production test votes or playback; authenticated browser check not repeated.",
+  "frontend_filters": {
+    "latest_defaults": "passed",
+    "batch_size_and_order": "passed",
+    "needs_review_per_room": {
+      "living-room": 25,
+      "bedroom": 50
+    },
+    "room_isolation": "passed"
+  },
+  "tests": {
+    "atomic_importer_python": 7,
+    "frontend_node": 21
+  },
+  "containers": {
+    "identities_unchanged": true,
+    "start_times_unchanged": true,
+    "server_restart": false,
+    "csrf_rotation": false
+  }
+}

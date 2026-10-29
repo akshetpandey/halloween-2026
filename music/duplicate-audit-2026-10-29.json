@@ -1,0 +1,136 @@
+{
+  "snapshot_at_new_york": "2026-10-29T17:45:43-04:00",
+  "catalog_checked_at": "2026-10-29T21:46:36Z",
+  "verified_at": "2026-10-29T21:48:10Z",
+  "approval_source": "Fresh online snapshot of hosted canonical feedback, vote=up; host-priority shared policy. New unrated candidates excluded. Approved ID set rechecked against live hosted database after audit.",
+  "approved_tracks_checked": 325,
+  "room_counts": {
+    "living-room": 127,
+    "bedroom": 198
+  },
+  "fresh_catalog_resolved": 325,
+  "fresh_catalog_us_playable": 325,
+  "fresh_catalog_missing_isrc": 0,
+  "fresh_vs_stored_identity_metadata_changes": 0,
+  "exact_spotify_uri_duplicate_groups": 0,
+  "normalized_isrc_duplicate_groups": 0,
+  "same_artist_base_title_variant_pairs": 0,
+  "cross_room_same_recording_duplicate_groups": 0,
+  "same_title_different_artist_groups": [
+    {
+      "base_title": "hypnotized",
+      "classification": "Same normalized title; distinct catalog recording IDs/ISRCs and no shared credited artist. Not an exact-recording duplicate. Composition/sample equivalence not established.",
+      "tracks": [
+        {
+          "room": "living-room",
+          "artist": "Purple Disco Machine, Sophie and the Giants",
+          "title": "Hypnotized",
+          "spotify_uri": "spotify:track:0OeFuOAu0P1ONYz5EDdqb2",
+          "spotify_url": "https://open.spotify.com/track/0OeFuOAu0P1ONYz5EDdqb2",
+          "isrc": "AUDCB1701555",
+          "duration_ms": 195704
+        },
+        {
+          "room": "bedroom",
+          "artist": "Amelie Lens",
+          "title": "Hypnotized",
+          "spotify_uri": "spotify:track:0PFNP0qTnqgOOr3X4pQwBu",
+          "spotify_url": "https://open.spotify.com/track/0PFNP0qTnqgOOr3X4pQwBu",
+          "isrc": "DESR41800287",
+          "duration_ms": 339603
+        }
+      ]
+    },
+    {
+      "base_title": "breathe",
+      "classification": "Same normalized title; distinct catalog recording IDs/ISRCs and no shared credited artist. Not an exact-recording duplicate. Composition/sample equivalence not established.",
+      "tracks": [
+        {
+          "room": "living-room",
+          "artist": "The Prodigy",
+          "title": "Breathe - Edit",
+          "spotify_uri": "spotify:track:0tOSjuYowBba9F34ecAcBY",
+          "spotify_url": "https://open.spotify.com/track/0tOSjuYowBba9F34ecAcBY",
+          "isrc": "GBBKS9600041",
+          "duration_ms": 240933
+        },
+        {
+          "room": "living-room",
+          "artist": "Jax Jones, Ina Wroldsen",
+          "title": "Breathe",
+          "spotify_uri": "spotify:track:0KsB4TwgATg88aXCMBoO3Y",
+          "spotify_url": "https://open.spotify.com/track/0KsB4TwgATg88aXCMBoO3Y",
+          "isrc": "GBUM71706192",
+          "duration_ms": 207629
+        }
+      ]
+    },
+    {
+      "base_title": "don t stop",
+      "classification": "Same normalized title; distinct catalog recording IDs/ISRCs and no shared credited artist. Not an exact-recording duplicate. Composition/sample equivalence not established.",
+      "tracks": [
+        {
+          "room": "bedroom",
+          "artist": "KI/KI",
+          "title": "Don't Stop - drums & acid mix (edit)",
+          "spotify_uri": "spotify:track:6hvA3fjfQdWaZlc74FrahJ",
+          "spotify_url": "https://open.spotify.com/track/6hvA3fjfQdWaZlc74FrahJ",
+          "isrc": "NLF712405308",
+          "duration_ms": 216773
+        },
+        {
+          "room": "bedroom",
+          "artist": "DJ HEARTSTRING, southstar",
+          "title": "Don't Stop",
+          "spotify_uri": "spotify:track:3tYYypENWxaS1DKUtcH8S8",
+          "spotify_url": "https://open.spotify.com/track/3tYYypENWxaS1DKUtcH8S8",
+          "isrc": "FRX282433099",
+          "duration_ms": 196916
+        }
+      ]
+    },
+    {
+      "base_title": "play with me",
+      "classification": "Same normalized title; distinct catalog recording IDs/ISRCs and no shared credited artist. Not an exact-recording duplicate. Composition/sample equivalence not established.",
+      "tracks": [
+        {
+          "room": "bedroom",
+          "artist": "Nicolas Julian",
+          "title": "Play With Me",
+          "spotify_uri": "spotify:track:6pNLxfWv2hXrAUyjQFB4tZ",
+          "spotify_url": "https://open.spotify.com/track/6pNLxfWv2hXrAUyjQFB4tZ",
+          "isrc": "DEXW62500311",
+          "duration_ms": 133846
+        },
+        {
+          "room": "living-room",
+          "artist": "hanoram",
+          "title": "Play With Me",
+          "spotify_uri": "spotify:track:6l1xPATiiOeH94rLV0N4Z1",
+          "spotify_url": "https://open.spotify.com/track/6l1xPATiiOeH94rLV0N4Z1",
+          "isrc": "GX4R52613200",
+          "duration_ms": 218312
+        }
+      ]
+    }
+  ],
+  "same_artist_fuzzy_false_positive": {
+    "artist_overlap": "999999999",
+    "titles": [
+      "I Got Acid",
+      "TRIP ON ACID"
+    ],
+    "assessment": "Distinct titles, catalog recording identifiers and collaborators; no duplicate match established."
+  },
+  "approved_vs_cut_same_recording_conflicts": 0,
+  "approved_id_set_unchanged_on_final_live_recheck": true,
+  "hosted_metadata_scores_settings_snapshots_unchanged": true,
+  "prior_events_preserved": true,
+  "concurrent_review_event_counts": {
+    "vote": 19
+  },
+  "concurrent_feedback_changes_note": "Feedback and new vote events advanced during this read-only audit; the approved ID set stayed identical. Do not overwrite ongoing reviews with the older snapshot.",
+  "sqlite_integrity": "ok",
+  "spotify_or_library_writes": false,
+  "limits": "Metadata audit of catalog identity, normalized titles, version labels, credited artists and duration; no acoustic fingerprints, full listening, hidden sample/rework equivalence proof or automatic merging."
+}

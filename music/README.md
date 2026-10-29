@@ -16,3 +16,5 @@ October 28 shared-vote decision: host Keep/Cut/Maybe wins; otherwise the latest 
 [Playlist Lab](playlist-lab/README.md) provides persistent audition feedback and direct Spotify API management; Spotify reading and a separate live audition are verified; automatic catalog enrichment reduces review to simple votes. [Docker and Cloudflare Access hosting](playlist-lab/HOSTING.md) is published at [music.hollow-court.com](https://music.hollow-court.com) with shared approvals; host sign-in and saved guest votes are confirmed. A separate live guest-login test was not performed in this update.
 
 [Review Grove disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements): the room-scoped filter shows both people’s individual votes beside the controls; host priority remains unchanged. [Feature verification/handoff](playlist-lab/handoff-2026-10-28-disagreements.md).
+
+[Approved-track duplicate audit · October 29](duplicate-audit-2026-10-29.md): all 325 current Keeps checked against fresh catalog identities; no exact-recording or same-artist version duplicates found. Four generic titles occur under different artists. Votes and playlists unchanged.

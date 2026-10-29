@@ -44,3 +44,7 @@ Each atomic append made an online SQLite backup and verified all old serialized 
 Fresh main-Grove readback: **50 tracks / 3:05:16 raw**, including **45 current Keeps / 5 now-Cut tracks**, with **82 current Keeps outside it**. Main playlist was not synced during audition creation. Approved-library counts above are not the main Spotify playlist's size. Voting does not promote/remove recordings automatically. A separately requested approved-only sync must use fresh shared decisions.
 
 Spotify reports both auditions public; Cloudflare Access protects the review service and individual votes rather than Spotify playlist visibility. No security configuration was changed or new security review claimed.
+
+## Approved duplicate audit · later October 29
+
+All **325 current Keeps (127 Grove / 198 Hollow)** were checked with fresh catalog metadata and a final live approved-ID-set recheck. **Zero repeated Spotify URIs, normalized ISRCs or same-artist base-title variants** were found, including across rooms. Four generic-title pairs have distinct recording identifiers and no shared credited artist; no approvals were merged or removed. Reviews continued during the read-only audit without changing the approved set. Counts above need no duplicate-based correction. [Results and limits](duplicate-audit-2026-10-29.md) · [Sanitized evidence](duplicate-audit-2026-10-29.json).

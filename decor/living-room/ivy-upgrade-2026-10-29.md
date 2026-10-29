@@ -1,34 +1,38 @@
-# Better-looking ivy — October 29, 2026
+# Ivy comparison — Freyalife is the value recommendation
 
-**Host feedback:** the current KASZOO ivy does not look good enough; find a better option. **Recommendation for review:** [Mizii / Ivy / five 79-in vines per pack](https://www.amazon.com/dp/B0CXHNJVR6), **two packs / ten vines / $65.98 before tax**. Exact product and reduced-coverage allocation are **not host selected or ordered**. Hold the old KASZOO purchase while choosing.
+**Latest October 29:** host asks why the proposed Mizii is preferable to [Freyalife /12Pack 84Ft](https://www.amazon.com/dp/B0D6KDW17P). After inspecting that exact listing, **recommend two Freyalife 12-packs for $10.98**, loosely paired into twelve fuller runs. This supersedes Mizii as the default recommendation. The host has not selected or reported ordering either replacement.
 
-## Why this one
+## What the higher price buys — and what remains unverified
 
-In the product photos, Mizii has smaller leaves, irregular side branches and mixed green tones; its leaf veins are less conspicuous than the RECUTMS alternative inspected. The seller describes **190 fabric leaves per vine** and plastic stems with internal iron wire, so the branches can be shaped outward. These are listing specifications and visual judgments from retailer photos, **not a physical sample or verified realism in this apartment**. The listing says “silk,” which does not establish natural-silk fiber content.
+| Item | Last checked price | Pack length | Listed construction |
+|---|---:|---:|---|
+| [Mizii /Ivy](https://www.amazon.com/dp/B0CXHNJVR6) | $32.99 per five-vine pack | 5 ×79 in /32.92 ft | Seller explicitly claims 190 fabric leaves per vine, side branching and wire inside plastic stems |
+| [Freyalife /12Pack 84Ft](https://www.amazon.com/dp/B0D6KDW17P) | $5.49 per twelve-vine pack | 12 ×7 ft /84 ft | Seller describes fabric (“silk”) leaves and plastic stems; no leaf count or internal-wire claim found |
 
-The inspected [RECUTMS Green-dgy6pcs / six 6.3-ft vines](https://www.amazon.com/dp/B0DHKN4TRD) is $30.99 per pack and showed Oct 30,7–11am at quantity 1. It provides more length per pack, but its broad flat leaves/prominent printed veins looked less convincing in the close-up. Its hypothetical two-pack $61.98 is only $4 below the recommended Mizii pair; quantity 2 RECUTMS stock/delivery was not checked. It is an alternative, not an extra buy.
+Mizii was suggested for its branch structure and the look of the product photos. **No physical sample, independent durability test or side-by-side installed comparison establishes that it looks enough better to justify the premium.** Both sellers’ “silk” wording is not verified natural-silk composition. Do not turn marketing photos into a proven quality ranking or infer Freyalife has no wire merely because none is specified.
 
-## Delivery actually checked in Chrome
+For this few-day party, dim purple/amber lighting and foliage mostly at room edges, Freyalife is the better cost judgment. Pairing adds material, although it does not reproduce Mizii’s branching or guarantee equal realism. The previous recommendation placed too much weight on photo styling compared with the host’s value preference.
 
-- **Mizii / Ivy**, ASIN **B0CXHNJVR6**, selected option explicitly “Ivy”; not Eucalyptus, Fall Ivy, Ficus, Scindapsus or Willows.
-- **Quantity 2 selected**: $32.99 per five-vine pack, **$65.98** total calculation, In Stock, **free Friday October 30 delivery**. No narrower delivery window was shown for this green Ivy option. Sold by Mizii, shipped by Amazon.
-- Product estimate only; no checkout/cart change/order/payment. Confirm final arrival and total at checkout. No coupon or bundle discount counted.
-- [Structured offer record](../research/ivy-upgrade-check-2026-10-29.json) · screenshot below. Earlier Larksilk six-foot options in the search showed November 3 delivery and were not pursued for this deadline.
+## Proposed order and arrangement
 
-## Allocation and coverage tradeoff
+- Select **12Pack 84Ft**, quantity **2**, rather than automatically switching to the single 24Pack option (which showed $11.39 versus $10.98 for two 12-packs).
+- Two packs contain **24 individual strands /168 ft raw length**. Pair strands loosely, staggering leaves, to create **12 nominal7-ft runs /84 ft of paired coverage**. Actual bends/overlap can reduce useful span; this is a plan, not an installed measurement.
+- Restore the earlier **ten paired runs Grove /70 ft** (eight high edge sections, one trailing accent, one shrine/tree) and **two paired runs Hollow desk /14 ft**. This avoids the prior Mizii proposal’s reduction to ten total runs/~66 ft.
+- Use the ordered ties to join pairs loosely and planned suitable clips for attachment; no extra tie pack or separate foliage lights added. Individual leaf density is not verified, so do not promise a dense ceiling canopy.
+- The Freyalife listing warns of packaging odor; unpack and air it out promptly on arrival. Attachment, appearance and odor still need a received-material check.
 
-Each vine is **79 in /6.58 ft**. Ten give **790 in /65.83 ft**, compared with the former12×7ft /84ft proposal: approximately **18.17 ft /22% less linear coverage**, with more branching per photographed strand. More leaves do not create extra length.
+## Live offer verification
 
-Proposed use: **eight Grove vines /52.67 ft** (six selected high window/cabinet/wall sections, one trailing accent, one shrine/tree) and **two Hollow desk/Guardian vines /13.17 ft**. Prior Grove allocation was ten7-ft vines; this proposal concentrates on six high sections rather than eight. Keep the room layout and clear central floor unchanged. Shape the side branches and hide joins behind the already ordered moss/cloth; do not count this as an overhead canopy.
+Checked signed-in Chrome October 29: exact ASIN **B0D6KDW17P**, selected **12Pack 84Ft**, **quantity 2**, **$5.49 each / $10.98 calculated**, In Stock, **free Friday October 30 delivery**. Shipped by Amazon, sold by Freyalife. No smaller time window was shown. Checkout must confirm; no cart, instant-buy or payment action.
 
-If retaining at least84ft is essential, **three packs /15vines /98.75ft / $98.97** is the arithmetic alternative, with three extra vines beyond the former12-strand count. **Quantity3 delivery/availability not checked**, and this larger order is not the recommendation or approved scope.
+Mizii’s $32.99 quote and quantity 2 Friday estimate come from the preceding check in this session, not a new second check on this follow-up. [Earlier Mizii evidence](../research/ivy-upgrade-check-2026-10-29.json) remains historical comparison; [new Freyalife record](../research/ivy-freyalife-check-2026-10-29.json) records the current recommended option.
 
-## Cost comparison — pending selection
+## Budget — replacement pending host choice
 
-The current five-unconfirmed-line baseline is **$157.92 before tax / $172.13 with planning tax**, including the old **$9.99** ivy allowance. Replace that allowance with the two-pack **$65.98** proposal, rather than adding both: **$213.91 remaining merchandise +$19.25 aggregate 9% planning tax = $233.16**. Increase **$55.99 before tax / $61.03 with tax**. Ordered quote value remains$281.07; combined core would be **$494.98 / $539.53 with planning tax**. Actual paid totals remain unknown; local $105/deferred lighting separate.
+Two Freyalife packs **$10.98** replace the old H27 allowance **$9.99**, a **$0.99** merchandise increase. Current remaining baseline stays $157.92 until selection; if accepted: **$158.91 +$14.30 aggregate 9% planning tax = $173.21 remaining**. This is **$55 less merchandise / $59.95 less with planning tax** than the superseded two-pack Mizii scenario ($213.91/ $233.16). Ordered quote value remains $281.07; proposed whole-core **$439.98 / $479.58 with tax**, excluding local $105/deferred lights and with actual paid totals unknown.
 
-The baseline ledger is retained for comparison until the host selects the replacement. It now flags H27 as held with a replacement proposal; this is not a final new order or an approved reduction in coverage. Mizii includes no light string; the old KASZOO incidental LED inclusion is not carried forward. Deferred moon/Guardian light strings remain their own allocations, not duplicate foliage purchases.
+Original KASZOO held; Mizii is a premium alternative rather than the default. No replacement selected or ordered by inference from the host’s comparison question.
 
-![Mizii Ivy selected option, five-vine pack, price and Friday estimate](../research/ivy-mizii-five-pack-2026-10-29.png)
+![Freyalife selected twelve-strand pack and price](../research/ivy-freyalife-2026-10-29.png)
 
-[Current buying list](../shopping-ready.md) · [Current purchase ledger](../purchases-and-allocations-2026-10-29.json) · [Handoff](../handoff-2026-10-29-ivy-upgrade.md).
+[Buying list](../shopping-ready.md) · [Purchase ledger](../purchases-and-allocations-2026-10-29.json) · [Handoff](../handoff-2026-10-29-ivy-value.md).

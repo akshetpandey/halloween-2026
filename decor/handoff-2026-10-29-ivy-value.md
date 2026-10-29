@@ -1,0 +1,18 @@
+# Handoff — ivy value comparison
+
+- **Session title and ID:** decor / Freyalife versus Mizii; session ID not exposed.
+- **Updated date:** October 29,2026, America/New_York.
+- **Scope / owned files:** current ivy comparison, new Freyalife offer JSON/PNG; current proposal pointers in buying list/ledger and decor navigation, narrow operations budget/decision note. Prior Mizii offer evidence preserved.
+- **Checkout, branch and base commit:** shared `/Users/akshet/workspace/halloween-2026`, `main`, base `7460805`. Pre-existing shopping-list “Scenicadaptation” edit remains outside task staging.
+- **Status:** revised recommendation ready; no host selection or order.
+- **Confirmed user decisions:** host asks why premium Mizii rather than exact Freyalife ASIN B0D6KDW17P. This is a comparison question, not an order confirmation.
+- **Proposals awaiting a decision:** two Freyalife 12Pack84Ft packs/ $10.98;24 rawstrands/168ft paired into12 nominal7-ft runs/84ft, ten Grove/two desk. Mizii remains premium alternative rather than default. Original KASZOO held.
+- **Completed work and canonical links:** [comparison and revised value judgment](living-room/ivy-upgrade-2026-10-29.md), [current offer record](research/ivy-freyalife-check-2026-10-29.json), [product proof](research/ivy-freyalife-2026-10-29.png), [buying list](shopping-ready.md), [proposal ledger](purchases-and-allocations-2026-10-29.json). Explicitly correct earlier overreliance on product photos; no verified sample-quality advantage claimed.
+- **Evidence:** exact Freyalife 12Pack84Ft selected,quantity 2,In Stock/ $5.49each/free Friday Oct 30 in Chrome; no smaller delivery window. 24Pack168Ft option showed$11.39, so two 12-packs are cheaper. Freyalife claims fabric leaves/plastic stems; no leaf count/internal-wire claim found. Mizii earlier check claims190 leaves/vine, branching/internal wire,32.99perfive-pack. Both untested. Freyalife packaging-odor note retained as prompt-airing setup tip.
+- **Costs:** baseline remains157.92/172.13 including old9.99held ivy allowance, ordered quote 281.07. Conditional Freyalife replacement158.91+14.30tax=173.21, +0.99merchandise/+1.08with tax versus baseline, -55merchandise/-59.95with tax versus Mizii scenario. Proposed whole-core 439.98/479.58with tax; actual paid unknown, local105/lights separate.
+- **Checks actually run and results:** JSON parsing, pair/length/allocation arithmetic, conditional replacement/tax arithmetic, local file links and `git diff --check`; review staged diff and preserve existing shopping word edit. Actual outcomes in final.
+- **Purchases / external changes / deployments actually performed:** read-only Chrome product lookup and quantity selector; no cart, instant-buy, checkout/payment, order, message or physical test. No CAPTCHA; research tab unmarked for cleanup.
+- **Remaining work in priority order:** host product review/selection; if chosen replace old H27 baseline, confirm checkout total/arrival and wait for host order report. Air material promptly and test actual appearance/attachments. Continue other remaining decor/lights separately.
+- **Dependencies on sibling tasks:** approved furniture, moss cuts, nine reported ordered lines unchanged. Restores nominal earlier84-ft coverage through pairing, no canopy claim or duplicate light strings/tie order.
+- **Unpersisted conversation details or access limitations:** Freyalife actual strand density/appearance/odor/grip unverified. Paired fullness is a design proposal, not proof of equivalence to Mizii. No unlisted leaf count or absence-of-wire conclusion.
+- **Commit(s) on main and remaining unrelated dirty files:** save before focused commit; report hash in final. Preserve pre-existing shopping-list word edit unstaged.

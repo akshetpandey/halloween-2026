@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • Freyalife comparison changes ivy recommendation
+
+**Host asks why Mizii rather than exact Freyalife link B0D6KDW17P.** Direct Chrome check:12Pack84Ft,quantity 2,$5.49each/ $10.98,In Stock/free Oct 30. Agent revises default recommendation to Freyalife, pairing24 strands into12 nominal7-ft runs (ten Grove/two desk). Mizii explicitly advertises branching, internal wire and 190 leaves/vine; Freyalife lists fabric leaves/plastic stems without leaf count/internal-wire claim. Neither is physically tested, so a worthwhile premium is unproven. [Current comparison](../decor/living-room/ivy-upgrade-2026-10-29.md). No host replacement selection, purchase or coverage cut inferred.
+
 ## Latest October 29 • better-looking ivy requested
 
 **Host feedback:** old KASZOO ivy does not look good enough. Hold H27. [Mizii /Ivy /five 79-in vines per pack, two packs / $65.98](../decor/living-room/ivy-upgrade-2026-10-29.md) is the agent recommendation after comparing product photos with RECUTMS. Quantity 2 In Stock/free Oct 30 checked in Chrome. Proposal has ten vines/~66ft rather than old12/~84ft; eight Grove/two desk and six high Grove sections rather than eight. Product and reduced coverage **await host choice**, not an accepted scope change or order. Baseline old $9.99 allowance retained for comparison; no cart/payment.

@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • lower-cost ivy comparison
+
+[Two Freyalife 12-packs / $10.98](../decor/living-room/ivy-upgrade-2026-10-29.md) now recommended over the premium Mizii scenario after host comparison. Replace old $9.99allowance: **$158.91 +$14.30 aggregate 9% planning tax = $173.21 remaining**, $0.99before tax/ $1.08with tax above the current baseline. $55before tax/ $59.95with tax below the preceding Mizii proposal. Two packs paired yield 84ft nominal fuller runs, preserving earlier coverage. **Recommendation pending host selection**, not new order or approved spend. Baseline157.92/172.13 and ordered quote 281.07 unchanged until selection; proposed whole-core 439.98/479.58with tax. Local 105/deferred lights separate. Earlier Mizii scenario below is now the premium alternative.
+
 ## Latest October 29 • conditional ivy upgrade
 
 Old H27 is held after host dislikes its look. Current $157.92/ $172.13 remaining baseline includes its $9.99 allowance. [Proposed two-pack Mizii replacement](../decor/living-room/ivy-upgrade-2026-10-29.md) costs $65.98: replace, do not add, that allowance to get **$213.91 +$19.25 aggregate 9% planning tax = $233.16 remaining**. Increment $55.99 before tax/ $61.03 with tax; proposed whole-core $494.98/ $539.53 with tax, ordered quote value $281.07 unchanged. Reduced 66-ft coverage and exact product are **not yet host selected**; baseline retained pending choice, actual paid unknown. Lighting/local $105 separate.

@@ -1,6 +1,6 @@
 # October Grove — decor
 
-**October 29 ivy review:** host dislikes the old KASZOO option; hold it. [Recommended Mizii five-vine pack ×2 / $65.98](ivy-upgrade-2026-10-29.md) showed quantity 2 In Stock/free Oct 30. Proposed ten vines/~66ft, eight Grove/two desk, concentrating coverage; exact replacement and shorter allocation await host choice. Listing photos reviewed, no physical sample/order.
+**October 29 ivy comparison:** host asks why Mizii over Freyalife. [Revised recommendation: two Freyalife 12-packs / $10.98](ivy-upgrade-2026-10-29.md), quantity 2 In Stock/free Oct 30. Pair strands into12 nominal7-ft runs:ten Grove/two desk, preserving the 84-ft allocation. Mizii offers advertised branching/wire but no physical quality proof justifying its premium as default. Replacement not yet host selected/ordered; original KASZOO held.
 
 **October 29 ordered moss:** host confirms **four Green 39 × 39-in sheets ordered**, recorded from the session quantity. [Scan calculation/cuts](moss-surfaces-and-cuts-2026-10-29.md) allocates them to kitchen worktops, 22 × 44 coffee tabletop, 20 × 40 other top and retained small desk/Guardian scraps. [Purpose buying list](../shopping-ready.md) · [Purchase ledger](../purchases-and-allocations-2026-10-29.json) · [Handoff](../handoff-2026-10-29-purchases-and-purpose.md). No more moss to buy; receipt/actual charge/fit unverified.
 

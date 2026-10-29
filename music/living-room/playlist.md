@@ -7,7 +7,7 @@ October 29 API readback confirms the [main Grove playlist](https://open.spotify.
 
 **Individual host additions · October 26:** [Float On — Modest Mouse](https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R), original album recording (3:28), and [Bruises — Chairlift](https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R), original album recording (4:01), were explicitly requested, appended to the main playlist and saved as Keeps outside numbered batches. [Host-additions seed](october-grove-host-additions.json) · [Current main snapshot](october-grove-approved-2026-10-26.json). These individual indie choices do not replace the overall discovery brief.
 
-**October 29 thesis draft:** the host is revising the [playlist thesis](playlist-thesis.md) before another Grove batch. Its proposed dance-led center and short calibration are not new confirmed taste rules. Use the host’s revision for the next selection; keep existing votes and the confirmed brief below.
+**October 29 thesis editorial pass:** the host accepted the broad [thesis](playlist-thesis.md) as reasonable and requested Astra at maximum reasoning to suggest edits, then new batches. The [applied review](editorial-review-2026-10-29.md) supplies this round’s selection checks and 40 core / ten adjacent allocation. It preserves confirmed preferences and existing votes; it adds no new approval checkpoint.
 
 ## Current selection calibration
 

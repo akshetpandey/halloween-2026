@@ -1,6 +1,6 @@
 # Host costume task tracker
 
-**Current October 29:** mesh rejected; [opaque-black-top brown-mantle preview, source and PLA crown repair guidance](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) complete. New Small top verified before rendering; new garments not reported ordered. Host reports two small crown pieces broken; repair/fit pending. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains mantle comparison. No structural build or new final fit approval; exact bark/root armor unsourced. No fur/feathers/large antlers/full-face cover/makeup. IDs retained for continuity.
+**Current October 29:** mesh and sleeveless tops rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the sourced short-sleeved shirt recommendation and crown repair guidance. No new render, shirt selection or order. Crown repair/fit pending. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains mantle comparison. No structural build or final fit approval; exact bark/root armor unsourced. No fur/feathers/large antlers/full-face cover/makeup. IDs retained for continuity.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 | KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
-| KING-11 | Redesign unused night-two outfit for October 31 | **Revised opaque-black-top preview complete; mesh rejected**, clean-shaven with brown mantle, real crown/torc/cuffs and green trousers. New top/mantle/glue not bought; crown repair and final fit open | [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) current preview/source/repair; [25](25-realistic-rootkeeper-amazon-2026-10-29.md) mantle comparison. Exact sculpted roots/bark unsourced; no new order/spend |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Sleeves required; mesh/tank previews superseded.** Textured short-sleeved cotton shirt recommended, Small black Saturday source checked. Keep brown mantle/crown/torc/cuffs/green trousers. No new render/order; repair/fit open | [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) source/repair; [25](25-realistic-rootkeeper-amazon-2026-10-29.md) mantle comparison. Exact sculpted roots/bark unsourced; no new spend |
 
 ## Historical readiness record • October 23
 

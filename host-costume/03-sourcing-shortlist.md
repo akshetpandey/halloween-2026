@@ -2,9 +2,9 @@
 
 ## Current scope • October 29
 
-**Latest requested render / repair:** mesh rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the revised opaque-black-top preview, exact Small black top price/Friday delivery verification, and the host's two broken crown fragments. Crown listing confirms PLA; gel CA recommended for snug decorative breaks, full 24-hour cure, no physical repair/test. Glue exact delivery unverified; no new purchase.
+**Latest shirt / repair:** mesh and sleeveless tops rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the recommended textured short-sleeved cotton shirt, exact Small black price/Saturday delivery verification, earlier previews and two broken crown fragments. Crown repair/fit pending; glue exact delivery unverified. No new render or purchase.
 
-**Mantle source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP** comparison and October 29 Friday-offer check. Current preview pairs it with the opaque top in 26 and reuses crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. No new garment order reported.
+**Mantle source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP** comparison and October 29 Friday-offer check. Current proposal pairs it with the sleeved shirt in 26 and reuses crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. No new garment order reported.
 
 **Feathers and mesh rejected; fur too hot; no large antlers/full-face covering.** [24](24-party-reference-led-direction-2026-10-27.md) retains the lookbook/guardian study; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older JEMITOP Burgundy/Small source, not a purchase or refreshed offer. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. Fit untested; no seller follow-up/return.
 

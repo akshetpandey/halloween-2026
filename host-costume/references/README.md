@@ -2,6 +2,10 @@
 
 Real costume/fashion images; copyright remains with the credited creators. These are design references, not generated host portraits.
 
+## October 29 sleeved shirt recommendation
+
+[JEMITOP Black-b short-sleeved cotton lace-up shirt photograph](2026-10-29/jemitop-black-b-short-sleeve.jpg), from the live [Black-b / Small Amazon listing B0CR38X65T](https://www.amazon.com/dp/B0CR38X65T). Credit JEMITOP / Amazon listing; copyright remains with the rights holder. Downloaded and visually inspected October 29. [Current source/availability record](../26-brown-mantle-preview-and-crown-repair-2026-10-29.md#latest-revision-sleeves-required); not a purchase, fit test or generated outfit render.
+
 ## Antler Queen — Yellowjackets
 
 ![The veiled antler oracle](/Users/akshet/workspace/halloween-2026/host-costume/references/antler-queen.jpg)

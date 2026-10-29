@@ -2,17 +2,31 @@
 
 October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested personalized preview complete; physical repair and final outfit fit pending.** No new purchase inferred.
 
-## Latest revision: mesh rejected, opaque black top
+## Latest revision: sleeves required
 
-**Host's latest instruction October 29: replace the mesh tank.** Current preview uses an opaque black cotton sleeveless top beneath the same brown mantle, compact crown, torc, cuffs and green trousers. The original mesh preview below is superseded for the home-party outfit; the mesh remains a historical purchase, with no return or refund assumed.
+**Latest host instruction October 29: a better shirt, not sleeveless.** The opaque tank proposal/preview below is superseded. Keep the brown mantle, compact crown, torc, actual cuff pair and green trousers; no new shirt or revised render selected/ordered yet.
+
+**Recommended:** [JEMITOP Mens Vintage Short Sleeve Renaissance Shirt, Black-b / Small, B0CR38X65T](https://www.amazon.com/dp/B0CR38X65T). Signed-in Chrome exact variant checked about **5 p.m. EDT October 29**: **$15.99 / In Stock / free Saturday October 31 delivery** to Brooklyn 11211; ships Amazon / sold JEMITOP. Small and Black-b selected; buy-box date verified. No timed delivery window or physical fit test. Listing says **100% cotton**, textured weave, regular fit, short sleeves, mandarin collar and contrasting brown/orange lacing with two beads; 4.5/5 across 918 ratings observed before size selection, aggregate rather than Small-specific evidence.
+
+Styling judgment: this has more woodland character than the plain tank and pairs its brown lacing with the mantle while keeping a dark base beneath gold accents. Short sleeves leave the cuffs visible and avoid a heavy indoor layer. Most chest lacing will be covered by the mantle; tuck the shirt into the green trousers so the long lower hem/side ties do not compete. The collar, torc and mantle neckline need an actual fit check; no claim they have already fitted together. Do not invent armor, add feathers or revive large antlers/face coverage.
+
+[Actual retailer shirt photograph](references/2026-10-29/jemitop-black-b-short-sleeve.jpg), downloaded from the live selected listing and visually inspected October 29. Credit: JEMITOP / Amazon listing; copyright remains with the rights holder. This is a real product reference, not an outfit render or higher-quality fabrication claim. No new render requested or made in this follow-up; previous sleeveless images are styling history.
+
+If proceeding with this shirt and the previously checked $13.16 mantle, proposed new garment subtotal is **$29.15 before tax**, replacing the earlier $23.56 tank/mantle proposal rather than adding to it. Shirt/mantle/glue remain unpurchased; $196.59 purchased basis / $500 ceiling unchanged. Crown repair and fitting remain open. [Current handoff](handoff-2026-10-29-sleeved-shirt.md).
+
+<a id="latest-revision-mesh-rejected-opaque-black-top"></a>
+
+## Earlier revision: mesh rejected, opaque black tank — now superseded
+
+**Earlier host instruction October 29: replace the mesh tank.** The completed preview used an opaque black cotton sleeveless top beneath the same brown mantle, compact crown, torc, cuffs and green trousers. Sleeveless is now rejected as above. The mesh remains a historical purchase, with no return or refund assumed.
 
 **Source checked before this edit, approximately 4:25 p.m. EDT October 29:** [Amazon Essentials Men's Regular-Fit Sleeveless Tank Top, Black / Small, B07HJB5856](https://www.amazon.com/dp/B07HJB5856), **$10.40 / In Stock / free Friday October 30** to Brooklyn 11211, shipped and sold by Amazon.com. Exact Small radio selected, Black selected and buy-box delivery verified in signed-in Chrome. Solid colors listed as 100% cotton. Actual retailer photograph shows opaque matte black jersey, broad straps and round crew neckline; it supplied the garment reference. Not ordered, physically received or fitted. Delivery remains a live offer, not a guarantee. Use a similar owned opaque black top if already available; no such owned top has been confirmed.
 
 UNIQLO AIRism Cotton sleeveless Black / S was unavailable online and in the nearby-store results. UNIQLO DRY Color Ribbed Black / S ($9.90) and H&M Regular-Fit Cotton 1353257002 Black / S ($19.99) were available online but had no Small black stock in the NYC store results checked, and no timely shipping verified; neither is a deadline-cleared alternative. The older H&M 1288283001 tank was sold out. Amazon's approved checkbox had cleared by the time it was revisited; a subsequent transient check cleared automatically too. No CAPTCHA click, purchase or reservation performed.
 
-**Current final:** [opaque-top personalized preview](renders/private/2026-10-29/rootkeeper-brown-mantle-opaque.png), 1536 × 1024. One built-in imagegen edit of the earlier clean-shaven final, with the actual new top photograph as its second input. [Exact private prompt/provenance](renders/private/2026-10-29/opaque-top-prompt.md); [garment reference](renders/private/2026-10-29/amazon-essentials-black-opaque-tank.jpg). Files and exact prompts remain Git-ignored. Visually checked both panels: no residual mesh/see-through torso; bare arms, clean-shaven likeness, brown mantle, compact pale crown, gold jewelry and green trousers retained. Fabric drape, garment fit and fine details remain approximations; original uploaded photo is still unavailable, so likeness continues through the earlier personalized image. Crown is pictured intact as intended repaired styling, not proof of repair.
+**Earlier sleeveless final, superseded:** [opaque-top personalized preview](renders/private/2026-10-29/rootkeeper-brown-mantle-opaque.png), 1536 × 1024. One built-in imagegen edit of the earlier clean-shaven final, with the actual new top photograph as its second input. [Exact private prompt/provenance](renders/private/2026-10-29/opaque-top-prompt.md); [garment reference](renders/private/2026-10-29/amazon-essentials-black-opaque-tank.jpg). Files and exact prompts remain Git-ignored. Visually checked both panels: no residual mesh/see-through torso; bare arms, clean-shaven likeness, brown mantle, compact pale crown, gold jewelry and green trousers retained. Fabric drape, garment fit and fine details remain approximations; original uploaded photo is still unavailable, so likeness continues through the earlier personalized image. Crown is pictured intact as intended repaired styling, not proof of repair.
 
-If both new garments are bought, the previously checked **$13.16 mantle + $10.40 top = $23.56 before tax**, additional proposed spending only. No new order or charge confirmed; existing $196.59 purchased basis and $500 ceiling unchanged. Crown glue/cure and actual outfit fitting remain open as below. [Latest handoff](handoff-2026-10-29-opaque-top.md).
+Historical sleeveless proposal: **$13.16 mantle + $10.40 top = $23.56 before tax**, not spent. The new sleeved proposal above replaces it; no refund assumed. [Earlier render handoff](handoff-2026-10-29-opaque-top.md).
 
 ## Host request and source gate
 

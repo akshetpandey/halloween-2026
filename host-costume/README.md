@@ -2,13 +2,13 @@
 
 ## Current • October 29
 
-**Latest requested preview complete:** host rejects mesh; revised brown leaf mantle / **opaque black cotton sleeveless top** / compact bone crown / torc / cuffs / green trousers, using the earlier personalized likeness with clean-shaven styling. [26 — current preview, exact top source and PLA crown repair](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the result, deadline-verified Small black top and repair guidance. Host reports two small crown pieces broken; actual repair/fit pending.
+**Latest shirt instruction:** host wants sleeves; mesh and sleeveless previews are superseded. [26 — sourced sleeved shirt and crown repair](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#latest-revision-sleeves-required) recommends a textured short-sleeved cotton lace-up shirt, exact Small black variant Saturday-cleared October 29. Keep brown mantle, compact bone crown, torc, cuffs and green trousers. Shirt not selected/ordered, no new render; crown repair/fit pending.
 
-**Practical sourcing:** [25 — Amazon reality check](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the mantle buying comparison. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#latest-revision-mesh-rejected-opaque-black-top) owns both current garment sources and their proposed subtotal: mantle plus opaque top, neither reported ordered. No structural fabrication; exact sculpted root/bark armor remains unsourced. Preview request is not a purchase or final fit approval.
+**Practical sourcing:** [25 — Amazon reality check](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the mantle buying comparison. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns current garment sources and proposed subtotal, replacing the earlier tank basket. Neither new garment reported ordered; no structural fabrication. Exact sculpted root/bark armor remains unsourced.
 
 **Fur too hot; feathers rejected; face clear and crown compact.** [24 — party reference study](24-party-reference-led-direction-2026-10-27.md) retains the actual lookbook/guardian vocabulary. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older Small/Burgundy source, not a purchase or freshly verified offer. 23's feather preview is rejected history.
 
-The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-opaque-top.md).
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-sleeved-shirt.md).
 
 ## Historical direction • through October 23
 

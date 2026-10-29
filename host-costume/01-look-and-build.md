@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29:** mesh rejected; [revised brown mantle / opaque black cotton sleeveless top / crown / torc / cuffs / green-trouser personalized preview](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) complete, with exact Small black top sourced before rendering. Same record owns crown repair guidance: two small PLA pieces broken, gel CA for snug decorative fragments, full 24-hour cure; actual repair/fit untested. New garments/glue not reported bought. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains mantle comparison; [24](24-party-reference-led-direction-2026-10-27.md) retains guardian/lookbook references. Sculpted roots/bark unsourced; no fur, feathers, large antlers, face cover or makeup. Earlier builds/previews are history.
+**Current October 29:** mesh and sleeveless tops rejected. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the recommended textured short-sleeved cotton shirt, exact Small black Saturday source, earlier previews and crown repair guidance. Retain brown mantle/crown/torc/cuffs/green trousers; no new render or shirt selection. Two small PLA crown pieces broken; repair/fit pending. New garments/glue not bought. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains mantle comparison; [24](24-party-reference-led-direction-2026-10-27.md) retains guardian/lookbook references. Sculpted roots/bark unsourced; no fur, feathers, large antlers, face cover or makeup. Earlier builds/previews are history.
 
 ## Historical brief • through October 23
 

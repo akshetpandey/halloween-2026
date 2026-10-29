@@ -6,9 +6,11 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** mesh rejected; M below replaces it with a sourced opaque black cotton sleeveless top. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the current source, private output and crown repair advice. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Preview does not establish a repaired crown, garment purchase or fit.
+**Latest October 29:** host rejects sleeveless after M; mesh and tank previews are superseded. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the new sourced short-sleeved shirt recommendation and crown repair advice; no sleeved render made yet. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Previews do not establish a repaired crown, garment purchase or fit.
 
 ## M Brown leaf mantle with opaque black top
+
+**Later October 29: sleeveless rejected; this preview is history.** See 26 for the sourced sleeved recommendation.
 
 Requested/completed October 29 after the host rejects mesh. One built-in imagegen edit of L's clean-shaven final, using the actual Amazon Essentials Black / Small top photo. Exact variant stock and October 30 delivery verified before rendering; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#latest-revision-mesh-rejected-opaque-black-top) owns price/offer/provenance and private links. Same full-outfit/detail layout, brown mantle, compact crown, torc, cuffs, green trousers and clean-shaven likeness. Both torsos visually checked fully opaque, bare arms retained. No new order, physical repair or fit test. L's mesh is superseded; personal assets/prompts remain ignored.
 

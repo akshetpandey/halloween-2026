@@ -1,0 +1,18 @@
+# Handoff — narrow fleece mounting band
+
+- **Session title and ID:** Decor / narrow mounting band, October 29 continuation; session ID not exposed.
+- **Updated date:** October 29, 2026, America/New_York.
+- **Scope / owned files:** current mounting note, buying list and allocation ledger; decor/bedroom navigation, current layout/setup notices; narrow operations budget/decision/cart/tracker updates. Historical offer snapshots unchanged.
+- **Checkout, branch and base commit:** `/Users/akshet/workspace/halloween-2026`, shared `main`, base `e90328d`; clean at start.
+- **Status:** ready to continue; support placement unresolved pending host surface clarification.
+- **Confirmed user decisions:** host now reports only ~1.5 in of vertical mounting area at wall top and ~3-in chosen hooks; questions ceiling rating. Six King fleece/four moss remain host-reported ordered. No new purchase confirmation.
+- **Proposals awaiting a decision:** lower hook row on a compatible vertical surface below the band, accepting an exposed top strip. Need identify glass/frame/painted wall and actual flat mounting area. No fit guarantee. No ceiling hook, blind rail, drilling or freestanding support selected.
+- **Completed work and canonical links:** [mounting correction](bedroom/draping/09-hook-count-2026-10-29.md) withdraws unconditional H24 order; [buying list](shopping-ready.md) moves H24 to hold; [ledger](purchases-and-allocations-2026-10-29.json) records held quantity and split costs. [Budget](../operations/budget.md) reconciled without treating omitted support as a saving.
+- **Cost/status:** ten other remaining decor lines $218.49 before tax / $238.15 with 9% planning tax, PLUS mounting TBD. Prior $29.22 hook allowance remains a provisional scenario ($247.71 / $270.00 remaining including it). Ordered quote value $199.90, actual paid unknown. Local $105 and deferred lighting excluded. No prices or delivery refreshed.
+- **Evidence:** current 3M FAQ supports compatible smooth vertical surfaces and package-specific use; official 17008 ceiling instructions describe a separate product, not permission to mount H24 overhead. No verified replacement ceiling capacity claimed. Earlier blanket listing weight 3.66 lb retained, not reweighed. Prior 18–24 points/two packs is provisional and does not solve band geometry.
+- **Checks actually run and results:** JSON parse, active line count and Decimal sums/tax; local file-link existence for changed Markdown; `git diff --check`; inspect focused staged diff before commit. Final results reported in session final.
+- **Purchases / external changes / deployments actually performed:** none; official web research only. No Chrome/cart/order changes, no physical mounting test.
+- **Remaining work in priority order:** (1) pending async question: what is directly below band—glass, flat frame/trim or painted wall? (2) choose compatible support geometry, package use and actual mounting area; if H24 unsuitable, research exact replacement and deadline. (3) trial one intact received blanket with floor-clear hem and accessible removal tabs before full install. (4) reconcile receipts/arrival and remaining purchases.
+- **Dependencies on sibling tasks:** retain accepted room layout, thin cloth nesting, moss cuts and deferred lighting; do not load blind rails or bed/Guardian supports by assumption.
+- **Unpersisted conversation details or access limitations:** no actual photo or surface answer yet; no full solution/stock promise. No CAPTCHA encountered or acted on this turn.
+- **Commit(s) on main and remaining unrelated dirty files:** this handoff saved before focused commit; resulting hash in final response. No unrelated edits observed at start; check status after commit.

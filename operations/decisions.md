@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • narrow mounting band invalidates hook placement
+
+**Confirmed host:** only ~1.5 in of vertical surface at wall top, whereas chosen hooks are ~3 in; questions ceiling loading. **Agent correction:** H24 on hold; wall rating does not establish ceiling capacity. Proposed cheapest fix is a lower row on suitable vertical glass/frame/wall, accepting a top gap. Surface immediately below band remains unknown; clarification pending. Previous 3–4 points/two-pack count remains provisional, not a fit-confirmed order. [Current mounting note](../decor/bedroom/draping/09-hook-count-2026-10-29.md). No smaller/ceiling hook substitution, drilling, purchase or physical test performed.
+
 ## Latest October 29 • fewer fleece hooks recommended
 
 **Host asks:** whether six 5-lb hooks per blanket are necessary. Agent corrects the prior spacing allowance after verifying purchased King listing **3.66 lb**. [New recommendation](../decor/bedroom/draping/09-hook-count-2026-10-29.md):3 points each, fourth where needed; **two 14-hook packs / 28 hooks** for 18–24 points,4–10 spare. This is a practical spacing proposal, not a manufacturer blanket assembly rating or new host-confirmed purchase. Capacity not additive; actual grip/substrate/sag still need trial. Purchase status unchanged; no extra clips or lights selected.

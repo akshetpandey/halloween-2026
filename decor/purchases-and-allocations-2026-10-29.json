@@ -45,11 +45,11 @@
       "product": "Command Large White Hooks / 14 hooks, 16 strips",
       "url": "https://www.amazon.com/dp/B075Y2M1Q5",
       "room": "The Hollow",
-      "purpose": "Hollow fleece anchors: start3top points per90-in blanket, add a fourth where sag/edge coverage needs it. Six blankets use18–24hooks; two14-hook packs provide28, leaving4–10spares. Spacing/layout proposal, not a tested assembly; follow actual surface/prep/wait instructions. Quantity2 delivery not freshly checked, unit price retained from earlier quote.",
+      "purpose": "ON HOLD: approximately 3-in large hooks do not fit host ~1.5-in vertical top band. Wall rating does not establish ceiling use. A lower row on compatible vertical glass/frame/wall is conditional on identifying surface below band and following package instructions. Prior two-pack count and $29.22 remain a candidate allowance, not an active order instruction.",
       "plannedTotalQuantity": 2,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 2,
-      "status": "to buy — not reported ordered",
+      "stillToBuyQuantity": null,
+      "status": "on hold — mounting geometry unresolved; not reported ordered",
       "lastQuotedUnitUsd": "14.61",
       "plannedLineUsd": "29.22",
       "quoteDate": "2026-10-29",
@@ -57,14 +57,17 @@
       "orderSpecificArrivalConfirmed": false,
       "received": false,
       "tested": false,
-      "quantity2DeliveryRechecked": false
+      "quantity2DeliveryRechecked": false,
+      "includedInActiveBuyList": false,
+      "candidateQuantity": 2,
+      "mountingFitConfirmed": false
     },
     {
       "id": "H25",
       "product": "Amazon Basics Medium 1.25-in binder clips / 96 Count",
       "url": "https://www.amazon.com/dp/B074XTRX7K",
       "room": "The Hollow + desk",
-      "purpose": "Grip fleece top edges and hang from large hooks.18–24wall clips plus6desk-skirt clips =24–30used,66–72spare from96. Pack quantity remains one; actual folded-edge grip still needs a panel trial.",
+      "purpose": "Shared blanket grip and desk-skirt supply, one 96-clip pack unchanged. Reserve six desk clips; final wall point count follows the unresolved support choice. Prior 18–24 wall points were a spacing proposal, not a validated narrow-band mounting solution.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
       "stillToBuyQuantity": 1,
@@ -243,11 +246,17 @@
   "costs": {
     "orderedMerchandiseAtLastQuotedPrices": "199.90",
     "actualPaidTotal": null,
-    "stillToBuyDecorMerchandise": "247.71",
-    "stillToBuyPlanningTax9pct": "22.29",
-    "stillToBuyWithPlanningTax": "270.00",
-    "wholeDecorOnlyMerchandise": "447.61",
-    "wholeDecorOnlyPlanningTax9pct": "40.28"
+    "stillToBuyDecorMerchandise": "218.49",
+    "stillToBuyPlanningTax9pct": "19.66",
+    "stillToBuyWithPlanningTax": "238.15",
+    "wholeDecorOnlyMerchandise": "418.39",
+    "wholeDecorOnlyPlanningTax9pct": "37.66",
+    "mountingCostTbd": null,
+    "mountingExcludedFromActiveSubtotal": true,
+    "previousMountingAllowanceUsd": "29.22",
+    "provisionalRemainingIncludingPreviousMountingAllowanceUsd": "247.71",
+    "provisionalRemainingIncludingAllowanceAndPlanningTaxUsd": "270.00",
+    "activeRemainingProductLines": 10
   },
   "lightingDeferred": true,
   "localReuseAllowancesExcluded": true,
@@ -256,8 +265,8 @@
   "notes": [
     "Actual paid tax/ shipping/ coupons and order-specific arrival dates unverified.",
     "Six-fleece full-run purchase replaces prior four-fleece partial-only recommendation; no additional fleece or moss to buy.",
-    "Two hook packs provide28hooks for18–24panel points plus4–10spares;96binder clips cover18–24wall +6desk with66–72spares.",
-    "Ordered goods and remaining decor sum 447.61 at last quoted prices; do not add earlier alternative baskets.",
+    "H24 is held because the ~3-in body does not fit host ~1.5-in top band. Final supports/point counts unresolved; 96 binder clips retained as shared supply.",
+    "Ordered quote value plus ten active remaining decor lines is 418.39 before tax, PLUS mounting TBD. The prior 29.22 hook allowance is excluded, not counted as an achieved saving. Do not add earlier alternative baskets.",
     "Deferred lighting/ power needs a later refresh; local allowances are not stock quotes."
   ],
   "mountingRevision": {
@@ -278,6 +287,13 @@
       10
     ],
     "physicalTestPassed": false,
-    "note": "Agent spacing correction after host questions six hooks. Listed weight checked live, not a physical weighing. Capacity not additive. New quantity2 stock/delivery unverified; optional hook visit hit human prompt."
+    "note": "Latest host reports narrow top band; prior 18–24 point/two-pack plan does not establish fit. Identify compatible vertical surface below band before choosing supports. No ceiling substitution or physical test.",
+    "status": "on hold — placement unresolved",
+    "availableTopBandHeightIn": "1.5",
+    "candidateHookApproxHeightIn": "3",
+    "ceilingRatingEstablished": false,
+    "lowerVerticalMountingProposed": true,
+    "surfaceBelowBandConfirmed": false,
+    "pointRangeIsProvisional": true
   }
 }

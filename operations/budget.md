@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • fleece mounting cost unresolved
+
+[H24 is held](../decor/bedroom/draping/09-hook-count-2026-10-29.md): ~3-in hooks do not fit the host’s ~1.5-in top mounting band. **Ten other remaining core lines: $218.49 + $19.66 aggregate 9% planning tax = $238.15, PLUS mounting TBD.** The previous $29.22 mounting allowance would restore the $247.71 / $270.00 scenario, but no suitable support is confirmed; this is not an achieved saving. Ordered merchandise remains $199.90 at last quotes, actual paid unknown. Ordered quote value + ten active remaining lines = $418.39 before tax, plus mounting. Local $105/deferred lighting excluded. [Ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-narrow-mounting-band.md). Earlier hook recommendation below is superseded; no purchase/test.
+
 ## Latest October 29 • hook count reduced after weight check
 
 [Primary-source weight/spacing correction](../decor/bedroom/draping/09-hook-count-2026-10-29.md) replaces three 14-hook packs with **two / 28 hooks / $29.22** at prior $14.61 unit quote. Start 3 per blanket, fourth if needed;18–24 points. Saving **$14.61 merchandise / $15.93 with planning tax**. Quantity 2 delivery not freshly verified; Amazon human prompt prevented optional offer check, no click performed.

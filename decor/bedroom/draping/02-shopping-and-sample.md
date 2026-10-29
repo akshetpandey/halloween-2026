@@ -1,6 +1,6 @@
 # Full-wall black fleece — flat panels and thin furniture covers
 
-**Later October 29 hook-count correction:** [three points per ordered King blanket, fourth if needed](09-hook-count-2026-10-29.md),18–24 total within two 14-hook packs / 28 hooks. Earlier 36-point/ 42-hook notices below are superseded. Thin furniture-cover nesting remains current;96 clip pack unchanged,66–72 spares after wall and six desk clips.
+**Latest October 29 mounting correction:** [large hooks held for narrow mounting band](09-hook-count-2026-10-29.md). The ~3-in hook does not fit ~1.5 in of vertical wall at the top; ceiling use cannot inherit its wall rating. Earlier hook counts below are historical/provisional until the support location is resolved. Thin furniture-cover nesting and one 96-clip pack remain current.
 
 **Latest ordered scope, October 29:** host reports six Black King 108 × 90 fleece ordered. [Current buying list](../../shopping-ready.md) replaces earlier four/five-source wall quantities and 43-point cut plan below: six whole sources for walls, initial 36 mounts within 42 hooks; 96 binder clips also supply six desk clips. All earlier wall cuts below are history. **Thin furniture-cover nesting remains current** and uses one unpurchased two-pack, not extra fleece.
 

@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 current mounting recommendation:** six fleece/four moss remain host-reported ordered. [Listed King blanket weight 3.66 lb and spacing correction](draping/09-hook-count-2026-10-29.md): start 3 hooks per 90-in blanket, add a fourth for sag/edges. **Two 14-hook packs / 28 hooks** cover 18–24 points with 4–10 spares;96 binder clips cover panels + six desk clips with 66–72 spares. [Current buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-fewer-hooks.md). Earlier 36-point allocation superseded. Quantity 2 delivery not newly verified; physical mount/fit tests remain.
+**October 29 current mounting status:** large hooks **on hold**: host’s ~1.5-in top band cannot fit ~3-in hooks; ceiling capacity is not established. [Current mounting note](draping/09-hook-count-2026-10-29.md) proposes lowering onto a compatible vertical surface, pending identification of what is below the band. Earlier 3–4 points/two-pack count remains provisional. Six fleece/four moss remain host-reported ordered. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-narrow-mounting-band.md).
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

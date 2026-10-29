@@ -1,6 +1,6 @@
 # The Hollow — flat black fleece
 
-**October 29 current:** six Black King 108 × 90 fleece ordered; no extra wall cloth. [Weight/spacing correction](09-hook-count-2026-10-29.md) reduces to **two 14-hook packs / 28 hooks**: start 3 per blanket, add a fourth where needed (18–24 total,4–10 spare). King listing 3.66 lb, checked directly; six points were a conservative anti-sag choice.96 binder clips cover 18–24 wall + 6 desk,66–72 spare. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-fewer-hooks.md). Earlier wall/mount counts below are history; physical trial unpassed.
+**October 29 current:** six King 108 × 90 fleece ordered, no extra wall cloth. **Hooks on hold:** ~3-in body does not fit host’s ~1.5-in top band. [Current mounting note](09-hook-count-2026-10-29.md) proposes a lower vertical row if the glass/frame/wall below is suitable; no ceiling rating or physical test established. Previous two-pack/18–24 point count is provisional. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-narrow-mounting-band.md). Earlier buying/cut scenarios below are history; thin furniture nesting remains current.
 
 **Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 

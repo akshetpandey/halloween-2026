@@ -1,12 +1,12 @@
 # Decor buying list — quantities, purpose and purchase status
 
-**Mounting correction, later October 29:** six hooks per fleece was a conservative anti-sag allowance. The purchased King listing shows 3.66 lb; now recommend 3 points per blanket, fourth only if needed. **Two 14-hook packs / 28 hooks** replace three; 18–24 used and 4–10 spare. [Primary sources and rationale](bedroom/draping/09-hook-count-2026-10-29.md). Six fleece/four moss order status unchanged.
+**Mounting on hold, latest October 29:** host has only ~1.5 in of vertical surface at the wall top; the ~3-in H24 hooks do not fit. Do not transfer their wall rating to ceiling use. A lower row on compatible vertical glass/frame/wall is proposed, pending confirmation of the surface below the band. [Current mounting note](bedroom/draping/09-hook-count-2026-10-29.md). Six fleece/four moss order status unchanged.
 
 Updated **October 29, 2026**. Host confirms **the fleece and moss orders are placed**: six Black King 108 × 90-in fleece and four Green 39 × 39-in moss sheets, using the quantities discussed immediately before confirmation. Status is **ordered, host reported**; receipts, actual charges, order-specific arrival dates and physical receipt have not been checked. Do not reorder either line.
 
-**Remaining core decor: 11 product lines / $247.71 before tax**, approximately **$270.00 with 9% planning tax**, using last-checked October 29 prices. Delivery estimates in the [dated source check](research/decor-order-tomorrow-2026-10-29.md) are not freshly reconfirmed by this bookkeeping update. Lights and their power/control supplies remain deferred, as requested. Local/reused craft materials below are separate allowances, not exact retail offers.
+**Other remaining core decor: 10 product lines / $218.49 before tax**, approximately **$238.15 with 9% planning tax, plus mounting TBD**. H24 is held separately below. The previous $247.71 / $270.00 scenario included a provisional $29.22 for those hooks; it is not a complete fit-confirmed basket. Prices are last-checked October 29 quotes; delivery is not freshly reconfirmed by this update. Lighting and local/reused craft allowances remain separate.
 
-[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-fewer-hooks.md) · [Current room plan](final-room-plan.md).
+[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-narrow-mounting-band.md) · [Current room plan](final-room-plan.md).
 
 ## Ordered — do not buy again
 
@@ -23,18 +23,21 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 | Item / exact selected option | Buy quantity | Last quoted line USD | Room and exact purpose |
 |---|---:|---:|---|
-| H24 — [Command Large White / 14 hooks, 16 strips per pack](https://www.amazon.com/dp/B075Y2M1Q5) | **2 packs / 28 hooks** | 29.22 | **Hollow fleece anchors:** start 3 per blanket, add a fourth if sag/edges need it. Six blankets use 18–24 points, leaving 4–10 spares. Extra points shape the 90-in cloth; six were not needed for weight. [Weight/spacing correction](bedroom/draping/09-hook-count-2026-10-29.md). Unit price is prior quote; quantity 2 delivery not freshly checked. |
-| H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | 10.76 | **Hollow blanket grip + desk skirt:** 18–24 wall clips + 6 desk = 24–30 used, 66–72 spare. Pack unchanged; clips grip cloth and hang from the large hooks. |
+| H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | 10.76 | **Hollow blanket grip + desk skirt:** retain one pack; reserve six desk clips. Wall allocation and hanging method depend on the support decision; earlier 18–24 wall points remain provisional. |
 | H14 — [Utopia Kitchen Black / two 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | 21.84 | **Stored bed, automated desk, Guardian body and dry-tub base.** Exact allocation below. These are cheap thin covers; the ordered fleece stays on walls. |
 | H27 — [KASZOO Green / 12 strands with 80 LED / 84 ft ivy](https://www.amazon.com/dp/B07H1GQB36) | **1 pack / 12 strands** | 9.99 | **Grove:** 10 strands/~70 ft; 8 high wall/window/cabinet edges, 1 trailing accent, 1 shrine. **Hollow:** 2 strands/~14 ft for desk sides/Guardian backdrop. Included light string is incidental; no extra ivy pack for desk. |
 | H28 replacement — [Rugflix 8 × 10 ft / 03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | **1 rug** | 75.99 | **Hollow dance floor:** 80 sq ft low-pile floor coverage, comfort and mild echo softening; partly under desk/Guardian band. Check door swing, grip and flat edges on receipt. Replaces late original WITSHOCK. |
-| H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | **Shared finishing:** backing under moss butt joins/removable mats, scenic backing tidying and tested perimeter cable edges. Fleece hangs from hooks/clips. Avoid untested direct adhesion to finished surfaces. |
+| H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | **Shared finishing:** backing under moss butt joins/removable mats, scenic backing tidying and tested perimeter cable edges. Fleece support is unresolved; this tape is not a primary blanket hanger. Avoid untested direct adhesion to finished surfaces. |
 | H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | 3.99 | **Guardian:** reserve ~12 for card spine, shoulders and body on independent stand. **Shared:** remaining ties for ivy on existing supports and loose scenic/cable bundles. |
-| H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. Use large H24 hooks for fleece. |
+| H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. These small clips are not fleece supports; H24 is on hold. |
 | H05 — [ORTIGIA Dark Green forest shower curtain 72 × 72 in + hooks](https://www.amazon.com/dp/B07YD2X9NB) | **1** | 14.99 | **Moon Well backdrop:** hangs on existing shower-curtain support, partly open to reveal the dry-tub scene. Supplied hooks attach this curtain. |
 | H06 — [DUSPRO bendable moss vine 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 14.80 | **Moon Well roots:** one bendable root/branch accent around shower backdrop/dry-tub edge. Separate from the shared 84-ft ivy. Fit actual support before installation. |
 | H34 replacement — [InnoGear MS250 / 1 / Black / Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P) | **1 stand** | 29.99 | **Guardian skeleton:** independent 9.8-in weighted round base/pole supporting the lightweight card face, crown, spine and cloth body behind the automated desk. This is a stand, not a complete bought creature. Scenic adaptation remains untested; bed restraint is separate. |
-| **Remaining core decor** | **11 lines** | **247.71** | **About $270.00 with 9% planning tax**, before checkout changes/shipping. |
+| **Other remaining core decor** | **10 lines** | **218.49** | **About $238.15 with 9% planning tax, plus mounting TBD**, before checkout changes/shipping. |
+
+## On hold — resolve mounting before ordering
+
+**H24 — [Command Large White / 14 hooks, 16 strips per pack](https://www.amazon.com/dp/B075Y2M1Q5):** previous candidate two packs / 28 hooks, $29.22 at the earlier unit quote. The hooks do not fit the host’s ~1.5-in top band. Ceiling use is not established by the wall rating. Confirm what vertical surface exists below the band before choosing these or another support; no replacement stock, price or delivery claim. Keep $29.22 only as a provisional allowance, not an achieved saving. [Mounting evidence and next step](bedroom/draping/09-hook-count-2026-10-29.md).
 
 ## How the shared materials are divided
 
@@ -55,7 +58,7 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 ## Local or reuse — purpose and allowance
 
-These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the $247.71 remaining core total. All shared paint/card work is counted once.
+These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the $218.49 other-core subtotal and unresolved mounting cost. All shared paint/card work is counted once.
 
 | Need | Quantity / allocation | Purpose | Existing allowance USD |
 |---|---|---|---:|
@@ -92,7 +95,7 @@ No lighting is counted as ordered by the host’s two-order confirmation. These 
 
 ## Accounting and other work
 
-At last quoted prices, **ordered merchandise $199.90 + remaining core decor $247.71 = $447.61**, about $487.89 with aggregate 9% planning tax. Actual paid totals remain unknown; reconcile receipts when available. Lighting/power/DMX, local/reuse allowances and all other party costs are outside this core comparison. No double charging for moss/cloth/ties reused by the Guardian or game scenery.
+At last quoted prices, **ordered merchandise $199.90 + ten other remaining core lines $218.49 = $418.39 before tax, PLUS mounting TBD** (about $456.05 with aggregate 9% planning tax, still excluding mounting). Retaining the previous $29.22 mounting allowance would restore the $447.61 / $487.89 scenario, but the support method is unresolved. Actual paid totals remain unknown; reconcile receipts when available. Lighting/power/DMX, local/reuse allowances and all other party costs are outside this core comparison. No double charging for moss/cloth/ties reused by the Guardian or game scenery.
 
 Game figures/NFC/premade moon markers/crown, costume, drinks/food/wrapped sweets and hospitality remain in their owning plans, not silently added here. Bed securement, actual mounts, rug grip, Guardian stability and lighting rehearsal remain physical setup dependencies; ordered is distinct from received/tested.
 

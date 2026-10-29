@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: host reports **six Black King 108 × 90 fleece and four Green 39 × 39 moss sheets ordered**. [Current buying list](shopping-ready.md) now gives the purpose, room and shared allocation of every item, separates **11 remaining core decor lines / $247.71 before tax** from local/reused supplies and deferred lighting, and prevents duplicate fleece/moss purchases. [Purchase/allocation ledger](purchases-and-allocations-2026-10-29.json) · [Latest hook correction](bedroom/draping/09-hook-count-2026-10-29.md) · [Handoff](handoff-2026-10-29-fewer-hooks.md). Receipt totals, arrival and physical setup remain unverified.
+October 29 latest: six fleece/four moss remain host-reported ordered. **Large fleece hooks on hold:** ~3-in hooks do not fit the host’s ~1.5-in top mounting band; wall ratings do not establish ceiling use. [Mounting next step](bedroom/draping/09-hook-count-2026-10-29.md): identify a suitable vertical surface below the band before ordering. [Current buying list](shopping-ready.md) has **10 other remaining core lines / $218.49 before tax, plus mounting TBD**. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-narrow-mounting-band.md). No new purchase or physical test.
 
 | Room / deliverable | Current source |
 |---|---|

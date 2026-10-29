@@ -2,7 +2,7 @@
 
 ## Current scope • October 29
 
-**Latest October 29: fixed bone crown, gold torc and cuffs; other clothing open.** [28](28-fixed-core-clothing-references-2026-10-29.md) contains three actual reference photos, with no exact Saturday fit/delivery verification for those examples. Do not buy the oversized belt previously checked or replace the torc with body chain. [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory and earlier source history; no new garment selected/purchased. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
+**Latest October 29: fixed crown/torc/cuffs; other clothing open. Amazon with Saturday October 31 delivery required; belt/sash disfavored.** [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the exact Small black/gold VATPAVE waistcoat, refreshed JEMITOP sleeved shirt and FURPHI half-cape offers, all showing Saturday, with actual product photo and fit/quality limits. No new garment selected/purchased. [28](28-fixed-core-clothing-references-2026-10-29.md) is reference history; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
 
 **Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27's inspected PU pauldron was subsequently dropped.
 

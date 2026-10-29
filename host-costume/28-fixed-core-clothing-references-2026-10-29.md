@@ -1,5 +1,7 @@
 # Clothing references • fixed bone crown, gold torc and cuffs
 
+**Superseded as current suggestions:** host now requires Amazon with Saturday October 31 delivery and says belt/sash is meh. Do not continue the waist-accessory direction or recommend these imported examples. [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the actual Amazon Small black/gold waistcoat proposal and current shirt/cape deadline checks. The photographs below remain historical style references only.
+
 October 29, 2026, America/New_York / EDT (UTC−04:00). **Host confirms the bone crown, gold torc and cuffs must remain; everything else is open to change.** These are real reference photographs for clothing and waist details, not new outfit renders, selected purchases or Saturday-cleared shopping links. No fit/stock/delivery checked for these exact examples.
 
 The half-cape was liked before this clarification and remains a useful option. Black shirt/green trousers/cape styling can change; do not treat them as fixed requirements. The existing body chain is no longer proposed as a replacement for the fixed torc. No new accessory, garment, makeup, armor or game-character change selected.

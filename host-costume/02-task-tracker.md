@@ -1,6 +1,6 @@
 # Host costume task tracker
 
-**Current October 29: crown, gold torc and cuffs fixed; everything else open.** [28](28-fixed-core-clothing-references-2026-10-29.md) provides real black-wrap/burgundy-sash/gold-waistcoat reference photos, no new selected garment, Saturday fit/availability clearance or render. Body-chain-for-torc proposal superseded. [27](27-haunted-court-statement-pieces-2026-10-29.md) inventory retained; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
+**Current October 29: crown/torc/cuffs fixed; other clothing open. Amazon/Saturday October 31 required; belt/sash disfavored.** [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns a Small black/gold waistcoat proposal and refreshed shirt/half-cape offers, all Saturday. No new garment selection/order/render or measured fit. [27](27-haunted-court-statement-pieces-2026-10-29.md) inventory retained; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 | KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
-| KING-11 | Redesign unused night-two outfit for October 31 | **Crown/torc/cuffs fixed; other clothing open.** Three real clothing/waist references supplied; half-cape remains an option. No new garment selection, sourcing clearance or render; crown repair/fit pending | [28](28-fixed-core-clothing-references-2026-10-29.md) reference board; [27](27-haunted-court-statement-pieces-2026-10-29.md) inventory/history; no torc replacement or new spend |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Crown/torc/cuffs fixed; other clothing open; belt/sash disfavored.** Exact Small brocade vest, sleeved shirt and optional cape show Amazon Saturday; garment selection/order/fit and crown repair pending | [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) dated checks/proposal; [27](27-haunted-court-statement-pieces-2026-10-29.md) inventory/history; no torc replacement or new spend |
 
 ## Historical readiness record • October 23
 

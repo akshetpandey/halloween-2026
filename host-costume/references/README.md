@@ -2,6 +2,10 @@
 
 Real costume/fashion images; copyright remains with the credited creators. These are design references, not generated host portraits.
 
+## October 29 Amazon Saturday waistcoat proposal
+
+[Actual VATPAVE Sv16-black double-breasted waistcoat photograph](2026-10-29/vatpave-sv16-black-brocade-vest.jpg), credit VATPAVE / Amazon listing, individual photographer unidentified. Downloaded and visually inspected October 29; copyright remains with the rights holder. [29](../29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the exact Small source, current Saturday stock/delivery, image URL, quality/fit limits and refreshed shirt/cape checks. Not an order, measured fit or outfit render. Belt/sash references below are now disfavored history.
+
 ## October 29 fixed-core clothing references
 
 [28 — three-image board and provenance](../28-fixed-core-clothing-references-2026-10-29.md) keeps the host's bone crown/gold torc/cuffs fixed. Real examples: [Streets Ahead Kelby black wrap belt](2026-10-29/black-wrap-belt-reference-streets-ahead.jpg), [Etsy burgundy sash over a black tunic](2026-10-29/burgundy-waist-sash-reference-etsy.jpg), and [Devil Fashion / Violent Delights black-and-gold waistcoat](2026-10-29/black-gold-waistcoat-reference-devil-fashion.jpg). Images downloaded and visually inspected October 29; copyrights remain with the respective rights holders. Direct source pages/asset links are in 28. References only: no new garment selected, fit/delivery clearance or AI render.

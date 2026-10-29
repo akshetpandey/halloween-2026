@@ -2,6 +2,10 @@
 
 Real costume/fashion images; copyright remains with the credited creators. These are design references, not generated host portraits.
 
+## October 29 fixed-core clothing references
+
+[28 — three-image board and provenance](../28-fixed-core-clothing-references-2026-10-29.md) keeps the host's bone crown/gold torc/cuffs fixed. Real examples: [Streets Ahead Kelby black wrap belt](2026-10-29/black-wrap-belt-reference-streets-ahead.jpg), [Etsy burgundy sash over a black tunic](2026-10-29/burgundy-waist-sash-reference-etsy.jpg), and [Devil Fashion / Violent Delights black-and-gold waistcoat](2026-10-29/black-gold-waistcoat-reference-devil-fashion.jpg). Images downloaded and visually inspected October 29; copyrights remain with the respective rights holders. Direct source pages/asset links are in 28. References only: no new garment selected, fit/delivery clearance or AI render.
+
 ## October 29 statement-piece proposal
 
 [HiiFeuer Brown B / Style B moon-phase pauldron photograph](2026-10-29/hiifeuer-brown-b-moon-pauldron.jpg) from [Amazon B0GT8CCQFF](https://www.amazon.com/dp/B0GT8CCQFF), credit HiiFeuer / Amazon. [FURPHI Black half-cape photograph](2026-10-29/furphi-black-gold-half-cape.jpg) from [Amazon B0F1T1NJW2](https://www.amazon.com/dp/B0F1T1NJW2), credit FURPHI / Amazon. Both downloaded and visually inspected October 29; copyright remains with the rights holders. [27](../27-haunted-court-statement-pieces-2026-10-29.md) owns exact stock/deadline checks, proposed combination and limits. Not orders, host likeness images or fitted outfit photographs.

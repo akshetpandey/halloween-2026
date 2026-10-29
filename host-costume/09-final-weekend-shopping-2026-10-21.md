@@ -1,6 +1,6 @@
 # Two costume shopping and order status
 
-**October 29 styling update:** shoulder armor dropped; half-cape retained. [27](27-haunted-court-statement-pieces-2026-10-29.md#current-inventory-and-finishing-options--armor-dropped) owns current reuse/finishing options and unpurchased shirt/cape proposal. Nicute body chain is already bought below, not a new charge; no new order/refund inferred. Purchase evidence and the last delivery audit remain dated below.
+**October 29 styling update:** bone crown, gold torc and cuffs fixed; other clothing open. [28](28-fixed-core-clothing-references-2026-10-29.md) owns new real image references, not purchases or Saturday-cleared garments. [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory/earlier proposals. Nicute chain already bought below, no new charge or torc replacement selected. Purchase/delivery evidence remains dated below.
 
 **October 27 current scope:** the second City of Gods night did not happen. Repurpose its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the new shirt offer and small-crown preview. New shirt is sourced, not ordered; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
 

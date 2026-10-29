@@ -2,13 +2,13 @@
 
 ## Current • October 29
 
-**Latest decision: drop shoulder armor, keep the black half-cape.** Retain black short sleeves, compact bone crown, torc/cuffs and green trousers. [27 — current inventory and finishing options](27-haunted-court-statement-pieces-2026-10-29.md) owns the update: already-bought body chain as a torc alternative; wrap belt/oxblood sash are unverified ideas. Shirt/cape purchase unconfirmed; no updated armor-free render. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains crown repair guidance, actual repair pending.
+**Latest fixed core: bone crown, gold torc and cuffs must stay; everything else can change.** [28 — real clothing/waist references](28-fixed-core-clothing-references-2026-10-29.md) shows a black wrap belt, burgundy sash and ornate black-and-gold waistcoat. No new garment selected or Saturday sourcing verified for these examples. The liked half-cape remains an option; shirt/trousers are open. Body chain no longer proposed as a torc replacement. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair still pending.
 
-**Practical sourcing:** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns the reduced shirt/cape proposal, replacing the armor-inclusive basket. Already-bought chain adds no new cost. A checked wide belt is too large for the host; no suitable wrap belt/sash has verified fit/deadline. [09](09-final-weekend-shopping-2026-10-21.md) owns purchased inventory and dated delivery evidence. No new order or structural fabrication.
+**Practical sourcing:** [27](27-haunted-court-statement-pieces-2026-10-29.md) retains purchased inventory and dated earlier proposals; [28](28-fixed-core-clothing-references-2026-10-29.md) owns reference images only. A selected new piece needs exact fit/deadline verification before a personalized render. [09](09-final-weekend-shopping-2026-10-21.md) owns purchase evidence. No new order or physical fit.
 
 **Fur too hot; feathers rejected; face clear and crown compact.** [24 — party reference study](24-party-reference-led-direction-2026-10-27.md) retains the actual lookbook/guardian vocabulary. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older Small/Burgundy source, not a purchase or freshly verified offer. 23's feather preview is rejected history.
 
-The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-half-cape-inventory.md).
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-fixed-core-references.md).
 
 ## Historical direction • through October 23
 

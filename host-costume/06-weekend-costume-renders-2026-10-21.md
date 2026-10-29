@@ -6,7 +6,7 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29: host drops shoulder armor and retains the black half-cape after O.** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns current inventory/finishing ideas and lower proposal cost. No updated armor-free render yet; O is history, not an instruction to retain the chest strap/vials. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair remains pending.
+**Latest October 29: crown, gold torc and cuffs are fixed; everything else open to change.** [28](28-fixed-core-clothing-references-2026-10-29.md) supplies real belt/sash/waistcoat reference photos, not new generated outfit previews or deadline-cleared purchases. O remains historical armor/cape rendering; no new final costume or body-chain-for-torc swap selected.
 
 ## O Moon-phase armor and black half-cape
 

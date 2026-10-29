@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29: armor dropped, half-cape retained.** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns current black sleeved-shirt/cape/crown/torc/cuffs/green-trouser baseline, inventory and optional chain-versus-torc or waist-accent ideas. Body chain already bought; no belt/sash source cleared. No updated armor-free render, new order or physical fit. Armor strap/vials and leaf mantle are out. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains crown repair guidance, still pending. No mesh/sleeveless/fur/feathers/large antlers/full-face covering/makeup.
+**Current October 29: fixed bone crown, gold torc and cuffs; other clothing open.** [28](28-fixed-core-clothing-references-2026-10-29.md) provides actual belt/sash/waistcoat references, not sourced Saturday garments or new renders. Half-cape remains liked but shirt/trousers/cape styling may change; do not swap torc for body chain. [27](27-haunted-court-statement-pieces-2026-10-29.md) retains purchased inventory and earlier outfit history. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending. No new clothing selection/order/physical test.
 
 ## Historical brief • through October 23
 

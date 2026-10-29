@@ -2,7 +2,7 @@
 
 ## Current scope • October 29
 
-**Latest October 29: armor dropped, half-cape retained.** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns current inventory/options and reduced shirt/cape proposal. Nicute chain already bought, optional alternative to torc; no suitable broad wrap belt or oxblood sash verified. Inspected wide belt is too large for 28–30 waist. No updated render/purchase/physical-fit approval; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair remains pending.
+**Latest October 29: fixed bone crown, gold torc and cuffs; other clothing open.** [28](28-fixed-core-clothing-references-2026-10-29.md) contains three actual reference photos, with no exact Saturday fit/delivery verification for those examples. Do not buy the oversized belt previously checked or replace the torc with body chain. [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory and earlier source history; no new garment selected/purchased. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
 
 **Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27's inspected PU pauldron was subsequently dropped.
 

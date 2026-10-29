@@ -1,5 +1,7 @@
 # Full-wall black fleece — flat panels and thin furniture covers
 
+**Superseded wall scope, October 29:** host reports ~100-in walls and accepts partial coverage. Use [four 108 × 90-in fleece /three hook packs and partial placement](08-partial-coverage-100in-2026-10-29.md). The five120-in-source /117-in-drop /43-point full-enclosure cut schedule below is historical. **Thin furniture-cover nesting below remains current**; no extra cloth or sample blanket.
+
 **October 27 quote refresh:** five-source cuts/43 mounting points below remain unchanged. Use [current shopping quantities/prices](../../shopping-ready.md) and [new offer evidence](../../research/price-refresh-and-value-plan-2026-10-27.md) for ordering; October 23 prices/dates and cost totals below are historical. The new recommendation uses a cheaper 96-clip pack; required mounting points remain. No material/mount test.
 
 Updated October 23, 2026. **Confirmed host: fleece does not need pleating; cheaper thinner fabric may cover furniture.** This replaces the nine-piece gathered plan. All walls/windows remain black fleece, using existing measured shell. No order or physical test.

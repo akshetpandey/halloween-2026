@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • approximately 100-in walls, partial coverage sufficient
+
+**Confirmed host:** asks why39 × 39 moss; supplies approximately 100-in wall height and says100% wall coverage unnecessary. Supersedes full-enclosure fabric scope. **Recommended, not host-selected exact quantity/placement:** [four Black King 108 × 90 fleece / $87.96 and three large-hook packs / $43.83](../decor/bedroom/draping/08-partial-coverage-100in-2026-10-29.md), newly quantity-verified forOct 30; roughly two-thirds wall run. Three moss sheets remain for prior broad counters; optional two-sheet accents not selected. [Revised same batch](../decor/research/decor-order-tomorrow-2026-10-29.md) $401.25 merchandise /about $437.36 with planning tax. Lighting deferred, no purchase or physical test. Earlier full-enclosure quotes below are history.
+
 ## Latest October 29 • order tomorrow-delivery decor first
 
 **Confirmed host:** ordering has been slow; check what can arrive tomorrow so host can order immediately, focusing on decor and leaving lighting for later. Target **Friday October 30, 2026**. No lighting product choice, cancellation or purchase authorized/performed by this request.

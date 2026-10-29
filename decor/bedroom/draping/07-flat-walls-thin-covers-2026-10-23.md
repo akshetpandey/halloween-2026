@@ -1,5 +1,7 @@
 # Flat fleece walls and thin furniture cloth — October 23, 2026
 
+**October 29 wall-source supersession:** [new partial-wall recommendation](08-partial-coverage-100in-2026-10-29.md) uses host ~100-in height, four 108 × 90-in fleece and three hook packs. Five oversized sources/full enclosure and all October23 quotes below are history. Thin furniture-cover pack/nesting retained.
+
 **October 27 update:** quantities/cuts remain; [current prices, delivery and value options](../../research/price-refresh-and-value-plan-2026-10-27.md) and [current basket](../../shopping-ready.md) supersede the October 23 offers/totals below. No purchases.
 
 **Confirmed host:** no pleating needed for fleece blankets; use cheaper thinner fabric for furniture covers. This supersedes the gathered nine-blanket proposal. All-wall/window black fleece coverage, larger rug and laser-free lighting retained. Exact products recommended, not purchased or physically tested.

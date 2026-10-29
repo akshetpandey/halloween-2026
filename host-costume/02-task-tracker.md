@@ -1,6 +1,6 @@
 # Host costume task tracker
 
-**Current October 27:** no large antlers/full-face cover, fur too hot, feathers rejected. Host requests actual party imagery/lookbooks/guardians as inspiration. [24](24-party-reference-led-direction-2026-10-27.md) owns completed reference review, next design proposal and unresolved defining-piece sourcing. Earlier previews are history, not accepted outfits. Retailer-delivered refresh is in 09; physical fit untested. IDs retained for continuity.
+**Current October 29:** host likes Gilded Root / Rootkeeper and requests realistic reuse/Amazon stock. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) recommends one finished Brown / Small leaf mantle, $13.16 / Friday October 30 verified October 29, with existing mesh/crown/torc/cuffs/green trousers. No structural build; exact bark/root armor remains unsourced. Item/outfit not selected or ordered; no new render/fit. No fur/feathers/large antlers/full-face cover/makeup. [24](24-party-reference-led-direction-2026-10-27.md) retains the reference study; 09 owns earlier delivery evidence. IDs retained for continuity.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 | KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
-| KING-11 | Redesign unused night-two outfit for October 31 | **Feathers rejected; party reference review complete.** Gilded rootwork / pale-cloth options documented; new defining-piece sourcing, design approval and fit open | [24](24-party-reference-led-direction-2026-10-27.md) current; 22 retains unpurchased Small/Burgundy source. No new render/spend |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Practical finished leaf mantle sourced/recommended**, Brown / Small $13.16 / October 30 checked October 29. Existing mesh/crown/torc/cuffs/green trousers reused; final selection/receipt/fit open | [25](25-realistic-rootkeeper-amazon-2026-10-29.md) current buying check; [24](24-party-reference-led-direction-2026-10-27.md) references. Exact sculpted roots/bark unsourced; no new order/render/spend |
 
 ## Historical readiness record • October 23
 

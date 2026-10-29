@@ -1,10 +1,12 @@
 # Host costume • The Hollow Court
 
-## Current • October 27
+## Current • October 29
 
-**Fur too hot; feathers rejected.** Host wants the unused night-two pieces redesigned from the party's lookbooks, imagery, themes and guardians. [24 — current reference-led direction](24-party-reference-led-direction-2026-10-27.md) recommends asymmetric gilded rootwork over a dark base, retaining small crown/torc/cuffs/green trousers; pale open-weave cloth is the ghostlier alternative. New defining pieces unsourced; no new render/order/final fit approval. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains Small/Burgundy source, not a purchase. 23's feather preview is rejected history.
+**Practical sourcing:** host likes Gilded Root and Rootkeeper and asks what can actually be reused/bought. [25 — current Amazon reality check](25-realistic-rootkeeper-amazon-2026-10-29.md) recommends a finished Brown / Small leaf mantle, **$13.16 / Friday October 30 verified October 29**, over existing mesh/crown/torc/cuffs/green trousers. One new piece; no structural build. Exact sculpted root/bark armor remains unsourced; floral gold appliqués are compromises, not equivalent ready-made armor. No outfit selection/new order/render/physical fit inferred.
 
-The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-27-party-reference-led.md).
+**Fur too hot; feathers rejected; face clear and crown compact.** [24 — party reference study](24-party-reference-led-direction-2026-10-27.md) retains the actual lookbook/guardian vocabulary. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older Small/Burgundy source, not a purchase or freshly verified offer. 23's feather preview is rejected history.
+
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) retains purchase evidence and the October 27 retailer-delivered refresh; physical fit remains untested. No new orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-realistic-amazon.md).
 
 ## Historical direction • through October 23
 

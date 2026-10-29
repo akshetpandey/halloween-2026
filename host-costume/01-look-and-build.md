@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 27:** reuse unused night-two pieces; no large antlers/full-face covering, fur too hot, **feathers rejected**. [24 — current party-reference-led design](24-party-reference-led-direction-2026-10-27.md) recommends one organic asymmetric rootwork feature from actual guardians/lookbooks, with a pale-cloth alternative. Small crown/torc/cuffs/green trousers retained; new defining piece unsourced and no new render/order/fit. Former builds and feather proposal are history.
+**Current October 29:** [25 — practical reuse and Amazon check](25-realistic-rootkeeper-amazon-2026-10-29.md) recommends a finished Brown / Small leaf shoulder mantle, $13.16 / Friday October 30 checked October 29, over existing black mesh with crown/torc/cuffs/green trousers. One new piece, no structural fabrication; fit/torc compatibility pending. Host likes Gilded Root / Rootkeeper directions but has not selected this item or reported buying it. [24](24-party-reference-led-direction-2026-10-27.md) retains guardian/lookbook references; exact sculpted roots/bark remain unsourced. No fur, feathers, large antlers, face cover or self-applied makeup. Earlier builds/previews are history.
 
 ## Historical brief • through October 23
 

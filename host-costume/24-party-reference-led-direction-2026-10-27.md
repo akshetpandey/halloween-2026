@@ -1,6 +1,6 @@
 # Host costume • the party's own visual language
 
-October 27, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Current design study; new defining pieces are not sourced or selected.** Supersedes the feather proposal in [23](23-jacket-free-hollow-court-2026-10-27.md).
+October 27, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Reference study. October 29 practical sourcing is now in [25](25-realistic-rootkeeper-amazon-2026-10-29.md): a finished brown leaf mantle is verified/recommended as a realistic interpretation; sculpted root/bark armor below remains unsourced.** No outfit or new item selected/bought. Supersedes the feather proposal in [23](23-jacket-free-hollow-court-2026-10-27.md).
 
 ## Confirmed correction
 

@@ -1,6 +1,6 @@
 # The Hollow — flat black fleece
 
-**October 29 current:** six King 108 × 90 fleece ordered, no extra wall cloth. **Hooks on hold:** ~3-in body does not fit host’s ~1.5-in top band. [Current mounting note](09-hook-count-2026-10-29.md) proposes a lower vertical row if the glass/frame/wall below is suitable; no ceiling rating or physical test established. Previous two-pack/18–24 point count is provisional. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-narrow-mounting-band.md). Earlier buying/cut scenarios below are history; thin furniture nesting remains current.
+**October 29 current:** six King108×90 fleece ordered; no extra wall cloth. Host confirms sunlit glass below narrow top band and suggests suction. [Two KORCCI 12-packs /24cups / $11.98](09-hook-count-2026-10-29.md) proposed,3–4 points per blanket; lower onto room-facing glass. Original H24 adhesive packs held, no ceiling mounting. Map panes and trial one blanket overnight. [Buying list](../../shopping-ready.md) · [Handoff](../../handoff-2026-10-29-suction-hooks.md). Earlier buying/cut scenarios below are history; thin furniture nesting remains current.
 
 **Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 

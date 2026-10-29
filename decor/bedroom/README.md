@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 current mounting status:** large hooks **on hold**: host’s ~1.5-in top band cannot fit ~3-in hooks; ceiling capacity is not established. [Current mounting note](draping/09-hook-count-2026-10-29.md) proposes lowering onto a compatible vertical surface, pending identification of what is below the band. Earlier 3–4 points/two-pack count remains provisional. Six fleece/four moss remain host-reported ordered. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-narrow-mounting-band.md).
+**October 29 current mounting recommendation:** use suction hooks upright on room-facing glass below frame. Host confirms sunlit glass and suggests suction; [two KORCCI 12-packs /24hooks / $11.98](draping/09-hook-count-2026-10-29.md) are the proposed replacement for held H24 adhesive packs. Start3points per blanket, fourth if needed (18–24 total,0–6 spare); actual panes and one-panel overnight trial pending. Six fleece/four moss ordered status unchanged. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-suction-hooks.md).
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

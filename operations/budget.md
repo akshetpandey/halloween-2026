@@ -1,8 +1,8 @@
 # Budget, sourcing and purchase ledger
 
-## Latest October 29 • fleece mounting cost unresolved
+## Latest October 29 • suction proposal replaces indoor hooks
 
-[H24 is held](../decor/bedroom/draping/09-hook-count-2026-10-29.md): ~3-in hooks do not fit the host’s ~1.5-in top mounting band. **Ten other remaining core lines: $218.49 + $19.66 aggregate 9% planning tax = $238.15, PLUS mounting TBD.** The previous $29.22 mounting allowance would restore the $247.71 / $270.00 scenario, but no suitable support is confirmed; this is not an achieved saving. Ordered merchandise remains $199.90 at last quotes, actual paid unknown. Ordered quote value + ten active remaining lines = $418.39 before tax, plus mounting. Local $105/deferred lighting excluded. [Ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-narrow-mounting-band.md). Earlier hook recommendation below is superseded; no purchase/test.
+Host confirms sunlit glass below the narrow band and suggests suction. [Two KORCCI 12-packs / 24 cups](../decor/bedroom/draping/09-hook-count-2026-10-29.md) at $5.99 each = **$11.98** replace the held $29.22 indoor-hook packs for glass. **11 remaining recommended core lines: $230.47 + $20.74 aggregate 9% planning tax = $251.21**, which is $17.24 before tax / $18.79 with tax below the previous indoor-hook scenario. Suction quantity 2 showed In Stock / October 30, 7–11 a.m.; free delivery conditional, no checkout or order. Original hooks are not added again. Additional non-glass support needs depend on mapping. Ordered quote value $199.90 + remaining $230.47 = **$430.37 core merchandise / about $469.10 with tax**; actual paid unknown. Local $105 and deferred lights excluded. [Ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-suction-hooks.md). No physical test; earlier scenarios below are history.
 
 ## Latest October 29 • hook count reduced after weight check
 

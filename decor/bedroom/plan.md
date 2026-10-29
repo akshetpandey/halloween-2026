@@ -1,6 +1,6 @@
 # The Hollow — current room plan
 
-October 21 host accepted rear-right corner storage/guardian/automated desk layout. **No human DJ; speakers on desk.** Bed stored depth 15 in, desk 49 × 29.5 in. **October 29 host correction:** ~100-in wall height; 100% coverage unnecessary. **Six 108 × 90-in Black fleece are now host-reported ordered**, all for the wall/window treatment. [Current purpose and mounting hold for the narrow top band](../shopping-ready.md) supersedes the four-panel purchase comparison. Exact coverage/returns still need fitting; no ready-made bedroom curtains.
+October 21 host accepted rear-right corner storage/guardian/automated desk layout. **No human DJ; speakers on desk.** Bed stored depth 15 in, desk 49 × 29.5 in. **October 29 host correction:** ~100-in wall height; 100% coverage unnecessary. **Six 108 × 90-in Black fleece are now host-reported ordered**, all for the wall/window treatment. [Current purpose and suction mounting proposal for glass](../shopping-ready.md) supersedes the four-panel purchase comparison. Exact coverage/returns still need fitting; no ready-made bedroom curtains.
 
 [Canonical room/layout plan](../final-room-plan.md#the-hollow-accepted-corner-arrangement) · [Scaled party plan](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Partial Amazon fleece plan](draping/08-partial-coverage-100in-2026-10-29.md) · [Guardian](woodland-guardian.md) · [Lighting](../lighting/02-bedroom-party.md).
 

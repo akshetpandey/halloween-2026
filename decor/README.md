@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: six fleece/four moss remain host-reported ordered. **Large fleece hooks on hold:** ~3-in hooks do not fit the host’s ~1.5-in top mounting band; wall ratings do not establish ceiling use. [Mounting next step](bedroom/draping/09-hook-count-2026-10-29.md): identify a suitable vertical surface below the band before ordering. [Current buying list](shopping-ready.md) has **10 other remaining core lines / $218.49 before tax, plus mounting TBD**. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-narrow-mounting-band.md). No new purchase or physical test.
+October 29 latest: six fleece/four moss remain host-reported ordered. Host confirms sunlit glass below the narrow band and suggests suction. [Current recommendation](bedroom/draping/09-hook-count-2026-10-29.md): two KORCCI 12-packs /24 suction hooks / $11.98, Oct 30 estimate at quantity2; original indoor hooks held. [Buying list](shopping-ready.md): **11 remaining recommended lines / $230.47 before tax / $251.21 with planning tax**. Pane mapping and one-panel trial remain. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-suction-hooks.md). No new purchase or physical test.
 
 | Room / deliverable | Current source |
 |---|---|

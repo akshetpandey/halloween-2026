@@ -1,6 +1,6 @@
 # Partial black fleece at approximately 100-in wall height — October 29, 2026
 
-**Latest mounting correction October 29:** [H24 on hold: narrow top band](09-hook-count-2026-10-29.md). Host has ~1.5 in of vertical mounting surface at the top, too short for ~3-in hooks. Identify a compatible lower vertical surface; no ceiling rating or mounting trial established. All earlier hook counts here are provisional/history. Six fleece/four moss remain host-reported ordered; thin cloth cuts unchanged.
+**Latest October 29 mounting correction:** host confirms sunlit glass below narrow band and suggests suction. [Two12-packs /24 suction cups / $11.98 recommended](09-hook-count-2026-10-29.md),3–4 points per blanket, pane map/overnight trial pending. Original adhesive packs held. Six fleece/four moss remain host-reported ordered; thin cloth cuts unchanged. Earlier purchase and hook counts below are history.
 
 **Purchase supersession, later October 29:** host confirms fleece and moss orders, recorded as **six King 108 × 90 fleece + four 39 × 39 moss** from session quantities. [Current purpose/allocation list](../../shopping-ready.md) replaces this four-fleece purchasing comparison. Six blankets remain wall material; initial 36 points within 42 hooks, 96 clips include six desk clips and 54 spares. No further fleece/moss order. Earlier quote math below is history; thin cloth still separately required. Actual charged totals/arrival/fit unverified.
 

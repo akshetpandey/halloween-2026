@@ -1,5 +1,13 @@
 # Decision log and open questions
 
+## Latest October 29 • suction hangers proposed by host
+
+**Host suggests suction hangers** after confirming window glass, direct sun and only a few days use. **Agent recommends** two KORCCI 12-packs /24cups / $11.98, upright on room-facing glass below frame; start 3 points per blanket, fourth if needed. Brand listing claims10lb, not a host-tested rating. Quantity2 In Stock/Oct 30,7–11am estimate checked in Chrome, free shipping conditional; no purchase/cart addition. [Current mounting recommendation](../decor/bedroom/draping/09-hook-count-2026-10-29.md) replaces the pending UV-adhesive route; original H24 packs held. Pane mapping, one-panel trial and any non-glass supports remain. Proposed replacement is not a host-confirmed product selection or order.
+
+## Latest October 29 • window glass and direct sun confirmed
+
+**Confirmed host:** glass immediately below the ~1.5-in band, direct sunlight, fleece installed for only a few days. Proposed mounting location is now room-facing vertical glass below the frame, hooks upright. [3M window guidance and current plan](../decor/bedroom/draping/09-hook-count-2026-10-29.md) still exclude ordinary indoor adhesive under direct sun; no short-use exemption established. H24 remains held for product compatibility/sourcing, rather than an unknown substrate. Outdoor Large Clear Window Hook 17093CLR-AW is a 4-lb manufacturer candidate, not a priced/arrival-confirmed order; actual blanket-plus-clips weight and one-panel trial required. No new cost, purchase or physical test.
+
 ## Latest October 29 • narrow mounting band invalidates hook placement
 
 **Confirmed host:** only ~1.5 in of vertical surface at wall top, whereas chosen hooks are ~3 in; questions ceiling loading. **Agent correction:** H24 on hold; wall rating does not establish ceiling capacity. Proposed cheapest fix is a lower row on suitable vertical glass/frame/wall, accepting a top gap. Surface immediately below band remains unknown; clarification pending. Previous 3–4 points/two-pack count remains provisional, not a fit-confirmed order. [Current mounting note](../decor/bedroom/draping/09-hook-count-2026-10-29.md). No smaller/ceiling hook substitution, drilling, purchase or physical test performed.

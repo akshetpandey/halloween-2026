@@ -2,9 +2,9 @@
 
 ## Current scope • October 29
 
-**Latest shirt / repair:** mesh and sleeveless tops rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the completed personalized short-sleeved preview, exact shirt/mantle Small Saturday delivery refresh, earlier previews and two broken crown fragments. Mantle moved from Friday to Saturday on the latest check. Crown repair/fit pending; glue exact delivery unverified. No new purchase.
+**Latest upgrade / repair:** host dislikes the leaf mantle and finds current render too basic. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns source-verified shoulder armor/black half-cape proposal and actual photos; neither selected/ordered or fitted. Keep short-sleeved shirt and purchased/owned pieces. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains old preview and crown repair guidance. No new render/purchase.
 
-**Mantle source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP** comparison and October 29 Friday-offer check. Current proposal pairs it with the sleeved shirt in 26 and reuses crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. No new garment order reported.
+**Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27 proposes actual embossed PU costume armor instead.
 
 **Feathers and mesh rejected; fur too hot; no large antlers/full-face covering.** [24](24-party-reference-led-direction-2026-10-27.md) retains the lookbook/guardian study; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older JEMITOP Burgundy/Small source, not a purchase or refreshed offer. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. Fit untested; no seller follow-up/return.
 

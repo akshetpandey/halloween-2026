@@ -2,6 +2,8 @@
 
 October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested personalized preview complete; physical repair and final outfit fit pending.** No new purchase inferred.
 
+**Later October 29 feedback:** host finds this render too basic and does not love the brown leaf mantle. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns the current replacement proposal; below remains prior preview/source history plus active crown repair guidance.
+
 ## Latest revision: sleeves required
 
 **Latest host instruction October 29: render the sourced short-sleeved shirt with the brown mantle, compact bone crown, torc, actual cuff pair and green trousers, using his likeness and clean-shaven styling. Requested preview complete.** Mesh/tank previews below are superseded. Shirt chosen for this preview, not reported ordered or physically fitted.

@@ -6,7 +6,7 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** N completes the requested short-sleeved shirt/brown-mantle preview; mesh and tank previews are superseded. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns current sources, private outputs and crown repair advice. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Previews do not establish a repaired crown, garment purchase or fit.
+**Latest October 29:** N completed the requested sleeved brown-mantle preview, but the host now finds it too basic and dislikes the leaf piece. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns the source-verified upgrade proposal and actual product references; no new render yet. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains private outputs and crown repair advice. Previews do not establish a repaired crown, purchase or fit.
 
 ## N Short-sleeved cotton shirt and brown mantle
 

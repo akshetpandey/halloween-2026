@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29:** mesh and sleeveless tops rejected. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the completed clean-shaven short-sleeved shirt/brown-mantle/crown/torc/cuffs/green-trouser preview, refreshed Saturday garment sources and crown repair guidance. Shirt chosen for this preview; no new order or final fit approval. Two small PLA crown pieces broken; repair/fit pending. New garments/glue not bought. [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains mantle comparison; [24](24-party-reference-led-direction-2026-10-27.md) retains guardian/lookbook references. Sculpted roots/bark unsourced; no fur, feathers, large antlers, face cover or makeup. Earlier builds/previews are history.
+**Current October 29:** sleeved brown-mantle preview still too basic; host dislikes leaf piece. [27](27-haunted-court-statement-pieces-2026-10-29.md) proposes a moon-phase pauldron and metallic-edged black half-cape with exact Saturday sources, keeping short sleeves/crown/torc/cuffs/green trousers. No new outfit selection, render, purchase or fit. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains prior private preview and broken-crown repair guidance. [24](24-party-reference-led-direction-2026-10-27.md) retains party references. Mesh, sleeveless, fur, feathers, large antlers, face cover and makeup excluded.
 
 ## Historical brief • through October 23
 

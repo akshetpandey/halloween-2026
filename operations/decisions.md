@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • fleece and moss ordered, annotate all purchase purposes
+
+**Confirmed host:** “those twoorders are placed” after the fleece 6 and moss 4 discussion, then asks to update the buying list with exactly what each item is for. Record **six Black King 108 × 90 wall fleece and four Green 39 × 39 moss sheets ordered, host reported**, with quantities from immediate session context; no receipt/arrival/physical-test verification. [Current list](../decor/shopping-ready.md) now gives room, quantity, purpose and shared allocation for ordered goods, 11 remaining core decor lines, local/reused materials and deferred lighting. Initial wall mounts 36 within 42 hooks; 96 binder clips cover 36 wall + 6 desk with 54 spares. No additional moss/fleece, no agent order or newly selected lighting.
+
 ## Latest October 29 • cover counters and both tabletop surfaces in moss
 
 **Confirmed host:** derive kitchen counters from scan; cover coffee tabletop **22 × 44 in** and another top **20 × 40 in**. [New calculation](../decor/living-room/moss-surfaces-and-cuts-2026-10-29.md) gives24.38 sq ft counters /36.66 sq ft requested tops. **Recommend four 39 × 39 sheets / $67.96**, newly quantity-verified for Oct 30, with joins and reusable sink cutout; retains small desk allocation. Prior three-sheet and optional two-sheet scheme no longer meet scope. No assumed drop/vertical wrap. Six fleece visible in unpaid cart, not a purchase or explicit new scope confirmation; pricing alternatives in budget. No physical template/cut test or agent order.
@@ -243,7 +247,7 @@ Host requests online purchase links as part of decor planning, Amazon preferred;
 Host confirms the soundbar has already worked with this laptop when selected as output in macOS Sound settings. Basic connection is now recorded as confirmed by host, rather than awaiting model identification. Reuse the existing setup. Soundbar party role, combined DDJ/TV playback and volume automation remain to resolve/test. No device settings changed or new hardware test performed.
 
 ## Nine-hour playlist expansion • September 3
-Host requests nine hours of music in each room. Living-room Spotify expanded from 35 tracks / about 3 hours to 117 tracks / 10h 2m. New private bedroom Spotify audition collection: The Hollow — Halloween 2026, 140 tracks / 12h 15m. Both counts and duration headers verified in Spotify. Current additions are album blocks for auditioning, not the final timed event sequence. Local exports saved; final ordering, dance-floor suitability, local DJ acquisition and a nine-hour rehearsal remain. No purchases or rekordbox imports performed.
+Host requests nine hours of music in each room. Living-room Spotify expanded from 35 tracks / about 3 hours to 117 tracks / 10h 2m. New private bedroom Spotify audition collection: The Hollow — Halloween 2026,140 tracks / 12h 15m. Both counts and duration headers verified in Spotify. Current additions are album blocks for auditioning, not the final timed event sequence. Local exports saved; final ordering, dance-floor suitability, local DJ acquisition and a nine-hour rehearsal remain. No purchases or rekordbox imports performed.
 
 ## Sourced costume art • September 3
 Replaced the active guest costume sheet with two shareable art boards using eight existing works by Arthur Rackham, John Bauer, Alphonse Mucha, John William Waterhouse, Dante Gabriel Rossetti, E. A. Séguy and Ernst Haeckel. Downloaded source images and retained Commons public-domain metadata. Added original-gallery links to McQueen and Iris van Herpen as fashion references. Generated costume sheet retained only as a superseded project artifact; invitation and room artwork scope is unchanged.

@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • two decor orders reported placed
+
+**Host reports fleece and moss orders placed**, recorded as six Black King 108 × 90 fleece and four Green 39 × 39 moss from immediate session quantities. [Purchase/allocation ledger](../decor/purchases-and-allocations-2026-10-29.json) marks **two ordered lines**; **$199.90 is their merchandise value at last quoted unit prices**, not an actual paid/settled total. Receipt tax/shipping/coupons/order-specific arrival unverified. No agent purchase.
+
+[Current buying list with exact uses](../decor/shopping-ready.md) has **11 remaining core decor lines / $262.32 + $23.61 aggregate 9% planning tax = about $285.93**. Ordered quote value 199.90 + remaining 262.32 = **$462.22 core merchandise**, about $503.82 with aggregate 9% planning tax. Earlier four-fleece scenarios below are history, not another order. Local/reuse/support allowances $105 and all deferred lighting/power/DMX remain outside these figures. Actual paid totals await receipts; no duplicate moss/cloth/ties for shared Guardian/game scenery.
+
 ## October 29 • full moss counters and two host-sized tabletops
 
 **Confirmed host:** countertops from scan plus 22 × 44-in coffee top and 20 × 40-in other top fully covered. [Recomputed counter 24.38 sq ft /combined 36.66 sq ft and constructive cuts](../decor/living-room/moss-surfaces-and-cuts-2026-10-29.md) require **four 39 × 39-in sheets, $67.96**, up $16.99 merchandise from prior three. Quantity 4 newly In Stock/free Oct 30; short25-minute cutoff communicated immediately. Three/two-sheet scenarios below superseded. Existing small desk/Guardian allocation remains within four through joints and sink-offcut reuse.

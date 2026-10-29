@@ -3,7 +3,7 @@
   "timezone": "America/New_York",
   "targetArrival": "2026-10-30",
   "scope": "Decor-only urgent buy list; dedicated lighting, DMX, power hardware deferred by host.",
-  "status": "Verified product-page offers at specified quantities, not carted or ordered; checkout date still must be reconfirmed.",
+  "status": "Dated product-page offer snapshot. Current host-reported orders and allocations are in ../purchases-and-allocations-2026-10-29.json; item quantities below reflect earlier UI quote checks, not a live order ledger.",
   "location": "Existing signed-in Brooklyn ZIP 11211",
   "items": [
     {
@@ -297,7 +297,7 @@
   },
   "quantities": "Moss4 newly quantity-verified Oct29 for Oct30; King108x90 fleece4 and large-hook packs3 retain earlier same-day checks. Six fleece seen in host cart, not ordered or delivery-rechecked at6. Decorating clips3 retained; other rows qty1.",
   "deadlineNote": "Moss quantity4 newly showed only25minutes remaining for Oct30; host informed immediately. Product-page estimate, recheck checkout. Other offers retain earlier same-day checks.",
-  "purchaseStatus": "No agent purchase/cart edit. Host orders since last confirmation not audited; quantities are planned totals, not additional quantities on top of any recent order.",
+  "purchaseStatus": "Host confirms six BlackKing108x90 fleece and fourGreen39x39 moss ordered October29; no receipts/actual charges/arrival dates inspected. No agent purchase. Current procurement ledger separates two ordered lines and eleven remaining decor lines.",
   "followup": "Host now requests full countertops plus22x44 coffee tabletop and20x40 other surface. Raw scan recomputation yields24.3778sqft counters; requested total36.6555sqft. Recommend four39x39 sheets42.25sqft; constructive cut plan checked with joints and intact16x18 sink offcut reuse, including retained desk fascia. Two/three-sheet proposals no longer cover current scope.",
   "supersededFabricOffers": [
     {
@@ -378,5 +378,6 @@
     "planningTax9pct": "41.60",
     "withPlanningTax": "503.82",
     "status": "Same moss4 batch with fleece6 instead of4, consistent with visible cart quantity; new quantity6 delivery not checked. Not additive spend."
-  }
+  },
+  "currentProcurementReference": "../purchases-and-allocations-2026-10-29.json"
 }

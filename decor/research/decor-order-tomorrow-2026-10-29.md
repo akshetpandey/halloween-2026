@@ -1,5 +1,7 @@
 # Order-now decor for Friday October 30 — checked October 29, 2026
 
+**Historical source check; later purchase update October 29:** host now reports six King 108 × 90 fleece and four 39 × 39 moss ordered. Use the [current buying list with purpose/status](../shopping-ready.md) for all remaining purchases. Four-fleece comparisons, unpaid-cart observations and short order cutoffs below describe this earlier quote snapshot, not current buying quantities or order receipts. No fresh stock/delivery check in the bookkeeping update.
+
 **Thirteen product lines show Friday, October 30 delivery** in signed-in Chrome Play to the existing Brooklyn ZIP 11211. Dedicated lighting, DMX and power hardware are deferred, as requested. These are live product-page estimates at the quantities below, not reserved stock or checkout promises. Choose **new / one-time purchase**; no subscription, used or business price is included. Some small-item early-morning shipping requires a qualifying $25 order.
 
 **Latest fabric revision:** host reports roughly 100-in wall height and does not require full enclosure. Recommend four smaller King 108 × 90 blankets and three large-hook packs; [coverage and moss explanation](../bedroom/draping/08-partial-coverage-100in-2026-10-29.md). These two quantities were newly verified forOct 30. Other lines retain earlier same-day checks.

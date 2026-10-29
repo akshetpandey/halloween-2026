@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: host wants full moss on kitchen counters plus 22 × 44-in coffee top and 20 × 40-in other top. [Scan-derived36.66 sq ft and four-sheet cut plan](living-room/moss-surfaces-and-cuts-2026-10-29.md) now recommends **four 39 × 39 moss sheets / $67.96**, quantity 4 verified for Oct 30. [Order list](research/decor-order-tomorrow-2026-10-29.md) separates four-fleece partial-wall and six-fleece cart comparisons; no order inferred. Lighting deferred. [Handoff](living-room/handoff-2026-10-29-moss-surfaces.md).
+October 29 latest: host reports **six Black King 108 × 90 fleece and four Green 39 × 39 moss sheets ordered**. [Current buying list](shopping-ready.md) now gives the purpose, room and shared allocation of every item, separates **11 remaining core decor lines / $262.32 before tax** from local/reused supplies and deferred lighting, and prevents duplicate fleece/moss purchases. [Purchase/allocation ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-purchases-and-purpose.md). Receipt totals, arrival and physical setup remain unverified.
 
 | Room / deliverable | Current source |
 |---|---|

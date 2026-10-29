@@ -1,6 +1,6 @@
 # The Hollow — flat black fleece
 
-**October 29 current:** host supplies ~100-in wall height and accepts partial coverage. [Four smaller King 108 × 90-in fleece / $87.96 and three 14-hook packs / $43.83](08-partial-coverage-100in-2026-10-29.md) are now recommended; both quantities checked forOct 30. About two-thirds wall length, no pleating or fitted header; thin furniture-cover nesting retained. [Order list](../../research/decor-order-tomorrow-2026-10-29.md) and [handoff](../../handoff-2026-10-29-partial-fleece.md). Earlier full-enclosure prices/cuts below are history, not another order.
+**October 29 ordered:** host confirms **six Black King 108 × 90-in fleece**; no more wall blankets to buy. Current [buying list and purpose allocations](../../shopping-ready.md): all six for Hollow walls/windows, initial 36 large-hook/binder-clip points, three 14-hook packs = 42 hooks, 6 spare; 96 binder clips cover 36 wall + 6 desk, 54 spare. Thin-cover two-pack remains to buy for bed/desk/Guardian/tub. Earlier four-blanket partial and five-square fitted-wall proposals below are historical. [Handoff](../../handoff-2026-10-29-purchases-and-purpose.md). Receipts/received dimensions/grip/opacity/load/fit remain unverified.
 
 **Latest confirmed October 23:** no pleating needed for fleece blankets; furniture covers may use cheaper thinner black fabric. All-wall/window fleece and mild curtain-like softening remain; no ready-made bedroom curtains or separate acoustic pads.
 

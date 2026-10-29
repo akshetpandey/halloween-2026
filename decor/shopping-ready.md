@@ -1,115 +1,97 @@
-# House decor shopping plan — October 29, 2026
+# Decor buying list — quantities, purpose and purchase status
 
-## Current priority: decor arriving Friday October 30
+Updated **October 29, 2026**. Host confirms **the fleece and moss orders are placed**: six Black King 108 × 90-in fleece and four Green 39 × 39-in moss sheets, using the quantities discussed immediately before confirmation. Status is **ordered, host reported**; receipts, actual charges, order-specific arrival dates and physical receipt have not been checked. Do not reorder either line.
 
-Host asks to order tomorrow-delivery **decor first; lighting later**. Use the [verified 13-line order-now list](research/decor-order-tomorrow-2026-10-29.md): **$418.24 merchandise**, approximately **$455.88 with 9% planning tax**. All thirteen product-page offers were checked in signed-in Chrome on October 29 at planned quantities, including the new four Black King 108 × 90 fleece / $87.96 and three hook packs / $43.83. These replace five oversized fleece/four hook packs after host reports ~100-in walls and accepts partial coverage. [Updated moss calculation/cuts](living-room/moss-surfaces-and-cuts-2026-10-29.md) increases to **four 39 × 39 sheets / $67.96** for counters plus host 22 × 44 and 20 × 40 tops; new quantity 4 delivery verified for Oct 30, short25-minute cutoff communicated. Three/two-sheet earlier options no longer meet scope. [Partial-wall fleece rationale](bedroom/draping/08-partial-coverage-100in-2026-10-29.md) remains a four-fleece comparison. Three decorating-clip packs retained. Moss has the shortest displayed cutoff; order it first and recheck **October 30** in checkout. Quantities are planned totals; omit anything already ordered. Six King fleece are visible in the host’s unpaid cart, not ordered; the corresponding six-fleece/full-wall comparison is **$462.22 / about $503.82 with tax allowance**. Do not add four more fleece to that cart; reconcile desired quantity. Quantity 6 delivery not freshly rechecked.
+**Remaining core decor: 11 product lines / $262.32 before tax**, approximately **$285.93 with 9% planning tax**, using last-checked October 29 prices. Delivery estimates in the [dated source check](research/decor-order-tomorrow-2026-10-29.md) are not freshly reconfirmed by this bookkeeping update. Lights and their power/control supplies remain deferred, as requested. Local/reused craft materials below are separate allowances, not exact retail offers.
 
-Original Bitter Black rug now shows **November 1**; proposed same-size low-pile replacement is **Rugflix 8 × 10 / 03-black Grey / $75.99 / Oct 30**. Original Pyle stand shows **October 31**. The **InnoGear single weighted-base stand / Twist Clutch 34–60 in / $29.99 / Oct 30** is now detail-verified after host completed Amazon’s human prompt and is included in the order-now total. No agent cart additions/purchases. Recent host orders have not been audited. [Exact quote data](research/decor-nextday-2026-10-29.json) · [Latest handoff](living-room/handoff-2026-10-29-moss-surfaces.md).
+[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-purchases-and-purpose.md) · [Current room plan](final-room-plan.md).
 
-## October 27 baseline and lighting comparisons — historical delivery dates
+## Ordered — do not buy again
 
-The remainder preserves earlier planned scope and accounting. Its arrival dates and unrefreshed lighting prices are **not current October 29 order guidance**; it is not an additional order on top of the current decor-only batch.
+| Item / exact product | Ordered quantity | Exactly what it is for | Last quoted merchandise value |
+|---|---:|---|---:|
+| H22 — [BEDELITE Black / King 108 × 90-in single fleece](https://www.amazon.com/dp/B08FYBWRQ1) | **6 blankets** | **Hollow walls/windows.** All six are wall material, 108 in vertical and 90 in wide, flat/no pleating, top fold adjusted to~100-in wall. Nominal 45 ft width for ~43 ft wall run excluding doorway; received usable width, corners and overlaps still need fitting. Furniture uses thinner cloth below. | $131.94 |
+| H11 — [USMOLA Green 39 × 39-in moss](https://www.amazon.com/dp/B0FZD67YDD) | **4 sheets** | **Grove counters and tables:** scan-estimated 24.38 sq ft kitchen tops + 22 × 44-in coffee table + 20 × 40-in other top = 36.66 sq ft. Retain~2 sq ft for Hollow desk fascia, then small Guardian/shrine scraps, within the same four sheets. [Joined cut layout](living-room/moss-surfaces-and-cuts-2026-10-29.md). | $67.96 |
 
-**Latest research — moving heads definitively dropped; compact DMX fills proposed:** [fill and effect-panel value comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md). Host confirms all lights/laptop within five feet. Recommended LF105 + LPC018 two-pack + six-foot links gives **$1,214.73** whole decor; OPPSK384 coupon alternative **$1,232.76**; original OPPSK coupon plus fills **$1,299.36**. These upgrades await exact panel/fill selection; the previously selected 23-line OPPSK-only baseline below stays conservative at list price. All new recommended items showed Oct 29 in Chrome. No purchases.
+Combined **$199.90 at last quoted unit prices**; this is not a receipt-verified paid total. Last product-page estimates showed Friday, October 30; actual order arrival dates remain unverified. No agent purchase or payment.
 
-**Host accepts the OPPSK / direct USB-C DMX route and omits extension cables; nothing bought.** Use one OPPSK with the [direct USB-C DMX plan](lighting/oppsk-usb-dmx-2026-10-27.md). The two-PAR replacement proposal is superseded; the earlier three-fixture rig remains only a dated comparison. No moving heads or lasers in this basket. Exact interface/cabling are recommended, not received/tested.
+## Still to buy — core decor
 
-**Whole-decor estimate $1,242.04**, including local allowances, planning tax, shipping and buffer; **$357.96 below the approximately $1,600 ceiling**. This is the selected **23-product-line basket**, using the interface’s included 5.9-ft lead. It saves **$29.42 including planning tax** against the earlier extension-included plan. Scenery products retain the earlier October 27 Chrome estimates of Oct 29–30; OPPSK/panel/fill/cable offers and coupons were refreshed in the latest linked research. Dates remain conditional estimates, not orders/reservations. [Actual layout](final-room-plan.md) · [Five-fleece cuts](bedroom/draping/02-shopping-and-sample.md) · [Guardian build](bedroom/woodland-guardian.md).
+All quantities are the total needed from each listing. Products are shared between rooms where stated; do not buy a second pack for each allocation.
 
-## Earlier selected baseline products and quantities (October 27)
-
-| ID | Exact product / selected variant | Buy quantity | Unit USD | Line USD | Arrival estimate |
-|---|---|---:|---:|---:|---|
-| H22 | [BEDELITE Black / Oversized King 120 × 120-in fleece, B0BJ238J66](https://www.amazon.com/dp/B0BJ238J66) | 5 | 32.99 | 164.95 | Oct 29 |
-| H14 | [Utopia Kitchen Black / 2 Pack 90 × 132-in polyester cloths, B0854M59WT](https://www.amazon.com/dp/B0854M59WT) | 1 | 21.84 | 21.84 | Oct 29 |
-| H24 | [Command 17003-MPES, 14 large white hooks / 16 strips](https://www.amazon.com/dp/B075Y2M1Q5) | 4 | 14.61 | 58.44 | Oct 29 |
-| H25 | [Amazon Basics Sturdy Binder Clips, Black / Medium 1.25 in / 96 Count (8 Pack of 12)](https://www.amazon.com/dp/B074XTRX7K) | 1 | 10.76 | 10.76 | Oct 29 |
-| H29 | [OPPSK 1080LEDs Stage Light, B0H6HJJ5DP](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | 179.99 | 179.99 | Oct 29 |
-| H39 | [DSD TECH SH-RS09C USB-C to DMX512 / 1.8m (5.9ft), B0FX49ZQ8T](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | 19.99 | 19.99 | Oct 29 |
-| H36 | [Cable Matters 120Ω 3-pin male DMX terminator / 2-pack, B0CSSJP1H4](https://www.amazon.com/dp/B0CSSJP1H4) | 1 | 8.99 | 8.99 | Oct 29 |
-| H34 | [Pyle PMKS5 straight microphone stand, 1 Pack / Black, B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU) | 1 | 34.99 | 34.99 | Oct 30 |
-| H26 | [Govee RGBIC Floor Lamp Basic / Black, B099WTN2TR](https://www.amazon.com/dp/B099WTN2TR) | 1 | 99.99 | 99.99 | Oct 29 |
-| H03 | [Mydethun moon 5.9-in White & Yellow / Non-engraved, wood stand, B075JHP7TK](https://www.amazon.com/dp/B075JHP7TK) | 1 | 24.99 | 24.99 | Oct 30 |
-| H04 | [O’Bright Seraph mini / Black cordless lamp, B0D92YB4RH](https://www.amazon.com/dp/B0D92YB4RH) | 1 | 31.44 | 31.44 | Oct 29 |
-| H05 | [ORTIGIA Dark Green 72 × 72-in forest shower curtain + hooks, B07YD2X9NB](https://www.amazon.com/dp/B07YD2X9NB) | 1 | 14.99 | 14.99 | Oct 29 |
-| H06 | [DUSPRO bendable moss vine 10ft, B0B3XC33R5](https://www.amazon.com/dp/B0B3XC33R5) | 1 | 14.80 | 14.80 | Oct 30 |
-| H11 | [USMOLA Green 39 × 39-in / 100 × 100-cm moss sheet, B0FZD67YDD](https://www.amazon.com/dp/B0FZD67YDD) | 3 | 16.99 | 50.97 | Oct 29 |
-| H27 | [KASZOO 12 Pack with 80 LED / Green, 84-ft ivy, B07H1GQB36](https://www.amazon.com/dp/B07H1GQB36) | 1 | 9.99 | 9.99 | Oct 29 |
-| H12 | [Twinkle Star Warm White USB 66ft / 200 LED, remote, B07GMQ42GG](https://www.amazon.com/dp/B07GMQ42GG) | 2 | 9.99 | 19.98 | Oct 29 |
-| H13 | [Homemory warm-white glow / white body, 12-pack tea lights, B01EDKGFGU](https://www.amazon.com/dp/B01EDKGFGU) | 1 | 8.99 | 8.99 | Oct 29 |
-| H16 | [DIY Doctor black gaffer 2in × 30yd / 1 Pack, B0GH865ZQG](https://www.amazon.com/dp/B0GH865ZQG) | 1 | 8.99 | 8.99 | Oct 29 |
-| H17 | [Skalon black 8-in ties / 100 Pack, B09PJ8L58G](https://www.amazon.com/dp/B09PJ8L58G) | 1 | 3.99 | 3.99 | Oct 29 |
-| H18 | [Command clear decorating clips, 40 clips / 48 strips, 1 Pack](https://www.amazon.com/dp/B000M3YGHS) | 3 | 9.05 | 27.15 | Oct 29 |
-| H19 | [GE 50768 White / 15 Ft / 1 Pack, six grounded AC outlets, 14-gauge SJT](https://www.amazon.com/dp/B087N9HCHV) | 2 | 18.70 | 37.40 | Oct 29 |
-| H28 | [WITSHOCK Bitter Black / 8 × 10ft, B0CYL5S6LW](https://www.amazon.com/dp/B0CYL5S6LW) | 1 | 83.99 | 83.99 | Oct 29 |
-| H38 | [Amazon Basics 12W One-Port USB-A Wall Charger, White / One Port (2-Pack), B0773JCTR5](https://www.amazon.com/dp/B0773JCTR5) | 1 | 13.87 | 13.87 | Oct 29 |
-
-**Original OPPSK coupon confirmed:** displayed **$165.59** (not yet applied), versus the conservative **$179.99** H29 table price. If eligible at checkout, the same one-fixture baseline is **$1,226.35**. [Coupon and alternative evidence](research/dmx-fill-and-panel-comparison-2026-10-27.json).
-
-**Products subtotal $951.48.** New one-time offers checked October 27 to existing Brooklyn ZIP 11211. No used/subscription/business/coupon discounts counted. [Current control quotes and machine-readable basket](research/oppsk-usb-dmx-2026-10-27.json) · [Earlier same-day scenery quote evidence](research/price-refresh-and-value-plan-2026-10-27.md). No item ordered or received.
-
-## Current cash model
-
-| Cash component | Selected direct-cable plan |
-|---|---:|
-| Products | 951.48 |
-| Local/reuse/support allowances | 105.00 |
-| 9% planning tax, aggregate rounded | 95.08 |
-| Shipping reserve | 60.00 |
-| Price/missing-item buffer | 30.48 |
-| **Whole-decor estimate** | **1,242.04** |
-| Headroom below $1,600, after included buffer | 357.96 |
-
-**OPPSK plus USB-C interface/terminators $208.97 before tax**; control alone **$28.98**. Buy one SH-RS09C and one two-pack of terminators; use one terminator, second is a pack spare. **H35 extension pack removed**, per host. Check that the included 5.9-ft lead reaches along the actual desk-to-fixture route; move the laptop/fixture within the accepted layout if practical. The $26.99 extension pack remains a dated contingency quote only, outside this basket. No separate USB-A adapter or controller is needed by the selected route.
-
-The earlier $1,271.46 included extensions; removing merchandise $26.99 and aggregate planning tax $2.43 saves $29.42. The earlier $1,210.46 OPPSK-only estimate omitted control entirely. Prior two-PAR and full-rig figures are history, not additional allocations.
-
-## Proposed fill / effect upgrade — awaiting host selection
-
-Choose one main panel; do not add every comparison. The baseline product table above is not automatically replaced.
-
-| Proposed item | Quantity | USD | Arrival estimate |
+| Item / exact selected option | Buy quantity | Last quoted line USD | Room and exact purpose |
 |---|---:|---:|---|
-| [Betopper LF105 / B0FX2N14PZ](https://www.amazon.com/dp/B0FX2N14PZ), replaces H29 if chosen | 1 | 87.95 | Oct 29 |
-| [Betopper LPC018 RGB / 2 Pack, B0GCCPC16R](https://www.amazon.com/dp/B0GCCPC16R), H40 | 1 two-pack | 49.99 | Oct 29 |
-| [Cable Matters 6-ft DMX / 2 Pack, B08SQMHPF3](https://www.amazon.com/dp/B08SQMHPF3), H41 | 1 two-pack | 16.99 | Oct 29 |
+| H24 — [Command Large White / 14 hooks, 16 strips per pack](https://www.amazon.com/dp/B075Y2M1Q5) | **3 packs / 42 hooks** | 43.83 | **Hollow fleece anchors.** Start with 6 top points per blanket: 36 hooks for the six ordered blankets, 6 spare. These attach to suitable wall surfaces; binder-clip handles hang from them. Actual substrate/load trial still required. |
+| H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | 10.76 | **Hollow blanket grip + desk skirt.** 36 grip clips along fleece tops + 6 for thin desk cloth = 42, leaving 54 spare. Clips grip material; hooks provide wall anchors. |
+| H14 — [Utopia Kitchen Black / two 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | 21.84 | **Stored bed, automated desk, Guardian body and dry-tub base.** Exact allocation below. These are cheap thin covers; the ordered fleece stays on walls. |
+| H27 — [KASZOO Green / 12 strands with 80 LED / 84 ft ivy](https://www.amazon.com/dp/B07H1GQB36) | **1 pack / 12 strands** | 9.99 | **Grove:** 10 strands/~70 ft; 8 high wall/window/cabinet edges, 1 trailing accent, 1 shrine. **Hollow:** 2 strands/~14 ft for desk sides/Guardian backdrop. Included light string is incidental; no extra ivy pack for desk. |
+| H28 replacement — [Rugflix 8 × 10 ft / 03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | **1 rug** | 75.99 | **Hollow dance floor:** 80 sq ft low-pile floor coverage, comfort and mild echo softening; partly under desk/Guardian band. Check door swing, grip and flat edges on receipt. Replaces late original WITSHOCK. |
+| H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | 8.99 | **Shared finishing:** backing under moss butt joins/removable mats, scenic backing tidying and tested perimeter cable edges. Fleece hangs from hooks/clips. Avoid untested direct adhesion to finished surfaces. |
+| H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | 3.99 | **Guardian:** reserve ~12 for card spine, shoulders and body on independent stand. **Shared:** remaining ties for ivy on existing supports and loose scenic/cable bundles. |
+| H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. Use large H24 hooks for fleece. |
+| H05 — [ORTIGIA Dark Green forest shower curtain 72 × 72 in + hooks](https://www.amazon.com/dp/B07YD2X9NB) | **1** | 14.99 | **Moon Well backdrop:** hangs on existing shower-curtain support, partly open to reveal the dry-tub scene. Supplied hooks attach this curtain. |
+| H06 — [DUSPRO bendable moss vine 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 14.80 | **Moon Well roots:** one bendable root/branch accent around shower backdrop/dry-tub edge. Separate from the shared 84-ft ivy. Fit actual support before installation. |
+| H34 replacement — [InnoGear MS250 / 1 / Black / Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P) | **1 stand** | 29.99 | **Guardian skeleton:** independent 9.8-in weighted round base/pole supporting the lightweight card face, crown, spine and cloth body behind the automated desk. This is a stand, not a complete bought creature. Scenic adaptation remains untested; bed restraint is separate. |
+| **Remaining core decor** | **11 lines** | **262.32** | **About $285.93 with 9% planning tax**, before checkout changes/shipping. |
 
-**New panel/fill/link bundle $154.93 before tax**; existing SH-RS09C interface and terminators already counted. **Whole decor $1,214.73** = $926.42 products + $105 local/support + $92.83 aggregate planning tax + $60 shipping + $30.48 buffer. **$385.27 below $1,600**. Keep original OPPSK with fills instead: **$1,299.36 if its $165.59 coupon applies / $1,315.05 without coupon**. OPPSK384 direct-zone option with the same fills/links: **$1,232.76 coupon / $1,238.75 without coupon**.
+## How the shared materials are divided
 
-Host-confirmed five-foot cluster: use the included 5.9-ft interface lead to the panel, then the **two six-foot DMX links** between the three fixtures, existing terminator last. H35 long-extension pack remains omitted. Two short links are needed only if adding DMX fills; no new USB adapter/second controller. New fixtures remain subject to actual low-level output/nameplate/profile/placement and same-Mac rehearsal. [Detailed performance tradeoffs and first patch](lighting/dmx-fill-and-panel-value-2026-10-27.md).
+**Thin black cloth two-pack, H14:** work from actual templates and leave hems clear of the floor. Current nesting uses conservative 88 × 130-in usable rectangles from each 90 × 132-in cloth.
 
-## Lighting still in the plan
+| Source | Allocation | Purpose |
+|---|---|---|
+| Cloth 1 | Keep whole for fitting | Conceal stored bed face and visible edges behind Guardian. Covering does not secure the bed. |
+| Cloth 2 |117 × approximately 34 in | U-shaped desk skirt: 49-in front + two 29.5-in sides = 108 in, plus 9 in for folds/attachment. Keep equipment top, vents and speaker fronts clear. |
+| Cloth 2 remainder |30 × 48 in | Guardian’s black shoulders/body drape. |
+| Same remainder |62 × 32 in | Dry-tub scene base over an existing soft protective underlayer; remove before bathing. |
 
-| Area | Current lighting |
-|---|---|
-| Hollow | One OPPSK on USB DMX; Guardian eyes on a separate warm string |
-| Grove | Govee RGBIC floor lamp for purple wash; owned LIFX tree lamp; handmade glowing moon and warm string accents |
-| Moon Well | Mydethun moon globe, O’Bright dim ambient lamp and tea lights |
+[Full thin-cloth nesting](bedroom/draping/02-shopping-and-sample.md#thin-furniture-covers) remains current; its earlier full-wall fleece cuts are historical. Remaining cloth makes small ties/patches. One shared cloth pack supplies all four uses.
 
-The **original second Hollow effect was the U’King moving-head pair (H31)**. Host now explicitly confirms **no moving heads**. It is **not in this current basket**: the earlier October 27 quote was $129.99 with October 31 arrival, missing the before-Halloween setup target. The two-PAR replacement and removed laser are also excluded. The separate Grove lighting remains; it is not part of the OPPSK DMX chain. No second bedroom effect has silently been added back.
+**Guardian build:** InnoGear stand + reused doubled card spine, folded card/kraft bark face and branching crown + paint/PVA + one H14 cloth cut + ~12 H17 ties + small H11 moss scraps. Eyes use one deferred warm USB string. Late raven pendants are replaced by painted card relics. No bought mask/mannequin, animatronic mechanism or second moss/cloth/tie order. [Build sequence](bedroom/woodland-guardian.md).
 
-## What stays and what changes
+**Moss:** full counters and both host-sized tabletops come first, with the desk fascia included in the [four-sheet packing](living-room/moss-four-sheet-cuts-2026-10-29.svg). Both tables need joins because 44/ 40 in exceed 39 in. Save the sink cutout. Small props get scraps or painted texture after primary cuts; no fifth sheet is ordered.
 
-- **Hollow:** host retains OPPSK. SH-RS09C connects directly to USB-C; free QLC+ controls one fixture, initially address001 / 18CH. Exact map/profile and same-Mac music/TV load remain physical tests. No USB-A adapter, old SH-RS09B, MAX, PAR kit, moving heads or additional lighting controller is in this basket. [Connection and automation walkthrough](lighting/oppsk-usb-dmx-2026-10-27.md).
-- Preserve **five flat fleece blankets**, no pleating, all walls/windows/header; thin bed/desk/Guardian/tub covers; **8×10 rug, three large moss sheets, all 84-ft ivy**, two warm strings, glowing Guardian, Grove moon/Govee purple wash and the four bathroom pieces.
-- Late raven pendants stay out; proposed painted card/kraft relics use the shared craft allowance. No game entity count/identity change.
-- Power stays **two 15-ft GE 50768 strips plus H38 USB-A supply two-pack**, one string supply per room. Those USB power chargers do not replace the DMX data interface. Actual labels/outlets need inspection.
-- Mounting stays 56 large hooks and 96 medium binder clips: 43 starting wall/header points, six desk clips, spares. Paper capacity is not a fabric grip rating; trial full intact fleece before cutting.
+## Local or reuse — purpose and allowance
 
-## Local/reuse allowances and remaining checks
+These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the$262.32 remaining core total. All shared paint/card work is counted once.
 
-| ID | Need | Allowance USD |
-|---|---|---:|
-| L01 | Five small pumpkins/gourds | 35.00 |
-| L02 | Shared paint/glue/craft materials; card/kraft reuse | 15.00 |
-| L03 | One handmade 24-in moon disk/diffuser | 5.00 |
-| L04 | Trays, underlayer, jar, light attachments; reuse assumed | 10.00 |
-| L05 | Conditional rug grip/edge treatment | 15.00 |
-| L07 | Protected fixture support/positioning reserve; no overhead rig quote | 25.00 |
-| **Total local/reuse allowances** | | **105.00** |
+| Need | Quantity / allocation | Purpose | Existing allowance USD |
+|---|---|---|---:|
+| L01 — small pumpkins/gourds |5 total; proposed 2 shrine, 1 coffee table, 1 counter, 1 other top | Grove harvest accents among moss/stone |35 |
+| L02 — PVA + acrylic paint + brush | Guardian baseline~4 oz PVA, ~2 oz each black/charcoal, dark brown, ivory; share materials with stones/branches/moon | Glue and paint card bark face/crown, three lightweight faux stones and scenic branch/relic details |15 |
+| L03 — moon craft materials |1 roughly 24-in card moon disk; thin paper/diffuser material, reuse card | Grove’s large moon focal point; backlight belongs to deferred lighting |5 |
+| L04 — trays/underlayers/jar/attachments | Reuse clean trays, removable wipeable counter underlayers, soft dry-tub underlayer and clean covered jar; check inventory | Stable clean serving spots in moss, protect surfaces, bath scene base; wrapped sweets budgeted separately |10 |
+| L05 — rug grip/edge treatment | Conditional; only if actual rug trial needs it | Hollow rug traction/flat edges |15 |
+| L07 — lighting support/positioning reserve | Deferred with fixtures; exact support unresolved | Independent stable fixture placement; reserve is not a quoted suitable rig or bed restraint |25 |
 
-These are estimates, not stock-confirmed exact SKUs. $25 fixture support/positioning reserve is protected, not an overhead rig quote; OPPSK bracket/actual footprint must be inspected, routes clear and fabric separated. Upright-bed restraint remains unresolved and independent. Received cloth dimensions/opacity/adhesion, rug/door/grip, Guardian stability, actual outlet/nameplates, light modes and runtime remain tests. No product substitution establishes safe installation automatically.
+**Reuse without a second purchase:** clean delivery cardboard/kraft for Guardian/branch silhouettes/stones/moon, small translucent eye-diffuser scraps, existing cutting tools/brush if available, TV/audio furniture, coffee table/chairs, bath curtain support. Extra craft quantities depend on actual packaging and templates; no elaborate new sculpting kit added.
 
-**Buy timing:** recheck exact quantities and calendar delivery at checkout today; target Oct 30 receipt. Start intact-fleece 24-hour trial on Oct 29, then cut that same source after it passes. Receive OPPSK/control Oct 29 and stand/moon by Oct 30; allow 3–5 hours for the [first DMX patch/rehearsal](lighting/oppsk-usb-dmx-2026-10-27.md#receipt-and-rehearsal), simplifying crafts to protect that time. No new mail dependencies after Oct 29 without a confirmed before-party date. [DMX sequence and evidence](lighting/oppsk-usb-dmx-2026-10-27.md); other dated product offers remain in the [price refresh](research/price-refresh-and-value-plan-2026-10-27.md).
+## Lighting and power — purpose recorded, buying deferred
 
-Exclude old raw-bolt/velvet orders, separate acoustic pads, ready-made bedroom curtains, extra furnishing/sample fleece, lasers, duplicate rigs/controllers, old HDX power when GE is selected, and speculative spare batteries. Food/drink, wrapped sweets/labels, costume, game figures/tags/crown/domain and music costs remain outside decor; charge shared scenery once. No items bought or added to a cart.
+No lighting is counted as ordered by the host’s two-order confirmation. These are existing leads/allocations for the later lighting pass. Prices, stock and delivery need refreshing then; do not order multiple main-panel alternatives.
+
+| Item / existing lead | Planned quantity | Exactly what it is for |
+|---|---:|---|
+| **Owned gold tree lamp + LIFX** |1 owned / 0 to buy | Grove shrine-side tree silhouette and one colored wash source. |
+| [Govee RGBIC Floor Lamp Basic](https://www.amazon.com/dp/B099WTN2TR), H26 |1 proposed | Grove dim violet bounce from the opposite edge to the owned LIFX tree. |
+| [Mydethun 5.9-in moon / White&Yellow](https://www.amazon.com/dp/B075JHP7TK), H03 |1 proposed | Small Moon Well orb on its supplied stand in dry-tub scene. Different from the handmade 24-in Grove moon. |
+| [O’Bright Seraph mini / Black](https://www.amazon.com/dp/B0D92YB4RH), H04 |1 proposed | Warm low ambient on a dry bathroom shelf so sink/lock/route remain usable. |
+| [Twinkle Star warm USB 66 ft/ 200 LED](https://www.amazon.com/dp/B07GMQ42GG), H12 |2 strings total | One intact string for Grove moon; one for Guardian eye clusters and sparse roots. One allocation per room; do not buy additional eye strings. |
+| [Homemory warm-white 12 tea lights](https://www.amazon.com/dp/B01EDKGFGU), H13 |1 pack / 12 |6 Grove, 4 bathroom, 2 spares. |
+| Main Hollow effect panel | Choose 1 | Automated changing club patterns on black backdrops/Guardian. Original [OPPSK 1080](https://www.amazon.com/dp/B0H6HJJ5DP) remains prior selected baseline; [LF105](https://www.amazon.com/dp/B0FX2N14PZ) and [OPPSK 384](https://www.amazon.com/dp/B0BBM95KFN) are alternative value proposals, not additional panels. |
+| [Betopper LPC018 RGB / two-pack](https://www.amazon.com/dp/B0GCCPC16R), proposed H40 |1 two-pack if chosen | Two static/changing fill washes: warm/red Guardian and violet cloth/wall, clustered within the host’s 5 ft equipment area. No moving heads or laser. |
+| [DSD TECH SH-RS09C USB-C→DMX / 1.8 m lead](https://www.amazon.com/dp/B0FX49ZQ8T), H39 |1 proposed | Laptop data interface for wired DMX; connects Mac USB-C to first fixture. Free QLC + provides proposed scenes/automation; no installation or test claimed. |
+| [Cable Matters 6 ft DMX / two-pack](https://www.amazon.com/dp/B08SQMHPF3), proposed H41 |1 pack if adding fills | Two fixture-to-fixture links for a three-light chain. The interface includes the first lead; long extensions remain omitted. |
+| [Cable Matters 120 Ω terminator / two-pack](https://www.amazon.com/dp/B0CSSJP1H4), H36 |1 pack; 1 used / 1 spare | End of final fixture’s DMX chain, not a separate light/controller. |
+| [GE50768 / 15 ft grounded six-outlet strip](https://www.amazon.com/dp/B087N9HCHV), H19 |2 proposed, verify outlet needs | One Grove, one Hollow for decor lights/USB supplies; existing TV/audio retain their supplies. This is AC power, not DMX data. Actual cord reach/load/outlet map determines need. |
+| [Amazon Basics 12 W USB-A charger / two-pack](https://www.amazon.com/dp/B0773JCTR5), H38 |1 pack if not already owned | One supply for Grove USB string, one for Hollow/Guardian string. USB power is distinct from the USB-DMX interface. |
+
+[Lighting value comparison](lighting/dmx-fill-and-panel-value-2026-10-27.md) · [USB DMX setup](lighting/oppsk-usb-dmx-2026-10-27.md). Moving heads, lasers, fog/haze and the old long DMX-extension pack remain outside the current buy list.
+
+## Accounting and other work
+
+At last quoted prices, **ordered merchandise $199.90 + remaining core decor $262.32 = $462.22**, about $503.82 with aggregate 9% planning tax. Actual paid totals remain unknown; reconcile receipts when available. Lighting/power/DMX, local/reuse allowances and all other party costs are outside this core comparison. No double charging for moss/cloth/ties reused by the Guardian or game scenery.
+
+Game figures/NFC/premade moon markers/crown, costume, drinks/food/wrapped sweets and hospitality remain in their owning plans, not silently added here. Bed securement, actual mounts, rug grip, Guardian stability and lighting rehearsal remain physical setup dependencies; ordered is distinct from received/tested.
+
+[Dated product-page offers](research/decor-order-tomorrow-2026-10-29.md) · [Counter/table moss cuts](living-room/moss-surfaces-and-cuts-2026-10-29.md) · [Historical buying-list snapshot before order confirmation](research/shopping-before-purchase-confirmation-2026-10-29.md).

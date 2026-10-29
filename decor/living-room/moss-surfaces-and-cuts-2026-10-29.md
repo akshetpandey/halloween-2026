@@ -1,5 +1,7 @@
 # Moss for countertops and both tables — October 29, 2026
 
+**Later October 29 purchase update:** host confirms the moss order, recorded as **four sheets** from the recommended quantity. [Current buying list](../shopping-ready.md) marks moss ordered and gives every shared allocation. Do not buy more from the historical quote below. Cutting calculation remains current; receipt totals, order arrival and physical dimensions unverified.
+
 **Confirmed host:** cover kitchen countertops using the scan, the **22 × 44-in coffee tabletop** and another **20 × 40-in surface**. Top surfaces only; no edge drop or vertical fascia added. These tabletop measurements supersede the scan for moss cuts; the coffee table’s larger modeled furniture bounding box remains a conservative layout reference, not its top measurement.
 
 **Recommend four [USMOLA Green 39 × 39-in sheets](https://www.amazon.com/dp/B0FZD67YDD), $16.99 each / $67.96.** Selected Green39 × 39 and quantity 4 were checked in signed-in Chrome on October 29: **In Stock, FREE Tomorrow Friday, October 30**, Amazon ships /Usmola sells. At the check only **25 minutes remained**; host informed immediately. Reconfirm date at checkout. No cart addition or order by agent.

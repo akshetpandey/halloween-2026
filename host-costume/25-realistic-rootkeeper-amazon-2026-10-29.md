@@ -2,11 +2,13 @@
 
 October 29, 2026, America/New_York / EDT (UTC−04:00). Party Saturday October 31. **Research and buying recommendation, not a host-selected outfit or new order.** [24](24-party-reference-led-direction-2026-10-27.md) retains the party/lookbook/guardian reference study. Host says Gilded Root and Rootkeeper both make sense and asks what can realistically be reused versus bought.
 
+**Later October 29:** host requests this exact brown-mantle combination as a personalized preview and reports two small pieces broken from the crown. [26 — completed private preview and PLA repair guidance](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns that follow-up. Brown / Small $13.16 / Friday offer refreshed before rendering; mantle/glue still not reported bought. Physical crown repair/fit pending.
+
 ## Reuse first
 
 | Piece | Evidence / use |
 |---|---|
-| Sosation compact pale branching crown | Bought; Amazon marked delivered October 24 in the October 27 account refresh. Keep the existing compact crown. Actual fit remains untested in our record. |
+| Sosation compact pale branching crown | Bought; host confirms in hand October 29 with **two small broken pieces**. Keep it for requested preview; actual repair/fit pending. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns PLA/gel-CA guidance. |
 | NauticalMart curled brass-finish iron torc | Bought; marked delivered October 24. Existing substantial antique-gold neck accent. Do not buy another necklace. |
 | Karace Style B two-cuff set | Bought; marked delivered October 24. Tree-of-life roundels already connect to the woodland theme. |
 | JOGAL Small / Black mesh tank | Bought; marked delivered October 23. Preferred cool indoor base. |

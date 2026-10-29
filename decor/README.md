@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: **decor ordering first, lights deferred**. [Verified order-now list for Friday October 30](research/decor-order-tomorrow-2026-10-29.md) checks twelve product lines at planned quantities, with a timely replacement 8×10 rug; original Pyle stand is late and its replacement detail check awaits Amazon’s human checkbox. [Shopping index](shopping-ready.md) separates this $462.86 merchandise batch from older lighting/budget history. No agent orders or physical tests; [handoff](handoff-2026-10-29-nextday-decor.md).
+October 29 latest: **decor ordering first, lights deferred**. [Verified order-now list for Friday October 30](research/decor-order-tomorrow-2026-10-29.md) checks thirteen product lines at planned quantities, with a timely replacement 8×10 rug; original Pyle stand is late and the replacement single InnoGear weighted-base stand is now detail-verified for tomorrow. [Shopping index](shopping-ready.md) separates this $492.85 merchandise batch from older lighting/budget history. No agent orders or physical tests; [handoff](handoff-2026-10-29-nextday-decor.md).
 
 | Room / deliverable | Current source |
 |---|---|

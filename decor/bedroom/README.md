@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 next-day sourcing:** [tomorrow decor list](../research/decor-order-tomorrow-2026-10-29.md) verifies full fleece, thin covers, hook/clip quantities and a proposed Rugflix 8×10 replacement. Original rug now Nov 1; Pyle stand Oct 31, replacement stand detail-unverified behind Amazon check. [Shopping index](../shopping-ready.md) is current; earlier offers below are history. Lighting deferred by host, cuts/layout unchanged, no agent purchase or physical test.
+**October 29 next-day sourcing:** [tomorrow decor list](../research/decor-order-tomorrow-2026-10-29.md) verifies full fleece, thin covers, hook/clip quantities and a proposed Rugflix 8×10 replacement. Original rug now Nov 1; Pyle stand Oct 31; replacement single InnoGear weighted-base stand $29.99/Oct 30 now detail-verified. [Shopping index](../shopping-ready.md) is current; earlier offers below are history. Lighting deferred by host, cuts/layout unchanged, no agent purchase or physical test.
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

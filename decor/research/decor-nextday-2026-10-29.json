@@ -225,6 +225,27 @@
       "quantityVerified": true,
       "offerType": "new one-time purchase",
       "evidence": "$14.80\n$14\n.\n80\nPrice history\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 3 hrs 34 mins\nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31+\nQuantity:1\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nDUSPRO\nReturns\nFREE 30-day refund/replacement\nPayment\nSecure transaction\nSee more\n"
+    },
+    {
+      "id": "H34-replacement",
+      "product": "InnoGear MS250 weighted round-base stand / 1 / Twist Clutch 34–60 in / Black",
+      "purpose": "Independent support for lightweight card Guardian; untested scenic adaptation",
+      "url": "https://www.amazon.com/dp/B08QZD9B5P",
+      "qty": 1,
+      "unit": "29.99",
+      "line": "29.99",
+      "arrival": "2026-10-30",
+      "observedDelivery": "FREE delivery Tomorrow, October 30. Order within 11 hrs 19 mins",
+      "selected": [
+        "Number of Items: 1",
+        "Style: Twist Clutch 34\" - 60\"",
+        "Color: Black"
+      ],
+      "inStock": true,
+      "quantityVerified": true,
+      "offerType": "new one-time purchase",
+      "evidence": "$29.99\n$29\n.\n99\nPrice history\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 11 hrs 19 mins\nShorter shipping distance \nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\nQuantity:1\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nInnoGear\nReturns\nFREE 30-day refund/replacement\nGift options\nAvailable at checkout\nSee more",
+      "specifications": "34–60-in adjustable height; 9.8-in diameter, 4.5-lb round base. No scenic prop load rating inferred."
     }
   ],
   "excludedLateOriginals": [
@@ -265,24 +286,16 @@
       "evidence": "Buy New\n$34.99\n$34\n.\n99\nPrice history\nTwo-Day\nFREE delivery Saturday, October 31. Order within 13 hrs 50 mins\nShorter shipping distance \nOnly 1 left in stock (more on the way).\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\nQuantity:1\nAdd to cart\nBuy Now\nShipper / Seller\nAmazon.com\nReturns\nFREE 30-day refund/replacement\nPackaging\nShips in product packaging\nSee more\n"
     }
   ],
-  "pending": [
-    {
-      "id": "H34-replacement",
-      "product": "InnoGear MS250 weighted round-base stand",
-      "url": "https://www.amazon.com/dp/B08QZD9B5P",
-      "searchPrice": "29.99",
-      "searchArrival": "2026-10-30",
-      "status": "Search result only; detail page blocked by Amazon human check. Excluded from verified order-now total pending completion."
-    }
-  ],
+  "pending": [],
   "costs": {
-    "merchandise": "462.86",
-    "planningTax9pct": "41.66",
-    "withPlanningTax": "504.52",
+    "merchandise": "492.85",
+    "planningTax9pct": "44.36",
+    "withPlanningTax": "537.21",
     "lightingIncluded": false,
     "localCraftsPumpkinsIncluded": false
   },
   "quantities": "Blankets5, hook packs4, moss sheets3, decorating clip packs3 all selected in product-page quantity controls; other rows qty1.",
   "deadlineNote": "Moss initially displayed only 1h35 remaining; prioritize it. Some small-item morning shipping conditional on $25 qualifying order; free Oct30 dates remain checkout-dependent.",
-  "purchaseStatus": "No agent purchase/cart edit. Host orders since last confirmation not audited; quantities are planned totals, not additional quantities on top of any recent order."
+  "purchaseStatus": "No agent purchase/cart edit. Host orders since last confirmation not audited; quantities are planned totals, not additional quantities on top of any recent order.",
+  "followup": "Host reports human check completed; direct single-stand offer now verified October 29. No agent CAPTCHA action, cart edit or purchase."
 }

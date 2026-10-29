@@ -1,6 +1,6 @@
 # The Rootkeeper — automated desk guardian
 
-**October 29 next-day sourcing:** original Pyle single stand now shows **Oct 31** and is excluded from the [verified tomorrow order](../research/decor-order-tomorrow-2026-10-29.md). InnoGear MS250 appears $29.99/Oct 30 in search but detail verification awaits Amazon’s human checkbox; **do not treat it as stock/delivery-confirmed**. Shared body cloth, ties, gaffer and moss are tomorrow-verified. Reuse clean corrugated packaging/kraft and source paints/PVA locally. Lighting deferred by host; build targets below remain untested, with original stand quotes historical.
+**October 29 next-day sourcing:** original Pyle single stand now shows **Oct 31** and is excluded from the [verified tomorrow order](../research/decor-order-tomorrow-2026-10-29.md). InnoGear MS250 **single / Twist Clutch 34–60 in / Black is $29.99, In Stock, Oct 30** on its detail page after host completed Amazon’s human prompt; included in the current order batch. Shared body cloth, ties, gaffer and moss are tomorrow-verified. Reuse clean corrugated packaging/kraft and source paints/PVA locally. Lighting deferred by host; build targets below remain untested, with original stand quotes historical.
 
 Updated October 23, 2026. **Recommended construction, not built or tested.** A handmade bark-spirit bust with a branching crown, glowing eyes and a thin black-cloth body, pretending to operate the automated desk. No human DJ or animatronic mechanism. The large creature in the mood image is a texture/light reference; this build is shallow enough for the accepted apartment layout, subject to the actual mockup.
 
@@ -10,7 +10,7 @@ Bed stays behind at the host's 15-in stored depth; guardian has an independent *
 
 | Part | Actual material / quantity | Finished target |
 |---|---|---|
-| Independent skeleton/base | **One Pyle PMKS5 1 Pack / Black**, [B002PAW6AU](https://www.amazon.com/dp/B002PAW6AU), $34.99; two-height ties to a doubled cardboard spine ~6 × 28 in | [Manufacturer](https://www.pyleaudio.com/sku/pmks5/compact-base-black-microphone-stand): 9.8-in round base, roughly 33.5–60-in adjustable pole. Fits the nominal 12-in depth; actual room/rug/stability trial pending |
+| Independent skeleton/base | **One InnoGear MS250 / 1 / Twist Clutch 34–60 in / Black**, [B08QZD9B5P](https://www.amazon.com/dp/B08QZD9B5P), $29.99 / Oct 30; two-height ties to a doubled cardboard spine ~6 × 28 in | [Manufacturer](https://www.innogear.com/products/innogear-ms250-microphone-stand) and Amazon detail: 9.8-in / 4.5-lb round base, 34–60-in adjustable pole. Fits the nominal 12-in depth; actual room/rug/stability trial pending |
 | Bark face | Reused corrugated card: brow, cheeks, tapered nose/muzzle and jaw folded into a shallow mask; torn card/kraft bark strips; PVA glue | ~16–20 in high, ~12–16 in wide, 2–3-in relief. Charcoal base, brown and bone dry-brush. Dark eye recesses |
 | Branching crown | Two or three laminated corrugated branch silhouettes wrapped/textured with kraft; rounded tips | ~24–30 in wide, ~16–20 in above face. Lightweight card rather than heavy wood, resin antlers or a purchased full mask |
 | Shoulders/body | Small card crosspiece ~24–30 in wide; **one ~30 × 48-in thin black-polyester cut** from H14 cloth 2, already counted | Drape hides the pole and joins the dark bed backdrop. Hem above floor; desk hides the lower body. No separate fabric purchase |
@@ -23,7 +23,7 @@ Set the pole at roughly 55–60 in. Aim for face center ~60–64 in, face top ~7
 
 ## Shopping and reuse checklist
 
-- H34 stand: **1**, $34.99, live October 23 offer / October 27 delivery estimate; not purchased.
+- H34 replacement stand: **1 InnoGear MS250 single / Twist Clutch 34–60 in / Black**, $29.99, checked October 29 / Oct 30 delivery estimate; not purchased. Supersedes late Pyle quote.
 - H12 USB string: **1 of the two already in the basket**, $9.99 allocation, no extra string.
 - H08 raven pendants: **2 of the 3-pack**, pack already $8.95 in basket; third goes to Grove.
 - Body cloth: **~30 × 48 in from H14 thin-cover cloth 2**, after its desk skirt; [current nesting](draping/02-shopping-and-sample.md#thin-furniture-covers). Host permits thinner furniture fabric October 23; no furnishing fleece blanket or extra cloth yard.

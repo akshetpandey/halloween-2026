@@ -4,9 +4,9 @@
 
 Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command on solid wall**, upright and lowered enough for full contact/removal access. [Mounting allocation and trial](bedroom/draping/09-hook-count-2026-10-29.md). Ordered goods are not yet recorded as received or tested.
 
-**Remaining core decor: five product lines / $157.92 before tax**, approximately **$172.13 with 9% planning tax**, at the earlier October 29 quotes. Still unconfirmed: ivy, rug, small decorating clips, bathroom moss vine and Guardian stand. No fresh price/delivery check; lighting and local/reused allowances remain separate.
+**Current remaining baseline: five product needs / $157.92 before tax / $172.13 with 9%planning tax**, using earlier quotes and the old $9.99ivy allowance. **Ivy is now held for a better-looking replacement.** [Proposed Mizii two-pack](living-room/ivy-upgrade-2026-10-29.md) is $65.98 with quantity 2/Oct 30 checked; selecting it would make remaining decor **$213.91 before tax / $233.16 with planning tax**. It gives about 66 ft instead of 84 ft and is not yet selected/ordered. Other remaining needs and ordered goods unchanged; lighting/local allowances separate.
 
-[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest handoff](handoff-2026-10-29-orders-recorded.md) · [Current room plan](final-room-plan.md).
+[Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest ivy handoff](handoff-2026-10-29-ivy-upgrade.md) · [Current room plan](final-room-plan.md).
 
 ## Ordered — do not buy again
 
@@ -30,12 +30,12 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 | Item / exact selected option | Buy quantity | Last quoted line USD | Room and exact purpose |
 |---|---:|---:|---|
-| H27 — [KASZOO Green / 12 strands with 80 LED / 84 ft ivy](https://www.amazon.com/dp/B07H1GQB36) | **1 pack / 12 strands** | 9.99 | **Grove:** 10 strands/~70 ft; 8 high wall/window/cabinet edges, 1 trailing accent, 1 shrine. **Hollow:** 2 strands/~14 ft for desk sides/Guardian backdrop. Included light string is incidental; no extra ivy pack for desk. |
+| H27 — **HOLD / replacement requested** ([original KASZOO](https://www.amazon.com/dp/B07H1GQB36)) | No original-product order yet | 9.99 baseline allowance | Host dislikes this ivy. [Recommended replacement: two Mizii five-vine packs / $65.98](living-room/ivy-upgrade-2026-10-29.md), ten 79-in vines/~66ft, quantity 2 showed free Oct 30. Fuller/branched in listing photos; proposed eight Grove/two desk, with less continuous coverage. Await host choice; do not buy both. |
 | H28 replacement — [Rugflix 8 × 10 ft / 03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | **1 rug** | 75.99 | **Hollow dance floor:** 80 sq ft low-pile floor coverage, comfort and mild echo softening; partly under desk/Guardian band. Check door swing, grip and flat edges on receipt. Replaces late original WITSHOCK. |
 | H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. These small clips are not fleece supports; use H24 on wall or H24-S on glass. |
 | H06 — [DUSPRO bendable moss vine 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 14.80 | **Moon Well roots:** one bendable root/branch accent around shower backdrop/dry-tub edge. Separate from the shared 84-ft ivy. Fit actual support before installation. |
 | H34 replacement — [InnoGear MS250 / 1 / Black / Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P) | **1 stand** | 29.99 | **Guardian skeleton:** independent 9.8-in weighted round base/pole supporting the lightweight card face, crown, spine and cloth body behind the automated desk. This is a stand, not a complete bought creature. Scenic adaptation remains untested; bed restraint is separate. |
-| **Remaining core decor** | **5 lines** | **157.92** | **About $172.13 with 9% planning tax**, using earlier quotes; checkout dates still need checking. |
+| **Baseline remaining core needs** | **5 needs** | **157.92** | **About $172.13 with 9%planning tax**, including old ivy allowance. If proposed replacement selected: **$213.91 / $233.16 with tax**. |
 
 ## Mixed mounting allocation
 

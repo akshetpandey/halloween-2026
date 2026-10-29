@@ -136,18 +136,20 @@
       "product": "KASZOO Green ivy / 12 Pack with 80 LED / 84 ft",
       "url": "https://www.amazon.com/dp/B07H1GQB36",
       "room": "October Grove + Hollow desk",
-      "purpose": "12 strands/~84 ft ivy:10 strands/~70 ft Grove (8 high window/ wall/ cabinet edges, 1 trailing accent, 1 shrine), 2 strands/~14 ft desk sides/ Guardian backdrop. IncludedLED string is incidental; this does not select the deferred stage-light rig.",
+      "purpose": "Original12-strand84-ft allocation is held for replacement review, not a buy-now instruction. Proposed Mizii pair gives10branched79-in vines:8Grove/2desk, about66ft, with reduced high-section coverage. No replacement selected/ordered.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
       "stillToBuyQuantity": 1,
-      "status": "to buy — not reported ordered",
+      "status": "held — host requests better-looking ivy; baseline allowance retained pending replacement choice",
       "lastQuotedUnitUsd": "9.99",
       "plannedLineUsd": "9.99",
       "quoteDate": "2026-10-29",
       "actualOrderTotalUsd": null,
       "orderSpecificArrivalConfirmed": false,
       "received": false,
-      "tested": false
+      "tested": false,
+      "doNotOrderCurrentProduct": true,
+      "replacementProposal": "living-room/ivy-upgrade-2026-10-29.md"
     },
     {
       "id": "H28-replacement",
@@ -304,7 +306,10 @@
     "previousSuctionOnlyRemainingMerchandiseUsd": "230.47",
     "previousSuctionOnlyRemainingWithPlanningTaxUsd": "251.21",
     "orderedProductLines": 9,
-    "newlyReportedOrderMerchandiseAtLastQuotes": "81.17"
+    "newlyReportedOrderMerchandiseAtLastQuotes": "81.17",
+    "baselineIncludesHeldIvyAllowanceUsd": "9.99",
+    "recommendedReplacementRemainingMerchandiseUsd": "213.91",
+    "recommendedReplacementRemainingWithPlanningTaxUsd": "233.16"
   },
   "lightingDeferred": true,
   "localReuseAllowancesExcluded": true,
@@ -316,7 +321,8 @@
     "Mixed mounting remains suction on glass and Command on suitable solid vertical wall. Both hooks plus binder clips are now host-reported ordered; fitting and physical trials still pending.",
     "Ordered quote value281.07 plus five remaining core lines157.92 gives438.99 before tax. Status transfer only: whole-core quoted cost unchanged.",
     "Small Command decorating clips H18 remain unconfirmed: generic Command hooks in the host report is mapped to the large H24 hooks, not both products.",
-    "Deferred lighting and power need later refresh; local105 allowances remain separate and are not stock quotes."
+    "Deferred lighting and power need later refresh; local105 allowances remain separate and are not stock quotes.",
+    "Latest ivy review: host dislikes old H27. Original product held; old9.99 allowance remains in baseline costs pending choice. Mizii2-pack65.98 proposal and reduced66-ft coverage are not host selected or ordered."
   ],
   "mountingRevision": {
     "date": "2026-10-29",
@@ -399,5 +405,21 @@
       "receiptVerified": false,
       "quantityBasis": "Latest discussed list; exact quantities unverified"
     }
-  ]
+  ],
+  "ivyReplacementProposal": {
+    "hostSelected": false,
+    "currentProductHeld": true,
+    "brand": "Mizii",
+    "variant": "Ivy",
+    "url": "https://www.amazon.com/dp/B0CXHNJVR6",
+    "packCount": 2,
+    "vinesPerPack": 5,
+    "vineLengthIn": 79,
+    "lineUsd": "65.98",
+    "quantity2ArrivalVerifiedOnProductPage": true,
+    "displayedArrival": "2026-10-30",
+    "replacesBaselineAllowanceUsd": "9.99",
+    "coverageChange": "84ft/12vines ->65.83ft/10vines;8Grove,2desk; proposed only",
+    "source": "research/ivy-upgrade-check-2026-10-29.json"
+  }
 }

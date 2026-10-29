@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/New_York",
+  "status": "recommendation pending host selection; no purchase",
+  "selectedCandidate": {
+    "url": "https://www.amazon.com/dp/B0CXHNJVR6",
+    "brand": "Mizii",
+    "variant": "Ivy",
+    "vinesPerPack": 5,
+    "vineLengthIn": "79",
+    "sellerClaimLeavesPerVine": 190,
+    "materialClaim": "fabric/silk leaves, plastic stems with iron wire; natural-silk fiber not verified",
+    "quantitySelected": 2,
+    "unitUsd": "32.99",
+    "lineUsd": "65.98",
+    "totalLengthFt": "65.8333",
+    "availability": "In Stock",
+    "displayedArrival": "Friday October 30,2026; free delivery; no smaller time window shown",
+    "seller": "Mizii",
+    "shipper": "Amazon",
+    "checkoutVerified": false,
+    "ordered": false,
+    "physicalQualityTested": false,
+    "screenshot": "ivy-mizii-five-pack-2026-10-29.png"
+  },
+  "alternativeInspected": {
+    "url": "https://www.amazon.com/dp/B0DHKN4TRD",
+    "brand": "RECUTMS",
+    "variant": "Green-dgy6pcs",
+    "vinesPerPack": 6,
+    "vineLengthFt": "6.3",
+    "unitUsd": "30.99",
+    "quantityChecked": 1,
+    "displayedArrival": "October30,7–11am",
+    "quantity2ArrivalVerified": false,
+    "visualJudgment": "broader flat leaves and more conspicuous veins; Mizii preferred from photos"
+  },
+  "proposalAllocation": {
+    "groveVines": 8,
+    "hollowDeskVines": 2,
+    "groveHighSections": 6,
+    "groveTrailingAccent": 1,
+    "groveShrine": 1,
+    "hostSelected": false
+  },
+  "baselineIvyUsd": "9.99",
+  "incrementBeforeTaxUsd": "55.99",
+  "remainingIfSelectedMerchandiseUsd": "213.91",
+  "remainingIfSelectedPlanningTaxUsd": "19.25",
+  "remainingIfSelectedWithPlanningTaxUsd": "233.16",
+  "noCartOrOrderAction": true
+}

@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • better-looking ivy requested
+
+**Host feedback:** old KASZOO ivy does not look good enough. Hold H27. [Mizii /Ivy /five 79-in vines per pack, two packs / $65.98](../decor/living-room/ivy-upgrade-2026-10-29.md) is the agent recommendation after comparing product photos with RECUTMS. Quantity 2 In Stock/free Oct 30 checked in Chrome. Proposal has ten vines/~66ft rather than old12/~84ft; eight Grove/two desk and six high Grove sections rather than eight. Product and reduced coverage **await host choice**, not an accepted scope change or order. Baseline old $9.99 allowance retained for comparison; no cart/payment.
+
 ## Latest October 29 • seven additional ordered categories confirmed
 
 **Direct host report:** ordered Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain. Record H24, H24-S, H25, H14, H16, H17 and H05 as **ordered, host reported**, using latest list quantities pending receipts. Fleece/moss earlier orders retained; no duplicate purchase instruction. H18 small decorating clips are distinct from the large Command hooks and remain unconfirmed, along with ivy, rug, bathroom vine and Guardian stand. Actual paid totals/arrival/receipt/setup tests remain unverified. [Buying list](../decor/shopping-ready.md) · [Ledger](../decor/purchases-and-allocations-2026-10-29.json). No agent order, payment or price refresh.

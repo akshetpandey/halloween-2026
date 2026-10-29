@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## Latest October 29 • conditional ivy upgrade
+
+Old H27 is held after host dislikes its look. Current $157.92/ $172.13 remaining baseline includes its $9.99 allowance. [Proposed two-pack Mizii replacement](../decor/living-room/ivy-upgrade-2026-10-29.md) costs $65.98: replace, do not add, that allowance to get **$213.91 +$19.25 aggregate 9% planning tax = $233.16 remaining**. Increment $55.99 before tax/ $61.03 with tax; proposed whole-core $494.98/ $539.53 with tax, ordered quote value $281.07 unchanged. Reduced 66-ft coverage and exact product are **not yet host selected**; baseline retained pending choice, actual paid unknown. Lighting/local $105 separate.
+
 ## Latest October 29 • seven more decor orders reported
 
 Host reports seven more categories ordered. At the last discussed quantities and earlier quotes, **$81.17** transfers from remaining to ordered. **Nine ordered lines: $281.07 quoted merchandise value; five remaining: $157.92 + $14.21 aggregate 9% planning tax = $172.13.** Whole-core merchandise remains **$438.99 / about $478.50 with planning tax**; this is a status transfer, not new scope or receipt-verified spending. Actual paid totals, receipt counts, shipping/coupons and arrival remain unverified. Local $105 and deferred lights excluded. [Current ledger](../decor/purchases-and-allocations-2026-10-29.json) · [Handoff](../decor/handoff-2026-10-29-orders-recorded.md). Earlier totals below are history.

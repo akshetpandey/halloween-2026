@@ -4,6 +4,8 @@
 
 October 29 latest: host reports **seven more categories ordered**—Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain—joining fleece and moss. [Buying list](shopping-ready.md): **nine ordered lines; five remaining / $157.92 before tax / $172.13 with planning tax**. Quantities carried from the latest list; paid totals, receipt quantities, arrival and physical tests unverified. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-orders-recorded.md). Lighting/local allowances remain separate.
 
+**Ivy replacement under review:** [Mizii two-pack proposal](living-room/ivy-upgrade-2026-10-29.md), $65.98/~66ft, quantity 2/Oct 30 product estimate verified. Old H27 held; not yet selected. Baseline costs above include the old $9.99 allowance; replacement would make remaining core $213.91/ $233.16 with planning tax.
+
 | Room / deliverable | Current source |
 |---|---|
 | October Grove | [Furniture + forest surfaces](living-room/README.md) |

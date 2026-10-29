@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29: fixed bone crown, gold torc and cuffs; other clothing open. Amazon/Saturday October 31 required; belt/sash disfavored.** [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the Small black/gold waistcoat + sleeved black shirt + optional half-cape proposal, exact buy-box checks and actual photo. No new clothing selection/order/render/physical test. [28](28-fixed-core-clothing-references-2026-10-29.md) is reference history; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. No body-chain-for-torc swap. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
+**Current October 29: requested waistcoat/shirt/half-cape preview completed, keeping crown/torc/cuffs/green trousers.** [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the private render/prompt, Small black/gold waistcoat and preceding exact Saturday Amazon checks. No new final clothing selection/order/physical test. Belt/sash disfavored; [28](28-fixed-core-clothing-references-2026-10-29.md) is reference history; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. No body-chain-for-torc swap. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
 
 ## Historical brief • through October 23
 

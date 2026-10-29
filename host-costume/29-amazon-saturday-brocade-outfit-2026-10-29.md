@@ -1,6 +1,6 @@
 # Hollow Court • Amazon Saturday clothing shortlist
 
-Checked October 29, 2026, approximately **6:26–6:29 p.m. America/New_York / EDT (UTC−04:00)**, signed-in Chrome, delivery destination Brooklyn 11211. Event Saturday October 31. **These are proposals, not purchases or a final outfit selection.**
+Checked October 29, 2026, approximately **6:26–6:29 p.m. America/New_York / EDT (UTC−04:00)**, signed-in Chrome, delivery destination Brooklyn 11211. Event Saturday October 31. **Host subsequently requested/completed the exact waistcoat/shirt/cape preview below; no purchase or final outfit selection inferred.**
 
 ## Latest host constraints
 
@@ -37,11 +37,22 @@ The JEMITOP shirt is opaque textured cotton with **short sleeves**, standing col
 
 New merchandise subtotal **$55.98 shirt + vest**, or **$74.57 including the optional cape**, before new tax. Existing bought basis remains **$196.59 including estimated tax** in [09](09-final-weekend-shopping-2026-10-21.md). If all three were later bought, arithmetic basis would be $271.16 **plus new tax**, not an actual spent total; unchanged $500 combined ceiling. Do not double-count earlier armor/mantle/shirt proposals, assume refunds or add the already purchased jewelry again. No shared budget mutation warranted for this unselected shortlist.
 
+## Requested personalized preview • October 29
+
+Host requests the VATPAVE waistcoat, black shirt and half-cape while retaining the bone crown, gold torc/cuffs and green trousers. One successful built-in **imagegen / identity-preserve** edit, with full-body left and matching close view right, **1536 × 1024**. Clean-shaven likeness continuity supplied by the previous personalized preview because the original temporary uploaded photograph is absent. Actual waistcoat/shirt/cape/cuff product photographs supplied object references; the earlier preview supplied crown/torc/trouser continuity. No unrelated retailer model used as the host.
+
+- **Private local final:** [brocade-waistcoat-half-cape.png](renders/private/2026-10-29/brocade-waistcoat-half-cape.png).
+- **Private exact prompt, five input roles and output record:** [brocade-waistcoat-half-cape-prompts.md](renders/private/2026-10-29/brocade-waistcoat-half-cape-prompts.md).
+
+Output copied into this task and visually inspected: compact ivory crown; curled gold torc and two substantial cuffs; double-breasted black/gold brocade over opaque black short sleeves; one-shoulder black cape with narrow gold edging and rope tie; green trousers/black shoes; same clean-shaven likeness across both views. Armor, chest strap, vials, leaf mantle, sash, fur, mesh, face cover and makeup absent. Crown shown intact as intended after repair; **actual repair remains pending**. Pattern scale/shine, engraving and real garment fit remain approximate. No manual image editing or correction pass.
+
+The exact Saturday sources above were verified immediately before this render request, not rechecked during image generation. No new item added, order, physical fit or comfort test. Generation does not establish final selection or guarantee arrival. Prior public references/renders retained as history; personal output and exact prompt remain **Git-ignored**, with this sanitized record tracked.
+
 ## Image provenance and browser limits
 
 - VATPAVE / Amazon listing product photograph; individual photographer not identified. [Observed original image URL](https://m.media-amazon.com/images/I/81BkczAHMLL._AC_SY879_.jpg), 540 × 879. Downloaded from the selected product's landing image and visually inspected October 29. Copyright remains with the rights holder; retained for private project reference with attribution. No image generation/editing.
 - Search discovery included Victorian/tapestry waistcoats and a Tudor doublet. A doublet search result quoted November 12–20 and was not promoted; other unselected search cards did not become verified offers. The inspected Small black/gold VATPAVE was the strongest directly verified candidate; no claim of an exhaustive Amazon quality comparison.
 - The shirt refresh briefly displayed “I am human.” Window was brought forward and a private temporary screenshot saved. Host authorized that specific checkbox; by the attempted check, the checkbox was no longer present and the product page had cleared. Exact Small/color/buy-box evidence was then obtained. Do not claim a successful checkbox click or reuse that consent on a future challenge.
-- No orders, cart edits, messages, return/cancellation or reservations. No new outfit render or physical test. The **broken PLA crown still needs repair/cure and a fit trial** in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). Glue exact delivery has not been verified; it is not added to this Saturday-cleared basket.
+- No orders, cart edits, messages, return/cancellation or reservations. Requested preview completed above; no physical test. The **broken PLA crown still needs repair/cure and a fit trial** in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). Glue exact delivery has not been verified; it is not added to this Saturday-cleared basket.
 
-[Purchased inventory/history](27-haunted-court-statement-pieces-2026-10-29.md) · [Current handoff](handoff-2026-10-29-amazon-saturday-clothing.md)
+[Purchased inventory/history](27-haunted-court-statement-pieces-2026-10-29.md) · [Source-check handoff](handoff-2026-10-29-amazon-saturday-clothing.md) · [Current preview handoff](handoff-2026-10-29-brocade-preview.md)

@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–O use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–P use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29: crown, gold torc and cuffs are fixed; everything else open to change.** [28](28-fixed-core-clothing-references-2026-10-29.md) supplies real belt/sash/waistcoat reference photos, not new generated outfit previews or deadline-cleared purchases. O remains historical armor/cape rendering; no new final costume or body-chain-for-torc swap selected.
+**Latest October 29: requested waistcoat + sleeved black shirt + half-cape preview completed as P.** Crown/torc/cuffs/green trousers retained; no armor or sash. [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns actual garment sources, immediately preceding Saturday buy-box checks, private final/prompt links and limits. No new order or final outfit selection inferred; 28 is reference history and O retains dropped armor.
+
+## P Black/gold brocade waistcoat and half-cape
+
+Requested/completed October 29: actual VATPAVE Sv16-black waistcoat over JEMITOP Black-b short-sleeved shirt, FURPHI Black half-cape, compact crown, curled gold torc, gold cuff pair and green trousers, clean-shaven likeness. One successful built-in identity-preserve edit from O plus actual waistcoat/shirt/cape/cuff photographs. Full-body/detail, 1536 × 1024; visually checked requested pieces and absence of armor/strap/vials/mantle/sash/fur/mesh/face cover. Prior personalized final carries likeness because original upload is absent. [29](29-amazon-saturday-brocade-outfit-2026-10-29.md#requested-personalized-preview--october-29) owns private output/prompts, actual sources and approximation limits. No new order/physical fit/crown repair. Personal output/prompts ignored; no source-date refresh during generation.
 
 ## O Moon-phase armor and black half-cape
 

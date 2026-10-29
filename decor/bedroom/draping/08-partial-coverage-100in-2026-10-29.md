@@ -1,5 +1,7 @@
 # Partial black fleece at approximately 100-in wall height — October 29, 2026
 
+**Later October 29 moss supersession:** host now wants full kitchen counters plus 22 × 44-in coffee top and 20 × 40-in other top. [New scan derivation and four-sheet cuts](../../living-room/moss-surfaces-and-cuts-2026-10-29.md) replaces three-sheet and optional two-sheet moss scenarios below. Four-fleece comparison is now$418.24 / about $455.88 including planning tax; six-fleece cart comparison $462.22 / about $503.82, no purchase inferred. Original four-fleece source/coverage math below remains useful; later six-blanket full-coverage question was arithmetic, not an explicit confirmed scope switch.
+
 **Confirmed host:** wall is approximately **100 in tall** and **100% wall coverage is unnecessary**. This supersedes the full-enclosure requirement used in the earlier five-square-blanket cut plan. Flat fleece, cheap thin furniture cloth, larger rug and accepted corner furniture layout remain. Host has not selected exact panel positions or bought the proposed reduced quantity through this session.
 
 ## Recommended order revision

@@ -9,20 +9,20 @@
     {
       "id": "H11",
       "product": "USMOLA Green moss / 39 × 39 in",
-      "purpose": "Three large sheets for counters/desk/offcuts",
+      "purpose": "Four sheets for full kitchen worktops, host22x44 coffee top, host20x40 other top, and retained small desk/offcuts",
       "url": "https://www.amazon.com/dp/B0FZD67YDD",
-      "qty": 3,
+      "qty": 4,
       "unit": "16.99",
-      "line": "50.97",
+      "line": "67.96",
       "arrival": "2026-10-30",
-      "observedDelivery": "FREE delivery Tomorrow, October 30. Order within 1 hr 35 mins",
+      "observedDelivery": "FREE delivery Tomorrow, October 30. Order within 25 mins",
       "selected": [
         "Color: Green: 39 X 39inch / 100 X 100cm"
       ],
       "inStock": true,
       "quantityVerified": true,
       "offerType": "new one-time purchase",
-      "evidence": "$16.99\n$16\n.\n99\nPrice history\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 1 hr 35 mins\nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21+\nQuantity:3\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nUsmola\nReturns\nFREE 30-day refund/replacement\nPackaging\nShips in product packaging\nSee more\n"
+      "evidence": "$16.99\n$16\n.\n99\nPrice history\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 25 mins\nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21+\nQuantity:4\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nUsmola\nReturns\nFREE 30-day refund/replacement\nPackaging\nShips in product packaging\nSee more"
     },
     {
       "id": "H22",
@@ -288,16 +288,17 @@
   ],
   "pending": [],
   "costs": {
-    "merchandise": "401.25",
-    "planningTax9pct": "36.11",
-    "withPlanningTax": "437.36",
+    "merchandise": "418.24",
+    "planningTax9pct": "37.64",
+    "withPlanningTax": "455.88",
     "lightingIncluded": false,
-    "localCraftsPumpkinsIncluded": false
+    "localCraftsPumpkinsIncluded": false,
+    "scenario": "Four-fleece partial-wall planning comparison; six fleece visible in host cart is a separate full-wall comparison."
   },
-  "quantities": "King108x90 blankets4 and large-hook packs3 checked October29; retained moss sheets3/decorating-clip packs3 from earlier same-day quantity checks; other rows qty1.",
-  "deadlineNote": "Moss initially displayed only 1h35 remaining; prioritize it. Some small-item morning shipping conditional on $25 qualifying order; free Oct30 dates remain checkout-dependent.",
+  "quantities": "Moss4 newly quantity-verified Oct29 for Oct30; King108x90 fleece4 and large-hook packs3 retain earlier same-day checks. Six fleece seen in host cart, not ordered or delivery-rechecked at6. Decorating clips3 retained; other rows qty1.",
+  "deadlineNote": "Moss quantity4 newly showed only25minutes remaining for Oct30; host informed immediately. Product-page estimate, recheck checkout. Other offers retain earlier same-day checks.",
   "purchaseStatus": "No agent purchase/cart edit. Host orders since last confirmation not audited; quantities are planned totals, not additional quantities on top of any recent order.",
-  "followup": "Host supplies roughly100-in wall height and accepts less than100percent bedroom wall coverage. Recommend four King108x90 single blankets and three hook packs; both quantities newly verified for Oct30. Exact reduced arrangement proposed, not installed or purchased. Moss remains three sheets for prior broad-counter scope; two-sheet accent alternative is optional, no new delivery confirmation at quantity2.",
+  "followup": "Host now requests full countertops plus22x44 coffee tabletop and20x40 other surface. Raw scan recomputation yields24.3778sqft counters; requested total36.6555sqft. Recommend four39x39 sheets42.25sqft; constructive cut plan checked with joints and intact16x18 sink offcut reuse, including retained desk fascia. Two/three-sheet proposals no longer cover current scope.",
   "supersededFabricOffers": [
     {
       "id": "H22",
@@ -337,7 +338,25 @@
       "evidence": "One-time purchase\n$14.61\n$14\n.\n61\n$1.04 per count\n(\n$1.04\n$1.04 / count)\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 11 hrs 36 mins\nShorter shipping distance \nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\nQuantity:4\nAdd to cart\nBuy Now\nShipper / Seller\nAmazon.com\nReturns\nFREE 30-day refund/replacement\nGift options\nAvailable at checkout\nSee more\n"
     }
   ],
-  "optionalMossReduction": {
+  "supersededMossOffer": {
+    "id": "H11",
+    "product": "USMOLA Green moss / 39 × 39 in",
+    "purpose": "Three large sheets for counters/desk/offcuts",
+    "url": "https://www.amazon.com/dp/B0FZD67YDD",
+    "qty": 3,
+    "unit": "16.99",
+    "line": "50.97",
+    "arrival": "2026-10-30",
+    "observedDelivery": "FREE delivery Tomorrow, October 30. Order within 1 hr 35 mins",
+    "selected": [
+      "Color: Green: 39 X 39inch / 100 X 100cm"
+    ],
+    "inStock": true,
+    "quantityVerified": true,
+    "offerType": "new one-time purchase",
+    "evidence": "$16.99\n$16\n.\n99\nPrice history\nTomorrow\nFREE delivery Tomorrow, October 30. Order within 1 hr 35 mins\nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21+\nQuantity:3\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nUsmola\nReturns\nFREE 30-day refund/replacement\nPackaging\nShips in product packaging\nSee more\n"
+  },
+  "supersededOptionalMossReduction": {
     "qty": 2,
     "nominalSqFt": "21.125",
     "unitPriceFromEarlierSameDayCheck": "16.99",
@@ -345,5 +364,19 @@
     "batchMerchandiseScenario": "384.26",
     "with9pctPlanningTaxScenario": "418.84",
     "status": "Optional selective moss coverage, not full24.4sqft counter coverage. Quantity2 delivery not freshly verified; product visit showed Amazon human check, no click performed."
+  },
+  "hostCartObservation": {
+    "date": "2026-10-29",
+    "product": "BEDELITE Black King108x90 /B08FYBWRQ1",
+    "quantity": 6,
+    "unitPrice": "21.99",
+    "subtotal": "131.94",
+    "status": "Visible in Amazon product sidebar, unpaid cart only; no purchase/receipt or quantity6 delivery confirmation; no agent cart action."
+  },
+  "fullWallSixFleeceCostScenario": {
+    "merchandise": "462.22",
+    "planningTax9pct": "41.60",
+    "withPlanningTax": "503.82",
+    "status": "Same moss4 batch with fleece6 instead of4, consistent with visible cart quantity; new quantity6 delivery not checked. Not additive spend."
   }
 }

@@ -2,12 +2,12 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: host reports **~100-in walls; partial black coverage is sufficient**. [New recommendation](bedroom/draping/08-partial-coverage-100in-2026-10-29.md): four 108 × 90-in King fleece and three hook packs, each quantity checked forOct 30; moss remains three large sheets for broad counters, two-sheet accents optional. [Thirteen-line order list](research/decor-order-tomorrow-2026-10-29.md) totals **$401.25 merchandise /about $437.36 with planning tax**. Lighting deferred; [handoff](handoff-2026-10-29-partial-fleece.md). No agent order or physical test.
+October 29 latest: host wants full moss on kitchen counters plus 22 × 44-in coffee top and 20 × 40-in other top. [Scan-derived36.66 sq ft and four-sheet cut plan](living-room/moss-surfaces-and-cuts-2026-10-29.md) now recommends **four 39 × 39 moss sheets / $67.96**, quantity 4 verified for Oct 30. [Order list](research/decor-order-tomorrow-2026-10-29.md) separates four-fleece partial-wall and six-fleece cart comparisons; no order inferred. Lighting deferred. [Handoff](living-room/handoff-2026-10-29-moss-surfaces.md).
 
 | Room / deliverable | Current source |
 |---|---|
 | October Grove | [Furniture + forest surfaces](living-room/README.md) |
-| The Hollow | [Corner layout, all-wall fabric, guardian](bedroom/README.md) |
+| The Hollow | [Corner layout, partial/full fabric options, guardian](bedroom/README.md) |
 | Moon Well | [Dry bathroom installation](bathroom/README.md) |
 | Lighting | [Shared allocation](lighting/README.md) |
 | Visual decisions | [Measured plan / cutaways](final-room-plan.md#grounded-visual-plan), [material board and illustrative concepts](inspiration/2026-10-21/README.md) |

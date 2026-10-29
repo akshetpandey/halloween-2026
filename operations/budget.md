@@ -1,5 +1,11 @@
 # Budget, sourcing and purchase ledger
 
+## October 29 • full moss counters and two host-sized tabletops
+
+**Confirmed host:** countertops from scan plus 22 × 44-in coffee top and 20 × 40-in other top fully covered. [Recomputed counter 24.38 sq ft /combined 36.66 sq ft and constructive cuts](../decor/living-room/moss-surfaces-and-cuts-2026-10-29.md) require **four 39 × 39-in sheets, $67.96**, up $16.99 merchandise from prior three. Quantity 4 newly In Stock/free Oct 30; short25-minute cutoff communicated immediately. Three/two-sheet scenarios below superseded. Existing small desk/Guardian allocation remains within four through joints and sink-offcut reuse.
+
+[Same thirteen-line four-fleece comparison](../decor/research/decor-order-tomorrow-2026-10-29.md): **$418.24 merchandise +$37.64 aggregate 9% planning tax = about $455.88**. Six King fleece visible in host’s unpaid cart at $131.94, not purchased or delivery-rechecked at 6; with six the comparison is **$462.22 +$41.60 tax allowance = about $503.82**. Alternatives, not additional batches. No blanket choice inferred from cart alone; actual checkout quantity/receipts need reconciliation. Dedicated lights/DMX/power and local crafts/pumpkins excluded. No agent cart edits/orders or physical tests.
+
 ## October 29 • partial fleece at host 100-in wall height
 
 **Confirmed host:** approximately 100-in wall height and 100% wall coverage unnecessary. [New recommendation and moss rationale](../decor/bedroom/draping/08-partial-coverage-100in-2026-10-29.md) replaces five oversized blankets with **four Black King 108 × 90 singles / $87.96**, and four hook packs with **three / $43.83**; both new quantities checked forOct 30. [Thirteen-line decor batch](../decor/research/decor-order-tomorrow-2026-10-29.md) **$401.25 merchandise + $36.11 aggregate 9% planning tax = about $437.36**, before checkout differences. This saves **$91.60 merchandise / $99.85 with tax allowance** versus preceding $492.85 / $537.21 batch, not an additional order.

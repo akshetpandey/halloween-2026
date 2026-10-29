@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • cover counters and both tabletop surfaces in moss
+
+**Confirmed host:** derive kitchen counters from scan; cover coffee tabletop **22 × 44 in** and another top **20 × 40 in**. [New calculation](../decor/living-room/moss-surfaces-and-cuts-2026-10-29.md) gives24.38 sq ft counters /36.66 sq ft requested tops. **Recommend four 39 × 39 sheets / $67.96**, newly quantity-verified for Oct 30, with joins and reusable sink cutout; retains small desk allocation. Prior three-sheet and optional two-sheet scheme no longer meet scope. No assumed drop/vertical wrap. Six fleece visible in unpaid cart, not a purchase or explicit new scope confirmation; pricing alternatives in budget. No physical template/cut test or agent order.
+
 ## Latest October 29 • approximately 100-in walls, partial coverage sufficient
 
 **Confirmed host:** asks why39 × 39 moss; supplies approximately 100-in wall height and says100% wall coverage unnecessary. Supersedes full-enclosure fabric scope. **Recommended, not host-selected exact quantity/placement:** [four Black King 108 × 90 fleece / $87.96 and three large-hook packs / $43.83](../decor/bedroom/draping/08-partial-coverage-100in-2026-10-29.md), newly quantity-verified forOct 30; roughly two-thirds wall run. Three moss sheets remain for prior broad counters; optional two-sheet accents not selected. [Revised same batch](../decor/research/decor-order-tomorrow-2026-10-29.md) $401.25 merchandise /about $437.36 with planning tax. Lighting deferred, no purchase or physical test. Earlier full-enclosure quotes below are history.

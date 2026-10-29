@@ -1,0 +1,327 @@
+{
+  "date": "2026-10-29",
+  "status": "Scan-derived worktop estimates; host-provided tabletop sizes; illustrative cut feasibility, not physical template or installation test.",
+  "sourceSha256": "11f62df6f940c3e3ad5f7cb7491b4b37390114324f2746e3b0d6d8b1ce539bbd",
+  "method": "GLB POSITION accessor X/Z bounding extents; all nodes have no transforms. Infer worktop footprint from four base-cabinet/dishwasher meshes; subtract kitchen sink1 bbox; exclude stove/oven/fridge/bath sink and upper cabinets. Actual overhangs/taps/edge clearances need paper templates.",
+  "counterParts": [
+    {
+      "label": "Counter left of stove",
+      "sourceNode": "storage_cabinet_mid1_0",
+      "nodeIndex": 105,
+      "widthIn": 25.13004100228858,
+      "lengthIn": 28.52791641640851,
+      "sign": 1,
+      "areaSqFt": 4.978525758709773
+    },
+    {
+      "label": "Counter right of stove",
+      "sourceNode": "storage_cabinet_mid1_3",
+      "nodeIndex": 115,
+      "widthIn": 14.552478715190738,
+      "lengthIn": 28.52792580296674,
+      "sign": 1,
+      "areaSqFt": 2.883000229418154
+    },
+    {
+      "label": "Sink counter run",
+      "sourceNode": "storage_cabinet_mid3_0",
+      "nodeIndex": 111,
+      "widthIn": 28.642019418280896,
+      "lengthIn": 71.28734992245052,
+      "sign": 1,
+      "areaSqFt": 14.179261533032033
+    },
+    {
+      "label": "Top over dishwasher (inferred)",
+      "sourceNode": "dishwasher_0",
+      "nodeIndex": 99,
+      "widthIn": 25.730883981299215,
+      "lengthIn": 24.490966571597603,
+      "sign": 1,
+      "areaSqFt": 4.376209857247606
+    },
+    {
+      "label": "Sink opening deduction",
+      "sourceNode": "sink_1",
+      "nodeIndex": 107,
+      "widthIn": 16.311287410615936,
+      "lengthIn": 18.002965201543073,
+      "sign": -1,
+      "areaSqFt": 2.039246803095044
+    }
+  ],
+  "counterNetSqFt": 24.377750575312522,
+  "hostSurfaces": [
+    {
+      "label": "Coffee tabletop",
+      "widthIn": 22,
+      "lengthIn": 44,
+      "areaSqFt": 6.722222222222222
+    },
+    {
+      "label": "Other top",
+      "widthIn": 20,
+      "lengthIn": 40,
+      "areaSqFt": 5.555555555555555
+    }
+  ],
+  "requestedTotalSqFt": 36.655528353090304,
+  "retainedDeskAllocationSqFt": 2,
+  "threeSheetsSqFt": 31.6875,
+  "fourSheetsSqFt": 42.25,
+  "spareBeforeDeskSqFt": 5.594471646909696,
+  "spareAfterDeskSqFt": 3.594471646909696,
+  "packing": {
+    "sheetSizeIn": [
+      39,
+      39
+    ],
+    "sheetCount": 4,
+    "roundedTargetsIn": {
+      "Sink run before cutout": [
+        29,
+        72
+      ],
+      "Left stove": [
+        25.5,
+        29
+      ],
+      "Right stove": [
+        15,
+        29
+      ],
+      "Dishwasher": [
+        26,
+        25
+      ],
+      "Coffee": [
+        22,
+        44
+      ],
+      "Other": [
+        20,
+        40
+      ],
+      "Desk fascia": [
+        49,
+        6
+      ]
+    },
+    "reusedSinkCutoutIn": [
+      16,
+      18
+    ],
+    "pieces": [
+      {
+        "sheet": "A",
+        "id": "A1",
+        "use": "Sink run 1",
+        "x": 0,
+        "y": 0,
+        "width": 29,
+        "height": 39,
+        "target": "counter",
+        "subtractSinkCutout": true
+      },
+      {
+        "sheet": "A",
+        "id": "A2",
+        "use": "Left stove join",
+        "x": 29,
+        "y": 0,
+        "width": 6.5,
+        "height": 29,
+        "target": "left",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "A",
+        "id": "A3",
+        "use": "Desk 10x6",
+        "x": 29,
+        "y": 29,
+        "width": 10,
+        "height": 6,
+        "target": "desk",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "A",
+        "id": "A4",
+        "use": "Reused sink cutout",
+        "x": 5,
+        "y": 4.6,
+        "width": 16,
+        "height": 18,
+        "target": "dishwasher",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "B",
+        "id": "B1",
+        "use": "Sink run 2",
+        "x": 0,
+        "y": 0,
+        "width": 29,
+        "height": 33,
+        "target": "counter",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "B",
+        "id": "B2",
+        "use": "Dishwasher 10x18",
+        "x": 29,
+        "y": 0,
+        "width": 10,
+        "height": 18,
+        "target": "dishwasher",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "B",
+        "id": "B3",
+        "use": "Desk 21x6 rotated",
+        "x": 29,
+        "y": 18,
+        "width": 6,
+        "height": 21,
+        "target": "desk",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "B",
+        "id": "B4",
+        "use": "Coffee extension",
+        "x": 0,
+        "y": 33,
+        "width": 22,
+        "height": 5,
+        "target": "coffee",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "B",
+        "id": "B5",
+        "use": "Other extension",
+        "x": 0,
+        "y": 38,
+        "width": 20,
+        "height": 1,
+        "target": "other",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "C",
+        "id": "C1",
+        "use": "Coffee main",
+        "x": 0,
+        "y": 0,
+        "width": 22,
+        "height": 39,
+        "target": "coffee",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "C",
+        "id": "C2",
+        "use": "Right stove",
+        "x": 22,
+        "y": 0,
+        "width": 15,
+        "height": 29,
+        "target": "right",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "C",
+        "id": "C3",
+        "use": "Dishwasher 7x7",
+        "x": 22,
+        "y": 29,
+        "width": 7,
+        "height": 7,
+        "target": "dishwasher",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "C",
+        "id": "C4",
+        "use": "Desk 10x6",
+        "x": 29,
+        "y": 29,
+        "width": 10,
+        "height": 6,
+        "target": "desk",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "D",
+        "id": "D1",
+        "use": "Other main",
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 39,
+        "target": "other",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "D",
+        "id": "D2",
+        "use": "Left stove main",
+        "x": 20,
+        "y": 0,
+        "width": 19,
+        "height": 29,
+        "target": "left",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "D",
+        "id": "D3",
+        "use": "Dishwasher 19x7",
+        "x": 20,
+        "y": 29,
+        "width": 19,
+        "height": 7,
+        "target": "dishwasher",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "D",
+        "id": "D4",
+        "use": "Desk 8x3",
+        "x": 20,
+        "y": 36,
+        "width": 8,
+        "height": 3,
+        "target": "desk",
+        "subtractSinkCutout": false
+      },
+      {
+        "sheet": "D",
+        "id": "D5",
+        "use": "Desk 8x3",
+        "x": 28,
+        "y": 36,
+        "width": 8,
+        "height": 3,
+        "target": "desk",
+        "subtractSinkCutout": false
+      }
+    ],
+    "assembledAreasSqIn": {
+      "counter": 1800,
+      "left": 739.5,
+      "desk": 294,
+      "dishwasher": 650,
+      "coffee": 968,
+      "other": 800,
+      "right": 435
+    },
+    "usedAreaSqIn": 5686.5,
+    "spareSqIn": 397.5,
+    "note": "Butt joints with backing secured underneath; no overlap allowance. Reuse at least16x18-in intact sink cutout. Rounded cabinet rectangles exceed raw model extents. Cut actual paper templates first; top coverage only, no edge drape. Several joins on dishwasher/left counter and both tables; sink cutout shape/usable edges can change packing."
+  }
+}

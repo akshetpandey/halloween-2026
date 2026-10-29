@@ -4,11 +4,11 @@
 
 **Latest fabric revision:** host reports roughly 100-in wall height and does not require full enclosure. Recommend four smaller King 108 × 90 blankets and three large-hook packs; [coverage and moss explanation](../bedroom/draping/08-partial-coverage-100in-2026-10-29.md). These two quantities were newly verified forOct 30. Other lines retain earlier same-day checks.
 
-**Order moss first:** at the check it displayed only about **1 hour 35 minutes remaining** for tomorrow delivery. The moss vine showed about 3 hours 34 minutes; other cutoffs vary. Reconfirm **October 30** for each line in checkout. Planned quantities below are totals; omit anything already ordered. Recent host orders have not been audited. No cart additions or purchases performed here.
+**Latest moss scope:** host requests full countertops plus 22 × 44-in coffee top and 20 × 40-in other top. [Scan calculation and four-sheet cuts](../living-room/moss-surfaces-and-cuts-2026-10-29.md):36.66 sq ft plus retained small desk accents. Increase moss to **four**, quantity 4 newly checked. **Order moss first:** it displayed only **25 minutes remaining** for tomorrow delivery; communicated immediately. Other item cutoffs vary. Reconfirm **October 30** for each line in checkout. Planned quantities below are totals; omit anything already ordered. Recent host orders have not been audited. No cart additions or purchases performed here.
 
 | Priority / item — exact linked option | Buy quantity | Unit USD | Line USD | Tomorrow delivery observed |
 |---|---:|---:|---:|---|
-| [USMOLA Green moss / 39 × 39 in](https://www.amazon.com/dp/B0FZD67YDD) | 3 | 16.99 | 50.97 | Oct 30 |
+| [USMOLA Green moss / 39 × 39 in](https://www.amazon.com/dp/B0FZD67YDD) | 4 | 16.99 | 67.96 | Oct 30 |
 | [Black wall fleece, BEDELITE King 108 × 90 in / single](https://www.amazon.com/dp/B08FYBWRQ1) | 4 | 21.99 | 87.96 | Oct 30 |
 | [Command Large White Hooks / 14 hooks, 16 strips](https://www.amazon.com/dp/B075Y2M1Q5) | 3 packs / 42 hooks | 14.61 | 43.83 | Oct 30 |
 | [Amazon Basics Medium 1.25-in binder clips / 96 Count](https://www.amazon.com/dp/B074XTRX7K) | 1 pack / 96 clips | 10.76 | 10.76 | Oct 30, 4–8 a.m. |
@@ -22,7 +22,7 @@
 | [DUSPRO bendable moss vine / 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | 1 | 14.80 | 14.80 | Oct 30 |
 | [InnoGear weighted round-base stand / 1 / Twist Clutch 34–60 in / Black](https://www.amazon.com/dp/B08QZD9B5P) | 1 | 29.99 | 29.99 | Oct 30 |
 
-**Merchandise $401.25.** Aggregate **9% planning tax $36.11 → approximately $437.36**, before any checkout shipping/price change. This is the urgent **decor-only batch**, not a replacement estimate for the entire party or the unrefreshed lighting plan. No lamps, stage lights, DMX parts, power supplies, pumpkins or craft-material allowance is hidden in this subtotal. Every row above was In Stock when checked.
+**Four-fleece partial-wall comparison: merchandise $418.24.** Aggregate **9% planning tax $37.64 → approximately $455.88**, before any checkout shipping/price change. This is the urgent **decor-only batch**, not a replacement estimate for the entire party or the unrefreshed lighting plan. No lamps, stage lights, DMX parts, power supplies, pumpkins or craft-material allowance is hidden in this subtotal. Every row above was In Stock when checked. **Six King fleece are visible in the host’s unpaid cart**; no purchase inferred. Using six instead of the four-fleece comparison above gives **$462.22 merchandise / about $503.82 with planning tax**. Quantity 6 fleece delivery was not freshly checked. Do not order four more on top of that cart; reconcile desired blanket quantity. All quantities are planned totals.
 
 ## Original items that miss tomorrow
 
@@ -34,15 +34,17 @@ The [InnoGear manufacturer's MS250 page](https://www.innogear.com/products/innog
 ## What the batch supplies
 
 - **Hollow:** four flat 108 × 90-in fleece sources,108 in vertical, approximately two-thirds wall-length coverage; [new partial plan](../bedroom/draping/08-partial-coverage-100in-2026-10-29.md). Three large-hook packs /42 hooks; initial 24 panel points and18 spares, with shared medium binder clips. Two thin cloths retain bed/desk/Guardian/dry-tub allocation. Trial an intact panel immediately on receipt and follow actual preparation/wait/removal instructions. No fitted eleven-strip cut/header scheme or separate sample order.
-- **Grove:** three 39 × 39-in moss sheets remain for broad counters, shared 84-ft ivy and small decorating clips. Two sheets are an optional selective-coverage saving, not chosen or freshly delivery-verified at quantity 2; see the linked explanation. Keep the two desk ivy strands and small moss fascia allocation within those shared packs. The ivy happens to include an LED string; this order is for the greenery and does not select the deferred lighting rig.
+- **Grove:** four 39 × 39-in moss sheets cover scan-derived counters and host 22 × 44 /20 × 40 tops with joined pieces; [four-sheet packing](../living-room/moss-surfaces-and-cuts-2026-10-29.md). Three/two sheets no longer meet current full-surface scope. Shared84-ft ivy and small decorating clips retained. Keep the two desk ivy strands and small moss fascia allocation within those shared packs. The ivy happens to include an LED string; this order is for the greenery and does not select the deferred lighting rig.
 - **Guardian:** cloth, ties, tape and moss scraps are included in shared stock, with no bought mask/mannequin. Reuse clean corrugated delivery packaging and kraft for bark face/crown/spine. The verified single InnoGear stand supplies independent support; no floor-space/stability test has passed.
 - **Moon Well:** 72×72-in dark-green forest shower curtain with hooks plus one 10-ft bendable moss vine. Its lights can be selected in the later lighting pass.
 
-**Local/reuse list:** five pumpkins/gourds, PVA glue, black/charcoal + dark brown + ivory acrylic, brush and reusable cardboard/kraft. Prior planning allowances remain $35 pumpkins and $15 shared crafts, not stock-confirmed local quotes and not included in $401.25. Existing trays/underlayer and appropriate cutting tools are reuse assumptions. No elaborate new craft dependencies added; prioritize fabric, forest surfaces and the Guardian silhouette over fine finishing.
+**Local/reuse list:** five pumpkins/gourds, PVA glue, black/charcoal + dark brown + ivory acrylic, brush and reusable cardboard/kraft. Prior planning allowances remain $35 pumpkins and $15 shared crafts, not stock-confirmed local quotes and not included in $418.24. Existing trays/underlayer and appropriate cutting tools are reuse assumptions. No elaborate new craft dependencies added; prioritize fabric, forest surfaces and the Guardian silhouette over fine finishing.
 
 ## Actions after ordering
 
 Save actual order totals/dates when supplied by host; an unpaid cart/link is not purchased inventory. October 30: receive and inspect dimensions/quantities, start full-panel grip/sag/removal trial, unfold rug and mock up Guardian materials/support. October 31: finish only after actual mount/bed/rug/route checks and simplify optional card details to preserve setup time. Dedicated lights remain a separate next decision, not silently omitted from the overall intended scene.
+
+![Four-sheet moss price and October 30 delivery](moss-four-nextday-2026-10-29.png)
 
 ![Smaller fleece price and October30 delivery](king-fleece-four-nextday-2026-10-29.png)
 

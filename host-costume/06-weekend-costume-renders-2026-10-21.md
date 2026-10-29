@@ -6,9 +6,11 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** O completes the requested moon-phase armor/black half-cape preview, replacing N's disfavored leaf mantle. [27](27-haunted-court-statement-pieces-2026-10-29.md) owns actual source references, dated offer checks and private outputs. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains prior outputs and crown repair advice. Previews do not establish a repaired crown, purchase or fit.
+**Latest October 29: host drops shoulder armor and retains the black half-cape after O.** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns current inventory/finishing ideas and lower proposal cost. No updated armor-free render yet; O is history, not an instruction to retain the chest strap/vials. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair remains pending.
 
 ## O Moon-phase armor and black half-cape
+
+**Later October 29: shoulder armor dropped; half-cape retained. Current baseline/options in 27; this image is history.**
 
 Requested/completed October 29: real Brown B pauldron with supplied three vials and diagonal strap, opposite-shoulder Black metallic-edged cape with supplied rope, black short-sleeved shirt, compact crown, torc/cuff pair, green trousers and clean-shaven likeness. Two built-in edits; the second removes only a cream fabric patch accidentally copied from a retailer model. Full-body/detail, 1536 × 1024. Prior personalized final carries likeness because original upload is absent; three actual garment photos supply objects. [27](27-haunted-court-statement-pieces-2026-10-29.md#personalized-pauldron-and-cape-preview) owns private final/prompts, exact source evidence and approximation limits. Source refresh hit verification; earlier successful exact checks only minutes before generation remain dated evidence. No new purchase, CAPTCHA click, physical fit or crown repair. Personal outputs/prompts remain ignored.
 

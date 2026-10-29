@@ -1,8 +1,30 @@
 # Hollow Court • stronger shoulder and cape proposal
 
-October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested personalized pauldron/cape preview complete; outfit purchase, crown repair and physical fit remain pending.** Selection for a preview is not a final-fit approval or order.
+October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Latest host decision: drop the shoulder armor, keep the black half-cape.** Current look retains the black sleeved shirt, compact bone crown, torc, cuffs and green trousers. No updated armor-free render, new order, physical fit or crown repair reported.
+
+## Current inventory and finishing options • armor dropped
+
+Host likes the cape direction, explicitly drops the armor, and asks what else we have. Remove the pauldron, its diagonal chest strap, vials and holder from the next proposal/render; do not keep the strap as an independently owned harness. Half-cape remains selected, not confirmed purchased. Earlier armor research/render below is history.
+
+| Useful piece | Evidence / current use |
+|---|---|
+| Sosation pale bone-look crown | Bought; host confirms in hand with two small broken pieces. Keep; repair/cure/fit pending in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). |
+| NauticalMart curled gold torc and Karace Style B cuff pair | Bought, retailer-marked delivered in the October 27 refresh. Retain in the current look; physical fit remains untested by the agent. |
+| **Nicute gold body chain B07S2Q4V4J** | **Already bought**, $19.62 included in the existing order basis, retailer-marked delivered October 22 as last checked October 27. Useful reuse option from Eclipse; do not buy another or count its cost again. Its own neckbands make it an **alternative to the torc** for a comparison, not an instruction to stack both neckpieces. Actual fit over the sleeved shirt untested. |
+| Green trousers, shoes and functional warm layer | Host-owned. Keep trousers/shoes; warm layer for travel as needed. |
+| Black JEMITOP Small shirt and FURPHI Black half-cape | Sourced proposals, **purchase not reported**. Latest successful exact garment offers remain dated in 26/this file; no fresh order audit this turn. |
+
+[09](09-final-weekend-shopping-2026-10-21.md) remains the purchase/delivery evidence. Other bought pieces include three solar halos, mesh and fur; mesh/sleeveless/fur remain excluded from this indoor direction and the bone crown remains current. Gold mesh veil/ivory cloth, Burgundy shirt, extra belt/brooch/rings have no confirmed purchase. Do not treat earlier proposals or research images as inventory.
+
+**First reuse option:** test the already-bought gold body chain over the black shirt as an alternate neck/chest arrangement with the cape, crown and cuffs. [Earlier private Eclipse preview](renders/private/2026-10-23/eclipse-zivyes-personal.png) was inspected to review its fine draped chains and built-in neckbands; that generated image is styling history, not a new exact-product or physical-fit check. No new render made and no chain/torc swap selected by the host.
+
+**If keeping the torc:** a broad plain black wrap belt or a deep oxblood waist sash could add structure/color at the waist. These are **unselected styling ideas, not source-cleared Saturday recommendations or owned pieces**. The inspected [Renaissance belt set B0GVSS5FJX](https://www.amazon.com/dp/B0GVSS5FJX), exact Black-a, was $29.99 / In Stock / free October 31 in signed-in Chrome October 29, but its explicit fit bullet starts at **35.4 inches** and extends to 49.2 inches. It does not suit the host's 28–30 waist; exclude it. Subsequent wrap-belt search hit human verification; window foregrounded, no CAPTCHA click or exact wrap-belt offer verified. Do not buy that oversized set or depict an imagined fitted version.
+
+**Updated proposal cost:** armor is removed from shopping; retained half-cape $18.59 + previously sourced shirt $15.99 = **$34.58 before new tax/fees**, at their last checked prices. Existing $196.59 bought basis unchanged; hypothetical merchandise sum $231.17 before new checkout adjustments. Chain reuse adds $0. No armor order/refund/cancellation reported; earlier $74.48 armor/shirt/cape proposal is superseded, not added. $500 ceiling unchanged. [Current handoff](handoff-2026-10-29-half-cape-inventory.md).
 
 ## Latest feedback and proposed change
+
+**History: armor-and-cape exploration, superseded by the armor-drop decision above.**
 
 Host says the [sleeved brown-mantle preview](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#current-personalized-sleeved-preview) still looks basic and he does not love the brown leaf piece. He then requests the moon-phase armor and black cape with the same black shirt, crown, torc, cuffs and green trousers, using his likeness and clean-shaven styling. The replacement is selected for the completed preview below; no purchase, cancellation, return or final-fit approval inferred.
 
@@ -49,4 +71,4 @@ Visual QA: recognizable clean-shaven likeness, compact pale crown, short black s
 
 The previously inspected UJUROU damask cape remains a separate, more formal floral product; this recommendation uses the plainer FURPHI scroll-edged version. Feather/fur shoulder products were excluded by the standing user constraints. Higher-rated Willyacos cape search estimate was November 5–10, so it did not clear the deadline; no seller outreach or rushed bespoke work.
 
-**Proposed new statement pieces total $58.49 before tax.** Including the previously sourced, unpurchased $15.99 shirt gives **$74.48 before tax** for the new outfit proposal, replacing the prior shirt/leaf-mantle basket. Existing $196.59 purchase basis stays unchanged; hypothetical merchandise sum $271.07 before any new tax/fees, within the $500 combined ceiling. No assumed refunds, shared-budget charge or new purchase. [Current render handoff](handoff-2026-10-29-pauldron-cape-render.md); [earlier source handoff](handoff-2026-10-29-statement-pieces.md).
+**Historical armor-inclusive proposal: $58.49 for armor/cape, $74.48 with shirt before tax; superseded by the current half-cape-only subtotal above.** No purchase, refund or shared-budget charge. [Earlier render handoff](handoff-2026-10-29-pauldron-cape-render.md); [earlier source handoff](handoff-2026-10-29-statement-pieces.md).

@@ -2,9 +2,9 @@
 
 ## Current scope • October 29
 
-**Latest upgrade / repair:** requested personalized moon-phase armor/black half-cape preview complete in [27](27-haunted-court-statement-pieces-2026-10-29.md), retaining short sleeves and purchased/owned pieces. Exact successful offer checks remain dated; refresh hit verification and did not establish newer stock. No order or physical-fit approval. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains crown repair guidance, still pending.
+**Latest October 29: armor dropped, half-cape retained.** [27](27-haunted-court-statement-pieces-2026-10-29.md) owns current inventory/options and reduced shirt/cape proposal. Nicute chain already bought, optional alternative to torc; no suitable broad wrap belt or oxblood sash verified. Inspected wide belt is too large for 28–30 waist. No updated render/purchase/physical-fit approval; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair remains pending.
 
-**Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27 proposes actual embossed PU costume armor instead.
+**Earlier mantle source, now disfavored:** [25](25-realistic-rootkeeper-amazon-2026-10-29.md) retains leaf-mantle comparison; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) retains its later Saturday offer/preview. These are history, not an accepted default. Exact sculpted root/bark armor remains unsourced; 27's inspected PU pauldron was subsequently dropped.
 
 **Feathers and mesh rejected; fur too hot; no large antlers/full-face covering.** [24](24-party-reference-led-direction-2026-10-27.md) retains the lookbook/guardian study; 23's feather/hood basket is not a recommendation or order. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older JEMITOP Burgundy/Small source, not a purchase or refreshed offer. [09](09-final-weekend-shopping-2026-10-21.md) retains orders/delivery refresh; $500 ceiling unchanged. Fit untested; no seller follow-up/return.
 

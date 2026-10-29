@@ -1,5 +1,7 @@
 # Two costume shopping and order status
 
+**October 29 styling update:** shoulder armor dropped; half-cape retained. [27](27-haunted-court-statement-pieces-2026-10-29.md#current-inventory-and-finishing-options--armor-dropped) owns current reuse/finishing options and unpurchased shirt/cape proposal. Nicute body chain is already bought below, not a new charge; no new order/refund inferred. Purchase evidence and the last delivery audit remain dated below.
+
 **October 27 current scope:** the second City of Gods night did not happen. Repurpose its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the new shirt offer and small-crown preview. New shirt is sourced, not ordered; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
 
 **Delivery refresh October 27:** signed-in Amazon Orders marks Gihuo Black-S fur **delivered October 23**, Sosation crown / NauticalMart torc / Karace Style B cuff pair **delivered October 24**. Also visible: JOGAL/Atoden/Zivyes delivered October 23; Nicute/Zoestar delivered October 22. These update the dated progress rows below; no host retrieval/completeness/fit or settled-payment result inferred. Existing three-order total remains **$196.59**; no new purchase/cart change/return/refund/cancellation or contact. All detailed October 23 charges below remain historical evidence.

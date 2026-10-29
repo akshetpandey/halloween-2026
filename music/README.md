@@ -17,4 +17,6 @@ October 28 shared-vote decision: host Keep/Cut/Maybe wins; otherwise the latest 
 
 [Review Grove disagreements](https://music.hollow-court.com/?room=living-room&filter=disagreements): the room-scoped filter shows both people’s individual votes beside the controls; host priority remains unchanged. [Feature verification/handoff](playlist-lab/handoff-2026-10-28-disagreements.md).
 
+**Grove direction review · October 29:** the host will edit the [playlist thesis](living-room/playlist-thesis.md) before another Grove batch. The draft distinguishes confirmed preferences, actual shared votes and proposed selection assumptions; no batch or vote changes accompany it.
+
 [Approved-track duplicate audit · October 29](duplicate-audit-2026-10-29.md): all 325 current Keeps checked against fresh catalog identities; no exact-recording or same-artist version duplicates found. Four generic titles occur under different artists. Votes and playlists unchanged.

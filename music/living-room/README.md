@@ -4,6 +4,8 @@
 
 [Current playlist plan](playlist.md)
 
+**October 29 recalibration:** edit the [Grove playlist thesis](playlist-thesis.md) before generating the next Grove batch. It separates the confirmed brief and shared vote evidence from a proposed musical center and unresolved boundaries. Existing approvals and the current review batch remain in place. [Thesis handoff](handoff-2026-10-29-grove-thesis.md).
+
 Follow the latest host brief in playlist.md and read the october-grove exports. The October 25 clarification calls for happy, hopeful, loving, fun music, with no acid/techno, chart-pop character or sad/negative lyrics. The [October 27 host-selected reference tracks](playlist.md#current-selection-calibration) now guide sourcing across styles; the earlier modern/bass-house emphasis was provisional. Changes here must not inherit the bedroom techno brief. Playback is through two Google Homes; verify the live Spotify collection and order separately from local exports.
 
 Track exports and versioned files are stored beside this plan. Keep new handoffs here.

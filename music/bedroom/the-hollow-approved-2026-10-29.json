@@ -1,0 +1,4743 @@
+{
+  "playlist_id": "6Vrg6foyDHd14liJImsTSB",
+  "playlist_name": "The Hollow — Halloween 2026",
+  "spotify_url": "https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB",
+  "observed_at": "2026-10-29T23:22:20Z",
+  "reported_snapshot_id": "AAAAFXhS/E9k7uq3Jc6JnsuA3o/Pqocn",
+  "selection": "All current canonical shared Keeps for this room; host active choice wins, otherwise latest active reviewer. Existing approved relative order preserved, remaining Keeps appended in library order. Selection library, not a finished party running order.",
+  "verification": "Fresh exact ordered Spotify readback matches the current shared approved set with no duplicates, rejections or pending tracks. Metadata verified separately after connector propagation.",
+  "track_count": 222,
+  "raw_duration_ms": 47325739,
+  "tracks": [
+    {
+      "position": 1,
+      "spotify_uri": "spotify:track:2lYxJyemy6xyccCLknXMcY",
+      "spotify_url": "https://open.spotify.com/track/2lYxJyemy6xyccCLknXMcY",
+      "artist": "Klangkuenstler",
+      "artists": [
+        "Klangkuenstler"
+      ],
+      "artist_ids": [
+        "6H77vD9YyhyxHBTkRpbMBk"
+      ],
+      "title": "Untergang",
+      "album": "Weltschmerz",
+      "album_id": "3YCwoebRDXZBEf5ZfnoNb3",
+      "duration_ms": 367086,
+      "isrc": "DEY472171886",
+      "release_date": "2021-03-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 2,
+      "spotify_uri": "spotify:track:0w7JPlp7eEQI2EKW3ayXrv",
+      "spotify_url": "https://open.spotify.com/track/0w7JPlp7eEQI2EKW3ayXrv",
+      "artist": "Mau P",
+      "artists": [
+        "Mau P"
+      ],
+      "artist_ids": [
+        "0w1sbtZVQoK6GzV4A4OkCv"
+      ],
+      "title": "Drugs From Amsterdam",
+      "album": "Drugs From Amsterdam",
+      "album_id": "060SvgMzLKrNzpvVLK5gSo",
+      "duration_ms": 235785,
+      "isrc": "GBK6Y2251421",
+      "release_date": "2022-09-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 3,
+      "spotify_uri": "spotify:track:0aMonkh8OKgqx1K0viRHRT",
+      "spotify_url": "https://open.spotify.com/track/0aMonkh8OKgqx1K0viRHRT",
+      "artist": "Sara Landry",
+      "artists": [
+        "Sara Landry"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK"
+      ],
+      "title": "Legacy",
+      "album": "Legacy",
+      "album_id": "3e337N4JrILh8eZsyjAL2b",
+      "duration_ms": 409000,
+      "isrc": "DGA0M2376618",
+      "release_date": "2023-10-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 4,
+      "spotify_uri": "spotify:track:3Ez1aIT6ljEWE0W3qNhl62",
+      "spotify_url": "https://open.spotify.com/track/3Ez1aIT6ljEWE0W3qNhl62",
+      "artist": "John Summit",
+      "artists": [
+        "John Summit"
+      ],
+      "artist_ids": [
+        "7kNqXtgeIwFtelmRjWv205"
+      ],
+      "title": "Deep End",
+      "album": "Deep End",
+      "album_id": "3tUqZawXHgIOYvRgrvpa9n",
+      "duration_ms": 156210,
+      "isrc": "GBCPZ2017641",
+      "release_date": "2020-06-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 5,
+      "spotify_uri": "spotify:track:5cRDn5aGMLvWsldoRmOOz0",
+      "spotify_url": "https://open.spotify.com/track/5cRDn5aGMLvWsldoRmOOz0",
+      "artist": "Sub Focus",
+      "artists": [
+        "Sub Focus"
+      ],
+      "artist_ids": [
+        "0QaSiI5TLA4N7mcsdxShDO"
+      ],
+      "title": "Solar System",
+      "album": "Solar System / Siren",
+      "album_id": "3b4pq3F6MCKrIr6Pug0iYG",
+      "duration_ms": 288000,
+      "isrc": "GBUM71903244",
+      "release_date": "2019-07-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 6,
+      "spotify_uri": "spotify:track:0PFNP0qTnqgOOr3X4pQwBu",
+      "spotify_url": "https://open.spotify.com/track/0PFNP0qTnqgOOr3X4pQwBu",
+      "artist": "Amelie Lens",
+      "artists": [
+        "Amelie Lens"
+      ],
+      "artist_ids": [
+        "5Ho1vKl1Uz8bJlk4vbmvmf"
+      ],
+      "title": "Hypnotized",
+      "album": "Hypnotized",
+      "album_id": "4aYZyDTf6sBTfPWuFpRrgU",
+      "duration_ms": 339603,
+      "isrc": "DESR41800287",
+      "release_date": "2019-07-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 7,
+      "spotify_uri": "spotify:track:28r1xYNakXXwcQKIXu9Wjw",
+      "spotify_url": "https://open.spotify.com/track/28r1xYNakXXwcQKIXu9Wjw",
+      "artist": "Dimension",
+      "artists": [
+        "Dimension"
+      ],
+      "artist_ids": [
+        "1QMgre3BHX161ZHtWMUu6S"
+      ],
+      "title": "DJ Turn It Up",
+      "album": "DJ Turn It Up",
+      "album_id": "1POsjSFSyqW21AEn71tdJn",
+      "duration_ms": 177931,
+      "isrc": "UKFTL1600270",
+      "release_date": "2023-05-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 8,
+      "spotify_uri": "spotify:track:76Lq3l4TEzt2javAjXezAr",
+      "spotify_url": "https://open.spotify.com/track/76Lq3l4TEzt2javAjXezAr",
+      "artist": "Michael Bibi, KinAhau, Audio Bullys",
+      "artists": [
+        "Michael Bibi",
+        "KinAhau",
+        "Audio Bullys"
+      ],
+      "artist_ids": [
+        "4cvdQRyHmkSQSakUrW2oxv",
+        "3C7Tv0IqIGLjA9rpVaeHRB",
+        "5kwHgbzNHq1iHkUSrAmjjQ"
+      ],
+      "title": "Different Side",
+      "album": "Different Side",
+      "album_id": "5MvoxzRfTWDYjNF98qRezc",
+      "duration_ms": 193710,
+      "isrc": "GBKQU2316615",
+      "release_date": "2023-03-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 9,
+      "spotify_uri": "spotify:track:2C5ZhKdwWrZh6wp9ptddUs",
+      "spotify_url": "https://open.spotify.com/track/2C5ZhKdwWrZh6wp9ptddUs",
+      "artist": "A*S*Y*S",
+      "artists": [
+        "A*S*Y*S"
+      ],
+      "artist_ids": [
+        "4xfA60YoR4UbBxuOn9WXJq"
+      ],
+      "title": "Acid Nightmare",
+      "album": "Acid Save Your Soul",
+      "album_id": "1IP3Inirx264Y0hdtxrJPe",
+      "duration_ms": 350331,
+      "isrc": "DEXO22394174",
+      "release_date": "2005-01-01",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 10,
+      "spotify_uri": "spotify:track:3g0rPDTVMhGlj32WWT1TAU",
+      "spotify_url": "https://open.spotify.com/track/3g0rPDTVMhGlj32WWT1TAU",
+      "artist": "DJ HEARTSTRING",
+      "artists": [
+        "DJ HEARTSTRING"
+      ],
+      "artist_ids": [
+        "5tcwaJBUyEdxQxvieuQxU7"
+      ],
+      "title": "Can't Stop The Night",
+      "album": "4 The People",
+      "album_id": "48mSkcRUZ3yUqbiC2QPE3E",
+      "duration_ms": 333622,
+      "isrc": "UKN6K2100509",
+      "release_date": "2022-01-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 11,
+      "spotify_uri": "spotify:track:5fF9T9SMqBKUvT06cn7kBR",
+      "spotify_url": "https://open.spotify.com/track/5fF9T9SMqBKUvT06cn7kBR",
+      "artist": "Marlon Hoffstadt, DJ Daddy Trance",
+      "artists": [
+        "Marlon Hoffstadt",
+        "DJ Daddy Trance"
+      ],
+      "artist_ids": [
+        "0HHa7ZJZxUQlg5l2mB0N0f",
+        "4lBSzo2LS8asEzoePv6VLM"
+      ],
+      "title": "It's That Time",
+      "album": "It's That Time",
+      "album_id": "4nSFAyvWxMBkgGYU5W6hOt",
+      "duration_ms": 240250,
+      "isrc": "QM4TX2371595",
+      "release_date": "2023-04-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 12,
+      "spotify_uri": "spotify:track:45AcZcCFwIZM6cMVtIEFqJ",
+      "spotify_url": "https://open.spotify.com/track/45AcZcCFwIZM6cMVtIEFqJ",
+      "artist": "Cloonee, Lindy Layton",
+      "artists": [
+        "Cloonee",
+        "Lindy Layton"
+      ],
+      "artist_ids": [
+        "7MdlXmq2HViAJWo9cf30sR",
+        "23J7IUKXqeNCetcqtEIKJr"
+      ],
+      "title": "Be Good To Me (feat. Lindy Layton)",
+      "album": "Be Good To Me (feat. Lindy Layton)",
+      "album_id": "4hLu1CdeKhtJSSshfFgLfX",
+      "duration_ms": 192141,
+      "isrc": "USAT21901815",
+      "release_date": "2019-03-15",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 13,
+      "spotify_uri": "spotify:track:79YhsG7nylNbGaUrIYmG1o",
+      "spotify_url": "https://open.spotify.com/track/79YhsG7nylNbGaUrIYmG1o",
+      "artist": "Bou",
+      "artists": [
+        "Bou"
+      ],
+      "artist_ids": [
+        "35dxfY1wywqVRUEaVuMm13"
+      ],
+      "title": "Poison",
+      "album": "B-Sides Mixtape",
+      "album_id": "7dcBkJzSZ4WWyZthl6ol2A",
+      "duration_ms": 263314,
+      "isrc": "GB8KE2516388",
+      "release_date": "2025-07-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 14,
+      "spotify_uri": "spotify:track:6Sic6KI1QP4l7hYPymk4wZ",
+      "spotify_url": "https://open.spotify.com/track/6Sic6KI1QP4l7hYPymk4wZ",
+      "artist": "Thomas P. Heckmann",
+      "artists": [
+        "Thomas P. Heckmann"
+      ],
+      "artist_ids": [
+        "4QLCqJ3RSF3y6DdvboPk9m"
+      ],
+      "title": "Amphetamine - Original 94 Version",
+      "album": "Drax Ltd. II - Amphetamine (The Complete Remixes and Versions 1994-2012)",
+      "album_id": "39KMTRJuVxLOVCsC8qhEZ5",
+      "duration_ms": 403826,
+      "isrc": "DEW649400081",
+      "release_date": "2012",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 15,
+      "spotify_uri": "spotify:track:7aIb17DMLcOhLJIc9vF6Aa",
+      "spotify_url": "https://open.spotify.com/track/7aIb17DMLcOhLJIc9vF6Aa",
+      "artist": "Funk Tribu",
+      "artists": [
+        "Funk Tribu"
+      ],
+      "artist_ids": [
+        "1vK8NnrPlBlF34LaiFX1SK"
+      ],
+      "title": "Phonky Tribu",
+      "album": "The Midnight Club GT",
+      "album_id": "6a2QtF55Q67Tr69arnzPQW",
+      "duration_ms": 286145,
+      "isrc": "QZMHN2270801",
+      "release_date": "2021-10-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 16,
+      "spotify_uri": "spotify:track:1cQld05IcUDw3RCFt7uymW",
+      "spotify_url": "https://open.spotify.com/track/1cQld05IcUDw3RCFt7uymW",
+      "artist": "Eli Brown",
+      "artists": [
+        "Eli Brown"
+      ],
+      "artist_ids": [
+        "5lVNSw2GPci8kebrAQpZqU"
+      ],
+      "title": "Be The One",
+      "album": "Be The One",
+      "album_id": "03CJTIUvULKcMHjr0qjZtK",
+      "duration_ms": 169852,
+      "isrc": "GBUM72302199",
+      "release_date": "2023-03-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 17,
+      "spotify_uri": "spotify:track:6KO8CRe4g0JTyHgAzUus0J",
+      "spotify_url": "https://open.spotify.com/track/6KO8CRe4g0JTyHgAzUus0J",
+      "artist": "Regal",
+      "artists": [
+        "Regal"
+      ],
+      "artist_ids": [
+        "4YXqml5YuUIKCAc3tPlSqe"
+      ],
+      "title": "L'Éternité",
+      "album": "L'Éternité",
+      "album_id": "5JckdGzLZCjrVN4rvApoee",
+      "duration_ms": 342688,
+      "isrc": "ES84B1710191",
+      "release_date": "2018-02-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 18,
+      "spotify_uri": "spotify:track:5QU5l0ifWojgjbn2Wxa9dA",
+      "spotify_url": "https://open.spotify.com/track/5QU5l0ifWojgjbn2Wxa9dA",
+      "artist": "TRYM",
+      "artists": [
+        "TRYM"
+      ],
+      "artist_ids": [
+        "5Nd385K2g3s0828W8Ab70z"
+      ],
+      "title": "Sparkling System",
+      "album": "Sparkling System",
+      "album_id": "5EtLKjH311CLH0QwS7eSEF",
+      "duration_ms": 358793,
+      "isrc": "BEN582100532",
+      "release_date": "2019-07-29",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 19,
+      "spotify_uri": "spotify:track:2R5j17Th87vImCG2YEQY6p",
+      "spotify_url": "https://open.spotify.com/track/2R5j17Th87vImCG2YEQY6p",
+      "artist": "Space 92",
+      "artists": [
+        "Space 92"
+      ],
+      "artist_ids": [
+        "6TVdVlY6irsNPkMHT2HkfD"
+      ],
+      "title": "The Door",
+      "album": "The Door",
+      "album_id": "66aDv1U1CYdiipT7fS4Z17",
+      "duration_ms": 378184,
+      "isrc": "GBKQU2203220",
+      "release_date": "2022-01-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 20,
+      "spotify_uri": "spotify:track:6ho0GyrWZN3mhi9zVRW7xi",
+      "spotify_url": "https://open.spotify.com/track/6ho0GyrWZN3mhi9zVRW7xi",
+      "artist": "FISHER",
+      "artists": [
+        "FISHER"
+      ],
+      "artist_ids": [
+        "1VJ0briNOlXRtJUAzoUJdt"
+      ],
+      "title": "Losing It",
+      "album": "Losing It",
+      "album_id": "143cxYCazoiNfviHRmxkdv",
+      "duration_ms": 248035,
+      "isrc": "CA5KR1821202",
+      "release_date": "2018-07-13",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 21,
+      "spotify_uri": "spotify:track:0LDcW1jwOpYCqdDZbS1J6Y",
+      "spotify_url": "https://open.spotify.com/track/0LDcW1jwOpYCqdDZbS1J6Y",
+      "artist": "Kanine, Nu-La",
+      "artists": [
+        "Kanine",
+        "Nu-La"
+      ],
+      "artist_ids": [
+        "1KiNUGL3r0GgyLwqYCY1yV",
+        "4yzrGOiPCcssfpKBT0bnHR"
+      ],
+      "title": "Take Me Away",
+      "album": "Take Me Away",
+      "album_id": "5BvRuLqGxYWgLmSyBBeC5D",
+      "duration_ms": 189257,
+      "isrc": "US38Y2407346",
+      "release_date": "2024-04-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 22,
+      "spotify_uri": "spotify:track:19jVovrS1mj0MQ5a3Fpg8C",
+      "spotify_url": "https://open.spotify.com/track/19jVovrS1mj0MQ5a3Fpg8C",
+      "artist": "AIROD",
+      "artists": [
+        "AIROD"
+      ],
+      "artist_ids": [
+        "3oPI0nOC7MHooFy5qDsFrv"
+      ],
+      "title": "Universe of 90's Techno Parties",
+      "album": "Universe",
+      "album_id": "0FMJ2ekVp4UssnzTD9tnN3",
+      "duration_ms": 476598,
+      "isrc": "TCAEC1961257",
+      "release_date": "2016-11-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 23,
+      "spotify_uri": "spotify:track:4UpFSGGbEvr0A113JLoxDj",
+      "spotify_url": "https://open.spotify.com/track/4UpFSGGbEvr0A113JLoxDj",
+      "artist": "Reinier Zonneveld",
+      "artists": [
+        "Reinier Zonneveld"
+      ],
+      "artist_ids": [
+        "21A7bhIL1m6CNZn8y57PIZ"
+      ],
+      "title": "Acid Incident",
+      "album": "The Summoning EP",
+      "album_id": "4G4LEi24ugxBSiATcvKWeI",
+      "duration_ms": 376171,
+      "isrc": "GBKQU1789684",
+      "release_date": "2017-10-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 24,
+      "spotify_uri": "spotify:track:6NLvW45mqeoctfNA2YmPMr",
+      "spotify_url": "https://open.spotify.com/track/6NLvW45mqeoctfNA2YmPMr",
+      "artist": "KI/KI",
+      "artists": [
+        "KI/KI"
+      ],
+      "artist_ids": [
+        "0UMs6dTf23FC2fHc40fXNS"
+      ],
+      "title": "5 Mins Of Acid",
+      "album": "slash 010 - 5 Mins Of Acid",
+      "album_id": "6pRDiTc1Sc31lLpITNIh0j",
+      "duration_ms": 300000,
+      "isrc": "NLF712404789",
+      "release_date": "2024-05-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 25,
+      "spotify_uri": "spotify:track:5gXKDmafOQ8i4lYr62wxTk",
+      "spotify_url": "https://open.spotify.com/track/5gXKDmafOQ8i4lYr62wxTk",
+      "artist": "Astrix",
+      "artists": [
+        "Astrix"
+      ],
+      "artist_ids": [
+        "3dUltShd2gJQc98Kc7Syit"
+      ],
+      "title": "Deep Jungle Walk",
+      "album": "He.art",
+      "album_id": "0jvgFRnKjvXgK0p4pPSi4Z",
+      "duration_ms": 555704,
+      "isrc": "USA2P1611449",
+      "release_date": "2016-02-29",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 26,
+      "spotify_uri": "spotify:track:7oAM2GxHCTKTLU3gXvkuuj",
+      "spotify_url": "https://open.spotify.com/track/7oAM2GxHCTKTLU3gXvkuuj",
+      "artist": "Klangkuenstler, Obernauer",
+      "artists": [
+        "Klangkuenstler",
+        "Obernauer"
+      ],
+      "artist_ids": [
+        "6H77vD9YyhyxHBTkRpbMBk",
+        "1PDMLYsqcKoGCBaWMTwcpi"
+      ],
+      "title": "Die Welt Brennt",
+      "album": "Die Welt Brennt",
+      "album_id": "44WQTL892sCs09rNu3hSLJ",
+      "duration_ms": 310400,
+      "isrc": "DEY472370378",
+      "release_date": "2023-02-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 27,
+      "spotify_uri": "spotify:track:7jURkEKDVEm9sHueqUX0ko",
+      "spotify_url": "https://open.spotify.com/track/7jURkEKDVEm9sHueqUX0ko",
+      "artist": "Mau P",
+      "artists": [
+        "Mau P"
+      ],
+      "artist_ids": [
+        "0w1sbtZVQoK6GzV4A4OkCv"
+      ],
+      "title": "Gimme That Bounce",
+      "album": "Gimme That Bounce",
+      "album_id": "1aCIYDZTw34CIRq8Vr1VQv",
+      "duration_ms": 217410,
+      "isrc": "NLRD52264071",
+      "release_date": "2023-01-27",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 28,
+      "spotify_uri": "spotify:track:3W7DNPuueVjDUTgocI7WhJ",
+      "spotify_url": "https://open.spotify.com/track/3W7DNPuueVjDUTgocI7WhJ",
+      "artist": "Sub Focus",
+      "artists": [
+        "Sub Focus"
+      ],
+      "artist_ids": [
+        "0QaSiI5TLA4N7mcsdxShDO"
+      ],
+      "title": "Timewarp",
+      "album": "Sub Focus",
+      "album_id": "1puaRzEhhLvXP17jUEGWb3",
+      "duration_ms": 277533,
+      "isrc": "GBBZH0991312",
+      "release_date": "2009-09-14",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 29,
+      "spotify_uri": "spotify:track:6hvA3fjfQdWaZlc74FrahJ",
+      "spotify_url": "https://open.spotify.com/track/6hvA3fjfQdWaZlc74FrahJ",
+      "artist": "KI/KI",
+      "artists": [
+        "KI/KI"
+      ],
+      "artist_ids": [
+        "0UMs6dTf23FC2fHc40fXNS"
+      ],
+      "title": "Don't Stop - drums & acid mix (edit)",
+      "album": "slash 010 - 5 Mins Of Acid",
+      "album_id": "7kPaOFIJ0jqmVtMJBKJpRY",
+      "duration_ms": 216773,
+      "isrc": "NLF712405308",
+      "release_date": "2024-06-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 30,
+      "spotify_uri": "spotify:track:71qJ3uIUHM1QlnXnNYpnD3",
+      "spotify_url": "https://open.spotify.com/track/71qJ3uIUHM1QlnXnNYpnD3",
+      "artist": "DJ HEARTSTRING",
+      "artists": [
+        "DJ HEARTSTRING"
+      ],
+      "artist_ids": [
+        "5tcwaJBUyEdxQxvieuQxU7"
+      ],
+      "title": "Will You Remember Me When I'm Gone?",
+      "album": "4 The People",
+      "album_id": "48mSkcRUZ3yUqbiC2QPE3E",
+      "duration_ms": 399274,
+      "isrc": "UKN6K2100510",
+      "release_date": "2022-01-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 31,
+      "spotify_uri": "spotify:track:3JcUf6mSuB4FMUvjyhCMRP",
+      "spotify_url": "https://open.spotify.com/track/3JcUf6mSuB4FMUvjyhCMRP",
+      "artist": "Marie Vaunt",
+      "artists": [
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "Dark Room",
+      "album": "Dark Room",
+      "album_id": "6fDBWo1qT0GlL9myaWu9fi",
+      "duration_ms": 243639,
+      "isrc": "GBUR62000713",
+      "release_date": "2023-12-01",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 32,
+      "spotify_uri": "spotify:track:5Hh09KHzQ9NRjRd6HIes5R",
+      "spotify_url": "https://open.spotify.com/track/5Hh09KHzQ9NRjRd6HIes5R",
+      "artist": "Sara Landry, Alt8",
+      "artists": [
+        "Sara Landry",
+        "Alt8"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK",
+        "7uS4z6GqvIIdZbVq327Ak9"
+      ],
+      "title": "Heaven",
+      "album": "Heaven",
+      "album_id": "1ZDVL85CeBfljGDtwOVvW9",
+      "duration_ms": 238270,
+      "isrc": "FRX762422912",
+      "release_date": "2024-05-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 33,
+      "spotify_uri": "spotify:track:0RoGOiZUCQyqAZSPBSk75T",
+      "spotify_url": "https://open.spotify.com/track/0RoGOiZUCQyqAZSPBSk75T",
+      "artist": "John Summit",
+      "artists": [
+        "John Summit"
+      ],
+      "artist_ids": [
+        "7kNqXtgeIwFtelmRjWv205"
+      ],
+      "title": "Make Me Feel",
+      "album": "Make Me Feel",
+      "album_id": "37IWL3cLKAFT5EkQiFkDAI",
+      "duration_ms": 201904,
+      "isrc": "CA5KR2133865",
+      "release_date": "2021-03-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 34,
+      "spotify_uri": "spotify:track:5aUXOZP5xQquhXMJLtcwKI",
+      "spotify_url": "https://open.spotify.com/track/5aUXOZP5xQquhXMJLtcwKI",
+      "artist": "Dimension",
+      "artists": [
+        "Dimension"
+      ],
+      "artist_ids": [
+        "1QMgre3BHX161ZHtWMUu6S"
+      ],
+      "title": "Offender",
+      "album": "Organ",
+      "album_id": "5iBrKvwaAYaNph01X36NYA",
+      "duration_ms": 223448,
+      "isrc": "UKFTL1600209",
+      "release_date": "2021-03-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 35,
+      "spotify_uri": "spotify:track:4eCgT57zamkeGKBd7tguAw",
+      "spotify_url": "https://open.spotify.com/track/4eCgT57zamkeGKBd7tguAw",
+      "artist": "Regal, Alien Rain",
+      "artists": [
+        "Regal",
+        "Alien Rain"
+      ],
+      "artist_ids": [
+        "10RlWd6mCUDiRpQ30bGL2E",
+        "7GQjl85wH2NiOpQEFR5QVo"
+      ],
+      "title": "Acid Affair Pt. 1",
+      "album": "Acid Affair",
+      "album_id": "4DxBJSWKU8rSjWjb4ttTo5",
+      "duration_ms": 356267,
+      "isrc": "GBKQU1903004",
+      "release_date": "2019-02-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 36,
+      "spotify_uri": "spotify:track:3QUVgi7fLRKQL5j0irl5jd",
+      "spotify_url": "https://open.spotify.com/track/3QUVgi7fLRKQL5j0irl5jd",
+      "artist": "Michael Bibi",
+      "artists": [
+        "Michael Bibi"
+      ],
+      "artist_ids": [
+        "4cvdQRyHmkSQSakUrW2oxv"
+      ],
+      "title": "Whispers In The Wind",
+      "album": "Whispers In The Wind",
+      "album_id": "6n13FWbhg1ILq1gZmuwT5f",
+      "duration_ms": 368852,
+      "isrc": "GBKQU2190698",
+      "release_date": "2021-08-27",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 37,
+      "spotify_uri": "spotify:track:1aLfpxEUwwrB2zItNq7wrd",
+      "spotify_url": "https://open.spotify.com/track/1aLfpxEUwwrB2zItNq7wrd",
+      "artist": "Funk Tribu",
+      "artists": [
+        "Funk Tribu"
+      ],
+      "artist_ids": [
+        "1vK8NnrPlBlF34LaiFX1SK"
+      ],
+      "title": "Viento",
+      "album": "Viento EP",
+      "album_id": "3hDDHGN0YNff3d31AkRGaV",
+      "duration_ms": 217840,
+      "isrc": "ES74F2400134",
+      "release_date": "2024-12-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 38,
+      "spotify_uri": "spotify:track:2voOlJ0QcTDTDRexSw6bGe",
+      "spotify_url": "https://open.spotify.com/track/2voOlJ0QcTDTDRexSw6bGe",
+      "artist": "Indira Paganotto",
+      "artists": [
+        "Indira Paganotto"
+      ],
+      "artist_ids": [
+        "0JXc5G7ZImFTwPg3y8MTfR"
+      ],
+      "title": "Legend",
+      "album": "Lions of God EP",
+      "album_id": "1v5wnpM3luPZ0KtvsokQhs",
+      "duration_ms": 386501,
+      "isrc": "BE4JP2200021",
+      "release_date": "2022-12-02",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 39,
+      "spotify_uri": "spotify:track:4tAJGE4wi8YAVHyJnSS7qY",
+      "spotify_url": "https://open.spotify.com/track/4tAJGE4wi8YAVHyJnSS7qY",
+      "artist": "Max Styler",
+      "artists": [
+        "Max Styler"
+      ],
+      "artist_ids": [
+        "3NKKngINK1tP6BFy0WOyWk"
+      ],
+      "title": "Hypnotic",
+      "album": "Hypnotic",
+      "album_id": "6aYzUL4lODzPErTtjITFEi",
+      "duration_ms": 200000,
+      "isrc": "US38Y2308530",
+      "release_date": "2023-11-17",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 40,
+      "spotify_uri": "spotify:track:59JR2hlnq86O81r944cZzs",
+      "spotify_url": "https://open.spotify.com/track/59JR2hlnq86O81r944cZzs",
+      "artist": "Jacidorex",
+      "artists": [
+        "Jacidorex"
+      ],
+      "artist_ids": [
+        "0XSNxwt21dxcFTxaYtQjwe"
+      ],
+      "title": "Trave",
+      "album": "Trave",
+      "album_id": "0ChZrLgc8GCpM050lI9Gxj",
+      "duration_ms": 357519,
+      "isrc": "NLCK41069627",
+      "release_date": "2020-07-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 41,
+      "spotify_uri": "spotify:track:4tNCSo5ZDCDWjUnlggKqnU",
+      "spotify_url": "https://open.spotify.com/track/4tNCSo5ZDCDWjUnlggKqnU",
+      "artist": "Pegassi",
+      "artists": [
+        "Pegassi"
+      ],
+      "artist_ids": [
+        "2A4uiWrfuBpVFugyvxAt4c"
+      ],
+      "title": "No Type",
+      "album": "No Type",
+      "album_id": "4yUyghTTQlMlqs162AacBO",
+      "duration_ms": 203684,
+      "isrc": "DEUM72207869",
+      "release_date": "2022-12-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 42,
+      "spotify_uri": "spotify:track:7CSD1uGkVMR1n0EfEU0IlW",
+      "spotify_url": "https://open.spotify.com/track/7CSD1uGkVMR1n0EfEU0IlW",
+      "artist": "Thomas P. Heckmann",
+      "artists": [
+        "Thomas P. Heckmann"
+      ],
+      "artist_ids": [
+        "4QLCqJ3RSF3y6DdvboPk9m"
+      ],
+      "title": "Tanzmaschine",
+      "album": "Knarz - Kapriolen",
+      "album_id": "6voWsC4ziHddqUYJwdb18a",
+      "duration_ms": 406535,
+      "isrc": "DEBL60517062",
+      "release_date": "2013",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 43,
+      "spotify_uri": "spotify:track:3ECPEhKrfboXI6QfbtUhYU",
+      "spotify_url": "https://open.spotify.com/track/3ECPEhKrfboXI6QfbtUhYU",
+      "artist": "Friction",
+      "artists": [
+        "Friction"
+      ],
+      "artist_ids": [
+        "5xdizdgbQQvGAgAolGhpXr"
+      ],
+      "title": "Supersonic",
+      "album": "After Dark",
+      "album_id": "5nY7Z4vvGxGsnPWaiTQa5y",
+      "duration_ms": 225000,
+      "isrc": "GBPWR2200075",
+      "release_date": "2022-09-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 44,
+      "spotify_uri": "spotify:track:547mUztUnMVJNdEhYWtzwY",
+      "spotify_url": "https://open.spotify.com/track/547mUztUnMVJNdEhYWtzwY",
+      "artist": "VCL",
+      "artists": [
+        "VCL"
+      ],
+      "artist_ids": [
+        "5cQmRpjiW1N4Bv4BOIIjtx"
+      ],
+      "title": "Pure Madness",
+      "album": "Pure Madness",
+      "album_id": "0qTOH6zCYPqye1i2oNgVRX",
+      "duration_ms": 340212,
+      "isrc": "QZK6P1997602",
+      "release_date": "2019-12-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 45,
+      "spotify_uri": "spotify:track:3IVrlcM5gDoj3lghHY9m7I",
+      "spotify_url": "https://open.spotify.com/track/3IVrlcM5gDoj3lghHY9m7I",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "Satan Was A Babyboomer",
+      "album": "Satan Was A Babyboomer",
+      "album_id": "42nVxnZ0BD7Vt3sMK0t8Ss",
+      "duration_ms": 427000,
+      "isrc": "QZES92100003",
+      "release_date": "2021-04-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 46,
+      "spotify_uri": "spotify:track:7eu6tCiOMEmtuAKcN5WqtK",
+      "spotify_url": "https://open.spotify.com/track/7eu6tCiOMEmtuAKcN5WqtK",
+      "artist": "Marie Vaunt",
+      "artists": [
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "303 101",
+      "album": "303 101",
+      "album_id": "6HCtACAngzFc9Take9cXNt",
+      "duration_ms": 184645,
+      "isrc": "FR2X42618640",
+      "release_date": "2026-03-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 47,
+      "spotify_uri": "spotify:track:3yDlsbUiSWvViojyF0244u",
+      "spotify_url": "https://open.spotify.com/track/3yDlsbUiSWvViojyF0244u",
+      "artist": "Sara Landry, Alt8",
+      "artists": [
+        "Sara Landry",
+        "Alt8"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK",
+        "7uS4z6GqvIIdZbVq327Ak9"
+      ],
+      "title": "Havana Bounce",
+      "album": "Havana Bounce",
+      "album_id": "78f1sQGjkzuQbS7boCVv8w",
+      "duration_ms": 271968,
+      "isrc": "FRX762558769",
+      "release_date": "2025-08-15",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 48,
+      "spotify_uri": "spotify:track:7C5S4bJtm48HJDL0bAjaYs",
+      "spotify_url": "https://open.spotify.com/track/7C5S4bJtm48HJDL0bAjaYs",
+      "artist": "Hannah Laing, Charlie Sparks (UK)",
+      "artists": [
+        "Hannah Laing",
+        "Charlie Sparks (UK)"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o",
+        "1lsjQdGrRe2D1nmvCVB7JZ"
+      ],
+      "title": "Love Is A Drug",
+      "album": "Love Is A Drug",
+      "album_id": "5riiWgRqgHk8QzhuufwyBR",
+      "duration_ms": 187689,
+      "isrc": "GBUM72502985",
+      "release_date": "2025-06-06",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 49,
+      "spotify_uri": "spotify:track:3wRO9Pt5iPbZTs8YT1x69Q",
+      "spotify_url": "https://open.spotify.com/track/3wRO9Pt5iPbZTs8YT1x69Q",
+      "artist": "Mau P",
+      "artists": [
+        "Mau P"
+      ],
+      "artist_ids": [
+        "0w1sbtZVQoK6GzV4A4OkCv"
+      ],
+      "title": "Just A Little Bit More",
+      "album": "Just A Little Bit More",
+      "album_id": "1tahMnSGCdaf45wlxB3szC",
+      "duration_ms": 214038,
+      "isrc": "USUG12608701",
+      "release_date": "2026-09-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 50,
+      "spotify_uri": "spotify:track:4hphReh7hXDCFb14FfB7n1",
+      "spotify_url": "https://open.spotify.com/track/4hphReh7hXDCFb14FfB7n1",
+      "artist": "Sub Focus, Grimes",
+      "artists": [
+        "Sub Focus",
+        "Grimes"
+      ],
+      "artist_ids": [
+        "0QaSiI5TLA4N7mcsdxShDO",
+        "053q0ukIDRgzwTr4vNSwab"
+      ],
+      "title": "Entwined",
+      "album": "Entwined",
+      "album_id": "4M45TZxg8HtnBwCDyqOb6B",
+      "duration_ms": 220689,
+      "isrc": "GBUM72505342",
+      "release_date": "2025-10-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 51,
+      "spotify_uri": "spotify:track:3gJ16QEGGhLFPNLvbXgB1u",
+      "spotify_url": "https://open.spotify.com/track/3gJ16QEGGhLFPNLvbXgB1u",
+      "artist": "KI/KI, Marlon Hoffstadt",
+      "artists": [
+        "KI/KI",
+        "Marlon Hoffstadt"
+      ],
+      "artist_ids": [
+        "0UMs6dTf23FC2fHc40fXNS",
+        "0HHa7ZJZxUQlg5l2mB0N0f"
+      ],
+      "title": "Losing Control",
+      "album": "Losing Control",
+      "album_id": "4x4LKLSlnUfLVCHKDmD9LV",
+      "duration_ms": 170270,
+      "isrc": "USUG12505959",
+      "release_date": "2025-08-08",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 52,
+      "spotify_uri": "spotify:track:6IDywtwTrAkEsmJkPSNs27",
+      "spotify_url": "https://open.spotify.com/track/6IDywtwTrAkEsmJkPSNs27",
+      "artist": "Klangkuenstler, Sant",
+      "artists": [
+        "Klangkuenstler",
+        "Sant"
+      ],
+      "artist_ids": [
+        "6H77vD9YyhyxHBTkRpbMBk",
+        "0mgoNP0DrkKktInN298H4u"
+      ],
+      "title": "Toter Schmetterling - Single Edit",
+      "album": "Toter Schmetterling",
+      "album_id": "4TIt20JTmC6Vr99zuoSQlf",
+      "duration_ms": 164615,
+      "isrc": "DEUM72500456",
+      "release_date": "2025-02-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 53,
+      "spotify_uri": "spotify:track:21kPwrdkfoolgxjiRQeGiH",
+      "spotify_url": "https://open.spotify.com/track/21kPwrdkfoolgxjiRQeGiH",
+      "artist": "Odymel, Funk Tribu",
+      "artists": [
+        "Odymel",
+        "Funk Tribu"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA",
+        "1vK8NnrPlBlF34LaiFX1SK"
+      ],
+      "title": "Forbidden Voices",
+      "album": "Forbidden Voices",
+      "album_id": "7o06LXJpKCaA1zUcw4hDF5",
+      "duration_ms": 200166,
+      "isrc": "DEUM72413736",
+      "release_date": "2025-01-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 54,
+      "spotify_uri": "spotify:track:5pSUxTYDsOoGhzyCW4aXCL",
+      "spotify_url": "https://open.spotify.com/track/5pSUxTYDsOoGhzyCW4aXCL",
+      "artist": "John Summit, HAYLA",
+      "artists": [
+        "John Summit",
+        "HAYLA"
+      ],
+      "artist_ids": [
+        "7kNqXtgeIwFtelmRjWv205",
+        "4yX6mpMyBGf9UfvBB8JJrc"
+      ],
+      "title": "Where You Are",
+      "album": "Where You Are (Zedd Remix)",
+      "album_id": "2QQVFNpjeX32mDhDi3Ad1B",
+      "duration_ms": 236000,
+      "isrc": "USUG12301338",
+      "release_date": "2023-07-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 55,
+      "spotify_uri": "spotify:track:58zjm1gLaHPdFSTCzh6Ehf",
+      "spotify_url": "https://open.spotify.com/track/58zjm1gLaHPdFSTCzh6Ehf",
+      "artist": "Jacidorex",
+      "artists": [
+        "Jacidorex"
+      ],
+      "artist_ids": [
+        "0XSNxwt21dxcFTxaYtQjwe"
+      ],
+      "title": "Funk Acid",
+      "album": "ACID BOUNCE EP",
+      "album_id": "4fUO4fNQvgemfEJFnseCyQ",
+      "duration_ms": 274064,
+      "isrc": "NLCK42505654",
+      "release_date": "2025-05-02",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 56,
+      "spotify_uri": "spotify:track:6KZsffg6OXQPOXOIszb5HK",
+      "spotify_url": "https://open.spotify.com/track/6KZsffg6OXQPOXOIszb5HK",
+      "artist": "Novah",
+      "artists": [
+        "Novah"
+      ],
+      "artist_ids": [
+        "7qvjUtp2ccRD9AiDnukyFF"
+      ],
+      "title": "Rave Kid",
+      "album": "Rave Kid",
+      "album_id": "4bmleREWHhjbxCviUJ6F12",
+      "duration_ms": 204387,
+      "isrc": "BE5KW2601028",
+      "release_date": "2026-03-13",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 57,
+      "spotify_uri": "spotify:track:0Yfb937yM0d5f6os0W9IWc",
+      "spotify_url": "https://open.spotify.com/track/0Yfb937yM0d5f6os0W9IWc",
+      "artist": "Pegassi",
+      "artists": [
+        "Pegassi"
+      ],
+      "artist_ids": [
+        "2A4uiWrfuBpVFugyvxAt4c"
+      ],
+      "title": "Spectral Bells",
+      "album": "Spectral Bells",
+      "album_id": "6FCFFeBXGGIDxeREDbDKJP",
+      "duration_ms": 193907,
+      "isrc": "DEUM72503978",
+      "release_date": "2025-05-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 58,
+      "spotify_uri": "spotify:track:4I4LIjM7gHmIFQ210Ycx2j",
+      "spotify_url": "https://open.spotify.com/track/4I4LIjM7gHmIFQ210Ycx2j",
+      "artist": "Lilly Palmer",
+      "artists": [
+        "Lilly Palmer"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU"
+      ],
+      "title": "Hype Boy",
+      "album": "Hype Boy",
+      "album_id": "1SPxEjHts5HlArNh5saCm2",
+      "duration_ms": 196941,
+      "isrc": "DEN062400680",
+      "release_date": "2024-10-11",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 59,
+      "spotify_uri": "spotify:track:7yZ21ZsAUHsoKQozwfrLo1",
+      "spotify_url": "https://open.spotify.com/track/7yZ21ZsAUHsoKQozwfrLo1",
+      "artist": "BENNETT, Creeds",
+      "artists": [
+        "BENNETT",
+        "Creeds"
+      ],
+      "artist_ids": [
+        "1r43wW70tnGUauQYvY5w48",
+        "2gW0M5fn2r7Lo4Hn1r8HZ5"
+      ],
+      "title": "Milky Way",
+      "album": "Milky Way",
+      "album_id": "4UagjNEJgp7hg9O46irhE0",
+      "duration_ms": 171870,
+      "isrc": "DEA622502720",
+      "release_date": "2025-08-08",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 60,
+      "spotify_uri": "spotify:track:5vu69csqeUJheoQWPd2MoM",
+      "spotify_url": "https://open.spotify.com/track/5vu69csqeUJheoQWPd2MoM",
+      "artist": "Chris Lake, Skrillex, ANITA B QUEEN",
+      "artists": [
+        "Chris Lake",
+        "Skrillex",
+        "ANITA B QUEEN"
+      ],
+      "artist_ids": [
+        "5Igpc9iLZ3YGtKeYfSrrOE",
+        "5he5w2lnU9x7JFhnwcekXX",
+        "2YcZup1n6AW4BxoikeUswf"
+      ],
+      "title": "LA NOCHE",
+      "album": "LA NOCHE",
+      "album_id": "3iBDg8qZiUWJy0kiZHI3Cv",
+      "duration_ms": 212244,
+      "isrc": "GXFCP2500283",
+      "release_date": "2025-10-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 61,
+      "spotify_uri": "spotify:track:3aTOR9GP22TN2YVvmKbk8e",
+      "spotify_url": "https://open.spotify.com/track/3aTOR9GP22TN2YVvmKbk8e",
+      "artist": "Nico Moreno, Laren",
+      "artists": [
+        "Nico Moreno",
+        "Laren"
+      ],
+      "artist_ids": [
+        "6fjhNhp9IoeiZpEXq9AT2S",
+        "6ScQdKv62h1YalS7o7FhsS"
+      ],
+      "title": "You Make Me Horny",
+      "album": "You Can't Stop The Movement",
+      "album_id": "7axSOVM8XiPrr2qGqBMLCV",
+      "duration_ms": 294321,
+      "isrc": "FXR752302857",
+      "release_date": "2024-04-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 62,
+      "spotify_uri": "spotify:track:6v7konxFReKxhPmx1E3YVi",
+      "spotify_url": "https://open.spotify.com/track/6v7konxFReKxhPmx1E3YVi",
+      "artist": "Armin van Buuren, KI/KI",
+      "artists": [
+        "Armin van Buuren",
+        "KI/KI"
+      ],
+      "artist_ids": [
+        "0SfsnGyD8FpIN4U4WCkBZ5",
+        "0UMs6dTf23FC2fHc40fXNS"
+      ],
+      "title": "Put Your Bassline",
+      "album": "Put Your Bassline",
+      "album_id": "750UnvZhF9exbKIEsxyfxA",
+      "duration_ms": 151232,
+      "isrc": "NLF712506632",
+      "release_date": "2025-10-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 63,
+      "spotify_uri": "spotify:track:4qrBAShPdBpxCe0Yl2DXYT",
+      "spotify_url": "https://open.spotify.com/track/4qrBAShPdBpxCe0Yl2DXYT",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "Europaträume",
+      "album": "GOODBYE SALÒ",
+      "album_id": "4kiB2fjPSRxYhqfFA1dSV1",
+      "duration_ms": 216726,
+      "isrc": "DEE862400033",
+      "release_date": "2024-07-19",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 64,
+      "spotify_uri": "spotify:track:0qA6wKcQYhAyD2z6MUgmG8",
+      "spotify_url": "https://open.spotify.com/track/0qA6wKcQYhAyD2z6MUgmG8",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "Hot Stuff",
+      "album": "Hot Stuff / Touch My Body EP",
+      "album_id": "1SGPnz59hUSnFknOA3oNNk",
+      "duration_ms": 244800,
+      "isrc": "QM6N22445621",
+      "release_date": "2024-05-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 65,
+      "spotify_uri": "spotify:track:61MjXNg2S8RRSsVdhoN66B",
+      "spotify_url": "https://open.spotify.com/track/61MjXNg2S8RRSsVdhoN66B",
+      "artist": "Amelie Lens",
+      "artists": [
+        "Amelie Lens"
+      ],
+      "artist_ids": [
+        "5Ho1vKl1Uz8bJlk4vbmvmf"
+      ],
+      "title": "Underneath The Strobelights",
+      "album": "Underneath The Strobelights",
+      "album_id": "6c2efpTqmZ8CkD1cN746gv",
+      "duration_ms": 280400,
+      "isrc": "BEN582400471",
+      "release_date": "2024-07-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 66,
+      "spotify_uri": "spotify:track:4ktcbbBk74auxHPsF36Te2",
+      "spotify_url": "https://open.spotify.com/track/4ktcbbBk74auxHPsF36Te2",
+      "artist": "FLKN",
+      "artists": [
+        "FLKN"
+      ],
+      "artist_ids": [
+        "3OyQ9AeMFgwKFHUgBOISww"
+      ],
+      "title": "The Light",
+      "album": "The Light",
+      "album_id": "7CIcQdJxVjOdAicufiYbyp",
+      "duration_ms": 227710,
+      "isrc": "QMFMG2504362",
+      "release_date": "2025-11-14",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 67,
+      "spotify_uri": "spotify:track:0sc94v4bi5XGSPSjjXK0Zh",
+      "spotify_url": "https://open.spotify.com/track/0sc94v4bi5XGSPSjjXK0Zh",
+      "artist": "Lilly Palmer, Maddix",
+      "artists": [
+        "Lilly Palmer",
+        "Maddix"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU",
+        "0RMeG9M8QFzss9bAbq99KA"
+      ],
+      "title": "Late At Night",
+      "album": "Late At Night",
+      "album_id": "0QlZatFyE1W9Mo9p1fMzfG",
+      "duration_ms": 156400,
+      "isrc": "DEN062500321",
+      "release_date": "2025-06-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 68,
+      "spotify_uri": "spotify:track:2LeD99mZGcnoDcPMVDGuGZ",
+      "spotify_url": "https://open.spotify.com/track/2LeD99mZGcnoDcPMVDGuGZ",
+      "artist": "DEATHPIXIE, T78",
+      "artists": [
+        "DEATHPIXIE",
+        "T78"
+      ],
+      "artist_ids": [
+        "5uzPIJDzWAujemRDKiJMRj",
+        "5FgLkieOqGXPn01dnbJp9Z"
+      ],
+      "title": "WELCOME TO THE FREAKSHOW",
+      "album": "WELCOME TO THE FREAKSHOW",
+      "album_id": "1MNnZm29VThrcJQ5yIH3hY",
+      "duration_ms": 187200,
+      "isrc": "CA5KR2543735",
+      "release_date": "2025-08-08",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 69,
+      "spotify_uri": "spotify:track:068Qw30wzwelxZh2WTGd2Y",
+      "spotify_url": "https://open.spotify.com/track/068Qw30wzwelxZh2WTGd2Y",
+      "artist": "Sara Landry, Veseli",
+      "artists": [
+        "Sara Landry",
+        "Veseli"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK",
+        "50s52gIdkQNpkt7iKWrvjY"
+      ],
+      "title": "The Morrigan",
+      "album": "COVEN, Vol. 4",
+      "album_id": "4jKprGcDpRb8dKSDNF7BcY",
+      "duration_ms": 361762,
+      "isrc": "FR2X42404624",
+      "release_date": "2024-02-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 70,
+      "spotify_uri": "spotify:track:7ASQWCYtKa2JD2oz9LWkA2",
+      "spotify_url": "https://open.spotify.com/track/7ASQWCYtKa2JD2oz9LWkA2",
+      "artist": "Marie Vaunt",
+      "artists": [
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "Let the Bass Kick",
+      "album": "Let the Bass Kick",
+      "album_id": "1YE4DRmquv66glbyTpY2ul",
+      "duration_ms": 146100,
+      "isrc": "DGA082549006",
+      "release_date": "2026-01-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 71,
+      "spotify_uri": "spotify:track:6ADqCMquakkzUyNySnqpGD",
+      "spotify_url": "https://open.spotify.com/track/6ADqCMquakkzUyNySnqpGD",
+      "artist": "Nicolas Julian, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "Beat Back",
+      "album": "Beat Back",
+      "album_id": "6l8lI7hXZaHyALUnIJlwnc",
+      "duration_ms": 149610,
+      "isrc": "DEXW62500134",
+      "release_date": "2025-05-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 72,
+      "spotify_uri": "spotify:track:6quk1l5mfPvFxjskO1oQQ0",
+      "spotify_url": "https://open.spotify.com/track/6quk1l5mfPvFxjskO1oQQ0",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "Vitamin C",
+      "album": "ENDLESS RECESS",
+      "album_id": "3OhzYZ9lAGHFevjvIMZUF6",
+      "duration_ms": 341721,
+      "isrc": "DEUM72510551",
+      "release_date": "2025-12-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 73,
+      "spotify_uri": "spotify:track:4zr7hfFkbtPBUc9c1CeJN6",
+      "spotify_url": "https://open.spotify.com/track/4zr7hfFkbtPBUc9c1CeJN6",
+      "artist": "Sara Landry, Nico Moreno",
+      "artists": [
+        "Sara Landry",
+        "Nico Moreno"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK",
+        "6fjhNhp9IoeiZpEXq9AT2S"
+      ],
+      "title": "Because They Want Our Seat",
+      "album": "Because They Want Our Seat",
+      "album_id": "1caYLb8S3J4A2IdGzxXRV9",
+      "duration_ms": 231700,
+      "isrc": "DGA092432220",
+      "release_date": "2024-09-06",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 74,
+      "spotify_uri": "spotify:track:6MBCIz3ryX6INVwCXmMKHi",
+      "spotify_url": "https://open.spotify.com/track/6MBCIz3ryX6INVwCXmMKHi",
+      "artist": "Marie Vaunt, FLKN",
+      "artists": [
+        "Marie Vaunt",
+        "FLKN"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5",
+        "3OyQ9AeMFgwKFHUgBOISww"
+      ],
+      "title": "Addicted to You",
+      "album": "Addicted to You",
+      "album_id": "4YhgeoxIF0rz7hqRXhNcEm",
+      "duration_ms": 195600,
+      "isrc": "NL8RL2573791",
+      "release_date": "2025-12-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 75,
+      "spotify_uri": "spotify:track:0DCww2GYu19yuoVhu5dKRp",
+      "spotify_url": "https://open.spotify.com/track/0DCww2GYu19yuoVhu5dKRp",
+      "artist": "Nicolas Julian, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "Rock This Place",
+      "album": "Rock This Place",
+      "album_id": "4ZZDMfnEoX43Vfz6IEYDTk",
+      "duration_ms": 130632,
+      "isrc": "DEXW62500067",
+      "release_date": "2025-04-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 76,
+      "spotify_uri": "spotify:track:4zmDjQo7YG1l2oHsOpAn5U",
+      "spotify_url": "https://open.spotify.com/track/4zmDjQo7YG1l2oHsOpAn5U",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "Gucci but different",
+      "album": "Gucci but different",
+      "album_id": "3YShgfkP2gTWQWXKDIgm4e",
+      "duration_ms": 302400,
+      "isrc": "QM6P42486172",
+      "release_date": "2024-07-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 77,
+      "spotify_uri": "spotify:track:2IqFYZ4Vocia7PmzEZh67r",
+      "spotify_url": "https://open.spotify.com/track/2IqFYZ4Vocia7PmzEZh67r",
+      "artist": "Eli Brown, LUSU, Sarah de Warren, Wiwek, Mike Cervello",
+      "artists": [
+        "Eli Brown",
+        "LUSU",
+        "Sarah de Warren",
+        "Wiwek",
+        "Mike Cervello"
+      ],
+      "artist_ids": [
+        "5lVNSw2GPci8kebrAQpZqU",
+        "4bd80C9zdBA4vYZEJv7C4s",
+        "2V431yZGG08uroH2CZAgur",
+        "4b2v3PBjJJCF2BX14lIAsT",
+        "4zYX8Aa744hQ5O2hpAYQI3"
+      ],
+      "title": "Escape From Planet Monday",
+      "album": "Escape From Planet Monday",
+      "album_id": "6jCSQjMDY7imZ95OUQNdeD",
+      "duration_ms": 194571,
+      "isrc": "UKRPL1900841",
+      "release_date": "2024-10-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 78,
+      "spotify_uri": "spotify:track:3j17V2ltFQ6XBs9tPljYCb",
+      "spotify_url": "https://open.spotify.com/track/3j17V2ltFQ6XBs9tPljYCb",
+      "artist": "Lilly Palmer",
+      "artists": [
+        "Lilly Palmer"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU"
+      ],
+      "title": "TECHY MF",
+      "album": "TECHY MF",
+      "album_id": "3wdsImiyiJLpawSLSaXscX",
+      "duration_ms": 174240,
+      "isrc": "DEN062500592",
+      "release_date": "2025-09-26",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 79,
+      "spotify_uri": "spotify:track:6GJUsoUQG6fDz5yFyTyfxW",
+      "spotify_url": "https://open.spotify.com/track/6GJUsoUQG6fDz5yFyTyfxW",
+      "artist": "Maddix",
+      "artists": [
+        "Maddix"
+      ],
+      "artist_ids": [
+        "0RMeG9M8QFzss9bAbq99KA"
+      ],
+      "title": "Move It 2 The Drum",
+      "album": "Move It 2 The Drum",
+      "album_id": "415ILB52mOjN4EuM0fYZeR",
+      "duration_ms": 155159,
+      "isrc": "NL8RL2558542",
+      "release_date": "2025-10-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 80,
+      "spotify_uri": "spotify:track:5Wh4muJUACdmV1HeOqzfGr",
+      "spotify_url": "https://open.spotify.com/track/5Wh4muJUACdmV1HeOqzfGr",
+      "artist": "Basswell",
+      "artists": [
+        "Basswell"
+      ],
+      "artist_ids": [
+        "4NzdIkiweEHJgVdg8q2Ruk"
+      ],
+      "title": "Party Everyday",
+      "album": "Party Everyday",
+      "album_id": "5TsHCZoXt7BCvN3l1cPNGC",
+      "duration_ms": 220513,
+      "isrc": "FR10S2425477",
+      "release_date": "2024-01-25",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 81,
+      "spotify_uri": "spotify:track:0ZVjgfaC2Ptrod9v6p9KFP",
+      "spotify_url": "https://open.spotify.com/track/0ZVjgfaC2Ptrod9v6p9KFP",
+      "artist": "Hannah Laing, RoRo",
+      "artists": [
+        "Hannah Laing",
+        "RoRo"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o",
+        "4AuHHsxMRVg7bXSgvlrAff"
+      ],
+      "title": "Good Love",
+      "album": "Good Love",
+      "album_id": "4SCAkvXJmXuvoQTlQU7Q48",
+      "duration_ms": 169534,
+      "isrc": "GBUM72304092",
+      "release_date": "2023-05-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 82,
+      "spotify_uri": "spotify:track:21RSilSHrlo6Rwe7kxYOgU",
+      "spotify_url": "https://open.spotify.com/track/21RSilSHrlo6Rwe7kxYOgU",
+      "artist": "Novah, Teletech",
+      "artists": [
+        "Novah",
+        "Teletech"
+      ],
+      "artist_ids": [
+        "2dJdh6BQG4KGiIapNTTxom",
+        "30tToHC6q3nB7Lious0MZW"
+      ],
+      "title": "Dancefloor",
+      "album": "Hardcore, Vol. 2",
+      "album_id": "1gA49sePABStp57eRHOKZo",
+      "duration_ms": 274806,
+      "isrc": "DEH742418095",
+      "release_date": "2024-05-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 83,
+      "spotify_uri": "spotify:track:50aNLhnlmcuJQ2iF7Bpd6q",
+      "spotify_url": "https://open.spotify.com/track/50aNLhnlmcuJQ2iF7Bpd6q",
+      "artist": "Basswell, DEV",
+      "artists": [
+        "Basswell",
+        "DEV"
+      ],
+      "artist_ids": [
+        "4NzdIkiweEHJgVdg8q2Ruk",
+        "7Ip2u3e5Nv6fFb5xyIHxEE"
+      ],
+      "title": "Kick Bass In Your Face",
+      "album": "Kick Bass In Your Face",
+      "album_id": "0MKm3xNFKPhhDGc16DoT3G",
+      "duration_ms": 164053,
+      "isrc": "DGA092441991",
+      "release_date": "2024-09-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 84,
+      "spotify_uri": "spotify:track:5Q7g7bfuumI3oF9GaVtxWP",
+      "spotify_url": "https://open.spotify.com/track/5Q7g7bfuumI3oF9GaVtxWP",
+      "artist": "Hannah Laing, rhys from the sticks",
+      "artists": [
+        "Hannah Laing",
+        "rhys from the sticks"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o",
+        "4tmqN5uP0Aj50ylHgfwvVa"
+      ],
+      "title": "4am In A Rave (feat. rhys from the sticks)",
+      "album": "4am In A Rave / Speed Is A Deed",
+      "album_id": "7ngZxqJrBFRp5ijYA68orJ",
+      "duration_ms": 147121,
+      "isrc": "US38Y2513003",
+      "release_date": "2025-03-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 85,
+      "spotify_uri": "spotify:track:4EsavgpURrEl7jmWjLSsEO",
+      "spotify_url": "https://open.spotify.com/track/4EsavgpURrEl7jmWjLSsEO",
+      "artist": "Novah",
+      "artists": [
+        "Novah"
+      ],
+      "artist_ids": [
+        "7qvjUtp2ccRD9AiDnukyFF"
+      ],
+      "title": "Inner Odyssey",
+      "album": "Inner Odyssey",
+      "album_id": "205MlKunynV5xMHXkwmkZI",
+      "duration_ms": 343842,
+      "isrc": "BEN582400472",
+      "release_date": "2024-07-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 86,
+      "spotify_uri": "spotify:track:4nOOoo9OJbgnTBNHe5b6nD",
+      "spotify_url": "https://open.spotify.com/track/4nOOoo9OJbgnTBNHe5b6nD",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "Romantika",
+      "album": "Eros Massacre",
+      "album_id": "0ZVpEzmv3wYLL1waCPPf7V",
+      "duration_ms": 250145,
+      "isrc": "QZHN72225465",
+      "release_date": "2022-04-29",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 87,
+      "spotify_uri": "spotify:track:14896rLkWF8L1oaaMiMGBQ",
+      "spotify_url": "https://open.spotify.com/track/14896rLkWF8L1oaaMiMGBQ",
+      "artist": "BENNETT",
+      "artists": [
+        "BENNETT"
+      ],
+      "artist_ids": [
+        "1r43wW70tnGUauQYvY5w48"
+      ],
+      "title": "Iced Lips",
+      "album": "Iced Lips",
+      "album_id": "3B38JWfPV8tzWBwB2tOHg1",
+      "duration_ms": 139462,
+      "isrc": "DEA622501947",
+      "release_date": "2025-06-06",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 88,
+      "spotify_uri": "spotify:track:25xqUhCDGyJejMANoigvrI",
+      "spotify_url": "https://open.spotify.com/track/25xqUhCDGyJejMANoigvrI",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "JE N'EXISTE PAS",
+      "album": "ULTRAKUNST",
+      "album_id": "1OegF0mIizsl36EVw1y1SW",
+      "duration_ms": 280226,
+      "isrc": "DEZC62331828",
+      "release_date": "2023-04-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 89,
+      "spotify_uri": "spotify:track:3AjSfp5FDvwtMU9XBsbS8j",
+      "spotify_url": "https://open.spotify.com/track/3AjSfp5FDvwtMU9XBsbS8j",
+      "artist": "Creeds",
+      "artists": [
+        "Creeds"
+      ],
+      "artist_ids": [
+        "2gW0M5fn2r7Lo4Hn1r8HZ5"
+      ],
+      "title": "Push Up - Main Edit",
+      "album": "Push Up (Main Edit)",
+      "album_id": "3v5BP6gPT1nNU9rjs57fF0",
+      "duration_ms": 139300,
+      "isrc": "DEE862300564",
+      "release_date": "2023-03-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 90,
+      "spotify_uri": "spotify:track:2Mylb9ROYu94DkacXfc1OT",
+      "spotify_url": "https://open.spotify.com/track/2Mylb9ROYu94DkacXfc1OT",
+      "artist": "Restricted, Nik Sitz",
+      "artists": [
+        "Restricted",
+        "Nik Sitz"
+      ],
+      "artist_ids": [
+        "7mx6iGwPF157vXwYcl1DQ3",
+        "4HihOLMje7U0pcQ7hvC6Bm"
+      ],
+      "title": "Tunnel Vision",
+      "album": "Tunnel Vision",
+      "album_id": "0U7ZjbHPp63tMGqLrLfAp8",
+      "duration_ms": 241515,
+      "isrc": "GX5MX2408440",
+      "release_date": "2024-08-15",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 91,
+      "spotify_uri": "spotify:track:4jSP5Ep7hs2dS62ljfB5dy",
+      "spotify_url": "https://open.spotify.com/track/4jSP5Ep7hs2dS62ljfB5dy",
+      "artist": "Gonzi, Creeds",
+      "artists": [
+        "Gonzi",
+        "Creeds"
+      ],
+      "artist_ids": [
+        "5QahAoa4CrRbxmriKGacoe",
+        "2gW0M5fn2r7Lo4Hn1r8HZ5"
+      ],
+      "title": "Donkers - Original Mix",
+      "album": "Donkers",
+      "album_id": "7wutgb6i8vQgYXA0uVX95i",
+      "duration_ms": 304500,
+      "isrc": "GBKQU2348557",
+      "release_date": "2024-02-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 92,
+      "spotify_uri": "spotify:track:6CT6bVRGscsD9hzkNtQetQ",
+      "spotify_url": "https://open.spotify.com/track/6CT6bVRGscsD9hzkNtQetQ",
+      "artist": "ZAPRAVKA",
+      "artists": [
+        "ZAPRAVKA"
+      ],
+      "artist_ids": [
+        "4oCaLmRVMM4Ck4VGrmh4VC"
+      ],
+      "title": "ЗАВОД",
+      "album": "ЗАВОД",
+      "album_id": "7bWwvvjlV9IWt12j1dr1W4",
+      "duration_ms": 123000,
+      "isrc": "DGA0Q2372612",
+      "release_date": "2023-12-15",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 93,
+      "spotify_uri": "spotify:track:7psdTf0Mxwqde58q38X6Rm",
+      "spotify_url": "https://open.spotify.com/track/7psdTf0Mxwqde58q38X6Rm",
+      "artist": "ZAPRAVKA",
+      "artists": [
+        "ZAPRAVKA"
+      ],
+      "artist_ids": [
+        "4oCaLmRVMM4Ck4VGrmh4VC"
+      ],
+      "title": "PER 3 DOSE",
+      "album": "PER 3 DOSE",
+      "album_id": "5oDoVdIJfMLW3cdPxxKwZ6",
+      "duration_ms": 133500,
+      "isrc": "DGA0H2415210",
+      "release_date": "2024-09-13",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 94,
+      "spotify_uri": "spotify:track:6pNLxfWv2hXrAUyjQFB4tZ",
+      "spotify_url": "https://open.spotify.com/track/6pNLxfWv2hXrAUyjQFB4tZ",
+      "artist": "Nicolas Julian",
+      "artists": [
+        "Nicolas Julian"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb"
+      ],
+      "title": "Play With Me",
+      "album": "Play With Me",
+      "album_id": "5x6hgcOy9m8ygulGEt5tkY",
+      "duration_ms": 133846,
+      "isrc": "DEXW62500311",
+      "release_date": "2025-11-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 95,
+      "spotify_uri": "spotify:track:5CXP7Z4doGPLqAlka8gS5t",
+      "spotify_url": "https://open.spotify.com/track/5CXP7Z4doGPLqAlka8gS5t",
+      "artist": "Hannah Laing",
+      "artists": [
+        "Hannah Laing"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o"
+      ],
+      "title": "Speed Is A Deed",
+      "album": "4am In A Rave / Speed Is A Deed",
+      "album_id": "7ngZxqJrBFRp5ijYA68orJ",
+      "duration_ms": 169778,
+      "isrc": "US38Y2513004",
+      "release_date": "2025-03-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 96,
+      "spotify_uri": "spotify:track:2quJCirmxL0onIdjhmX5ml",
+      "spotify_url": "https://open.spotify.com/track/2quJCirmxL0onIdjhmX5ml",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "DIE LIEBE KOMMT NICHT AUS BERLIN",
+      "album": "ULTRAKUNST",
+      "album_id": "1OegF0mIizsl36EVw1y1SW",
+      "duration_ms": 206626,
+      "isrc": "DEZC62329859",
+      "release_date": "2023-04-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 97,
+      "spotify_uri": "spotify:track:5uwZckbAAvmxRSchh5FMVz",
+      "spotify_url": "https://open.spotify.com/track/5uwZckbAAvmxRSchh5FMVz",
+      "artist": "Nicolas Julian, Lex Ledu",
+      "artists": [
+        "Nicolas Julian",
+        "Lex Ledu"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "4F0a2Vk6M0lPjpzxWl2POl"
+      ],
+      "title": "All I Wanna",
+      "album": "All I Wanna",
+      "album_id": "6uDcJQlVojGHLoMS8lbhM9",
+      "duration_ms": 130064,
+      "isrc": "DEXW62400315",
+      "release_date": "2024-10-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 98,
+      "spotify_uri": "spotify:track:5FyugvX0og6OA1s2NUBK6L",
+      "spotify_url": "https://open.spotify.com/track/5FyugvX0og6OA1s2NUBK6L",
+      "artist": "Hannah Laing",
+      "artists": [
+        "Hannah Laing"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o"
+      ],
+      "title": "FWTDJ (All Night Long)",
+      "album": "FWTDJ (All Night Long)",
+      "album_id": "1u70efS1IicS42qnwzlWxC",
+      "duration_ms": 174428,
+      "isrc": "QZS672482294",
+      "release_date": "2024-02-23",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 99,
+      "spotify_uri": "spotify:track:67aNGns9ZH1jm6nruyzBGU",
+      "spotify_url": "https://open.spotify.com/track/67aNGns9ZH1jm6nruyzBGU",
+      "artist": "BENNETT",
+      "artists": [
+        "BENNETT"
+      ],
+      "artist_ids": [
+        "1r43wW70tnGUauQYvY5w48"
+      ],
+      "title": "Lullaby",
+      "album": "Lullaby",
+      "album_id": "4g4GBQonQG0zVjMWIPfxuy",
+      "duration_ms": 187394,
+      "isrc": "DEA622400680",
+      "release_date": "2024-04-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 100,
+      "spotify_uri": "spotify:track:6PX2qpWBfmHKRifdeMSM9i",
+      "spotify_url": "https://open.spotify.com/track/6PX2qpWBfmHKRifdeMSM9i",
+      "artist": "Gonzi",
+      "artists": [
+        "Gonzi"
+      ],
+      "artist_ids": [
+        "5QahAoa4CrRbxmriKGacoe"
+      ],
+      "title": "BEATBACK",
+      "album": "BEATBACK",
+      "album_id": "3jvqAOD3lA3YTVNsNDVs1W",
+      "duration_ms": 222000,
+      "isrc": "GBKQU2394229",
+      "release_date": "2023-11-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 101,
+      "spotify_uri": "spotify:track:31nfdEooLEq7dn3UMcIeB5",
+      "spotify_url": "https://open.spotify.com/track/31nfdEooLEq7dn3UMcIeB5",
+      "artist": "BENNETT",
+      "artists": [
+        "BENNETT"
+      ],
+      "artist_ids": [
+        "1r43wW70tnGUauQYvY5w48"
+      ],
+      "title": "Vois sur ton chemin - Techno Mix",
+      "album": "Vois sur ton chemin (Techno Mix)",
+      "album_id": "79Cyc8GRWnLyjdJSMyJ0dB",
+      "duration_ms": 178156,
+      "isrc": "DEA622301801",
+      "release_date": "2023-08-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 102,
+      "spotify_uri": "spotify:track:03neM3HWo29PTZ4OVVUyv3",
+      "spotify_url": "https://open.spotify.com/track/03neM3HWo29PTZ4OVVUyv3",
+      "artist": "ZAPRAVKA, CERES",
+      "artists": [
+        "ZAPRAVKA",
+        "CERES"
+      ],
+      "artist_ids": [
+        "4oCaLmRVMM4Ck4VGrmh4VC",
+        "32kPQzj1rk4nnGIIJpIUic"
+      ],
+      "title": "I Feel",
+      "album": "I Feel",
+      "album_id": "6ZaXuqLxGYtBJoKePPSnNb",
+      "duration_ms": 140468,
+      "isrc": "GX4R52438738",
+      "release_date": "2024-07-25",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 103,
+      "spotify_uri": "spotify:track:5qYT2yz53B2yb5wK7f4goK",
+      "spotify_url": "https://open.spotify.com/track/5qYT2yz53B2yb5wK7f4goK",
+      "artist": "Marie Vaunt",
+      "artists": [
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "That Acid",
+      "album": "That Acid",
+      "album_id": "1fh6gxJ1fnPhfOosqj20yL",
+      "duration_ms": 145600,
+      "isrc": "NL8RL2527997",
+      "release_date": "2025-06-27",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 104,
+      "spotify_uri": "spotify:track:3tYYypENWxaS1DKUtcH8S8",
+      "spotify_url": "https://open.spotify.com/track/3tYYypENWxaS1DKUtcH8S8",
+      "artist": "DJ HEARTSTRING, southstar",
+      "artists": [
+        "DJ HEARTSTRING",
+        "southstar"
+      ],
+      "artist_ids": [
+        "5tcwaJBUyEdxQxvieuQxU7",
+        "1GVuCyb4PlArufUZDUnRQi"
+      ],
+      "title": "Don't Stop",
+      "album": "Don't Stop",
+      "album_id": "7k9X7tCJdLdPWpm6JbAW0O",
+      "duration_ms": 196916,
+      "isrc": "FRX282433099",
+      "release_date": "2024-04-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 105,
+      "spotify_uri": "spotify:track:6LZXZdkvpJ1f2tDXc5jzIF",
+      "spotify_url": "https://open.spotify.com/track/6LZXZdkvpJ1f2tDXc5jzIF",
+      "artist": "Marie Vaunt, Bassjackers",
+      "artists": [
+        "Marie Vaunt",
+        "Bassjackers"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5",
+        "6xQvQwZQQuq9R3TdPNbcR8"
+      ],
+      "title": "Acid Nation",
+      "album": "Acid Nation",
+      "album_id": "7Efv1g56HWe1xuTk9x2qi0",
+      "duration_ms": 183552,
+      "isrc": "FRX452631158",
+      "release_date": "2026-09-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 106,
+      "spotify_uri": "spotify:track:4jSrN7kXdQUmbVxJe5x6Xg",
+      "spotify_url": "https://open.spotify.com/track/4jSrN7kXdQUmbVxJe5x6Xg",
+      "artist": "Dimitri Vegas & Like Mike, Marlon Hoffstadt, Dj Konik, Dimitri Vegas, Like Mike",
+      "artists": [
+        "Dimitri Vegas & Like Mike",
+        "Marlon Hoffstadt",
+        "Dj Konik",
+        "Dimitri Vegas",
+        "Like Mike"
+      ],
+      "artist_ids": [
+        "73jBynjsVtofjRpdpRAJGk",
+        "0HHa7ZJZxUQlg5l2mB0N0f",
+        "47FkgvgZtCjQaBswo5E531",
+        "2HkAI0YrEcgoR8QdaURqhO",
+        "4pwXiI7Z5ZStkgKowZyoKi"
+      ],
+      "title": "Makina Time",
+      "album": "Makina Time",
+      "album_id": "2GglSuNrhoPfB0lFSoho5G",
+      "duration_ms": 130090,
+      "isrc": "BEIW12500926",
+      "release_date": "2026-01-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 107,
+      "spotify_uri": "spotify:track:3LgA6sFAEZ30TqeTWmGDlV",
+      "spotify_url": "https://open.spotify.com/track/3LgA6sFAEZ30TqeTWmGDlV",
+      "artist": "Sara Landry, LEGZDINA",
+      "artists": [
+        "Sara Landry",
+        "LEGZDINA"
+      ],
+      "artist_ids": [
+        "7eILArMiTFTQf8SEh5fFHK",
+        "16pj4sabH3akPo4s0IUx9N"
+      ],
+      "title": "Pressure",
+      "album": "Pressure",
+      "album_id": "1RRaRpdxpCQzwhPPpK6bLq",
+      "duration_ms": 259023,
+      "isrc": "DGA072454912",
+      "release_date": "2024-08-02",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 108,
+      "spotify_uri": "spotify:track:46PRAC9BDGinxWR2Jw6chN",
+      "spotify_url": "https://open.spotify.com/track/46PRAC9BDGinxWR2Jw6chN",
+      "artist": "MCR-T, horsegiirL",
+      "artists": [
+        "MCR-T",
+        "horsegiirL"
+      ],
+      "artist_ids": [
+        "4m7q9onIm2bqhwHy9utqmw",
+        "0auP293abZeTWwMUi3fZw2"
+      ],
+      "title": "My Little White Pony",
+      "album": "Farm Fantasies",
+      "album_id": "7kDMF5sKIkfT8MxEwahCel",
+      "duration_ms": 299520,
+      "isrc": "DEU672200177",
+      "release_date": "2022-03-04",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 109,
+      "spotify_uri": "spotify:track:5o4zD3SATxUoVeK0gb9nIa",
+      "spotify_url": "https://open.spotify.com/track/5o4zD3SATxUoVeK0gb9nIa",
+      "artist": "Luvstruck",
+      "artists": [
+        "Luvstruck"
+      ],
+      "artist_ids": [
+        "6fm5VHP6gIiZZsOhphNpXy"
+      ],
+      "title": "What's A Girl To Do",
+      "album": "What's A Girl To Do",
+      "album_id": "1hd7Vh5v5by9oGT4sFmnVC",
+      "duration_ms": 147310,
+      "isrc": "DEPI82434338",
+      "release_date": "2024-08-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 110,
+      "spotify_uri": "spotify:track:7qrj7lRzVLTMPLUt4ge274",
+      "spotify_url": "https://open.spotify.com/track/7qrj7lRzVLTMPLUt4ge274",
+      "artist": "The Rocketman, Hannah Laing",
+      "artists": [
+        "The Rocketman",
+        "Hannah Laing"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V",
+        "1QEd635szhierW6gzRiS1o"
+      ],
+      "title": "Rewind",
+      "album": "Rewind",
+      "album_id": "2X63qmnbwC2KTbSy4YMMHD",
+      "duration_ms": 179594,
+      "isrc": "US38Y2591928",
+      "release_date": "2025-10-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 111,
+      "spotify_uri": "spotify:track:2h4zp76tI5Sbl3BNspNBuG",
+      "spotify_url": "https://open.spotify.com/track/2h4zp76tI5Sbl3BNspNBuG",
+      "artist": "Nicolas Julian",
+      "artists": [
+        "Nicolas Julian"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb"
+      ],
+      "title": "Bad Girls",
+      "album": "Bad Girls",
+      "album_id": "54wKqhFUN5V8lh4tfPTmHH",
+      "duration_ms": 121755,
+      "isrc": "DEE862400165",
+      "release_date": "2024-02-23",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 112,
+      "spotify_uri": "spotify:track:482SNF4FRJ5Ik8j2krjMEE",
+      "spotify_url": "https://open.spotify.com/track/482SNF4FRJ5Ik8j2krjMEE",
+      "artist": "999999999, Marie Vaunt",
+      "artists": [
+        "999999999",
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "6uD2LjPHUjxrpax0se17Nc",
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "I Got Acid",
+      "album": "I Got Acid",
+      "album_id": "7DqeTZTW7W1MSewzTKjnwR",
+      "duration_ms": 127586,
+      "isrc": "NL8RL2653309",
+      "release_date": "2026-06-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 113,
+      "spotify_uri": "spotify:track:5fIZ683j2xPeLAXfHeWKEG",
+      "spotify_url": "https://open.spotify.com/track/5fIZ683j2xPeLAXfHeWKEG",
+      "artist": "Indila, BENNETT",
+      "artists": [
+        "Indila",
+        "BENNETT"
+      ],
+      "artist_ids": [
+        "0FEJqmeLRzsXj8hgcZaAyB",
+        "1r43wW70tnGUauQYvY5w48"
+      ],
+      "title": "Dernière danse - Techno Mix",
+      "album": "Dernière danse (Techno Mix)",
+      "album_id": "3MhGOga5TlR7JfKxDSxv9Q",
+      "duration_ms": 197142,
+      "isrc": "FRUM72302505",
+      "release_date": "2024-01-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 114,
+      "spotify_uri": "spotify:track:4vtkYOgMCIG3pVLdLGjWEV",
+      "spotify_url": "https://open.spotify.com/track/4vtkYOgMCIG3pVLdLGjWEV",
+      "artist": "ISOxo, Brutalismus 3000",
+      "artists": [
+        "ISOxo",
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "4zVCMnjw54nkhGHU4e1Pav",
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "SPIRAL",
+      "album": "SPIRAL",
+      "album_id": "2pWYRq9Vmismh1jqX8EE17",
+      "duration_ms": 178285,
+      "isrc": "QZTGW2408598",
+      "release_date": "2026-01-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 115,
+      "spotify_uri": "spotify:track:494lD6w8j07gDMub1UFd07",
+      "spotify_url": "https://open.spotify.com/track/494lD6w8j07gDMub1UFd07",
+      "artist": "Hannah Laing, Marlon Hoffstadt, Caroline Roxy",
+      "artists": [
+        "Hannah Laing",
+        "Marlon Hoffstadt",
+        "Caroline Roxy"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o",
+        "0HHa7ZJZxUQlg5l2mB0N0f",
+        "65E2g1HICX11fDBessVxkW"
+      ],
+      "title": "Stomp Your Feet",
+      "album": "Stomp Your Feet",
+      "album_id": "45vmjBcHoZfCrChrHFdCoT",
+      "duration_ms": 210580,
+      "isrc": "US39N2628926",
+      "release_date": "2026-02-27",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 116,
+      "spotify_uri": "spotify:track:6fAfUOwQtqaYnB6rruojaE",
+      "spotify_url": "https://open.spotify.com/track/6fAfUOwQtqaYnB6rruojaE",
+      "artist": "Nicolas Julian, NOTMYTYPE, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "NOTMYTYPE",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "7hjdOgAfEdNYBGViGyy28U",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "Jump Dance Move Bounce",
+      "album": "Jump Dance Move Bounce",
+      "album_id": "0qbBffQgNUd9NFl9hlIlLM",
+      "duration_ms": 149610,
+      "isrc": "DEXW62300465",
+      "release_date": "2023-12-30",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 117,
+      "spotify_uri": "spotify:track:1XsCQKhLGFP714xLKHeLvZ",
+      "spotify_url": "https://open.spotify.com/track/1XsCQKhLGFP714xLKHeLvZ",
+      "artist": "Gabry Ponte, Marie Vaunt",
+      "artists": [
+        "Gabry Ponte",
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "5ENS85nZShljwNgg4wFD7D",
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "Hooked on the Bassline",
+      "album": "Hooked on the Bassline",
+      "album_id": "1hZM8Y4iNpgyjGICUkuTrv",
+      "duration_ms": 197600,
+      "isrc": "NL8RL2568270",
+      "release_date": "2025-11-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 118,
+      "spotify_uri": "spotify:track:4HYWGaqCkshGWu6stZxlmd",
+      "spotify_url": "https://open.spotify.com/track/4HYWGaqCkshGWu6stZxlmd",
+      "artist": "Funk Tribu",
+      "artists": [
+        "Funk Tribu"
+      ],
+      "artist_ids": [
+        "1vK8NnrPlBlF34LaiFX1SK"
+      ],
+      "title": "I Got It For You",
+      "album": "Against All Odds",
+      "album_id": "7zN9akvqHX67uHiFTNE3Td",
+      "duration_ms": 214504,
+      "isrc": "DGA092417607",
+      "release_date": "2024-10-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 119,
+      "spotify_uri": "spotify:track:5JeKnC9TUv98azEWZQJBdm",
+      "spotify_url": "https://open.spotify.com/track/5JeKnC9TUv98azEWZQJBdm",
+      "artist": "Odymel, HARD CANDY, TOXIMAMI, DJ Cringey",
+      "artists": [
+        "Odymel",
+        "HARD CANDY",
+        "TOXIMAMI",
+        "DJ Cringey"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA",
+        "1I1LcKWdBImFCt4DOW2s5O",
+        "27S2557qJiAXvFenQvXT85",
+        "01Pcb79vo3Ei5lLdpM3E7q"
+      ],
+      "title": "Fitness",
+      "album": "ENDLESS RECESS",
+      "album_id": "3OhzYZ9lAGHFevjvIMZUF6",
+      "duration_ms": 215200,
+      "isrc": "DEUM72507275",
+      "release_date": "2025-12-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 120,
+      "spotify_uri": "spotify:track:1ivhs5EQc8eAw5rcB9SEQz",
+      "spotify_url": "https://open.spotify.com/track/1ivhs5EQc8eAw5rcB9SEQz",
+      "artist": "999999999, FLKN",
+      "artists": [
+        "999999999",
+        "FLKN"
+      ],
+      "artist_ids": [
+        "6uD2LjPHUjxrpax0se17Nc",
+        "3OyQ9AeMFgwKFHUgBOISww"
+      ],
+      "title": "Acid Blood",
+      "album": "Acid Blood",
+      "album_id": "6bmsMcbQLEfYykzpRd3qEf",
+      "duration_ms": 211741,
+      "isrc": "FXQ892500120",
+      "release_date": "2025-06-06",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 121,
+      "spotify_uri": "spotify:track:1O28S9MYZONNh5PNG1bYeC",
+      "spotify_url": "https://open.spotify.com/track/1O28S9MYZONNh5PNG1bYeC",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "My Favourite Game",
+      "album": "My Favourite Game",
+      "album_id": "6gBdKuFAJKsuV42mWX6309",
+      "duration_ms": 203015,
+      "isrc": "DEUM72410459",
+      "release_date": "2024-10-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 122,
+      "spotify_uri": "spotify:track:2AzAamWZi47Fv7nds8h7AM",
+      "spotify_url": "https://open.spotify.com/track/2AzAamWZi47Fv7nds8h7AM",
+      "artist": "Space 92, Alignment",
+      "artists": [
+        "Space 92",
+        "Alignment"
+      ],
+      "artist_ids": [
+        "6TVdVlY6irsNPkMHT2HkfD",
+        "4eFbq5PZgW7YbtA65PP4wS"
+      ],
+      "title": "Proton",
+      "album": "Proton",
+      "album_id": "3jzdQpVYQqHgfFbyYm5Pub",
+      "duration_ms": 190400,
+      "isrc": "GBKQU2668192",
+      "release_date": "2026-07-17",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 123,
+      "spotify_uri": "spotify:track:7D9nLNkpBM3X43NTTK6ODa",
+      "spotify_url": "https://open.spotify.com/track/7D9nLNkpBM3X43NTTK6ODa",
+      "artist": "KI/KI",
+      "artists": [
+        "KI/KI"
+      ],
+      "artist_ids": [
+        "0UMs6dTf23FC2fHc40fXNS"
+      ],
+      "title": "Can't Stop Loving You",
+      "album": "Can't Stop Loving You",
+      "album_id": "0B6h2urIr10tKp0Vzh02UX",
+      "duration_ms": 205106,
+      "isrc": "USA2P2563361",
+      "release_date": "2025-12-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 124,
+      "spotify_uri": "spotify:track:1J827bhoOFER99MdWqeoyU",
+      "spotify_url": "https://open.spotify.com/track/1J827bhoOFER99MdWqeoyU",
+      "artist": "Indira Paganotto, Armin van Buuren",
+      "artists": [
+        "Indira Paganotto",
+        "Armin van Buuren"
+      ],
+      "artist_ids": [
+        "0JXc5G7ZImFTwPg3y8MTfR",
+        "0SfsnGyD8FpIN4U4WCkBZ5"
+      ],
+      "title": "Dragon",
+      "album": "Dragon",
+      "album_id": "5Cv0KXpWQ2fMyal3kbqkqU",
+      "duration_ms": 181099,
+      "isrc": "NLF712503047",
+      "release_date": "2025-06-13",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 125,
+      "spotify_uri": "spotify:track:7hNcBQYwyWZTfEwSEkV0xw",
+      "spotify_url": "https://open.spotify.com/track/7hNcBQYwyWZTfEwSEkV0xw",
+      "artist": "The Rocketman, Joyhauser",
+      "artists": [
+        "The Rocketman",
+        "Joyhauser"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V",
+        "59a1Bp0JQfL2mGnpL0lW2Y"
+      ],
+      "title": "That Feeling",
+      "album": "That Feeling",
+      "album_id": "0TGrTxdSuwakTJCpSyX9sB",
+      "duration_ms": 171200,
+      "isrc": "NL8RL2632870",
+      "release_date": "2026-07-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 126,
+      "spotify_uri": "spotify:track:7hFfVcwHyNWVTbLCdT4wnz",
+      "spotify_url": "https://open.spotify.com/track/7hFfVcwHyNWVTbLCdT4wnz",
+      "artist": "Nico Moreno, Sarah de Warren",
+      "artists": [
+        "Nico Moreno",
+        "Sarah de Warren"
+      ],
+      "artist_ids": [
+        "6fjhNhp9IoeiZpEXq9AT2S",
+        "2V431yZGG08uroH2CZAgur"
+      ],
+      "title": "Dance In The Light",
+      "album": "Dance In The Light",
+      "album_id": "0QVgj3nXq5v9kDhx8Ox3cF",
+      "duration_ms": 230886,
+      "isrc": "FR9W12620412",
+      "release_date": "2026-06-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 127,
+      "spotify_uri": "spotify:track:4GosoD3HYfCfO67mhQK340",
+      "spotify_url": "https://open.spotify.com/track/4GosoD3HYfCfO67mhQK340",
+      "artist": "Space 92, HI-LO",
+      "artists": [
+        "Space 92",
+        "HI-LO"
+      ],
+      "artist_ids": [
+        "6TVdVlY6irsNPkMHT2HkfD",
+        "0ETJQforv5OXgDgidQv9qd"
+      ],
+      "title": "Orion",
+      "album": "Orion",
+      "album_id": "3PL23OVu6TeqYYMaOlnWdh",
+      "duration_ms": 201569,
+      "isrc": "US38Y2312713",
+      "release_date": "2024-01-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 128,
+      "spotify_uri": "spotify:track:6bs1myCEARQoI7oOLxqHkp",
+      "spotify_url": "https://open.spotify.com/track/6bs1myCEARQoI7oOLxqHkp",
+      "artist": "Klangkuenstler, Ski Aggu",
+      "artists": [
+        "Klangkuenstler",
+        "Ski Aggu"
+      ],
+      "artist_ids": [
+        "6H77vD9YyhyxHBTkRpbMBk",
+        "6CP5wWvO8oIxedESJNCN4H"
+      ],
+      "title": "Sonne Geht Auf",
+      "album": "Sonne Geht Auf",
+      "album_id": "3zh834YrAtWDuBumqFkgHR",
+      "duration_ms": 126538,
+      "isrc": "DEUM72508345",
+      "release_date": "2025-10-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 129,
+      "spotify_uri": "spotify:track:1dzvje2q7KX8k1U9eOT6Pv",
+      "spotify_url": "https://open.spotify.com/track/1dzvje2q7KX8k1U9eOT6Pv",
+      "artist": "Lilly Palmer",
+      "artists": [
+        "Lilly Palmer"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU"
+      ],
+      "title": "We Control",
+      "album": "We Control",
+      "album_id": "60rhOCClApo0duvJbe2A18",
+      "duration_ms": 206625,
+      "isrc": "GBUR62000369",
+      "release_date": "2022-02-25",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 130,
+      "spotify_uri": "spotify:track:6YiIWuVXS4AqF1KvUGMwyx",
+      "spotify_url": "https://open.spotify.com/track/6YiIWuVXS4AqF1KvUGMwyx",
+      "artist": "John Summit, Inéz",
+      "artists": [
+        "John Summit",
+        "Inéz"
+      ],
+      "artist_ids": [
+        "7kNqXtgeIwFtelmRjWv205",
+        "6zBax4hSAI1BJYgwF61EP5"
+      ],
+      "title": "crystallized (feat. Inéz)",
+      "album": "crystallized (feat. Inéz)",
+      "album_id": "5PnlLTo9MLkbd4noHgisk9",
+      "duration_ms": 217646,
+      "isrc": "USUG12505276",
+      "release_date": "2025-09-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 131,
+      "spotify_uri": "spotify:track:0FeVfJULLFzARZb1TvZroq",
+      "spotify_url": "https://open.spotify.com/track/0FeVfJULLFzARZb1TvZroq",
+      "artist": "Novah, Marie Vaunt",
+      "artists": [
+        "Novah",
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "7qvjUtp2ccRD9AiDnukyFF",
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "Bring Some Acid",
+      "album": "Bring Some Acid",
+      "album_id": "2zcQ4bAMsYEXtZQyvyRsZr",
+      "duration_ms": 136050,
+      "isrc": "BE5KW2601337",
+      "release_date": "2026-10-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 132,
+      "spotify_uri": "spotify:track:5mZDiIV5z3mmYnIvXGENFX",
+      "spotify_url": "https://open.spotify.com/track/5mZDiIV5z3mmYnIvXGENFX",
+      "artist": "Armin van Buuren, Hannah Laing, Wippenberg",
+      "artists": [
+        "Armin van Buuren",
+        "Hannah Laing",
+        "Wippenberg"
+      ],
+      "artist_ids": [
+        "0SfsnGyD8FpIN4U4WCkBZ5",
+        "1QEd635szhierW6gzRiS1o",
+        "0Orz1QOZQrwampy0S742oK"
+      ],
+      "title": "U Got 2 Know",
+      "album": "U Got 2 Know",
+      "album_id": "7t8YmvmfTEq68vRFGPijxe",
+      "duration_ms": 142344,
+      "isrc": "NLF712602524",
+      "release_date": "2026-05-22",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 133,
+      "spotify_uri": "spotify:track:4C2XQe0oKPUXpwTyoEdMJT",
+      "spotify_url": "https://open.spotify.com/track/4C2XQe0oKPUXpwTyoEdMJT",
+      "artist": "Nicolas Julian, AIROD, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "AIROD",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "3oPI0nOC7MHooFy5qDsFrv",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "Real Shit",
+      "album": "Real Shit",
+      "album_id": "0bpaxi1COvwhS2IKxJLXOo",
+      "duration_ms": 142451,
+      "isrc": "DEXW62500099",
+      "release_date": "2025-05-02",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 134,
+      "spotify_uri": "spotify:track:7pm0DF9LZlJ6LC0wCZX8Ct",
+      "spotify_url": "https://open.spotify.com/track/7pm0DF9LZlJ6LC0wCZX8Ct",
+      "artist": "Odymel, Durdenhauer",
+      "artists": [
+        "Odymel",
+        "Durdenhauer"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA",
+        "2CaWJMR1eyvq8n5h96ggJC"
+      ],
+      "title": "Love Bullet - Pt.2",
+      "album": "ENDLESS RECESS",
+      "album_id": "3OhzYZ9lAGHFevjvIMZUF6",
+      "duration_ms": 241621,
+      "isrc": "DEUM72510196",
+      "release_date": "2025-12-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 135,
+      "spotify_uri": "spotify:track:7l3NPopDEt4l2sYs4qOBRZ",
+      "spotify_url": "https://open.spotify.com/track/7l3NPopDEt4l2sYs4qOBRZ",
+      "artist": "Indira Paganotto",
+      "artists": [
+        "Indira Paganotto"
+      ],
+      "artist_ids": [
+        "0JXc5G7ZImFTwPg3y8MTfR"
+      ],
+      "title": "Crush",
+      "album": "Arte Como Amante",
+      "album_id": "3zKMfngkrcTSXIt1ITOhjM",
+      "duration_ms": 166722,
+      "isrc": "ES74F2500130",
+      "release_date": "2026-01-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 136,
+      "spotify_uri": "spotify:track:5o9qUuxwh58kyGxC2EK8zn",
+      "spotify_url": "https://open.spotify.com/track/5o9qUuxwh58kyGxC2EK8zn",
+      "artist": "Nicolas Julian, ULTIMO, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "ULTIMO",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "4ck1IAQQucJ8QcEwI8fje4",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "303 (Sound Of The Underground)",
+      "album": "Bow & Arrow - EP",
+      "album_id": "3t1AsOwr9aBInVfj1YptEm",
+      "duration_ms": 182800,
+      "isrc": "DEXW62400104",
+      "release_date": "2024-05-24",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 137,
+      "spotify_uri": "spotify:track:1tyWdSABZbhauu9AaLOCca",
+      "spotify_url": "https://open.spotify.com/track/1tyWdSABZbhauu9AaLOCca",
+      "artist": "Space 92, Marie Vaunt",
+      "artists": [
+        "Space 92",
+        "Marie Vaunt"
+      ],
+      "artist_ids": [
+        "6TVdVlY6irsNPkMHT2HkfD",
+        "50KydUSYhBFGorhAgUcrL5"
+      ],
+      "title": "Go Go Go",
+      "album": "Go Go Go",
+      "album_id": "0kOy2f0GZ7AuQOeBeNtiko",
+      "duration_ms": 169241,
+      "isrc": "GBKQU2685788",
+      "release_date": "2026-08-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 138,
+      "spotify_uri": "spotify:track:2qVqEzl038sc3Br5pp9b8K",
+      "spotify_url": "https://open.spotify.com/track/2qVqEzl038sc3Br5pp9b8K",
+      "artist": "Funk Tribu",
+      "artists": [
+        "Funk Tribu"
+      ],
+      "artist_ids": [
+        "1vK8NnrPlBlF34LaiFX1SK"
+      ],
+      "title": "Speakers Blowing",
+      "album": "Speakers Blowing",
+      "album_id": "1RmuOXWU4VmyJYFvHS9nSN",
+      "duration_ms": 221012,
+      "isrc": "US6R22563870",
+      "release_date": "2026-01-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 139,
+      "spotify_uri": "spotify:track:26SBh3qrxSkpVqLRQkcSbU",
+      "spotify_url": "https://open.spotify.com/track/26SBh3qrxSkpVqLRQkcSbU",
+      "artist": "Maddix, Bassjackers",
+      "artists": [
+        "Maddix",
+        "Bassjackers"
+      ],
+      "artist_ids": [
+        "0RMeG9M8QFzss9bAbq99KA",
+        "6xQvQwZQQuq9R3TdPNbcR8"
+      ],
+      "title": "Rave Therapy",
+      "album": "Rave Therapy",
+      "album_id": "0uEiSJnCg3JGlacWk6Slgp",
+      "duration_ms": 157935,
+      "isrc": "NL8RL2684429",
+      "release_date": "2026-08-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 140,
+      "spotify_uri": "spotify:track:5WbwNHIPpDtjNETV6xRuDS",
+      "spotify_url": "https://open.spotify.com/track/5WbwNHIPpDtjNETV6xRuDS",
+      "artist": "Brutalismus 3000, Boys Noize",
+      "artists": [
+        "Brutalismus 3000",
+        "Boys Noize"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j",
+        "62k5LKMhymqlDNo2DWOvvv"
+      ],
+      "title": "I Bring My Gun To The Function (with Boys Noize)",
+      "album": "Harmony",
+      "album_id": "51EmZvgBe2KU6858cvotYi",
+      "duration_ms": 190291,
+      "isrc": "DEE862600434",
+      "release_date": "2026-06-26",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 141,
+      "spotify_uri": "spotify:track:1eMUGMEWrvTXYWrPobq2dH",
+      "spotify_url": "https://open.spotify.com/track/1eMUGMEWrvTXYWrPobq2dH",
+      "artist": "Maddix",
+      "artists": [
+        "Maddix"
+      ],
+      "artist_ids": [
+        "0RMeG9M8QFzss9bAbq99KA"
+      ],
+      "title": "Heute Nacht",
+      "album": "Heute Nacht",
+      "album_id": "3hUV4shxjzrCGFtJgBOF82",
+      "duration_ms": 204444,
+      "isrc": "NLQ8D2201347",
+      "release_date": "2022-10-14",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 142,
+      "spotify_uri": "spotify:track:73JbM4XuiGONBHUDr5dyLN",
+      "spotify_url": "https://open.spotify.com/track/73JbM4XuiGONBHUDr5dyLN",
+      "artist": "Lilly Palmer, Caroline Roxy",
+      "artists": [
+        "Lilly Palmer",
+        "Caroline Roxy"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU",
+        "65E2g1HICX11fDBessVxkW"
+      ],
+      "title": "Unite The Universe",
+      "album": "Unite The Universe",
+      "album_id": "4be2NzItVejEGhjgrwiJ9p",
+      "duration_ms": 143086,
+      "isrc": "DECE72605873",
+      "release_date": "2026-10-02",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 143,
+      "spotify_uri": "spotify:track:0EgsAVKP9pnq1AAnLCXh03",
+      "spotify_url": "https://open.spotify.com/track/0EgsAVKP9pnq1AAnLCXh03",
+      "artist": "VCL",
+      "artists": [
+        "VCL"
+      ],
+      "artist_ids": [
+        "5cQmRpjiW1N4Bv4BOIIjtx"
+      ],
+      "title": "Lockdown",
+      "album": "Lockdown",
+      "album_id": "1UgSu4p2e02yX5hagejNpu",
+      "duration_ms": 273112,
+      "isrc": "QZDA72016121",
+      "release_date": "2020-04-08",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 144,
+      "spotify_uri": "spotify:track:3CIoIo3XT3Ocx3X0wOsyjy",
+      "spotify_url": "https://open.spotify.com/track/3CIoIo3XT3Ocx3X0wOsyjy",
+      "artist": "999999999, LYNSY",
+      "artists": [
+        "999999999",
+        "LYNSY"
+      ],
+      "artist_ids": [
+        "6uD2LjPHUjxrpax0se17Nc",
+        "5BMrgT9eEWEWWambA5iFjn"
+      ],
+      "title": "TRIP ON ACID",
+      "album": "TRIP ON ACID",
+      "album_id": "5Csvzqt56wamA6EyU7XJCz",
+      "duration_ms": 199741,
+      "isrc": "BE5KW2601304",
+      "release_date": "2026-10-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 145,
+      "spotify_uri": "spotify:track:6tifCCTIVBLC2TmTquYG7G",
+      "spotify_url": "https://open.spotify.com/track/6tifCCTIVBLC2TmTquYG7G",
+      "artist": "Skrillex, Boys Noize, Opus III",
+      "artists": [
+        "Skrillex",
+        "Boys Noize",
+        "Opus III"
+      ],
+      "artist_ids": [
+        "5he5w2lnU9x7JFhnwcekXX",
+        "62k5LKMhymqlDNo2DWOvvv",
+        "1hQuWl1dueM7ChRUZRn05z"
+      ],
+      "title": "Fine Day Anthem",
+      "album": "Fine Day Anthem",
+      "album_id": "2mxzA7momOeBvCyKDgZRIb",
+      "duration_ms": 193690,
+      "isrc": "USAT22306616",
+      "release_date": "2023-07-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 146,
+      "spotify_uri": "spotify:track:2uUZYX2GfT7LxEygrLvAYU",
+      "spotify_url": "https://open.spotify.com/track/2uUZYX2GfT7LxEygrLvAYU",
+      "artist": "Marlon Hoffstadt",
+      "artists": [
+        "Marlon Hoffstadt"
+      ],
+      "artist_ids": [
+        "0HHa7ZJZxUQlg5l2mB0N0f"
+      ],
+      "title": "Party People",
+      "album": "Das Ist Daddy",
+      "album_id": "2YebmkQzLA10QYQc6GOMM6",
+      "duration_ms": 193653,
+      "isrc": "USUG12601553",
+      "release_date": "2026-08-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 147,
+      "spotify_uri": "spotify:track:1eUkZEhwbZkkhNfgA1qVyA",
+      "spotify_url": "https://open.spotify.com/track/1eUkZEhwbZkkhNfgA1qVyA",
+      "artist": "999999999, FLKN",
+      "artists": [
+        "999999999",
+        "FLKN"
+      ],
+      "artist_ids": [
+        "6uD2LjPHUjxrpax0se17Nc",
+        "3OyQ9AeMFgwKFHUgBOISww"
+      ],
+      "title": "No Limit",
+      "album": "No Limit",
+      "album_id": "5OGsScd09uGjfN2uLH1glz",
+      "duration_ms": 219870,
+      "isrc": "FXQ892600261",
+      "release_date": "2026-05-08",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 148,
+      "spotify_uri": "spotify:track:4xzB1VGEUk0yqbR3ymosQd",
+      "spotify_url": "https://open.spotify.com/track/4xzB1VGEUk0yqbR3ymosQd",
+      "artist": "HI-LO, DANNY AVILA",
+      "artists": [
+        "HI-LO",
+        "DANNY AVILA"
+      ],
+      "artist_ids": [
+        "0ETJQforv5OXgDgidQv9qd",
+        "1Xv1qZHJ1hnRlWHRTZ3uci"
+      ],
+      "title": "Paradise",
+      "album": "Paradise",
+      "album_id": "2xm8xKg2DZIuuyIJKAIwf5",
+      "duration_ms": 163147,
+      "isrc": "US38Y2402768",
+      "release_date": "2024-02-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 149,
+      "spotify_uri": "spotify:track:067FrGDLXv4oDOGrcCDCA6",
+      "spotify_url": "https://open.spotify.com/track/067FrGDLXv4oDOGrcCDCA6",
+      "artist": "Layton Giordani",
+      "artists": [
+        "Layton Giordani"
+      ],
+      "artist_ids": [
+        "7mC3RkNNTV6p2j9w4F8Ip4"
+      ],
+      "title": "Better Than U Thought",
+      "album": "Better Than U Thought",
+      "album_id": "5LaUQcTL2F4TtqRbIZdxiG",
+      "duration_ms": 189618,
+      "isrc": "NL8RL2432345",
+      "release_date": "2024-08-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 150,
+      "spotify_uri": "spotify:track:6e3F1pz262XJ9n74DArbt4",
+      "spotify_url": "https://open.spotify.com/track/6e3F1pz262XJ9n74DArbt4",
+      "artist": "AZYR",
+      "artists": [
+        "AZYR"
+      ],
+      "artist_ids": [
+        "1Ujj9Jh1Z4tDJ4j6qGRml8"
+      ],
+      "title": "No Escape",
+      "album": "No Escape",
+      "album_id": "0pnDi9VBfDa51K9aHN9rAx",
+      "duration_ms": 160522,
+      "isrc": "CH7812663876",
+      "release_date": "2026-04-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 151,
+      "spotify_uri": "spotify:track:14Lh8Rpav17MCMSd1yOazU",
+      "spotify_url": "https://open.spotify.com/track/14Lh8Rpav17MCMSd1yOazU",
+      "artist": "T78, Mha Iri",
+      "artists": [
+        "T78",
+        "Mha Iri"
+      ],
+      "artist_ids": [
+        "5FgLkieOqGXPn01dnbJp9Z",
+        "5VMXbzLVkLd4Cq4rBzx4T3"
+      ],
+      "title": "The Ultimate Acid Track",
+      "album": "The Ultimate Acid Track",
+      "album_id": "3lAw4H1pzLOCCDBfkNqOXu",
+      "duration_ms": 240532,
+      "isrc": "ITB842600039",
+      "release_date": "2026-01-30",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 152,
+      "spotify_uri": "spotify:track:1XhdIYA9NP1KckcganvgaY",
+      "spotify_url": "https://open.spotify.com/track/1XhdIYA9NP1KckcganvgaY",
+      "artist": "Nicolas Julian, AENJAY",
+      "artists": [
+        "Nicolas Julian",
+        "AENJAY"
+      ],
+      "artist_ids": [
+        "5Y1nFir8L9kJP7n1yZSeYb",
+        "1sDPjXJ8bNlkrzbNLR18AQ"
+      ],
+      "title": "Hit The Floor",
+      "album": "Hit The Floor",
+      "album_id": "2Q81QSgnDJ4Wm0seVHQmLO",
+      "duration_ms": 150379,
+      "isrc": "DEXW62500328",
+      "release_date": "2025-12-12",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 153,
+      "spotify_uri": "spotify:track:3T1r39jgsJwCNGp3aRDKle",
+      "spotify_url": "https://open.spotify.com/track/3T1r39jgsJwCNGp3aRDKle",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "Touch My Body",
+      "album": "Hot Stuff / Touch My Body EP",
+      "album_id": "1SGPnz59hUSnFknOA3oNNk",
+      "duration_ms": 295600,
+      "isrc": "QM6N22445652",
+      "release_date": "2024-05-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 154,
+      "spotify_uri": "spotify:track:3lY1mmYIgoXmUyEqjMJCu9",
+      "spotify_url": "https://open.spotify.com/track/3lY1mmYIgoXmUyEqjMJCu9",
+      "artist": "Marie Vaunt, AREA ØNE, CERES",
+      "artists": [
+        "Marie Vaunt",
+        "AREA ØNE",
+        "CERES"
+      ],
+      "artist_ids": [
+        "50KydUSYhBFGorhAgUcrL5",
+        "4cPhyd2BTkwlq4fyXo4riK",
+        "32kPQzj1rk4nnGIIJpIUic"
+      ],
+      "title": "Lights and Acid",
+      "album": "Lights and Acid",
+      "album_id": "3SYwL0WvxT4b9q3CT8vyI3",
+      "duration_ms": 150190,
+      "isrc": "NL8RL2671380",
+      "release_date": "2026-08-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 155,
+      "spotify_uri": "spotify:track:2EvLRh3pgB0ScEnNWD92Yc",
+      "spotify_url": "https://open.spotify.com/track/2EvLRh3pgB0ScEnNWD92Yc",
+      "artist": "Maddix, Space 92",
+      "artists": [
+        "Maddix",
+        "Space 92"
+      ],
+      "artist_ids": [
+        "0RMeG9M8QFzss9bAbq99KA",
+        "6TVdVlY6irsNPkMHT2HkfD"
+      ],
+      "title": "Rolling",
+      "album": "Rolling",
+      "album_id": "5hIEv7z1BwnIceZkS5mVpy",
+      "duration_ms": 164800,
+      "isrc": "NL8RL2534264",
+      "release_date": "2025-07-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 156,
+      "spotify_uri": "spotify:track:42Nbp4cNwh3VbncOXjnEkM",
+      "spotify_url": "https://open.spotify.com/track/42Nbp4cNwh3VbncOXjnEkM",
+      "artist": "VTSS, Boys Noize",
+      "artists": [
+        "VTSS",
+        "Boys Noize"
+      ],
+      "artist_ids": [
+        "0zo109NM3S7CqHpvlXwqEN",
+        "62k5LKMhymqlDNo2DWOvvv"
+      ],
+      "title": "Steady Pace",
+      "album": "Steady Pace",
+      "album_id": "2naM3YdOoS51bK0mOTjP5R",
+      "duration_ms": 146007,
+      "isrc": "USAT22309549",
+      "release_date": "2023-09-28",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 157,
+      "spotify_uri": "spotify:track:20Z42fj1SxOWxMLePuivVs",
+      "spotify_url": "https://open.spotify.com/track/20Z42fj1SxOWxMLePuivVs",
+      "artist": "Marlon Hoffstadt, DJ Daddy Trance",
+      "artists": [
+        "Marlon Hoffstadt",
+        "DJ Daddy Trance"
+      ],
+      "artist_ids": [
+        "0HHa7ZJZxUQlg5l2mB0N0f",
+        "4lBSzo2LS8asEzoePv6VLM"
+      ],
+      "title": "Hands Up In The Sky",
+      "album": "Supersonic / Hands Up In The Sky",
+      "album_id": "0x72kHM5nCDu7qtoIJcnfT",
+      "duration_ms": 184489,
+      "isrc": "USUG12503837",
+      "release_date": "2025-05-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 158,
+      "spotify_uri": "spotify:track:6dw36tg8ab7MNz8dGSSTGx",
+      "spotify_url": "https://open.spotify.com/track/6dw36tg8ab7MNz8dGSSTGx",
+      "artist": "Basswell",
+      "artists": [
+        "Basswell"
+      ],
+      "artist_ids": [
+        "4NzdIkiweEHJgVdg8q2Ruk"
+      ],
+      "title": "Activision",
+      "album": "Activision",
+      "album_id": "0I453IkVq89M4Bni4JZlBQ",
+      "duration_ms": 228116,
+      "isrc": "FRDKW2321152",
+      "release_date": "2023-03-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 159,
+      "spotify_uri": "spotify:track:5ECbvtOhtlZr0rMS2k5SNX",
+      "spotify_url": "https://open.spotify.com/track/5ECbvtOhtlZr0rMS2k5SNX",
+      "artist": "The Rocketman, Hannah Laing, FELYN",
+      "artists": [
+        "The Rocketman",
+        "Hannah Laing",
+        "FELYN"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V",
+        "1QEd635szhierW6gzRiS1o",
+        "0szTDpZPGXwM1fJpgaJkhF"
+      ],
+      "title": "Under My Skin",
+      "album": "Under My Skin",
+      "album_id": "3S1j9UHWLks59ypFnB1xWc",
+      "duration_ms": 177200,
+      "isrc": "NL8RL2632877",
+      "release_date": "2026-10-16",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 160,
+      "spotify_uri": "spotify:track:0kEmoJeOPaIXVgRT0XREw0",
+      "spotify_url": "https://open.spotify.com/track/0kEmoJeOPaIXVgRT0XREw0",
+      "artist": "Restricted, TOZA",
+      "artists": [
+        "Restricted",
+        "TOZA"
+      ],
+      "artist_ids": [
+        "7mx6iGwPF157vXwYcl1DQ3",
+        "4EGv5uSV4xrFpAfrkvW71L"
+      ],
+      "title": "DON'T WANNA MISS THIS",
+      "album": "DON'T WANNA MISS THIS",
+      "album_id": "0lIyBi6BOkCAjFXGohyNm4",
+      "duration_ms": 160503,
+      "isrc": "CBEFB2600498",
+      "release_date": "2026-03-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 161,
+      "spotify_uri": "spotify:track:3POtBUJ7QN6dxGMK5256nk",
+      "spotify_url": "https://open.spotify.com/track/3POtBUJ7QN6dxGMK5256nk",
+      "artist": "HI-LO",
+      "artists": [
+        "HI-LO"
+      ],
+      "artist_ids": [
+        "0ETJQforv5OXgDgidQv9qd"
+      ],
+      "title": "MEGALITHIC",
+      "album": "MEGALITHIC",
+      "album_id": "4B7MfYHszhubd7ueqdHqlV",
+      "duration_ms": 185639,
+      "isrc": "QMDA72647106",
+      "release_date": "2026-09-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 162,
+      "spotify_uri": "spotify:track:0XEliZsaVl8oaJTMBRRZKI",
+      "spotify_url": "https://open.spotify.com/track/0XEliZsaVl8oaJTMBRRZKI",
+      "artist": "CHYL, Fahjah",
+      "artists": [
+        "CHYL",
+        "Fahjah"
+      ],
+      "artist_ids": [
+        "15HOfHbNWedCAcJ3Cm1mbc",
+        "7LjoOGD9rMWkR8clGUu2Id"
+      ],
+      "title": "Hooyah!",
+      "album": "Hooyah!",
+      "album_id": "7LBXSPK6T33wQ2vsonmv5e",
+      "duration_ms": 132800,
+      "isrc": "USDM32348701",
+      "release_date": "2023-02-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 163,
+      "spotify_uri": "spotify:track:1yaaaClVzduXM6tqbGJDTj",
+      "spotify_url": "https://open.spotify.com/track/1yaaaClVzduXM6tqbGJDTj",
+      "artist": "DJSM, Samuel Moriero",
+      "artists": [
+        "DJSM",
+        "Samuel Moriero"
+      ],
+      "artist_ids": [
+        "13qjHQyFpjR48hBIbPrwMx",
+        "1c0DczTIcjLtkHHWNuXxdI"
+      ],
+      "title": "LEFT TO RIGHT",
+      "album": "LEFT TO RIGHT",
+      "album_id": "2ZaFxebkvtmCCZSRem1qY3",
+      "duration_ms": 202513,
+      "isrc": "GX8KD2517757",
+      "release_date": "2025-02-21",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 164,
+      "spotify_uri": "spotify:track:1zG0JvTvPSqp4B8Q6GSV7q",
+      "spotify_url": "https://open.spotify.com/track/1zG0JvTvPSqp4B8Q6GSV7q",
+      "artist": "Bad Boombox, Mija",
+      "artists": [
+        "Bad Boombox",
+        "Mija"
+      ],
+      "artist_ids": [
+        "6ZisvOKQY2LDItOkbsy2qd",
+        "1NpKmfDYMhw1KJIIUCsX4O"
+      ],
+      "title": "Obsession",
+      "album": "Obsession",
+      "album_id": "0wcEYESK4xAJCEUZlctF6O",
+      "duration_ms": 161756,
+      "isrc": "QMBZ92551970",
+      "release_date": "2025-08-22",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 165,
+      "spotify_uri": "spotify:track:1Hfc70Sb029Gg6XjLNz4fZ",
+      "spotify_url": "https://open.spotify.com/track/1Hfc70Sb029Gg6XjLNz4fZ",
+      "artist": "Tantrum Desire",
+      "artists": [
+        "Tantrum Desire"
+      ],
+      "artist_ids": [
+        "7HBMCyflAmijk08T1si9wS"
+      ],
+      "title": "In the Dance",
+      "album": "In the Dance",
+      "album_id": "0lB9tNWE2L0I684QwHVgEM",
+      "duration_ms": 249186,
+      "isrc": "GBMFG1800964",
+      "release_date": "2022-03-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 166,
+      "spotify_uri": "spotify:track:6PAqmd8XOC9aALrumVY6Wh",
+      "spotify_url": "https://open.spotify.com/track/6PAqmd8XOC9aALrumVY6Wh",
+      "artist": "HYPERKID",
+      "artists": [
+        "HYPERKID"
+      ],
+      "artist_ids": [
+        "5Ib8twLyORRA2LGphgjKSS"
+      ],
+      "title": "Core",
+      "album": "Core",
+      "album_id": "0yyoZf9155xNvxYGLNBUxb",
+      "duration_ms": 136258,
+      "isrc": "GBKQU2614997",
+      "release_date": "2026-03-20",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 167,
+      "spotify_uri": "spotify:track:4PFkJXTUZVEsKIZ01n4rev",
+      "spotify_url": "https://open.spotify.com/track/4PFkJXTUZVEsKIZ01n4rev",
+      "artist": "mischluft",
+      "artists": [
+        "mischluft"
+      ],
+      "artist_ids": [
+        "6IPWduBm255hSxmAcNoHjF"
+      ],
+      "title": "Call Me Babe",
+      "album": "Call Me Babe",
+      "album_id": "0XT6dwcKjCSwQDwrFgsKeM",
+      "duration_ms": 164121,
+      "isrc": "DEUM72412433",
+      "release_date": "2024-11-29",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 168,
+      "spotify_uri": "spotify:track:10OEP8sjV27U8uDG6n9ZC6",
+      "spotify_url": "https://open.spotify.com/track/10OEP8sjV27U8uDG6n9ZC6",
+      "artist": "Conrad Taylor, Flash Gea",
+      "artists": [
+        "Conrad Taylor",
+        "Flash Gea"
+      ],
+      "artist_ids": [
+        "2xycbnmcCACddcAnOanEnw",
+        "0bKc2cidr688jnhiPtgFEL"
+      ],
+      "title": "DIE TIEFE",
+      "album": "DIE TIEFE",
+      "album_id": "2GKnhscZ3Rk2Q97y605240",
+      "duration_ms": 139867,
+      "isrc": "USUYG1715027",
+      "release_date": "2025-03-28",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 169,
+      "spotify_uri": "spotify:track:4h9RbW9SAvfiyq9hsVKUym",
+      "spotify_url": "https://open.spotify.com/track/4h9RbW9SAvfiyq9hsVKUym",
+      "artist": "The Rocketman",
+      "artists": [
+        "The Rocketman"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V"
+      ],
+      "title": "Una Hora Más",
+      "album": "Una Hora Más",
+      "album_id": "6GQFgi1oqmxeM3aDwb8xQY",
+      "duration_ms": 163600,
+      "isrc": "NL8RL2462582",
+      "release_date": "2025-01-17",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 170,
+      "spotify_uri": "spotify:track:1ROfdqAJJ6vHq2dDni27TV",
+      "spotify_url": "https://open.spotify.com/track/1ROfdqAJJ6vHq2dDni27TV",
+      "artist": "Stella Bossi",
+      "artists": [
+        "Stella Bossi"
+      ],
+      "artist_ids": [
+        "3mRoki0oqjOZy7pXCd2cSz"
+      ],
+      "title": "Weekend Baddie",
+      "album": "Weekend Baddie",
+      "album_id": "3GkXIClRd3IxHNb96kWnLS",
+      "duration_ms": 178538,
+      "isrc": "DE1QW2503917",
+      "release_date": "2025-09-19",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 171,
+      "spotify_uri": "spotify:track:5jWqlILvwGMwsk3ZKfhxPU",
+      "spotify_url": "https://open.spotify.com/track/5jWqlILvwGMwsk3ZKfhxPU",
+      "artist": "Odymel",
+      "artists": [
+        "Odymel"
+      ],
+      "artist_ids": [
+        "7c4fOBUstnjfbvSwtOJSiA"
+      ],
+      "title": "Gucci",
+      "album": "Gucci",
+      "album_id": "44za2Kpy3rYooqJmhienHz",
+      "duration_ms": 273698,
+      "isrc": "CA5KR2418535",
+      "release_date": "2024-02-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 172,
+      "spotify_uri": "spotify:track:4v60qhrd16Od8lzH7mKMT6",
+      "spotify_url": "https://open.spotify.com/track/4v60qhrd16Od8lzH7mKMT6",
+      "artist": "Samuel Moriero, DØMINA",
+      "artists": [
+        "Samuel Moriero",
+        "DØMINA"
+      ],
+      "artist_ids": [
+        "1c0DczTIcjLtkHHWNuXxdI",
+        "2SaPpXmlY9agJpvlEbLMKD"
+      ],
+      "title": "DANGER ZONE",
+      "album": "DANGER ZONE",
+      "album_id": "10Y02xaHPDd20la0h8SKq9",
+      "duration_ms": 234008,
+      "isrc": "NLE802500331",
+      "release_date": "2025-07-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 173,
+      "spotify_uri": "spotify:track:2fNIuRD8RrG26mGFs343gv",
+      "spotify_url": "https://open.spotify.com/track/2fNIuRD8RrG26mGFs343gv",
+      "artist": "BEAUZ, Mark Sixma",
+      "artists": [
+        "BEAUZ",
+        "Mark Sixma"
+      ],
+      "artist_ids": [
+        "2Wzb0u138rgoZQTK3ytknT",
+        "3ePCIHipMKD4n8IBXBYWSm"
+      ],
+      "title": "Little Voices",
+      "album": "Little Voices",
+      "album_id": "1LpoKUCBMNaeHCmvgFo9wZ",
+      "duration_ms": 130451,
+      "isrc": "QZDA72691847",
+      "release_date": "2026-01-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 174,
+      "spotify_uri": "spotify:track:4LZVInRDiVYM1QzZvnngsq",
+      "spotify_url": "https://open.spotify.com/track/4LZVInRDiVYM1QzZvnngsq",
+      "artist": "FOVOS, AIROD, Elixyr",
+      "artists": [
+        "FOVOS",
+        "AIROD",
+        "Elixyr"
+      ],
+      "artist_ids": [
+        "1ccmwHm4DPRPR12TZVWdu8",
+        "3oPI0nOC7MHooFy5qDsFrv",
+        "6FrtqByri2rGt9QRDQPEgS"
+      ],
+      "title": "Baddie",
+      "album": "Baddie",
+      "album_id": "5aWep5dP6D5Cmv4HnH4QmV",
+      "duration_ms": 163531,
+      "isrc": "FRX762583799",
+      "release_date": "2025-09-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 175,
+      "spotify_uri": "spotify:track:7BiSVTb6TUZcVfnkeS7uRR",
+      "spotify_url": "https://open.spotify.com/track/7BiSVTb6TUZcVfnkeS7uRR",
+      "artist": "Tsuki, Subshock & Evangelos",
+      "artists": [
+        "Tsuki",
+        "Subshock & Evangelos"
+      ],
+      "artist_ids": [
+        "2yJbiseBZFvrCK5GueLnk7",
+        "2zmc5GOSrIaronLdKaqluH"
+      ],
+      "title": "Beside Me",
+      "album": "Beside Me",
+      "album_id": "2X19G3YmyknXTAuM1FFEjV",
+      "duration_ms": 182086,
+      "isrc": "DGA052214865",
+      "release_date": "2022-11-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 176,
+      "spotify_uri": "spotify:track:6MBjeyw0goAU4WMKk1O5a1",
+      "spotify_url": "https://open.spotify.com/track/6MBjeyw0goAU4WMKk1O5a1",
+      "artist": "Andrea Scopsi",
+      "artists": [
+        "Andrea Scopsi"
+      ],
+      "artist_ids": [
+        "4BCcz7zVJc2TM1rrZ2x5fW"
+      ],
+      "title": "Black Crop Top",
+      "album": "Black Crop Top",
+      "album_id": "6S93vRPUnTqWesObcmGiKu",
+      "duration_ms": 165677,
+      "isrc": "NL8RL2555000",
+      "release_date": "2025-10-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 177,
+      "spotify_uri": "spotify:track:7CI5IAi2z70tyJIVXxsHfw",
+      "spotify_url": "https://open.spotify.com/track/7CI5IAi2z70tyJIVXxsHfw",
+      "artist": "Conrad Taylor, ROSALÍA, Björk, Yves Tumor",
+      "artists": [
+        "Conrad Taylor",
+        "ROSALÍA",
+        "Björk",
+        "Yves Tumor"
+      ],
+      "artist_ids": [
+        "2xycbnmcCACddcAnOanEnw",
+        "7ltDVBr6mKbRvohxheJ9h1",
+        "7w29UYBi0qsHi5RTcv3lmA",
+        "0qu422H5MOoQxGjd4IzHbS"
+      ],
+      "title": "Berghain - Remix",
+      "album": "Berghain (Remix)",
+      "album_id": "5tY5Hafl8siFkPnxyllYVR",
+      "duration_ms": 154954,
+      "isrc": "USSM12600869",
+      "release_date": "2026-03-06",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 178,
+      "spotify_uri": "spotify:track:1VGrQCYb8ipNW1O6xLMqLR",
+      "spotify_url": "https://open.spotify.com/track/1VGrQCYb8ipNW1O6xLMqLR",
+      "artist": "SHVDZ, TMPL, VNES",
+      "artists": [
+        "SHVDZ",
+        "TMPL",
+        "VNES"
+      ],
+      "artist_ids": [
+        "4lOUAtosaRwWeCoiIeLeQM",
+        "5VFvWYGBfacooJsp4oFC2X",
+        "6q18QeBgyUKmb5am0dj8ql"
+      ],
+      "title": "XTC",
+      "album": "XTC EP",
+      "album_id": "2PYvddqjWRv8Kc0oh8hRGJ",
+      "duration_ms": 205548,
+      "isrc": "NLQ8D2500268",
+      "release_date": "2025-04-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 179,
+      "spotify_uri": "spotify:track:5ZLMh6NE9EENfaBzdjSgY2",
+      "spotify_url": "https://open.spotify.com/track/5ZLMh6NE9EENfaBzdjSgY2",
+      "artist": "Onlynumbers, Lucie Hart, Tiësto",
+      "artists": [
+        "Onlynumbers",
+        "Lucie Hart",
+        "Tiësto"
+      ],
+      "artist_ids": [
+        "14lZi2xEonJg9DyYk9JBak",
+        "7tW2EWm32eoG9655JEiFhU",
+        "2o5jDhtHVPhrJdv3cEQ99Z"
+      ],
+      "title": "Euphoric Night (feat. Lucie Hart) [Tiësto Remix]",
+      "album": "Euphoric Night (feat. Lucie Hart) [Tiësto Remix]",
+      "album_id": "5VK1rIhcykgTF7Hemzg6U8",
+      "duration_ms": 153947,
+      "isrc": "NLZ542500435",
+      "release_date": "2025-07-11",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 180,
+      "spotify_uri": "spotify:track:4xSlRkHJuhSgf1y48pVxTz",
+      "spotify_url": "https://open.spotify.com/track/4xSlRkHJuhSgf1y48pVxTz",
+      "artist": "Taylor Torrence, Kyra Mastro",
+      "artists": [
+        "Taylor Torrence",
+        "Kyra Mastro"
+      ],
+      "artist_ids": [
+        "4PhWdminU7odBReTmyyZrH",
+        "0VijmgKPGaaOsmM6jWgbQJ"
+      ],
+      "title": "Voodoo",
+      "album": "Voodoo",
+      "album_id": "4kiPVDDKn6PuBisem1ms2J",
+      "duration_ms": 220900,
+      "isrc": "NL8RL2528933",
+      "release_date": "2025-07-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 181,
+      "spotify_uri": "spotify:track:6cP6IST6zj0sPIDOjmA1JZ",
+      "spotify_url": "https://open.spotify.com/track/6cP6IST6zj0sPIDOjmA1JZ",
+      "artist": "Distorted Dreams",
+      "artists": [
+        "Distorted Dreams"
+      ],
+      "artist_ids": [
+        "5AbJRK8P9lWfeuVOl6HrgO"
+      ],
+      "title": "Acid Cry",
+      "album": "Acid Cry",
+      "album_id": "1mDhi4pdNILU4hxVBWTiAa",
+      "duration_ms": 145800,
+      "isrc": "DEE862302144",
+      "release_date": "2023-12-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 182,
+      "spotify_uri": "spotify:track:0Ly2M0WzA2XlaKMzwdVhqW",
+      "spotify_url": "https://open.spotify.com/track/0Ly2M0WzA2XlaKMzwdVhqW",
+      "artist": "Taylor Torrence, Kyra Mastro",
+      "artists": [
+        "Taylor Torrence",
+        "Kyra Mastro"
+      ],
+      "artist_ids": [
+        "4PhWdminU7odBReTmyyZrH",
+        "0VijmgKPGaaOsmM6jWgbQJ"
+      ],
+      "title": "Mona Lisa",
+      "album": "Mona Lisa",
+      "album_id": "3oSdK3BhGlbAcNepE41BXE",
+      "duration_ms": 174770,
+      "isrc": "GBKQU2521616",
+      "release_date": "2025-04-04",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 183,
+      "spotify_uri": "spotify:track:6lolXVzX6H2W0LtnExXi8l",
+      "spotify_url": "https://open.spotify.com/track/6lolXVzX6H2W0LtnExXi8l",
+      "artist": "Kevin D'Angello",
+      "artists": [
+        "Kevin D'Angello"
+      ],
+      "artist_ids": [
+        "5cg7ESNx1k1NLAkdx78P9y"
+      ],
+      "title": "Rule The Night",
+      "album": "Rule The Night",
+      "album_id": "7Ht5MOOkxY77Y4cv1G3CkV",
+      "duration_ms": 148645,
+      "isrc": "NLQ8D2400917",
+      "release_date": "2024-11-22",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 184,
+      "spotify_uri": "spotify:track:6v2N2miIqFLuOLbyFNeAns",
+      "spotify_url": "https://open.spotify.com/track/6v2N2miIqFLuOLbyFNeAns",
+      "artist": "mischluft",
+      "artists": [
+        "mischluft"
+      ],
+      "artist_ids": [
+        "6IPWduBm255hSxmAcNoHjF"
+      ],
+      "title": "Entertain Me",
+      "album": "Entertain Me",
+      "album_id": "5tszZPM7fry1xLqzJaE8uy",
+      "duration_ms": 170624,
+      "isrc": "DEUM72408164",
+      "release_date": "2024-07-26",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 185,
+      "spotify_uri": "spotify:track:3d9JNjZC5rIWLcd0knqvla",
+      "spotify_url": "https://open.spotify.com/track/3d9JNjZC5rIWLcd0knqvla",
+      "artist": "Brutalismus 3000",
+      "artists": [
+        "Brutalismus 3000"
+      ],
+      "artist_ids": [
+        "6LtXxYMIiKSy2EGHnz1f5j"
+      ],
+      "title": "3ISBÄR",
+      "album": "3ISBÄR",
+      "album_id": "6K02nZ7YNOePwWQIBkFdhk",
+      "duration_ms": 276659,
+      "isrc": "DEZC62212347",
+      "release_date": "2022-12-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 186,
+      "spotify_uri": "spotify:track:59RvYAbG3LKRZMLk3aRLfn",
+      "spotify_url": "https://open.spotify.com/track/59RvYAbG3LKRZMLk3aRLfn",
+      "artist": "SHVDZ",
+      "artists": [
+        "SHVDZ"
+      ],
+      "artist_ids": [
+        "4lOUAtosaRwWeCoiIeLeQM"
+      ],
+      "title": "Do My Thing",
+      "album": "Do My Thing",
+      "album_id": "2DHqZKvxodLLEJuOQirVKE",
+      "duration_ms": 167172,
+      "isrc": "NLQ8D2300745",
+      "release_date": "2024-01-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 187,
+      "spotify_uri": "spotify:track:5FiMZQNTyEdRGormnOuHqg",
+      "spotify_url": "https://open.spotify.com/track/5FiMZQNTyEdRGormnOuHqg",
+      "artist": "BEAUZ",
+      "artists": [
+        "BEAUZ"
+      ],
+      "artist_ids": [
+        "2Wzb0u138rgoZQTK3ytknT"
+      ],
+      "title": "Lick It",
+      "album": "Lick It",
+      "album_id": "4mvkqvRNyKfKPXS66OWGBf",
+      "duration_ms": 159000,
+      "isrc": "NL4CP2401512",
+      "release_date": "2024-02-23",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 188,
+      "spotify_uri": "spotify:track:3xZQY82rNryttXTi1WRIzN",
+      "spotify_url": "https://open.spotify.com/track/3xZQY82rNryttXTi1WRIzN",
+      "artist": "Memento Mori, Kova",
+      "artists": [
+        "Memento Mori",
+        "Kova"
+      ],
+      "artist_ids": [
+        "4AJdOTtmWuYYElSe07eejR",
+        "4fEckNuqOODv3H0ZimhCft"
+      ],
+      "title": "Camera",
+      "album": "Camera",
+      "album_id": "2dXRnm1OFRUkNJOgYPVhnq",
+      "duration_ms": 168000,
+      "isrc": "NL3M12519357",
+      "release_date": "2025-10-31",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 189,
+      "spotify_uri": "spotify:track:08QcTSovKYpT6d7Tu3WbIc",
+      "spotify_url": "https://open.spotify.com/track/08QcTSovKYpT6d7Tu3WbIc",
+      "artist": "Artemas, MRD",
+      "artists": [
+        "Artemas",
+        "MRD"
+      ],
+      "artist_ids": [
+        "0PCCGZ0wGLizHt2KZ7hhA2",
+        "4bpzygoBaq9IUDs3XAxqpR"
+      ],
+      "title": "i like the way you kiss me - MRD remix",
+      "album": "i like the way you kiss me (remixes)",
+      "album_id": "7jYsvUIbj8OktGfdnCU4LB",
+      "duration_ms": 256932,
+      "isrc": "QZJ842400584",
+      "release_date": "2024-04-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 190,
+      "spotify_uri": "spotify:track:1IGYWrd1H0oxNMS8FHrUGs",
+      "spotify_url": "https://open.spotify.com/track/1IGYWrd1H0oxNMS8FHrUGs",
+      "artist": "BEAUZ, JKRS, gritney",
+      "artists": [
+        "BEAUZ",
+        "JKRS",
+        "gritney"
+      ],
+      "artist_ids": [
+        "2Wzb0u138rgoZQTK3ytknT",
+        "5EXlM2WBPw4fwTnDNazXxv",
+        "4ffsVdOEMAqvXPPePkgP5d"
+      ],
+      "title": "Loco",
+      "album": "Loco",
+      "album_id": "7hFywUCGCMUzFU8vErgcfK",
+      "duration_ms": 132151,
+      "isrc": "QMBZ92418027",
+      "release_date": "2024-09-06",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 191,
+      "spotify_uri": "spotify:track:3ZzafniLjEBqRM7GeyRcvz",
+      "spotify_url": "https://open.spotify.com/track/3ZzafniLjEBqRM7GeyRcvz",
+      "artist": "Dom Dolla, Layton Giordani",
+      "artists": [
+        "Dom Dolla",
+        "Layton Giordani"
+      ],
+      "artist_ids": [
+        "205i7E8fNVfojowcQSfK9m",
+        "7mC3RkNNTV6p2j9w4F8Ip4"
+      ],
+      "title": "girl$ - Layton Giordani Remix",
+      "album": "girl$ (Layton Giordani Remix)",
+      "album_id": "2vcisyP9y8jUFqI7W6x7BN",
+      "duration_ms": 184477,
+      "isrc": "USQX92403191",
+      "release_date": "2024-07-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 192,
+      "spotify_uri": "spotify:track:60BXInRHS0NQ1oVsnqA15a",
+      "spotify_url": "https://open.spotify.com/track/60BXInRHS0NQ1oVsnqA15a",
+      "artist": "Armin van Buuren, Lilly Palmer",
+      "artists": [
+        "Armin van Buuren",
+        "Lilly Palmer"
+      ],
+      "artist_ids": [
+        "0SfsnGyD8FpIN4U4WCkBZ5",
+        "4h8IEOdrg60WM5XGyNOCVU"
+      ],
+      "title": "Blah Blah Blah - Lilly Palmer Remix",
+      "album": "Blah Blah Blah (Lilly Palmer Remix)",
+      "album_id": "2jNzuqo3EuqJl95swKdEZ8",
+      "duration_ms": 214299,
+      "isrc": "NLF712408338",
+      "release_date": "2024-11-01",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 193,
+      "spotify_uri": "spotify:track:5mbEDRNFzwWFGSW3f7guHB",
+      "spotify_url": "https://open.spotify.com/track/5mbEDRNFzwWFGSW3f7guHB",
+      "artist": "Lupage",
+      "artists": [
+        "Lupage"
+      ],
+      "artist_ids": [
+        "5MazkeVWAqayflCjldHhs3"
+      ],
+      "title": "BASS DOWN LOW",
+      "album": "BASS DOWN LOW",
+      "album_id": "34nDjs0YkpO1Mud0gNFoG1",
+      "duration_ms": 166124,
+      "isrc": "DEE862400564",
+      "release_date": "2024-04-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 194,
+      "spotify_uri": "spotify:track:6t5P8qSHRds2H13AVzcnaH",
+      "spotify_url": "https://open.spotify.com/track/6t5P8qSHRds2H13AVzcnaH",
+      "artist": "Taylor Torrence, Kyra Mastro",
+      "artists": [
+        "Taylor Torrence",
+        "Kyra Mastro"
+      ],
+      "artist_ids": [
+        "4PhWdminU7odBReTmyyZrH",
+        "0VijmgKPGaaOsmM6jWgbQJ"
+      ],
+      "title": "IDGAF",
+      "album": "IDGAF",
+      "album_id": "26zfK8T4zPfqajCsrCjBpH",
+      "duration_ms": 177595,
+      "isrc": "GBKQU2541174",
+      "release_date": "2025-06-06",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 195,
+      "spotify_uri": "spotify:track:6m9WBTxAzwxXPkeVzCIA51",
+      "spotify_url": "https://open.spotify.com/track/6m9WBTxAzwxXPkeVzCIA51",
+      "artist": "DJSM, Samuel Moriero",
+      "artists": [
+        "DJSM",
+        "Samuel Moriero"
+      ],
+      "artist_ids": [
+        "13qjHQyFpjR48hBIbPrwMx",
+        "1c0DczTIcjLtkHHWNuXxdI"
+      ],
+      "title": "EMERGENCY",
+      "album": "EMERGENCY",
+      "album_id": "2OYtlSxjAwIU1Bow7janJn",
+      "duration_ms": 216705,
+      "isrc": "GX3HH2533915",
+      "release_date": "2025-05-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 196,
+      "spotify_uri": "spotify:track:3r3Vinc9oBAnIUjolTemFf",
+      "spotify_url": "https://open.spotify.com/track/3r3Vinc9oBAnIUjolTemFf",
+      "artist": "Valentina Soto",
+      "artists": [
+        "Valentina Soto"
+      ],
+      "artist_ids": [
+        "41TOOGX3nHghrVvmDJDHhQ"
+      ],
+      "title": "Techno Sh",
+      "album": "Techno Sh",
+      "album_id": "30CDYNwvWQ6DYPkSa2aLjn",
+      "duration_ms": 223384,
+      "isrc": "CBEFB2500103",
+      "release_date": "2025-03-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 197,
+      "spotify_uri": "spotify:track:6dneB8inUhpyRjrE3g8Tgg",
+      "spotify_url": "https://open.spotify.com/track/6dneB8inUhpyRjrE3g8Tgg",
+      "artist": "Gonzi",
+      "artists": [
+        "Gonzi"
+      ],
+      "artist_ids": [
+        "5QahAoa4CrRbxmriKGacoe"
+      ],
+      "title": "Turn It Up",
+      "album": "Turn It Up",
+      "album_id": "5EQUVYy6PUSj2bBKQmiCL8",
+      "duration_ms": 319585,
+      "isrc": "FR9W12433426",
+      "release_date": "2024-07-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 198,
+      "spotify_uri": "spotify:track:1wTsFvgVPEGRcCkJpzp5oS",
+      "spotify_url": "https://open.spotify.com/track/1wTsFvgVPEGRcCkJpzp5oS",
+      "artist": "Matt Dybal, Steeper",
+      "artists": [
+        "Matt Dybal",
+        "Steeper"
+      ],
+      "artist_ids": [
+        "4QdIbNe6CEKwlaucgaLnA2",
+        "2uTLykyg4Wk5zBw3Xttmsh"
+      ],
+      "title": "Type A Way",
+      "album": "Type A Way",
+      "album_id": "0HflAmHeIsd0feMzz8G3HG",
+      "duration_ms": 142535,
+      "isrc": "CH7812419818",
+      "release_date": "2024-11-15",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 199,
+      "spotify_uri": "spotify:track:4LUImvOzC8AbBdJ6QMG21W",
+      "spotify_url": "https://open.spotify.com/track/4LUImvOzC8AbBdJ6QMG21W",
+      "artist": "Taylor Torrence, Kyra Mastro",
+      "artists": [
+        "Taylor Torrence",
+        "Kyra Mastro"
+      ],
+      "artist_ids": [
+        "4PhWdminU7odBReTmyyZrH",
+        "0VijmgKPGaaOsmM6jWgbQJ"
+      ],
+      "title": "3Ø3",
+      "album": "3Ø3",
+      "album_id": "5Jw7cPQINtMAqdvzOCwzl9",
+      "duration_ms": 194806,
+      "isrc": "CBEFB2605361",
+      "release_date": "2026-09-01",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 200,
+      "spotify_uri": "spotify:track:73kgYG0Duu5x3W6Y1shnXl",
+      "spotify_url": "https://open.spotify.com/track/73kgYG0Duu5x3W6Y1shnXl",
+      "artist": "Memento Mori",
+      "artists": [
+        "Memento Mori"
+      ],
+      "artist_ids": [
+        "4AJdOTtmWuYYElSe07eejR"
+      ],
+      "title": "Closer To The Sun - Extended Mix",
+      "album": "Closer To The Sun",
+      "album_id": "0K06YeiICivR2qEpnZoW0V",
+      "duration_ms": 238500,
+      "isrc": "NLRD52403996",
+      "release_date": "2025-03-14",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 201,
+      "spotify_uri": "spotify:track:65iCJro5MwaW98hgpPKQNJ",
+      "spotify_url": "https://open.spotify.com/track/65iCJro5MwaW98hgpPKQNJ",
+      "artist": "SMACK, Antoine Delvig, Luciana",
+      "artists": [
+        "SMACK",
+        "Antoine Delvig",
+        "Luciana"
+      ],
+      "artist_ids": [
+        "5uJw4WCX5nYj4FHky9r1Ug",
+        "5akjwT4cQGhi5DLknDb0Wl",
+        "4ugGMtXC28CVR5hlYJy9wV"
+      ],
+      "title": "Tekno",
+      "album": "Tekno",
+      "album_id": "5pgDB3cWx1Ra9bY6oiauyx",
+      "duration_ms": 151401,
+      "isrc": "NL9KQ2390478",
+      "release_date": "2024-08-30",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 202,
+      "spotify_uri": "spotify:track:3SJiQ1qeWpib3wVsULKNCE",
+      "spotify_url": "https://open.spotify.com/track/3SJiQ1qeWpib3wVsULKNCE",
+      "artist": "Yellow Claw, Police In Paris, Stoltenhoff",
+      "artists": [
+        "Yellow Claw",
+        "Police In Paris",
+        "Stoltenhoff"
+      ],
+      "artist_ids": [
+        "47z7ZrgFoBvVpCnElCE3Zh",
+        "2NQvfk2OahqD2YybayOHC2",
+        "6HKR0MHpgba3ZRBXYfPiq0"
+      ],
+      "title": "Creep",
+      "album": "Creep / Major",
+      "album_id": "6N0ez4f0rQjP0eRvDazUFr",
+      "duration_ms": 205812,
+      "isrc": "USA2P2422622",
+      "release_date": "2024-05-24",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 203,
+      "spotify_uri": "spotify:track:1RiUCViwSix0tpcJAkUikB",
+      "spotify_url": "https://open.spotify.com/track/1RiUCViwSix0tpcJAkUikB",
+      "artist": "Memento Mori",
+      "artists": [
+        "Memento Mori"
+      ],
+      "artist_ids": [
+        "4AJdOTtmWuYYElSe07eejR"
+      ],
+      "title": "Throw It Back",
+      "album": "Throw It Back",
+      "album_id": "2uONCUiqr7M16IVeBrgUzf",
+      "duration_ms": 124500,
+      "isrc": "DEPI82447039",
+      "release_date": "2024-10-25",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 204,
+      "spotify_uri": "spotify:track:3if5OebGvCHYFUrgWbcNq2",
+      "spotify_url": "https://open.spotify.com/track/3if5OebGvCHYFUrgWbcNq2",
+      "artist": "Hannah Laing",
+      "artists": [
+        "Hannah Laing"
+      ],
+      "artist_ids": [
+        "1QEd635szhierW6gzRiS1o"
+      ],
+      "title": "I Need It More",
+      "album": "I Need It More",
+      "album_id": "1xy1SNciNQEj4B9Aqd299d",
+      "duration_ms": 158167,
+      "isrc": "GBUM72403133",
+      "release_date": "2024-06-07",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 205,
+      "spotify_uri": "spotify:track:15il8Mg8sAiy7eqISGoJK6",
+      "spotify_url": "https://open.spotify.com/track/15il8Mg8sAiy7eqISGoJK6",
+      "artist": "Maddix",
+      "artists": [
+        "Maddix"
+      ],
+      "artist_ids": [
+        "0RMeG9M8QFzss9bAbq99KA"
+      ],
+      "title": "Favela",
+      "album": "Favela",
+      "album_id": "0AMYBABg2SQ8hWDys7rIJq",
+      "duration_ms": 195750,
+      "isrc": "NL8RL2629903",
+      "release_date": "2026-04-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 206,
+      "spotify_uri": "spotify:track:0Y8MXfSe2LcThivikQ9cEa",
+      "spotify_url": "https://open.spotify.com/track/0Y8MXfSe2LcThivikQ9cEa",
+      "artist": "The Rocketman",
+      "artists": [
+        "The Rocketman"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V"
+      ],
+      "title": "Loca",
+      "album": "Loca",
+      "album_id": "5YGMtwLhbqumvZN8nqaEYc",
+      "duration_ms": 156000,
+      "isrc": "NLQ8D2500292",
+      "release_date": "2025-05-02",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 207,
+      "spotify_uri": "spotify:track:1K2hpzmr7kNnWQKOG9o1tj",
+      "spotify_url": "https://open.spotify.com/track/1K2hpzmr7kNnWQKOG9o1tj",
+      "artist": "Ben Nicky, Restricted",
+      "artists": [
+        "Ben Nicky",
+        "Restricted"
+      ],
+      "artist_ids": [
+        "3Bd1phrOZJuCev9U0bzdtA",
+        "7mx6iGwPF157vXwYcl1DQ3"
+      ],
+      "title": "Dirty Rave",
+      "album": "Dirty Rave",
+      "album_id": "05RYx8rXlOZtNcMLaQgcKe",
+      "duration_ms": 150404,
+      "isrc": "UKRVV1900425",
+      "release_date": "2024-06-21",
+      "explicit": true,
+      "is_playable": true
+    },
+    {
+      "position": 208,
+      "spotify_uri": "spotify:track:6JkQb1qCCJDBV7kW5vJUAH",
+      "spotify_url": "https://open.spotify.com/track/6JkQb1qCCJDBV7kW5vJUAH",
+      "artist": "Hardwell, Maddix, Luciana",
+      "artists": [
+        "Hardwell",
+        "Maddix",
+        "Luciana"
+      ],
+      "artist_ids": [
+        "6BrvowZBreEkXzJQMpL174",
+        "0RMeG9M8QFzss9bAbq99KA",
+        "4ugGMtXC28CVR5hlYJy9wV"
+      ],
+      "title": "ACID",
+      "album": "ACID",
+      "album_id": "7LAUJxkEQOBf6rbS0MXUi6",
+      "duration_ms": 181333,
+      "isrc": "NLQ8D2300204",
+      "release_date": "2023-05-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 209,
+      "spotify_uri": "spotify:track:4p6Fbtqerwt7OGo93DWwBv",
+      "spotify_url": "https://open.spotify.com/track/4p6Fbtqerwt7OGo93DWwBv",
+      "artist": "The Rocketman, SHVDZ",
+      "artists": [
+        "The Rocketman",
+        "SHVDZ"
+      ],
+      "artist_ids": [
+        "6ArtT03Hv9H55Y3EVa7d2V",
+        "4lOUAtosaRwWeCoiIeLeQM"
+      ],
+      "title": "All Night",
+      "album": "All Night",
+      "album_id": "3J4wCrHW4yaRxTyeXvlUpP",
+      "duration_ms": 167225,
+      "isrc": "NL8RL2535379",
+      "release_date": "2025-07-18",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 210,
+      "spotify_uri": "spotify:track:3oyZ1lTk4FmRv6wmjkbXWs",
+      "spotify_url": "https://open.spotify.com/track/3oyZ1lTk4FmRv6wmjkbXWs",
+      "artist": "Vortek's, Restricted",
+      "artists": [
+        "Vortek's",
+        "Restricted"
+      ],
+      "artist_ids": [
+        "6Ztv937rk7iQxBObBW9ye0",
+        "7mx6iGwPF157vXwYcl1DQ3"
+      ],
+      "title": "FCKN LOUD",
+      "album": "FCKN LOUD",
+      "album_id": "3uLRiLTOZjmzd8pmfKd6Z8",
+      "duration_ms": 273000,
+      "isrc": "GXF972432981",
+      "release_date": "2024-12-13",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 211,
+      "spotify_uri": "spotify:track:0drzO94bmrMrel3GodCweJ",
+      "spotify_url": "https://open.spotify.com/track/0drzO94bmrMrel3GodCweJ",
+      "artist": "Ben Nicky, Distorted Dreams",
+      "artists": [
+        "Ben Nicky",
+        "Distorted Dreams"
+      ],
+      "artist_ids": [
+        "3Bd1phrOZJuCev9U0bzdtA",
+        "5AbJRK8P9lWfeuVOl6HrgO"
+      ],
+      "title": "We Come 1",
+      "album": "We Come 1",
+      "album_id": "6Tc47Ct756wIjmDPpRfrKW",
+      "duration_ms": 178285,
+      "isrc": "UKRVV1900152",
+      "release_date": "2021-11-05",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 212,
+      "spotify_uri": "spotify:track:4db1NxHlA788NkAG7t3Boi",
+      "spotify_url": "https://open.spotify.com/track/4db1NxHlA788NkAG7t3Boi",
+      "artist": "SMACK",
+      "artists": [
+        "SMACK"
+      ],
+      "artist_ids": [
+        "5uJw4WCX5nYj4FHky9r1Ug"
+      ],
+      "title": "Back Once Again",
+      "album": "Back Once Again",
+      "album_id": "2u0PXadmhy701I4eG4unyB",
+      "duration_ms": 149559,
+      "isrc": "USDM32688801",
+      "release_date": "2026-10-09",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 213,
+      "spotify_uri": "spotify:track:5GKsUqnQ90T5kkvG6u30wZ",
+      "spotify_url": "https://open.spotify.com/track/5GKsUqnQ90T5kkvG6u30wZ",
+      "artist": "Yellow Claw, Natte Visstick, RHYME",
+      "artists": [
+        "Yellow Claw",
+        "Natte Visstick",
+        "RHYME"
+      ],
+      "artist_ids": [
+        "47z7ZrgFoBvVpCnElCE3Zh",
+        "5hUbXqyif2dZ3ArU1v9Rli",
+        "5soNcAUPxpWwipU594dlqZ"
+      ],
+      "title": "CRUSH",
+      "album": "CRUSH",
+      "album_id": "3fAbIQ4KlgfrbFmIPDJQO0",
+      "duration_ms": 166425,
+      "isrc": "USA2P2408493",
+      "release_date": "2024-03-15",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 214,
+      "spotify_uri": "spotify:track:4nJ7DPVtneiiGVznr9mYax",
+      "spotify_url": "https://open.spotify.com/track/4nJ7DPVtneiiGVznr9mYax",
+      "artist": "Police In Paris, Ida Galich",
+      "artists": [
+        "Police In Paris",
+        "Ida Galich"
+      ],
+      "artist_ids": [
+        "2NQvfk2OahqD2YybayOHC2",
+        "0cRmwL6i8iVBLTzBeM98yU"
+      ],
+      "title": "БИЗИ",
+      "album": "БИЗИ",
+      "album_id": "3DcCGhtW4q391CscinL1Nk",
+      "duration_ms": 118400,
+      "isrc": "FRX282610543",
+      "release_date": "2026-07-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 215,
+      "spotify_uri": "spotify:track:3yZveXpzHQWqVYAOqwaP5w",
+      "spotify_url": "https://open.spotify.com/track/3yZveXpzHQWqVYAOqwaP5w",
+      "artist": "CHYL, Tima Dee",
+      "artists": [
+        "CHYL",
+        "Tima Dee"
+      ],
+      "artist_ids": [
+        "15HOfHbNWedCAcJ3Cm1mbc",
+        "4pQIDKoWXRw04D9e37QzbP"
+      ],
+      "title": "Drive (feat. Tima Dee)",
+      "album": "Drive (feat. Tima Dee)",
+      "album_id": "2vJHw35wgq0Dkkl9tpKFKv",
+      "duration_ms": 224000,
+      "isrc": "USUS12600119",
+      "release_date": "2026-03-13",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 216,
+      "spotify_uri": "spotify:track:61CsarvQdzlZRbwY9VPHwf",
+      "spotify_url": "https://open.spotify.com/track/61CsarvQdzlZRbwY9VPHwf",
+      "artist": "Yellow Claw",
+      "artists": [
+        "Yellow Claw"
+      ],
+      "artist_ids": [
+        "47z7ZrgFoBvVpCnElCE3Zh"
+      ],
+      "title": "THIS IS THE WAY",
+      "album": "THIS IS THE WAY",
+      "album_id": "6U35tQyh5WpoPyECMCYmrW",
+      "duration_ms": 139068,
+      "isrc": "USA2P2660579",
+      "release_date": "2026-09-11",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 217,
+      "spotify_uri": "spotify:track:0IPmUaVWKFhYA3K2YsOQfh",
+      "spotify_url": "https://open.spotify.com/track/0IPmUaVWKFhYA3K2YsOQfh",
+      "artist": "Late Checkout, Creeds, Neika",
+      "artists": [
+        "Late Checkout",
+        "Creeds",
+        "Neika"
+      ],
+      "artist_ids": [
+        "01LCDiHxcXclhaTqVRAme6",
+        "2gW0M5fn2r7Lo4Hn1r8HZ5",
+        "68FFgnelfY75QdZ6RmctYh"
+      ],
+      "title": "Made In Paris - Radio Edit",
+      "album": "Made In Paris (Radio Edit)",
+      "album_id": "2YhDHBxgskxtlcO1Nnt0s1",
+      "duration_ms": 235354,
+      "isrc": "DGA062570545",
+      "release_date": "2025-11-28",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 218,
+      "spotify_uri": "spotify:track:1j46cpZwZJozyuukrRxJPU",
+      "spotify_url": "https://open.spotify.com/track/1j46cpZwZJozyuukrRxJPU",
+      "artist": "Vortek's",
+      "artists": [
+        "Vortek's"
+      ],
+      "artist_ids": [
+        "6Ztv937rk7iQxBObBW9ye0"
+      ],
+      "title": "Tech All Night",
+      "album": "Tech All Night",
+      "album_id": "2aUHh1qeSssPWahUxOxb3Q",
+      "duration_ms": 187984,
+      "isrc": "GBKQU2670690",
+      "release_date": "2026-07-03",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 219,
+      "spotify_uri": "spotify:track:2jw3yv4EOzBTzbMs2cHphj",
+      "spotify_url": "https://open.spotify.com/track/2jw3yv4EOzBTzbMs2cHphj",
+      "artist": "Lilly Palmer, DANNY AVILA, ROWN",
+      "artists": [
+        "Lilly Palmer",
+        "DANNY AVILA",
+        "ROWN"
+      ],
+      "artist_ids": [
+        "4h8IEOdrg60WM5XGyNOCVU",
+        "1Xv1qZHJ1hnRlWHRTZ3uci",
+        "4WZfWEaVAJg0Sil7Ju7iea"
+      ],
+      "title": "Morals",
+      "album": "Morals",
+      "album_id": "2HlmQVBNrnKlTY7uBB5dJk",
+      "duration_ms": 161697,
+      "isrc": "NLF712506971",
+      "release_date": "2025-12-19",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 220,
+      "spotify_uri": "spotify:track:7cxiKjTFB5ioif9St0FKl7",
+      "spotify_url": "https://open.spotify.com/track/7cxiKjTFB5ioif9St0FKl7",
+      "artist": "Memento Mori, Bassfeature",
+      "artists": [
+        "Memento Mori",
+        "Bassfeature"
+      ],
+      "artist_ids": [
+        "4AJdOTtmWuYYElSe07eejR",
+        "6gJ6e0zgqpzY9032oXvb8l"
+      ],
+      "title": "i want vodka",
+      "album": "i want vodka",
+      "album_id": "43bovaS5qen30VsGDySan8",
+      "duration_ms": 124500,
+      "isrc": "NLRD52403993",
+      "release_date": "2025-04-25",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 221,
+      "spotify_uri": "spotify:track:3IqaRh5S6GctUfCv1Q9xIg",
+      "spotify_url": "https://open.spotify.com/track/3IqaRh5S6GctUfCv1Q9xIg",
+      "artist": "nilsix, Orjan Nilsen, Mark Sixma",
+      "artists": [
+        "nilsix",
+        "Orjan Nilsen",
+        "Mark Sixma"
+      ],
+      "artist_ids": [
+        "00S0dnexJEwjUFTEMTUC9I",
+        "1YuNQvsvOsMBm0ahbxB8qM",
+        "3ePCIHipMKD4n8IBXBYWSm"
+      ],
+      "title": "Blast from the Past",
+      "album": "Blast from the Past",
+      "album_id": "5wpVNSmzindMDwczKaMoGx",
+      "duration_ms": 181874,
+      "isrc": "NL8RL2558682",
+      "release_date": "2025-10-10",
+      "explicit": false,
+      "is_playable": true
+    },
+    {
+      "position": 222,
+      "spotify_uri": "spotify:track:3s0ddyP32ZZMCXQT70UQYJ",
+      "spotify_url": "https://open.spotify.com/track/3s0ddyP32ZZMCXQT70UQYJ",
+      "artist": "Dj Bountyhunter, Dimitri Vegas, Junkie Kid",
+      "artists": [
+        "Dj Bountyhunter",
+        "Dimitri Vegas",
+        "Junkie Kid"
+      ],
+      "artist_ids": [
+        "5yqxD8W7WnMJQZeoBU0Q66",
+        "2HkAI0YrEcgoR8QdaURqhO",
+        "3CjPghA9sowRwFGSrU038J"
+      ],
+      "title": "Woops - Dimitri Vegas & Junkie Kid Remix",
+      "album": "Woops (Dimitri Vegas & Junkie Kid Remix)",
+      "album_id": "2mksgWbb9v1gTUvc0Dg0Xq",
+      "duration_ms": 158951,
+      "isrc": "BEIW12400717",
+      "release_date": "2024-10-18",
+      "explicit": false,
+      "is_playable": true
+    }
+  ]
+}

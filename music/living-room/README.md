@@ -10,8 +10,8 @@ Follow the latest host brief in playlist.md and read the october-grove exports. 
 
 Track exports and versioned files are stored beside this plan. Keep new handoffs here.
 
-[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-26.json) · [Current 25-track batch](october-grove-batch-19.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest shared-vote handoff](../playlist-lab/handoff-2026-10-28-shared-votes.md).
+[Playlist Lab: listening votes and API management](../playlist-lab/README.md) · [Live approved playlist snapshot](october-grove-approved-2026-10-29.json) · [Completed 25-track batch](october-grove-batch-19.md) · [V3 first audition archive](october-grove-v3-audition.md) · [Latest shared-vote handoff](../playlist-lab/handoff-2026-10-28-shared-votes.md).
 
 October 26 host additions: [Float On — Modest Mouse](handoff-2026-10-26-float-on.md) and [Bruises — Chairlift](handoff-2026-10-26-bruises.md) are in the main playlist and saved as Keeps, outside the 50-track review batch.
 
-October 29: Grove 19 is live with **25 candidates**, one saved recording and 24 discoveries. The host called the previous round **too bland or low energy**; this tighter calibration emphasizes bold vocals, rhythmic punch and clearer payoff. Grove 18 finished 0/50. Shared Keeps remain **127 / 7:02:25 raw**, about **53 more approvals** toward 180. [Current status](../curation-status-2026-10-29.md).
+October 29: Grove 19 finished **0/25**, after two 0/50 rounds. The host says Grove still is not working and asks to try Spotify's recommendations. The main Spotify playlist is now synced to **all 127 shared Keeps / 7:02:25 raw**, with five rejected tracks removed and 82 Keeps appended. About **53 more approvals** toward 180 remain; further agent-selected batches are paused. [Current status](../curation-status-2026-10-29.md) · [Sync handoff](../handoff-2026-10-29-approved-playlist-sync.md).

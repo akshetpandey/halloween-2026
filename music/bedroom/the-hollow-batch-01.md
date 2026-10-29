@@ -1,5 +1,7 @@
 # The Hollow 01 · Rave spectrum
 
+**Historical audition. October 29:** the original playlist URL below is now the [main Hollow approved library](https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB), containing all 222 shared Keeps. The 50-track batch order remains in the structured export; the Spotify link no longer reproduces it. [Current status](../curation-status-2026-10-29.md).
+
 Prepared October 19, 2026. **50 audition candidates; host approval pending.** The old bedroom playlist has been replaced with this review batch; Spotify's API verified all 50 URIs in order.
 
 [Review this batch](https://music.hollow-court.com/?room=bedroom&batch=hollow-01) · [Spotify audition](https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB) · [Structured batch](the-hollow-batch-01.json) · [Current bedroom plan](playlist.md) · [Auto DJ research](auto-dj-research-2026-10-19.md)

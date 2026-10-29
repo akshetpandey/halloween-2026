@@ -1,0 +1,83 @@
+{
+  "verified_at": "2026-10-29T23:22:42Z",
+  "scope": "Host-authorized sync of both existing main playlists to all current shared Keeps. No new review batch.",
+  "authorization": "October 29 request to update both Spotify playlists; earlier explicit approved-only replacement and rejection-removal instructions remain active.",
+  "mutation_tools": "Spotify connector remove/add/update-details; sequential calls with full live order checks between item changes. No direct API item mutation.",
+  "rooms": {
+    "living-room": {
+      "playlist_id": "6FEcecNrYObHqVunRf9Vzf",
+      "name": "October Grove — Halloween 2026",
+      "url": "https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf",
+      "verified_at": "2026-10-29T23:22:18Z",
+      "before_count": 50,
+      "kept_from_before": 45,
+      "added_count": 82,
+      "removed_count": 5,
+      "after_count": 127,
+      "raw_duration_ms": 25345244,
+      "exact_order_verified": true,
+      "shared_approved_set_verified": true,
+      "excluded_cut_maybe_unrated": true,
+      "metadata_verified": true,
+      "before_order_sha256": "caa68e14cfb82594e9ba4af08b799f1e1cae41cf9242b0f5c7987c474c33d19a",
+      "after_order_sha256": "84797a69c06bbe53761d33d1dc17e276137d24794123b908ccca0ca7bddde061",
+      "export": "living-room/october-grove-approved-2026-10-29.json",
+      "room_votes": {
+        "down": 831,
+        "up": 127
+      }
+    },
+    "bedroom": {
+      "playlist_id": "6Vrg6foyDHd14liJImsTSB",
+      "name": "The Hollow — Halloween 2026",
+      "url": "https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB",
+      "verified_at": "2026-10-29T23:22:20Z",
+      "before_count": 50,
+      "kept_from_before": 25,
+      "added_count": 197,
+      "removed_count": 25,
+      "after_count": 222,
+      "raw_duration_ms": 47325739,
+      "exact_order_verified": true,
+      "shared_approved_set_verified": true,
+      "excluded_cut_maybe_unrated": true,
+      "metadata_verified": true,
+      "before_order_sha256": "6e1645bf3d5ed625ccf0e56296efd881f1a96829a1d54301d2bb7c1c138967d2",
+      "after_order_sha256": "b82e27befd0c65da0c828f1cfea0b3beb94bfe475f84632e412f92d9aede40e5",
+      "export": "bedroom/the-hollow-approved-2026-10-29.json",
+      "room_votes": {
+        "up": 222,
+        "down": 428
+      }
+    }
+  },
+  "catalog_checks": {
+    "market": "US",
+    "fresh_exact_tracks": 349,
+    "is_playable_true": 349,
+    "duplicate_uris": 0,
+    "duplicate_normalized_isrcs": 0,
+    "scope": "Recording-level identity checks, not acoustic or composition-wide analysis."
+  },
+  "review_state_checks": {
+    "records": 1608,
+    "tables_checked": 8,
+    "sqlite_integrity": "ok",
+    "all_table_contents_unchanged": true,
+    "before_logical_sha256": "3385f162fdfaf0ac4e9d9ea70ac0a0ce2134434e084d5a803825721e47ceba5f",
+    "after_logical_sha256": "3385f162fdfaf0ac4e9d9ea70ac0a0ce2134434e084d5a803825721e47ceba5f"
+  },
+  "recommendations": {
+    "direct_web_api": "GET /recommendations returned HTTP 404 for the authorized app; no direct recommendation tracks retrieved.",
+    "connector_search": "Spotify search returned a separate AI recommendation playlist. Collection polling reached READY with total_items 0 and no entities; no usable recommendation tracks were supplied. This is not verified native Recommended songs output from either refreshed main playlist.",
+    "result_url": "https://open.spotify.com/playlist/29tQL7MHtH7jiULloCUuFa",
+    "candidates_imported": 0
+  },
+  "limitations": [
+    "Raw runtime is not finished programme time after cuts and joins.",
+    "Spotify metadata propagation was delayed; verified on later readback. A transient HTTP 502 interrupted one read, retried as GET only.",
+    "No changes to votes, review library, global Likes, hosting, audio files, mixes or devices.",
+    "Public approved tracklists omit credentials, reviewer identities, private notes, per-track saved membership and timestamps.",
+    "The recommendation search result became READY but empty; no candidates could be assessed or imported."
+  ]
+}

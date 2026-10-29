@@ -1,8 +1,10 @@
 # The Hollow · bedroom rave programme
 
-Updated October 29, 2026, completed shared reviews. **[Batch 13 · Kick and character](the-hollow-batch-13.md)** is the current **50-track audition**: two saved recordings + 48 discoveries. Hollow 12 finished 5/50 Keep. Earlier reviews are complete; **207 shared Keeps / 12:24:38 raw**, about **13 more approvals** toward 220. [Current counts and targets](../curation-status-2026-10-29.md). Review interleaving is not a final party order.
+Updated October 29, 2026, after completed shared reviews and the host-requested main sync. **Hollow 13 finished 15/50 Keep**; no pending reviews remain. The [main Hollow playlist](https://open.spotify.com/playlist/6Vrg6foyDHd14liJImsTSB) now contains **all 222 shared Keeps / 13:08:45 raw**: 25 rejected tracks removed, 25 approved tracks retained and 197 Keeps appended. Its former Batch 01 name/description now identify the main approved library.
 
-[Review Batch 13](https://music.hollow-court.com/?room=bedroom&batch=hollow-13) · [Exact data](the-hollow-batch-13.json) · [Current handoff](../handoff-2026-10-29-room-batches-19-13.md)
+Full ordered API readback matches the canonical shared approved set. The 220-track working target is met; final cuts determine whether nine hours are covered. This source-library order is **not a final DJ sequence**. [Current counts and targets](../curation-status-2026-10-29.md) · [Approved snapshot](the-hollow-approved-2026-10-29.json) · [Sync handoff](../handoff-2026-10-29-approved-playlist-sync.md).
+
+[Completed Batch 13](https://music.hollow-court.com/?room=bedroom&batch=hollow-13) · [Historical batch data](the-hollow-batch-13.json).
 
 ## Current host brief
 
@@ -12,13 +14,13 @@ Updated October 29, 2026, completed shared reviews. **[Batch 13 · Kick and char
 
 ## Listen, vote, then sequence
 
-The current review batch alternates genres so the host can compare them. **Do not feed this interleaved audition order to Auto DJ.** Use Keep / Cut / Maybe in Playlist Lab. A bedroom selector separates these decisions from October Grove; later batches remain separate and earlier decisions persist. A Keep is approval of that recording, not proof of a DJ-ready local file or a tested transition.
+Review batches alternate genres so the host can compare them. **Do not feed this interleaved audition order to Auto DJ.** Use Keep / Cut / Maybe in Playlist Lab. A bedroom selector separates these decisions from October Grove; later batches remain separate and earlier decisions persist. A Keep is approval of that recording, not proof of a DJ-ready local file or a tested transition.
 
 After feedback, source the next batch in the successful lanes and reduce bright/commercial, harsh or repetitive probes according to actual votes. Build the party queue from approved selections in coherent chapters; keep DnB in deliberate blocks with rehearsed entries and exits. ReccoBeats catalog BPM/key support sorting, while actual-file analysis, grid checking and listening determine DJ readiness.
 
 ## Runtime and readiness
 
-Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 29 status](../curation-status-2026-10-29.md). Raw duration is not finished time after cuts/overlaps. The current 50 candidates total **2:33:58 raw**, excluded from approved programme time until kept. Actual finished chapters decide readiness.
+Current shared approved count/raw runtime and the **about-220-Keep working target** are in the [October 29 status](../curation-status-2026-10-29.md). Raw duration is not finished time after cuts/overlaps. The completed Batch 13 contained **2:33:58 raw**; only its 15 Keeps count toward the approved library. Actual finished chapters decide readiness.
 
 The final prepared collection must supply **at least nine hours after real cuts, transitions and playback-rate changes**. Maintain reserve without moving the 4 a.m. closing. The proposed 9:30 p.m. EDT October 31 to 4 a.m. EST November 1 event is 7.5 elapsed hours because the clock rolls back; use the explicit-offset timeline in [Mac orchestration](../mac-orchestration.md).
 
@@ -32,7 +34,8 @@ The [earlier source/routing comparison](auto-dj-research-2026-10-19.md), [engine
 
 ## Next checks
 
-- [ ] Host reviews the new batch; narrow the successful lanes before sourcing more.
+- [x] Complete Batch 13 reviews and sync all shared Keeps to the main Spotify library.
+- [ ] Evaluate Spotify-origin suggestions before more sourcing.
 - [x] Prove REAPER's native script/save/render path with synthetic cuts, transition automation and pitch-preserving rate change; see results/limitations above.
 - [ ] Build a 10–12-approved-file chapter with real analysis, two repetition cuts and a DnB boundary; agent handles small decisions.
 - [ ] Choose the permitted audio source for approved recordings and obtain exact versions.

@@ -2,7 +2,7 @@
 
 ## Current scope • October 29
 
-**Latest shirt / repair:** mesh and sleeveless tops rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the recommended textured short-sleeved cotton shirt, exact Small black price/Saturday delivery verification, earlier previews and two broken crown fragments. Crown repair/fit pending; glue exact delivery unverified. No new render or purchase.
+**Latest shirt / repair:** mesh and sleeveless tops rejected; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the completed personalized short-sleeved preview, exact shirt/mantle Small Saturday delivery refresh, earlier previews and two broken crown fragments. Mantle moved from Friday to Saturday on the latest check. Crown repair/fit pending; glue exact delivery unverified. No new purchase.
 
 **Mantle source:** [25 — reuse and live Amazon stock](25-realistic-rootkeeper-amazon-2026-10-29.md) retains the **C-ZOFEK Brown / Small leaf mantle B0GVMLRMSP** comparison and October 29 Friday-offer check. Current proposal pairs it with the sleeved shirt in 26 and reuses crown/torc/cuffs/green trousers; no structural build. Exact sculpted root/bark armor remains unsourced. No new garment order reported.
 

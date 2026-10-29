@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–M use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–N use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29:** host rejects sleeveless after M; mesh and tank previews are superseded. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns the new sourced short-sleeved shirt recommendation and crown repair advice; no sleeved render made yet. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Previews do not establish a repaired crown, garment purchase or fit.
+**Latest October 29:** N completes the requested short-sleeved shirt/brown-mantle preview; mesh and tank previews are superseded. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns current sources, private outputs and crown repair advice. [24](24-party-reference-led-direction-2026-10-27.md) retains party references; K's feathers remain rejected. Previews do not establish a repaired crown, garment purchase or fit.
+
+## N Short-sleeved cotton shirt and brown mantle
+
+Requested/completed October 29 with crown, torc, actual cuffs, green trousers and clean-shaven likeness. Exact Black-b / Small shirt and Brown / Small mantle both refreshed for October 31 delivery before generation. Two built-in edits: insert actual short-sleeved shirt; correct invented mantle opening to the real closed front. Full outfit/detail, 1536 × 1024; shirt lacing mostly covered by mantle. Earlier personalized portrait carries likeness because original upload is absent. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#current-personalized-sleeved-preview) owns private final/prompts, source dates and limitations. Visually checked sleeves, closed mantle, accessories, green trousers and clean shave; texture/fit approximate. No new order or physical repair/test; personal outputs/prompts Git-ignored.
 
 ## M Brown leaf mantle with opaque black top
 

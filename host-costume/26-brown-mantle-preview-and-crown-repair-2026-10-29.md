@@ -4,15 +4,27 @@ October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 3
 
 ## Latest revision: sleeves required
 
-**Latest host instruction October 29: a better shirt, not sleeveless.** The opaque tank proposal/preview below is superseded. Keep the brown mantle, compact crown, torc, actual cuff pair and green trousers; no new shirt or revised render selected/ordered yet.
+**Latest host instruction October 29: render the sourced short-sleeved shirt with the brown mantle, compact bone crown, torc, actual cuff pair and green trousers, using his likeness and clean-shaven styling. Requested preview complete.** Mesh/tank previews below are superseded. Shirt chosen for this preview, not reported ordered or physically fitted.
 
 **Recommended:** [JEMITOP Mens Vintage Short Sleeve Renaissance Shirt, Black-b / Small, B0CR38X65T](https://www.amazon.com/dp/B0CR38X65T). Signed-in Chrome exact variant checked about **5 p.m. EDT October 29**: **$15.99 / In Stock / free Saturday October 31 delivery** to Brooklyn 11211; ships Amazon / sold JEMITOP. Small and Black-b selected; buy-box date verified. No timed delivery window or physical fit test. Listing says **100% cotton**, textured weave, regular fit, short sleeves, mandarin collar and contrasting brown/orange lacing with two beads; 4.5/5 across 918 ratings observed before size selection, aggregate rather than Small-specific evidence.
 
 Styling judgment: this has more woodland character than the plain tank and pairs its brown lacing with the mantle while keeping a dark base beneath gold accents. Short sleeves leave the cuffs visible and avoid a heavy indoor layer. Most chest lacing will be covered by the mantle; tuck the shirt into the green trousers so the long lower hem/side ties do not compete. The collar, torc and mantle neckline need an actual fit check; no claim they have already fitted together. Do not invent armor, add feathers or revive large antlers/face coverage.
 
-[Actual retailer shirt photograph](references/2026-10-29/jemitop-black-b-short-sleeve.jpg), downloaded from the live selected listing and visually inspected October 29. Credit: JEMITOP / Amazon listing; copyright remains with the rights holder. This is a real product reference, not an outfit render or higher-quality fabrication claim. No new render requested or made in this follow-up; previous sleeveless images are styling history.
+[Actual retailer shirt photograph](references/2026-10-29/jemitop-black-b-short-sleeve.jpg), downloaded from the live selected listing and visually inspected October 29. Credit: JEMITOP / Amazon listing; copyright remains with the rights holder. This supplied the new garment reference; it is not a physical-fit or higher-quality fabrication claim.
 
-If proceeding with this shirt and the previously checked $13.16 mantle, proposed new garment subtotal is **$29.15 before tax**, replacing the earlier $23.56 tank/mantle proposal rather than adding to it. Shirt/mantle/glue remain unpurchased; $196.59 purchased basis / $500 ceiling unchanged. Crown repair and fitting remain open. [Current handoff](handoff-2026-10-29-sleeved-shirt.md).
+### Source refresh before the sleeved render
+
+Signed-in Chrome, about **5:08 p.m. EDT October 29**, exact selections and buy-box delivery to Brooklyn 11211: shirt **Black-b / Small B0CR38X65T $15.99 / In Stock / free Saturday October 31**; mantle **Brown / Small B0GVMLRMSP $13.16 / In Stock / free Saturday October 31**. The mantle's earlier Friday estimate has moved to Saturday; this is the current checked offer. Neither has a timed delivery window or reported order. Bought crown/torc/cuffs retain the earlier purchase/retailer-delivered record in 09; host specifically confirms the crown in hand with two broken pieces. Shoes/green trousers owned. Crown repair and actual fit remain pending; an intact illustrated crown is not evidence of repair.
+
+### Current personalized sleeved preview
+
+Final [short-sleeved Rootkeeper preview](renders/private/2026-10-29/rootkeeper-brown-mantle-sleeved-v2.png), **1536 × 1024**, full body left and matching close-up right. [Exact private prompt set/provenance](renders/private/2026-10-29/sleeved-rootkeeper-prompts.md). Two built-in imagegen edits: first changes only the tank to the real short-sleeved shirt; second corrects an invented V opening in the mantle to the actual closed-front/round-neck geometry. Draft preserved privately as v1. No CLI or manual image processing.
+
+The first edit used the previous personalized opaque-top preview plus actual shirt photograph. Correction used that draft, actual mantle photograph and the previous preview as closed-mantle geometry reference. Original rooftop upload checked again and absent locally; host likeness is inherited through the earlier user-authorized portrait, not freshly extracted from an available original photo. Retailer models supplied garments only. Outputs and exact prompts remain Git-ignored under renders/private/2026-10-29.
+
+Final visually checked for recognizable clean-shaven likeness, actual black short sleeves/standing collar and opaque torso, closed brown leaf mantle with shoulder buttons, compact pale crown, curled gold torc, one cuff per wrist, green trousers and shoes. Most shirt lacing is naturally hidden under the real closed-front mantle. Fabric texture is richer in the generated close-up than the retailer image; precise texture, drape, cuff engraving, scale and collar/torc fit remain approximate. No physical-fit, heat or repair test, no fur/feathers/veil/makeup/large antlers or extra accessory.
+
+If proceeding with this shirt and mantle, proposed new garment subtotal is **$29.15 before tax**, replacing the earlier $23.56 tank/mantle proposal rather than adding to it. Shirt/mantle/glue remain unpurchased; $196.59 purchased basis / $500 ceiling unchanged. Crown repair and fitting remain open. [Current handoff](handoff-2026-10-29-sleeved-render.md).
 
 <a id="latest-revision-mesh-rejected-opaque-black-top"></a>
 

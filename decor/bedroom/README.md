@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 29 current mounting recommendation:** use suction hooks upright on room-facing glass below frame. Host confirms sunlit glass and suggests suction; [two KORCCI 12-packs /24hooks / $11.98](draping/09-hook-count-2026-10-29.md) are the proposed replacement for held H24 adhesive packs. Start3points per blanket, fourth if needed (18–24 total,0–6 spare); actual panes and one-panel overnight trial pending. Six fleece/four moss ordered status unchanged. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-suction-hooks.md).
+**October 29 host-confirmed mounting method:** suction on glass, upright Command hooks on suitable solid wall. [Starting inventory](draping/09-hook-count-2026-10-29.md): **one 12-cup pack + one 14-hook pack**, 26 total for 18–24 combined panel points. Lower the row to fit full backing and release access; no ceiling mounting. Actual positions and one-panel trials for both support types remain. Six fleece/four moss ordered status unchanged. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-mixed-mounts.md).
 
 [All decor](../README.md) · [Current room plan](plan.md) · [Scaled party layout](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png).
 

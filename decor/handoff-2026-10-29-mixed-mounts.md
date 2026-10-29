@@ -1,0 +1,18 @@
+# Handoff — mixed glass and solid-wall mounting
+
+- **Session title and ID:** decor / mixed fleece mounts; session ID not exposed.
+- **Updated date:** October 29, 2026, America/New_York.
+- **Scope / owned files:** current mounting note, buying list and allocation ledger; decor/bedroom current notices and operations budget/decisions/cart/tracker. Source-offer snapshots unchanged.
+- **Checkout, branch and base commit:** shared `/Users/akshet/workspace/halloween-2026`, `main`, base `1fa1519`; clean at start.
+- **Status:** host method recorded; starting inventory ready for checkout review, physical fitting/trials pending.
+- **Confirmed user decisions:** suction hooks for glass, Command hooks for solid wall. Previous glass/direct sun/few-days facts retained. Six fleece/four moss remain host-reported ordered. No new mounting order confirmation.
+- **Proposals awaiting a decision:** one KORCCI 12-cup pack plus one Command 14-hook pack, 26 combined hooks. Initial fitting allowance eight glass + ten wall, four spare of each, for 18–24 combined points. Quantities/allocation proposed, not a measured map or guarantee.
+- **Completed work and canonical links:** [mounting method and inventory](bedroom/draping/09-hook-count-2026-10-29.md), [buying list](shopping-ready.md), [ledger](purchases-and-allocations-2026-10-29.json), [budget](../operations/budget.md), [confirmed decision](../operations/decisions.md). Old two-suction-pack/held-Command scenario superseded.
+- **Evidence:** scan W4 about 79.9 in plus W6 about 104.6 in = 184.5 in / 15.4 ft glass within approximately 514.9 in / 42.9 ft excluding entry. Remaining solid span about 330.4 in / 27.5 ft. Horizontal estimates only; host ~100-in height remains controlling. Existing KORCCI $5.99 and Command $14.61 quotes dated October 29; one-pack stock/arrival not freshly checked. Earlier quantity-two suction check is a source snapshot, not a quantity-one promise.
+- **Costs:** mounts $20.60 once. Ten other lines $218.49 gives 12 remaining lines / $239.09 merchandise + $21.52 aggregate 9% planning tax = $260.61. Ordered quote value $199.90 gives $438.99 core merchandise / $478.50 with planning tax; actual paid unknown. Local $105 and deferred lighting excluded. No full-room duplicates; extra supports only if fitting requires them.
+- **Checks actually run and results:** JSON parse, active inventory count, Decimal sums/tax and local Markdown links; `git diff --check`; inspect focused staged diff before commit. Report actual outcome in final.
+- **Purchases / external changes / deployments actually performed:** none. Local planning only; no live retailer check, cart change, purchase, screenshot or physical test.
+- **Remaining work in priority order:** reconcile any host mounting orders before another purchase; verify quantity-one checkout arrival; tape-map panel points; place suction on bare glass and full Command backing on suitable solid wall below narrow band, never ceiling; follow pack prep/wait; trial one intact panel on each support type before repeating.
+- **Dependencies on sibling tasks:** accepted room layout, thin-cover cuts, moss/Guardian allocations and deferred lights unchanged. Mounts are not bed restraint/fixture supports.
+- **Unpersisted conversation details or access limitations:** exact wall finish, pane boundaries, actual hook placement, received weight/grip and orders remain unverified. Existing source offers were not presented as newly live-confirmed.
+- **Commit(s) on main and remaining unrelated dirty files:** save before focused commit; report hash in final. No unrelated changes observed at start; check final status.

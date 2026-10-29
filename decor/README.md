@@ -2,7 +2,7 @@
 
 [Project home](../README.md) · [Creative direction](creative-direction.md) · [Current room/layout plan](final-room-plan.md) · [Single shopping basket](shopping-ready.md) · [Setup schedule](setup-schedule.md).
 
-October 29 latest: six fleece/four moss remain host-reported ordered. Host confirms sunlit glass below the narrow band and suggests suction. [Current recommendation](bedroom/draping/09-hook-count-2026-10-29.md): two KORCCI 12-packs /24 suction hooks / $11.98, Oct 30 estimate at quantity2; original indoor hooks held. [Buying list](shopping-ready.md): **11 remaining recommended lines / $230.47 before tax / $251.21 with planning tax**. Pane mapping and one-panel trial remain. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-suction-hooks.md). No new purchase or physical test.
+October 29 latest: host confirms **suction on glass, Command on solid wall**. [Current mounting plan](bedroom/draping/09-hook-count-2026-10-29.md) proposes **one 12-cup pack + one 14-hook pack / $20.60**; 26 hooks for 18–24 combined points, subject to fitting and trials. [Buying list](shopping-ready.md): **12 remaining lines / $239.09 before tax / $260.61 with planning tax**. Six fleece/four moss remain host-reported ordered; no mounting order reported. [Ledger](purchases-and-allocations-2026-10-29.json) · [Handoff](handoff-2026-10-29-mixed-mounts.md). Quantity-one arrival not freshly checked.
 
 | Room / deliverable | Current source |
 |---|---|

@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • mixed mounting confirmed by host
+
+**Confirmed host:** glass parts use the suction hooks, solid wall parts use Command hooks. This supersedes holding all Command hooks or treating suction as the entire-room solution. **Agent proposes one pack of each:** 12 suction cups + 14 Command hooks / $20.60, with 18–24 combined panel points. Scan windows total about 15.4 ft within approximately 42.9 ft wall run excluding entry; actual top-edge placement still needs fitting. Mount both upright on vertical surfaces, lower the wall row for full backing/removal access; no ceiling mount. [Current method and inventory](../decor/bedroom/draping/09-hook-count-2026-10-29.md). Pack counts proposed, mounting orders and physical tests unconfirmed; no new price/delivery refresh.
+
 ## Latest October 29 • suction hangers proposed by host
 
 **Host suggests suction hangers** after confirming window glass, direct sun and only a few days use. **Agent recommends** two KORCCI 12-packs /24cups / $11.98, upright on room-facing glass below frame; start 3 points per blanket, fourth if needed. Brand listing claims10lb, not a host-tested rating. Quantity2 In Stock/Oct 30,7–11am estimate checked in Chrome, free shipping conditional; no purchase/cart addition. [Current mounting recommendation](../decor/bedroom/draping/09-hook-count-2026-10-29.md) replaces the pending UV-adhesive route; original H24 packs held. Pane mapping, one-panel trial and any non-glass supports remain. Proposed replacement is not a host-confirmed product selection or order.

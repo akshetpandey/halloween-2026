@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-swiffer-correction.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-deep-opening-correction.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2167,10 +2167,13 @@
       "canonicalPlan": "decor/bedroom/woodland-guardian.md#heavy-skull-proposal-seated-hooded-guardian",
       "headObservationsFromHost": {
         "description": "Día de los Muertos head reported pretty heavy",
-        "undersideOpening": "Small, not very deep",
+        "undersideOpening": "Entrance described as small; host corrects depth to pretty deep",
         "exactMassKnown": false,
         "exactDimensionsKnown": false,
-        "baseContactShapeVerified": false
+        "baseContactShapeVerified": false,
+        "earlierShallowDepthSuperseded": true,
+        "openingInternalGeometryVerified": false,
+        "exactOpeningWidthKnown": false
       },
       "heavyHeadProposal": "Seated hooded Guardian: fully supported head on a low broad rigid tabletop platform with padded cradle if needed; desk bears head load, Swiffer handle only light hanger/hood/vines. Household piece and actual fit/stability unverified.",
       "heavyHeadProposalAccepted": false,
@@ -2178,7 +2181,8 @@
       "ownedToolClarification": "Host: Swiffer stick with a Swiffer base; earlier broomstick description superseded",
       "exactSwifferModelVerified": false,
       "swifferJointOrLockTested": false,
-      "swifferHeadLoadCapacityVerified": false
+      "swifferHeadLoadCapacityVerified": false,
+      "pendingMountInformation": "Asked whether opening widens into hollow skull or is tube-like, and approximate entrance width. No proposed insert dimensions or pole-mounted head approval."
     }
   }
 }

@@ -6,7 +6,9 @@
 
 ## Heavy skull proposal: seated, hooded Guardian
 
-**Latest host observations October 30:** the Día de los Muertos head is pretty heavy, with a small opening underneath that is not very deep. Exact mass, dimensions, base contact shape and material remain unmeasured. Purchase/receipt not explicitly confirmed. Treat the shallow opening as insufficient evidence for a pole socket; no drilling, wedging a pole into the opening or head suspended from the Swiffer handle proposed.
+**Latest host correction October 30:** the heavy Día de los Muertos head opening is **pretty deep**, superseding the earlier shallow description. Entrance was described as small; exact width/depth, whether it widens into a hollow head or forms a tube-like socket, head mass/material and base contact shape remain unverified. Host is unsure how the Swiffer would support it. Purchase/receipt not explicitly confirmed. Depth alone does not verify that the internal shell, handle or mop joint can carry the head. Do not wedge the handle into the shell or let its tip bear against the inside crown as a proposed mount.
+
+**Mounting distinction:** a deep opening might help locate a head over a suitably fitted support, but the weight still needs a broad supported cradle under the base. Padding can help fit; it does not establish the Swiffer's load capacity or prevent overturning. Opening geometry/width have been requested from the host before suggesting an insert or collar. No insert dimensions or head-on-Swiffer construction approved.
 
 Make the Guardian a seated figure at the automated desk. **The desk carries the head from underneath; the Swiffer handle carries only light costume dressing.** This develops the already proposed tabletop option; host has not yet approved or physically tried this specific arrangement.
 

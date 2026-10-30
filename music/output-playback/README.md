@@ -18,7 +18,7 @@ Open the prepared player by double-clicking **[Open Party Player.command](Open%2
 python3 music/output-playback/prepare.py --open
 ```
 
-The first open can spend a few minutes building the long file's waveform cache; this has already been started during preparation and does not play music.
+The first open can spend a few minutes building the long file's waveform cache. That completed during preparation; the player is open with its three tracks, original speed and muted MASTER at −12 dB.
 
 The current machine-specific project/profile pointers are in ignored `.local/latest.json`. Runtime media, REAPER projects/preferences and logs stay ignored. To regenerate a fresh player and rerun the short offline proof, use `python3 music/output-playback/prepare.py --verify`; it uses a new output folder and does not overwrite a calibrated player. Regeneration is unnecessary tomorrow unless the prepared project is missing.
 

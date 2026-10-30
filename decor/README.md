@@ -1,5 +1,7 @@
 # Decor
 
+**Latest in-store correction:** host reports willow unavailable. [Same-store stick alternatives](nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable): one 55-pack of 6in green wired wood picks, listed $4.49; or two 15-packs of 3/16in × 12in dowels, listed $6.98 total. Shelf stock unverified; neither selected/bought. This supersedes earlier willow quantity and cost assumptions below.
+
 **Current October 30, approximately 4:40 p.m.:** [Updated pickup list with closing times](nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times) replaces Fulton with **Spirit Union Square, 33 Irving Place, closes11 p.m.** Conditional order: Keaton before6 → Michaels → Kidding before7 → GC → Spirit last; all Manhattan. Four-store baseline seven items $136.43/$148.71 planning tax, including superglue. With $9.99 Paper Solvy: five stores/eight items $146.42/$159.60. Skull shelf stock and today's paper readiness unconfirmed; no purchases/holds/cancellations. Earlier morning stock counts are dated evidence, not rechecked stock. No sticks owned; B&H/Abracadabra/Midwood/Evolution excluded.
 
 **October 30 paper follow-up:** [Keaton Quilts Paper Solvy, $9.99](bathroom/dissolving-paper-pickup-2026-10-30.md) shows NYC pickup available; usual readiness 24 hours, so call before adding an optional stop today (closes 6 p.m.). Not selected/purchased/tested; existing seven-item quote unchanged.

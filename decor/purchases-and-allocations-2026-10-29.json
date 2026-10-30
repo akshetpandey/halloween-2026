@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-manhattan-route.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-stick-substitute.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2037,7 +2037,8 @@
       "withConditionalPaperSubtotalUsd": "146.42",
       "withConditionalPaperPlanningTaxUsd": "159.60",
       "unionSquareStoreUrl": "https://stores.spirithalloween.com/ny/newyork/halloween-store-61240.html",
-      "unionSquareLocalStockVerified": false
+      "unionSquareLocalStockVerified": false,
+      "quoteStatus": "Prior willow-inclusive fields historical after host reports willow unavailable; see stickSourcingUpdate for unselected candidate scenarios"
     },
     "fultonStockRecheck": {
       "checkedAt": "2026-10-30T12:36:00-04:00",
@@ -2070,6 +2071,46 @@
         "purchased": false
       },
       "confirmedPickupCount": 0
+    },
+    "stickSourcingUpdate": {
+      "date": "2026-10-30",
+      "hostReport": "Michaels does not have the willow bunch; earlier website count superseded",
+      "willowAvailablePerHost": false,
+      "storeNameAssumed": "Michaels Chelsea from current route; exact branch not restated by host",
+      "newPurchasePerformed": false,
+      "replacementSelected": false,
+      "localReplacementStockVerified": false,
+      "browserLimitation": "Michaels dowel page Access Denied; no bypass attempted",
+      "candidates": [
+        {
+          "product": "6in Wired Wood Picks by Ashland",
+          "item": "10302745",
+          "url": "https://www.michaels.com/product/6-wired-wood-picks-by-ashland-10302745",
+          "quantityPacks": 1,
+          "countPerPack": 55,
+          "listedUnitUsd": "4.49",
+          "localStockVerified": false
+        },
+        {
+          "product": "Creatology 12in wood dowels, 3/16in diameter",
+          "item": "10031019",
+          "url": "https://www.michaels.com/product/12-wood-dowels-by-creatology-10031019",
+          "quantityPacks": 2,
+          "countPerPack": 15,
+          "listedUnitUsd": "3.49",
+          "localStockVerified": false
+        }
+      ],
+      "priorWillowInclusiveQuoteStatus": "historical; actual stick choice/register prices pending",
+      "pickScenarioBeforeTaxUsd": "125.43",
+      "pickScenarioPlanningTaxUsd": "136.72",
+      "pickWithPaperBeforeTaxUsd": "135.42",
+      "pickWithPaperPlanningTaxUsd": "147.61",
+      "dowelScenarioBeforeTaxUsd": "127.92",
+      "dowelScenarioPlanningTaxUsd": "139.43",
+      "dowelWithPaperBeforeTaxUsd": "137.91",
+      "dowelWithPaperPlanningTaxUsd": "150.32",
+      "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable"
     }
   }
 }

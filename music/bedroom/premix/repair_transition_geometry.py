@@ -105,7 +105,7 @@ def geometry(native,report,index):
         clips=[crop_clip(c,d['mix_start_seconds'],d['mix_end_seconds'],0) for c in track['clips']];clips=[c for c in clips if c]
         if clips:rows.append({'parent':binding['parent_id'],'source_sha256':track['sha256'],'clips':clips,'stretch_mode':track.get('stretch_mode',0)})
     def rounded(v):
-        if isinstance(v,float):return round(v,10)
+        if isinstance(v,float):return round(v,6)
         if isinstance(v,list):return [rounded(x) for x in v]
         if isinstance(v,dict):return {k:rounded(x) for k,x in v.items()}
         return v

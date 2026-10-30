@@ -90,8 +90,14 @@ def refine(report_path,diagnostics,output,limit=6,rhythm=False):
                 drums.append(voice.mean(axis=0))
                 if device=='mps':torch.mps.empty_cache()
             separated=np.column_stack(drums);sf.write(path,separated,44100,subtype='FLOAT')
-        try:result=check_window(separated,44100,join['incoming_bpm'],design['handover_seconds']-design['mix_start_seconds'],len(separated)/44100-1/44100,design.get('variable_beat_times'))
-        except ValueError as error:result={'status':'failed','reason':str(error)}
+        candidates=[]
+        for band in [(150,1000),(300,2000)]:
+            try:
+                check=check_window(separated,44100,join['incoming_bpm'],design['handover_seconds']-design['mix_start_seconds'],len(separated)/44100-1/44100,design.get('variable_beat_times'),band)
+                check['attack_band_hz']=list(band);candidates.append(check)
+            except ValueError as error:candidates.append({'status':'failed','reason':str(error),'attack_band_hz':list(band)})
+        result=next((v for v in candidates if v['status']=='checked'),candidates[0])
+        result['alternative_attack_screens']=[v for v in candidates if v is not result]
         result.update(method='Independent per-deck Demucs '+binding['component']+' from actual native audio; coverage/support, 25ms common-phase jitter, 15ms interdeck and handover gates; absolute grid residuals retained',
                       native_drum_sha256=digest(path),model_weight_sha256=binding['weight_sha256'],human_verified=False)
         write_json(target,{'binding':binding,'check':result,'full_mix_screen':deepcopy(design['realized_timing'])})

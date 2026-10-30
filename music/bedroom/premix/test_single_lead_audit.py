@@ -41,6 +41,9 @@ class AuditTests(unittest.TestCase):
         for at in [0,2,5,8,10]:
             self.assertAlmostEqual(source_time(cropped,100+at),source_time(clip,15+at))
         self.assertIsNone(crop_clip(clip,30,40,0))
+        self.assertIsNone(crop_clip(clip,30-1e-11,40,0))
+        tiny=crop_clip(clip,10,20+1e-11,0)
+        self.assertEqual(len(tiny["stretch_markers"]),2)
         plain={'position':10,'length':20,'source_start':50,'rate':1.02}
         cropped=crop_clip(plain,15,25,100)
         self.assertAlmostEqual(cropped['source_start'],55.1)

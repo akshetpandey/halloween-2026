@@ -51,6 +51,8 @@ def export(report_path,verification_path,output):
             'loop_bridge':t['loop_bridge'],'phrase_alignment':t['phrase_alignment'],
             'timing':{k:t['grid'].get(k) for k in ['beat_support','bar_support','splice_supported','interior_splices_supported','human_verified']},
             'full_file_vocal_evidence':t['vocal_evidence_available'],
+            'entry_revision':t.get('entry_revision'),
+            'original_source_nudge_seconds':t.get('original_source_nudge_seconds',0),
         })
     output.mkdir(parents=True,exist_ok=True)
     public={k:verification[k] for k in ['rendered','mix_plan_sha256','minimum_nine_hours_excluding_bridges',
@@ -63,6 +65,8 @@ def export(report_path,verification_path,output):
         planned_seconds=report['planned_seconds'],seconds_excluding_bridges=report['planned_seconds_excluding_bridges'],
         loop_bridge_seconds=report['loop_bridge_seconds'],
         transition_kinds=dict(Counter(t['kind'] for t in report['transitions'])),
+        creative_feature_kinds=dict(Counter(f['kind'] for f in report.get('performance_features',[]))),
+        conservative_original_seconds=report.get('geometry_qa',{}).get('conservative_native_original_seconds'),
         interior_repeat_cuts=sum(len(t['removed_repeats']) for t in records),
         blocked=report['blocked'],chapters_index=report['chapters'],
         playback={'settings_status':'recommended player settings; actual rekordbox settings not changed',

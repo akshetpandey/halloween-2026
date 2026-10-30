@@ -22,13 +22,13 @@ BASE=Path(__file__).resolve().parent
 
 def crop_clip(clip,start,end,position):
     lo=max(start,clip['position']);hi=min(end,clip['position']+clip['length'])
-    if hi<=lo:return None
+    if hi-lo<=1e-8:return None
     at=lambda value:source_time(clip,value) if clip.get('stretch_markers') else clip['source_start']+(value-clip['position'])*clip['rate']
     source_start=at(lo);source_end=at(hi)
     markers=[{'position':0.,'source':source_start}]
     for marker in clip.get('stretch_markers',[]):
         at=clip['position']+marker['position']
-        if lo<at<hi:markers.append({'position':at-lo,'source':marker['source']})
+        if lo+1e-8<at<hi-1e-8:markers.append({'position':at-lo,'source':marker['source']})
     markers.append({'position':hi-lo,'source':source_end})
     return {'position':position+lo-start,'length':hi-lo,'source_start':source_start,'rate':1,
             'fade_in':min(.003,hi-lo),'fade_out':min(.003,hi-lo),'stretch_markers':markers}

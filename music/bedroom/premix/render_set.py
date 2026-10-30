@@ -106,7 +106,25 @@ def verify_seam(previous, incoming, seam):
     return {'at_seconds': seam, 'comparison_seconds': seconds, 'maximum_pcm_error': maximum, 'rms_pcm_error': rms}
 
 
-def silence_check(path, native, absolute_start=0):
+def authored_ending(native,interval,boundaries=()):
+    """A declared ending needs an actual eight-second source-volume fade."""
+    a,b=interval
+    for at in [*boundaries,native['end_seconds']]:
+        if not 0<=at-a<=3 or abs(b-at)>.05:continue
+        for track in native['tracks']:
+            volume=track.get('volume',[])
+            if len(volume)<2:continue
+            last,prior=volume[-1],volume[-2]
+            if (last.get('amplitude')!=0 or prior.get('amplitude')!=1
+                    or abs(last['time']-at)>.01 or not 6<=at-prior['time']<=12):continue
+            if any(c['position']<=a and abs(c['position']+c['length']-at)<.01 for c in track['clips']):
+                return {'kind':'authored_programme_ending','interval_seconds':[a,b],
+                        'ending_seconds':at,'source_volume_fade_seconds':at-prior['time'],
+                        'evidence':'Declared programme ending, actual original clip end and six-to-twelve-second volume fade to zero'}
+    return None
+
+
+def silence_check(path, native, absolute_start=0, ending_boundaries=()):
     result = run(['ffmpeg','-hide_banner','-nostdin','-i',str(path),'-af',
                   'silencedetect=noise=-50dB:d=0.25','-f','null','-'])
     starts = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)',result.stderr)]
@@ -114,17 +132,22 @@ def silence_check(path, native, absolute_start=0):
     duration = measure_duration(path)
     if len(starts) > len(ends):
         ends.append(duration)
-    accepted, unexpected = [], []
+    accepted, unexpected, endings = [], [], []
     for a,b in zip(starts,ends,strict=True):
         if a < .25 or b > duration-.25:
             if b-a <= 2:
                 continue
-        rest = source_rest(native, [a+absolute_start,b+absolute_start],maximum_seconds=2.0,gain_aware=True)
+        interval=[a+absolute_start,b+absolute_start]
+        ending=authored_ending(native,interval,ending_boundaries)
+        if ending:
+            endings.append(ending);continue
+        rest = source_rest(native, interval,maximum_seconds=2.0,gain_aware=True)
         if rest:
             accepted.append(rest)
         else:
             unexpected.append([a+absolute_start,b+absolute_start])
-    return {'source_confirmed_rests':accepted,'unexplained_silences':unexpected,'maximum_source_confirmed_pause_seconds':2.0}
+    return {'source_confirmed_rests':accepted,'unexplained_silences':unexpected,'maximum_source_confirmed_pause_seconds':2.0,
+            'authored_endings':endings,'maximum_authored_ending_quiet_seconds':3.0}
 
 
 def measure_duration(path):
@@ -217,7 +240,7 @@ def render(report_path, database, output, binary, profile, preview=False):
                     or meters['channels']!=2 or meters['codec']!='pcm_s24le'
                     or not math.isfinite(meters['integrated_lufs']) or meters['true_peak_dbfs'] > -1):
                 raise ValueError('Native chapter format/duration/headroom failed: '+str(meters))
-            silence=silence_check(wav,native,absolute_start=render_start)
+            silence=silence_check(wav,native,absolute_start=render_start,ending_boundaries=[c['start_seconds'] for c in report['chapters'] if c.get('role')=='reserve'])
             if silence['unexplained_silences']:
                 raise ValueError('Chapter has unexplained silences: '+str(silence['unexplained_silences']))
             chapter = {'index':index+1,'start':start,'end':end,'render_start':render_start,'render_end':render_end,
@@ -311,7 +334,7 @@ def deliver(report_path, output, database=DEFAULT_DB):
     if abs(meters['duration_seconds']-report['planned_seconds'])>2/RATE or meters['true_peak_dbfs']>-1.8:
         raise ValueError('Continuous delivery duration/headroom failed')
     native=json.loads(Path(report['native_plan']).read_text())
-    silence=silence_check(master,native)
+    silence=silence_check(master,native,ending_boundaries=[c['start_seconds'] for c in report['chapters'] if c.get('role')=='reserve'])
     if silence['unexplained_silences']:raise ValueError('Unexplained silences: '+str(silence['unexplained_silences']))
     mp3=delivery/'The-Hollow-continuous.mp3'
     run(['ffmpeg','-v','error','-nostdin','-y','-i',str(master),'-c:a','libmp3lame','-b:a','320k','-metadata','title=The Hollow — continuous prepared programme',str(mp3)])
@@ -340,13 +363,15 @@ def deliver(report_path, output, database=DEFAULT_DB):
     proposed_start=(closing.astimezone(UTC)-timedelta(seconds=party_end)).astimezone(ZoneInfo('America/New_York'))
     schedule={'status':'proposed manual playback timing; no scheduler installed',
               'timezone':'America/New_York','start':proposed_start.isoformat(),'closing':closing.isoformat()}
+    displayed_start=(proposed_start+timedelta(microseconds=500000)).replace(microsecond=0)
     (delivery/'PLAYBACK.md').write_text(
         '# The Hollow playback\n\n'
         'Load `The-Hollow-party.mp3` into one rekordbox deck and play once at original tempo (0% pitch). '
         'Keep beat/key sync, automatic gain/ReplayGain, Automix/Auto DJ, shuffle, repeat and additional transition effects off. '
         'All transitions, tempo changes, EQ and ducking are already rendered. The single-item `The-Hollow-play.m3u8` '
         'selects this party file. The file ends with the programmed closing and an eight-second fade; reserve does not start automatically.\n\n'
-        f'For a 04:00 EST close, proposed manual start: **{proposed_start.isoformat()}**, America/New_York. '
+        f'For a 04:00 EST close, proposed manual start: **{displayed_start.strftime("%B %d, %I:%M:%S %p %Z")}** '
+        f'(**{displayed_start.isoformat()}**, America/New_York; rounded to the nearest second). '
         f'Closing: **{closing.isoformat()}**. These explicit offsets account for the clock rollback. '
         'No automatic start/stop job or physical audio routing has been configured by this production task.\n\n'
         '`The-Hollow-continuous.flac` is the complete lossless rendered archive including reserve; '

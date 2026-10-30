@@ -76,6 +76,18 @@ class RenderTests(unittest.TestCase):
             master.write_bytes(b'changed audio fixture')
             self.assertFalse(verified_assembly(receipt,master,'plan-a',123456,-3.5))
 
+    def test_only_declared_source_fades_can_explain_short_ending_quiet(self):
+        from copy import deepcopy
+        from render_set import authored_ending
+        native={'end_seconds':60,'tracks':[{'clips':[{'position':0,'length':30}],
+                'volume':[{'time':22,'amplitude':1},{'time':30,'amplitude':0}]}]}
+        self.assertIsNotNone(authored_ending(native,[27.8,29.999],[30]))
+        self.assertIsNone(authored_ending(native,[27.8,29.999]))
+        self.assertIsNone(authored_ending(native,[26,29.999],[30]))
+        self.assertIsNone(authored_ending(native,[17.8,19.999],[20]))
+        missing=deepcopy(native);missing['tracks'][0]['volume'][-1]['amplitude']=.01
+        self.assertIsNone(authored_ending(missing,[27.8,29.999],[30]))
+
     def test_invalid_chapter_requests_fail(self):
         for duration,maximum in [(0,3600),(-1,3600),(float('nan'),3600),(20,0),(20,5401)]:
             with self.assertRaises(ValueError):chapter_bounds(duration,maximum)

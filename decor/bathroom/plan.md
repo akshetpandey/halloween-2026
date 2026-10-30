@@ -1,5 +1,9 @@
 # Bathroom • The Moon Well
 
+## Latest October 29 water ritual proposal
+
+Host requests a water bucket with memories/secrets on water-soluble paper. [Current ritual plan](moon-well-release-2026-10-29.md) recommends **dissolve-only, not burning**; host acceptance of that substitution pending. New reachable water vessel supersedes earlier blanket “skip water bowls” within this narrow ritual only. [Urgent exact orders](../urgent-buy-list-2026-10-29.md):4.7 in moon replaces unavailable 5.9 in; late 10 ft vine omitted. Sweets move to Grove nightstand shrine. Shower curtain/thin cloth already ordered; no repeat purchase.
+
 **October 29 purchase update:** host reports the ORTIGIA forest shower curtain and shared polyester cloth two-pack, gaffer tape and ties ordered. Exact counts carried from latest list, not receipt-verified; arrival and physical fit unconfirmed. [Current list](../shopping-ready.md) owns status. Separate bendable bathroom vine and lighting remain unconfirmed; use moss scraps from the four ordered shared sheets. Earlier purchase notices below are history.
 
 **October 21 current execution:** [three-room placement plan](../final-room-plan.md), [shopping basket](../shopping-ready.md), [setup schedule](../setup-schedule.md). Buy-first Moon Well retained; current proposed ambient is cordless O'Bright, with Oasis a conditional alternative. Current quantities/costs are centralized in the basket; use offcuts from the three counter moss sheets, not a second moss order. Earlier prices/budget variants below are history. No purchase or installed-light test.

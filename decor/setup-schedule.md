@@ -1,5 +1,9 @@
 # Decor setup — October 21–30, 2026
 
+## Current October 29–31 priorities
+
+Current exact orders are in [urgent list](urgent-buy-list-2026-10-29.md), all displayedOct 31 rather than promisedOct 30. Tonight/order cutoff:first Guardian mask/stand and five figures, then remaining foliage/Well/shared supplies. Oct 30:complete furniture/fleece/moss with received inventory, prepare moon and five small twig/raffia forms; no sculpted Guardian face/crown. OnOct 31 receipt:30–45 min proposed Guardian assembly, charge/test lamps and paper, install/rehearse as time permits. Enroll real-prop camera references after final dressing; no NFC encoding task. Main lighting/audio combined test remains priority; drop optional card stones/branch detail if late. Earlier 28–38 hour schedule/dates below are historical, not a requirement to fit four past build days into one evening.
+
 **Latest October 29:** host reports seven more categories ordered—Command hooks, suction cups, binder clips, thin polyester cloths, gaffer tape, zip ties and shower curtain—joining fleece/moss. [Buying list](shopping-ready.md): five remaining core lines / $157.92 before tax. Receipt counts and delivery dates unverified. On arrival, inspect actual inventory, tape-map panel tops and trial one blanket on each support type before repeating; fit thin covers and shower backdrop. No physical test inferred from ordering.
 
 **October 29 partial-wall correction:** host ~100-in height supersedes scan-based full drop. Use [four 108 × 90-in panels, three hook packs, selective coverage](bedroom/draping/08-partial-coverage-100in-2026-10-29.md). Keep panels whole initially; trial one complete panel and adjust top fold/floor clearance. No eleven-strip/header cutting project. Other furniture-cover nesting retained. Earlier full-wall work estimates and dated task rows below are history; no new measured setup duration claimed.

@@ -1,5 +1,9 @@
 # Decor shopping status and historical wood/skull cart
 
+## Current October 29 • urgent list supersedes historical cart
+
+Use [current exact decor/entity orders](../../decor/urgent-buy-list-2026-10-29.md), not September wood/skull cart below. Guardian mostly bought; image recognition/no NFC; winner crown deferred. Nine existing decor lines reported ordered, 437.30 current recommended remaining plus optional 27.74 USB; all displayedOct 31, no before-party guarantee. No agent cart/payment/order; historic cart presence is not an order.
+
 **Latest October 29:** host reports Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered, joining fleece/moss. [Current list](../../decor/shopping-ready.md): **nine ordered lines; five remaining / $157.92 before tax / $172.13 with planning tax**. Counts carried from latest list; actual receipt quantities, paid totals, arrival and tests unverified. Small decorating clips remain unconfirmed. No agent purchase/cart action. [Handoff](../../decor/handoff-2026-10-29-orders-recorded.md).
 
 **October 27 purchase confirmation:** host reports nothing bought/ordered from the decor, lighting, fabric or rug slate. The entire [current decor list](../../decor/shopping-ready.md) remains outstanding; [budget/status](../budget.md#october-27--decor-purchase-status-confirmed). Prices and delivery evidence below are dated October 23 or earlier, not current October 27 offers. No new cart action or purchase.

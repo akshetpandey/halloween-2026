@@ -1,5 +1,9 @@
 # Budget, sourcing and purchase ledger
 
+## Current October 29 • revised decor and physical entities
+
+[Current urgent list](../decor/urgent-buy-list-2026-10-29.md):remaining 437.30 =389.35 decor +47.95 incremental game props, 476.66 with aggregate 9% planning tax. OptionalUSB supplies 27.74; ordered quote 281.07 unchanged/actual paid unknown. Products including ordered+USB746.11; local/support 90 replaces old 105 after 15 paint/glue allowance becomes exact 24.33 product rows. Aggregate tax 75.25 +shipping 60 +buffer 30.48 +inclusive later stage/permanent-light/power/control reserve 450 => **1451.84**,148.16 below 1600. This conservative combined envelope includes entity products once; do not add historical 100 game allowance or older complete decor scenarios. Candies use existing food 25, not a new decor charge; drinks/costume/crown excluded.450 is reserve, not current light quote. No NFC/tag covers or crown orders; late bath vine and 63 inbranch excluded. [Structured evidence/totals](../decor/research/urgent-decor-entity-offers-2026-10-29.json). All current recommendations unbought, no duplicate moss/cloth/shared finish.
+
 ## Latest October 29 • lower-cost ivy comparison
 
 [Two Freyalife 12-packs / $10.98](../decor/living-room/ivy-upgrade-2026-10-29.md) now recommended over the premium Mizii scenario after host comparison. Replace old $9.99allowance: **$158.91 +$14.30 aggregate 9% planning tax = $173.21 remaining**, $0.99before tax/ $1.08with tax above the current baseline. $55before tax/ $59.95with tax below the preceding Mizii proposal. Two packs paired yield 84ft nominal fuller runs, preserving earlier coverage. **Recommendation pending host selection**, not new order or approved spend. Baseline157.92/172.13 and ordered quote 281.07 unchanged until selection; proposed whole-core 439.98/479.58with tax. Local 105/deferred lights separate. Earlier Mizii scenario below is now the premium alternative.

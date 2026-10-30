@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## Latest October 29 • room review, mostly bought Guardian and camera-only procurement
+
+Confirmed:four chairs all at coffee table; low cabinet is the one nightstand to relocate as moon/candy shrine; add cross-room/wall foliage, fairy lights, larger wall branches; Hollow materials ordered; Guardian minimal handmaking. Host confirms image recognition, no animal figures/crown ordered, crown deferred. Host requested burning/water ritual; agent recommends dissolve-only and has not logged acceptance. [Canonical current room plan](../decor/final-room-plan.md),[urgent orders](../decor/urgent-buy-list-2026-10-29.md). Current offersOct 31/no early-arrival guarantee; no purchase, installation, sync or camera test this task.
+
 ## Latest October 29 • Freyalife comparison changes ivy recommendation
 
 **Host asks why Mizii rather than exact Freyalife link B0D6KDW17P.** Direct Chrome check:12Pack84Ft,quantity 2,$5.49each/ $10.98,In Stock/free Oct 30. Agent revises default recommendation to Freyalife, pairing24 strands into12 nominal7-ft runs (ten Grove/two desk). Mizii explicitly advertises branching, internal wire and 190 leaves/vine; Freyalife lists fabric leaves/plastic stems without leaf count/internal-wire claim. Neither is physically tested, so a worthwhile premium is unproven. [Current comparison](../decor/living-room/ivy-upgrade-2026-10-29.md). No host replacement selection, purchase or coverage cut inferred.

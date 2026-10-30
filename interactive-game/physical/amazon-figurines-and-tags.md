@@ -1,5 +1,9 @@
 # Amazon sourcing • NFC witnesses
 
+## Current October 29 discovery and procurement decision
+
+**Host confirms image-based recognition replaces NFC; do not buy tags or tag-cover moon stickers.** No animal figures or winner crown ordered; crown lowest priority and deferred. [Current exact prop orders](../../decor/urgent-buy-list-2026-10-29.md) cover five bought slots via UANDMEpack+raven+owl, plus five distinct twig/raffia forms; five decor anchors reused.47.95 incremental game-prop quote, shared paint/moss/cloth counted in decor once. Existing LEGO fox reference must be reconciled before choosing/enrolling that slot. Photograph final props and test actual camera recognition in party light; software/public rollout is not implied complete. Earlier NFC/lock shopping and September totals below are historical, not current procurement. Existing NFC routes can remain until app task reconciles chosen discovery path.
+
 **Current scope, September 4:** The host now targets **five active purchased figures**, plus five decor-integrated and five homemade stick/straw entities. See the [current roster and sourcing adaptation](entity-plan.md). The prior twelve-witness basket, “mostly purchased” mix, option to reduce to ten and $100 envelope below are historical calculations, not the active scope or an approved purchase plan. Existing product evidence is retained with its original check date; prices/stock/delivery were not refreshed in the narrative-documentation update. Plan fifteen active tags plus test/spares and re-cost the new mix.
 
 ## Earlier sourcing pass — preserved products, evidence and calculations

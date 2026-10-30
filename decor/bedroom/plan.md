@@ -1,5 +1,9 @@
 # The Hollow — current room plan
 
+## Latest October 29 review
+
+Walls/desk choices are settled and material orders reported. Guardian is now **bought CAFELE face/headdress +InnoGear support +existing cloth**, not sculpted-card face/crown. [Current build](woodland-guardian.md) · [Urgent orders](../urgent-buy-list-2026-10-29.md) · [DJ/light coordination](../lighting/dj-sync-handoff-2026-10-29.md). Image recognition replaces NFC procurement; no tags/marker covers. Older references below are context; current room/layout remains unchanged.
+
 October 21 host accepted rear-right corner storage/guardian/automated desk layout. **No human DJ; speakers on desk.** Bed stored depth 15 in, desk 49 × 29.5 in. **October 29 host correction:** ~100-in wall height; 100% coverage unnecessary. **Six 108 × 90-in Black fleece are now host-reported ordered**, all for the wall/window treatment. [Current purpose and confirmed mixed mounting method](../shopping-ready.md) supersedes the four-panel purchase comparison. Exact coverage/returns still need fitting; no ready-made bedroom curtains.
 
 [Canonical room/layout plan](../final-room-plan.md#the-hollow-accepted-corner-arrangement) · [Scaled party plan](../space-inputs/party-layout-2026-10-21.png) · [Cutaway](../space-inputs/hollow-cutaway-2026-10-21.png) · [Partial Amazon fleece plan](draping/08-partial-coverage-100in-2026-10-29.md) · [Guardian](woodland-guardian.md) · [Lighting](../lighting/02-bedroom-party.md).

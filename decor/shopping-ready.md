@@ -1,10 +1,14 @@
 # Decor buying list — quantities, purpose and purchase status
 
+## Current October 29 review — order from the urgent list
+
+[Exact current decor/entity buy list](urgent-buy-list-2026-10-29.md) is the current remaining-order authority: **437.30 before tax /476.66 with planning tax**, including rug and47.95 game props; optional USB supplies27.74. Nine ordered rows below remain valid. Earlier five-needs157.92 baseline, old ivy allocation,DUSPRO10ft vine, sculpted Guardian and two-string assumption are superseded for remaining buys. Current ledger preserves prior baseline as history. Four chairs, one nightstand shrine, image recognition/no NFC, crown deferred. No new order inferred. [Current room plan](final-room-plan.md).
+
 **Latest purchase update, October 29:** host reports **Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered**. These join the earlier fleece and moss orders: **nine ordered product lines**. Quantities below carry forward the latest discussed list; exact receipt quantities, charges, arrival and physical receipt remain unverified. Do not reorder these items.
 
 Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command on solid wall**, upright and lowered enough for full contact/removal access. [Mounting allocation and trial](bedroom/draping/09-hook-count-2026-10-29.md). Ordered goods are not yet recorded as received or tested.
 
-**Current remaining baseline: five needs / $157.92 before tax / $172.13 with planning tax**, including the old $9.99 ivy allowance. Old ivy stays held. [Revised value recommendation](living-room/ivy-upgrade-2026-10-29.md): **two Freyalife 12-packs / $10.98**, quantity 2 showed free October 30. Pair24 individual strands into12 nominal7-ft runs, restoring84ft of paired coverage. If selected, remaining core becomes **$158.91 / $173.21 with planning tax**. The prior $65.98 Mizii proposal is a premium alternative, no longer default. Neither replacement reported selected/ordered; other goods unchanged.
+**Current remaining baseline: five needs / $157.92 before tax / $172.13 with planning tax**, including the old $9.99 ivy allowance. Old ivy stays held. [Revised value recommendation](living-room/ivy-upgrade-2026-10-29.md): **two Freyalife 12-packs / $10.98**, quantity 2 showed free October 30. Pair24 individual strands into12 nominal7-ft runs, restoring84 ft of paired coverage. If selected, remaining core becomes **$158.91 / $173.21 with planning tax**. The prior $65.98 Mizii proposal is a premium alternative, no longer default. Neither replacement reported selected/ordered; other goods unchanged.
 
 [Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest ivy handoff](handoff-2026-10-29-ivy-value.md) · [Current room plan](final-room-plan.md).
 
@@ -24,13 +28,13 @@ Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command
 
 Combined **$281.07 at last quoted unit prices**, including **$81.17** for the latest seven categories. This is merchandise quote value, not a receipt-verified paid total. Actual quantities, charges and order-specific arrivals remain unverified; no agent purchase or payment.
 
-## Still to buy — core decor
+## Previous core shortlist — superseded by urgent list above
 
 All quantities are the total needed from each listing. Products are shared between rooms where stated; do not buy a second pack for each allocation.
 
 | Item / exact selected option | Buy quantity | Last quoted line USD | Room and exact purpose |
 |---|---:|---:|---|
-| H27 — **HOLD / replacement pending** ([original KASZOO](https://www.amazon.com/dp/B07H1GQB36)) | No original-product order | 9.99 baseline allowance | [Recommend Freyalife /12Pack84Ft ×2 / $10.98](living-room/ivy-upgrade-2026-10-29.md),24 strands paired into12 nominal7-ft runs:10Grove/2desk. Quantity 2 In Stock/free Oct 30 checked. Prior Mizii premium not justified for default party coverage; no new choice/order inferred. |
+| H27 — **HOLD / replacement pending** ([original KASZOO](https://www.amazon.com/dp/B07H1GQB36)) | No original-product order | 9.99 baseline allowance | [Recommend Freyalife /12Pack84Ft ×2 / $10.98](living-room/ivy-upgrade-2026-10-29.md),24 strands paired into12 nominal7-ft runs:10 Grove/2desk. Quantity 2 In Stock/free Oct 30 checked. Prior Mizii premium not justified for default party coverage; no new choice/order inferred. |
 | H28 replacement — [Rugflix 8 × 10 ft / 03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | **1 rug** | 75.99 | **Hollow dance floor:** 80 sq ft low-pile floor coverage, comfort and mild echo softening; partly under desk/Guardian band. Check door swing, grip and flat edges on receipt. Replaces late original WITSHOCK. |
 | H18 — [Command clear decorating clips / 40 clips, 48 strips per pack](https://www.amazon.com/dp/B000M3YGHS) | **3 packs / 120 clips** | 27.15 | **Small ivy/string attachments.** Stage 2 packs/ 80 for Grove ivy and later strings; 1 pack/ 40 for Hollow desk ivy, light-string routing and spares. This is an inventory split, not a tested support/spacing specification. These small clips are not fleece supports; use H24 on wall or H24-S on glass. |
 | H06 — [DUSPRO bendable moss vine 10 ft](https://www.amazon.com/dp/B0B3XC33R5) | **1** | 14.80 | **Moon Well roots:** one bendable root/branch accent around shower backdrop/dry-tub edge. Separate from the shared 84-ft ivy. Fit actual support before installation. |
@@ -54,7 +58,7 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 [Full thin-cloth nesting](bedroom/draping/02-shopping-and-sample.md#thin-furniture-covers) remains current; its earlier full-wall fleece cuts are historical. Remaining cloth makes small ties/patches. One shared cloth pack supplies all four uses.
 
-**Guardian build:** InnoGear stand + reused doubled card spine, folded card/kraft bark face and branching crown + paint/PVA + one H14 cloth cut + ~12 H17 ties + small H11 moss scraps. Eyes use one deferred warm USB string. Late raven pendants are replaced by painted card relics. No bought mask/mannequin, animatronic mechanism or second moss/cloth/tie order. [Build sequence](bedroom/woodland-guardian.md).
+**Current Guardian:** bought forest-spirit mask/headdress +InnoGear stand +ordered thin cloth/ties/moss/ivy. One shared USB string is an optional root/eye fallback; mask LED battery details unresolved. No sculpted face/crown or paid mannequin. [Minimal assembly](bedroom/woodland-guardian.md).
 
 **Moss:** full counters and both host-sized tabletops come first, with the desk fascia included in the [four-sheet packing](living-room/moss-four-sheet-cuts-2026-10-29.svg). Both tables need joins because 44/ 40 in exceed 39 in. Save the sink cutout. Small props get scraps or painted texture after primary cuts; no fifth sheet is ordered.
 
@@ -73,7 +77,7 @@ These are the existing **$105 total planning allowances**, not purchases or stoc
 
 **Reuse without a second purchase:** clean delivery cardboard/kraft for Guardian/branch silhouettes/stones/moon, small translucent eye-diffuser scraps, existing cutting tools/brush if available, TV/audio furniture, coffee table/chairs, bath curtain support. Extra craft quantities depend on actual packaging and templates; no elaborate new sculpting kit added.
 
-## Lighting and power — purpose recorded, buying deferred
+## Earlier lighting leads — stage buying deferred; strings/bath revised above
 
 No lighting is counted as ordered by the host’s two-order confirmation. These are existing leads/allocations for the later lighting pass. Prices, stock and delivery need refreshing then; do not order multiple main-panel alternatives.
 

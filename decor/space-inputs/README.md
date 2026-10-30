@@ -1,5 +1,9 @@
 # Room capture for decor planning
 
+## October 29 corrected review layout
+
+[Updated vector](party-layout-2026-10-29.svg) removes the fifth chair, identifies one nightstand/low cabinet as shrine and applies already documented 8×10 rug coordinates. Original PNG/cutaways remain historical renders. Scan shell and accepted furniture positions unchanged; new foliage/branch attachment spans are proposed in [current room plan](../final-room-plan.md), not measured.
+
 Prepared October 21, 2026. Optional LiDAR capture can help us understand the apartment; ordinary photos plus a measured sketch are sufficient to start. We need positions and usable dimensions for decor decisions, not a perfect digital twin.
 
 ## Current party arrangement — later October 21

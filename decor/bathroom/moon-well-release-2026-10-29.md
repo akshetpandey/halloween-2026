@@ -1,0 +1,30 @@
+# Moon Well — private release ritual
+
+**Host idea October 29:** add a cool water bucket, paper and marker for memories to leave behind/secrets to confide to the moon, discovered during restroom use; host suggested burning then water-soluble paper. **Recommended revision, not yet accepted:** write-and-dissolve without flame. [Current exact orders](../urgent-buy-list-2026-10-29.md#moon-well--water-ritual-and-light).
+
+## Physical arrangement
+
+Existing forest curtain and thin black dry-tub cloth are already reported ordered. Moon on supplied stand and sparse fixed moss/ivy/jute detail remain the background. Water stays in a separate black 3.5 L vessel on a stable **reachable dry shelf/counter or suitable existing surface outside the tub**, with a rimmed catch tray. Begin with~1 L room-temperature water, not full capacity. Keep sink, lock, soap and floor route free. Actual surface has not been photographed/measured; do not assume the bucket fits. If no safe reachable surface exists, use a closed note box instead of making guests reach into the tub or adding a floor table.
+
+Beside water:small dry tray with 10–15 sheets replenished from sealed pack, two dark washable markers, a short instruction card and discreet cleanup towel. Keep remainder of 100 sheets dry. Cordless moon/warm ambient and tea lights on separate dry supports; charge outside the bathroom. No powered light placed in water. Candies move to Grove shrine, using one food allocation.
+
+## What the paper actually does
+
+[NATURALABEL4.1×6.3 in 100 sheets](https://www.amazon.com/dp/B08R8KY3YD),17.99, Oct 31 estimate. Seller describes water dissolution and explicitly says **not flash paper**. Seller's under 30-second/no-residue wording is untested in this still-water bucket, with several notes and chosen ink. Do not promise instant destruction or privacy before the trial. Use a small note unfolded for quicker wetting; test with actual markers before guests. Keep an opaque cover/lid nearby while notes soften; host should not read or photograph notes. This is a symbolic ritual, not a secure document-destruction service or scored game.
+
+Burning is not needed for dissolution. No-flame recommendation follows actual cloth/foliage/costume setup: [NFPA Halloween guidance](https://www.nfpa.org/Education-and-Research/Home-Fire-Safety/Halloween) keeps decorations away from flames and recommends flameless candle alternatives. No lighter, flash paper or burn vessel is on the recommended list. The proposed plastic bucket is **water-only**, not a fire container.
+
+## Proposed sign
+
+> THE MOON KEEPS NO RECORD
+> Write a memory you wish to leave behind, or a secret you would entrust to the moon.
+> Let the paper rest in the water. Let it go.
+> One small note. No names needed. Do not light the paper. Please leave the water here.
+
+Wording is proposed, not printed or publicly posted. Avoid a strict disappearance-time claim until tested.
+
+## Quick receipt trial and maintenance
+
+Test one marker note in actual still water, then several in sequence. Observe full wetting, clumps, legible fragments, ink transfer and splashes; adjust paper size, water level and replacement frequency. Check bucket leaks over catch tray. Assign host/helper water changes privately; do not pour paper clumps/marker debris down sink or toilet. Collect residue for household disposal following product/local guidance. No participant names/photos/notes enter Git or the game. If performance is poor, use a closed collection box and dispose privately afterward.
+
+DEC-04 stays outside bathroom. Bucket ritual is optional/unscored, no NFC/tag purchase, no guest queue inside. Built-in light stays accessible if dim scene is not usable.

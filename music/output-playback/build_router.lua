@@ -24,6 +24,8 @@ local function build()
   if io.open(C.cancel, 'r') then return end
   assert(reaper.get_ini_file() == C.profile, 'Wrong REAPER profile; no project modified')
   assert(loadfile(C.arm_script), 'Output-mapping script failed Lua syntax check')
+  assert(loadfile(C.apply_script), 'Calibration apply script failed Lua syntax check')
+  assert(loadfile(C.load_calibration_script), 'Calibration loader failed Lua syntax check')
   assert(reaper.GetPlayState() == 0, 'Playback must be stopped')
   assert(reaper.kbd_getTextFromCmd(40859, 0):lower():find('new project tab'))
   reaper.Main_OnCommand(40859, 0)
@@ -43,10 +45,11 @@ local function build()
     hardware_outputs=0, tracks={}, master_db=-12,
     master_muted=not C.proof, repeat_mode=reaper.GetSetRepeatEx(0, -1)}
   local tracks = {}
-  for i, name in ipairs({'FINISHED MUSIC - original speed',
+  for i, name in ipairs({C.source_channels == 4 and 'CALIBRATION - isolated outputs' or 'FINISHED MUSIC - original speed',
       'AUDIOENGINE - stereo EQ / delay', 'HISENSE - stereo EQ / delay'}) do
     reaper.InsertTrackAtIndex(i-1, true)
     local t = reaper.GetTrack(0, i-1); tracks[i] = t
+    reaper.SetMediaTrackInfo_Value(t, 'I_NCHAN', i == 1 and (C.source_channels or 2) or 2)
     reaper.GetSetMediaTrackInfo_String(t, 'P_NAME', name, true)
     reaper.SetMediaTrackInfo_Value(t, 'I_RECARM', 0)
     reaper.SetMediaTrackInfo_Value(t, 'I_RECMON', 0)
@@ -79,11 +82,13 @@ local function build()
     local send = reaper.CreateTrackSend(tracks[1], tracks[i])
     assert(send >= 0)
     reaper.SetTrackSendInfo_Value(tracks[1], 0, send, 'I_SENDMODE', 0)
-    reaper.SetTrackSendInfo_Value(tracks[1], 0, send, 'I_SRCCHAN', 0)
+    reaper.SetTrackSendInfo_Value(tracks[1], 0, send, 'I_SRCCHAN',
+      C.source_channels == 4 and i == 3 and 2 or 0)
     reaper.SetTrackSendInfo_Value(tracks[1], 0, send, 'I_DSTCHAN', 0)
     reaper.SetTrackSendInfo_Value(tracks[1], 0, send, 'I_MIDIFLAGS', 31)
   end
   local source = assert(reaper.PCM_Source_CreateFromFile(C.source), 'Source unavailable')
+  assert(reaper.GetMediaSourceNumChannels(source) == (C.source_channels or 2), 'Unexpected source channels')
   local length = reaper.GetMediaSourceLength(source)
   assert(length > 0)
   local item = reaper.AddMediaItemToTrack(tracks[1])
@@ -97,10 +102,18 @@ local function build()
   reaper.SetMediaItemInfo_Value(item, 'B_LOOPSRC', 0)
   reaper.SetMediaItemInfo_Value(item, 'C_BEATATTACHMODE', 0)
   report.source_seconds = length
+  report.source_channels = reaper.GetMediaSourceNumChannels(source)
   report.source_rate = reaper.GetMediaItemTakeInfo_Value(take, 'D_PLAYRATE')
-  reaper.AddProjectMarker2(0, false, 0, 0, 'CHECK OUTPUTS, then unmute MASTER and Play', -1, 0)
-  reaper.AddProjectMarker2(0, false, length, 0, 'PARTY FILE ENDS - repeat is OFF', -1, 0)
+  reaper.AddProjectMarker2(0, false, 0, 0, C.source_channels == 4
+    and 'Record iPhone FIRST, then unmute MASTER and Play' or 'CHECK OUTPUTS, then unmute MASTER and Play', -1, 0)
+  reaper.AddProjectMarker2(0, false, length, 0, C.source_channels == 4
+    and '69-SECOND TEST ENDS - stop phone recording' or 'PARTY FILE ENDS - repeat is OFF', -1, 0)
   reaper.SetProjExtState(0, 'HalloweenOutput', 'version', 'stereo-1')
+  reaper.SetProjExtState(0, 'HalloweenOutput', 'role', C.source_channels == 4 and 'calibration' or 'party')
+  if C.preset_path then
+    PHONE_CALIBRATION_LIBRARY = true
+    report.applied_calibration = dofile(C.apply_script).apply(C.preset_path)
+  end
   reaper.SetProjExtState(0, 'HalloweenOutput', 'run_id', C.run_id)
   reaper.GetSetProjectNotes(0, true, 'Playback only. MASTER volume/mute controls both systems. '
     .. 'Separate stereo EQ/delay on the two buses. Outputs disconnected until mapped. '

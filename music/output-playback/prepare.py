@@ -60,15 +60,19 @@ def offline_profile(root, seed):
     return path
 
 
-def build(root, profile, source, proof=False):
+def build(root, profile, source, proof=False, source_channels=2, preset=None):
     run_id = str(uuid.uuid4())
-    name = 'proof' if proof else 'party-playback'
+    name = ('calibration-proof' if proof else 'calibration') if source_channels == 4 else ('proof' if proof else 'party-playback')
     project = root / f'{name}.rpp'
     report, error, cancel = [root / f'{name}-{run_id}.{suffix}' for suffix in ('json', 'error', 'cancel')]
     config = {'run_id': run_id, 'profile': str(profile), 'project': str(project),
         'source': str(source.resolve()), 'proof': proof, 'readback': str(report),
         'error': str(error), 'cancel': str(cancel), 'render_dir': str(root),
-        'arm_script': str(HERE / 'arm_outputs.lua')}
+        'arm_script': str(HERE / 'arm_outputs.lua'), 'source_channels': source_channels,
+        'apply_script': str(HERE / 'apply_calibration.lua'),
+        'load_calibration_script': str(HERE / 'load_calibration.lua')}
+    if preset is not None:
+        config['preset_path'] = str(preset)
     dispatch = root / f'build-{run_id}.lua'
     dispatch.write_text('OUTPUT_CONFIG = {\n' + ''.join(
         f'  [{lua(key)}] = {lua(value)},\n' for key, value in config.items())
@@ -155,9 +159,10 @@ def main():
     parser.add_argument('--seed-profile', type=Path, default=DEFAULT_SEED)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--verify', action='store_true')
+    parser.add_argument('--calibration', action='store_true', help='Prepare/open the isolated 69-second measurement sequence')
     parser.add_argument('--open', action='store_true', help='Open the prepared player; never starts playback')
     args = parser.parse_args()
-    latest = HERE / '.local/latest.json'
+    latest = HERE / ('.local/latest-calibration.json' if args.calibration else '.local/latest.json')
     if args.open:
         if not latest.is_file():
             parser.error('Prepare the player before opening it')
@@ -169,17 +174,25 @@ def main():
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
         print(f'Opening {project}; playback is not started.')
         return
-    if not args.source.is_file() or not args.seed_profile.is_file() or not REAPER.is_file():
+    if (not args.calibration and not args.source.is_file()) or not args.seed_profile.is_file() or not REAPER.is_file():
         parser.error('Installed REAPER, initialized offline seed and local party audio are required')
     timestamp = datetime.now(ZoneInfo('America/New_York')).strftime('%Y%m%d-%H%M%S%z')
+    if args.calibration:
+        timestamp += '-calibration'
     root = (args.output or HERE / '.local' / timestamp).resolve()
     root.mkdir(parents=True, exist_ok=False)
     profile = offline_profile(root, args.seed_profile)
     proof = verify(root, profile) if args.verify else None
-    result = build(root, profile, args.source)
+    source, channels = args.source, 2
+    if args.calibration:
+        subprocess.run([sys.executable, str(HERE/'calibrate.py'), 'generate', str(root)], check=True)
+        source, channels = root/'calibration-four-channels.wav', 4
+    result = build(root, profile, source, source_channels=channels)
     (root / 'party-readback.json').write_text(json.dumps(result, indent=2) + '\n')
     latest.parent.mkdir(parents=True, exist_ok=True)
     latest.write_text(json.dumps({'project': result['project'], 'profile': str(profile)}, indent=2) + '\n')
+    if args.calibration:
+        (HERE/'.local/calibration-project.txt').write_text(result['project']+'\n')
     print(json.dumps({'project': result['project'], 'source_seconds': result['source_seconds'],
         'outputs_disconnected': True, 'master_muted': result['master_muted'],
         'proof': None if proof is None else {

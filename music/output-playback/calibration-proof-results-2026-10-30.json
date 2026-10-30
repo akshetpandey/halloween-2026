@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/New_York",
+  "native_render_channels": 4,
+  "native_source_seconds": 69,
+  "synthetic_combined_pipeline_expected_offset_ms": 68,
+  "recovered_offset_ms": 68.0078740609913,
+  "phone_clock_expected_ppm": 120,
+  "phone_clock_recovered_ppm": 119.25,
+  "native_preset_application": {
+    "hisense": {
+      "delay_ms": 0.0,
+      "gain_db": -2.0,
+      "filters": {}
+    },
+    "audioengine": {
+      "delay_ms": 68.0,
+      "gain_db": 0.0,
+      "filters": [
+        {
+          "frequency_hz": 250,
+          "gain_readout": "-3.0"
+        }
+      ]
+    }
+  },
+  "hardware_outputs_opened": false,
+  "real_phone_recording_analyzed": false
+}

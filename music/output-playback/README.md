@@ -4,6 +4,8 @@
 
 Deadline decision: **defer encoded 5.1 for this party**. Its [software proof](../optical-5-1-pipeline-2026-10-29.md) does not solve the additional bitstream/PCM synchronization work. Host says the cable arrives October 31 and guests start around **8–9 p.m. EDT**. Prefer dependable simultaneous stereo over extending that research.
 
+**Host confirmed the final scope:** two-channel output to each system, with approximate EQ and delay alignment. The [iPhone calibration kit](CALIBRATION.md) is now built: 69-second isolated test, recording analyzer and numeric preset application. Record once from the main listening area; the agent handles analysis and settings. Thirteen synthetic/container tests and a native REAPER round trip passed. Real room results still await the cable and recording.
+
 ## What is ready
 
 - A private playback-only project already references `The-Hollow-party.mp3`, duration **7:35:30.1095**, at 1.0x. It does not load the reserve automatically or alter the completed musical mix.
@@ -31,7 +33,7 @@ Working estimates, not guarantees: **20–45 minutes** for stereo output and bas
 3. Open the prepared player. In REAPER Preferences → Audio → Device, select that Aggregate Device and enable all four output channels. The actual order may differ from 1/2 Audioengine, 3/4 Hisense.
 4. Load [arm_outputs.lua](arm_outputs.lua) through Actions → Show action list → New action → Load ReaScript, then run it. It lists the real device channel names and asks which first channel belongs to each stereo pair. It rejects missing/overlapping pairs and leaves MASTER muted at −12 dB. Save after mapping.
 5. Lower physical volumes, unmute MASTER and play a familiar passage. Mute one bus at a time to verify physical identity and L/R, then listen with both. Confirm MASTER mute/volume affects both. Raise level gradually; do not compensate for a muted/misrouted output by raising everything.
-6. If there is an echo/flam, use the iPhone recording method for a rough relative offset and add **positive** delay to the earlier bus. In that bus's FX, change only **Time Adjustment Delay → Delay Amount (ms)**; keep Wet 0 dB, Dry minimum and additional samples 0. Leave negative delay unused. Recheck by listening and keep delay/EQ changes modest.
+6. Use the [69-second iPhone calibration test](CALIBRATION.md) to measure the approximate relative offset, then apply its bounded preset to the party player. This adds **positive** delay to the earlier bus. Keep the raw test flat/zero-delay; audition after application. For manual adjustment, use only **Time Adjustment Delay → Delay Amount (ms)**; keep Wet 0 dB, Dry minimum and additional samples 0. Leave negative delay unused.
 7. EQ is optional: first check the reduced-bass switch result and placement. Use ReaEQ on the affected bus only; no default bass cut has been imposed. Save, stop/restart playback, check pause/resume, and let both run while preparing the room. Avoid unplugging devices afterward.
 
 **Keep controls simple:** MASTER volume/mute affects both systems; each bus fader/mute controls its own system. Space plays/stops; Enter pauses/resumes with the default REAPER keymap. Keep playback rate 1.0 and repeat off. Start the finished file manually; this player does not install an event scheduler or change the programme's length.

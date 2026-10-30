@@ -1,0 +1,16 @@
+# Manhattan pickup route and closing-time handoff
+
+- Session: decor rescue route correction and closing-time checklist.
+- Updated: October 30, 2026, approximately4:40 p.m. EDT, America/New_York.
+- Scope: current route/closing times; no new product selection or paid-cost change.
+- Checkout/branch/base: `/Users/akshet/workspace/halloween-2026`, shared `main`, base `4006719` before these writes. Sibling sessions may advance main.
+- Status: updated list ready to use; skull stock and paper collection today remain unresolved.
+- User decisions: closer Manhattan Spirit preferred; Spirit last; existing bought-skull direction and dissolve-only Moon Well retained. Superglue remains needed, already on list.
+- Completed: official Spirit locator identifies **Union Square #61240, 33 Irving Place, corner E16th**, Friday8 a.m.–11 p.m. Replaces Fulton trip. Official fresh Friday closings: Keaton6 p.m.; Kidding7 p.m.; GC/Michaels9 p.m.; Spirit11 p.m. No live queue/travel time.
+- Canonical deliverable: [updated pickup/closing table](nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times). With paper: Keaton first if today confirmed → Michaels → Kidding before7 → GC → Spirit last; if Michaels runs long, rabbit first and return. Without paper, core GC/Kidding/Michaels/Spirit. Return toward Williamsburg via L at Union Square, service unverified. Old F-to-Fulton/G return historical.
+- Quantities/quotes: one each stand, rabbit, small gold stag, initial willow bundle, Kraft raffia roll, Loctite Gel Control superglue4g, preferred ram; seven-item baseline **$136.43/$148.71 planning tax**. Conditional Paper Solvy pack +$9.99 → eight items **$146.42/$159.60**. Willow second bundle only if needed +$15.49 pre-tax. Loose leaves skipped. All eight delayed lines accounted for; no duplication of glue/decor/costume allowance.
+- Inventory evidence: core counts morning, glue12:30–12:40, Keaton3 p.m.; **hours/address refreshed only** in this update. Union Square ram/alternate stock unknown; existence/open hours are not item availability. Keaton NYC pickup displayed but standard24h, call646-974-1717 for today. No phone tool, calls, messages, holds, purchases, cancellations, refunds, deployments or physical tests.
+- Owned files: decor README, canonical rescue, ledger, urgent-buy pointer, bathroom paper route pointer, operations budget/decisions/cart, this handoff. Preserve unrelated `decor/shopping-ready.md` typo edit. Automatic approval review rejected staging an edited root AGENTS.md because project-instruction changes were not explicitly authorized; removed only this session's route-summary edit there. Root instructions remain unchanged; current authorized route is recorded in the task docs/shared decision log.
+- Verification passed: JSON parse, route/status assertions, price arithmetic, local Markdown links/new closing-section anchor and `git diff --check`; staged diff reviewed before commit. Official store links are in canonical table. No product stock refresh claimed.
+- Next: host confirms paper; picks up listed items; browses Union Square for ram/another suitable animal skull; checks willow yield/cutting tool; logs actual receipts/costs and tests assembly/paper. Prior Amazon orders still ordered, no assumed refund.
+- Commit: focused main checkpoint follows this handoff; final reply reports hash/checks. No push.

@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 afternoon • Manhattan Spirit replaces Fulton; closing times refreshed
+
+Host points out a closer Manhattan Spirit and requests updated shopping list/closing times. Official store locator confirms **Spirit Union Square #61240, 33 Irving Place at E16th, Friday8 a.m.–11 p.m.** Replace Fulton leg; no ram/alternate stock inferred. [Updated canonical list](../decor/nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times): conditional Keaton before6 → Michaels → Kidding before7 → GC → Spirit last. Michaels/GC close9, all verified on official sites around4:40 p.m. EDT. No new stock check/reservation/purchase/store contact. Superglue remains **one Loctite Gel Control4g $4.99** at Michaels; seven-item baseline unchanged $136.43/$148.71. Paper optional +$9.99 gives eight items $146.42/$159.60. Earlier Fulton route decisions below are history; original Amazon orders unchanged.
+
 ## October 30 • Moon Well dissolve-only ritual confirmed
 
 Host says **“lets stick with dissolvable paper”**, accepting plain water/write-and-dissolve and superseding the explored flash-paper/contact-ignition alternatives. No extra light/sound effect (host says no time). Bucket intended inside the bathtub; stable support/reach still to fit. One moon/listener DEC-01 and optional/unscored writing remain. [Current ritual](../decor/bathroom/moon-well-release-2026-10-29.md) · [Local paper checks](../decor/bathroom/dissolving-paper-pickup-2026-10-30.md). Original Amazon notes Sunday Nov1; Keaton $9.99 shows NYC pickup but same-day readiness needs a call. No second confirmed pickup source: Brooklyn Craft soluble sheets sold out, checked Michaels Pellon items not sold Chelsea/Atlantic. No replacement selected/bought; no cost baseline change, cancellation/refund or physical test. Earlier pending-acceptance statements below are history.

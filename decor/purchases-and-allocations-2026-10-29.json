@@ -1838,7 +1838,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-skull-guardian.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-nearby-animal-skull.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -1852,19 +1852,19 @@
       "MAKE-TWINE",
       "MW-PAPER"
     ],
-    "sourcingStatus": "five earlier local-stock proposals plus Target Brooklyn skull pickup fallback; Home Depot ready-lit skull shelf-unconfirmed; soluble paper unresolved",
+    "sourcingStatus": "five earlier local core proposals; closer animal head unresolved; Evolution fox and Spirit Fulton ram call-first, local stock unconfirmed",
     "purchasePerformed": false,
     "cancellationPerformed": false,
     "refundAssumedUsd": "0.00",
-    "proposedLocalSubtotalUsd": "118.95",
-    "proposedLocalWithPlanningTaxUsd": "129.66",
+    "proposedLocalSubtotalUsd": null,
+    "proposedLocalWithPlanningTaxUsd": null,
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
     "bAndHExcludedByHost": true,
-    "route": "Three core Manhattan stops: GC, Kidding Around, Michaels; optional nearby Home Depot shelf check; Target Brooklyn separate leg if chosen",
+    "route": "GC Manhattan, Kidding Around, Michaels core; Evolution optional after stock confirmation; Spirit Fulton optional separate Brooklyn leg after confirmation; no Midwood",
     "queensOptionSuperseded": true,
     "abracadabraExcludedByHost": true,
-    "headDirection": "bought skull with LED tea-light eyes if accessible; exact product not selected; DEC-05 wolf skull stays separate",
+    "headDirection": "animal skull like existing wolf near Williamsburg or Manhattan route; exact head unchosen; no suitable closer stock verified",
     "supersededMask": {
       "product": "Full Face Matte Black Skull Mask",
       "sku": "W7349B",
@@ -1878,22 +1878,6 @@
       "fridayHours": "10:00–22:00 America/New_York",
       "purchased": false,
       "supersededReason": "host wants to avoid Abracadabra queue"
-    },
-    "proposedHead": {
-      "product": "10-inch Oversized Skull Hyde and EEK",
-      "url": "https://www.target.com/p/-/A-89600148",
-      "tcin": "89600148",
-      "quantity": 1,
-      "quotedUnitUsd": "7.50",
-      "storeStocksObserved": {
-        "Brooklyn Midwood": 5,
-        "Brooklyn Kings Hwy": 3
-      },
-      "observedAt": "2026-10-30T11:49:00-04:00",
-      "pickup": "displayed ready within 2 hours; no order placed",
-      "eyeAccessVerified": false,
-      "mountTested": false,
-      "purchased": false
     },
     "alternateHead": {
       "product": "Home Accents Holiday 8-inch LED Skull",
@@ -1909,7 +1893,74 @@
       "batteries": "3 AA sold separately; cost unquoted",
       "proposedSixLineSubtotalUsd": "114.70",
       "proposedWithPlanningTaxExcludingBatteriesUsd": "125.02",
-      "purchased": false
-    }
+      "purchased": false,
+      "status": "superseded human-skull lead; no purchase selected"
+    },
+    "proposedCoreExcludingHeadSubtotalUsd": "111.45",
+    "proposedCoreExcludingHeadWithPlanningTaxUsd": "121.48",
+    "midwoodDeclinedByHost": true,
+    "supersededTargetHead": {
+      "product": "10-inch Oversized Skull Hyde and EEK",
+      "url": "https://www.target.com/p/-/A-89600148",
+      "tcin": "89600148",
+      "quantity": 1,
+      "quotedUnitUsd": "7.50",
+      "storeStocksObserved": {
+        "Brooklyn Midwood": 5,
+        "Brooklyn Kings Hwy": 3
+      },
+      "observedAt": "2026-10-30T11:49:00-04:00",
+      "pickup": "displayed ready within 2 hours; no order placed",
+      "eyeAccessVerified": false,
+      "mountTested": false,
+      "purchased": false,
+      "supersededReason": "host declines Midwood as too far; wants animal skull"
+    },
+    "animalHeadLeads": [
+      {
+        "product": "Fox Skull",
+        "sku": "SS-AS0007",
+        "url": "https://theevolutionstore.com/fox-skull/",
+        "quotedUnitUsd": "59.00",
+        "sellerDimensionsIn": [
+          5.5,
+          3,
+          2
+        ],
+        "material": "real treated fox bone",
+        "store": "The Evolution Store, 687 Broadway",
+        "shopPhone": "212-343-8047",
+        "fridayHours": "11:00–19:00 America/New_York",
+        "localStockVerified": false,
+        "pickupVerified": false,
+        "stockEvidence": "Current Stock blank; no live buy/pickup control; phone check required",
+        "quantityIfChosen": 1,
+        "proposedSixLineSubtotalUsd": "170.45",
+        "proposedSixLineWithPlanningTaxUsd": "185.79",
+        "purchased": false
+      },
+      {
+        "product": "Hanging Ram Skull",
+        "sku": "01691245",
+        "url": "https://www.spirithalloween.com/product/hanging-ram-skull/268034.uts",
+        "quotedUnitUsd": "19.99",
+        "sellerHeightWidthIn": [
+          10.75,
+          10.5
+        ],
+        "material": "plastic/polyurethane",
+        "potentialStore": "Spirit Brooklyn Fulton St, 490A Fulton Street",
+        "officialStoreUrl": "https://stores.spirithalloween.com/ny/brooklyn/costumes-71062.html",
+        "listedPhone": "855-704-2669 (chain-listed; direct local line unverified)",
+        "fridayHours": "08:00–23:00 America/New_York",
+        "localStockVerified": false,
+        "pickupVerified": false,
+        "stockEvidence": "product shipping stock only; Fulton shelf stock not shown",
+        "quantityIfChosen": 1,
+        "proposedSixLineSubtotalUsd": "131.44",
+        "proposedSixLineWithPlanningTaxUsd": "143.27",
+        "purchased": false
+      }
+    ]
   }
 }

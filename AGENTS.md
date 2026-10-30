@@ -20,7 +20,7 @@
 
 - October 29 procurement closeout: host ordered **three USB-A supplies** and acquired **mini pumpkins**; use available minis as-is, no extra charger or pumpkin/gourd sourcing. Exact USB SKU/cost and mini count/cost unknown.
 
-- October 30 delivery exception: eight decor lines show Sunday November 1; current local alternatives in `decor/nyc-pickup-rescue-2026-10-30.md`. **Host corrects no sticks are in hand**; VILLCASE twigs are required, delayed material. Mask/stand/deer/rabbit replacements proposed, not bought; no cancellation/refund. **Exclude B&H and Abracadabra** at host request; use GC Manhattan stand proposal. Host selects a bought skull/LED-eye direction for DEC-03; exact head unchosen. Target Brooklyn has displayed skull pickup stock; Home Depot ready-lit clearance lead is shelf-unconfirmed. Keep Grove wolf skull DEC-05 distinct and preserve 15 guardian IDs.
+- October 30 delivery exception: eight decor lines show Sunday November 1; current local alternatives in `decor/nyc-pickup-rescue-2026-10-30.md`. **Host corrects no sticks are in hand**; VILLCASE twigs are required, delayed material. Mask/stand/deer/rabbit replacements proposed, not bought; no cancellation/refund. **Exclude B&H and Abracadabra** at host request; use GC Manhattan stand proposal. Host selects a bought skull/LED-eye direction for DEC-03; exact head unchosen. Latest host declines Midwood and wants an animal skull near Williamsburg/Manhattan shopping route; Evolution fox/Spirit Fulton ram are call-first leads only, no closer animal stock verified. Keep Grove wolf skull DEC-05 distinct and preserve 15 guardian IDs.
 
 ## Task ownership
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.

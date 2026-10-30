@@ -1,6 +1,6 @@
 # Decor
 
-**Current October 30:** [Sunday shipment / NYC pickup replacements](nyc-pickup-rescue-2026-10-30.md) supersedes the no-more-shopping note for eight delayed lines. Three core Manhattan stops cover stand/rabbit/deer/willow/ribbon; host now avoids Abracadabra. Bought skull/LED-eye build replaces mask direction: Target Brooklyn has displayed pickup stock; nearby Home Depot ready-lit clearance skull has **unconfirmed shelf stock**. Soluble-paper pickup unresolved. Host corrects **no sticks in hand**. B&H excluded; GC Manhattan stand in stock. Existing orders are not canceled and local replacements not purchased.
+**Current October 30:** [Sunday shipment / NYC pickup replacements](nyc-pickup-rescue-2026-10-30.md) supersedes the no-more-shopping note for eight delayed lines. Three core Manhattan stops cover stand/rabbit/deer/willow/ribbon; host now avoids Abracadabra. Bought animal skull/LED-eye direction: **Midwood declined as too far**. Evolution fox $59 / Spirit Fulton ram $19.99 are closer **call-first leads, shelf stock unconfirmed**; head remains unresolved. Soluble-paper pickup unresolved. Host corrects **no sticks in hand**. B&H excluded; GC Manhattan stand in stock. Existing orders are not canceled and local replacements not purchased.
 
 ## Current October 29 • auto fills, no stage panel or DMX
 

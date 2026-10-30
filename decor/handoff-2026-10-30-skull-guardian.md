@@ -1,5 +1,7 @@
 # Skull Guardian / no Abracadabra handoff
 
+**Later October 30 update:** host declines Midwood and requests a closer animal skull. [Latest animal search handoff](handoff-2026-10-30-nearby-animal-skull.md) supersedes the human-skull recommendation and six-line total below; no suitable closer animal shelf stock verified.
+
 - **Updated:** October 30, 2026, approximately 11:55 a.m. EDT / America/New_York.
 - **Checkout / branch / base:** `/Users/akshet/workspace/halloween-2026`, shared `main`, base at pre-edit check `06dea78`; no worktree or branch.
 - **Status:** sourcing revision and build proposal saved; exact skull selection, purchase, receipt and physical tests remain open.

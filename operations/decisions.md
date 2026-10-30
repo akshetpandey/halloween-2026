@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## October 30 • bought skull head replaces Abracadabra stop
+## October 30 • closer animal skull requested; Midwood declined
+
+Host says Midwood is too far and asks for an animal skull like the existing wolf, near Williamsburg or along Manhattan shopping route. [Current results](../decor/nyc-pickup-rescue-2026-10-30.md#closer-animal-skull-leads--call-first-stock-unresolved): Evolution fox $59, real bone, advertised 5.5×3×2 inches, 687 Broadway / shop 212-343-8047; Spirit hanging ram $19.99, plastic/polyurethane 10.75×10.5 inches, potential Fulton store 490A Fulton. **Neither has verified shelf/pickup stock; call-first leads only.** Petco Union Square animal pickup unavailable; PetSmart local ram/bull unavailable. No suitable current Williamsburg animal-skull stock found. Remove Target Midwood from recommended route and do not treat human skull as accepted. Five core items $111.45 pre-tax, head unresolved; conditional ram/fox totals $131.44/$170.45 pre-tax, existing $200 contingency unchanged. No purchase, call, reservation or actual installation.
+
+## Earlier October 30 • bought skull head replaces Abracadabra stop — human options superseded
 
 Host wants to avoid Abracadabra's expected queue and build DEC-03 from a bought skull, like the existing wolf skull, with LED tea lights in its eyes. Exact head remains unchosen. [Refreshed sources/build](../decor/nyc-pickup-rescue-2026-10-30.md): $7.50 Target human skull, five shown Midwood/three Kings Hwy with two-hour pickup; eye access not verified. $3.25 Home Depot ready-lit skull at W 23rd is a route-convenient lead, **not confirmed shelf stock or online pickup**; requires three AA cells. Animal ram options checked had no verified Brooklyn/Manhattan pickup. Use two intact ordered tea lights only if the actual skull permits; otherwise intact allocated string. Keep DEC-05's wolf skull separate, all fifteen IDs intact. Three core Manhattan stops replace the old four-stop route; Target is a separate Brooklyn leg if chosen. New six-line Target quote $118.95/$129.66 planning tax, replacing $136.40/$148.68. No purchase/reservation/refund or physical test.
 

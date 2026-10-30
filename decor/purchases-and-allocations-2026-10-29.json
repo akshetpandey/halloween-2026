@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-dowels-correction.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-no-spirit-queue.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -1879,10 +1879,10 @@
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
     "bAndHExcludedByHost": true,
-    "route": "Conditional Keaton W28 before18:00 → Michaels Chelsea → Kidding W15 before19:00 → GC W14 before21:00 → Spirit Union Square 33 Irving before23:00; without paper GC/Kidding/Michaels/Spirit; Fulton superseded",
+    "route": "Evening update: Spirit queue excluded. Remaining pickups depend on what host has already collected; Michaels Chelsea and GC Manhattan close21:00; Home Depot W23 optional head lead closes21:00, stock unconfirmed. Earlier full route retained under pickupRoute as history.",
     "queensOptionSuperseded": true,
     "abracadabraExcludedByHost": true,
-    "headDirection": "Spirit Hanging Ram Skull 01691245 preferred for DEC-03; local availability/fit unresolved; fox declined for cost",
+    "headDirection": "Host avoids Spirit queue; photo floral skull or nearby non-Halloween-store alternative proposed; replacement head not selected/purchased",
     "supersededMask": {
       "product": "Full Face Matte Black Skull Mask",
       "sku": "W7349B",
@@ -2025,7 +2025,7 @@
         "rug grip if needed"
       ],
       "alternativeSkullBrowseAcceptedByHost": true,
-      "spiritStopStatus": "optional browse acceptable to host; no ram or alternate shelf inventory confirmed",
+      "spiritStopStatus": "Superseded evening: host avoids extreme queue; see headSourcingEveningUpdate",
       "conditionalPaperFirstStopOrder": [
         "Keaton Quilts, 150 W28 suite605, before18:00 if today confirmed",
         "Michaels Chelsea, 675 Sixth, closes21:00",
@@ -2122,6 +2122,37 @@
       "selectedCountPerPack": 15,
       "selectedLengthInches": 12,
       "selectedDiameterInches": "3/16"
+    },
+    "headSourcingEveningUpdate": {
+      "checkedAt": "2026-10-30T18:54:00-04:00",
+      "canonicalPlan": "decor/bedroom/skull-alternatives-2026-10-30.md",
+      "spiritQueueExcluded": true,
+      "replacementSelected": false,
+      "purchaseConfirmed": false,
+      "photoExactSkuKnown": false,
+      "photoPriceKnown": false,
+      "michaelsChelsea": {
+        "foamSku": "10814205",
+        "foamDisplayedPriceUsd": "3.99",
+        "foamStock": "Out of Stock",
+        "ceramicLedSku": "10811927",
+        "ceramicLedDisplayedPriceUsd": "8.49",
+        "ceramicLedStock": "Out of Stock",
+        "closesAt": "21:00 America/New_York"
+      },
+      "homeDepot": {
+        "store": "Manhattan West 23rd St #6175",
+        "address": "40 W 23rd St, New York, NY 10010",
+        "closesAt": "21:00 America/New_York",
+        "phone": "212-929-9571",
+        "sku": "1015100110",
+        "displayedPriceUsd": "3.25",
+        "localStockVerified": false,
+        "stockText": "Visit store for availability; not available for online pickup",
+        "requiredBatteries": "3 AA, sold separately"
+      },
+      "quotedSubtotalExcludingHeadUsd": "107.93",
+      "noNewPaidCosts": true
     }
   }
 }

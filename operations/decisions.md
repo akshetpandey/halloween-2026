@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 evening • avoid Spirit queue; head alternatives reopened
+
+Host reports extreme Spirit lines and asks for Michaels or another open shop. Skip the Halloween-store queue; no final substitute selected. [Current sources/photo recommendation](../decor/bedroom/skull-alternatives-2026-10-30.md): photo floral skull may work with existing cloth/vines/external light, mount/price unknown. Both checked Michaels skulls show Chelsea out of stock. Nearby Home Depot 40 W23 open until 9; $3.25 LED skull SKU 1015100110 is visit-store availability only. No stock-confirmed new head, purchase/hold/cancellation, game-ID change or physical test. Prior ram-inclusive route totals historical assumptions; selected 12in dowels unchanged.
+
 ## October 30 • correction: 12-inch dowels selected
 
 Host clarifies “Sorry I meant the 12” dowels.” Select **two 15-count packs, 3/16in diameter, 12in Creatology wood dowels, item 10031019**, prior $3.49 each/$6.98 total. Wired picks are not selected. [Canonical correction](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable) retains five distinct silhouettes and existing marker/card color accents, no new paint supplies. Purchase, receipt, assembly, photos/enrollment and recognition tests remain unconfirmed. Selected-dowel route quote $127.92/$139.43 with planning tax; optional paper $137.91/$150.32. No new stock check, purchase, refund or game code/ID change.

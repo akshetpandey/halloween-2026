@@ -1,5 +1,7 @@
 # Budget, sourcing and purchase ledger
 
+**October 30 evening head unresolved:** host avoids Spirit queue. [Current replacement findings](../decor/bedroom/skull-alternatives-2026-10-30.md). Prior $127.92 dowel route includes the now-unsecured $19.99 ram; current quote formula is **$107.93 + actual head price**, optional paper +$9.99, required batteries additional if applicable. Photo-head price unknown; conditional Home Depot $3.25 lead gives $111.18/$121.19 planning tax before battery cost, not secured/selected/paid. No paid-cost or refund adjustment.
+
 **Latest October 30 correction:** host selects **two 15-packs of 12in × 3/16in Creatology wood dowels**, previously $3.49 each/$6.98 total, superseding the wired-pick interpretation. [Current selected-dowel quote](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable): $127.92 pre-tax/$139.43 with planning tax; optional paper $137.91/$150.32. Other earlier quotes retained; actual prices/purchase/receipt unconfirmed. No paid-cost/refund adjustment. Older pick/willow totals below are historical.
 
 **October 30 afternoon route correction:** Spirit **33 Irving Place, Union Square**, replaces Fulton; [closing times / full list](../decor/nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times). Baseline costs unchanged. Optional $9.99 paper makes eight-item five-store scenario **$146.42 pre-tax / $159.60 with 9% planning tax**, not a paid charge.

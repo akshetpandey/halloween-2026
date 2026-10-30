@@ -6,10 +6,27 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from render_set import chapter_bounds,chapter_tempo_map,measure,render,stage_chapter,verify_seam
+from render_set import chapter_bounds,chapter_tempo_map,measure,preview_file,render,stage_chapter,verify_seam
 
 
 class RenderTests(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
+    def test_preview_encodes_actual_fades_and_exact_excerpt_duration(self):
+        import numpy as np
+        import soundfile as sf
+        import subprocess
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);source=root/'tone.wav';target=root/'preview.mp3'
+            t=np.arange(8*48000)/48000
+            sf.write(source,np.repeat((.1*np.cos(2*np.pi*271*t))[:,None],2,axis=1),48000,subtype='PCM_24')
+            result=preview_file(source,target,1,5)
+            self.assertAlmostEqual(result['duration_seconds'],5,delta=.06)
+            raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(target),'-f','f32le','-c:a','pcm_f32le','-'])
+            signal=np.frombuffer(raw,'<f4').reshape(-1,2)
+            middle=np.mean(np.abs(signal[48000:96000]))
+            self.assertLess(np.mean(np.abs(signal[:240])),middle*.3)
+            self.assertLess(np.mean(np.abs(signal[-240:])),middle*.1)
+
     @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
     def test_transparent_meter_matches_steady_reference_and_known_power_change(self):
         import numpy as np

@@ -131,6 +131,18 @@ def measure_duration(path):
     return float(data['format']['duration'])
 
 
+def preview_file(source,target,start,seconds,gain_db=0):
+    if not all(math.isfinite(x) for x in [start,seconds,gain_db]) or start<0 or seconds<.3:
+        raise ValueError('Invalid preview bounds/gain')
+    run(['ffmpeg','-v','error','-nostdin','-y','-ss',str(start),'-i',str(source),'-t',str(seconds),
+         '-af',f'volume={gain_db}dB,afade=t=in:d=0.02,afade=t=out:st={seconds-0.2}:d=0.2',
+         '-c:a','libmp3lame','-b:a','320k',str(target)])
+    meters=measure(target)
+    if abs(meters['duration_seconds']-seconds)>.06 or meters['true_peak_dbfs']>-1:
+        raise ValueError('Preview duration/headroom failed')
+    return meters
+
+
 def stage_chapter(native,report,directory,start,end):
     """Decode only active chapter sources once for fast native stretch seeking."""
     analysis={t['id']:t for t in json.loads(Path(report['inputs']['analysis']).read_text())['tracks']}
@@ -332,12 +344,13 @@ def deliver(report_path, output, database=DEFAULT_DB):
                         report['tracks'][min(3,len(report['tracks'])-1)])
     start=max(0,representative['start_seconds']-15)
     seconds=min(300,meters['duration_seconds']-start)
-    run(['ffmpeg','-v','error','-nostdin','-y','-ss',str(start),'-i',str(master),'-t',str(seconds),'-af',f'afade=t=in:d=0.02,afade=t=out:st={seconds-.2}:d=.2','-c:a','libmp3lame','-b:a','320k',str(preview)])
+    preview_meters=preview_file(master,preview,start,seconds)
     validate_current(report,database)
     result={'rendered':True,'mix_plan_sha256':digest(report_path),'minimum_nine_hours_excluding_bridges':report['planned_seconds_excluding_bridges']>=32400,
             'constant_delivery_gain_db':gain,'meters':meters,'mp3_meters':mp3_meters,'silence':silence,
             'master':str(master),'master_sha256':digest(master),'mp3':str(mp3),'mp3_sha256':digest(mp3),
             'playlist':str(playlist),'preview':str(preview),'preview_start_seconds':start,'preview_duration_seconds':seconds,
+            'preview_meters':preview_meters,
             'party':str(party),'party_sha256':digest(party),'party_meters':party_meters,
             'party_programme_seconds':party_end,'reserve_seconds':report['planned_seconds']-party_end,
             'reserve':str(reserve_file) if reserve_file else None,

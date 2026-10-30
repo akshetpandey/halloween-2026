@@ -55,7 +55,7 @@ def export(report_path,verification_path,output):
     output.mkdir(parents=True,exist_ok=True)
     public={k:verification[k] for k in ['rendered','mix_plan_sha256','minimum_nine_hours_excluding_bridges',
             'constant_delivery_gain_db','meters','mp3_meters','silence','master_sha256','mp3_sha256',
-            'preview_start_seconds','preview_duration_seconds','chapters','chapter_backup_format',
+            'preview_start_seconds','preview_duration_seconds','preview_meters','chapters','chapter_backup_format',
             'seams','subjective_listening_verified','hardware_playback_tested',
             'party_sha256','party_meters','party_programme_seconds','reserve_seconds','reserve_sha256','playback_schedule']}
     public.update(planner_version=report['version'],generated_at=report['generated_at'],

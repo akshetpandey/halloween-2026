@@ -1,42 +1,36 @@
 # Current decor cart and what remains — October 29, 2026
 
-**Observed in Chrome about 10:43 p.m. EDT:** **25 active product lines / 31 units / $566.87 before tax**. Everything is still an unpaid cart selection. Host replaced the late OLANLY rug with **black Xafir 8×10 / $49.99**, now showing **October 31**. Larger Blue Sky pumpkin/spider bowl replaces the smaller Bico proposal. Every active cart line and missing product checked below shows **October 31**, with **no guaranteed before-party window**; checkout terms control. Saved-for-later products are excluded. [Sanitized current evidence and arithmetic](research/cart-final-corrections-2026-10-29.json).
+**Current host decision:** Govee floor lamp and Betopper fill-light pair selected; fills run in **AUTO** mode. **OPPSK and all DMX items dropped.** No additional core decor products to add. Latest live cart check, about 10:58 p.m. EDT, showed **empty**; checkout confirmation is pending. Do not infer an order or re-add everything. The last observed core selections were $566.87; adding the two selected lights gives **$681.85 at last quoted prices**, not a verified checkout charge. [Current decision/quote evidence](research/auto-fill-selection-2026-10-29.json). Prior October 31 offers are estimates, not order-specific arrival guarantees.
 
 **Already reported ordered:** six fleece, four moss sheets, Hollow Command hooks, suction cups, binder clips, thin cloth two-pack, gaffer tape, zip ties and forest curtain. Nine lines at $281.07 last quoted value; actual paid/received totals unknown. [Ordered quantities and allocations](shopping-ready.md). Do not reorder these.
 
 **Already owned:** central gold tree/LIFX, LEGO red panda for fox, sticks for all five handmade guardians. Single moon/listener remains in Moon Well; The Last Seed is the pumpkin candy holder at the Grove nightstand. [All 15 guardians](../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Grove displays](living-room/grove-shrines-2026-10-29.md).
 
-## Lighting already in your cart — do not add again
+## Other lighting already selected — do not add again
 
 - **Three Twinkle Star 66 ft warm USB strings / $29.97:** two Grove wall/foliage routes, one Hollow Guardian roots/eyes fallback. No Grove moon.
 - **One Homemory 100-pack amber tea lights / $39.99:** pre-installed CR2032 batteries per selected listing; no separate bulk battery order needed. This is much more than the planned small clusters; see 24-pack saving below. Tea lights add points of glow, not a room wash.
 - **One 4.7-inch self-lit moon / $19.99:** Moon Well and DEC-01 listener. Extra O’Bright lamp remains on hold; use existing room light if necessary.
 - **One CAFELE LED mask / $23.99:** Guardian face. Battery/power details remain unspecified after checking exact cart variant; intact allocated string is fallback. No invented battery SKU.
 
-## Decor cart complete — no additional decor products to add
+## Core decor selected — no additional products to add
 
 The **galvanized American Metalcraft 1.16-gallon bucket, $18.26**, is now in cart. Sukh raffia string already covers small craft bindings, so **no separate jute roll**. **Paint kit removed** at host request; natural sticks/raffia, ordered ties, reused card and the existing Crayola markers cover optional color accents. Use the **one 40-clip pack already selected**; no extra clip pack. Fit simpler wall routes if needed rather than buying more preemptively.
 
-## Not in cart — missing Grove/Hollow lighting
+## Selected main lighting — no stage panel or DMX
 
-| Item / exact option | Quantity to add | Before tax | Purpose |
+| Product | Selected quantity | Last quoted USD | Purpose |
 |---|---:|---:|---|
-| [Govee RGBIC Floor Lamp Basic / Black](https://www.amazon.com/dp/B099WTN2TR) | 1 | $64.99 | Grove broad dim violet wall bounce opposite central owned LIFX tree; steady party setting. Separate from DMX. No extra moon. |
-| [OPPSK / 1080LEDs Stage Light](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | $179.99 | One Hollow effect panel; prior host-selected OPPSK baseline. Visible coupon price $165.59 is conditional, not applied. No laser or moving head. |
-| [Betopper LPC018 / Number of Items: 2](https://www.amazon.com/dp/B0GCCPC16R) | 1 | $49.99 | One two-pack = two Hollow RGB fill lights. Recommended low red/violet washes; own brackets and AC power, outside routes. No second pair needed. |
-| [DSD TECH SH-RS09C / USB-C to DMX / 1.8 m lead](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | $19.99 | One actual USB-DMX interface for Mac + free QLC+. Included 5.9-ft lead runs to first fixture. Exact hardware/QLC pairing untested. |
-| [Cable Matters / 120-ohm 3-pin male DMX terminator / 2-pack](https://www.amazon.com/dp/B0CSSJP1H4) | 1 | $8.99 | Use one at last fixture; second is pack spare. |
-| [Cable Matters / 6 Feet / two 3-pin DMX cables](https://www.amazon.com/dp/B08SQMHPF3) | 1 | $17.99 | Two short fixture links for panel → fill A → fill B; both used. These are not a long laptop extension. |
+| [Govee RGBIC Floor Lamp Basic / Black](https://www.amazon.com/dp/B099WTN2TR) | 1 | $64.99 | Grove dim violet wall wash, alongside owned central LIFX tree. |
+| [Betopper LPC018 RGB two-pack](https://www.amazon.com/dp/B0GCCPC16R) | 1 pack / 2 fixtures | $49.99 | Hollow fills using built-in AUTO mode, each powered from AC. |
 
-**Six product lines: $341.94 before tax**, or **$327.54 if the OPPSK $165.59 coupon applies**. Coupon displayed, not clipped/applied. Govee $64.99 is the Grove wash; the other five lines total $276.95 for Hollow, or $262.55 with coupon. These purchases sit **inside the existing inclusive $450 lighting/control/power reserve**, not in addition to it. After $341.94 hardware + $30.77 planning tax, reserve has $77.29 for remaining AC power/price/setup needs. Exact available outlets/supports still require inventory; no extra strip/cable pack selected blindly.
-
-The LPC018 pair is the recommended fill choice, not a reported purchase. One chain: **Mac USB-C → SH-RS09C → OPPSK → 6 ft DMX → fill A → 6 ft DMX → fill B → terminator**. Every fixture needs separate appropriate AC power. No long Mac extension, splitter, second interface, moving heads or lasers. [Setup/automation and music coordination](lighting/dj-sync-handoff-2026-10-29.md). QLC+ scenes/chases can run unattended after testing; reactive sound is not proven beat/drop synchronization. No show installed, fixture map verified or combined rehearsal completed by this cart audit.
+**$114.98 before tax**, selected by host. Removed OPPSK, USB-DMX interface, short DMX cable pack and terminators: **$226.96 avoided at prior quotes**. No QLC+ show or music cue synchronization required. [Simple setup/receipt checks](lighting/cart-lighting-2026-10-29.md). Entire $450 lighting reserve is retired; exact selected lights enter merchandise/tax once. Purchase status awaits host confirmation after the empty-cart observation.
 
 ## USB power — inventory before adding
 
 Three strings require **three suitable 5 V USB-A supplies**. If none owned, add **two [Amazon Basics White one-port USB-A two-packs](https://www.amazon.com/dp/B0773JCTR5), $13.87 each / $27.74 total**, giving four supplies/one spare. One pack if one or two suitable supplies owned; zero with three. October 31 shown. Moon charging accessories/runtime need receipt check separately. This is separate from the USB-DMX data interface.
 
-## Current cart — exact selections and purposes
+## Last core selections — purposes, not a current cart or receipt
 
 | Cart item | Cart quantity | Cart line USD | What it is for / action |
 |---|---:|---:|---|
@@ -66,14 +60,14 @@ Three strings require **three suitable 5 V USB-A supplies**. If none owned, add 
 | [InnoGear MS250 / Black / single / Twist Clutch34–60in](https://www.amazon.com/dp/B08QZD9B5P) | 1 | $29.99 | Independent weighted support behind desk;9.8in base. Untested scenic adaptation, separate from bed restraint. |
 | [CAFELE Forest Spirit mask/headdress / Led (cart variant)](https://www.amazon.com/dp/B09V19JMMW) | 1 | $23.99 | Ready-made LED face/headdress for Keeper of the Pulse, behind Hollow automated desk. Pair with stand and ordered cloth/ties. Battery requirements and mounting remain untested. |
 
-All rows above showed October 31 after the host's rug replacement. **Cart $566.87** includes the duplicate stick pack and second glue bottle. Remove sticks $20.49 and reduce glue by $1.17: **recommended cleaned cart $545.21**. No cart edits performed by agent. Black Xafir is a shag rug, not the prior low-pile Rugflix; test grip, door movement and actual dancing after receipt. Do not buy both rugs.
+These core selections showed October 31 when last checked; subtotal $566.87 includes duplicate sticks/extra glue. Current cart is empty and order status is unconfirmed. If checkout has not happened, removing sticks $20.49 and one glue bottle $1.17 reduces this subtotal to $545.21. Do not assume this cleanup happened or reorder selected products. No cart edits performed by agent. Black Xafir is a shag rug, not the prior low-pile Rugflix; test grip, door movement and actual dancing after receipt. Do not buy both rugs.
 
 The 67-inch second branch is now a selected extra Grove wall branch, replacing optional handmade card-branch detail; original 78.9-inch branch remains the bone-shrine backdrop. Four ivy packs yield 48 raw strands: original 24-strand route plan plus 24 for fullness/spares after mount trials. Leaves attach sparingly to scenic edges, never loose on the floor. [Grounded room plan](final-room-plan.md).
 
 ## Cost cuts without changing the main look
 
-1. **Remove owned-stick duplicate: save $20.49. Reduce glue two → one: save $1.17.** Both already removed from planning totals below, but still physically in cart at this snapshot.
-2. **Recommended optional swap:** replace the $39.99 100-candle pack with **one [Homemory Warm White / Pack of 24](https://www.amazon.com/dp/B06XCTP65H), $12.99**, fresh In Stock/October 31. **Save $27 before tax.** Twenty-four can cover roughly 14 Grove accents, four Hollow desk/Guardian accents, four dry bathroom accents and two spares; fit clusters to actual surfaces. Do not buy both packs. Current primary totals retain the selected 100-pack until host changes it.
+1. **If still unpurchased:** remove owned-stick duplicate $20.49 and one extra glue bottle $1.17. Current primary budget retains both because checkout status is unknown; do not assume a return or edit was made.
+2. **Recommended optional swap:** replace the $39.99 100-candle pack with **one [Homemory Warm White / Pack of 24](https://www.amazon.com/dp/B06XCTP65H), $12.99**, fresh In Stock/October 31. **Save $27 before tax.** Twenty-four can cover roughly 14 Grove accents, four Hollow desk/Guardian accents, four dry bathroom accents and two spares; fit clusters to actual surfaces. Do not buy both packs. Primary totals retain the selected 100-pack; optional swaps apply only if checkout/returns still allow them.
 3. Optional later cuts: omit the second 67-inch branch ($32.98) or return four ivy packs to two (save $10.98). Those remain selected in the primary scenario; no silent removal. Keep the main 78.9-inch branch, moss, two Grove light strings and central LIFX to preserve the forest look.
 
 ## Local/reuse still to arrange
@@ -82,9 +76,9 @@ Four small gourds remain planned locally (two bone shrine, one coffee table, one
 
 ## Current money summary
 
-- Remaining core decor/game merchandise: **$525.24** across 23 lines, counting unpaid cart selections with no missing core quantities, after stick/glue cleanup. Food separate. Paint/jute removed, bucket selected, no extra clip pack. This includes 100 tea lights, bigger pumpkin, both wall branches, four ivy packs, three strings and host-selected rug.
-- Cleaned cart **$545.21** + missing lighting **$341.94** + maximum conditional USB **$27.74** = **$914.89 identified remaining merchandise**, including $19.97 chocolates; taxes not included. With OPPSK coupon $900.49. Optional 24-candle swap subtracts another $27.
-- Whole decor/game envelope: ordered quote **$281.07** + remaining core **$525.24** + conditional USB **$27.74** = **$834.05 products**; + local/support **$85** + aggregate 9% planning tax **$82.71** + shipping **$60** + buffer **$30.48** + inclusive lighting reserve **$450** = **$1,542.24**, $57.76 below $1,600.
-- **With the 24-candle swap: $1,512.81**, $87.19 below $1,600. Food/drinks/costume/crown excluded from this envelope. Chocolates $19.97 replace existing $25 food sweets allowance. Actual paid total unknown. The exact $341.94 lighting bundle is contained within $450 reserve; do not add it twice.
+- Last core selections $566.87 + host-selected Govee/fills $114.98 = **$681.85 quoted selections**, including $19.97 food and duplicate sticks/extra glue. This is inferred from the last cart plus stated additions, not an order receipt or current cart amount.
+- Conservative decor/game envelope: prior reported ordered quote **$281.07** + quoted selections excluding food **$661.88** + maximum conditional USB **$27.74** = **$970.69 products**; + local/setup **$85** + aggregate 9% planning tax **$95.01** + shipping **$60** + buffer **$30.48** = **$1,241.18**, $358.82 below $1,600. **No $450 lighting reserve remains.** Exact selected lights counted once.
+- If stick/glue cleanup is still possible: **$1,217.57**. It is not assumed in the primary figure. Food/drinks/costume/crown excluded; candy remains in existing food budget. Actual paid totals/order-specific delivery are unknown.
+- Remaining procurement checks: three suitable USB-A supplies, actual AC outlet/support availability and local/reuse items above. No stage panel, USB-DMX, DMX cables/terminators, QLC+ installation or music-timed lighting show.
 
-No purchase, cart additions/removals, software installation, deployment or physical test performed. No NFC/tag/crown/fox/stick reorder. [Current corrections handoff](handoff-2026-10-29-cart-final-corrections.md).
+No purchase, cart edit, software installation or physical test by agent. [Current handoff](handoff-2026-10-29-auto-fill-lighting.md).

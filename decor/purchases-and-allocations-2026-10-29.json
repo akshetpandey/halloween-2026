@@ -2,7 +2,7 @@
   "date": "2026-10-29",
   "timezone": "America/New_York",
   "source": "Host previously reported fleece and moss ordered, then explicitly reported Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered. Quantities carried from latest discussed list, not receipt-verified. Host room review:four chairs,one nightstand shrine,mostly bought Guardian,image recognition,no animals/crown ordered,crown deferred. October 29 latest: one Moon Well moon also listener; The Last Seed pumpkin candy holder approved; tree in middle of living room; rabbit/deer/owl/raven/skull reported added to cart, not ordered.",
-  "status": "Current observed cart plus remaining core and lighting recommendations; no new orders inferred.",
+  "status": "Current auto-fill decision. Prior nine reported orders remain confirmed; newer selections await checkout confirmation after live cart became empty.",
   "items": [
     {
       "id": "H22",
@@ -140,8 +140,8 @@
       "purpose": "Four 12-packs = 48 raw 7-ft ivy strands. Existing 24-strand allocation stays baseline (4 overhead/14 wall/2 shrine/4 desk); extra 24 add fullness/spares on the same routes after mount trials. Not four packs per room.",
       "plannedTotalQuantity": 4,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 4,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "5.49",
       "plannedLineUsd": "21.96",
       "quoteDate": "2026-10-29",
@@ -152,7 +152,8 @@
       "tested": false,
       "cartQuantity": 4,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 4
     },
     {
       "id": "H28-replacement",
@@ -163,8 +164,8 @@
       "purpose": "Host-selected replacement: black Xafir 8×10 shag rug in Hollow. Replaces November 2 OLANLY rug and prior Rugflix recommendation. Flatness/grip, door sweep and dancing on shag need receipt trial.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "49.99",
       "plannedLineUsd": "49.99",
       "quoteDate": "2026-10-29",
@@ -175,7 +176,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H16",
@@ -226,8 +228,8 @@
       "purpose": "Use the one 40-clip/48-strip pack already in cart for light wall string/ivy routing. No second pack to buy. Use ordered ties/binder clips at suitable existing supports; simplify routes if the actual trial needs more attachment points.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "9.05",
       "plannedLineUsd": "9.05",
       "quoteDate": "2026-10-29",
@@ -238,7 +240,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H05",
@@ -288,8 +291,8 @@
       "purpose": "Independent weighted support behind desk;9.8in base. Untested scenic adaptation, separate from bed restraint.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "29.99",
       "plannedLineUsd": "29.99",
       "quoteDate": "2026-10-29",
@@ -300,7 +303,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "G01",
@@ -311,8 +315,8 @@
       "purpose": "Ready-made LED face/headdress for Keeper of the Pulse, behind Hollow automated desk. Pair with stand and ordered cloth/ties. Battery requirements and mounting remain untested.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "23.99",
       "plannedLineUsd": "23.99",
       "quoteDate": "2026-10-29",
@@ -323,7 +327,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "FIG-BUY-01",
@@ -400,8 +405,8 @@
       "purpose": "One already-budgeted 78.9-inch wall branch frames the wood-and-bone shrine. No duplicate second-shrine branch; mounting location proposed, not measured.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "49.99",
       "plannedLineUsd": "49.99",
       "quoteDate": "2026-10-29",
@@ -412,7 +417,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H24-G",
@@ -423,8 +429,8 @@
       "purpose": "ONE ADDITIONAL pack for Grove:four swag ends,about4branch points,spares. Existing ordered H24 pack stays with Hollow. Wall-only placement, load/adhesion trial.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "14.61",
       "plannedLineUsd": "14.61",
       "quoteDate": "2026-10-29",
@@ -435,7 +441,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H12",
@@ -446,8 +453,8 @@
       "purpose": "Three warm USB strings: two Grove wall/foliage routes, one Hollow Guardian roots/eye fallback. No Grove moon. Three suitable 5 V USB-A supplies required.",
       "plannedTotalQuantity": 3,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 3,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "9.99",
       "plannedLineUsd": "29.97",
       "quoteDate": "2026-10-29",
@@ -458,7 +465,8 @@
       "tested": false,
       "cartQuantity": 3,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 3
     },
     {
       "id": "MW-PAPER",
@@ -469,8 +477,8 @@
       "purpose": "Write-and-dissolve ritual. Not flash paper; no fire supplies recommended. Test in still water with chosen pen.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "17.99",
       "plannedLineUsd": "17.99",
       "quoteDate": "2026-10-29",
@@ -481,7 +489,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "MW-VESSEL",
@@ -492,8 +501,8 @@
       "purpose": "Host-selected galvanized water pail for Moon Well message ritual; 1.16 US gal (about 4.4 L), 8-inch advertised diameter. Begin around 1 L water on stable reachable surface/catch tray; leak/reach trial needed.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "18.26",
       "plannedLineUsd": "18.26",
       "quoteDate": "2026-10-29",
@@ -504,7 +513,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "MW-PENS",
@@ -515,8 +525,8 @@
       "purpose": "Put two dark washable markers by dry paper tray; remaining colors for labels/crafts. Omit if suitable pens already owned. Dissolution/privacy performance untested.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "7.99",
       "plannedLineUsd": "7.99",
       "quoteDate": "2026-10-29",
@@ -527,7 +537,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H03",
@@ -538,8 +549,8 @@
       "purpose": "The single moon object: The Moon That Stayed, also the Moon Well listener. Dry, reachable position away from water; charge/runtime and final camera framing need trials.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "19.99",
       "plannedLineUsd": "19.99",
       "quoteDate": "2026-10-29",
@@ -551,7 +562,8 @@
       "entityId": "DEC-01",
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H04",
@@ -584,8 +596,8 @@
       "purpose": "Host cart has one 100-pack of Bright Amber Glow / White Body tea lights. Enough for all planned clusters with many spare; optional 24-pack saves $27. Not a substitute for room wash. Keep outside candy and off walking routes.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "39.99",
       "plannedLineUsd": "39.99",
       "quoteDate": "2026-10-29",
@@ -596,7 +608,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "CRAFT-PVA",
@@ -607,8 +620,8 @@
       "purpose": "One 4-ounce glue bottle for five small stick/raffia figures and optional reused card details. No paint kit, moon craft or sculpted desk Guardian; reduce cart two bottles to one.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "1.17",
       "plannedLineUsd": "1.17",
       "quoteDate": "2026-10-29",
@@ -619,7 +632,8 @@
       "tested": false,
       "cartQuantity": 2,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 2
     },
     {
       "id": "CRAFT-PAINT",
@@ -653,8 +667,8 @@
       "purpose": "One Sukh three-bundle raffia craft string pack covers small twig-figure binding/wrapping and scenic ties. Use ordered zip ties for joints where needed. No separate jute roll; raffia is not structural suspension.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "6.99",
       "plannedLineUsd": "6.99",
       "quoteDate": "2026-10-29",
@@ -665,7 +679,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "MAKE-TWINE",
@@ -701,8 +716,8 @@
       "advertisedSize": "6 inches overall height, including stump",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "22.91",
       "plannedLineUsd": "22.91",
       "quoteDate": "2026-10-29",
@@ -714,7 +729,8 @@
       "hostReportedInCart": true,
       "cartQuantityAndVariantVerified": true,
       "cartQuantity": 1,
-      "missingFromCartQuantity": 0
+      "missingFromCartQuantity": 0,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "FIG-OWL-L",
@@ -727,8 +743,8 @@
       "advertisedSize": "4 L × 4.5 W × 7.875 H inches overall",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "29.12",
       "plannedLineUsd": "29.12",
       "quoteDate": "2026-10-29",
@@ -740,7 +756,8 @@
       "hostReportedInCart": true,
       "cartQuantityAndVariantVerified": true,
       "cartQuantity": 1,
-      "missingFromCartQuantity": 0
+      "missingFromCartQuantity": 0,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "FIG-STAG-L",
@@ -753,8 +770,8 @@
       "advertisedSize": "Seller advertises 20 cm / 8 inches; size axis not specified",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "13.28",
       "plannedLineUsd": "13.28",
       "quoteDate": "2026-10-29",
@@ -766,7 +783,8 @@
       "hostReportedInCart": true,
       "cartQuantityAndVariantVerified": true,
       "cartQuantity": 1,
-      "missingFromCartQuantity": 0
+      "missingFromCartQuantity": 0,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "FIG-HARE-L",
@@ -779,8 +797,8 @@
       "advertisedSize": "Standing rabbit about 2.2 L × 6.1 H inches; crouching rabbit about 5 L × 3.4 H inches",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "19.99",
       "plannedLineUsd": "19.99",
       "quoteDate": "2026-10-29",
@@ -792,7 +810,8 @@
       "hostReportedInCart": true,
       "cartQuantityAndVariantVerified": true,
       "cartQuantity": 1,
-      "missingFromCartQuantity": 0
+      "missingFromCartQuantity": 0,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "DEC05-SKULL",
@@ -805,8 +824,8 @@
       "advertisedSize": "20 × 14 × 8 cm / about 7.9 × 5.5 × 3.1 inches",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "17.39",
       "plannedLineUsd": "17.39",
       "quoteDate": "2026-10-29",
@@ -818,7 +837,8 @@
       "hostReportedInCart": true,
       "cartQuantityAndVariantVerified": true,
       "cartQuantity": 1,
-      "missingFromCartQuantity": 0
+      "missingFromCartQuantity": 0,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "DEC04-CRESCENT",
@@ -852,8 +872,8 @@
       "purpose": "The Last Seed guardian and candy holder on Grove nightstand. Host selected larger Blue Sky Clayworks pumpkin/spider bowl, seller dimensions 8×8×8.5 in including top spider; no painting or separate figure.",
       "plannedTotalQuantity": 1,
       "orderedQuantity": 0,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "41.00",
       "plannedLineUsd": "41.00",
       "quoteDate": "2026-10-29",
@@ -864,7 +884,8 @@
       "tested": false,
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
-      "cartQuantityAndVariantVerified": true
+      "cartQuantityAndVariantVerified": true,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "H42B",
@@ -877,8 +898,8 @@
       "url": "https://www.amazon.com/dp/B0DGKYQQWM",
       "purpose": "Second Grove wall branch, 67 in, replaces optional handmade card-branch extension. Host cart addition; separate from the original 78.9 in bone-shrine backdrop. Optional first scenery cut if budget tight.",
       "plannedTotalQuantity": 1,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "32.98",
       "plannedLineUsd": "32.98",
       "quoteDate": "2026-10-29",
@@ -886,7 +907,8 @@
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
       "cartQuantityAndVariantVerified": true,
-      "orderSpecificArrivalConfirmed": false
+      "orderSpecificArrivalConfirmed": false,
+      "orderConfirmationPendingQuantity": 1
     },
     {
       "id": "GROVE-LEAVES",
@@ -899,8 +921,8 @@
       "url": "https://www.amazon.com/dp/B074N67JFG",
       "purpose": "One 300-piece autumn leaf pack, fixed sparingly on Grove wall vines/shrines/table scenic edges; no loose leaves on dance floor or food-contact surfaces.",
       "plannedTotalQuantity": 1,
-      "stillToBuyQuantity": 1,
-      "status": "in cart — observed October 29; unpaid",
+      "stillToBuyQuantity": null,
+      "status": "selected in prior cart — checkout confirmation pending; do not reorder automatically",
       "lastQuotedUnitUsd": "6.64",
       "plannedLineUsd": "6.64",
       "quoteDate": "2026-10-29",
@@ -908,39 +930,32 @@
       "cartQuantity": 1,
       "missingFromCartQuantity": 0,
       "cartQuantityAndVariantVerified": true,
-      "orderSpecificArrivalConfirmed": false
+      "orderSpecificArrivalConfirmed": false,
+      "orderConfirmationPendingQuantity": 1
     }
   ],
   "costs": {
-    "actualCartLines": 25,
-    "actualCartUnits": 31,
-    "actualCartMerchandiseUsd": "566.87",
-    "cleanedCartExcludingOwnedSticksAndOneExtraGlueUsd": "545.21",
-    "missingDecorAdditionsUsd": "0.00",
-    "remainingCoreProductLines": 23,
-    "remainingCoreDecorGameMerchandiseUsd": "525.24",
-    "remainingCorePlanningTax9pctUsd": "47.27",
-    "remainingCoreWithPlanningTaxUsd": "572.51",
-    "conditionalUsbUsd": "27.74",
-    "missingLightingHardwareUsd": "341.94",
-    "lightingWithConditionalOppskCouponUsd": "327.54",
-    "lightingPlanningTax9pctUsd": "30.77",
-    "lightingReserveInclusiveUsd": "450.00",
-    "remainingLightingReserveAfterHardwareAndPlanningTaxUsd": "77.29",
-    "identifiedRemainingExcludingFoodWithUsbUsd": "894.92",
-    "identifiedRemainingIncludingFoodWithUsbUsd": "914.89",
-    "orderedQuoteUsd": "281.07",
+    "selectedLightingMerchandiseUsd": "114.98",
+    "removedLightingHardwareUsd": "226.96",
+    "retiredLightingReserveUsd": "450.00",
+    "currentLightingReserveUsd": "0.00",
+    "priorObservedSelectionsUsd": "566.87",
+    "selectedLightingPlusPriorSelectionsQuoteUsd": "681.85",
+    "selectionTotalIsCheckoutVerified": false,
+    "priorConfirmedOrderedQuoteUsd": "281.07",
     "actualPaidUsd": null,
-    "coreProductsIncludingOrderedUsbUsd": "834.05",
-    "localSupportUsd": "85.00",
-    "aggregatePlanningTaxUsd": "82.71",
+    "foodSeparateUsd": "19.97",
+    "maximumConditionalUsbUsd": "27.74",
+    "allSelectedProductQuoteIncludingPriorOrdersAndUsbExcludingFoodUsd": "970.69",
+    "localSetupAllowanceUsd": "85.00",
+    "aggregatePlanningTax9pctUsd": "95.01",
     "shippingContingencyUsd": "60.00",
     "bufferUsd": "30.48",
-    "wholeDecorGameEnvelopeUsd": "1542.24",
-    "headroomUnder1600Usd": "57.76",
-    "optional24TealightEnvelopeUsd": "1512.81",
-    "optional24TealightHeadroomUsd": "87.19",
-    "foodSeparateUsd": "19.97"
+    "conservativeDecorGameEnvelopeUsd": "1241.18",
+    "headroomUnder1600Usd": "358.82",
+    "envelopeIfDuplicateCleanupStillPossibleUsd": "1217.57",
+    "cleanupReductionBeforeTaxUsd": "21.66",
+    "cleanupNotAssumedInPrimary": true
   },
   "lightingDeferred": false,
   "localReuseAllowancesExcluded": true,
@@ -958,7 +973,8 @@
     "Latest host:owned LEGO red panda covers fox;sticks for all five handmade acquired. Tiny Safari birds excluded;10-pack alternative only. Agent holds extra bath lamp pending moon-first trial. Two distinct shrines and all15 physical slots accounted for;no new orders inferred.",
     "One Moon Well moon is DEC-01/listener. DEC-04 is pumpkin candy holder, not an extra sixteenth guardian. No Grove moon craft or threshold crescent; two strings total. Candy belongs to food, replacing $25 allowance.",
     "October 29 cart audit: 24 active lines/30 units/$548.61; host replaced late OLANLY with black Xafir 8x10. Larger Blue Sky pumpkin replaces Bico, three USB strings/four ivy packs/100 candles are actual selections. Core target two clip packs, one glue bottle; duplicate sticks excluded. Exact missing lighting $341.94 sits within $450 inclusive reserve, not added on top.",
-    "Host final corrections: bucket now in cart, raffia string substitutes for separate jute, paint kit dropped, existing one clip pack used with no additional order. All 23 remaining core product lines are already represented in cart; only lighting and conditional USB power are missing. No agent cart change/purchase."
+    "Host final corrections: bucket now in cart, raffia string substitutes for separate jute, paint kit dropped, existing one clip pack used with no additional order. All 23 remaining core product lines are already represented in cart; only lighting and conditional USB power are missing. No agent cart change/purchase.",
+    "Host selected Govee + LPC018 two-pack in AUTO, dropping OPPSK/interface/DMX cables/terminator and QLC+ show. Entire $450 light reserve retired; exact $114.98 enters normal merchandise/tax once. Cart empty observed; no new order inferred. Conservative primary retains duplicate sticks/extra glue until checkout status known."
   ],
   "mountingRevision": {
     "date": "2026-10-29",
@@ -1087,7 +1103,7 @@
     "recommendedReplacementRemainingWithPlanningTaxUsd": "173.21"
   },
   "currentBuyAuthority": "urgent-buy-list-2026-10-29.md",
-  "currentOfferEvidence": "research/cart-final-corrections-2026-10-29.json",
+  "currentOfferEvidence": "research/auto-fill-selection-2026-10-29.json",
   "conditionalUsbRecommendation": {
     "id": "H38",
     "budgetOwner": "decor",
@@ -1224,7 +1240,88 @@
     "hostReportedCartAtQuotedPrices": "102.69",
     "separateFoodQuoteUsd": "19.97"
   },
-  "lightingRecommendationsWithinReserve": [
+  "optional24TeaLightRecommendation": {
+    "id": "H13-24-OPTION",
+    "asin": "B06XCTP65H",
+    "url": "https://www.amazon.com/dp/B06XCTP65H",
+    "product": "Homemory / Warm White Glow–White Body / Pack of 24",
+    "quantity": 1,
+    "unitUsd": "12.99",
+    "lineUsd": "12.99",
+    "stock": "In Stock",
+    "displayedDelivery": "2026-10-31",
+    "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+    "status": "recommended saving option — replace 100-pack, not additional",
+    "savesBeforeTaxUsd": "27.00",
+    "cartQuantity": 0
+  },
+  "observedCartSnapshot": "research/auto-fill-selection-2026-10-29.json",
+  "lightingSetupAndFillSelectionPending": false,
+  "selectedTeaLightPowerEvidence": "Exact selected 100-pack listing says pre-installed 240 mAh CR2032 batteries; no separate battery order. Runtime remains seller claim, untested.",
+  "selectedMaskPowerEvidence": "Exact LED cart-variant page checked; battery/power details not specified in visible product copy. Use allocated intact warm USB string as fallback; do not invent battery SKU.",
+  "costsBeforeHostFinalCorrections": {
+    "actualCartLines": 24,
+    "actualCartUnits": 30,
+    "actualCartMerchandiseUsd": "548.61",
+    "cleanedCartExcludingOwnedSticksAndOneExtraGlueUsd": "526.95",
+    "missingDecorAdditionsUsd": "50.98",
+    "remainingCoreProductLines": 25,
+    "remainingCoreDecorGameMerchandiseUsd": "557.96",
+    "remainingCorePlanningTax9pctUsd": "50.22",
+    "remainingCoreWithPlanningTaxUsd": "608.18",
+    "conditionalUsbUsd": "27.74",
+    "missingLightingHardwareUsd": "341.94",
+    "lightingWithConditionalOppskCouponUsd": "327.54",
+    "lightingPlanningTax9pctUsd": "30.77",
+    "lightingReserveInclusiveUsd": "450.00",
+    "remainingLightingReserveAfterHardwareAndPlanningTaxUsd": "77.29",
+    "identifiedRemainingExcludingFoodWithUsbUsd": "927.64",
+    "identifiedRemainingIncludingFoodWithUsbUsd": "947.61",
+    "orderedQuoteUsd": "281.07",
+    "actualPaidUsd": null,
+    "coreProductsIncludingOrderedUsbUsd": "866.77",
+    "localSupportUsd": "85.00",
+    "aggregatePlanningTaxUsd": "85.66",
+    "shippingContingencyUsd": "60.00",
+    "bufferUsd": "30.48",
+    "wholeDecorGameEnvelopeUsd": "1577.91",
+    "headroomUnder1600Usd": "22.09",
+    "optional24TealightEnvelopeUsd": "1548.48",
+    "optional24TealightHeadroomUsd": "51.52",
+    "foodSeparateUsd": "19.97"
+  },
+  "costsBeforeAutoFillDecision": {
+    "actualCartLines": 25,
+    "actualCartUnits": 31,
+    "actualCartMerchandiseUsd": "566.87",
+    "cleanedCartExcludingOwnedSticksAndOneExtraGlueUsd": "545.21",
+    "missingDecorAdditionsUsd": "0.00",
+    "remainingCoreProductLines": 23,
+    "remainingCoreDecorGameMerchandiseUsd": "525.24",
+    "remainingCorePlanningTax9pctUsd": "47.27",
+    "remainingCoreWithPlanningTaxUsd": "572.51",
+    "conditionalUsbUsd": "27.74",
+    "missingLightingHardwareUsd": "341.94",
+    "lightingWithConditionalOppskCouponUsd": "327.54",
+    "lightingPlanningTax9pctUsd": "30.77",
+    "lightingReserveInclusiveUsd": "450.00",
+    "remainingLightingReserveAfterHardwareAndPlanningTaxUsd": "77.29",
+    "identifiedRemainingExcludingFoodWithUsbUsd": "894.92",
+    "identifiedRemainingIncludingFoodWithUsbUsd": "914.89",
+    "orderedQuoteUsd": "281.07",
+    "actualPaidUsd": null,
+    "coreProductsIncludingOrderedUsbUsd": "834.05",
+    "localSupportUsd": "85.00",
+    "aggregatePlanningTaxUsd": "82.71",
+    "shippingContingencyUsd": "60.00",
+    "bufferUsd": "30.48",
+    "wholeDecorGameEnvelopeUsd": "1542.24",
+    "headroomUnder1600Usd": "57.76",
+    "optional24TealightEnvelopeUsd": "1512.81",
+    "optional24TealightHeadroomUsd": "87.19",
+    "foodSeparateUsd": "19.97"
+  },
+  "historicalLightingRecommendationsBeforeAuto": [
     {
       "id": "H26",
       "asin": "B099WTN2TR",
@@ -1340,54 +1437,130 @@
       "budgetScope": "within existing inclusive $450 lighting reserve"
     }
   ],
-  "optional24TeaLightRecommendation": {
-    "id": "H13-24-OPTION",
-    "asin": "B06XCTP65H",
-    "url": "https://www.amazon.com/dp/B06XCTP65H",
-    "product": "Homemory / Warm White Glow–White Body / Pack of 24",
-    "quantity": 1,
-    "unitUsd": "12.99",
-    "lineUsd": "12.99",
-    "stock": "In Stock",
-    "displayedDelivery": "2026-10-31",
-    "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
-    "status": "recommended saving option — replace 100-pack, not additional",
-    "savesBeforeTaxUsd": "27.00",
-    "cartQuantity": 0
+  "selectedLighting": [
+    {
+      "id": "H26",
+      "asin": "B099WTN2TR",
+      "url": "https://www.amazon.com/dp/B099WTN2TR",
+      "product": "Govee RGBIC Floor Lamp Basic / Black",
+      "quantity": 1,
+      "unitUsd": "64.99",
+      "lineUsd": "64.99",
+      "purpose": "Steady dim violet Grove wash, separate from central owned LIFX tree.",
+      "stock": "In Stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": null,
+      "status": "selected — host reports added; current cart empty, checkout confirmation pending",
+      "ordered": null,
+      "tested": false,
+      "budgetScope": "ordinary selected merchandise; former $450 reserve retired"
+    },
+    {
+      "id": "H40",
+      "asin": "B0GCCPC16R",
+      "url": "https://www.amazon.com/dp/B0GCCPC16R",
+      "product": "Betopper LPC018 / Number of Items: 2",
+      "quantity": 1,
+      "unitUsd": "49.99",
+      "lineUsd": "49.99",
+      "purpose": "One two-pack / two Hollow fill fixtures, built-in AUTO mode selected by host. Each needs AC power. No laptop/DMX/music-timeline integration.",
+      "stock": "In Stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": null,
+      "status": "selected — host reports added; current cart empty, checkout confirmation pending",
+      "ordered": null,
+      "tested": false,
+      "budgetScope": "ordinary selected merchandise; former $450 reserve retired"
+    }
+  ],
+  "excludedLighting": [
+    {
+      "id": "H29",
+      "asin": "B0H6HJJ5DP",
+      "url": "https://www.amazon.com/dp/B0H6HJJ5DP",
+      "product": "OPPSK / 1080LEDs Stage Light",
+      "quantity": 1,
+      "unitUsd": "179.99",
+      "lineUsd": "179.99",
+      "purpose": "One Hollow effect panel; prior host-selected OPPSK baseline. Visible coupon price $165.59 is conditional, not applied. No laser or moving head.",
+      "stock": "Only 17 left in stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": 0,
+      "status": "not in cart — recommended remaining lighting",
+      "ordered": false,
+      "tested": false,
+      "budgetScope": "within existing inclusive $450 lighting reserve"
+    },
+    {
+      "id": "H39",
+      "asin": "B0FX49ZQ8T",
+      "url": "https://www.amazon.com/dp/B0FX49ZQ8T",
+      "product": "DSD TECH SH-RS09C / USB-C to DMX / 1.8 m lead",
+      "quantity": 1,
+      "unitUsd": "19.99",
+      "lineUsd": "19.99",
+      "purpose": "One actual USB-DMX interface for Mac + free QLC+. Included 5.9-ft lead runs to first fixture. Exact hardware/QLC pairing untested.",
+      "stock": "In Stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": 0,
+      "status": "not in cart — recommended remaining lighting",
+      "ordered": false,
+      "tested": false,
+      "budgetScope": "within existing inclusive $450 lighting reserve"
+    },
+    {
+      "id": "H36",
+      "asin": "B0CSSJP1H4",
+      "url": "https://www.amazon.com/dp/B0CSSJP1H4",
+      "product": "Cable Matters / 120-ohm 3-pin male DMX terminator / 2-pack",
+      "quantity": 1,
+      "unitUsd": "8.99",
+      "lineUsd": "8.99",
+      "purpose": "Use one at last fixture; second is pack spare.",
+      "stock": "In Stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": 0,
+      "status": "not in cart — recommended remaining lighting",
+      "ordered": false,
+      "tested": false,
+      "budgetScope": "within existing inclusive $450 lighting reserve"
+    },
+    {
+      "id": "H35-SHORT",
+      "asin": "B08SQMHPF3",
+      "url": "https://www.amazon.com/dp/B08SQMHPF3",
+      "product": "Cable Matters / 6 Feet / two 3-pin DMX cables",
+      "quantity": 1,
+      "unitUsd": "17.99",
+      "lineUsd": "17.99",
+      "purpose": "Two short fixture links for panel → fill A → fill B; both used. These are not a long laptop extension.",
+      "stock": "In Stock",
+      "displayedDelivery": "2026-10-31",
+      "deliveryTimeWindow": null,
+      "quoteCheckedAt": "2026-10-29T22:33:18-04:00",
+      "cartQuantity": 0,
+      "status": "not in cart — recommended remaining lighting",
+      "ordered": false,
+      "tested": false,
+      "budgetScope": "within existing inclusive $450 lighting reserve"
+    }
+  ],
+  "autoModeSetupTestPending": true,
+  "liveCartObservation": {
+    "observedAt": "2026-10-29T22:58:27-04:00",
+    "visibleHeading": "Your Amazon Cart is empty",
+    "checkoutConfirmed": false,
+    "caveat": "Empty cart does not establish purchase; host confirmation requested. Do not reorder selected products automatically."
   },
-  "observedCartSnapshot": "research/cart-final-corrections-2026-10-29.json",
-  "lightingSetupAndFillSelectionPending": true,
-  "selectedTeaLightPowerEvidence": "Exact selected 100-pack listing says pre-installed 240 mAh CR2032 batteries; no separate battery order. Runtime remains seller claim, untested.",
-  "selectedMaskPowerEvidence": "Exact LED cart-variant page checked; battery/power details not specified in visible product copy. Use allocated intact warm USB string as fallback; do not invent battery SKU.",
-  "costsBeforeHostFinalCorrections": {
-    "actualCartLines": 24,
-    "actualCartUnits": 30,
-    "actualCartMerchandiseUsd": "548.61",
-    "cleanedCartExcludingOwnedSticksAndOneExtraGlueUsd": "526.95",
-    "missingDecorAdditionsUsd": "50.98",
-    "remainingCoreProductLines": 25,
-    "remainingCoreDecorGameMerchandiseUsd": "557.96",
-    "remainingCorePlanningTax9pctUsd": "50.22",
-    "remainingCoreWithPlanningTaxUsd": "608.18",
-    "conditionalUsbUsd": "27.74",
-    "missingLightingHardwareUsd": "341.94",
-    "lightingWithConditionalOppskCouponUsd": "327.54",
-    "lightingPlanningTax9pctUsd": "30.77",
-    "lightingReserveInclusiveUsd": "450.00",
-    "remainingLightingReserveAfterHardwareAndPlanningTaxUsd": "77.29",
-    "identifiedRemainingExcludingFoodWithUsbUsd": "927.64",
-    "identifiedRemainingIncludingFoodWithUsbUsd": "947.61",
-    "orderedQuoteUsd": "281.07",
-    "actualPaidUsd": null,
-    "coreProductsIncludingOrderedUsbUsd": "866.77",
-    "localSupportUsd": "85.00",
-    "aggregatePlanningTaxUsd": "85.66",
-    "shippingContingencyUsd": "60.00",
-    "bufferUsd": "30.48",
-    "wholeDecorGameEnvelopeUsd": "1577.91",
-    "headroomUnder1600Usd": "22.09",
-    "optional24TealightEnvelopeUsd": "1548.48",
-    "optional24TealightHeadroomUsd": "51.52",
-    "foodSeparateUsd": "19.97"
-  }
+  "purchaseConfirmationPending": true
 }

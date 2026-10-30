@@ -1,10 +1,10 @@
 # Decor shopping status and historical wood/skull cart
 
-## Current October 29 • actual cart audited
+## Current October 29 • AUTO fills selected; checkout status pending
 
-**Observed about 10:43 p.m. EDT: 25 active product lines / 31 units / $566.87 before tax; all unpaid.** Host replaced OLANLY November 2 rug with **black Xafir 8×10 / $49.99 / October 31**. Bigger Blue Sky pumpkin, chocolates, four animals/skull, three strings, four ivy packs, 100 tea lights and other selected scenery/supplies are in cart. [Every current line and purpose](../../decor/urgent-buy-list-2026-10-29.md) · [Sanitized snapshot](../../decor/research/cart-final-corrections-2026-10-29.json). Saved-for-later rows excluded.
+Host reports floor lamp and fill pair added; confirmed **Govee + LPC018 two-pack in AUTO**, **skip OPPSK and all DMX equipment**. [Current selected products/quote/setup](../../decor/lighting/cart-lighting-2026-10-29.md). Two lights $114.98 last quoted; last core selections plus lights $681.85 inferred quote, not a receipt.
 
-Recommended cleanup: remove duplicate owned-stick pack $20.49 and one extra glue bottle $1.17, yielding **$545.21**. Optional 100-candle→24-candle swap saves another $27. Cart itself unchanged by agent. Missing decor **$0.00** (none; bucket/string/clips already selected, paint dropped), missing lighting **$341.94** before conditional coupon, optional USB up to $27.74. Whole envelope **$1,542.24**, or $1,512.81 with candle swap; existing $450 reserve includes exact lights. [Lighting order details](../../decor/lighting/cart-lighting-2026-10-29.md). Every active cart/checked missing item shows October 31; no before-party window guaranteed. Nine previously reported ordered lines unchanged; no new order/payment inferred.
+Latest live cart heading is **“Your Amazon Cart is empty”** (about 10:58 p.m. EDT). This does not prove checkout; host confirmation requested. Do not re-add products or mark new purchases solely from empty cart. Nine previously host-reported ordered lines remain confirmed. [Current list/status](../../decor/urgent-buy-list-2026-10-29.md) · [Evidence](../../decor/research/auto-fill-selection-2026-10-29.json). Primary conservative envelope $1,241.18, $1,217.57 if stick/glue cleanup still possible. Lighting $450 reserve retired; exact selected lamps counted once. No agent cart edits/purchases.
 
 ## Earlier October 29 • prior urgent list — superseded
 

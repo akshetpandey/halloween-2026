@@ -1,30 +1,22 @@
-# Lighting still to order — October 29 cart audit
+# Selected lighting — Govee Grove wash and auto Hollow fills
 
-[Current complete list/status/totals](../urgent-buy-list-2026-10-29.md) · [Fresh evidence](../research/cart-and-lighting-check-2026-10-29.json). Checked about 10:33 p.m. EDT in Chrome; all missing items below In Stock/October 31, no before-party window guaranteed. Nothing ordered by agent.
+**Confirmed host decision October 29:** floor lamp and fill-light pair added; **skip the OPPSK stage light and all DMX hardware/software**. Fills will use built-in **AUTO** mode. [Current list](../urgent-buy-list-2026-10-29.md) · [Decision, quote evidence and costs](../research/auto-fill-selection-2026-10-29.json).
 
-## Already in cart
-
-Three warm USB fairy strings: **two Grove, one Guardian**. One hundred amber tea lights (battery-included per seller), self-lit 4.7-inch Moon Well moon, CAFELE LED Guardian mask (power details still unspecified). Owned central gold tree/LIFX supplies one Grove source. No duplicate moon or extra bath lamp. Recommended optional tea-light swap: [24-pack](https://www.amazon.com/dp/B06XCTP65H), $12.99 versus $39.99; save $27. Tea lights provide small glows; add broad Grove wash separately.
-
-## Missing from cart
-
-| Item / exact option | Quantity to add | Before tax | Purpose |
+| Selected product | Quantity | Last quoted USD | Placement / control |
 |---|---:|---:|---|
-| [Govee RGBIC Floor Lamp Basic / Black](https://www.amazon.com/dp/B099WTN2TR) | 1 | $64.99 | Grove broad dim violet wall bounce opposite central owned LIFX tree; steady party setting. Separate from DMX. No extra moon. |
-| [OPPSK / 1080LEDs Stage Light](https://www.amazon.com/dp/B0H6HJJ5DP) | 1 | $179.99 | One Hollow effect panel; prior host-selected OPPSK baseline. Visible coupon price $165.59 is conditional, not applied. No laser or moving head. |
-| [Betopper LPC018 / Number of Items: 2](https://www.amazon.com/dp/B0GCCPC16R) | 1 | $49.99 | One two-pack = two Hollow RGB fill lights. Recommended low red/violet washes; own brackets and AC power, outside routes. No second pair needed. |
-| [DSD TECH SH-RS09C / USB-C to DMX / 1.8 m lead](https://www.amazon.com/dp/B0FX49ZQ8T) | 1 | $19.99 | One actual USB-DMX interface for Mac + free QLC+. Included 5.9-ft lead runs to first fixture. Exact hardware/QLC pairing untested. |
-| [Cable Matters / 120-ohm 3-pin male DMX terminator / 2-pack](https://www.amazon.com/dp/B0CSSJP1H4) | 1 | $8.99 | Use one at last fixture; second is pack spare. |
-| [Cable Matters / 6 Feet / two 3-pin DMX cables](https://www.amazon.com/dp/B08SQMHPF3) | 1 | $17.99 | Two short fixture links for panel → fill A → fill B; both used. These are not a long laptop extension. |
+| [Govee RGBIC Floor Lamp Basic / Black](https://www.amazon.com/dp/B099WTN2TR) | 1 | 64.99 | Grove, steady dim violet wall bounce; owned golden tree/LIFX remains central. |
+| [Betopper LPC018 RGB / two-pack](https://www.amazon.com/dp/B0GCCPC16R) | 1 pack / 2 fixtures | 49.99 | Hollow, built-in AUTO programs; each fixture has its own AC power. |
 
-Total **$341.94**, or **$327.54 with conditional OPPSK coupon**. This uses the existing $450 inclusive light/control/power reserve: $341.94 hardware + $30.77 planning tax leaves $77.29. Main OPPSK choice retained; LPC018 pair is the recommended fill option, still unpurchased. Govee is one standalone Grove violet wash, separate from QLC+ and owned LIFX.
+**Selected lighting $114.98 before tax.** Prices/October 31 estimates were checked about 10:33 p.m. EDT, not order-specific delivery confirmations. Host reports additions; a later live cart check showed empty, so checkout/order status remains unconfirmed. Do not re-add items simply because cart is empty.
 
-## Connect and rehearse
+Removed: OPPSK $179.99, SH-RS09C $19.99, short DMX cable two-pack $17.99 and terminator two-pack $8.99: **$226.96 hardware avoided**. No USB-DMX interface, DMX cables/terminator, QLC+ workspace or timed music cues needed for this selection. Previous DMX research is historical only. Entire $450 inclusive reserve is retired; $114.98 is ordinary selected merchandise, with planning tax calculated once.
 
-Mac USB-C → SH-RS09C included 5.9-ft lead → OPPSK IN; OPPSK OUT → short link → fill A → short link → fill B → one terminator. Other terminator spare. Fixtures and Mac within host's five-foot equipment area; verify actual routed slack. No long extension, splitter or second USB interface. Independent fixture power/brackets remain necessary; nothing goes on the Guardian stand or stored bed.
+## Simple setup still to test
 
-[Prior documented USB-C/QLC+ path](oppsk-usb-dmx-2026-10-27.md) and [LPC018 manual/value comparison](dmx-fill-and-panel-value-2026-10-27.md) remain setup research, with old prices/dates superseded here. Exact OPPSK map and same-Mac output not tested. Keep strobe disabled in baseline scenes and verify received controls before automation. No cue/show/profile fabricated by this audit.
+Use the fills' own controls/remote and received manual to select a gentle, low-brightness AUTO look. Verify actual patterns/speed and power-cycle behavior; do not assume AUTO avoids every flash effect or that two independent units synchronize. If no suitable auto look, use static red/violet as fallback. No sound-reactive or beat/drop sync is promised.
 
-Three warm USB strings require three suitable 5 V USB-A supplies: inventory first, at most two [White one-port two-packs](https://www.amazon.com/dp/B0773JCTR5), $27.74 total / four supplies. One pack if one or two supplies owned, none with three. This USB power cost is outside the $450 reserve and already in core envelope; do not confuse it with DMX data.
+Use supplied brackets on stable perimeter surfaces, keep lights clear of fleece/desk cloth per received instructions, and retain access to controls/power. No fixture on Guardian stand or stored bed. Check room view, door/route clearance and normal-light fallback. Exact footprints/power outlets still need fitting; no new hardware pack selected without an inventory check.
 
-[DJ/light handoff](dj-sync-handoff-2026-10-29.md) owns unresolved transport/cues/start-pause-reset/rehearsal. Standalone repeating/static looks are fallback; music-reactive is not automatic beat-grid/drop sync. No message to another chat, install or live hardware test.
+Other selected/owned light: two warm Grove strings, one Guardian string, self-lit Moon Well moon, LED mask (power details unverified), amber tea lights and owned central LIFX tree. Three strings still need three suitable 5 V USB-A supplies. If none owned, maximum two [White one-port USB two-packs](https://www.amazon.com/dp/B0773JCTR5), $27.74 at last quote; zero with three owned, one pack with one or two owned. These are lamp power supplies, not DMX devices.
+
+[Music/light handoff](dj-sync-handoff-2026-10-29.md): lighting is independent of laptop/audio transport. Only fixture setup and room testing remain; no synchronization project or sibling message required by this decision.

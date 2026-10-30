@@ -2,7 +2,7 @@
 
 **Current host corrections:** four chairs total, all around coffee table. The scanned bedroom low cabinet **is the nightstand**; move that one piece to the Grove Harvest Offering Table, not another cabinet plus a separate hidden nightstand. Hollow wall/desk materials are selected and ordered. Add cross-room foliage, wall fairy lights and larger wall branches. Guardian should be mostly bought, minimal assembly. Image recognition replaces NFC; no tags/tag-cover stickers to order. Crown is lowest priority/deferred.
 
-[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/cart-final-corrections-2026-10-29.json). Products and layout proposals are not purchases or physical tests. Current cart and missing-light quotes are in that list; fixtures/control remain unpurchased and untested. Do not use older moving-head/Pyle/rug/fabric passages as the current order.
+[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/auto-fill-selection-2026-10-29.json). Products and layout proposals are not purchases or physical tests. Current cart and missing-light quotes are in that list; fixtures/control remain unpurchased and untested. Do not use older moving-head/Pyle/rug/fabric passages as the current order.
 
 ## Grounded visual plan
 
@@ -27,7 +27,7 @@ Geometry remains scan-derived, not tape-verified. Furniture boxes simplify real 
 - **Fairy lights:** two warm-white 66 ft strings on separate Grove wall/foliage routes in steady or slow-fade mode. Third string is Guardian roots/eye fallback; **three total**, no Grove moon string. Small clips are for wall routes, large hooks for swag ends/branch. No integrated DMX/beat sync assumed.
 - **Larger branches:** one bought 78.9 in/2.4 in-advertised faux trunk along the wood-and-bone shrine wall, with leaves winding along it. Host cart adds a separate 67-inch faux wall branch ($32.98) for a second wall, replacing optional handmade card extensions. Fixed autumn leaves from one $6.64 pack add small scenic accents. No heavy wood overhead. Earlier 63 in branch is late; Janinka thin roots are not a second trunk order.
 - **Harvest and stone:** one bought pumpkin candy holder plus four local small gourds (two wood-and-bone shrine, one coffee table, one counter), optional three packaging-card faux stones, a few fixed rust-colored paper leaves. These are additional planned Grove decorations; skip stone detail before sacrificing setup time.
-- **Light:** owned gold tree/LIFX **in the middle of the living room**, warm wall pinpoints and harvest table tea lights. No Grove moon; the single moon is in the Moon Well. One Govee RGBIC Floor Lamp Basic / Black ($64.99, October 31) is the missing recommended dim-purple wash, separate from DMX. No unbought fixture is installed.
+- **Light:** owned gold tree/LIFX **in the middle of the living room**, warm wall pinpoints and harvest table tea lights. No Grove moon; the single moon is in the Moon Well. One Govee RGBIC Floor Lamp Basic / Black ($64.99, October 31) is the host-selected dim-purple wash, separate from DMX. No unbought fixture is installed.
 
 ## The two Grove shrines
 
@@ -53,7 +53,7 @@ Host replaced the late OLANLY rug with **Xafir Black 8×10 shag / $49.99 / Octob
 
 ### Lighting and DJ coordination
 
-[Missing lighting](lighting/cart-lighting-2026-10-29.md): original OPPSK panel, recommended Betopper LPC018 two-pack, SH-RS09C USB-C interface, two short links and terminator, plus separate Govee Grove wash. $341.94 conservative hardware quote sits within $450 inclusive reserve. QLC+ and combined music/TV/light rehearsal remain pending. No moving heads/lasers. Fixtures and laptop within 5 ft; short fixture-to-fixture links if fills chosen, no long extension pack. Guardian LEDs/string are independent, not DMX-addressable by assumption. [Concrete handoff for music session](lighting/dj-sync-handoff-2026-10-29.md) lists required final playback/timeline/start-pause-reset details; no synchronization built/tested or message sent.
+[Selected lighting](lighting/cart-lighting-2026-10-29.md): Govee Grove wash plus one Betopper LPC018 two-pack in Hollow **AUTO** mode, $114.98 last quoted. **No OPPSK, USB-DMX, DMX cables/terminator or QLC+ show.** Each fill uses its own AC power and supplied bracket; choose/test a gentle low-brightness auto program, with static red/violet fallback if needed. Guardian LEDs/string remain independent. [Music boundary](lighting/dj-sync-handoff-2026-10-29.md): no timed cue/transport integration required. Order status awaits confirmation; actual positions, power and mode tests remain.
 
 ## Moon Well
 

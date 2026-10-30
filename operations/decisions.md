@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## October 29 • host selects AUTO fills, drops stage panel and DMX
+
+**Confirmed host:** Govee floor lamp and Betopper fill lights added; Hollow fills will run built-in **AUTO**. **Remove OPPSK stage light, USB-DMX interface, DMX link cables and terminator; no QLC+ cue/music-sync project.** Govee stays steady Grove wash; actual fixture modes/power/placement tests remain. Two selected product lines quote $114.98 versus former hardware $341.94; $226.96 hardware removed. Former $450 reserve retired in favor of exact merchandise/tax.
+
+Cart read now shows empty; purchase confirmation requested, not inferred. Conservative envelope $1,241.18 retains all last selections (including extra sticks/glue) until order details known; $1,217.57 if cleanup still possible. [Current list](../decor/urgent-buy-list-2026-10-29.md), [lighting choice](../decor/lighting/cart-lighting-2026-10-29.md), [decision evidence](../decor/research/auto-fill-selection-2026-10-29.json). No software installation, purchase or sibling message.
+
 ## October 29 • final cart corrections: no more core decor additions
 
 Host confirms string/twine and clips already selected, no paint kit needed, and bucket added. Fresh cart: **25 lines/31 units/$566.87**, including American Metalcraft galvanized 1.16-gallon pail $18.26, Sukh raffia string and one 40-clip pack. Use existing raffia/ties for small craft bindings; no separate jute roll, paint kit or additional clip pack. Crayola markers/reused card can supply optional color accents. [Current list](../decor/urgent-buy-list-2026-10-29.md) and [fresh evidence](../decor/research/cart-final-corrections-2026-10-29.json).

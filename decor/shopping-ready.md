@@ -1,8 +1,8 @@
 # Decor buying list — quantities, purpose and purchase status
 
-## Current October 29 • observed cart and remaining lighting
+## Current October 29 • auto fills selected, DMX removed
 
-[Current exact list](urgent-buy-list-2026-10-29.md) owns remaining quantities/purposes. **Cart observed: 25 lines / 31 units / $566.87 unpaid**; black Xafir 8×10 replaces late OLANLY, all active lines show October 31. Bigger Blue Sky pumpkin selected, four ivy packs, three USB strings and 100 tea lights. Remove duplicate owned sticks/reduce glue: cleaned cart $545.21. No additional decor products to add; missing decor $0.00; [missing lighting](lighting/cart-lighting-2026-10-29.md) $341.94 within existing $450 reserve; conditional USB up to $27.74. Whole decor/game envelope **$1,542.24**, or **$1,512.81 with recommended 24-candle swap**. Food separate. Nine ordered lines below unchanged; no agent cart change/purchase. [Fresh cart/offer record](research/cart-final-corrections-2026-10-29.json). Earlier remaining product/price sections below are history.
+[Current exact list](urgent-buy-list-2026-10-29.md) and [selected lights](lighting/cart-lighting-2026-10-29.md): Govee lamp + LPC018 two-pack in AUTO, $114.98 last quoted; **no OPPSK/DMX/QLC+ cue project**. Cart now empty, new checkout/order status unconfirmed; do not re-add selections. Quoted last core plus two lights $681.85 including food, not a paid receipt. Conservative decor/game envelope **$1,241.18**, or $1,217.57 if duplicate-stick/extra-glue cleanup is still possible. Former $450 reserve retired; food separate, conditional USB/local/setup/buffers included. Prior nine ordered rows below remain confirmed; newer purchase status pending. [Decision evidence](research/auto-fill-selection-2026-10-29.json). Earlier totals/rig below are history.
 
 ## Host-reported inventory
 

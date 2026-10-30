@@ -1,16 +1,14 @@
 # Budget, sourcing and purchase ledger
 
-## Current October 29 • cart audit and missing lights
+## Current October 29 • Govee + AUTO fills; stage/DMX dropped
 
-[Current list and arithmetic](../decor/urgent-buy-list-2026-10-29.md) · [Fresh evidence](../decor/research/cart-final-corrections-2026-10-29.json). Actual unpaid cart **$566.87 / 25 lines / 31 units**; host replaced late OLANLY with black Xafir $49.99/October 31. Bigger Blue Sky pumpkin $41, second wall branch, four ivy packs, three strings and 100 tea lights are selected. Recommend remove already-owned stick pack $20.49 and reduce glue by $1.17: cleaned cart **$545.21**. No agent cart edit or purchase.
+Host selected Govee floor lamp $64.99 + Betopper LPC018 two-pack $49.99 = **$114.98** at tonight's last quotes. **OPPSK, USB-DMX interface, short DMX cables and terminators removed**, $226.96 prior hardware avoided. No QLC+ or music cue integration. **Retire entire $450 inclusive lighting reserve** and count the selected $114.98 in ordinary merchandise/tax once. [Current list](../decor/urgent-buy-list-2026-10-29.md) · [Decision/cost evidence](../decor/research/auto-fill-selection-2026-10-29.json).
 
-Remaining **core decor/game $525.24 = $432.95 decor + $92.29 incremental game**, after cleanup, with bucket/string/clips already selected and paint/jute removed. Missing core additions **$0.00**. Six missing light/control/connection lines quote **$341.94 / $327.54 conditional OPPSK coupon**, contained within existing **$450 inclusive reserve**, not additional to it. Three strings now need up to two USB two-packs **$27.74** if no suitable supplies owned. No extra bath lamp/duplicate moon/sticks/NFC/crown.
+Live cart now empty; checkout confirmation requested, no new order inferred. Last core selections $566.87 + two host-selected light products $114.98 = **$681.85 quote-based selections**, not an actual checkout charge. Primary conservatively retains duplicate sticks/extra glue until order status known; do not assume cleanup happened.
 
-Envelope: ordered quote **$281.07** + core **$525.24** + conditional USB **$27.74** = **$834.05 products**; + local/support **$85** + aggregate 9% planning tax **$82.71** + shipping **$60** + buffer **$30.48** + inclusive light/control/power reserve **$450** = **$1,542.24**, **$57.76 under $1,600**. Reserve covers quoted hardware $341.94 + $30.77 planning tax, leaving $77.29 for remaining power/price/setup needs. No double addition of exact lighting.
+Conservative envelope: prior reported ordered quote **$281.07** + selections excluding $19.97 food **$661.88** + maximum conditional USB **$27.74** = **$970.69 products** + local/setup **$85** + aggregate 9% planning tax **$95.01** + shipping **$60** + buffer **$30.48** = **$1,241.18**, $358.82 under $1,600. **No additional lighting reserve.** If $21.66 stick/glue cleanup is still possible, envelope **$1,217.57**. Actual paid totals and new order-specific deliveries unknown.
 
-Recommended optional 100→24 tea-light swap saves **$27 before tax**, lowering whole envelope to **$1,512.81**, $87.19 headroom. Keep current selected 100-pack in primary until host changes it. Four local gourds cap $35, trays/underlayers $10, conditional rug grip $15, fixture supports $25 remain $85; glue exact row, paint kit removed, no moon craft allowance. Further optional cuts: second branch $32.98, two extra ivy packs $10.98.
-
-**Food separate:** Mars chocolates **$19.97**, observed in cart, replace existing $25 sweets allowance within $180 food budget. Actual paid total unknown; drinks/costume/crown outside decor envelope. All active cart/missing offers checked show October 31; no before-party window guaranteed. Earlier scenarios below are history.
+Food/drinks/costume/crown separate; $19.97 sweets remain within food budget. Local/setup $85 still covers four gourds $35, trays/underlayers $10, conditional rug grip $15 and fixture support $25, with household inventory first. Three fairy strings require three suitable USB-A supplies; $27.74 maximum already included, not automatically another purchase. Earlier scenarios below are history.
 
 ## Earlier October 29 • revised decor and physical entities — superseded
 

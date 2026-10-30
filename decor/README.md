@@ -1,8 +1,8 @@
 # Decor
 
-## Current October 29 • cart audited, remaining lights explicit
+## Current October 29 • auto fills, no stage panel or DMX
 
-[Current exact cart/quantities/remaining buys](urgent-buy-list-2026-10-29.md) records 25 active lines/31 units/$566.87 unpaid, including host's black Xafir 8×10 replacement rug, larger Blue Sky pumpkin guardian, three warm strings and 100 tea lights. [Six missing lighting products](lighting/cart-lighting-2026-10-29.md) freshly show October 31. Single Moon Well moon/listener, central owned tree and Last Seed harvest table remain. Nine previously reported ordered lines unchanged; no agent cart edits/purchases. Earlier quantities/totals below are history.
+Host selected **Govee Grove lamp + Betopper LPC018 two-pack**, Hollow fills in **AUTO** mode. [Lighting choice/setup](lighting/cart-lighting-2026-10-29.md) totals $114.98 at last quotes; OPPSK/all DMX/QLC+ cue work dropped. [Current complete list/status/budget](urgent-buy-list-2026-10-29.md) owns procurement. Live cart now empty; new order status awaits confirmation, so do not re-add selections. Prior core choices and single moon/central tree/Last Seed remain. Earlier rig/prices/status below are history.
 
 ## Earlier October 29 host review — superseded where changed above
 

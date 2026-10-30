@@ -16,6 +16,7 @@
 - Both music programs need at least nine hours after planned cuts/transitions. Bedroom needs danceable techno and artist variety; approved living-room direction should not be casually replaced.
 - Living-room floor is laminate plus low/no-pile carpet areas. No curtain rods; bulk cloth with hooks/clips or tape is acceptable. Host has a gold tree lamp with LIFX bulb.
 - Latest decor decision October 29: **one moon only, in the Moon Well, is The Moon That Stayed and the listener (DEC-01)**. The Grove nightstand is a harvest/sweets offering table with The Last Seed pumpkin candy holder (DEC-04); owned golden tree/LIFX goes in the middle of the living room. Grove retains warm fairy lights and proposed broad dim purple wash. Image recognition replaces NFC; no tags/moon-cover stickers to buy. Current quantities/status live in `decor/urgent-buy-list-2026-10-29.md`.
+- Latest lighting decision October 29: Govee Grove floor lamp + Betopper LPC018 two-pack; Hollow fills run built-in **AUTO**. **Drop OPPSK stage panel, all DMX hardware and QLC+ music-cue work.** Current selected hardware quote $114.98; no purchase inferred from a cart addition/empty cart.
 
 ## Task ownership
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.

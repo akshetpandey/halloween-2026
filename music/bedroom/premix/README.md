@@ -2,13 +2,15 @@
 
 [Current premix plan](../premixed-set-plan-2026-10-19.md) · [Final-set production status](FINAL-SET.md)
 
+**Current production:** [FINAL-SET.md](FINAL-SET.md) governs the approved full-programme build, source coverage, rendering, playback files and verification. The earlier proof, audition and no-render reports below are historical implementation milestones. Actual music and private runtime evidence remain ignored under `.local/`.
+
 **REAPER setup and synthetic cut/transition/render proof passed:** [sample, results and one-command reproduction](REAPER-PROOF.md). The preparation bridge below still governs actual bedroom approvals; synthetic fixtures are not approved party tracks.
 
-**Real-track audition:** [12-track sample, source provenance, cut sheet and reproduction](AUDITION-01.md). The host explicitly authorized an audition from the unrated bedroom batch; this separate path preserves votes and does not mark its sources approved. Public-stream test copies and all actual music renders remain ignored. Production still uses the host-Keep-only bridge below.
+**Real-track audition:** [12-track sample, source provenance, cut sheet and reproduction](AUDITION-01.md). The host explicitly authorized an audition from the unrated bedroom batch; this separate path preserves votes and does not mark its sources approved. Public-stream test copies and all actual music renders remain ignored. Production uses canonical shared Keeps with host priority through the bridge below.
 
 **Optional audio intelligence:** [beat/downbeat, key and vocal evidence](AUDIO-INTELLIGENCE.md) now has a separate local model environment and report generator. It annotates existing edit points without changing the liked audition, votes or production approvals.
 
-**Applied planning system:** [cuts, vocal/tonal handovers, retained-section loudness and production guards](MIX-PLANNER.md) now produce a tested native JSON/Lua plan without launching REAPER or exporting audio. The production route uses the current host approval pool and verified acquisitions; engineering test copies cannot pass production validation.
+**Applied planning system:** [cuts, vocal/tonal handovers, retained-section loudness and production guards](MIX-PLANNER.md) produce a native JSON/Lua plan. The production route uses current shared approvals and bound acquisitions; engineering test copies cannot pass production validation. The separate full-programme render driver is documented in FINAL-SET.md.
 
 **Transition extension:** [phrase alignment, optional loop bridges, three-band EQ and vocal ducking](TRANSITION-AUTOMATION.md) now have a separate native build/readback proof without playback or rendering. The planner still only generates plans. Keep the host-liked audition as the listening reference until a later authorized render comparison.
 
@@ -31,9 +33,9 @@ python3 music/bedroom/premix/prepare.py \
 
 Only confirmed files with matching hashes and ffprobe duration within five seconds of the catalog enter `approved-ready.m3u8`. Duration is an additional mismatch check, not identity proof. A mismatch needs version review, not an enlarged tolerance to accept an extended edit. The hash binds the version that was confirmed; it cannot itself recognize a recording.
 
-The [unrendered planner](MIX-PLANNER.md) now uses this same approved-pool/file-map logic to connect verified acquisitions, actual-file/model analysis and native REAPER plan generation. `approved.json`/CSV remain useful inventory audits. The production path is tested on original procedural files; actual production acquisitions are still missing. The M3U8 is also usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). The output is a **preparation crate in database order**, not a final mix order. A partially available crate exports only verified files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is verified. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
+The [planner](MIX-PLANNER.md) uses this same approved-pool/file-map logic to connect bound acquisitions, actual-file/model analysis and native REAPER plan generation. `approved.json`/CSV remain useful inventory audits. See FINAL-SET.md for current acquisition and production coverage. The crate M3U8 is usable for audition or the DJ.Studio fallback (Library → Home → Import M3U(8)). This exporter produces a **preparation crate in database order**, not the final mix order. A partially available crate exports only bound files, while `approved.json` reports missing/blocked ones. `--require-files` exits 2 unless the approved pool is nonempty and every source file is bound. All outputs refresh each successful run, so later Cuts disappear. Copy templates before use; generated files are replaceable.
 
-The preparation report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. `prepare.py` does not render; the separate proof and audition demonstrate rendering. Native build/readback now has a [no-render extension test](TRANSITION-AUTOMATION.md). Production acquisition, musical refinement, final assembly and nine-hour/output tests remain.
+The preparation report deliberately leaves `party_ready: false` and `rendered_seconds: null`: import readiness cannot establish grids, edits, transitions or nine-hour runtime. `prepare.py` does not render. The [no-render extension test](TRANSITION-AUTOMATION.md), proof and audition establish earlier mechanics; the separate production status records actual final delivery checks and remaining output rehearsal.
 
 Verification:
 

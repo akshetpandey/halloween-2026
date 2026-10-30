@@ -10,7 +10,7 @@ import shutil
 import subprocess
 from zoneinfo import ZoneInfo
 
-from actual_audition import measure, source_rest
+from actual_audition import source_rest
 from analyze_audio import digest, write_json
 from native_build import build_only
 from plan_mix import validate_current
@@ -32,6 +32,24 @@ def chapter_bounds(duration, maximum=3600):
 
 def run(args, timeout=None):
     return subprocess.run(args, capture_output=True, text=True, check=True, timeout=timeout)
+
+
+def measure(path):
+    """Transparent EBU R128/true-peak metering, without running a normalizer."""
+    data=json.loads(run(['ffprobe','-v','error','-show_entries',
+                         'format=duration:stream=codec_name,sample_rate,channels','-of','json',str(path)]).stdout)
+    result=run(['ffmpeg','-hide_banner','-nostdin','-nostats','-i',str(path),
+                '-af','ebur128=peak=true:framelog=verbose','-f','null','-'])
+    patterns={'integrated_lufs':r'Integrated loudness:\s+I:\s+([-\d.]+) LUFS',
+              'true_peak_dbfs':r'True peak:\s+Peak:\s+([-\d.]+) dBFS',
+              'loudness_range_lu':r'Loudness range:\s+LRA:\s+([-\d.]+) LU'}
+    values={key:re.findall(pattern,result.stderr) for key,pattern in patterns.items()}
+    if any(not value for value in values.values()):raise ValueError('Missing EBU R128/true-peak measurements')
+    audio=data['streams'][0]
+    return {'duration_seconds':float(data['format']['duration']),'codec':audio['codec_name'],
+            'sample_rate':int(audio['sample_rate']),'channels':audio['channels'],
+            **{key:float(value[-1]) for key,value in values.items()},
+            'method':'FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU'}
 
 
 def render_native(plan, directory, binary, profile, validator):
@@ -211,7 +229,7 @@ def deliver(report_path, output, database=DEFAULT_DB):
         raise ValueError('Native scratch was released by an earlier assembly; rerender into a new output directory')
     weighted=sum(10**(c['meters']['integrated_lufs']/10)*(c['end']-c['start']) for c in chapters)/receipt['native_duration_seconds']
     approximate_lufs=10*math.log10(weighted)
-    gain=min(-16-approximate_lufs,-2-max(c['meters']['true_peak_dbfs'] for c in chapters))
+    gain=min(-16-approximate_lufs,-2.1-max(c['meters']['true_peak_dbfs'] for c in chapters))
     delivery=output/'delivery';delivery.mkdir(exist_ok=True)
     # Stream measured native chapters into one encoder, releasing each verified
     # scratch archive after use. Originals and REAPER projects remain intact.

@@ -6,10 +6,28 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from render_set import chapter_bounds,render,stage_chapter,verify_seam
+from render_set import chapter_bounds,measure,render,stage_chapter,verify_seam
 
 
 class RenderTests(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
+    def test_transparent_meter_matches_steady_reference_and_known_power_change(self):
+        import numpy as np
+        import soundfile as sf
+        from actual_audition import measure as reference
+        with tempfile.TemporaryDirectory() as directory:
+            target=Path(directory)/'dynamics.wav';times=np.arange(32*48000)/48000
+            signal=np.sin(2*np.pi*271*times)*.1
+            sf.write(target,np.repeat(signal[:,None],2,axis=1),48000,subtype='PCM_24')
+            a,b=measure(target),reference(target)
+            for key in ['integrated_lufs','true_peak_dbfs']:
+                self.assertAlmostEqual(a[key],b[key],delta=.11)
+            self.assertEqual(a['duration_seconds'],32)
+            sf.write(target,np.repeat((signal*np.where(times<20,1,2))[:,None],2,axis=1),48000,subtype='PCM_24')
+            dynamic=measure(target)
+            expected=a['integrated_lufs']+10*np.log10((20+12*4)/32)
+            self.assertAlmostEqual(dynamic['integrated_lufs'],expected,delta=.15)
+
     def test_chapters_cover_the_exact_frame_count_without_gaps(self):
         bounds=chapter_bounds(32401.12345)
         self.assertEqual(bounds[0][0],0)

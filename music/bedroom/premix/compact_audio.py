@@ -15,10 +15,10 @@ def pcm_identity(path, frames=None):
     command=['ffmpeg','-v','error','-nostdin','-i',str(path),'-ar','48000','-ac','2']
     if frames is not None:command += ['-af',f'atrim=end_sample={frames}']
     command += ['-f','f32le','-c:a','pcm_f32le','-']
-    process=subprocess.Popen(command,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     fingerprint=hashlib.sha256();size=0
-    while data:=process.stdout.read(1024*1024):fingerprint.update(data);size+=len(data)
-    if process.wait():raise ValueError('PCM identity decode failed: '+process.stderr.read().decode()[-500:])
+    with subprocess.Popen(command,stdout=subprocess.PIPE,stderr=subprocess.PIPE) as process:
+        while data:=process.stdout.read(1024*1024):fingerprint.update(data);size+=len(data)
+        if process.wait():raise ValueError('PCM identity decode failed: '+process.stderr.read().decode()[-500:])
     return fingerprint.hexdigest(),size//8
 
 

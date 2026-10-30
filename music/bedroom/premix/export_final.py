@@ -70,10 +70,12 @@ def export(report_path,verification_path,output):
         conservative_original_seconds=report.get('geometry_qa',{}).get('conservative_native_original_seconds'),
         interior_repeat_cuts=sum(len(t['removed_repeats']) for t in records),
         blocked=report['blocked'],chapters_index=report['chapters'],
-        playback={'settings_status':'recommended player settings; actual rekordbox settings not changed',
+        playback={'settings_status':'recommended transport controls; player/router hardware not configured',
                   'shuffle':False,'repeat':False,'live_auto_dj':False,'automatic_gain':False,
                   'native_automation':'Read; repeat off and global override clear verified by native readback',
-                  'hardware_routing':'separate task'})
+                  'hardware_routing':'separate task: stereo USB plus optical PCM baseline; encoded 5.1 needs coordinated PCM/bitstream backend',
+                  'player_requirement':'rekordbox and FLX4 optional; finished stereo file feeds downstream output DSP',
+                  'speaker_eq_and_delay':'apply per output downstream; soundbar 5.1 DSP must precede AC-3 encoding'})
     write_json(output/'verification.json',public)
     write_json(output/'track-decisions.json',{'tracks':records,'note':'Public metadata and measured edit evidence only; metadata corroboration is not acoustic identity or source licensing.'})
     return public

@@ -1,6 +1,6 @@
 # Hollow Court • eerie woodland texture, Amazon deadline
 
-October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Sourcing pass complete: two actual textured-wrap options, Small opaque sleeved shirt and exact black 30 × 30 loose Levi's cleared for Saturday. No final new outfit choice, purchase or render.** This replaces [29's brocade/green-trouser proposal](29-amazon-saturday-brocade-outfit-2026-10-29.md) as the active direction. Quality confidence differs between the wraps; see below.
+October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested charcoal-wrap / black-shirt / black-Levi's personalized preview completed below.** Exact chosen garment offers refreshed about **8:35 p.m. EDT**, all still Saturday. No final outfit choice, purchase or physical fit inferred. This replaces [29's brocade/green-trouser proposal](29-amazon-saturday-brocade-outfit-2026-10-29.md) as the active direction; the green cowl remains an unselected earlier alternative.
 
 ## Confirmed host correction
 
@@ -15,14 +15,14 @@ October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 3
 
 Styling interpretation: matte dark clothes, uneven raised fraying and a pale branching crown suggest an old woodland presence in worn ceremonial clothing. Existing gold remains the relic/authority accent; no invented new guardian name, plot or game-mechanic change. The texture is **frayed fabric, not sculpted bark or actual moss**. This proposal is more convincing for the brief than conventional brocade, but the strongest visual match has the weakest review evidence.
 
-Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 **approximately 8:15–8:20 p.m. EDT October 29**; every recommended row below said **free Saturday October 31 delivery**. No arrival time window, hold or checkout guarantee. All new items remain unpurchased proposals.
+Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 **initially 8:15–8:20 p.m. EDT October 29**. **Before the requested render, about 8:35 p.m., the exact Black wrap, Black-b/Small shirt and Black/30W × 30L jeans were refreshed: all still free Saturday October 31.** Wrap stock now only 2. GRACEART green retains its earlier dated quote. No arrival time window, hold or checkout guarantee. All new items remain unpurchased proposals.
 
 | Piece / role | Exact Amazon option | Price | Stock / seller / deadline evidence |
 |---|---|---:|---|
-| **Strongest visual texture; lower quality confidence** | Dhthdrh tattered cowl set, **Black**, [B0H4SZNTVL](https://www.amazon.com/dp/B0H4SZNTVL?th=1) | **$22.99** | **Only 3 left**, free **Sat Oct 31**; ships Amazon / sold ChengHuiQiang. Selected Black/child URL and buy box checked about 8:17 p.m. EDT. |
+| **Strongest visual texture; lower quality confidence** | Dhthdrh tattered cowl set, **Black**, [B0H4SZNTVL](https://www.amazon.com/dp/B0H4SZNTVL?th=1) | **$22.99** | **Only 2 left**, free **Sat Oct 31**; ships Amazon / sold ChengHuiQiang. Exact Black refreshed about **8:35 p.m. EDT** (previously 3 at 8:17). |
 | **Better-reviewed, subtler woodland alternative** | GRACEART woven cowl, **11-green**, [B0C8NK1STK](https://www.amazon.com/dp/B0C8NK1STK?th=1) | **$19.99** | **In Stock**, free **Sat Oct 31**; Amazon / GRACEART Online-Store; about 8:16 p.m. EDT. |
-| Opaque sleeved base, if not already bought | JEMITOP **Black-b / Small**, [B0CR38X65T](https://www.amazon.com/dp/B0CR38X65T) | **$15.99** | **In Stock**, free **Sat Oct 31**; Amazon / JEMITOP; exact Small/color reconfirmed about 8:20 p.m. EDT. |
-| **Black trouser replacement** | Levi's **578 Baggy / Black / 30W × 30L**, [B0GVVYXFYW](https://www.amazon.com/dp/B0GVVYXFYW?th=1&psc=1) | **$52.46** | **In Stock**, free **Sat Oct 31**; sold/shipped **Amazon.com**; resolved child URL, color, size and buy box checked about 8:19 p.m. EDT. |
+| Opaque sleeved base, if not already bought | JEMITOP **Black-b / Small**, [B0CR38X65T](https://www.amazon.com/dp/B0CR38X65T) | **$15.99** | **In Stock**, free **Sat Oct 31**; Amazon / JEMITOP; exact Small/color refreshed about **8:35 p.m. EDT**. |
+| **Black trouser replacement** | Levi's **578 Baggy / Black / 30W × 30L**, [B0GVVYXFYW](https://www.amazon.com/dp/B0GVVYXFYW?th=1&psc=1) | **$52.46** | **In Stock**, free **Sat Oct 31**; sold/shipped **Amazon.com**; exact child/color/size refreshed about **8:35 p.m. EDT**. |
 
 | Charcoal shredded wrap — strongest visual match | GRACEART green woven cowl — stronger review evidence |
 |---|---|
@@ -35,6 +35,17 @@ Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 *
 **Jeans assessment:** 578 is a genuinely baggy, **wide-leg**, 100% cotton option; actual product photograph is dark black, not the grey faded wash. [Actual photograph](references/2026-10-29/levis-578-black-baggy.jpg). Listing 4.6/5 from 879 aggregate ratings; listed 19-inch leg opening refers to a **size-32 sample**, not a measured 30W garment. 30W × 30L is inside the host's stated 28–30 / 30–32 range, but actual waist/length/comfort not tested. Search results for earlier requested 568 mainly showed Monday November 2; not promoted as Saturday-ready. **Variant trap caught:** selecting 29W × 30L auto-switched the page to Small Grey Step B0GVW835FQ with November 6–8 delivery. That offer is excluded. Reopened Black listing, selected 30W × 30L, then confirmed **Black + child B0GVVYXFYW + Saturday** together after hydration. Initial 34W × 32L date was not used as host-size evidence.
 
 **Unpurchased costs:** charcoal wrap + shirt + new jeans = **$91.44 before new tax**; GRACEART alternative + shirt + jeans = **$88.44**. If reusing owned faded black jeans, these become $38.98 / $35.98. The two wraps are alternatives, not an additive basket. Existing $196.59 bought basis + $91.44 would be $288.03 **plus new tax if later purchased**, not current spending; unchanged $500 combined ceiling. No final clothing order reported.
+
+## Requested charcoal-wrap personalized preview • October 29
+
+Host requests charcoal wrap, black shirt and black Levi's with the existing compact bone crown, gold torc and cuffs, using the host's photo again and clean-shaven styling. **Original temporary upload checked and absent**; the previous personalized preview supplies likeness continuity, transparently stated before generation. No unrelated retailer face/model used as the host. Request selects this combination for visualization, not a final purchase/outfit decision.
+
+One successful built-in **imagegen / identity-preserve** edit, **1536 × 1024**, full-body left/detail right. Inputs: earlier personalized brocade preview as edit target; actual charcoal wrap, black short-sleeved shirt, Black Levi's 578 and actual Karace cuff photographs. Crown/torc inherited from prior personalized reference. Exact source refresh above succeeded on all three garment pages without CAPTCHA before generation.
+
+- **Private local final:** [charcoal-wrap-black-levis.png](renders/private/2026-10-29/charcoal-wrap-black-levis.png).
+- **Private exact prompt, five input roles and output record:** [charcoal-wrap-black-levis-prompts.md](renders/private/2026-10-29/charcoal-wrap-black-levis-prompts.md).
+
+Visually inspected both views for the same clean-shaven likeness; compact pale branching crown, curled gold torc and gold cuff pair; actual frayed charcoal shoulder wrap with hood down and one hanging end; opaque black short sleeves and wide black jeans; retained black shoes. Brocade, gold-edged cape/rope, green/olive trousers, armor, sash, fur, mesh, makeup and face cover absent. Cloth folds, jeans wash/fit, cuff engraving and crown detail remain approximate; not exact virtual try-on or measured comfort. Crown shown intact as intended after repair; physical repair remains pending. No correction pass or manual image editing. Personal output/exact prompt **Git-ignored**, sanitized record tracked; older renders retained unchanged.
 
 ## Exact cleared fallback, not the primary recommendation
 
@@ -63,4 +74,4 @@ Retailer photos downloaded from the live selected landing images and visually in
 
 No orders/cart/messages/holds/returns/cancellations. Existing bought basis **$196.59** and **$500 combined ceiling** unchanged. Brocade/shirt/cape totals from 29 remain unpurchased historical proposals, not additive new spending or refunds. Crown repair/full cure and actual fit still pending in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). Do not render an invented bark/leaf garment before the new source gate is complete.
 
-[Current handoff](handoff-2026-10-29-eerie-woodland-sourcing.md).
+[Source-pass handoff](handoff-2026-10-29-eerie-woodland-sourcing.md) · [Current preview handoff](handoff-2026-10-29-charcoal-wrap-preview.md).

@@ -1,12 +1,16 @@
 # Weekend outfit renders
 
-AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–P use the host's requested likeness and stay Git-ignored locally**. Trousers, belt and shoes are illustrative stand-ins for owned pieces; exact appearance/fit is not established by these images.
+AI-generated styling previews, requested by the host. **Not photographs of purchased outfits, exact virtual try-ons or proof of product fit/availability.** A–H use generic male models; **I–Q use the host's requested likeness and stay Git-ignored locally**. Earlier trousers/belt/shoes are illustrative stand-ins; Q uses the actual Black Levi's product reference. Exact fine details/fit are not established by these images.
 
 Current user decisions, shopping status and revised subtotal live in the [current order and shopping list](09-final-weekend-shopping-2026-10-21.md). Original previews are dated October 21; the controlled King shirt-color comparison below was added October 22.
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29: more eerie woodland texture and black-trouser direction sourced in [30](30-eerie-woodland-amazon-2026-10-29.md), no new render yet.** Host dislikes brocade's vampire-aristocrat read and clarifies actual trousers are olive/disfavored. Crown/torc/cuffs remain. P retains the completed earlier waistcoat/shirt/half-cape preview and illustrated deep-green trousers as history; [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns its private final/prompt and dated sources. No new order/final outfit selected.
+**Latest October 29: charcoal-wrap / black-shirt / black-Levi's preview completed as Q.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns private final/prompt and exact Saturday garment refresh immediately before generation. Crown/torc/cuffs retained, clean-shaven likeness carried from earlier preview because original upload absent. P is brocade/illustrated-green history. No new order/final outfit selected or physical repair/fit.
+
+## Q Charcoal wrap, black shirt and black Levi's
+
+Requested/completed October 29. One built-in identity-preserve edit of P plus actual Black distressed-wrap, Black-b short-sleeved shirt, Black baggy Levi's 578 and gold cuff references. Full body left/detail right, 1536 × 1024. Visually checked same clean-shaven likeness, pale crown/curled torc/cuff pair, frayed charcoal wrap/hood down, opaque short sleeves and wide black jeans, with no brocade/cape/green trousers/armor/sash/makeup/face cover. [30](30-eerie-woodland-amazon-2026-10-29.md#requested-charcoal-wrap-personalized-preview--october-29) owns ignored local final/prompt, exact 8:35 p.m. Saturday source refresh and approximation limits. No new order/physical fit/crown repair; original photo checked absent and substitution disclosed before generation.
 
 ## P Black/gold brocade waistcoat and half-cape
 

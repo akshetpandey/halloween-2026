@@ -1,0 +1,16 @@
+# Handoff • charcoal wrap and black Levi's preview
+
+- **Session / ID:** Host costume personalized render; Codex `01a069a0-9c55-7392-9bef-c71808a8b3bd`.
+- **Updated:** October 29, 2026, America/New_York / EDT (UTC−04:00).
+- **Scope / owned files:** [30](30-eerie-woodland-amazon-2026-10-29.md) source refresh/private render record, [06 Q](06-weekend-costume-renders-2026-10-21.md#q-charcoal-wrap-black-shirt-and-black-levis), README/01/02 current pointers, this handoff. Personal PNG/exact prompt saved ignored.
+- **Checkout / branch / base:** shared `/Users/akshet/workspace/halloween-2026`, `main`; base `2bfc862`; no branch/worktree/push.
+- **Status:** requested render complete; no final outfit/order/physical fit decision inferred.
+- **Confirmed request:** charcoal wrap + black shirt + black Levi's, keeping compact bone crown, gold torc and cuffs; use host likeness and clean-shaven styling. Source-before-render gate and Saturday Amazon requirement retained.
+- **Completed / canonical:** one successful built-in imagegen identity-preserve edit, 1536 × 1024, full-body left/detail right. Actual wrap/shirt/jeans/cuff photos supplied objects; prior personalized brocade preview supplied likeness/crown/torc. Original temporary photo checked absent and substitution disclosed before generation. [30](30-eerie-woodland-amazon-2026-10-29.md#requested-charcoal-wrap-personalized-preview--october-29) links private local final/exact prompt. No manual editing/correction pass, prior outputs unchanged.
+- **Fresh source evidence:** approximately **8:35 p.m. EDT**, signed-in Chrome Brooklyn11211: exact Black wrap B0H4SZNTVL $22.99 **only 2**, Black-b/Small shirt B0CR38X65T $15.99 In Stock, Black 578 / 30W × 30L B0GVVYXFYW $52.46 In Stock, all free **Saturday Oct31**. No CAPTCHA/hold/order; no timed delivery. Earlier green cowl alternative not rechecked or used.
+- **Checks actually run:** input/output visual inspection for clean-shaven likeness, compact pale crown/torc/two cuffs, actual charcoal fraying/hood down, opaque short sleeves and wide black jeans, no old brocade/cape/green trousers/armor/sash/face cover/makeup. PNG dimensions, ignored private paths, local Markdown targets and `git diff --check` verified before commit; no code tests apply.
+- **External changes / purchases:** none; no cart/checkout/messages/returns/cancellation; no new public portrait/remote store upload. Existing $196.59 bought basis and $500 ceiling unchanged; $91.44 proposal still unpaid.
+- **Remaining:** host assesses look; if buying check Saturday at checkout, exact sizes and fabric quality. Charcoal listing has no visible reviews; cloth folds, wash, engraving/crown details and fit remain approximate in AI. Crown shown intact but actual glue repair/full cure still pending in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md).
+- **Dependencies:** no game/guardian names, narrative mechanics, guest copy, decor/music/shared budget changes.
+- **Access / privacy:** original user photo not available, derivative likeness used transparently; final/prompt ignored. Three research tabs closed after evidence; no pending user question/CAPTCHA.
+- **Commit / unrelated dirt:** focused checkpoint follows; final reports hash. Preserve unrelated decor shopping-ready edit and music premix work, including new render_set.py; stage named costume paths only.

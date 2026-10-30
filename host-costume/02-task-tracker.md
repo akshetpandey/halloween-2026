@@ -1,6 +1,6 @@
 # Host costume task tracker
 
-**Current October 29: more eerie woodland texture, less vampire aristocrat; keep crown/torc/cuffs.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns Saturday-cleared textured-wrap alternatives, Small shirt and exact Black Levi's 578 / 30 × 30. Owned trousers are olive/disfavored. Brocade preview in 29 is history. No new final garment selection/order/fit/render; belt/sash disfavored; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
+**Current October 29: requested charcoal-wrap / black-shirt / black-Levi's preview complete**, retaining crown/torc/cuffs and clean-shaven likeness. [30](30-eerie-woodland-amazon-2026-10-29.md) owns ignored final/prompt and refreshed exact Saturday sources. Original photo absent; prior personalized reference used transparently. Brocade/olive trousers superseded. No new final garment selection/order/fit; belt/sash disfavored; [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair pending.
 
 | ID | Task | Status | Depends on |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | KING-08 | Assemble second City of Gods look | **Zivyes selected; core pieces ordered**; Oct 23 refresh: chain/Zoestar delivered Oct 22, fur/mesh/Atoden/Zivyes arriving Friday | [Actual order](09-final-weekend-shopping-2026-10-21.md#eclipse); no Friday cuffs, optional Levi's unconfirmed/owned jeans fallback; receipt/fit pending |
 | KING-09 | Make both looks work with overnight warm layers | **Functional warm layer already owned**, confirmed Oct 22; remove $79.90 PUFFTECH proposal. Small black fur remains ordered | [Layering strategy](07-cold-weather-layers-2026-10-21.md); exact owned layer/color and fit/warmth/removal still untested |
 | KING-10 | Source tall Yellowjackets-close antlers/full-face veil | **Retired by host October 27; do not continue sourcing/building** | [21](21-wearable-frame-and-veil-build-2026-10-23.md) and [19](19-jandmantlers-and-two-hour-build-2026-10-23.md) are history; no actual order cancellation/return/message performed |
-| KING-11 | Redesign unused night-two outfit for October 31 | **Eerie woodland source pass complete:** charcoal shredded wrap (weak review evidence) / green cotton cowl alternative, Small black shirt and exact Black 578 / 30 × 30 all show Saturday. Crown/torc/cuffs fixed; final choice/order/fit pending | [30](30-eerie-woodland-amazon-2026-10-29.md); no new render; actual olive trousers/brocade superseded; crown repair pending |
+| KING-11 | Redesign unused night-two outfit for October 31 | **Requested charcoal-wrap/black-shirt/Black-578 preview complete.** Exact Black wrap, Small shirt and 30 × 30 jeans refreshed Saturday before rendering; crown/torc/cuffs retained. Final choice/order/fit and crown repair pending | [30](30-eerie-woodland-amazon-2026-10-29.md) private final/prompt and source evidence; charcoal listing review caveat retained; actual olive trousers/brocade superseded |
 
 ## Historical readiness record • October 23
 

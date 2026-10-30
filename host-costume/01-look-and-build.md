@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29: eerie woodland texture instead of vampire-aristocrat brocade.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns active Saturday Amazon sourcing. Crown/torc/cuffs fixed; owned trousers clarified olive/disfavored, black proposed. Earlier [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) render/source record retained as history. No new final clothing selection/order/physical test/render. Belt/sash disfavored; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
+**Current October 29: charcoal-wrap / black-shirt / black-Levi's preview completed.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns private final/prompt and refreshed exact Saturday Amazon offers. Crown/torc/cuffs retained, clean-shaven likeness carried from earlier preview because original photo absent. Earlier [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) brocade/green render retained as history; actual olive trousers disfavored. No new final outfit selection/order/physical test; belt/sash disfavored. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
 
 ## Historical brief • through October 23
 

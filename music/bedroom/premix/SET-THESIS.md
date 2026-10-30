@@ -1,8 +1,10 @@
 # The Hollow · programming thesis
 
-Revised October 29, 2026 after the host rejected the first transition in the five-minute working excerpt. **This is the new programming brief, not a claim that the version-5 render meets it.** [Production status](FINAL-SET.md).
+Revised October 29, 2026 after the host rejected both the five-minute excerpt and the subsequent two-minute repair. **This is the new programming brief, not a claim that the version-5 render meets it.** [Production status](FINAL-SET.md) · [Researched transition rules and failed-example audit](TRANSITION-RESEARCH.md).
 
-The Hollow should pull people into a dark, playful underground rave: magnetic groove, rising pressure, an earned central peak, then a long after-hours release. Bounce and hooks keep it inviting; hardness provides contrast. The Grove remains the brighter, more open room. The bedroom needs movement throughout, including its quieter moments.
+**Host clarification, October 29: hard rave through to the end, with occasional 5–20-minute slower periods for people to reset.** This supersedes the earlier proposal for a long late-night descent.
+
+The Hollow should pull people into a dark, playful underground rave and sustain it until a strong finale. Bounce and hooks keep it inviting; hardness provides pressure. Occasional slower, more spacious periods make the next run hit harder. The Grove remains the brighter, more open room. The bedroom keeps its identity during its resets.
 
 ## What failed in version 5
 
@@ -15,8 +17,8 @@ The draft assigned genre buckets of roughly 45–60 minutes, then chose nearby t
 Programme three scales at once:
 
 - **Within a track:** preserve a worthwhile hook, build and drop; shorten redundant repetition. Let a short pre-drop rest do its musical job.
-- **Across several tracks:** build for 3–6 minutes, sustain a high for **8–12 minutes** (occasionally 15), then give **3–6 minutes of active release**. Release means fewer layers, less distortion or a more spacious/melodic groove while the rhythm continues.
-- **Across the night:** create an 8–12-minute broader release about every 45–60 minutes. The main peak belongs around midnight through the first 1 a.m. Later lifts should be smaller; the rollback does not restart the peak.
+- **Across several tracks:** build for 3–6 minutes and create **8–15-minute surges**, with brief stripped-back moments between them. These are internal changes within a high-energy run, not a full slow period every few songs.
+- **Across the night:** sustain **35–55-minute hard runs**, with an occasional **5–20-minute reset** roughly every hour. Vary the spacing and reset lengths. The midnight/first-1-a.m. period gets a major feature, while later runs remain hard. The final half-hour builds to a strong finish.
 
 Energy comes from attack density, bass/drum pressure, brightness/noisiness, melodic/vocal tension and arrangement, alongside tempo. Loudness matching is a separate job. Feature-derived intensity is a provisional programming aid, not a verified description of how a room will respond. A fast, spacious track can provide relief without a sudden tempo drop.
 
@@ -26,31 +28,39 @@ Working start `2026-10-31T21:30:00-04:00`; closing `2026-11-01T04:00:00-05:00`, 
 
 | Local time | Purpose | Target pressure | Shape |
 |---|---|---:|---|
-| Oct 31, 9:30–10:15 p.m. EDT | Dark, magnetic entry | 5–6 | Bouncy groove and clear hooks; invite movement |
-| 10:15–11:15 p.m. EDT | Acid/percussive ascent | 6–7.5 | Two or three builds and releases; gradual acceleration |
-| 11:15 p.m.–Nov 1, 12:15 a.m. EDT | Rave ignition | 7–8.5 | Longer surges with melodic/percussive breathing room |
-| 12:15–1:15 a.m. EDT | Main peak | 8–9.5 | Two or three 8–12-minute highs; a roughly 20–25-minute DnB feature within this hour |
-| 1:15 a.m. EDT → 1:00 a.m. EST | Resolve the peak, 45 elapsed minutes | 7–8 | Keep drive while reducing harshness; prepare the deeper return |
-| Repeated 1:00–2:00 a.m. EST | After-hours release | 6–7.5 | Hypnotic, spacious and physical; smaller local waves |
-| 2:00–3:00 a.m. EST | Late-night drive | 6–7.5 | One smaller lift, then resume the descent |
-| 3:00–4:00 a.m. EST | Closing | 6 → 4.5 | More space, melody and memorable hooks; a deliberate finish |
+| Oct 31, 9:30–10:35 p.m. EDT | Quick entry into the first hard run | 7 → 9 | About 10–15 minutes to establish the groove, then sustained rave pressure |
+| 10:35–10:45 p.m. EDT | Reset, 10 minutes | 5.5–6.5 | More space and a slower groove |
+| 10:45–11:40 p.m. EDT | Hard run, 55 minutes | 8–9 | Acid, bounce and dark hooks in compatible sequences |
+| 11:40–11:55 p.m. EDT | Reset, 15 minutes | 6–7 | Give the floor room before the midnight feature |
+| 11:55 p.m.–Nov 1, 12:50 a.m. EDT | Major rave/DnB feature, 55 minutes | 8.5–10 | Roughly 20–25 minutes of DnB within a prepared hard run |
+| 12:50–1:05 a.m. EDT | Reset, 15 minutes | 6–7 | Deliberate rhythmic/melodic release |
+| 1:05 a.m. EDT → 1:05 a.m. EST | Hard run, 60 elapsed minutes | 8–9.5 | Continue the rave through the rollback |
+| 1:05–1:20 a.m. EST | Reset, 15 minutes | 6–7 | Lower pressure while keeping the room's dark/bouncy identity |
+| 1:20–2:15 a.m. EST | Hard run, 55 minutes | 8–9.5 | Fresh textures and hooks, not a replay of the same peak |
+| 2:15–2:35 a.m. EST | Reset, 20 minutes | 5.5–6.5 | The longest recovery; gradual, musically connected tempo changes |
+| 2:35–3:20 a.m. EST | Hard run, 45 minutes | 8–9 | Rebuild decisively |
+| 3:20–3:30 a.m. EST | Reset, 10 minutes | 6–7 | Prepare the finale |
+| 3:30–4:00 a.m. EST | Strong finale, 30 minutes | 9–10 | Hard, memorable finish followed by an intentional ending |
 
 At least nine hours of distinct finished material are still required. Reserve should be prepared as coherent additional blocks, separate from the event closing. Repeating a loop cannot fill the duration requirement.
 
 ## Transition standard
 
-- Start with **8–16-bar handovers**, around 14–28 seconds at 140 BPM. Choose the length around actual phrases and leads. Longer blends need compatible tonal material and one clear vocal focus.
-- Choose neighbouring recordings that work together in tempo, key, texture and energy. Keep pitch-preserving rate changes within about three percent. Build a tempo ladder across several tracks rather than using a large jump to meet a genre boundary.
-- Match local beats and bar/phrase positions at the actual mix points. A whole-file model disagreement requires local grid review or a different pairing; it does not automatically authorize a short cut.
-- Use the same key, a fifth-related key or a relative major/minor pairing where melodies overlap. When the useful section is percussion-only, document that reason. EQ and ducking cannot substitute for a sensible pairing.
-- Give one lead vocal priority. Use a vocal-free intro edit, a measured percussion bridge, or different source windows when needed. Hand over bass deliberately and exchange mids/highs gradually.
-- One-bar/half-second changes are exceptional effects, never the fallback. Joins shorter than four bars must be explicitly flagged and redesigned or justified in an audition. No automatic hard reset merely because the key, phase or tempo pairing failed.
-- DnB gets a prepared entry and exit: a compatible-tempo crossover, a gradual ladder, or a deliberately arranged percussion/breakdown bridge. Its family label alone does not dictate a cut.
+The [research and operational rules](TRANSITION-RESEARCH.md) now govern the implementation. Tempo matching, individual beat alignment and arrangement/phrase alignment are separate jobs. A key label cannot establish complementary leads.
+
+- Author the actual source events: phrase entry, bass return/handover, lead ownership and phrase exit. Require evidence at the selected sections, rather than accepting a strong whole-file model label.
+- Choose length and technique from those events. Eight-, sixteen-, twenty-four- and thirty-two-bar blends are available; longer is not automatically better. Short phrase-timed changes remain an intentional option, not a fallback for a failed pairing.
+- Use a demonstrably percussive intro/outro under a lead. Vocal-free does not mean melody-free. A stem edit needs explicit source/model binding; a borrowed melodic tail does not become a suitable intro merely by looping it.
+- Keep one primary kick/bass and one musical foreground. Exchange bass where the music supports it, not necessarily at a fade's midpoint. EQ and ducking finish a sensible arrangement; they cannot rescue a bad one.
+- Prefer nearby tempos with pitch-preserving rate changes within about three percent. Use a tempo ladder or an authored breakdown/crossover for major changes, including DnB boundaries.
+- Check the realized drum timing after native processing and check for unintended entry breakdowns, bass gaps, double leads and gain jumps. These are technical screens, not listening approval.
 
 Artist variety remains a constraint across credited collaborators. Preserve strong musical decisions over a rigid genre quota. Reassign a track to another part of the set when it does not fit its neighbours.
 
-## Immediate revision test
+## Revision tests
 
-Test **Be The One → BENNETT — Lullaby**, both approved and measured in B-flat minor, before rebuilding the long programme. Their tempos can meet at about 139 BPM with roughly two-percent rate changes. A 16-bar handover should last about 27.6 seconds. A vocal-free eight-bar portion of Lullaby's own tail can precede its main body so its lead arrives after Eli Brown's vocal clears. This is a proposed DJ edit to audition, not an assertion of listening approval or verified downbeats.
+**Rejected:** Be The One → BENNETT — Lullaby. Both measured B-flat minor and met at 139 BPM, but both selected phrase boundaries were unsupported. Its vocal-free tail loop did not establish a suitable instrumental intro. The host rejected the rendered sample; do not reuse it as the production solution.
 
-The next full plan must expose its intended pressure curve, peak/release durations, actual tempo/key pairings and every exceptional join. Render a short representative revision first; the rejected draft's technical passes cannot establish the new version's musical success.
+**Rendered, host approved:** DJ HEARTSTRING — Will You Remember Me When I'm Gone? → Funk Tribu — Speakers Blowing. Whole-file estimates give A-flat minor, but local regions disagree on major/minor; the design separates leads instead of claiming harmonic compatibility. Meet their approximately 150/148 BPM at 149 BPM. A 16-bar prepared drum/bass intro leads into the incoming track's real bass return, while an eight-bar outgoing drums-only tail completes the 24-bar handover. A complete 16-bar entry breakdown is removed to avoid losing energy. No loop padding is used. See [research and measured results](TRANSITION-RESEARCH.md#new-controlled-test).
+
+The next full plan must expose its intended pressure curve, peak/release durations, source cue relationships and exceptional joins. Render representative transitions first. A full-production gate now rejects joins without source-bound arrangement designs and realized timing checks; the old draft's technical passes cannot establish the new version's musical success.

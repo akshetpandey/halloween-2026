@@ -22,7 +22,7 @@ from reaper_proof import save_plan
 from compact_audio import content_duration
 
 BASE = Path(__file__).resolve().parent
-VERSION = "mix-planner-5"
+VERSION = "mix-planner-6"
 LANES = ["Tech house", "Acid", "Techno", "Trance", "Drum & bass"]
 KEYS = {
     "C": 0,
@@ -86,7 +86,7 @@ def choose_grid(track, evidence):
             else:
                 anchor = phase + round((fallback - phase) / period) % 4 * period
                 notes.append(
-                    "uncertain bar phase: disable interior splices and use a reset"
+                    "uncertain bar phase: disable interior splices; requires local phrase design"
                 )
         else:
             anchor = fallback
@@ -635,6 +635,8 @@ def compile_timeline(ordered, joins, tracks, gains, evidence=None):
                 local += cycle_length
                 offset += bridge["cycle_bars"] * 4
         end = start + local
+        prefix=choice.get('intro_prefix_clip_count',0)
+        for index,item in enumerate(clips):item['role']='intro_loop' if index<prefix else 'body'
         if any(
             c["position"] < 0 or max(c["fade_in"], c["fade_out"]) > c["length"]
             for c in clips
@@ -664,6 +666,9 @@ def compile_timeline(ordered, joins, tracks, gains, evidence=None):
                 "title": track["title"],
                 "lane": track.get("lane"),
                 'programme_chapter':track.get('programme_chapter'),
+                'programme_role':track.get('programme_role','party'),
+                'pressure_proxy':track.get('pressure_proxy'),
+                'intro_edit':choice.get('intro_edit'),
                 "source_sha256": track["sha256"],
                 "ranges": choice["ranges"],
                 "removed_repeats": choice["removed_repeats"],
@@ -797,7 +802,7 @@ def assign_programme(tracks,pacing):
 
 def build_plan(
     database, analysis_path, intelligence_path, output, file_map=None, audition=False,
-    pacing=None
+    pacing=None, ordering=None
 ):
     analysis = json.loads(analysis_path.read_text())
     intelligence = json.loads(intelligence_path.read_text())
@@ -847,7 +852,7 @@ def build_plan(
             }
             for t in tracks
         ]
-        ordered, joins = sequence(tracks, evidence, pacing)
+        ordered, joins = (ordering or sequence)(tracks, evidence, pacing)
         measured = {
             c["id"]: retained_loudness(
                 next(t for t in tracks if t["id"] == c["id"]),
@@ -920,6 +925,7 @@ def build_plan(
                     {
                         "lane": track["lane"],
                         'name':group,
+                        'role':track.get('programme_role','party'),
                         "start_seconds": track["start_seconds"],
                         "end_seconds": track["end_seconds"],
                         "ids": [track["id"]],

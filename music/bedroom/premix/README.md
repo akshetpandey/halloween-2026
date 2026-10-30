@@ -44,3 +44,9 @@ python3 -m unittest discover -s music/bedroom/premix -v
 ```
 
 Tests cover host/room isolation, duplicate/Cut precedence, read-only behavior, empty pools, file changes, version/duration checks and removal from a previously exported crate. Synthetic audio tests use installed ffprobe; they do not establish musical quality.
+
+### October 29 transition correction
+
+Both production excerpts failed host review. The [research, source audit and applied rules](TRANSITION-RESEARCH.md) explain the replacement approach; [measured short-test results](transition-research-results-2026-10-29.json) remain separate from musical approval. `prepare_research_cues.py` creates source/model/hash-bound cue stems, `research_audition.py` builds the new approved-pair sample and independent native drum diagnostic, and `transition_design.py` blocks full rendering without an authored source arrangement and realized timing evidence. The previous `revision_audition.py` reproduces the **rejected** Eli Brown/BENNETT example only.
+
+Reproduction uses the production environment and ignored final-Hollow source state: run `prepare_research_cues.py --state .local/final-hollow-2026-10-29`, then `research_audition.py --state .local/final-hollow-2026-10-29 --output .local/final-hollow-2026-10-29/revision-07/audition` from this folder. Use the existing no-device REAPER profile; local Metal/native access is required outside the sandbox. No account or physical-output changes are made.

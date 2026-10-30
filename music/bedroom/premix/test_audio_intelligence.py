@@ -155,6 +155,20 @@ class IntelligenceTests(unittest.TestCase):
             ]
         )
 
+    def test_join_follows_repeated_intro_then_main_body(self):
+        a={'id':'a','retained_source_ranges':[[0,40]],'outgoing_bpm':120,'measured_bpm':120}
+        b={'id':'b','retained_source_ranges':[[100,106],[100,106],[0,30]],'incoming_bpm':120,'measured_bpm':120,'overlap_seconds':20}
+        e={'a':{'vocals':{'candidate_vocal_regions':[[20,31]]}},'b':{'vocals':{'candidate_vocal_regions':[[108,110],[0,30]]}}}
+        self.assertEqual(join_evidence(a,b,e)['simultaneous_vocal_candidate_fraction'],0)
+
+    def test_join_walks_backwards_across_outgoing_loop_ranges(self):
+        a={'id':'a','retained_source_ranges':[[0,30],[100,106],[100,106]],'outgoing_bpm':120,'measured_bpm':120}
+        b={'id':'b','retained_source_ranges':[[0,30]],'incoming_bpm':120,'measured_bpm':120,'overlap_seconds':20}
+        e={'a':{'vocals':{'candidate_vocal_regions':[[22,30]]}},'b':{'vocals':{'candidate_vocal_regions':[[0,30]]}}}
+        self.assertGreater(join_evidence(a,b,e)['simultaneous_vocal_candidate_fraction'],.25)
+        b['overlap_seconds']=50
+        self.assertIsNone(join_evidence(a,b,e)['simultaneous_vocal_candidate_fraction'])
+
 
 if __name__ == "__main__":
     unittest.main()

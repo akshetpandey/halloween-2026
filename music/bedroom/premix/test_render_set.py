@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from render_set import chapter_bounds,chapter_tempo_map,measure,preview_file,render,stage_chapter,verify_seam
+from render_set import chapter_bounds,chapter_tempo_map,measure,preview_file,render,deliver,stage_chapter,verify_seam
 
 
 class RenderTests(unittest.TestCase):
@@ -74,6 +74,18 @@ class RenderTests(unittest.TestCase):
             with patch('render_set.validate_current',return_value={}):
                 with self.assertRaisesRegex(ValueError,'excluding loop padding'):
                     render(p,root/'db',root/'output',root/'reaper',root/'profile')
+
+    def test_full_render_and_delivery_block_legacy_bpm_key_only_joins(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);p=root/'mix.json'
+            p.write_text(json.dumps({'planned_seconds':33000,'planned_seconds_excluding_bridges':33000,
+                'tracks':[{'source_sha256':'a'*64},{'source_sha256':'b'*64}],
+                'transitions':[{'kind':'harmonic_blend','bars':16,'harmonic_cost':0}]}))
+            with patch('render_set.validate_current',return_value={}):
+                with self.assertRaisesRegex(ValueError,'arrangement design'):
+                    render(p,root/'db',root/'out',root/'reaper',root/'profile')
+                with self.assertRaisesRegex(ValueError,'arrangement design'):
+                    deliver(p,root/'out',root/'db')
 
     @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
     def test_staging_selects_active_sources_and_rejects_changed_pcm_evidence(self):

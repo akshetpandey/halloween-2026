@@ -1,12 +1,19 @@
 # The Hollow · final set production
 
-**Musical revision required.** The host rejected the join around 18 seconds into the working preview: Be The One → CRUSH used a 0.5-second 136→150 BPM reset. Version 5's 54 resets and 56 one-bar handovers are too abrupt as a default. Eight native hours passed mechanical checks, but this draft is **not an accepted final mix**. Rendering is halted. The [revised programming thesis and transition standard](SET-THESIS.md) now govern the next version. Source acquisitions, model evidence and the editable draft remain reusable; do not resume version 5 as the party master.
+**Musical revision required.** The host rejected both Be The One → CRUSH (a half-second 136→150 BPM reset) and the later Be The One → Lullaby repair (matched tempo/key but unsupported phrasing and an unsuitable borrowed intro). **Do not resume version 5 as the party master.** The [current thesis](SET-THESIS.md) confirms hard rave through closing with occasional 5–20-minute resets. [Professional instruction, failure audit and applied transition rules](TRANSITION-RESEARCH.md) now guide revision.
+
+**Current controlled test:** a new 1:43 approved-pair excerpt uses an authored 24-bar handover at 149 BPM, a prepared drum/bass intro, drums-only outgoing tail and removal of an entry breakdown. Local major/minor estimates disagree, so pitched leads are separated. Native real-drum diagnostics before and after that edit give a maximum 95th-percentile grid error of **1.35 ms**, with about **1.07 ms** maximum interdeck phase difference; low-band RMS rises **1.13 dB** at the handover. MP3 measures **−16.6 LUFS / −2.1 dBTP**. These are technical checks; **the host has approved this short test**, and the full set is unfinished. [Sanitized results](transition-research-results-2026-10-29.json).
+
+Independent drum-cue analysis has now processed all 216 acquired sources: **170 have consistent sampled cue timing; 46 need review**. This does not verify downbeats, phrases or constant timing between the sampled windows, and does not replace the earlier 202-source eligibility inventory. Original acquisitions and model evidence remain reusable.
+
 
 Started October 29, 2026, America/New_York. **In progress, not yet a finished or playback-ready mix.** The host authorized acquisition, analysis, sequencing, loops, cuts, transitions and rendering from the approved bedroom library, building on the existing REAPER work. Production decisions remain delegated.
 
+## Historical version-5 checkpoint — rejected, do not resume
+
 Final planning checkpoint: **202 approved tracks / 9:29:13.904 planned audio**, with no added loop extension. Planner version 5 selects 85 four-bar bass swaps, 56 one-bar handovers, six harmonic blends and 54 short resets. It uses local beat agreement at actual join windows where global model phase is dispersed, without granting interior splices to uncertain grids. Half-time interpretations are corrected from stable onset timing plus sustained model-span evidence; selected tempos are 124–175 BPM. All **104 tests pass**. Full native chapter rendering is running; the figures in this paragraph remain planned until delivery verification completes.
 
-The default delivery will end with the programmed closing, before reserve starts. A separate reserve file and the full nine-hour archive preserve prepared coverage without automatically restarting hard material after the wind-down. Playback timing will be calculated backward from `2026-11-01T04:00:00-05:00` in America/New_York; the output is a proposed manual start, not a deployed scheduler. Physical routing remains a sibling task.
+The default delivery will end with the programmed closing, before reserve starts. A separate reserve file and the full nine-hour archive preserve prepared coverage without automatically restarting hard material after the strong finale. Playback timing will be calculated backward from `2026-11-01T04:00:00-05:00` in America/New_York; the output is a proposed manual start, not a deployed scheduler. Physical routing remains a sibling task.
 
 ## Authority and sources
 

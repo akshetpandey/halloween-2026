@@ -8,7 +8,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from arrangement import boundary_cost, infer_phrases, loop_tail, phrase_position
-from mix_automation import duck_regions, mapped_vocals, three_band_eq, volume_points
+from mix_automation import automate,duck_regions, mapped_vocals, three_band_eq, volume_points
 from native_build import build_only, verify_readback
 from plan_mix import candidates, choose_grid, compile_timeline, transition
 from test_plan_mix import fixture
@@ -123,6 +123,22 @@ class ArrangementTests(unittest.TestCase):
 
 
 class AutomationTests(unittest.TestCase):
+    def test_dj_blend_keeps_faders_up_at_a_constant_power_bass_exchange(self):
+        join={'kind':'harmonic_blend','overlap_seconds':20,'harmonic_cost':0,'vocal_overlap':0,'mix_style':'dj_blend'}
+        definitions=[{'clips':[]},{'clips':[]}]
+        details=[{'id':'a','start_seconds':0,'end_seconds':100},{'id':'b','start_seconds':80,'end_seconds':180}]
+        automate(definitions,details,[join],{})
+        for d in definitions:
+            at=lambda t:next(p['amplitude'] for p in d['volume'] if abs(p['time']-t)<1e-6)
+            self.assertEqual(at(90),1)
+        curves=[]
+        for d in definitions:
+            curves.append({round(p['time'],8):p['db'] for p in d['eq_bands'][0]['points'] if 89.96-1e-6<=p['time']<=90.04+1e-6})
+        self.assertEqual(set(curves[0]),set(curves[1]))
+        for t in curves[0]:
+            power=sum(10**(curve[t]/10) for curve in curves)
+            self.assertAlmostEqual(power,1,delta=.0041)
+
     def test_vocal_mapping_respects_cuts_warp_and_loop_repeats(self):
         definition = {
             "clips": [

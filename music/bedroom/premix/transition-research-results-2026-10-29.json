@@ -1,0 +1,100 @@
+{
+  "status": "Short audition approved by host; full set incomplete",
+  "rejected_predecessors": [
+    "Be The One to CRUSH",
+    "Be The One to Lullaby"
+  ],
+  "tracks": [
+    "DJ HEARTSTRING \u2014 Will You Remember Me When I'm Gone?",
+    "Funk Tribu \u2014 Speakers Blowing"
+  ],
+  "shared_bpm": 149,
+  "source_rates": [
+    0.9933334517932285,
+    1.0067613119470915
+  ],
+  "events": [
+    {
+      "time": 0,
+      "name": "Outgoing solo"
+    },
+    {
+      "time": 25.77181208053691,
+      "name": "Incoming drum intro"
+    },
+    {
+      "time": 51.54362416107382,
+      "name": "Incoming bass return and lead handover"
+    },
+    {
+      "time": 64.42953020134227,
+      "name": "Incoming solo"
+    }
+  ],
+  "transition_bars": 24,
+  "duration_seconds": 103.08724832214764,
+  "timing": {
+    "status": "checked",
+    "peak_p95_error_ms": 1.3484340044782717,
+    "interdeck_phase_difference_ms": 1.0743970155585592
+  },
+  "bass_handover_levels": {
+    "before_dbfs": -23.232055507287228,
+    "after_dbfs": -22.098025822157634,
+    "change_db": 1.134029685129594,
+    "window_seconds": 6.442953020134228,
+    "band_hz": [
+      30,
+      160
+    ]
+  },
+  "delivery_meters": {
+    "duration_seconds": 103.08725,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -16.6,
+    "true_peak_dbfs": -2.1,
+    "loudness_range_lu": 0.9,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "native_build_readback": {
+    "passed": true,
+    "tracks": 4,
+    "items": 4,
+    "eq_bands": 12,
+    "volume_points": 12,
+    "rendered": false,
+    "hardware_playback_tested": false,
+    "reaper_version": "7.82/macOS-arm64",
+    "pitch_algorithm": "\u00e9lastique 3.3.3 Pro"
+  },
+  "cuts": {
+    "incoming_removed_seconds": [
+      26.147158135730162,
+      52.09322147718541
+    ],
+    "reason": "Complete 16-bar entry breakdown; original stereo returns at real bass drop"
+  },
+  "intro_edit": "Own drums+bass stems; omitted vocal/other; not looped",
+  "loops": 0,
+  "host_approved": true,
+  "party_ready": false,
+  "limitations": [
+    "Stem separation can have bleed/artifacts",
+    "Physical output not tested",
+    "Source arrangement cues are inferred, not human verified"
+  ],
+  "regional_keys": [
+    [
+      8,
+      "minor"
+    ],
+    [
+      8,
+      "major"
+    ]
+  ],
+  "outgoing_tail_edit": "Own drums stem; omitted bass/vocal/other at lead handover; not looped",
+  "host_review": "Approved by host: The new 1:43 test is solid"
+}

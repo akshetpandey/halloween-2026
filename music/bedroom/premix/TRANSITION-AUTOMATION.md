@@ -1,5 +1,7 @@
 # Phrase alignment and DJ transition automation
 
+**October 29 correction:** this page records engineering capabilities, not accepted production mixing. Both subsequent excerpts failed host review. The [researched transition standard](TRANSITION-RESEARCH.md) supersedes generic midpoint bass swaps, inferred phrases without local support, and automatic reset fallbacks.
+
 October 25, 2026. The host authorized these four improvements, delegated the decisions and deferred rendering. They extend the [planner](MIX-PLANNER.md) using existing local tools. No purchase, new music acquisition, audio upload or vote change is involved.
 
 ## Implemented decisions

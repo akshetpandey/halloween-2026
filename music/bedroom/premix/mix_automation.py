@@ -118,7 +118,7 @@ def three_band_eq(start, end, before, after):
         ("high", 4, 6000, -3),
     ]:
         points = [{"time": 0.0, "db": 0.0}]
-        if before and before["kind"] != "reset":
+        if before and before["kind"] not in ('reset','programme_boundary'):
             width = before["overlap_seconds"]
             mid = start + width * 0.5
             cut = depth
@@ -140,7 +140,10 @@ def three_band_eq(start, end, before, after):
                     "db": 0.0,
                 },
             ]
-        if after and after["kind"] != "reset":
+            if name=='low' and before.get('mix_style')=='dj_blend':
+                points=points[:2]+[{'time':mid-.04+.08*i/8,
+                    'db':20*math.log10(max(10**(depth/20),math.sin(math.pi*i/16)))} for i in range(9)]
+        if after and after["kind"] not in ('reset','programme_boundary'):
             width = after["overlap_seconds"]
             join_start = end - width
             mid = end - width * 0.5
@@ -169,6 +172,9 @@ def three_band_eq(start, end, before, after):
                     },
                 ]
             )
+            if name=='low' and after.get('mix_style')=='dj_blend':
+                points=points[:-2]+[{'time':mid-.04+.08*i/8,
+                    'db':20*math.log10(max(10**(depth/20),math.cos(math.pi*i/16)))} for i in range(9)]
         points.append({"time": end, "db": points[-1]["db"]})
         bands.append(
             {
@@ -193,20 +199,26 @@ def automate(definitions, details, joins, evidence):
         after = joins[i] if i < len(joins) else None
         start, end = detail["start_seconds"], detail["end_seconds"]
         regions = []
-        if after and after["kind"] != "reset":
+        if after and after["kind"] not in ('reset','programme_boundary'):
             regions = duck_regions(
                 voices[i], voices[i + 1], end - after["overlap_seconds"], end
             )
         fade_in = (
-            before["overlap_seconds"] if before and before["kind"] != "reset" else 0.04
+            before["overlap_seconds"] if before and before["kind"] not in ('reset','programme_boundary') else 0.04
         )
         fade_out = (
             after["overlap_seconds"]
-            if after and after["kind"] != "reset"
+            if after and after["kind"] not in ('reset','programme_boundary')
+            else 8
+            if after and after['kind']=='programme_boundary'
             else 0.12
             if after
             else 1.5
         )
+        # EQ carries the frequency handover. Keep the outgoing fader at unity
+        # until the bass exchange, and reach incoming unity by that exchange.
+        if before and before.get('mix_style')=='dj_blend':fade_in*=.5
+        if after and after.get('mix_style')=='dj_blend':fade_out*=.5
         definition["volume"] = volume_points(start, end, fade_in, fade_out, regions)
         definition["eq_bands"] = three_band_eq(start, end, before, after)
         detail["vocal_ducking"] = {

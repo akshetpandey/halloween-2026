@@ -12,20 +12,11 @@ Use approved exact local files, shorten weak repetition, organize coherent genre
 ## Energy arc
 9–10 p.m. arrival, midnight–1 a.m. peak, 4 a.m. finish are host preferences. Use **9:30 p.m.** as a proposed public start until chosen.
 
-The clock rolls back on November 1. With a 9:30 p.m. EDT start and 4 a.m. EST finish there are **7.5 elapsed hours**. Treat the first 1 a.m. as the peak and the repeated 1 a.m. as a gentle descent; do not restart the peak. [Clock change](https://www.timeanddate.com/time/change/usa/new-york)
+The clock rolls back on November 1. With a 9:30 p.m. EDT start and 4 a.m. EST finish there are **7.5 elapsed hours**. [Clock change](https://www.timeanddate.com/time/change/usa/new-york)
 
-| Local time | Bedroom music | Target BPM range | Energy |
-|---|---|---:|---|
-| 9:30–10:30 p.m. EDT | Warm, hypnotic house/leftfield | 120–128 | Invite people in |
-| 10:30–11:30 p.m. EDT | Percussive/deeper techno | 126–138 | Build |
-| 11:30 p.m.–12:30 a.m. EDT | Driving techno, selected faster cuts | 138–150 | Lift |
-| 12:30–1:15 a.m. EDT | Short fast chapter if taste supports it | 160–180 | Peak |
-| 1:15–2 a.m. EDT | Rhythmic/euphoric release | 145–160, then reset | Keep momentum |
-| Repeated 1–2 a.m. EST | Deeper return | 128–138 | Begin descent |
-| 2–3 a.m. EST | Spacious melodic / dubby | 120–128 | Ease off |
-| 3–4 a.m. EST | Gentle final chapter | Around 120, softer texture | Closing |
+**October 29 host clarification: hard rave until the end, with occasional 5–20-minute slower periods for people to reset.** This supersedes the earlier gentle-descent table. The [current Hollow programming thesis](bedroom/premix/SET-THESIS.md) owns the detailed proposed schedule: roughly 35–55-minute hard runs, varied recovery lengths, a midnight/DnB feature, continued hard runs after the rollback and a strong final half-hour. Its intensity levels are editorial targets, not measured audience responses.
 
-The BPM bands are programming targets, not measured metadata for the tracks below. Do not force an extreme pitch change to fit a table. At 170–180, a jungle/DnB chapter may feel better than relentless hard techno; the host’s taste decides. Big genre/tempo resets need intentional fades or a short ambient transition, not blind beat-sync.
+The host rejected the first full-programme draft's abrupt 136→150 BPM transition. Tempo, key, phrasing and vocal handovers must shape the sequence; genre blocks cannot force a short cut. Use [source-event-led transitions](bedroom/premix/TRANSITION-RESEARCH.md), explicit lead/bass handovers and prepared crossover routes; a longer fade alone is insufficient. Source/analysis work remains reusable, but the [version-5 draft is held for musical revision](bedroom/premix/FINAL-SET.md).
 
 Peak energy should come from selection and density, not a late-night volume increase.
 

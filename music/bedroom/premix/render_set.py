@@ -17,6 +17,7 @@ from plan_mix import validate_current
 from prepare import DEFAULT_DB
 from reaper_proof import build_lock, check_saved_project, save_plan
 from compact_audio import pcm_identity
+from transition_design import validate_programme_design
 
 BASE = Path(__file__).resolve().parent
 RATE = 48000
@@ -171,6 +172,8 @@ def render(report_path, database, output, binary, profile, preview=False):
     validator()
     if not preview and report['planned_seconds_excluding_bridges'] < 32400:
         raise ValueError('Final programme must provide nine hours excluding loop padding')
+    if not preview:
+        validate_programme_design(report)
     native = json.loads(Path(report['native_plan']).read_text())
     output.mkdir(parents=True,exist_ok=True)
     receipt_path = output/'render-receipt.json'
@@ -239,6 +242,7 @@ def render(report_path, database, output, binary, profile, preview=False):
 def deliver(report_path, output, database=DEFAULT_DB):
     report=json.loads(report_path.read_text())
     validate_current(report,database)
+    validate_programme_design(report)
     verification_path=output/'delivery-verification.json'
     if verification_path.exists():
         saved=json.loads(verification_path.read_text())
@@ -300,7 +304,7 @@ def deliver(report_path, output, database=DEFAULT_DB):
     if mp3_meters['true_peak_dbfs']>-1:raise ValueError('MP3 encoding exceeded headroom')
     # Reserve must not run automatically after the programmed closing. Keep the
     # full nine-hour archive, but make the default playlist stop before reserve.
-    reserve=next((c['start_seconds'] for c in report['chapters'] if c['name'].startswith(('10 ','11 '))),None)
+    reserve=next((c['start_seconds'] for c in report['chapters'] if c.get('role')=='reserve'),None)
     party_end=reserve if reserve is not None else report['planned_seconds']
     party=delivery/'The-Hollow-party.mp3'
     run(['ffmpeg','-v','error','-nostdin','-y','-i',str(master),'-t',str(party_end),

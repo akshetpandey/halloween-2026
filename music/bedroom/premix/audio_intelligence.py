@@ -291,10 +291,20 @@ def join_evidence(previous, incoming, evidence):
         or not result["both_vocal_evidence_available"]
     ):
         return result
-    out_end = previous["retained_source_ranges"][-1][1]
-    in_start = incoming["retained_source_ranges"][0][0]
     out_rate = previous["outgoing_bpm"] / previous["measured_bpm"]
     in_rate = incoming["incoming_bpm"] / incoming["measured_bpm"]
+    out_ranges=previous['retained_source_ranges'];in_ranges=incoming['retained_source_ranges']
+    if (sum(b-a for a,b in out_ranges)/out_rate<overlap-1e-6
+            or sum(b-a for a,b in in_ranges)/in_rate<overlap-1e-6):
+        result['review_flags'].append('Overlap extends beyond retained audio')
+        return result
+
+    def source_at(ranges,distance,backwards=False):
+        for a,b in reversed(ranges) if backwards else ranges:
+            if b<=a:raise ValueError('Invalid retained vocal-mapping range')
+            if distance<b-a:return b-distance if backwards else a+distance
+            distance-=b-a
+        return None
     # Only evaluate the middle 60% where both fades can be audible. This is
     # source-activity evidence, not measurement of audible clash in the mix.
     start, end = 0.2 * overlap, 0.8 * overlap
@@ -302,13 +312,13 @@ def join_evidence(previous, incoming, evidence):
     simultaneous = 0
 
     def active(voice, at):
-        return any(a <= at < b for a, b in voice["candidate_vocal_regions"])
+        return at is not None and any(a <= at < b for a, b in voice["candidate_vocal_regions"])
 
     for i in range(steps):
         at = start + (i + 0.5) * (end - start) / steps
         simultaneous += int(
-            active(outgoing_voice, out_end - (overlap - at) * out_rate)
-            and active(incoming_voice, in_start + at * in_rate)
+            active(outgoing_voice, source_at(out_ranges,(overlap-at)*out_rate,True))
+            and active(incoming_voice, source_at(in_ranges,at*in_rate))
         )
     fraction = simultaneous / steps
     result["simultaneous_vocal_candidate_fraction"] = fraction

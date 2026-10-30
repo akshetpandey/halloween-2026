@@ -1,5 +1,7 @@
 # The Hollow · final set production
 
+**Musical revision required.** The host rejected the join around 18 seconds into the working preview: Be The One → CRUSH used a 0.5-second 136→150 BPM reset. Version 5's 54 resets and 56 one-bar handovers are too abrupt as a default. Eight native hours passed mechanical checks, but this draft is **not an accepted final mix**. Rendering is halted. The [revised programming thesis and transition standard](SET-THESIS.md) now govern the next version. Source acquisitions, model evidence and the editable draft remain reusable; do not resume version 5 as the party master.
+
 Started October 29, 2026, America/New_York. **In progress, not yet a finished or playback-ready mix.** The host authorized acquisition, analysis, sequencing, loops, cuts, transitions and rendering from the approved bedroom library, building on the existing REAPER work. Production decisions remain delegated.
 
 Final planning checkpoint: **202 approved tracks / 9:29:13.904 planned audio**, with no added loop extension. Planner version 5 selects 85 four-bar bass swaps, 56 one-bar handovers, six harmonic blends and 54 short resets. It uses local beat agreement at actual join windows where global model phase is dispersed, without granting interior splices to uncertain grids. Half-time interpretations are corrected from stable onset timing plus sustained model-span evidence; selected tempos are 124–175 BPM. All **104 tests pass**. Full native chapter rendering is running; the figures in this paragraph remain planned until delivery verification completes.

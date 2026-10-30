@@ -19,9 +19,10 @@ from audio_intelligence import join_evidence, vocal_fraction
 from mix_automation import automate
 from prepare import DEFAULT_DB, approved_pool, check_file, host_rows, probe_duration
 from reaper_proof import save_plan
+from compact_audio import content_duration
 
 BASE = Path(__file__).resolve().parent
-VERSION = "mix-planner-2"
+VERSION = "mix-planner-4"
 LANES = ["Tech house", "Acid", "Techno", "Trance", "Drum & bass"]
 KEYS = {
     "C": 0,
@@ -101,6 +102,7 @@ def choose_grid(track, evidence):
         "beat_support": support,
         "bar_support": bar_support,
         "splice_supported": stable,
+        'interior_splices_supported':stable and not track['grid'].get('model_only_refinement',False),
         "shift_from_baseline_seconds": float(anchor - fallback),
         "human_verified": False,
         "notes": notes,
@@ -153,7 +155,7 @@ def harmonic_cost(a, b):
 
 def cut_repeats(track, evidence, grid, start, end):
     voice = evidence.get("vocals")
-    if not grid["splice_supported"] or voice is None:
+    if not grid['splice_supported'] or not grid.get('interior_splices_supported',True) or voice is None:
         return [[start, end]], []
     beat = 60 / track["bpm"]
     width = 32 * beat
@@ -229,7 +231,7 @@ def candidates(track, evidence, pacing=None):
         and t <= duration - min(90, duration * 0.6)
     ]
     minimum = min(90, duration * 0.60)
-    target = min(420, duration * pacing['retention']) if pacing else min(165, duration * 0.85)
+    target = min(pacing.get('maximum_body_seconds',420), duration * pacing['retention']) if pacing else min(165, duration * 0.85)
     maximum = min(duration, target + 8 * bar) if pacing else 210
     if pacing:
         minimum = max(minimum, target - 16 * bar)
@@ -290,21 +292,23 @@ def candidates(track, evidence, pacing=None):
     return sorted(choices, key=lambda c: (c["selection_cost"], c["start"], c["end"]))
 
 
-def transition(a, b, tracks, evidence):
+def transition(a, b, tracks, evidence, pacing=None):
     outgoing, incoming = tracks[a["id"]], tracks[b["id"]]
     bpm_a, bpm_b = outgoing["bpm"], incoming["bpm"]
     family_change = (outgoing.get("lane") == "Drum & bass") != (
         incoming.get("lane") == "Drum & bass"
     )
+    uncertain_bars=not (a['grid']['splice_supported'] and b['grid']['splice_supported'])
+    coherent_beats=min(a['grid'].get('beat_support',0),b['grid'].get('beat_support',0))>=.85
     if (
         family_change
         or abs(bpm_a - bpm_b) / min(bpm_a, bpm_b) > 0.05
-        or not (a["grid"]["splice_supported"] and b["grid"]["splice_supported"])
+        or (uncertain_bars and not (pacing and coherent_beats))
     ):
         return {
             "kind": "reset",
             "bars": 0,
-            "overlap_seconds": 0.08,
+            "overlap_seconds": 0.5 if pacing else 0.08,
             "incoming_bpm": bpm_b,
             "outgoing_bpm": bpm_a,
             "vocal_overlap": None,
@@ -318,11 +322,12 @@ def transition(a, b, tracks, evidence):
     harmony = harmonic_cost(key_a, key_b)
     options = []
     bridge = loop_tail(outgoing, evidence[a["id"]], a)
-    for bars, loop in [(1, None), (4, None), (8, None)] + (
+    options_to_test=[(1,None)] if uncertain_bars else [(1, None), (4, None), (8, None)] + (
         [(4, bridge)]
         if bridge and phrase_position(incoming, b["grid"], b["start"])["supported"]
         else []
-    ):
+    )
+    for bars, loop in options_to_test:
         overlap = bars * 240 / shared
         prior = {
             "id": a["id"],
@@ -402,9 +407,10 @@ def sequence(tracks, evidence, pacing=None):
     choices = {t["id"]: candidates(t, evidence[t["id"]], pacing) for t in tracks}
     ordered = []
     joins = []
-    lanes = pacing.get('lane_order', LANES) if pacing else LANES
-    for lane in lanes + sorted({t.get("lane", "Other") for t in tracks} - set(lanes)):
-        remaining = {t["id"] for t in tracks if t.get("lane", "Other") == lane}
+    field='programme_chapter' if pacing and pacing.get('programme_arc') else 'lane'
+    lanes=sorted({t[field] for t in tracks}) if field=='programme_chapter' else pacing.get('lane_order', LANES) if pacing else LANES
+    for lane in lanes + sorted({t.get(field, "Other") for t in tracks} - set(lanes)):
+        remaining = {t["id"] for t in tracks if t.get(field, "Other") == lane}
         while remaining:
             if not ordered:
                 ident = min(remaining, key=lambda i: (by_id[i]["bpm"], i))
@@ -427,17 +433,18 @@ def sequence(tracks, evidence, pacing=None):
                     ident,
                 ),
             )[:8]:
+                credited=set(by_id[ident].get('artist_ids') or [by_id[ident]['artist']])
                 artist_repeat = any(
-                    by_id[c["id"]]["artist"] == by_id[ident]["artist"]
-                    for c in ordered[-3:]
+                    credited.intersection(by_id[c['id']].get('artist_ids') or [by_id[c['id']]['artist']])
+                    for c in ordered[-8:]
                 )
                 for a, b in itertools.product(tails, choices[ident][:8]):
-                    join = transition(a, b, by_id, evidence)
+                    join = transition(a, b, by_id, evidence, pacing)
                     cost = (
                         join["cost"]
                         + a["selection_cost"]
                         + b["selection_cost"]
-                        + 2 * artist_repeat
+                        + 3 * artist_repeat
                     )
                     cost += abs(by_id[a["id"]]["bpm"] - by_id[ident]["bpm"]) / 50
                     ranked.append((cost, ident, a, b, join))
@@ -638,6 +645,7 @@ def compile_timeline(ordered, joins, tracks, gains, evidence=None):
                 "artist": track["artist"],
                 "title": track["title"],
                 "lane": track.get("lane"),
+                'programme_chapter':track.get('programme_chapter'),
                 "source_sha256": track["sha256"],
                 "ranges": choice["ranges"],
                 "removed_repeats": choice["removed_repeats"],
@@ -686,13 +694,15 @@ def eligible(database, analysis, intelligence, file_map=None, audition=False):
         reason = None
         if not t or not e:
             reason = "missing source analysis or independent evidence"
+        elif not t.get('grid', {}).get('usable_constant_grid'):
+            reason = 'unstable source grid; needs explicit timing review before mixing'
         elif e["source_sha256"] != t["sha256"]:
             raise ValueError("Model/source binding mismatch: " + ident)
         elif digest(Path(t["path"])) != t["sha256"]:
             raise ValueError("Analyzed source changed: " + ident)
         elif (
             not math.isfinite(t["duration_seconds"])
-            or abs(probe_duration(Path(t["path"])) - t["duration_seconds"]) > 0.02
+            or abs(content_duration(t) - t["duration_seconds"]) > 0.02
         ):
             raise ValueError(
                 "Decoded duration disagrees with source analysis: " + ident
@@ -720,11 +730,51 @@ def eligible(database, analysis, intelligence, file_map=None, audition=False):
                 **t,
                 "lane": metadata.get("lane") or "Other",
                 "spotify_uri": metadata["spotify_uri"],
+                'artist_ids':metadata.get('artist_ids',[]),
             }
         )
-    if len({t["sha256"] for t in tracks}) != len(tracks):
+    if len({t.get('analysis_pcm_sha256') or t["sha256"] for t in tracks}) != len(tracks):
         raise ValueError("Same audio file is bound to multiple approved recordings")
     return tracks, {t["id"]: evidence[t["id"]] for t in tracks}, blocked
+
+
+def canonical_lane(lane):
+    lane=lane.casefold()
+    if 'drum' in lane:return 'Drum & bass'
+    if 'psy' in lane:return 'Psytrance'
+    if 'hard bounce' in lane or 'rave' in lane or 'leftfield' in lane:return 'Hard bounce'
+    if 'hard techno' in lane:return 'Hard techno'
+    if 'tech house' in lane:return 'Tech house'
+    if 'acid' in lane:return 'Acid'
+    if 'trance' in lane:return 'Trance'
+    return 'Techno'
+
+
+def assign_programme(tracks,pacing):
+    """Coherent chapters with DnB at the peak and distinct late-night reserve."""
+    remaining={t['id']:t for t in tracks};spent=0.0
+    slots=[
+        ('01 Arrival pulse',['Tech house','Techno'],128,45*60),
+        ('02 Acid ascent',['Acid','Techno'],140,50*60),
+        ('03 Rave ignition',['Hard bounce','Trance'],150,55*60),
+        ('04 Drum and bass peak',['Drum & bass'],174,None),
+        ('05 Hard pressure',['Hard techno','Hard bounce'],160,55*60),
+        ('06 Rolling shadows',['Psytrance','Acid'],145,55*60),
+        ('07 Melodic rave',['Trance','Hard bounce'],150,60*60),
+        ('08 After-hours drive',['Techno','Acid'],138,60*60),
+        ('09 Closing embers',['Techno','Acid','Trance','Hard bounce'],140,'closing'),
+    ]
+    for name,lanes,bpm,target in slots:
+        target=max(900,27000-spent) if target=='closing' else target
+        pool=sorted([t for t in remaining.values() if t['lane'] in lanes],key=lambda t:(abs(t['bpm']-bpm),lanes.index(t['lane']),t['id']))
+        length=0.0
+        for track in pool:
+            estimated=max(60,min(pacing.get('maximum_body_seconds',420),track['duration_seconds']*pacing['retention'])-8)
+            if target is not None and length>=max(0,target-estimated*.5):break
+            track['programme_chapter']=name;length+=estimated;remaining.pop(track['id'])
+        spent+=length
+    for track in remaining.values():
+        track['programme_chapter']='10 Reserve pressure' if track['lane'] in ['Hard bounce','Hard techno','Drum & bass'] else '11 Reserve shadows'
 
 
 def build_plan(
@@ -738,23 +788,8 @@ def build_plan(
     )
     if pacing and pacing.get('canonical_lanes'):
         for track in tracks:
-            lane = track.get('lane', '').casefold()
-            if 'drum' in lane:
-                track['lane'] = 'Drum & bass'
-            elif 'psy' in lane:
-                track['lane'] = 'Psytrance'
-            elif 'hard bounce' in lane or 'rave' in lane or 'leftfield' in lane:
-                track['lane'] = 'Hard bounce'
-            elif 'hard techno' in lane:
-                track['lane'] = 'Hard techno'
-            elif 'tech house' in lane:
-                track['lane'] = 'Tech house'
-            elif 'acid' in lane:
-                track['lane'] = 'Acid'
-            elif 'trance' in lane:
-                track['lane'] = 'Trance'
-            else:
-                track['lane'] = 'Techno'
+            track['lane']=canonical_lane(track.get('lane',''))
+    if pacing and pacing.get('programme_arc'):assign_programme(tracks,pacing)
     report = {
         "version": VERSION,
         "generated_at": datetime.now(UTC).isoformat(),
@@ -857,14 +892,16 @@ def build_plan(
         # Chapter index only; no chapter audio is exported.
         chapters = []
         for track in details:
+            group=track.get('programme_chapter') or track['lane']
             if (
                 not chapters
-                or chapters[-1]["lane"] != track["lane"]
+                or chapters[-1]['name'] != group
                 or track["end_seconds"] - chapters[-1]["start_seconds"] > 5400
             ):
                 chapters.append(
                     {
                         "lane": track["lane"],
+                        'name':group,
                         "start_seconds": track["start_seconds"],
                         "end_seconds": track["end_seconds"],
                         "ids": [track["id"]],

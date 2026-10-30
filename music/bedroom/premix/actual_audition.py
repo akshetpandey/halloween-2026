@@ -198,7 +198,7 @@ def source_time(item, output_time):
     return a['source']+(local-a['position'])/(b['position']-a['position'])*(b['source']-a['source'])
 
 
-def source_rest(plan, interval):
+def source_rest(plan, interval, maximum_seconds=.8):
     """Distinguish a short musical rest from an inserted gap, using source PCM.
 
     Only subsecond rests completely inside a clip can qualify. Every source
@@ -206,7 +206,7 @@ def source_rest(plan, interval):
     A gap at a splice, missing clip, long silence or loud source fails closed.
     """
     a, b = interval
-    if b-a > .8:
+    if b-a > maximum_seconds:
         return None
     evidence = []
     for track in plan['tracks']:

@@ -9,6 +9,7 @@ import unittest
 from acquire_set import version_match
 from analyze_audio import decode_source
 from prepare import file_key
+from compact_audio import compact_source,pcm_identity,open_analysis_audio,content_duration
 
 
 class SourceTests(unittest.TestCase):
@@ -61,6 +62,23 @@ class SourceTests(unittest.TestCase):
             self.assertEqual(decode_source(source, root, "spotify:track:6HzL348HHRk2dWHNzx42aj").stat().st_mtime_ns, modified)
             generate(880)
             self.assertNotEqual(decode_source(source, root, "spotify:track:6HzL348HHRk2dWHNzx42aj").read_bytes(), original)
+
+    @unittest.skipUnless(shutil.which('ffmpeg') and importlib.util.find_spec('soundfile'),'audio environment required')
+    def test_compact_render_source_keeps_all_original_pcm_frames(self):
+        from analyze_audio import digest
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);source=root/'source.webm'
+            subprocess.run(['ffmpeg','-v','error','-f','lavfi','-i','sine=frequency=440:duration=2','-c:a','libopus',str(source)],check=True)
+            wav=decode_source(source,root,'fixture')
+            track={'id':'fixture','path':str(wav),'sha256':digest(wav),'source_path':str(source)}
+            compact,evidence,temporary=compact_source(track,{'source_sha256':track['sha256']})
+            self.assertEqual(pcm_identity(compact['path'],compact['analysis_pcm_frames'])[0],compact['analysis_pcm_sha256'])
+            self.assertEqual(evidence['analysis_pcm_file_sha256'],digest(wav))
+            self.assertEqual(evidence['source_sha256'],digest(Path(compact['path'])))
+            self.assertEqual(temporary,wav)
+            with open_analysis_audio(compact['path']) as audio:self.assertEqual(audio.channels,2)
+            self.assertEqual(content_duration(compact),compact['analysis_pcm_frames']/48000)
+            with self.assertRaises(ValueError):content_duration({**compact,'analysis_pcm_frames':compact['analysis_pcm_frames']+1})
 
 
 if __name__ == "__main__":

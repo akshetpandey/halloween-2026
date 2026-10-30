@@ -22,6 +22,7 @@ from plan_mix import (
     sequence,
     transition,
     validate_current,
+    assign_programme,
 )
 
 AVAILABLE = all(importlib.util.find_spec(name) for name in ("numpy", "soundfile"))
@@ -80,6 +81,28 @@ def fixture(ident="a", bpm=120, duration=160):
 
 @unittest.skipUnless(AVAILABLE, "optional analysis environment required")
 class PlannerTests(unittest.TestCase):
+    def test_programme_arc_preserves_tracks_and_puts_dnb_in_peak_chapter(self):
+        tracks=[]
+        for lane in ['Tech house','Techno','Acid','Hard bounce','Drum & bass','Trance']:
+            for index in range(8):
+                t,_=fixture(lane+str(index));t['lane']=lane;tracks.append(t)
+        before={t['id'] for t in tracks}
+        assign_programme(tracks,{'retention':.8,'maximum_body_seconds':300})
+        self.assertEqual(before,{t['id'] for t in tracks})
+        self.assertTrue(all(t.get('programme_chapter') for t in tracks))
+        self.assertTrue(all(t['programme_chapter'].startswith('04 ') for t in tracks if t['lane']=='Drum & bass'))
+
+    def test_coherent_beats_allow_only_a_short_handover_when_bars_are_uncertain(self):
+        a,ea=fixture('a');b,eb=fixture('b')
+        ca=candidates(a,ea)[0];cb=candidates(b,eb)[0]
+        ca['grid']['splice_supported']=False
+        ca['grid']['beat_support']=cb['grid']['beat_support']=.95
+        self.assertEqual(transition(ca,cb,{'a':a,'b':b},{'a':ea,'b':eb})['kind'],'reset')
+        join=transition(ca,cb,{'a':a,'b':b},{'a':ea,'b':eb},pacing={'retention':.9})
+        self.assertEqual(join['kind'],'quick_handover')
+        self.assertEqual(join['bars'],1)
+        self.assertEqual(cut_repeats(a,ea,ca['grid'],ca['start'],ca['end'])[1],[])
+
     def test_full_programme_pacing_preserves_long_tracks_without_padding(self):
         t, e = fixture(duration=500)
         for phrase in t['phrases']:

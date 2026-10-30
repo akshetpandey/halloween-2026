@@ -86,6 +86,9 @@ class AuditionTests(unittest.TestCase):
                    return_value=array('f', [.001]*100).tobytes()):
             self.assertIsNotNone(source_rest(plan, [4, 4.5]))
             self.assertIsNone(source_rest(plan, [4, 5]))
+            self.assertIsNotNone(source_rest(plan,[4,5.3],maximum_seconds=2))
+            self.assertIsNone(source_rest(plan,[9,10.3],maximum_seconds=2))
+            self.assertIsNone(source_rest({'tracks':[]},[4,5.3],maximum_seconds=2))
             self.assertIsNone(source_rest(plan, [0, .3]))
             self.assertIsNone(source_rest({'tracks': []}, [4, 4.5]))
         with patch('actual_audition.subprocess.check_output',

@@ -1,0 +1,70 @@
+"""Long programme gates, frame-contiguous chapters and native seam verification."""
+import importlib.util
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+
+from render_set import chapter_bounds,render,stage_chapter,verify_seam
+
+
+class RenderTests(unittest.TestCase):
+    def test_chapters_cover_the_exact_frame_count_without_gaps(self):
+        bounds=chapter_bounds(32401.12345)
+        self.assertEqual(bounds[0][0],0)
+        self.assertAlmostEqual(bounds[-1][1],round(32401.12345*48000)/48000)
+        self.assertTrue(all(a[1]==b[0] for a,b in zip(bounds,bounds[1:])))
+        self.assertTrue(all(b-a<=3600 for a,b in bounds))
+
+    def test_invalid_chapter_requests_fail(self):
+        for duration,maximum in [(0,3600),(-1,3600),(float('nan'),3600),(20,0),(20,5401)]:
+            with self.assertRaises(ValueError):chapter_bounds(duration,maximum)
+
+    def test_loops_cannot_fill_a_short_final_programme(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);p=root/'mix.json'
+            p.write_text(json.dumps({'planned_seconds':33000,'planned_seconds_excluding_bridges':32399}))
+            with patch('render_set.validate_current',return_value={}):
+                with self.assertRaisesRegex(ValueError,'excluding loop padding'):
+                    render(p,root/'db',root/'output',root/'reaper',root/'profile')
+
+    @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
+    def test_staging_selects_active_sources_and_rejects_changed_pcm_evidence(self):
+        import numpy as np
+        import soundfile as sf
+        from analyze_audio import digest
+        from compact_audio import pcm_identity
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);source=root/'source.wav'
+            sf.write(source,np.zeros((48000,2)),48000,subtype='FLOAT')
+            identity,frames=pcm_identity(source)
+            analysis=root/'analysis.json'
+            analysis.write_text(json.dumps({'tracks':[{'id':'active','analysis_pcm_sha256':identity,'analysis_pcm_frames':frames}]}))
+            definition={'path':str(source),'sha256':digest(source),'clips':[{'position':0,'length':1}]}
+            native={'tracks':[definition,{**definition,'clips':[{'position':10,'length':1}]}]}
+            report={'inputs':{'analysis':str(analysis)},'tracks':[{'id':'active'},{'id':'inactive'}]}
+            staged=stage_chapter(native,report,root/'stage',0,2)
+            self.assertEqual(len(staged),1)
+            self.assertEqual(pcm_identity(Path(staged[0]['path'])),(identity,frames))
+            analysis.write_text(json.dumps({'tracks':[{'id':'active','analysis_pcm_sha256':'wrong','analysis_pcm_frames':frames}]}))
+            with self.assertRaisesRegex(ValueError,'PCM does not match'):
+                stage_chapter(native,report,root/'bad-stage',0,2)
+
+    @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
+    def test_seam_compares_the_same_absolute_audio_and_rejects_discontinuity(self):
+        import numpy as np
+        import soundfile as sf
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);t=np.arange(10*48000)/48000
+            signal=np.repeat((.2*np.sin(2*np.pi*137*t))[:,None],2,axis=1)
+            a=root/'a.wav';b=root/'b.wav'
+            sf.write(a,signal[:6*48000],48000,subtype='FLOAT')
+            sf.write(b,signal[3*48000:],48000,subtype='FLOAT')
+            previous={'native':str(a),'render_start':0};incoming={'native':str(b),'render_start':3}
+            self.assertEqual(verify_seam(previous,incoming,4)['maximum_pcm_error'],0)
+            sf.write(b,-signal[3*48000:],48000,subtype='FLOAT')
+            with self.assertRaisesRegex(ValueError,'discontinuity'):verify_seam(previous,incoming,4)
+
+
+if __name__=='__main__':unittest.main()

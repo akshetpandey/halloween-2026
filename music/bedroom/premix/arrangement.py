@@ -8,8 +8,22 @@ from pathlib import Path
 
 from analyze_audio import digest, write_json
 from audio_intelligence import vocal_fraction
+from compact_audio import open_analysis_audio
 
-VERSION = "bar-arrangement-1"
+VERSION = "bar-arrangement-3"
+
+
+def harmonic_ratio(magnitude, frequencies, sr):
+    """A coarse mid-band loop-screening descriptor, not a stem estimate."""
+    import librosa
+    import numpy as np
+    mid=(frequencies>=250)&(frequencies<min(6000,sr/2))
+    compact=magnitude[mid][::4,::2]
+    if compact.shape[0]<7 or compact.shape[1]<7:
+        return 1.0
+    harmonic,percussive=librosa.decompose.hpss(compact,kernel_size=7)
+    hp,pp=float(np.sum(harmonic**2)),float(np.sum(percussive**2))
+    return hp/max(hp+pp,1e-12)
 
 
 def cosine(a, b):
@@ -88,6 +102,7 @@ def measure_arrangement(track, grid, cache):
         "anchor": grid["anchor_seconds"],
         "stable_bars": grid["splice_supported"],
         "packages": {p: version(p) for p in ("numpy", "librosa", "soundfile")},
+        'harmonic_descriptor':'250-6000 Hz, four-bin/two-frame subsampling, seven-point HPSS; conservative loop screening only',
     }
     if digest(Path(track["path"])) != track["sha256"]:
         raise ValueError("Source changed before arrangement measurement")
@@ -100,7 +115,7 @@ def measure_arrangement(track, grid, cache):
         return result
     bar = 240 / track["bpm"]
     bars = []
-    with sf.SoundFile(track["path"]) as audio:
+    with open_analysis_audio(track["path"]) as audio:
         sr = audio.samplerate
         for i in range(
             math.floor((track["duration_seconds"] - grid["anchor_seconds"]) / bar)
@@ -136,12 +151,7 @@ def measure_arrangement(track, grid, cache):
             ]
             spectrum = np.sqrt(spectrum)
             spectrum /= max(float(np.linalg.norm(spectrum)), 1e-12)
-            harmonic, percussive = librosa.decompose.hpss(magnitude, kernel_size=17)
-            mid = (frequencies >= 250) & (frequencies < min(6000, sr / 2))
-            hp, pp = (
-                float(np.sum(harmonic[mid] ** 2)),
-                float(np.sum(percussive[mid] ** 2)),
-            )
+            harmonic_fraction=harmonic_ratio(magnitude,frequencies,sr)
             flux = np.maximum(0, np.diff(np.sum(power, axis=0)))
             pulse = np.array([np.mean(x) for x in np.array_split(flux, 16)])
             pulse /= max(float(np.linalg.norm(pulse)), 1e-12)
@@ -158,7 +168,7 @@ def measure_arrangement(track, grid, cache):
                     "density": float(
                         np.mean(flux > max(float(np.mean(flux)) * 2, 1e-12))
                     ),
-                    "harmonic_fraction": hp / max(hp + pp, 1e-12),
+                    "harmonic_fraction": harmonic_fraction,
                 }
             )
     result = {
@@ -208,7 +218,7 @@ def boundary_cost(track, grid, at):
 
 def loop_tail(track, evidence, choice):
     """A two-bar tail, repeated twice; unknown vocals never authorize a loop."""
-    if not choice["grid"]["splice_supported"] or evidence.get("vocals") is None:
+    if not choice['grid']['splice_supported'] or not choice['grid'].get('interior_splices_supported',True) or evidence.get("vocals") is None:
         return None
     bar = 240 / track["bpm"]
     start, end = choice["end"] - 2 * bar, choice["end"]

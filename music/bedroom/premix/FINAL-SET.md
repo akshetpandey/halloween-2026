@@ -17,6 +17,16 @@ Use current canonical shared bedroom Keeps, host priority, through the read-only
 - The planner has optional full-programme pacing, bounded to 64 candidate bodies per track, preserving longer approved tracks where useful. Existing short-demo behavior remains the default. Actual finished duration must still meet nine hours without loop padding.
 - Existing phrase alignment, loop bridges, three-band EQ and vocal ducking remain the transition engine. Native automation must be in Read mode, with no global override. Final delivery will use a fixed sequence with shuffle/loop/live Auto DJ disabled.
 
+## Analysis checkpoint
+
+Acquisition has matched **216 of 222 approved recordings**. All 216 now have full-file Beat This, Essentia and Demucs evidence; decoded-PCM hashes are unique. **202 pass the constant-grid production gate** after conservative model-event timing review. Six unmatched sources and fourteen unstable grids are excluded from this build. Model-only timing rescues cannot receive interior repetition splices or loop bridges. Predictions do not establish human-verified phrasing.
+
+Compact Opus remuxes preserve every original decoded analysis frame; AAC/other cases use bit-exact float WavPack. Only currently active chapter sources are decoded for native rendering, with PCM-signature checks against analysis. This avoids retaining thirteen hours of large float WAVs. Original acquired files remain intact. Bounded workers restart their model process between batches to control Metal graph-cache memory.
+
+`final_plan.py` freezes source/evidence inputs, measures actual bar structure, constructs an arrival/acid/rave/DnB/hard/late-night/closing arc and indexes reserve material. It sizes the real warped timeline with a fifteen-minute margin above nine hours, excluding added loops. `render_set.py` builds an editable compact-source master project, renders bounded chapters with two-second handles, checks native readback and overlapping PCM, then streams one continuous FLAC and MP3 backups. `export_final.py` allowlists public source/edit evidence; private paths, identities, votes and raw provider responses stay ignored.
+
+Checkpoint checks: **100 Python tests pass**. An actual approved Opus source rendered natively with correlation 0.99999949 against the independently decoded reference. Separate procedural chapter renders agreed exactly at their overlapping seam (peak/RMS PCM error 0). The first 51-minute real-source production check passed native format/headroom checks; delivery QA found a 1.27-second quiet passage already present in the recording before a drop. Final QA accepts only source-proved pauses up to two seconds inside a continuous clip; unexplained gaps still fail. That earlier check is not the final programme.
+
 ## Expected delivery
 
 An editable REAPER project and bound edit manifest; continuous lossless master; sequential chapter files; MP3 fallback; timestamped tracklist and M3U8; short representative preview; measured duration, peaks/loudness, silence and transition checks. Chapter rendering avoids the ordinary WAV 4 GB boundary. Physical output testing belongs to the separate routing task and cannot be inferred from an offline render.

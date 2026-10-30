@@ -6,7 +6,7 @@
 |---|---|
 | Living-room party house | [Playlist and exports](living-room/README.md) |
 | Bedroom rave music and premixed set | [Current batch, preparation and playback tests](bedroom/README.md) |
-| Mac, speakers and timing | [Orchestration plan](mac-orchestration.md) |
+| Mac, speakers and timing | [Orchestration plan](mac-orchestration.md) · [Prepared stereo player and cable-arrival setup](output-playback/README.md) |
 | Muted TV programme | [Films and visuals](tv-visuals.md) |
 
 Both rooms need at least nine hours after cuts/transitions. The [October 29 shared curation status](curation-status-2026-10-29.md) is the current source for approved counts, raw durations, planning targets and mix refinements. The live main playlist and approved library are different inventories. Coordinate the party energy curve with [run of show](../operations/run-of-show.md). Local track files, live Spotify collections and DJ-ready audio are different states; verify before calling a playlist ready.

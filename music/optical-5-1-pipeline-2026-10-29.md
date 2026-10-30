@@ -1,6 +1,6 @@
 # Optical 5.1 playback investigation · October 29
 
-Status: **offline software proof passed; optical hardware and simultaneous speaker synchronization untested**. This is an optional experiment alongside the [stereo USB/optical playback baseline](mac-orchestration.md#fine-output-tuning--proposed-refinement), not a replacement selected by the host. No hardware purchase, app installation, device-setting change or audible playback was performed.
+Status: **deferred for the party deadline, October 30.** The host's cable arrives October 31 and guests start around 8–9 p.m. EDT; the additional dual-format synchronization work is substantial. Use the [prepared stereo player](output-playback/README.md). The offline software proof below passed, but optical hardware and simultaneous encoded/PCM playback remain untested. No encoded player has been installed or selected as the event route.
 
 ## Proposed signal path
 

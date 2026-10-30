@@ -1,8 +1,10 @@
 # Physical entities and NFC
 
+**October 30 correction:** host has **no sticks in hand**. [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) owns replacement sourcing for Sunday-delayed sticks, mask/stand, deer/rabbit and twine; all fifteen IDs remain. New substitute props are proposals, not bought or camera-enrolled.
+
 ## Current October 29 • fifteen guardians, one moon
 
-[All 15 coverage and sources](guardian-coverage-2026-10-29.md) is the current roster. The single Moon Well moon is **DEC-01 The Moon That Stayed and the listener**; **DEC-04 The Last Seed** is a bought pumpkin candy holder on the Grove nightstand. Golden tree is central in the living room. Host owns LEGO fox and sticks; rabbit/deer/owl/raven/skull and remaining selected decor/materials are now host-confirmed ordered; receipt/build/camera tests remain pending. [Exact buys/status/totals](../../decor/urgent-buy-list-2026-10-29.md). No duplicate moon/crescent, fox/sticks, animal pack, NFC/tag markers or crown orders.
+[All 15 coverage and sources](guardian-coverage-2026-10-29.md) is the current roster. The single Moon Well moon is **DEC-01 The Moon That Stayed and the listener**; **DEC-04 The Last Seed** is a bought pumpkin candy holder on the Grove nightstand. Golden tree is central in the living room. Host owns LEGO fox; sticks are not in hand per October 30 correction; rabbit/deer/owl/raven/skull and remaining selected decor/materials are now host-confirmed ordered; receipt/build/camera tests remain pending. [Exact buys/status/totals](../../decor/urgent-buy-list-2026-10-29.md). No duplicate moon/crescent, fox, animal pack, NFC/tag markers or crown orders. Local sticks are now needed because the ordered pack is delayed.
 
 Host confirms image recognition replaces NFC. Final physical references and party-light phone tests remain required. Local narrative/catalog copy is updated with unchanged IDs/puzzle families; no deployment or runtime enrollment migration performed. Earlier NFC and purchase research below is history.
 

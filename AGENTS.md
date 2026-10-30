@@ -20,6 +20,8 @@
 
 - October 29 procurement closeout: host ordered **three USB-A supplies** and acquired **mini pumpkins**; use available minis as-is, no extra charger or pumpkin/gourd sourcing. Exact USB SKU/cost and mini count/cost unknown.
 
+- October 30 delivery exception: eight decor lines show Sunday November 1; current local alternatives in `decor/nyc-pickup-rescue-2026-10-30.md`. **Host corrects no sticks are in hand**; VILLCASE twigs are required, delayed material. Mask/stand/deer/rabbit replacements proposed, not bought; no cancellation/refund. **Exclude B&H** at host request; use confirmed GC Manhattan stand option. Preserve 15 guardian IDs.
+
 ## Task ownership
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.
 - `interactive-game/`: game rules, puzzles, physical entities/NFC and app. Read its nested instructions before changing game work.

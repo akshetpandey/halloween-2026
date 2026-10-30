@@ -1,5 +1,7 @@
 # Decor shopping status and historical wood/skull cart
 
+**Current October 30 delivery exception:** [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) lists eight Sunday-delayed lines and six locally stocked substitution proposals. Host corrects **no sticks in hand**. No blanket duplicate order: replace only delayed essential functions, skip loose leaves, soluble paper unresolved. No new purchase/cancellation/refund. B&H excluded; $39.99 GC Manhattan stand proposed. Existing USB supplies/minis stay covered.
+
 ## Current October 29 • all selected orders confirmed by host
 
 **Host reply: “Yes, all of those are ordered.”** This confirms all last selected decor/chocolates plus Govee floor lamp and Betopper LPC018 pair. Fills use AUTO; OPPSK/all DMX excluded. **Do not re-add/reorder selected products.** [Current order ledger](../../decor/urgent-buy-list-2026-10-29.md) · [Confirmation/quantities carried from cart](../../decor/order-confirmation-2026-10-29.json).

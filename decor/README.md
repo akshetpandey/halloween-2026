@@ -1,5 +1,7 @@
 # Decor
 
+**Current October 30:** [Sunday shipment / NYC pickup replacements](nyc-pickup-rescue-2026-10-30.md) supersedes the no-more-shopping note for eight delayed lines. Local mask/stand/rabbit/deer/willow/ribbon proposals; soluble-paper pickup unresolved. Host corrects **no sticks in hand**. B&H excluded; GC Manhattan stand in stock. Existing orders are not canceled and local replacements not purchased.
+
 ## Current October 29 • auto fills, no stage panel or DMX
 
 Host selected **Govee Grove lamp + Betopper LPC018 two-pack**, Hollow fills in **AUTO** mode. [Lighting choice/setup](lighting/cart-lighting-2026-10-29.md) totals $114.98 at last quotes; OPPSK/all DMX/QLC+ cue work dropped. [Current complete list/status/budget](urgent-buy-list-2026-10-29.md) owns procurement. Host now directly confirms all selected decor/chocolates, Govee lamp and Betopper fills ordered October 29. Do not reorder; actual receipt/charges/delivery and setup tests remain pending. Three USB-A supplies are ordered and mini pumpkins acquired; use available minis, no further pumpkin sourcing. Prior core choices and single moon/central tree/Last Seed remain. Earlier rig/prices/status below are history.

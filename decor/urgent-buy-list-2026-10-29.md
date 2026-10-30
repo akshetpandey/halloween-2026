@@ -1,12 +1,14 @@
 # Decor and lighting orders — October 29, 2026
 
+**October 30 delivery exception — current:** eight ordered lines now show **Sunday, November 1**: mask, stand, VILLCASE sticks, PerkHomy twine, rabbit, deer, loose leaves and soluble paper. See [October 30 NYC pickup rescue](nyc-pickup-rescue-2026-10-30.md) for exact quantities, confirmed local stock and replacement proposals. **Host corrects earlier ownership: no sticks are in hand.** Old no-more-buying/spare-stick statements below are superseded for these delayed needs. Other orders remain ordered; no cancellation, replacement purchase or refund performed. B&H excluded at host request; Manhattan Guitar Center is the stand recommendation.
+
 **ORDERED — direct host confirmation October 29:** all current selected decor/chocolates, the Govee floor lamp and Betopper LPC018 fill-light pair. **Do not buy these again.** Hollow fills run in **AUTO**; OPPSK/all DMX remain excluded. [Confirmation record](order-confirmation-2026-10-29.json) · [Inventory/allocation ledger](purchases-and-allocations-2026-10-29.json).
 
 Quantities below are carried from the last cart/selected variants, not receipt-verified. Prices are previous quotes, **not actual charges**. New selections quote $681.85 including $19.97 food; earlier reported ordered goods quote $281.07. Actual delivery dates/windows, quantities received, charges and tests remain unchecked. The earlier October 31 offers were pre-checkout estimates.
 
 **Earlier nine lines also ordered:** six fleece, four moss sheets, Hollow Command hooks, suction cups, binder clips, thin cloth two-pack, gaffer tape, zip ties and forest curtain. [Original ordered quantities and shared cuts](shopping-ready.md). New confirmation adds every selected core product and the two light product lines; a later host update also confirms **three USB-A supplies ordered and mini pumpkins acquired**. Other household/reuse checks remain.
 
-**Already owned:** central gold tree/LIFX, LEGO red panda for fox, sticks for all five handmade guardians. Single moon/listener remains in Moon Well; The Last Seed is the pumpkin candy holder at the Grove nightstand. [All 15 guardians](../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Grove displays](living-room/grove-shrines-2026-10-29.md).
+**Already owned:** central gold tree/LIFX and LEGO red panda for fox. **Sticks are not owned**, corrected by host October 30; delayed VILLCASE pack must be replaced for the five handmade guardians. Single moon/listener remains in Moon Well; The Last Seed is the pumpkin candy holder at the Grove nightstand. [All 15 guardians](../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Grove displays](living-room/grove-shrines-2026-10-29.md).
 
 ## Other lighting ordered — do not add again
 
@@ -45,7 +47,7 @@ The **galvanized American Metalcraft 1.16-gallon bucket, $18.26**, is now host-c
 | [Veronese Design barn owl on branch](https://www.amazon.com/dp/B0CL6Q1L2X) | 1 | $29.12 | Owl guardian. Bigger replacement for rejected 2.75-inch Safari owl. |
 | [Pacific Giftware raven on stump](https://www.amazon.com/dp/B006JOVKFA) | 1 | $22.91 | Raven guardian. Bigger replacement for rejected 3-inch Safari bird. |
 | [Veemoon resin wolf skull](https://www.amazon.com/dp/B0BCGRT7ZQ) | 1 | $17.39 | Wood-and-bone shrine centerpiece on proposed 20×40-inch moss-covered surface. Large branch/ivy/lights already shared; no second branch order. |
-| [VILLCASE / 50 craft sticks](https://www.amazon.com/dp/B0CYB7N1GG) | 1 | $20.49 | Extra selected pack; existing sticks already covered the five figures. Host confirms all selections ordered; use as spare if received, no further pack needed. |
+| [VILLCASE / 50 craft sticks](https://www.amazon.com/dp/B0CYB7N1GG) | 1 | $20.49 | Required for five handmade figures: host corrects October 30 that no sticks are in hand. Amazon now shows Sunday November 1; source local willow per the pickup rescue. This is not an extra/spare pack. |
 | [Whaline 300Pcs Fall Artificial Maple Leaves 3.35 Inch Fake Mixed Autumn Leaves Thanksgiving Table Decor Assorted Colors Faux Fall Leaf for Thanksgiving Weddings Festival Events Party Crafts](https://www.amazon.com/dp/B074N67JFG) | 1 | $6.64 | One 300-piece autumn leaf pack, fixed sparingly on Grove wall vines/shrines/table scenic edges; no loose leaves on dance floor or food-contact surfaces. |
 | [Sukh natural raffia /3bundles](https://www.amazon.com/dp/B0C5CHH5SB) | 1 | $6.99 | One Sukh three-bundle raffia craft string pack covers small twig-figure binding/wrapping and scenic ties. Use ordered zip ties for joints where needed. No separate jute roll; raffia is not structural suspension. |
 | [Elmer’s white school glue /4floz1count](https://www.amazon.com/dp/B000Q3KHCM) | 2 | $2.34 | One 4-ounce glue bottle for five small stick/raffia figures and optional reused card details. No paint kit, moon craft or sculpted desk Guardian; last cart had two bottles; one suffices for plan and other is spare if received. Last cart quantity two; carry as ordered quantity pending receipt, no additional bottle needed. |
@@ -68,7 +70,7 @@ The 67-inch second branch is now a selected extra Grove wall branch, replacing o
 
 ## Spares — no extra order
 
-The last selected cart contained a stick pack despite existing sticks, two glue bottles and 100 tea lights. Host confirms all selections ordered; keep those quantities in the quote-based budget until receipts establish any changes. These can be spares if received. Do not add the earlier optional 24-candle pack or initiate returns/cancellations from this plan.
+The last selected cart contained a stick pack, two glue bottles and 100 tea lights. **October 30: the stick pack is required and delayed, not a spare; no sticks already owned.** Host confirms all selections ordered; keep those quantities in the quote-based budget until receipts establish any changes. The second glue bottle and surplus tea lights can be spares if received. Do not add the earlier optional 24-candle pack or initiate returns/cancellations from this plan.
 
 ## Mini pumpkins acquired; household setup only
 

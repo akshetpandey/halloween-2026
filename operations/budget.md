@@ -1,5 +1,7 @@
 # Budget, sourcing and purchase ledger
 
+**October 30 delivery rescue — proposed, not spending:** [Local replacement run](../decor/nyc-pickup-rescue-2026-10-30.md) quotes six lines at **$131.45 before tax / $143.28 with 9% planning allowance**, assuming one willow bundle and online deer price. Aim around $150; **$200 contingency proposed** for variation/second bundle/paper if sourced. Keep original purchases in the estimate until an actual cancellation/refund; no credit assumed. Prior $1,241.18 + $200 = $1,441.18 as a scenario only. Actual orders now show a Govee 3 Lite, a four-string badge and PerkHomy twine, differing from earlier cart assumptions; full invoice reconciliation remains open, so the previous quote-based envelope is not a current paid total. Host has no sticks in hand; the delayed VILLCASE pack is required, not spare. B&H excluded; no agent purchase.
+
 ## Current October 29 • Govee + AUTO fills; stage/DMX dropped
 
 Host selected Govee floor lamp $64.99 + Betopper LPC018 two-pack $49.99 = **$114.98** at tonight's last quotes. **OPPSK, USB-DMX interface, short DMX cables and terminators removed**, $226.96 prior hardware avoided. No QLC+ or music cue integration. **Retire entire $450 inclusive lighting reserve** and count the selected $114.98 in ordinary merchandise/tax once. [Current list](../decor/urgent-buy-list-2026-10-29.md) · [Decision/cost evidence](../decor/research/auto-fill-selection-2026-10-29.json).

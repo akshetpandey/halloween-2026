@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 • Sunday delays and local decor rescue
+
+Host asks for NYC pickup today and corrects **no sticks already owned**. Live Amazon shipment group shows Sunday November 1 for mask, stand, VILLCASE twigs, PerkHomy twine, deer, rabbit, fall leaves and soluble notes. Host excludes B&H for distance/early closing. [Current pickup proposals](../decor/nyc-pickup-rescue-2026-10-30.md): GC Manhattan MS235, Chelsea willow/Kraft ribbon/gold stag, W 15th rabbit plush and Queens Place Swamp Monster mask; six lines $131.45 before tax. Skip replacing loose leaves; soluble-paper pickup unresolved, folded-note alternative only proposed. No substitute accepted/bought from the request alone; no cancellations/refunds. Retain 15 IDs/5+5+5 and enroll final actual props. No extra pumpkins/USB/DMX sourcing.
+
 ## October 29 • USB supplies ordered, mini pumpkins acquired; shopping closed
 
 Host reports **three USB-A power supplies already ordered** and **mini pumpkins acquired**, with other local stores out. Use available minis as-is; no larger/replacement pumpkin search or fixed four-gourd requirement. Close extra USB/pumpkin procurement. Exact charger product/packaging/charge, mini count and cost not supplied; do not assign the old Amazon Basics two-pack/four-supply SKU to this order. Existing $27.74 USB and $35 pumpkin amounts remain budget placeholders once, not actual charges or additional shopping. Overall estimate remains $1,241.18; receipts/setup/testing remain. [Current list](../decor/urgent-buy-list-2026-10-29.md) · [Structured inventory](../decor/purchases-and-allocations-2026-10-29.json).

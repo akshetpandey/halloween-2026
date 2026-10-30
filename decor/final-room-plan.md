@@ -63,7 +63,7 @@ Add a separate reachable **galvanized water pail +dry paper/pen tray** for priva
 
 ## Place all 15 entities
 
-**5 decor +5 bought +5 handmade**, not fifteen new orders. Discovery now uses image recognition. Photograph/enroll final real props in actual lighting, hold out test views, and check each distinct guardian/background. Owned LEGO red panda covers the fox and sticks for all five handmade figures are acquired. New animal props aim for about 6 in in one dimension. No NFC tags or tag-cover moon stickers. [Physical roster](../interactive-game/physical/entity-plan.md) and [camera acceptance](../interactive-game/app/guardian-camera-prototype.md) own game identity and software work.
+**5 decor +5 bought +5 handmade**, not fifteen new orders. Discovery now uses image recognition. Photograph/enroll final real props in actual lighting, hold out test views, and check each distinct guardian/background. Owned LEGO red panda covers the fox. **October 30 correction: no sticks are in hand**; delayed VILLCASE pack needs local replacement. [Delivery/pickup plan](nyc-pickup-rescue-2026-10-30.md) covers the five handmade figures and delayed mask/stand/deer/rabbit without changing layout or IDs. New animal props aim for about 6 in in one dimension. No NFC tags or tag-cover moon stickers. [Physical roster](../interactive-game/physical/entity-plan.md) and [camera acceptance](../interactive-game/app/guardian-camera-prototype.md) own game identity and software work.
 
 | ID | Proposed position | Distinct object |
 |---|---|---|

@@ -1,8 +1,10 @@
 # Two costume shopping and order status
 
-**Latest October 29:** [30](30-eerie-woodland-amazon-2026-10-29.md#what-to-order-for-this-render--latest-october-29) owns the three-piece charcoal-wrap / opaque black shirt / Black Levi's order list and exact Saturday refresh. Crown/torc/cuffs/shoes reused. Those garments remain unconfirmed purchases, $91.44 before new tax. Brocade/green/waist-reference directions are history.
+**Latest October 29:** [30](30-eerie-woodland-amazon-2026-10-29.md#what-to-order-for-this-render--latest-october-29) owns the current charcoal-wrap outfit status. **Host reports wrap/shirt ordered and Levi's already owned; Friday October 30 superglue pickup planned.** Crown/torc/cuffs/shoes reused. New garment charge/checkout ETA and actual glue pickup remain unverified; last wrap/shirt quote $38.98 before tax. Brocade/green/waist-reference directions are history.
 
 ## Current order and planning reconciliation • October 29
+
+**Later host confirmation:** “placed an order, I already have the levis. I can pick up superglue tomorrow.” In the context of the immediately preceding list, record wrap/shirt as user-reported ordered and Levi's as owned. Do not infer the owned jeans' exact model/size, new checkout amount/tax, receipt or final ETA. Friday October 30 local glue pickup is a plan, not a completed purchase. Actual new charges need reconciliation; the last checked $22.99 + $15.99 = **$38.98** remains an estimate.
 
 Signed-in Amazon product banner and actual Order Details, checked about **11:10 p.m. EDT October 29**, confirm an additional existing user order: **Loctite Super Glue Ultra Gel Control / 1 Pack, [B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y)**, **placed October 29, arriving Saturday October 31**. One product: $4.49 merchandise + $0 shipping + $0.40 estimated tax = **$4.89 order grand total**. This was discovered read-only; the agent did not place/change the order. No private order IDs, payment details or address stored. Actual receipt, settlement and crown repair unverified; Saturday arrival does not meet [26's full 24-hour pre-wear cure plan](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue).
 
@@ -11,13 +13,14 @@ Signed-in Amazon product banner and actual Order Details, checked about **11:10 
 | Earlier three costume orders | $196.59 | Historical account-confirmed totals, incl. estimated tax |
 | Crown-repair Loctite order | $4.89 | Existing user order, account-confirmed October 29, arriving Saturday |
 | **Known four-order basis** | **$201.48** | Includes $9.52 estimated tax; not settled-payment/receipt proof |
-| New wrap + shirt + Black 578 proposal | $91.44 | Still to order/unconfirmed, before new tax; replaces old optional $110 jeans quote |
-| Remaining small-supplies allowance | $15.11 | Existing $20 allowance minus the $4.89 glue order; glue counted once |
+| Wrap + shirt, user-reported ordered | $38.98 estimate | Last checked merchandise quotes, not actual new order total; checkout tax/ETA unverified |
+| Levi's already owned | $0 new | Host confirmation; exact model and historical charge unknown, no new jeans buy |
+| Remaining small-supplies allowance | $15.11 | Existing $20 allowance minus $4.89 Amazon glue order; Friday local pickup cost unknown, to reconcile here |
 | Remaining tax/price reserve | $20.88 | Retained planning cushion, not an extra charge |
-| **Revised planning envelope** | **$328.91** | $201.48 + $91.44 + $15.11 + $20.88; not a shopping order |
-| **Headroom under unchanged $500 ceiling** | **$171.09** | Planning headroom, not a remaining-cash balance |
+| **Revised planning envelope** | **$276.45 estimate** | $201.48 + $38.98 + $15.11 + $20.88; actual new clothing/pickup charges pending |
+| **Headroom under unchanged $500 ceiling** | **$223.55 estimate** | Planning headroom, not a remaining-cash balance |
 
-If all three garments are later ordered at the checked prices, known-order basis plus new merchandise would be **$292.92 before new garment tax/fees**, not current spending. Do not add $91.44 on top of the older optional $110 jeans basket, or buy/count another glue/cuff/crown/torc. No garment order was reported or comprehensively audited in this refresh; the three product pages show no prior-purchase banner. No return/refund assumed.
+The prior $91.44 three-garment proposal and $52.46 new-jeans quote are superseded, not extra purchases or refunds. The audited $201.48 order basis plus last-quoted $38.98 new garment merchandise is **$240.46 before new garment tax/fees**, an estimate rather than confirmed total spending. Existing Saturday Loctite order remains counted; any Friday local glue purchase must be recorded separately at actual cost, not treated as a refund/cancellation. No new order audit or external account action performed this turn.
 
 Everything below preserves earlier dated order/night/fit history; current clothing and repair status are above/in 30.
 

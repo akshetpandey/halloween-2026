@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29: charcoal-wrap / black-shirt / black-Levi's preview completed.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns private final/prompt and refreshed exact Saturday Amazon offers. Crown/torc/cuffs retained, clean-shaven likeness carried from earlier preview because original photo absent. Earlier [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) brocade/green render retained as history; actual olive trousers disfavored. No new final outfit selection/order/physical test; belt/sash disfavored. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
+**Current October 29: charcoal-wrap / black-shirt / black-Levi's preview completed.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns private final/prompt and refreshed exact Saturday Amazon offers. Crown/torc/cuffs retained, clean-shaven likeness carried from earlier preview because original photo absent. Earlier [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) brocade/green render retained as history; actual olive trousers disfavored. **Later October 29 host confirmation:** wrap/shirt ordered, Levi's already owned; Friday October 30 superglue pickup planned. No new jeans purchase needed; actual garment delivery/fit and crown repair pending. Belt/sash disfavored. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
 
 ## Historical brief • through October 23
 

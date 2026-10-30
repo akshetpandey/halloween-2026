@@ -11,13 +11,13 @@ October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 3
 | [Dhthdrh charcoal distressed wrap](https://www.amazon.com/dp/B0H4SZNTVL?th=1) | Black, one-size set; $22.99 | Ordered, host report October 29; pins/brooch included in listing |
 | [JEMITOP opaque sleeved shirt](https://www.amazon.com/dp/B0CR38X65T) | Black-b / Small, short sleeves; $15.99 | Ordered, host report October 29 |
 | Black Levi's | Host already has them; exact owned model/wash/size not restated | Owned, no new $52.46 jeans charge inferred |
-| Superglue | Gel CA for the small snug decorative crown breaks | Host plans local pickup Friday October 30; not acquired yet |
+| Superglue | [CVS Loctite Gel Control 4 g](31-local-superglue-pickup-2026-10-29.md), listed $4.49 | In Stock at 27 N. 6th Street on website; Friday 8 a.m.–11 p.m.; pickup not completed |
 
 The wrap/shirt last-quoted merchandise sum is **$38.98 before tax**, replacing the earlier three-piece $91.44 proposal. Actual new order total unknown. [09](09-final-weekend-shopping-2026-10-21.md#current-order-and-planning-reconciliation--october-29) owns accounting. At the earlier 11:08–11:10 p.m. buy-box check all three sourced offers showed Saturday October 31; that source evidence is not an independently verified ETA for the new order. The sourced 578 remains a visual reference, not proof of the owned pair's model.
 
 **Reuse:** compact Sosation bone crown, NauticalMart gold torc, Karace Style B cuff pair, owned Levi's and shoes. No extra garment/accessory purchase required for the depicted look. Wrap quality (no visible reviews), drape and actual fit remain untested.
 
-**Existing Saturday glue order:** [Loctite Ultra Gel Control / 1 pack B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y), independently checked earlier October 29, arriving Saturday October 31, **$4.89 total including estimated tax**. Friday local pickup is now the host's earlier-glue plan; no cancellation, refund or replacement of that Amazon order performed or assumed. Local pickup product, store and cost unknown; no local stock promise. Do not buy another online glue listing on the old Saturday timetable.
+**Existing Saturday glue order:** [Loctite Ultra Gel Control / 1 pack B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y), independently checked earlier October 29, arriving Saturday October 31, **$4.89 total including estimated tax**. Friday local pickup is the host's earlier-glue plan; [31](31-local-superglue-pickup-2026-10-29.md) now verifies a nearby CVS source. Actual pickup/cost pending; no cancellation, refund or replacement of that Amazon order performed or assumed. Do not buy another online glue listing on the old Saturday timetable.
 
 **Repair plan:** pick up gel superglue Friday and repair the crown Friday early enough to allow **24 hours before wearing Saturday night**, following [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). Pickup and completed repair/cure remain pending. This addresses the timing plan without treating the work as done.
 

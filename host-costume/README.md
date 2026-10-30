@@ -2,13 +2,15 @@
 
 ## Current • October 29
 
+**Friday glue pickup sourced:** [31](31-local-superglue-pickup-2026-10-29.md) owns **Loctite Gel Control 4 g, CVS 27 N. 6th Street**, item-specific In Stock / listed $4.49; live store hours Friday October 30 **8 a.m.–11 p.m.** No purchase/hold; actual repair/cure pending.
+
 **Clothing ordered / owned:** host reports the charcoal wrap and opaque black shirt ordered, and Levi's already owned. [30](30-eerie-woodland-amazon-2026-10-29.md#what-to-order-for-this-render--latest-october-29) owns exact intended pieces and current readiness; no extra jeans, cape, vest or jewelry needed. [09](09-final-weekend-shopping-2026-10-21.md) owns accounting: actual new charges/ETA unknown, last wrap/shirt merchandise quote **$38.98**. **Friday October 30 local gel-superglue pickup planned**, then crown repair with a full 24-hour cure; actual pickup/repair/fit pending. Existing Saturday Loctite order remains unchanged.
 
 **Selected direction:** eerie woodland charcoal wrap, opaque short-sleeved black shirt, owned black Levi's, compact bone crown, gold torc and cuffs. [30's personalized preview](30-eerie-woodland-amazon-2026-10-29.md#requested-charcoal-wrap-personalized-preview--october-29) is complete; private likeness/prompt stays ignored. Brocade, brown leaf mantle and olive trousers are superseded. Wrap listing has no visible reviews; delivery, drape and fit untested. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) owns crown repair instructions.
 
 **Fur too hot; feathers rejected; face clear and crown compact.** [24 — party reference study](24-party-reference-led-direction-2026-10-27.md) retains the actual lookbook/guardian vocabulary. [22](22-hollow-court-reuse-redesign-2026-10-27.md) retains an older Small/Burgundy source, not a purchase or freshly verified offer. 23's feather preview is rejected history.
 
-The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) owns purchases; physical fit remains untested. No agent orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-clothing-ordered.md).
+The antler/veil parts, two-hour fabrication and seller investigation in 17–21 are **retired requirements**, not a current buying list. [09](09-final-weekend-shopping-2026-10-21.md) owns purchases; physical fit remains untested. No agent orders, returns or messages. $500 ceiling, game mechanics, guest copy and separate winner crown unchanged. [Current handoff](handoff-2026-10-29-local-glue-pickup.md).
 
 ## Historical direction • through October 23
 

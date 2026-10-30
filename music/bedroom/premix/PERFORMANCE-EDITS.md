@@ -1,6 +1,6 @@
 # Featured DJ edits · October 30
 
-The host approved the smooth 1:43 transition, then asked for occasional more playful, skilled DJ moments using loops, beats and effects. This adds a **new, unreviewed 90-second performance edit** of the same DJ HEARTSTRING → Funk Tribu pair. The accepted sample remains unchanged. [Results](performance-results-2026-10-30.json) · [Full-set status](FINAL-SET.md).
+The host approved the smooth 1:43 transition, then asked for occasional more playful, skilled DJ moments using loops, beats and effects. The resulting **90-second performance edit is now host approved**: on October 30 the host said “Sounds good” and requested applying the approach variably and occasionally while completing the full Hollow mix. The accepted examples remain unchanged. [Results](performance-results-2026-10-30.json) · [Full-set status](FINAL-SET.md).
 
 ## The edit
 
@@ -34,7 +34,7 @@ Let original drops play afterwards. Avoid repeated build/drop tricks on adjacent
 - Delivered MP3: **90.201 seconds, stereo 48 kHz / 320 kbps, −16.7 LUFS / −2.1 dBTP**, no unexplained silence. Every used original/stem/print hash and current shared Keep is rechecked around native rendering.
 - Five new tests cover exact roll duration, invalid stage rejection, detection of an actually shifted repeat, bass removal without changing frame count, and wet-only beat-spaced echo decay. Complete premix suite: **139 tests passed**.
 
-Measurements cannot establish whether the edit feels exciting. The new sample is unreviewed; the host's musical approval still applies only to the prior 1:43 example. No hardware routing, physical playback, purchases or account changes were made.
+Measurements cannot establish whether an edit feels exciting. The host has now approved both short examples; that does not establish listening approval of the uncompleted full set. No hardware routing, physical playback, purchases or account changes were made.
 
 ## Runtime and reproduction
 

@@ -4,6 +4,24 @@ from single_lead_timeline import compile_timeline
 
 
 class SingleLeadTests(unittest.TestCase):
+    def test_reset_bridge_excludes_both_musical_leads_and_cannot_pad_fresh_runtime(self):
+        tracks=[];cues={};ordered=[]
+        for ident,bpm in [('a',160),('b',135)]:
+            tracks.append({'id':ident,'artist':ident,'title':ident,'path':ident+'.wav','sha256':ident*64,'lane':'Techno'})
+            start=.1;body_end=start+256*60/bpm
+            cues[ident]={'grid':{'bpm':bpm},'body':{'start':start,'body_end':body_end,'end':body_end+32*60/bpm,'phrase':{}},
+                         'parts':[{'role':r,'path':ident+r+'.wav','sha256':ident+r,'offset':.02} for r in ['intro','outro']]}
+            ordered.append({'id':ident,'programme_role':'party','programme_chapter':ident,'entry_transition':'percussion_tempo_bridge' if ident=='b' else 'single_lead'})
+        result=compile_timeline(ordered,tracks,cues,{'a':0,'b':0});join=result['joins'][0];design=join['arrangement_design']
+        self.assertEqual(join['kind'],'percussion_tempo_bridge')
+        self.assertAlmostEqual(result['end']-result['fresh_seconds'],join['overlap_seconds'])
+        for definition,binding in zip(result['definitions'],result['native_source_bindings']):
+            if binding['kind']!='original':continue
+            for clip in definition['clips']:
+                overlap=min(clip['position']+clip['length'],design['mix_end_seconds'])-max(clip['position'],design['mix_start_seconds'])
+                self.assertLessEqual(overlap,.00501)
+        self.assertEqual(design['lead_schedule'][0]['primary'],'percussion')
+
     def test_full_stereo_leads_meet_exactly_and_loops_add_no_runtime(self):
         tracks=[];cues={};ordered=[]
         for ident,bpm,role in [('a',150,'party'),('b',148,'party'),('c',132,'reserve')]:

@@ -29,7 +29,7 @@ def verify_components(report,native,allowed):
             raise ValueError('Native component file changed')
         if binding['kind']=='original':
             if sha!=parent:raise ValueError('Original component is a different source')
-        elif binding['kind']=='drums':
+        elif binding['kind'] in ('drums','effect'):
             if (ident,parent) not in registry.get(sha,set()):
                 raise ValueError('Drum component lacks source-bound cue evidence')
         else:raise ValueError('Unknown native component kind')

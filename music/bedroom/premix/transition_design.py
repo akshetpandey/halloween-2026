@@ -29,13 +29,20 @@ def validate_design(join):
     for part in schedule:
         if abs(part['start_beat'] - cursor) > 1e-6 or part['end_beat'] <= cursor:
             raise ValueError('Lead ownership has a gap or overlap')
-        if part['primary'] not in ('outgoing', 'incoming'):
+        if part['primary']=='percussion' and not (join['kind']=='percussion_tempo_bridge' and design.get('percussion_only')):
+            raise ValueError('Percussion-only ownership needs an explicit reset bridge')
+        if part['primary'] not in ('outgoing', 'incoming', 'percussion'):
             raise ValueError('One primary musical lead is required')
         if not part.get('supporting_audio'):
             raise ValueError('Lead ownership needs audio evidence')
         cursor = part['end_beat']
     if abs(cursor - beats) > 1e-6:
         raise ValueError('Lead ownership must cover the complete transition')
+    if join['kind']=='percussion_tempo_bridge':
+        times=design.get('variable_beat_times',[])
+        if len(times)!=int(beats)+1 or times[0]!=0 or any(not math.isfinite(t) for t in times) or any(b<=a for a,b in zip(times,times[1:])):
+            raise ValueError('Reset bridge lacks a complete monotonic actual beat map')
+        if abs(times[-1]-join['overlap_seconds'])>.0001:raise ValueError('Reset bridge duration disagrees with its beat map')
     swap = design.get('bass_swap_beat', -1)
     if not 0 <= swap <= beats or abs(swap/4 - round(swap/4)) > 1e-6:
         raise ValueError('Bass handover must land on an explicit bar')

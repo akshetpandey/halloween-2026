@@ -39,30 +39,37 @@ def expected_attacks(signal,sr,bpm,start,end):
     sufficient because it would merely restate the event-selection window.
     """
     import numpy as np
+    return mapped_attacks(signal,sr,np.arange(0,len(signal)/sr,60/bpm),start,end)
+
+
+def mapped_attacks(signal,sr,beat_times,start,end):
+    import numpy as np
     from scipy.ndimage import gaussian_filter1d,uniform_filter1d
     from scipy.signal import butter,find_peaks,sosfiltfilt
-    x=np.asarray(signal,float);period=60/bpm
+    x=np.asarray(signal,float);grid=np.asarray(beat_times,float);period=float(np.min(np.diff(grid)))
     if not 0<=start<end<=len(x)/sr or end-start<6:raise ValueError('Insufficient diagnostic window')
     band=sosfiltfilt(butter(3,[150,1000],fs=sr,btype='bandpass',output='sos'),x)
     envelope=np.sqrt(np.maximum(0,uniform_filter1d(band**2,size=max(1,round(.004*sr)))))
     flux=gaussian_filter1d(np.maximum(0,np.diff(envelope,prepend=envelope[0])),max(1,.001*sr))
     peaks,properties=find_peaks(flux,distance=round(.35*period*sr),prominence=np.quantile(flux,.99)*.2)
     times=peaks/sr;weights=properties['prominences'];within=(times>=start)&(times<end)
-    times=times[within];weights=weights[within];residual=(times+period/2)%period-period/2
+    times=times[within];weights=weights[within]
+    at=np.searchsorted(grid,times);left=np.clip(at-1,0,len(grid)-1);right=np.clip(at,0,len(grid)-1)
+    nearest=np.where(abs(times-grid[left])<=abs(times-grid[right]),left,right);residual=times-grid[nearest]
     selected=np.abs(residual)<=.04
     if np.count_nonzero(selected)<8:raise ValueError('Too few actual quarter-grid attacks')
     errors=residual[selected]*1000
-    coverage=len(set(np.rint(times[selected]/period).astype(int)))/((end-start)/period)
+    coverage=len(set(nearest[selected]))/max(1,np.count_nonzero((grid>=start)&(grid<end)))
     support=float(weights[selected].sum()/max(weights.sum(),1e-12))
     return {'median_error_ms':float(np.median(errors)),'p95_error_ms':float(np.percentile(np.abs(errors),95)),
             'attack_coverage':float(coverage),'weighted_support':support,'events':int(sum(selected)),
             'status':'checked' if coverage>=.3 and support>=.15 and np.percentile(np.abs(errors),95)<=25 else 'failed'}
 
 
-def check_window(signal,sr,bpm,split,end):
+def check_window(signal,sr,bpm,split,end,beat_times=None):
     measured=[]
     for a,b in [(1,split-.25),(split+1,end-.25)]:
-        decks=[expected_attacks(signal[:,ch],sr,bpm,a,b) for ch in range(2)]
+        decks=[mapped_attacks(signal[:,ch],sr,beat_times,a,b) if beat_times is not None else expected_attacks(signal[:,ch],sr,bpm,a,b) for ch in range(2)]
         difference=abs(decks[0]['median_error_ms']-decks[1]['median_error_ms'])
         measured.append({'decks':decks,'interdeck_phase_difference_ms':difference,'window_seconds':[a,b]})
     passed=all(c['status']=='checked' for w in measured for c in w['decks']) and all(w['interdeck_phase_difference_ms']<=15 for w in measured)
@@ -86,11 +93,13 @@ def audit(report_path,output,batch_size=12):
             parents=[report['tracks'][index]['id'],report['tracks'][index+1]['id']]
             for component,binding in zip(native['tracks'],report['native_source_bindings'],strict=True):
                 if binding['parent_id'] not in parents:continue
+                if binding['kind']=='effect':continue
                 clips=[crop_clip(c,start,stop,end) for c in component['clips']];clips=[c for c in clips if c]
                 if not clips:continue
                 definitions.append({'name':f'Join {index+1} · '+binding['parent_id'],'path':component['path'],'sha256':component['sha256'],
                     'gain_db':-9,'pan':-1 if binding['parent_id']==parents[0] else 1,'downmix_mono':True,'clips':clips})
-            windows.append({'index':index,'start':end,'end':end+duration,'split':design['handover_seconds']-start,'bpm':join['incoming_bpm']})
+            windows.append({'index':index,'start':end,'end':end+duration,'split':design['handover_seconds']-start,'bpm':join['incoming_bpm'],
+                            'beat_times':design.get('variable_beat_times')})
             end+=duration+.5
         folder=output/f'batch-{batch//batch_size:02d}'
         plan=save_plan(folder,'transition-diagnostic',definitions,end,[],master_db=-6,
@@ -100,7 +109,7 @@ def audit(report_path,output,batch_size=12):
         results=[]
         for window in windows:
             x=signal[round(window['start']*sr):round(window['end']*sr)]
-            try:check=check_window(x,sr,window['bpm'],window['split'],window['end']-window['start']-1/sr)
+            try:check=check_window(x,sr,window['bpm'],window['split'],window['end']-window['start']-1/sr,window['beat_times'])
             except ValueError as error:check={'status':'failed','reason':str(error)}
             index=window['index'];report['transitions'][index]['arrangement_design']['realized_timing']=check
             results.append({'index':index,'tracks':[report['tracks'][index]['id'],report['tracks'][index+1]['id']],**check})

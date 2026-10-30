@@ -2,10 +2,23 @@ import importlib.util
 import unittest
 
 from actual_audition import source_time
-from audit_single_lead import crop_clip,expected_attacks
+from audit_single_lead import crop_clip,expected_attacks,mapped_attacks
 
 
 class AuditTests(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec('numpy') and importlib.util.find_spec('scipy'),'audio environment')
+    def test_variable_tempo_diagnostic_uses_realized_nonuniform_beats(self):
+        import numpy as np
+        from percussion_bridge import clock
+        grid=np.array(clock(160,135)['beat_times']);sr=12000;t=np.arange(round(grid[-1]*sr))/sr
+        def audio(shift):
+            y=np.zeros_like(t)
+            for at in grid[:-1]+shift:
+                x=t-at;mask=(x>=0)&(x<.06);y[mask]+=.4*np.sin(2*np.pi*500*x[mask])*np.exp(-x[mask]/.01)
+            return y
+        self.assertEqual(mapped_attacks(audio(.002),sr,grid,1,grid[-1]-1)['status'],'checked')
+        with self.assertRaises(ValueError):mapped_attacks(audio(.08),sr,grid,1,grid[-1]-1)
+
     def test_crop_preserves_the_actual_source_warp(self):
         clip={'position':10,'length':20,'source_start':50,'rate':1,'stretch_markers':[{'position':0,'source':50},{'position':10,'source':59},{'position':20,'source':70}]}
         cropped=crop_clip(clip,15,25,100)

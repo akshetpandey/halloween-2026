@@ -1,6 +1,6 @@
 {
   "schema": "featured-transition-1",
-  "host_review": "unreviewed",
+  "host_review": "approved",
   "party_ready": false,
   "track_ids": [
     "hollow-02-005",
@@ -136,5 +136,6 @@
     "fdc31a94fd1de4a37aff79402645b35baa31a2a70e92bcc85c2b0d54540b4ecf",
     "83bfe114adc94cc2092c29f9f1a1bb0679d06a48b20ffe386d24a9ef262c516b"
   ],
-  "audio_committed": false
+  "audio_committed": false,
+  "host_review_note": "October 30: Sounds good; apply the creative approach occasionally and variably to the full Hollow mix"
 }

@@ -1,0 +1,76 @@
+{
+  "source": "canonical feedback; private full rows not exported",
+  "grove_keeps": 127,
+  "grove_cuts": 846,
+  "grove_pending": 0,
+  "approved_duration_ms": 25345244,
+  "historical_preview_request_count": 327,
+  "historical_preview_matched_count": 265,
+  "audio_validation": {
+    "catalog_same_subset": {
+      "roc_auc": 0.6045977011494253,
+      "average_precision": 0.3662918415946968,
+      "top15_keeps": 8
+    },
+    "audio_excerpt": {
+      "roc_auc": 0.5781609195402299,
+      "average_precision": 0.323039288502173,
+      "top15_keeps": 4
+    },
+    "audio_and_catalog": {
+      "roc_auc": 0.6268199233716475,
+      "average_precision": 0.38413120381202787,
+      "top15_keeps": 5
+    }
+  },
+  "audio_train_n": 146,
+  "audio_train_keeps": 66,
+  "audio_test_n": 119,
+  "audio_test_keeps": 29,
+  "publication_gate_passed": false,
+  "canonical_preservation": {
+    "events": {
+      "rows": 2874,
+      "unchanged": true
+    },
+    "feedback": {
+      "rows": 1623,
+      "unchanged": true
+    },
+    "host_feedback": {
+      "rows": 1583,
+      "unchanged": true
+    },
+    "reviewer_feedback": {
+      "rows": 257,
+      "unchanged": true
+    },
+    "reviewer_scores": {
+      "rows": 0,
+      "unchanged": true
+    },
+    "settings": {
+      "rows": 1,
+      "unchanged": true
+    },
+    "snapshots": {
+      "rows": 5,
+      "unchanged": true
+    },
+    "tracks": {
+      "rows": 1623,
+      "unchanged": true
+    }
+  },
+  "sqlite_integrity": "ok",
+  "new_batch_published": false,
+  "spotify_writes_sent": 0,
+  "candidate_research_slate_count": 14,
+  "candidate_slate_status": "private, unvetted, withheld; not an import-ready batch",
+  "verified_at": "2026-10-30T19:33:29Z",
+  "main_playlist_readback": {
+    "grove_count": 127,
+    "hollow_count": 222,
+    "exact_orders_match_prior_verified_snapshots": true
+  }
+}

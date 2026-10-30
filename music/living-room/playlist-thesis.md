@@ -1,71 +1,27 @@
-# October Grove playlist thesis
+# October Grove working thesis
 
-**Working thesis · editorial revision October 29, 2026.** The host found the broad thesis reasonable and requested Astra at maximum reasoning to suggest edits before new batches. [Applied review](editorial-review-2026-10-29.md). The dance-led center and this round's allocation are working selection interpretations; existing approvals and confirmed preferences remain authoritative.
+Updated October 30, 2026 after Grove 20 finished **0/15**. The [fresh assessment](grove-selection-reassessment-2026-10-30.md) supersedes the earlier dance-led sourcing allocations and similarity claims. Existing individual Keeps remain approved. The October 29 [editorial review](editorial-review-2026-10-29.md) is historical evidence, not the current selection instruction.
 
-**Latest correction · October 29, after Grove 18:** the host identified the miss as **too bland or low energy**. Preserve the happy, loving room brief and four references while prioritizing immediate vocal character, stronger rhythmic impact and a clear section payoff. [Grove 19](october-grove-batch-19.md) is a tighter 25-track calibration chosen by the agent after two 0/50 rounds. The earlier 40 core / ten adjacent allocation applied only to Grove 18.
+## Confirmed host instructions
 
-**Source-method update · October 30:** Grove 19 also finished 0/25; the host says Spotify recommendations are not great either and explicitly requests a batch from **DJ sets and curated compilations**, filtered using Keeps/Cuts. [Grove 20](october-grove-batch-20.md) tests 15 candidates from six published tracklists, with a specific Keep connection and exact version note per candidate. Existing taste boundaries remain; the prior Likes-first source rule is overridden for this batch. Full listening is not claimed. Vocal-text gaps are surfaced rather than called instrumental or positive. Review this test before expanding its sources.
+Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving. Music needs personality, strong hooks and enough development to hold attention. Avoid blandness, low perceived energy, dragging repetition, standalone intros/interludes/outros and artist/album overrepresentation. No acid/techno in Grove; avoid chart-pop/top-five-hit character and sad/negative lyrics. Individual approved exceptions remain approved.
 
-## The musical center
+Read all actual canonical Keeps, with host priority resolved in hosted `feedback`. Several directions may coexist. Remaining Likes and targeted discovery are both allowed. Preserve all histories and prior recording/version exclusions, and keep main Spotify playlists unchanged while testing candidates. Hollow content is finished and outside this session.
 
-October Grove is a lively, welcoming room built around rhythmic movement, memorable hooks and playful or sensual expression. Its emotional direction is happy, hopeful, loving and open to possibility. The music should keep people moving and engaged throughout the night, including when they are talking.
+## Working interpretation — open to revision
 
-For this round, use a **dance-led center** guided by the exact recordings of Now U Do, Makeba – Radio Edit, Joy and Kisses. Look for a clear rhythmic engine—bass, percussion or their interaction—plus a distinctive vocal or melodic hook. The main sections should keep bodies moving, with enough phrasing, contrast or arrangement development to sustain interest. Brief breakdowns and changes in density can earn their place when they return with purpose.
+The 127 Keeps support overlapping possibilities: hook-led club songs; sensual/theatrical electro and pop; rhythmic indie and complete songs; melodic lift; and percussive, playful records. These are descriptive hypotheses, not genre quotas. Four earlier host-selected references—Now U Do / Makeba / Joy / Kisses—are useful individual examples, alongside the other 123 Keeps. Song-led evidence is broader than Float On and Bruises.
 
-House, garage, percussive crossover and indie dance are useful search areas. Every recording needs to earn its place through its specific musical relationship to the references. Strong individual guitar and pop songs remain possible, as existing approvals demonstrate; they do not create an artist or genre exemption. Melody and sensuality matter alongside pace. A high BPM, energetic chorus or positive lyric cannot carry the whole decision.
+The most consequential missing variable is **the appeal of the exact recording**. That remains an inference about why selection failed, not a measured taste factor. Same-artist follow-ups repeatedly lost: salute has one Keep and ten Cuts, Confidence Man three Keeps and seven Cuts, Chairlift two Keeps and one Cut. More BPM, energy, valence or danceability often favors the rejected member of a close pair. Curated set membership did not fix that problem.
 
-The woodland theme can live in the atmosphere and textures. Preserve the Grove's welcoming movement and the contrast with the Hollow's hard, dark, fast rave character.
+Every future candidate should have a concrete Keep comparison **and a relevant rejected comparison**, with the evidence level stated. Catalog identity, published context, numerical audio measurements and listening are different. Do not turn an acoustic descriptor into a hook/voice/sexiness judgment, or an unknown lyric into a positive verdict. Listen beyond the opening when full authorized audio is available; a preview cannot establish whole-song development.
 
-## Exact reference recordings
+## Validation and current action
 
-The host selected these four as the closest direction. The descriptions are working interpretations, not measured musical properties or new host statements.
+A fixed preview-signal selector was tested against later canonical votes before any new publication. Of 327 requested historical recordings, 265 had bounded Deezer preview matches. On the same 119 matched later recordings, catalog-only, audio-only and combined models found **8, 4 and 5 Keeps** in their top 15. The combined model's **AUC .627** also failed the preset .70 gate. This enriched subset cannot supply expected acceptance rates for discovery. [Methods, exact limitations and comparisons](grove-selection-reassessment-2026-10-30.md).
 
-| Reference | Quality to investigate in a candidate |
-|---|---|
-| [DJ Seinfeld, Confidence Man — Now U Do](https://open.spotify.com/track/6HzL348HHRk2dWHNzx42aj) | Bounce, a vocal with personality and physical momentum. |
-| [Jain — Makeba - Radio Edit](https://open.spotify.com/track/5FkBFIGzG8lYFktLyZNUq6) | Distinctive rhythmic phrasing and an immediate hook. |
-| [salute — Joy](https://open.spotify.com/track/17E3lZxFJnO49Gb0tdgVn0) | Melodic lift and forward motion. |
-| [BL3SS, CamrinWatsin, bbyclose — Kisses (feat. bbyclose)](https://open.spotify.com/track/2A1aS3mwuGuX2yk1bgxOvA) | Flirtation, melodic immediacy and quick, bouncy movement. |
+**No new batch was published.** A private 14-recording research slate is not an audition or a validated recommendation list. Do not reuse this failed selector to fill 15 positions. The proposed small test remains on hold for recording-level comparative evidence that actually distinguishes relevant Keeps from Cuts. No host re-rating, extra approval checkpoint or new manual scoring form is requested.
 
-[Float On — Modest Mouse](https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R) and [Bruises — Chairlift](https://open.spotify.com/track/4KCcxVTDOuOntQCaXZkN3R) remain explicit host additions. Their inclusion establishes room for those exact songs; it does not establish a sourcing quota or a broad indie direction.
+Current canonical totals are **127 Keeps / 846 Cuts / zero pending**, **7:02:25 raw**. Nine hours after actual transitions/cuts remains unmet; roughly 53 more similar-length Keeps is a planning estimate. A future successful slate should be small, varied, fully excluded against prior versions, independently screened for lyrics/pop character, and published through the existing atomic Playlist Lab workflow with preservation readback.
 
-## Confirmed boundaries
-
-- Keep the music upbeat, interesting, bouncy, melodic and sexy, with a happy, hopeful, loving overall direction.
-- Keep acid and techno out of the Grove. Some house overlap with the Hollow is acceptable; preserve distinct moods.
-- Avoid chart-pop/top-five-hit character, sad music and negative lyrics. Existing named Keeps remain approved individual choices.
-- Exclude standalone intros, interludes and outros, and reject arrangements that drag through repetition or empty sections.
-- Maintain recording, artist and album variety. Use current shared votes with host priority; a global Spotify Like is a source lead, not party approval.
-- Search suitable remaining Likes first and use the host-authorized targeted discovery when needed. Do not fill a batch with weaker fits to meet a source or count quota.
-
-## Selection checks for this round
-
-| Check | Required candidate note |
-|---|---|
-| Exact recording | Correct artist/version/catalog identity; no repeat from either room's review history or the old excluded pool. |
-| Anchor relationship | Name a primary reference and a specific rhythmic connection plus a hook, vocal or melodic connection. Same artist, genre and positive adjectives are insufficient. |
-| Movement and arrangement | Explain what should supply the pulse, what distinguishes this recording and any repetition or breakdown concern. |
-| Emotional and lyrical fit | Read credible context for vocal tracks. Support positive or neutral overall framing; defer unclear or mixed contexts this round. Instrumentals and minimal vocals can qualify without a literal love narrative. |
-| Pop boundary | Record familiar-hit or pop-production concerns separately. Avoid sourcing through hit lists or familiar-chorus appeal; use no automatic popularity or artist-reputation rule. Defer candidates that require an exception to the confirmed pop brief. |
-| Evidence | Distinguish direct audio observation, attributable descriptions, catalog descriptors and editorial inference. Never describe a musical feature as heard when it was not heard. |
-| Variety | Default to one candidate per lead artist where possible; maximum two appearances per credited artist and album. A second track needs its own case. |
-
-Keep the musical and lyric decisions separate. A cheerful title or optimistic chorus cannot excuse a predominantly sad or negative narrative. Explicitness does not establish sensuality or fit. The unclear pop and brief-adversity boundaries remain open to future host refinement; conservative deferral is the sourcing choice for this round, not a reason to change earlier Keeps.
-
-A useful note is concrete: **Closest reference: __. Proposed rhythmic connection: __. Hook/voice/melody connection: __. Distinctive addition: __.** Give the lyric verdict separately and identify the evidence. A persuasive note assembled from metadata alone remains an unverified musical hypothesis.
-
-## What the votes establish
-
-The latest sourcing expanded individual successes into broad artist and genre guesses. Grove 17's complete **0/50 Keep** result shows that the selection missed across all three editorial lanes, including its seven club/garage comparisons. It does not prove a single cause for every Cut or establish that dance-led sourcing is already successful.
-
-Shared Keeps remain recording-specific: [make you mine](https://open.spotify.com/track/48vIfHaK7by6x0T6ucpODL) stayed while [15 MINUTES](https://open.spotify.com/track/2Dazu1HgFj1geJOfKKFOpf) was cut; [Anna Sun](https://open.spotify.com/track/3e0yTP5trHBBVvV32jwXqF) stayed while [Different Colors](https://open.spotify.com/track/3RRRDZig4RNJhVGfwwOOFZ) was cut; [Come Together](https://open.spotify.com/track/50pJjHSDBz8DnHYAmHzqQ6) stayed while [Let's Love](https://open.spotify.com/track/4TPDqoA9k7jFtdigCgM2VT) was cut. No written reasons in these batches establish whether groove, voice, familiarity, arrangement or another quality decided those choices.
-
-At the October 29, 6:09 p.m. EDT check: Grove 14 was 11/50 Keep, Grove 15 17/50, Grove 16 6/40 and Grove 17 0/50. Grove remains **127 shared Keeps**. Both all-Liked and discovery-heavy passes have missed; source membership alone does not resolve musical fit.
-
-## Previous calibration · Grove 19 (closed 0/25)
-
-The previous **25-track calibration**, now fully rejected, tested: 11 vocal punch and playful confidence, eight rhythmic indie/dance-punk and six big melodic/electronic hook comparisons. These are editorial lanes, not a new host genre quota. Preserve specific rhythmic and hook/voice/melody relationships to the exact references, with independent mood and pop-context screens. Brief affirmative dynamics can earn their place; pleasant adjectives, positive words or a high catalog score cannot substitute for physical impact. No new approval checkpoint.
-
-New candidates add no approved runtime until kept. The nine-hour requirement remains a later finished-duration check; metadata completeness and a full batch do not establish that the revised direction has worked.
-
-[Current room plan](playlist.md) · [Editorial review](editorial-review-2026-10-29.md) · [Current Grove 20 audition](october-grove-batch-20.md) · [Previous Grove batch](october-grove-batch-18.md) · [Curation status](../curation-status-2026-10-30.md).
+[Room plan](playlist.md) · [Current status](../curation-status-2026-10-30.md) · [Reassessment handoff](handoff-2026-10-30-reassessment.md) · [Grove 20 archive](october-grove-batch-20.md).

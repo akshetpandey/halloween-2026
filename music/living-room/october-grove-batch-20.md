@@ -1,6 +1,6 @@
 # October Grove 20 · From the selectors
 
-October 30, 2026 · **15 new review candidates / 14 lead artists / 1:00:32 raw.**
+October 30, 2026 · **Closed: 0 Keeps / 15 Cuts.** The source-method test failed. The selection rationale below is historical hypothesis, not validated musical fit. See the [fresh assessment](grove-selection-reassessment-2026-10-30.md). Original batch: 15 candidates / 14 lead artists / 1:00:32 raw.
 
 [Review Grove 20](https://music.hollow-court.com/?room=living-room&batch=20) · [Spotify audition](https://open.spotify.com/playlist/7GxuJFhL5IMdGXghmMGd6p) · [Exact track data](october-grove-batch-20.json)
 

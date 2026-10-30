@@ -4,6 +4,19 @@
 
 **October 29 host instruction:** minimize handmaking, maximize Amazon components. This supersedes the 3–5 hour sculpted-card bark face/branching crown. No human DJ, animatronics or new furniture footprint. [Exact urgent orders](../urgent-buy-list-2026-10-29.md) · [Placement](../final-room-plan.md#the-hollow-accepted-corner-arrangement).
 
+## Heavy skull proposal: seated, hooded Guardian
+
+**Latest host observations October 30:** the Día de los Muertos head is pretty heavy, with a small opening underneath that is not very deep. Exact mass, dimensions, base contact shape and material remain unmeasured. Purchase/receipt not explicitly confirmed. Treat the shallow opening as insufficient evidence for a pole socket; no drilling, wedging a pole into the opening or head suspended from the broomstick proposed.
+
+Make the Guardian a seated figure at the automated desk. **The desk carries the head from underneath; the broomstick carries only light costume dressing.** This develops the already proposed tabletop option; host has not yet approved or physically tried this specific arrangement.
+
+1. Place a **single low, broad, rigid wooden box/crate** on the desk behind the laptop, between the speakers, if a suitable household piece exists. Its top must fully support the skull's footprint, be level and resist the actual load. Start with only enough height for the face to clear the laptop, approximately 6–8in as an illustrative trial rather than a measured requirement. Exact box/desk capacity and equipment clearance remain to check. No purchase or tall stack of boxes specified.
+2. Rest the skull on its base on the support. If it rocks, shape a shallow padded cradle with folded cloth/firm packing foam around its supported lower edge; keep all weight borne by the broad top, not a peg in the hole. The head must sit securely before dressing; no glue/tape-only support or untested clamp mount. Unknown base shape may require a different cradle.
+3. Put the hanger/crosspiece behind the head near neck/shoulder level, secured to the desk-attached broomstick if that attachment works. Drape the allocated black cloth as a deep hood and shoulders, with pale face visible. Cloth should hang loosely rather than pull on the head. Hide the rigid support with cloth, then attached moss/vines; keep laptop cooling, speakers and controls clear. No human DJ space or handmade hands required.
+4. Use existing red/violet fills and intact allocated fairy lights around the hood/roots. Closed-looking eye relief does not promise internal eye light. Trial rocking/sliding/tipping and actual visibility from the doorway, then photograph/enroll the finished DEC-03 under real lighting.
+
+This reads as an intentionally seated pretend DJ and can reuse household materials. It does **not** establish a safe raised head mount without checking the actual head/base/support/desk. If the face needs full standing height later, a suitable broad rigid pedestal needs separate fitting; the earlier microphone stand/mask mount is not automatically suitable for this heavy object. No new hardware buy, paid-cost change, physical test or game ID change.
+
 ## Proposed reuse support: owned broomstick
 
 Host reports an available broomstick and asks whether it can replace the microphone stand. **Recommendation: pause the $39.99 GC stand purchase and try the desk-supported broomstick first.** This is a proposal, not a host-confirmed final build or a tested mount. Original Sunday-delayed stand order stays ordered; no cancellation/refund.
@@ -16,7 +29,7 @@ For a lightweight foam/plastic head or mask:
 
 **For the pictured skull if ceramic/heavy:** support its full base on a sturdy low box/platform resting directly on the desk, covered in the allocated cloth, positioned clear of equipment and edge. The actual surface, box strength, head height and equipment clearance must fit. The broomstick can carry lightweight shoulders/vines behind it; do not balance the ceramic head on the pole or depend on glue/tape as the head's support. Use existing external lights if eye sockets are closed. No extra support purchase specified until the household trial.
 
-This could avoid the **$39.99 prior-quoted stand and GC detour**, with no new floor base footprint. It changes the earlier independent-stand proposal to desk attachment; neither arrangement is physically tested. Head material/weight and desk attachment remain unknown. No stage/light rig or bed restraint is being made. Final DEC-03 still needs reference photos and camera tests.
+This could avoid the **$39.99 prior-quoted stand and GC detour**, with no new floor base footprint. It changes the earlier independent-stand proposal to desk attachment; neither arrangement is physically tested. Host reports a heavy head; exact mass/material and desk attachment remain unknown. No stage/light rig or bed restraint is being made. Final DEC-03 still needs reference photos and camera tests.
 
 ## Earlier ordered mask/stand parts — historical reference
 

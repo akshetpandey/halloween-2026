@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-broomstick-support.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-heavy-skull-cradle.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2165,7 +2165,16 @@
       "priorStandQuoteUsd": "39.99",
       "conditionalQuoteExcludingHeadAndReplacementStandUsd": "67.94",
       "actualPaidSavingConfirmed": false,
-      "canonicalPlan": "decor/bedroom/woodland-guardian.md#proposed-reuse-support-owned-broomstick"
+      "canonicalPlan": "decor/bedroom/woodland-guardian.md#heavy-skull-proposal-seated-hooded-guardian",
+      "headObservationsFromHost": {
+        "description": "Día de los Muertos head reported pretty heavy",
+        "undersideOpening": "Small, not very deep",
+        "exactMassKnown": false,
+        "exactDimensionsKnown": false,
+        "baseContactShapeVerified": false
+      },
+      "heavyHeadProposal": "Seated hooded Guardian: fully supported head on a low broad rigid tabletop platform with padded cradle if needed; desk bears head load, broomstick only light hanger/hood/vines. Household piece and actual fit/stability unverified.",
+      "heavyHeadProposalAccepted": false
     }
   }
 }

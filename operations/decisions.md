@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 • wired wood picks selected for the five handmade guardians
+
+Host chooses the first alternative after unavailable willow: **one Ashland 6in wired wood pick 55-pack, item 10302745, previously listed $4.49**. Host wants color differences to help detection. [Current material and visual-distinction plan](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable) preserves five silhouettes and existing color accents; green pack is not assorted colors. Existing markers/card bands suffice; no paint kit or additional color purchase. Purchase, actual price, receipt, assembly, photos/enrollment and recognition tests remain unconfirmed. Dowels are backup only. Selected-stick route quote $125.43/$136.72 with planning tax, optional paper $135.42/$147.61; no paid-ledger adjustment, refund, new stock check or game code/ID change.
+
 ## October 30 afternoon • Manhattan Spirit replaces Fulton; closing times refreshed
 
 Host points out a closer Manhattan Spirit and requests updated shopping list/closing times. Official store locator confirms **Spirit Union Square #61240, 33 Irving Place at E16th, Friday8 a.m.–11 p.m.** Replace Fulton leg; no ram/alternate stock inferred. [Updated canonical list](../decor/nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times): conditional Keaton before6 → Michaels → Kidding before7 → GC → Spirit last. Michaels/GC close9, all verified on official sites around4:40 p.m. EDT. No new stock check/reservation/purchase/store contact. Superglue remains **one Loctite Gel Control4g $4.99** at Michaels; seven-item baseline unchanged $136.43/$148.71. Paper optional +$9.99 gives eight items $146.42/$159.60. Earlier Fulton route decisions below are history; original Amazon orders unchanged.

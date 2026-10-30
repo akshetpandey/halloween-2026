@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-stick-substitute.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-picks-selected.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2078,7 +2078,7 @@
       "willowAvailablePerHost": false,
       "storeNameAssumed": "Michaels Chelsea from current route; exact branch not restated by host",
       "newPurchasePerformed": false,
-      "replacementSelected": false,
+      "replacementSelected": true,
       "localReplacementStockVerified": false,
       "browserLimitation": "Michaels dowel page Access Denied; no bypass attempted",
       "candidates": [
@@ -2110,7 +2110,14 @@
       "dowelScenarioPlanningTaxUsd": "139.43",
       "dowelWithPaperBeforeTaxUsd": "137.91",
       "dowelWithPaperPlanningTaxUsd": "150.32",
-      "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable"
+      "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable",
+      "selectedItem": "10302745",
+      "selectionSource": "Host October 30: first option will do; wants color differences for detection",
+      "purchaseConfirmed": false,
+      "receiptConfirmed": false,
+      "visualDistinctionPlan": "Five distinct silhouettes plus contrasting card bands using existing markers; pack catalogued as green only. No added paint kit. Final reference photos and party-light recognition tests pending.",
+      "selectedQuoteBeforeTaxUsd": "125.43",
+      "selectedQuoteWithPlanningTaxUsd": "136.72"
     }
   }
 }

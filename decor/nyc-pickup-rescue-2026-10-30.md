@@ -10,6 +10,8 @@ If confirmed, add Keaton **after Michaels and before Spirit**; its 6 p.m. close 
 
 Paper is **not yet selected into the seven-item baseline**. If bought, add $9.99 before tax (~$10.89 with existing 9% planning allowance), making **eight items $146.42 / ~$159.60** including costume glue, or seven decor lines **$141.43 / ~$154.16**. Original Amazon paper remains ordered for Sunday; no refund assumed. Ordinary folded notes remain an unaccepted fallback, not dissolving paper.
 
+**Paper follow-up:** host is open to flash paper as another choice. [Tannen's alternatives and distinction from soluble paper](bathroom/dissolving-paper-pickup-2026-10-30.md#host-requested-flash-paper-alternatives--october-30-follow-up): 20 small sheets **$7.25**, or four larger sheets **$11**, both show online In stock; **same-day shop availability unconfirmed**. **45 W 34th, suite 608, 212-929-4500, closes 6 p.m. Friday**. Optional alternative to the Keaton detour, not a selected fifth/sixth stop or basket addition. Flash is a flame effect; agent recommends keeping self-serve Moon Well water-based and any flash effect separately attended. Existing route totals unchanged.
+
 ## Fulton stock recheck — approximately 12:35–12:37 p.m. EDT October 30
 
 **Still not confirmed in stock at Fulton.** Fresh Chrome check of [Hanging Ram Skull, item 01691245](https://www.spirithalloween.com/product/hanging-ram-skull/268034.uts) exposes only **Shipping / In Stock / Ready to Ship**, with no local pickup selector or Fulton item count. [Fulton’s own page](https://stores.spirithalloween.com/ny/brooklyn/costumes-71062.html) confirms 490A Fulton and Friday 8 a.m.–11 p.m., but has no inventory list. Neither proves that any particular skull is on the shelf.

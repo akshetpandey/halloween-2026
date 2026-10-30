@@ -1856,10 +1856,25 @@
     "purchasePerformed": false,
     "cancellationPerformed": false,
     "refundAssumedUsd": "0.00",
-    "proposedLocalSubtotalUsd": "131.45",
-    "proposedLocalWithPlanningTaxUsd": "143.28",
+    "proposedLocalSubtotalUsd": "136.40",
+    "proposedLocalWithPlanningTaxUsd": "148.68",
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
-    "bAndHExcludedByHost": true
+    "bAndHExcludedByHost": true,
+    "route": "Four Manhattan stops; Williamsburg start; Brooklyn/Manhattan preference",
+    "preferredMask": {
+      "product": "Full Face Matte Black Skull Mask",
+      "sku": "W7349B",
+      "url": "https://abracadabranyc.com/products/full-face-matte-black-skull-mask",
+      "quantity": 1,
+      "quotedUnitUsd": "24.95",
+      "observedNycStoreStock": 4,
+      "store": "Abracadabra NYC, 19 W 21st St",
+      "pickupMethod": "walk-in only; online pickup paused",
+      "date": "2026-10-30",
+      "fridayHours": "10:00–22:00 America/New_York",
+      "purchased": false
+    },
+    "queensOptionSuperseded": true
   }
 }

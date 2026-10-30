@@ -1,6 +1,6 @@
 # Decor
 
-**Current October 30:** [Sunday shipment / NYC pickup replacements](nyc-pickup-rescue-2026-10-30.md) supersedes the no-more-shopping note for eight delayed lines. Local mask/stand/rabbit/deer/willow/ribbon proposals; soluble-paper pickup unresolved. Host corrects **no sticks in hand**. B&H excluded; GC Manhattan stand in stock. Existing orders are not canceled and local replacements not purchased.
+**Current October 30:** [Sunday shipment / NYC pickup replacements](nyc-pickup-rescue-2026-10-30.md) supersedes the no-more-shopping note for eight delayed lines. Four-stop Manhattan route covers local mask/stand/rabbit/deer/willow/ribbon proposals; soluble-paper pickup unresolved. Host corrects **no sticks in hand**. B&H excluded; GC Manhattan stand in stock. Existing orders are not canceled and local replacements not purchased.
 
 ## Current October 29 • auto fills, no stage panel or DMX
 

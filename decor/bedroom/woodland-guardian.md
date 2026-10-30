@@ -1,6 +1,6 @@
 # The Rootkeeper — mostly bought automated desk Guardian
 
-**October 30 delivery override:** both original mask and stand now show Sunday November 1. [Local alternatives](../nyc-pickup-rescue-2026-10-30.md): $39.99 Proline MS235 in stock at GC Manhattan; $20 ready-made Swamp Monster kit with one showing at Target Queens Place. These are proposed substitutions, not bought/assembled/tested. Reuse the same cloth/vines/backplate/string; test actual fit/weight and enroll the final head against DEC-03. B&H excluded at host request. Original product details below are reference only until receipt.
+**October 30 delivery override:** both original mask and stand now show Sunday November 1. [Local alternatives](../nyc-pickup-rescue-2026-10-30.md): $39.99 Proline MS235 in stock at GC Manhattan; $24.95 ready-made matte black skull mask with four showing at Abracadabra NYC, 19 W 21st St (walk-in only; open until 10 p.m. today). These are proposed substitutions, not bought/assembled/tested. Reuse the same cloth/vines/backplate/string; test actual fit/weight and enroll the final head against DEC-03. B&H excluded at host request. Original product details below are reference only until receipt.
 
 **October 29 host instruction:** minimize handmaking, maximize Amazon components. This supersedes the 3–5 hour sculpted-card bark face/branching crown. No human DJ, animatronics or new furniture footprint. [Exact urgent orders](../urgent-buy-list-2026-10-29.md) · [Placement](../final-room-plan.md#the-hollow-accepted-corner-arrangement).
 

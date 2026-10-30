@@ -1,5 +1,6 @@
 """Small native render sources with measured decoded-PCM identity."""
 from contextlib import contextmanager
+from functools import lru_cache
 import hashlib
 import json
 from pathlib import Path
@@ -59,22 +60,28 @@ def compact_source(track, evidence):
     return result,evidence,wav
 
 
+@lru_cache(maxsize=256)
+def compact_frames(path,source_hash):
+    """Cache decode length by immutable hash; callers still hash each source."""
+    import soundfile as sf
+    try:
+        info=sf.info(path)
+        if info.samplerate!=48000 or info.channels!=2:raise ValueError('Compact source format changed')
+        return info.frames
+    except RuntimeError:
+        return pcm_identity(path)[1]
+
+
 def content_duration(track):
     """Measure audio frames, rather than Ogg packet duration including preskip."""
     if not track.get('render_storage'):
         return probe_duration(Path(track['path']))
-    import soundfile as sf
     frames=track.get('analysis_pcm_frames');extra=track.get('extra_container_tail_frames')
     if not isinstance(frames,int) or not isinstance(extra,int) or frames<=0 or not 0<=extra<=960:
         raise ValueError('Missing compact-source PCM identity bounds')
     if not track.get('analysis_pcm_sha256') or not track.get('analysis_pcm_file_sha256'):
         raise ValueError('Missing original analysis PCM identity')
-    try:
-        info=sf.info(track['path'])
-        if info.samplerate!=48000 or info.channels!=2:raise ValueError('Compact source format changed')
-        actual=info.frames
-    except RuntimeError:
-        _,actual=pcm_identity(track['path'])
+    actual=compact_frames(track['path'],track['sha256'])
     if actual!=frames+extra:raise ValueError('Compact decoded source frame count changed')
     return frames/48000
 

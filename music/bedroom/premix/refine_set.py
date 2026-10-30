@@ -8,6 +8,27 @@ from audio_intelligence import beat_evidence
 from prepare import approved_pool,file_key,host_rows
 
 
+def double_time_grid(track,evidence):
+    """Interpret a stable half-time onset grid using sustained model tempo.
+
+    This changes musical counting, never playback speed. Retain conservative
+    splice restrictions; normal phase support still gates each beatmatched join.
+    """
+    import numpy as np
+    if not track['grid']['usable_constant_grid'] or not 65<track['bpm']<110:return None
+    beats=np.asarray(evidence.get('rhythm',{}).get('beats_seconds',[]),float)
+    if len(beats)<64 or not np.all(np.isfinite(beats)) or np.any(np.diff(beats)<=0):return None
+    tempo=480/(beats[8:]-beats[:-8]);target=track['bpm']*2
+    if np.mean(np.abs(tempo-target)/target<.01)<.6:return None
+    grid=copy.deepcopy(track['grid']);grid.update(
+        period_seconds=60/target,model_only_refinement=True,
+        method='Stable independent onset grid counted in double time, corroborated by >=60% of eight-beat model spans within 1%; counting only, phase support still gates joins; interior splices/loops disabled')
+    for key in ['first_half_bpm','second_half_bpm']:
+        if key in grid:grid[key]*=2
+    return {'bpm':target,'anchor':track['grid_anchor_seconds'],'support':float(np.mean(np.abs(tempo-target)/target<.01)),
+            'bar_support':None,'grid':grid}
+
+
 def model_grid(track,evidence,prior=None):
     """Fit a constant grid to quantized model events; reject drift/unstable bars."""
     import numpy as np
@@ -57,7 +78,7 @@ def freeze_evidence(database,root,output):
             raise ValueError('Changed or mismatched source evidence')
         half=65<track['bpm']<110 and track['bpm']*2<=210
         if half or not track['grid']['usable_constant_grid']:
-            candidate=model_grid(track,evidence,track['bpm']*2 if half else None)
+            candidate=double_time_grid(track,evidence) if half else model_grid(track,evidence)
             if candidate:
                 original={'bpm':track['bpm'],'anchor':track['grid_anchor_seconds'],'grid':track['grid']}
                 track.update(bpm=candidate['bpm'],grid_anchor_seconds=candidate['anchor'],grid=candidate['grid'],original_onset_assessment=original)

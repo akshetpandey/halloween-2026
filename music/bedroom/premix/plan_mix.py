@@ -22,7 +22,7 @@ from reaper_proof import save_plan
 from compact_audio import content_duration
 
 BASE = Path(__file__).resolve().parent
-VERSION = "mix-planner-4"
+VERSION = "mix-planner-5"
 LANES = ["Tech house", "Acid", "Techno", "Trance", "Drum & bass"]
 KEYS = {
     "C": 0,
@@ -292,6 +292,20 @@ def candidates(track, evidence, pacing=None):
     return sorted(choices, key=lambda c: (c["selection_cost"], c["start"], c["end"]))
 
 
+def local_beats(track,evidence,choice,outgoing):
+    """Require direct model agreement with this grid around the actual join."""
+    cached='local_exit_beat_support' if outgoing else 'local_entry_beat_support'
+    if cached in choice:return choice[cached]
+    period=60/track['bpm'];bar=4*period
+    start,end=(max(choice['start'],choice['end']-8*bar),choice['end']) if outgoing else (choice['start'],min(choice['end'],choice['start']+8*bar))
+    beats=[x for x in evidence.get('rhythm',{}).get('beats_seconds',[]) if start<=x<=end]
+    if len(beats)<16 or beats[-1]-beats[0]<12*period:
+        choice[cached]=False;return False
+    residual=[abs((x-choice['grid']['anchor_seconds']+period/2)%period-period/2) for x in beats]
+    choice[cached]=sum(x<=.045 for x in residual)/len(residual)>=.85
+    return choice[cached]
+
+
 def transition(a, b, tracks, evidence, pacing=None):
     outgoing, incoming = tracks[a["id"]], tracks[b["id"]]
     bpm_a, bpm_b = outgoing["bpm"], incoming["bpm"]
@@ -300,6 +314,8 @@ def transition(a, b, tracks, evidence, pacing=None):
     )
     uncertain_bars=not (a['grid']['splice_supported'] and b['grid']['splice_supported'])
     coherent_beats=min(a['grid'].get('beat_support',0),b['grid'].get('beat_support',0))>=.85
+    if pacing and uncertain_bars and not coherent_beats:
+        coherent_beats=local_beats(outgoing,evidence[a['id']],a,True) and local_beats(incoming,evidence[b['id']],b,False)
     if (
         family_change
         or abs(bpm_a - bpm_b) / min(bpm_a, bpm_b) > 0.05
@@ -446,7 +462,9 @@ def sequence(tracks, evidence, pacing=None):
                         + b["selection_cost"]
                         + 3 * artist_repeat
                     )
-                    cost += abs(by_id[a["id"]]["bpm"] - by_id[ident]["bpm"]) / 50
+                    if pacing and credited.intersection(by_id[current['id']].get('artist_ids') or [by_id[current['id']]['artist']]):
+                        cost+=100
+                    cost += abs(by_id[a["id"]]["bpm"] - by_id[ident]["bpm"]) / (12 if pacing else 50)
                     ranked.append((cost, ident, a, b, join))
             _, ident, a, b, join = min(
                 ranked, key=lambda x: (x[0], x[1], x[2]["end"], x[3]["start"])

@@ -4,8 +4,22 @@ import argparse
 from collections import Counter
 import json
 from pathlib import Path
+import re
+from urllib.parse import parse_qs,urlparse
 
 from analyze_audio import digest,write_json
+
+
+def public_source_url(value):
+    parsed=urlparse(value)
+    if parsed.scheme!='https' or parsed.username or parsed.password:
+        raise ValueError('Expected a public HTTPS source URL')
+    if parsed.hostname in ['www.youtube.com','youtube.com','music.youtube.com']:
+        ident=parse_qs(parsed.query).get('v',[''])[0]
+    elif parsed.hostname=='youtu.be':ident=parsed.path.strip('/')
+    else:raise ValueError('Unexpected acquisition provider URL')
+    if not re.fullmatch('[A-Za-z0-9_-]{11}',ident):raise ValueError('Invalid public video identifier')
+    return 'https://www.youtube.com/watch?v='+ident
 
 
 def export(report_path,verification_path,output):
@@ -23,7 +37,7 @@ def export(report_path,verification_path,output):
         records.append({
             'index':index+1,'artist':t['artist'],'title':t['title'],
             'spotify_uri':binding['spotify_uri'],'isrc':binding.get('isrc'),
-            'source_url':binding['source_url'],'channel':binding.get('channel'),
+            'source_url':public_source_url(binding['source_url']),'channel':binding.get('channel'),
             'source_title':binding.get('source_title'),'license':binding.get('license'),
             'original_source_sha256':binding['sha256'],'render_source_sha256':t['source_sha256'],
             'metadata_version_verified':binding['version_verified'],'acoustic_identity_verified':False,
@@ -42,7 +56,8 @@ def export(report_path,verification_path,output):
     public={k:verification[k] for k in ['rendered','mix_plan_sha256','minimum_nine_hours_excluding_bridges',
             'constant_delivery_gain_db','meters','mp3_meters','silence','master_sha256','mp3_sha256',
             'preview_start_seconds','preview_duration_seconds','chapters','chapter_backup_format',
-            'seams','subjective_listening_verified','hardware_playback_tested']}
+            'seams','subjective_listening_verified','hardware_playback_tested',
+            'party_sha256','party_meters','party_programme_seconds','reserve_seconds','reserve_sha256','playback_schedule']}
     public.update(planner_version=report['version'],generated_at=report['generated_at'],
         selected_tracks=len(records),analyzed_sources=len(analysis),
         planned_seconds=report['planned_seconds'],seconds_excluding_bridges=report['planned_seconds_excluding_bridges'],

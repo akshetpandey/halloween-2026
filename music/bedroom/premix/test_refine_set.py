@@ -2,7 +2,7 @@
 import importlib.util
 import unittest
 
-from refine_set import model_grid
+from refine_set import double_time_grid,model_grid
 
 
 @unittest.skipUnless(importlib.util.find_spec('numpy'),'analysis environment required')
@@ -31,6 +31,20 @@ class TimingReviewTests(unittest.TestCase):
         t,e=self.fixture(75);t['bpm']=75
         self.assertAlmostEqual(model_grid(t,e)['bpm'],75,delta=.01)
         self.assertAlmostEqual(model_grid(t,e,150)['bpm'],150,delta=.02)
+
+    def test_double_counting_requires_stable_onsets_and_sustained_model_tempo(self):
+        t,e=self.fixture(150)
+        t.update(bpm=75,grid_anchor_seconds=.13,grid={'usable_constant_grid':True,'first_half_bpm':75,'second_half_bpm':75})
+        r=double_time_grid(t,e)
+        self.assertEqual(r['bpm'],150)
+        self.assertEqual(r['anchor'],.13)
+        self.assertTrue(r['grid']['model_only_refinement'])
+        self.assertEqual(r['grid']['first_half_bpm'],150)
+        t['grid']['usable_constant_grid']=False
+        self.assertIsNone(double_time_grid(t,e))
+        t['grid']['usable_constant_grid']=True
+        _,e=self.fixture(75)
+        self.assertIsNone(double_time_grid(t,e))
 
 
 if __name__=='__main__':unittest.main()

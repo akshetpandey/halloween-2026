@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Render a current approved REAPER plan in bounded, overlap-checked chapters."""
 import argparse
+from datetime import datetime,timedelta,UTC
 import json
 import math
 from pathlib import Path
 import re
 import shutil
 import subprocess
+from zoneinfo import ZoneInfo
 
 from actual_audition import measure, source_rest
 from analyze_audio import digest, write_json
@@ -170,8 +172,11 @@ def render(report_path, database, output, binary, profile, preview=False):
                     or meters['channels']!=2 or meters['codec']!='pcm_s24le'
                     or not math.isfinite(meters['integrated_lufs']) or meters['true_peak_dbfs'] > -1):
                 raise ValueError('Native chapter format/duration/headroom failed: '+str(meters))
+            silence=silence_check(wav,native,absolute_start=render_start)
+            if silence['unexplained_silences']:
+                raise ValueError('Chapter has unexplained silences: '+str(silence['unexplained_silences']))
             chapter = {'index':index+1,'start':start,'end':end,'render_start':render_start,'render_end':render_end,
-                       'native':str(wav),'sha256':digest(wav),'meters':meters,'native_verification':verified}
+                       'native':str(wav),'sha256':digest(wav),'meters':meters,'silence':silence,'native_verification':verified}
             if receipt['chapters']:
                 receipt['seams'].append(verify_seam(receipt['chapters'][-1],chapter,start))
             archive=wav.with_suffix('.flac')
@@ -252,15 +257,51 @@ def deliver(report_path, output, database=DEFAULT_DB):
     run(['ffmpeg','-v','error','-nostdin','-y','-i',str(master),'-c:a','libmp3lame','-b:a','320k','-metadata','title=The Hollow — continuous prepared programme',str(mp3)])
     mp3_meters=measure(mp3)
     if mp3_meters['true_peak_dbfs']>-1:raise ValueError('MP3 encoding exceeded headroom')
-    playlist=delivery/'The-Hollow-play.m3u8';playlist.write_text('#EXTM3U\n# Fixed rendered mix: shuffle off, repeat off, Auto DJ off.\n'+master.name+'\n')
+    # Reserve must not run automatically after the programmed closing. Keep the
+    # full nine-hour archive, but make the default playlist stop before reserve.
+    reserve=next((c['start_seconds'] for c in report['chapters'] if c['name'].startswith(('10 ','11 '))),None)
+    party_end=reserve if reserve is not None else report['planned_seconds']
+    party=delivery/'The-Hollow-party.mp3'
+    run(['ffmpeg','-v','error','-nostdin','-y','-i',str(master),'-t',str(party_end),
+         '-af',f'afade=t=out:st={max(0,party_end-8)}:d=8','-c:a','libmp3lame','-b:a','320k',
+         '-metadata','title=The Hollow — party programme, stops after closing',str(party)])
+    party_meters=measure(party)
+    if party_meters['true_peak_dbfs']>-1 or abs(party_meters['duration_seconds']-party_end)>.06:
+        raise ValueError('Party programme duration/headroom failed')
+    reserve_file=None
+    if reserve is not None:
+        reserve_file=delivery/'The-Hollow-reserve.mp3'
+        run(['ffmpeg','-v','error','-nostdin','-y','-ss',str(reserve),'-i',str(master),
+             '-af','afade=t=in:d=0.1','-c:a','libmp3lame','-b:a','320k',str(reserve_file)])
+    playlist=delivery/'The-Hollow-play.m3u8';playlist.write_text('#EXTM3U\n# Fixed party programme: shuffle off, repeat off, Auto DJ off. Reserve is separate.\n'+party.name+'\n')
+    (delivery/'The-Hollow-full.m3u8').write_text('#EXTM3U\n# Full prepared archive includes reserve after the closing.\n'+master.name+'\n')
     (delivery/'The-Hollow-chapters.m3u8').write_text('#EXTM3U\n'+'\n'.join(p.name for p in files)+'\n')
+    closing=datetime(2026,11,1,4,tzinfo=ZoneInfo('America/New_York'))
+    proposed_start=(closing.astimezone(UTC)-timedelta(seconds=party_end)).astimezone(ZoneInfo('America/New_York'))
+    schedule={'status':'proposed manual playback timing; no scheduler installed',
+              'timezone':'America/New_York','start':proposed_start.isoformat(),'closing':closing.isoformat()}
+    (delivery/'PLAYBACK.md').write_text(
+        '# The Hollow playback\n\n'
+        'Load `The-Hollow-party.mp3` into one rekordbox deck and play once at original tempo (0% pitch). '
+        'Keep beat/key sync, Automix/Auto DJ, shuffle, repeat and additional transition effects off. '
+        'All transitions, tempo changes, EQ and ducking are already rendered. The single-item `The-Hollow-play.m3u8` '
+        'selects this party file. The file ends with the programmed closing and an eight-second fade; reserve does not start automatically.\n\n'
+        f'For a 04:00 EST close, proposed manual start: **{proposed_start.isoformat()}**, America/New_York. '
+        f'Closing: **{closing.isoformat()}**. These explicit offsets account for the clock rollback. '
+        'No automatic start/stop job or physical audio routing has been configured by this production task.\n\n'
+        '`The-Hollow-continuous.flac` is the complete lossless rendered archive including reserve; '
+        '`The-Hollow-continuous.mp3` is its 320 kbps backup. `The-Hollow-reserve.mp3` is optional extra programme. '
+        'Numbered MP3s are hourly recovery chapters; use the continuous party file for normal playback. '
+        'See `tracklist.md` for incoming blend timestamps and `The-Hollow-preview.mp3` for a five-minute excerpt.\n')
     lines=['# The Hollow · prepared tracklist','', 'Times are incoming blend starts. This is not a human-listening or physical-output certification.','', '| Time | Track | BPM | Incoming transition |','|---|---|---:|---|']
     for index,t in enumerate(report['tracks']):
         sec=int(t['start_seconds']);stamp=f'{sec//3600:02d}:{sec%3600//60:02d}:{sec%60:02d}'
         lines.append(f"| {stamp} | {t['artist']} — {t['title']} | {t['source_bpm']:.2f} | {report['transitions'][index-1]['kind'] if index else 'Start'} |")
     (delivery/'tracklist.md').write_text('\n'.join(lines)+'\n')
     preview=delivery/'The-Hollow-preview.mp3'
-    start=max(0,report['tracks'][min(3,len(report['tracks'])-1)]['start_seconds']-15)
+    representative=next((t for t in report['tracks'] if (t.get('programme_chapter') or '').startswith('03 ')),
+                        report['tracks'][min(3,len(report['tracks'])-1)])
+    start=max(0,representative['start_seconds']-15)
     seconds=min(300,meters['duration_seconds']-start)
     run(['ffmpeg','-v','error','-nostdin','-y','-ss',str(start),'-i',str(master),'-t',str(seconds),'-af',f'afade=t=in:d=0.02,afade=t=out:st={seconds-.2}:d=.2','-c:a','libmp3lame','-b:a','320k',str(preview)])
     validate_current(report,database)
@@ -268,6 +309,10 @@ def deliver(report_path, output, database=DEFAULT_DB):
             'constant_delivery_gain_db':gain,'meters':meters,'mp3_meters':mp3_meters,'silence':silence,
             'master':str(master),'master_sha256':digest(master),'mp3':str(mp3),'mp3_sha256':digest(mp3),
             'playlist':str(playlist),'preview':str(preview),'preview_start_seconds':start,'preview_duration_seconds':seconds,
+            'party':str(party),'party_sha256':digest(party),'party_meters':party_meters,
+            'party_programme_seconds':party_end,'reserve_seconds':report['planned_seconds']-party_end,
+            'reserve':str(reserve_file) if reserve_file else None,
+            'reserve_sha256':digest(reserve_file) if reserve_file else None,'playback_schedule':schedule,
             'chapters':len(files),'chapter_backup_format':'320 kbps MP3; the continuous FLAC is the primary master',
             'seams':receipt['seams'],'subjective_listening_verified':False,'hardware_playback_tested':False}
     write_json(output/'delivery-verification.json',result)

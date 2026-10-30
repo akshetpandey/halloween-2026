@@ -23,6 +23,7 @@ from plan_mix import (
     transition,
     validate_current,
     assign_programme,
+    local_beats,
 )
 
 AVAILABLE = all(importlib.util.find_spec(name) for name in ("numpy", "soundfile"))
@@ -81,6 +82,19 @@ def fixture(ident="a", bpm=120, duration=160):
 
 @unittest.skipUnless(AVAILABLE, "optional analysis environment required")
 class PlannerTests(unittest.TestCase):
+    def test_local_handover_requires_beats_at_this_grid_and_enough_duration(self):
+        a,ea=fixture('a');b,eb=fixture('b')
+        ca=candidates(a,ea)[0];cb=candidates(b,eb)[0]
+        for choice in [ca,cb]:choice['grid'].update(splice_supported=False,beat_support=.5)
+        self.assertTrue(local_beats(a,ea,ca,True))
+        self.assertEqual(transition(ca,cb,{'a':a,'b':b},{'a':ea,'b':eb},pacing={'retention':.9})['kind'],'quick_handover')
+        cb.pop('local_entry_beat_support',None)
+        eb['rhythm']['beats_seconds']=[x+.2 for x in eb['rhythm']['beats_seconds']]
+        self.assertFalse(local_beats(b,eb,cb,False))
+        self.assertEqual(transition(ca,cb,{'a':a,'b':b},{'a':ea,'b':eb},pacing={'retention':.9})['kind'],'reset')
+        tiny={**cb,'start':0,'end':1};tiny.pop('local_entry_beat_support',None)
+        self.assertFalse(local_beats(b,eb,tiny,False))
+
     def test_programme_arc_preserves_tracks_and_puts_dnb_in_peak_chapter(self):
         tracks=[]
         for lane in ['Tech house','Techno','Acid','Hard bounce','Drum & bass','Trance']:

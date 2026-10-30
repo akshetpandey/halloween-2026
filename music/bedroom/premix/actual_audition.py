@@ -201,7 +201,7 @@ def source_time(item, output_time):
 def source_rest(plan, interval, maximum_seconds=.8):
     """Distinguish a short musical rest from an inserted gap, using source PCM.
 
-    Only subsecond rests completely inside a clip can qualify. Every source
+    Only rests within the explicit limit, completely inside a clip, qualify. Every source
     active at its midpoint must itself be quiet in the central 70 percent.
     A gap at a splice, missing clip, long silence or loud source fails closed.
     """

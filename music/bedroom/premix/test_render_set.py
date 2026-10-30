@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from render_set import chapter_bounds,measure,render,stage_chapter,verify_seam
+from render_set import chapter_bounds,chapter_tempo_map,measure,render,stage_chapter,verify_seam
 
 
 class RenderTests(unittest.TestCase):
@@ -34,6 +34,17 @@ class RenderTests(unittest.TestCase):
         self.assertAlmostEqual(bounds[-1][1],round(32401.12345*48000)/48000)
         self.assertTrue(all(a[1]==b[0] for a,b in zip(bounds,bounds[1:])))
         self.assertTrue(all(b-a<=3600 for a,b in bounds))
+
+    @unittest.skipUnless(importlib.util.find_spec('numpy'),'analysis environment required')
+    def test_bounded_tempo_map_preserves_linear_interpolation_with_handles(self):
+        import numpy as np
+        points=[{'time':i*10,'bpm':120+i%9} for i in range(1000)]
+        subset=chapter_tempo_map(points,1500,1600)
+        self.assertLess(len(subset),20)
+        for t in np.linspace(1492,1608,200):
+            a=np.interp(t,[p['time'] for p in points],[p['bpm'] for p in points])
+            b=np.interp(t,[p['time'] for p in subset],[p['bpm'] for p in subset])
+            self.assertEqual(a,b)
 
     def test_invalid_chapter_requests_fail(self):
         for duration,maximum in [(0,3600),(-1,3600),(float('nan'),3600),(20,0),(20,5401)]:

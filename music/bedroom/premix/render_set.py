@@ -30,6 +30,17 @@ def chapter_bounds(duration, maximum=3600):
     return [(n / RATE, min(frames, n+size) / RATE) for n in range(0, frames, size)]
 
 
+def chapter_tempo_map(points,start,end,margin=8):
+    """Preserve interpolation throughout the render and processing handles."""
+    if not points:return points
+    a=max(0,start-margin);b=end+margin
+    before=[i for i,p in enumerate(points) if p['time']<a]
+    after=next((i for i,p in enumerate(points) if p['time']>b),len(points)-1)
+    first=before[-1] if before else 0
+    indices=sorted({0,*range(first,after+1)})
+    return [points[i] for i in indices]
+
+
 def run(args, timeout=None):
     return subprocess.run(args, capture_output=True, text=True, check=True, timeout=timeout)
 
@@ -183,7 +194,7 @@ def render(report_path, database, output, binary, profile, preview=False):
             active=stage_chapter(native,report,directory,render_start,render_end)
             plan = save_plan(directory, f'hollow-{index+1:02d}', active,native['end_seconds'],native['markers'],
                              purpose='Approved Hollow programme chapter',bpm=native['bpm'],master_db=native['master_db'],
-                             tempo_map=native.get('tempo_map'),render_bounds=(render_start,render_end))
+                             tempo_map=chapter_tempo_map(native.get('tempo_map'),render_start,render_end),render_bounds=(render_start,render_end))
             wav,verified = render_native(plan,directory,binary,profile,validator)
             meters = measure(wav)
             if (abs(meters['duration_seconds']-(render_end-render_start)) > 2/RATE or meters['sample_rate']!=RATE

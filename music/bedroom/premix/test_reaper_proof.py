@@ -51,6 +51,13 @@ class ReaperProofTests(unittest.TestCase):
         self.assertIn('[==[x', encoded)
         self.assertTrue(encoded.endswith(']==],2)'))
 
+    def test_lua_closing_delimiter_cannot_overlap_a_title_suffix(self):
+        for value in ['Remix [Club]',']]','prefix ]=] and suffix ]==','line\nend]']:
+            encoded=lua(value)
+            opening=encoded[len('string.sub('):].split('x',1)[0]
+            closing=']'+opening[1:-1]+']'
+            self.assertEqual((value+closing).find(closing),len(value))
+
     def test_nonfinite_plan_data_is_rejected(self):
         for value in [math.nan, math.inf, -math.inf, None]:
             with self.subTest(value=value), self.assertRaises(ValueError):

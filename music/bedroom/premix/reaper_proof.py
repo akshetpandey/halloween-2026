@@ -29,7 +29,9 @@ def lua(value):
     """Serialize data as Lua literals without evaluating external strings."""
     if isinstance(value, str):
         size = 0
-        while ']' + '=' * size + ']' in value:
+        # Also reject a closing token formed across the value/delimiter seam
+        # (e.g. a title ending in ']' with the default ']]' delimiter).
+        while (value+']'+'='*size+']').find(']'+'='*size+']') != len(value):
             size += 1
         delimiter = '=' * size
         # A leading newline is stripped by Lua long strings; prefix/remove a sentinel.

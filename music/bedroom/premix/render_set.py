@@ -39,7 +39,7 @@ def render_native(plan, directory, binary, profile, validator):
     verification = build_only(plan, directory, binary, profile, validator, timeout=150)
     check_saved_project(plan)
     validator()
-    render_profile = directory / 'render-offline.ini'
+    render_profile = profile.parent / ('render-'+plan['run_id']+'.ini')
     shutil.copyfile(profile, render_profile)
     with (directory / 'render.log').open('w') as log:
         subprocess.run([str(binary), '-newinst', '-nosplash', '-noactivate',

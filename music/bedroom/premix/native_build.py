@@ -161,7 +161,10 @@ def build_only(plan, root, binary, profile, validator=None, timeout=45):
         + lua(plan)
         + ")\n"
     )
-    run_profile = root / ("native-" + plan["run_id"] + ".ini")
+    # REAPER treats the cfgfile directory as its resource/plugin-cache root.
+    # Keep isolated per-run settings beside the initialized no-device template,
+    # rather than racing first-run plugin discovery in every chapter folder.
+    run_profile = profile.parent / ("native-" + plan["run_id"] + ".ini")
     shutil.copyfile(profile, run_profile)
     with (root / "native-build.log").open("a") as log:
         child = subprocess.Popen(

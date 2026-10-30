@@ -2,6 +2,14 @@
 
 Checked in the host's signed-in Chrome Orders page and retailers' live pickup selectors, approximately **11:20–11:42 a.m. EDT, October 30, 2026**. All stock is a displayed estimate, not a reservation. **No purchase, cancellation, return or store contact performed.** These are replacement proposals; the existing orders remain ordered. **Latest host choice: use the $19.99 Spirit ram as the preferred Guardian head; reject the $59 fox on cost.** Proposed run is **four stores: Guitar Center → Kidding Around → Michaels Chelsea → Spirit Fulton**, starting in Williamsburg and returning there. **Ram shelf stock remains unconfirmed**; stock confirmation is needed for a guaranteed-item trip, while the host now accepts Spirit as an optional browse stop for another skull. B&H/Abracadabra/Evolution/Midwood are out. Original five core product stock checks remain the 11:20–11:42 observations, not new reservations. Glue stock and Friday shop hours checked again around **12:30–12:40 p.m. EDT October 30**. This list combines **six decor replacement lines plus one known costume repair need**; food/drink procurement is outside this decor rescue.
 
+## Dissolving paper update — October 30 afternoon
+
+[Sulky Paper Solvy at Keaton Quilts](https://keatonquilts.com/products/sulky-paper-solvy) is **$9.99**, with live Chrome **Add to cart / Pickup available at NYC Store**. Pickup drawer says **usually ready in 24 hours**, so **collection today is not confirmed**. Call **646-974-1717** before adding this stop: **150 W 28th St, suite 605, sixth floor**, [Friday hours 11 a.m.–6 p.m.; Saturday 10:30 a.m.–5:30 p.m.](https://keatonquilts.com/pages/location). Ask whether one pack of **Paper Solvy, 12 letter-size sheets**, can be bought in person today. No staff contact, hold or purchase performed.
+
+If confirmed, add Keaton **after Michaels and before Spirit**; its 6 p.m. close is the earliest deadline. One standard 12-sheet pack cut into six small slips per sheet gives **72 notes** (test one first); inspect the actual pack count. This is a paper-like water-soluble stabilizer, with a wood-pulp component; **actual dissolution with the chosen marker in still room-temperature water remains untested**. It is the promising replacement proposal, not an accepted or tested change to the ritual. [Detailed paper findings and trial](bathroom/dissolving-paper-pickup-2026-10-30.md).
+
+Paper is **not yet selected into the seven-item baseline**. If bought, add $9.99 before tax (~$10.89 with existing 9% planning allowance), making **eight items $146.42 / ~$159.60** including costume glue, or seven decor lines **$141.43 / ~$154.16**. Original Amazon paper remains ordered for Sunday; no refund assumed. Ordinary folded notes remain an unaccepted fallback, not dissolving paper.
+
 ## Fulton stock recheck — approximately 12:35–12:37 p.m. EDT October 30
 
 **Still not confirmed in stock at Fulton.** Fresh Chrome check of [Hanging Ram Skull, item 01691245](https://www.spirithalloween.com/product/hanging-ram-skull/268034.uts) exposes only **Shipping / In Stock / Ready to Ship**, with no local pickup selector or Fulton item count. [Fulton’s own page](https://stores.spirithalloween.com/ny/brooklyn/costumes-71062.html) confirms 490A Fulton and Friday 8 a.m.–11 p.m., but has no inventory list. Neither proves that any particular skull is on the shelf.
@@ -27,7 +35,7 @@ Amazon's shipment group now says **Arriving Sunday, November 1**, after the part
 | YimiBloss rabbit pair | BUY-05 Hare missing | One realistic Eastern Cottontail plush below. |
 | Brown 20 cm deer | BUY-04 Stag missing | One small gold metal reindeer below. |
 | Whaline loose fall leaves | Small Grove accents only | Skip replacement; use the ordered ivy, moss, branches and acquired mini pumpkins. |
-| NATURALABEL soluble notes | Moon Well release activity lacks dissolving paper | **No verified NYC pickup replacement found.** Folded private notes in a closed opaque container is a proposed temporary alternative; ordinary paper does not dissolve. No fire substitution. |
+| NATURALABEL soluble notes | Moon Well release activity lacks dissolving paper | **Keaton Quilts Paper Solvy $9.99 shows NYC pickup available; usual readiness 24 hours.** Call to confirm in-person purchase today before 6 p.m.; see paper update above. Not purchased/tested. |
 
 Other checked decor still shows **Saturday, October 31**: fairy strings, glue, raven, 78.9-inch branch, Govee lamp, Grove hooks, markers, Betopper fills, ivy, small clips, pumpkin candy bowl, rug, owl, tea lights, moon/chocolates, bucket, 67-inch branch, wolf skull and moss. Fleece shows Friday. These estimates are not delivery guarantees or physical receipt checks. Binder clips, suction hooks, one hook pack, zip ties, gaffer and one black cloth are marked delivered by Amazon; host receipt/count/installation remains unverified.
 
@@ -80,7 +88,7 @@ For either animal skull, inspect eye openings/access before planning two tea lig
 
 ### Unresolved item and conditional household checks
 
-- **Water-soluble writing paper:** Sunday-delayed, still **no verified local pickup point or price**. It is not included in the $136.43 total. Ordinary folded private notes in a closed opaque vessel is a proposed fallback awaiting host choice, not dissolving paper; no fire substitution. Do not add an unverified extra shop just to search.
+- **Water-soluble writing paper:** Sunday-delayed. **Keaton Quilts Paper Solvy $9.99 shows NYC pickup available; same-day collection needs a call**, as standard readiness is 24 hours. Optional fifth stop after Michaels, only if available today; closes 6 p.m. See paper update above. Not included in the $136.43 baseline. Ordinary folded notes remain a proposed fallback awaiting host choice.
 - **Check before leaving, buy only if missing:** suitable pruning shears/cutting tool for willow; reused stiff support/card and a light shoulder crosspiece for the Guardian; trays/underlayers; rug grip if the received rug moves. No quantities/retailer quotes or physical need established for additional purchases. Bring a tote large enough for 24-inch willow and a boxed mic stand. No new batteries needed for the ordered tea lights per seller; inspect actual head eye access before assuming candle fit.
 - **Already covered / no repeat order:** fleece, moss, thin cloth, hooks, suction cups, binder/small clips, gaffer, ties, ivy, fairy strings, tea lights, moon, bucket, markers, owl/raven/wolf skull, rug, chocolates, Govee/Betopper and three USB supplies remain ordered; mini pumpkins acquired. Their earlier delivery status is not receipt proof. Loose fall leaves can be skipped. No DMX/stage-light/laser shopping.
 
@@ -97,7 +105,7 @@ For either animal skull, inspect eye openings/access before planning two tea lig
 
 **Superseded head route:** Abracadabra's $24.95 W7349B black skull mask had four in NYC store, but host now wants to avoid its expected line. Earlier Queens Target/Michaels mask and NJ warehouse alternatives remain excluded. This is a travel/assembly revision, not a cancellation of the original Amazon mask.
 
-**Soluble paper remains unresolved.** Dropping Abracadabra also removes the earlier suggestion to ask there for Dissolvo paper. No verified NYC pickup source found. Ordinary folded notes in a closed opaque vessel is only a proposed fallback; it does not dissolve. No fire substitution.
+**Earlier soluble-paper search superseded:** Keaton now shows NYC pickup for Paper Solvy; same-day readiness and bucket performance remain unresolved. See the update at the top. Abracadabra stays excluded. Ordinary folded notes remain an unaccepted fallback; no fire substitution.
 
 ## Setup and remaining decisions
 

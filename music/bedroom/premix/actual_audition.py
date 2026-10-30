@@ -198,11 +198,13 @@ def source_time(item, output_time):
     return a['source']+(local-a['position'])/(b['position']-a['position'])*(b['source']-a['source'])
 
 
-def source_rest(plan, interval, maximum_seconds=.8):
+def source_rest(plan, interval, maximum_seconds=.8, gain_aware=False):
     """Distinguish a short musical rest from an inserted gap, using source PCM.
 
     Only rests within the explicit limit, completely inside a clip, qualify. Every source
     active at its midpoint must itself be quiet in the central 70 percent.
+    Production can account for known static track/master attenuation; dynamic
+    volume/EQ automation cannot authorize a silence exception.
     A gap at a splice, missing clip, long silence or loud source fails closed.
     """
     a, b = interval
@@ -225,10 +227,13 @@ def source_rest(plan, interval, maximum_seconds=.8):
             if sys.byteorder != 'little':
                 signal.byteswap()
             peak = 20*math.log10(max(max((abs(v) for v in signal), default=0), 1e-12))
-            if not signal or peak > -35:
+            static_gain=track.get('gain_db',0)+plan.get('master_db',0) if gain_aware else 0
+            threshold=max(-35,-50-static_gain) if gain_aware else -35
+            if not signal or not math.isfinite(static_gain) or peak > threshold:
                 return None
             evidence.append({'source_sha256': track['sha256'], 'name': track['name'],
-                'source_seconds': [start, end], 'central_source_peak_dbfs': peak})
+                'source_seconds': [start, end], 'central_source_peak_dbfs': peak,
+                'static_gain_db':static_gain,'predicted_dry_peak_dbfs':peak+static_gain})
     return {'master_seconds': interval, 'source_evidence': evidence} if evidence else None
 
 

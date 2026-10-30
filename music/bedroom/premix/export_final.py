@@ -65,7 +65,10 @@ def export(report_path,verification_path,output):
         transition_kinds=dict(Counter(t['kind'] for t in report['transitions'])),
         interior_repeat_cuts=sum(len(t['removed_repeats']) for t in records),
         blocked=report['blocked'],chapters_index=report['chapters'],
-        playback={'shuffle':False,'repeat':False,'live_auto_dj':False,'native_automation':'Read','hardware_routing':'separate task'})
+        playback={'settings_status':'recommended player settings; actual rekordbox settings not changed',
+                  'shuffle':False,'repeat':False,'live_auto_dj':False,'automatic_gain':False,
+                  'native_automation':'Read; repeat off and global override clear verified by native readback',
+                  'hardware_routing':'separate task'})
     write_json(output/'verification.json',public)
     write_json(output/'track-decisions.json',{'tracks':records,'note':'Public metadata and measured edit evidence only; metadata corroboration is not acoustic identity or source licensing.'})
     return public

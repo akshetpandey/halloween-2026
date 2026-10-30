@@ -95,6 +95,20 @@ class AuditionTests(unittest.TestCase):
                    return_value=array('f', [.5]*100).tobytes()):
             self.assertIsNone(source_rest(plan, [4, 4.5]))
 
+    def test_source_rest_accounts_only_for_known_static_gain(self):
+        item={'position':0,'length':10,'stretch_markers':[{'position':0,'source':0},{'position':10,'source':10}]}
+        track={'clips':[item],'path':'fixture.wav','sha256':'fixture','name':'fixture','gain_db':-12}
+        plan={'master_db':-6,'tracks':[track]}
+        with patch('actual_audition.subprocess.check_output',return_value=array('f',[.02]*100).tobytes()):
+            self.assertIsNone(source_rest(plan,[4,4.4]))
+            found=source_rest(plan,[4,4.4],gain_aware=True)
+            self.assertLess(found['source_evidence'][0]['predicted_dry_peak_dbfs'],-50)
+            track['gain_db']=0
+            self.assertIsNone(source_rest(plan,[4,4.4],gain_aware=True))
+        track['gain_db']=-12
+        with patch('actual_audition.subprocess.check_output',return_value=array('f',[.5]*100).tobytes()):
+            self.assertIsNone(source_rest(plan,[4,4.4],gain_aware=True))
+
     def test_dnb_reset_gets_tempo_marker_at_audio_entry(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

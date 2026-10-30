@@ -118,7 +118,7 @@ def silence_check(path, native, absolute_start=0):
         if a < .25 or b > duration-.25:
             if b-a <= 2:
                 continue
-        rest = source_rest(native, [a+absolute_start,b+absolute_start],maximum_seconds=2.0)
+        rest = source_rest(native, [a+absolute_start,b+absolute_start],maximum_seconds=2.0,gain_aware=True)
         if rest:
             accepted.append(rest)
         else:
@@ -312,7 +312,7 @@ def deliver(report_path, output, database=DEFAULT_DB):
     (delivery/'PLAYBACK.md').write_text(
         '# The Hollow playback\n\n'
         'Load `The-Hollow-party.mp3` into one rekordbox deck and play once at original tempo (0% pitch). '
-        'Keep beat/key sync, Automix/Auto DJ, shuffle, repeat and additional transition effects off. '
+        'Keep beat/key sync, automatic gain/ReplayGain, Automix/Auto DJ, shuffle, repeat and additional transition effects off. '
         'All transitions, tempo changes, EQ and ducking are already rendered. The single-item `The-Hollow-play.m3u8` '
         'selects this party file. The file ends with the programmed closing and an eight-second fade; reserve does not start automatically.\n\n'
         f'For a 04:00 EST close, proposed manual start: **{proposed_start.isoformat()}**, America/New_York. '

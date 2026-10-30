@@ -1,6 +1,6 @@
-# Grove selection diagnostic — no batch published
+# Historical preview-model experiment — not the selection workflow
 
-These scripts support the [October 30 reassessment](../grove-selection-reassessment-2026-10-30.md). `grove21` is a research folder, **not a published batch ID**. The fixed selector failed validation. The private 14-recording slate is not import-ready and must not be published on the strength of these scores.
+These scripts preserve the [earlier October 30 numerical detour](../grove-selection-reassessment-2026-10-30.md). The host explicitly corrected it: no predictive model was requested. Its failed numeric publication gate is **not a current curation rule**. Do not use these scores to select or block a batch. [Grove 21 · Four songs with character](../october-grove-batch-21.md) was subsequently published through normal editorial research. The folder name predates that actual batch; the old 14-recording research slate is not its tracklist.
 
 Inputs are the private read-only canonical snapshot in `music/playlist-lab/.local/grove21-2026-10-30/`. Never copy source Likes, credentials, individual histories or audio into this directory or Git. All provider caches, audio, detailed results and snapshots stay in that ignored state. No script writes hosted state or Spotify.
 

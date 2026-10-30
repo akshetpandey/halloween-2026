@@ -1,0 +1,383 @@
+{
+  "batch_id": "21",
+  "name": "Batch 21 · Four songs with character",
+  "room": "living-room",
+  "created_at": "2026-10-30T19:40:56Z",
+  "status": "Published to separate Spotify audition and atomically appended to hosted Playlist Lab. Four exact unrated candidates, prior feedback/history preservation and unchanged main Spotify orders verified.",
+  "selection_policy": {
+    "authorization": "Host October 30 explicitly corrected the modeling detour and requested a small convincing Grove test, fewer than 15 allowed. No predictive model or quantitative publication gate.",
+    "method": "Human-style editorial selection from all 127 canonical Keeps and 846 Cuts; candidate-specific positive and negative comparisons; independent full-text lyric checks; four distinct lead artists; no quota filling.",
+    "brief": "Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving; personality, strong hooks and development. Avoid blandness, low perceived energy, dragging repetition, standalone intros/interludes/outros and artist/album overrepresentation. No acid/techno; avoid chart-pop/top-five-hit character and sad/negative lyrics. Existing individual Keeps remain approved.",
+    "evidence_limit": "Musical fit remains editorial inference. Attempted preview-audio input was explicitly unsupported; no direct listening or full-arrangement proof claimed. Full published song text reviewed; no full lyrics exported."
+  },
+  "feedback_basis": {
+    "shared_grove_keep": 127,
+    "shared_grove_cut": 846,
+    "grove_pending_before_append": 0,
+    "canonical_library_records": 1623,
+    "archived_exclusion_records": 140,
+    "policy": "canonical feedback with host priority; all individual histories preserved"
+  },
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:5FfgLIooERZ7rcNcwxAcdF",
+      "spotify_url": "https://open.spotify.com/track/5FfgLIooERZ7rcNcwxAcdF",
+      "artist": "Devon Cole",
+      "artists": [
+        "Devon Cole"
+      ],
+      "artist_ids": [
+        "1VFt2HpmFG8Ufq6SDCoZe4"
+      ],
+      "title": "Hey Cowboy",
+      "album": "Hey Cowboy",
+      "album_id": "17wY9BVWaZncYiZBleCcJX",
+      "duration_ms": 187049,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USAR12200398",
+      "release_date": "2022-10-21",
+      "popularity": 51,
+      "metadata_at": "2026-10-30T19:40:56Z",
+      "is_playable": true,
+      "id": "spotify:track:5FfgLIooERZ7rcNcwxAcdF",
+      "room": "living-room",
+      "batch_id": "21",
+      "batch_name": "Batch 21 · Four songs with character",
+      "batch_rank": 1,
+      "origin": "Grove 21 · individually researched candidate",
+      "lane": "Flirty vocal character",
+      "style": [
+        "Flirty vocal character"
+      ],
+      "features": {},
+      "keep_comparison": "W.I.T.C.H.; yes baby",
+      "cut_comparison": "YES MOM; Hot & Mysterious",
+      "selection_hypothesis": "A teasing sung invitation with country-flavoured phrasing and a verse/chorus/bridge scene, rather than using a confidence slogan as the entire hook. Compare the wry vocal persona in W.I.T.C.H. and the explicit attraction in yes baby.",
+      "cut_warning": "Those Cuts show that sexual confidence and a catchy refrain alone are insufficient. Test whether this particular vocal phrasing, smile and changing sections have appeal; the country tint is a real taste risk.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Flirtatious, sexually self-directed casual encounter. The bridge explicitly makes it a one-night good time; not a romantic commitment, breakup or insult narrative.",
+        "source_url": "https://www.lyricskid.com/lyrics/devon-cole-lyrics/hey-cowboy-lyrics.html",
+        "observed_at": "2026-10-30T19:40:56Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Tool returned audio input unsupported in this text session; no direct audition claimed",
+        "context_method": "Release coverage quotes Cole on enjoying sexual desire; separate review describes rhythmic singing with bass and a verse/chorus/instrumental/bridge build.",
+        "source_url": "https://aonetwothreefour.co/2022/10/21/devon-cole-hey-cowboy/",
+        "additional_source_url": "https://phillippahorrorunicorn.wordpress.com/2022/10/21/devon-cole-with-her-cowgirl-boots-on/"
+      },
+      "source_version_note": "Full standalone original recording; no remix, mixed compilation fragment or alternate speed.",
+      "audition_risk": "Alt-pop/country crossover character; judge the voice and phrasing, not the shared artist credit.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains a specific listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: W.I.T.C.H.; yes baby. A teasing sung invitation with country-flavoured phrasing and a verse/chorus/bridge scene, rather than using a confidence slogan as the entire hook. Compare the wry vocal persona in W.I.T.C.H. and the explicit attraction in yes baby. Cut warning: YES MOM; Hot & Mysterious. Those Cuts show that sexual confidence and a catchy refrain alone are insufficient. Test whether this particular vocal phrasing, smile and changing sections have appeal; the country tint is a real taste risk. Lyrics: Flirtatious, sexually self-directed casual encounter. The bridge explicitly makes it a one-night good time; not a romantic commitment, breakup or insult narrative. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "selection_reason": "Keep comparisons: W.I.T.C.H.; yes baby. A teasing sung invitation with country-flavoured phrasing and a verse/chorus/bridge scene, rather than using a confidence slogan as the entire hook. Compare the wry vocal persona in W.I.T.C.H. and the explicit attraction in yes baby. Cut warning: YES MOM; Hot & Mysterious. Those Cuts show that sexual confidence and a catchy refrain alone are insufficient. Test whether this particular vocal phrasing, smile and changing sections have appeal; the country tint is a real taste risk. Lyrics: Flirtatious, sexually self-directed casual encounter. The bridge explicitly makes it a one-night good time; not a romantic commitment, breakup or insult narrative. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "artist_genres": {
+        "1VFt2HpmFG8Ufq6SDCoZe4": {
+          "name": "Devon Cole",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-30T19:40:57Z",
+          "fetched_at": 1793389257.1113842
+        }
+      },
+      "youtube": {
+        "video_id": "rORqh-tCKEY",
+        "title": "Devon Cole - Hey Cowboy (Official Video)",
+        "channel": "Devon Cole",
+        "duration_seconds": 188,
+        "url": "https://www.youtube.com/watch?v=rORqh-tCKEY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5FfgLIooERZ7rcNcwxAcdF",
+        "observed_at": "2026-10-30T19:41:14Z",
+        "alternatives": [
+          {
+            "video_id": "4R3ESQvo4ss",
+            "title": "Devon Cole - Hey Cowboy (Audio)",
+            "channel": "Minimal Sounds",
+            "duration_seconds": 188,
+            "url": "https://www.youtube.com/watch?v=4R3ESQvo4ss",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:5FfgLIooERZ7rcNcwxAcdF",
+            "observed_at": "2026-10-30T19:41:14Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70"
+    },
+    {
+      "spotify_uri": "spotify:track:750jVPZnBVLItCUxaRR5iC",
+      "spotify_url": "https://open.spotify.com/track/750jVPZnBVLItCUxaRR5iC",
+      "artist": "Caravan Palace",
+      "artists": [
+        "Caravan Palace"
+      ],
+      "artist_ids": [
+        "37J1PlAkhRK7yrZUtqaUpQ"
+      ],
+      "title": "Lone Digger",
+      "album": "<I°_°I>",
+      "album_id": "3qU4wXm0Qngbtnr5PiLbFX",
+      "duration_ms": 229804,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR89R1500001",
+      "release_date": "2015-10-16",
+      "popularity": 66,
+      "metadata_at": "2026-10-30T19:40:56Z",
+      "is_playable": true,
+      "id": "spotify:track:750jVPZnBVLItCUxaRR5iC",
+      "room": "living-room",
+      "batch_id": "21",
+      "batch_name": "Batch 21 · Four songs with character",
+      "batch_rank": 2,
+      "origin": "Grove 21 · individually researched candidate",
+      "lane": "Angular dance hook",
+      "style": [
+        "Angular dance hook"
+      ],
+      "features": {},
+      "keep_comparison": "A Night Like This; Would You...?; Makeba - Radio Edit",
+      "cut_comparison": "Shake Your Coconuts; Boogie 2Nite",
+      "selection_hypothesis": "The proposed case is an angular brass/reed figure interacting with the bass and a fully sung dance invitation: a test of physical bounce plus an identifiable instrumental hook, alongside the sensual/playful Caro Emerald and Touch & Go Keeps.",
+      "cut_warning": "Retro or jazzy styling gets no exemption: the earlier broad retro pass failed. Shake Your Coconuts also shows that a playful dance command is insufficient. Test this exact riff/vocal combination rather than opening another electro-swing lane.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Sung encouragement to dance, move together and enjoy the party. No heartbreak narrative in the reviewed text; occasional forceful dance-command wording.",
+        "source_url": "https://lrclib.net/api/get/36876361",
+        "observed_at": "2026-10-30T19:40:56Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Tool returned audio input unsupported in this text session; no direct audition claimed",
+        "context_method": "Official artist upload confirms the standalone original. Musical hook/rhythm description is editorial knowledge/inference, not direct listening in this session.",
+        "source_url": "https://soundcloud.com/caravan-palace-official/lone-digger",
+        "additional_source_url": null
+      },
+      "source_version_note": "Full standalone original recording; no remix, mixed compilation fragment or alternate speed.",
+      "audition_risk": "Electro-swing novelty or repetition may still miss. Use album/Topic audio, not the violent animated official video.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains a specific listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: A Night Like This; Would You...?; Makeba - Radio Edit. The proposed case is an angular brass/reed figure interacting with the bass and a fully sung dance invitation: a test of physical bounce plus an identifiable instrumental hook, alongside the sensual/playful Caro Emerald and Touch & Go Keeps. Cut warning: Shake Your Coconuts; Boogie 2Nite. Retro or jazzy styling gets no exemption: the earlier broad retro pass failed. Shake Your Coconuts also shows that a playful dance command is insufficient. Test this exact riff/vocal combination rather than opening another electro-swing lane. Lyrics: Sung encouragement to dance, move together and enjoy the party. No heartbreak narrative in the reviewed text; occasional forceful dance-command wording. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "selection_reason": "Keep comparisons: A Night Like This; Would You...?; Makeba - Radio Edit. The proposed case is an angular brass/reed figure interacting with the bass and a fully sung dance invitation: a test of physical bounce plus an identifiable instrumental hook, alongside the sensual/playful Caro Emerald and Touch & Go Keeps. Cut warning: Shake Your Coconuts; Boogie 2Nite. Retro or jazzy styling gets no exemption: the earlier broad retro pass failed. Shake Your Coconuts also shows that a playful dance command is insufficient. Test this exact riff/vocal combination rather than opening another electro-swing lane. Lyrics: Sung encouragement to dance, move together and enjoy the party. No heartbreak narrative in the reviewed text; occasional forceful dance-command wording. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "artist_genres": {
+        "37J1PlAkhRK7yrZUtqaUpQ": {
+          "name": "Caravan Palace",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-30T19:40:57Z",
+          "fetched_at": 1793389257.573313
+        }
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70",
+      "youtube": {
+        "video_id": "TbsBEb1ZxWA",
+        "title": "Caravan Palace - Lone Digger (Album version)",
+        "channel": "CaravanPalace",
+        "duration_seconds": 231,
+        "url": "https://www.youtube.com/watch?v=TbsBEb1ZxWA",
+        "match_basis": "Official artist upload explicitly titled Album version; title/artist and duration within 5s. Animated official MV excluded; no listening/embedding certification.",
+        "spotify_uri": "spotify:track:750jVPZnBVLItCUxaRR5iC",
+        "observed_at": "2026-10-30T19:41:14Z",
+        "alternatives": []
+      }
+    },
+    {
+      "spotify_uri": "spotify:track:57Yx9XnNJizrRsxAMzlZDN",
+      "spotify_url": "https://open.spotify.com/track/57Yx9XnNJizrRsxAMzlZDN",
+      "artist": "Matt and Kim",
+      "artists": [
+        "Matt and Kim"
+      ],
+      "artist_ids": [
+        "4MSMDY0ClgWqXApU53I1L1"
+      ],
+      "title": "Let's Go",
+      "album": "Lightning",
+      "album_id": "3m7S5yuco3JZiFtoCciSwm",
+      "duration_ms": 210746,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US4HB1200016",
+      "release_date": "2012-10-02",
+      "popularity": 52,
+      "metadata_at": "2026-10-30T19:40:56Z",
+      "is_playable": true,
+      "id": "spotify:track:57Yx9XnNJizrRsxAMzlZDN",
+      "room": "living-room",
+      "batch_id": "21",
+      "batch_name": "Batch 21 · Four songs with character",
+      "batch_rank": 3,
+      "origin": "Grove 21 · individually researched candidate",
+      "lane": "Song-led lift",
+      "style": [
+        "Song-led lift"
+      ],
+      "features": {},
+      "keep_comparison": "Daylight; Heart It Races; Float On",
+      "cut_comparison": "Work This Body; Always, Everytime",
+      "selection_hypothesis": "A wordless melodic refrain, sung verses and a contrasting verbal bridge provide more than the title chant. Investigate the drum/keyboard lift and communal release already represented by Daylight, without requiring a house arrangement.",
+      "cut_warning": "The rejected upbeat indie anthems prevent calling optimism or a big chorus sufficient. The test is the particular melodic refrain and release from self-consciousness, not a general indie-pop expansion.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Leaving overthinking behind, singing freely and making words count. Brief opening self-consciousness is resolved; the central framing is release rather than sadness or relationship loss.",
+        "source_url": "https://lirik.web.id/m/matt-and-kim/lirik-lagu-matt-and-kim-lets-go/",
+        "observed_at": "2026-10-30T19:40:56Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Tool returned audio input unsupported in this text session; no direct audition claimed",
+        "context_method": "The label published official lyric videos for Lightning. The complete reviewed text distinguishes verse, refrain and bridge; musical impact and full arrangement remain unauditioned.",
+        "source_url": "https://www.thefader.com/2012/10/08/fader-label-watch-lyric-videos-for-the-entire-matt-kim-album",
+        "additional_source_url": null
+      },
+      "source_version_note": "Full standalone original recording; no remix, mixed compilation fragment or alternate speed.",
+      "audition_risk": "The repeated title/wordless refrain must earn its time; defer if it feels like another generic shout-along.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains a specific listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Daylight; Heart It Races; Float On. A wordless melodic refrain, sung verses and a contrasting verbal bridge provide more than the title chant. Investigate the drum/keyboard lift and communal release already represented by Daylight, without requiring a house arrangement. Cut warning: Work This Body; Always, Everytime. The rejected upbeat indie anthems prevent calling optimism or a big chorus sufficient. The test is the particular melodic refrain and release from self-consciousness, not a general indie-pop expansion. Lyrics: Leaving overthinking behind, singing freely and making words count. Brief opening self-consciousness is resolved; the central framing is release rather than sadness or relationship loss. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "selection_reason": "Keep comparisons: Daylight; Heart It Races; Float On. A wordless melodic refrain, sung verses and a contrasting verbal bridge provide more than the title chant. Investigate the drum/keyboard lift and communal release already represented by Daylight, without requiring a house arrangement. Cut warning: Work This Body; Always, Everytime. The rejected upbeat indie anthems prevent calling optimism or a big chorus sufficient. The test is the particular melodic refrain and release from self-consciousness, not a general indie-pop expansion. Lyrics: Leaving overthinking behind, singing freely and making words count. Brief opening self-consciousness is resolved; the central framing is release rather than sadness or relationship loss. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "artist_genres": {
+        "4MSMDY0ClgWqXApU53I1L1": {
+          "name": "Matt and Kim",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-30T19:40:57Z",
+          "fetched_at": 1793389257.98288
+        }
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70"
+    },
+    {
+      "spotify_uri": "spotify:track:4f41kW6oJVM6FKl2O4LgQ7",
+      "spotify_url": "https://open.spotify.com/track/4f41kW6oJVM6FKl2O4LgQ7",
+      "artist": "The Asteroids Galaxy Tour",
+      "artists": [
+        "The Asteroids Galaxy Tour"
+      ],
+      "artist_ids": [
+        "68g1s6VqLLLBI3tXR0Bb7C"
+      ],
+      "title": "The Golden Age",
+      "album": "Fruit",
+      "album_id": "3EZ7gOkpszSSAU0MFsA9Pv",
+      "duration_ms": 232360,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBWRR0800045",
+      "release_date": "2009-09-21",
+      "popularity": 50,
+      "metadata_at": "2026-10-30T19:40:56Z",
+      "is_playable": true,
+      "id": "spotify:track:4f41kW6oJVM6FKl2O4LgQ7",
+      "room": "living-room",
+      "batch_id": "21",
+      "batch_name": "Batch 21 · Four songs with character",
+      "batch_rank": 4,
+      "origin": "Grove 21 · individually researched candidate",
+      "lane": "Theatrical melodic pop",
+      "style": [
+        "Theatrical melodic pop"
+      ],
+      "features": {},
+      "keep_comparison": "A Night Like This; The Walker; Mushaboom",
+      "cut_comparison": "Fascination; Safe and Sound",
+      "selection_hypothesis": "A bright horn-led song with an eccentric lead voice, an aspirational narrative and a separate sung refrain. The proposed connection is theatrical personality plus forward-moving melody, not retro texture alone.",
+      "cut_warning": "Fascination and Safe and Sound are direct warnings against equating brass, brightness or a radio-sized chorus with a Keep. Test the distinctive vocal character and theatrical verses; broad happy-indie sourcing is not reopened.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Playful fantasy of performing, dressing up, making it and feeling free; nostalgic but affirmative. Alcohol/tobacco/casino imagery, without a central loss or breakup narrative.",
+        "source_url": "https://lyricstranslate.com/en/asteroids-galaxy-tour-golden-age-lyrics.html",
+        "observed_at": "2026-10-30T19:40:56Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Tool returned audio input unsupported in this text session; no direct audition claimed",
+        "context_method": "Full published lyric text reviewed. Horn/voice/arrangement relationship is an editorial hypothesis; no direct listening in this session.",
+        "source_url": "https://open.spotify.com/track/4f41kW6oJVM6FKl2O4LgQ7",
+        "additional_source_url": null
+      },
+      "source_version_note": "Full standalone original recording; no remix, mixed compilation fragment or alternate speed.",
+      "audition_risk": "Recognizable advertising-era crossover with retro-pop styling; judge whether the voice and song have enough personality for this room.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains a specific listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: A Night Like This; The Walker; Mushaboom. A bright horn-led song with an eccentric lead voice, an aspirational narrative and a separate sung refrain. The proposed connection is theatrical personality plus forward-moving melody, not retro texture alone. Cut warning: Fascination; Safe and Sound. Fascination and Safe and Sound are direct warnings against equating brass, brightness or a radio-sized chorus with a Keep. Test the distinctive vocal character and theatrical verses; broad happy-indie sourcing is not reopened. Lyrics: Playful fantasy of performing, dressing up, making it and feeling free; nostalgic but affirmative. Alcohol/tobacco/casino imagery, without a central loss or breakup narrative. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "selection_reason": "Keep comparisons: A Night Like This; The Walker; Mushaboom. A bright horn-led song with an eccentric lead voice, an aspirational narrative and a separate sung refrain. The proposed connection is theatrical personality plus forward-moving melody, not retro texture alone. Cut warning: Fascination; Safe and Sound. Fascination and Safe and Sound are direct warnings against equating brass, brightness or a radio-sized chorus with a Keep. Test the distinctive vocal character and theatrical verses; broad happy-indie sourcing is not reopened. Lyrics: Playful fantasy of performing, dressing up, making it and feeling free; nostalgic but affirmative. Alcohol/tobacco/casino imagery, without a central loss or breakup narrative. Evidence: published-text/source review; direct audio listening unavailable in this text session.",
+      "artist_genres": {
+        "68g1s6VqLLLBI3tXR0Bb7C": {
+          "name": "The Asteroids Galaxy Tour",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-30T19:40:58Z",
+          "fetched_at": 1793389258.541209
+        }
+      },
+      "youtube": {
+        "video_id": "hioYfSpEWzc",
+        "title": "The Golden Age",
+        "channel": "The Asteroids Galaxy Tour",
+        "duration_seconds": 233,
+        "url": "https://www.youtube.com/watch?v=hioYfSpEWzc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4f41kW6oJVM6FKl2O4LgQ7",
+        "observed_at": "2026-10-30T19:41:16Z",
+        "alternatives": [
+          {
+            "video_id": "Vt4fMDre_78",
+            "title": "The Asteroid Galaxy Tour - The Golden Age (Lyric Video)",
+            "channel": "The Asteroids Galaxy Tour",
+            "duration_seconds": 231,
+            "url": "https://www.youtube.com/watch?v=Vt4fMDre_78",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:4f41kW6oJVM6FKl2O4LgQ7",
+            "observed_at": "2026-10-30T19:41:16Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70"
+    }
+  ],
+  "audit": {
+    "track_count": 4,
+    "raw_duration_ms": 859959,
+    "distinct_lead_artists": 4,
+    "max_credited_artist_appearances": 1,
+    "max_album_appearances": 1,
+    "prior_recording_version_collisions": 0,
+    "all_spotify_us_playable": true,
+    "final_nine_hours_measured": false
+  },
+  "metadata_coverage": {
+    "youtube_candidates": 3,
+    "catalog_features": 0,
+    "artist_lookup_records": 4,
+    "nonempty_artist_genres": 1,
+    "optional_catalog_features_status": "Unavailable: first request HTTP 530, Retry-After 120; no descriptors invented."
+  },
+  "spotify_playlist_id": "5UKv9IjRzYLJE3N1607c70",
+  "spotify_playlist_url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70",
+  "spotify_playlist_name": "October Grove — Batch 21 · Four songs with character",
+  "spotify_order_verified_at": "2026-10-30T19:43:13Z",
+  "spotify_verified_snapshot_id": "AAAAAuf7MS+wVRiS8Jwlqy56dWo+rhBl",
+  "spotify_reports_public": true,
+  "hosted_verification": "../batch-publication-verification-2026-10-30-grove-21.json",
+  "hosted_published_at": "2026-10-30T19:44:07Z"
+}

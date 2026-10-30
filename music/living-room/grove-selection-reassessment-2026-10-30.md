@@ -1,5 +1,7 @@
 # October Grove — fresh selection assessment
 
+**Historical model detour; superseded by the host's explicit October 30 correction.** The host did not ask for a predictive model. Its numeric publication gate was agent-added and is not a curation requirement. [Grove 21](october-grove-batch-21.md) is now published through ordinary editorial selection, with the full Keep/Cut evidence and clear listening/inference limits. The experiment and earlier withheld disposition below remain historical evidence.
+
 October 30, 2026 · America/New_York. **Assessment completed; proposed selector failed validation; no new batch published.** This reassessment supersedes the previous sourcing allocations and similarity claims; every existing approval remains approved.
 
 ## Evidence and boundaries

@@ -1,0 +1,93 @@
+{
+  "verified_at": "2026-10-30T19:44:07Z",
+  "batch_id": "21",
+  "room": "living-room",
+  "track_count": 4,
+  "raw_duration_ms": 859959,
+  "library_records": 1627,
+  "room_counts": {
+    "living-room": 977,
+    "bedroom": 650
+  },
+  "canonical_shared_keeps": {
+    "living-room": 127,
+    "bedroom": 222
+  },
+  "needs_review": {
+    "living-room": 4,
+    "bedroom": 0
+  },
+  "metadata_coverage": {
+    "youtube_candidates": 3,
+    "catalog_features": 0,
+    "artist_lookup_records": 4,
+    "nonempty_artist_genres": 1,
+    "optional_catalog_features_status": "Unavailable: first request HTTP 530, Retry-After 120; no descriptors invented."
+  },
+  "spotify": {
+    "url": "https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70",
+    "id": "5UKv9IjRzYLJE3N1607c70",
+    "exact_order_verified": true,
+    "reports_public": true
+  },
+  "old_track_rows_unchanged": 1623,
+  "new_track_rows_exact": 4,
+  "all_prior_feedback_settings_snapshots_unchanged": {
+    "feedback": true,
+    "host_feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "settings": true,
+    "snapshots": true
+  },
+  "old_events_retained_as_prefix": 2874,
+  "exactly_one_import_event_added": true,
+  "sqlite_integrity": "ok",
+  "container_ids_start_times_unchanged": true,
+  "server_restart": false,
+  "frontend_real_filter_functions": "passed",
+  "main_playlists": {
+    "grove": {
+      "count": 127,
+      "exact_order_unchanged": true,
+      "verified_at": "2026-10-30T19:44:03Z"
+    },
+    "hollow": {
+      "count": 222,
+      "exact_order_unchanged": true,
+      "verified_at": "2026-10-30T19:44:07Z"
+    }
+  },
+  "hosted_import": {
+    "verified_at": "2026-10-30T19:43:37Z",
+    "mode": "atomic_append",
+    "old_track_records_unchanged": 1623,
+    "new_track_records_exact": 4,
+    "new_unrated": 4,
+    "old_tables_preserved": {
+      "feedback": true,
+      "host_feedback": true,
+      "reviewer_feedback": true,
+      "reviewer_scores": true,
+      "settings": true,
+      "snapshots": true,
+      "events": true
+    },
+    "old_events_preserved_as_prefix": true,
+    "sqlite_integrity": "ok",
+    "online_backup_created": true,
+    "server_restart_required": false,
+    "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+  },
+  "python_atomic_importer_tests_passed": 7,
+  "limits": [
+    "No direct audio audition: tool audio input unsupported in this text session.",
+    "Musical fit remains editorial comparison, not inferred from a predictive model or metrics.",
+    "Published full song text reviewed; no exact-master transcription certification or complete arrangement proof.",
+    "Three YouTube metadata candidates; Lets Go uses exact Spotify fallback because official lyric video differs in duration.",
+    "ReccoBeats unavailable HTTP 530; catalog metrics left unknown.",
+    "No new authenticated browser playback/speaker test or production test votes."
+  ],
+  "node_player_batch_review_tests_passed": 21,
+  "disposable_1623_record_clone_append": "passed"
+}

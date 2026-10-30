@@ -1,27 +1,29 @@
-# October Grove working thesis
+# October Grove working selection brief
 
-Updated October 30, 2026 after Grove 20 finished **0/15**. The [fresh assessment](grove-selection-reassessment-2026-10-30.md) supersedes the earlier dance-led sourcing allocations and similarity claims. Existing individual Keeps remain approved. The October 29 [editorial review](editorial-review-2026-10-29.md) is historical evidence, not the current selection instruction.
+Updated October 30, 2026 after the host's explicit correction: **“I didn’t ask for a predictive model.”** Finish a small, convincing test using the full Keep/Cut evidence and actual listening where available; fewer than 15 is fine. [Grove 21](october-grove-batch-21.md) is now live: **four songs / 14:20 raw**. No predictive model or numeric publication gate is part of selection.
 
 ## Confirmed host instructions
 
-Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving. Music needs personality, strong hooks and enough development to hold attention. Avoid blandness, low perceived energy, dragging repetition, standalone intros/interludes/outros and artist/album overrepresentation. No acid/techno in Grove; avoid chart-pop/top-five-hit character and sad/negative lyrics. Individual approved exceptions remain approved.
+Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving. Music needs personality, strong hooks and enough development to hold attention. Avoid blandness, low perceived energy, dragging repetition, standalone intros/interludes/outros and artist/album overrepresentation. No acid/techno in Grove; avoid chart-pop/top-five-hit character and sad/negative lyrics. Existing individual Keeps remain approved.
 
-Read all actual canonical Keeps, with host priority resolved in hosted `feedback`. Several directions may coexist. Remaining Likes and targeted discovery are both allowed. Preserve all histories and prior recording/version exclusions, and keep main Spotify playlists unchanged while testing candidates. Hollow content is finished and outside this session.
+Use current canonical shared feedback, which resolves host priority, and preserve every individual history. Several directions may coexist. Remaining Likes and targeted discovery are both allowed. Exclude prior reviewed recordings/versions across both rooms and archived pools. Keep main Spotify playlists unchanged while testing. Hollow content is done and outside this task.
 
-## Working interpretation — open to revision
+## Evidence and editorial judgment
 
-The 127 Keeps support overlapping possibilities: hook-led club songs; sensual/theatrical electro and pop; rhythmic indie and complete songs; melodic lift; and percussive, playful records. These are descriptive hypotheses, not genre quotas. Four earlier host-selected references—Now U Do / Makeba / Joy / Kisses—are useful individual examples, alongside the other 123 Keeps. Song-led evidence is broader than Float On and Bruises.
+All **127 actual Keeps and 846 Cuts** were read for this selection. The Keeps support overlapping possibilities: hook-led club songs, sensual/theatrical electro and pop, rhythmic indie and complete songs, melodic lift, and playful/percussive records. These are hypotheses describing evidence, not genre quotas. The four earlier references—Now U Do / Makeba / Joy / Kisses—remain useful alongside the other 123 Keeps.
 
-The most consequential missing variable is **the appeal of the exact recording**. That remains an inference about why selection failed, not a measured taste factor. Same-artist follow-ups repeatedly lost: salute has one Keep and ten Cuts, Confidence Man three Keeps and seven Cuts, Chairlift two Keeps and one Cut. More BPM, energy, valence or danceability often favors the rejected member of a close pair. Curated set membership did not fix that problem.
+Judge an exact recording through its particular hook, vocal identity, rhythmic interaction and song development. Use relevant Keeps as positive evidence and nearby Cuts as warnings against easy generalizations. A Cut does not establish an artist ban; a Keep does not establish artist-wide permission. Written reasons are mostly absent, so do not invent the cause of individual votes.
 
-Every future candidate should have a concrete Keep comparison **and a relevant rejected comparison**, with the evidence level stated. Catalog identity, published context, numerical audio measurements and listening are different. Do not turn an acoustic descriptor into a hook/voice/sexiness judgment, or an unknown lyric into a positive verdict. Listen beyond the opening when full authorized audio is available; a preview cannot establish whole-song development.
+Catalog identity, published context, lyric review and actual listening must remain distinct. BPM, energy, genre, positive lyrics and a good DJ set are individually insufficient. When direct audio listening is available, hear a later section as well as the opening. When it is unavailable, state that honestly and make a small, concrete listening hypothesis; do not substitute a predictive model, claim an audition, or impose a new approval gate.
 
-## Validation and current action
+## Current test
 
-A fixed preview-signal selector was tested against later canonical votes before any new publication. Of 327 requested historical recordings, 265 had bounded Deezer preview matches. On the same 119 matched later recordings, catalog-only, audio-only and combined models found **8, 4 and 5 Keeps** in their top 15. The combined model's **AUC .627** also failed the preset .70 gate. This enriched subset cannot supply expected acceptance rates for discovery. [Methods, exact limitations and comparisons](grove-selection-reassessment-2026-10-30.md).
+[Grove 21 · Four songs with character](october-grove-batch-21.md) tests **Hey Cowboy / Lone Digger / Let's Go / The Golden Age**. Each has specific Keep/Cut comparisons, a reviewed full published song text, a distinct lead artist and a fresh exact Spotify version. The test uses targeted discovery; no global Like membership is claimed. Several other leads were dropped for mixed-negative words, unresolved context or weaker fit.
 
-**No new batch was published.** A private 14-recording research slate is not an audition or a validated recommendation list. Do not reuse this failed selector to fill 15 positions. The proposed small test remains on hold for recording-level comparative evidence that actually distinguishes relevant Keeps from Cuts. No host re-rating, extra approval checkpoint or new manual scoring form is requested.
+Direct audio input was unsupported in this text session. Musical comparisons remain editorial inference, with attributable context and remaining risks on each card. Lyric review is not exact-master transcription. Three YouTube metadata candidates and Spotify fallback support the host's normal Keep/Cut review; no extra score form. ReccoBeats was unavailable; missing metrics stay unknown.
 
-Current canonical totals are **127 Keeps / 846 Cuts / zero pending**, **7:02:25 raw**. Nine hours after actual transitions/cuts remains unmet; roughly 53 more similar-length Keeps is a planning estimate. A future successful slate should be small, varied, fully excluded against prior versions, independently screened for lyrics/pop character, and published through the existing atomic Playlist Lab workflow with preservation readback.
+At publication: **127 Keeps / 846 Cuts / four pending**, approved **7:02:25 raw**. Nine hours after actual cuts/transitions remains unmet; roughly 53 additional similar-length Keeps is planning arithmetic. Votes never automatically sync the main playlist.
 
-[Room plan](playlist.md) · [Current status](../curation-status-2026-10-30.md) · [Reassessment handoff](handoff-2026-10-30-reassessment.md) · [Grove 20 archive](october-grove-batch-20.md).
+The earlier [assessment/model experiment](grove-selection-reassessment-2026-10-30.md) is historical. Its failed numeric gate was agent-added and has no authority over current curation. The earlier [October 29 editorial review](editorial-review-2026-10-29.md) is also historical where its quotas or narrow sourcing assumptions conflict with this brief.
+
+[Room plan](playlist.md) · [Current status](../curation-status-2026-10-30.md) · [Grove 21 handoff](handoff-2026-10-30-grove-21.md).

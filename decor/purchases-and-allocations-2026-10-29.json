@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-deep-opening-correction.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-minimal-guardian-support.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2157,7 +2157,7 @@
     "supportReuseProposal": {
       "date": "2026-10-30",
       "hostSelectedFinalSupport": false,
-      "recommendation": "Pause GC stand purchase; secure owned Swiffer handle at two points to suitable stable rear desk leg for lightweight robe/shoulders; attached mop base rests under desk. Heavy skull fully supported underneath on desk platform.",
+      "recommendation": "Await choice: skull directly on desk beside laptop with ordered cloth/vines, or one optional ready-made GLP-1S stool riser; no assumed household craft frame.",
       "physicalFitTested": false,
       "newStandPurchaseConfirmed": false,
       "originalStandOrderCancelled": false,
@@ -2175,14 +2175,33 @@
         "openingInternalGeometryVerified": false,
         "exactOpeningWidthKnown": false
       },
-      "heavyHeadProposal": "Seated hooded Guardian: fully supported head on a low broad rigid tabletop platform with padded cradle if needed; desk bears head load, Swiffer handle only light hanger/hood/vines. Household piece and actual fit/stability unverified.",
+      "heavyHeadProposal": "Minimal tabletop Guardian; no new support or one optional stool riser. No Swiffer load-bearing head mount. Base/fit/stability untested.",
       "heavyHeadProposalAccepted": false,
       "hostOwnedSwifferWithAttachedBase": true,
       "ownedToolClarification": "Host: Swiffer stick with a Swiffer base; earlier broomstick description superseded",
       "exactSwifferModelVerified": false,
       "swifferJointOrLockTested": false,
       "swifferHeadLoadCapacityVerified": false,
-      "pendingMountInformation": "Asked whether opening widens into hollow skull or is tube-like, and approximate entrance width. No proposed insert dimensions or pole-mounted head approval."
+      "pendingMountInformation": "Asked whether opening widens into hollow skull or is tube-like, and approximate entrance width. No proposed insert dimensions or pole-mounted head approval.",
+      "hostMaterialConstraint": "Host says they do not have a lot of the proposed parts; no spare crate/riser, packing foam or hanger assumed.",
+      "minimalSupportChoiceConfirmed": false,
+      "optionalStool": {
+        "product": "Gorilla GLP-1S folding step stool",
+        "sku": "1001626162",
+        "url": "https://www.homedepot.com/p/Gorilla-Ladders-Solid-Plastic-1-Step-Step-Stool-300-lbs-Load-Capacity-7-ft-Reach-Height-Folds-Under-1-in-Thin-Soft-Touch-Tread-GLP-1S/206618097",
+        "quantity": 1,
+        "localDisplayedPriceUsd": "17.97",
+        "localDisplayedStock": 11,
+        "store": "Manhattan West 23rd St, 40 W23rd St",
+        "checkedAtApprox": "2026-10-30 19:10–19:12 EDT",
+        "evidence": "Loaded Chrome category with selected store; product read later timed out",
+        "unlocalizedWebPriceUsd": "14.97",
+        "selected": false,
+        "purchased": false,
+        "held": false,
+        "fitTested": false,
+        "conditionalRescueSubtotalExcludingHeadUsd": "85.91"
+      }
     }
   }
 }

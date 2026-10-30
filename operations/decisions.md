@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 • owned broomstick offered; support reuse proposed
+
+Host reports a broomstick and asks for a better option than the mic stand. [Current reuse proposal](../decor/bedroom/woodland-guardian.md#proposed-reuse-support-owned-broomstick): two-point attachment to a suitable stable desk leg for a lightweight head; ceramic/heavy skull supported underneath on a sturdy tabletop box/platform, broom for light shoulders/vines only. Recommend pausing $39.99 GC stand purchase pending actual fit/stability trial. Owned broom confirmed; support choice, head material/weight and build/test unconfirmed. Conditional $39.99 avoided buy; no paid saving, original-order cancellation or ID/game change.
+
 ## October 30 evening • avoid Spirit queue; head alternatives reopened
 
 Host reports extreme Spirit lines and asks for Michaels or another open shop. Skip the Halloween-store queue; no final substitute selected. [Current sources/photo recommendation](../decor/bedroom/skull-alternatives-2026-10-30.md): photo floral skull may work with existing cloth/vines/external light, mount/price unknown. Both checked Michaels skulls show Chelsea out of stock. Nearby Home Depot 40 W23 open until 9; $3.25 LED skull SKU 1015100110 is visit-store availability only. No stock-confirmed new head, purchase/hold/cancellation, game-ID change or physical test. Prior ram-inclusive route totals historical assumptions; selected 12in dowels unchanged.

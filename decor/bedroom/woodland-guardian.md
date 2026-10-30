@@ -4,7 +4,21 @@
 
 **October 29 host instruction:** minimize handmaking, maximize Amazon components. This supersedes the 3–5 hour sculpted-card bark face/branching crown. No human DJ, animatronics or new furniture footprint. [Exact urgent orders](../urgent-buy-list-2026-10-29.md) · [Placement](../final-room-plan.md#the-hollow-accepted-corner-arrangement).
 
-## Buy versus reuse
+## Proposed reuse support: owned broomstick
+
+Host reports an available broomstick and asks whether it can replace the microphone stand. **Recommendation: pause the $39.99 GC stand purchase and try the desk-supported broomstick first.** This is a proposal, not a host-confirmed final build or a tested mount. Original Sunday-delayed stand order stays ordered; no cancellation/refund.
+
+For a lightweight foam/plastic head or mask:
+
+1. Rest the pole's bottom on the floor behind the desk. If the actual rear desk leg offers two sound attachment points, bind pole to leg at two separated heights using the already ordered ties. Check both twisting and sliding; tape can protect surfaces/hide joins but is not the main attachment. Desk stability and attachment geometry need an in-room trial. Keep pole/dressing in the existing Guardian band, without bracing the upright bed.
+2. Tie an existing lightweight hanger/crosspiece to the pole for shoulders. Add allocated black cloth, vines and a few moss scraps, keeping equipment vents, speakers and controls accessible.
+3. Mount only a light head using its suitable existing straps or a supported cradle. Check the dressed assembly for rotation, slipping and tipping before use; if the desk/leg cannot secure it, use the tabletop version below rather than assuming a loose broom is freestanding.
+
+**For the pictured skull if ceramic/heavy:** support its full base on a sturdy low box/platform resting directly on the desk, covered in the allocated cloth, positioned clear of equipment and edge. The actual surface, box strength, head height and equipment clearance must fit. The broomstick can carry lightweight shoulders/vines behind it; do not balance the ceramic head on the pole or depend on glue/tape as the head's support. Use existing external lights if eye sockets are closed. No extra support purchase specified until the household trial.
+
+This could avoid the **$39.99 prior-quoted stand and GC detour**, with no new floor base footprint. It changes the earlier independent-stand proposal to desk attachment; neither arrangement is physically tested. Head material/weight and desk attachment remain unknown. No stage/light rig or bed restraint is being made. Final DEC-03 still needs reference photos and camera tests.
+
+## Earlier ordered mask/stand parts — historical reference
 
 | Part | Exact choice | Additional buy |
 |---|---|---:|
@@ -19,7 +33,7 @@
 
 The bought face is advertised **9×6.1×2.75 in**, an adult-size small bust rather than the huge 16–20 in face/antlers in the mood image. It has a mossy/woodland green headdress and short horn-like details; no separate carved crown needed. Listing fabric table says latex while prose names silicone/resin/wood; do not treat its composition or mounting weight as independently verified. Rating 3.6/5 across 60 reviews at check; appearance/quality untested. LED variant selected; battery type/included cells/runtime not stated in accessible copy. **Do not invent a battery order or promise the eyes will work without checking the package.** The already allocated warm string and selected AUTO fill lights supply a fallback; no new electrical modifications.
 
-## Assembly proposal — about 30–45 minutes, not timed/tested
+## Earlier mask/stand assembly — historical reference, not timed/tested
 
 1. Place the weighted stand in the existing~39×12 in Guardian band, independently of bed/desk. Adjust pole near 55–60 in; face center around 60–64 in as fit permits.9.8 in base fits nominal band, actual stability/clearance remains to test.
 2. Use mask's existing straps around a small stiff reused backplate; secure that plate to pole at **two separated points** with ordered ties. Add a little packing paper only if needed to retain shape; no carving, sculpting, drilling the bought face or gluing hardware. If the actual straps/shape do not support this arrangement, make a reversible cradle from the same card before placing guests nearby.

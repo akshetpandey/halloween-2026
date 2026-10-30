@@ -23,6 +23,8 @@ Initial catalogue suggestions were followed by these actual Chelsea checks; do n
 
 ## Costs and next steps
 
+**Later support proposal:** host has a broomstick. [Desk attachment for a light head / supported tabletop ceramic head](woodland-guardian.md#proposed-reuse-support-owned-broomstick) may avoid the $39.99 GC stand. If that household trial works, use $67.94 + actual head price before tax instead of the stand-inclusive formula below. Not a final support selection or tested build; no purchase/cancellation inferred.
+
 No new head selected, no paid-cost adjustment/refund. Prior dowel route $127.92 assumes a $19.99 ram; current unresolved-head formula is **$107.93 plus actual replacement-head price**, pre-tax, retaining other dated quotes (including costume glue). Add optional $9.99 paper only if bought. Home Depot scenario **$111.18 before tax/$121.19 at 9% planning tax, plus required AA batteries if not owned**, is conditional on actual stock/selection. Exact photo-head price unknown.
 
 Host reports actual head/price/receipt next; then trial supported mounting, outfit, lights and final camera enrollment under existing DEC-03. No game code, enrollment, physical build or lighting tests performed. Original Sunday-delayed orders remain ordered; no cancellation/refund.

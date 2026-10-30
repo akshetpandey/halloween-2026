@@ -1,6 +1,6 @@
 # The Hollow — decor
 
-**October 30 evening:** [Guardian head without the Spirit queue](skull-alternatives-2026-10-30.md). Host-photo skull proposed; checked Michaels alternatives show out of stock Chelsea. Home Depot nearby open until 9, shelf stock unconfirmed. No new head purchase or mounting/camera test.
+**October 30 evening:** [Guardian head without the Spirit queue](skull-alternatives-2026-10-30.md). Host-photo skull proposed; checked Michaels alternatives show out of stock Chelsea. Home Depot nearby open until 9, shelf stock unconfirmed. No new head purchase or mounting/camera test. **Support follow-up:** [owned broomstick tied to desk / supported tabletop ceramic head](woodland-guardian.md#proposed-reuse-support-owned-broomstick) proposed before buying the $39.99 stand; fit/stability untested, no final support selection.
 
 **October 29 order confirmation:** host confirms all selected decor/light products ordered, including mask/stand, rug, vines/string and Betopper fill pair. Fills use AUTO; no OPPSK/DMX. Actual receipt, setup and camera tests remain. [Current order ledger](../urgent-buy-list-2026-10-29.md).
 

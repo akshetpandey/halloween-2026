@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-no-spirit-queue.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-broomstick-support.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -1879,7 +1879,7 @@
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
     "bAndHExcludedByHost": true,
-    "route": "Evening update: Spirit queue excluded. Remaining pickups depend on what host has already collected; Michaels Chelsea and GC Manhattan close21:00; Home Depot W23 optional head lead closes21:00, stock unconfirmed. Earlier full route retained under pickupRoute as history.",
+    "route": "Spirit queue excluded. Recommend pausing GC stand stop while owned-broomstick/tabletop support is tried; not a final support selection. Other pickups depend on what host collected; optional Home Depot head lead has unconfirmed stock. See latest support/head notes; earlier route is history.",
     "queensOptionSuperseded": true,
     "abracadabraExcludedByHost": true,
     "headDirection": "Host avoids Spirit queue; photo floral skull or nearby non-Halloween-store alternative proposed; replacement head not selected/purchased",
@@ -2153,6 +2153,19 @@
       },
       "quotedSubtotalExcludingHeadUsd": "107.93",
       "noNewPaidCosts": true
+    },
+    "supportReuseProposal": {
+      "date": "2026-10-30",
+      "hostOwnedBroomstick": true,
+      "hostSelectedFinalSupport": false,
+      "recommendation": "Pause GC stand purchase; try broomstick secured at two points to suitable stable rear desk leg for lightweight head; support ceramic/heavy head from underneath on sturdy tabletop platform",
+      "physicalFitTested": false,
+      "newStandPurchaseConfirmed": false,
+      "originalStandOrderCancelled": false,
+      "priorStandQuoteUsd": "39.99",
+      "conditionalQuoteExcludingHeadAndReplacementStandUsd": "67.94",
+      "actualPaidSavingConfirmed": false,
+      "canonicalPlan": "decor/bedroom/woodland-guardian.md#proposed-reuse-support-owned-broomstick"
     }
   }
 }

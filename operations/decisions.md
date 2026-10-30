@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## October 30 • Sunday delays and local decor rescue
+## October 30 • bought skull head replaces Abracadabra stop
+
+Host wants to avoid Abracadabra's expected queue and build DEC-03 from a bought skull, like the existing wolf skull, with LED tea lights in its eyes. Exact head remains unchosen. [Refreshed sources/build](../decor/nyc-pickup-rescue-2026-10-30.md): $7.50 Target human skull, five shown Midwood/three Kings Hwy with two-hour pickup; eye access not verified. $3.25 Home Depot ready-lit skull at W 23rd is a route-convenient lead, **not confirmed shelf stock or online pickup**; requires three AA cells. Animal ram options checked had no verified Brooklyn/Manhattan pickup. Use two intact ordered tea lights only if the actual skull permits; otherwise intact allocated string. Keep DEC-05's wolf skull separate, all fifteen IDs intact. Three core Manhattan stops replace the old four-stop route; Target is a separate Brooklyn leg if chosen. New six-line Target quote $118.95/$129.66 planning tax, replacing $136.40/$148.68. No purchase/reservation/refund or physical test.
+
+## Earlier October 30 • Sunday delays and local decor rescue — head/route superseded above
 
 Host asks for NYC pickup today and corrects **no sticks already owned**. Live Amazon shipment group shows Sunday November 1 for mask, stand, VILLCASE twigs, PerkHomy twine, deer, rabbit, fall leaves and soluble notes. Host excludes B&H for distance/early closing. [Current pickup proposals](../decor/nyc-pickup-rescue-2026-10-30.md): GC Manhattan MS235, Chelsea willow/Kraft ribbon/gold stag, W 15th rabbit plush and Abracadabra NYC matte black skull mask; six lines $136.40 before tax. Host starts in Williamsburg and is comfortable with Brooklyn/Manhattan; current route is four Manhattan stops, with Queens option superseded. Abracadabra shows four black masks in its NYC store, walk-in only during online pickup pause, open until 10 p.m. today. Skip replacing loose leaves; soluble-paper pickup unresolved, folded-note alternative only proposed. No substitute accepted/bought from the request alone; no cancellations/refunds. Retain 15 IDs/5+5+5 and enroll final actual props. No extra pumpkins/USB/DMX sourcing.
 

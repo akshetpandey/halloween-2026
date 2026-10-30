@@ -1838,7 +1838,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-nyc-pickup-rescue.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-skull-guardian.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -1852,17 +1852,20 @@
       "MAKE-TWINE",
       "MW-PAPER"
     ],
-    "sourcingStatus": "six locally stocked proposals; soluble-paper pickup unresolved; loose-leaf replacement skipped",
+    "sourcingStatus": "five earlier local-stock proposals plus Target Brooklyn skull pickup fallback; Home Depot ready-lit skull shelf-unconfirmed; soluble paper unresolved",
     "purchasePerformed": false,
     "cancellationPerformed": false,
     "refundAssumedUsd": "0.00",
-    "proposedLocalSubtotalUsd": "136.40",
-    "proposedLocalWithPlanningTaxUsd": "148.68",
+    "proposedLocalSubtotalUsd": "118.95",
+    "proposedLocalWithPlanningTaxUsd": "129.66",
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
     "bAndHExcludedByHost": true,
-    "route": "Four Manhattan stops; Williamsburg start; Brooklyn/Manhattan preference",
-    "preferredMask": {
+    "route": "Three core Manhattan stops: GC, Kidding Around, Michaels; optional nearby Home Depot shelf check; Target Brooklyn separate leg if chosen",
+    "queensOptionSuperseded": true,
+    "abracadabraExcludedByHost": true,
+    "headDirection": "bought skull with LED tea-light eyes if accessible; exact product not selected; DEC-05 wolf skull stays separate",
+    "supersededMask": {
       "product": "Full Face Matte Black Skull Mask",
       "sku": "W7349B",
       "url": "https://abracadabranyc.com/products/full-face-matte-black-skull-mask",
@@ -1873,8 +1876,40 @@
       "pickupMethod": "walk-in only; online pickup paused",
       "date": "2026-10-30",
       "fridayHours": "10:00–22:00 America/New_York",
+      "purchased": false,
+      "supersededReason": "host wants to avoid Abracadabra queue"
+    },
+    "proposedHead": {
+      "product": "10-inch Oversized Skull Hyde and EEK",
+      "url": "https://www.target.com/p/-/A-89600148",
+      "tcin": "89600148",
+      "quantity": 1,
+      "quotedUnitUsd": "7.50",
+      "storeStocksObserved": {
+        "Brooklyn Midwood": 5,
+        "Brooklyn Kings Hwy": 3
+      },
+      "observedAt": "2026-10-30T11:49:00-04:00",
+      "pickup": "displayed ready within 2 hours; no order placed",
+      "eyeAccessVerified": false,
+      "mountTested": false,
       "purchased": false
     },
-    "queensOptionSuperseded": true
+    "alternateHead": {
+      "product": "Home Accents Holiday 8-inch LED Skull",
+      "url": "https://www.homedepot.com/p/339864939",
+      "model": "26PA05791",
+      "sku": "1015100110",
+      "quantityIfSubstituted": 1,
+      "quotedUnitUsd": "3.25",
+      "store": "Manhattan West 23rd St, 40 W 23rd",
+      "localStockVerified": false,
+      "onlinePickupAvailable": false,
+      "availabilityText": "Visit store for availability; drawer says Not In Stock Today at Nearby Stores",
+      "batteries": "3 AA sold separately; cost unquoted",
+      "proposedSixLineSubtotalUsd": "114.70",
+      "proposedWithPlanningTaxExcludingBatteriesUsd": "125.02",
+      "purchased": false
+    }
   }
 }

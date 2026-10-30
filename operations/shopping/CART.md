@@ -1,6 +1,6 @@
 # Decor shopping status and historical wood/skull cart
 
-**Current October 30 delivery exception:** [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) lists eight Sunday-delayed lines and six locally stocked substitution proposals. Host corrects **no sticks in hand**. No blanket duplicate order: replace only delayed essential functions, skip loose leaves, soluble paper unresolved. No new purchase/cancellation/refund. B&H excluded; $39.99 GC Manhattan stand proposed. Existing USB supplies/minis stay covered.
+**Current October 30 delivery exception:** [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) lists eight Sunday-delayed lines and six locally stocked substitution proposals. Host corrects **no sticks in hand**. No blanket duplicate order: replace only delayed essential functions, skip loose leaves, soluble paper unresolved. No new purchase/cancellation/refund. B&H/Abracadabra excluded; $39.99 GC Manhattan stand proposed. Bought skull/LED-eye direction for DEC-03; $7.50 Target Brooklyn pickup head is the displayed-stock fallback, $3.25 ready-lit Home Depot head a shelf-unconfirmed alternative. Buy one head only; keep Grove wolf skull DEC-05. Current six-line Target scenario $118.95 pre-tax/$129.66 with planning tax. Existing USB supplies/minis stay covered.
 
 ## Current October 29 • all selected orders confirmed by host
 

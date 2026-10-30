@@ -1,5 +1,7 @@
 # Sunday shipment / NYC pickup rescue
 
+**Head/route/budget superseded later October 30:** host avoids Abracadabra and wants a bought skull with glowing eyes. See [latest skull handoff](handoff-2026-10-30-skull-guardian.md) and the current pickup plan. The earlier $136.40/four-stop summary below is history.
+
 - **Updated:** October 30, 2026, America/New_York, morning EDT.
 - **Session / checkout:** shared `/Users/akshet/workspace/halloween-2026`, `main`; base `ed727f4`; initial shortlist committed `f4cc34f`, followed by host travel steering. No worktree/branch created.
 - **Status:** delivery audit and local shortlist saved. Purchases/selection/receipt and soluble-paper solution remain open; no claim that props are secured.

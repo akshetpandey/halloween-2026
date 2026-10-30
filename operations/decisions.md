@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 30 • Moon Well dissolve-only ritual confirmed
+
+Host says **“lets stick with dissolvable paper”**, accepting plain water/write-and-dissolve and superseding the explored flash-paper/contact-ignition alternatives. No extra light/sound effect (host says no time). Bucket intended inside the bathtub; stable support/reach still to fit. One moon/listener DEC-01 and optional/unscored writing remain. [Current ritual](../decor/bathroom/moon-well-release-2026-10-29.md) · [Local paper checks](../decor/bathroom/dissolving-paper-pickup-2026-10-30.md). Original Amazon notes Sunday Nov1; Keaton $9.99 shows NYC pickup but same-day readiness needs a call. No second confirmed pickup source: Brooklyn Craft soluble sheets sold out, checked Michaels Pellon items not sold Chelsea/Atlantic. No replacement selected/bought; no cost baseline change, cancellation/refund or physical test. Earlier pending-acceptance statements below are history.
+
 ## October 30 • ram preferred and four-store pickup route
 
 Host says ram looks good, fox too expensive, and asks for optimized route/everything to buy today. Ram becomes preferred DEC-03 head, **not a confirmed purchase or Fulton stock**; remove Evolution detour. [Current plan](../decor/nyc-pickup-rescue-2026-10-30.md): GC W14 stand, Kidding W15 rabbit, Michaels Chelsea stag/willow/raffia plus crown repair glue, then Spirit 490A Fulton ram if available. **Michaels glue item 10379057 $4.99, 13 Chelsea shown today/AISLE11**, so no separate CVS errand. Seven items $136.43/$148.71 planning tax; six decor lines $131.44/$143.27, glue separate costume allowance. Kidding Friday closes7pm, GC/Michaels9pm, Spirit11pm per official sites. Reserve/ready notices and ram stock check precede travel; no agent order/hold/call performed. Soluble paper pickup unresolved, other household purchases conditional. All fifteen IDs unchanged.

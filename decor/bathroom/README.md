@@ -2,6 +2,8 @@
 
 ## October 30 • delayed paper and local replacement lead
 
+**Latest decision:** host confirms **dissolving paper/plain water, no burning or reactive additive**. No time for extra light/sound effects. [Other-source checks](dissolving-paper-pickup-2026-10-30.md#other-local-sources-checked): Brooklyn Craft soluble sheets sold out; relevant Michaels Pellon items not sold at Chelsea/Atlantic. No second confirmed pickup source. Specific replacement remains unselected; call Keaton about today.
+
 Amazon soluble notes now show **Sunday, November 1**. [Keaton Quilts Paper Solvy pickup proposal](dissolving-paper-pickup-2026-10-30.md): $9.99, NYC pickup displayed, standard readiness 24 hours; **call to confirm today before 6 p.m.** Not purchased or tested. [Current rescue route](../nyc-pickup-rescue-2026-10-30.md) owns the optional detour and cost scenario.
 
 ## Current October 29 • single moon and harvest offering table

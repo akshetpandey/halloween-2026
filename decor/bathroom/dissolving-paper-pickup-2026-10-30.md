@@ -1,5 +1,7 @@
 # Moon Well dissolving paper — October 30 local pickup lead
 
+**Latest host decision October 30:** use dissolvable paper; **drop flash-paper/contact-ignition ideas**. Plain water only, no extra light/sound effect. Specific replacement product still unselected. Other-source check below: **no second confirmed NYC pickup source**; Keaton remains the strongest displayed pickup offer, with today's readiness needing a call.
+
 Status: **replacement proposal; same-day readiness unconfirmed; not bought or tested.** Checked live in the host's Chrome on October 30, approximately 3 p.m. EDT. Existing [NATURALABEL 100-note pack](https://www.amazon.com/dp/B08R8KY3YD) remains ordered; the earlier signed-in Orders check showed Sunday, November 1. No cancellation/refund assumed.
 
 ## Best local lead
@@ -19,7 +21,26 @@ Proposed cut: six slips per sheet, approximately **2.8×5.5 inches** = **72 smal
 
 Optional paper adds **$9.99 before tax / ~$10.89 at the existing 9% planning allowance**. Baseline seven-item route including costume glue stays $136.43/$148.71 until selected. With paper, eight-item scenario is **$146.42/$159.60**; decor-only scenario is **$141.43/$154.16**. No actual charge, purchase or refund recorded. [Canonical route/costs](../nyc-pickup-rescue-2026-10-30.md); [original ritual proposal](moon-well-release-2026-10-29.md).
 
+## Other local sources checked
+
+Checked October 30, approximately 3:20–3:25 p.m. EDT.
+
+| Source / product | Verified outcome and use in today's route |
+|---|---|
+| [Brooklyn Craft Company Stick n' Stitch](https://www.brooklyncraftcompany.com/products/stick-n-stitch-printable) and [Sticky Fabri Solvy](https://www.brooklyncraftcompany.com/products/stick-n-stitch-printable-stabilizer-copy) | Both live Chrome pages **Sold Out**, $15.99 each. These writable wash-away sheets would require peeling the backing and a bucket trial; **not currently a secured local alternative**. Do not add the Greenpoint detour from generic collection-page listings. |
+| [Brooklyn General DMC Soluble Canvas](https://brooklyngeneral.com/collections/embroidery/products/dmc-soluble-canvas-for-cross-stitch) | Official page **Sold Out**, $6.50; clear perforated cross-stitch canvas, **not blank writing paper**. Not recommended for these notes. |
+| [Michaels Pellon 541, 19in×1yd, item 10822483](https://www.michaels.com/product/pellon-541-19-x-1yd-washngone-stabilizer-10822483) | Live **$5.49**, shipping **Nov 2–4**; store-pickup drawer **Not Sold at Atlantic Galleria and Chelsea**, also other first-listed NYC/NJ stores. PVA stabilizer, writing/bucket performance untested. Not a pickup replacement. |
+| [Michaels Pellon 541 by yard, item 10821812](https://www.michaels.com/product/pellon-541-washngone-stabilizer-10821812) | Live **$5.49/yd**, shipping **Nov 2–4**; pickup drawer **Not Sold at Atlantic Galleria and Chelsea**, also other listed stores. Same underlying material, not another secured route item. |
+| [Michaels Pellon 542S Stick-N-Washaway, five letter-size sheets, item 10822473](https://www.michaels.com/product/pellon-sticknwashaway-542s-85-x-11-white-embroidery-stabilizer-sheets-5ct-10822473) | Live **$10.99**, shipping **Nov 2–4**; pickup drawer **Not Sold at Atlantic Galleria and Chelsea**, also first-listed Queens/NJ stores. Printable adhesive wash-away sheets, not tested with notes. No coupon included. |
+| [Grainger Aquasol paper, 18C561](https://www.grainger.com/product/AQUASOL-Water-Soluble-Paper-Sheet-18C561) | Genuine soluble paper, but **$254.13 for 500 sheets** on product page; no branch pickup verified. Exclude as disproportionate bulk cost. |
+
+**Call-only lead, not another verified source:** Tannen's **212-929-4500**, 45 W 34th suite 608, Friday closes 6 p.m., could be asked specifically for **water-soluble/Dissolvo paper**. Only flash paper was verified in its catalogue; that is now excluded. No store contact made and no phone tool available. Don't make a dedicated trip without staff confirming the correct product. Broad garment-district searches did not yield another verifiable local product; absence of a listing does not establish that shops have none.
+
+Keaton's 3 p.m. $9.99/NYC-pickup observation remains the best concrete lead; not a reservation or a promise of today. **Do not add unsuccessful shops to the route.** Existing baseline costs and paid/order status unchanged. No ordinary-paper substitute selected.
+
 ## Host-requested flash-paper alternatives — October 30 follow-up
+
+**Historical research, superseded by the host's later dissolve-only decision. Do not buy these for the Moon Well.** The original heading/links remain for audit history.
 
 Host now explicitly says **flash paper is acceptable to consider** and asks for other choices. This supersedes any interpretation of the earlier no-flame recommendation as a host prohibition. No specific flash product, purchase or final ritual implementation has been selected.
 

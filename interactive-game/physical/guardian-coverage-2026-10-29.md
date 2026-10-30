@@ -16,7 +16,7 @@ Aim for roughly **6 inches in width or height** for each new animal guardian; fi
 | BUY-03 · The Fox of Small Print | Red panda on coffee-table scenic corner | **Owned LEGO red panda**, $0 new spending. Keep this existing fox identity/reference; do not buy a duplicate fox. |
 | BUY-04 · The Stag at the Edge | Stag at window-side dry display, outside serving reach | **Observed in cart, not ordered:** one [Brown/Medium deer, advertised 20 cm](https://www.amazon.com/dp/B09J16Z7MX), $13.28. Seller says 8 inches but does not identify the axis; value option with limited size/quality confidence. Ten-pack alternative parked; no duplicate order. |
 | BUY-05 · The Hare of Almost | Standing rabbit on separate dry counter/display spot | **Observed in cart, not ordered:** one [6″-White rabbit pair](https://www.amazon.com/dp/B0GDWWQRRG), $19.99. Standing rabbit is 6.1 inches high; smaller crouching rabbit stays spare/off-hunt. No duplicate animal pack. |
-| MAKE-01 · The First Knock | Flat/upright fork at Grove shrine wall | **Sticks acquired**; bind, add ochre paint/thread accent, secure with reusable card base or wall carrier. |
+| MAKE-01 · The First Knock | Flat/upright fork at Grove shrine wall | **Sticks acquired**; bind, add ochre marker/card accent, secure with reusable card base or wall carrier. |
 | MAKE-02 · The Ember Guest | Fan shape on dry counter back edge | **Sticks acquired**; add raffia fan and rust accent; retain separate visible silhouette. |
 | MAKE-03 · The Knotkeeper | Hollow wall beyond door swing | **Sticks acquired**; bind broad cross and add indigo accent; independent wall attachment. |
 | MAKE-04 · The Little Host | Low edge of Grove harvest table | **Sticks acquired**; make short raffia bundle with green collar; secure against knocks. |
@@ -31,9 +31,9 @@ Cart audit confirms raven, owl, deer, rabbit set and skull, one each, **$102.69*
 ## Shared supplies / no duplicate orders
 
 - Already reported ordered: four moss sheets, six wall fleece, thin cloth two-pack, large Hollow hooks, suction cups, binder clips, gaffer tape, zip ties, forest shower curtain. Guardian uses shared cloth/ties/moss, not a second pack.
-- Remaining shared crafts: one raffia three-bundle pack, one jute roll, one 4-ounce PVA bottle and one paint/brush kit. **No sticks to order.** Reuse card/packaging for bases and optional scenic card details. Paint colors distinguish the five handmade silhouettes; no separate five-ribbon shopping order.
+- Shared crafts already represented in cart: one raffia three-bundle string pack and one 4-ounce PVA bottle. **No paint kit or separate jute roll**; use ordered ties for joints and raffia for wrapping. Existing Crayola markers on reused card bands give optional color accents. **No sticks to order.** Reuse card/packaging for bases and optional scenic card details. Silhouettes stay distinct; optional marker-colored card bands avoid a paint or ribbon order.
 - One Moon Well moon is DEC-01 and the listener. DEC-04 is The Last Seed; no new sixteenth slot. Camera discovery only; no NFC or marker purchases. Crown remains deferred. Proposed room allocation: **11 Grove / 3 Hollow / 1 Moon Well**.
-- [Current exact complete buy list](../../decor/urgent-buy-list-2026-10-29.md) counts full decor once; game pays only incremental animals and raffia/twine. [New dimensions/offer evidence](../../decor/research/cart-and-lighting-check-2026-10-29.json).
+- [Current exact complete buy list](../../decor/urgent-buy-list-2026-10-29.md) counts full decor once; game pays only incremental animals and raffia string. [New dimensions/offer evidence](../../decor/research/cart-final-corrections-2026-10-29.json).
 
 ## Still required after procurement
 

@@ -2,7 +2,7 @@
 
 ## Current October 29 • cart audited, remaining lights explicit
 
-[Current exact cart/quantities/remaining buys](urgent-buy-list-2026-10-29.md) records 24 active lines/30 units/$548.61 unpaid, including host's black Xafir 8×10 replacement rug, larger Blue Sky pumpkin guardian, three warm strings and 100 tea lights. [Six missing lighting products](lighting/cart-lighting-2026-10-29.md) freshly show October 31. Single Moon Well moon/listener, central owned tree and Last Seed harvest table remain. Nine previously reported ordered lines unchanged; no agent cart edits/purchases. Earlier quantities/totals below are history.
+[Current exact cart/quantities/remaining buys](urgent-buy-list-2026-10-29.md) records 25 active lines/31 units/$566.87 unpaid, including host's black Xafir 8×10 replacement rug, larger Blue Sky pumpkin guardian, three warm strings and 100 tea lights. [Six missing lighting products](lighting/cart-lighting-2026-10-29.md) freshly show October 31. Single Moon Well moon/listener, central owned tree and Last Seed harvest table remain. Nine previously reported ordered lines unchanged; no agent cart edits/purchases. Earlier quantities/totals below are history.
 
 ## Earlier October 29 host review — superseded where changed above
 

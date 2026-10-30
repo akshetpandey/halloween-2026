@@ -25,7 +25,7 @@ The bought face is advertised **9×6.1×2.75 in**, an adult-size small bust rath
 4. Dress neck/desk edges with already allocated vines and a few attached moss scraps. Use mask's LED mode if verified; route intact warm USB string loosely as roots or diffused eye fallback without cutting/packing lights into the face. Keep control/power accessible; test temperature, glare and runtime.
 5. Check it from the doorway under actual red/violet wash, then gentle-contact stability/route/desk access. Photograph/enroll final assembled object for image recognition after dressing; do not use retailer photos.
 
-**No carving or painting required for Guardian.** Paint/PVA and five small twig/raffia entities belong to separate shared crafts. No antler/headband, mask duplicate, resin skull, pendants, motor or second cloth/moss order. The support carries only lightweight scenery; it is not a manufacturer-rated prop rig, stage-light hanger or bed restraint. If actual mask/base arrangement is unstable, reduce dressing or obtain a suitable support rather than propping it against the bed.
+**No carving or painting required for Guardian.** PVA/raffia string and five small twig entities belong to shared crafts; host dropped paint kit, with existing markers/card accents if needed. No antler/headband, mask duplicate, resin skull, pendants, motor or second cloth/moss order. The support carries only lightweight scenery; it is not a manufacturer-rated prop rig, stage-light hanger or bed restraint. If actual mask/base arrangement is unstable, reduce dressing or obtain a suitable support rather than propping it against the bed.
 
 ![Exact bought face/headdress, LED option](../research/guardian-ready-made-mask-2026-10-29.png)
 

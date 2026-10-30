@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## October 29 • final cart corrections: no more core decor additions
+
+Host confirms string/twine and clips already selected, no paint kit needed, and bucket added. Fresh cart: **25 lines/31 units/$566.87**, including American Metalcraft galvanized 1.16-gallon pail $18.26, Sukh raffia string and one 40-clip pack. Use existing raffia/ties for small craft bindings; no separate jute roll, paint kit or additional clip pack. Crayola markers/reused card can supply optional color accents. [Current list](../decor/urgent-buy-list-2026-10-29.md) and [fresh evidence](../decor/research/cart-final-corrections-2026-10-29.json).
+
+Only missing products are the six light/control/DMX lines ($341.94 / $327.54 conditional coupon) and USB power if not owned. All core decor needs represented in cart; no new purchase inferred. After duplicate-stick/extra-glue cleanup, whole decor/game envelope **$1,542.24**, or **$1,512.81** with optional 24-candle swap. No agent cart mutation or order. All active cart lines October 31, no before-party guarantee.
+
 ## October 29 • actual cart, replacement rug and remaining lighting
 
 Host says a bunch of items were added and asks what remains, then confirms rug replacement. **Chrome audit about 10:33 p.m. EDT:** 24 active lines/30 units/$548.61 unpaid; black Xafir 8×10 $49.99 now October 31 replaces OLANLY November 2. Larger Blue Sky pumpkin $41 is Last Seed; actual cart has three strings, four ivy packs, 100 tea lights, second 67-inch branch, leaves, animal/skull set, Guardian head/stand and other core supplies. Exact selected ASINs/quantities documented in [current evidence](../decor/research/cart-and-lighting-check-2026-10-29.json), no inferred purchase.

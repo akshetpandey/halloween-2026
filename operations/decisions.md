@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## October 30 • closer animal skull requested; Midwood declined
+## October 30 • ram preferred and four-store pickup route
+
+Host says ram looks good, fox too expensive, and asks for optimized route/everything to buy today. Ram becomes preferred DEC-03 head, **not a confirmed purchase or Fulton stock**; remove Evolution detour. [Current plan](../decor/nyc-pickup-rescue-2026-10-30.md): GC W14 stand, Kidding W15 rabbit, Michaels Chelsea stag/willow/raffia plus crown repair glue, then Spirit 490A Fulton ram if available. **Michaels glue item 10379057 $4.99, 13 Chelsea shown today/AISLE11**, so no separate CVS errand. Seven items $136.43/$148.71 planning tax; six decor lines $131.44/$143.27, glue separate costume allowance. Kidding Friday closes7pm, GC/Michaels9pm, Spirit11pm per official sites. Reserve/ready notices and ram stock check precede travel; no agent order/hold/call performed. Soluble paper pickup unresolved, other household purchases conditional. All fifteen IDs unchanged.
+
+## Earlier October 30 • closer animal skull requested; Midwood declined — head choice/route superseded
 
 Host says Midwood is too far and asks for an animal skull like the existing wolf, near Williamsburg or along Manhattan shopping route. [Current results](../decor/nyc-pickup-rescue-2026-10-30.md#closer-animal-skull-leads--call-first-stock-unresolved): Evolution fox $59, real bone, advertised 5.5×3×2 inches, 687 Broadway / shop 212-343-8047; Spirit hanging ram $19.99, plastic/polyurethane 10.75×10.5 inches, potential Fulton store 490A Fulton. **Neither has verified shelf/pickup stock; call-first leads only.** Petco Union Square animal pickup unavailable; PetSmart local ram/bull unavailable. No suitable current Williamsburg animal-skull stock found. Remove Target Midwood from recommended route and do not treat human skull as accepted. Five core items $111.45 pre-tax, head unresolved; conditional ram/fox totals $131.44/$170.45 pre-tax, existing $200 contingency unchanged. No purchase, call, reservation or actual installation.
 

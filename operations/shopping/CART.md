@@ -1,6 +1,6 @@
 # Decor shopping status and historical wood/skull cart
 
-**Current October 30 delivery exception:** [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) has five core local proposals ($111.45 pre-tax), **Guardian head still unresolved**. Host has no sticks in hand and rejects Midwood; wants an animal skull near Williamsburg or the Manhattan route. Evolution fox $59 / Spirit Fulton ram $19.99 are **call-first, shelf-unconfirmed leads**. Six-line conditional totals $170.45/$185.79 or $131.44/$143.27 with planning tax; no final head selected or order placed. B&H/Abracadabra excluded; $39.99 GC stand remains proposed. Keep Grove wolf skull DEC-05 separate; existing USB/minis covered. Skip loose leaves; soluble paper unresolved. No cancellation/refund or agent purchase.
+**Current October 30 delivery exception:** [Seven-item / four-store pickup plan](../../decor/nyc-pickup-rescue-2026-10-30.md) is GC W14 (stand) → Kidding W15 (rabbit) → Michaels Chelsea (stag, willow, raffia, crown glue) → Spirit Fulton (preferred ram, **shelf stock unconfirmed**). **$136.43 before tax / $148.71 planning tax**, including $4.99 costume glue once under costume; decor alone $131.44/$143.27. Fox rejected for cost; no B&H/Abracadabra/Evolution/Midwood/CVS detour. Conditional second willow +$15.49 pre-tax. Water-soluble paper has no verified pickup point; household tools/trays/grip only if needed. USB/minis already covered, no extra lights/DMX. No new order, reservation, cancellation or refund.
 
 ## Current October 29 • all selected orders confirmed by host
 

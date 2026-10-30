@@ -1838,7 +1838,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-nearby-animal-skull.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-ram-pickup-route.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -1852,19 +1852,19 @@
       "MAKE-TWINE",
       "MW-PAPER"
     ],
-    "sourcingStatus": "five earlier local core proposals; closer animal head unresolved; Evolution fox and Spirit Fulton ram call-first, local stock unconfirmed",
+    "sourcingStatus": "host prefers Spirit ram, fox declined; six decor quote selected as route proposal, ram Fulton shelf stock unconfirmed; costume glue Chelsea verified",
     "purchasePerformed": false,
     "cancellationPerformed": false,
     "refundAssumedUsd": "0.00",
-    "proposedLocalSubtotalUsd": null,
-    "proposedLocalWithPlanningTaxUsd": null,
+    "proposedLocalSubtotalUsd": "131.44",
+    "proposedLocalWithPlanningTaxUsd": "143.27",
     "proposedContingencyIncludingTaxUsd": "200.00",
     "invoiceReconciliationPending": true,
     "bAndHExcludedByHost": true,
-    "route": "GC Manhattan, Kidding Around, Michaels core; Evolution optional after stock confirmation; Spirit Fulton optional separate Brooklyn leg after confirmation; no Midwood",
+    "route": "GC 25 W14 → Kidding Around 60 W15 → Michaels Chelsea 675 Sixth → Spirit 490A Fulton if ram confirmed; glue shares Michaels, no extra CVS/Evolution/Midwood",
     "queensOptionSuperseded": true,
     "abracadabraExcludedByHost": true,
-    "headDirection": "animal skull like existing wolf near Williamsburg or Manhattan route; exact head unchosen; no suitable closer stock verified",
+    "headDirection": "Spirit Hanging Ram Skull 01691245 preferred for DEC-03; local availability/fit unresolved; fox declined for cost",
     "supersededMask": {
       "product": "Full Face Matte Black Skull Mask",
       "sku": "W7349B",
@@ -1937,7 +1937,8 @@
         "quantityIfChosen": 1,
         "proposedSixLineSubtotalUsd": "170.45",
         "proposedSixLineWithPlanningTaxUsd": "185.79",
-        "purchased": false
+        "purchased": false,
+        "hostPreference": "declined, too expensive"
       },
       {
         "product": "Hanging Ram Skull",
@@ -1959,8 +1960,50 @@
         "quantityIfChosen": 1,
         "proposedSixLineSubtotalUsd": "131.44",
         "proposedSixLineWithPlanningTaxUsd": "143.27",
-        "purchased": false
+        "purchased": false,
+        "hostPreference": "preferred, awaiting stock"
       }
-    ]
+    ],
+    "foxDeclinedByHost": true,
+    "pickupRoute": {
+      "date": "2026-10-30",
+      "scope": "six decor rescue products plus known costume crown repair glue",
+      "proposedStoreCount": 4,
+      "stopOrder": [
+        "Guitar Center Manhattan, 25 W 14th",
+        "Kidding Around, 60 W 15th",
+        "Michaels Chelsea, 675 Avenue of the Americas",
+        "Spirit Brooklyn Fulton, 490A Fulton (ram stock unconfirmed)"
+      ],
+      "proposedAllItemsSubtotalUsd": "136.43",
+      "proposedAllItemsWithPlanningTaxUsd": "148.71",
+      "decorOnlySubtotalUsd": "131.44",
+      "costumeGlueSubtotalUsd": "4.99",
+      "conditionalExtraWillowUsd": "15.49",
+      "purchasePerformed": false,
+      "reservationPerformed": false,
+      "ramStockVerified": false,
+      "costumeGlue": {
+        "product": "Loctite Gel Control Super Glue 4 g",
+        "item": "10379057",
+        "quantity": 1,
+        "url": "https://www.michaels.com/product/loctite-gel-control-super-glue-10379057",
+        "quotedUnitUsd": "4.99",
+        "store": "Michaels NYC-Manhattan-Chelsea, 675 Avenue of the Americas",
+        "observedStock": 13,
+        "pickupText": "TODAY / AISLE 11",
+        "date": "2026-10-30",
+        "budgetOwner": "host-costume existing small-supplies allowance; do not count in decor",
+        "purchased": false,
+        "replacesErrandOnly": "CVS 27 N6 source; existing Amazon glue order unchanged"
+      },
+      "unresolvedRequiredSupply": "water-soluble paper; no verified local pickup; ordinary notes fallback proposed only",
+      "householdChecksOnly": [
+        "pruning shears/cutting tool",
+        "reused support/card and shoulder crosspiece",
+        "trays/underlayers",
+        "rug grip if needed"
+      ]
+    }
   }
 }

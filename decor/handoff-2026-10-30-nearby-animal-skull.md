@@ -1,5 +1,7 @@
 # Nearby animal skull search — no Midwood
 
+**Later October 30:** host prefers the ram and rejects fox cost. [Current four-store/seven-item handoff](handoff-2026-10-30-ram-pickup-route.md) supersedes the unchosen-head scenario below; ram shelf stock still unresolved.
+
 - **Updated:** October 30, 2026, approximately 12:25 p.m. EDT, America/New_York.
 - **Checkout / branch / base:** shared `/Users/akshet/workspace/halloween-2026`, `main`, `d066f18`. No worktree/branch.
 - **Status:** search/documentation complete; a suitable closer animal head is **not secured or stock-verified**. Requires host stock check/choice, not a claim of completed procurement.

@@ -181,7 +181,13 @@ function M.build(plan)
     local gain = definition.gain_db or 0
     assert(gain == gain and gain >= -60 and gain <= 12, 'Invalid track gain')
     assert(reaper.SetMediaTrackInfo_Value(track, 'D_VOL', 10^(gain/20)))
+    if definition.pan ~= nil then
+      assert(definition.pan >= -1 and definition.pan <= 1, 'Invalid diagnostic pan')
+      assert(reaper.SetMediaTrackInfo_Value(track, 'I_PANMODE', 3))
+      assert(reaper.SetMediaTrackInfo_Value(track, 'D_PAN', definition.pan))
+    end
     local actual = {name=definition.name, source_sha256=definition.sha256,
+      pan=reaper.GetMediaTrackInfo_Value(track, 'D_PAN'),
       gain_db=20*math.log(reaper.GetMediaTrackInfo_Value(track, 'D_VOL'), 10), clips={}}
     if definition.eq_bands or definition.shelf then
       local fx = reaper.TrackFX_AddByName(track, 'ReaEQ (Cockos)', false, -1)
@@ -213,6 +219,7 @@ function M.build(plan)
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'D_STARTOFFS', clip.source_start))
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'D_PLAYRATE', clip.rate))
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'B_PPITCH', 1))
+      if definition.downmix_mono then assert(reaper.SetMediaItemTakeInfo_Value(take, 'I_CHANMODE', 2)) end
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'I_PITCHMODE', pitch))
       local settings = {D_POSITION=clip.position, D_LENGTH=clip.length,
         D_FADEINLEN=clip.fade_in, D_FADEOUTLEN=clip.fade_out,
@@ -237,6 +244,7 @@ function M.build(plan)
         source_start=reaper.GetMediaItemTakeInfo_Value(take, 'D_STARTOFFS'),
         rate=reaper.GetMediaItemTakeInfo_Value(take, 'D_PLAYRATE'),
         preserve_pitch=reaper.GetMediaItemTakeInfo_Value(take, 'B_PPITCH'),
+        channel_mode=reaper.GetMediaItemTakeInfo_Value(take, 'I_CHANMODE'),
         position=reaper.GetMediaItemInfo_Value(item, 'D_POSITION'),
         length=reaper.GetMediaItemInfo_Value(item, 'D_LENGTH'),
         fade_in=reaper.GetMediaItemInfo_Value(item, 'D_FADEINLEN'),

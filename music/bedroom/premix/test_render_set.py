@@ -110,6 +110,23 @@ class RenderTests(unittest.TestCase):
                 stage_chapter(native,report,root/'bad-stage',0,2)
 
     @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
+    def test_stem_component_staging_uses_its_own_pcm_identity(self):
+        import numpy as np
+        import soundfile as sf
+        from analyze_audio import digest
+        from compact_audio import pcm_identity
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);stem=root/'drums.flac';sr=44100
+            x=np.sin(2*np.pi*80*np.arange(sr)/sr)*.1
+            sf.write(stem,np.column_stack([x,x]),sr,subtype='PCM_24')
+            analysis=root/'analysis.json';analysis.write_text(json.dumps({'tracks':[{'id':'parent','analysis_pcm_sha256':'original-body-hash','analysis_pcm_frames':999}]}))
+            definition={'path':str(stem),'sha256':digest(stem),'clips':[{'position':0,'length':1}]}
+            report={'inputs':{'analysis':str(analysis)},'tracks':[{'id':'parent'}],
+                    'native_source_bindings':[{'parent_id':'parent','kind':'drums'}]}
+            staged=stage_chapter({'tracks':[definition]},report,root/'stage',0,1)
+            self.assertEqual(pcm_identity(Path(staged[0]['path'])),pcm_identity(stem))
+
+    @unittest.skipUnless(importlib.util.find_spec('soundfile') and importlib.util.find_spec('numpy'),'audio environment required')
     def test_seam_compares_the_same_absolute_audio_and_rejects_discontinuity(self):
         import numpy as np
         import soundfile as sf

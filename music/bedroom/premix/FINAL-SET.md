@@ -7,6 +7,8 @@
 Independent drum-cue analysis has now processed all 216 acquired sources: **170 have consistent sampled cue timing; 46 need review**. This does not verify downbeats, phrases or constant timing between the sampled windows, and does not replace the earlier 202-source eligibility inventory. Original acquisitions and model evidence remain reusable.
 
 
+**October 30 continuation:** the host-approved technique is being expanded through source-bound drum cues, an explicit single-lead compiler and native per-deck diagnostics. The two-source compiled integration passes timing, normal-stereo render and fresh-runtime checks. The complete source pass and full sequence remain in progress; [current commands, evidence and continuation handoff](../handoff-2026-10-30-single-lead-production.md).
+
 Started October 29, 2026, America/New_York. **In progress, not yet a finished or playback-ready mix.** The host authorized acquisition, analysis, sequencing, loops, cuts, transitions and rendering from the approved bedroom library, building on the existing REAPER work. Production decisions remain delegated.
 
 ## Historical version-5 checkpoint — rejected, do not resume

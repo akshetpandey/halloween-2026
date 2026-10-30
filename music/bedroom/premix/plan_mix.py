@@ -20,6 +20,7 @@ from mix_automation import automate
 from prepare import DEFAULT_DB, approved_pool, check_file, host_rows, probe_duration
 from reaper_proof import save_plan
 from compact_audio import content_duration
+from source_bindings import verify_components
 
 BASE = Path(__file__).resolve().parent
 VERSION = "mix-planner-6"
@@ -1004,10 +1005,7 @@ def validate_current(report, database, require_production=True):
     actual = hashlib.sha256(json.dumps(native, sort_keys=True).encode()).hexdigest()
     if actual != fingerprint or fingerprint != report["native_manifest_sha256"]:
         raise ValueError("Native plan changed")
-    if [t["sha256"] for t in native["tracks"]] != [
-        t["source_sha256"] for t in report["tracks"]
-    ]:
-        raise ValueError("Native plan no longer matches selected sources")
+    verify_components(report,native,allowed)
     return {
         "current_inputs_valid": True,
         "production_sources_verified": not audition,

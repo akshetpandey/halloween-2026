@@ -148,15 +148,16 @@ def stage_chapter(native,report,directory,start,end):
     """Decode only active chapter sources once for fast native stretch seeking."""
     analysis={t['id']:t for t in json.loads(Path(report['inputs']['analysis']).read_text())['tracks']}
     staged=[];bindings=[]
-    for index,(definition,detail) in enumerate(zip(native['tracks'],report['tracks'],strict=True)):
+    components=report.get('native_source_bindings') or [{'parent_id':t['id'],'kind':'original'} for t in report['tracks']]
+    for index,(definition,detail) in enumerate(zip(native['tracks'],components,strict=True)):
         if not any(c['position']<end and c['position']+c['length']>start for c in definition['clips']):continue
         source=Path(definition['path'])
         if digest(source)!=definition['sha256']:raise ValueError('Source changed before chapter staging')
         target=directory/'sources'/f'source-{index+1:03d}.wav';target.parent.mkdir(parents=True,exist_ok=True)
         run(['ffmpeg','-v','error','-nostdin','-y','-i',str(source),'-ar',str(RATE),'-ac','2','-c:a','pcm_f32le',str(target)])
-        measured=analysis[detail['id']]
-        expected=measured.get('analysis_pcm_sha256')
-        frames=measured.get('analysis_pcm_frames')
+        measured=analysis[detail['parent_id']]
+        expected=measured.get('analysis_pcm_sha256') if detail['kind']=='original' else None
+        frames=measured.get('analysis_pcm_frames') if detail['kind']=='original' else None
         if expected:
             if pcm_identity(target,frames)!=(expected,frames):raise ValueError('Staged PCM does not match analyzed recording')
         elif pcm_identity(target)!=pcm_identity(source):raise ValueError('Staged source identity failed')

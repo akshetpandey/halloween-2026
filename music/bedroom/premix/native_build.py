@@ -32,6 +32,8 @@ def verify_readback(plan, actual):
     if actual.get('repeat_mode', 0) != 0:
         raise ValueError('Project repeat mode must be off')
     for expected, track in zip(plan["tracks"], actual["tracks"]):
+        if "pan" in expected and not math.isclose(expected["pan"],track.get("pan",99),abs_tol=1e-7):
+            raise ValueError("Native diagnostic pan mismatch")
         if len(track["clips"]) != len(expected["clips"]):
             raise ValueError("Wrong native item count")
         for a, b in zip(expected["clips"], track["clips"]):
@@ -47,6 +49,8 @@ def verify_readback(plan, actual):
             ):
                 if not math.isclose(a[key], b[key], rel_tol=0, abs_tol=1e-6):
                     raise ValueError("Native clip mismatch: " + key)
+            if expected.get("downmix_mono") and b.get("channel_mode")!=2:
+                raise ValueError("Diagnostic mono mapping missing")
             if b["preserve_pitch"] != 1:
                 raise ValueError("Pitch preservation missing")
             wanted = a.get("stretch_markers", [])

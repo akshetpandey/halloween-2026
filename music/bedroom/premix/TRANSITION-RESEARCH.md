@@ -57,3 +57,11 @@ The 1:43 MP3 is rendered at 48 kHz / 320 kbps, **−16.6 LUFS / −2.1 dBTP**, w
 The complete 216-source drum-cue pass found consistent sampled timing for 170 sources; 46 need review. It verifies neither phrases nor the unsampled middle of a recording. The next full sequence remains to be rebuilt under the source-event rules; the previous automatic ordering does not yet emit the required arrangement designs and is deliberately blocked from final rendering/delivery.
 
 Host response to the new stem-supported, source-event-led 1:43 excerpt: **“The new 1:43 test is solid.”** Use this accepted pattern for the full revision, with one musical lead as the default. This does not approve an unbuilt full sequence or physical playback.
+
+## Deliberate recovery-period tempo changes · October 30
+
+The full-sequence sizing showed why a blanket ±3% rule is insufficient for the requested arc: using multiple fast tracks as each downward/upward ladder consumes the fast pool and can leave later hard runs slow. The host asked for genuine 5–20-minute recovery periods while keeping the surrounding runs hard.
+
+Crossfader teaches three intentional approaches: use a natural breakdown, phrase-time an effect tail, or choose a suitable loop without conflicting vocals, change its tempo gradually, then introduce the next track on a phrase. [Wide-tempo transitions](https://wearecrossfader.co.uk/blog/3-easy-transitions-to-mix-any-genre/). A second demonstration covers 128→150 BPM with careful source cues and an eight-bar tempo rise; it specifically avoids a vocal that sounds drawn out at that stretch. [Prepared tempo-change example](https://wearecrossfader.co.uk/blog/creative-trick-for-genre-transitions-128bpm-150bpm/).
+
+**Proposed adaptation, not yet rendered or approved:** at explicitly programmed reset boundaries, clear the musical lead and use source-bound drums-only loops for an 8–16-bar common tempo ramp. Both percussion decks follow the same beat map; one primary low end crosses at a phrase. Original full-stereo bodies keep the existing restrained rate limits. Larger rates apply only to the isolated percussion bridge, and its inserted seconds are excluded from distinct-runtime proof. This needs native variable-grid timing and an actual audio audition. It is not a fallback for a failed ordinary pairing.

@@ -1,5 +1,9 @@
 # Moon Well — decor
 
+## Latest October 29 • larger guardians and two shrines
+
+[Current urgent buys](../urgent-buy-list-2026-10-29.md) now remove tiny Safari birds and hold the extra bathroom lamp. Owned LEGO red panda covers fox; sticks acquired for five handmade figures. [All 15 slots](../../interactive-game/physical/guardian-coverage-2026-10-29.md) and [two Grove shrines](../living-room/grove-shrines-2026-10-29.md) give exact sources/allocations. Primary remaining 479.58 before tax, or 467.30 with grouped-animal alternative; new six offersOct 31, no before-party time guarantee. No new order inferred. Earlier totals below are history.
+
 ## Current October 29 host review
 
 [Current room plan](../final-room-plan.md) and [urgent decor/entity buys](../urgent-buy-list-2026-10-29.md) supersede earlier product/count paragraphs below. Four chairs; one nightstand moon/candy shrine; overhead/wall foliage and wall fairy lights; mostly bought Guardian; image recognition with no NFC purchases. Wall/desk materials already ordered, lighting coordination pending. All current recommended offers showOct 31, no before-party guarantee. No new purchase or physical test.

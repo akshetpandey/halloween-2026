@@ -1,5 +1,9 @@
 # Bathroom • The Moon Well
 
+## Latest October 29 • try the moon before another lamp
+
+Host questions need for separate lamp. Agent recommends **hold O’Bright purchase**, try self-lit moon with existing room light available; use an owned suitable lamp if needed. No measured room/writing illumination claim. [Current ritual](moon-well-release-2026-10-29.md) and [buy list](../urgent-buy-list-2026-10-29.md). A distinct 7 in crescent outside bathroom is DEC-04; water activity remains optional/unscored.
+
 ## Latest October 29 water ritual proposal
 
 Host requests a water bucket with memories/secrets on water-soluble paper. [Current ritual plan](moon-well-release-2026-10-29.md) recommends **dissolve-only, not burning**; host acceptance of that substitution pending. New reachable water vessel supersedes earlier blanket “skip water bowls” within this narrow ritual only. [Urgent exact orders](../urgent-buy-list-2026-10-29.md):4.7 in moon replaces unavailable 5.9 in; late 10 ft vine omitted. Sweets move to Grove nightstand shrine. Shower curtain/thin cloth already ordered; no repeat purchase.

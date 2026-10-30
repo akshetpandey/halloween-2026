@@ -1,5 +1,9 @@
 # Decor buying list — quantities, purpose and purchase status
 
+## Latest October 29 • current larger-prop route
+
+[Current exact urgent list](urgent-buy-list-2026-10-29.md): **479.58 before tax /522.74 with planning tax**; optionalUSB 27.74. Larger birds, owned LEGO fox, standalone stag/hare or grouped-pack alternative. Sticks acquired, no reorder. Extra bath lamp held; skull/bone shrine and Well threshold crescent explicit. Nine ordered rows below unchanged; all older remaining totals below superseded. [All 15 coverage](../interactive-game/physical/guardian-coverage-2026-10-29.md).
+
 ## Current October 29 review — order from the urgent list
 
 [Exact current decor/entity buy list](urgent-buy-list-2026-10-29.md) is the current remaining-order authority: **437.30 before tax /476.66 with planning tax**, including rug and47.95 game props; optional USB supplies27.74. Nine ordered rows below remain valid. Earlier five-needs157.92 baseline, old ivy allocation,DUSPRO10ft vine, sculpted Guardian and two-string assumption are superseded for remaining buys. Current ledger preserves prior baseline as history. Four chairs, one nightstand shrine, image recognition/no NFC, crown deferred. No new order inferred. [Current room plan](final-room-plan.md).

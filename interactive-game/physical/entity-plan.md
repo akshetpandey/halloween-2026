@@ -1,67 +1,15 @@
 # Fifteen physical entities — current roster plan
 
-## Current October 29 discovery and procurement decision
+Updated October 29, 2026. **Current authority:** [all 15 coverage, sources and status](guardian-coverage-2026-10-29.md). Preserve **five decor + five bought/reused animal + five handmade** slots and existing character/puzzle IDs. Host owns LEGO red panda as fox and has acquired sticks for all five handmade figures. No new sticks/fox/NFC/crown order.
 
-**Host confirms image-based recognition replaces NFC; do not buy tags or tag-cover moon stickers.** No animal figures or winner crown ordered; crown lowest priority and deferred. [Current exact prop orders](../../decor/urgent-buy-list-2026-10-29.md) cover five bought slots via UANDMEpack+raven+owl, plus five distinct twig/raffia forms; five decor anchors reused.47.95 incremental game-prop quote, shared paint/moss/cloth counted in decor once. Existing LEGO fox reference must be reconciled before choosing/enrolling that slot. Photograph final props and test actual camera recognition in party light; software/public rollout is not implied complete. Earlier NFC/lock shopping and September totals below are historical, not current procurement. Existing NFC routes can remain until app task reconciles chosen discovery path.
+Animal target about 6 inches in height or width. Small Safari raven/owl rejected. Current recommendations: 6-inch overall raven, 7⅞-inch owl, owned red panda, advertised 8 in stag and 6.1 in standing rabbit. Alternatively use one ten-pack as two stable grouped stag/hare displays while keeping larger birds and owned fox. Do not buy both routes or activate pack/set leftovers. [Exact current buy list](../../decor/urgent-buy-list-2026-10-29.md) prices products once.
 
-Status: Host-requested **5 + 5 + 5 target**, September 4, 2026. Identities, locations and purchases below are proposals; no new purchases, cart changes or fabrication. Puzzle families will be assigned later. This replaces both the twelve-witness / ten-bought-two-made example and the all-bark batch as the active scope.
+Five decor anchors: large Grove moon, owned gold tree, bought-face desk Guardian, distinct 7 in crescent outside bathroom, and separate wolf-skull/branch shrine on proposed 20×40 surface. Bathroom ritual bucket is unscored scenery, not a sixteenth entity. [Two Grove shrines](../../decor/living-room/grove-shrines-2026-10-29.md) separates moon/candy nightstand from wood/bone tableau without duplicate furniture/branch/moss buys.
 
-## The fifteen slots
+Five handmade silhouettes remain fork/ochre, raffia fan/rust, cross/indigo, short bundle/green, arch/ivory. Sticks are in hand; finish with shared raffia/jute/paint, ordered ties and reused bases. Target 6–10 in visible forms, independent attachments outside routes. No additional floor stands assumed.
 
-| ID | Category | Physical proposal | Decision / preparation |
-|---|---|---|---|
-| DEC-01 | Decor-integrated | Glowing moon light | Host-named anchor. Add a reachable adjacent moon touchpoint, not a tag hidden behind the powered light. |
-| DEC-02 | Decor-integrated | Owned golden tree lamp | Host-named anchor. Tag on a separate nonmetal scenic carrier at its base; test near metal/electrics. |
-| DEC-03 | Decor-integrated | Giant DJ woodland guardian | Host-named anchor. Touchpoint on guest-facing scenic edge, away from controller, speakers and cables. |
-| DEC-04 | Decor-integrated | Moon Well's threshold witness | Proposed fourth anchor. Use the existing bathroom scene as its lore, but put the scored touchpoint **outside** the bathroom to avoid queues. Distinguish its identity from the moon light. |
-| DEC-05 | Decor-integrated | Raven/skull-and-branch shrine | Proposed fifth anchor. Integrate one existing planned wood/skull arrangement as a single entity; not one entity per skull. Those cart items are not confirmed purchased. |
-| BUY-01 | Purchased figure | Raven | Candidate from the existing Amazon shortlist; strong silhouette. |
-| BUY-02 | Purchased figure | Barn owl | Candidate from the existing Amazon shortlist; pale face provides contrast. |
-| BUY-03 | Purchased figure | Fox | Candidate animal-pack selection; give it a distinct scenic base. |
-| BUY-04 | Purchased figure | Stag | Candidate animal-pack selection; check actual stance and base size. |
-| BUY-05 | Purchased figure | Hare/rabbit | Candidate animal-pack selection; enlarge the base for a visible, reachable target. |
-| MAKE-01 | Homemade stick/straw | Forked twig figure with ochre bindings | Simple upright fork silhouette, stable base. |
-| MAKE-02 | Homemade stick/straw | Straw fan figure with rust-red sash | Fan-shaped body differentiates it from the twig figures. |
-| MAKE-03 | Homemade stick/straw | Crossed-twig figure with indigo knots | Broad cross silhouette; bind and cover sharp ends. |
-| MAKE-04 | Homemade stick/straw | Short bundled-straw figure with moss-green collar | Squat silhouette, different height and proportions. |
-| MAKE-05 | Homemade stick/straw | Arched-twig figure with ivory thread veil | Open arch silhouette; keep thread clear of its phone target. |
+**Image recognition, not NFC.** [Camera workflow](../app/guardian-camera-prototype.md) owns final prop photography/reference enrollment/background examples and phone/public-rollout acceptance. Enroll complete stable groups when used. Keep each subject separately frameable, hold out actual views, check wrong-object rejection and real party-light conditions. No reading accuracy or deployed acceptance claimed by this sourcing work. Preserve the existing LEGO fox reference rather than silently replacing it. Private photos/tokens stay outside Git.
 
-**Count check: 5 decor + 5 purchased + 5 homemade = 15 entities, 15 unique NFC destinations, 15 possible entity Favors.** Decorative moons marking the tap points are not extra entities. Bought pack leftovers are not active entities. One prop can have its own lore and artwork regardless of which puzzle family is assigned later.
+Proposed room distribution remains 11 Grove/3 Hollow/1 outside bath. Moon, skull/tree/birds must not be crowded into an inseparable shot. Current room roster supersedes earlier diagram marker positions; furniture geometry remains unchanged. No targets in private storage, behind bed or among controls, drinks/water or unsafe guest reaches. Scenery counted once in decor; game pays only incremental four new animal orders and raffia/jute. Crown is lowest-priority/unbought/deferred, not part of urgent procurement.
 
-The second set of five are candidates from existing research, not final shopping selections. If the raven duplicates the skull shrine visually, swap its eventual identity or source a different figure without changing the category count. None of the temporary descriptions is a finalized supernatural name.
-
-## Amazon-first sourcing, using existing research
-
-The [September 3–4 Amazon shortlist](amazon-figurines-and-tags.md) already records direct links, observed dimensions, prices and caveats for a Safari raven, Safari barn owl, and a UANDME pack containing fox, stag and rabbit. This could fill all five purchased slots using two individual birds plus three selected pack animals. A ten-animal pack would leave **seven unused animals**, which may be ordinary decor or spares; it does not increase the hunt count. Compare that waste/cost with buying three individuals during the next sourcing pass.
-
-Retain the existing products as leads, not newly verified offers. This documentation update did not refresh Amazon prices, stock, delivery or sellers, and makes no new current-price claim. Future sourcing should compare interesting individual woodland/folk-spirit figures with the multipack route, check their size in low light, and price **five active purchased figures**. No need to purchase fifteen standalone figures.
-
-Keep existing tag, base and premade moon-marker research. Plan **15 active tags plus a sacrificial locking-test tag and several spares**, rather than reusing the earlier twelve-tag arithmetic. A thirty-tag pack would leave fourteen after fifteen active and one sacrificed, before any other prototypes. Select the actual pack after the mounted pilot.
-
-## Homemade batch and shared finishing
-
-Make five uncomplicated figures from sticks/straw, twine and owned paint or ribbon. Color supports recognition; shape and a named sigil distinguish them even when colors disappear under purple/amber lighting. Trial roughly 6–10-inch figures as a craft proposal, keeping final size responsive to the actual shelf and base. Bind loose straw, trim or cover splinters and keep them away from heat, drinks and traffic. Use stable bases or reversible scenic mounts; guests never pick them up to scan.
-
-Use the [bark-spirit texture techniques](moon-touchpoints.md) only as optional accents, not a second batch of fifteen bark faces. Moon covers remain premade stickers; no Cricut or hand-cut covering project. Distinct creature silhouettes matter more than intricate facial sculpture.
-
-## Integration and placement
-
-The [figurine/base brief](figurine-construction.md) governs purchased-figure mounting; [separate moon touchpoints](moon-touchpoints.md) suit large decor and stick/straw pieces. Every entity gets one nearby, clear, reachable target. The golden lamp and powered DJ scenery need final-surface scan tests; an ordinary tag cannot be assumed to work against metal.
-
-**October 21 decor placement proposal:** [actual scan-based room plan and all fifteen positions](../../decor/final-room-plan.md#place-all-15-entities) now recommends **11 Grove / 3 Hollow / 1 outside bathroom**, preserving 5/5/5. Hollow contains DEC-03 plus flat MAKE-03/05 on independent wall mounts, minimizing extra stands/queues on its small dance floor. All five bought figures use existing dry Grove surfaces. This replaces the earlier illustrative 9/5/1 split; actual reach/scan/traffic tests remain pending. No game IDs, puzzles, purchases or NFC implementation changed.
-
-Keep all targets in public party areas, at a height reachable without bending into crowds or climbing. No targets in drawers, coats, bedding, medicine storage, drinks, electrical gear or behind furniture. Separate tags enough that one intentional tap has one destination. Provide simple helper assistance for unsupported phones; physical QR fallback remains excluded. Invitation QRs are a separate website feature.
-
-## Budget and preparation gates
-
-The earlier **$100 prop envelope covered a different mix** and remains historical, not a validated budget for this fifteen-entity plan. Re-cost five active purchased figures, five homemade figures, fifteen tags plus spares, bases/mounts and premade markers. Reuse the moon/tree/guardian/Well/branch decor budgets rather than charging those whole installations again as game props. Budget only their incremental NFC/mounting needs here. The winner crown has a separate approximately **$100 host target**; domain/hosting is also separate.
-
-1. Review DEC-04 and DEC-05, and compare purchased-figure candidates.
-2. Build one representative stick/straw sample and one reversible touchpoint; estimate craft time.
-3. Test purchased-base, twig/straw and decor-adjacent surfaces on two supported iPhones and one NFC-capable Android.
-4. Finalize names, artwork briefs, locations and puzzle assignments after puzzle review.
-5. Reconcile cost allowances; purchase/build only through the later sourcing work.
-6. Complete the website and stable routes in a future implementation task; populate the private tag register only with actual values.
-7. Encode, test, permanently lock and verify every production tag using the [existing procedure](iphone-programming-and-locking.md).
-
-Nothing in this roster marks a prop acquired, a URL live, an artwork generated or a puzzle implemented.
+Earlier September NFC products, moon-cover/locking instructions and small-figure mix remain historical research in [Amazon sources](amazon-figurines-and-tags.md), not current orders. Existing software NFC routes may remain while app task reconciles the chosen camera path; no code/route change made here.

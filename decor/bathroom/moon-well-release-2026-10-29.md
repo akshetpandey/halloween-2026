@@ -6,7 +6,7 @@
 
 Existing forest curtain and thin black dry-tub cloth are already reported ordered. Moon on supplied stand and sparse fixed moss/ivy/jute detail remain the background. Water stays in a separate black 3.5 L vessel on a stable **reachable dry shelf/counter or suitable existing surface outside the tub**, with a rimmed catch tray. Begin with~1 L room-temperature water, not full capacity. Keep sink, lock, soap and floor route free. Actual surface has not been photographed/measured; do not assume the bucket fits. If no safe reachable surface exists, use a closed note box instead of making guests reach into the tub or adding a floor table.
 
-Beside water:small dry tray with 10–15 sheets replenished from sealed pack, two dark washable markers, a short instruction card and discreet cleanup towel. Keep remainder of 100 sheets dry. Cordless moon/warm ambient and tea lights on separate dry supports; charge outside the bathroom. No powered light placed in water. Candies move to Grove shrine, using one food allocation.
+Beside water:small dry tray with 10–15 sheets replenished from sealed pack, two dark washable markers, a short instruction card and discreet cleanup towel. Keep remainder of 100 sheets dry. **Moon first; no second lamp order.** The extra lamp was intended for practical writing/room illumination, not for lighting the moon itself. Try the moon at bright white plus existing room light as needed. If inadequate, use an owned suitable lamp before buying another. Keep moon and already-budgeted dry tea lights separate from the water; charge away from it. No powered light placed in water. Candies move to Grove shrine, using one food allocation.
 
 ## What the paper actually does
 

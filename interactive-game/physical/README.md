@@ -1,5 +1,9 @@
 # Physical entities and NFC
 
+## Latest October 29 • complete 15-slot procurement
+
+[All 15 coverage and current sources](guardian-coverage-2026-10-29.md) supersede prior small-figure roster. Host-owned LEGO red panda is fox; sticks for five handmade guardians acquired. Recommend larger raven/owl/stag/hare, roughly 6 in target; ten-pack can replace only stag/hare as two grouped displays. No NFC/duplicate fox/new sticks/crown orders. Two Grove shrines and a distinct threshold crescent complete five decor anchors. No new purchase or camera test.
+
 ## Current October 29 discovery and procurement decision
 
 **Host confirms image-based recognition replaces NFC; do not buy tags or tag-cover moon stickers.** No animal figures or winner crown ordered; crown lowest priority and deferred. [Current exact prop orders](../../decor/urgent-buy-list-2026-10-29.md) cover five bought slots via UANDMEpack+raven+owl, plus five distinct twig/raffia forms; five decor anchors reused.47.95 incremental game-prop quote, shared paint/moss/cloth counted in decor once. Existing LEGO fox reference must be reconciled before choosing/enrolling that slot. Photograph final props and test actual camera recognition in party light; software/public rollout is not implied complete. Earlier NFC/lock shopping and September totals below are historical, not current procurement. Existing NFC routes can remain until app task reconciles chosen discovery path.

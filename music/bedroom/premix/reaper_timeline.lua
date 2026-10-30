@@ -221,6 +221,7 @@ function M.build(plan)
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'B_PPITCH', 1))
       if definition.downmix_mono then assert(reaper.SetMediaItemTakeInfo_Value(take, 'I_CHANMODE', 2)) end
       assert(reaper.SetMediaItemTakeInfo_Value(take, 'I_PITCHMODE', pitch))
+      if definition.stretch_mode then assert(reaper.SetMediaItemTakeInfo_Value(take, 'I_STRETCHFLAGS', definition.stretch_mode)) end
       local settings = {D_POSITION=clip.position, D_LENGTH=clip.length,
         D_FADEINLEN=clip.fade_in, D_FADEOUTLEN=clip.fade_out,
         D_FADEINLEN_AUTO=0, D_FADEOUTLEN_AUTO=0,
@@ -245,6 +246,7 @@ function M.build(plan)
         rate=reaper.GetMediaItemTakeInfo_Value(take, 'D_PLAYRATE'),
         preserve_pitch=reaper.GetMediaItemTakeInfo_Value(take, 'B_PPITCH'),
         channel_mode=reaper.GetMediaItemTakeInfo_Value(take, 'I_CHANMODE'),
+        stretch_mode=reaper.GetMediaItemTakeInfo_Value(take, 'I_STRETCHFLAGS'),
         position=reaper.GetMediaItemInfo_Value(item, 'D_POSITION'),
         length=reaper.GetMediaItemInfo_Value(item, 'D_LENGTH'),
         fade_in=reaper.GetMediaItemInfo_Value(item, 'D_FADEINLEN'),

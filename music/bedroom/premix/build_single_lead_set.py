@@ -71,6 +71,8 @@ def build(state,output,subset=None,cue_root=None,performance=False):
             chapters.append({'name':t['programme_chapter'],'lane':t['lane'],'role':t['programme_role'],
                              'start_seconds':t['start_seconds'],'end_seconds':t['end_seconds'],'ids':[t['id']]})
         else:chapters[-1]['end_seconds']=t['end_seconds'];chapters[-1]['ids'].append(t['id'])
+    for i,chapter in enumerate(chapters):
+        chapter['end_seconds']=chapters[i+1]['start_seconds'] if i+1<len(chapters) else result['end']
     report={'version':VERSION,'generated_at':datetime.now(UTC).isoformat(),'source_policy':'verified production acquisitions',
         'source_analysis_sha256':digest(inputs/'analysis.json'),'model_report_sha256':digest(inputs/'intelligence.json'),
         'tracks':result['details'],'transitions':result['joins'],'chapters':chapters,'blocked':blocked,

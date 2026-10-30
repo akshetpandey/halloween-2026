@@ -1,3 +1,18 @@
+## Active continuation — source and native QA revision 11
+
+October 30, 2026, America/New_York. This section supersedes the initial revision-10 checkpoint below. User authorization remains: finish the complete set, with occasional varied creative transitions and all production decisions delegated. Delivery is still in progress; do not stop at another sample or revive version 5.
+
+- Shared `main`, prior checkpoint `173a6d5`; preserve the unrelated `decor/shopping-ready.md` edit. No push requested.
+- Current ignored plan: `premix/.local/final-hollow-2026-10-29/revision-11/full-plan-01/mix-plan.json`. 201 distinct approved recordings, about 9:04:36 original music, about 9:10:45 total programme. Twenty occasional creative features; explicit percussion-only reset ramps; hard finale and separate reserve.
+- Revised actual-source entry screening removes pre-drop silence; six recordings recovered using independently consistent drum and full-file beat evidence. One recording has no supported rhythmic entry. Original acquisitions and accepted short examples are preserved.
+- All 199 actual joins have native, independently panned diagnostic renders. Full-mix ambiguous cases also have isolated per-deck Demucs timing evidence; the model never receives the other deck. This is timing evidence, not a claim of listening or host approval of individual joins.
+- Current work: bounded original cue adjustments (at most 15 ms), cyclic drum-loop slips, and phrase-length overlap shortening; actual native rechecks are mandatory after geometry changes. The checker retains one common realized phase and also rejects a phase jump between original recordings. Tempo bridges may use the native transient stretch option, which must be set and read back in both diagnostic and production projects.
+- `repair_transition_geometry.py` writes proposals before applying; `revision-11/repairs-preview-03/proposals.json` is simulation only. No repair is certified until new native diagnostics pass. Existing diagnostic caches must be matched to their exact native geometry.
+- Verification checkpoint: 148 Python tests pass, including cyclic source cursors and bounds, rate-only crops, independent phase/coverage checks and rejection of a shared midpoint jump. Full render/decoded delivery checks remain.
+- Next: finish remaining join corrections, run `final_programme_qa.py`, then `render_set.py --render` and `--deliver` using the final plan, export sanitized receipts, update FINAL-SET.md and commit. Keep the party MP3 separate from reserve; mode is fixed sequence, original speed, no Sync/Automix/shuffle/repeat or added effects. Hardware routing remains outside this task.
+
+---
+
 # Hollow final build continuation · October 30
 
 - Scope and authorization: host approved the 90-second creative sample (“Sounds good”) and explicitly requested occasional varied features, delegated all production decisions, and asked to finish building/rendering the final Hollow set. This is an active full-delivery task, not a request for another optional test.

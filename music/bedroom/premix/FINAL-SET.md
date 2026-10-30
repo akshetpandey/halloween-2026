@@ -1,6 +1,6 @@
 # The Hollow · final set production
 
-**Final rebuild in progress.** On October 30 the host approved the creative-transition example and requested completing the full build/render with occasional varied features. Source-bound float cues are ready for 196 approved recordings; the full native sequence/diagnostics/render are underway. [Current continuation](../handoff-2026-10-30-final-build.md). The [current thesis](SET-THESIS.md) remains hard rave through closing with occasional 5–20-minute resets.
+**Final rebuild in progress.** On October 30 the host approved the creative-transition example and requested completing the full build/render with occasional varied features. The current revision-11 plan contains 201 approved recordings and about 9:04:36 of distinct music; all 199 joins have native diagnostic renders, with final timing corrections underway before full rendering. [Current continuation](../handoff-2026-10-30-final-build.md). The [current thesis](SET-THESIS.md) remains hard rave through closing with occasional 5–20-minute resets.
 
 **Do not resume version 5 as the party master.** The host rejected both Be The One → CRUSH (a half-second 136→150 BPM reset) and Be The One → Lullaby (matched tempo/key but unsupported phrasing and an unsuitable borrowed intro). [Professional instruction and corrected transition rules](TRANSITION-RESEARCH.md) govern the rebuild.
 

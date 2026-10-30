@@ -72,7 +72,7 @@ def apply(result,tracks,cues,evidence,output,validator):
         return path
     for feature in selected:
         index=feature['index'];a,b=result['details'][index:index+2];beat=60/feature['bpm'];kind=feature['kind']
-        owner=a if kind=='echo_release' else b;role='outro' if kind=='echo_release' else 'intro'
+        owner=a if kind=='echo_release' else b;role='intro'
         part=next(p for p in cues[owner['id']]['parts'] if p['role']==role)
         source_bpm=owner['source_bpm'];source=part['offset']+60/source_bpm;rate=feature['bpm']/source_bpm
         length=(1 if kind=='echo_release' else 16)*beat
@@ -141,9 +141,9 @@ def apply(result,tracks,cues,evidence,output,validator):
                 before=deepcopy(d['clips'][0]);new=crop_clip(before,before['position'],clear,before['position']);d['clips']=[new]
                 a['ranges'][-1][1]=source_time(before,clear)
             result['fresh_seconds']-=32*beat
-            part=next(p for p in cues[a['id']]['parts'] if p['role']=='outro')
+            part=next(p for p in cues[a['id']]['parts'] if p['role']=='intro')
             result['definitions'].append({'name':f'Feature {i+1} · percussion under hook','path':part['path'],'sha256':part['sha256'],
-                'gain_db':a['gain_db'],'clips':[clip(part['offset'],part['offset']+32*60/a['source_bpm'],clear,f['bpm']/a['source_bpm'])],
+                'gain_db':a['gain_db'],'clips':[clip(part['offset'],part['offset']+16*60/a['source_bpm'],clear+n*16*beat,f['bpm']/a['source_bpm']) for n in range(2)],
                 'eq_bands':eq([(0,0),(at-beat-.01,0),(at-beat,-24)],[(0,-3)],[(0,-3)])})
             result['native_source_bindings'].append({'parent_id':a['id'],'parent_sha256':a['source_sha256'],'sha256':part['sha256'],'kind':'drums'})
             hook=raw[round(f['hook_start']*sr):round((f['hook_start']+f['hook_length'])*sr)]

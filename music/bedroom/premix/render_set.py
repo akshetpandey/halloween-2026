@@ -348,6 +348,8 @@ def deliver(report_path, output, database=DEFAULT_DB):
     representative=next((t for t in report['tracks'] if (t.get('programme_chapter') or '').startswith('03 ')),
                         report['tracks'][min(3,len(report['tracks'])-1)])
     start=max(0,representative['start_seconds']-15)
+    feature=next((f for f in report.get('performance_features',[]) if f['kind']=='hook_tease_drop' and f['at_seconds']<party_end),None)
+    if feature:start=max(0,feature['at_seconds']-35)
     seconds=min(300,meters['duration_seconds']-start)
     preview_meters=preview_file(master,preview,start,seconds)
     validate_current(report,database)

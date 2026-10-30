@@ -51,6 +51,8 @@ def verify_readback(plan, actual):
                     raise ValueError("Native clip mismatch: " + key)
             if expected.get("downmix_mono") and b.get("channel_mode")!=2:
                 raise ValueError("Diagnostic mono mapping missing")
+            if "stretch_mode" in expected and b.get("stretch_mode") != expected["stretch_mode"]:
+                raise ValueError("Native percussion stretch mode mismatch")
             if b["preserve_pitch"] != 1:
                 raise ValueError("Pitch preservation missing")
             wanted = a.get("stretch_markers", [])

@@ -191,6 +191,8 @@ def unexpected_silences(intervals, duration):
 
 def source_time(item, output_time):
     local = output_time-item['position']
+    if not item.get('stretch_markers'):
+        return item['source_start']+local*item.get('rate',1)
     points = item['stretch_markers']
     index = max(0, min(len(points)-2,
         bisect.bisect_right([p['position'] for p in points], local)-1))

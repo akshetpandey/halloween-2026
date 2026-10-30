@@ -65,9 +65,12 @@ def compile_timeline(ordered,tracks,cues,gains):
                 points([(0,0),(start,0),(start+duration*.65,.7),(main_start,.7)],'amplitude'),
                 eq([(0,-24)],[(0,-6)],[(0,-6),(start,-6),(main_start,-3)]),'drum intro')
         if normal_after:
-            part=parts['outro'];c,_,_=warped_clip(part['offset'],32,bpm,prefix+beats,total,incoming,outgoing,64)
-            stop=main_end+c['length'];c=_handled(c,main_end)
-            add('drums',part['path'],part['sha256'],[c],points([(0,.7),(main_end,.7),(stop,0)],'amplitude'),
+            part=parts['intro'];clips=[]
+            for n in range(2):
+                c,_,_=warped_clip(part['offset'],16,bpm,prefix+beats+n*16,total,incoming,outgoing,64)
+                clips.append(_handled(c,main_end+n*16*60/outgoing))
+            stop=main_end+32*60/outgoing
+            add('drums',part['path'],part['sha256'],clips,points([(0,.7),(main_end,.7),(stop,0)],'amplitude'),
                 eq([(0,-24)],[(0,-3),(stop,-6)],[(0,-3),(stop,-6)]),'outgoing drum tail')
         else:stop=main_end
         if min(rates)<.97 or max(rates)>1.03:raise ValueError('Original musical body exceeds source rate limits')
@@ -95,7 +98,7 @@ def compile_timeline(ordered,tracks,cues,gains):
                         bass_swap_beat=32,handover_seconds=a['main_end_seconds'],mix_start_seconds=b['start_seconds'],mix_end_seconds=a['end_seconds'])
         else:
             clock=j['bridge_clock'];times=clock['beat_times'];start=a['main_end_seconds'];stop=b['main_start_seconds'];middle=start+times[len(times)//2]
-            for deck,detail,cue,role,loop_beats in [('outgoing',a,ca,'outro',32),('incoming',b,cb,'intro',16)]:
+            for deck,detail,cue,role,loop_beats in [('outgoing',a,ca,'intro',16),('incoming',b,cb,'intro',16)]:
                 part=next(p for p in cue['parts'] if p['role']==role);incoming_deck=deck=='incoming'
                 clips=[_handled(c,c['position']) for c in bridge_loops(part,detail['source_bpm'],times,loop_beats,start)]
                 low=[(0,-24),(middle-.01,-24),(middle+.01,0),(stop,0)] if incoming_deck else [(0,0),(middle-.01,0),(middle+.01,-24),(stop,-24)]

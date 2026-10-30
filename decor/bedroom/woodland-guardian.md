@@ -6,14 +6,14 @@
 
 | Part | Exact choice | Additional buy |
 |---|---|---:|
-| Face/headdress |[CAFELE forest-spirit /Led](https://www.amazon.com/dp/B0BVFPTCZC), one |23.99|
+| Face/headdress |[CAFELE forest-spirit /Led](https://www.amazon.com/dp/B09V19JMMW), one |23.99|
 | Independent support |[InnoGear MS250, single Black, Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P), one |29.99|
 | Black body |30×48 in cut from ordered H14 cloth 2 |0|
 | Dressing |Allocated two paired 7 ft ivy runs, small ordered moss scraps, ordered ties/gaffer |Already shared; no duplicate|
-| Prop light/fallback |One of **two total** Twinkle Star 66 ft warm USB strings |9.99 allocated once in shared light row|
+| Prop light/fallback |One of **three total** Twinkle Star 66 ft warm USB strings |9.99 allocated once in shared light row|
 | Tiny backplate/shoulders |One reused stiff card rectangle~8×10 in, packing paper, one existing hanger/light crosspiece |Reuse, inventory check|
 
-**Head +support $53.98; including allocated string $63.97**, before tax. Not purchased. All three product pages showOct 31 at check time, no early-delivery guarantee. [Offer evidence](../research/urgent-decor-entity-offers-2026-10-29.json).
+**Head +support $53.98; including allocated string $63.97**, before tax. Head/stand/string observed in unpaid cart. All three product pages showOct 31 at check time, no early-delivery guarantee. [Offer evidence](../research/cart-and-lighting-check-2026-10-29.json).
 
 The bought face is advertised **9×6.1×2.75 in**, an adult-size small bust rather than the huge 16–20 in face/antlers in the mood image. It has a mossy/woodland green headdress and short horn-like details; no separate carved crown needed. Listing fabric table says latex while prose names silicone/resin/wood; do not treat its composition or mounting weight as independently verified. Rating 3.6/5 across 60 reviews at check; appearance/quality untested. LED variant selected; battery type/included cells/runtime not stated in accessible copy. **Do not invent a battery order or promise the eyes will work without checking the package.** The already allocated warm string and eventual stage wash supply a fallback; no new electrical modifications.
 

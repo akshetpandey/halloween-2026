@@ -1,8 +1,10 @@
 # Decor shopping status and historical wood/skull cart
 
-## Current October 29 • host cart report and Last Seed additions
+## Current October 29 • actual cart audited
 
-Host reports **one rabbit set, deer, owl, raven and wolf skull in cart, not purchased**. Assumed recommended variants/quantities quote $102.69; actual cart not audited. [Current exact list](../../decor/urgent-buy-list-2026-10-29.md) counts these among $484.41 remaining decor/game merchandise, plus conditional $13.87 USB. Add recommendation: one [Bico Orange Pumpkin holder](https://www.amazon.com/dp/B0F24RKBMY), $23.99 (already included in $484.41) and one [Mars 120-piece chocolate bag](https://www.amazon.com/dp/B0D45S87QM), $19.97 (food). Both freshly showed October 31; no before-party window guaranteed. No new agent cart/payment/order. No Grove moon/crescent, third string, duplicate animal pack or extra glue bottle. Earlier figures and cart entries below are history.
+**Observed about 10:33 p.m. EDT: 24 active product lines / 30 units / $548.61 before tax; all unpaid.** Host replaced OLANLY November 2 rug with **black Xafir 8×10 / $49.99 / October 31**. Bigger Blue Sky pumpkin, chocolates, four animals/skull, three strings, four ivy packs, 100 tea lights and other selected scenery/supplies are in cart. [Every current line and purpose](../../decor/urgent-buy-list-2026-10-29.md) · [Sanitized snapshot](../../decor/research/cart-and-lighting-check-2026-10-29.json). Saved-for-later rows excluded.
+
+Recommended cleanup: remove duplicate owned-stick pack $20.49 and one extra glue bottle $1.17, yielding **$526.95**. Optional 100-candle→24-candle swap saves another $27. Cart itself unchanged by agent. Missing decor **$50.98** (bucket/paint/twine/extra clip pack), missing lighting **$341.94** before conditional coupon, optional USB up to $27.74. Whole envelope **$1,577.91**, or $1,548.48 with candle swap; existing $450 reserve includes exact lights. [Lighting order details](../../decor/lighting/cart-lighting-2026-10-29.md). Every active cart/checked missing item shows October 31; no before-party window guaranteed. Nine previously reported ordered lines unchanged; no new order/payment inferred.
 
 ## Earlier October 29 • prior urgent list — superseded
 

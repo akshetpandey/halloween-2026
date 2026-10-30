@@ -1,5 +1,11 @@
 # Decision log and open questions
 
+## October 29 • actual cart, replacement rug and remaining lighting
+
+Host says a bunch of items were added and asks what remains, then confirms rug replacement. **Chrome audit about 10:33 p.m. EDT:** 24 active lines/30 units/$548.61 unpaid; black Xafir 8×10 $49.99 now October 31 replaces OLANLY November 2. Larger Blue Sky pumpkin $41 is Last Seed; actual cart has three strings, four ivy packs, 100 tea lights, second 67-inch branch, leaves, animal/skull set, Guardian head/stand and other core supplies. Exact selected ASINs/quantities documented in [current evidence](../decor/research/cart-and-lighting-check-2026-10-29.json), no inferred purchase.
+
+Agent recommends missing bucket/paint/twine/one additional clip pack ($50.98), missing Govee wash + original OPPSK + LPC018 pair + SH-RS09C + terminator + two short links ($341.94; conditional OPPSK coupon yields $327.54), USB power inventory for three strings. Exact lights fit within $450 inclusive reserve. Recommend remove already-owned sticks $20.49/reduce glue $1.17; optional 100→24 candle swap saves $27. **No cart changes performed.** Whole envelope $1,577.91 primary, $1,548.48 with candle swap; food separate. All active cart/checked missing offers October 31 with no before-party window guaranteed. Hardware/DMX/combined Mac tests pending; no new software/deployment or sibling message.
+
 ## October 29 • one moon/listener, Last Seed harvest offering table
 
 **Host confirmed:** one moon object in Moon Well is **The Moon That Stayed and the listener (DEC-01)**. No second Grove moon or threshold crescent. Owned gold tree goes in the middle of the living room, not by a shrine. Host approved **The Last Seed (DEC-04)** as replacement guardian at the Grove nightstand table, doubling as pumpkin candy holder; wrapped chocolates offered freely. IDs, all 15 slots and puzzle/Favor mechanics stay unchanged; writing ritual optional/unscored. Local narrative/catalog is synchronized, not deployed; references still need actual enrollment.

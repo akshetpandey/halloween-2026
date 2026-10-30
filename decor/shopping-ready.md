@@ -1,8 +1,8 @@
 # Decor buying list — quantities, purpose and purchase status
 
-## Current October 29 • single moon, Last Seed and unpaid cart selections
+## Current October 29 • observed cart and remaining lighting
 
-[Current exact list](urgent-buy-list-2026-10-29.md) owns all remaining quantities/purposes: **$484.41 before tax / $528.01 with 9% planning tax**, optional one USB two-pack **$13.87**. Single Moon Well moon/listener; Last Seed pumpkin candy holder on Grove nightstand; central owned tree. Two warm strings total, one glue bottle, no Grove moon craft/crescent. Host reports rabbit/deer/owl/raven/skull in cart, **not ordered**. [All 15 slots](../interactive-game/physical/guardian-coverage-2026-10-29.md). Nine ordered lines below unchanged. Candy is a separate **$19.97 food quote** replacing $25 sweets allowance. Whole decor/game envelope **$1,482.62** inclusive of $450 later lighting reserve. Earlier remaining totals/products below are history.
+[Current exact list](urgent-buy-list-2026-10-29.md) owns remaining quantities/purposes. **Cart observed: 24 lines / 30 units / $548.61 unpaid**; black Xafir 8×10 replaces late OLANLY, all active lines show October 31. Bigger Blue Sky pumpkin selected, four ivy packs, three USB strings and 100 tea lights. Remove duplicate owned sticks/reduce glue: cleaned cart $526.95. Missing decor $50.98; [missing lighting](lighting/cart-lighting-2026-10-29.md) $341.94 within existing $450 reserve; conditional USB up to $27.74. Whole decor/game envelope **$1,577.91**, or **$1,548.48 with recommended 24-candle swap**. Food separate. Nine ordered lines below unchanged; no agent cart change/purchase. [Fresh cart/offer record](research/cart-and-lighting-check-2026-10-29.json). Earlier remaining product/price sections below are history.
 
 ## Host-reported inventory
 

@@ -13,9 +13,9 @@ Current music source: [final-set production](../../music/bedroom/premix/FINAL-SE
 
 ## Hardware selection still to finish
 
-Accepted direct USB-C route:one DSD TECH SH-RS09C +free QLC+, one selected effect panel (original OPPSK retained as prior baseline; alternatives not added together). Possible two LPC018fills need two short DMX links and final 120-ohm terminator. No long extension pack. [Existing setup research](oppsk-usb-dmx-2026-10-27.md),[panel/fill comparison](dmx-fill-and-panel-value-2026-10-27.md). Those October 27 offers are stale and **not** refreshed in this decor ordering pass.
+Accepted direct USB-C route:one DSD TECH SH-RS09C +free QLC+, one selected effect panel (original OPPSK retained as prior baseline; alternatives not added together). Possible two LPC018fills need two short DMX links and final 120-ohm terminator. No long extension pack. [Existing setup research](oppsk-usb-dmx-2026-10-27.md),[panel/fill comparison](dmx-fill-and-panel-value-2026-10-27.md). [October 29 fresh offers](cart-lighting-2026-10-29.md) now quote Govee wash plus OPPSK/LPC018 pair/SH-RS09C/terminator/short-link hardware at $341.94 conservative / $327.54 conditional OPPSK coupon, all showing October 31. None is in cart at audit; exact profile and rehearsal remain pending.
 
-Current [buy envelope](../urgent-buy-list-2026-10-29.md) reserves 450 dollars inclusive for stage fixtures/control/short links/terminator/permanent Grove wash/AC power. Bath moon/two warm strings/conditional USB supplies already counted separately; do not duplicate them. Exact received DMX modes, profile, dim range, strobe channel exclusion, hardware supports/outlets remain untested.
+Current [buy envelope](../urgent-buy-list-2026-10-29.md) reserves 450 dollars inclusive for stage fixtures/control/short links/terminator/permanent Grove wash/AC power. Bath moon/three warm strings/conditional USB supplies already counted separately; do not duplicate them. Exact received DMX modes, profile, dim range, strobe channel exclusion, hardware supports/outlets remain untested.
 
 ## Combined acceptance before guests
 

@@ -1,12 +1,16 @@
 # Budget, sourcing and purchase ledger
 
-## Current October 29 • single moon and harvest offering table
+## Current October 29 • cart audit and missing lights
 
-[Exact list and calculation](../decor/urgent-buy-list-2026-10-29.md) · [Current evidence](../decor/research/single-moon-harvest-2026-10-29.json). Remaining **$484.41 = $388.13 decor + $96.28 incremental game**, **$528.01 with aggregate 9% planning tax**. Includes five host-reported unpaid cart lines ($102.69 at quoted variants/quantities), not new spending. Nine host-reported ordered lines retain $281.07 quote; actual paid total unknown.
+[Current list and arithmetic](../decor/urgent-buy-list-2026-10-29.md) · [Fresh evidence](../decor/research/cart-and-lighting-check-2026-10-29.json). Actual unpaid cart **$548.61 / 24 lines / 30 units**; host replaced late OLANLY with black Xafir $49.99/October 31. Bigger Blue Sky pumpkin $41, second wall branch, four ivy packs, three strings and 100 tea lights are selected. Recommend remove already-owned stick pack $20.49 and reduce glue by $1.17: cleaned cart **$526.95**. No agent cart edit or purchase.
 
-Remove duplicate Grove moon/crescent, third USB string, second glue bottle and moon craft allowance; add $23.99 Last Seed pumpkin candy holder. Two strings need at most **one $13.87 USB two-pack** if no suitable supplies owned. Products incl. ordered/conditional USB **$779.35** + local/support **$85** + aggregate 9% planning tax **$77.79** + shipping **$60** + buffer **$30.48** + inclusive later lighting/control/power reserve **$450** = **$1,482.62**, **$117.38 under $1,600**. Lighting reserve is unquoted; actual delivery/checkout may change. All earlier scenarios below are history.
+Remaining **core decor/game $557.96**, after cleanup, including missing bucket/paint/twine/one extra clip pack. Missing core additions **$50.98**. Six missing light/control/connection lines quote **$341.94 / $327.54 conditional OPPSK coupon**, contained within existing **$450 inclusive reserve**, not additional to it. Three strings now need up to two USB two-packs **$27.74** if no suitable supplies owned. No extra bath lamp/duplicate moon/sticks/NFC/crown.
 
-**Food separate:** one 120-piece wrapped Mars chocolate bag **$19.97** replaces existing $25 sweets allowance within $180 food target, saving $5.03 before tax; no second bathroom candy purchase. Pumpkin dish belongs to decor above, counted once. Food/drinks/costume/prize excluded from $1,482.62. Pumpkin + candy checkout merchandise is $43.96. No agent purchases/cart changes.
+Envelope: ordered quote **$281.07** + core **$557.96** + conditional USB **$27.74** = **$866.77 products**; + local/support **$85** + aggregate 9% planning tax **$85.66** + shipping **$60** + buffer **$30.48** + inclusive light/control/power reserve **$450** = **$1,577.91**, **$22.09 under $1,600**. Reserve covers quoted hardware $341.94 + $30.77 planning tax, leaving $77.29 for remaining power/price/setup needs. No double addition of exact lighting.
+
+Recommended optional 100→24 tea-light swap saves **$27 before tax**, lowering whole envelope to **$1,548.48**, $51.52 headroom. Keep current selected 100-pack in primary until host changes it. Four local gourds cap $35, trays/underlayers $10, conditional rug grip $15, fixture supports $25 remain $85; paint/glue exact rows, no moon craft allowance. Further optional cuts: second branch $32.98, two extra ivy packs $10.98.
+
+**Food separate:** Mars chocolates **$19.97**, observed in cart, replace existing $25 sweets allowance within $180 food budget. Actual paid total unknown; drinks/costume/crown outside decor envelope. All active cart/missing offers checked show October 31; no before-party window guaranteed. Earlier scenarios below are history.
 
 ## Earlier October 29 • revised decor and physical entities — superseded
 

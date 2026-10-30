@@ -6,6 +6,14 @@ October 30, 2026 · **Four candidates / four lead artists / 14:20 raw.** **Publi
 
 The host explicitly corrected the predictive-model detour and requested a finished small test. This selection uses all **127 actual canonical Keeps and 846 Cuts**, independent lyric review and specific comparisons. No model, numeric fit score, genre allocation or curator credential selected these tracks. The four-song size is intentional; weaker leads were dropped.
 
+## Review outcome · October 30
+
+**Closed: one Keep / three Cuts / zero pending.** Canonical feedback confirms **Lone Digger** kept; **Hey Cowboy**, **Let's Go** and **The Golden Age** cut. The host explicitly says the three rejected tracks were **very close**. Preserve both facts: these are near misses for future comparison, and their existing Cuts remain final. No specific reason for the missing margin was supplied; do not invent one or turn these close misses into broad artist/genre rejections.
+
+Lone Digger is a new exact-recording positive reference. This improves the evidence for that particular hook/vocal/rhythm combination; it does not establish approval of every Caravan Palace recording or electro-swing. No deferred or rejected version is eligible for a repeat review.
+
+Current canonical Grove library: **128 Keeps / 849 Cuts / zero pending / 7:06:15 raw**. The main Spotify playlist was last verified at 127 tracks; this feedback update does not promote tracks or sync Spotify. The publication checks below are historical at 3:44 PM EDT. [Outcome handoff](handoff-2026-10-30-grove-21-outcome.md).
+
 ## The four-song test
 
 | Order | Recording | Concrete reason to test it | Prior Cut that limits the claim |

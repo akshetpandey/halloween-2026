@@ -1,7 +1,7 @@
 # October Grove · living-room music
-Updated October 30, 2026. **[Grove 21 · Four songs with character](october-grove-batch-21.md)** is live: **four new candidates / 14:20 raw**, selected through specific Keep/Cut comparisons and independent full-text lyric checks. The host corrected the predictive-model detour and requested a finished small test; no model or numeric gate selected this batch. [Review Grove 21](https://music.hollow-court.com/?room=living-room&batch=21) · [Spotify audition](https://open.spotify.com/playlist/5UKv9IjRzYLJE3N1607c70).
+Updated October 30, 2026. **[Grove 21](october-grove-batch-21.md) closed one Keep / three Cuts.** Lone Digger made it; the host says Hey Cowboy, Let's Go and The Golden Age were **very close**. Their Cuts remain intact and their near-miss status is useful qualitative evidence; the specific reasons remain unknown. Current canonical Grove is **128 Keeps / 849 Cuts / zero pending / 7:06:15 raw**. [Outcome handoff](handoff-2026-10-30-grove-21-outcome.md).
 
-The [main Grove playlist](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) remains **127 shared Keeps / 7:02:25 raw**, with fresh exact-order API readback matching the prior verified snapshot. It is an approved source library, not a final party sequence. Nine finished hours remain the goal; roughly **53 additional similar-length Keeps** is a planning estimate. [Current counts](../curation-status-2026-10-30.md) · [Approved snapshot](october-grove-approved-2026-10-29.json) · [Latest handoff](handoff-2026-10-30-grove-21.md).
+The [main Grove playlist](https://open.spotify.com/playlist/6FEcecNrYObHqVunRf9Vzf) was last verified at **127 tracks / 7:02:25 raw** before the new Lone Digger approval. This feedback update does not sync Spotify; the approved library now has 128 Keeps. It is an approved source library, not a final party sequence. Nine finished hours remain the goal; roughly **52 additional similar-length Keeps** is a planning estimate. [Current counts](../curation-status-2026-10-30.md) · [Approved snapshot](october-grove-approved-2026-10-29.json) · [Latest handoff](handoff-2026-10-30-grove-21.md).
 
 ## Current selection calibration
 
@@ -57,7 +57,7 @@ Use [Playlist Lab](../playlist-lab/README.md) for embedded YouTube/Spotify liste
 
 The authorized app returned HTTP 403 for Audio Features but did return popularity for all 141 records. ReccoBeats supplies automatically retrieved BPM/key and available energy/danceability/valence/acousticness/speechiness descriptors; [coverage and analysis](catalog-analysis-2026-09-08.md) distinguishes exact Spotify-ID matches from alternate releases matched by ISRC/title/artists/duration. Artist genres, editorial style lanes and optional listening scores remain distinct. The normal host workflow is only Keep/Cut/Maybe; no manual six-metric entry required.
 
-Current selection action: review [Grove 21](october-grove-batch-21.md), four unrated candidates. Grove 20 is fully rejected. The approved-only main stays at 127 Keeps, with nine finished hours and Google Home rehearsal still to establish.
+Current selection action: use [Grove 21’s completed result](october-grove-batch-21.md): Lone Digger kept, three very close Cuts. Grove 20 is fully rejected. The main was last verified at 127 tracks, with nine finished hours and Google Home rehearsal still to establish.
 
 ## Devices and fallback
 Create **October Grove** as a Google speaker group in the phone/tablet Google Home app, or use a supported stereo pair if both devices are the same model. Connect the intended Spotify account and select that destination. [Google groups](https://support.google.com/googlehome/answer/7174267?hl=en) · [Spotify setup](https://support.spotify.com/us/article/spotify-on-google-devices/)

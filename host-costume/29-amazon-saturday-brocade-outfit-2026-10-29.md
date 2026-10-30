@@ -1,5 +1,7 @@
 # Hollow Court • Amazon Saturday clothing shortlist
 
+**Later October 29: brocade/green-trouser direction superseded.** Host requests a more eerie woodland look, less vampire aristocrat, and clarifies the owned trousers are olive and not loved. [30](30-eerie-woodland-amazon-2026-10-29.md) owns the active texture/black-trouser sourcing. Keep the completed preview and dated offers below as history; no garment order was reported.
+
 Checked October 29, 2026, approximately **6:26–6:29 p.m. America/New_York / EDT (UTC−04:00)**, signed-in Chrome, delivery destination Brooklyn 11211. Event Saturday October 31. **Host subsequently requested/completed the exact waistcoat/shirt/cape preview below; no purchase or final outfit selection inferred.**
 
 ## Latest host constraints

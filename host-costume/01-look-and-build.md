@@ -1,6 +1,6 @@
 # Host costume • build direction
 
-**Current October 29: requested waistcoat/shirt/half-cape preview completed, keeping crown/torc/cuffs/green trousers.** [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the private render/prompt, Small black/gold waistcoat and preceding exact Saturday Amazon checks. No new final clothing selection/order/physical test. Belt/sash disfavored; [28](28-fixed-core-clothing-references-2026-10-29.md) is reference history; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. No body-chain-for-torc swap. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
+**Current October 29: eerie woodland texture instead of vampire-aristocrat brocade.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns active Saturday Amazon sourcing. Crown/torc/cuffs fixed; owned trousers clarified olive/disfavored, black proposed. Earlier [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) render/source record retained as history. No new final clothing selection/order/physical test/render. Belt/sash disfavored; [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory. [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) crown repair/fit pending.
 
 ## Historical brief • through October 23
 

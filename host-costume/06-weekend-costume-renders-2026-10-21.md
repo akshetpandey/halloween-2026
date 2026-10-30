@@ -6,7 +6,7 @@ Current user decisions, shopping status and revised subtotal live in the [curren
 
 **Subsequent host instruction, October 22:** [source before making further renders](AGENTS.md#source-before-rendering--host-instruction-october-22). Existing previews below are history, not proof their essential pieces can be obtained by Saturday. In particular, H's collar and face branches require exact real-world sourcing and deadline verification before another preview; revise the design first if unavailable.
 
-**Latest October 29: requested waistcoat + sleeved black shirt + half-cape preview completed as P.** Crown/torc/cuffs/green trousers retained; no armor or sash. [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns actual garment sources, immediately preceding Saturday buy-box checks, private final/prompt links and limits. No new order or final outfit selection inferred; 28 is reference history and O retains dropped armor.
+**Latest October 29: more eerie woodland texture and black-trouser direction sourced in [30](30-eerie-woodland-amazon-2026-10-29.md), no new render yet.** Host dislikes brocade's vampire-aristocrat read and clarifies actual trousers are olive/disfavored. Crown/torc/cuffs remain. P retains the completed earlier waistcoat/shirt/half-cape preview and illustrated deep-green trousers as history; [29](29-amazon-saturday-brocade-outfit-2026-10-29.md) owns its private final/prompt and dated sources. No new order/final outfit selected.
 
 ## P Black/gold brocade waistcoat and half-cape
 

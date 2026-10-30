@@ -2,6 +2,12 @@
 
 Real costume/fashion images; copyright remains with the credited creators. These are design references, not generated host portraits.
 
+## October 29 woodland texture sourcing
+
+[Actual charcoal shredded cowl](2026-10-29/charcoal-shredded-cowl.jpg), credit Dhthdrh / Amazon; [GRACEART 11-green woven cowl](2026-10-29/graceart-green-woven-cowl.jpg), credit GRACEART / Amazon; [Black Levi's 578 baggy jeans](2026-10-29/levis-578-black-baggy.jpg), credit Levi's / Amazon. Individual photographers unidentified; downloaded and visually inspected October 29, copyrights remain with rights holders. [30](../30-eerie-woodland-amazon-2026-10-29.md) owns exact Saturday variants, source-image URLs, two alternative wrap styles and quality limits. Charcoal listing has no visible reviews; photographs are not quality/fit tests or orders.
+
+[WDIRARA Black distressed knit photograph](2026-10-29/wdirara-black-distressed-knit.jpg), credit WDIRARA / Amazon listing, photographer unidentified. Downloaded and visually inspected October 29. [30](../30-eerie-woodland-amazon-2026-10-29.md) owns exact Small Saturday evidence, source image URL and heat/fit limitations. An acrylic fallback under consideration, not a selected new costume or premium bark/leaf garment. Copyright remains with rights holder.
+
 ## October 29 Amazon Saturday waistcoat proposal
 
 [Actual VATPAVE Sv16-black double-breasted waistcoat photograph](2026-10-29/vatpave-sv16-black-brocade-vest.jpg), credit VATPAVE / Amazon listing, individual photographer unidentified. Downloaded and visually inspected October 29; copyright remains with the rights holder. [29](../29-amazon-saturday-brocade-outfit-2026-10-29.md) owns the exact Small source, current Saturday stock/delivery, image URL, quality/fit limits and refreshed shirt/cape checks. Not an order, measured fit or outfit render. Belt/sash references below are now disfavored history.

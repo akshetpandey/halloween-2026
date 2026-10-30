@@ -4,7 +4,7 @@
 
 **Current production:** [FINAL-SET.md](FINAL-SET.md) governs the approved full-programme build, source coverage, rendering, playback files and verification. The earlier proof, audition and no-render reports below are historical implementation milestones. Actual music and private runtime evidence remain ignored under `.local/`.
 
-**Featured DJ edits:** the host approved the [90-second hook-tease / tightening-roll / filtered-echo showcase](PERFORMANCE-EDITS.md) on October 30 and requested occasional varied features throughout the final set. Both accepted samples are preserved. [Current full-build continuation](../handoff-2026-10-30-final-build.md).
+**Featured DJ edits:** the host approved the [90-second hook-tease / tightening-roll / filtered-echo showcase](PERFORMANCE-EDITS.md) on October 30 and requested occasional varied features throughout the final set. Both accepted samples are preserved. [Completed full-set delivery](FINAL-SET.md) · [Final handoff](../handoff-2026-10-30-final-delivery.md).
 
 **REAPER setup and synthetic cut/transition/render proof passed:** [sample, results and one-command reproduction](REAPER-PROOF.md). The preparation bridge below still governs actual bedroom approvals; synthetic fixtures are not approved party tracks.
 

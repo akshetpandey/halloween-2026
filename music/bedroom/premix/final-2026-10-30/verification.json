@@ -1,0 +1,1011 @@
+{
+  "rendered": true,
+  "mix_plan_sha256": "6f6b8827a9b640739d996cf0a3f0ae8f15d0ba9edbef7cbb9689f76d807499c7",
+  "minimum_nine_hours_excluding_bridges": true,
+  "constant_delivery_gain_db": 1.5,
+  "meters": {
+    "duration_seconds": 33032.503208,
+    "codec": "flac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -18.5,
+    "true_peak_dbfs": -2.1,
+    "loudness_range_lu": 5.8,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "mp3_meters": {
+    "duration_seconds": 33032.503208,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -18.5,
+    "true_peak_dbfs": -2.1,
+    "loudness_range_lu": 5.8,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "silence": {
+    "source_confirmed_rests": [
+      {
+        "master_seconds": [
+          503.79025,
+          504.765208
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "b24fd5876260e44a4f6212639aca867fbe7a93f74338f29778033308d0373f90",
+            "name": "004 \u00b7 SHVDZ \u00b7 Do My Thing",
+            "source_seconds": [
+              120.46616068248098,
+              121.4495785994733
+            ],
+            "central_source_peak_dbfs": -42.19349231088727,
+            "static_gain_db": -11.9,
+            "predicted_dry_peak_dbfs": -54.09349231088727
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          1561.827083,
+          1562.350937
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "62e75d43e4c3f5a38bd1cbb422ef1948a00d9ca1db15f264396ae00ec10c6630",
+            "name": "011 \u00b7 ZAPRAVKA, CERES \u00b7 I Feel",
+            "source_seconds": [
+              100.97059489991004,
+              101.49615372988796
+            ],
+            "central_source_peak_dbfs": -39.29238927973594,
+            "static_gain_db": -14.6,
+            "predicted_dry_peak_dbfs": -53.892389279735944
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          1562.682208,
+          1562.936167
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "62e75d43e4c3f5a38bd1cbb422ef1948a00d9ca1db15f264396ae00ec10c6630",
+            "name": "011 \u00b7 ZAPRAVKA, CERES \u00b7 I Feel",
+            "source_seconds": [
+              101.8285029416328,
+              102.08328852044761
+            ],
+            "central_source_peak_dbfs": -58.57742806342942,
+            "static_gain_db": -14.6,
+            "predicted_dry_peak_dbfs": -73.17742806342942
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          1653.554083,
+          1653.930354
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "d14880a80b864c6d4bbcbb85e13518e850486df64e16897eba999bf97701a1f6",
+            "name": "012 \u00b7 BEAUZ, Mark Sixma \u00b7 Little Voices",
+            "source_seconds": [
+              81.30495843002389,
+              81.68090639595475
+            ],
+            "central_source_peak_dbfs": -49.83565080423703,
+            "static_gain_db": -13.4,
+            "predicted_dry_peak_dbfs": -63.235650804237025
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          4909.039875,
+          4909.421042
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "ea6462bad2d72593ba94e6d8dd7b05e40ac799229941f235d1c104e5a367b92d",
+            "name": "032 \u00b7 BEAUZ \u00b7 Lick It",
+            "source_seconds": [
+              125.623877820947,
+              126.00504431134492
+            ],
+            "central_source_peak_dbfs": -82.86303589257511,
+            "static_gain_db": -13.0,
+            "predicted_dry_peak_dbfs": -95.86303589257511
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          9698.363083,
+          9699.196562
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "d4bf1caf5a10a0ff11f2fa687e7451337d0bc98e9e139422b4d231287a97777d",
+            "name": "063 \u00b7 Brutalismus 3000 \u00b7 DIE LIEBE KOMMT NICHT AUS BERLIN",
+            "source_seconds": [
+              118.31225776553525,
+              119.1478288347674
+            ],
+            "central_source_peak_dbfs": -40.74488421621497,
+            "static_gain_db": -11.7,
+            "predicted_dry_peak_dbfs": -52.44488421621497
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          10095.616813,
+          10096.177646
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "3e8206fd31fe39768cf8e87782dc76bacc87b96583d6ab6bb10c92b61fd4ac9c",
+            "name": "065 \u00b7 999999999, Marie Vaunt \u00b7 I Got Acid",
+            "source_seconds": [
+              75.1360882899375,
+              75.69514982119877
+            ],
+            "central_source_peak_dbfs": -59.19154385526441,
+            "static_gain_db": -16.4,
+            "predicted_dry_peak_dbfs": -75.5915438552644
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          12030.369312,
+          12030.950187
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "e744cbb3b2f3adc7df9838dbebd1b504510ba1eb76339ac48fc112d1e02c0a83",
+            "name": "077 \u00b7 Sara Landry, Alt8 \u00b7 Havana Bounce",
+            "source_seconds": [
+              188.4188390086839,
+              189.00157856476108
+            ],
+            "central_source_peak_dbfs": -38.54702316195015,
+            "static_gain_db": -13.3,
+            "predicted_dry_peak_dbfs": -51.84702316195015
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          14895.955229,
+          14896.209
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "fa3484579c5e3bb693dcc1620cfec255db1014ae7cc8a0f5a7c68b6959cc358d",
+            "name": "098 \u00b7 Marie Vaunt \u00b7 That Acid",
+            "source_seconds": [
+              55.52177104973916,
+              55.77554527819623
+            ],
+            "central_source_peak_dbfs": -35.91198974974101,
+            "static_gain_db": -15.7,
+            "predicted_dry_peak_dbfs": -51.611989749741014
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          14901.283625,
+          14901.559208
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "fa3484579c5e3bb693dcc1620cfec255db1014ae7cc8a0f5a7c68b6959cc358d",
+            "name": "098 \u00b7 Marie Vaunt \u00b7 That Acid",
+            "source_seconds": [
+              60.85023449765178,
+              61.12582096538253
+            ],
+            "central_source_peak_dbfs": -37.742675311170586,
+            "static_gain_db": -15.7,
+            "predicted_dry_peak_dbfs": -53.44267531117059
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          15122.622438,
+          15123.628458
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "ca9cdd11f14b107ff4bbb9caadc8d7d891554f6dab192810b41da3b41059a808",
+            "name": "099 \u00b7 VCL \u00b7 Pure Madness",
+            "source_seconds": [
+              216.5930722278866,
+              217.5990890803962
+            ],
+            "central_source_peak_dbfs": -41.71331655475426,
+            "static_gain_db": -12.7,
+            "predicted_dry_peak_dbfs": -54.41331655475426
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          15599.744583,
+          15601.331021
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "119a5bc59fcfb47b927eb895b50fa6222b0442a38f0523a093e94724dfde5b70",
+            "name": "102 \u00b7 Sara Landry \u00b7 Legacy",
+            "source_seconds": [
+              169.79876010534525,
+              171.35868530403596
+            ],
+            "central_source_peak_dbfs": -37.953151930972666,
+            "static_gain_db": -13.4,
+            "predicted_dry_peak_dbfs": -51.353151930972665
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          17726.247667,
+          17727.120125
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "7d5ae6391d0a5922bcd1c79adcd0d3d3b22c32178e64b9531e8e6229b7f2d443",
+            "name": "112 \u00b7 Sara Landry, Alt8 \u00b7 Heaven",
+            "source_seconds": [
+              116.9783708596597,
+              117.84605014937426
+            ],
+            "central_source_peak_dbfs": -39.53664724245238,
+            "static_gain_db": -13.1,
+            "predicted_dry_peak_dbfs": -52.63664724245238
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          17760.219042,
+          17760.731021
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "7d5ae6391d0a5922bcd1c79adcd0d3d3b22c32178e64b9531e8e6229b7f2d443",
+            "name": "112 \u00b7 Sara Landry, Alt8 \u00b7 Heaven",
+            "source_seconds": [
+              150.8190088275241,
+              151.32987539155084
+            ],
+            "central_source_peak_dbfs": -40.77490705691146,
+            "static_gain_db": -13.1,
+            "predicted_dry_peak_dbfs": -53.87490705691146
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          20128.385312,
+          20128.7615
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "04cadd3fd1fa010c18b10f54589de23df2a0f9bec2257931785db2ed97750801",
+            "name": "126 \u00b7 Maddix \u00b7 Move It 2 The Drum",
+            "source_seconds": [
+              87.0594718760691,
+              87.43655561699042
+            ],
+            "central_source_peak_dbfs": -42.8727779816132,
+            "static_gain_db": -12.5,
+            "predicted_dry_peak_dbfs": -55.3727779816132
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          23867.259375,
+          23868.791333
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "fedccfefd618e0e4df182ee601f3f8db75593f4a10d0bf8d30e09fa2c829c833",
+            "name": "146 \u00b7 KI/KI \u00b7 5 Mins Of Acid",
+            "source_seconds": [
+              132.538544368771,
+              134.07940403491628
+            ],
+            "central_source_peak_dbfs": -42.544045375182904,
+            "static_gain_db": -13.1,
+            "predicted_dry_peak_dbfs": -55.644045375182905
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          26415.522562,
+          26415.847917
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "6ee5fd2b0f666842fda8b5177ee6e974ac1c00fcfce8545185c1fa490439438d",
+            "name": "162 \u00b7 Gonzi \u00b7 Turn It Up",
+            "source_seconds": [
+              84.43126705120514,
+              84.75661854937961
+            ],
+            "central_source_peak_dbfs": -41.17121306008543,
+            "static_gain_db": -13.5,
+            "predicted_dry_peak_dbfs": -54.67121306008543
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          26415.848896,
+          26416.225396
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "6ee5fd2b0f666842fda8b5177ee6e974ac1c00fcfce8545185c1fa490439438d",
+            "name": "162 \u00b7 Gonzi \u00b7 Turn It Up",
+            "source_seconds": [
+              84.75759753884292,
+              85.13409348654022
+            ],
+            "central_source_peak_dbfs": -42.622876107666784,
+            "static_gain_db": -13.5,
+            "predicted_dry_peak_dbfs": -56.122876107666784
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          27611.366792,
+          27611.654833
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "f02cbcec94f5ca09a6f6fc3fde2f40b5025d4949dd02d0fb191ffa01628b1c37",
+            "name": "169 \u00b7 Mau P \u00b7 Drugs From Amsterdam",
+            "source_seconds": [
+              174.06658740384347,
+              174.35441919932458
+            ],
+            "central_source_peak_dbfs": -41.44851156265878,
+            "static_gain_db": -10.7,
+            "predicted_dry_peak_dbfs": -52.14851156265878
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          27613.3115,
+          27613.572125
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "f02cbcec94f5ca09a6f6fc3fde2f40b5025d4949dd02d0fb191ffa01628b1c37",
+            "name": "169 \u00b7 Mau P \u00b7 Drugs From Amsterdam",
+            "source_seconds": [
+              176.00996586849078,
+              176.27041463707488
+            ],
+            "central_source_peak_dbfs": -42.494648712374136,
+            "static_gain_db": -10.7,
+            "predicted_dry_peak_dbfs": -53.19464871237413
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          27615.211187,
+          27615.498125
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "f02cbcec94f5ca09a6f6fc3fde2f40b5025d4949dd02d0fb191ffa01628b1c37",
+            "name": "169 \u00b7 Mau P \u00b7 Drugs From Amsterdam",
+            "source_seconds": [
+              177.90845014885085,
+              178.19520850437402
+            ],
+            "central_source_peak_dbfs": -58.605178456248524,
+            "static_gain_db": -10.7,
+            "predicted_dry_peak_dbfs": -69.30517845624853
+          }
+        ]
+      },
+      {
+        "master_seconds": [
+          28328.735396,
+          28329.037146
+        ],
+        "source_evidence": [
+          {
+            "source_sha256": "45a0b5cc4013962f87b90ff660b7d6fa5f61f156c31159e2ee987be927e6bfb5",
+            "name": "173 \u00b7 Chris Lake, Skrillex, ANITA B QUEEN \u00b7 LA NOCHE",
+            "source_seconds": [
+              163.06370277342884,
+              163.36636769569256
+            ],
+            "central_source_peak_dbfs": -53.67761997915784,
+            "static_gain_db": -13.8,
+            "predicted_dry_peak_dbfs": -67.47761997915784
+          }
+        ]
+      }
+    ],
+    "unexplained_silences": [],
+    "maximum_source_confirmed_pause_seconds": 2.0,
+    "authored_endings": [
+      {
+        "kind": "authored_programme_ending",
+        "interval_seconds": [
+          27328.088604,
+          27330.104667
+        ],
+        "ending_seconds": 27330.109530521557,
+        "source_volume_fade_seconds": 8.0,
+        "evidence": "Declared programme ending, actual original clip end and six-to-twelve-second volume fade to zero"
+      }
+    ],
+    "maximum_authored_ending_quiet_seconds": 3.0
+  },
+  "master_sha256": "5e916883a22c2c5ddd53fc87f922d6a4207729603b4883af7524ee8be154192b",
+  "mp3_sha256": "c963deba8ad2435093551cb92754eac3225bfe8530a1974cd8a765a73e2ad2fc",
+  "preview_start_seconds": 5105.420369113741,
+  "preview_duration_seconds": 300,
+  "preview_meters": {
+    "duration_seconds": 300.0,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -18.5,
+    "true_peak_dbfs": -5.4,
+    "loudness_range_lu": 5.7,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "chapters": 10,
+  "chapter_backup_format": "320 kbps MP3; the continuous FLAC is the primary master",
+  "seams": [
+    {
+      "at_seconds": 3600.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 7200.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 10800.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 14400.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 18000.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 21600.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 25200.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 28800.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 0.0,
+      "rms_pcm_error": 0.0
+    },
+    {
+      "at_seconds": 32400.0,
+      "comparison_seconds": 0.5,
+      "maximum_pcm_error": 3.5762786865234375e-07,
+      "rms_pcm_error": 1.822577111454393e-08
+    }
+  ],
+  "subjective_listening_verified": false,
+  "hardware_playback_tested": false,
+  "party_sha256": "05362655fac7f7d07a4c703ad9ff977a209e72d10b6d78589c14663e68ecbbdc",
+  "party_meters": {
+    "duration_seconds": 27330.109521,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -18.5,
+    "true_peak_dbfs": -2.1,
+    "loudness_range_lu": 5.9,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "party_programme_seconds": 27330.109530521557,
+  "reserve_seconds": 5702.393668310309,
+  "reserve_sha256": "a047d25725aff35a9894d1c91c471f2911da1095c767026d3289529173f7ce67",
+  "playback_schedule": {
+    "status": "proposed manual playback timing; no scheduler installed",
+    "timezone": "America/New_York",
+    "start": "2026-10-31T21:24:29.890469-04:00",
+    "closing": "2026-11-01T04:00:00-05:00"
+  },
+  "reserve_meters": {
+    "duration_seconds": 5702.393688,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -18.6,
+    "true_peak_dbfs": -2.9,
+    "loudness_range_lu": 5.3,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "planner_version": "mix-planner-6",
+  "generated_at": "2026-10-30T07:50:53.496644+00:00",
+  "selected_tracks": 201,
+  "analyzed_sources": 216,
+  "planned_seconds": 33032.503198831866,
+  "seconds_excluding_bridges": 32663.467370822444,
+  "loop_bridge_seconds": 369.0358280094224,
+  "transition_kinds": {
+    "single_lead_bass_swap": 184,
+    "percussion_tempo_bridge": 15,
+    "programme_boundary": 1
+  },
+  "creative_feature_kinds": {
+    "roll_filter_drop": 6,
+    "echo_release": 5,
+    "call_response_fill": 7,
+    "hook_tease_drop": 3
+  },
+  "conservative_original_seconds": 32662.47237082234,
+  "interior_repeat_cuts": 0,
+  "blocked": [
+    {
+      "id": "hollow-02-001",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "hollow-02-009",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "spotify:track:3AjSfp5FDvwtMU9XBsbS8j",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "spotify:track:4jSP5Ep7hs2dS62ljfB5dy",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "spotify:track:6bs1myCEARQoI7oOLxqHkp",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "spotify:track:14Lh8Rpav17MCMSd1yOazU",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:3POtBUJ7QN6dxGMK5256nk",
+      "reason": "missing source analysis or independent evidence"
+    },
+    {
+      "id": "spotify:track:1yaaaClVzduXM6tqbGJDTj",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:4v60qhrd16Od8lzH7mKMT6",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:7CI5IAi2z70tyJIVXxsHfw",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:6m9WBTxAzwxXPkeVzCIA51",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:3SJiQ1qeWpib3wVsULKNCE",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:61CsarvQdzlZRbwY9VPHwf",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "spotify:track:1j46cpZwZJozyuukrRxJPU",
+      "reason": "unstable source grid; needs explicit timing review before mixing"
+    },
+    {
+      "id": "hollow-01-008",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "hollow-01-050",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "spotify:track:2LeD99mZGcnoDcPMVDGuGZ",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "spotify:track:21RSilSHrlo6Rwe7kxYOgU",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "spotify:track:6CT6bVRGscsD9hzkNtQetQ",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "spotify:track:7D9nLNkpBM3X43NTTK6ODa",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    },
+    {
+      "id": "spotify:track:5jWqlILvwGMwsk3ZKfhxPU",
+      "reason": "No resolved source-bound final drum/entry cue; excluded from this programme"
+    }
+  ],
+  "chapters_index": [
+    {
+      "name": "01 Entry and first hard run",
+      "lane": "Hard bounce and vocal impact",
+      "role": "party",
+      "start_seconds": 0.0,
+      "end_seconds": 3913.4089387123413,
+      "ids": [
+        "spotify:track:6JkQb1qCCJDBV7kW5vJUAH",
+        "spotify:track:6cP6IST6zj0sPIDOjmA1JZ",
+        "spotify:track:60BXInRHS0NQ1oVsnqA15a",
+        "spotify:track:59RvYAbG3LKRZMLk3aRLfn",
+        "spotify:track:0EgsAVKP9pnq1AAnLCXh03",
+        "spotify:track:4PFkJXTUZVEsKIZ01n4rev",
+        "spotify:track:6MBjeyw0goAU4WMKk1O5a1",
+        "spotify:track:3s0ddyP32ZZMCXQT70UQYJ",
+        "spotify:track:1ROfdqAJJ6vHq2dDni27TV",
+        "spotify:track:25xqUhCDGyJejMANoigvrI",
+        "spotify:track:03neM3HWo29PTZ4OVVUyv3",
+        "spotify:track:2fNIuRD8RrG26mGFs343gv",
+        "spotify:track:0IPmUaVWKFhYA3K2YsOQfh",
+        "spotify:track:4p6Fbtqerwt7OGo93DWwBv",
+        "spotify:track:4C2XQe0oKPUXpwTyoEdMJT",
+        "spotify:track:6v2N2miIqFLuOLbyFNeAns",
+        "spotify:track:5Wh4muJUACdmV1HeOqzfGr",
+        "spotify:track:58zjm1gLaHPdFSTCzh6Ehf",
+        "spotify:track:1ivhs5EQc8eAw5rcB9SEQz",
+        "spotify:track:7hFfVcwHyNWVTbLCdT4wnz",
+        "spotify:track:4LUImvOzC8AbBdJ6QMG21W",
+        "spotify:track:7eu6tCiOMEmtuAKcN5WqtK",
+        "spotify:track:26SBh3qrxSkpVqLRQkcSbU",
+        "spotify:track:3j17V2ltFQ6XBs9tPljYCb",
+        "spotify:track:2h4zp76tI5Sbl3BNspNBuG",
+        "spotify:track:5ZLMh6NE9EENfaBzdjSgY2",
+        "spotify:track:08QcTSovKYpT6d7Tu3WbIc"
+      ]
+    },
+    {
+      "name": "02 Reset",
+      "lane": "Techno",
+      "role": "party",
+      "start_seconds": 3913.4089387123413,
+      "end_seconds": 4568.392880136216,
+      "ids": [
+        "hollow-01-031",
+        "hollow-01-035",
+        "hollow-02-014"
+      ]
+    },
+    {
+      "name": "03 Hard run",
+      "lane": "Hard techno",
+      "role": "party",
+      "start_seconds": 4568.392880136216,
+      "end_seconds": 7874.798414694558,
+      "ids": [
+        "spotify:track:4zr7hfFkbtPBUc9c1CeJN6",
+        "spotify:track:5FiMZQNTyEdRGormnOuHqg",
+        "spotify:track:4nOOoo9OJbgnTBNHe5b6nD",
+        "spotify:track:3oyZ1lTk4FmRv6wmjkbXWs",
+        "spotify:track:0DCww2GYu19yuoVhu5dKRp",
+        "spotify:track:6PX2qpWBfmHKRifdeMSM9i",
+        "spotify:track:1RiUCViwSix0tpcJAkUikB",
+        "spotify:track:50aNLhnlmcuJQ2iF7Bpd6q",
+        "spotify:track:6e3F1pz262XJ9n74DArbt4",
+        "spotify:track:15il8Mg8sAiy7eqISGoJK6",
+        "spotify:track:3lY1mmYIgoXmUyEqjMJCu9",
+        "spotify:track:3CIoIo3XT3Ocx3X0wOsyjy",
+        "spotify:track:4h9RbW9SAvfiyq9hsVKUym",
+        "spotify:track:4I4LIjM7gHmIFQ210Ycx2j",
+        "spotify:track:1XhdIYA9NP1KckcganvgaY",
+        "spotify:track:0kEmoJeOPaIXVgRT0XREw0",
+        "spotify:track:73kgYG0Duu5x3W6Y1shnXl",
+        "spotify:track:7yZ21ZsAUHsoKQozwfrLo1",
+        "spotify:track:6t5P8qSHRds2H13AVzcnaH",
+        "spotify:track:5GKsUqnQ90T5kkvG6u30wZ",
+        "spotify:track:0FeVfJULLFzARZb1TvZroq",
+        "spotify:track:1eUkZEhwbZkkhNfgA1qVyA",
+        "hollow-01-030"
+      ]
+    },
+    {
+      "name": "04 Reset",
+      "lane": "Acid",
+      "role": "party",
+      "start_seconds": 7874.798414694558,
+      "end_seconds": 8813.013637457143,
+      "ids": [
+        "hollow-01-019",
+        "spotify:track:2IqFYZ4Vocia7PmzEZh67r",
+        "spotify:track:0ZVjgfaC2Ptrod9v6p9KFP",
+        "hollow-01-001"
+      ]
+    },
+    {
+      "name": "05 Midnight rave and DnB",
+      "lane": "Hard bounce",
+      "role": "party",
+      "start_seconds": 8813.013637457143,
+      "end_seconds": 12093.890037214347,
+      "ids": [
+        "spotify:track:5uwZckbAAvmxRSchh5FMVz",
+        "spotify:track:3xZQY82rNryttXTi1WRIzN",
+        "spotify:track:3LgA6sFAEZ30TqeTWmGDlV",
+        "spotify:track:73JbM4XuiGONBHUDr5dyLN",
+        "spotify:track:3aTOR9GP22TN2YVvmKbk8e",
+        "spotify:track:2quJCirmxL0onIdjhmX5ml",
+        "spotify:track:46PRAC9BDGinxWR2Jw6chN",
+        "spotify:track:482SNF4FRJ5Ik8j2krjMEE",
+        "spotify:track:4hphReh7hXDCFb14FfB7n1",
+        "spotify:track:1Hfc70Sb029Gg6XjLNz4fZ",
+        "spotify:track:7BiSVTb6TUZcVfnkeS7uRR",
+        "hollow-02-013",
+        "hollow-02-003",
+        "hollow-02-038",
+        "hollow-01-013",
+        "hollow-01-028",
+        "hollow-01-038",
+        "spotify:track:4qrBAShPdBpxCe0Yl2DXYT",
+        "spotify:track:4jSrN7kXdQUmbVxJe5x6Xg",
+        "spotify:track:3yDlsbUiSWvViojyF0244u"
+      ]
+    },
+    {
+      "name": "06 Reset",
+      "lane": "Direct rave and trance",
+      "role": "party",
+      "start_seconds": 12093.890037214347,
+      "end_seconds": 12958.089909686589,
+      "ids": [
+        "spotify:track:5fIZ683j2xPeLAXfHeWKEG",
+        "spotify:track:5FyugvX0og6OA1s2NUBK6L",
+        "spotify:track:0drzO94bmrMrel3GodCweJ",
+        "spotify:track:4GosoD3HYfCfO67mhQK340",
+        "spotify:track:6tifCCTIVBLC2TmTquYG7G",
+        "spotify:track:1eMUGMEWrvTXYWrPobq2dH"
+      ]
+    },
+    {
+      "name": "07 Hard run through rollback",
+      "lane": "Hard bounce",
+      "role": "party",
+      "start_seconds": 12958.089909686589,
+      "end_seconds": 16609.967761687134,
+      "ids": [
+        "spotify:track:6pNLxfWv2hXrAUyjQFB4tZ",
+        "spotify:track:7cxiKjTFB5ioif9St0FKl7",
+        "spotify:track:6LZXZdkvpJ1f2tDXc5jzIF",
+        "spotify:track:3yZveXpzHQWqVYAOqwaP5w",
+        "spotify:track:4xSlRkHJuhSgf1y48pVxTz",
+        "spotify:track:5JeKnC9TUv98azEWZQJBdm",
+        "spotify:track:1K2hpzmr7kNnWQKOG9o1tj",
+        "spotify:track:4nJ7DPVtneiiGVznr9mYax",
+        "spotify:track:0Y8MXfSe2LcThivikQ9cEa",
+        "spotify:track:494lD6w8j07gDMub1UFd07",
+        "spotify:track:6fAfUOwQtqaYnB6rruojaE",
+        "spotify:track:14896rLkWF8L1oaaMiMGBQ",
+        "spotify:track:5WbwNHIPpDtjNETV6xRuDS",
+        "spotify:track:6dw36tg8ab7MNz8dGSSTGx",
+        "spotify:track:5qYT2yz53B2yb5wK7f4goK",
+        "hollow-02-039",
+        "spotify:track:0sc94v4bi5XGSPSjjXK0Zh",
+        "spotify:track:6IDywtwTrAkEsmJkPSNs27",
+        "hollow-01-006",
+        "hollow-02-030",
+        "spotify:track:6ADqCMquakkzUyNySnqpGD",
+        "spotify:track:2AzAamWZi47Fv7nds8h7AM",
+        "hollow-02-048"
+      ]
+    },
+    {
+      "name": "08 Reset",
+      "lane": "Rave and trance",
+      "role": "party",
+      "start_seconds": 16609.967761687134,
+      "end_seconds": 17540.757900858618,
+      "ids": [
+        "spotify:track:31nfdEooLEq7dn3UMcIeB5",
+        "hollow-02-034",
+        "spotify:track:4xzB1VGEUk0yqbR3ymosQd",
+        "hollow-01-034"
+      ]
+    },
+    {
+      "name": "09 Hard run",
+      "lane": "Acid",
+      "role": "party",
+      "start_seconds": 17540.757900858618,
+      "end_seconds": 20827.219003210048,
+      "ids": [
+        "spotify:track:7ASQWCYtKa2JD2oz9LWkA2",
+        "hollow-02-011",
+        "spotify:track:6KZsffg6OXQPOXOIszb5HK",
+        "spotify:track:5o9qUuxwh58kyGxC2EK8zn",
+        "spotify:track:6quk1l5mfPvFxjskO1oQQ0",
+        "spotify:track:0Yfb937yM0d5f6os0W9IWc",
+        "spotify:track:3gJ16QEGGhLFPNLvbXgB1u",
+        "hollow-01-020",
+        "spotify:track:4ktcbbBk74auxHPsF36Te2",
+        "hollow-02-025",
+        "spotify:track:1XsCQKhLGFP714xLKHeLvZ",
+        "spotify:track:7hNcBQYwyWZTfEwSEkV0xw",
+        "spotify:track:7C5S4bJtm48HJDL0bAjaYs",
+        "spotify:track:2jw3yv4EOzBTzbMs2cHphj",
+        "spotify:track:4zmDjQo7YG1l2oHsOpAn5U",
+        "spotify:track:6GJUsoUQG6fDz5yFyTyfxW",
+        "spotify:track:6v7konxFReKxhPmx1E3YVi",
+        "hollow-02-005",
+        "hollow-01-025"
+      ]
+    },
+    {
+      "name": "10 Long reset",
+      "lane": "Saved dark melodic contrasts",
+      "role": "party",
+      "start_seconds": 20827.219003210048,
+      "end_seconds": 22004.11977290955,
+      "ids": [
+        "spotify:track:3ZzafniLjEBqRM7GeyRcvz",
+        "hollow-01-011",
+        "spotify:track:5o4zD3SATxUoVeK0gb9nIa",
+        "hollow-01-036",
+        "spotify:track:1dzvje2q7KX8k1U9eOT6Pv",
+        "spotify:track:42Nbp4cNwh3VbncOXjnEkM"
+      ]
+    },
+    {
+      "name": "11 Hard run",
+      "lane": "Acid",
+      "role": "party",
+      "start_seconds": 22004.11977290955,
+      "end_seconds": 24761.50073019368,
+      "ids": [
+        "spotify:track:6MBCIz3ryX6INVwCXmMKHi",
+        "spotify:track:0qA6wKcQYhAyD2z6MUgmG8",
+        "spotify:track:5ECbvtOhtlZr0rMS2k5SNX",
+        "spotify:track:4HYWGaqCkshGWu6stZxlmd",
+        "spotify:track:3tYYypENWxaS1DKUtcH8S8",
+        "hollow-01-039",
+        "spotify:track:1J827bhoOFER99MdWqeoyU",
+        "spotify:track:61MjXNg2S8RRSsVdhoN66B",
+        "spotify:track:0Ly2M0WzA2XlaKMzwdVhqW",
+        "spotify:track:1zG0JvTvPSqp4B8Q6GSV7q",
+        "hollow-01-049",
+        "spotify:track:3T1r39jgsJwCNGp3aRDKle",
+        "spotify:track:7qrj7lRzVLTMPLUt4ge274",
+        "spotify:track:2qVqEzl038sc3Br5pp9b8K",
+        "spotify:track:1tyWdSABZbhauu9AaLOCca",
+        "spotify:track:20Z42fj1SxOWxMLePuivVs"
+      ]
+    },
+    {
+      "name": "12 Reset",
+      "lane": "Psytrance pressure",
+      "role": "party",
+      "start_seconds": 24761.50073019368,
+      "end_seconds": 25483.271028882285,
+      "ids": [
+        "spotify:track:7l3NPopDEt4l2sYs4qOBRZ",
+        "spotify:track:4vtkYOgMCIG3pVLdLGjWEV",
+        "spotify:track:67aNGns9ZH1jm6nruyzBGU",
+        "hollow-01-029"
+      ]
+    },
+    {
+      "name": "13 Finale",
+      "lane": "Saved acid and hard techno",
+      "role": "party",
+      "start_seconds": 25483.271028882285,
+      "end_seconds": 27330.109530521557,
+      "ids": [
+        "spotify:track:1VGrQCYb8ipNW1O6xLMqLR",
+        "spotify:track:6lolXVzX6H2W0LtnExXi8l",
+        "spotify:track:4EsavgpURrEl7jmWjLSsEO",
+        "spotify:track:1IGYWrd1H0oxNMS8FHrUGs",
+        "spotify:track:6PAqmd8XOC9aALrumVY6Wh",
+        "spotify:track:068Qw30wzwelxZh2WTGd2Y",
+        "spotify:track:6dneB8inUhpyRjrE3g8Tgg",
+        "spotify:track:2Mylb9ROYu94DkacXfc1OT",
+        "spotify:track:4LZVInRDiVYM1QzZvnngsq",
+        "spotify:track:3d9JNjZC5rIWLcd0knqvla",
+        "spotify:track:7psdTf0Mxwqde58q38X6Rm",
+        "spotify:track:5mbEDRNFzwWFGSW3f7guHB"
+      ]
+    },
+    {
+      "name": "90 Prepared reserve",
+      "lane": "Tech house",
+      "role": "reserve",
+      "start_seconds": 27330.109530521557,
+      "end_seconds": 33032.503198831866,
+      "ids": [
+        "hollow-01-027",
+        "hollow-01-002",
+        "hollow-01-037",
+        "hollow-01-007",
+        "hollow-02-027",
+        "spotify:track:5vu69csqeUJheoQWPd2MoM",
+        "hollow-01-017",
+        "spotify:track:3IqaRh5S6GctUfCv1Q9xIg",
+        "hollow-01-044",
+        "spotify:track:3wRO9Pt5iPbZTs8YT1x69Q",
+        "spotify:track:6YiIWuVXS4AqF1KvUGMwyx",
+        "spotify:track:65iCJro5MwaW98hgpPKQNJ",
+        "spotify:track:3r3Vinc9oBAnIUjolTemFf",
+        "hollow-02-022",
+        "spotify:track:067FrGDLXv4oDOGrcCDCA6",
+        "spotify:track:1wTsFvgVPEGRcCkJpzp5oS",
+        "spotify:track:3if5OebGvCHYFUrgWbcNq2",
+        "spotify:track:2EvLRh3pgB0ScEnNWD92Yc",
+        "hollow-02-004",
+        "hollow-02-026",
+        "hollow-02-029",
+        "spotify:track:2uUZYX2GfT7LxEygrLvAYU",
+        "spotify:track:7pm0DF9LZlJ6LC0wCZX8Ct",
+        "spotify:track:5Q7g7bfuumI3oF9GaVtxWP",
+        "spotify:track:0XEliZsaVl8oaJTMBRRZKI",
+        "spotify:track:10OEP8sjV27U8uDG6n9ZC6",
+        "spotify:track:21kPwrdkfoolgxjiRQeGiH",
+        "spotify:track:5CXP7Z4doGPLqAlka8gS5t",
+        "spotify:track:4db1NxHlA788NkAG7t3Boi",
+        "hollow-02-012",
+        "hollow-02-002",
+        "spotify:track:5pSUxTYDsOoGhzyCW4aXCL",
+        "spotify:track:5mZDiIV5z3mmYnIvXGENFX",
+        "spotify:track:1O28S9MYZONNh5PNG1bYeC"
+      ]
+    }
+  ],
+  "playback": {
+    "settings_status": "recommended player settings; actual rekordbox settings not changed",
+    "shuffle": false,
+    "repeat": false,
+    "live_auto_dj": false,
+    "automatic_gain": false,
+    "native_automation": "Read; repeat off and global override clear verified by native readback",
+    "hardware_routing": "separate task"
+  }
+}

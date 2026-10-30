@@ -60,6 +60,7 @@ def export(report_path,verification_path,output):
             'preview_start_seconds','preview_duration_seconds','preview_meters','chapters','chapter_backup_format',
             'seams','subjective_listening_verified','hardware_playback_tested',
             'party_sha256','party_meters','party_programme_seconds','reserve_seconds','reserve_sha256','playback_schedule']}
+    public['reserve_meters']=verification.get('reserve_meters')
     public.update(planner_version=report['version'],generated_at=report['generated_at'],
         selected_tracks=len(records),analyzed_sources=len(analysis),
         planned_seconds=report['planned_seconds'],seconds_excluding_bridges=report['planned_seconds_excluding_bridges'],

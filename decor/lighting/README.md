@@ -2,7 +2,7 @@
 
 ## Current October 29 • standalone AUTO fills
 
-[Selected lighting](cart-lighting-2026-10-29.md): Govee floor lamp and Betopper LPC018 two-pack, $114.98 last quoted; host selected built-in AUTO for Hollow fills. **OPPSK, USB-DMX, cables/terminators and QLC+ cue show dropped.** [Music/light boundary](dj-sync-handoff-2026-10-29.md) now needs only independent fixture/room testing, no timed music integration. [Current list/budget/order-status check](../urgent-buy-list-2026-10-29.md). Empty cart does not confirm purchase. Earlier rig/price snapshots below are historical.
+[Selected lighting](cart-lighting-2026-10-29.md): Govee floor lamp and Betopper LPC018 two-pack, $114.98 last quoted; host selected built-in AUTO for Hollow fills. **OPPSK, USB-DMX, cables/terminators and QLC+ cue show dropped.** [Music/light boundary](dj-sync-handoff-2026-10-29.md) now needs only independent fixture/room testing, no timed music integration. [Current list/budget/order-status check](../urgent-buy-list-2026-10-29.md). Host now confirms all selected decor and both light lines ordered; receipt/testing remain pending. Earlier rig/price snapshots below are historical.
 
 **October 27 latest:** [DMX fill and effect-panel value comparison](dmx-fill-and-panel-value-2026-10-27.md) adds live LPC018/LPC120/U’King comparisons, original OPPSK coupon and LF105/OPPSK384/960 alternatives. Recommend LPC018 two-pack plus LF105 for preset effects; OPPSK384 for direct zones. Host confirms no moving heads and all fixtures/laptop within five feet; six-foot links proposed, no long extensions. [Shopping list](../shopping-ready.md) keeps current baseline separate from unselected upgrades. No purchase/test.
 

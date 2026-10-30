@@ -2,7 +2,7 @@
 
 ## Current October 29 • single moon and harvest offering table
 
-The Moon Well moon is **The Moon That Stayed and the listener (DEC-01)**. **The Last Seed (DEC-04)** is the pumpkin candy holder at the Grove nightstand; golden tree goes in the middle of the living room. [Current exact buys/status/totals](../urgent-buy-list-2026-10-29.md) · [All 15 slots](../../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Two Grove displays](../living-room/grove-shrines-2026-10-29.md). Rabbit/deer/owl/raven/skull are host-reported in cart, not purchased. Pumpkin and candy show October 31 delivery, no before-party time guaranteed. No new agent purchases/tests. Earlier review/totals below are history.
+The Moon Well moon is **The Moon That Stayed and the listener (DEC-01)**. **The Last Seed (DEC-04)** is the pumpkin candy holder at the Grove nightstand; golden tree goes in the middle of the living room. [Current exact buys/status/totals](../urgent-buy-list-2026-10-29.md) · [All 15 slots](../../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Two Grove displays](../living-room/grove-shrines-2026-10-29.md). Host confirms all selected decor/chocolates, floor lamp and fills ordered, including moon/pail/paper/markers; receipt/actual delivery and tests remain unverified. Pumpkin and candy show October 31 delivery, no before-party time guaranteed. No new agent purchases/tests. Earlier review/totals below are history.
 
 ## Earlier October 29 host review — superseded where changed above
 

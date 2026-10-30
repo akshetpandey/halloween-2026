@@ -1,5 +1,5 @@
 # Lighting and power
-**Current October 29:** [Selected lighting](cart-lighting-2026-10-29.md) is Govee Grove wash + Betopper LPC018 pair in Hollow **AUTO** mode, $114.98 last quoted. No OPPSK/DMX/QLC+ music cue show. Grove also has owned central LIFX tree and two warm strings; third string is Guardian fallback, moon only in Moon Well. Tea lights/mask remain separate accents. Former $450 reserve retired; [current budget](../urgent-buy-list-2026-10-29.md) counts exact products/tax once. New order status unconfirmed after empty-cart observation; receipt/auto-program/power tests remain. Earlier plans below are history.
+**Current October 29:** [Selected lighting](cart-lighting-2026-10-29.md) is Govee Grove wash + Betopper LPC018 pair in Hollow **AUTO** mode, $114.98 last quoted. No OPPSK/DMX/QLC+ music cue show. Grove also has owned central LIFX tree and two warm strings; third string is Guardian fallback, moon only in Moon Well. Tea lights/mask remain separate accents. Former $450 reserve retired; [current budget](../urgent-buy-list-2026-10-29.md) counts exact products/tax once. Host confirms selected decor and both light lines ordered; actual delivery/receipt/auto-program/power tests remain. Earlier plans below are history.
 
 ## Historical September overview
 Status: Shortlist ready; room test needed. Owner: host / lighting helper TBD.

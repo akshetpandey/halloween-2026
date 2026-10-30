@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 29 • host confirms all selected products ordered
+
+Host directly answered **“Yes, all of those are ordered”** to decor/floor lamp/fill-light checkout confirmation. Mark all last selected core decor/chocolates plus Govee and Betopper pair ordered; no further basket purchase. Quantities carried from last cart/selection, actual receipt/charges/order-specific delivery/testing unverified. Prior nine ordered lines remain confirmed. [Confirmation evidence](../decor/order-confirmation-2026-10-29.json), [current ledger/purposes](../decor/urgent-buy-list-2026-10-29.md). Quote-based envelope unchanged $1,241.18; food separate. Fills AUTO, no OPPSK/DMX. Conditional USB and local/reuse inventory remain outside this purchase confirmation. Agent did not buy, change cart or initiate returns/cancellations.
+
 ## October 29 • host selects AUTO fills, drops stage panel and DMX
 
 **Confirmed host:** Govee floor lamp and Betopper fill lights added; Hollow fills will run built-in **AUTO**. **Remove OPPSK stage light, USB-DMX interface, DMX link cables and terminator; no QLC+ cue/music-sync project.** Govee stays steady Grove wash; actual fixture modes/power/placement tests remain. Two selected product lines quote $114.98 versus former hardware $341.94; $226.96 hardware removed. Former $450 reserve retired in favor of exact merchandise/tax.

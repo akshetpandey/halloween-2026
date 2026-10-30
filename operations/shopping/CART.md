@@ -1,10 +1,10 @@
 # Decor shopping status and historical wood/skull cart
 
-## Current October 29 • AUTO fills selected; checkout status pending
+## Current October 29 • all selected orders confirmed by host
 
-Host reports floor lamp and fill pair added; confirmed **Govee + LPC018 two-pack in AUTO**, **skip OPPSK and all DMX equipment**. [Current selected products/quote/setup](../../decor/lighting/cart-lighting-2026-10-29.md). Two lights $114.98 last quoted; last core selections plus lights $681.85 inferred quote, not a receipt.
+**Host reply: “Yes, all of those are ordered.”** This confirms all last selected decor/chocolates plus Govee floor lamp and Betopper LPC018 pair. Fills use AUTO; OPPSK/all DMX excluded. **Do not re-add/reorder selected products.** [Current order ledger](../../decor/urgent-buy-list-2026-10-29.md) · [Confirmation/quantities carried from cart](../../decor/order-confirmation-2026-10-29.json).
 
-Latest live cart heading is **“Your Amazon Cart is empty”** (about 10:58 p.m. EDT). This does not prove checkout; host confirmation requested. Do not re-add products or mark new purchases solely from empty cart. Nine previously host-reported ordered lines remain confirmed. [Current list/status](../../decor/urgent-buy-list-2026-10-29.md) · [Evidence](../../decor/research/auto-fill-selection-2026-10-29.json). Primary conservative envelope $1,241.18, $1,217.57 if stick/glue cleanup still possible. Lighting $450 reserve retired; exact selected lamps counted once. No agent cart edits/purchases.
+Last selected new goods quote $681.85 including food; earlier reported orders $281.07. Combined quote $962.92 including food, not a paid receipt. Actual quantities/charges/order-specific delivery/receipt/testing unverified. Quote-based decor/game envelope remains $1,241.18, food separate. Remaining procurement is conditional USB supplies after inventory and local/reuse setup items; no core decor or selected-light purchase outstanding. No agent purchase/cart edit.
 
 ## Earlier October 29 • prior urgent list — superseded
 

@@ -1,8 +1,8 @@
 # Decor buying list — quantities, purpose and purchase status
 
-## Current October 29 • auto fills selected, DMX removed
+## Current October 29 • all selected products ordered
 
-[Current exact list](urgent-buy-list-2026-10-29.md) and [selected lights](lighting/cart-lighting-2026-10-29.md): Govee lamp + LPC018 two-pack in AUTO, $114.98 last quoted; **no OPPSK/DMX/QLC+ cue project**. Cart now empty, new checkout/order status unconfirmed; do not re-add selections. Quoted last core plus two lights $681.85 including food, not a paid receipt. Conservative decor/game envelope **$1,241.18**, or $1,217.57 if duplicate-stick/extra-glue cleanup is still possible. Former $450 reserve retired; food separate, conditional USB/local/setup/buffers included. Prior nine ordered rows below remain confirmed; newer purchase status pending. [Decision evidence](research/auto-fill-selection-2026-10-29.json). Earlier totals/rig below are history.
+**Host confirms all current selected decor/chocolates, Govee lamp and Betopper fill pair ordered. Do not reorder.** [Current order ledger/purposes](urgent-buy-list-2026-10-29.md) · [Confirmation record](order-confirmation-2026-10-29.json). Earlier nine lines below remain ordered; newer selections and quantities recorded in [allocation JSON](purchases-and-allocations-2026-10-29.json). Exact quantities/charges/order-specific delivery/receipt/tests remain unverified. Fills use AUTO; stage panel/all DMX excluded. Quote-based decor/game envelope remains $1,241.18 including conditional USB/local/setup/planning tax/buffers, food separate. Only inventory/setup and local/reuse checks remain; no core decor/light basket to buy. Earlier status/totals below are history.
 
 ## Host-reported inventory
 

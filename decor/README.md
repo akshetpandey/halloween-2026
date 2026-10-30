@@ -2,7 +2,7 @@
 
 ## Current October 29 • auto fills, no stage panel or DMX
 
-Host selected **Govee Grove lamp + Betopper LPC018 two-pack**, Hollow fills in **AUTO** mode. [Lighting choice/setup](lighting/cart-lighting-2026-10-29.md) totals $114.98 at last quotes; OPPSK/all DMX/QLC+ cue work dropped. [Current complete list/status/budget](urgent-buy-list-2026-10-29.md) owns procurement. Live cart now empty; new order status awaits confirmation, so do not re-add selections. Prior core choices and single moon/central tree/Last Seed remain. Earlier rig/prices/status below are history.
+Host selected **Govee Grove lamp + Betopper LPC018 two-pack**, Hollow fills in **AUTO** mode. [Lighting choice/setup](lighting/cart-lighting-2026-10-29.md) totals $114.98 at last quotes; OPPSK/all DMX/QLC+ cue work dropped. [Current complete list/status/budget](urgent-buy-list-2026-10-29.md) owns procurement. Host now directly confirms all selected decor/chocolates, Govee lamp and Betopper fills ordered October 29. Do not reorder; actual receipt/charges/delivery and setup tests remain pending. Prior core choices and single moon/central tree/Last Seed remain. Earlier rig/prices/status below are history.
 
 ## Earlier October 29 host review — superseded where changed above
 

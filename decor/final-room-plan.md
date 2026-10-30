@@ -2,7 +2,7 @@
 
 **Current host corrections:** four chairs total, all around coffee table. The scanned bedroom low cabinet **is the nightstand**; move that one piece to the Grove Harvest Offering Table, not another cabinet plus a separate hidden nightstand. Hollow wall/desk materials are selected and ordered. Add cross-room foliage, wall fairy lights and larger wall branches. Guardian should be mostly bought, minimal assembly. Image recognition replaces NFC; no tags/tag-cover stickers to order. Crown is lowest priority/deferred.
 
-[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/auto-fill-selection-2026-10-29.json). Products and layout proposals are not purchases or physical tests. Current cart and missing-light quotes are in that list; fixtures/control remain unpurchased and untested. Do not use older moving-head/Pyle/rug/fabric passages as the current order.
+[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/auto-fill-selection-2026-10-29.json). Host confirms all selected decor/chocolates and Govee/fill pair ordered. Quantities/quotes are carried from selection; actual receipt/delivery and physical layout/fixture tests remain pending. Do not use older moving-head/Pyle/rug/fabric passages as the current order.
 
 ## Grounded visual plan
 
@@ -53,7 +53,7 @@ Host replaced the late OLANLY rug with **Xafir Black 8×10 shag / $49.99 / Octob
 
 ### Lighting and DJ coordination
 
-[Selected lighting](lighting/cart-lighting-2026-10-29.md): Govee Grove wash plus one Betopper LPC018 two-pack in Hollow **AUTO** mode, $114.98 last quoted. **No OPPSK, USB-DMX, DMX cables/terminator or QLC+ show.** Each fill uses its own AC power and supplied bracket; choose/test a gentle low-brightness auto program, with static red/violet fallback if needed. Guardian LEDs/string remain independent. [Music boundary](lighting/dj-sync-handoff-2026-10-29.md): no timed cue/transport integration required. Order status awaits confirmation; actual positions, power and mode tests remain.
+[Selected lighting](lighting/cart-lighting-2026-10-29.md): Govee Grove wash plus one Betopper LPC018 two-pack in Hollow **AUTO** mode, $114.98 last quoted. **No OPPSK, USB-DMX, DMX cables/terminator or QLC+ show.** Each fill uses its own AC power and supplied bracket; choose/test a gentle low-brightness auto program, with static red/violet fallback if needed. Guardian LEDs/string remain independent. [Music boundary](lighting/dj-sync-handoff-2026-10-29.md): no timed cue/transport integration required. Host confirms light products ordered; actual receipt/positions/power/mode tests remain.
 
 ## Moon Well
 

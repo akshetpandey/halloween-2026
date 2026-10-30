@@ -63,6 +63,19 @@ class RenderTests(unittest.TestCase):
             b=np.interp(t,[p['time'] for p in subset],[p['bpm'] for p in subset])
             self.assertEqual(a,b)
 
+    def test_assembly_resume_rejects_changed_audio_plan_length_or_gain(self):
+        from analyze_audio import digest
+        from render_set import verified_assembly
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);master=root/'master.flac';receipt=root/'assembly.json'
+            master.write_bytes(b'completed audio fixture')
+            receipt.write_text(json.dumps({'mix_plan_sha256':'plan-a','master_sha256':digest(master),'frames':123456,'gain_db':-3.5}))
+            self.assertTrue(verified_assembly(receipt,master,'plan-a',123456,-3.5))
+            for plan,frames,gain in [('plan-b',123456,-3.5),('plan-a',123457,-3.5),('plan-a',123456,-3.4)]:
+                self.assertFalse(verified_assembly(receipt,master,plan,frames,gain))
+            master.write_bytes(b'changed audio fixture')
+            self.assertFalse(verified_assembly(receipt,master,'plan-a',123456,-3.5))
+
     def test_invalid_chapter_requests_fail(self):
         for duration,maximum in [(0,3600),(-1,3600),(float('nan'),3600),(20,0),(20,5401)]:
             with self.assertRaises(ValueError):chapter_bounds(duration,maximum)

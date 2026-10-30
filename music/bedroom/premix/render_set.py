@@ -240,6 +240,15 @@ def render(report_path, database, output, binary, profile, preview=False):
     return receipt
 
 
+def verified_assembly(receipt_path,master,plan_sha256,frames,gain_db):
+    """Resume encoding only from the exact completed, frame-bound master."""
+    if not receipt_path.exists() or not master.exists():return False
+    previous=json.loads(receipt_path.read_text())
+    return (previous.get('mix_plan_sha256')==plan_sha256
+            and previous.get('master_sha256')==digest(master)
+            and previous.get('frames')==frames and previous.get('gain_db')==gain_db)
+
+
 def deliver(report_path, output, database=DEFAULT_DB):
     report=json.loads(report_path.read_text())
     validate_current(report,database)
@@ -253,8 +262,6 @@ def deliver(report_path, output, database=DEFAULT_DB):
     if not receipt['rendered'] or receipt['mix_plan_sha256']!=digest(report_path):
         raise ValueError('No complete current native render')
     chapters=receipt['chapters']
-    if any(not Path(c['native']).exists() for c in chapters):
-        raise ValueError('Native scratch was released by an earlier assembly; rerender into a new output directory')
     weighted=sum(10**(c['meters']['integrated_lufs']/10)*(c['end']-c['start']) for c in chapters)/receipt['native_duration_seconds']
     approximate_lufs=10*math.log10(weighted)
     gain=min(-16-approximate_lufs,-2.1-max(c['meters']['true_peak_dbfs'] for c in chapters))
@@ -262,30 +269,37 @@ def deliver(report_path, output, database=DEFAULT_DB):
     # Stream measured native chapters into one encoder, releasing each verified
     # scratch archive after use. Originals and REAPER projects remain intact.
     master=delivery/'The-Hollow-continuous.flac'
-    encoder=subprocess.Popen(['ffmpeg','-v','error','-nostdin','-y','-f','s24le','-ar',str(RATE),'-ac','2','-i','pipe:0',
-                              '-af',f'volume={gain}dB','-c:a','flac','-sample_fmt','s32','-compression_level','5',
-                              '-metadata','title=The Hollow — continuous prepared programme',str(master)],stdin=subprocess.PIPE)
-    total_frames=0
-    try:
-        for c in chapters:
-            if digest(Path(c['native']))!=c['sha256']:raise ValueError('Native chapter changed')
-            decoder=subprocess.Popen(['ffmpeg','-v','error','-nostdin','-i',c['native'],'-af',
-                                      f'atrim=start_sample={round((c["start"]-c["render_start"])*RATE)}:end_sample={round((c["end"]-c["render_start"])*RATE)}',
-                                      '-f','s24le','-c:a','pcm_s24le','-'],stdout=subprocess.PIPE)
-            frames=0
-            while data:=decoder.stdout.read(1024*1024):encoder.stdin.write(data);frames+=len(data)
-            if decoder.wait()!=0 or frames!=round((c['end']-c['start'])*RATE)*6:
-                raise ValueError('Native chapter decode length changed')
-            total_frames+=frames//6
-            Path(c['native']).unlink()
-            c['native_scratch_released_after_streaming']=True
-            write_json(output/'render-receipt.json',receipt)
-        encoder.stdin.close()
-        if encoder.wait()!=0:raise ValueError('Continuous master encoder failed')
-    except BaseException:
-        if encoder.poll() is None:encoder.terminate();encoder.wait()
-        raise
-    if total_frames!=round(report['planned_seconds']*RATE):raise ValueError('Master frame count mismatch')
+    assembly_path=output/'assembly-receipt.json'
+    assembled=verified_assembly(assembly_path,master,digest(report_path),round(report['planned_seconds']*RATE),gain)
+    if not assembled:
+        if any(not Path(c['native']).exists() for c in chapters):
+            raise ValueError('Neither a verified assembled master nor all native chapters are available')
+        encoder=subprocess.Popen(['ffmpeg','-v','error','-nostdin','-y','-f','s24le','-ar',str(RATE),'-ac','2','-i','pipe:0',
+                                  '-af',f'volume={gain}dB','-c:a','flac','-sample_fmt','s32','-compression_level','5',
+                                  '-metadata','title=The Hollow — continuous prepared programme',str(master)],stdin=subprocess.PIPE)
+        total_frames=0
+        try:
+            for c in chapters:
+                if digest(Path(c['native']))!=c['sha256']:raise ValueError('Native chapter changed')
+                decoder=subprocess.Popen(['ffmpeg','-v','error','-nostdin','-i',c['native'],'-af',
+                                          f'atrim=start_sample={round((c["start"]-c["render_start"])*RATE)}:end_sample={round((c["end"]-c["render_start"])*RATE)}',
+                                          '-f','s24le','-c:a','pcm_s24le','-'],stdout=subprocess.PIPE)
+                frames=0
+                while data:=decoder.stdout.read(1024*1024):encoder.stdin.write(data);frames+=len(data)
+                if decoder.wait()!=0 or frames!=round((c['end']-c['start'])*RATE)*6:
+                    raise ValueError('Native chapter decode length changed')
+                total_frames+=frames//6
+                Path(c['native']).unlink()
+                c['native_scratch_released_after_streaming']=True
+                write_json(output/'render-receipt.json',receipt)
+            encoder.stdin.close()
+            if encoder.wait()!=0:raise ValueError('Continuous master encoder failed')
+        except BaseException:
+            if encoder.poll() is None:encoder.terminate();encoder.wait()
+            raise
+        if total_frames!=round(report['planned_seconds']*RATE):raise ValueError('Master frame count mismatch')
+        write_json(assembly_path,{'mix_plan_sha256':digest(report_path),'master_sha256':digest(master),
+                                  'frames':total_frames,'gain_db':gain})
     files=[]
     for c in chapters:
         target=delivery/f'The-Hollow-{c["index"]:02d}.mp3'

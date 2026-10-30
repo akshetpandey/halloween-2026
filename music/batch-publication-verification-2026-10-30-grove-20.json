@@ -1,0 +1,109 @@
+{
+  "verified_at": "2026-10-30T17:44:09Z",
+  "batch_id": "20",
+  "room": "living-room",
+  "track_count": 15,
+  "library_records": 1623,
+  "room_counts": {
+    "living-room": 973,
+    "bedroom": 650
+  },
+  "canonical_shared_keeps": {
+    "living-room": 127,
+    "bedroom": 222
+  },
+  "needs_review": {
+    "living-room": 15,
+    "bedroom": 0
+  },
+  "spotify": {
+    "uri": "spotify:playlist:7GxuJFhL5IMdGXghmMGd6p",
+    "entity_type": "COLLECTION",
+    "name": "October Grove 20 · From the selectors",
+    "url": "https://open.spotify.com/playlist/7GxuJFhL5IMdGXghmMGd6p",
+    "library_status": "SAVED",
+    "verified_at": "2026-10-30T17:44:09Z",
+    "snapshot_id": "AAAAAspccuzHo5E57N0iUCyk31LArCln",
+    "reports_public": true,
+    "count": 15
+  },
+  "sources": {
+    "fabric presents Confidence Man": 3,
+    "Kitsuné Maison Compilation 7": 4,
+    "salute | Boiler Room: Melbourne (2022)": 3,
+    "fabric presents salute": 3,
+    "Kitsuné Maison Compilation 6": 1,
+    "Kitsuné Remixes Album #1": 1
+  },
+  "raw_duration_ms": 3631913,
+  "distinct_lead_artists": 14,
+  "duplicate_uri_isrc_or_same_artist_base_title": 0,
+  "catalog_us_playable": 15,
+  "metadata_coverage": {
+    "reccobeats": 14,
+    "youtube_candidates": 14,
+    "artist_genres_nonempty": 14,
+    "artist_lookups_complete": 15,
+    "published_positive_or_playful_lyric_context": 3,
+    "partial_or_unverified_vocal_context": 12
+  },
+  "hosted_import": {
+    "verified_at": "2026-10-30T17:43:34Z",
+    "mode": "atomic_append",
+    "old_track_records_unchanged": 1608,
+    "new_track_records_exact": 15,
+    "new_unrated": 15,
+    "old_tables_preserved": {
+      "feedback": true,
+      "host_feedback": true,
+      "reviewer_feedback": true,
+      "reviewer_scores": true,
+      "settings": true,
+      "snapshots": true,
+      "events": true
+    },
+    "old_events_preserved_as_prefix": true,
+    "sqlite_integrity": "ok",
+    "online_backup_created": true,
+    "server_restart_required": false,
+    "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+  },
+  "after_checks": {
+    "old_track_bytes_unchanged": 1608,
+    "new_track_bytes_exact": 15,
+    "old_feedback_and_settings_unchanged": true,
+    "events_only_one_import_added": true,
+    "sqlite_integrity": "ok",
+    "frontend_real_filters": "passed",
+    "container_ids_and_start_times_unchanged": true,
+    "server_restart": false,
+    "main_playlists": {
+      "grove": {
+        "count": 127,
+        "exact_order_unchanged": true,
+        "verified_at": "2026-10-30T17:44:05Z"
+      },
+      "hollow": {
+        "count": 222,
+        "exact_order_unchanged": true,
+        "verified_at": "2026-10-30T17:44:08Z"
+      }
+    }
+  },
+  "tests": {
+    "python_atomic_importer": {
+      "passed": 7
+    },
+    "node_batch_player_review": {
+      "passed": 21
+    },
+    "fresh_1608_record_clone_import": "passed"
+  },
+  "limits": [
+    "No full audio listening, audio acquisition or render; fit remains an audition.",
+    "Three published positive/playful lyric contexts; twelve partial/unverified vocal contexts clearly surfaced.",
+    "YouTube candidates are metadata matches, not successful-embedding guarantees.",
+    "ReccoBeats is a third-party catalog provider, not Spotify audio analysis.",
+    "No new authenticated browser check or production test votes."
+  ]
+}

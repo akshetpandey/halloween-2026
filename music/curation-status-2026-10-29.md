@@ -1,5 +1,7 @@
 # Music curation progress · October 29
 
+**Historical snapshot. Current content counts and Grove 20 are in the [October 30 status](curation-status-2026-10-30.md).**
+
 Verified **October 29, 2026, 7:22 PM EDT (America/New_York)** from current shared feedback and complete Spotify API readbacks. This replaces the earlier [Grove 19 / Hollow 13 publication snapshot](handoff-2026-10-29-room-batches-19-13.md). Audio output and mixing implementation belong to their separate task.
 
 | Room | Shared Keeps and live main tracks | Raw approved duration | Shared Cuts | Maybe / unrated | Working Keep target | More approvals needed |

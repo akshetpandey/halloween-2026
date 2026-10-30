@@ -4,6 +4,8 @@
 
 **Latest correction · October 29, after Grove 18:** the host identified the miss as **too bland or low energy**. Preserve the happy, loving room brief and four references while prioritizing immediate vocal character, stronger rhythmic impact and a clear section payoff. [Grove 19](october-grove-batch-19.md) is a tighter 25-track calibration chosen by the agent after two 0/50 rounds. The earlier 40 core / ten adjacent allocation applied only to Grove 18.
 
+**Source-method update · October 30:** Grove 19 also finished 0/25; the host says Spotify recommendations are not great either and explicitly requests a batch from **DJ sets and curated compilations**, filtered using Keeps/Cuts. [Grove 20](october-grove-batch-20.md) tests 15 candidates from six published tracklists, with a specific Keep connection and exact version note per candidate. Existing taste boundaries remain; the prior Likes-first source rule is overridden for this batch. Full listening is not claimed. Vocal-text gaps are surfaced rather than called instrumental or positive. Review this test before expanding its sources.
+
 ## The musical center
 
 October Grove is a lively, welcoming room built around rhythmic movement, memorable hooks and playful or sensual expression. Its emotional direction is happy, hopeful, loving and open to possibility. The music should keep people moving and engaged throughout the night, including when they are talking.
@@ -60,10 +62,10 @@ Shared Keeps remain recording-specific: [make you mine](https://open.spotify.com
 
 At the October 29, 6:09 p.m. EDT check: Grove 14 was 11/50 Keep, Grove 15 17/50, Grove 16 6/40 and Grove 17 0/50. Grove remains **127 shared Keeps**. Both all-Liked and discovery-heavy passes have missed; source membership alone does not resolve musical fit.
 
-## Current calibration · Grove 19
+## Previous calibration · Grove 19 (closed 0/25)
 
-Review the new **25-track calibration**: 11 vocal punch and playful confidence, eight rhythmic indie/dance-punk and six big melodic/electronic hook comparisons. These are editorial lanes, not a new host genre quota. Preserve specific rhythmic and hook/voice/melody relationships to the exact references, with independent mood and pop-context screens. Brief affirmative dynamics can earn their place; pleasant adjectives, positive words or a high catalog score cannot substitute for physical impact. No new approval checkpoint.
+The previous **25-track calibration**, now fully rejected, tested: 11 vocal punch and playful confidence, eight rhythmic indie/dance-punk and six big melodic/electronic hook comparisons. These are editorial lanes, not a new host genre quota. Preserve specific rhythmic and hook/voice/melody relationships to the exact references, with independent mood and pop-context screens. Brief affirmative dynamics can earn their place; pleasant adjectives, positive words or a high catalog score cannot substitute for physical impact. No new approval checkpoint.
 
 New candidates add no approved runtime until kept. The nine-hour requirement remains a later finished-duration check; metadata completeness and a full batch do not establish that the revised direction has worked.
 
-[Current room plan](playlist.md) · [Editorial review](editorial-review-2026-10-29.md) · [Current Grove 19 audition](october-grove-batch-19.md) · [Previous Grove batch](october-grove-batch-18.md) · [Curation status](../curation-status-2026-10-29.md).
+[Current room plan](playlist.md) · [Editorial review](editorial-review-2026-10-29.md) · [Current Grove 20 audition](october-grove-batch-20.md) · [Previous Grove batch](october-grove-batch-18.md) · [Curation status](../curation-status-2026-10-30.md).

@@ -4,7 +4,7 @@
 
 Quantities below are carried from the last cart/selected variants, not receipt-verified. Prices are previous quotes, **not actual charges**. New selections quote $681.85 including $19.97 food; earlier reported ordered goods quote $281.07. Actual delivery dates/windows, quantities received, charges and tests remain unchecked. The earlier October 31 offers were pre-checkout estimates.
 
-**Earlier nine lines also ordered:** six fleece, four moss sheets, Hollow Command hooks, suction cups, binder clips, thin cloth two-pack, gaffer tape, zip ties and forest curtain. [Original ordered quantities and shared cuts](shopping-ready.md). New confirmation adds every selected core product and the two light product lines; it does not order conditional USB supplies or local/reuse items.
+**Earlier nine lines also ordered:** six fleece, four moss sheets, Hollow Command hooks, suction cups, binder clips, thin cloth two-pack, gaffer tape, zip ties and forest curtain. [Original ordered quantities and shared cuts](shopping-ready.md). New confirmation adds every selected core product and the two light product lines; a later host update also confirms **three USB-A supplies ordered and mini pumpkins acquired**. Other household/reuse checks remain.
 
 **Already owned:** central gold tree/LIFX, LEGO red panda for fox, sticks for all five handmade guardians. Single moon/listener remains in Moon Well; The Last Seed is the pumpkin candy holder at the Grove nightstand. [All 15 guardians](../interactive-game/physical/guardian-coverage-2026-10-29.md) · [Grove displays](living-room/grove-shrines-2026-10-29.md).
 
@@ -28,9 +28,9 @@ The **galvanized American Metalcraft 1.16-gallon bucket, $18.26**, is now host-c
 
 **$114.98 before tax**, ordered per host confirmation. Removed OPPSK, USB-DMX interface, short DMX cable pack and terminators: **$226.96 avoided at prior quotes**. No QLC+ show or music cue synchronization required. [Simple setup/receipt checks](lighting/cart-lighting-2026-10-29.md). Entire $450 lighting reserve is retired; exact selected lights enter merchandise/tax once. Host now confirms both light products ordered; actual receipt/delivery remains unverified.
 
-## USB power — inventory before adding
+## USB power ordered — no further supply purchase
 
-Three strings require **three suitable 5 V USB-A supplies**. If none owned, add **two [Amazon Basics White one-port USB-A two-packs](https://www.amazon.com/dp/B0773JCTR5), $13.87 each / $27.74 total**, giving four supplies/one spare. One pack if one or two suitable supplies owned; zero with three. October 31 shown. Moon charging accessories/runtime need receipt check separately. This is separate from the USB-DMX data interface.
+**Host confirms three USB-A power supplies already ordered**, one for each of the three fairy-light strings. Exact brand/ASIN/packaging, charge and arrival were not supplied; do not assume the earlier Amazon Basics two-pack proposal was purchased or order a fourth supply. Check the received supplies against the strings' requirements and test all three. Moon charging accessories/runtime remain a receipt/setup check.
 
 ## Newly ordered core products — purposes and carried quantities
 
@@ -70,15 +70,17 @@ The 67-inch second branch is now a selected extra Grove wall branch, replacing o
 
 The last selected cart contained a stick pack despite existing sticks, two glue bottles and 100 tea lights. Host confirms all selections ordered; keep those quantities in the quote-based budget until receipts establish any changes. These can be spares if received. Do not add the earlier optional 24-candle pack or initiate returns/cancellations from this plan.
 
-## Local/reuse still to arrange
+## Mini pumpkins acquired; household setup only
 
-Four small gourds remain planned locally (two bone shrine, one coffee table, one counter) within a $35 cap. Clean trays/underlayers/attachments $10, conditional rug grip $15 and fixture support $25 complete the existing $85 local/setup allowance. Reuse household items where suitable; these are allowances, not stock-confirmed Amazon orders.
+**Use the mini pumpkins already acquired. Pumpkin/gourd shopping is closed**; no replacement or larger-pumpkin search. Count is unspecified. Cluster what is available around the Harvest Offering Table and wood-and-bone display; use any remainder on the coffee table/counter. The existing pumpkin candy holder remains The Last Seed guardian.
+
+The former $35 pumpkin allowance is now a **cost placeholder for the acquired minis**, not money to spend on more gourds. USB $27.74 is likewise an existing placeholder pending actual charge. Keep both once in the budget, without inventing actual spend or reducing it to zero. Household/reuse checks remain: clean trays/underlayers/attachments $10, conditional rug grip $15 and fixture support $25; reuse suitable existing items before buying anything.
 
 ## Current money summary
 
 - Newly confirmed ordered selections quote **$681.85** including food; earlier reported orders quote **$281.07**. Combined quoted ordered goods **$962.92 including $19.97 food**, or **$942.95 decor/game merchandise**. Neither amount is an actual paid total.
-- Conservative decor/game envelope: prior reported ordered quote **$281.07** + quoted selections excluding food **$661.88** + maximum conditional USB **$27.74** = **$970.69 products**; + local/setup **$85** + aggregate 9% planning tax **$95.01** + shipping **$60** + buffer **$30.48** = **$1,241.18**, $358.82 below $1,600. **No $450 lighting reserve remains.** Exact selected lights counted once.
+- Conservative decor/game envelope: prior reported ordered quote **$281.07** + quoted selections excluding food **$661.88** + ordered USB cost placeholder **$27.74** = **$970.69 products**; + local/setup **$85** + aggregate 9% planning tax **$95.01** + shipping **$60** + buffer **$30.48** = **$1,241.18**, $358.82 below $1,600. **No $450 lighting reserve remains.** Exact selected lights counted once.
 - Food/drinks/costume/crown excluded from the $1,241.18 envelope; candy remains in food. Actual paid totals/order-specific deliveries unknown. **No selected core decor or lighting items remain to buy.**
-- Remaining procurement checks: three suitable USB-A supplies, actual AC outlet/support availability and local/reuse items above. No stage panel, USB-DMX, DMX cables/terminators, QLC+ installation or music-timed lighting show.
+- All planned decor, lighting and USB supply purchases are covered, with minis acquired. Remaining setup checks: actual AC outlets/supports, household trays/underlayers and rug grip after receipt. No stage panel, USB-DMX, DMX cables/terminators, QLC+ installation or music-timed lighting show.
 
-No purchase, cart edit, software installation or physical test by agent. [Order-confirmation handoff](handoff-2026-10-29-all-selected-ordered.md).
+No purchase, cart edit, software installation or physical test by agent. [Latest purchase-status handoff](handoff-2026-10-29-usb-and-mini-pumpkins.md).

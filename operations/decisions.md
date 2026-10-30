@@ -1,5 +1,9 @@
 # Decision log and open questions
 
+## October 29 • USB supplies ordered, mini pumpkins acquired; shopping closed
+
+Host reports **three USB-A power supplies already ordered** and **mini pumpkins acquired**, with other local stores out. Use available minis as-is; no larger/replacement pumpkin search or fixed four-gourd requirement. Close extra USB/pumpkin procurement. Exact charger product/packaging/charge, mini count and cost not supplied; do not assign the old Amazon Basics two-pack/four-supply SKU to this order. Existing $27.74 USB and $35 pumpkin amounts remain budget placeholders once, not actual charges or additional shopping. Overall estimate remains $1,241.18; receipts/setup/testing remain. [Current list](../decor/urgent-buy-list-2026-10-29.md) · [Structured inventory](../decor/purchases-and-allocations-2026-10-29.json).
+
 ## October 29 • host confirms all selected products ordered
 
 Host directly answered **“Yes, all of those are ordered”** to decor/floor lamp/fill-light checkout confirmation. Mark all last selected core decor/chocolates plus Govee and Betopper pair ordered; no further basket purchase. Quantities carried from last cart/selection, actual receipt/charges/order-specific delivery/testing unverified. Prior nine ordered lines remain confirmed. [Confirmation evidence](../decor/order-confirmation-2026-10-29.json), [current ledger/purposes](../decor/urgent-buy-list-2026-10-29.md). Quote-based envelope unchanged $1,241.18; food separate. Fills AUTO, no OPPSK/DMX. Conditional USB and local/reuse inventory remain outside this purchase confirmation. Agent did not buy, change cart or initiate returns/cancellations.

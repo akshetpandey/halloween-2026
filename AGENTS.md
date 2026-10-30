@@ -18,6 +18,8 @@
 - Latest decor decision October 29: **one moon only, in the Moon Well, is The Moon That Stayed and the listener (DEC-01)**. The Grove nightstand is a harvest/sweets offering table with The Last Seed pumpkin candy holder (DEC-04); owned golden tree/LIFX goes in the middle of the living room. Grove retains warm fairy lights and proposed broad dim purple wash. Image recognition replaces NFC; no tags/moon-cover stickers to buy. Current quantities/status live in `decor/urgent-buy-list-2026-10-29.md`.
 - Latest lighting decision October 29: Govee Grove floor lamp + Betopper LPC018 two-pack; Hollow fills run built-in **AUTO**. **Drop OPPSK stage panel, all DMX hardware and QLC+ music-cue work.** Host confirmed all selected decor plus both light product lines **ordered October 29**; $114.98 is a prior light quote, actual charges/delivery/receipt unverified. Do not reorder.
 
+- October 29 procurement closeout: host ordered **three USB-A supplies** and acquired **mini pumpkins**; use available minis as-is, no extra charger or pumpkin/gourd sourcing. Exact USB SKU/cost and mini count/cost unknown.
+
 ## Task ownership
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.
 - `interactive-game/`: game rules, puzzles, physical entities/NFC and app. Read its nested instructions before changing game work.

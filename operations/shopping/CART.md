@@ -4,7 +4,7 @@
 
 **Host reply: “Yes, all of those are ordered.”** This confirms all last selected decor/chocolates plus Govee floor lamp and Betopper LPC018 pair. Fills use AUTO; OPPSK/all DMX excluded. **Do not re-add/reorder selected products.** [Current order ledger](../../decor/urgent-buy-list-2026-10-29.md) · [Confirmation/quantities carried from cart](../../decor/order-confirmation-2026-10-29.json).
 
-Last selected new goods quote $681.85 including food; earlier reported orders $281.07. Combined quote $962.92 including food, not a paid receipt. Actual quantities/charges/order-specific delivery/receipt/testing unverified. Quote-based decor/game envelope remains $1,241.18, food separate. Remaining procurement is conditional USB supplies after inventory and local/reuse setup items; no core decor or selected-light purchase outstanding. No agent purchase/cart edit.
+Last selected new goods quote $681.85 including food; earlier reported orders $281.07. Combined quote $962.92 including food, not a paid receipt. Actual quantities/charges/order-specific delivery/receipt/testing unverified. Quote-based decor/game envelope remains $1,241.18, food separate. Host also confirms **three USB-A supplies ordered and mini pumpkins acquired**; no additional supply/pumpkin/gourd order required. Only receipt/household setup checks remain. Exact charger model/pack count, mini count and both costs unknown; retain existing placeholders without guessing. No agent purchase/cart edit.
 
 ## Earlier October 29 • prior urgent list — superseded
 

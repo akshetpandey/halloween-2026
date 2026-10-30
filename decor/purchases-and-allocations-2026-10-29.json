@@ -1011,7 +1011,6 @@
     "priorConfirmedOrderedQuoteUsd": "281.07",
     "actualPaidUsd": null,
     "foodSeparateUsd": "19.97",
-    "maximumConditionalUsbUsd": "27.74",
     "allSelectedProductQuoteIncludingPriorOrdersAndUsbExcludingFoodUsd": "970.69",
     "localSetupAllowanceUsd": "85.00",
     "aggregatePlanningTax9pctUsd": "95.01",
@@ -1025,7 +1024,14 @@
     "allReportedDecorGameOrdersQuoteExcludingFoodUsd": "942.95",
     "newReportedOrdersQuoteIncludingFoodUsd": "681.85",
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
-    "quantityReceiptVerified": false
+    "quantityReceiptVerified": false,
+    "usbPowerOrderedBudgetPlaceholderUsd": "27.74",
+    "usbActualCostUsd": null,
+    "miniPumpkinsAcquiredBudgetPlaceholderUsd": "35.00",
+    "miniPumpkinsActualCostUsd": null,
+    "allReportedOrdersQuoteIsPartial": true,
+    "remainingSelectedDecorLightingPowerToBuyUsd": "0.00",
+    "pumpkinShoppingClosed": true
   },
   "lightingDeferred": false,
   "localReuseAllowancesExcluded": true,
@@ -1045,7 +1051,8 @@
     "October 29 cart audit: 24 active lines/30 units/$548.61; host replaced late OLANLY with black Xafir 8x10. Larger Blue Sky pumpkin replaces Bico, three USB strings/four ivy packs/100 candles are actual selections. Core target two clip packs, one glue bottle; duplicate sticks excluded. Exact missing lighting $341.94 sits within $450 inclusive reserve, not added on top.",
     "Host final corrections: bucket now in cart, raffia string substitutes for separate jute, paint kit dropped, existing one clip pack used with no additional order. All 23 remaining core product lines are already represented in cart; only lighting and conditional USB power are missing. No agent cart change/purchase.",
     "Host selected Govee + LPC018 two-pack in AUTO, dropping OPPSK/interface/DMX cables/terminator and QLC+ show. Entire $450 light reserve retired; exact $114.98 enters normal merchandise/tax once. Cart empty observed; no new order inferred. Conservative primary retains duplicate sticks/extra glue until checkout status known.",
-    "Direct host confirmation closes selected-product procurement: decor, chocolates, Govee and LPC018 pair are ordered. Do not infer receipt/testing or actual charges. Keep prior quoted value/budget, including last cart extras conservatively; remove active duplicate-cleanup/24-pack buying recommendations. Conditional USB/local items remain inventory checks."
+    "Direct host confirmation closes selected-product procurement: decor, chocolates, Govee and LPC018 pair are ordered. Do not infer receipt/testing or actual charges. Keep prior quoted value/budget, including last cart extras conservatively; remove active duplicate-cleanup/24-pack buying recommendations. Conditional USB/local items remain inventory checks.",
+    "Three physical USB-A supplies already ordered; exact brand/ASIN/pack count/charge not supplied, so do not mark the historical four-supply Amazon Basics recommendation purchased. Mini pumpkins acquired, count/cost unknown; use as-is and stop further pumpkin/gourd sourcing. $27.74 USB and $35 pumpkin figures retained only as existing budget placeholders; no additional allowance or purchase."
   ],
   "mountingRevision": {
     "date": "2026-10-29",
@@ -1134,6 +1141,15 @@
       "scope": "All last selected decor/chocolates plus Govee floor lamp and LPC018 fill pair; quantities carried from cart, receipt unverified",
       "evidence": "order-confirmation-2026-10-29.json",
       "agentPurchase": false
+    },
+    {
+      "date": "2026-10-29",
+      "source": "Direct host: Already ordered the 3 usb a power supplies, got some mini pumpkins and they will have to do because the rest of my local stores are out",
+      "usbSuppliesOrdered": 3,
+      "miniPumpkinsAcquired": true,
+      "miniPumpkinCount": null,
+      "actualCostsUnknown": true,
+      "agentPurchase": false
     }
   ],
   "ivyReplacementProposal": {
@@ -1182,31 +1198,6 @@
   },
   "currentBuyAuthority": "urgent-buy-list-2026-10-29.md",
   "currentOfferEvidence": "research/auto-fill-selection-2026-10-29.json",
-  "conditionalUsbRecommendation": {
-    "id": "H38",
-    "budgetOwner": "decor",
-    "group": "Conditional USB power",
-    "product": "Amazon Basics12W one-portUSB-A /White /2-pack",
-    "asin": "B0773JCTR5",
-    "url": "https://www.amazon.com/dp/B0773JCTR5",
-    "quantity": 2,
-    "unitUsd": "13.87",
-    "lineUsd": "27.74",
-    "purpose": "Three suitable 5 V USB-A supplies for three strings. If none owned, two two-packs yield four supplies/one spare; one pack if one or two suitable supplies owned, zero if three owned. Check moon charging separately.",
-    "selectedQuantityVerified": true,
-    "stock": "In Stock",
-    "displayedDelivery": "2026-10-31",
-    "deliveryTimeWindow": null,
-    "shipsFrom": "Amazon",
-    "soldBy": "Amazon.com",
-    "status": "conditional — inventory USB power first",
-    "ordered": false,
-    "tested": false,
-    "freshlyCheckedThisRevision": true,
-    "quoteSource": "large-guardians-and-shrines-2026-10-29.json",
-    "cartQuantity": 0,
-    "quoteCheckedAt": "2026-10-29T22:33:18-04:00"
-  },
   "costsBeforeLargeGuardianRevision": {
     "orderedProductLines": 9,
     "orderedMerchandiseAtLastQuotedPrices": "281.07",
@@ -1269,10 +1260,10 @@
     "groupedAlternativeEnvelope": "1484.54"
   },
   "localSupportBreakdownUsd": {
-    "fourSmallGourdsCap": "35.00",
     "traysUnderlayersAttachments": "10.00",
     "conditionalRugGrip": "15.00",
-    "fixtureSupports": "25.00"
+    "fixtureSupports": "25.00",
+    "acquiredMiniPumpkinsCostPlaceholder": "35.00"
   },
   "foodRecommendationSeparate": {
     "id": "FOOD-HARVEST-CANDY",
@@ -1686,5 +1677,80 @@
     "envelopeIfDuplicateCleanupStillPossibleUsd": "1217.57",
     "cleanupReductionBeforeTaxUsd": "21.66",
     "cleanupNotAssumedInPrimary": true
-  }
+  },
+  "historicalUsbRecommendation": {
+    "id": "H38",
+    "budgetOwner": "decor",
+    "group": "Conditional USB power",
+    "product": "Amazon Basics12W one-portUSB-A /White /2-pack",
+    "asin": "B0773JCTR5",
+    "url": "https://www.amazon.com/dp/B0773JCTR5",
+    "quantity": 2,
+    "unitUsd": "13.87",
+    "lineUsd": "27.74",
+    "purpose": "Three suitable 5 V USB-A supplies for three strings. If none owned, two two-packs yield four supplies/one spare; one pack if one or two suitable supplies owned, zero if three owned. Check moon charging separately.",
+    "selectedQuantityVerified": true,
+    "stock": "In Stock",
+    "displayedDelivery": "2026-10-31",
+    "deliveryTimeWindow": null,
+    "shipsFrom": "Amazon",
+    "soldBy": "Amazon.com",
+    "status": "conditional — inventory USB power first",
+    "ordered": false,
+    "tested": false,
+    "freshlyCheckedThisRevision": true,
+    "quoteSource": "large-guardians-and-shrines-2026-10-29.json",
+    "cartQuantity": 0,
+    "quoteCheckedAt": "2026-10-29T22:33:18-04:00"
+  },
+  "usbPowerInventory": {
+    "status": "ordered — direct host report October 29",
+    "orderedSupplyQuantity": 3,
+    "stillToBuySupplyQuantity": 0,
+    "brand": null,
+    "asin": null,
+    "url": null,
+    "packQuantity": null,
+    "actualCostUsd": null,
+    "receiptVerified": false,
+    "received": false,
+    "tested": false,
+    "purpose": "Three USB-A power supplies for the three warm fairy-light strings. Host reports three supplies, not the previously proposed two two-packs/four supplies. Do not order more; verify received ratings/connectors and operation."
+  },
+  "miniPumpkinInventory": {
+    "status": "acquired — direct host report October 29",
+    "quantity": null,
+    "actualCostUsd": null,
+    "furtherShoppingRequired": false,
+    "scope": "Use the mini pumpkins already acquired. No replacement, larger pumpkin or additional gourd search; host says remaining local stores are out.",
+    "allocation": "Cluster available minis at harvest offering table and wood/bone display first; distribute any remainder to coffee table/counter. Do not require four or invent count."
+  },
+  "costsBeforeUsbAndPumpkinConfirmation": {
+    "selectedLightingMerchandiseUsd": "114.98",
+    "removedLightingHardwareUsd": "226.96",
+    "retiredLightingReserveUsd": "450.00",
+    "currentLightingReserveUsd": "0.00",
+    "priorObservedSelectionsUsd": "566.87",
+    "selectedLightingPlusPriorSelectionsQuoteUsd": "681.85",
+    "selectionTotalIsCheckoutVerified": false,
+    "priorConfirmedOrderedQuoteUsd": "281.07",
+    "actualPaidUsd": null,
+    "foodSeparateUsd": "19.97",
+    "maximumConditionalUsbUsd": "27.74",
+    "allSelectedProductQuoteIncludingPriorOrdersAndUsbExcludingFoodUsd": "970.69",
+    "localSetupAllowanceUsd": "85.00",
+    "aggregatePlanningTax9pctUsd": "95.01",
+    "shippingContingencyUsd": "60.00",
+    "bufferUsd": "30.48",
+    "conservativeDecorGameEnvelopeUsd": "1241.18",
+    "headroomUnder1600Usd": "358.82",
+    "cleanupReductionBeforeTaxUsd": "21.66",
+    "allSelectionsHostConfirmedOrdered": true,
+    "allReportedOrdersQuoteIncludingFoodUsd": "962.92",
+    "allReportedDecorGameOrdersQuoteExcludingFoodUsd": "942.95",
+    "newReportedOrdersQuoteIncludingFoodUsd": "681.85",
+    "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
+    "quantityReceiptVerified": false
+  },
+  "latestHostUpdateHandoff": "handoff-2026-10-29-usb-and-mini-pumpkins.md"
 }

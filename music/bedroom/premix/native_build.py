@@ -29,6 +29,8 @@ def verify_readback(plan, actual):
         raise ValueError("Wrong native track count")
     if actual.get("global_automation_override", -1) != -1:
         raise ValueError("Global automation override would bypass planned envelopes")
+    if actual.get('repeat_mode', 0) != 0:
+        raise ValueError('Project repeat mode must be off')
     for expected, track in zip(plan["tracks"], actual["tracks"]):
         if len(track["clips"]) != len(expected["clips"]):
             raise ValueError("Wrong native item count")

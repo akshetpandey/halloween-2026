@@ -75,7 +75,8 @@ def clip(start, end, position, rate=1, fade_in=.003, fade_out=.003):
 
 
 def save_plan(root, name, tracks, end_seconds, markers, *,
-              purpose='synthetic engineering proof', bpm=128, master_db=-2, tempo_map=None):
+              purpose='synthetic engineering proof', bpm=128, master_db=-2, tempo_map=None,
+              render_bounds=None):
     root = Path(root).resolve()
     (root / 'renders').mkdir(parents=True, exist_ok=True)
     run_id = str(uuid.uuid4())
@@ -89,6 +90,11 @@ def save_plan(root, name, tracks, end_seconds, markers, *,
             'error_file': str(root / (name + '-' + run_id + '-error.txt'))}
     if tempo_map:
         plan['tempo_map'] = tempo_map
+    if render_bounds is not None:
+        start, end = map(float, render_bounds)
+        if not (math.isfinite(start) and math.isfinite(end) and 0 <= start < end <= end_seconds):
+            raise ValueError('Invalid chapter render bounds')
+        plan['render_start_seconds'], plan['render_end_seconds'] = start, end
     for track in tracks:
         if checksum(Path(track['path'])) != track['sha256']:
             raise ValueError('Source changed before script generation')

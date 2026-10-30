@@ -7,12 +7,22 @@ from datetime import datetime, timezone
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 import sqlite3
 import subprocess
 
 
 DEFAULT_DB = Path(__file__).resolve().parents[2] / 'playlist-lab/.local/hosted/library.sqlite3'
+
+
+def file_key(ident):
+    """Preserve canonical IDs while deriving a safe, portable file basename."""
+    if re.fullmatch(r'spotify:track:[A-Za-z0-9]{22}', ident):
+        return 'spotify-' + ident.rsplit(':', 1)[1]
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,95}', ident):
+        raise ValueError('Unsafe source ID')
+    return ident
 
 
 def digest(path):
@@ -123,7 +133,7 @@ def prepare(database, output, file_map=None):
     ready = [t for t in entries if t['file']['status'] == 'ready for import']
     manifest = {
         'schema_version': 1, 'generated_at': datetime.now(timezone.utc).isoformat(),
-        'room': 'bedroom', 'approval_authority': 'Playlist Lab host feedback table, vote=up',
+        'room': 'bedroom', 'approval_authority': 'Playlist Lab canonical shared feedback, vote=up; host priority',
         'bedroom_review_count': sum(t.get('room') == 'bedroom' for t in rows),
         'approved_recording_count': len(entries), 'importable_file_count': len(ready),
         'all_files_ready': bool(entries) and len(entries) == len(ready),

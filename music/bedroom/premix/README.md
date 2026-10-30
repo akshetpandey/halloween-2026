@@ -1,6 +1,6 @@
 # Approved bedroom crate preparation
 
-[Current premix plan](../premixed-set-plan-2026-10-19.md)
+[Current premix plan](../premixed-set-plan-2026-10-19.md) · [Final-set production status](FINAL-SET.md)
 
 **REAPER setup and synthetic cut/transition/render proof passed:** [sample, results and one-command reproduction](REAPER-PROOF.md). The preparation bridge below still governs actual bedroom approvals; synthetic fixtures are not approved party tracks.
 
@@ -12,7 +12,7 @@
 
 **Transition extension:** [phrase alignment, optional loop bridges, three-band EQ and vocal ducking](TRANSITION-AUTOMATION.md) now have a separate native build/readback proof without playback or rendering. The planner still only generates plans. Keep the host-liked audition as the listening reference until a later authorized render comparison.
 
-This standard-library Python tool reads the hosted Playlist Lab database **read-only** and exports host bedroom Keeps as JSON/CSV and a local-file M3U8. It does not select from unrated candidates, change votes, access Spotify or render audio. Guest votes do not confer host approval. A Cut for the same bedroom URI/ISRC blocks a duplicate Keep; repeated recordings are deduplicated.
+This standard-library Python tool reads the hosted Playlist Lab database **read-only** and exports canonical shared bedroom Keeps as JSON/CSV and a local-file M3U8. Host active choices win; otherwise the latest active reviewer choice counts. It does not select from unrated candidates, change votes, access Spotify or render audio. A Cut for the same bedroom URI/ISRC blocks a duplicate Keep; repeated recordings are deduplicated.
 
 From repository root:
 

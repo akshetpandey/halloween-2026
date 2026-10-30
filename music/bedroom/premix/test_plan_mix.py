@@ -80,6 +80,17 @@ def fixture(ident="a", bpm=120, duration=160):
 
 @unittest.skipUnless(AVAILABLE, "optional analysis environment required")
 class PlannerTests(unittest.TestCase):
+    def test_full_programme_pacing_preserves_long_tracks_without_padding(self):
+        t, e = fixture(duration=500)
+        for phrase in t['phrases']:
+            phrase['repeat_candidate'] = False
+        choices = candidates(t, e, {'retention': .94})
+        self.assertLessEqual(len(choices), 64)
+        self.assertGreater(choices[0]['body_seconds'], 350)
+        self.assertTrue(all(c['start'] <= c['protected_peak_seconds'] <= c['end'] for c in choices))
+        with self.assertRaises(ValueError):
+            candidates(t, e, {'retention': 1.2})
+
     def test_coherent_model_corrects_phase_without_quantized_tempo_override(self):
         t, e = fixture()
         t["grid_anchor_seconds"] = 0.7

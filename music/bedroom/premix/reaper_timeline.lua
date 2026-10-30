@@ -156,11 +156,14 @@ function M.build(plan)
   -- Preserve any existing projects: construct this build in a fresh tab.
   reaper.Main_OnCommand(40859, 0)
   assert(reaper.CountTracks(0) == 0, 'Refusing to modify a nonempty project')
+  reaper.GetSetRepeatEx(0, 0)
+  reaper.SetGlobalAutomationOverride(-1)
   local pitch, pitch_name = pitch_mode()
   local report = {version=reaper.GetAppVersion(), pitch_algorithm=pitch_name,
     project=plan.project, end_seconds=plan.end_seconds, tracks={}, markers=plan.markers,
     manifest_sha256=plan.manifest_sha256, run_id=plan.run_id,
-    global_automation_override=reaper.GetGlobalAutomationOverride()}
+    global_automation_override=reaper.GetGlobalAutomationOverride(),
+    repeat_mode=reaper.GetSetRepeatEx(0, -1)}
   reaper.SetTempoTimeSigMarker(0, -1, 0, -1, -1, plan.bpm, 4, 4, false)
   for _, point in ipairs(plan.tempo_map or {}) do
     if point.time > 0.000001 then
@@ -245,8 +248,9 @@ function M.build(plan)
   for _, marker in ipairs(plan.markers) do
     reaper.AddProjectMarker2(0, false, marker.time, 0, marker.name, -1, 0)
   end
-  local settings = {RENDER_SETTINGS=0, RENDER_BOUNDSFLAG=0, RENDER_STARTPOS=0,
-    RENDER_ENDPOS=plan.end_seconds, RENDER_SRATE=48000, RENDER_CHANNELS=2,
+  local settings = {RENDER_SETTINGS=0, RENDER_BOUNDSFLAG=0,
+    RENDER_STARTPOS=plan.render_start_seconds or 0,
+    RENDER_ENDPOS=plan.render_end_seconds or plan.end_seconds, RENDER_SRATE=48000, RENDER_CHANNELS=2,
     RENDER_TAILFLAG=0, RENDER_TAILMS=0, RENDER_ADDTOPROJ=0,
     RENDER_NORMALIZE=0, RENDER_DITHER=0, PROJECT_SRATE=48000, PROJECT_SRATE_USE=1}
   for field, value in pairs(settings) do reaper.GetSetProjectInfo(0, field, value, true) end

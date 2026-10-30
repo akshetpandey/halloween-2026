@@ -210,7 +210,9 @@ def cut_repeats(track, evidence, grid, start, end):
     return ranges, removals
 
 
-def candidates(track, evidence):
+def candidates(track, evidence, pacing=None):
+    if pacing and not 0.75 <= pacing['retention'] <= 1.0:
+        raise ValueError('Programme retention must be between 0.75 and 1.0')
     grid = choose_grid(track, evidence)
     duration = track["duration_seconds"]
     bar = 240 / track["bpm"]
@@ -227,51 +229,62 @@ def candidates(track, evidence):
         and t <= duration - min(90, duration * 0.6)
     ]
     minimum = min(90, duration * 0.60)
-    target = min(165, duration * 0.85)
+    target = min(420, duration * pacing['retention']) if pacing else min(165, duration * 0.85)
+    maximum = min(duration, target + 8 * bar) if pacing else 210
+    if pacing:
+        minimum = max(minimum, target - 16 * bar)
     peak = max(
         track["phrases"], key=lambda p: p["rms_dbfs"] + 0.5 * p.get("onset_strength", 0)
     )
     peak_time = (peak["start_seconds"] + peak["end_seconds"]) / 2
-    choices = []
+    windows = []
     for start in starts:
         for end in ends:
             length = end - start
-            if not minimum <= length <= 210 or not start <= peak_time <= end:
+            if not minimum <= length <= maximum or not start <= peak_time <= end:
                 continue
-            ranges, removed = cut_repeats(track, evidence, grid, start, end)
-            body = sum(b - a for a, b in ranges)
-            voice = evidence.get("vocals")
-            entry = vocal_fraction(voice, start, min(end, start + 8 * bar))
-            exit = vocal_fraction(voice, max(start, end - 8 * bar), end)
-            entry_boundary = vocal_fraction(voice, max(0, start - 0.35), start + 0.35)
-            exit_boundary = vocal_fraction(voice, end - 0.35, min(duration, end + 0.35))
-            quality = abs(body - target) / target + 0.15 * start / max(1, duration)
-            quality += 0.15 * ((entry or 0) + (exit or 0))
-            quality += 2 * (entry_boundary or 0) + (exit_boundary or 0)
-            quality -= 0.07 * len(removed)
-            quality += 0.9 * (
-                boundary_cost(track, grid, start) + boundary_cost(track, grid, end)
-            )
-            choices.append(
-                {
-                    "id": track["id"],
-                    "grid": grid,
-                    "ranges": ranges,
-                    "removed_repeats": removed,
-                    "start": start,
-                    "end": end,
-                    "body_seconds": body,
-                    "selection_cost": quality,
-                    "protected_peak_seconds": peak_time,
-                    "vocal_evidence_available": voice is not None,
-                    "entry_phrase": phrase_position(track, grid, start),
-                    "exit_phrase": phrase_position(track, grid, end),
-                    "boundary_vocal_candidates": {
-                        "entry": entry_boundary,
-                        "exit": exit_boundary,
-                    },
-                }
-            )
+            windows.append((start, end))
+    if pacing:
+        # Keep long-set planning bounded without changing short-demo behavior.
+        windows = sorted(windows, key=lambda w: abs(w[1]-w[0]-target)/target
+                         + .15*w[0]/duration
+                         + .9*(boundary_cost(track,grid,w[0])+boundary_cost(track,grid,w[1])))[:64]
+    choices = []
+    for start, end in windows:
+        ranges, removed = cut_repeats(track, evidence, grid, start, end)
+        body = sum(b - a for a, b in ranges)
+        voice = evidence.get("vocals")
+        entry = vocal_fraction(voice, start, min(end, start + 8 * bar))
+        exit = vocal_fraction(voice, max(start, end - 8 * bar), end)
+        entry_boundary = vocal_fraction(voice, max(0, start - 0.35), start + 0.35)
+        exit_boundary = vocal_fraction(voice, end - 0.35, min(duration, end + 0.35))
+        quality = abs(body - target) / target + 0.15 * start / max(1, duration)
+        quality += 0.15 * ((entry or 0) + (exit or 0))
+        quality += 2 * (entry_boundary or 0) + (exit_boundary or 0)
+        quality -= 0.07 * len(removed)
+        quality += 0.9 * (
+            boundary_cost(track, grid, start) + boundary_cost(track, grid, end)
+        )
+        choices.append(
+            {
+                "id": track["id"],
+                "grid": grid,
+                "ranges": ranges,
+                "removed_repeats": removed,
+                "start": start,
+                "end": end,
+                "body_seconds": body,
+                "selection_cost": quality,
+                "protected_peak_seconds": peak_time,
+                "vocal_evidence_available": voice is not None,
+                "entry_phrase": phrase_position(track, grid, start),
+                "exit_phrase": phrase_position(track, grid, end),
+                "boundary_vocal_candidates": {
+                    "entry": entry_boundary,
+                    "exit": exit_boundary,
+                },
+            }
+        )
     if not choices:
         raise ValueError("No usable body contains the main energy landmark")
     return sorted(choices, key=lambda c: (c["selection_cost"], c["start"], c["end"]))
@@ -384,12 +397,13 @@ def transition(a, b, tracks, evidence):
     return min(options, key=lambda x: (x["cost"], x["bars"]))
 
 
-def sequence(tracks, evidence):
+def sequence(tracks, evidence, pacing=None):
     by_id = {t["id"]: t for t in tracks}
-    choices = {t["id"]: candidates(t, evidence[t["id"]]) for t in tracks}
+    choices = {t["id"]: candidates(t, evidence[t["id"]], pacing) for t in tracks}
     ordered = []
     joins = []
-    for lane in LANES + sorted({t.get("lane", "Other") for t in tracks} - set(LANES)):
+    lanes = pacing.get('lane_order', LANES) if pacing else LANES
+    for lane in lanes + sorted({t.get("lane", "Other") for t in tracks} - set(lanes)):
         remaining = {t["id"] for t in tracks if t.get("lane", "Other") == lane}
         while remaining:
             if not ordered:
@@ -714,13 +728,33 @@ def eligible(database, analysis, intelligence, file_map=None, audition=False):
 
 
 def build_plan(
-    database, analysis_path, intelligence_path, output, file_map=None, audition=False
+    database, analysis_path, intelligence_path, output, file_map=None, audition=False,
+    pacing=None
 ):
     analysis = json.loads(analysis_path.read_text())
     intelligence = json.loads(intelligence_path.read_text())
     tracks, evidence, blocked = eligible(
         database, analysis, intelligence, file_map, audition
     )
+    if pacing and pacing.get('canonical_lanes'):
+        for track in tracks:
+            lane = track.get('lane', '').casefold()
+            if 'drum' in lane:
+                track['lane'] = 'Drum & bass'
+            elif 'psy' in lane:
+                track['lane'] = 'Psytrance'
+            elif 'hard bounce' in lane or 'rave' in lane or 'leftfield' in lane:
+                track['lane'] = 'Hard bounce'
+            elif 'hard techno' in lane:
+                track['lane'] = 'Hard techno'
+            elif 'tech house' in lane:
+                track['lane'] = 'Tech house'
+            elif 'acid' in lane:
+                track['lane'] = 'Acid'
+            elif 'trance' in lane:
+                track['lane'] = 'Trance'
+            else:
+                track['lane'] = 'Techno'
     report = {
         "version": VERSION,
         "generated_at": datetime.now(UTC).isoformat(),
@@ -748,6 +782,7 @@ def build_plan(
             "file_map": str(file_map.resolve()) if file_map else None,
             "file_map_sha256": digest(file_map) if file_map else None,
         },
+        "pacing": pacing,
     }
     if tracks:
         tracks = [
@@ -759,7 +794,7 @@ def build_plan(
             }
             for t in tracks
         ]
-        ordered, joins = sequence(tracks, evidence)
+        ordered, joins = sequence(tracks, evidence, pacing)
         measured = {
             c["id"]: retained_loudness(
                 next(t for t in tracks if t["id"] == c["id"]),

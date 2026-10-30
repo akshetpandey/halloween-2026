@@ -18,6 +18,7 @@ from importlib.metadata import version
 from pathlib import Path
 
 from analyze_audio import digest, write_json
+from prepare import file_key
 
 BASE = Path(__file__).resolve().parent
 DEFAULT_ROOT = BASE / ".local/actual-batch-01"
@@ -380,7 +381,7 @@ def separate(track, signal, sr, directory, model, binding):
             apply_model(
                 model,
                 (wav - mean)[None] / std,
-                device="cpu",
+                device=binding.get("stem_settings", {}).get("device", "cpu"),
                 shifts=0,
                 split=True,
                 overlap=0.25,
@@ -413,10 +414,7 @@ def run(root, only=None, vocal_ids=None):
     if (
         not selected
         or len(selected) != len(available)
-        or any(
-            not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{0,95}", ident)
-            for ident in available
-        )
+        or any(not file_key(ident) for ident in available)
         or (only and not only <= available)
         or not (vocal_ids or set()) <= available
     ):
@@ -464,7 +462,8 @@ def run(root, only=None, vocal_ids=None):
                 "vocals_requested": ident in (vocal_ids or set()),
                 "stem_settings": STEM_SETTINGS,
             }
-            cache = directory / f"{ident}.json"
+            key = file_key(ident)
+            cache = directory / f"{key}.json"
             old = json.loads(cache.read_text()) if cache.exists() else {}
             if old.get("binding") == binding:
                 evidence = old["evidence"]
@@ -488,7 +487,7 @@ def run(root, only=None, vocal_ids=None):
                         track,
                         signal,
                         sr,
-                        directory / "stems" / ident,
+                        directory / "stems" / key,
                         stem_model,
                         binding,
                     )

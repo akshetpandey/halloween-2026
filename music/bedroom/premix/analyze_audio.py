@@ -14,6 +14,8 @@ import re
 import subprocess
 import tempfile
 
+from prepare import file_key
+
 
 VERSION = 'onset-phrase-4'
 DEFAULT_ROOT = Path(__file__).resolve().parent / '.local/actual-batch-01'
@@ -54,6 +56,9 @@ def run(command):
 
 
 def catalog_prior(track):
+    explicit = track.get('analysis_tempo_prior')
+    if explicit and 60 < float(explicit['value']) < 240 and explicit.get('source'):
+        return explicit
     feature = track.get('catalog_analysis', {}).get('features', {}).get('tempo')
     if feature and 60 < float(feature['value']) < 240:
         return {'value': float(feature['value']), 'source': feature.get('source'),
@@ -257,21 +262,40 @@ def loudness(path):
             'source': 'FFmpeg ebur128 on decoded source audio'}
 
 
+def decode_source(source, root, ident):
+    """Share one hash-checked float decode between beat models and analysis."""
+    source, root = Path(source).resolve(), Path(root)
+    key = file_key(ident)
+    wav = root / 'decoded' / f'{key}.wav'
+    if wav.resolve() == source:
+        raise ValueError('Decoded output must not replace the original source')
+    binding_path = root / 'decoded' / f'{key}-binding.json'
+    source_hash = digest(source)
+    binding = json.loads(binding_path.read_text()) if binding_path.exists() else {}
+    if (wav.exists() and binding.get('source_sha256') == source_hash
+            and binding.get('decoded_sha256') == digest(wav)):
+        return wav
+    wav.parent.mkdir(parents=True, exist_ok=True)
+    run(['ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', str(source), '-map', '0:a:0',
+         '-ar', '48000', '-ac', '2', '-c:a', 'pcm_f32le', str(wav)])
+    write_json(binding_path, {'source_sha256': source_hash, 'decoded_sha256': digest(wav)})
+    return wav
+
+
 def analyze_track(track, root, include_loudness=True, source=None):
     import librosa
     import soundfile as sf
     ident = track['id']
     audition = source is None
-    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,95}', ident):
-        raise ValueError('Unsafe analysis track ID')
+    key = file_key(ident)
     if audition and not re.fullmatch(r'hollow-01-\d{3}', ident):
         raise ValueError('Unexpected audition track ID')
     source = (root / 'sources' / f'{ident}.webm') if audition else Path(source).resolve()
-    wav = source.with_suffix('.wav') if audition else root / 'decoded' / f'{ident}.wav'
+    wav = source.with_suffix('.wav') if audition else root / 'decoded' / f'{key}.wav'
     if wav.resolve() == source.resolve():
         raise ValueError('Decoded output must not replace the original source')
     wav.parent.mkdir(parents=True, exist_ok=True)
-    cache = root / 'cache' / f'{ident}.json'
+    cache = root / 'cache' / f'{key}.json'
     source_hash = digest(source)
     prior = catalog_prior(track)
     if cache.exists() and wav.exists():
@@ -286,8 +310,11 @@ def analyze_track(track, root, include_loudness=True, source=None):
                 and old.get('audition_only') == audition
                 and (not include_loudness or old.get('loudness'))):
             return old
-    run(['ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', str(source), '-map', '0:a:0',
-         '-ar', '48000', '-ac', '2', '-c:a', 'pcm_f32le', str(wav)])
+    if audition:
+        run(['ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', str(source), '-map', '0:a:0',
+             '-ar', '48000', '-ac', '2', '-c:a', 'pcm_f32le', str(wav)])
+    else:
+        wav = decode_source(source, root, ident)
     info = sf.info(str(wav))
     y, sr = librosa.load(str(wav), sr=ANALYSIS_SR, mono=True)
     result = {'analysis_version': VERSION, 'id': ident, 'artist': track['artist'],

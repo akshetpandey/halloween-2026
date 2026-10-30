@@ -6,11 +6,21 @@ import tempfile
 import unittest
 import wave
 
-from reaper_proof import build_lock, check_saved_project, clip, exact_repeats, lua, run_reaper
+from reaper_proof import build_lock, check_saved_project, clip, exact_repeats, lua, run_reaper, save_plan
 from verify_reaper_proof import _correlation, _tone_frequency
 
 
 class ReaperProofTests(unittest.TestCase):
+    def test_chapter_render_bounds_cannot_escape_the_timeline(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            plan = save_plan(root, 'chapter', [], 7200, [], render_bounds=(3600, 5400))
+            self.assertEqual(plan['render_start_seconds'], 3600)
+            self.assertEqual(plan['render_end_seconds'], 5400)
+            for bounds in [(-1, 3), (2, 2), (5, 4), (0, 7201), (0, math.inf)]:
+                with self.assertRaises(ValueError):
+                    save_plan(root, 'invalid', [], 7200, [], render_bounds=bounds)
+
     def test_exact_phrase_detection_uses_samples(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'fixture.wav'

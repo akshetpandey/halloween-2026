@@ -2,6 +2,10 @@
 
 Started October 29, 2026, America/New_York. **In progress, not yet a finished or playback-ready mix.** The host authorized acquisition, analysis, sequencing, loops, cuts, transitions and rendering from the approved bedroom library, building on the existing REAPER work. Production decisions remain delegated.
 
+Final planning checkpoint: **202 approved tracks / 9:29:13.904 planned audio**, with no added loop extension. Planner version 5 selects 85 four-bar bass swaps, 56 one-bar handovers, six harmonic blends and 54 short resets. It uses local beat agreement at actual join windows where global model phase is dispersed, without granting interior splices to uncertain grids. Half-time interpretations are corrected from stable onset timing plus sustained model-span evidence; selected tempos are 124–175 BPM. All **104 tests pass**. Full native chapter rendering is running; the figures in this paragraph remain planned until delivery verification completes.
+
+The default delivery will end with the programmed closing, before reserve starts. A separate reserve file and the full nine-hour archive preserve prepared coverage without automatically restarting hard material after the wind-down. Playback timing will be calculated backward from `2026-11-01T04:00:00-05:00` in America/New_York; the output is a proposed manual start, not a deployed scheduler. Physical routing remains a sibling task.
+
 ## Authority and sources
 
 Use current canonical shared bedroom Keeps, host priority, through the read-only preparation bridge. The starting inventory is **222 tracks / 13:08:45 raw**; the main Spotify playlist was already synced. No new selections or vote changes are part of this production pass.

@@ -13,7 +13,7 @@ BASE=Path(__file__).resolve().parent
 WINDOWS=[('hollow-02-005',300,380),('spotify:track:2qVqEzl038sc3Br5pp9b8K',0,65)]
 
 
-def prepare(state):
+def prepare(state, output=None, floating_point=False):
     import numpy as np
     import torch
     import soundfile as sf
@@ -29,13 +29,15 @@ def prepare(state):
     for ident,start,end in WINDOWS:
         if ident not in allowed:raise ValueError('Cue source is no longer approved')
         t=next(x for x in tracks if x['id']==ident)
-        folder=state/'revision-07/cue-stems'/file_key(ident);folder.mkdir(parents=True,exist_ok=True)
+        folder=(output or state/'revision-07/cue-stems')/file_key(ident);folder.mkdir(parents=True,exist_ok=True)
         binding={'source_sha256':t['sha256'],'start':start,'end':end,'model':'htdemucs',
                  'shifts':0,'samplerate':model.samplerate,'weight_sha256':digest(weight),
                  'packages':{p:version(p) for p in ['torch','torchaudio','demucs','numpy','soundfile']},'device':device}
+        suffix='.wav' if floating_point else '.flac'
+        if floating_point:binding['format']='WAV_FLOAT'
         if digest(Path(t['path']))!=t['sha256']:raise ValueError('Source changed before separation')
         old=json.loads((folder/'binding.json').read_text()) if (folder/'binding.json').exists() else {}
-        if old.get('analysis')==binding and all(digest(folder/(name+'.flac'))==sha for name,sha in old.get('stem_sha256',{}).items()) and len(old.get('stem_sha256',{}))==4:
+        if old.get('analysis')==binding and all(digest(folder/(name+suffix))==sha for name,sha in old.get('stem_sha256',{}).items()) and len(old.get('stem_sha256',{}))==4:
             continue
         raw=subprocess.check_output(['ffmpeg','-v','error','-i',t['path'],'-af',f'atrim=start={start}:end={end}',
             '-ar',str(model.samplerate),'-ac','2','-f','f32le','-'])
@@ -47,7 +49,7 @@ def prepare(state):
             separated=apply_model(model,(wav-mean)[None]/std,device=device,shifts=0,split=True,overlap=.25,progress=False)[0]*std+mean
         hashes={}
         for name,channel in zip(model.sources,separated.cpu().numpy()):
-            path=folder/(name+'.flac');sf.write(path,channel.T,model.samplerate,subtype='PCM_24');hashes[name]=digest(path)
+            path=folder/(name+suffix);sf.write(path,channel.T,model.samplerate,subtype='FLOAT' if floating_point else 'PCM_24');hashes[name]=digest(path)
         if digest(Path(t['path']))!=t['sha256']:raise ValueError('Source changed during separation')
         write_json(folder/'binding.json',{'analysis':binding,'stem_sha256':hashes})
         if device=='mps':torch.mps.empty_cache()
@@ -55,4 +57,8 @@ def prepare(state):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--state',type=Path,required=True)
-    a=p.parse_args();prepare(a.state.resolve())
+    p.add_argument('--output',type=Path,help='Separate stem cache; preserve the accepted audition cache')
+    p.add_argument('--float-stems',action='store_true',help='Unclipped floating-point stems; requires a separate output folder')
+    a=p.parse_args()
+    if a.float_stems and not a.output:p.error('--float-stems requires --output to preserve the accepted cache')
+    prepare(a.state.resolve(),a.output.resolve() if a.output else None,a.float_stems)

@@ -1,0 +1,140 @@
+{
+  "schema": "featured-transition-1",
+  "host_review": "unreviewed",
+  "party_ready": false,
+  "track_ids": [
+    "hollow-02-005",
+    "spotify:track:2qVqEzl038sc3Br5pp9b8K"
+  ],
+  "titles": [
+    "DJ HEARTSTRING \u2014 Will You Remember Me When I'm Gone?",
+    "Funk Tribu \u2014 Speakers Blowing"
+  ],
+  "events": [
+    {
+      "time": 25.77181208053691,
+      "name": "Outgoing lead clears; percussion bed"
+    },
+    {
+      "time": 26.97986577181208,
+      "name": "Incoming hook tease"
+    },
+    {
+      "time": 32.21476510067114,
+      "name": "Four-bar tightening roll + filter"
+    },
+    {
+      "time": 38.25503355704698,
+      "name": "One-beat low-end pause"
+    },
+    {
+      "time": 38.65771812080537,
+      "name": "Incoming original drop"
+    },
+    {
+      "time": 45.100671140939596,
+      "name": "Incoming solo"
+    }
+  ],
+  "duration_seconds": 90.20134228187919,
+  "delivery_meters": {
+    "duration_seconds": 90.201333,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -16.7,
+    "true_peak_dbfs": -2.1,
+    "loudness_range_lu": 1.0,
+    "method": "FFmpeg transparent EBU R128 with true peak; summary resolution 0.1 dB/LU"
+  },
+  "native_readback": {
+    "passed": true,
+    "tracks": 8,
+    "items": 8,
+    "eq_bands": 6,
+    "volume_points": 10,
+    "rendered": false,
+    "hardware_playback_tested": false,
+    "reaper_version": "7.82/macOS-arm64",
+    "pitch_algorithm": "\u00e9lastique 3.3.3 Pro"
+  },
+  "raw_native_readback": {
+    "passed": true,
+    "tracks": 2,
+    "items": 61,
+    "eq_bands": 0,
+    "volume_points": 0,
+    "rendered": false,
+    "hardware_playback_tested": false,
+    "reaper_version": "7.82/macOS-arm64",
+    "pitch_algorithm": "\u00e9lastique 3.3.3 Pro"
+  },
+  "native_print_headroom_db": 12,
+  "fx_intermediate_format": "32-bit float WAV",
+  "source_rates": [
+    0.9933334517932285,
+    1.0067613119470915
+  ],
+  "echo": {
+    "spacing_beats": 1,
+    "taps": 3,
+    "hook_decay": 0.45,
+    "roll_decay": 0.4,
+    "wet_only": true
+  },
+  "silence": {
+    "source_confirmed_rests": [],
+    "unexplained_silences": [],
+    "maximum_source_confirmed_pause_seconds": 2.0
+  },
+  "limitations": [
+    "New performance edit is not host approved",
+    "Stem separation may have bleed/artifacts",
+    "Physical output not tested",
+    "No musical quality claim from measurements"
+  ],
+  "roll": {
+    "high_pass_hz": [
+      400,
+      2200
+    ],
+    "low_pass_hz": 8000,
+    "native_frames": 309261,
+    "filtered_frames": 309261,
+    "repeat_timing": {
+      "status": "checked",
+      "stages": [
+        {
+          "loop_beats": 1,
+          "repetitions": 4,
+          "maximum_repeat_offset_ms": 0.0,
+          "minimum_waveform_correlation": 0.987506948870165
+        },
+        {
+          "loop_beats": 0.5,
+          "repetitions": 8,
+          "maximum_repeat_offset_ms": 0.020833333333333332,
+          "minimum_waveform_correlation": 0.9973045131106544
+        },
+        {
+          "loop_beats": 0.25,
+          "repetitions": 16,
+          "maximum_repeat_offset_ms": 0.020833333333333332,
+          "minimum_waveform_correlation": 0.9949262987814907
+        },
+        {
+          "loop_beats": 0.125,
+          "repetitions": 32,
+          "maximum_repeat_offset_ms": 0.020833333333333332,
+          "minimum_waveform_correlation": 0.9912346173830588
+        }
+      ],
+      "method": "Actual native dry-roll correlation within each loop stage; initial source beat phase remains separately inferred"
+    }
+  },
+  "source_sha256": [
+    "fdc31a94fd1de4a37aff79402645b35baa31a2a70e92bcc85c2b0d54540b4ecf",
+    "83bfe114adc94cc2092c29f9f1a1bb0679d06a48b20ffe386d24a9ef262c516b"
+  ],
+  "audio_committed": false
+}

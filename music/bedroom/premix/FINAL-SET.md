@@ -9,6 +9,8 @@ Independent drum-cue analysis has now processed all 216 acquired sources: **170 
 
 **October 30 continuation:** the host-approved technique is being expanded through source-bound drum cues, an explicit single-lead compiler and native per-deck diagnostics. The two-source compiled integration passes timing, normal-stereo render and fresh-runtime checks. The complete source pass and full sequence remain in progress; [current commands, evidence and continuation handoff](../handoff-2026-10-30-single-lead-production.md).
 
+**Creative-transition request:** [new 90-second featured edit](PERFORMANCE-EDITS.md) adds an isolated hook tease, four-bar tightening percussion roll, filter sweep, short echoes and an incoming drop swap. Render/readback, repeat timing, headroom and silence checks pass; this version is unreviewed. The accepted 1:43 example remains unchanged. Whole-set placement, reset-tempo bridges and final delivery remain unfinished. This work also found clipped peaks in older PCM24 drum parts; regenerate affected derived parts with float/headroom before final production.
+
 Started October 29, 2026, America/New_York. **In progress, not yet a finished or playback-ready mix.** The host authorized acquisition, analysis, sequencing, loops, cuts, transitions and rendering from the approved bedroom library, building on the existing REAPER work. Production decisions remain delegated.
 
 ## Historical version-5 checkpoint — rejected, do not resume

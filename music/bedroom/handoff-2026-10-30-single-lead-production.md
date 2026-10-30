@@ -1,5 +1,7 @@
 # Hollow single-lead production continuation · October 30
 
+Latest continuation: [featured DJ edits, 90-second sample, float-stem quality fix and current source-pass checkpoint](handoff-2026-10-30-featured-dj-edits.md). The full set remains incomplete; audit/regenerate clipped PCM24 drum parts before final production.
+
 - Scope: finish the actual prepared Hollow set from canonical shared Keeps. The original acquisition/analysis/full-render objective remains active; a short successful audition is not completion.
 - Checkout: shared main, `/Users/akshet/workspace/halloween-2026`. Research/host-approved short example committed as **d8555ec**. Preserve unrelated decor edits; no push authorized.
 - Confirmed host decisions: hard rave until the end, occasional 5–20-minute slower resets; production micro-decisions delegated. The old two-minute repair failed because **melodies or vocals clashed**. The host then confirmed **“The new 1:43 test is solid.”** That approves the [researched single-lead example](premix/TRANSITION-RESEARCH.md), not an unbuilt full set.

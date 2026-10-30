@@ -15,7 +15,7 @@ Current music source: [final-set production](../../music/bedroom/premix/FINAL-SE
 
 Accepted direct USB-C route:one DSD TECH SH-RS09C +free QLC+, one selected effect panel (original OPPSK retained as prior baseline; alternatives not added together). Possible two LPC018fills need two short DMX links and final 120-ohm terminator. No long extension pack. [Existing setup research](oppsk-usb-dmx-2026-10-27.md),[panel/fill comparison](dmx-fill-and-panel-value-2026-10-27.md). Those October 27 offers are stale and **not** refreshed in this decor ordering pass.
 
-Current [buy envelope](../urgent-buy-list-2026-10-29.md) reserves 450 dollars inclusive for stage fixtures/control/short links/terminator/permanent Grove wash/AC power. Bath/three warm strings/conditional USB supplies already counted separately; do not duplicate them. Exact received DMX modes, profile, dim range, strobe channel exclusion, hardware supports/outlets remain untested.
+Current [buy envelope](../urgent-buy-list-2026-10-29.md) reserves 450 dollars inclusive for stage fixtures/control/short links/terminator/permanent Grove wash/AC power. Bath moon/two warm strings/conditional USB supplies already counted separately; do not duplicate them. Exact received DMX modes, profile, dim range, strobe channel exclusion, hardware supports/outlets remain untested.
 
 ## Combined acceptance before guests
 

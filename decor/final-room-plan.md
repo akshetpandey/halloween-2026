@@ -1,8 +1,8 @@
 # Apartment decor execution plan — October 29, 2026
 
-**Current host corrections:** four chairs total, all around coffee table. The scanned bedroom low cabinet **is the nightstand**; move that one piece to the Grove moon shrine, not another cabinet plus a separate hidden nightstand. Hollow wall/desk materials are selected and ordered. Add cross-room foliage, wall fairy lights and larger wall branches. Guardian should be mostly bought, minimal assembly. Image recognition replaces NFC; no tags/tag-cover stickers to order. Crown is lowest priority/deferred.
+**Current host corrections:** four chairs total, all around coffee table. The scanned bedroom low cabinet **is the nightstand**; move that one piece to the Grove Harvest Offering Table, not another cabinet plus a separate hidden nightstand. Hollow wall/desk materials are selected and ordered. Add cross-room foliage, wall fairy lights and larger wall branches. Guardian should be mostly bought, minimal assembly. Image recognition replaces NFC; no tags/tag-cover stickers to order. Crown is lowest priority/deferred.
 
-[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/urgent-decor-entity-offers-2026-10-29.json). Products and layout proposals are not purchases or physical tests. Main stage-light choices remain deferred; do not use older moving-head/Pyle/rug/fabric passages as the current order.
+[Exact current buy list](urgent-buy-list-2026-10-29.md) · [Ordered inventory and shared cuts](shopping-ready.md) · [Latest offer record](research/single-moon-harvest-2026-10-29.json). Products and layout proposals are not purchases or physical tests. Main stage-light choices remain deferred; do not use older moving-head/Pyle/rug/fabric passages as the current order.
 
 ## Grounded visual plan
 
@@ -24,18 +24,18 @@ Geometry remains scan-derived, not tape-verified. Furniture boxes simplify real 
 - **Moss surfaces:** four ordered 39×39 in sheets cover scan-derived 24.38 sqft usable counters +coffee table 6.72 sqft +20×40 in other top 5.56 sqft =36.66 sqft. Retain~2 sqft desk fascia via joined cuts/sink-cutout reuse. [Actual four-sheet cut plan](living-room/moss-surfaces-and-cuts-2026-10-29.md). Removable underlayer; food/drinks on clean trays, sink/cooktop/hot appliances clear. No moss floor.
 - **Across-room vines:** propose **two light swags over the coffee-table/seating bay**, not the entire kitchen. Four 7 ft strands join into two nominal 14 ft single-strand runs; actual reach/sag must fit. Secure ends on appropriate vertical wall hooks with loose sag, not taut ceiling anchors. Keep lowest foliage at least 7.5 ft clear; if fit fails, move it to wall edges.
 - **Wall vines:** fourteen strands form seven fuller paired 7 ft sections (49 ft nominal) around selected window/wall/cabinet edges. Two form one paired 7 ft shrine accent split between the two displays; remaining four form two paired 7 ft desk accents. **Two 12-packs/24 strands total**, not another pack per room. This new distribution supersedes prior ten-Grove/two-desk paired-run scheme.
-- **Fairy lights:** one dedicated warm-white 66 ft string on selected Grove walls/foliage in steady or slow-fade mode. Separate strings for moon and Guardian; three total. Small clips are for wall routes, large hooks for swag ends/branch. No integrated DMX/beat sync assumed.
+- **Fairy lights:** one dedicated warm-white 66 ft string on selected Grove walls/foliage in steady or slow-fade mode. One separate string for Guardian; **two total**, no Grove moon string. Small clips are for wall routes, large hooks for swag ends/branch. No integrated DMX/beat sync assumed.
 - **Larger branches:** one bought 78.9 in/2.4 in-advertised faux trunk along the wood-and-bone shrine wall, with leaves winding along it. Extend the second wall with simple folded kraft/card branch silhouettes or clean local lightweight twigs if time permits. No heavy wood overhead. Earlier 63 in branch is late; Janinka thin roots are not a second trunk order.
-- **Harvest and stone:** five small pumpkins/gourds (one moon shrine, two wood-and-bone shrine, one coffee table, one counter), optional three packaging-card faux stones, a few fixed rust-colored paper leaves. These are additional planned Grove decorations; skip stone detail before sacrificing setup time.
-- **Light:** owned gold tree/LIFX by shrine, handmade 24 in Grove moon and warm pinpoints. Separate broad dim-purple source remains in later lighting selection; no promise an unbought fixture is installed.
+- **Harvest and stone:** one bought pumpkin candy holder plus four local small gourds (two wood-and-bone shrine, one coffee table, one counter), optional three packaging-card faux stones, a few fixed rust-colored paper leaves. These are additional planned Grove decorations; skip stone detail before sacrificing setup time.
+- **Light:** owned gold tree/LIFX **in the middle of the living room**, warm wall pinpoints and harvest table tea lights. No Grove moon; the single moon is in the Moon Well. Separate broad dim-purple source remains in later lighting selection; no promise an unbought fixture is installed.
 
 ## The two Grove shrines
 
-[Detailed allocation](living-room/grove-shrines-2026-10-29.md). **Moon/candy shrine:** one relocated nightstand, large moon behind/above, ivy/moss accent, owned tree beside it, one pumpkin, two shared tea lights and a clean bowl of wrapped chocolates at front. Larger owl can sit at a separately frameable corner.
+[Detailed allocation](living-room/grove-shrines-2026-10-29.md). **Harvest Offering Table / DEC-04 The Last Seed:** one relocated nightstand, one ready-made [Bico pumpkin candy holder](https://www.amazon.com/dp/B0F24RKBMY), about 6.2×5.6×5.9 inches / $23.99; small shared ivy/moss accent, two shared tea lights outside the food and wrapped chocolates in the pumpkin's mouth. Refill its handful-sized opening from reserve. Larger owl can sit at a separately frameable corner. No moon imagery or tree beside this table.
 
-**Wood-and-bone shrine / DEC-05:** propose the existing **20×40-inch surface**, already included in moss cuts. One new 7.9-inch resin wolf skull ($17.39) is the centerpiece; the **same already-budgeted 78.9-inch Grove wall branch** frames it behind/along the surface. Add shared ivy, two pumpkins and two shared tea lights. Larger raven can sit separately at its edge. Actual location/wall attachment and photo framing need fitting; do not assume another cabinet or buy another branch/moss pack.
+**Wood-and-bone shrine / DEC-05:** propose the existing **20×40-inch surface**, already included in moss cuts. One 7.9-inch wolf skull ($17.39 quoted, host reports in cart) is the centerpiece; the **same already-budgeted 78.9-inch Grove wall branch** frames it. Add shared ivy, two gourds and two shared tea lights. Larger raven can sit separately at its edge. Actual location/support/photo framing need fitting; no second branch/moss pack or cabinet.
 
-The 24-inch Grove moon remains a reused card disk with shared paper/paint and one intact warm USB string on an open back. Support/heat/brightness trial remains; painted disk lit by existing light is fallback. Use one existing candy food allowance, at the nightstand rather than bathroom. Stag/hare use distinct dry display spots outside serving reach.
+**Central tree / DEC-02:** the host explicitly places the owned golden tree in the middle of the living room. Fit its actual base and cable route there without blocking circulation; no measured coordinate asserted. One 120-piece wrapped chocolate bag ($19.97) belongs to food, replacing the existing $25 sweets allowance. Stag/hare stay on distinct dry display spots outside serving reach. No Grove moon disk or threshold crescent.
 
 ## The Hollow: accepted corner arrangement
 
@@ -59,7 +59,7 @@ Main panel plus possible two PAR fills, one USB-C DMX interface and QLC+ remain 
 
 Already ordered forest 72×72 in curtain partly open, thin black cloth in dry tub on protective underlayer, smaller 4.7 in moon on its stand, moss/ivy/jute offcut accents. Omit late 10 ftDUSPRO vine; no extra moss order. **No separate ambient lamp to buy now:** try the self-lit moon first, with existing room light available. If writing/sink/lock visibility is inadequate, use the room light or an owned suitable lamp before buying another. Four shared tea lights remain accents, not a proven room-light substitute.
 
-Add a separate reachable **black water vessel +dry paper/pen tray** for private memory/secret release. [Ritual plan](bathroom/moon-well-release-2026-10-29.md) proposes dissolve-only:linked paper is water-soluble, not flash paper. Host requested burning; no-flame substitution is a recommendation awaiting acceptance, not falsely logged as host-approved. No heat/flame kit ordered. Water vessel stays outside tub on catch tray; if no suitable surface, omit water activity. Sweets move to Grove shrine. Scored threshold entity stays outside bathroom, optional ritual unscored.
+Add a separate reachable **black water vessel +dry paper/pen tray** for private memory/secret release. [Ritual plan](bathroom/moon-well-release-2026-10-29.md) proposes dissolve-only:linked paper is water-soluble, not flash paper. Host requested burning; no-flame substitution is a recommendation awaiting acceptance, not falsely logged as host-approved. No heat/flame kit ordered. Water vessel stays outside tub on catch tray; if no suitable surface, omit water activity. Sweets stay at the Grove harvest table. The **single moon here is DEC-01 / The Moon That Stayed and the listener**. Its normal puzzle is separate from the optional unscored ritual; no writing/secret required. Scan only while the bathroom is free, never guests/notes. Old threshold listener is superseded by DEC-04 Last Seed in the Grove.
 
 ## Place all 15 entities
 
@@ -67,23 +67,23 @@ Add a separate reachable **black water vessel +dry paper/pen tray** for private 
 
 | ID | Proposed position | Distinct object |
 |---|---|---|
-| DEC-01 |Nightstand shrine background|Grove moon|
-| DEC-02 |Beside shrine|Owned gold tree|
+| DEC-01 |Moon Well, dry reachable position|Single self-lit moon / The Moon That Stayed and listener|
+| DEC-02 |Middle of living room|Owned gold tree|
 | DEC-03 |Behind Hollow desk|Bought-face Guardian|
-| DEC-04 |Outside bathroom, Grove-facing trim|7-inch wooden crescent with distinct water detail|
+| DEC-04 |Nightstand Harvest Offering Table|The Last Seed / pumpkin candy holder|
 | DEC-05 |Proposed existing 20×40-inch surface|Wolf-skull and branch tableau|
 | BUY-01 |Bone-shrine edge, separately framed|6-inch overall raven on stump|
-| BUY-02 |Moon-shrine corner|7⅞-inch barn owl on branch|
+| BUY-02 |Harvest-table corner|7⅞-inch barn owl on branch|
 | BUY-03 |Coffee-table scenic corner|Owned LEGO red panda as fox|
-| BUY-04 |Separate dry window-side display|Advertised 8-inch stag, or grouped herd|
-| BUY-05 |Separate dry counter/display spot|6.1-inch standing rabbit, or woodland group|
+| BUY-04 |Separate dry window-side display|Advertised 8-inch stag, in cart|
+| BUY-05 |Separate dry counter/display spot|6.1-inch standing rabbit, in cart|
 | MAKE-01 |Above shrine wall|Forked twig, ochre|
 | MAKE-02 |Counter dry back edge|Raffia fan, rust|
 | MAKE-03 |Hollow left wall beyond swing|Crossed twig, indigo|
 | MAKE-04 |Nightstand lower scenic edge|Short raffia bundle, green|
 | MAKE-05 |Hollow right perimeter|Arched twig, ivory|
 
-[All 15 coverage/status checklist](../interactive-game/physical/guardian-coverage-2026-10-29.md) is authoritative for latest objects. The layout image remains a furniture study; its earlier entity marker positions are superseded by this roster. This preserves 11 Grove/3 Hollow/1 threshold. Positions are proposals, not installed/camera-tested. Avoid cramped clusters:each subject needs a clean framing area, not a hidden object behind vines. Legacy NFC routes may remain in software; procurement choice does not claim public camera rollout is finished.
+[All 15 coverage/status checklist](../interactive-game/physical/guardian-coverage-2026-10-29.md) is authoritative for latest objects. The layout image remains a furniture study; its earlier entity marker positions are superseded by this roster. This preserves 11 Grove / 3 Hollow / 1 Moon Well. Positions are proposals, not installed/camera-tested. Avoid cramped clusters:each subject needs a clean framing area, not a hidden object behind vines. Legacy NFC routes may remain in software; procurement choice does not claim public camera rollout is finished.
 
 ## Before guests arrive
 

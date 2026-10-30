@@ -1,18 +1,14 @@
 # Decor buying list — quantities, purpose and purchase status
 
-## Latest October 29 • current larger-prop route
+## Current October 29 • single moon, Last Seed and unpaid cart selections
 
-[Current exact urgent list](urgent-buy-list-2026-10-29.md): **479.58 before tax /522.74 with planning tax**; optionalUSB 27.74. Larger birds, owned LEGO fox, standalone stag/hare or grouped-pack alternative. Sticks acquired, no reorder. Extra bath lamp held; skull/bone shrine and Well threshold crescent explicit. Nine ordered rows below unchanged; all older remaining totals below superseded. [All 15 coverage](../interactive-game/physical/guardian-coverage-2026-10-29.md).
+[Current exact list](urgent-buy-list-2026-10-29.md) owns all remaining quantities/purposes: **$484.41 before tax / $528.01 with 9% planning tax**, optional one USB two-pack **$13.87**. Single Moon Well moon/listener; Last Seed pumpkin candy holder on Grove nightstand; central owned tree. Two warm strings total, one glue bottle, no Grove moon craft/crescent. Host reports rabbit/deer/owl/raven/skull in cart, **not ordered**. [All 15 slots](../interactive-game/physical/guardian-coverage-2026-10-29.md). Nine ordered lines below unchanged. Candy is a separate **$19.97 food quote** replacing $25 sweets allowance. Whole decor/game envelope **$1,482.62** inclusive of $450 later lighting reserve. Earlier remaining totals/products below are history.
 
-## Current October 29 review — order from the urgent list
-
-[Exact current decor/entity buy list](urgent-buy-list-2026-10-29.md) is the current remaining-order authority: **437.30 before tax /476.66 with planning tax**, including rug and47.95 game props; optional USB supplies27.74. Nine ordered rows below remain valid. Earlier five-needs157.92 baseline, old ivy allocation,DUSPRO10ft vine, sculpted Guardian and two-string assumption are superseded for remaining buys. Current ledger preserves prior baseline as history. Four chairs, one nightstand shrine, image recognition/no NFC, crown deferred. No new order inferred. [Current room plan](final-room-plan.md).
+## Host-reported inventory
 
 **Latest purchase update, October 29:** host reports **Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered**. These join the earlier fleece and moss orders: **nine ordered product lines**. Quantities below carry forward the latest discussed list; exact receipt quantities, charges, arrival and physical receipt remain unverified. Do not reorder these items.
 
 Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command on solid wall**, upright and lowered enough for full contact/removal access. [Mounting allocation and trial](bedroom/draping/09-hook-count-2026-10-29.md). Ordered goods are not yet recorded as received or tested.
-
-**Current remaining baseline: five needs / $157.92 before tax / $172.13 with planning tax**, including the old $9.99 ivy allowance. Old ivy stays held. [Revised value recommendation](living-room/ivy-upgrade-2026-10-29.md): **two Freyalife 12-packs / $10.98**, quantity 2 showed free October 30. Pair24 individual strands into12 nominal7-ft runs, restoring84 ft of paired coverage. If selected, remaining core becomes **$158.91 / $173.21 with planning tax**. The prior $65.98 Mizii proposal is a premium alternative, no longer default. Neither replacement reported selected/ordered; other goods unchanged.
 
 [Current purchase/allocation data](purchases-and-allocations-2026-10-29.json) · [Latest ivy handoff](handoff-2026-10-29-ivy-value.md) · [Current room plan](final-room-plan.md).
 
@@ -27,7 +23,7 @@ Updated **October 29, 2026**. Mixed mounting remains **suction on glass, Command
 | H25 — [Amazon Basics Medium 1.25-in binder clips / 96 count](https://www.amazon.com/dp/B074XTRX7K) | **1 pack / 96 clips** | **Wall/window fleece and desk skirt.** One 96-clip pack supplies 18–24 combined panel grips plus six desk clips; test folded-edge grip. | $10.76 |
 | H14 — [Utopia Kitchen Black / two 90 × 132-in polyester cloths](https://www.amazon.com/dp/B0854M59WT) | **1 two-pack** | **Bed, desk, Guardian and dry tub.** One two-pack of thin black 90 × 132-in cloths; allocation and nesting below. Wall fleece stays separate. | $21.84 |
 | H16 — [DIY Doctor black gaffer / 2 in × 30 yd / 1 pack](https://www.amazon.com/dp/B0GH865ZQG) | **1 roll** | **Shared finishing.** One black 2-in × 30-yd roll for underside moss joins, scenic tidying and tested cable edges; not primary fleece suspension. | $8.99 |
-| H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | **Guardian and shared attachments.** One 100-pack of 8-in black ties; reserve about twelve for the card body/spine, remainder for ivy and scenic/cable bundles. | $3.99 |
+| H17 — [Skalon black 8-in ties / 100 pack](https://www.amazon.com/dp/B09PJ8L58G) | **1 pack / 100 ties** | **Guardian and shared attachments.** One 100-pack of 8-in black ties; reserve about twelve for the bought mask/support/drape attachments, remainder for ivy and scenic/cable bundles. | $3.99 |
 | H05 — [ORTIGIA Dark Green forest shower curtain 72 × 72 in + hooks](https://www.amazon.com/dp/B07YD2X9NB) | **1** | **Moon Well backdrop.** One dark-green forest 72 × 72-in shower curtain with supplied hooks on the existing shower support, partly open to the dry-tub scene. | $14.99 |
 
 Combined **$281.07 at last quoted unit prices**, including **$81.17** for the latest seven categories. This is merchandise quote value, not a receipt-verified paid total. Actual quantities, charges and order-specific arrivals remain unverified; no agent purchase or payment.
@@ -66,20 +62,16 @@ All quantities are the total needed from each listing. Products are shared betwe
 
 **Moss:** full counters and both host-sized tabletops come first, with the desk fascia included in the [four-sheet packing](living-room/moss-four-sheet-cuts-2026-10-29.svg). Both tables need joins because 44/ 40 in exceed 39 in. Save the sink cutout. Small props get scraps or painted texture after primary cuts; no fifth sheet is ordered.
 
-## Local or reuse — purpose and allowance
+## Current local/reuse allowances — $85 total, separate from product subtotal
 
-These are the existing **$105 total planning allowances**, not purchases or stock-confirmed quotes. Reuse supplies where available; household inventory is not confirmed. They are excluded from the $157.92 remaining core subtotal. All shared paint/card work is counted once.
-
-| Need | Quantity / allocation | Purpose | Existing allowance USD |
+| Need | Quantity / allocation | Purpose | Allowance USD |
 |---|---|---|---:|
-| L01 — small pumpkins/gourds |5 total; proposed 2 shrine, 1 coffee table, 1 counter, 1 other top | Grove harvest accents among moss/stone |35 |
-| L02 — PVA + acrylic paint + brush | Guardian baseline~4 oz PVA, ~2 oz each black/charcoal, dark brown, ivory; share materials with stones/branches/moon | Glue and paint card bark face/crown, three lightweight faux stones and scenic branch/relic details |15 |
-| L03 — moon craft materials |1 roughly 24-in card moon disk; thin paper/diffuser material, reuse card | Grove’s large moon focal point; backlight belongs to deferred lighting |5 |
-| L04 — trays/underlayers/jar/attachments | Reuse clean trays, removable wipeable counter underlayers, soft dry-tub underlayer and clean covered jar; check inventory | Stable clean serving spots in moss, protect surfaces, bath scene base; wrapped sweets budgeted separately |10 |
-| L05 — rug grip/edge treatment | Conditional; only if actual rug trial needs it | Hollow rug traction/flat edges |15 |
-| L07 — lighting support/positioning reserve | Deferred with fixtures; exact support unresolved | Independent stable fixture placement; reserve is not a quoted suitable rig or bed restraint |25 |
+| Small pumpkins/gourds | Four: two bone shrine, one coffee table, one counter | Pumpkin candy holder replaces former shrine pumpkin; retain cap until locally priced | 35 |
+| Trays/underlayers/attachments | Reuse clean household pieces, check inventory | Clean food/drink serving, protect moss surfaces and dry-tub base | 10 |
+| Rug grip/edge treatment | Conditional on actual rug trial | Hollow traction/flat edges | 15 |
+| Fixture supports | Deferred with lighting | Independent stable fixture placement; no assumed bed restraint | 25 |
 
-**Reuse without a second purchase:** clean delivery cardboard/kraft for Guardian/branch silhouettes/stones/moon, small translucent eye-diffuser scraps, existing cutting tools/brush if available, TV/audio furniture, coffee table/chairs, bath curtain support. Extra craft quantities depend on actual packaging and templates; no elaborate new sculpting kit added.
+Paint/glue have exact product rows in current buy list; no duplicate $15 craft allowance. No $5 Grove moon craft allowance. Reuse clean packaging for five small guardian bases and optional stones/branch silhouettes. No sculpted desk Guardian or handmade moon required. Historical product/build passages below do not authorize additional orders.
 
 ## Earlier lighting leads — stage buying deferred; strings/bath revised above
 

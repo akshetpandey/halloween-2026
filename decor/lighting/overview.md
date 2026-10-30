@@ -1,5 +1,5 @@
 # Lighting and power
-**Current October 27:** [selected shopping list](../shopping-ready.md) and [direct USB-C OPPSK plan](oppsk-usb-dmx-2026-10-27.md) govern execution. Host accepts OPPSK / SH-RS09C / QLC+ and omits extensions. One bedroom DMX fixture; original second effect, U’King moving-head pair, remains excluded due its earlier Oct 31 arrival quote. Separate Grove Govee/LIFX/moon/warm-string lighting retained. No purchases/installs/tests. Earlier budget/rig assumptions below are historical.
+**Current October 29:** [urgent list](../urgent-buy-list-2026-10-29.md) and [DJ/light handoff](dj-sync-handoff-2026-10-29.md) govern quantities and unresolved synchronization. **Single moon is in the Moon Well**, also listener/DEC-01. Grove uses central owned gold tree/LIFX, one wall fairy string and proposed broad dim purple wash; no Grove moon. Second warm USB string is for Hollow Guardian. Main panel/possible fills/USB-C DMX/QLC+ and permanent wash/power remain within a $450 inclusive reserve pending final selection/rehearsal. No movers/lasers. No lighting purchase/test inferred. Earlier rig and prices below are historical.
 
 ## Historical September overview
 Status: Shortlist ready; room test needed. Owner: host / lighting helper TBD.

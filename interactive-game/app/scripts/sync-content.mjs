@@ -1,19 +1,19 @@
 import { readFileSync, writeFileSync } from "node:fs";
 const text = readFileSync("../design/narrative-arc.md", "utf8");
 const meta = [
-  ["moon", "vision", "October Grove", "Memory"],
+  ["moon", "vision", "Moon Well", "Memory"],
   ["tree", "matrix", "October Grove", "Attention"],
   ["guardian", "lanterns", "The Hollow", "Vitality"],
-  ["well", "reflection", "Moon Well", "Discernment"],
+  ["seed", "reflection", "October Grove", "Discernment"],
   ["skull", "seal", "October Grove", "Restoration"],
   ["raven", "token", "October Grove", "Perception"],
   ["owl", "witnesses", "October Grove", "Reason"],
-  ["fox", "rule", "The Hollow", "Cunning"],
+  ["fox", "rule", "October Grove", "Cunning"],
   ["stag", "thorns", "October Grove", "Care"],
-  ["hare", "wheel", "The Hollow", "Imagination"],
+  ["hare", "wheel", "October Grove", "Imagination"],
   ["fork", "procession", "October Grove", "Welcome"],
-  ["ember", "offering", "The Hollow", "Generosity"],
-  ["knots", "untangle", "October Grove", "Patience"],
+  ["ember", "offering", "October Grove", "Generosity"],
+  ["knots", "untangle", "The Hollow", "Patience"],
   ["host", "constellation", "October Grove", "Connection"],
   ["door", "sigil", "The Hollow", "Persistence"],
 ];

@@ -198,6 +198,30 @@ export function GuardianArt({
             <path d="m79 160-20 8m22 0-23 9" fill="none" />
           </>
         );
+      case "seed":
+        return (
+          <>
+            <path
+              d="M108 77q-3-28 16-33l7 13q-13 3-12 23"
+              fill="#667344"
+              stroke="currentColor"
+            />
+            <path
+              d="M111 81c-53-35-92 56-49 91 21 18 39 7 49 9 12-2 29 9 49-9 43-35 5-126-49-91Z"
+              fill="#b97835"
+              stroke="currentColor"
+            />
+            <path
+              d="M94 84q-27 50-3 91m37-91q27 50 3 91"
+              fill="none"
+              stroke="#86552b"
+            />
+            <path
+              d="m82 111 10-9 7 12m28 0 7-12 10 9M80 135q31 21 62 0-4 31-31 31t-31-31Z"
+              fill="#18281e"
+            />
+          </>
+        );
       case "well":
         return (
           <>

@@ -2,7 +2,7 @@
 
 ## October 29 coordination update
 
-[Current DJ/light handoff](dj-sync-handoff-2026-10-29.md) records playback/timeline/transport decisions and combined Mac testing still needed. [Urgent decor buys](../urgent-buy-list-2026-10-29.md) now include three warm USB strings and revised bath lamps; main stage fixtures/DMX/permanent Grove wash/power stay in a separate $450 inclusive reserve, not a refreshed quote. Guardian uses a bought mask with unspecified LED power; do not assume DMX control. Older price snapshots below are historical.
+[Current DJ/light handoff](dj-sync-handoff-2026-10-29.md) records playback/timeline/transport decisions and combined Mac testing still needed. [Urgent decor buys](../urgent-buy-list-2026-10-29.md) now include two warm USB strings and the single Moon Well moon; main stage fixtures/DMX/permanent Grove wash/power stay in a separate $450 inclusive reserve, not a refreshed quote. Guardian uses a bought mask with unspecified LED power; do not assume DMX control. Older price snapshots below are historical.
 
 **October 27 latest:** [DMX fill and effect-panel value comparison](dmx-fill-and-panel-value-2026-10-27.md) adds live LPC018/LPC120/U’King comparisons, original OPPSK coupon and LF105/OPPSK384/960 alternatives. Recommend LPC018 two-pack plus LF105 for preset effects; OPPSK384 for direct zones. Host confirms no moving heads and all fixtures/laptop within five feet; six-foot links proposed, no long extensions. [Shopping list](../shopping-ready.md) keeps current baseline separate from unselected upgrades. No purchase/test.
 

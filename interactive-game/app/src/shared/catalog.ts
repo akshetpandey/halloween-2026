@@ -3,12 +3,11 @@ export const guardians = [
   {
     id: "DEC-01",
     name: "The Moon That Stayed",
-    greeting:
-      "I have watched the whole evening. You may begin by noticing one thing.",
-    lore: "It was invited for a moment, several centuries ago. Nobody has found a polite way to tell it the evening is over.",
+    greeting: "Take your time. I have been here longer.",
+    lore: "It was invited for one evening and stayed because people kept bringing it things they could not carry home. It listens as their words disappear, and never repeats a confidence.",
     art: "moon",
     family: "vision",
-    room: "October Grove",
+    room: "Moon Well",
     virtue: "Memory",
   },
   {
@@ -34,12 +33,12 @@ export const guardians = [
   },
   {
     id: "DEC-04",
-    name: "The Listener Below",
-    greeting: "You may leave a moment here. Take as long as you need.",
-    lore: "It remembers the sound a name makes when it is finally released. Tonight it is listening for the space that follows.",
-    art: "well",
+    name: "The Last Seed",
+    greeting: "A whole forest can begin with something this small.",
+    lore: "It once carried an entire forest through winter inside a single seed. It has been certain things will grow again ever since.",
+    art: "seed",
     family: "reflection",
-    room: "Moon Well",
+    room: "October Grove",
     virtue: "Discernment",
   },
   {
@@ -80,7 +79,7 @@ export const guardians = [
     lore: "The fox has never broken the Court's law. It is unbearable about this. It maintains that noticing a rule is a kind of courtesy.",
     art: "fox",
     family: "rule",
-    room: "The Hollow",
+    room: "October Grove",
     virtue: "Cunning",
   },
   {
@@ -100,7 +99,7 @@ export const guardians = [
     lore: "It has arrived late to every gathering and somehow heard every important thing. It insists that another attempt is different from starting over.",
     art: "hare",
     family: "wheel",
-    room: "The Hollow",
+    room: "October Grove",
     virtue: "Imagination",
   },
   {
@@ -120,7 +119,7 @@ export const guardians = [
     lore: "It remembers no fire, only the people who once sat around one. Its straw is cold. Its accounts of those evenings are not.",
     art: "ember",
     family: "offering",
-    room: "The Hollow",
+    room: "October Grove",
     virtue: "Generosity",
   },
   {
@@ -130,7 +129,7 @@ export const guardians = [
     lore: "It remembers a gathering by who introduced whom. Ask for a name and it will tell you a story with at least three people in it.",
     art: "knots",
     family: "untangle",
-    room: "October Grove",
+    room: "The Hollow",
     virtue: "Patience",
   },
   {

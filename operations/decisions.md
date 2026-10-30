@@ -1,5 +1,13 @@
 # Decision log and open questions
 
+## October 29 • one moon/listener, Last Seed harvest offering table
+
+**Host confirmed:** one moon object in Moon Well is **The Moon That Stayed and the listener (DEC-01)**. No second Grove moon or threshold crescent. Owned gold tree goes in the middle of the living room, not by a shrine. Host approved **The Last Seed (DEC-04)** as replacement guardian at the Grove nightstand table, doubling as pumpkin candy holder; wrapped chocolates offered freely. IDs, all 15 slots and puzzle/Favor mechanics stay unchanged; writing ritual optional/unscored. Local narrative/catalog is synchronized, not deployed; references still need actual enrollment.
+
+Host reports rabbit, deer, owl, raven and skull **in cart, not bought**; quantities/variants assumed from latest recommendations, not cart-verified. Agent recommends ready-made 6.2-inch Bico Orange Pumpkin $23.99 and Mars 120-piece wrapped chocolates $19.97, both freshly showing October 31 with no before-party time guarantee. Candy uses food; dish uses decor. [Current list/totals](../decor/urgent-buy-list-2026-10-29.md). Two strings/one glue bottle/one conditional USB two-pack; no duplicate animal pack or moon craft. Whole planning envelope $1,482.62 plus food separately within existing allowance. No purchases/deployment/physical tests. No-burning ritual substitution remains a recommendation awaiting host acceptance.
+
+### Earlier decisions below — superseded where the current plan changes them
+
 ## Latest October 29 • size target and fifteen-guardian coverage
 
 Host rejects small Safari birds, targets roughly 6 in width/height, owns LEGO red panda as fox, and has sticks for all five handmade guardians. Ten-pack groups acceptable alternative. [All 15 source/status slots](../interactive-game/physical/guardian-coverage-2026-10-29.md) complete 5 decor+5 animal/reuse+5 handmade. Agent recommends moon-first bathroom/no extra lamp order; separates candy/moon nightstand from skull/branch shrine on proposed 20×40 surface. Exact larger products, locations and no-flame ritual still proposals; no new purchases/tests or game-code changes.

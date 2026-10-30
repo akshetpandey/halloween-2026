@@ -15,7 +15,7 @@
 - Hardware: MacBook Pro/macOS, DDJ-FLX4 + rekordbox; two powered speakers in bedroom; two Google Homes for living-room Spotify; Hisense soundbar works as selected HDMI output; Jellyfin for TV. Roles/integrations still need tests.
 - Both music programs need at least nine hours after planned cuts/transitions. Bedroom needs danceable techno and artist variety; approved living-room direction should not be casually replaced.
 - Living-room floor is laminate plus low/no-pile carpet areas. No curtain rods; bulk cloth with hooks/clips or tape is acceptable. Host has a gold tree lamp with LIFX bulb.
-- Latest living-room lighting: glowing moon + broad dim purple wash; Oasis acceptable if sufficiently dim. Separate RGB source needed under currently documented Oasis Ambient specs. Moon NFC covers must be premade stickers.
+- Latest decor decision October 29: **one moon only, in the Moon Well, is The Moon That Stayed and the listener (DEC-01)**. The Grove nightstand is a harvest/sweets offering table with The Last Seed pumpkin candy holder (DEC-04); owned golden tree/LIFX goes in the middle of the living room. Grove retains warm fairy lights and proposed broad dim purple wash. Image recognition replaces NFC; no tags/moon-cover stickers to buy. Current quantities/status live in `decor/urgent-buy-list-2026-10-29.md`.
 
 ## Task ownership
 - `decor/`: room scenery, lighting and decor sourcing; subfolders for living room, bedroom and bathroom.

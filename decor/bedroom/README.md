@@ -2,7 +2,7 @@
 
 ## Current October 29 host review
 
-[Current room plan](../final-room-plan.md) and [urgent decor/entity buys](../urgent-buy-list-2026-10-29.md) supersede earlier product/count paragraphs below. Four chairs; one nightstand moon/candy shrine; overhead/wall foliage and wall fairy lights; mostly bought Guardian; image recognition with no NFC purchases. Wall/desk materials already ordered, lighting coordination pending. All current recommended offers showOct 31, no before-party guarantee. No new purchase or physical test.
+[Current room plan](../final-room-plan.md) and [urgent decor/entity buys](../urgent-buy-list-2026-10-29.md) supersede earlier product/count paragraphs below. Four chairs; one nightstand harvest/candy table; single moon/listener in Moon Well; overhead/wall foliage and wall fairy lights; mostly bought Guardian; image recognition with no NFC purchases. Wall/desk materials already ordered, lighting coordination pending. All current recommended offers showOct 31, no before-party guarantee. No new purchase or physical test.
 
 **October 29 purchase update:** Command hooks, suction cups, binder clips, thin polyester cloths, gaffer tape and zip ties are now host-reported ordered, joining the six fleece. Mixed method remains suction on glass and upright Command on solid wall. [Mounting quantities and trial](draping/09-hook-count-2026-10-29.md): counts from latest list, receipt quantities/arrival unverified. [Buying list](../shopping-ready.md) · [Handoff](../handoff-2026-10-29-orders-recorded.md). Fitting and physical trials remain; ordered does not mean received/tested.
 

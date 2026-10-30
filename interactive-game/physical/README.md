@@ -1,12 +1,10 @@
 # Physical entities and NFC
 
-## Latest October 29 • complete 15-slot procurement
+## Current October 29 • fifteen guardians, one moon
 
-[All 15 coverage and current sources](guardian-coverage-2026-10-29.md) supersede prior small-figure roster. Host-owned LEGO red panda is fox; sticks for five handmade guardians acquired. Recommend larger raven/owl/stag/hare, roughly 6 in target; ten-pack can replace only stag/hare as two grouped displays. No NFC/duplicate fox/new sticks/crown orders. Two Grove shrines and a distinct threshold crescent complete five decor anchors. No new purchase or camera test.
+[All 15 coverage and sources](guardian-coverage-2026-10-29.md) is the current roster. The single Moon Well moon is **DEC-01 The Moon That Stayed and the listener**; **DEC-04 The Last Seed** is a bought pumpkin candy holder on the Grove nightstand. Golden tree is central in the living room. Host owns LEGO fox and sticks; rabbit/deer/owl/raven/skull are in cart, not ordered. [Exact buys/status/totals](../../decor/urgent-buy-list-2026-10-29.md). No duplicate moon/crescent, fox/sticks, animal pack, NFC/tag markers or crown orders.
 
-## Current October 29 discovery and procurement decision
-
-**Host confirms image-based recognition replaces NFC; do not buy tags or tag-cover moon stickers.** No animal figures or winner crown ordered; crown lowest priority and deferred. [Current exact prop orders](../../decor/urgent-buy-list-2026-10-29.md) cover five bought slots via UANDMEpack+raven+owl, plus five distinct twig/raffia forms; five decor anchors reused.47.95 incremental game-prop quote, shared paint/moss/cloth counted in decor once. Existing LEGO fox reference must be reconciled before choosing/enrolling that slot. Photograph final props and test actual camera recognition in party light; software/public rollout is not implied complete. Earlier NFC/lock shopping and September totals below are historical, not current procurement. Existing NFC routes can remain until app task reconciles chosen discovery path.
+Host confirms image recognition replaces NFC. Final physical references and party-light phone tests remain required. Local narrative/catalog copy is updated with unchanged IDs/puzzle families; no deployment or runtime enrollment migration performed. Earlier NFC and purchase research below is history.
 
 [Family context](../README.md) · [All tasks](../../README.md)
 

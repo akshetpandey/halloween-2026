@@ -2,7 +2,7 @@
 
 ## Latest October 29 • try the moon before another lamp
 
-Host questions need for separate lamp. Agent recommends **hold O’Bright purchase**, try self-lit moon with existing room light available; use an owned suitable lamp if needed. No measured room/writing illumination claim. [Current ritual](moon-well-release-2026-10-29.md) and [buy list](../urgent-buy-list-2026-10-29.md). A distinct 7 in crescent outside bathroom is DEC-04; water activity remains optional/unscored.
+Host questions need for separate lamp. Agent recommends **hold O’Bright purchase**, try self-lit moon with existing room light available; use an owned suitable lamp if needed. No measured room/writing illumination claim. [Current ritual](moon-well-release-2026-10-29.md) and [buy list](../urgent-buy-list-2026-10-29.md). The single self-lit moon is **DEC-01 The Moon That Stayed, also the listener**. No threshold crescent or second moon. DEC-04 becomes Last Seed at the Grove offering table; water activity remains optional/unscored. Older threshold placement below is historical.
 
 ## Latest October 29 water ritual proposal
 

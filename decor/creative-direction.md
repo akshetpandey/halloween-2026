@@ -11,7 +11,7 @@ The invented story borrows seasonal harvest, liminal-night and woodland-folklore
 ## One world, three rooms
 | Space | Emotional job | Dominant treatment | Repeated symbol |
 |---|---|---|---|
-| October Grove / living room | Welcome, talk, drink, discover | Moss green, pumpkin amber, pale moon | Leaf + moon |
+| October Grove / living room | Welcome, talk, drink, discover | Moss green, pumpkin amber, dim violet | Leaf + seed |
 | The Hollow / bedroom | Release, movement, darker mystery | Charcoal, oxblood, muted violet | Roots + antlers |
 | Moon Well / bathroom | Pause and reset | Silver, warm white, small green accent | Moon reflected in water |
 
@@ -21,7 +21,7 @@ The invented story borrows seasonal harvest, liminal-night and woodland-folklore
 - Make the living room roughly two parts enchanting to one part unsettling. The bedroom gets its unease from shadow and rhythm.
 - Repeat the same moon/leaf/root motifs on cocktail labels, room names and optional tokens.
 - Cluster detail at eye level and at scenic edges. Clear floors should read as intentional negative space.
-- Use one strong moon and one guardian face as memorable anchors.
+- Use one strong moon at the Moon Well, the central golden tree in the Grove and one Guardian face in the Hollow as room anchors. The Grove nightstand is a pumpkin/harvest offering table, not a second moon shrine.
 - Avoid filling every surface. A few deep shadows make modest scenery feel more substantial.
 
 ## Pop-culture reference vocabulary

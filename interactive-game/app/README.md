@@ -2,6 +2,8 @@
 
 [Game home](../README.md) · [Build brief](build-brief.md) · [Story](../design/narrative-arc.md) · [Puzzle design](../design/puzzles.md) · [Tracker](../task-tracker.md)
 
+**October 29 local content revision:** [approved character copy](../design/narrative-arc.md) merges the single Moon Well moon/listener as DEC-01 and replaces DEC-04 with **The Last Seed**, a pumpkin candy holder in the Grove. IDs, puzzle families and scoring are unchanged. Catalog generator/illustration updated locally; **not deployed**, no runtime reference migration. Enroll actual moon as DEC-01 and pumpkin as DEC-04 after reviewing old listener references. [Physical coverage](../physical/guardian-coverage-2026-10-29.md).
+
 Status: First working rehearsal build, September 9, 2026. Cloudflare Worker + static React/Vite app, D1 game data, private Workers KV portraits. Deployed and verified on Cloudflare. [Open Hollow Court](https://hollow-court.com) · [Deployment evidence and remaining gates](handoff-2026-09-09-first-build.md).
 
 [September 9 puzzle revision](../design/puzzle-revision-2026-09-09.md): compact mobile encounters, corrected heading spacing and eleven revised trials. Preview assignments upgrade to version 2 on opening each guardian; Favors and routes stay intact. [Revision deployment and verification](handoff-2026-09-09-mobile-puzzles.md).

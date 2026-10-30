@@ -12,7 +12,7 @@ These are starting estimates, not a catering guarantee; adjust for actual attend
 - 3–4 lb substantial dips/spreads, with one clearly vegan option.
 - 4–5 lb grapes/apples and cut vegetables.
 - 3–4 lb crackers, bread, pretzels and chips.
-- About 54 small sweet pieces for 45 guests, or 72 for 60 guests, if choosing the proposed one-per-guest [Moon Well chocolate offering](../decor/bathroom/installation/README.md). This replaces the prior 45–60-piece sweet allowance; it is not an additional candy order. Reserve some at the living-room food table and adjust for diets and actual packaged counts.
+- **Harvest Offering Table:** one [Mars wrapped chocolate assortment, 120 pieces / 46.19 oz](https://www.amazon.com/dp/B0D45S87QM), **$19.97 quoted October 29 about 10:14 p.m. EDT**, In Stock/free October 31 without guaranteed before-party window. About two small portions each for 60 guests; not full-size bars. Refill Last Seed pumpkin holder from reserve under table. Replaces existing $25 small-sweets allowance within $180 food target; no additional bathroom candy order. Keep original ingredient/allergen packaging; mix includes peanut products. Holder costs $23.99 in decor, not food. [Display and food-contact separation](../decor/living-room/grove-shrines-2026-10-29.md). Not ordered.
 - One later substantial refill; choose pizzas or sandwiches based on diets and vendor quote.
 - Water: easy refill station throughout; start with 24–36 L available/refillable for 45 guests, then monitor. Apartment tap water plus clean dispensers can be far cheaper than individual bottles.
 - Seltzer/NA drinks: roughly 1–2 packaged servings per guest who prefers them; buy only after considering the NA punch plan.

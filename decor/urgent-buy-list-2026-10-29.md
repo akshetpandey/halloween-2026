@@ -1,82 +1,91 @@
 # Urgent decor and guardian orders — October 29, 2026
 
-**Latest host feedback:** tiny Safari raven/owl removed; aim around 6 inches in height or width. **Owned LEGO red panda covers the fox; sticks for all five handmade guardians acquired.** Recommend trying the self-lit Moon Well orb before buying another lamp; O’Bright is off the buy-now list. Two separate Grove shrines are now explicit.
+**Current host decisions:** one moon object only, at the Moon Well: **The Moon That Stayed is also the listener (DEC-01)**. The nightstand becomes a **Harvest Offering Table**, guarded by **The Last Seed (DEC-04)**, a ready-made pumpkin candy holder. The owned golden tree goes **in the middle of the living room**, independently of either table. No Grove moon disk or threshold crescent.
 
-**No new orders inferred.** Nine previously reported ordered lines remain closed: fleece, moss, large Hollow hooks, suction cups, binder clips, thin black cloth, gaffer tape, zip ties, forest shower curtain. [Ordered inventory and cloth/moss cuts](shopping-ready.md). [All 15 guardian slots and statuses](../interactive-game/physical/guardian-coverage-2026-10-29.md).
+**Host reports rabbit, deer, owl, raven and wolf skull added to cart, not purchased.** Their latest quoted lines total $102.69; this is an estimate using the recommended variants/quantities, not a cart audit or paid total. They remain in the to-buy total below. Nine previously reported ordered lines remain closed: fleece, moss, Hollow large hooks, suction cups, binder clips, thin black cloth, gaffer tape, zip ties and forest shower curtain. [Ordered inventory](shopping-ready.md) · [All 15 guardians](../interactive-game/physical/guardian-coverage-2026-10-29.md).
 
-Newly checked larger animals/skull/crescent show **Saturday October 31**, with **no before-party arrival time guaranteed**. Other items retain earlier October 29 quotes, also showing October 31 at that check. Confirm checkout timing. [Current evidence](research/large-guardians-and-shrines-2026-10-29.json) · [Actual product photos/dimensions](research/larger-guardian-options-2026-10-29.md).
+**Freshly checked October 29, about 10:14 p.m. EDT:** pumpkin holder and chocolates show In Stock/free **Saturday October 31**. No before-party arrival window is guaranteed. All other rows retain earlier October 29 quotes, also showing October 31 then; confirm each checkout date. [Current evidence and cost calculation](research/single-moon-harvest-2026-10-29.json). No agent cart changes or purchases.
 
 ## Guardian behind the automated desk
 
-| Exact product / option | Buy quantity | Line USD | Purpose |
+| Exact product / option | Buy quantity | Line USD | Purpose / status |
 |---|---:|---:|---|
-| [CAFELE forest-spirit mask + headdress / Led](https://www.amazon.com/dp/B0BVFPTCZC) | 1 | 23.99 | Bought face/headdress for the automated desk Guardian. About 9 x 6.1 x 2.75 in; LED power/batteries unspecified. |
-| [InnoGear MS 250 / Black / single / Twist Clutch 34–60 in](https://www.amazon.com/dp/B08QZD9B5P) | 1 | 29.99 | Independent weighted support behind desk; 9.8 in base. Untested scenic adaptation, separate from bed restraint. |
+| [CAFELE forest-spirit mask + headdress / Led](https://www.amazon.com/dp/B0BVFPTCZC) | 1 | 23.99 | Bought face/headdress for the automated desk Guardian. About9x6.1x2.75in; LED power/batteries unspecified. |
+| [InnoGear MS250 / Black / single / Twist Clutch34–60in](https://www.amazon.com/dp/B08QZD9B5P) | 1 | 29.99 | Independent weighted support behind desk;9.8in base. Untested scenic adaptation, separate from bed restraint. |
 
-Head/support **$53.98**; body cloth, ties and moss already shared. One of three total USB strings adds roots/eye fallback, counted once below. [Minimal 30–45-minute assembly proposal](bedroom/woodland-guardian.md); no sculpting/painting. Mask LEDs' battery requirements remain unspecified.
+Head/support **$53.98**; ordered cloth/ties/moss and one of **two total** USB strings dress it. [Minimal assembly](bedroom/woodland-guardian.md). Mask LED power/batteries remain unspecified; support and stability are untested.
 
-## Five animal guardians — four new orders and one owned
+## Animal guardians — in cart, not ordered
 
-| Exact product / option | Buy quantity | Line USD | Purpose |
+| Exact product / option | Buy quantity | Line USD | Purpose / status |
 |---|---:|---:|---|
-| [Pacific Giftware raven on stump / Default hand-painted cold-cast resin](https://www.amazon.com/dp/B006JOVKFA) | 1 | 22.91 | Raven guardian. Bigger replacement for rejected 3-inch Safari bird. |
-| [Veronese Design barn owl on branch / New, standard barn owl on branch](https://www.amazon.com/dp/B0CL6Q1L2X) | 1 | 29.12 | Owl guardian. Bigger replacement for rejected 2.75-inch Safari owl. |
-| [Brown deer / advertised 20 cm / Medium / Brown / QSW 251816 HUSRJURC 3](https://www.amazon.com/dp/B09J16Z7MX) | 1 | 13.28 | Budget standalone stag; seller sizing/quality less certain. Grouped animal-pack alternative remains available. |
-| [YimiBloss rabbit pair / 6″-White / one two-piece set](https://www.amazon.com/dp/B0GDWWQRRG) | 1 | 19.99 | Use standing rabbit as Hare guardian; keep smaller one as spare outside hunt. Pair is one set, not two new guardians. |
+| [Pacific Giftware raven on stump](https://www.amazon.com/dp/B006JOVKFA) | 1 | 22.91 | Raven guardian. Bigger replacement for rejected 3-inch Safari bird. **In cart per host; unpaid, exact cart quantity/variant not verified.** |
+| [Veronese Design barn owl on branch](https://www.amazon.com/dp/B0CL6Q1L2X) | 1 | 29.12 | Owl guardian. Bigger replacement for rejected 2.75-inch Safari owl. **In cart per host; unpaid, exact cart quantity/variant not verified.** |
+| [Brown deer / advertised 20 cm](https://www.amazon.com/dp/B09J16Z7MX) | 1 | 13.28 | Budget standalone stag; seller sizing/quality less certain. Grouped animal-pack alternative remains available. **In cart per host; unpaid, exact cart quantity/variant not verified.** |
+| [YimiBloss rabbit pair](https://www.amazon.com/dp/B0GDWWQRRG) | 1 | 19.99 | Use standing rabbit as Hare guardian; keep smaller one as spare outside hunt. Pair is one set, not two new guardians. **In cart per host; unpaid, exact cart quantity/variant not verified.** |
 
-**Owned LEGO red panda = fox, $0 to buy. Four new product lines = $85.30.** Rabbit set contains two pieces; use the 6.1-inch standing one as the Hare and keep the smaller one spare/off-hunt. Do not count it as another guardian.
+**Owned LEGO red panda = fox, $0 to buy. Four animal product lines = $85.30.** Rabbit set is one set: use the 6.1-inch standing one as Hare and keep the smaller one spare/off-hunt. The ten-pack remains a historical alternative; do not add it on top of the host's standalone stag/rabbit cart selections.
 
-**Alternative:** keep one [UANDME ten-pack](https://www.amazon.com/dp/B085G48BNK), earlier quote **$20.99**, for two distinct grouped displays **instead of standalone stag and rabbit set**. Four hoofed animals form the stag/herd group; bear/raccoon/squirrel/rabbit form the other. Fox/piglet spare. Together with larger raven/owl and owned LEGO, this still gives five animal guardians. New animal products **$73.02**, saving **$12.28**. Group sizes and recognition need actual trials; no new pack order inferred.
+## Grove, offering table, wood-and-bone shrine and shared supports
 
-## Grove, both shrines and shared lights/supports
-
-| Exact product / option | Buy quantity | Line USD | Purpose |
+| Exact product / option | Buy quantity | Line USD | Purpose / status |
 |---|---:|---:|---|
-| [Freyalife /12 Pack 84 Ft](https://www.amazon.com/dp/B0D6KDW17P) | 2 | 10.98 | 24 raw 7 ft strands:4 single strands make two nominal 14 ft overhead swags; 14 make seven paired 7 ft wall runs; 2 make one paired shrine run; 4 make two paired desk runs. |
-| [Fosolasi large brown faux trunk /78.9 in](https://www.amazon.com/dp/B0FPQ8DDDP) | 1 | 49.99 | One already-budgeted 78.9-inch wall branch frames the wood-and-bone shrine. No duplicate second-shrine branch; mounting location proposed, not measured. |
-| [Veemoon resin wolf skull / White / 20 X 14 X 8 cm](https://www.amazon.com/dp/B0BCGRT7ZQ) | 1 | 17.39 | Wood-and-bone shrine centerpiece on proposed 20×40-inch moss-covered surface. Large branch/ivy/lights already shared; no second branch order. |
-| [UFN HENRIK wooden crescent / 1/4 Inch Thick / 7 Inch / one](https://www.amazon.com/dp/B0D6YNB8S9) | 1 | 8.00 | Distinct Well threshold guardian OUTSIDE bathroom. Paint simple blue water detail with shared kit if desired; no NFC tag or marker sticker. |
-| [Command decorating clips /40 clips 48 strips](https://www.amazon.com/dp/B000M3YGHS) | 3 | 27.15 | 120 small clips for wall fairy lights, ivy, desk and spares; not fleece or overhead-span anchors. |
-| [Command Large White /14 hooks 16 strips](https://www.amazon.com/dp/B075Y2M1Q5) | 1 | 14.61 | ONE ADDITIONAL pack for Grove: four swag ends, about 4 branch points, spares. Existing ordered H24 pack stays with Hollow. Wall-only placement, load/adhesion trial. |
-| [Twinkle Star /Warm White /66 ft 200 LED /USB](https://www.amazon.com/dp/B07GMQ42GG) | 3 | 29.97 | Three total: one Grove wall string, one Grove moon, one Guardian root/eye fallback. Increase from previous two, not three additional strings. |
-| [Homemory /Warm White Glow White Body /12 tea lights](https://www.amazon.com/dp/B01EDKGFGU) | 1 | 8.99 | Twelve total: two moon/candy shrine, two wood-and-bone shrine, one coffee table, one counter, four bath, two spare. Tea lights do not establish sufficient writing/room illumination. |
+| [Bico Orange Pumpkin Halloween Candy Dish / Orange Pumpkin / one](https://www.amazon.com/dp/B0F24RKBMY) | 1 | 23.99 | The Last Seed guardian and wrapped-candy holder on relocated Grove nightstand. About 6.2 x 5.6 x 5.9 inches; personal-size mouth holds a handful, refill from reserve. No painting or extra figure required. |
+| [Freyalife /12Pack84Ft](https://www.amazon.com/dp/B0D6KDW17P) | 2 | 10.98 | 24raw7ft strands:4single strands make two nominal14ft overhead swags;14make seven paired7ft wall runs;2make one paired shrine run;4make two paired desk runs. |
+| [Fosolasi large brown faux trunk /78.9in](https://www.amazon.com/dp/B0FPQ8DDDP) | 1 | 49.99 | One already-budgeted 78.9-inch wall branch frames the wood-and-bone shrine. No duplicate second-shrine branch; mounting location proposed, not measured. |
+| [Veemoon resin wolf skull](https://www.amazon.com/dp/B0BCGRT7ZQ) | 1 | 17.39 | Wood-and-bone shrine centerpiece on proposed 20×40-inch moss-covered surface. Large branch/ivy/lights already shared; no second branch order. **In cart per host; unpaid, exact cart quantity/variant not verified.** |
+| [Command decorating clips /40clips48strips](https://www.amazon.com/dp/B000M3YGHS) | 3 | 27.15 | 120small clips for wall fairy lights, ivy, desk and spares; not fleece or overhead-span anchors. |
+| [Command Large White /14hooks16strips](https://www.amazon.com/dp/B075Y2M1Q5) | 1 | 14.61 | ONE ADDITIONAL pack for Grove:four swag ends,about4branch points,spares. Existing ordered H24 pack stays with Hollow. Wall-only placement, load/adhesion trial. |
+| [Twinkle Star /Warm White /66ft200LED /USB](https://www.amazon.com/dp/B07GMQ42GG) | 2 | 19.98 | Two total USB strings: one Grove wall/foliage run and one Hollow Guardian roots/eye fallback. No Grove moon string. |
+| [Homemory /Warm White Glow White Body /12tea lights](https://www.amazon.com/dp/B01EDKGFGU) | 1 | 8.99 | Twelve total: two harvest offering table, two wood-and-bone shrine, one coffee table, one counter, four dry bathroom accents, two spare. Keep lights outside candy holder. |
 
-The crescent is the guardian **outside the bathroom**, not a tag cover. [Two-shrine material allocation](living-room/grove-shrines-2026-10-29.md): moon/candy nightstand and separate skull/branch tableau on proposed existing 20×40 surface. **Only one $49.99 large branch in total**, already counted as Grove wall scenery; moss top and ivy/tea lights also shared. Skull is the new second-shrine centerpiece, $17.39. No second cabinet or second food bowl needed.
+[Two Grove displays](living-room/grove-shrines-2026-10-29.md): pumpkin offering table on the relocated nightstand, plus a separate skull/branch tableau on the proposed existing 20×40-inch surface. **One $49.99 large branch total**, already in the Grove scenery budget. Moss and ivy are shared; no second cabinet, extra branch or extra moss pack.
 
-Vines: 24 raw 7-foot strands; four make two light nominal 14-foot cross-room swags, fourteen make seven paired wall runs, two form a paired shrine accent split between displays, four form two paired desk runs. Three strings **total**, one Grove wall, one Grove moon, one Guardian. Extra large Grove hook pack is distinct from ordered Hollow pack. Use wall-rated supports for light swag ends, loose sag and adequate head clearance; no heavy branches or improvised ceiling hooks overhead. Small clips serve wall light/ivy routes, not span anchors.
+Vines: 24 raw 7-foot strands; four form two nominal 14-foot light overhead swags, fourteen make seven paired wall runs, two split between Grove displays, four make two paired desk runs. Trial actual sag/head clearance and surface attachments. Small decorating clips serve wall routes, not overhead anchors. **Two USB strings total:** one Grove wall/foliage run, one Guardian fallback. No third moon string.
 
-## Moon Well — moon first, no second lamp order
+The pumpkin dish is **6.2×5.6×5.9 inches**, a personal-size holder for a handful, not the entire 120-piece bag. Refill from a reserve below the table. Its fixed face is the recognition subject; candy contents change. No painting, separate figurine, candle inside the candy or moon decoration required.
 
-| Exact product / option | Buy quantity | Line USD | Purpose |
+## Moon Well — the single moon and message ritual
+
+| Exact product / option | Buy quantity | Line USD | Purpose / status |
 |---|---:|---:|---|
-| [NATURALABEL water-soluble notes /4.1 x 6.3 in 100 sheets](https://www.amazon.com/dp/B08R8KY3YD) | 1 | 17.99 | Write-and-dissolve ritual. Not flash paper; no fire supplies recommended. Test in still water with chosen pen. |
-| [Yesland 3.5 L black plastic ice bucket](https://www.amazon.com/dp/B085CC32WW) | 1 | 15.95 | 10.5 x 8 x 7.75 in water vessel on stable reachable surface. Begin with about 1 L water and catch tray; no flame/heat. |
-| [Crayola washable broad-line markers /12 count](https://www.amazon.com/dp/B003HGGPLW) | 1 | 7.99 | Put two dark washable markers by dry paper tray; remaining colors for labels/crafts. Omit if suitable pens already owned. Dissolution/privacy performance untested. |
-| [Mydethun /4.7 in /White & Yellow Non-engraved](https://www.amazon.com/dp/B074SF11JZ) | 1 | 19.99 | Smaller in-stock replacement for unavailable 5.9 in moon. Cordless scene, charge away from water; selected brightness/runtime untested. |
+| [NATURALABEL water-soluble notes /4.1x6.3in100sheets](https://www.amazon.com/dp/B08R8KY3YD) | 1 | 17.99 | Write-and-dissolve ritual. Not flash paper; no fire supplies recommended. Test in still water with chosen pen. |
+| [Yesland3.5L black plastic ice bucket](https://www.amazon.com/dp/B085CC32WW) | 1 | 15.95 | 10.5x8x7.75in water vessel on stable reachable surface. Begin with about1L water and catch tray; no flame/heat. |
+| [Crayola washable broad-line markers /12count](https://www.amazon.com/dp/B003HGGPLW) | 1 | 7.99 | Put two dark washable markers by dry paper tray; remaining colors for labels/crafts. Omit if suitable pens already owned. Dissolution/privacy performance untested. |
+| [Mydethun /4.7in /White & Yellow Non-engraved](https://www.amazon.com/dp/B074SF11JZ) | 1 | 19.99 | The single moon object: The Moon That Stayed, also the Moon Well listener. Dry, reachable position away from water; charge/runtime and final camera framing need trials. |
 
-The extra lamp was proposed for practical writing/room illumination, not to light the moon. **Hold the $31.44 O’Bright purchase.** Try the moon on its bright white setting with existing room light available; use the already-budgeted four dry tea lights as accents. This does not prove the moon illuminates the room: if writing/sink/lock visibility is inadequate, use an existing suitable lamp or the room light before considering another purchase.
+The moon lamp is **DEC-01 / The Moon That Stayed**, also the listener. It stays on a dry reachable surface away from the water vessel. No second moon, threshold plaque or extra bath lamp. Try the moon and existing room light for writing/sink/lock visibility; an additional lamp is on hold. Charging accessories, brightness/runtime and camera framing remain untested.
 
-Keep the already ordered forest curtain/dry-tub cloth scene. Water vessel sits on a stable reachable surface outside tub with catch tray; no cords/lights in water. [Release ritual](bathroom/moon-well-release-2026-10-29.md) still recommends **dissolve-only**; host acceptance of that change remains open, no fire kit on list. Candies move to Grove moon shrine, one shared food allowance.
+Keep ordered forest curtain and dry-tub cloth. Water vessel goes on a suitable reachable surface/catch tray outside the tub; actual fit still needs checking. [Release ritual](bathroom/moon-well-release-2026-10-29.md) recommends **dissolve-only**; host acceptance of the no-burning substitution remains open. The message ritual is optional and unscored. Photograph the moon only when the bathroom is free; no secret writing is needed to earn its normal puzzle Favor.
 
 ## Shared crafts and rug
 
-| Exact product / option | Buy quantity | Line USD | Purpose |
+| Exact product / option | Buy quantity | Line USD | Purpose / status |
 |---|---:|---:|---|
-| [Elmer’s white school glue /4 floz 1 count](https://www.amazon.com/dp/B000Q3KHCM) | 2 | 2.34 | 8 floz total for Grove moon/branch silhouettes/stones and handmade figures. Not required to sculpt Guardian. |
-| [Caliart 24 colors 2 oz/bottle +12 brushes](https://www.amazon.com/dp/B08BNNV3JY) | 1 | 21.99 | One shared kit for moon/branch/stone finish and five small entities; replaces old$15 paint/glue allowance. Guardian face stays factory-finished. |
-| [Sukh natural raffia /3 bundles](https://www.amazon.com/dp/B0C5CHH5SB) | 1 | 6.99 | Five distinct 6–10 in twig/raffia figures; supplement with clean local fallen/florist twigs. Packaging title/description mass varies; three-bundle variant verified. |
-| [PerkHomy natural jute /Brown 600 Feet Flat](https://www.amazon.com/dp/B0DS9493ZW) | 1 | 3.99 | Bind five figures; small amount shared for lightweight vine swags and scenic wrapping. Not bed/fixture restraint. |
-| [Rugflix /8 x 10 /03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | 1 | 75.99 | Remaining rug order; skip if already ordered since last report. Test door/traction/flatness before dancing. |
+| [Elmer’s white school glue /4floz1count](https://www.amazon.com/dp/B000Q3KHCM) | 1 | 1.17 | One 4 fl oz bottle shared by five twig/raffia figures and optional lightweight card stones/branches. No moon disk or sculpted Guardian face. |
+| [Caliart24colors2oz/bottle +12brushes](https://www.amazon.com/dp/B08BNNV3JY) | 1 | 21.99 | One shared kit for five twig/raffia figures and optional card stone/branch finish. Pumpkin and desk Guardian faces stay factory-finished. |
+| [Sukh natural raffia /3bundles](https://www.amazon.com/dp/B0C5CHH5SB) | 1 | 6.99 | Five distinct6–10in twig/raffia figures; supplement with clean local fallen/florist twigs. Packaging title/description mass varies; three-bundle variant verified. |
+| [PerkHomy natural jute /Brown600Feet Flat](https://www.amazon.com/dp/B0DS9493ZW) | 1 | 3.99 | Bind five figures; small amount shared for lightweight vine swags and scenic wrapping. Not bed/fixture restraint. |
+| [Rugflix /8x10 /03-black Grey](https://www.amazon.com/dp/B0FKN3M32V) | 1 | 75.99 | Remaining rug order; skip if already ordered since last report. Test door/traction/flatness before dancing. |
 
-**Do not order sticks:** host has them for all five handmade guardians. Raffia/jute, existing ties, paint kit and reused card bases finish the five shapes; moon disk also uses shared card/paint. No duplicate craft kit, moss or cloth order per guardian. If suitable paints/glue/twine already owned, remove the corresponding supply rows.
+**Sticks for all five handmade guardians are acquired.** Use five distinct silhouettes, shared raffia/jute/paint, ordered ties and reused card bases. One 4-ounce glue bottle now replaces two after removing the moon craft. Pumpkin and desk Guardian faces stay factory-finished. Skip optional stones/branch extensions first if setup time is tight.
 
-## Totals and cuts
+## Wrapped chocolates — food, counted separately
 
-- **Primary large-figure route:** $479.58 remaining merchandise / **$522.74** with aggregate 9% planning tax. This includes rug, all six new large/threshold/shrine products and shared supplies.
-- **Ten-pack groups instead of stag/hare:** $467.30 / **$509.36** with tax. Choose one route.
-- Primary without rug if already bought: $403.59 / **$439.91** with tax.
-- USB power inventory first: three strings need three suitable 5 V USB-A supplies. If none owned, [Amazon Basics 12 W White two-pack](https://www.amazon.com/dp/B0773JCTR5), **two packs / four supplies / earlier quote$27.74**; one pack if one suitable supply owned, zero packs if three owned. Primary remaining with both packs **$507.32 / $552.98 with tax**.
-- Five local pumpkins/gourds within existing$35 allowance: one moon shrine, two bone shrine, one coffee table, one counter. One clean candy bowl/jar and wrapped chocolates use existing food$25, not another decor order.
-- No tiny Safari birds, duplicate fox, new sticks, NFC tags/markers, extra bath lamp, winner crown, extra moss/fleece/cloth, late DUSPRO vine, long DMX extensions, moving heads or lasers. Crown deferred; lights/control need coordinated pass.
+| Exact product / option | Quantity | Line USD | Purpose |
+|---|---:|---:|---|
+| [Mars mixed chocolate assortment / 120 pieces / 46.19 Ounce (Pack of 1)](https://www.amazon.com/dp/B0D45S87QM) | 1 bag | 19.97 | M&M’s Milk Chocolate/Peanut, Snickers, Twix and Milky Way; individually wrapped small portions, not full-size bars. Seasonal listing says Christmas. About two pieces each at 60 guests; refill pumpkin holder from reserve. |
 
-**Whole planning envelope:** ordered quote 281.07 + primary remaining 479.58 + conditional USB 27.74 =788.39 quoted products. Local/support 90 + aggregate 9% planning tax 79.06 +shipping 60 +buffer 30.48 +inclusive later stage/permanent-light/power/DMX reserve 450 = **$1,497.93**, leaving **$102.07 under$1,600**. Grouped alternative envelope$1,484.54. These replace older scenarios; actual paid total unknown, no duplicate game/paint allowances. Food/drinks/costume/prize crown excluded; 450 is a reserve, not a fresh lighting quote.
+**Holder + candy = $43.96 before tax.** The $23.99 holder is in decor above. Candy replaces the existing $25 sweets allocation within the food budget, saving $5.03 before tax; do not add a second candy allowance or put sweets in the bathroom. Keep original ingredient/allergen label available; this mix includes peanut products. Use wrapped sweets on a clean washed food-contact surface, with moss/paint kept outside.
+
+![The Last Seed: actual pumpkin candy holder](research/last-seed-pumpkin-2026-10-29.png)
+
+## Current totals and cuts
+
+- **Remaining decor + incremental game props: $484.41** = $388.13 decor + $96.28 game; **$528.01 with aggregate 9% planning tax**. Includes the five unpaid cart lines; excludes candy/conditional USB.
+- If the $75.99 rug was separately bought, remove that row: **$408.42 / $445.18 with planning tax**. No rug purchase has been reported.
+- Check owned USB power first. Two strings need two suitable 5 V USB-A supplies. If none owned, **one** [Amazon Basics 12 W White two-pack](https://www.amazon.com/dp/B0773JCTR5), carried quote **$13.87**; zero if two suitable supplies owned. Remaining maximum with this pack: **$498.28 / $543.13 with planning tax**. Moon charging needs a receipt check separately.
+- Four local small gourds: two bone shrine, one coffee table, one counter. Keep **$35 cap**, with no assumed proportional savings. Pumpkin holder replaces the former shrine pumpkin. Trays/underlayers/attachments $10, conditional rug grip $15, fixture supports $25: **$85 local/support total**. Paint/glue have exact rows; $5 moon craft allowance removed.
+- Compared with preceding plan: remove $8 crescent, $9.99 third string, $1.17 second glue bottle, $13.87 second USB two-pack and $5 moon craft allowance; add $23.99 pumpkin holder. No tiny birds, duplicate fox, new sticks/NFC/crown, extra bath lamp, duplicate grouped-animal pack, moving heads or lasers.
+
+**Whole decor/game planning envelope:** ordered quote $281.07 + remaining $484.41 + conditional USB $13.87 = **$779.35 products**; + local/support $85 + aggregate 9% planning tax $77.79 + shipping $60 + buffer $30.48 + **inclusive $450 later stage/permanent-light/control/power reserve** = **$1,482.62**, leaving **$117.38 under $1,600**. Actual paid total unknown. Food/drinks/costume/prize crown excluded; lighting reserve is not a fresh fixture quote. Candy's separate $19.97 is within the existing food allocation.

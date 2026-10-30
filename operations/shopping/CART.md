@@ -1,10 +1,10 @@
 # Decor shopping status and historical wood/skull cart
 
-## Latest October 29 • revised urgent list
+## Current October 29 • host cart report and Last Seed additions
 
-[Current urgent orders](../../decor/urgent-buy-list-2026-10-29.md) remove tiny birds, hold extra bath lamp, reuse owned LEGO fox/sticks, and cover all 15 guardians. Primary remaining 479.58 before tax; grouped alternative 467.30. No cart/payment/order performed; earlier small-figure and old complete totals below are history.
+Host reports **one rabbit set, deer, owl, raven and wolf skull in cart, not purchased**. Assumed recommended variants/quantities quote $102.69; actual cart not audited. [Current exact list](../../decor/urgent-buy-list-2026-10-29.md) counts these among $484.41 remaining decor/game merchandise, plus conditional $13.87 USB. Add recommendation: one [Bico Orange Pumpkin holder](https://www.amazon.com/dp/B0F24RKBMY), $23.99 (already included in $484.41) and one [Mars 120-piece chocolate bag](https://www.amazon.com/dp/B0D45S87QM), $19.97 (food). Both freshly showed October 31; no before-party window guaranteed. No new agent cart/payment/order. No Grove moon/crescent, third string, duplicate animal pack or extra glue bottle. Earlier figures and cart entries below are history.
 
-## Current October 29 • urgent list supersedes historical cart
+## Earlier October 29 • prior urgent list — superseded
 
 Use [current exact decor/entity orders](../../decor/urgent-buy-list-2026-10-29.md), not September wood/skull cart below. Guardian mostly bought; image recognition/no NFC; winner crown deferred. Nine existing decor lines reported ordered, 437.30 current recommended remaining plus optional 27.74 USB; all displayedOct 31, no before-party guarantee. No agent cart/payment/order; historic cart presence is not an order.
 

@@ -1,6 +1,25 @@
 # Two costume shopping and order status
 
-**October 29 styling update:** bone crown, gold torc and cuffs fixed; other clothing open. [28](28-fixed-core-clothing-references-2026-10-29.md) owns new real image references, not purchases or Saturday-cleared garments. [27](27-haunted-court-statement-pieces-2026-10-29.md) retains inventory/earlier proposals. Nicute chain already bought below, no new charge or torc replacement selected. Purchase/delivery evidence remains dated below.
+**Latest October 29:** [30](30-eerie-woodland-amazon-2026-10-29.md#what-to-order-for-this-render--latest-october-29) owns the three-piece charcoal-wrap / opaque black shirt / Black Levi's order list and exact Saturday refresh. Crown/torc/cuffs/shoes reused. Those garments remain unconfirmed purchases, $91.44 before new tax. Brocade/green/waist-reference directions are history.
+
+## Current order and planning reconciliation • October 29
+
+Signed-in Amazon product banner and actual Order Details, checked about **11:10 p.m. EDT October 29**, confirm an additional existing user order: **Loctite Super Glue Ultra Gel Control / 1 Pack, [B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y)**, **placed October 29, arriving Saturday October 31**. One product: $4.49 merchandise + $0 shipping + $0.40 estimated tax = **$4.89 order grand total**. This was discovered read-only; the agent did not place/change the order. No private order IDs, payment details or address stored. Actual receipt, settlement and crown repair unverified; Saturday arrival does not meet [26's full 24-hour pre-wear cure plan](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue).
+
+| Current planning component | Amount | Status |
+|---|---:|---|
+| Earlier three costume orders | $196.59 | Historical account-confirmed totals, incl. estimated tax |
+| Crown-repair Loctite order | $4.89 | Existing user order, account-confirmed October 29, arriving Saturday |
+| **Known four-order basis** | **$201.48** | Includes $9.52 estimated tax; not settled-payment/receipt proof |
+| New wrap + shirt + Black 578 proposal | $91.44 | Still to order/unconfirmed, before new tax; replaces old optional $110 jeans quote |
+| Remaining small-supplies allowance | $15.11 | Existing $20 allowance minus the $4.89 glue order; glue counted once |
+| Remaining tax/price reserve | $20.88 | Retained planning cushion, not an extra charge |
+| **Revised planning envelope** | **$328.91** | $201.48 + $91.44 + $15.11 + $20.88; not a shopping order |
+| **Headroom under unchanged $500 ceiling** | **$171.09** | Planning headroom, not a remaining-cash balance |
+
+If all three garments are later ordered at the checked prices, known-order basis plus new merchandise would be **$292.92 before new garment tax/fees**, not current spending. Do not add $91.44 on top of the older optional $110 jeans basket, or buy/count another glue/cuff/crown/torc. No garment order was reported or comprehensively audited in this refresh; the three product pages show no prior-purchase banner. No return/refund assumed.
+
+Everything below preserves earlier dated order/night/fit history; current clothing and repair status are above/in 30.
 
 **October 27 current scope:** the second City of Gods night did not happen. Repurpose its pieces for October 31; **Antler King / large antlers / full-face veil are dropped**. [22](22-hollow-court-reuse-redesign-2026-10-27.md) owns the new shirt offer and small-crown preview. New shirt is sourced, not ordered; $500 ceiling retained. Earlier night assignments below describe the plan before the second night was skipped.
 
@@ -114,6 +133,8 @@ Start the material trial with **one layer of open gold textile netting**, not ac
 **Makeup removed by the host October 22 late evening.** Do not buy pigment, mixing liquid or detail brush from the [superseded research](14-gilded-stag-collar-makeup-2026-10-22.md). No makeup appointment requested or sourced.
 
 ## Budget after the order
+
+**Historical October 23 envelope; superseded by the current October 29 reconciliation above.** Existing link anchor retained for earlier documents.
 
 | Component | Amount |
 |---|---:|

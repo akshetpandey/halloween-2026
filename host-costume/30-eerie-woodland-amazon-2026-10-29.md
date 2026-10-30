@@ -1,6 +1,25 @@
 # Hollow Court • eerie woodland texture, Amazon deadline
 
-October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Requested charcoal-wrap / black-shirt / black-Levi's personalized preview completed below.** Exact chosen garment offers refreshed about **8:35 p.m. EDT**, all still Saturday. No final outfit choice, purchase or physical fit inferred. This replaces [29's brocade/green-trouser proposal](29-amazon-saturday-brocade-outfit-2026-10-29.md) as the active direction; the green cowl remains an unselected earlier alternative.
+October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 31. **Latest: host requests what to order for the completed charcoal-wrap preview. Three exact garment offers refreshed about 11:08–11:10 p.m. EDT, all still Saturday.** New garment orders/physical fit not confirmed. An existing Loctite repair-glue order was discovered and verified separately below. Prior brocade/green proposal is history; the green cowl remains an unselected alternative.
+
+## What to order for this render • latest October 29
+
+| Order one of each, unless already placed independently | Exact required selection | Current merchandise price |
+|---|---|---:|
+| [Dhthdrh charcoal distressed wrap](https://www.amazon.com/dp/B0H4SZNTVL?th=1) | **Black**, one-size set (scarf + brooch + 2 safety pins); photo reads charcoal | **$22.99** |
+| [JEMITOP opaque sleeved shirt](https://www.amazon.com/dp/B0CR38X65T) | **Black-b / Small**, short sleeves | **$15.99** |
+| [Levi's 578 baggy jeans](https://www.amazon.com/dp/B0GVVYXFYW?th=1&psc=1) | **Black / 30W × 30L** | **$52.46** |
+| **Remaining garment subtotal, before new tax** | Three pieces | **$91.44** |
+
+Signed-in exact buy boxes to Brooklyn11211 still show **free Saturday October 31 delivery**. Wrap **only 2 left**; shirt and jeans **In Stock**. The pages showed approximately **52 minutes to the Saturday cutoff** when checked around 11:08 p.m.; do not treat that countdown as current if reading later, and confirm Saturday at checkout. Shirt/jeans variants checked together with resolved exact child pages; no size/color substitution. No prior-purchase banner visible on these three pages and no new garment purchase reported; this is not a comprehensive new Orders audit.
+
+**Reuse:** purchased compact Sosation bone crown, NauticalMart gold torc, Karace Style B cuff pair and owned shoes. The wrap includes fasteners; no separate cape/vest/waist sash, extra jewelry or fastening kit required for the depicted look. Keep the source's unreviewed-listing quality caveat; actual drape/fit remains untested.
+
+**Already ordered—do not duplicate:** [Loctite Ultra Gel Control, 1 pack, B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y). Product banner and actual Order Details confirm **ordered October 29 / arriving Saturday October 31**, $4.49 merchandise + $0 shipping + $0.40 estimated tax = **$4.89 grand total**. No private order/payment/address identifiers retained. This is an actual order, not the current $4.49 product offer. [09](09-final-weekend-shopping-2026-10-21.md) owns the updated **$201.48** known-order basis, counting this once within the existing small-supplies allowance. Actual receipt/repair/settled charge unverified.
+
+**Crown timing remains open:** [26's repair plan](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue) allows **24 hours for full cure before wearing**. A Saturday glue delivery does not leave that interval before Saturday night's party. Existing glue on hand/earlier acquisition or another crown-wearing plan still needs resolution; no Friday delivery, shortened cure or structural safety is promised. Optional Gorilla search hit human verification; no action or duplicate order, no Friday source verified.
+
+The three garments remain the only new clothing on this order list. The agent has not added to cart, ordered, changed delivery, cancelled or returned anything.
 
 ## Confirmed host correction
 
@@ -15,7 +34,7 @@ October 29, 2026, America/New_York / EDT (UTC−04:00). Event Saturday October 3
 
 Styling interpretation: matte dark clothes, uneven raised fraying and a pale branching crown suggest an old woodland presence in worn ceremonial clothing. Existing gold remains the relic/authority accent; no invented new guardian name, plot or game-mechanic change. The texture is **frayed fabric, not sculpted bark or actual moss**. This proposal is more convincing for the brief than conventional brocade, but the strongest visual match has the weakest review evidence.
 
-Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 **initially 8:15–8:20 p.m. EDT October 29**. **Before the requested render, about 8:35 p.m., the exact Black wrap, Black-b/Small shirt and Black/30W × 30L jeans were refreshed: all still free Saturday October 31.** Wrap stock now only 2. GRACEART green retains its earlier dated quote. No arrival time window, hold or checkout guarantee. All new items remain unpurchased proposals.
+Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 **initially 8:15–8:20 p.m. EDT October 29**, then **8:35 p.m. before generation**. The latest **11:08–11:10 p.m. garment refresh/order list is above**; unchanged prices/Saturday, wrap still only 2. GRACEART green retains its earlier dated quote. No arrival time window, hold or checkout guarantee. No new garment purchase confirmed.
 
 | Piece / role | Exact Amazon option | Price | Stock / seller / deadline evidence |
 |---|---|---:|---|
@@ -34,7 +53,7 @@ Exact selected product buy boxes checked in signed-in Chrome to Brooklyn 11211 *
 
 **Jeans assessment:** 578 is a genuinely baggy, **wide-leg**, 100% cotton option; actual product photograph is dark black, not the grey faded wash. [Actual photograph](references/2026-10-29/levis-578-black-baggy.jpg). Listing 4.6/5 from 879 aggregate ratings; listed 19-inch leg opening refers to a **size-32 sample**, not a measured 30W garment. 30W × 30L is inside the host's stated 28–30 / 30–32 range, but actual waist/length/comfort not tested. Search results for earlier requested 568 mainly showed Monday November 2; not promoted as Saturday-ready. **Variant trap caught:** selecting 29W × 30L auto-switched the page to Small Grey Step B0GVW835FQ with November 6–8 delivery. That offer is excluded. Reopened Black listing, selected 30W × 30L, then confirmed **Black + child B0GVVYXFYW + Saturday** together after hydration. Initial 34W × 32L date was not used as host-size evidence.
 
-**Unpurchased costs:** charcoal wrap + shirt + new jeans = **$91.44 before new tax**; GRACEART alternative + shirt + jeans = **$88.44**. If reusing owned faded black jeans, these become $38.98 / $35.98. The two wraps are alternatives, not an additive basket. Existing $196.59 bought basis + $91.44 would be $288.03 **plus new tax if later purchased**, not current spending; unchanged $500 combined ceiling. No final clothing order reported.
+**Historical source-pass cost example, before discovery of the glue order:** charcoal wrap + shirt + new jeans = **$91.44 before new tax**; GRACEART alternative + shirt + jeans = **$88.44**. If reusing owned faded black jeans, these become $38.98 / $35.98. The two wraps are alternatives, not an additive basket. The then-known $196.59 order basis + $91.44 would have been $288.03 plus new tax. **Current order basis/accounting is in 09 and the latest order-list section above**, not this older example. No final clothing order reported.
 
 ## Requested charcoal-wrap personalized preview • October 29
 
@@ -72,6 +91,6 @@ Retailer photos downloaded from the live selected landing images and visually in
 - **GRACEART / Amazon**, photographer unidentified: [11-green source image](https://m.media-amazon.com/images/I/61IGB5CbRAL._AC_SX679_.jpg).
 - **Levi's / Amazon**, photographer unidentified: [Black 578 source image](https://m.media-amazon.com/images/I/51IenOKV-9L._AC_SX679_.jpg). Model's white shirt/jewelry not proposed.
 
-No orders/cart/messages/holds/returns/cancellations. Existing bought basis **$196.59** and **$500 combined ceiling** unchanged. Brocade/shirt/cape totals from 29 remain unpurchased historical proposals, not additive new spending or refunds. Crown repair/full cure and actual fit still pending in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue). Do not render an invented bark/leaf garment before the new source gate is complete.
+No agent order/cart/message/hold/return/cancellation. Latest confirmed order basis is **$201.48 including estimated tax** after the separately discovered $4.89 Loctite order; [09](09-final-weekend-shopping-2026-10-21.md) owns the reconciliation. The earlier $196.59 figures above describe the source-pass basis before that discovery. Same **$500 ceiling**; garments still an unpaid $91.44 proposal, with no assumed refunds. Crown repair/full cure and actual fit pending in [26](26-brown-mantle-preview-and-crown-repair-2026-10-29.md#crown-material-and-glue).
 
-[Source-pass handoff](handoff-2026-10-29-eerie-woodland-sourcing.md) · [Current preview handoff](handoff-2026-10-29-charcoal-wrap-preview.md).
+[Source-pass handoff](handoff-2026-10-29-eerie-woodland-sourcing.md) · [Preview handoff](handoff-2026-10-29-charcoal-wrap-preview.md) · [Current order-list handoff](handoff-2026-10-29-charcoal-order-list.md).

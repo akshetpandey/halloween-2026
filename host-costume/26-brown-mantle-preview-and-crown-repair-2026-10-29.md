@@ -75,6 +75,10 @@ This method assumes **small decorative fragments with snug mating edges**. A spl
 
 ## Availability and budget
 
+**Latest October 29, about 11:10 p.m. EDT:** actual Amazon Order Details now confirms **Loctite Ultra Gel Control / 1 Pack B00ELV2D0Y already ordered October 29, arriving Saturday October 31**, $4.49 + $0 shipping + $0.40 estimated tax = **$4.89**. Do not duplicate this order. Actual receipt/repair untested. Saturday arrival does **not** allow the full 24-hour cure before Saturday night's party under the repair plan above; earlier glue access or another crown-wearing plan remains unresolved. No Friday offer verified, shortened cure advice or order change. [09](09-final-weekend-shopping-2026-10-21.md#current-order-and-planning-reconciliation--october-29) owns the updated $201.48 order basis and counts glue once against the existing supplies allowance. [30](30-eerie-woodland-amazon-2026-10-29.md) owns the current garment order list.
+
+**Earlier source check, superseded by the actual order above:**
+
 [Amazon Loctite B00ELV2D0Y](https://www.amazon.com/dp/B00ELV2D0Y) appeared in search at $4.49 with mixed Saturday/Friday signals, but the exact product page hit a new human-verification prompt. **No exact glue delivery or final offer verified; do not advertise it as Friday-cleared.** Gorilla Micro Precise Gel two-pack also had a Friday search estimate, but no exact offer check. The manufacturer-backed glue recommendation is complete independently of those delivery snippets. Obtain the chosen gel early enough for the full cure; no local store stock was verified.
 
 Mantle / glue remain unpurchased proposals. Existing **$196.59** order basis / **$500** ceiling unchanged. No agent order/cart change, message, reservation, return, cancellation or physical repair. The glue verification window was foregrounded per host preference; no CAPTCHA click performed or further consent required to provide the technical advice. No active request to clear that optional page is needed for this completed render/repair answer.

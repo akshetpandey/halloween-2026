@@ -1856,7 +1856,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-picks-selected.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-dowels-correction.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2111,13 +2111,17 @@
       "dowelWithPaperBeforeTaxUsd": "137.91",
       "dowelWithPaperPlanningTaxUsd": "150.32",
       "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable",
-      "selectedItem": "10302745",
-      "selectionSource": "Host October 30: first option will do; wants color differences for detection",
+      "selectedItem": "10031019",
+      "selectionSource": "Host October 30 correction: Sorry I meant the 12-inch dowels; supersedes wired-pick interpretation",
       "purchaseConfirmed": false,
       "receiptConfirmed": false,
-      "visualDistinctionPlan": "Five distinct silhouettes plus contrasting card bands using existing markers; pack catalogued as green only. No added paint kit. Final reference photos and party-light recognition tests pending.",
-      "selectedQuoteBeforeTaxUsd": "125.43",
-      "selectedQuoteWithPlanningTaxUsd": "136.72"
+      "visualDistinctionPlan": "Five distinct silhouettes plus contrasting card bands using existing markers; unfinished dowels. No extra paint kit. Final photos and party-light recognition tests pending.",
+      "selectedQuoteBeforeTaxUsd": "127.92",
+      "selectedQuoteWithPlanningTaxUsd": "139.43",
+      "selectedQuantityPacks": 2,
+      "selectedCountPerPack": 15,
+      "selectedLengthInches": 12,
+      "selectedDiameterInches": "3/16"
     }
   }
 }

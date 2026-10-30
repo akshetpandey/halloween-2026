@@ -1,6 +1,6 @@
 # Budget, sourcing and purchase ledger
 
-**Latest October 30 stick selection:** host selects one 55-pack of Ashland wired wood picks, previously listed $4.49. [Current selected-stick quote](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable): $125.43 pre-tax/$136.72 with planning tax; optional paper $135.42/$147.61. Other earlier quotes retained; actual register prices and purchase/receipt unconfirmed. Dowels are backup only; older willow totals below are historical. No paid-cost or refund adjustment.
+**Latest October 30 correction:** host selects **two 15-packs of 12in × 3/16in Creatology wood dowels**, previously $3.49 each/$6.98 total, superseding the wired-pick interpretation. [Current selected-dowel quote](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable): $127.92 pre-tax/$139.43 with planning tax; optional paper $137.91/$150.32. Other earlier quotes retained; actual prices/purchase/receipt unconfirmed. No paid-cost/refund adjustment. Older pick/willow totals below are historical.
 
 **October 30 afternoon route correction:** Spirit **33 Irving Place, Union Square**, replaces Fulton; [closing times / full list](../decor/nyc-pickup-rescue-2026-10-30.md#updated-pickup-list-and-friday-closing-times). Baseline costs unchanged. Optional $9.99 paper makes eight-item five-store scenario **$146.42 pre-tax / $159.60 with 9% planning tax**, not a paid charge.
 

@@ -1,6 +1,10 @@
 # Decision log and open questions
 
-## October 30 • wired wood picks selected for the five handmade guardians
+## October 30 • correction: 12-inch dowels selected
+
+Host clarifies “Sorry I meant the 12” dowels.” Select **two 15-count packs, 3/16in diameter, 12in Creatology wood dowels, item 10031019**, prior $3.49 each/$6.98 total. Wired picks are not selected. [Canonical correction](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable) retains five distinct silhouettes and existing marker/card color accents, no new paint supplies. Purchase, receipt, assembly, photos/enrollment and recognition tests remain unconfirmed. Selected-dowel route quote $127.92/$139.43 with planning tax; optional paper $137.91/$150.32. No new stock check, purchase, refund or game code/ID change.
+
+## Earlier October 30 • wired-pick interpretation — superseded by host correction
 
 Host chooses the first alternative after unavailable willow: **one Ashland 6in wired wood pick 55-pack, item 10302745, previously listed $4.49**. Host wants color differences to help detection. [Current material and visual-distinction plan](../decor/nyc-pickup-rescue-2026-10-30.md#in-store-correction-willow-unavailable) preserves five silhouettes and existing color accents; green pack is not assorted colors. Existing markers/card bands suffice; no paint kit or additional color purchase. Purchase, actual price, receipt, assembly, photos/enrollment and recognition tests remain unconfirmed. Dowels are backup only. Selected-stick route quote $125.43/$136.72 with planning tax, optional paper $135.42/$147.61; no paid-ledger adjustment, refund, new stock check or game code/ID change.
 

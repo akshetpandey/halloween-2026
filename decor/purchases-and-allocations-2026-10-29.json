@@ -1838,7 +1838,7 @@
     "remainingCoreOrSelectedLightingToBuyUsd": "0.00",
     "quantityReceiptVerified": false
   },
-  "latestHostUpdateHandoff": "handoff-2026-10-30-ram-pickup-route.md",
+  "latestHostUpdateHandoff": "handoff-2026-10-30-fulton-stock-recheck.md",
   "deliveryRescue": {
     "date": "2026-10-30",
     "canonicalPlan": "decor/nyc-pickup-rescue-2026-10-30.md",
@@ -2003,7 +2003,41 @@
         "reused support/card and shoulder crosspiece",
         "trays/underlayers",
         "rug grip if needed"
-      ]
+      ],
+      "alternativeSkullBrowseAcceptedByHost": true,
+      "spiritStopStatus": "optional browse acceptable to host; no ram or alternate shelf inventory confirmed"
+    },
+    "fultonStockRecheck": {
+      "checkedAt": "2026-10-30T12:36:00-04:00",
+      "ramSku": "01691245",
+      "ramLocalStockVerified": false,
+      "ramPageEvidence": "Shipping In Stock / Ready To Ship only; no local pickup control",
+      "storePageEvidence": "address/hours/contact, no product inventory",
+      "officialContactGuidance": "https://www.spirithalloween.com/content.jsp?pageName=Contact",
+      "listedFultonPhone": "855-704-2669",
+      "officialGuestServicesPhone": "866-580-5819",
+      "phoneCallPerformed": false,
+      "telephoneToolAvailable": false,
+      "messageSent": false,
+      "alternativeSkullAllowedByHost": true,
+      "backupToAskAbout": {
+        "product": "Goat Skull Full Mask",
+        "sku": "01579408",
+        "url": "https://www.spirithalloween.com/product/goat-skull-full-mask/235023.uts",
+        "quotedUnitUsd": "29.99",
+        "sellerHeightDepthWidthIn": [
+          18,
+          9.5,
+          8.5
+        ],
+        "material": "ABS",
+        "onlineShippingStatus": "out of stock",
+        "localStockVerified": false,
+        "localStockStatus": "unknown",
+        "selected": false,
+        "purchased": false
+      },
+      "confirmedPickupCount": 0
     }
   }
 }

@@ -1,0 +1,13 @@
+# Fulton skull stock recheck
+
+- **Updated / checkout:** October 30, 2026, approximately12:37 p.m. EDT, America/New_York; shared `/Users/akshet/workspace/halloween-2026`, `main`, base67a3976. No worktree/branch.
+- **User:** asks to confirm actual Fulton ram stock before leaving; alternatively can choose a different skull there. This permits an optional browse stop, not a purchase by the agent.
+- **Result / status:** **stock cannot be confirmed online**. Fresh Chrome ram page01691245 shows shipping stock only/no pickup selector. Official Fulton page address/hours/contact has no inventory. Official Contact guidance directs store availability to store contact. No telephone tool available; no calls/staff confirmation/holds. Do not report ram or any alternate as in stock at Fulton, or as definitely out of stock there.
+- **Exact contacts:** official Fulton listing855-704-2669; official Guest Services866-580-5819. Caller question with ram SKU plus alternate request saved in [current plan](nyc-pickup-rescue-2026-10-30.md#fulton-stock-recheck--approximately-12351237-pm-edt-october-30). Friday hours still8am–11pm, not a stock guarantee.
+- **Alternative:** Goat Skull Full Mask01579408/$29.99, ABS18H×9.5D×8.5W inches. Live Chrome shipping out of stock, no pickup control; Fulton unknown. An ask-about SKU only, not selected/secured. Host can inspect other skulls/masks while browsing. Suggested20–30 range is a recommendation, not agent purchase authorization. Eye access/mount fit remain untested.
+- **Route / budget:** three Manhattan core stops remain; Spirit optional browse if host accepts uncertain selection, or pickup after stock confirmation. Earlier seven-item136.43/148.71 quote remains ram scenario, not confirmed full basket or actual spending; no alternate added or duplicate head. Fifteen IDs unchanged.
+- **Owned files:** canonical pickup plan, decor README, root current exception, structured ledger, this handoff. No source-history deletion, game code, costume file, budget amount or purchase status changes.
+- **External actions:** read-only pages and navigation. No communication, cart/order/reservation, callback request, cancellation/refund or CAPTCHA action.
+- **Verification passed:** JSON/unknown-stock/no-contact flags, unchanged seven-item arithmetic/eight delayed IDs, 38 relative links and `git diff --check`. No code or physical tests.
+- **Next:** host calls for actual shelf check, or knowingly browses optional Spirit stop and chooses one suitable head; confirm actual cost/fit/receipt before updating bought status. Core Manhattan pickups independent.
+- **Git:** commit owned named files on main, report hash/checks. Preserve unrelated one-word `decor/shopping-ready.md` edit; no push.

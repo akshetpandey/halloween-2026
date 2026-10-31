@@ -1,6 +1,6 @@
 # Stereo party playback
 
-**October 31: both physical outputs work; the room test has played and awaits the original iPhone recording for analysis.** Use one finished stereo file in REAPER, feeding separate Audioengine AUX and Hisense optical stereo buses through a macOS Aggregate Device. Each bus has bundled ReaEQ and Time Adjustment Delay; the real REAPER MASTER volume/mute controls both. The bar handles its own internal surround distribution. No rekordbox, FLX4, live encoder, custom audio engine or new software purchase is required for this route.
+**October 31: both physical outputs work and the [measured room delay is applied](ROOM-CALIBRATION-2026-10-31.md): Audioengine +79 ms, Hisense 0 ms.** EQ and bus trims remain flat because the recording did not justify a system-specific correction. Use one finished stereo file in REAPER, feeding separate Audioengine AUX and Hisense optical stereo buses through a macOS Aggregate Device. Each bus has bundled ReaEQ and Time Adjustment Delay; the real REAPER MASTER volume/mute controls both. The bar handles its own internal surround distribution. No rekordbox, FLX4, live encoder, custom audio engine or new software purchase is required for this route.
 
 ## Current connected setup · October 31
 
@@ -8,7 +8,7 @@ The host connected USB/optical, Audioengine USB and AUX. macOS detects **USB SPD
 
 **Halloween Stereo** is a four-output Aggregate Device at **48 kHz**: channels **1–2 = External Headphones → Audioengine AUX**, **3–4 = USB SPDIF Audio → Hisense OPTICAL**. External Headphones is the clock source; optical has drift correction enabled. This is a discrete aggregate, not a mirrored Multi-Output Device. The existing rekordbox aggregate and system default output were preserved.
 
-REAPER's private party profile selects Halloween Stereo and reports four outputs. The mapped party project is saved. The host confirmed brief **Audioengine only → Hisense only → both together** music tests worked in the correct order. This verifies system identity and simultaneous sound, not acoustic alignment, individual L/R identity, EQ improvement or all-night stability. MASTER is stopped/muted at −12 dB; both buses remain unity, flat and zero-delay. The host then confirmed final speaker placement and started an iPhone recording. The raw 69-second test played from zero to its end through the four-output aggregate and was saved stopped/muted afterward. The original recording has been requested but has not yet been received or analyzed. No room correction has been applied.
+REAPER's private party profile selects Halloween Stereo and reports four outputs. The host confirmed brief **Audioengine only → Hisense only → both together** music tests worked in the correct order. After final placement, the host recorded the raw 69-second test; its original stereo rendition was analyzed. The [room-calibration record](ROOM-CALIBRATION-2026-10-31.md) owns the measured settings, evidence and EQ decision. The corrected party project is saved, active, stopped/muted at −12 dB. The raw test stays flat/zero-delay in the other tab. Post-correction listening, individual L/R identity, reconnect behavior and all-night stability remain to check.
 
 [configure_aggregate.py](configure_aggregate.py) reads CoreAudio directly and can recreate this specific AUX/optical aggregate without UI automation. It requires the exact two outputs already at 48 kHz stereo, checks composition, channel count and drift correction, and does not select a system default or start audio:
 
@@ -21,7 +21,7 @@ This helper is specific to the present AUX/optical route; it does not fix or sub
 
 Deadline decision: **defer encoded 5.1 for this party**. Its [software proof](../optical-5-1-pipeline-2026-10-29.md) does not solve the additional bitstream/PCM synchronization work. Host says the cable arrives October 31 and guests start around **8–9 p.m. EDT**. Prefer dependable simultaneous stereo over extending that research.
 
-**Host confirmed the final scope:** two-channel output to each system, with approximate EQ and delay alignment. The [iPhone calibration kit](CALIBRATION.md) is built: 69-second isolated test, recording analyzer and numeric preset application. Record once from the main listening area; the agent handles analysis and settings. Thirteen synthetic/container tests and a native REAPER round trip passed. Real room results await the original recording's analysis.
+**Host confirmed the final scope:** two-channel output to each system, with approximate EQ and delay alignment. The [iPhone calibration kit](CALIBRATION.md) provides the isolated test, recording analyzer and numeric preset application. Fifteen analysis tests now pass; the earlier native REAPER round trip also passed. The first real recording has been analyzed and its timing correction saved to the player.
 
 ## What is ready
 
@@ -59,4 +59,4 @@ Working estimates, not guarantees: **20–45 minutes** for stereo output and bas
 
 If custom routing is not working after about **15 minutes of troubleshooting**, use Audio MIDI Setup's **Multi-Output Device** and one normal player to duplicate stereo, then balance levels at the speakers. It loses independent software EQ/delay and can still expose soundbar processing lag. If combined playback sounds worse, mute the bar and use the existing FLX4 → Audioengine analog route, which the host has already used. Do not let an extra speaker system jeopardize the functioning main pair. If delivery leaves less than an hour before guests, prioritize basic output and listening over EQ work.
 
-The October 31 AUX/optical music tests passed by host confirmation. Measured room delay, acoustic EQ, long-run drift and reconnect behavior remain untested. [Current routing context](../mac-orchestration.md#fine-output-tuning--proposed-refinement) · [Initial preparation handoff](handoff-2026-10-30.md).
+The October 31 AUX/optical music tests passed by host confirmation, and measured timing correction is applied. Post-correction acoustic/listening verification, tonal adjustment, long-run drift and reconnect behavior remain untested. [Current routing context](../mac-orchestration.md#fine-output-tuning--proposed-refinement) · [Initial preparation handoff](handoff-2026-10-30.md).

@@ -70,6 +70,23 @@ class PhoneCalibrationTests(unittest.TestCase):
             result = c.analyze(decoded)
             self.assertAlmostEqual(result['hisense_later_than_audioengine_ms'],115,delta=2)
 
+    def test_long_phone_export_selects_stereo_track_after_multichannel(self):
+        # Human setup pauses can exceed three minutes; retain the full timeline.
+        recording = np.r_[np.zeros(117*c.FS), self.recording]
+        with tempfile.TemporaryDirectory() as directory:
+            wav, movie = Path(directory)/'phone.wav', Path(directory)/'phone.qta'
+            with wave.open(str(wav),'wb') as output:
+                output.setnchannels(1); output.setsampwidth(2); output.setframerate(c.FS)
+                output.writeframes(np.round(recording*32767).astype('<i2').tobytes())
+            subprocess.run(['ffmpeg','-v','error','-i',str(wav),'-filter_complex',
+                '[0:a]pan=4c|c0=c0|c1=c0|c2=c0|c3=c0[m];[0:a]pan=stereo|c0=c0|c1=c0[s]',
+                '-map','[m]','-map','[s]','-c:a','pcm_s16le','-f','mov',str(movie)],check=True)
+            decoded, selected = c.decode(movie)
+            self.assertEqual(selected,0)
+            self.assertGreater(len(decoded)/c.FS,180)
+            result = c.analyze(decoded)
+            self.assertAlmostEqual(result['hisense_later_than_audioengine_ms'],115,delta=2)
+
     def test_reverse_offset_delays_hisense(self):
         result = c.analyze(phone_recording(delays=(.120, .122, .020, .022), scale=.9999))
         self.assertEqual(result['add_delay_ms'], {'audioengine': 0, 'hisense': 100})
@@ -77,6 +94,16 @@ class PhoneCalibrationTests(unittest.TestCase):
     def test_reflection_stronger_than_direct_arrival(self):
         result = c.analyze(phone_recording(strong_echo=True))
         self.assertAlmostEqual(result['hisense_later_than_audioengine_ms'], 115, delta=2)
+
+    def test_weak_precursor_does_not_replace_substantial_arrival(self):
+        correlation = np.zeros(c.FS)
+        arrival = c.FS//2
+        correlation[arrival-round(.012*c.FS)] = .10
+        correlation[arrival] = .27
+        self.assertEqual(c.onset(correlation,arrival),arrival)
+        # A substantial earlier arrival still wins over a stronger reflection.
+        correlation[arrival-round(.018*c.FS)] = .17
+        self.assertEqual(c.onset(correlation,arrival),arrival-round(.018*c.FS))
 
     def test_missing_output_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'hisense_right'):

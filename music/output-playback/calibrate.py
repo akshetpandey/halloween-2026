@@ -23,6 +23,7 @@ CHANNELS = ('audioengine_left', 'audioengine_right', 'hisense_left', 'hisense_ri
 SCHEDULE = ((3, 12, 21, 66), (5, 14, 23), (7, 16, 25), (9, 18, 27))
 NOISE_START = (30, 38, 46, 54)
 DURATION = 69
+MAX_RECORDING_SECONDS = 300
 
 
 def marker(channel, rate=FS):
@@ -91,17 +92,21 @@ def generate(root):
 def decode(path):
     probe = json.loads(subprocess.check_output(['ffprobe', '-v', 'error', '-show_streams', '-show_format',
         '-of', 'json', str(path)]))
-    streams = [s for s in probe['streams'] if s['codec_type'] == 'audio']
-    if not streams:
+    audio_streams = [s for s in probe['streams'] if s['codec_type'] == 'audio']
+    if not audio_streams:
         raise ValueError('No audio stream in recording')
-    channels = streams[0]['channels']
-    if channels > 2:
+    streams = [s for s in audio_streams if 1 <= s.get('channels', 0) <= 2]
+    if not streams:
         raise ValueError('Export ordinary mono/stereo audio; spatial recordings are unsupported')
-    duration = float(streams[0].get('duration', probe.get('format',{}).get('duration',0)))
-    if duration > 180:
-        raise ValueError('Use a recording under three minutes, containing the entire 69-second test')
-    raw = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', str(path), '-map', '0:a:0',
-        '-t', '180', '-ar', str(FS), '-f', 'f32le', '-c:a', 'pcm_f32le', '-'])
+    stream = streams[0]
+    channels = stream['channels']
+    duration = float(stream.get('duration', probe.get('format',{}).get('duration',0)))
+    if duration > MAX_RECORDING_SECONDS:
+        raise ValueError('Use a recording under five minutes, containing the entire 69-second test')
+    # Voice Memos QTA can include both a stereo rendition and spatial audio.
+    # Decode the ordinary track explicitly; never downmix the spatial stream.
+    raw = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', str(path), '-map', f'0:{int(stream["index"])}',
+        '-t', str(MAX_RECORDING_SECONDS), '-ar', str(FS), '-f', 'f32le', '-c:a', 'pcm_f32le', '-'])
     audio = np.frombuffer(raw, dtype='<f4').reshape(-1, channels)
     # Avoid cancellation when a stereo phone recording has phase differences.
     selected = int(np.argmax(np.mean(audio.astype(float)**2, axis=0)))
@@ -123,8 +128,9 @@ def scores(audio, template):
 
 def onset(values, maximum):
     # Keep an earlier substantial arrival when a room reflection is stronger.
+    # A weak sidelobe of the coded marker is not evidence of a direct arrival.
     lo = max(0, maximum-round(.035*FS))
-    threshold = max(.08, values[maximum]*.35)
+    threshold = max(.12, values[maximum]*.35)
     found = np.flatnonzero(values[lo:maximum+1] >= threshold)
     return lo+int(found[0]) if len(found) else maximum
 

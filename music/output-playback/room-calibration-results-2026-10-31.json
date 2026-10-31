@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-31",
+  "scope": "relative stereo-system timing at the host-selected listening position",
+  "recording": {
+    "duration_seconds": 186.2766875,
+    "source_container": "QuickTime QTA",
+    "stream_used": "ordinary stereo AAC, 48 kHz",
+    "spatial_companion_used": false,
+    "microphone_channel_used": 1,
+    "fixed_gain_confirmed": false,
+    "clipped_fraction": 0.0,
+    "original_recording_committed": false
+  },
+  "measurement": {
+    "hisense_later_than_audioengine_ms": 79.13815583883444,
+    "recording_clock_ppm": 10.78,
+    "clock_fit_residual_ms": 0.020474137954806793,
+    "channel_arrivals": {
+      "audioengine_left": {
+        "relative_ms": -0.0032327237478035897,
+        "jitter_ms": 0.034482387039957985,
+        "detections": 4
+      },
+      "audioengine_right": {
+        "relative_ms": 0.283402118530951,
+        "jitter_ms": 0.09698171355587704,
+        "detections": 3
+      },
+      "hisense_left": {
+        "relative_ms": 79.47651426172442,
+        "jitter_ms": 1.2564519778761607,
+        "detections": 3
+      },
+      "hisense_right": {
+        "relative_ms": 79.0799668107276,
+        "jitter_ms": 1.0689539983328444,
+        "detections": 3
+      }
+    },
+    "minimum_marker_correlations": {
+      "audioengine_left": 0.54,
+      "audioengine_right": 0.279,
+      "hisense_left": 0.261,
+      "hisense_right": 0.408
+    },
+    "stereo_arrival_spread_ms": {
+      "audioengine": 0.29,
+      "hisense": 0.4
+    }
+  },
+  "applied": {
+    "audioengine_delay_ms": 79.0,
+    "hisense_delay_ms": 0.0,
+    "audioengine_gain_db": 0.0,
+    "hisense_gain_db": 0.0,
+    "eq_bands_enabled": 0,
+    "master_muted": true,
+    "stopped": true,
+    "hardware_outputs": 2,
+    "saved": true
+  },
+  "eq_decision": "Flat; no system-specific candidate met the conservative criteria. Unknown phone gain prevents automatic level matching; common response coloration is not an absolute room target.",
+  "validation": {
+    "analysis_regression_tests_passed": 15,
+    "native_parameter_readback": true,
+    "saved_project_readback": true,
+    "ui_saved_stopped_muted": true,
+    "post_correction_acoustic_recording": false,
+    "post_correction_listening_confirmed": false
+  }
+}

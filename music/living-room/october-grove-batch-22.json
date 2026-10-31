@@ -1,0 +1,1410 @@
+{
+  "batch_id": "22",
+  "name": "Batch 22 · Hooks, voices and bounce",
+  "room": "living-room",
+  "created_at": "2026-10-31T00:02:22Z",
+  "status": "Published to separate Spotify audition and atomically appended to hosted Playlist Lab. Fifteen exact unrated candidates, prior feedback/history preservation and unchanged main Spotify orders verified.",
+  "selection_policy": {
+    "authorization": "Host requests another batch, 15 this time. Both remaining Likes and targeted discovery authorized. No predictive model.",
+    "method": "Editorial selection using all 128 canonical Grove Keeps and 849 Cuts, including one new Keep and three explicitly close Cuts. Exact recording exclusions, full published song text, specific Keep/Cut comparisons, distinct lead artists; no inferred vote reasons or genre quotas.",
+    "brief": "Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving; personality, strong hooks and development. No acid/techno, chart-pop/top-five-hit character, sad/negative narrative, blandness, dragging repetition or standalone fragments. Existing individual Keeps remain approved.",
+    "evidence_limit": "Direct audio input unsupported. Musical fit and perceived development remain editorial hypotheses. Full text review is not exact-master transcription; metadata/provider matches are not listening or playback proofs."
+  },
+  "feedback_basis": {
+    "shared_grove_keep": 128,
+    "shared_grove_cut": 849,
+    "grove_pending_before_append": 0,
+    "canonical_library_records": 1627,
+    "archived_exclusion_records": 140,
+    "policy": "Canonical shared feedback resolves host priority; preserve individual histories",
+    "grove_21": "Lone Digger Keep; Hey Cowboy, Lets Go and The Golden Age remain Cuts explicitly described as very close. No exact failure reasons supplied."
+  },
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:1KhbRl7jNVVPzkuSkSTADs",
+      "spotify_url": "https://open.spotify.com/track/1KhbRl7jNVVPzkuSkSTADs",
+      "artist": "Caro Emerald",
+      "artists": [
+        "Caro Emerald"
+      ],
+      "artist_ids": [
+        "492hDmhPyuIjP3MgTcIqgm"
+      ],
+      "title": "Back It Up",
+      "album": "Deleted Scenes From The Cutting Room Floor",
+      "album_id": "7KYgUgJTrsxT4gkHRALi3R",
+      "duration_ms": 232804,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "NLHR30900005",
+      "release_date": "2010-01-29",
+      "popularity": 52,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:1KhbRl7jNVVPzkuSkSTADs",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 1,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Brassy invitation",
+      "style": [
+        "Brassy invitation"
+      ],
+      "features": {},
+      "keep_comparison": "A Night Like This; Lone Digger",
+      "cut_comparison": "Boogie 2Nite; Shake Your Coconuts",
+      "selection_hypothesis": "A vocal-led invitation with scat phrasing, bass/scratch interplay and a recurring brass-shaped hook. Test the changing vocal gestures and specific rhythmic grin alongside the approved Caro recording and Lone Digger.",
+      "cut_warning": "Retro gloss and a dance command alone did not save those Cuts. The same singer is evidence to compare, not an artist-wide approval.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Physical delight in music and dancing; flirtation and requests for bass/scratch breaks. No breakup or hostile narrative in the reviewed text.",
+        "source_url": "https://www.lyricskid.com/lyrics/caro-emerald-lyrics/back-it-up-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://www.caroemerald.com/our-songs/"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "The retro presentation could feel polished or novelty-led; decide whether the vocal and breaks stay engaging.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: A Night Like This; Lone Digger. A vocal-led invitation with scat phrasing, bass/scratch interplay and a recurring brass-shaped hook. Test the changing vocal gestures and specific rhythmic grin alongside the approved Caro recording and Lone Digger. Cut warning: Boogie 2Nite; Shake Your Coconuts. Retro gloss and a dance command alone did not save those Cuts. The same singer is evidence to compare, not an artist-wide approval. Lyrics: Physical delight in music and dancing; flirtation and requests for bass/scratch breaks. No breakup or hostile narrative in the reviewed text. Risk: The retro presentation could feel polished or novelty-led; decide whether the vocal and breaks stay engaging. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: A Night Like This; Lone Digger. A vocal-led invitation with scat phrasing, bass/scratch interplay and a recurring brass-shaped hook. Test the changing vocal gestures and specific rhythmic grin alongside the approved Caro recording and Lone Digger. Cut warning: Boogie 2Nite; Shake Your Coconuts. Retro gloss and a dance command alone did not save those Cuts. The same singer is evidence to compare, not an artist-wide approval. Lyrics: Physical delight in music and dancing; flirtation and requests for bass/scratch breaks. No breakup or hostile narrative in the reviewed text. Risk: The retro presentation could feel polished or novelty-led; decide whether the vocal and breaks stay engaging. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "492hDmhPyuIjP3MgTcIqgm": {
+          "name": "Caro Emerald",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:26Z",
+          "fetched_at": 1793404946.21832
+        }
+      },
+      "provider_note": "No sufficiently close YouTube title/artist/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:2Iq6HhIquO7JKr0KfTNLzU",
+      "spotify_url": "https://open.spotify.com/track/2Iq6HhIquO7JKr0KfTNLzU",
+      "artist": "Saint Motel",
+      "artists": [
+        "Saint Motel"
+      ],
+      "artist_ids": [
+        "1dWEYMPtNmvSVaDNLgB6NV"
+      ],
+      "title": "My Type",
+      "album": "My Type EP",
+      "album_id": "2r69WsAMyjbgLf8c4woaUr",
+      "duration_ms": 204811,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAYE1400856",
+      "release_date": "2014-08-16",
+      "popularity": 70,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:2Iq6HhIquO7JKr0KfTNLzU",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 2,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Indie brass hook",
+      "style": [
+        "Indie brass hook"
+      ],
+      "features": {},
+      "keep_comparison": "The Walker; HandClap",
+      "cut_comparison": "Move; Safe and Sound",
+      "selection_hypothesis": "A conspicuous horn motif and crooned, cheeky refrain give a concrete hook to test against the rhythmic Fitz Keeps. Published artist booking coverage describes horns, percussion and crooning; that supports the proposed comparison, not an audition verdict.",
+      "cut_warning": "Move is a direct same-artist Cut. Catchiness and indie-dance adjacency were also insufficient for Safe and Sound; this exact horn/vocal relationship must earn its place.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Comic flirtation with someone available; playful rather than committed romance. Includes a deliberately indiscriminate dating joke, not a sad-love narrative.",
+        "source_url": "https://www.lacoccinelle.net/1005394.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://www.highroadtouring.com/downloads/1025976/"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Recognizable radio crossover and a knowingly glib lyric; may still feel too commercial.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: The Walker; HandClap. A conspicuous horn motif and crooned, cheeky refrain give a concrete hook to test against the rhythmic Fitz Keeps. Published artist booking coverage describes horns, percussion and crooning; that supports the proposed comparison, not an audition verdict. Cut warning: Move; Safe and Sound. Move is a direct same-artist Cut. Catchiness and indie-dance adjacency were also insufficient for Safe and Sound; this exact horn/vocal relationship must earn its place. Lyrics: Comic flirtation with someone available; playful rather than committed romance. Includes a deliberately indiscriminate dating joke, not a sad-love narrative. Risk: Recognizable radio crossover and a knowingly glib lyric; may still feel too commercial. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: The Walker; HandClap. A conspicuous horn motif and crooned, cheeky refrain give a concrete hook to test against the rhythmic Fitz Keeps. Published artist booking coverage describes horns, percussion and crooning; that supports the proposed comparison, not an audition verdict. Cut warning: Move; Safe and Sound. Move is a direct same-artist Cut. Catchiness and indie-dance adjacency were also insufficient for Safe and Sound; this exact horn/vocal relationship must earn its place. Lyrics: Comic flirtation with someone available; playful rather than committed romance. Includes a deliberately indiscriminate dating joke, not a sad-love narrative. Risk: Recognizable radio crossover and a knowingly glib lyric; may still feel too commercial. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "1dWEYMPtNmvSVaDNLgB6NV": {
+          "name": "Saint Motel",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:23Z",
+          "fetched_at": 1793404943.520154
+        }
+      },
+      "provider_note": "Only soundtrack-titled YouTube candidates found; selected EP version uses exact Spotify fallback rather than assuming identical mastering.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:2gvM9vazIkAxaE7j0ynRGg",
+      "spotify_url": "https://open.spotify.com/track/2gvM9vazIkAxaE7j0ynRGg",
+      "artist": "Jamie Berry, Octavia Rose",
+      "artists": [
+        "Jamie Berry",
+        "Octavia Rose"
+      ],
+      "artist_ids": [
+        "5sM4cZ9MHihs0tbmkiE9n8",
+        "3jT2Zl57kYDK5qI8fkl1L9"
+      ],
+      "title": "Lost In The Rhythm",
+      "album": "Lost In The Rhythm",
+      "album_id": "57FuFBKk6VpbX91rKLC465",
+      "duration_ms": 186544,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBKQU1651288",
+      "release_date": "2016-05-17",
+      "popularity": 55,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:2gvM9vazIkAxaE7j0ynRGg",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 3,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Compact swing bounce",
+      "style": [
+        "Compact swing bounce"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; Would You...?",
+      "cut_comparison": "Shake Your Coconuts; Boogie 2Nite",
+      "selection_hypothesis": "A compact, fully sung dance-and-attraction scene with a defined refrain, proposed for the interplay of vocal melody and springy accompaniment. Choose the short original rather than a long club extension.",
+      "cut_warning": "Lone Digger does not authorize an electro-swing sweep. These Cuts warn that party words and a retro loop are insufficient; judge the tune and later-section interest.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Mutual attraction while dancing, wanting to stay together until dawn. The reviewed full text centers an enjoyable shared night.",
+        "source_url": "https://lyricstranslate.com/en/jamie-berry-lost-rhythm-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/2gvM9vazIkAxaE7j0ynRGg"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Loop/genre novelty risk; no proof by direct listening that every later section develops enough.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Lone Digger; Would You...?. A compact, fully sung dance-and-attraction scene with a defined refrain, proposed for the interplay of vocal melody and springy accompaniment. Choose the short original rather than a long club extension. Cut warning: Shake Your Coconuts; Boogie 2Nite. Lone Digger does not authorize an electro-swing sweep. These Cuts warn that party words and a retro loop are insufficient; judge the tune and later-section interest. Lyrics: Mutual attraction while dancing, wanting to stay together until dawn. The reviewed full text centers an enjoyable shared night. Risk: Loop/genre novelty risk; no proof by direct listening that every later section develops enough. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Lone Digger; Would You...?. A compact, fully sung dance-and-attraction scene with a defined refrain, proposed for the interplay of vocal melody and springy accompaniment. Choose the short original rather than a long club extension. Cut warning: Shake Your Coconuts; Boogie 2Nite. Lone Digger does not authorize an electro-swing sweep. These Cuts warn that party words and a retro loop are insufficient; judge the tune and later-section interest. Lyrics: Mutual attraction while dancing, wanting to stay together until dawn. The reviewed full text centers an enjoyable shared night. Risk: Loop/genre novelty risk; no proof by direct listening that every later section develops enough. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "5sM4cZ9MHihs0tbmkiE9n8": {
+          "name": "Jamie Berry",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:30Z",
+          "fetched_at": 1793404950.2439702
+        },
+        "3jT2Zl57kYDK5qI8fkl1L9": {
+          "name": "Octavia Rose",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:25Z",
+          "fetched_at": 1793404945.8095171
+        }
+      },
+      "youtube": {
+        "video_id": "NIH54-7lUEQ",
+        "title": "Lost In The Rhythm (feat. Octavia Rose)",
+        "channel": "Jamie Berry - Topic",
+        "duration_seconds": 187,
+        "url": "https://www.youtube.com/watch?v=NIH54-7lUEQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2gvM9vazIkAxaE7j0ynRGg",
+        "observed_at": "2026-10-31T00:02:47Z",
+        "alternatives": [
+          {
+            "video_id": "TYXHv97kbps",
+            "title": "#ElectroSwing | Jamie Berry Feat. Octavia Rose - Lost In the Rhythm",
+            "channel": "Funky Panda™",
+            "duration_seconds": 187,
+            "url": "https://www.youtube.com/watch?v=TYXHv97kbps",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2gvM9vazIkAxaE7j0ynRGg",
+            "observed_at": "2026-10-31T00:02:47Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:3Nsxlv9JESIFfOBbupIKOc",
+      "spotify_url": "https://open.spotify.com/track/3Nsxlv9JESIFfOBbupIKOc",
+      "artist": "Will Joseph Cook, chloe moriondo",
+      "artists": [
+        "Will Joseph Cook",
+        "chloe moriondo"
+      ],
+      "artist_ids": [
+        "3YO2a6i2cfdFbgxk2HDfPe",
+        "3P4vW5tzQvmuoNaFQqzy9q"
+      ],
+      "title": "Be Around Me (feat. chloe moriondo)",
+      "album": "Be Around Me (feat. chloe moriondo)",
+      "album_id": "2INWDEJAZUHqQOWwK2WUv1",
+      "duration_ms": 181249,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "UKY6X2100002",
+      "release_date": "2021-02-18",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:3Nsxlv9JESIFfOBbupIKOc",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 4,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Conversational crush",
+      "style": [
+        "Conversational crush"
+      ],
+      "features": {},
+      "keep_comparison": "Bruises; Mushaboom; I Like You Best",
+      "cut_comparison": "Fruity; Electric Love",
+      "selection_hypothesis": "The duet makes the crush conversational: alternating voices, an awkward but identifiable sung hook, and a mutual closing exchange. Test the lightness and melodic personality against the Chairlift/Feist Keeps.",
+      "cut_warning": "Fruity was cut despite a shared guest vocalist. Sweetness and a love lyric are insufficient, as Electric Love also shows; the particular duet and rhythm are the case.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "An awkward, sexual crush turns into a mutual pet-name exchange. Brief grey-sky/bad-night and self-doubt lines are resolved into wanting to be together; no breakup story.",
+        "source_url": "https://www.lyricskid.com/lyrics/will-joseph-cook-lyrics/be-around-me-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://www.thelineofbestfit.com/news/latest-news/will-joseph-cook-links-with-chloe-moriondo-on-new-version-of-be-around-me"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Light indie-pop production could feel too slight; lyric page covers the song, not a certified transcription of the duet master.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Bruises; Mushaboom; I Like You Best. The duet makes the crush conversational: alternating voices, an awkward but identifiable sung hook, and a mutual closing exchange. Test the lightness and melodic personality against the Chairlift/Feist Keeps. Cut warning: Fruity; Electric Love. Fruity was cut despite a shared guest vocalist. Sweetness and a love lyric are insufficient, as Electric Love also shows; the particular duet and rhythm are the case. Lyrics: An awkward, sexual crush turns into a mutual pet-name exchange. Brief grey-sky/bad-night and self-doubt lines are resolved into wanting to be together; no breakup story. Risk: Light indie-pop production could feel too slight; lyric page covers the song, not a certified transcription of the duet master. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Bruises; Mushaboom; I Like You Best. The duet makes the crush conversational: alternating voices, an awkward but identifiable sung hook, and a mutual closing exchange. Test the lightness and melodic personality against the Chairlift/Feist Keeps. Cut warning: Fruity; Electric Love. Fruity was cut despite a shared guest vocalist. Sweetness and a love lyric are insufficient, as Electric Love also shows; the particular duet and rhythm are the case. Lyrics: An awkward, sexual crush turns into a mutual pet-name exchange. Brief grey-sky/bad-night and self-doubt lines are resolved into wanting to be together; no breakup story. Risk: Light indie-pop production could feel too slight; lyric page covers the song, not a certified transcription of the duet master. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "3YO2a6i2cfdFbgxk2HDfPe": {
+          "name": "Will Joseph Cook",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:25Z",
+          "fetched_at": 1793404945.267576
+        },
+        "3P4vW5tzQvmuoNaFQqzy9q": {
+          "name": "chloe moriondo",
+          "genres": [
+            "bedroom pop",
+            "indie pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:24Z",
+          "fetched_at": 1793404944.858918
+        }
+      },
+      "youtube": {
+        "video_id": "TtEG06uuJKY",
+        "title": "Be Around Me (feat. chloe moriondo)",
+        "channel": "Will Joseph Cook",
+        "duration_seconds": 182,
+        "url": "https://www.youtube.com/watch?v=TtEG06uuJKY",
+        "match_basis": "Official artist upload explicitly names both singers/duet; title, artist and duration within 5s. Generic solo-titled candidate excluded. Metadata match only; verify by ear.",
+        "spotify_uri": "spotify:track:3Nsxlv9JESIFfOBbupIKOc",
+        "observed_at": "2026-10-31T00:02:50Z",
+        "alternatives": [
+          {
+            "video_id": "FfgKwjQJljI",
+            "title": "Be Around Me (feat. chloe moriondo)",
+            "channel": "Will Joseph Cook",
+            "duration_seconds": 182,
+            "url": "https://www.youtube.com/watch?v=FfgKwjQJljI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3Nsxlv9JESIFfOBbupIKOc",
+            "observed_at": "2026-10-31T00:02:50Z"
+          },
+          {
+            "video_id": "HGy1BNNaEn8",
+            "title": "Will Joseph Cook - Be Around Me (feat. chloe moriondo) [Official Video]",
+            "channel": "Will Joseph Cook",
+            "duration_seconds": 185,
+            "url": "https://www.youtube.com/watch?v=HGy1BNNaEn8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3Nsxlv9JESIFfOBbupIKOc",
+            "observed_at": "2026-10-31T00:02:50Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:0RcSJTdHGfRSq44FELapp3",
+      "spotify_url": "https://open.spotify.com/track/0RcSJTdHGfRSq44FELapp3",
+      "artist": "The Asteroids Galaxy Tour",
+      "artists": [
+        "The Asteroids Galaxy Tour"
+      ],
+      "artist_ids": [
+        "68g1s6VqLLLBI3tXR0Bb7C"
+      ],
+      "title": "Around the Bend",
+      "album": "Fruit",
+      "album_id": "3EZ7gOkpszSSAU0MFsA9Pv",
+      "duration_ms": 229880,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBWRR0800033",
+      "release_date": "2009-09-21",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:0RcSJTdHGfRSq44FELapp3",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 5,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Riff and hot-love refrain",
+      "style": [
+        "Riff and hot-love refrain"
+      ],
+      "features": {},
+      "keep_comparison": "Makeba - Radio Edit; HandClap",
+      "cut_comparison": "The Golden Age; Fascination",
+      "selection_hypothesis": "A distinctively pinched vocal and recurring riff/horn gestures propose a physical, flirtatious alternative to The Golden Age. Compare its short vocal phrases and instrumental answer to the percussive Jain/Fitz Keeps.",
+      "cut_warning": "The Golden Age was a very close Cut, not a Keep. Another recording by the band must improve the exact riff, vocal and movement for this listener; no reason for the earlier Cut was supplied.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Requests for good times and hot love, dawn and playful fruit imagery. The reviewed full text is sensual and celebratory.",
+        "source_url": "https://readdork.com/track/the-asteroids-galaxy-tour-around-the-bend-2008",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://music.apple.com/us/song/1852504206"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "The unusual voice and retro-commercial familiarity may still miss, just as the close predecessor did.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Makeba - Radio Edit; HandClap. A distinctively pinched vocal and recurring riff/horn gestures propose a physical, flirtatious alternative to The Golden Age. Compare its short vocal phrases and instrumental answer to the percussive Jain/Fitz Keeps. Cut warning: The Golden Age; Fascination. The Golden Age was a very close Cut, not a Keep. Another recording by the band must improve the exact riff, vocal and movement for this listener; no reason for the earlier Cut was supplied. Lyrics: Requests for good times and hot love, dawn and playful fruit imagery. The reviewed full text is sensual and celebratory. Risk: The unusual voice and retro-commercial familiarity may still miss, just as the close predecessor did. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Makeba - Radio Edit; HandClap. A distinctively pinched vocal and recurring riff/horn gestures propose a physical, flirtatious alternative to The Golden Age. Compare its short vocal phrases and instrumental answer to the percussive Jain/Fitz Keeps. Cut warning: The Golden Age; Fascination. The Golden Age was a very close Cut, not a Keep. Another recording by the band must improve the exact riff, vocal and movement for this listener; no reason for the earlier Cut was supplied. Lyrics: Requests for good times and hot love, dawn and playful fruit imagery. The reviewed full text is sensual and celebratory. Risk: The unusual voice and retro-commercial familiarity may still miss, just as the close predecessor did. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "68g1s6VqLLLBI3tXR0Bb7C": {
+          "name": "The Asteroids Galaxy Tour",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:30Z",
+          "fetched_at": 1793404950.755767
+        }
+      },
+      "youtube": {
+        "video_id": "labujGMNAEk",
+        "title": "Around the Bend",
+        "channel": "The Asteroids Galaxy Tour",
+        "duration_seconds": 230,
+        "url": "https://www.youtube.com/watch?v=labujGMNAEk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0RcSJTdHGfRSq44FELapp3",
+        "observed_at": "2026-10-31T00:02:50Z",
+        "alternatives": [
+          {
+            "video_id": "XoGMg6Uz8jg",
+            "title": "The Asteroids Galaxy Tour - Around The Bend (4K Official Video)",
+            "channel": "The Asteroids Galaxy Tour",
+            "duration_seconds": 229,
+            "url": "https://www.youtube.com/watch?v=XoGMg6Uz8jg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0RcSJTdHGfRSq44FELapp3",
+            "observed_at": "2026-10-31T00:02:50Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:3JTjLyrnevl9ASw3ayGO2P",
+      "spotify_url": "https://open.spotify.com/track/3JTjLyrnevl9ASw3ayGO2P",
+      "artist": "Superfruit",
+      "artists": [
+        "Superfruit"
+      ],
+      "artist_ids": [
+        "50VoYemccTaftNfFqWtlXd"
+      ],
+      "title": "GUY.exe",
+      "album": "Future Friends",
+      "album_id": "0Nq4Sve58GRDINSpbFMyz6",
+      "duration_ms": 222673,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USRC11701437",
+      "release_date": "2017-09-15",
+      "popularity": 69,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:3JTjLyrnevl9ASw3ayGO2P",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 6,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Theatrical ideal-lover pop",
+      "style": [
+        "Theatrical ideal-lover pop"
+      ],
+      "features": {},
+      "keep_comparison": "yes baby; make you mine; I Belong In Your Arms",
+      "cut_comparison": "Make Me Feel; Jealous (I Ain't With It)",
+      "selection_hypothesis": "A theatrical, highly specific ideal-lover lyric with a memorable spelled-out premise and vocal interplay. Test the grin and melodic payoff against the approved sensual pop songs, not a generic sexy label.",
+      "cut_warning": "Sexiness, polished production and a pronounced hook did not make those Cuts work. This is the batch's clearest pop-character risk; existing pop Keeps are individual exceptions, not a relaxation of the brief.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Playful fantasy about a kind, romantic, physically attractive man. Comments about high expectations set up the hopeful wishlist rather than a breakup or resentment story.",
+        "source_url": "https://lyricstranslate.com/en/superfruit-guyexe-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/3JTjLyrnevl9ASw3ayGO2P"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Glossy/viral pop character may be too close to the chart-pop quality the host wants to avoid.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: yes baby; make you mine; I Belong In Your Arms. A theatrical, highly specific ideal-lover lyric with a memorable spelled-out premise and vocal interplay. Test the grin and melodic payoff against the approved sensual pop songs, not a generic sexy label. Cut warning: Make Me Feel; Jealous (I Ain't With It). Sexiness, polished production and a pronounced hook did not make those Cuts work. This is the batch's clearest pop-character risk; existing pop Keeps are individual exceptions, not a relaxation of the brief. Lyrics: Playful fantasy about a kind, romantic, physically attractive man. Comments about high expectations set up the hopeful wishlist rather than a breakup or resentment story. Risk: Glossy/viral pop character may be too close to the chart-pop quality the host wants to avoid. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: yes baby; make you mine; I Belong In Your Arms. A theatrical, highly specific ideal-lover lyric with a memorable spelled-out premise and vocal interplay. Test the grin and melodic payoff against the approved sensual pop songs, not a generic sexy label. Cut warning: Make Me Feel; Jealous (I Ain't With It). Sexiness, polished production and a pronounced hook did not make those Cuts work. This is the batch's clearest pop-character risk; existing pop Keeps are individual exceptions, not a relaxation of the brief. Lyrics: Playful fantasy about a kind, romantic, physically attractive man. Comments about high expectations set up the hopeful wishlist rather than a breakup or resentment story. Risk: Glossy/viral pop character may be too close to the chart-pop quality the host wants to avoid. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "50VoYemccTaftNfFqWtlXd": {
+          "name": "Superfruit",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:28Z",
+          "fetched_at": 1793404948.398711
+        }
+      },
+      "youtube": {
+        "video_id": "UaZkkZ3vroM",
+        "title": "SUPERFRUIT - GUY.exe (Official Audio)",
+        "channel": "SUPERFRUIT",
+        "duration_seconds": 225,
+        "url": "https://www.youtube.com/watch?v=UaZkkZ3vroM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3JTjLyrnevl9ASw3ayGO2P",
+        "observed_at": "2026-10-31T00:02:49Z",
+        "alternatives": [
+          {
+            "video_id": "0NxFHMV6Das",
+            "title": "Superfruit - GUY.exe (Lyrics)",
+            "channel": "Rap Samurai",
+            "duration_seconds": 224,
+            "url": "https://www.youtube.com/watch?v=0NxFHMV6Das",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3JTjLyrnevl9ASw3ayGO2P",
+            "observed_at": "2026-10-31T00:02:49Z"
+          },
+          {
+            "video_id": "prS4_ekl5to",
+            "title": "Superfruit - GUY.exe (Lyrics)",
+            "channel": "ChillTracks",
+            "duration_seconds": 224,
+            "url": "https://www.youtube.com/watch?v=prS4_ekl5to",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3JTjLyrnevl9ASw3ayGO2P",
+            "observed_at": "2026-10-31T00:02:49Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:5v66oIlY1prS2Q4KUQgiwV",
+      "spotify_url": "https://open.spotify.com/track/5v66oIlY1prS2Q4KUQgiwV",
+      "artist": "Imelda May",
+      "artists": [
+        "Imelda May"
+      ],
+      "artist_ids": [
+        "6AnjHMqEAps8VJdHU8RykH"
+      ],
+      "title": "Johnny Got A Boom Boom",
+      "album": "Drive Home",
+      "album_id": "0JNiNGzzLk4EREarCIASpz",
+      "duration_ms": 179813,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBUM70816351",
+      "release_date": "2019-11-01",
+      "popularity": 40,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:5v66oIlY1prS2Q4KUQgiwV",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 7,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Bass-player flirt",
+      "style": [
+        "Bass-player flirt"
+      ],
+      "features": {},
+      "keep_comparison": "Would You...?; A Night Like This",
+      "cut_comparison": "Shake Your Coconuts; Dance Commander",
+      "selection_hypothesis": "A characterful sung portrait built around the physical sound of a bass and a compact hook. The proposed appeal is the vocal bite and instrumental response, with a three-minute complete-song arc.",
+      "cut_warning": "Novelty and dance-command attitude alone failed those Cuts. Rockabilly coloration is a new taste risk, not an inferred approved genre.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Cheeky admiration for a bass player and his physical rumble. Some rough/bad-boy language, but no sad or hostile relationship narrative.",
+        "source_url": "https://www.lyricskid.com/lyrics/imelda-may-lyrics/johnny-got-a-boom-boom-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/5v66oIlY1prS2Q4KUQgiwV"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Rockabilly voice and a repeated boom refrain may feel too stylized or repetitive.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Would You...?; A Night Like This. A characterful sung portrait built around the physical sound of a bass and a compact hook. The proposed appeal is the vocal bite and instrumental response, with a three-minute complete-song arc. Cut warning: Shake Your Coconuts; Dance Commander. Novelty and dance-command attitude alone failed those Cuts. Rockabilly coloration is a new taste risk, not an inferred approved genre. Lyrics: Cheeky admiration for a bass player and his physical rumble. Some rough/bad-boy language, but no sad or hostile relationship narrative. Risk: Rockabilly voice and a repeated boom refrain may feel too stylized or repetitive. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Would You...?; A Night Like This. A characterful sung portrait built around the physical sound of a bass and a compact hook. The proposed appeal is the vocal bite and instrumental response, with a three-minute complete-song arc. Cut warning: Shake Your Coconuts; Dance Commander. Novelty and dance-command attitude alone failed those Cuts. Rockabilly coloration is a new taste risk, not an inferred approved genre. Lyrics: Cheeky admiration for a bass player and his physical rumble. Some rough/bad-boy language, but no sad or hostile relationship narrative. Risk: Rockabilly voice and a repeated boom refrain may feel too stylized or repetitive. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "6AnjHMqEAps8VJdHU8RykH": {
+          "name": "Imelda May",
+          "genres": [
+            "rockabilly",
+            "psychobilly"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:31Z",
+          "fetched_at": 1793404951.16006
+        }
+      },
+      "provider_note": "No sufficiently close YouTube title/artist/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:1SniLCGHvhHJAiGe3hLboq",
+      "spotify_url": "https://open.spotify.com/track/1SniLCGHvhHJAiGe3hLboq",
+      "artist": "Laura Mvula",
+      "artists": [
+        "Laura Mvula"
+      ],
+      "artist_ids": [
+        "0Dy94lW3txJhWQHqNXP1BT"
+      ],
+      "title": "Green Garden",
+      "album": "Sing to the Moon",
+      "album_id": "6sWQlfb6ju6jG0z4oFPgVn",
+      "duration_ms": 249533,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBARL1202269",
+      "release_date": "2013-03-04",
+      "popularity": 42,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:1SniLCGHvhHJAiGe3hLboq",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 8,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Layered vocal rhythm",
+      "style": [
+        "Layered vocal rhythm"
+      ],
+      "features": {},
+      "keep_comparison": "Heart It Races; Mushaboom; Makeba - Radio Edit",
+      "cut_comparison": "Dog Days Are Over; Tightrope (feat. Big Boi) - Big Boi Vocal Edit",
+      "selection_hypothesis": "A percussive sung motif and layered vocal answers propose melody with bodily movement and a distinctive voice. The outdoor imagery is supporting mood, not the selection reason.",
+      "cut_warning": "An uplifting lyric, striking singer or rhythmic arrangement did not suffice for those Cuts. Test whether the vocal layers lift the room rather than reading as restrained art-pop.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Outdoor refreshment, dancing, following someone loved and being content together. The full published text centers connection and enjoyment, not loss.",
+        "source_url": "https://lyricstranslate.com/en/laura-mvula-green-garden-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/1SniLCGHvhHJAiGe3hLboq"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Four-minute length and restrained passages may reduce perceived energy; no measured or heard development guarantee.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Heart It Races; Mushaboom; Makeba - Radio Edit. A percussive sung motif and layered vocal answers propose melody with bodily movement and a distinctive voice. The outdoor imagery is supporting mood, not the selection reason. Cut warning: Dog Days Are Over; Tightrope (feat. Big Boi) - Big Boi Vocal Edit. An uplifting lyric, striking singer or rhythmic arrangement did not suffice for those Cuts. Test whether the vocal layers lift the room rather than reading as restrained art-pop. Lyrics: Outdoor refreshment, dancing, following someone loved and being content together. The full published text centers connection and enjoyment, not loss. Risk: Four-minute length and restrained passages may reduce perceived energy; no measured or heard development guarantee. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Heart It Races; Mushaboom; Makeba - Radio Edit. A percussive sung motif and layered vocal answers propose melody with bodily movement and a distinctive voice. The outdoor imagery is supporting mood, not the selection reason. Cut warning: Dog Days Are Over; Tightrope (feat. Big Boi) - Big Boi Vocal Edit. An uplifting lyric, striking singer or rhythmic arrangement did not suffice for those Cuts. Test whether the vocal layers lift the room rather than reading as restrained art-pop. Lyrics: Outdoor refreshment, dancing, following someone loved and being content together. The full published text centers connection and enjoyment, not loss. Risk: Four-minute length and restrained passages may reduce perceived energy; no measured or heard development guarantee. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "0Dy94lW3txJhWQHqNXP1BT": {
+          "name": "Laura Mvula",
+          "genres": [
+            "neo soul"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:23Z",
+          "fetched_at": 1793404943.008995
+        }
+      },
+      "youtube": {
+        "video_id": "pPdtWa91IHk",
+        "title": "Green Garden",
+        "channel": "Laura Mvula",
+        "duration_seconds": 253,
+        "url": "https://www.youtube.com/watch?v=pPdtWa91IHk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1SniLCGHvhHJAiGe3hLboq",
+        "observed_at": "2026-10-31T00:02:52Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:0KImgqEoQLKgEeX1yAB2St",
+      "spotify_url": "https://open.spotify.com/track/0KImgqEoQLKgEeX1yAB2St",
+      "artist": "Alice Francis",
+      "artists": [
+        "Alice Francis"
+      ],
+      "artist_ids": [
+        "6RcdUNNARXB9coQqgHyqFA"
+      ],
+      "title": "St. James Ballroom",
+      "album": "St. James Ballroom",
+      "album_id": "46wbJKiMEFOoedTQHYHeEy",
+      "duration_ms": 267480,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEUM71201221",
+      "release_date": "2012-01-01",
+      "popularity": 38,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:0KImgqEoQLKgEeX1yAB2St",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 9,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Flirting on the dance floor",
+      "style": [
+        "Flirting on the dance floor"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; A Night Like This; Would You...?",
+      "cut_comparison": "Boogie 2Nite; Shake Your Coconuts",
+      "selection_hypothesis": "A specific ballroom-flirt scene with a sung melody, characterful diction and recurring brass/reed punctuation. Test the vocal story and instrumental answer, rather than approving a swing genre.",
+      "cut_warning": "The prior retro pass failed. Party setting and vintage timbre cannot substitute for a convincing hook and a later section that holds attention.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Dancing, flirtation and kissing at the ballroom; an enjoyable encounter in the published text. Exact Spotify-master transcription has not been certified.",
+        "source_url": "https://lrclib.net/api/get/21312981",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/0KImgqEoQLKgEeX1yAB2St"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "At 4:27 this must justify its length; novelty, repetition and retro styling are real risks.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Lone Digger; A Night Like This; Would You...?. A specific ballroom-flirt scene with a sung melody, characterful diction and recurring brass/reed punctuation. Test the vocal story and instrumental answer, rather than approving a swing genre. Cut warning: Boogie 2Nite; Shake Your Coconuts. The prior retro pass failed. Party setting and vintage timbre cannot substitute for a convincing hook and a later section that holds attention. Lyrics: Dancing, flirtation and kissing at the ballroom; an enjoyable encounter in the published text. Exact Spotify-master transcription has not been certified. Risk: At 4:27 this must justify its length; novelty, repetition and retro styling are real risks. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Lone Digger; A Night Like This; Would You...?. A specific ballroom-flirt scene with a sung melody, characterful diction and recurring brass/reed punctuation. Test the vocal story and instrumental answer, rather than approving a swing genre. Cut warning: Boogie 2Nite; Shake Your Coconuts. The prior retro pass failed. Party setting and vintage timbre cannot substitute for a convincing hook and a later section that holds attention. Lyrics: Dancing, flirtation and kissing at the ballroom; an enjoyable encounter in the published text. Exact Spotify-master transcription has not been certified. Risk: At 4:27 this must justify its length; novelty, repetition and retro styling are real risks. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "6RcdUNNARXB9coQqgHyqFA": {
+          "name": "Alice Francis",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:31Z",
+          "fetched_at": 1793404951.5855622
+        }
+      },
+      "provider_note": "No sufficiently close YouTube title/artist/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:2Cgue7bEuWcaZak5BTSnE9",
+      "spotify_url": "https://open.spotify.com/track/2Cgue7bEuWcaZak5BTSnE9",
+      "artist": "Matt and Kim",
+      "artists": [
+        "Matt and Kim"
+      ],
+      "artist_ids": [
+        "4MSMDY0ClgWqXApU53I1L1"
+      ],
+      "title": "It's Alright",
+      "album": "Lightning",
+      "album_id": "3m7S5yuco3JZiFtoCciSwm",
+      "duration_ms": 203946,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US4HB1200018",
+      "release_date": "2012-10-02",
+      "popularity": 38,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:2Cgue7bEuWcaZak5BTSnE9",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 10,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Reassuring indie hook",
+      "style": [
+        "Reassuring indie hook"
+      ],
+      "features": {},
+      "keep_comparison": "Daylight; Anna Sun; Come Together",
+      "cut_comparison": "Let's Go; Something Good Can Work",
+      "selection_hypothesis": "A direct sung reassurance and rooftop-together scene propose a different melodic contour and hook from Let's Go, retaining the everyday exuberance worth comparing with Daylight.",
+      "cut_warning": "Let's Go was a very close Cut, not evidence that all Matt and Kim works. Brisk indie rhythm alone also failed Something Good Can Work; compare the exact refrain and emotional lift.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Brief uncertainty about direction gives way to belief, reassurance and connection. Main frame is affirmative; not every line is literally positive.",
+        "source_url": "https://www.vagalume.com.br/matt-kim/its-alright.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://www.thefader.com/2012/10/08/fader-label-watch-lyric-videos-for-the-entire-matt-kim-album"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "The same vocal timbre may remain the obstacle; the host has not identified why Let's Go fell short.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Daylight; Anna Sun; Come Together. A direct sung reassurance and rooftop-together scene propose a different melodic contour and hook from Let's Go, retaining the everyday exuberance worth comparing with Daylight. Cut warning: Let's Go; Something Good Can Work. Let's Go was a very close Cut, not evidence that all Matt and Kim works. Brisk indie rhythm alone also failed Something Good Can Work; compare the exact refrain and emotional lift. Lyrics: Brief uncertainty about direction gives way to belief, reassurance and connection. Main frame is affirmative; not every line is literally positive. Risk: The same vocal timbre may remain the obstacle; the host has not identified why Let's Go fell short. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Daylight; Anna Sun; Come Together. A direct sung reassurance and rooftop-together scene propose a different melodic contour and hook from Let's Go, retaining the everyday exuberance worth comparing with Daylight. Cut warning: Let's Go; Something Good Can Work. Let's Go was a very close Cut, not evidence that all Matt and Kim works. Brisk indie rhythm alone also failed Something Good Can Work; compare the exact refrain and emotional lift. Lyrics: Brief uncertainty about direction gives way to belief, reassurance and connection. Main frame is affirmative; not every line is literally positive. Risk: The same vocal timbre may remain the obstacle; the host has not identified why Let's Go fell short. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "4MSMDY0ClgWqXApU53I1L1": {
+          "name": "Matt and Kim",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:26Z",
+          "fetched_at": 1793404946.672108
+        }
+      },
+      "youtube": {
+        "video_id": "t8_GMyz4emU",
+        "title": "It's Alright",
+        "channel": "Matt and Kim",
+        "duration_seconds": 204,
+        "url": "https://www.youtube.com/watch?v=t8_GMyz4emU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2Cgue7bEuWcaZak5BTSnE9",
+        "observed_at": "2026-10-31T00:02:54Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:1M7DTtrPwsh80bQnSZFANW",
+      "spotify_url": "https://open.spotify.com/track/1M7DTtrPwsh80bQnSZFANW",
+      "artist": "C2C, Derek Martin",
+      "artists": [
+        "C2C",
+        "Derek Martin"
+      ],
+      "artist_ids": [
+        "28INUgyzTTRbvSphrJbgZ2",
+        "4wmdEPqPmm4Lj4FdZtQv6S"
+      ],
+      "title": "Happy",
+      "album": "Tetra",
+      "album_id": "61XR1JvHsYvYxEj595VeLt",
+      "duration_ms": 234640,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR9T31200012",
+      "release_date": "2012-01-01",
+      "popularity": 49,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:1M7DTtrPwsh80bQnSZFANW",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 11,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Soul voice and cut-up rhythm",
+      "style": [
+        "Soul voice and cut-up rhythm"
+      ],
+      "features": {},
+      "keep_comparison": "HandClap; Lone Digger; Makeba - Radio Edit",
+      "cut_comparison": "GOOD TIMES; Shake Your Coconuts",
+      "selection_hypothesis": "A forceful soul vocal set against turntable-shaped rhythmic edits proposes an identifiable voice and rhythmic surprises, not a generic upbeat descriptor. Test its musical interruptions and hook against the percussive Keeps.",
+      "cut_warning": "Those Cuts show that a happy title, retro sound and dance energy are insufficient. The repeated exhortation must feel animated rather than wear out.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Encouragement to try, participate and find happiness together. Negative grammar introduces an affirmative call to action, not a sad narrative.",
+        "source_url": "https://s.awa.fm/track/5fe29af2153dfbbc7361",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://vimeo.com/55310113"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "An intentionally repeated vocal exhortation; judge whether the production provides enough development.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: HandClap; Lone Digger; Makeba - Radio Edit. A forceful soul vocal set against turntable-shaped rhythmic edits proposes an identifiable voice and rhythmic surprises, not a generic upbeat descriptor. Test its musical interruptions and hook against the percussive Keeps. Cut warning: GOOD TIMES; Shake Your Coconuts. Those Cuts show that a happy title, retro sound and dance energy are insufficient. The repeated exhortation must feel animated rather than wear out. Lyrics: Encouragement to try, participate and find happiness together. Negative grammar introduces an affirmative call to action, not a sad narrative. Risk: An intentionally repeated vocal exhortation; judge whether the production provides enough development. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: HandClap; Lone Digger; Makeba - Radio Edit. A forceful soul vocal set against turntable-shaped rhythmic edits proposes an identifiable voice and rhythmic surprises, not a generic upbeat descriptor. Test its musical interruptions and hook against the percussive Keeps. Cut warning: GOOD TIMES; Shake Your Coconuts. Those Cuts show that a happy title, retro sound and dance energy are insufficient. The repeated exhortation must feel animated rather than wear out. Lyrics: Encouragement to try, participate and find happiness together. Negative grammar introduces an affirmative call to action, not a sad narrative. Risk: An intentionally repeated vocal exhortation; judge whether the production provides enough development. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "28INUgyzTTRbvSphrJbgZ2": {
+          "name": "C2C",
+          "genres": [
+            "electro swing"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:23Z",
+          "fetched_at": 1793404943.974428
+        },
+        "4wmdEPqPmm4Lj4FdZtQv6S": {
+          "name": "Derek Martin",
+          "genres": [
+            "northern soul",
+            "classic soul"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:27Z",
+          "fetched_at": 1793404947.9264262
+        }
+      },
+      "youtube": {
+        "video_id": "_dX9zMPPomw",
+        "title": "C2C - Happy (feat. Derek Martin)",
+        "channel": "C2Cdjsofficial",
+        "duration_seconds": 235,
+        "url": "https://www.youtube.com/watch?v=_dX9zMPPomw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1M7DTtrPwsh80bQnSZFANW",
+        "observed_at": "2026-10-31T00:02:55Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:0tLwe28zupkUQMpoXIDgX2",
+      "spotify_url": "https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2",
+      "artist": "Vulfpeck, Theo Katzman, Christine Hucal, Mark Dover",
+      "artists": [
+        "Vulfpeck",
+        "Theo Katzman",
+        "Christine Hucal",
+        "Mark Dover"
+      ],
+      "artist_ids": [
+        "7pXu47GoqSYRajmBCjxdD6",
+        "2a4lU7F8toqKpb5v6Ftqya",
+        "5dgmwbLZhKGY3sCtCgx30i",
+        "5OmBeICd2g1FZUhiQM14WW"
+      ],
+      "title": "Back Pocket",
+      "album": "Thrill of the Arts",
+      "album_id": "5ssCRF6doIj5IpM6w8EsXx",
+      "duration_ms": 181259,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "TCACH1515840",
+      "release_date": "2015-10-09",
+      "popularity": 64,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:0tLwe28zupkUQMpoXIDgX2",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 12,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Playful funk love note",
+      "style": [
+        "Playful funk love note"
+      ],
+      "features": {},
+      "keep_comparison": "Mushaboom; Bruises; Ordinary Pleasure",
+      "cut_comparison": "Overnight; Squeeze Me",
+      "selection_hypothesis": "A childhood note-passing scene, alternating voices and a separate clarinet-trio ending provide specific personality and section changes to test. Official artist credits establish vocals, bass, Wurlitzer, congas and clarinet arrangement.",
+      "cut_warning": "Musicianship and neat funk production did not save Overnight or Squeeze Me. Test the sung story and change of texture, not the reputation of the players.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Shy school-age affection, a note asking for mutual interest and a playground kiss. Acknowledging a delayed confession is wistful setup, not a breakup plot.",
+        "source_url": "https://www.lyricskid.com/lyrics/vulfpeck-lyrics/back-pocket-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://www.youtube.com/watch?v=r5pYL-Y--To"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Soft falsetto and a gentler ending may feel insufficiently energetic; original studio recording, not a concert version.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Mushaboom; Bruises; Ordinary Pleasure. A childhood note-passing scene, alternating voices and a separate clarinet-trio ending provide specific personality and section changes to test. Official artist credits establish vocals, bass, Wurlitzer, congas and clarinet arrangement. Cut warning: Overnight; Squeeze Me. Musicianship and neat funk production did not save Overnight or Squeeze Me. Test the sung story and change of texture, not the reputation of the players. Lyrics: Shy school-age affection, a note asking for mutual interest and a playground kiss. Acknowledging a delayed confession is wistful setup, not a breakup plot. Risk: Soft falsetto and a gentler ending may feel insufficiently energetic; original studio recording, not a concert version. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Mushaboom; Bruises; Ordinary Pleasure. A childhood note-passing scene, alternating voices and a separate clarinet-trio ending provide specific personality and section changes to test. Official artist credits establish vocals, bass, Wurlitzer, congas and clarinet arrangement. Cut warning: Overnight; Squeeze Me. Musicianship and neat funk production did not save Overnight or Squeeze Me. Test the sung story and change of texture, not the reputation of the players. Lyrics: Shy school-age affection, a note asking for mutual interest and a playground kiss. Acknowledging a delayed confession is wistful setup, not a breakup plot. Risk: Soft falsetto and a gentler ending may feel insufficiently energetic; original studio recording, not a concert version. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "7pXu47GoqSYRajmBCjxdD6": {
+          "name": "Vulfpeck",
+          "genres": [
+            "funk",
+            "funk rock"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:31Z",
+          "fetched_at": 1793404951.986219
+        },
+        "2a4lU7F8toqKpb5v6Ftqya": {
+          "name": "Theo Katzman",
+          "genres": [
+            "retro soul"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:24Z",
+          "fetched_at": 1793404944.393877
+        },
+        "5dgmwbLZhKGY3sCtCgx30i": {
+          "name": "Christine Hucal",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:29Z",
+          "fetched_at": 1793404949.6762612
+        },
+        "5OmBeICd2g1FZUhiQM14WW": {
+          "name": "Mark Dover",
+          "genres": [
+            "chamber music",
+            "ragtime"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:29Z",
+          "fetched_at": 1793404949.273846
+        }
+      },
+      "youtube": {
+        "video_id": "rJpBhVWDdPs",
+        "title": "Back Pocket",
+        "channel": "Vulfpeck - Topic",
+        "duration_seconds": 182,
+        "url": "https://www.youtube.com/watch?v=rJpBhVWDdPs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0tLwe28zupkUQMpoXIDgX2",
+        "observed_at": "2026-10-31T00:02:56Z",
+        "alternatives": [
+          {
+            "video_id": "r5pYL-Y--To",
+            "title": "VULFPECK /// Back Pocket (Lyric Video)",
+            "channel": "Vulf",
+            "duration_seconds": 182,
+            "url": "https://www.youtube.com/watch?v=r5pYL-Y--To",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0tLwe28zupkUQMpoXIDgX2",
+            "observed_at": "2026-10-31T00:02:56Z"
+          },
+          {
+            "video_id": "QJxaItw0YEc",
+            "title": "VULFPECK /// Back Pocket (Recording Session)",
+            "channel": "Vulf",
+            "duration_seconds": 186,
+            "url": "https://www.youtube.com/watch?v=QJxaItw0YEc",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0tLwe28zupkUQMpoXIDgX2",
+            "observed_at": "2026-10-31T00:02:56Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:3yCicwnQADPU1J3c9AALIE",
+      "spotify_url": "https://open.spotify.com/track/3yCicwnQADPU1J3c9AALIE",
+      "artist": "The Cat Empire",
+      "artists": [
+        "The Cat Empire"
+      ],
+      "artist_ids": [
+        "023YMawCG3OvACmRjWxLWC"
+      ],
+      "title": "Brighter Than Gold",
+      "album": "Steal the Light",
+      "album_id": "5w64K1pnfAYX7QBnAW76ga",
+      "duration_ms": 200293,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "TCABN1348492",
+      "release_date": "2013-05-17",
+      "popularity": 48,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:3yCicwnQADPU1J3c9AALIE",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 13,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Joyful night parade",
+      "style": [
+        "Joyful night parade"
+      ],
+      "features": {},
+      "keep_comparison": "Makeba - Radio Edit; The Walker; Lone Digger",
+      "cut_comparison": "Fascination; Shake Your Coconuts",
+      "selection_hypothesis": "A compact parade-like song with communal vocal gestures and a brass/percussion premise, proposed for a different melodic hook from the electronic and indie candidates.",
+      "cut_warning": "Communal cheer and a busy arrangement alone did not retain those Cuts. Test the exact vocal melody and rhythmic spring, not a festival or world-music label.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Surreal nighttime parade, mutual love, togetherness and a refrain of brightness. Saints/sinners/flood imagery is present, but the central frame is celebration.",
+        "source_url": "https://songstranslation.com/the-cat-empire/brighter-than-gold/",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/3yCicwnQADPU1J3c9AALIE"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Boisterous band character or novelty may not suit the room, even with the positive communal story.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Makeba - Radio Edit; The Walker; Lone Digger. A compact parade-like song with communal vocal gestures and a brass/percussion premise, proposed for a different melodic hook from the electronic and indie candidates. Cut warning: Fascination; Shake Your Coconuts. Communal cheer and a busy arrangement alone did not retain those Cuts. Test the exact vocal melody and rhythmic spring, not a festival or world-music label. Lyrics: Surreal nighttime parade, mutual love, togetherness and a refrain of brightness. Saints/sinners/flood imagery is present, but the central frame is celebration. Risk: Boisterous band character or novelty may not suit the room, even with the positive communal story. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Makeba - Radio Edit; The Walker; Lone Digger. A compact parade-like song with communal vocal gestures and a brass/percussion premise, proposed for a different melodic hook from the electronic and indie candidates. Cut warning: Fascination; Shake Your Coconuts. Communal cheer and a busy arrangement alone did not retain those Cuts. Test the exact vocal melody and rhythmic spring, not a festival or world-music label. Lyrics: Surreal nighttime parade, mutual love, togetherness and a refrain of brightness. Saints/sinners/flood imagery is present, but the central frame is celebration. Risk: Boisterous band character or novelty may not suit the room, even with the positive communal story. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "023YMawCG3OvACmRjWxLWC": {
+          "name": "The Cat Empire",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:22Z",
+          "fetched_at": 1793404942.492718
+        }
+      },
+      "youtube": {
+        "video_id": "z9HOIhQJAbU",
+        "title": "Brighter Than Gold",
+        "channel": "The Cat Empire",
+        "duration_seconds": 201,
+        "url": "https://www.youtube.com/watch?v=z9HOIhQJAbU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3yCicwnQADPU1J3c9AALIE",
+        "observed_at": "2026-10-31T00:02:57Z",
+        "alternatives": [
+          {
+            "video_id": "I8viuO8lw_8",
+            "title": "The Cat Empire - Brighter Than Gold (Official Audio)",
+            "channel": "The Cat Empire",
+            "duration_seconds": 201,
+            "url": "https://www.youtube.com/watch?v=I8viuO8lw_8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3yCicwnQADPU1J3c9AALIE",
+            "observed_at": "2026-10-31T00:02:57Z"
+          },
+          {
+            "video_id": "QM_rIaUm7ac",
+            "title": "The Cat Empire - Brighter Than Gold (Official Video)",
+            "channel": "The Cat Empire",
+            "duration_seconds": 199,
+            "url": "https://www.youtube.com/watch?v=QM_rIaUm7ac",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3yCicwnQADPU1J3c9AALIE",
+            "observed_at": "2026-10-31T00:02:57Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:2BuTposwmSKxFBgEoi4jES",
+      "spotify_url": "https://open.spotify.com/track/2BuTposwmSKxFBgEoi4jES",
+      "artist": "Deee-Lite",
+      "artists": [
+        "Deee-Lite"
+      ],
+      "artist_ids": [
+        "4eQJIXFEujzhTVVS1gIfu5"
+      ],
+      "title": "Power of Love",
+      "album": "World Clique",
+      "album_id": "4sTAgYLZy5zwqR3kT1g0oh",
+      "duration_ms": 281760,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USEE19000010",
+      "release_date": "1990-08-07",
+      "popularity": 34,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:2BuTposwmSKxFBgEoi4jES",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 14,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Sung dance-floor affirmation",
+      "style": [
+        "Sung dance-floor affirmation"
+      ],
+      "features": {},
+      "keep_comparison": "Groove Is in the Heart; One Life Stand; Free Yourself",
+      "cut_comparison": "Happy House - Radio Edit; Over And Over - Radio Edit",
+      "selection_hypothesis": "A fully sung belief-in-love refrain and question/answer passages propose a particular vocal lift inside a dance groove. Compare its warmth and melodic answers, not simply the same band or decade.",
+      "cut_warning": "Those Cuts warn against trusting positive house labels and repeated phrases. At 4:42 this is a deliberately exposed length/repetition risk; same-artist Keep does not waive it.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Belief in love, generosity, warmth toward strangers and opening the heart. The full text is affirmative and communal.",
+        "source_url": "https://readdork.com/lyrics/deee-lite-power-of-love-1990",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/2BuTposwmSKxFBgEoi4jES"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "Longer club structure and a repeated affirmation may drag; original World Clique version, not the remix-version search result.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Groove Is in the Heart; One Life Stand; Free Yourself. A fully sung belief-in-love refrain and question/answer passages propose a particular vocal lift inside a dance groove. Compare its warmth and melodic answers, not simply the same band or decade. Cut warning: Happy House - Radio Edit; Over And Over - Radio Edit. Those Cuts warn against trusting positive house labels and repeated phrases. At 4:42 this is a deliberately exposed length/repetition risk; same-artist Keep does not waive it. Lyrics: Belief in love, generosity, warmth toward strangers and opening the heart. The full text is affirmative and communal. Risk: Longer club structure and a repeated affirmation may drag; original World Clique version, not the remix-version search result. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Groove Is in the Heart; One Life Stand; Free Yourself. A fully sung belief-in-love refrain and question/answer passages propose a particular vocal lift inside a dance groove. Compare its warmth and melodic answers, not simply the same band or decade. Cut warning: Happy House - Radio Edit; Over And Over - Radio Edit. Those Cuts warn against trusting positive house labels and repeated phrases. At 4:42 this is a deliberately exposed length/repetition risk; same-artist Keep does not waive it. Lyrics: Belief in love, generosity, warmth toward strangers and opening the heart. The full text is affirmative and communal. Risk: Longer club structure and a repeated affirmation may drag; original World Clique version, not the remix-version search result. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "4eQJIXFEujzhTVVS1gIfu5": {
+          "name": "Deee-Lite",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:27Z",
+          "fetched_at": 1793404947.228075
+        }
+      },
+      "youtube": {
+        "video_id": "cmPEtyBgZ7w",
+        "title": "Power of Love",
+        "channel": "Deee-Lite",
+        "duration_seconds": 282,
+        "url": "https://www.youtube.com/watch?v=cmPEtyBgZ7w",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2BuTposwmSKxFBgEoi4jES",
+        "observed_at": "2026-10-31T00:02:57Z",
+        "alternatives": [
+          {
+            "video_id": "aoYSqdVmJn0",
+            "title": "Power of Love",
+            "channel": "Deee-Lite",
+            "duration_seconds": 281,
+            "url": "https://www.youtube.com/watch?v=aoYSqdVmJn0",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2BuTposwmSKxFBgEoi4jES",
+            "observed_at": "2026-10-31T00:02:57Z"
+          },
+          {
+            "video_id": "44b0l9uyMJ0",
+            "title": "Power of Love",
+            "channel": "Deee-Lite",
+            "duration_seconds": 281,
+            "url": "https://www.youtube.com/watch?v=44b0l9uyMJ0",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2BuTposwmSKxFBgEoi4jES",
+            "observed_at": "2026-10-31T00:02:57Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    },
+    {
+      "spotify_uri": "spotify:track:1izPMkjRj9CxAA7jXvPw72",
+      "spotify_url": "https://open.spotify.com/track/1izPMkjRj9CxAA7jXvPw72",
+      "artist": "YACHT",
+      "artists": [
+        "YACHT"
+      ],
+      "artist_ids": [
+        "57anmI1X2hXWPrNagFdzZr"
+      ],
+      "title": "Psychic City (Voodoo City)",
+      "album": "See Mystery Lights",
+      "album_id": "1o8B53bVTUiEzlqTKTO2Bp",
+      "duration_ms": 307120,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US4GE0900049",
+      "release_date": "2009-07-28",
+      "popularity": 36,
+      "metadata_at": "2026-10-31T00:02:22Z",
+      "is_playable": true,
+      "id": "spotify:track:1izPMkjRj9CxAA7jXvPw72",
+      "room": "living-room",
+      "batch_id": "22",
+      "batch_name": "Batch 22 · Hooks, voices and bounce",
+      "batch_rank": 15,
+      "origin": "Grove 22 · targeted discovery",
+      "lane": "Whimsical party invitation",
+      "style": [
+        "Whimsical party invitation"
+      ],
+      "features": {},
+      "keep_comparison": "Heart It Races; Great DJ; Audacity of Huge",
+      "cut_comparison": "Salted Caramel Ice Cream; Safari Disco Club",
+      "selection_hypothesis": "Three whimsical city scenes turn into a concrete party invitation and mutual-love payoff. Test the voice, odd little narrative and rhythmic hook beside the more eccentric Keeps.",
+      "cut_warning": "Quirky indie-electronic personality did not retain those Cuts. This is the one five-minute candidate; the story alone cannot excuse an unchanging musical loop.",
+      "mood_screen": {
+        "status": "published full song text reviewed; no exact-master transcription claim",
+        "summary": "Playful imagined places, friends bringing food, an open party invitation, mutual love and dreams fulfilled. No sad relationship narrative in the reviewed full text.",
+        "source_url": "https://lyricstranslate.com/en/yacht-psychic-city-lyrics.html",
+        "observed_at": "2026-10-31T00:02:22Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not a listening verdict",
+        "listening_status": "Audio input unsupported in this text session; no direct listening claimed",
+        "context_method": "Published song text and catalog/source context; musical comparison remains editorial inference, not audio analysis.",
+        "source_url": "https://open.spotify.com/track/1izPMkjRj9CxAA7jXvPw72"
+      },
+      "source_version_note": "Full standalone original studio recording; no mixed-set fragment, cover, speed change or live version.",
+      "audition_risk": "5:07 and deliberately repetitive; full original chosen because the nominal radio edit was also about five minutes, not assumed shorter.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial listening hypothesis"
+      ],
+      "editorial_note": "Keep comparisons: Heart It Races; Great DJ; Audacity of Huge. Three whimsical city scenes turn into a concrete party invitation and mutual-love payoff. Test the voice, odd little narrative and rhythmic hook beside the more eccentric Keeps. Cut warning: Salted Caramel Ice Cream; Safari Disco Club. Quirky indie-electronic personality did not retain those Cuts. This is the one five-minute candidate; the story alone cannot excuse an unchanging musical loop. Lyrics: Playful imagined places, friends bringing food, an open party invitation, mutual love and dreams fulfilled. No sad relationship narrative in the reviewed full text. Risk: 5:07 and deliberately repetitive; full original chosen because the nominal radio edit was also about five minutes, not assumed shorter. Evidence: published text/catalog; direct listening unavailable.",
+      "selection_reason": "Keep comparisons: Heart It Races; Great DJ; Audacity of Huge. Three whimsical city scenes turn into a concrete party invitation and mutual-love payoff. Test the voice, odd little narrative and rhythmic hook beside the more eccentric Keeps. Cut warning: Salted Caramel Ice Cream; Safari Disco Club. Quirky indie-electronic personality did not retain those Cuts. This is the one five-minute candidate; the story alone cannot excuse an unchanging musical loop. Lyrics: Playful imagined places, friends bringing food, an open party invitation, mutual love and dreams fulfilled. No sad relationship narrative in the reviewed full text. Risk: 5:07 and deliberately repetitive; full original chosen because the nominal radio edit was also about five minutes, not assumed shorter. Evidence: published text/catalog; direct listening unavailable.",
+      "artist_genres": {
+        "57anmI1X2hXWPrNagFdzZr": {
+          "name": "YACHT",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:02:28Z",
+          "fetched_at": 1793404948.86739
+        }
+      },
+      "youtube": {
+        "video_id": "moNo3JbmjH4",
+        "title": "Psychic City (Voodoo City)",
+        "channel": "YACHT",
+        "duration_seconds": 308,
+        "url": "https://www.youtube.com/watch?v=moNo3JbmjH4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1izPMkjRj9CxAA7jXvPw72",
+        "observed_at": "2026-10-31T00:02:59Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7"
+    }
+  ],
+  "audit": {
+    "track_count": 15,
+    "raw_duration_ms": 3363805,
+    "distinct_lead_artists": 15,
+    "max_credited_artist_appearances": 1,
+    "max_album_appearances": 1,
+    "prior_recording_version_collisions": 0,
+    "all_spotify_us_playable": true,
+    "source_membership_claimed": false,
+    "final_nine_hours_measured": false
+  },
+  "spotify_playlist_id": "2ciI4xCjkx7z1oBrSZXIo7",
+  "spotify_playlist_url": "https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7",
+  "spotify_reports_public": true,
+  "lab_url": "https://music.hollow-court.com/?room=living-room&batch=22",
+  "metadata_coverage": {
+    "youtube_candidates": 11,
+    "spotify_fallback_only": 4,
+    "artist_lookups": 21,
+    "tracks_with_nonempty_artist_genres": 8,
+    "reccobeats": 0,
+    "reccobeats_status": "First optional request returned HTTP 530 / Retry-After 120; descriptors remain unknown; no selection used them."
+  },
+  "hosted_verification": "../batch-publication-verification-2026-10-30-grove-22.json",
+  "hosted_published_at": "2026-10-31T00:04:19Z"
+}

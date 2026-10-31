@@ -1,6 +1,5 @@
 # Music and playback
 
-
 [Project home](../README.md) · [Shared playback plan](playback-plan.md)
 
 | Task | Files |
@@ -12,7 +11,7 @@
 
 Both rooms need at least nine hours after cuts/transitions. The [October 30 shared curation status](curation-status-2026-10-30.md) is the current source for approved counts, raw durations, planning targets and mix refinements. The live main playlist and approved library are different inventories. Coordinate the party energy curve with [run of show](../operations/run-of-show.md). Local track files, live Spotify collections and DJ-ready audio are different states; verify before calling a playlist ready.
 
-October 30: **[Grove 21 closed one Keep / three Cuts](living-room/october-grove-batch-21.md#review-outcome--october-30)**. Lone Digger made it; the host called the other three very close. Their Cuts remain intact. [Current canonical counts and duration](curation-status-2026-10-30.md) distinguish the approved library from the last-verified main Spotify inventory. No new batch or Spotify sync in this feedback update. Hollow is done; its [final-set record](bedroom/premix/FINAL-SET.md) owns production status. [Latest outcome handoff](living-room/handoff-2026-10-30-grove-21-outcome.md).
+October 30: **[Grove22: fifteen new tracks ready for review](living-room/october-grove-batch-22.md)**, following Lone Digger's Keep and the three very close Grove21 Cuts. [Current canonical counts/duration](curation-status-2026-10-30.md) · [Publication and preservation handoff](living-room/handoff-2026-10-30-grove-22.md). All previous tracks/votes and both main Spotify orders preserved; no predictive model or direct-listening claim. Hollow is done; its [final-set record](bedroom/premix/FINAL-SET.md) owns production status.
 
 [Playlist Lab](playlist-lab/README.md) provides persistent audition feedback and direct Spotify API management; Spotify reading and a separate live audition are verified; automatic catalog enrichment reduces review to simple votes. [Docker and Cloudflare Access hosting](playlist-lab/HOSTING.md) is published at [music.hollow-court.com](https://music.hollow-court.com) with shared approvals; host sign-in and saved guest votes are confirmed. A separate live guest-login test was not performed in this update.
 

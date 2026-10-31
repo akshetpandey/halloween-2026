@@ -1,6 +1,6 @@
 # Stereo party playback
 
-**October 31: both physical outputs work; room calibration awaits final speaker placement.** Use one finished stereo file in REAPER, feeding separate Audioengine AUX and Hisense optical stereo buses through a macOS Aggregate Device. Each bus has bundled ReaEQ and Time Adjustment Delay; the real REAPER MASTER volume/mute controls both. The bar handles its own internal surround distribution. No rekordbox, FLX4, live encoder, custom audio engine or new software purchase is required for this route.
+**October 31: both physical outputs work; the room test has played and awaits the original iPhone recording for analysis.** Use one finished stereo file in REAPER, feeding separate Audioengine AUX and Hisense optical stereo buses through a macOS Aggregate Device. Each bus has bundled ReaEQ and Time Adjustment Delay; the real REAPER MASTER volume/mute controls both. The bar handles its own internal surround distribution. No rekordbox, FLX4, live encoder, custom audio engine or new software purchase is required for this route.
 
 ## Current connected setup · October 31
 
@@ -8,7 +8,7 @@ The host connected USB/optical, Audioengine USB and AUX. macOS detects **USB SPD
 
 **Halloween Stereo** is a four-output Aggregate Device at **48 kHz**: channels **1–2 = External Headphones → Audioengine AUX**, **3–4 = USB SPDIF Audio → Hisense OPTICAL**. External Headphones is the clock source; optical has drift correction enabled. This is a discrete aggregate, not a mirrored Multi-Output Device. The existing rekordbox aggregate and system default output were preserved.
 
-REAPER's private party profile selects Halloween Stereo and reports four outputs. The mapped party project is saved. The host confirmed brief **Audioengine only → Hisense only → both together** music tests worked in the correct order. This verifies system identity and simultaneous sound, not acoustic alignment, individual L/R identity, EQ improvement or all-night stability. MASTER is stopped/muted at −12 dB; both buses remain unity, flat and zero-delay. The raw calibration project is loaded in a second tab with the same mappings, also saved stopped/muted. **Do not measure until the speakers are in their final positions.**
+REAPER's private party profile selects Halloween Stereo and reports four outputs. The mapped party project is saved. The host confirmed brief **Audioengine only → Hisense only → both together** music tests worked in the correct order. This verifies system identity and simultaneous sound, not acoustic alignment, individual L/R identity, EQ improvement or all-night stability. MASTER is stopped/muted at −12 dB; both buses remain unity, flat and zero-delay. The host then confirmed final speaker placement and started an iPhone recording. The raw 69-second test played from zero to its end through the four-output aggregate and was saved stopped/muted afterward. The original recording has been requested but has not yet been received or analyzed. No room correction has been applied.
 
 [configure_aggregate.py](configure_aggregate.py) reads CoreAudio directly and can recreate this specific AUX/optical aggregate without UI automation. It requires the exact two outputs already at 48 kHz stereo, checks composition, channel count and drift correction, and does not select a system default or start audio:
 
@@ -21,7 +21,7 @@ This helper is specific to the present AUX/optical route; it does not fix or sub
 
 Deadline decision: **defer encoded 5.1 for this party**. Its [software proof](../optical-5-1-pipeline-2026-10-29.md) does not solve the additional bitstream/PCM synchronization work. Host says the cable arrives October 31 and guests start around **8–9 p.m. EDT**. Prefer dependable simultaneous stereo over extending that research.
 
-**Host confirmed the final scope:** two-channel output to each system, with approximate EQ and delay alignment. The [iPhone calibration kit](CALIBRATION.md) is now built: 69-second isolated test, recording analyzer and numeric preset application. Record once from the main listening area; the agent handles analysis and settings. Thirteen synthetic/container tests and a native REAPER round trip passed. Real room results still await the cable and recording.
+**Host confirmed the final scope:** two-channel output to each system, with approximate EQ and delay alignment. The [iPhone calibration kit](CALIBRATION.md) is built: 69-second isolated test, recording analyzer and numeric preset application. Record once from the main listening area; the agent handles analysis and settings. Thirteen synthetic/container tests and a native REAPER round trip passed. Real room results await the original recording's analysis.
 
 ## What is ready
 

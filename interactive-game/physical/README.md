@@ -1,5 +1,7 @@
 # Physical entities and NFC
 
+**October 31 craft sketches:** [Four companion designs and build notes](minor-guardian-sketches-2026-10-31/README.md) complement the host's twig-and-twine figure. Proposed diamond, fan, bundled figure and doorway; identities remain suggested, with assembly and camera tests pending.
+
 **October 30 correction:** host has **no sticks in hand**. [NYC pickup rescue](../../decor/nyc-pickup-rescue-2026-10-30.md) owns replacement sourcing for Sunday-delayed sticks, mask/stand, deer/rabbit and twine; all fifteen IDs remain. New substitute props are proposals, not bought or camera-enrolled.
 
 ## Current October 29 • fifteen guardians, one moon

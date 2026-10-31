@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "reference_role": "User attachment viewed for materials and handmade style; final generation calls were text-only.",
+  "status": "Four proposed designs, not selected or physically tested.",
+  "images": [
+    {
+      "file": "01-diamond-knot-ward.png",
+      "prompt": "A practical colored-pencil craft sketch on ivory paper of a simple geometric woodland ornament. Title: \"THE FIRST KNOCK\". Four straight wood dowels form a large vertical DIAMOND outline, each corner tied with rough tan twine. A short fifth straight twig crosses horizontally through the middle of the diamond, tied at both sides. At the middle of this crosspiece is a large loose decorative twine knot with a short fringe of raffia. A small ochre paper band is wrapped around the crosspiece beside the knot. The diamond remains mostly open with generous empty space above and below the middle crosspiece. Hang it by a thin plain string loop at the top corner. Graphite with light brown colored-pencil wood grain, clear twine wraps, whole ornament large and centered. Small assembly inset lower right shows four sticks arranged as a diamond and one separate short crosspiece. Front view, no background scenery or realistic faces, no extra objects. A simple rustic craft ornament to assemble from straight sticks and string."
+    },
+    {
+      "file": "02-ember-fan.png",
+      "prompt": "A graphite and brown colored-pencil craft illustration on ivory paper. One simple decorative RAFFIA FAN, titled \"THE EMBER GUEST\". Exactly five thin straight wooden sticks radiate from one shared bottom knot: the center stick vertical, the next pair diagonal, the outer pair spread more widely, creating a semicircular fan. All five lower ends are bound together by a bulky tan twine wrap with a small rust-red paper band. A single loose row of tan raffia ribbons lies across the outer ends of the five spokes, individually tied at each spoke, with several straw-like loose ends. Keep gaps between ribbons so all five wooden ribs remain visible. There is no circular center, no face, no body, no legs, no figure. It is a purely geometric botanical fan ornament, suspended by a thin loop from the top center stick. Center the whole fan large with generous margin, easy-to-read front view and visible lashings, no scenery. Small assembly inset lower right shows five straight dowels laid out as a fan. Rustic practical craft sketch with restrained brown pencil shading."
+    },
+    {
+      "file": "03-bundled-little-host.png",
+      "prompt": "A practical pencil sketch on ivory paper of one simple handmade raffia doll ornament. Title at top: \"THE LITTLE HOST\". A squat round-headed faceless rustic doll made of one folded raffia bundle, tied with tan twine at neck and waist. Loose raffia below waist flares into a short fringe skirt. Three straight sticks support it: one vertical inner spine, one short horizontal shoulder bar extending on both sides as stubby arms, one short horizontal foot bar under the skirt. Moss-green paper collar. Thin hanging string at head. All simple knots and wraps clearly visible. Natural tan raffia and wood in graphite and brown colored pencil. No realistic anatomy. Whole ornament large and centered, plain front view. Small inset lower right shows a folded raffia bundle and the three support sticks separately. No background scenery. Easy homemade woodland craft."
+    },
+    {
+      "file": "04-open-door.png",
+      "prompt": "A practical pencil sketch on ivory paper of one simple handmade twig-and-string ornament. Title at top: \"THE OPEN DOOR\". Five straight wooden sticks make a hollow angular house doorway outline: two parallel upright posts, two sloping roof sticks meeting at a pointed peak, one horizontal bottom sill. All joints tied with rough tan string. Large completely empty open space in the center. Small ivory paper tab tied to outside of right post, a few raffia ends at bottom corners. Thin hanging loop at roof peak. No figure inside, no wall, no scenery. A rustic woodland craft that takes minutes to build. Graphite and brown colored pencil, clearly visible straight pieces and joints, whole ornament large and centered. Small inset lower right shows the five separate straight sticks laid out for assembly."
+    }
+  ]
+}

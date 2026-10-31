@@ -1,5 +1,7 @@
 # October Grove 23 · Voices, riffs and movement
 
+**Review closed · October 30:** **4 Keeps / 26 Cuts / zero pending**. The host says this batch had **too much swing/jazz**. Existing Keeps remain approved. [Complete outcome](#review-outcome--october-30) · [Grove24: broader thirty-track test](october-grove-batch-24.md). Original publication below is historical.
+
 **30 new candidates · 20 lead artists · 1:52:18 raw · published October 30, 2026.**
 
 **[Listen and vote in Playlist Lab](https://music.hollow-court.com/?room=living-room&batch=23)** · [Separate Spotify audition](https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI) · [Exact versions, individual sources and complete card notes](october-grove-batch-23.json).
@@ -75,3 +77,46 @@ Verified **October 30, 8:32 PM EDT / October 31, 00:32 UTC**. All 30 exact Spoti
 Atomic append added exactly 30 unrated records and one event, preserving all **1,642 old serialized tracks**, all canonical/host/individual feedback, notes/scores, settings, snapshots and the **2,895-event prefix**. Unique online backup; integrity `ok`; no restart or production test votes. Current library **1,672**, Grove **1,022**, Hollow **650**. Real frontend filters verify Grove23 latest, ranks 1–30, 30 Grove pending, zero Hollow pending, Hollow13 unchanged and room isolation. Main Spotify orders are unchanged at **127 Grove / 222 Hollow**.
 
 The new candidates do not add to approved duration before a Keep. [Current counts and nine-hour gap](../curation-status-2026-10-30.md) · [Verification](../batch-publication-verification-2026-10-30-grove-23.json) · [Handoff](handoff-2026-10-30-grove-23.md).
+
+## Review outcome · October 30
+
+Canonical hosted feedback: **4 Keeps / 26 Cuts / zero pending**. The four Keeps add **913,628 ms / 15:14**, bringing the approved library to **136 Keeps / 7:36:50 raw**. No written causal notes accompanied these thirty votes.
+
+The explicit host correction is **“This a little too much swing/jazz.”** This is a balance correction, not a revocation of any individual Keep. The agent over-weighted the recent retro/swing wins; Grove24 returns to broader actual Keep evidence. The earlier hypothesis that more related voices/riffs would yield a broadly successful batch was not supported by this result.
+
+Concrete distinctions: **Light up the Night** stayed while **Dance Dance** went; **Bad Boy Good Man** stayed while **Geraldines Routine** went; **Catgroove** stayed while **Clap Your Hands** went. Shared artist, dance command, musical vocabulary or positive text did not suffice. Earl's **Tongue Tied** stayed; GROUPLOVE's separate song with that title remains a Cut. No exact cause is inferred from any pair.
+
+| Result | Recording |
+|---|---|
+| Cut | Caro Emerald — Dr. Wanna Do |
+| Keep | Jamie Berry, Octavia Rose, Andrew Griffiths, Robert Bradley — Light up the Night |
+| Keep | Tape Five, Henrik Wager — Bad Boy Good Man |
+| Keep | Parov Stelar — Catgroove |
+| Cut | Swingrowers — Enjoy the Moment |
+| Keep | Earl — Tongue Tied |
+| Cut | Caravan Palace — Dramophone |
+| Cut | C2C — Delta |
+| Cut | Lemaitre, The Knocks — We Got U |
+| Cut | Tape Five — Geraldines Routine |
+| Cut | Touch & Go — Straight To...Number One - Duck's Radio Mix |
+| Cut | Proleter — April Showers |
+| Cut | Club des Belugas, Schizoid Sista — Hip Hip Chin Chin - Schizoid Sista Radio Edit |
+| Cut | Mista Trick, Elle & The Pocket Belles — Golden Sound |
+| Cut | Brenda Boykin — Love Is in Town |
+| Cut | Pisk, Cab Calloway — Jumpin' Jive - Electro Swing Remix |
+| Cut | Caro Emerald — Pack Up The Louie |
+| Cut | Jamie Berry, Octavia Rose, Andrew Griffiths, Robert Bradley — Dance Dance |
+| Cut | Parov Stelar — Clap Your Hands |
+| Cut | Swingrowers — Butterfly |
+| Cut | Basement Jaxx — Oh My Gosh |
+| Cut | Little Violet — Don't Stop |
+| Cut | Proleter — Faidherbe Square |
+| Cut | 11 Acorn Lane — Let's Face It I'm Cute |
+| Cut | Mista Trick, Kathika — Do What You Do |
+| Cut | Gabin — Bang Bang to the Rock 'n' Roll |
+| Cut | 11 Acorn Lane — Time for Tea |
+| Cut | Caravan Palace — Suzy |
+| Cut | Bakermat — Baianá |
+| Cut | Basement Jaxx — Jus 1 Kiss |
+
+All original tracks, individual votes and histories remain intact. Grove21's close-miss comment was not extended to these Cuts. [Grove24 guide](october-grove-batch-24.md) · [Current counts and duration](../curation-status-2026-10-30.md).

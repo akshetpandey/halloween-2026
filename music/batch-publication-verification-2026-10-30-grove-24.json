@@ -1,0 +1,120 @@
+{
+  "verified_at": "2026-10-31T02:30:13Z",
+  "batch_id": "24",
+  "room": "living-room",
+  "track_count": 30,
+  "raw_duration_ms": 6513102,
+  "library_records": 1702,
+  "room_counts": {
+    "living-room": 1052,
+    "bedroom": 650
+  },
+  "canonical_shared_keeps": {
+    "living-room": 136,
+    "bedroom": 222
+  },
+  "canonical_shared_cuts": {
+    "living-room": 886,
+    "bedroom": 428
+  },
+  "approved_raw_duration_ms": {
+    "living-room": 27410144,
+    "bedroom": 47325739
+  },
+  "needs_review": {
+    "living-room": 30,
+    "bedroom": 0
+  },
+  "metadata_coverage": {
+    "youtube_candidates": 26,
+    "spotify_fallback_only": 4,
+    "artist_lookups": 32,
+    "tracks_with_nonempty_artist_genres": 21,
+    "reccobeats": 0,
+    "reccobeats_status": "One optional probe returned HTTP 530; descriptors left unknown and unused."
+  },
+  "spotify": {
+    "url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ",
+    "id": "6mfbLSjRY44fP6YeOM41ZQ",
+    "exact_order_verified": true,
+    "reports_public": true
+  },
+  "old_track_rows_unchanged": 1672,
+  "new_track_rows_exact": 30,
+  "all_prior_feedback_settings_snapshots_unchanged": {
+    "feedback": true,
+    "host_feedback": true,
+    "reviewer_feedback": true,
+    "reviewer_scores": true,
+    "settings": true,
+    "snapshots": true
+  },
+  "old_events_retained_as_prefix": 2926,
+  "exactly_one_import_event_added": true,
+  "sqlite_integrity": "ok",
+  "container_ids_unchanged": true,
+  "tunnel_start_time_unchanged": true,
+  "lab_start_time_changed": true,
+  "server_restart": true,
+  "restart_scope": "Lab only for newly appended Moloko editorial/version-note correction; no rebuild or security/config changes; open pages must refresh their CSRF token",
+  "metadata_correction": {
+    "verified_at": "2026-10-31T02:29:47Z",
+    "scope": "One newly appended Grove24 track: editorial/version-source fields only",
+    "selected_uri_duration_isrc_unchanged": true,
+    "all_other_track_rows_unchanged": 1701,
+    "all_feedback_personal_notes_scores_settings_snapshots_unchanged": true,
+    "old_events_retained": 2927,
+    "exactly_one_correction_event_added": true,
+    "sqlite_integrity": "ok",
+    "unique_backup_created": true,
+    "requires_service_stop_for_metadata_rewrite": true
+  },
+  "unsigned_origin_request_after_restart_http_status": 401,
+  "frontend_real_filter_functions": "passed",
+  "main_playlists": {
+    "grove": {
+      "count": 127,
+      "exact_order_unchanged": true,
+      "verified_at": "2026-10-31T02:30:09Z"
+    },
+    "hollow": {
+      "count": 222,
+      "exact_order_unchanged": true,
+      "verified_at": "2026-10-31T02:30:12Z"
+    }
+  },
+  "hosted_import": {
+    "verified_at": "2026-10-31T02:26:28Z",
+    "mode": "atomic_append",
+    "old_track_records_unchanged": 1672,
+    "new_track_records_exact": 30,
+    "new_unrated": 30,
+    "old_tables_preserved": {
+      "feedback": true,
+      "host_feedback": true,
+      "reviewer_feedback": true,
+      "reviewer_scores": true,
+      "settings": true,
+      "snapshots": true,
+      "events": true
+    },
+    "old_events_preserved_as_prefix": true,
+    "sqlite_integrity": "ok",
+    "online_backup_created": true,
+    "server_restart_required": false,
+    "preservation_scope": "Inside import transaction; legitimate later votes may advance."
+  },
+  "python_atomic_importer_tests_passed": 7,
+  "node_batch_player_review_tests_passed": 21,
+  "limits": [
+    "No direct audio audition: audio input unsupported in this text session.",
+    "Musical fit remains editorial comparison; no predictive model or feature gate.",
+    "Thirty published song-text screens are not exact-master transcription/sample audits. Selected Moloko direct Radio Edit is 225333 ms, ISRC GBBND0200954. Older Catalogue URI resolves here with different source duration/ISRC; no identical-master equivalence claimed. Published words refer to the song.",
+    "Twenty-six artist/Topic YouTube candidates; four exact Spotify fallbacks. Concert/live/remix/non-artist alternatives filtered; exact audio and embedding not certified.",
+    "One optional ReccoBeats probe returned HTTP 530; descriptors remain unknown and unused.",
+    "Spotify reports the separate audition public. Access protects the separate review service and votes.",
+    "No new authenticated browser playback/speaker test or production test votes.",
+    "No deliberate swing/jazz selections; broad fit, perceived energy, glossy pop character and development still require the user audition.",
+    "URI/ISRC/shared-artist base-title exclusions are not acoustic/composition-wide fingerprinting."
+  ]
+}

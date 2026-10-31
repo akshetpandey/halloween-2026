@@ -1,0 +1,2556 @@
+{
+  "batch_id": "24",
+  "name": "Batch 24 · Colour, bounce and voices",
+  "room": "living-room",
+  "created_at": "2026-10-31T02:24:39Z",
+  "status": "Published to separate Spotify audition and atomically appended to hosted Playlist Lab. Thirty exact unrated candidates, corrected source-version note, prior feedback/history preservation and unchanged main Spotify orders verified.",
+  "selection_policy": {
+    "authorization": "Check Grove23 feedback and create another 30; host says the previous batch had too much swing/jazz. No predictive model.",
+    "method": "Read all 136 actual canonical Grove Keeps and 886 Cuts. Broad recording-specific editorial comparisons across rhythmic indie, playful electro-pop, sensual electronic R&B and vocal dance. No deliberate swing/jazz choices and no new selections from the recent swing-focused artists; existing approvals remain intact.",
+    "brief": "Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving. Personality, hooks and development; avoid acid/techno, chart-pop/top-five-hit character, sad/negative stories, blandness, dragging repetition, fragments and artist/album concentration.",
+    "evidence_limit": "No direct audio input supported. Published words, catalog identity and editorial musical hypotheses are distinct. No predictive model, metric fit gate, listening scores or inferred causal vote reasons.",
+    "source": "Targeted discovery. Historical saved-pool options considered privately; no current global Like membership claimed."
+  },
+  "feedback_basis": {
+    "shared_grove_keep": 136,
+    "shared_grove_cut": 886,
+    "grove_pending_before_append": 0,
+    "canonical_library_records": 1672,
+    "archived_exclusion_records": 140,
+    "policy": "Canonical feedback resolves host priority; preserve individual histories.",
+    "grove23_keeps": [
+      "Light up the Night",
+      "Bad Boy Good Man",
+      "Catgroove",
+      "Tongue Tied"
+    ],
+    "grove23_cuts": [
+      "Dr. Wanna Do",
+      "Enjoy the Moment",
+      "Dramophone",
+      "Delta",
+      "We Got U",
+      "Geraldines Routine",
+      "Straight To...Number One - Duck's Radio Mix",
+      "April Showers",
+      "Hip Hip Chin Chin - Schizoid Sista Radio Edit",
+      "Golden Sound",
+      "Love Is in Town",
+      "Jumpin' Jive - Electro Swing Remix",
+      "Pack Up The Louie",
+      "Dance Dance",
+      "Clap Your Hands",
+      "Butterfly",
+      "Oh My Gosh",
+      "Don't Stop",
+      "Faidherbe Square",
+      "Let's Face It I'm Cute",
+      "Do What You Do",
+      "Bang Bang to the Rock 'n' Roll",
+      "Time for Tea",
+      "Suzy",
+      "Baianá",
+      "Jus 1 Kiss"
+    ],
+    "host_correction": "This a little too much swing/jazz"
+  },
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:4E5BoPxABSbi6Tkhaz2uzi",
+      "spotify_url": "https://open.spotify.com/track/4E5BoPxABSbi6Tkhaz2uzi",
+      "artist": "Allie X",
+      "artists": [
+        "Allie X"
+      ],
+      "artist_ids": [
+        "0wnYgCeP013HkKoOyC5V32"
+      ],
+      "title": "Science",
+      "album": "Super Sunset",
+      "album_id": "46tqZIHK7vudgW0NCYW4y9",
+      "duration_ms": 235879,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBKPL1815643",
+      "release_date": "2018-10-29",
+      "popularity": 38,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:4E5BoPxABSbi6Tkhaz2uzi",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 1,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Nocturnal melodic synth-pop",
+      "style": [
+        "Nocturnal melodic synth-pop"
+      ],
+      "features": {},
+      "keep_comparison": "make you mine; I Like You Best",
+      "cut_comparison": "Super Duper Party People; Dreamcatching",
+      "selection_hypothesis": "A recurring bass/synth figure and a sustained vocal lift offer a sensual melody with a distinctive sci-fi love scene. Test the chorus against the verse rather than synth-pop as a category.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Mutual intimacy, shared travel and feeling in one's prime; the storm/darkness is scenery, not a breakup story.",
+        "source_url": "https://api.lyrics.ovh/v1/Allie%20X/Science",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/4E5BoPxABSbi6Tkhaz2uzi"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Polished synth-pop can still feel too commercial or even-paced; the Allie X Cut prevents an artist exemption.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A recurring bass/synth figure and a sustained vocal lift offer a sensual melody with a distinctive sci-fi love scene. Test the chorus against the verse rather than synth-pop as a category. Keep comparisons: make you mine; I Like You Best. Cut comparisons: Super Duper Party People; Dreamcatching; their failure reasons are not known. Words: Mutual intimacy, shared travel and feeling in one's prime; the storm/darkness is scenery, not a breakup story. Risk: Polished synth-pop can still feel too commercial or even-paced; the Allie X Cut prevents an artist exemption. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "0wnYgCeP013HkKoOyC5V32": {
+          "name": "Allie X",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:41Z",
+          "fetched_at": 1793413481.7754948
+        }
+      },
+      "youtube": {
+        "video_id": "tX0NSkmkwN4",
+        "title": "Allie X – Science (Official Lyric Video)",
+        "channel": "Allie X",
+        "duration_seconds": 239,
+        "url": "https://www.youtube.com/watch?v=tX0NSkmkwN4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4E5BoPxABSbi6Tkhaz2uzi",
+        "observed_at": "2026-10-31T02:24:58Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:0GQHGhS64p4PDZ7SkpQmKF",
+      "spotify_url": "https://open.spotify.com/track/0GQHGhS64p4PDZ7SkpQmKF",
+      "artist": "GIVERS",
+      "artists": [
+        "GIVERS"
+      ],
+      "artist_ids": [
+        "6t4Gtzu86ovaXYUmAL2zb3"
+      ],
+      "title": "Up Up Up",
+      "album": "In Light",
+      "album_id": "0AUGI5rWS2roKhLyrKCpdP",
+      "duration_ms": 273826,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USYAH1100272",
+      "release_date": "2011-06-07",
+      "popularity": 35,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:0GQHGhS64p4PDZ7SkpQmKF",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 2,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Percussive indie song",
+      "style": [
+        "Percussive indie song"
+      ],
+      "features": {},
+      "keep_comparison": "Heart It Races; Daylight",
+      "cut_comparison": "Something Good Can Work; Tongue Tied (GROUPLOVE)",
+      "selection_hypothesis": "Interlocking voices, bright guitar figures and busy percussion propose the physical bounce of the rhythmic-indie Keeps; listen for the contrast around the instrumental passage.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Encouragement to find one's way, freedom, upward motion and shared enjoyment.",
+        "source_url": "https://lyrhub.com/en/track/Givers/Up-Up-Up",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://themusic.com.au/reviews/video-givers-up-up-up/vyjb09LV1Nc/17-08-11"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "4:34: the later passage must earn the length; indie brightness did not save the nearby Cuts.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Interlocking voices, bright guitar figures and busy percussion propose the physical bounce of the rhythmic-indie Keeps; listen for the contrast around the instrumental passage. Keep comparisons: Heart It Races; Daylight. Cut comparisons: Something Good Can Work; Tongue Tied (GROUPLOVE); their failure reasons are not known. Words: Encouragement to find one's way, freedom, upward motion and shared enjoyment. Risk: 4:34: the later passage must earn the length; indie brightness did not save the nearby Cuts. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "6t4Gtzu86ovaXYUmAL2zb3": {
+          "name": "GIVERS",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:53Z",
+          "fetched_at": 1793413493.236949
+        }
+      },
+      "youtube": {
+        "video_id": "qJ3-4Cvg2mo",
+        "title": "Up Up Up",
+        "channel": "GIVERS",
+        "duration_seconds": 274,
+        "url": "https://www.youtube.com/watch?v=qJ3-4Cvg2mo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0GQHGhS64p4PDZ7SkpQmKF",
+        "observed_at": "2026-10-31T02:24:58Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:3x026jBUKCoEJjsQaJF56f",
+      "spotify_url": "https://open.spotify.com/track/3x026jBUKCoEJjsQaJF56f",
+      "artist": "Tinashe",
+      "artists": [
+        "Tinashe"
+      ],
+      "artist_ids": [
+        "0NIIxcxNHmOoyBx03SfTCD"
+      ],
+      "title": "Bouncin'",
+      "album": "333",
+      "album_id": "7zP5gW9QuwC9nKTIPk2CjD",
+      "duration_ms": 175092,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USA2P2123545",
+      "release_date": "2021-08-06",
+      "popularity": 56,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:3x026jBUKCoEJjsQaJF56f",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 3,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful electronic R&B",
+      "style": [
+        "Playful electronic R&B"
+      ],
+      "features": {},
+      "keep_comparison": "yes baby; ALL NIGHT",
+      "cut_comparison": "thicc; POOL",
+      "selection_hypothesis": "The plucked synth hook, answering processed voices and a change into the kiss/connection passage propose rhythmic play as well as sex appeal.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Confident flirtation, going out, sexual pictures, choosing a partner and enjoying their company. Explicit swagger; no sad central story.",
+        "source_url": "https://api.lyrics.ovh/v1/Tinashe/Bouncin",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://qa.grammy.com/news/tinashe-songs-collaborations-videos-new-album-quantum-baby"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The relaxed vocal may lower perceived energy despite the active backing. Original Bouncin', not Pt. 2.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The plucked synth hook, answering processed voices and a change into the kiss/connection passage propose rhythmic play as well as sex appeal. Keep comparisons: yes baby; ALL NIGHT. Cut comparisons: thicc; POOL; their failure reasons are not known. Words: Confident flirtation, going out, sexual pictures, choosing a partner and enjoying their company. Explicit swagger; no sad central story. Risk: The relaxed vocal may lower perceived energy despite the active backing. Original Bouncin', not Pt. 2. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "0NIIxcxNHmOoyBx03SfTCD": {
+          "name": "Tinashe",
+          "genres": [
+            "alternative r&b"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:40Z",
+          "fetched_at": 1793413480.61612
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration candidate from bounded searches; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:47hvpJRIa0JrAvKgcpTxt9",
+      "spotify_url": "https://open.spotify.com/track/47hvpJRIa0JrAvKgcpTxt9",
+      "artist": "Tilly And The Wall",
+      "artists": [
+        "Tilly And The Wall"
+      ],
+      "artist_ids": [
+        "2dsXb3lvdajcCHgWZS4vxr"
+      ],
+      "title": "Beat Control",
+      "album": "I Want to F*ck It Up (Tilly and the Wall 2002-2013)",
+      "album_id": "4RnZHdLHhmVzwCBq7D1cgx",
+      "duration_ms": 173493,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US58B0802801",
+      "release_date": "2020-07-17",
+      "popularity": 26,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:47hvpJRIa0JrAvKgcpTxt9",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 4,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Compact group-vocal dance-pop",
+      "style": [
+        "Compact group-vocal dance-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Great DJ; HandClap",
+      "cut_comparison": "Hands; Shake Your Coconuts",
+      "selection_hypothesis": "A quick group-vocal invitation and responding beat/bass pattern propose communal personality in under three minutes. Listen for whether the vocal exchange makes the short refrain count.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Shared rhythm and dancing together, brushing aside outside chatter; no loss/revenge story in the published text.",
+        "source_url": "https://songstranslation.com/tilly-and-the-wall/beat-control/",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://tillyandthewall.bandcamp.com/album/beat-control"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Repeated dance commands can be thin even at 2:53; no approval follows from a party message. Artist Bandcamp length differs by about five seconds from the selected Spotify master.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A quick group-vocal invitation and responding beat/bass pattern propose communal personality in under three minutes. Listen for whether the vocal exchange makes the short refrain count. Keep comparisons: Great DJ; HandClap. Cut comparisons: Hands; Shake Your Coconuts; their failure reasons are not known. Words: Shared rhythm and dancing together, brushing aside outside chatter; no loss/revenge story in the published text. Risk: Repeated dance commands can be thin even at 2:53; no approval follows from a party message. Artist Bandcamp length differs by about five seconds from the selected Spotify master. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "2dsXb3lvdajcCHgWZS4vxr": {
+          "name": "Tilly And The Wall",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:44Z",
+          "fetched_at": 1793413484.8887308
+        }
+      },
+      "youtube": {
+        "video_id": "uYPhK3MnFfE",
+        "title": "Beat Control",
+        "channel": "Tilly And The Wall - Topic",
+        "duration_seconds": 174,
+        "url": "https://www.youtube.com/watch?v=uYPhK3MnFfE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:47hvpJRIa0JrAvKgcpTxt9",
+        "observed_at": "2026-10-31T02:25:00Z",
+        "alternatives": [
+          {
+            "video_id": "rdmPRACw3Ic",
+            "title": "Beat Control",
+            "channel": "Tilly And The Wall - Topic",
+            "duration_seconds": 174,
+            "url": "https://www.youtube.com/watch?v=rdmPRACw3Ic",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:47hvpJRIa0JrAvKgcpTxt9",
+            "observed_at": "2026-10-31T02:25:00Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2OB8M9L5SXAqqPpJfwUzh7",
+      "spotify_url": "https://open.spotify.com/track/2OB8M9L5SXAqqPpJfwUzh7",
+      "artist": "Goldfrapp",
+      "artists": [
+        "Goldfrapp"
+      ],
+      "artist_ids": [
+        "5BKsn7SCN2XmbF7apdCpRS"
+      ],
+      "title": "Twist",
+      "album": "Black Cherry",
+      "album_id": "1W9jLuEBZvSoNZHsErjgkU",
+      "duration_ms": 212746,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBAJH0300035",
+      "release_date": "2003-04-28",
+      "popularity": 30,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2OB8M9L5SXAqqPpJfwUzh7",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 5,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sexual electro-pop",
+      "style": [
+        "Sexual electro-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Strict Machine; Ooh La La",
+      "cut_comparison": "Ride a White Horse; Number 1",
+      "selection_hypothesis": "An elastic recurring riff, the clipped twist refrain and exaggerated vocal turns propose physical character beside the two Goldfrapp Keeps.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Explicit sexual fairground fantasy and an invitation to run away together. Fight/ride language is erotic play; no revenge or breakup plot.",
+        "source_url": "https://api.lyrics.ovh/v1/Goldfrapp/Twist",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/2OB8M9L5SXAqqPpJfwUzh7"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The short opening farewell setup and stylized sexual commands are disclosed; two prior Keeps and several Cuts demand exact-song judgment.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: An elastic recurring riff, the clipped twist refrain and exaggerated vocal turns propose physical character beside the two Goldfrapp Keeps. Keep comparisons: Strict Machine; Ooh La La. Cut comparisons: Ride a White Horse; Number 1; their failure reasons are not known. Words: Explicit sexual fairground fantasy and an invitation to run away together. Fight/ride language is erotic play; no revenge or breakup plot. Risk: The short opening farewell setup and stylized sexual commands are disclosed; two prior Keeps and several Cuts demand exact-song judgment. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5BKsn7SCN2XmbF7apdCpRS": {
+          "name": "Goldfrapp",
+          "genres": [
+            "trip hop",
+            "art pop",
+            "electroclash"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:50Z",
+          "fetched_at": 1793413490.155422
+        }
+      },
+      "youtube": {
+        "video_id": "tAhMo-wWTsk",
+        "title": "Goldfrapp - Twist (Official HD Video)",
+        "channel": "GoldfrappTV",
+        "duration_seconds": 217,
+        "url": "https://www.youtube.com/watch?v=tAhMo-wWTsk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2OB8M9L5SXAqqPpJfwUzh7",
+        "observed_at": "2026-10-31T02:25:00Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:0BXwTlwYEINiZkwP461Yje",
+      "spotify_url": "https://open.spotify.com/track/0BXwTlwYEINiZkwP461Yje",
+      "artist": "Bomba Estéreo",
+      "artists": [
+        "Bomba Estéreo"
+      ],
+      "artist_ids": [
+        "5n9bMYfz9qss2VOW89EVs2"
+      ],
+      "title": "Internacionales",
+      "album": "Ayo",
+      "album_id": "2OxYGrY7nYt2ymmoFaebqB",
+      "duration_ms": 187932,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USSD11700369",
+      "release_date": "2017-08-11",
+      "popularity": 44,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:0BXwTlwYEINiZkwP461Yje",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 6,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Percussive communal song",
+      "style": [
+        "Percussive communal song"
+      ],
+      "features": {},
+      "keep_comparison": "Makeba - Radio Edit; Come",
+      "cut_comparison": "Fuego; Baianá",
+      "selection_hypothesis": "A named lead voice, group responses and a compact bilingual-friendly rhythm invitation propose a different hook from the rejected choral/percussion Baianá loop.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Cultural mixing, belonging, equality and sharing the same party; full Spanish text reviewed, not just the title.",
+        "source_url": "https://api.lyrics.ovh/v1/Bomba%20Est%C3%A9reo/Internacionales",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/0BXwTlwYEINiZkwP461Yje"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The chant and repeating group answer may still feel like a loop. Fuego and Baianá remain actual Cuts; no world-music exemption.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A named lead voice, group responses and a compact bilingual-friendly rhythm invitation propose a different hook from the rejected choral/percussion Baianá loop. Keep comparisons: Makeba - Radio Edit; Come. Cut comparisons: Fuego; Baianá; their failure reasons are not known. Words: Cultural mixing, belonging, equality and sharing the same party; full Spanish text reviewed, not just the title. Risk: The chant and repeating group answer may still feel like a loop. Fuego and Baianá remain actual Cuts; no world-music exemption. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5n9bMYfz9qss2VOW89EVs2": {
+          "name": "Bomba Estéreo",
+          "genres": [
+            "latin alternative",
+            "electrocumbia"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:51Z",
+          "fetched_at": 1793413491.879169
+        }
+      },
+      "youtube": {
+        "video_id": "tWwWoDFoubw",
+        "title": "Bomba Estéreo - Internacionales (Audio)",
+        "channel": "Bomba Estéreo",
+        "duration_seconds": 190,
+        "url": "https://www.youtube.com/watch?v=tWwWoDFoubw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0BXwTlwYEINiZkwP461Yje",
+        "observed_at": "2026-10-31T02:25:00Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2XDJzMW1MUWeAIQoMOJeUj",
+      "spotify_url": "https://open.spotify.com/track/2XDJzMW1MUWeAIQoMOJeUj",
+      "artist": "Tove Styrke",
+      "artists": [
+        "Tove Styrke"
+      ],
+      "artist_ids": [
+        "2QSPrJfYeRXaltEEiriXN9"
+      ],
+      "title": "Say My Name",
+      "album": "Sway",
+      "album_id": "3fSRbKgYW6kcR1ZFMaaNV4",
+      "duration_ms": 205760,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "SEBGA1700096",
+      "release_date": "2018-05-04",
+      "popularity": 42,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2XDJzMW1MUWeAIQoMOJeUj",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 7,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Twangy sensual pop",
+      "style": [
+        "Twangy sensual pop"
+      ],
+      "features": {},
+      "keep_comparison": "yes baby; Ice Cream",
+      "cut_comparison": "Borderline; Crush",
+      "selection_hypothesis": "A plucked string riff and conversational timing place the vocal inside the bounce; the name/sweater/drink wordplay gives the hook a specific character.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Comfortable casual attraction and pleasure, without requiring a committed relationship. A fleeting impatience line is present; no sad plot.",
+        "source_url": "https://api.lyrics.ovh/v1/Tove%20Styrke/Say%20My%20Name",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://time.com/4774901/tove-styrke-say-my-name/"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Deliberately sparse production may feel too light. A warm vocal or ukulele riff alone cannot prove energy.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A plucked string riff and conversational timing place the vocal inside the bounce; the name/sweater/drink wordplay gives the hook a specific character. Keep comparisons: yes baby; Ice Cream. Cut comparisons: Borderline; Crush; their failure reasons are not known. Words: Comfortable casual attraction and pleasure, without requiring a committed relationship. A fleeting impatience line is present; no sad plot. Risk: Deliberately sparse production may feel too light. A warm vocal or ukulele riff alone cannot prove energy. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "2QSPrJfYeRXaltEEiriXN9": {
+          "name": "Tove Styrke",
+          "genres": [
+            "swedish pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:44Z",
+          "fetched_at": 1793413484.471385
+        }
+      },
+      "youtube": {
+        "video_id": "mqRGB_1dULY",
+        "title": "Tove Styrke - Say My Name (Lyric)",
+        "channel": "Tove Styrke",
+        "duration_seconds": 204,
+        "url": "https://www.youtube.com/watch?v=mqRGB_1dULY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2XDJzMW1MUWeAIQoMOJeUj",
+        "observed_at": "2026-10-31T02:25:02Z",
+        "alternatives": [
+          {
+            "video_id": "C2HzwODx9sE",
+            "title": "Tove Styrke - Say My Name",
+            "channel": "Tove Styrke",
+            "duration_seconds": 203,
+            "url": "https://www.youtube.com/watch?v=C2HzwODx9sE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2XDJzMW1MUWeAIQoMOJeUj",
+            "observed_at": "2026-10-31T02:25:02Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:7rSn37L6jGaPnOOLBbEwXX",
+      "spotify_url": "https://open.spotify.com/track/7rSn37L6jGaPnOOLBbEwXX",
+      "artist": "Röyksopp",
+      "artists": [
+        "Röyksopp"
+      ],
+      "artist_ids": [
+        "5nPOO9iTcrs9k6yFffPxjH"
+      ],
+      "title": "Happy Up Here",
+      "album": "Junior",
+      "album_id": "6vQMbwthchxuSioACn2hcE",
+      "duration_ms": 163666,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FRZ110802634",
+      "release_date": "2009-03-18",
+      "popularity": 44,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:7rSn37L6jGaPnOOLBbEwXX",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 8,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Compact melodic electronic song",
+      "style": [
+        "Compact melodic electronic song"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Joy",
+      "cut_comparison": "Delta; Inspector Norse",
+      "selection_hypothesis": "A short, conspicuous melodic figure and a playful lead-vocal response propose a complete hook-led song rather than a long instrumental groove.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Readiness, affection, enjoying a favourite record and feeling happy. The secondary text corrects a garbled lyrics.ovh ending; no pain narrative.",
+        "source_url": "https://readdork.com/lyrics/royksopp-happy-up-here",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/7rSn37L6jGaPnOOLBbEwXX"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "2:44 is a complete standalone song; the hook still needs to avoid a novelty/loop feel. Original, not the Boys Noize remix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A short, conspicuous melodic figure and a playful lead-vocal response propose a complete hook-led song rather than a long instrumental groove. Keep comparisons: Happy; Joy. Cut comparisons: Delta; Inspector Norse; their failure reasons are not known. Words: Readiness, affection, enjoying a favourite record and feeling happy. The secondary text corrects a garbled lyrics.ovh ending; no pain narrative. Risk: 2:44 is a complete standalone song; the hook still needs to avoid a novelty/loop feel. Original, not the Boys Noize remix. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5nPOO9iTcrs9k6yFffPxjH": {
+          "name": "Röyksopp",
+          "genres": [
+            "downtempo",
+            "electronica",
+            "trip hop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:52Z",
+          "fetched_at": 1793413492.2860851
+        }
+      },
+      "youtube": {
+        "video_id": "51Bpx63wkbA",
+        "title": "Röyksopp - Happy Up Here [Official Music Video]",
+        "channel": "Röyksopp",
+        "duration_seconds": 168,
+        "url": "https://www.youtube.com/watch?v=51Bpx63wkbA",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7rSn37L6jGaPnOOLBbEwXX",
+        "observed_at": "2026-10-31T02:25:02Z",
+        "alternatives": [
+          {
+            "video_id": "KmcPeuf5aXo",
+            "title": "Röyksopp - 'Happy Up Here' (Official Video)",
+            "channel": "Röyksopp",
+            "duration_seconds": 168,
+            "url": "https://www.youtube.com/watch?v=KmcPeuf5aXo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7rSn37L6jGaPnOOLBbEwXX",
+            "observed_at": "2026-10-31T02:25:02Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:573w6yGyFwYnflUnGIXJZ3",
+      "spotify_url": "https://open.spotify.com/track/573w6yGyFwYnflUnGIXJZ3",
+      "artist": "Florrie",
+      "artists": [
+        "Florrie"
+      ],
+      "artist_ids": [
+        "2fkmfYw1KeOiDLA6MHDwU8"
+      ],
+      "title": "Too Young to Remember",
+      "album": "Too Young to Remember",
+      "album_id": "0vcYF4vovaxpZW6EcN2z1Y",
+      "duration_ms": 231546,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBARL1401534",
+      "release_date": "2015-03-06",
+      "popularity": 20,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:573w6yGyFwYnflUnGIXJZ3",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 9,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Bright rhythmic synth-pop",
+      "style": [
+        "Bright rhythmic synth-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Kiss; Anna Sun",
+      "cut_comparison": "Sky Love; Fascination",
+      "selection_hypothesis": "The title hook, rhythmic repeated syllables and a verse packed with specific pop-culture references propose personality beyond a generic uplifting chorus.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Playful imagined 1989/1991 nostalgia, dancing, fun and not giving up. Brief trouble/forgetting language is part of the youthful scene, not a sad love story.",
+        "source_url": "https://api.lyrics.ovh/v1/Florrie/Too%20Young%20to%20Remember",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/573w6yGyFwYnflUnGIXJZ3"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Glossy chorus is a commercial-pop risk; the reference-filled verses and drum feel must earn it.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The title hook, rhythmic repeated syllables and a verse packed with specific pop-culture references propose personality beyond a generic uplifting chorus. Keep comparisons: Kiss; Anna Sun. Cut comparisons: Sky Love; Fascination; their failure reasons are not known. Words: Playful imagined 1989/1991 nostalgia, dancing, fun and not giving up. Brief trouble/forgetting language is part of the youthful scene, not a sad love story. Risk: Glossy chorus is a commercial-pop risk; the reference-filled verses and drum feel must earn it. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "2fkmfYw1KeOiDLA6MHDwU8": {
+          "name": "Florrie",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:45Z",
+          "fetched_at": 1793413485.310417
+        }
+      },
+      "youtube": {
+        "video_id": "AXNWaIr3DZ4",
+        "title": "Florrie - Too Young to Remember (Official Video)",
+        "channel": "florriemusic",
+        "duration_seconds": 231,
+        "url": "https://www.youtube.com/watch?v=AXNWaIr3DZ4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:573w6yGyFwYnflUnGIXJZ3",
+        "observed_at": "2026-10-31T02:25:02Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:0iHxnDGfUSMtrWHZIGF9uL",
+      "spotify_url": "https://open.spotify.com/track/0iHxnDGfUSMtrWHZIGF9uL",
+      "artist": "Chromeo",
+      "artists": [
+        "Chromeo"
+      ],
+      "artist_ids": [
+        "2mV8aJphiSHYJf43DxL7Gt"
+      ],
+      "title": "Tenderoni",
+      "album": "Fancy Footwork",
+      "album_id": "3nfMATNPBENRMg1sV88nNF",
+      "duration_ms": 254106,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "CAL450794302",
+      "release_date": "2007-06-19",
+      "popularity": 29,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:0iHxnDGfUSMtrWHZIGF9uL",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 10,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful sung electro-funk",
+      "style": [
+        "Playful sung electro-funk"
+      ],
+      "features": {},
+      "keep_comparison": "Ordinary Pleasure; Chemicals",
+      "cut_comparison": "Fancy Footwork; Come Alive (feat. Toro y Moi)",
+      "selection_hypothesis": "An instantly named lover, the duo's self-introduction and an answering keyboard/bass figure give a specific voice-and-riff proposition.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Staying side by side, dancing and explicit sexual flirtation with the chosen partner.",
+        "source_url": "https://api.lyrics.ovh/v1/Chromeo/Tenderoni",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/0iHxnDGfUSMtrWHZIGF9uL"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "4:14 with a repeated title; smooth funk and a sexual lyric were insufficient for Fancy Footwork/other Cuts.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: An instantly named lover, the duo's self-introduction and an answering keyboard/bass figure give a specific voice-and-riff proposition. Keep comparisons: Ordinary Pleasure; Chemicals. Cut comparisons: Fancy Footwork; Come Alive (feat. Toro y Moi); their failure reasons are not known. Words: Staying side by side, dancing and explicit sexual flirtation with the chosen partner. Risk: 4:14 with a repeated title; smooth funk and a sexual lyric were insufficient for Fancy Footwork/other Cuts. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "2mV8aJphiSHYJf43DxL7Gt": {
+          "name": "Chromeo",
+          "genres": [
+            "nu disco",
+            "alternative dance"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:45Z",
+          "fetched_at": 1793413485.742718
+        }
+      },
+      "youtube": {
+        "video_id": "_moYEAr1EqY",
+        "title": "Tenderoni",
+        "channel": "Chromeo",
+        "duration_seconds": 255,
+        "url": "https://www.youtube.com/watch?v=_moYEAr1EqY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0iHxnDGfUSMtrWHZIGF9uL",
+        "observed_at": "2026-10-31T02:25:04Z",
+        "alternatives": [
+          {
+            "video_id": "t4s8XBbJObQ",
+            "title": "Tenderoni",
+            "channel": "Chromeo",
+            "duration_seconds": 255,
+            "url": "https://www.youtube.com/watch?v=t4s8XBbJObQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0iHxnDGfUSMtrWHZIGF9uL",
+            "observed_at": "2026-10-31T02:25:04Z"
+          },
+          {
+            "video_id": "mJhshksw8JA",
+            "title": "Tenderoni",
+            "channel": "Chromeo",
+            "duration_seconds": 257,
+            "url": "https://www.youtube.com/watch?v=mJhshksw8JA",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0iHxnDGfUSMtrWHZIGF9uL",
+            "observed_at": "2026-10-31T02:25:04Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:0yiJNNm39cp1T7RnXOMVLX",
+      "spotify_url": "https://open.spotify.com/track/0yiJNNm39cp1T7RnXOMVLX",
+      "artist": "Sylvan Esso",
+      "artists": [
+        "Sylvan Esso"
+      ],
+      "artist_ids": [
+        "39vA9YljbnOApXKniLWBZv"
+      ],
+      "title": "Ferris Wheel",
+      "album": "Free Love",
+      "album_id": "2KAPJ40On8JY1Yt64JJgTk",
+      "duration_ms": 177920,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USC4R2003469",
+      "release_date": "2020-09-25",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:0yiJNNm39cp1T7RnXOMVLX",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 11,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Rhythmic intimate electro-pop",
+      "style": [
+        "Rhythmic intimate electro-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Ice Cream; beachin",
+      "cut_comparison": "dancing; Picture in My Mind",
+      "selection_hypothesis": "A sharply described street/crush scene and short, rhythmically phrased vocal lines propose a playful pocket around a concise melodic hook.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Summer flirting, dancing, mutual attraction and making out. Bruised knees refer to dancing; goth imagery is stylistic, not a sad story.",
+        "source_url": "https://api.lyrics.ovh/v1/Sylvan%20Esso/Ferris%20Wheel",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/0yiJNNm39cp1T7RnXOMVLX"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Spare backing and breathy phrasing may read as low energy; 2:58 original, not WITH LOVE/live audio.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A sharply described street/crush scene and short, rhythmically phrased vocal lines propose a playful pocket around a concise melodic hook. Keep comparisons: Ice Cream; beachin. Cut comparisons: dancing; Picture in My Mind; their failure reasons are not known. Words: Summer flirting, dancing, mutual attraction and making out. Bruised knees refer to dancing; goth imagery is stylistic, not a sad story. Risk: Spare backing and breathy phrasing may read as low energy; 2:58 original, not WITH LOVE/live audio. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "39vA9YljbnOApXKniLWBZv": {
+          "name": "Sylvan Esso",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:46Z",
+          "fetched_at": 1793413486.169806
+        }
+      },
+      "youtube": {
+        "video_id": "BXFeCu7hty0",
+        "title": "Ferris Wheel",
+        "channel": "Sylvan Esso",
+        "duration_seconds": 178,
+        "url": "https://www.youtube.com/watch?v=BXFeCu7hty0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0yiJNNm39cp1T7RnXOMVLX",
+        "observed_at": "2026-10-31T02:25:05Z",
+        "alternatives": [
+          {
+            "video_id": "1kSKb9sWx6g",
+            "title": "Sylvan Esso - Ferris Wheel (Lyric Video)",
+            "channel": "Sylvan Esso",
+            "duration_seconds": 178,
+            "url": "https://www.youtube.com/watch?v=1kSKb9sWx6g",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0yiJNNm39cp1T7RnXOMVLX",
+            "observed_at": "2026-10-31T02:25:05Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:0uWwawRMRe0lwO9zJt6NeQ",
+      "spotify_url": "https://open.spotify.com/track/0uWwawRMRe0lwO9zJt6NeQ",
+      "artist": "Moloko",
+      "artists": [
+        "Moloko"
+      ],
+      "artist_ids": [
+        "4aaBjq7VqqQvpSF69GglvO"
+      ],
+      "title": "Familiar Feeling - Radio Edit",
+      "album": "Familiar Feeling",
+      "album_id": "2HQldEjtMMtHDtScz889WT",
+      "duration_ms": 225333,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBND0200954",
+      "release_date": "2003-02-17",
+      "popularity": 34,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:0uWwawRMRe0lwO9zJt6NeQ",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 12,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Affirmative vocal dance song",
+      "style": [
+        "Affirmative vocal dance song"
+      ],
+      "features": {},
+      "keep_comparison": "One Life Stand; Imagination",
+      "cut_comparison": "Sing It Back - Boris Musical Mix - Edit; Let Me Know",
+      "selection_hypothesis": "The rising sung refrain and distinctive vocal articulation test a clear love-song melody over a dance rhythm, without another long club master.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Familiarity, love deserved and a wordless connection; a brief questioning/deception line is answered by confidence in the bond.",
+        "source_url": "https://lyricstranslate.com/en/moloko-familiar-feeling-lyrics.html",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://www.youtube.com/watch?v=ABHgpUAv1mk"
+      },
+      "source_version_note": "Selected direct URI identifies Familiar Feeling - Radio Edit, 225333 ms, ISRC GBBND0200954. Older Catalogue query returns conflicting source metadata for that same URI; no exact-master equivalence claimed.",
+      "audition_risk": "Selected direct Radio Edit is 3:45, not the 6:30 album track. The older Catalogue URI relinks here but returns conflicting 3:43/ISRC metadata; it is not proof of an identical master. Published song text does not transcribe this exact edit.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The rising sung refrain and distinctive vocal articulation test a clear love-song melody over a dance rhythm, without another long club master. Keep comparisons: One Life Stand; Imagination. Cut comparisons: Sing It Back - Boris Musical Mix - Edit; Let Me Know; their failure reasons are not known. Words: Familiarity, love deserved and a wordless connection; a brief questioning/deception line is answered by confidence in the bond. Risk: Selected direct Radio Edit is 3:45, not the 6:30 album track. The older Catalogue URI relinks here but returns conflicting 3:43/ISRC metadata; it is not proof of an identical master. Published song text does not transcribe this exact edit. Editorial comparison; direct listening unavailable.",
+      "market_relink_evidence": {
+        "original_uri": "spotify:track:6JFFECHXDEDagzWb1LcNh1",
+        "resolved_uri": "spotify:track:0uWwawRMRe0lwO9zJt6NeQ",
+        "selected_direct_isrc": "GBBND0200954",
+        "selected_direct_duration_ms": 225333,
+        "original_response_isrc": "GBBND0601585",
+        "original_response_duration_ms": 223200,
+        "basis": "Fresh US responses map the older Catalogue URI to the same URI but disagree on title, duration and ISRC. Selected direct Radio Edit identity is authoritative for this audition; the relink alone does not prove identical masters."
+      },
+      "artist_genres": {
+        "4aaBjq7VqqQvpSF69GglvO": {
+          "name": "Moloko",
+          "genres": [
+            "trip hop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:49Z",
+          "fetched_at": 1793413489.699656
+        }
+      },
+      "youtube": {
+        "video_id": "EMD_wtDJEqI",
+        "title": "Familiar Feeling (Radio Edit)",
+        "channel": "Moloko",
+        "duration_seconds": 226,
+        "url": "https://www.youtube.com/watch?v=EMD_wtDJEqI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0uWwawRMRe0lwO9zJt6NeQ",
+        "observed_at": "2026-10-31T02:25:05Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:7xWkORliN9Yw3NBehwRSWR",
+      "spotify_url": "https://open.spotify.com/track/7xWkORliN9Yw3NBehwRSWR",
+      "artist": "The Go! Team",
+      "artists": [
+        "The Go! Team"
+      ],
+      "artist_ids": [
+        "6veTV9sF06FBf2KN0xAdvo"
+      ],
+      "title": "Grip Like a Vice",
+      "album": "Proof of Youth (Special Edition)",
+      "album_id": "4MN4Y6ZCAgZwAlSpkvjQ7x",
+      "duration_ms": 241373,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBCSG0700035",
+      "release_date": "2017-09-11",
+      "popularity": 25,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:7xWkORliN9Yw3NBehwRSWR",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 13,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sampled MC-and-riff song",
+      "style": [
+        "Sampled MC-and-riff song"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Go - Radio Edit",
+      "cut_comparison": "Ladyflash; Doing It Right",
+      "selection_hypothesis": "Contrasting named female MCs, group responses and a recurring instrumental figure propose a changing vocal collage, not anonymous beat music.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Women MCs introduce themselves, celebrate their skill and invite people to dance. Swagger and a warning about charming men; no revenge or sad narrative.",
+        "source_url": "https://api.lyrics.ovh/v1/The%20Go%21%20Team/Grip%20Like%20a%20Vice",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/7xWkORliN9Yw3NBehwRSWR"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Dense/noisy production and rap may overpower the melodic hook. Other Go! Team Cuts matter; exact sample audit unavailable.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Contrasting named female MCs, group responses and a recurring instrumental figure propose a changing vocal collage, not anonymous beat music. Keep comparisons: Happy; Go - Radio Edit. Cut comparisons: Ladyflash; Doing It Right; their failure reasons are not known. Words: Women MCs introduce themselves, celebrate their skill and invite people to dance. Swagger and a warning about charming men; no revenge or sad narrative. Risk: Dense/noisy production and rap may overpower the melodic hook. Other Go! Team Cuts matter; exact sample audit unavailable. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "6veTV9sF06FBf2KN0xAdvo": {
+          "name": "The Go! Team",
+          "genres": [
+            "plunderphonics",
+            "alternative dance"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:53Z",
+          "fetched_at": 1793413493.7484732
+        }
+      },
+      "youtube": {
+        "video_id": "oUt3OcD5qo4",
+        "title": "Grip Like A Vice",
+        "channel": "The Go! Team",
+        "duration_seconds": 242,
+        "url": "https://www.youtube.com/watch?v=oUt3OcD5qo4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7xWkORliN9Yw3NBehwRSWR",
+        "observed_at": "2026-10-31T02:25:06Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2RQ6zs8HkDxJYt3SSemfxc",
+      "spotify_url": "https://open.spotify.com/track/2RQ6zs8HkDxJYt3SSemfxc",
+      "artist": "Rose Gray",
+      "artists": [
+        "Rose Gray"
+      ],
+      "artist_ids": [
+        "5YYrWH3w4JYijU4JZrOXWA"
+      ],
+      "title": "Ecstasy",
+      "album": "Higher Than The Sun",
+      "album_id": "5VgVz7G9mIIbplQX3NKqYZ",
+      "duration_ms": 203866,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBENL2203508",
+      "release_date": "2023-02-01",
+      "popularity": 32,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2RQ6zs8HkDxJYt3SSemfxc",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 14,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sensual sung dance lift",
+      "style": [
+        "Sensual sung dance lift"
+      ],
+      "features": {},
+      "keep_comparison": "Free Yourself; Kisses (feat. bbyclose)",
+      "cut_comparison": "Free; Dream Machine",
+      "selection_hypothesis": "The full sung invitation, sustained chorus and intimate bridge offer a melodic dance-song proposition rather than a wordless ecstatic loop.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Shared dancing, touch, excitement and transcendence; hypothetical falling sky/low clouds are overcome by togetherness.",
+        "source_url": "https://api.lyrics.ovh/v1/Rose%20Gray/Ecstasy",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/2RQ6zs8HkDxJYt3SSemfxc"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Bright dance-pop finish and repeated ecstasy hook may feel generic; Free was cut, so the singer is not a shortcut.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The full sung invitation, sustained chorus and intimate bridge offer a melodic dance-song proposition rather than a wordless ecstatic loop. Keep comparisons: Free Yourself; Kisses (feat. bbyclose). Cut comparisons: Free; Dream Machine; their failure reasons are not known. Words: Shared dancing, touch, excitement and transcendence; hypothetical falling sky/low clouds are overcome by togetherness. Risk: Bright dance-pop finish and repeated ecstasy hook may feel generic; Free was cut, so the singer is not a shortcut. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5YYrWH3w4JYijU4JZrOXWA": {
+          "name": "Rose Gray",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:50Z",
+          "fetched_at": 1793413490.956536
+        }
+      },
+      "youtube": {
+        "video_id": "Gx5fqM-duLE",
+        "title": "Ecstasy",
+        "channel": "Rose Gray",
+        "duration_seconds": 204,
+        "url": "https://www.youtube.com/watch?v=Gx5fqM-duLE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2RQ6zs8HkDxJYt3SSemfxc",
+        "observed_at": "2026-10-31T02:25:07Z",
+        "alternatives": [
+          {
+            "video_id": "r0c0eBMLPzU",
+            "title": "Rose Gray - Ecstasy (Official Video)",
+            "channel": "Rose Gray",
+            "duration_seconds": 206,
+            "url": "https://www.youtube.com/watch?v=r0c0eBMLPzU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2RQ6zs8HkDxJYt3SSemfxc",
+            "observed_at": "2026-10-31T02:25:07Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2cyfSwcJRd5ikvj34eokdN",
+      "spotify_url": "https://open.spotify.com/track/2cyfSwcJRd5ikvj34eokdN",
+      "artist": "MisterWives",
+      "artists": [
+        "MisterWives"
+      ],
+      "artist_ids": [
+        "5ivCbtrcD5N4rD337xIb2z"
+      ],
+      "title": "Coloring Outside The Lines",
+      "album": "Connect The Dots",
+      "album_id": "3MkcfcWjL0cey5ugIsDe2i",
+      "duration_ms": 231306,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "USUM71701322",
+      "release_date": "2017-05-19",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T02:25:32Z",
+      "is_playable": true,
+      "id": "spotify:track:2cyfSwcJRd5ikvj34eokdN",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 15,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Affectionate rhythmic band-pop",
+      "style": [
+        "Affectionate rhythmic band-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Come Together; Anna Sun",
+      "cut_comparison": "Our Own House; Move",
+      "selection_hypothesis": "A specific touring-couple scene, a rising melodic refrain and the contrast into a promise of growing old together propose an affectionate complete song beside the band-pop Keeps.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Mutual support, shared travel, feeling invincible together and loving each other through old age. Brief separation/time anxiety is answered by a lasting-love pledge, not a breakup.",
+        "source_url": "https://api.lyrics.ovh/v1/MisterWives/Coloring%20Outside%20The%20Lines",
+        "observed_at": "2026-10-31T02:25:32Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/2cyfSwcJRd5ikvj34eokdN"
+      },
+      "source_version_note": "Exact standalone studio recording; not a live version, mixed-set excerpt or prior reviewed recording.",
+      "audition_risk": "Bright band-pop can still feel commercial or too familiar. Our Own House was cut; this is an exact-song probe with a different tune and love story.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A specific touring-couple scene, a rising melodic refrain and the contrast into a promise of growing old together propose an affectionate complete song beside the band-pop Keeps. Keep comparisons: Come Together; Anna Sun. Cut comparisons: Our Own House; Move; their failure reasons are not known. Words: Mutual support, shared travel, feeling invincible together and loving each other through old age. Brief separation/time anxiety is answered by a lasting-love pledge, not a breakup. Risk: Bright band-pop can still feel commercial or too familiar. Our Own House was cut; this is an exact-song probe with a different tune and love story. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5ivCbtrcD5N4rD337xIb2z": {
+          "name": "MisterWives",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:25:32Z",
+          "fetched_at": 1793413532.447287
+        }
+      },
+      "youtube": {
+        "video_id": "TbAspkawebQ",
+        "title": "Coloring Outside The Lines",
+        "channel": "MisterWives",
+        "duration_seconds": 232,
+        "url": "https://www.youtube.com/watch?v=TbAspkawebQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2cyfSwcJRd5ikvj34eokdN",
+        "observed_at": "2026-10-31T02:25:39Z",
+        "alternatives": [
+          {
+            "video_id": "1IL0bTtki9o",
+            "title": "Coloring Outside The Lines",
+            "channel": "MisterWives",
+            "duration_seconds": 232,
+            "url": "https://www.youtube.com/watch?v=1IL0bTtki9o",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2cyfSwcJRd5ikvj34eokdN",
+            "observed_at": "2026-10-31T02:25:39Z"
+          },
+          {
+            "video_id": "onO-nB7UOmk",
+            "title": "MisterWives - Coloring Outside The Lines (Audio)",
+            "channel": "MisterWives",
+            "duration_seconds": 232,
+            "url": "https://www.youtube.com/watch?v=onO-nB7UOmk",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2cyfSwcJRd5ikvj34eokdN",
+            "observed_at": "2026-10-31T02:25:39Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2hGchv7KYaINz9Z1qzufNm",
+      "spotify_url": "https://open.spotify.com/track/2hGchv7KYaINz9Z1qzufNm",
+      "artist": "Magdalena Bay",
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "artist_ids": [
+        "1oPRcJUkloHaRLYx0olBLJ"
+      ],
+      "title": "Top Dog",
+      "album": "mini mix vol. 3",
+      "album_id": "09FqVvj8EwzFjYQhiT1LUM",
+      "duration_ms": 137187,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QM4TX2336814",
+      "release_date": "2023-04-13",
+      "popularity": 55,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2hGchv7KYaINz9Z1qzufNm",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 16,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful character electro-pop",
+      "style": [
+        "Playful character electro-pop"
+      ],
+      "features": {},
+      "keep_comparison": "W.I.T.C.H.; I Like You Best",
+      "cut_comparison": "Dreamcatching; GUY.exe",
+      "selection_hypothesis": "The film-reference verses, dog-character delivery and short melodic refrain propose a compact, knowingly silly personality test.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Self-assured play, film characters and flirtation. Bark/bite/attack wording is a cartoon-dog boast; disclosed rather than called literally gentle.",
+        "source_url": "https://api.lyrics.ovh/v1/Magdalena%20Bay/Top%20Dog",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://magdalenabay.bandcamp.com/track/top-dog"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "2:17 from mini mix vol. 3, separately sold as a full track by the artist; not a standalone intro/interlude. Novelty and a short development arc remain risks.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The film-reference verses, dog-character delivery and short melodic refrain propose a compact, knowingly silly personality test. Keep comparisons: W.I.T.C.H.; I Like You Best. Cut comparisons: Dreamcatching; GUY.exe; their failure reasons are not known. Words: Self-assured play, film characters and flirtation. Bark/bite/attack wording is a cartoon-dog boast; disclosed rather than called literally gentle. Risk: 2:17 from mini mix vol. 3, separately sold as a full track by the artist; not a standalone intro/interlude. Novelty and a short development arc remain risks. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "1oPRcJUkloHaRLYx0olBLJ": {
+          "name": "Magdalena Bay",
+          "genres": [
+            "art pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:43Z",
+          "fetched_at": 1793413483.6104488
+        }
+      },
+      "youtube": {
+        "video_id": "ekxNdBZizNQ",
+        "title": "Magdalena Bay - Top Dog (Official Video)",
+        "channel": "Magdalena Bay",
+        "duration_seconds": 139,
+        "url": "https://www.youtube.com/watch?v=ekxNdBZizNQ",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2hGchv7KYaINz9Z1qzufNm",
+        "observed_at": "2026-10-31T02:25:09Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:4wvj3LqF8EqGxoNc1FIbHr",
+      "spotify_url": "https://open.spotify.com/track/4wvj3LqF8EqGxoNc1FIbHr",
+      "artist": "Lemaitre, Betty Who",
+      "artists": [
+        "Lemaitre",
+        "Betty Who"
+      ],
+      "artist_ids": [
+        "4CTKqs11Zgsv8EZTVzx764",
+        "0t3QQl52F463sxGXb1ckhB"
+      ],
+      "title": "Rocket Girl (Feat. Betty Who)",
+      "album": "Rocket Girl (Feat. Betty Who)",
+      "album_id": "2PZBWq0a7P6GsiPe28ECNO",
+      "duration_ms": 238840,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71805219",
+      "release_date": "2018-05-11",
+      "popularity": 42,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:4wvj3LqF8EqGxoNc1FIbHr",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 17,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Character-led melodic electronic pop",
+      "style": [
+        "Character-led melodic electronic pop"
+      ],
+      "features": {},
+      "keep_comparison": "Great DJ; Kisses (feat. bbyclose)",
+      "cut_comparison": "We Got U; Safe and Sound",
+      "selection_hypothesis": "Betty Who's space-flight character, a specific countdown refrain and contrasting instrumental lift propose a more substantial song hook than a whistle alone.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Playful space travel, confidence, desire and excitement; no loss story in the published text.",
+        "source_url": "https://api.lyrics.ovh/v1/Lemaitre/Rocket%20Girl",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/4wvj3LqF8EqGxoNc1FIbHr"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Shiny chorus can feel commercial. We Got U just lost; this is a single exact-song probe, not a Lemaitre expansion.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Betty Who's space-flight character, a specific countdown refrain and contrasting instrumental lift propose a more substantial song hook than a whistle alone. Keep comparisons: Great DJ; Kisses (feat. bbyclose). Cut comparisons: We Got U; Safe and Sound; their failure reasons are not known. Words: Playful space travel, confidence, desire and excitement; no loss story in the published text. Risk: Shiny chorus can feel commercial. We Got U just lost; this is a single exact-song probe, not a Lemaitre expansion. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "4CTKqs11Zgsv8EZTVzx764": {
+          "name": "Lemaitre",
+          "genres": [
+            "norwegian pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:48Z",
+          "fetched_at": 1793413488.826658
+        },
+        "0t3QQl52F463sxGXb1ckhB": {
+          "name": "Betty Who",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:41Z",
+          "fetched_at": 1793413481.244426
+        }
+      },
+      "youtube": {
+        "video_id": "bfwOdpur01M",
+        "title": "Lemaitre - Rocket Girl (Audio) ft. Betty Who",
+        "channel": "LemaitreMusic",
+        "duration_seconds": 240,
+        "url": "https://www.youtube.com/watch?v=bfwOdpur01M",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4wvj3LqF8EqGxoNc1FIbHr",
+        "observed_at": "2026-10-31T02:25:09Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:3LODeGq5uafHNENeEtFjcE",
+      "spotify_url": "https://open.spotify.com/track/3LODeGq5uafHNENeEtFjcE",
+      "artist": "Oh Land",
+      "artists": [
+        "Oh Land"
+      ],
+      "artist_ids": [
+        "46CuxapoPjUfIOiXdNq7qM"
+      ],
+      "title": "Renaissance Girls",
+      "album": "Wishbone",
+      "album_id": "7hjwnHavDGpL9F0t0w0pOk",
+      "duration_ms": 189808,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "QME9F1311002",
+      "release_date": "2013-09-16",
+      "popularity": 24,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:3LODeGq5uafHNENeEtFjcE",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 18,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Rhythmic character pop",
+      "style": [
+        "Rhythmic character pop"
+      ],
+      "features": {},
+      "keep_comparison": "W.I.T.C.H.; Great DJ",
+      "cut_comparison": "THAT GIRL; GUY.exe",
+      "selection_hypothesis": "A busy self-portrait, clipped repeated come-along phrases and a stretched melodic title response propose vocal character interacting with percussion.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Confident independence, creativity, practical skills, care and moving forward. Official artist text corrects erroneous negative lines in lyrics.ovh.",
+        "source_url": "https://www.youtube.com/watch?v=zFCYo3XocIM",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://www.youtube.com/watch?v=zFCYo3XocIM"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "A playful empowerment conceit must carry a tune; supportive heartache/crying references are care, not a central grief story.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A busy self-portrait, clipped repeated come-along phrases and a stretched melodic title response propose vocal character interacting with percussion. Keep comparisons: W.I.T.C.H.; Great DJ. Cut comparisons: THAT GIRL; GUY.exe; their failure reasons are not known. Words: Confident independence, creativity, practical skills, care and moving forward. Official artist text corrects erroneous negative lines in lyrics.ovh. Risk: A playful empowerment conceit must carry a tune; supportive heartache/crying references are care, not a central grief story. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "46CuxapoPjUfIOiXdNq7qM": {
+          "name": "Oh Land",
+          "genres": [
+            "dansk pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:48Z",
+          "fetched_at": 1793413488.408946
+        }
+      },
+      "youtube": {
+        "video_id": "i5hR7lWQOPg",
+        "title": "Renaissance Girls",
+        "channel": "Oh Land",
+        "duration_seconds": 190,
+        "url": "https://www.youtube.com/watch?v=i5hR7lWQOPg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3LODeGq5uafHNENeEtFjcE",
+        "observed_at": "2026-10-31T02:25:09Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:1rEkUEBFYEtqDLYaTuElsx",
+      "spotify_url": "https://open.spotify.com/track/1rEkUEBFYEtqDLYaTuElsx",
+      "artist": "Beck",
+      "artists": [
+        "Beck"
+      ],
+      "artist_ids": [
+        "3vbKDsSS70ZX9D2OcvbZmS"
+      ],
+      "title": "Wow",
+      "album": "Colors",
+      "album_id": "6BOQkxcHspMoRWEwEexf4l",
+      "duration_ms": 222335,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US3841600111",
+      "release_date": "2017-10-13",
+      "popularity": 49,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:1rEkUEBFYEtqDLYaTuElsx",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 19,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful rhythmic collage",
+      "style": [
+        "Playful rhythmic collage"
+      ],
+      "features": {},
+      "keep_comparison": "Go - Radio Edit; Heart It Races",
+      "cut_comparison": "Up All Night; My Game",
+      "selection_hypothesis": "The low spoken/rapped voice, answering high melodic figure and changing verbal scenes propose rhythmic personality without swing styling.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Surreal boastful wordplay, shared friends, living fully and a perfect night. Demon/elephant metaphors and crude language are comic, not a sad plot.",
+        "source_url": "https://api.lyrics.ovh/v1/Beck/Wow",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/1rEkUEBFYEtqDLYaTuElsx"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The half-time impression may feel too low-energy; the odd hook and changes must carry it. Up All Night was cut.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The low spoken/rapped voice, answering high melodic figure and changing verbal scenes propose rhythmic personality without swing styling. Keep comparisons: Go - Radio Edit; Heart It Races. Cut comparisons: Up All Night; My Game; their failure reasons are not known. Words: Surreal boastful wordplay, shared friends, living fully and a perfect night. Demon/elephant metaphors and crude language are comic, not a sad plot. Risk: The half-time impression may feel too low-energy; the odd hook and changes must carry it. Up All Night was cut. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "3vbKDsSS70ZX9D2OcvbZmS": {
+          "name": "Beck",
+          "genres": [
+            "anti-folk"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:47Z",
+          "fetched_at": 1793413487.540242
+        }
+      },
+      "youtube": {
+        "video_id": "6ZlbahhoEIo",
+        "title": "Beck - Wow (Lyric Video)",
+        "channel": "Beck",
+        "duration_seconds": 221,
+        "url": "https://www.youtube.com/watch?v=6ZlbahhoEIo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1rEkUEBFYEtqDLYaTuElsx",
+        "observed_at": "2026-10-31T02:25:11Z",
+        "alternatives": [
+          {
+            "video_id": "pyCkhPTU13w",
+            "title": "Beck - Wow",
+            "channel": "Beck",
+            "duration_seconds": 226,
+            "url": "https://www.youtube.com/watch?v=pyCkhPTU13w",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1rEkUEBFYEtqDLYaTuElsx",
+            "observed_at": "2026-10-31T02:25:11Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:4dTVgHZFPlaq9nPbLVVLSG",
+      "spotify_url": "https://open.spotify.com/track/4dTVgHZFPlaq9nPbLVVLSG",
+      "artist": "Tegan and Sara",
+      "artists": [
+        "Tegan and Sara"
+      ],
+      "artist_ids": [
+        "5e1BZulIiYWPRm8yogwUYH"
+      ],
+      "title": "Closer",
+      "album": "Heartthrob",
+      "album_id": "5IUJ6v408Z7pECC3BXUJxX",
+      "duration_ms": 210213,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USWB11202179",
+      "release_date": "2013",
+      "popularity": 62,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:4dTVgHZFPlaq9nPbLVVLSG",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 20,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sensual sung synth-pop",
+      "style": [
+        "Sensual sung synth-pop"
+      ],
+      "features": {},
+      "keep_comparison": "I Belong In Your Arms; make you mine",
+      "cut_comparison": "Want You In My Room; Heart to Break",
+      "selection_hypothesis": "A breath/rush/spark sequence and an accelerating sung invitation give a complete melodic attraction scene, with two intertwined vocal identities.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Mutual physical closeness, welcoming touch and treating the partner as an individual. No breakup or rejection story.",
+        "source_url": "https://api.lyrics.ovh/v1/Tegan%20and%20Sara/Closer",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/4dTVgHZFPlaq9nPbLVVLSG"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Openly polished pop chorus is a material fit risk under the host's chart-pop-character constraint; the specific vocal hook must justify inclusion.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A breath/rush/spark sequence and an accelerating sung invitation give a complete melodic attraction scene, with two intertwined vocal identities. Keep comparisons: I Belong In Your Arms; make you mine. Cut comparisons: Want You In My Room; Heart to Break; their failure reasons are not known. Words: Mutual physical closeness, welcoming touch and treating the partner as an individual. No breakup or rejection story. Risk: Openly polished pop chorus is a material fit risk under the host's chart-pop-character constraint; the specific vocal hook must justify inclusion. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "5e1BZulIiYWPRm8yogwUYH": {
+          "name": "Tegan and Sara",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:51Z",
+          "fetched_at": 1793413491.38394
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration candidate from bounded searches; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2UkX27EXS59qpKUXrMTZlK",
+      "spotify_url": "https://open.spotify.com/track/2UkX27EXS59qpKUXrMTZlK",
+      "artist": "Polo & Pan",
+      "artists": [
+        "Polo & Pan"
+      ],
+      "artist_ids": [
+        "45yEuthJ9yq1rNXAOpBnqM"
+      ],
+      "title": "Feel Good",
+      "album": "Cyclorama",
+      "album_id": "2XLO00VSPGAGxpUjezhHoC",
+      "duration_ms": 240640,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FRPDG2000090",
+      "release_date": "2021-06-25",
+      "popularity": 51,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2UkX27EXS59qpKUXrMTZlK",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 21,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful sung electronic groove",
+      "style": [
+        "Playful sung electronic groove"
+      ],
+      "features": {},
+      "keep_comparison": "Ordinary Pleasure; Happy",
+      "cut_comparison": "Canopée; Nanã",
+      "selection_hypothesis": "Clipped scene-setting lines, an answering title hook and a late group-vocal passage propose more song personality than a scenic instrumental.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Friendship, self-esteem, first attraction, gratitude and enjoying life; official artist-published full words reviewed.",
+        "source_url": "https://www.youtube.com/watch?v=PqtV0BTh66o",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://www.youtube.com/watch?v=PqtV0BTh66o"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Four minutes with a heavily repeated title; the two earlier Polo & Pan Cuts remain warnings against smooth background appeal.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Clipped scene-setting lines, an answering title hook and a late group-vocal passage propose more song personality than a scenic instrumental. Keep comparisons: Ordinary Pleasure; Happy. Cut comparisons: Canopée; Nanã; their failure reasons are not known. Words: Friendship, self-esteem, first attraction, gratitude and enjoying life; official artist-published full words reviewed. Risk: Four minutes with a heavily repeated title; the two earlier Polo & Pan Cuts remain warnings against smooth background appeal. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "45yEuthJ9yq1rNXAOpBnqM": {
+          "name": "Polo & Pan",
+          "genres": [
+            "french indie pop",
+            "french house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:47Z",
+          "fetched_at": 1793413487.987981
+        }
+      },
+      "youtube": {
+        "video_id": "1SjZA9ycxNw",
+        "title": "Feel Good",
+        "channel": "Polo & Pan",
+        "duration_seconds": 239,
+        "url": "https://www.youtube.com/watch?v=1SjZA9ycxNw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2UkX27EXS59qpKUXrMTZlK",
+        "observed_at": "2026-10-31T02:25:12Z",
+        "alternatives": [
+          {
+            "video_id": "PqtV0BTh66o",
+            "title": "POLO & PAN — Feel Good (official audio)",
+            "channel": "Polo & Pan",
+            "duration_seconds": 239,
+            "url": "https://www.youtube.com/watch?v=PqtV0BTh66o",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2UkX27EXS59qpKUXrMTZlK",
+            "observed_at": "2026-10-31T02:25:12Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:3rNykGLfrvIVKOWzZxv2uA",
+      "spotify_url": "https://open.spotify.com/track/3rNykGLfrvIVKOWzZxv2uA",
+      "artist": "Dawn Richard",
+      "artists": [
+        "Dawn Richard"
+      ],
+      "artist_ids": [
+        "6pSsE5y0uJMwYj83KrPyf9"
+      ],
+      "title": "Jacuzzi",
+      "album": "Second Line",
+      "album_id": "72jdKLUbZbcNAV4Ius6cee",
+      "duration_ms": 199920,
+      "duration_source": "Spotify Web API",
+      "explicit": true,
+      "isrc": "USMRG2175607",
+      "release_date": "2021-04-30",
+      "popularity": 15,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:3rNykGLfrvIVKOWzZxv2uA",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 22,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sensual electronic R&B",
+      "style": [
+        "Sensual electronic R&B"
+      ],
+      "features": {},
+      "keep_comparison": "ALL NIGHT; disco tits",
+      "cut_comparison": "thicc; MUSCLE",
+      "selection_hypothesis": "A percussive sexual refrain and a later keep-it-there/snare passage propose an active relationship between voice and beat, beyond a sexy title.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Explicit shared sexual pleasure and heat metaphors; a short maternal Creole-identity spoken opening. Burning-roof language is sexual/party bravado, not a narrated attack.",
+        "source_url": "https://api.lyrics.ovh/v1/Dawn%20Richard/Jacuzzi",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/3rNykGLfrvIVKOWzZxv2uA"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The short spoken opening and relaxed vocal are energy risks. Not the J Rick remix or a separate interlude.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A percussive sexual refrain and a later keep-it-there/snare passage propose an active relationship between voice and beat, beyond a sexy title. Keep comparisons: ALL NIGHT; disco tits. Cut comparisons: thicc; MUSCLE; their failure reasons are not known. Words: Explicit shared sexual pleasure and heat metaphors; a short maternal Creole-identity spoken opening. Burning-roof language is sexual/party bravado, not a narrated attack. Risk: The short spoken opening and relaxed vocal are energy risks. Not the J Rick remix or a separate interlude. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "6pSsE5y0uJMwYj83KrPyf9": {
+          "name": "Dawn Richard",
+          "genres": [
+            "alternative r&b"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:52Z",
+          "fetched_at": 1793413492.717623
+        }
+      },
+      "youtube": {
+        "video_id": "2J3riTwCXds",
+        "title": "Jacuzzi",
+        "channel": "Dawn Richard",
+        "duration_seconds": 200,
+        "url": "https://www.youtube.com/watch?v=2J3riTwCXds",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3rNykGLfrvIVKOWzZxv2uA",
+        "observed_at": "2026-10-31T02:25:13Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:6oHoV2KAclNgy1eo35Jox1",
+      "spotify_url": "https://open.spotify.com/track/6oHoV2KAclNgy1eo35Jox1",
+      "artist": "filous, Daði Freyr",
+      "artists": [
+        "filous",
+        "Daði Freyr"
+      ],
+      "artist_ids": [
+        "2IjiuEObrCKyZvSb8xLxG9",
+        "3Hb64DQZIhDCgyHKrzBXOL"
+      ],
+      "title": "Sabada",
+      "album": "A Producer From Vienna",
+      "album_id": "7AX7iptabwUqOi4rFekYgp",
+      "duration_ms": 225467,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUS12200080",
+      "release_date": "2022-12-09",
+      "popularity": 40,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:6oHoV2KAclNgy1eo35Jox1",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 23,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful melodic synth song",
+      "style": [
+        "Playful melodic synth song"
+      ],
+      "features": {},
+      "keep_comparison": "Joy; Happy",
+      "cut_comparison": "Think About Things; 10 Years",
+      "selection_hypothesis": "A low, conversational lead, an answering nonsense-syllable hook and a supportive verse give another precise melody/rhythm proposition.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Being oneself, singing one's own tune, independence and unconditional encouragement.",
+        "source_url": "https://api.lyrics.ovh/v1/Da%C3%B0i%20Freyr/Sabada",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/6oHoV2KAclNgy1eo35Jox1"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The syllable refrain could feel juvenile/novelty or repetitive. Both earlier Daði songs were Cuts; no wholesome-lyric exemption.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A low, conversational lead, an answering nonsense-syllable hook and a supportive verse give another precise melody/rhythm proposition. Keep comparisons: Joy; Happy. Cut comparisons: Think About Things; 10 Years; their failure reasons are not known. Words: Being oneself, singing one's own tune, independence and unconditional encouragement. Risk: The syllable refrain could feel juvenile/novelty or repetitive. Both earlier Daði songs were Cuts; no wholesome-lyric exemption. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "2IjiuEObrCKyZvSb8xLxG9": {
+          "name": "filous",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:44Z",
+          "fetched_at": 1793413484.007702
+        },
+        "3Hb64DQZIhDCgyHKrzBXOL": {
+          "name": "Daði Freyr",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:46Z",
+          "fetched_at": 1793413486.62722
+        }
+      },
+      "youtube": {
+        "video_id": "IJJzT0kkGt4",
+        "title": "Sabada",
+        "channel": "filous",
+        "duration_seconds": 226,
+        "url": "https://www.youtube.com/watch?v=IJJzT0kkGt4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6oHoV2KAclNgy1eo35Jox1",
+        "observed_at": "2026-10-31T02:25:13Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2wY5G5wQvgCLCcKEpnCS0M",
+      "spotify_url": "https://open.spotify.com/track/2wY5G5wQvgCLCcKEpnCS0M",
+      "artist": "Dragonette",
+      "artists": [
+        "Dragonette"
+      ],
+      "artist_ids": [
+        "4GLJPBj5Cdr9AgLKvLWM4n"
+      ],
+      "title": "Let the Night Fall",
+      "album": "Royal Blues",
+      "album_id": "61KhgasyYOSgFfnFO8mZ4d",
+      "duration_ms": 261780,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "CA2HE1500001",
+      "release_date": "2016-11-11",
+      "popularity": 17,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2wY5G5wQvgCLCcKEpnCS0M",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 24,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Warm sung night-out pop",
+      "style": [
+        "Warm sung night-out pop"
+      ],
+      "features": {},
+      "keep_comparison": "Let it Go; I Get Around",
+      "cut_comparison": "Live In This City; Fixin to Thrill",
+      "selection_hypothesis": "A detailed daytime-to-night scene and a larger sung refrain test a different melody from Dragonette's clipped earlier Keeps.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Friends, bikes, shared pictures and continuing the celebration after sunset. Substance references and uncertainty about the destination are part of a carefree scene.",
+        "source_url": "https://www.lyricskid.com/lyrics/dragonette-lyrics/let-the-night-fall-lyrics.html",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://exclaim.ca/Music/article/dragonette-let_night_fall"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "4:22 with a softened vocal and repeated refrain; low perceived energy or glossy pop finish may fail.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A detailed daytime-to-night scene and a larger sung refrain test a different melody from Dragonette's clipped earlier Keeps. Keep comparisons: Let it Go; I Get Around. Cut comparisons: Live In This City; Fixin to Thrill; their failure reasons are not known. Words: Friends, bikes, shared pictures and continuing the celebration after sunset. Substance references and uncertainty about the destination are part of a carefree scene. Risk: 4:22 with a softened vocal and repeated refrain; low perceived energy or glossy pop finish may fail. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "4GLJPBj5Cdr9AgLKvLWM4n": {
+          "name": "Dragonette",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:49Z",
+          "fetched_at": 1793413489.292431
+        }
+      },
+      "youtube": {
+        "video_id": "zcpOPbay2Bw",
+        "title": "Let the Night Fall",
+        "channel": "Dragonette",
+        "duration_seconds": 262,
+        "url": "https://www.youtube.com/watch?v=zcpOPbay2Bw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2wY5G5wQvgCLCcKEpnCS0M",
+        "observed_at": "2026-10-31T02:25:14Z",
+        "alternatives": [
+          {
+            "video_id": "1G_c5t1oM5Y",
+            "title": "Dragonette - Let The Night Fall",
+            "channel": "Dragonette",
+            "duration_seconds": 263,
+            "url": "https://www.youtube.com/watch?v=1G_c5t1oM5Y",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2wY5G5wQvgCLCcKEpnCS0M",
+            "observed_at": "2026-10-31T02:25:14Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:4abTZU8TujcPI40eiBkb2B",
+      "spotify_url": "https://open.spotify.com/track/4abTZU8TujcPI40eiBkb2B",
+      "artist": "Alphabeat",
+      "artists": [
+        "Alphabeat"
+      ],
+      "artist_ids": [
+        "7Defmv25Kj9knpobhHIghm"
+      ],
+      "title": "10.000 Nights",
+      "album": "This Is Alphabeat",
+      "album_id": "4dzRQNfbgCqWFHLJjgzBic",
+      "duration_ms": 264413,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DKBR70704101",
+      "release_date": "2008-01-01",
+      "popularity": 36,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:4abTZU8TujcPI40eiBkb2B",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 25,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Bouncy two-voice love song",
+      "style": [
+        "Bouncy two-voice love song"
+      ],
+      "features": {},
+      "keep_comparison": "Come Together; Anna Sun",
+      "cut_comparison": "Fascination; Power of Love",
+      "selection_hypothesis": "Two distinct sung voices, a tumbling melodic refrain and wordless responses propose a joyful full love song rather than brass/swing novelty.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Finding a lasting partner, shared devotion and an irresistible attraction; storm/thunder is a metaphor for excitement.",
+        "source_url": "https://api.lyrics.ovh/v1/Alphabeat/10%2C000%20Nights",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/4abTZU8TujcPI40eiBkb2B"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Selected 4:23/4:24 studio version, not an assumed shorter radio edit. Glossy commercial-pop character and repeating wordless hook remain risks.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Two distinct sung voices, a tumbling melodic refrain and wordless responses propose a joyful full love song rather than brass/swing novelty. Keep comparisons: Come Together; Anna Sun. Cut comparisons: Fascination; Power of Love; their failure reasons are not known. Words: Finding a lasting partner, shared devotion and an irresistible attraction; storm/thunder is a metaphor for excitement. Risk: Selected 4:23/4:24 studio version, not an assumed shorter radio edit. Glossy commercial-pop character and repeating wordless hook remain risks. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "7Defmv25Kj9knpobhHIghm": {
+          "name": "Alphabeat",
+          "genres": [
+            "dansk pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:54Z",
+          "fetched_at": 1793413494.228416
+        }
+      },
+      "youtube": {
+        "video_id": "4FwXEhBSdso",
+        "title": "10.000 Nights",
+        "channel": "Alphabeat",
+        "duration_seconds": 265,
+        "url": "https://www.youtube.com/watch?v=4FwXEhBSdso",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4abTZU8TujcPI40eiBkb2B",
+        "observed_at": "2026-10-31T02:25:15Z",
+        "alternatives": [
+          {
+            "video_id": "6yhrZySvjzo",
+            "title": "10.000 Nights Of Thunder",
+            "channel": "Alphabeat",
+            "duration_seconds": 264,
+            "url": "https://www.youtube.com/watch?v=6yhrZySvjzo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:4abTZU8TujcPI40eiBkb2B",
+            "observed_at": "2026-10-31T02:25:15Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:7B9k5808vKirSacO3HilvM",
+      "spotify_url": "https://open.spotify.com/track/7B9k5808vKirSacO3HilvM",
+      "artist": "Oh Land",
+      "artists": [
+        "Oh Land"
+      ],
+      "artist_ids": [
+        "46CuxapoPjUfIOiXdNq7qM"
+      ],
+      "title": "White Nights",
+      "album": "Oh Land",
+      "album_id": "4ZViAZBx7M4vleeGgaNSMI",
+      "duration_ms": 225906,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USSM11001184",
+      "release_date": "2011-03-11",
+      "popularity": 34,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:7B9k5808vKirSacO3HilvM",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 26,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Percussive dream-pop song",
+      "style": [
+        "Percussive dream-pop song"
+      ],
+      "features": {},
+      "keep_comparison": "Mushaboom; Bruises",
+      "cut_comparison": "Green Garden; Dreamcatching",
+      "selection_hypothesis": "A rhythmic dream-state verse and clear rising refrain propose a more percussive fantasy song beside the Feist/Chairlift Keeps.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Twilight, dreaming, anticipation of something being born and following a restless creative impulse. No loss/revenge narrative.",
+        "source_url": "https://api.lyrics.ovh/v1/Oh%20Land/White%20Nights",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/7B9k5808vKirSacO3HilvM"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "A dreamy tone may still feel too soft despite the drums. Second Oh Land appearance, widely separated; not a new album block.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A rhythmic dream-state verse and clear rising refrain propose a more percussive fantasy song beside the Feist/Chairlift Keeps. Keep comparisons: Mushaboom; Bruises. Cut comparisons: Green Garden; Dreamcatching; their failure reasons are not known. Words: Twilight, dreaming, anticipation of something being born and following a restless creative impulse. No loss/revenge narrative. Risk: A dreamy tone may still feel too soft despite the drums. Second Oh Land appearance, widely separated; not a new album block. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "46CuxapoPjUfIOiXdNq7qM": {
+          "name": "Oh Land",
+          "genres": [
+            "dansk pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:48Z",
+          "fetched_at": 1793413488.408946
+        }
+      },
+      "youtube": {
+        "video_id": "kQYeK04Tpu0",
+        "title": "White Nights",
+        "channel": "Oh Land",
+        "duration_seconds": 226,
+        "url": "https://www.youtube.com/watch?v=kQYeK04Tpu0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7B9k5808vKirSacO3HilvM",
+        "observed_at": "2026-10-31T02:25:16Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:6RlczF1bVrcf4f65qaXuoA",
+      "spotify_url": "https://open.spotify.com/track/6RlczF1bVrcf4f65qaXuoA",
+      "artist": "Kelela",
+      "artists": [
+        "Kelela"
+      ],
+      "artist_ids": [
+        "1U0sIzpRtDkvu1hXXzxh60"
+      ],
+      "title": "Contact",
+      "album": "Raven",
+      "album_id": "06uhdSmIYrWRkdnAPjcRcT",
+      "duration_ms": 240725,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBPW2200067",
+      "release_date": "2023-02-10",
+      "popularity": 56,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:6RlczF1bVrcf4f65qaXuoA",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 27,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Sensual broken-beat club song",
+      "style": [
+        "Sensual broken-beat club song"
+      ],
+      "features": {},
+      "keep_comparison": "beachin; places to be",
+      "cut_comparison": "on & on; Firefly",
+      "selection_hypothesis": "The traveling-to-the-party scene, shifting vocal phrases and a sustained sauna chorus propose a song with bodily rhythm and sexual personality.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Enjoying a night out, shared touch and rising excitement. Work stress and a momentary observation of loneliness resolve into dancing together.",
+        "source_url": "https://api.lyrics.ovh/v1/Kelela/Contact",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://kelela.warp.net/release/365852-kelela-contact?lang=en_US"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Airy vocal/darker production can soften perceived energy; do not infer a rave or techno exemption from a club setting.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The traveling-to-the-party scene, shifting vocal phrases and a sustained sauna chorus propose a song with bodily rhythm and sexual personality. Keep comparisons: beachin; places to be. Cut comparisons: on & on; Firefly; their failure reasons are not known. Words: Enjoying a night out, shared touch and rising excitement. Work stress and a momentary observation of loneliness resolve into dancing together. Risk: Airy vocal/darker production can soften perceived energy; do not infer a rave or techno exemption from a club setting. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "1U0sIzpRtDkvu1hXXzxh60": {
+          "name": "Kelela",
+          "genres": [
+            "alternative r&b"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:42Z",
+          "fetched_at": 1793413482.2615628
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration candidate from bounded searches; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:72lR49oprTSj21NKfcxIaO",
+      "spotify_url": "https://open.spotify.com/track/72lR49oprTSj21NKfcxIaO",
+      "artist": "Friendly Fires",
+      "artists": [
+        "Friendly Fires"
+      ],
+      "artist_ids": [
+        "3mZqziCJj4pq3P2VBpmK6p"
+      ],
+      "title": "Jump in the Pool",
+      "album": "Friendly Fires",
+      "album_id": "3sGsbbZGQqc3npPtdlAgnU",
+      "duration_ms": 217040,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBKS0800398",
+      "release_date": "2008-09-02",
+      "popularity": 29,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:72lR49oprTSj21NKfcxIaO",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 28,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Percussive indie dance song",
+      "style": [
+        "Percussive indie dance song"
+      ],
+      "features": {},
+      "keep_comparison": "Heart It Races; Daylight",
+      "cut_comparison": "Love Like Waves; Hawaiian Air",
+      "selection_hypothesis": "A sung poolside scene, tightly circling refrain and busy percussion give a concrete band-and-rhythm proposition beside the rhythmic-indie Keeps.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Shared adventure, release, breathing and living; fear falls away in the water rather than ending in loss.",
+        "source_url": "https://api.lyrics.ovh/v1/Friendly%20Fires/Jump%20in%20the%20Pool",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/72lR49oprTSj21NKfcxIaO"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Falling/no-control imagery is a liberation metaphor, but emotional reading and repetitive title need actual audition. Prior Friendly Fires Cuts do not disappear.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: A sung poolside scene, tightly circling refrain and busy percussion give a concrete band-and-rhythm proposition beside the rhythmic-indie Keeps. Keep comparisons: Heart It Races; Daylight. Cut comparisons: Love Like Waves; Hawaiian Air; their failure reasons are not known. Words: Shared adventure, release, breathing and living; fear falls away in the water rather than ending in loss. Risk: Falling/no-control imagery is a liberation metaphor, but emotional reading and repetitive title need actual audition. Prior Friendly Fires Cuts do not disappear. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "3mZqziCJj4pq3P2VBpmK6p": {
+          "name": "Friendly Fires",
+          "genres": [
+            "new rave",
+            "indie dance"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:47Z",
+          "fetched_at": 1793413487.1405199
+        }
+      },
+      "youtube": {
+        "video_id": "7UTi-hRvabc",
+        "title": "Jump in the Pool",
+        "channel": "Friendly Fires ",
+        "duration_seconds": 218,
+        "url": "https://www.youtube.com/watch?v=7UTi-hRvabc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:72lR49oprTSj21NKfcxIaO",
+        "observed_at": "2026-10-31T02:25:18Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:64srz7KQlDVFK6aGWYWAxm",
+      "spotify_url": "https://open.spotify.com/track/64srz7KQlDVFK6aGWYWAxm",
+      "artist": "Little Boots",
+      "artists": [
+        "Little Boots"
+      ],
+      "artist_ids": [
+        "0MoXIHcFwhIWnFgBfdvQ30"
+      ],
+      "title": "Headphones",
+      "album": "Headphones",
+      "album_id": "6NCdXKqrX1gyqmFbhpUfRC",
+      "duration_ms": 231773,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBFFS1200050",
+      "release_date": "2013-12-16",
+      "popularity": 19,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:64srz7KQlDVFK6aGWYWAxm",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 29,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Playful intimate disco-pop",
+      "style": [
+        "Playful intimate disco-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Great DJ; Ice Cream",
+      "cut_comparison": "Remedy; New in Town",
+      "selection_hypothesis": "The private-headphones-at-a-disco character, heart-beat phrasing and wordless response propose a recognisable vocal/rhythm idea.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Private musical joy, feeling fine, dancing and not minding onlookers. Smoke/mirrors is brief scenery; no breakup story.",
+        "source_url": "https://api.lyrics.ovh/v1/Little%20Boots/Headphones",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/64srz7KQlDVFK6aGWYWAxm"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "The la-la response and steady pulse may feel thin or commercial; no Little Boots artist permission follows from the comparisons.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: The private-headphones-at-a-disco character, heart-beat phrasing and wordless response propose a recognisable vocal/rhythm idea. Keep comparisons: Great DJ; Ice Cream. Cut comparisons: Remedy; New in Town; their failure reasons are not known. Words: Private musical joy, feeling fine, dancing and not minding onlookers. Smoke/mirrors is brief scenery; no breakup story. Risk: The la-la response and steady pulse may feel thin or commercial; no Little Boots artist permission follows from the comparisons. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "0MoXIHcFwhIWnFgBfdvQ30": {
+          "name": "Little Boots",
+          "genres": [
+            "electropop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:40Z",
+          "fetched_at": 1793413480.015284
+        }
+      },
+      "youtube": {
+        "video_id": "5cVr9ujMflM",
+        "title": "Headphones",
+        "channel": "Little Boots",
+        "duration_seconds": 232,
+        "url": "https://www.youtube.com/watch?v=5cVr9ujMflM",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:64srz7KQlDVFK6aGWYWAxm",
+        "observed_at": "2026-10-31T02:25:18Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    },
+    {
+      "spotify_uri": "spotify:track:2uMbCJ8lxF7hqpQUaeo42D",
+      "spotify_url": "https://open.spotify.com/track/2uMbCJ8lxF7hqpQUaeo42D",
+      "artist": "Martin Solveig, Tkay Maidza",
+      "artists": [
+        "Martin Solveig",
+        "Tkay Maidza"
+      ],
+      "artist_ids": [
+        "1bj5GrcLom5gZFF5t949Xl",
+        "1kMPdZQVdUhMDKDWOJM5iK"
+      ],
+      "title": "Do It Right",
+      "album": "Do It Right",
+      "album_id": "0O9TE4lPPsojRsKkWqByVn",
+      "duration_ms": 213211,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "UK98Q1600001",
+      "release_date": "2016-05-20",
+      "popularity": 64,
+      "metadata_at": "2026-10-31T02:24:39Z",
+      "is_playable": true,
+      "id": "spotify:track:2uMbCJ8lxF7hqpQUaeo42D",
+      "room": "living-room",
+      "batch_id": "24",
+      "batch_name": "Batch 24 · Colour, bounce and voices",
+      "batch_rank": 30,
+      "origin": "Grove 24 · targeted discovery",
+      "lane": "Percussive vocal dance-pop",
+      "style": [
+        "Percussive vocal dance-pop"
+      ],
+      "features": {},
+      "keep_comparison": "Fasta; Best Friend",
+      "cut_comparison": "Fake ID; Places",
+      "selection_hypothesis": "Tkay Maidza's clipped delivery and a bouncing instrumental answer make a particular call-and-response test, with the sung together/all-night passage as contrast.",
+      "mood_screen": {
+        "status": "Published song text reviewed; not an exact-master transcription",
+        "summary": "Mutual flirtation, touching, dimming the lights and enjoying the night. Try-again wording is a sexual invitation, not a narrated sad breakup.",
+        "source_url": "https://api.lyrics.ovh/v1/Martin%20Solveig/Do%20It%20Right",
+        "observed_at": "2026-10-31T02:24:39Z"
+      },
+      "evidence": {
+        "catalog": "Fresh exact Spotify US lookup; playable",
+        "musical_fit": "Editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "source_url": "https://open.spotify.com/track/2uMbCJ8lxF7hqpQUaeo42D"
+      },
+      "source_version_note": "Exact selected standalone studio recording or disclosed compact single master; no mixed-set excerpt or previously reviewed version.",
+      "audition_risk": "Bright party-pop finish may be too commercial; actual melodic/percussive interplay must earn it. Original 3:33, not the club mix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit remains an editorial hypothesis; no direct audio listening"
+      ],
+      "editorial_note": "Listen for: Tkay Maidza's clipped delivery and a bouncing instrumental answer make a particular call-and-response test, with the sung together/all-night passage as contrast. Keep comparisons: Fasta; Best Friend. Cut comparisons: Fake ID; Places; their failure reasons are not known. Words: Mutual flirtation, touching, dimming the lights and enjoying the night. Try-again wording is a sexual invitation, not a narrated sad breakup. Risk: Bright party-pop finish may be too commercial; actual melodic/percussive interplay must earn it. Original 3:33, not the club mix. Editorial comparison; direct listening unavailable.",
+      "artist_genres": {
+        "1bj5GrcLom5gZFF5t949Xl": {
+          "name": "Martin Solveig",
+          "genres": [
+            "french house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:42Z",
+          "fetched_at": 1793413482.686379
+        },
+        "1kMPdZQVdUhMDKDWOJM5iK": {
+          "name": "Tkay Maidza",
+          "genres": [
+            "alternative r&b"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T02:24:43Z",
+          "fetched_at": 1793413483.144005
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration candidate from bounded searches; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ"
+    }
+  ],
+  "audit": {
+    "track_count": 30,
+    "raw_duration_ms": 6513102,
+    "distinct_lead_artists": 29,
+    "max_credited_artist_appearances": 2,
+    "max_album_appearances": 1,
+    "deliberate_swing_jazz_selections": 0,
+    "creative_overlap_note": "Oh Land appears twice, with seven intervening songs; no other credited artist or album repeats. This is not a complete producer/session-musician audit.",
+    "prior_recording_version_collisions": 0,
+    "all_spotify_us_playable": true,
+    "source_membership_claimed": false,
+    "final_nine_hours_measured": false
+  },
+  "spotify_playlist_id": "6mfbLSjRY44fP6YeOM41ZQ",
+  "spotify_playlist_url": "https://open.spotify.com/playlist/6mfbLSjRY44fP6YeOM41ZQ",
+  "lab_url": "https://music.hollow-court.com/?room=living-room&batch=24",
+  "spotify_reports_public": true,
+  "metadata_coverage": {
+    "youtube_candidates": 26,
+    "spotify_fallback_only": 4,
+    "artist_lookups": 32,
+    "tracks_with_nonempty_artist_genres": 21,
+    "reccobeats": 0,
+    "reccobeats_status": "One optional probe returned HTTP 530; descriptors left unknown and unused."
+  },
+  "hosted_verification": "../batch-publication-verification-2026-10-30-grove-24.json",
+  "hosted_published_at": "2026-10-31T02:30:13Z"
+}

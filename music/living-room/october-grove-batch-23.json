@@ -1,0 +1,2729 @@
+{
+  "batch_id": "23",
+  "name": "Batch 23 · Voices, riffs and movement",
+  "room": "living-room",
+  "created_at": "2026-10-31T00:30:41Z",
+  "status": "Published to separate Spotify audition and atomically appended to hosted Playlist Lab. Thirty exact unrated candidates, prior feedback/history preservation and unchanged main Spotify orders verified.",
+  "selection_policy": {
+    "authorization": "Host asks to check Grove22 feedback and do another batch of 30. Both remaining Likes and targeted discovery allowed; no predictive model.",
+    "method": "Editorial selection against all 132 canonical Grove Keeps and 860 Cuts. Grove22 retained Back It Up, Lost In The Rhythm, St. James Ballroom and Happy; eleven Cuts remain authoritative, without invented causal reasons. Each new recording has a positive and rejected comparison and independent text/version context.",
+    "brief": "Upbeat, interesting, bouncy, melodic, sexy, fun, happy, hopeful and loving; personality, strong hooks and development. Avoid acid/techno, chart-pop/top-five-hit character, sad/negative narrative, blandness, dragging repetition, standalone fragments and artist/album concentration. Preserve every individual Keep.",
+    "evidence_limit": "No direct audio input supported; musical fit and development remain editorial hypotheses. Published text/source screens are not exact-master transcriptions or complete sample audits. Two instrumentals identified separately; no fabricated listening scores.",
+    "source": "Targeted discovery. Historical saved-pool cache considered privately; no current Like membership claimed."
+  },
+  "feedback_basis": {
+    "shared_grove_keep": 132,
+    "shared_grove_cut": 860,
+    "grove_pending_before_append": 0,
+    "canonical_library_records": 1642,
+    "archived_exclusion_records": 140,
+    "policy": "Canonical shared feedback resolves host priority; preserve individual histories",
+    "grove22_keeps": [
+      "Back It Up",
+      "Lost In The Rhythm",
+      "St. James Ballroom",
+      "Happy"
+    ],
+    "grove22_cuts": [
+      "My Type",
+      "Be Around Me (feat. chloe moriondo)",
+      "Around the Bend",
+      "GUY.exe",
+      "Johnny Got A Boom Boom",
+      "Green Garden",
+      "It's Alright",
+      "Back Pocket",
+      "Brighter Than Gold",
+      "Power of Love",
+      "Psychic City (Voodoo City)"
+    ]
+  },
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:5nuBZ5rw2lJa8b7uZr0kxg",
+      "spotify_url": "https://open.spotify.com/track/5nuBZ5rw2lJa8b7uZr0kxg",
+      "artist": "Caro Emerald",
+      "artists": [
+        "Caro Emerald"
+      ],
+      "artist_ids": [
+        "492hDmhPyuIjP3MgTcIqgm"
+      ],
+      "title": "Dr. Wanna Do",
+      "album": "Deleted Scenes From The Cutting Room Floor",
+      "album_id": "7KYgUgJTrsxT4gkHRALi3R",
+      "duration_ms": 181983,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "NLHR30900017",
+      "release_date": "2010-01-29",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:5nuBZ5rw2lJa8b7uZr0kxg",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 1,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Flirty sung scene",
+      "style": [
+        "Flirty sung scene"
+      ],
+      "features": {},
+      "keep_comparison": "Back It Up; A Night Like This",
+      "cut_comparison": "Johnny Got A Boom Boom; GUY.exe",
+      "selection_hypothesis": "A sharply drawn doctor-crush scene, scat turns and answering brass: test the vocal wit and rhythmic dialogue, not just the same singer.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Medical language is comic attraction; the patient wants the doctor and enjoys the encounter. No illness/loss narrative.",
+        "source_url": "https://www.angolotesti.it/C/testi_canzoni_caro_emerald_61410/testo_canzone_dr_wanna_do_1061555.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.youtube.com/watch?v=DSMY-dmvQlg"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Another Caro song must earn its place; two prior album Keeps do not authorize a block.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Back It Up; A Night Like This. A sharply drawn doctor-crush scene, scat turns and answering brass: test the vocal wit and rhythmic dialogue, not just the same singer. Cut caution: Johnny Got A Boom Boom; GUY.exe; exact reasons unknown. Risk: Another Caro song must earn its place; two prior album Keeps do not authorize a block. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "492hDmhPyuIjP3MgTcIqgm": {
+          "name": "Caro Emerald",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.995494
+        }
+      },
+      "youtube": {
+        "video_id": "DSMY-dmvQlg",
+        "title": "Caro Emerald - Dr  Wanna Do",
+        "channel": "caroemerald",
+        "duration_seconds": 186,
+        "url": "https://www.youtube.com/watch?v=DSMY-dmvQlg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5nuBZ5rw2lJa8b7uZr0kxg",
+        "observed_at": "2026-10-31T00:31:10Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:2ukfPEXd1F4kiEgp4Pg2Qg",
+      "spotify_url": "https://open.spotify.com/track/2ukfPEXd1F4kiEgp4Pg2Qg",
+      "artist": "Jamie Berry, Octavia Rose, Andrew Griffiths, Robert Bradley",
+      "artists": [
+        "Jamie Berry",
+        "Octavia Rose",
+        "Andrew Griffiths",
+        "Robert Bradley"
+      ],
+      "artist_ids": [
+        "5sM4cZ9MHihs0tbmkiE9n8",
+        "3jT2Zl57kYDK5qI8fkl1L9",
+        "5NmOnMjI4tJoLABvUiIlBW",
+        "5RAePHxI1tGutAxcL0yw34"
+      ],
+      "title": "Light up the Night",
+      "album": "Light up the Night",
+      "album_id": "7E8IRPIcHhPAOppWscPTLo",
+      "duration_ms": 233879,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "TCAEL1996011",
+      "release_date": "2019-09-15",
+      "popularity": 47,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:2ukfPEXd1F4kiEgp4Pg2Qg",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 2,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Sung dance invitation",
+      "style": [
+        "Sung dance invitation"
+      ],
+      "features": {},
+      "keep_comparison": "Lost In The Rhythm; Lone Digger",
+      "cut_comparison": "Shake Your Coconuts; Boogie 2Nite",
+      "selection_hypothesis": "A specific sung invitation to spin together, vocal syllables and a horn-solo passage in the published structure. Test a different tune and instrumental answer from Lost In The Rhythm.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Mutual dancing, shared delight and letting cares go for the night.",
+        "source_url": "https://lyricstranslate.com/en/jamie-berry-light-night-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://music.apple.com/us/album/light-up-the-night/1850079571"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Vocal chops and repeated night refrain may still drag; no artist-wide permission.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lost In The Rhythm; Lone Digger. A specific sung invitation to spin together, vocal syllables and a horn-solo passage in the published structure. Test a different tune and instrumental answer from Lost In The Rhythm. Cut caution: Shake Your Coconuts; Boogie 2Nite; exact reasons unknown. Risk: Vocal chops and repeated night refrain may still drag; no artist-wide permission. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "5sM4cZ9MHihs0tbmkiE9n8": {
+          "name": "Jamie Berry",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.08584
+        },
+        "3jT2Zl57kYDK5qI8fkl1L9": {
+          "name": "Octavia Rose",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.103604
+        },
+        "5NmOnMjI4tJoLABvUiIlBW": {
+          "name": "Andrew Griffiths",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:49Z",
+          "fetched_at": 1793406649.7040262
+        },
+        "5RAePHxI1tGutAxcL0yw34": {
+          "name": "Robert Bradley",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:50Z",
+          "fetched_at": 1793406650.112007
+        }
+      },
+      "youtube": {
+        "video_id": "n8E93OZqZ7g",
+        "title": "Light up the Night",
+        "channel": "Jamie Berry - Topic",
+        "duration_seconds": 234,
+        "url": "https://www.youtube.com/watch?v=n8E93OZqZ7g",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:2ukfPEXd1F4kiEgp4Pg2Qg",
+        "observed_at": "2026-10-31T00:31:10Z",
+        "alternatives": [
+          {
+            "video_id": "HhHKohDFRkg",
+            "title": "Electro Swing | Jamie Berry feat. Octavia Rose - Light Up the Night",
+            "channel": "Funky Panda™",
+            "duration_seconds": 235,
+            "url": "https://www.youtube.com/watch?v=HhHKohDFRkg",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:2ukfPEXd1F4kiEgp4Pg2Qg",
+            "observed_at": "2026-10-31T00:31:10Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:1vpVfdzhzioTn9gLyAY538",
+      "spotify_url": "https://open.spotify.com/track/1vpVfdzhzioTn9gLyAY538",
+      "artist": "Tape Five, Henrik Wager",
+      "artists": [
+        "Tape Five",
+        "Henrik Wager"
+      ],
+      "artist_ids": [
+        "7kHK5OLdiiHCfG49KSHTko",
+        "1aziLW4TFEw6ojUxDvogZd"
+      ],
+      "title": "Bad Boy Good Man",
+      "album": "Tonight Josephine!",
+      "album_id": "4khNy8U1F3ir0u88Q3viIU",
+      "duration_ms": 255109,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEH741008969",
+      "release_date": "2015-07-20",
+      "popularity": 47,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:1vpVfdzhzioTn9gLyAY538",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 3,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Dancer as character",
+      "style": [
+        "Dancer as character"
+      ],
+      "features": {},
+      "keep_comparison": "St. James Ballroom; Happy",
+      "cut_comparison": "Brighter Than Gold; Johnny Got A Boom Boom",
+      "selection_hypothesis": "A theatrical male narrator and a sequence of named dance gestures give a concrete voice/riff interaction to test, distinct from the female-led wins.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Comic swagger, dancing and romance in the official lyric book. Includes bad-boy, sexual and drug-slang wording; no revenge or sad relationship story.",
+        "source_url": "https://tapefive.com/lyrics-book/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://tapefive.com/tag/bad-boy-good-man/"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Swagger/vintage novelty may be the wrong personality; original 4:15 vocal version, not the 2023 facelift.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: St. James Ballroom; Happy. A theatrical male narrator and a sequence of named dance gestures give a concrete voice/riff interaction to test, distinct from the female-led wins. Cut caution: Brighter Than Gold; Johnny Got A Boom Boom; exact reasons unknown. Risk: Swagger/vintage novelty may be the wrong personality; original 4:15 vocal version, not the 2023 facelift. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "7kHK5OLdiiHCfG49KSHTko": {
+          "name": "Tape Five",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:53Z",
+          "fetched_at": 1793406653.873719
+        },
+        "1aziLW4TFEw6ojUxDvogZd": {
+          "name": "Henrik Wager",
+          "genres": [
+            "electro swing",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:43Z",
+          "fetched_at": 1793406643.1695051
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:1Mv6JFhtA8VP45rc4OZZeE",
+      "spotify_url": "https://open.spotify.com/track/1Mv6JFhtA8VP45rc4OZZeE",
+      "artist": "Parov Stelar",
+      "artists": [
+        "Parov Stelar"
+      ],
+      "artist_ids": [
+        "65EXuYHVoehCKqp0kOS6px"
+      ],
+      "title": "Catgroove",
+      "album": "Coco, Pt. 2",
+      "album_id": "4Y6DJ1aICMuLwq2z1PB8CY",
+      "duration_ms": 238240,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "ATE610800080",
+      "release_date": "2009-08-28",
+      "popularity": 53,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:1Mv6JFhtA8VP45rc4OZZeE",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 4,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Instrumental hook",
+      "style": [
+        "Instrumental hook"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; Happy",
+      "cut_comparison": "Brighter Than Gold; Inspector Norse",
+      "selection_hypothesis": "A prominent recurring reed/brass-shaped motif over a springy bass pattern is the proposed hook. Test whether that figure carries a complete song without a lead singer.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "instrumental context; direct sample audit unavailable",
+        "summary": "Published instrumental description; selected studio version is distinct from later live performances with added lyrics. No full sample-by-sample vocal audit.",
+        "source_url": "https://sonichits.com/video/Parov_Stelar_and_Band/Catgroove",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.shazam.com/song/1067866494/catgroove"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Instrumental/repetition risk; 3:58 studio version, not the 5:10 club recording.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lone Digger; Happy. A prominent recurring reed/brass-shaped motif over a springy bass pattern is the proposed hook. Test whether that figure carries a complete song without a lead singer. Cut caution: Brighter Than Gold; Inspector Norse; exact reasons unknown. Risk: Instrumental/repetition risk; 3:58 studio version, not the 5:10 club recording. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "65EXuYHVoehCKqp0kOS6px": {
+          "name": "Parov Stelar",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.475638
+        }
+      },
+      "youtube": {
+        "video_id": "Mombzli2Txs",
+        "title": "Catgroove",
+        "channel": "Parov Stelar",
+        "duration_seconds": 239,
+        "url": "https://www.youtube.com/watch?v=Mombzli2Txs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1Mv6JFhtA8VP45rc4OZZeE",
+        "observed_at": "2026-10-31T00:31:12Z",
+        "alternatives": [
+          {
+            "video_id": "WXrdYwG17PE",
+            "title": "Parov Stelar - Catgroove (Official Audio)",
+            "channel": "Parov Stelar",
+            "duration_seconds": 237,
+            "url": "https://www.youtube.com/watch?v=WXrdYwG17PE",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1Mv6JFhtA8VP45rc4OZZeE",
+            "observed_at": "2026-10-31T00:31:12Z"
+          },
+          {
+            "video_id": "twqM56f_cVo",
+            "title": "Parov Stelar - Catgroove (TSC - Forsythe)",
+            "channel": "takeSomeCrime",
+            "duration_seconds": 240,
+            "url": "https://www.youtube.com/watch?v=twqM56f_cVo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:1Mv6JFhtA8VP45rc4OZZeE",
+            "observed_at": "2026-10-31T00:31:12Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:76zNdWG1x77G6y0D0G1ZDr",
+      "spotify_url": "https://open.spotify.com/track/76zNdWG1x77G6y0D0G1ZDr",
+      "artist": "Swingrowers",
+      "artists": [
+        "Swingrowers"
+      ],
+      "artist_ids": [
+        "3mp5zzEz1qTq7X5a2yOS2B"
+      ],
+      "title": "Enjoy the Moment",
+      "album": "Remote",
+      "album_id": "1Zo58diAaOKimtYyzny5LH",
+      "duration_ms": 208540,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBJCN1407009",
+      "release_date": "2014-08-14",
+      "popularity": 34,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:76zNdWG1x77G6y0D0G1ZDr",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 5,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Playful present tense",
+      "style": [
+        "Playful present tense"
+      ],
+      "features": {},
+      "keep_comparison": "Lost In The Rhythm; Back It Up",
+      "cut_comparison": "Green Garden; My Type",
+      "selection_hypothesis": "A compact sung sequence of night-time surprises, a naughty smile and laughter; test the phrasing and melodic refrain over the swing pulse.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Enjoyment, flirtation, laughter and being present. Published full text has no rejection or loss story.",
+        "source_url": "https://api.lyrics.ovh/v1/Swingrowers/Enjoy%20the%20Moment",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://music.apple.com/us/song/1324624183"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "A repeated title can still feel thin; positive words alone did not save the nearby Cuts.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lost In The Rhythm; Back It Up. A compact sung sequence of night-time surprises, a naughty smile and laughter; test the phrasing and melodic refrain over the swing pulse. Cut caution: Green Garden; My Type; exact reasons unknown. Risk: A repeated title can still feel thin; positive words alone did not save the nearby Cuts. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3mp5zzEz1qTq7X5a2yOS2B": {
+          "name": "Swingrowers",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.583902
+        }
+      },
+      "youtube": {
+        "video_id": "ROE_y4vOx20",
+        "title": "Enjoy the Moment",
+        "channel": "SWINGROWERS",
+        "duration_seconds": 209,
+        "url": "https://www.youtube.com/watch?v=ROE_y4vOx20",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:76zNdWG1x77G6y0D0G1ZDr",
+        "observed_at": "2026-10-31T00:31:12Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:6UVoBPnPm0Q0i56Dy3PLQL",
+      "spotify_url": "https://open.spotify.com/track/6UVoBPnPm0Q0i56Dy3PLQL",
+      "artist": "Earl",
+      "artists": [
+        "Earl"
+      ],
+      "artist_ids": [
+        "7pwoWOh2sbcmRFkk7QWQsS"
+      ],
+      "title": "Tongue Tied",
+      "album": "Tongue Tied",
+      "album_id": "5O79HXDK2kNg64fPR21XFF",
+      "duration_ms": 186400,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GB5KW1603117",
+      "release_date": "2017-07-28",
+      "popularity": 50,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:6UVoBPnPm0Q0i56Dy3PLQL",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 6,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Mutual sexy wordplay",
+      "style": [
+        "Mutual sexy wordplay"
+      ],
+      "features": {},
+      "keep_comparison": "Back It Up; yes baby; Would You...?",
+      "cut_comparison": "Hey Cowboy; GUY.exe",
+      "selection_hypothesis": "A quick, specific reciprocal-love scene with verbal percussion and a nonsense-syllable payoff. Test the grin, voice and rhythmic delivery rather than a sexy label.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Ongoing mutual attraction, sexual pleasure and enthusiastic love; playful vice/devil metaphors, no cheating or breakup.",
+        "source_url": "https://api.lyrics.ovh/v1/Earl/Tongue%20Tied",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/6UVoBPnPm0Q0i56Dy3PLQL"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Slick vintage-pop finish may feel commercial; 3:06 studio recording, not the longer LUSH version.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Back It Up; yes baby; Would You...?. A quick, specific reciprocal-love scene with verbal percussion and a nonsense-syllable payoff. Test the grin, voice and rhythmic delivery rather than a sexy label. Cut caution: Hey Cowboy; GUY.exe; exact reasons unknown. Risk: Slick vintage-pop finish may feel commercial; 3:06 studio recording, not the longer LUSH version. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "7pwoWOh2sbcmRFkk7QWQsS": {
+          "name": "Earl",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:54Z",
+          "fetched_at": 1793406654.274164
+        }
+      },
+      "youtube": {
+        "video_id": "p7LB-AIPDQk",
+        "title": "Tongue Tied",
+        "channel": "Earl - Topic",
+        "duration_seconds": 187,
+        "url": "https://www.youtube.com/watch?v=p7LB-AIPDQk",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6UVoBPnPm0Q0i56Dy3PLQL",
+        "observed_at": "2026-10-31T00:31:12Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:7b9oYQCf6g02miFtSCfubB",
+      "spotify_url": "https://open.spotify.com/track/7b9oYQCf6g02miFtSCfubB",
+      "artist": "Caravan Palace",
+      "artists": [
+        "Caravan Palace"
+      ],
+      "artist_ids": [
+        "37J1PlAkhRK7yrZUtqaUpQ"
+      ],
+      "title": "Dramophone",
+      "album": "Panic",
+      "album_id": "1Fl41Nuc9Eqf6nmbNFib24",
+      "duration_ms": 202626,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR89R1100009",
+      "release_date": "2012-03-05",
+      "popularity": 48,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:7b9oYQCf6g02miFtSCfubB",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 7,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Cheeky vocal fragments",
+      "style": [
+        "Cheeky vocal fragments"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; St. James Ballroom",
+      "cut_comparison": "Johnny Got A Boom Boom; Shake Your Coconuts",
+      "selection_hypothesis": "Short sung/voiced fragments, a suggestive refrain and instrumental responses propose another hook-led Caravan recording, from a different album.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Flirting, sweet attraction and silk-underwear imagery, plus a spoken dance prompt. No sad or violent plot in the published text.",
+        "source_url": "https://www.lyricskid.com/lyrics/caravan-palace-lyrics/dramophone-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/7b9oYQCf6g02miFtSCfubB"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Sparse words and repeated samples need the arrangement to carry interest.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lone Digger; St. James Ballroom. Short sung/voiced fragments, a suggestive refrain and instrumental responses propose another hook-led Caravan recording, from a different album. Cut caution: Johnny Got A Boom Boom; Shake Your Coconuts; exact reasons unknown. Risk: Sparse words and repeated samples need the arrangement to carry interest. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "37J1PlAkhRK7yrZUtqaUpQ": {
+          "name": "Caravan Palace",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:45Z",
+          "fetched_at": 1793406645.4257228
+        }
+      },
+      "provider_note": "Bounded matching found only a non-artist uploader/dance video; use exact Spotify fallback. For We Got U, dark official MV also excluded.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:32XguVXAL8XdpVuEygw0nM",
+      "spotify_url": "https://open.spotify.com/track/32XguVXAL8XdpVuEygw0nM",
+      "artist": "C2C",
+      "artists": [
+        "C2C"
+      ],
+      "artist_ids": [
+        "28INUgyzTTRbvSphrJbgZ2"
+      ],
+      "title": "Delta",
+      "album": "Tetra",
+      "album_id": "61XR1JvHsYvYxEj595VeLt",
+      "duration_ms": 224200,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR9T31200017",
+      "release_date": "2012-01-01",
+      "popularity": 46,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:32XguVXAL8XdpVuEygw0nM",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 8,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Chopped vocal melody",
+      "style": [
+        "Chopped vocal melody"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Lone Digger",
+      "cut_comparison": "Power of Love; Over And Over - Radio Edit",
+      "selection_hypothesis": "The vocal is musical material: contrasting chopped phrases and a melodic instrumental figure. Test rhythmic surprises and hook shape alongside Happy, not the C2C credit.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Published short phrases concern movement, looking for someone and playful sensual imagery; not a narrative of loss. Transcriptions of processed samples remain uncertain.",
+        "source_url": "https://api.lyrics.ovh/v1/C2C/Delta",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.onandon-records.com/en/products/c2c-tetra-cd"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "A more instrumental/chopped candidate than Happy; no guarantee of the same vocal charisma.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; Lone Digger. The vocal is musical material: contrasting chopped phrases and a melodic instrumental figure. Test rhythmic surprises and hook shape alongside Happy, not the C2C credit. Cut caution: Power of Love; Over And Over - Radio Edit; exact reasons unknown. Risk: A more instrumental/chopped candidate than Happy; no guarantee of the same vocal charisma. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "28INUgyzTTRbvSphrJbgZ2": {
+          "name": "C2C",
+          "genres": [
+            "electro swing"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:43Z",
+          "fetched_at": 1793406643.587287
+        }
+      },
+      "youtube": {
+        "video_id": "-IO0FZIotRI",
+        "title": "C2C - Delta",
+        "channel": "C2Cdjsofficial",
+        "duration_seconds": 224,
+        "url": "https://www.youtube.com/watch?v=-IO0FZIotRI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:32XguVXAL8XdpVuEygw0nM",
+        "observed_at": "2026-10-31T00:31:15Z",
+        "alternatives": [
+          {
+            "video_id": "z2Of1Glow4w",
+            "title": "C2C - Delta (Music Video)",
+            "channel": "G-Uniq Media",
+            "duration_seconds": 224,
+            "url": "https://www.youtube.com/watch?v=z2Of1Glow4w",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:32XguVXAL8XdpVuEygw0nM",
+            "observed_at": "2026-10-31T00:31:15Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:1DOC9RFiw5zDRBm1w5IM6s",
+      "spotify_url": "https://open.spotify.com/track/1DOC9RFiw5zDRBm1w5IM6s",
+      "artist": "Lemaitre, The Knocks",
+      "artists": [
+        "Lemaitre",
+        "The Knocks"
+      ],
+      "artist_ids": [
+        "4CTKqs11Zgsv8EZTVzx764",
+        "2x7EATekOPhFGRx3syMGEC"
+      ],
+      "title": "We Got U",
+      "album": "We Got U",
+      "album_id": "6kpncs4uaaZCcOJUyJv9XQ",
+      "duration_ms": 210040,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "USUM71604264",
+      "release_date": "2016-06-17",
+      "popularity": 41,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:1DOC9RFiw5zDRBm1w5IM6s",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 9,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Whistle and sung lift",
+      "style": [
+        "Whistle and sung lift"
+      ],
+      "features": {},
+      "keep_comparison": "Clap Your Hands; Happy",
+      "cut_comparison": "Classic (feat. POWERS); Safe and Sound",
+      "selection_hypothesis": "A defined whistle hook beside a short sung promise of a brighter night gives two identifiable elements to test. The label confirms the whistling and vocal contributors.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Support, brightness and an invitation to let go. Full published text centers feeling better together.",
+        "source_url": "https://readdork.com/lyrics/lemaitre-we-got-u",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://kommunikasjon.ntb.no/pressemelding/11310370/ny-lat-og-musikkvideo-fra-lemaitre?publisherId=6987388"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Whistle/pop brightness could be too commercial; The Knocks credit is not approval. Use audio rather than the dark official MV.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Clap Your Hands; Happy. A defined whistle hook beside a short sung promise of a brighter night gives two identifiable elements to test. The label confirms the whistling and vocal contributors. Cut caution: Classic (feat. POWERS); Safe and Sound; exact reasons unknown. Risk: Whistle/pop brightness could be too commercial; The Knocks credit is not approval. Use audio rather than the dark official MV. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "4CTKqs11Zgsv8EZTVzx764": {
+          "name": "Lemaitre",
+          "genres": [
+            "norwegian pop"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:48Z",
+          "fetched_at": 1793406648.409292
+        },
+        "2x7EATekOPhFGRx3syMGEC": {
+          "name": "The Knocks",
+          "genres": [
+            "nu disco"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:44Z",
+          "fetched_at": 1793406644.985915
+        }
+      },
+      "provider_note": "Bounded matching found only a non-artist uploader/dance video; use exact Spotify fallback. For We Got U, dark official MV also excluded.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:0q3BZl7XqLKf6N2AgtgH08",
+      "spotify_url": "https://open.spotify.com/track/0q3BZl7XqLKf6N2AgtgH08",
+      "artist": "Tape Five",
+      "artists": [
+        "Tape Five"
+      ],
+      "artist_ids": [
+        "7kHK5OLdiiHCfG49KSHTko"
+      ],
+      "title": "Geraldines Routine",
+      "album": "Swing Patrol",
+      "album_id": "0Owmxhk3Ppr73Te7B91Bdy",
+      "duration_ms": 188910,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEDW91200299",
+      "release_date": "2015-08-17",
+      "popularity": 48,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:0q3BZl7XqLKf6N2AgtgH08",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 10,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Flirty dance story",
+      "style": [
+        "Flirty dance story"
+      ],
+      "features": {},
+      "keep_comparison": "St. James Ballroom; Back It Up",
+      "cut_comparison": "Brighter Than Gold; Dance Commander",
+      "selection_hypothesis": "A named couple, changing dance instructions and a sung refrain propose a miniature scene with personality, rather than an anonymous party command.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Romeo meets dancer/stripper Geraldine, learns her routine and becomes her new flame. Sexual but celebratory; no betrayal plot.",
+        "source_url": "https://tapefive.com/lyrics-book/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/0q3BZl7XqLKf6N2AgtgH08"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Theatrical/novelty styling; second and final Tape Five appearance in this batch.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: St. James Ballroom; Back It Up. A named couple, changing dance instructions and a sung refrain propose a miniature scene with personality, rather than an anonymous party command. Cut caution: Brighter Than Gold; Dance Commander; exact reasons unknown. Risk: Theatrical/novelty styling; second and final Tape Five appearance in this batch. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "7kHK5OLdiiHCfG49KSHTko": {
+          "name": "Tape Five",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:53Z",
+          "fetched_at": 1793406653.873719
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:1N64BMHUy8eZA4gPraIO8k",
+      "spotify_url": "https://open.spotify.com/track/1N64BMHUy8eZA4gPraIO8k",
+      "artist": "Touch & Go",
+      "artists": [
+        "Touch & Go"
+      ],
+      "artist_ids": [
+        "6g4QFMHc4H90YskTtuVItO"
+      ],
+      "title": "Straight To...Number One - Duck's Radio Mix",
+      "album": "I Find You Very Attractivee",
+      "album_id": "2T2BKxOTJ3UCrCJ6ioSdaT",
+      "duration_ms": 185933,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBLK9900226",
+      "release_date": "1999-01-01",
+      "popularity": 23,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:1N64BMHUy8eZA4gPraIO8k",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 11,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Whispered sensual countdown",
+      "style": [
+        "Whispered sensual countdown"
+      ],
+      "features": {},
+      "keep_comparison": "Would You...?; yes baby",
+      "cut_comparison": "Crave You; Power of Love",
+      "selection_hypothesis": "A compact sensual countdown that turns into a sung/spoken hook, testing the exact voice-to-rhythm relationship beside Would You...?.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Consensual kissing/touching invitation and wordplay on foreplay/counting; no loss story.",
+        "source_url": "https://lyricstranslate.com/en/touch-and-go-straight-number-one-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/1N64BMHUy8eZA4gPraIO8k"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Sparse lyrics and vocal novelty; explicitly selected Duck's Radio Mix, not the softer Dreamcatcher mix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Would You...?; yes baby. A compact sensual countdown that turns into a sung/spoken hook, testing the exact voice-to-rhythm relationship beside Would You...?. Cut caution: Crave You; Power of Love; exact reasons unknown. Risk: Sparse lyrics and vocal novelty; explicitly selected Duck's Radio Mix, not the softer Dreamcatcher mix. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "6g4QFMHc4H90YskTtuVItO": {
+          "name": "Touch & Go",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:53Z",
+          "fetched_at": 1793406653.463197
+        }
+      },
+      "youtube": {
+        "video_id": "JZ6nAlOxyiE",
+        "title": "Straight To...Number One (Duck's Radio Mix)",
+        "channel": "Touch & Go - Topic",
+        "duration_seconds": 186,
+        "url": "https://www.youtube.com/watch?v=JZ6nAlOxyiE",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1N64BMHUy8eZA4gPraIO8k",
+        "observed_at": "2026-10-31T00:31:17Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+      "spotify_url": "https://open.spotify.com/track/0VasC3Qddqyg8gyCB2LaxH",
+      "artist": "Proleter",
+      "artists": [
+        "Proleter"
+      ],
+      "artist_ids": [
+        "5dCpFeKxLbycrnsjWZjha8"
+      ],
+      "title": "April Showers",
+      "album": "Curses From Past Times",
+      "album_id": "59Hb6gRDPBYvmQwrx3ZHlU",
+      "duration_ms": 275751,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FRP621313380",
+      "release_date": "2011-11-22",
+      "popularity": 36,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 12,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Sampled romantic lift",
+      "style": [
+        "Sampled romantic lift"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Mushaboom",
+      "cut_comparison": "Squeeze Me; Back Pocket",
+      "selection_hypothesis": "An identifiable romantic vocal sample and jazzy melody against a crisp beat propose a sample-song rather than anonymous smooth background.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Seasonal showers lead to flowers, romance and an outdoor paradise for two. The published sampled text is hopeful.",
+        "source_url": "https://www.lyricskid.com/lyrics/proleter-lyrics/april-showers-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://proleter.newgrounds.com/"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "4:36 and a lower perceived-energy risk; the sample must not become a long unchanged loop.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; Mushaboom. An identifiable romantic vocal sample and jazzy melody against a crisp beat propose a sample-song rather than anonymous smooth background. Cut caution: Squeeze Me; Back Pocket; exact reasons unknown. Risk: 4:36 and a lower perceived-energy risk; the sample must not become a long unchanged loop. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "5dCpFeKxLbycrnsjWZjha8": {
+          "name": "Proleter",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:50Z",
+          "fetched_at": 1793406650.633764
+        }
+      },
+      "youtube": {
+        "video_id": "hkVR0RJPbHo",
+        "title": "April Showers",
+        "channel": "ProleteR",
+        "duration_seconds": 276,
+        "url": "https://www.youtube.com/watch?v=hkVR0RJPbHo",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+        "observed_at": "2026-10-31T00:31:17Z",
+        "alternatives": [
+          {
+            "video_id": "lnOVp4urErU",
+            "title": "April Showers",
+            "channel": "ProleteR",
+            "duration_seconds": 276,
+            "url": "https://www.youtube.com/watch?v=lnOVp4urErU",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+            "observed_at": "2026-10-31T00:31:17Z"
+          },
+          {
+            "video_id": "fF3HS0e6i90",
+            "title": "ProleteR - April showers",
+            "channel": "ProleteR",
+            "duration_seconds": 276,
+            "url": "https://www.youtube.com/watch?v=fF3HS0e6i90",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+            "observed_at": "2026-10-31T00:31:17Z"
+          },
+          {
+            "video_id": "Qc4gjzmevfo",
+            "title": "April Showers (Remastered)",
+            "channel": "ProleteR",
+            "duration_seconds": 274,
+            "url": "https://www.youtube.com/watch?v=Qc4gjzmevfo",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:0VasC3Qddqyg8gyCB2LaxH",
+            "observed_at": "2026-10-31T00:31:17Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:6QR3dzPjzstKawfrHitgIb",
+      "spotify_url": "https://open.spotify.com/track/6QR3dzPjzstKawfrHitgIb",
+      "artist": "Club des Belugas, Schizoid Sista",
+      "artists": [
+        "Club des Belugas",
+        "Schizoid Sista"
+      ],
+      "artist_ids": [
+        "3ea1ZpptTqS5pwYYpQQVCo",
+        "4Fo6Q9qZQnleOo6kBn47CR"
+      ],
+      "title": "Hip Hip Chin Chin - Schizoid Sista Radio Edit",
+      "album": "Hip Hip Chin Chin (Schizoid Sista Remixes)",
+      "album_id": "5Ll6kF7OvGvQeRmIhEqvpH",
+      "duration_ms": 219972,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEUY41600002",
+      "release_date": "2016-05-20",
+      "popularity": 2,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:6QR3dzPjzstKawfrHitgIb",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 13,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Rhythm as vocal hook",
+      "style": [
+        "Rhythm as vocal hook"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; HandClap",
+      "cut_comparison": "Power of Love; Boogie 2Nite",
+      "selection_hypothesis": "A rhythm-lecture voice, a sung/voiced title figure and horn punctuation in a compact remix. Test the interplay, with the long original deliberately left out.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Published underlying song text celebrates rhythm, movement and a communal toast. The selected remix was not transcribed from audio.",
+        "source_url": "https://lyricsfrance.com/club-des-belugas/hip-hip-chin-chin/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/6QR3dzPjzstKawfrHitgIb"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Specific Schizoid Sista Radio Edit (3:40); underlying text screen cannot certify added/edited samples.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; HandClap. A rhythm-lecture voice, a sung/voiced title figure and horn punctuation in a compact remix. Test the interplay, with the long original deliberately left out. Cut caution: Power of Love; Boogie 2Nite; exact reasons unknown. Risk: Specific Schizoid Sista Radio Edit (3:40); underlying text screen cannot certify added/edited samples. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3ea1ZpptTqS5pwYYpQQVCo": {
+          "name": "Club des Belugas",
+          "genres": [
+            "nu jazz",
+            "electro swing",
+            "acid jazz",
+            "swing music",
+            "lounge"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:46Z",
+          "fetched_at": 1793406646.701416
+        },
+        "4Fo6Q9qZQnleOo6kBn47CR": {
+          "name": "Schizoid Sista",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:48Z",
+          "fetched_at": 1793406648.816909
+        }
+      },
+      "youtube": {
+        "video_id": "rppH-Apni_M",
+        "title": "Hip Hip Chin Chin (Schizoid Sista Radio Edit)",
+        "channel": "Club des Belugas - Topic",
+        "duration_seconds": 220,
+        "url": "https://www.youtube.com/watch?v=rppH-Apni_M",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6QR3dzPjzstKawfrHitgIb",
+        "observed_at": "2026-10-31T00:31:19Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:1QZCACpzdLcIPctar1GTom",
+      "spotify_url": "https://open.spotify.com/track/1QZCACpzdLcIPctar1GTom",
+      "artist": "Mista Trick, Elle & The Pocket Belles",
+      "artists": [
+        "Mista Trick",
+        "Elle & The Pocket Belles"
+      ],
+      "artist_ids": [
+        "68aX2oJPY4Hk1QRzGH8YU1",
+        "0MbDNDhsDB35CyvApzybJt"
+      ],
+      "title": "Golden Sound",
+      "album": "You",
+      "album_id": "0C7KpmLraUeuZKLSO7MSwL",
+      "duration_ms": 262009,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBJCN2123703",
+      "release_date": "2021-09-17",
+      "popularity": 8,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:1QZCACpzdLcIPctar1GTom",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 14,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Vocal harmony with fast breaks",
+      "style": [
+        "Vocal harmony with fast breaks"
+      ],
+      "features": {},
+      "keep_comparison": "Lost In The Rhythm; beachin",
+      "cut_comparison": "on & on; Therapy",
+      "selection_hypothesis": "A female vocal-group refrain and the contrast between vintage song phrases and fast broken drums offer a different kind of bounce. The artist publishes the complete lyric.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Enjoying records, turning up the music, feeling love and using what is there creatively. No negative narrative in the artist text.",
+        "source_url": "https://mistatrick.bandcamp.com/album/you",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.qobuz.com/nl-nl/album/you-mista-trick/w7uapsmvv84eb"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Swing-and-bass speed may feel too rave-like for Grove; original 4:22, not the PiSK remix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lost In The Rhythm; beachin. A female vocal-group refrain and the contrast between vintage song phrases and fast broken drums offer a different kind of bounce. The artist publishes the complete lyric. Cut caution: on & on; Therapy; exact reasons unknown. Risk: Swing-and-bass speed may feel too rave-like for Grove; original 4:22, not the PiSK remix. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "68aX2oJPY4Hk1QRzGH8YU1": {
+          "name": "Mista Trick",
+          "genres": [
+            "electro swing",
+            "drum and bass",
+            "jungle"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.893319
+        },
+        "0MbDNDhsDB35CyvApzybJt": {
+          "name": "Elle & The Pocket Belles",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:42Z",
+          "fetched_at": 1793406642.317769
+        }
+      },
+      "youtube": {
+        "video_id": "968uJ3EKxcs",
+        "title": "Golden Sound",
+        "channel": "Mista Trick",
+        "duration_seconds": 263,
+        "url": "https://www.youtube.com/watch?v=968uJ3EKxcs",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:1QZCACpzdLcIPctar1GTom",
+        "observed_at": "2026-10-31T00:31:19Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:4HOBgihg2qPgBuSqHZ5QK0",
+      "spotify_url": "https://open.spotify.com/track/4HOBgihg2qPgBuSqHZ5QK0",
+      "artist": "Brenda Boykin",
+      "artists": [
+        "Brenda Boykin"
+      ],
+      "artist_ids": [
+        "6EUM9GFtnAwMz7sy3m5f3f"
+      ],
+      "title": "Love Is in Town",
+      "album": "Chocolate & Chili",
+      "album_id": "6frQRQNvD6TG1ZcrncHdhN",
+      "duration_ms": 321466,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "DEDW90800199",
+      "release_date": "2008-11-13",
+      "popularity": 48,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:4HOBgihg2qPgBuSqHZ5QK0",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 15,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Soulful communal lift",
+      "style": [
+        "Soulful communal lift"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Back It Up",
+      "cut_comparison": "Brighter Than Gold; Power of Love",
+      "selection_hypothesis": "A strong soul voice, invitation to join the session and a change into a scat passage give a concrete complete-song case to test despite the length.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Love has arrived, stormy days are over and everything feels right with a partner. Published transcriptions vary in small words; the central story is affirmative.",
+        "source_url": "https://www.cifraclub.com.br/brenda-boykin/love-is-in-town/letra/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.chinchin-records.com/brenda-boykin"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "5:21: this is the longest candidate and must justify the later section; not the separate live recording.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; Back It Up. A strong soul voice, invitation to join the session and a change into a scat passage give a concrete complete-song case to test despite the length. Cut caution: Brighter Than Gold; Power of Love; exact reasons unknown. Risk: 5:21: this is the longest candidate and must justify the later section; not the separate live recording. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "6EUM9GFtnAwMz7sy3m5f3f": {
+          "name": "Brenda Boykin",
+          "genres": [
+            "electro swing",
+            "nu jazz",
+            "acid jazz",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:52Z",
+          "fetched_at": 1793406652.294209
+        }
+      },
+      "youtube": {
+        "video_id": "CSlPrOsoAv0",
+        "title": "Love Is in Town",
+        "channel": "Brenda Boykin - Topic",
+        "duration_seconds": 322,
+        "url": "https://www.youtube.com/watch?v=CSlPrOsoAv0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4HOBgihg2qPgBuSqHZ5QK0",
+        "observed_at": "2026-10-31T00:31:20Z",
+        "alternatives": [
+          {
+            "video_id": "4Rh-01SxN4U",
+            "title": "Love Is in Town",
+            "channel": "Brenda Boykin - Topic",
+            "duration_seconds": 322,
+            "url": "https://www.youtube.com/watch?v=4Rh-01SxN4U",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:4HOBgihg2qPgBuSqHZ5QK0",
+            "observed_at": "2026-10-31T00:31:20Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:7ii3grM2KCYBYcSe1DR4kq",
+      "spotify_url": "https://open.spotify.com/track/7ii3grM2KCYBYcSe1DR4kq",
+      "artist": "Pisk, Cab Calloway",
+      "artists": [
+        "Pisk",
+        "Cab Calloway"
+      ],
+      "artist_ids": [
+        "2c2wuveILva0R8OYac7lwc",
+        "03cwCzIWQ8BRmXjGPDAL04"
+      ],
+      "title": "Jumpin' Jive - Electro Swing Remix",
+      "album": "Hummin' To Myself / Jumpin' Jive",
+      "album_id": "5nYvk0g6bnGq323izZGcqu",
+      "duration_ms": 218461,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBJCN1916302",
+      "release_date": "2019-11-29",
+      "popularity": 35,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:7ii3grM2KCYBYcSe1DR4kq",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 16,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Call-and-response jive",
+      "style": [
+        "Call-and-response jive"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; St. James Ballroom",
+      "cut_comparison": "Shake Your Coconuts; Boogie 2Nite",
+      "selection_hypothesis": "Cab Calloway's call-and-response voice and nonsense syllables are a particular musical hook, recast into a compact modern rhythm.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Invitation to jive, join the band and have a ball; playful period slang and height exaggeration, no sad plot.",
+        "source_url": "https://www.paroles-musique.com/eng/Pisk-Jumpin-Jive-lyrics%2Cp9149575",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://freshlysqueezedmusic.bandcamp.com/track/jumpin-jive-2"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Novelty/repetition; PiSK is Swingrowers producer Roberto Costa, counted as shared creative exposure.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; St. James Ballroom. Cab Calloway's call-and-response voice and nonsense syllables are a particular musical hook, recast into a compact modern rhythm. Cut caution: Shake Your Coconuts; Boogie 2Nite; exact reasons unknown. Risk: Novelty/repetition; PiSK is Swingrowers producer Roberto Costa, counted as shared creative exposure. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "2c2wuveILva0R8OYac7lwc": {
+          "name": "Pisk",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:44Z",
+          "fetched_at": 1793406644.069417
+        },
+        "03cwCzIWQ8BRmXjGPDAL04": {
+          "name": "Cab Calloway",
+          "genres": [
+            "big band",
+            "swing music",
+            "ragtime",
+            "jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:41Z",
+          "fetched_at": 1793406641.8959239
+        }
+      },
+      "youtube": {
+        "video_id": "HNo2cnURPUU",
+        "title": "Jumpin' Jive (Electro Swing Remix)",
+        "channel": "Pisk - Topic",
+        "duration_seconds": 219,
+        "url": "https://www.youtube.com/watch?v=HNo2cnURPUU",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7ii3grM2KCYBYcSe1DR4kq",
+        "observed_at": "2026-10-31T00:31:22Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:4S411ltVP0etg2xvJqxi4r",
+      "spotify_url": "https://open.spotify.com/track/4S411ltVP0etg2xvJqxi4r",
+      "artist": "Caro Emerald",
+      "artists": [
+        "Caro Emerald"
+      ],
+      "artist_ids": [
+        "492hDmhPyuIjP3MgTcIqgm"
+      ],
+      "title": "Pack Up The Louie",
+      "album": "The Shocking Miss Emerald",
+      "album_id": "0xHjhuBr4gwoxeXaU8EZmY",
+      "duration_ms": 213010,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "NLHR31300009",
+      "release_date": "2013-05-03",
+      "popularity": 44,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:4S411ltVP0etg2xvJqxi4r",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 17,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Playful travel scene",
+      "style": [
+        "Playful travel scene"
+      ],
+      "features": {},
+      "keep_comparison": "Back It Up; A Night Like This",
+      "cut_comparison": "Around the Bend; My Type",
+      "selection_hypothesis": "A packing/travel character scene and a melodic title hook test another facet of the singer, from a different album than Dr. Wanna Do.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Excited plans to travel, dance tango and visit new places; comic packing anxiety/indecision resolves into setting off. Not a sad departure.",
+        "source_url": "https://www.lyricskid.com/lyrics/caro-emerald-lyrics/pack-up-the-louie-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.caroemerald.com/our-songs/"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Second Caro appearance; existing two Keeps plus possible new Keeps need later concentration review. Original, not Caravan Palace remix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Back It Up; A Night Like This. A packing/travel character scene and a melodic title hook test another facet of the singer, from a different album than Dr. Wanna Do. Cut caution: Around the Bend; My Type; exact reasons unknown. Risk: Second Caro appearance; existing two Keeps plus possible new Keeps need later concentration review. Original, not Caravan Palace remix. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "492hDmhPyuIjP3MgTcIqgm": {
+          "name": "Caro Emerald",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.995494
+        }
+      },
+      "youtube": {
+        "video_id": "15qupsFAAPw",
+        "title": "Caro Emerald - Pack Up The Louie",
+        "channel": "caroemerald",
+        "duration_seconds": 214,
+        "url": "https://www.youtube.com/watch?v=15qupsFAAPw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4S411ltVP0etg2xvJqxi4r",
+        "observed_at": "2026-10-31T00:31:22Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:17ocjfl3bit4nbpEqfbFmX",
+      "spotify_url": "https://open.spotify.com/track/17ocjfl3bit4nbpEqfbFmX",
+      "artist": "Jamie Berry, Octavia Rose, Andrew Griffiths, Robert Bradley",
+      "artists": [
+        "Jamie Berry",
+        "Octavia Rose",
+        "Andrew Griffiths",
+        "Robert Bradley"
+      ],
+      "artist_ids": [
+        "5sM4cZ9MHihs0tbmkiE9n8",
+        "3jT2Zl57kYDK5qI8fkl1L9",
+        "5NmOnMjI4tJoLABvUiIlBW",
+        "5RAePHxI1tGutAxcL0yw34"
+      ],
+      "title": "Dance Dance",
+      "album": "Light up the Night",
+      "album_id": "7E8IRPIcHhPAOppWscPTLo",
+      "duration_ms": 235340,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "TCAEL1996029",
+      "release_date": "2019-09-15",
+      "popularity": 35,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:17ocjfl3bit4nbpEqfbFmX",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 18,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Sung choreographic invitation",
+      "style": [
+        "Sung choreographic invitation"
+      ],
+      "features": {},
+      "keep_comparison": "Lost In The Rhythm; Back It Up",
+      "cut_comparison": "Shake Your Coconuts; Dance Commander",
+      "selection_hypothesis": "A fully sung spin/sway/dip/twist sequence, a kiss and a clear refrain provide a second specific tune to compare with the Jamie Berry Keep.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "A tiring week is brief setup for carefree dancing, attraction and belonging at the venue. Central frame is shared pleasure.",
+        "source_url": "https://lyricstranslate.com/en/jamie-berry-dance-dance-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://music.apple.com/us/album/light-up-the-night/1850079571"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Dance-command repetition may still be too thin. Second Jamie/Octavia recording, not a long extended Delight.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lost In The Rhythm; Back It Up. A fully sung spin/sway/dip/twist sequence, a kiss and a clear refrain provide a second specific tune to compare with the Jamie Berry Keep. Cut caution: Shake Your Coconuts; Dance Commander; exact reasons unknown. Risk: Dance-command repetition may still be too thin. Second Jamie/Octavia recording, not a long extended Delight. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "5sM4cZ9MHihs0tbmkiE9n8": {
+          "name": "Jamie Berry",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.08584
+        },
+        "3jT2Zl57kYDK5qI8fkl1L9": {
+          "name": "Octavia Rose",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.103604
+        },
+        "5NmOnMjI4tJoLABvUiIlBW": {
+          "name": "Andrew Griffiths",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:49Z",
+          "fetched_at": 1793406649.7040262
+        },
+        "5RAePHxI1tGutAxcL0yw34": {
+          "name": "Robert Bradley",
+          "genres": [],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:50Z",
+          "fetched_at": 1793406650.112007
+        }
+      },
+      "youtube": {
+        "video_id": "tJT4hFSLS-s",
+        "title": "Dance Dance",
+        "channel": "Jamie Berry - Topic",
+        "duration_seconds": 236,
+        "url": "https://www.youtube.com/watch?v=tJT4hFSLS-s",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:17ocjfl3bit4nbpEqfbFmX",
+        "observed_at": "2026-10-31T00:31:22Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:3y1ZTmKflClquGUpeDXL7n",
+      "spotify_url": "https://open.spotify.com/track/3y1ZTmKflClquGUpeDXL7n",
+      "artist": "Parov Stelar",
+      "artists": [
+        "Parov Stelar"
+      ],
+      "artist_ids": [
+        "65EXuYHVoehCKqp0kOS6px"
+      ],
+      "title": "Clap Your Hands",
+      "album": "Clap Your Hands",
+      "album_id": "42y8H4jbVEE0lWY00CSRtf",
+      "duration_ms": 197493,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "ATE611400002",
+      "release_date": "2014-10-07",
+      "popularity": 47,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:3y1ZTmKflClquGUpeDXL7n",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 19,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Swinging vocal cue",
+      "style": [
+        "Swinging vocal cue"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; HandClap",
+      "cut_comparison": "Shake Your Coconuts; Power of Love",
+      "selection_hypothesis": "A distinctly rhythmic old vocal call moves through different dance gestures. Test the sung rhythmic inflections and instrumental answers in the short original.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Clapping, stomping, swinging and everybody enjoying the jive. Full published text is a dance invitation.",
+        "source_url": "https://api.lyrics.ovh/v1/Parov%20Stelar/Clap%20Your%20Hands",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/3y1ZTmKflClquGUpeDXL7n"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Repeated sample must earn its time; 3:17 original, not extended club version.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; HandClap. A distinctly rhythmic old vocal call moves through different dance gestures. Test the sung rhythmic inflections and instrumental answers in the short original. Cut caution: Shake Your Coconuts; Power of Love; exact reasons unknown. Risk: Repeated sample must earn its time; 3:17 original, not extended club version. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "65EXuYHVoehCKqp0kOS6px": {
+          "name": "Parov Stelar",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.475638
+        }
+      },
+      "youtube": {
+        "video_id": "xAIC2aCD3I0",
+        "title": "Clap Your Hands",
+        "channel": "Parov Stelar",
+        "duration_seconds": 198,
+        "url": "https://www.youtube.com/watch?v=xAIC2aCD3I0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:3y1ZTmKflClquGUpeDXL7n",
+        "observed_at": "2026-10-31T00:31:24Z",
+        "alternatives": [
+          {
+            "video_id": "EHs7Av5TZhQ",
+            "title": "Parov Stelar - Clap Your Hands (Official Video)",
+            "channel": "Parov Stelar",
+            "duration_seconds": 198,
+            "url": "https://www.youtube.com/watch?v=EHs7Av5TZhQ",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:3y1ZTmKflClquGUpeDXL7n",
+            "observed_at": "2026-10-31T00:31:24Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:7m2kLMaT9wJomzIb7iIDTM",
+      "spotify_url": "https://open.spotify.com/track/7m2kLMaT9wJomzIb7iIDTM",
+      "artist": "Swingrowers",
+      "artists": [
+        "Swingrowers"
+      ],
+      "artist_ids": [
+        "3mp5zzEz1qTq7X5a2yOS2B"
+      ],
+      "title": "Butterfly",
+      "album": "Butterfly",
+      "album_id": "7u4RtdYbXC9BWBwqtlK6J7",
+      "duration_ms": 217164,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBJCN1709401",
+      "release_date": "2017-03-31",
+      "popularity": 30,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:7m2kLMaT9wJomzIb7iIDTM",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 20,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Whimsical sung refrain",
+      "style": [
+        "Whimsical sung refrain"
+      ],
+      "features": {},
+      "keep_comparison": "St. James Ballroom; Mushaboom",
+      "cut_comparison": "Green Garden; Around the Bend",
+      "selection_hypothesis": "A complete fantastical story and a tight recurring sung hook propose personality alongside a springy accompaniment. Judge the tune, not woodland imagery.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "A shy butterfly dreams of the sky and takes a spaceship ride. Brief disorientation/dark-sky lines occur within a playful flight fantasy, not a grief story.",
+        "source_url": "https://lyricstranslate.com/en/swingrowers-butterfly-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://music.apple.com/us/song/1340370803"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Fable/novelty and repeated go-go refrain; second Swingrowers track. Minor uncertainty in the story is disclosed.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: St. James Ballroom; Mushaboom. A complete fantastical story and a tight recurring sung hook propose personality alongside a springy accompaniment. Judge the tune, not woodland imagery. Cut caution: Green Garden; Around the Bend; exact reasons unknown. Risk: Fable/novelty and repeated go-go refrain; second Swingrowers track. Minor uncertainty in the story is disclosed. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3mp5zzEz1qTq7X5a2yOS2B": {
+          "name": "Swingrowers",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:47Z",
+          "fetched_at": 1793406647.583902
+        }
+      },
+      "youtube": {
+        "video_id": "aa2pSPiJqT4",
+        "title": "Butterfly",
+        "channel": "SWINGROWERS",
+        "duration_seconds": 218,
+        "url": "https://www.youtube.com/watch?v=aa2pSPiJqT4",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7m2kLMaT9wJomzIb7iIDTM",
+        "observed_at": "2026-10-31T00:31:24Z",
+        "alternatives": [
+          {
+            "video_id": "Q2qh2wQd2z4",
+            "title": "Butterfly (Album Remaster)",
+            "channel": "SWINGROWERS",
+            "duration_seconds": 219,
+            "url": "https://www.youtube.com/watch?v=Q2qh2wQd2z4",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7m2kLMaT9wJomzIb7iIDTM",
+            "observed_at": "2026-10-31T00:31:24Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:0rYwzyMn3sPOubTVrVDURJ",
+      "spotify_url": "https://open.spotify.com/track/0rYwzyMn3sPOubTVrVDURJ",
+      "artist": "Basement Jaxx",
+      "artists": [
+        "Basement Jaxx"
+      ],
+      "artist_ids": [
+        "4YrKBkKSVeqDamzBPWVnSJ"
+      ],
+      "title": "Oh My Gosh",
+      "album": "Oh My Gosh",
+      "album_id": "64MlPx8Mef8kNmAwgQnCtT",
+      "duration_ms": 237266,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBKS0500042",
+      "release_date": "2005-06-21",
+      "popularity": 24,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:0rYwzyMn3sPOubTVrVDURJ",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 21,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Flirtatious dialogue",
+      "style": [
+        "Flirtatious dialogue"
+      ],
+      "features": {},
+      "keep_comparison": "Would You...?; Back It Up",
+      "cut_comparison": "Do Your Thing; Red Alert - Jaxx Radio Mix",
+      "selection_hypothesis": "A specific exchange between friends and a prospective lover gives the chorus a scene and contrasting voices, not just a repeated dance command.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Amused, reciprocated attraction and a playful encounter at a bar; no cheating or heartbreak.",
+        "source_url": "https://api.lyrics.ovh/v1/Basement%20Jaxx/Oh%20My%20Gosh",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/0rYwzyMn3sPOubTVrVDURJ"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Recognizable pop crossover may miss. Multiple earlier Basement Jaxx Cuts remain warnings, not an artist ban.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Would You...?; Back It Up. A specific exchange between friends and a prospective lover gives the chorus a scene and contrasting voices, not just a repeated dance command. Cut caution: Do Your Thing; Red Alert - Jaxx Radio Mix; exact reasons unknown. Risk: Recognizable pop crossover may miss. Multiple earlier Basement Jaxx Cuts remain warnings, not an artist ban. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "4YrKBkKSVeqDamzBPWVnSJ": {
+          "name": "Basement Jaxx",
+          "genres": [
+            "big beat"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:49Z",
+          "fetched_at": 1793406649.225506
+        }
+      },
+      "youtube": {
+        "video_id": "MJJveUVlI7I",
+        "title": "Basement Jaxx - Oh My Gosh (Official Visual)",
+        "channel": "Basement Jaxx",
+        "duration_seconds": 238,
+        "url": "https://www.youtube.com/watch?v=MJJveUVlI7I",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0rYwzyMn3sPOubTVrVDURJ",
+        "observed_at": "2026-10-31T00:31:25Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:0nR7ZfHMxiUVP7ImL9oIUZ",
+      "spotify_url": "https://open.spotify.com/track/0nR7ZfHMxiUVP7ImL9oIUZ",
+      "artist": "Little Violet",
+      "artists": [
+        "Little Violet"
+      ],
+      "artist_ids": [
+        "6IPvyC9odisPFeT9Gc43EE"
+      ],
+      "title": "Don't Stop",
+      "album": "Don't Stop",
+      "album_id": "5dyPnpb3n3djPKZRmqhHRD",
+      "duration_ms": 194239,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBSY41200013",
+      "release_date": "2012-11-12",
+      "popularity": 35,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:0nR7ZfHMxiUVP7ImL9oIUZ",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 22,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Affirmative vocal groove",
+      "style": [
+        "Affirmative vocal groove"
+      ],
+      "features": {},
+      "keep_comparison": "Back It Up; Happy",
+      "cut_comparison": "Green Garden; GUY.exe",
+      "selection_hypothesis": "A jazz-inflected lead voice and motivational verse/refrain/bridge arc propose a sung hook with rhythmic punctuation. Test the vocal and turns, not the upbeat message alone.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Encouragement to take a chance, keep moving and trust oneself; warnings are brief advice. Reviewed published text is attached to a remix of the same song, not an exact original-master transcription.",
+        "source_url": "https://lirik.web.id/l/little-violet/lirik-lagu-little-violet-dont-stop-mredwardz-remix/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.donstunes.com/little-violet/"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Shared-song lyric screen has a version limitation; selected 3:14 original, not the 4:25 MrEdwardz remix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Back It Up; Happy. A jazz-inflected lead voice and motivational verse/refrain/bridge arc propose a sung hook with rhythmic punctuation. Test the vocal and turns, not the upbeat message alone. Cut caution: Green Garden; GUY.exe; exact reasons unknown. Risk: Shared-song lyric screen has a version limitation; selected 3:14 original, not the 4:25 MrEdwardz remix. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "6IPvyC9odisPFeT9Gc43EE": {
+          "name": "Little Violet",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:52Z",
+          "fetched_at": 1793406652.730405
+        }
+      },
+      "youtube": {
+        "video_id": "jscDyLam_RI",
+        "title": "Don't Stop",
+        "channel": "Little Violet - Topic",
+        "duration_seconds": 195,
+        "url": "https://www.youtube.com/watch?v=jscDyLam_RI",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0nR7ZfHMxiUVP7ImL9oIUZ",
+        "observed_at": "2026-10-31T00:31:27Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:4GZYA6Vgej3mCouMS4KZ8Q",
+      "spotify_url": "https://open.spotify.com/track/4GZYA6Vgej3mCouMS4KZ8Q",
+      "artist": "Proleter",
+      "artists": [
+        "Proleter"
+      ],
+      "artist_ids": [
+        "5dCpFeKxLbycrnsjWZjha8"
+      ],
+      "title": "Faidherbe Square",
+      "album": "Curses From Past Times",
+      "album_id": "59Hb6gRDPBYvmQwrx3ZHlU",
+      "duration_ms": 207336,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FRP621313470",
+      "release_date": "2011-11-22",
+      "popularity": 44,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:4GZYA6Vgej3mCouMS4KZ8Q",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 23,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Instrumental melody and beat",
+      "style": [
+        "Instrumental melody and beat"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Lone Digger",
+      "cut_comparison": "Back Pocket; Squeeze Me",
+      "selection_hypothesis": "A conspicuous jazz-derived melodic figure and beat accents propose a compact instrumental with its own identity. Test whether that melody supplies the personality without a singer.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "instrumental version and market relink verified; direct sample audit unavailable",
+        "summary": "Artist explicitly releases an instrumental version. Spotify US relinks the known instrumental URI to this exact 3:27 master/ISRC; separate 3:52 French-rap version excluded from this screen.",
+        "source_url": "https://proleter.bandcamp.com/track/faidherbe-square-instrumental",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://soundcloud.com/proleter-beatmaker/proleter-faidherbe-square"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "More instrumental/hip-hop than the winners; direct sample audit unavailable. Original ISRC FRP621313470, not the remastered/vocal version.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; Lone Digger. A conspicuous jazz-derived melodic figure and beat accents propose a compact instrumental with its own identity. Test whether that melody supplies the personality without a singer. Cut caution: Back Pocket; Squeeze Me; exact reasons unknown. Risk: More instrumental/hip-hop than the winners; direct sample audit unavailable. Original ISRC FRP621313470, not the remastered/vocal version. Direct listening unavailable; editorial hypothesis.",
+      "market_relink_evidence": {
+        "original_uri": "spotify:track:1s5fL7wU0lod3sRdkOUVdp",
+        "resolved_uri": "spotify:track:4GZYA6Vgej3mCouMS4KZ8Q",
+        "isrc": "FRP621313470",
+        "duration_ms": 207336,
+        "basis": "Fresh Spotify US GET original instrumentally titled URI returns this linked_from identity and master; separate featured-rapper version excluded."
+      },
+      "artist_genres": {
+        "5dCpFeKxLbycrnsjWZjha8": {
+          "name": "Proleter",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:50Z",
+          "fetched_at": 1793406650.633764
+        }
+      },
+      "youtube": {
+        "video_id": "LWuC3THWLBg",
+        "title": "Faidherbe Square",
+        "channel": "ProleteR",
+        "duration_seconds": 208,
+        "url": "https://www.youtube.com/watch?v=LWuC3THWLBg",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4GZYA6Vgej3mCouMS4KZ8Q",
+        "observed_at": "2026-10-31T00:31:27Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:6UNRTQDouSud7jhUNuOglP",
+      "spotify_url": "https://open.spotify.com/track/6UNRTQDouSud7jhUNuOglP",
+      "artist": "11 Acorn Lane",
+      "artists": [
+        "11 Acorn Lane"
+      ],
+      "artist_ids": [
+        "3D8pAbIPK2aPh9VbWjett5"
+      ],
+      "title": "Let's Face It I'm Cute",
+      "album": "Time for Tea",
+      "album_id": "4tuWgLZRd9v6asgwrDuWVw",
+      "duration_ms": 216734,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US2AE1500204",
+      "release_date": "2015-02-10",
+      "popularity": 37,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:6UNRTQDouSud7jhUNuOglP",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 24,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Comic self-confidence",
+      "style": [
+        "Comic self-confidence"
+      ],
+      "features": {},
+      "keep_comparison": "St. James Ballroom; W.I.T.C.H.",
+      "cut_comparison": "Shake Your Coconuts; GUY.exe",
+      "selection_hypothesis": "A knowingly cute vocal character, call/echo phrases and a recurring melodic response make a concrete personality test.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Light, self-amused confidence and an invitation to acknowledge it. No insult, rejection or loss story in the full published text.",
+        "source_url": "https://spainlyrics.com/11-acorn-lane/lets-face-it-im-cute/",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://11acornlane.com/music"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Deliberate novelty and a repeated cute refrain; original 3:37, not the Roaring Twenties mix.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: St. James Ballroom; W.I.T.C.H.. A knowingly cute vocal character, call/echo phrases and a recurring melodic response make a concrete personality test. Cut caution: Shake Your Coconuts; GUY.exe; exact reasons unknown. Risk: Deliberate novelty and a repeated cute refrain; original 3:37, not the Roaring Twenties mix. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3D8pAbIPK2aPh9VbWjett5": {
+          "name": "11 Acorn Lane",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:45Z",
+          "fetched_at": 1793406645.827082
+        }
+      },
+      "youtube": {
+        "video_id": "lYd7Ykb3-aw",
+        "title": "Let's Face It I'm Cute",
+        "channel": "11 Acorn Lane",
+        "duration_seconds": 217,
+        "url": "https://www.youtube.com/watch?v=lYd7Ykb3-aw",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:6UNRTQDouSud7jhUNuOglP",
+        "observed_at": "2026-10-31T00:31:27Z",
+        "alternatives": [
+          {
+            "video_id": "Gvmu87ZZct8",
+            "title": "Let's Face It I'm Cute",
+            "channel": "11 Acorn Lane",
+            "duration_seconds": 217,
+            "url": "https://www.youtube.com/watch?v=Gvmu87ZZct8",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:6UNRTQDouSud7jhUNuOglP",
+            "observed_at": "2026-10-31T00:31:27Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:5NQ1VnUX6pOCqf9HoDXeCM",
+      "spotify_url": "https://open.spotify.com/track/5NQ1VnUX6pOCqf9HoDXeCM",
+      "artist": "Mista Trick, Kathika",
+      "artists": [
+        "Mista Trick",
+        "Kathika"
+      ],
+      "artist_ids": [
+        "68aX2oJPY4Hk1QRzGH8YU1",
+        "2iXvBfF3i34kv53y4IJ8gz"
+      ],
+      "title": "Do What You Do",
+      "album": "You",
+      "album_id": "0C7KpmLraUeuZKLSO7MSwL",
+      "duration_ms": 240934,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBJCN2122301",
+      "release_date": "2021-09-17",
+      "popularity": 25,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:5NQ1VnUX6pOCqf9HoDXeCM",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 25,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Confident sung travel story",
+      "style": [
+        "Confident sung travel story"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; Lost In The Rhythm",
+      "cut_comparison": "Brighter Than Gold; on & on",
+      "selection_hypothesis": "A named singer, a short narrative and a repeated sung payoff interact with fast swing-and-bass drums. Compare the vocal character rather than reading tempo as energy.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "An early worry about money gives way to trying, enjoying one's work and confidence in the future. Published full text is encouraging, not a hardship lament.",
+        "source_url": "https://www.paroles-musique.com/paroles-Mista-Trick-Do-What-You-Do-lyrics%2Cp9452839",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://mistatrick.bandcamp.com/album/you"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Fast breaks may be too much for this room; second Mista Trick track, no techno brief inherited.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; Lost In The Rhythm. A named singer, a short narrative and a repeated sung payoff interact with fast swing-and-bass drums. Compare the vocal character rather than reading tempo as energy. Cut caution: Brighter Than Gold; on & on; exact reasons unknown. Risk: Fast breaks may be too much for this room; second Mista Trick track, no techno brief inherited. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "68aX2oJPY4Hk1QRzGH8YU1": {
+          "name": "Mista Trick",
+          "genres": [
+            "electro swing",
+            "drum and bass",
+            "jungle"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:51Z",
+          "fetched_at": 1793406651.893319
+        },
+        "2iXvBfF3i34kv53y4IJ8gz": {
+          "name": "Kathika",
+          "genres": [
+            "drum and bass",
+            "bassline"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:44Z",
+          "fetched_at": 1793406644.4956422
+        }
+      },
+      "youtube": {
+        "video_id": "FTiMFabl6u0",
+        "title": "Do What You Do",
+        "channel": "Mista Trick",
+        "duration_seconds": 241,
+        "url": "https://www.youtube.com/watch?v=FTiMFabl6u0",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:5NQ1VnUX6pOCqf9HoDXeCM",
+        "observed_at": "2026-10-31T00:31:30Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:7qt39QINVt1bmsVwKG0ouX",
+      "spotify_url": "https://open.spotify.com/track/7qt39QINVt1bmsVwKG0ouX",
+      "artist": "Gabin",
+      "artists": [
+        "Gabin"
+      ],
+      "artist_ids": [
+        "1SYoQVIV4djFVGt0En7qsQ"
+      ],
+      "title": "Bang Bang to the Rock 'n' Roll",
+      "album": "Mr. Freedom",
+      "album_id": "0ecg61A1QhVtz50WJ100cq",
+      "duration_ms": 256200,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "IT0560400103",
+      "release_date": "2011-12-23",
+      "popularity": 21,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:7qt39QINVt1bmsVwKG0ouX",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 26,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Riff-led rock-and-roll bounce",
+      "style": [
+        "Riff-led rock-and-roll bounce"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; HandClap",
+      "cut_comparison": "Dance Commander; Shake Your Coconuts",
+      "selection_hypothesis": "A punchy recurring riff and vocal punctuation propose a hook that works as part of the rhythm section. Test its changing instrumental texture, not just a party title.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Published sparse vocal text urges rock-and-roll movement; bang is rhythmic wordplay here, not a narrated threat. Exact sample/ad-lib audit unavailable.",
+        "source_url": "https://api.lyrics.ovh/v1/Gabin/Bang%20Bang%20To%20The%20Rock%27n%27Roll",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/7qt39QINVt1bmsVwKG0ouX"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "4:16 with sparse words; the instrumental development must hold attention.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lone Digger; HandClap. A punchy recurring riff and vocal punctuation propose a hook that works as part of the rhythm section. Test its changing instrumental texture, not just a party title. Cut caution: Dance Commander; Shake Your Coconuts; exact reasons unknown. Risk: 4:16 with sparse words; the instrumental development must hold attention. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "1SYoQVIV4djFVGt0En7qsQ": {
+          "name": "Gabin",
+          "genres": [
+            "electro swing",
+            "nu jazz",
+            "acid jazz",
+            "lounge"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:42Z",
+          "fetched_at": 1793406642.7392058
+        }
+      },
+      "youtube": {
+        "video_id": "N3OBlsFNJFc",
+        "title": "Bang Bang to the Rock 'n' Roll",
+        "channel": "Gabin - Topic",
+        "duration_seconds": 257,
+        "url": "https://www.youtube.com/watch?v=N3OBlsFNJFc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:7qt39QINVt1bmsVwKG0ouX",
+        "observed_at": "2026-10-31T00:31:30Z",
+        "alternatives": [
+          {
+            "video_id": "BDAScBmRj74",
+            "title": "Bang Bang to the Rock 'n' Roll",
+            "channel": "Gabin - Topic",
+            "duration_seconds": 257,
+            "url": "https://www.youtube.com/watch?v=BDAScBmRj74",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7qt39QINVt1bmsVwKG0ouX",
+            "observed_at": "2026-10-31T00:31:30Z"
+          },
+          {
+            "video_id": "boq6UQgVFZI",
+            "title": "Bang Bang to the Rock 'n' Roll",
+            "channel": "Gabin - Topic",
+            "duration_seconds": 257,
+            "url": "https://www.youtube.com/watch?v=boq6UQgVFZI",
+            "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+            "spotify_uri": "spotify:track:7qt39QINVt1bmsVwKG0ouX",
+            "observed_at": "2026-10-31T00:31:30Z"
+          }
+        ]
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:4g0y6qLSh1NDbDtumSBkHM",
+      "spotify_url": "https://open.spotify.com/track/4g0y6qLSh1NDbDtumSBkHM",
+      "artist": "11 Acorn Lane",
+      "artists": [
+        "11 Acorn Lane"
+      ],
+      "artist_ids": [
+        "3D8pAbIPK2aPh9VbWjett5"
+      ],
+      "title": "Time for Tea",
+      "album": "Time for Tea",
+      "album_id": "4tuWgLZRd9v6asgwrDuWVw",
+      "duration_ms": 214664,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "US2AE1500206",
+      "release_date": "2015-02-10",
+      "popularity": 33,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:4g0y6qLSh1NDbDtumSBkHM",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 27,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Cheeky communal invitation",
+      "style": [
+        "Cheeky communal invitation"
+      ],
+      "features": {},
+      "keep_comparison": "Happy; St. James Ballroom",
+      "cut_comparison": "Shake Your Coconuts; Brighter Than Gold",
+      "selection_hypothesis": "A comic host, sung invitation and responding voices propose social personality and a specific melodic hook. Artist-published text confirms the complete scene.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Tea, beer, company, music and a dancing crowd, with cheeky innuendo and comic instructions. A celebration rather than a complaint.",
+        "source_url": "https://woodenhatrecords.bandcamp.com/track/time-for-tea",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://www.youtube.com/watch?v=C9jldrihvwY"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Novelty or repetitive invitation may overwhelm the tune; second and final 11 Acorn Lane recording.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Happy; St. James Ballroom. A comic host, sung invitation and responding voices propose social personality and a specific melodic hook. Artist-published text confirms the complete scene. Cut caution: Shake Your Coconuts; Brighter Than Gold; exact reasons unknown. Risk: Novelty or repetitive invitation may overwhelm the tune; second and final 11 Acorn Lane recording. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3D8pAbIPK2aPh9VbWjett5": {
+          "name": "11 Acorn Lane",
+          "genres": [
+            "electro swing",
+            "swing music"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:45Z",
+          "fetched_at": 1793406645.827082
+        }
+      },
+      "youtube": {
+        "video_id": "C9jldrihvwY",
+        "title": "11 Acorn Lane - Time For Tea",
+        "channel": "11 Acorn Lane",
+        "duration_seconds": 218,
+        "url": "https://www.youtube.com/watch?v=C9jldrihvwY",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:4g0y6qLSh1NDbDtumSBkHM",
+        "observed_at": "2026-10-31T00:31:30Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:5gCVegNKgG2ms67ia6t6Eb",
+      "spotify_url": "https://open.spotify.com/track/5gCVegNKgG2ms67ia6t6Eb",
+      "artist": "Caravan Palace",
+      "artists": [
+        "Caravan Palace"
+      ],
+      "artist_ids": [
+        "37J1PlAkhRK7yrZUtqaUpQ"
+      ],
+      "title": "Suzy",
+      "album": "Caravan Palace",
+      "album_id": "4crnogJ6icr6pxXhUrm8f1",
+      "duration_ms": 247200,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "FR89R0800006",
+      "release_date": "2008-10-20",
+      "popularity": 45,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:5gCVegNKgG2ms67ia6t6Eb",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 28,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Swinging vocal character",
+      "style": [
+        "Swinging vocal character"
+      ],
+      "features": {},
+      "keep_comparison": "Lone Digger; Lost In The Rhythm",
+      "cut_comparison": "Johnny Got A Boom Boom; Brighter Than Gold",
+      "selection_hypothesis": "A short sung portrait of a dancer, an identifiable instrumental figure and rhythmic exchange propose a different hook than Lone Digger.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "A dancer sings and dreams of more swinging music; sparse published text has no hostile or sad plot.",
+        "source_url": "https://www.lyricskid.com/lyrics/caravan-palace-lyrics/suzy-lyrics.html",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/5gCVegNKgG2ms67ia6t6Eb"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "4:07 and few words; riff/arrangement must carry interest. Second Caravan track, not a genre exemption.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Lone Digger; Lost In The Rhythm. A short sung portrait of a dancer, an identifiable instrumental figure and rhythmic exchange propose a different hook than Lone Digger. Cut caution: Johnny Got A Boom Boom; Brighter Than Gold; exact reasons unknown. Risk: 4:07 and few words; riff/arrangement must carry interest. Second Caravan track, not a genre exemption. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "37J1PlAkhRK7yrZUtqaUpQ": {
+          "name": "Caravan Palace",
+          "genres": [
+            "electro swing",
+            "swing music",
+            "nu jazz"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:45Z",
+          "fetched_at": 1793406645.4257228
+        }
+      },
+      "provider_note": "No sufficiently close artist/Topic title/version/duration match; exact Spotify fallback.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:17B9XlyyYDKkTmPay4z02V",
+      "spotify_url": "https://open.spotify.com/track/17B9XlyyYDKkTmPay4z02V",
+      "artist": "Bakermat",
+      "artists": [
+        "Bakermat"
+      ],
+      "artist_ids": [
+        "3MyFDtqB80WZvbtCZRsekM"
+      ],
+      "title": "Baianá",
+      "album": "The Ringmaster",
+      "album_id": "30uB4Apy4yJgDSfE7xyA6n",
+      "duration_ms": 180842,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "NLE801900440",
+      "release_date": "2020-10-09",
+      "popularity": 63,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:17B9XlyyYDKkTmPay4z02V",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 29,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Percussive communal hook",
+      "style": [
+        "Percussive communal hook"
+      ],
+      "features": {},
+      "keep_comparison": "Makeba - Radio Edit; Drinkee (Radio Edit)",
+      "cut_comparison": "Baby; Kimbara",
+      "selection_hypothesis": "A syncopated choral/percussion figure and clear returning melodic motif propose bodily bounce alongside the Jain/SOFI TUKKER Keeps.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "Portuguese greeting to the audience and joyful presentation of the baianá dance. Reviewed published words carry a communal welcome rather than a negative story.",
+        "source_url": "https://api.lyrics.ovh/v1/Bakermat/Baian%C3%A1",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/17B9XlyyYDKkTmPay4z02V"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "Existing Bakermat and percussive-world-adjacent Cuts remain relevant; a hook loop must develop enough.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Makeba - Radio Edit; Drinkee (Radio Edit). A syncopated choral/percussion figure and clear returning melodic motif propose bodily bounce alongside the Jain/SOFI TUKKER Keeps. Cut caution: Baby; Kimbara; exact reasons unknown. Risk: Existing Bakermat and percussive-world-adjacent Cuts remain relevant; a hook loop must develop enough. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "3MyFDtqB80WZvbtCZRsekM": {
+          "name": "Bakermat",
+          "genres": [
+            "tropical house"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:46Z",
+          "fetched_at": 1793406646.291349
+        }
+      },
+      "provider_note": "Bounded matching found only a non-artist uploader/dance video; use exact Spotify fallback. For We Got U, dark official MV also excluded.",
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    },
+    {
+      "spotify_uri": "spotify:track:0TOrK1IFmjgyLMXNHjFkyg",
+      "spotify_url": "https://open.spotify.com/track/0TOrK1IFmjgyLMXNHjFkyg",
+      "artist": "Basement Jaxx",
+      "artists": [
+        "Basement Jaxx"
+      ],
+      "artist_ids": [
+        "4YrKBkKSVeqDamzBPWVnSJ"
+      ],
+      "title": "Jus 1 Kiss",
+      "album": "Rooty",
+      "album_id": "6CYhVDuSbAWmy9ku7E2wrP",
+      "duration_ms": 266040,
+      "duration_source": "Spotify Web API",
+      "explicit": false,
+      "isrc": "GBBKS0100010",
+      "release_date": "2001-06-25",
+      "popularity": 40,
+      "metadata_at": "2026-10-31T00:30:41Z",
+      "is_playable": true,
+      "id": "spotify:track:0TOrK1IFmjgyLMXNHjFkyg",
+      "room": "living-room",
+      "batch_id": "23",
+      "batch_name": "Batch 23 · Voices, riffs and movement",
+      "batch_rank": 30,
+      "origin": "Grove 23 · targeted discovery",
+      "lane": "Melodic kiss refrain",
+      "style": [
+        "Melodic kiss refrain"
+      ],
+      "features": {},
+      "keep_comparison": "Kisses (feat. bbyclose); One Life Stand",
+      "cut_comparison": "Power of Love; Bingo Bango - Radio Mix",
+      "selection_hypothesis": "A sung three-part kiss/reassurance refrain is the particular melodic hook to test over a more angular dance backing.",
+      "cut_warning": "These are actual Cuts, but their causes are not known. Shared styling, positivity, a dance command or artist credit is insufficient.",
+      "mood_screen": {
+        "status": "published song text reviewed; no exact-master transcription claim",
+        "summary": "A kiss, mutual reassurance and feeling uplifted together; sparse published text has no breakup narrative.",
+        "source_url": "https://api.lyrics.ovh/v1/Basement%20Jaxx/Jus%201%20Kiss",
+        "observed_at": "2026-10-31T00:30:41Z"
+      },
+      "evidence": {
+        "catalog": "fresh exact Spotify US lookup; playable",
+        "musical_fit": "editorial comparison, not direct listening",
+        "listening_status": "Audio input unsupported in this text session; no direct audition or full-development proof claimed",
+        "context_method": "Published words/source context and recording-specific editorial comparison; no predictive model or feature gate.",
+        "source_url": "https://open.spotify.com/track/0TOrK1IFmjgyLMXNHjFkyg"
+      },
+      "source_version_note": "Exact selected catalog title/album/duration; standalone studio track or explicitly named radio/remix version, not a mixed-set excerpt.",
+      "audition_risk": "4:26 and repeated phrases; second Basement Jaxx candidate, with a substantial repetition risk.",
+      "flags": [
+        "Review candidate, not party approval",
+        "Musical fit and perceived development remain editorial hypotheses"
+      ],
+      "editorial_note": "Keep: Kisses (feat. bbyclose); One Life Stand. A sung three-part kiss/reassurance refrain is the particular melodic hook to test over a more angular dance backing. Cut caution: Power of Love; Bingo Bango - Radio Mix; exact reasons unknown. Risk: 4:26 and repeated phrases; second Basement Jaxx candidate, with a substantial repetition risk. Direct listening unavailable; editorial hypothesis.",
+      "artist_genres": {
+        "4YrKBkKSVeqDamzBPWVnSJ": {
+          "name": "Basement Jaxx",
+          "genres": [
+            "big beat"
+          ],
+          "source": "Spotify artist API",
+          "observed_at": "2026-10-31T00:30:49Z",
+          "fetched_at": 1793406649.225506
+        }
+      },
+      "youtube": {
+        "video_id": "wt6KepMzcqc",
+        "title": "Jus 1 Kiss",
+        "channel": "Basement Jaxx",
+        "duration_seconds": 267,
+        "url": "https://www.youtube.com/watch?v=wt6KepMzcqc",
+        "match_basis": "Candidate: title + artist/channel + duration within 5s; verify edit by ear",
+        "spotify_uri": "spotify:track:0TOrK1IFmjgyLMXNHjFkyg",
+        "observed_at": "2026-10-31T00:31:32Z",
+        "alternatives": []
+      },
+      "batch_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI"
+    }
+  ],
+  "audit": {
+    "track_count": 30,
+    "raw_duration_ms": 6737981,
+    "distinct_lead_artists": 20,
+    "max_credited_artist_appearances": 2,
+    "max_album_appearances": 2,
+    "creative_overlap_note": "PiSK is Swingrowers producer Roberto Costa: two Swingrowers songs plus one PiSK remix = three known production exposures. Golden Sound is the original Mista Trick version, not another PiSK remix.",
+    "prior_recording_version_collisions": 0,
+    "all_spotify_us_playable": true,
+    "source_membership_claimed": false,
+    "final_nine_hours_measured": false
+  },
+  "spotify_playlist_id": "4Bzg8dTZzQWcXIdxuB26GI",
+  "spotify_playlist_url": "https://open.spotify.com/playlist/4Bzg8dTZzQWcXIdxuB26GI",
+  "spotify_reports_public": true,
+  "lab_url": "https://music.hollow-court.com/?room=living-room&batch=23",
+  "metadata_coverage": {
+    "youtube_candidates": 24,
+    "spotify_fallback_only": 6,
+    "artist_lookups": 29,
+    "tracks_with_nonempty_artist_genres": 29,
+    "reccobeats": 0,
+    "reccobeats_status": "First optional request returned HTTP 530 / Retry-After 120; descriptors remain unknown; no selection used them."
+  },
+  "hosted_verification": "../batch-publication-verification-2026-10-30-grove-23.json",
+  "hosted_published_at": "2026-10-31T00:32:57Z"
+}

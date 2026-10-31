@@ -4,7 +4,7 @@
 
 [Current playlist plan](playlist.md)
 
-**Current test: [Grove22 · fifteen new songs / 56:04](october-grove-batch-22.md)**. [Listen and vote](https://music.hollow-court.com/?room=living-room&batch=22) · [Current selection brief](playlist-thesis.md) · [Canonical counts/duration](../curation-status-2026-10-30.md) · [Publication handoff](handoff-2026-10-30-grove-22.md). Specific Keep/Cut comparisons and independent lyric screens; no model gate or direct-listening claim. Previous votes and both main Spotify orders preserved; Hollow content is done.
+**Current test: [Grove23 · thirty new songs / 1:52:18](october-grove-batch-23.md)**. [Listen and vote](https://music.hollow-court.com/?room=living-room&batch=23) · [Selection brief](playlist-thesis.md) · [Canonical counts/duration](../curation-status-2026-10-30.md) · [Publication handoff](handoff-2026-10-30-grove-23.md). [Grove22 finished four Keeps / eleven Cuts](october-grove-batch-22.md#review-outcome--october-30). Recording-specific comparisons and text/version screens; direct listening unavailable and not claimed. Previous votes and both main Spotify orders preserved; Hollow content is done.
 
 Track exports and versioned files are stored beside this plan. Keep new handoffs here.
 

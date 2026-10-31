@@ -1,5 +1,7 @@
 # October Grove 22 · Hooks, voices and bounce
 
+**Review complete: four Keeps / eleven Cuts. [Outcome below](#review-outcome--october-30). [Current Grove23 test](october-grove-batch-23.md).** Publication details below remain historical.
+
 **15 new candidates · 15 lead artists · 56:04 raw · published October 30, 2026.**
 
 **[Listen and vote in Playlist Lab](https://music.hollow-court.com/?room=living-room&batch=22)** · [Separate Spotify audition](https://open.spotify.com/playlist/2ciI4xCjkx7z1oBrSZXIo7) · [Exact recordings and complete card notes](october-grove-batch-22.json).
@@ -51,3 +53,15 @@ Verified **October 30, 8:04 PM EDT / October 31, 00:04 UTC**. The separate Spoti
 The existing atomic workflow appended exactly 15 unrated tracks and one event, retaining all 1,627 prior serialized rows, every canonical/host/individual vote and note/score, settings, snapshots and the 2,879-event prefix. Unique online backup; SQLite integrity `ok`; no service restart or production test votes. Real frontend filters verify Grove22 latest, ranks 1–15, 15 Grove pending, zero Hollow pending and room isolation. Both main Spotify orders remain unchanged at **127 Grove / 222 Hollow**.
 
 No candidate adds to approved duration before a Keep. [Current canonical counts and duration gap](../curation-status-2026-10-30.md) · [Preservation verification](../batch-publication-verification-2026-10-30-grove-22.json) · [Handoff](handoff-2026-10-30-grove-22.md) · [Previous result](october-grove-batch-21.md#review-outcome--october-30).
+
+## Review outcome — October 30
+
+Fresh canonical shared feedback closes Grove22 at **4 Keeps / 11 Cuts / zero pending**, checked October 30 at **8:18 PM EDT**. The publication counts above are historical. No vote or individual history was changed to record this result.
+
+**Keeps:** Back It Up — Caro Emerald; Lost In The Rhythm — Jamie Berry / Octavia Rose; St. James Ballroom — Alice Francis; Happy — C2C / Derek Martin.
+
+**Cuts:** My Type; Be Around Me (feat. chloe moriondo); Around the Bend; GUY.exe; Johnny Got A Boom Boom; Green Garden; It's Alright; Back Pocket; Brighter Than Gold; Power of Love; Psychic City (Voodoo City).
+
+Canonical Grove is now **132 Keeps / 860 Cuts**, with **26,496,516 ms / 7:21:37 raw** approved. The four additions contribute **15:21**. All 15 votes remain authoritative; none has a written causal reason. The earlier Grove21 near-miss comment does not automatically apply to these eleven Cuts.
+
+Editorial interpretation for the requested next 30: pursue the specific vocal/riff and rhythmic interplay in the four winners, alongside the full prior evidence. The losses of Johnny Got A Boom Boom, Brighter Than Gold and Power of Love caution against a blanket brass/retro/positive-lyric rule. The indie/pop losses do not revoke prior Daylight, Bruises or other individual Keeps. No new genre requirement, model or vote was introduced. [Next-batch handoff](handoff-2026-10-30-grove-23.md).

@@ -1,6 +1,6 @@
 # October Grove working selection brief
 
-Updated October 30, 2026. The host's latest request is **“another batch, 15 this time”**, following the explicit correction **“I didn’t ask for a predictive model.”** [Grove22's fifteen-track test](october-grove-batch-22.md) is live. Grove21 kept Lone Digger; the other three remain Cuts the host called very close. No predictive model or numeric publication gate is part of selection.
+Updated October 30, 2026. The host's latest request is to **check Grove22 feedback and do another batch of 30**, retaining the explicit correction **“I didn’t ask for a predictive model.”** [Grove23's thirty-track test](october-grove-batch-23.md) is live. [Grove22 closed four Keeps / eleven Cuts](october-grove-batch-22.md#review-outcome--october-30). No predictive model or numeric publication gate is part of selection.
 
 ## Confirmed host instructions
 
@@ -10,7 +10,7 @@ Use current canonical shared feedback, which resolves host priority, and preserv
 
 ## Evidence and editorial judgment
 
-All **128 actual Keeps and 849 Cuts** inform this selection. The Keeps support overlapping possibilities: hook-led club songs, sensual/theatrical electro and pop, rhythmic indie and complete songs, melodic lift, and playful/percussive records. These are hypotheses describing evidence, not genre quotas. The four earlier references—Now U Do / Makeba / Joy / Kisses—remain useful alongside the other 124 Keeps.
+All **132 actual Keeps and 860 Cuts** inform this selection. The Keeps support overlapping possibilities: hook-led club songs, sensual/theatrical electro and pop, rhythmic indie and complete songs, melodic lift, and playful/percussive records. These are hypotheses describing evidence, not genre quotas. The four earlier references—Now U Do / Makeba / Joy / Kisses—remain useful alongside the other 128 Keeps.
 
 Judge an exact recording through its particular hook, vocal identity, rhythmic interaction and song development. Use relevant Keeps as positive evidence and nearby Cuts as warnings against easy generalizations. A Cut does not establish an artist ban; a Keep does not establish artist-wide permission. Written reasons are mostly absent, so do not invent the cause of individual votes.
 
@@ -18,12 +18,14 @@ Catalog identity, published context, lyric review and actual listening must rema
 
 ## Current test
 
-[Grove 22 · Hooks, voices and bounce](october-grove-batch-22.md) has **15 new songs / 15 lead artists / 56:04 raw**. Specific Keep/Cut comparisons, reviewed full published song texts, exact versions and individual risks are on the cards. The selection moves among brass/percussive bounce, conversational indie melody, playful sensual pop and sung dance grooves; these are descriptive possibilities, not allocations. It uses targeted discovery, with no global Like membership claim. Several related leads failed the independent lyric screen and were deferred without agent votes.
+[Grove 23 · Voices, riffs and movement](october-grove-batch-23.md) has **30 new songs / 20 lead artists / 1:52:18 raw**, at most two appearances per credited artist/album. Grove22 kept **Back It Up, Lost In The Rhythm, St. James Ballroom and Happy**. Those recordings strengthen the specific vocal/melodic hook interacting with a bouncy rhythm hypothesis; they do not authorize a retro/swing genre sweep. Johnny Got A Boom Boom, Brighter Than Gold and Power of Love remain useful nearby Cuts. No exact causal reasons were given, and the Grove21 close-miss comment was not extended to them.
 
-Direct audio input was unsupported in this text session. Musical comparisons remain editorial inference, with attributable context and remaining risks on each card. Lyric review is not exact-master transcription. Eleven YouTube metadata candidates and four exact Spotify fallbacks support normal Keep/Cut review; no extra score form. ReccoBeats was unavailable; missing metrics stay unknown.
+The new test follows the recent wins more closely through sung scenes, sexual dialogue, rhythmic vocal fragments, contrasting drum patterns, melodic dance grooves and two instrumentals. It does not revoke other individual Keeps or replace the broader brief. Each candidate has specific positive/rejected comparisons and text/version context. Targeted discovery; no current global Like membership claimed. Several related leads failed the independent word screen or exact-version/length check and were deferred without agent votes.
 
-Latest canonical result: **128 Keeps / 849 Cuts / 15 pending**, approved **7:06:15 raw**. Lone Digger is a new exact-recording reference; Hey Cowboy, Let's Go and The Golden Age remain Cuts documented as close misses. The host did not specify why they fell short. All existing rows/votes/history and both main Spotify orders were preserved. Nine hours after actual cuts/transitions remains unmet; roughly 52 additional similar-length Keeps is planning arithmetic. Votes never automatically sync the main playlist.
+Direct audio input was unsupported in this text session. Musical comparisons remain editorial inference, with context and risks on each card. Text review is not exact-master transcription/sample audit; instrumentals, Little Violet's shared-song remix text and selected radio/remix versions have explicit limits. Twenty-four YouTube metadata candidates and six exact Spotify fallbacks support normal Keep/Cut review; no extra score form. ReccoBeats was unavailable; missing metrics stay unknown. PiSK/Swingrowers share a producer, with three known exposures disclosed despite separate artist credits.
+
+Latest canonical result: **132 Keeps / 860 Cuts / 30 pending**, approved **7:21:37 raw**. Grove22's four new Keeps join Lone Digger as exact-recording evidence. Hey Cowboy, Let's Go and The Golden Age remain the explicitly documented close misses; no inferred vote reasons. All existing rows/votes/history and both main Spotify orders were preserved. Nine hours after actual cuts/transitions remains unmet; [duration-gap arithmetic](../curation-status-2026-10-30.md) is separate from taste selection. Votes never automatically sync the main playlist.
 
 The earlier [assessment/model experiment](grove-selection-reassessment-2026-10-30.md) is historical. Its failed numeric gate was agent-added and has no authority over current curation. The earlier [October 29 editorial review](editorial-review-2026-10-29.md) is also historical where its quotas or narrow sourcing assumptions conflict with this brief.
 
-[Room plan](playlist.md) · [Current status](../curation-status-2026-10-30.md) · [Grove 22 handoff](handoff-2026-10-30-grove-22.md) · [Grove 21 outcome](october-grove-batch-21.md#review-outcome--october-30).
+[Room plan](playlist.md) · [Current status](../curation-status-2026-10-30.md) · [Grove23 handoff](handoff-2026-10-30-grove-23.md) · [Grove22 outcome](october-grove-batch-22.md#review-outcome--october-30).

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-31",
+  "source": "Private host guardian references; no photos or descriptors in this file.",
+  "model": "mobilenetv3-small-f32-b1a19675-features-v2",
+  "settings": {
+    "threshold": 0.8,
+    "margin": 0.04
+  },
+  "guardians": {
+    "BUY-01": 4,
+    "BUY-02": 5,
+    "BUY-03": 5,
+    "BUY-04": 3,
+    "BUY-05": 4,
+    "DEC-01": 3,
+    "DEC-02": 4,
+    "DEC-03": 5
+  },
+  "protocol": "Each positive query excluded from its own global and regional reference galleries. Native CPU/WASM with Sharp preprocessing; synthetic quarter-brightness and blue tint are not independent phone captures. Nine off-object crops from the same images are not an empty-room false-positive-rate estimate.",
+  "results": {
+    "original": {
+      "cases": 33,
+      "correctAuto": 27,
+      "correctConfirmation": 6,
+      "wrongAuto": 0,
+      "wrongSuggestion": 0,
+      "unknown": 0
+    },
+    "dark": {
+      "cases": 33,
+      "correctAuto": 9,
+      "correctConfirmation": 15,
+      "wrongAuto": 0,
+      "wrongSuggestion": 2,
+      "unknown": 7
+    },
+    "blue": {
+      "cases": 33,
+      "correctAuto": 17,
+      "correctConfirmation": 9,
+      "wrongAuto": 0,
+      "wrongSuggestion": 2,
+      "unknown": 5
+    },
+    "background": {
+      "cases": 9,
+      "correctAuto": 0,
+      "correctConfirmation": 0,
+      "wrongAuto": 0,
+      "wrongSuggestion": 0,
+      "unknown": 9
+    }
+  },
+  "limitations": [
+    "Only eight enrolled identities at this snapshot.",
+    "No new live iPhone/Android or independent party-light test.",
+    "Thresholds and outline heuristics were reviewed on this same small dataset.",
+    "Phone sensor noise, motion blur, people and saturated real lighting are not reproduced by synthetic transformations."
+  ]
+}

@@ -1,5 +1,7 @@
 # Succession hunt • task tracker
 
+**October 31 roster reconciliation:** single moon/listener under DEC-01; former DEC-04 listener replaced by **The Last Seed**, the pumpkin among chocolates. Narrative, artwork and host reference guidance updated; puzzles/scoring/progress retained. Moon references are correctly enrolled (three); pumpkin photos and live phone checks remain pending. [Deployment and next steps](app/handoff-2026-10-31-moon-pumpkin.md). October 29's camera-discovery decision supersedes the historical NFC procurement/pilot tasks below.
+
 **Current plan, September 4:** [Narrative/game](design/narrative-and-game.md), [puzzle workshop](design/puzzles.md), [15-entity roster](physical/entity-plan.md). September 9 update: [first Cloudflare rehearsal is deployed](app/README.md); physical pilot and final event/admin work remain open. Older “claim” checks below must now test puzzle-earned Favor; “no QR” applies to physical checkpoints, not the required Partiful/Summons invitation features. Dates are proposed planning targets, not scheduled automations.
 
 | ID | Task | Priority | Target | Status |

@@ -220,6 +220,32 @@ export function GuardianArt({
               d="m82 111 10-9 7 12m28 0 7-12 10 9M80 135q31 21 62 0-4 31-31 31t-31-31Z"
               fill="#18281e"
             />
+            {[
+              [65, 190, -18, "#d6b46e"],
+              [111, 199, 8, "#8fa17c"],
+              [156, 187, 20, "#d6b46e"],
+            ].map(([x, y, angle, wrapper], i) => (
+              <g
+                key={i}
+                transform={`translate(${x} ${y}) rotate(${angle})`}
+                stroke="currentColor"
+                strokeWidth="1.5"
+              >
+                <path
+                  d="m-9-5-9-4 2 9-2 9 9-4M9-5l9-4-2 9 2 9-9-4"
+                  fill={wrapper as string}
+                />
+                <rect
+                  x="-10"
+                  y="-7"
+                  width="20"
+                  height="14"
+                  rx="4"
+                  fill="#644731"
+                />
+                <path d="M-5-3H5M0-3v6" fill="none" stroke="#b78553" />
+              </g>
+            ))}
           </>
         );
       case "well":
@@ -310,7 +336,11 @@ export function GuardianArt({
       className={"guardian-art " + className}
       viewBox="0 0 220 240"
       role="img"
-      aria-label={`${kind} woodland illustration`}
+      aria-label={
+        kind === "seed"
+          ? "Pumpkin guardian surrounded by wrapped chocolates"
+          : `${kind} woodland illustration`
+      }
       style={{ color: "#bcb98b" }}
     >
       <defs>

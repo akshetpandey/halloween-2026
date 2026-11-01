@@ -1524,8 +1524,8 @@ function App() {
             </p>
             {!state?.favors.includes(card.id) && (
               <p className="small muted">
-                Find this creature’s moon touchpoint at the party to earn its
-                Favor.
+                Find this guardian at the party and awaken it through the
+                Looking Lens to earn its Favor.
               </p>
             )}
             <button className="btn secondary" onClick={() => setCard(null)}>

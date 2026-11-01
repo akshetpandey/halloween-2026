@@ -378,6 +378,23 @@ export function HostReferences() {
                   ? "Centre the whole guardian inside the middle square of the photo, with a little space around it. Add its front, both sides, and a few views in dim light. Photos of this exact object work better than illustrations."
                   : "Add an empty shelf, nearby decoration or ordinary room object. These teach the lens when to say ‘not a guardian’."}
               </p>
+              {chosen?.id === "DEC-01" && (
+                <p className="small muted">
+                  This is the only moon and also the listener in the Moon Well.
+                  Save all moon views here. Outline the moon itself, leaving the
+                  bucket, notes and surrounding ivy outside. Photograph it only
+                  while the bathroom is free.
+                </p>
+              )}
+              {chosen?.id === "DEC-04" && (
+                <p className="small muted">
+                  This slot is now the pumpkin among chocolates in the October
+                  Grove. The former Listener Below is part of the Moon That
+                  Stayed. Add pumpkin photos here and outline the pumpkin
+                  itself, leaving loose chocolates outside so guests can take
+                  them without changing the recognition target.
+                </p>
+              )}
               {chosen?.art === "tree" && (
                 <p className="small muted">
                   For this lamp, add warm, neutral and colored-light views in

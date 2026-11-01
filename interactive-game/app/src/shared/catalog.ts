@@ -34,8 +34,8 @@ export const guardians = [
   {
     id: "DEC-04",
     name: "The Last Seed",
-    greeting: "A whole forest can begin with something this small.",
-    lore: "It once carried an entire forest through winter inside a single seed. It has been certain things will grow again ever since.",
+    greeting: "Help yourself. Winter has quite enough bitterness.",
+    lore: "It once carried an entire forest through winter inside a single seed. Now chocolates gather around its pumpkin shell: a small, stubborn promise that there will always be something sweet to share.",
     art: "seed",
     family: "reflection",
     room: "October Grove",

@@ -4,7 +4,7 @@ Status: Original specification September 4; implementation authorized by the hos
 ## Guest flow and pages
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
 2. After opening, first visit asks for display name and costume selfie with a plain in-game portrait visibility notice (the host removed the checkbox on September 9). Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.
-3. An entity NFC URL opens that entity's greeting and the player's persistent assigned puzzle. A server-validated solution earns one Favor; a scan/page view never does.
+3. Find and recognize an entity through the Looking Lens, then open its greeting and the player's persistent assigned puzzle. Existing opaque entity links remain compatible. A server-validated solution earns one Favor; a scan/page view never does.
 4. Illuminate the illustrated Bestiary card, archive entity lore and newly unlocked Chronicle chapters, then offer an optional gallery introduction after the first Favor. Borrowed Eyes at six links to the gallery. Voting never blocks or changes earned Favor.
 5. At four and ten earned entities, unlock a persistent, deferrable Summons with its own QR/link. A qualifying new registration completes it for one point under the proposed cap.
 6. Show live Standing with a top-three podium; before finalization, costume bonus remains pending. At close, stop scoring/votes, freeze results and present the secret succession finale.

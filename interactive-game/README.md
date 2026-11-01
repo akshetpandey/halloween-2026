@@ -1,5 +1,9 @@
 # The succession of the Hollow Court
 
+## Current October 31 • one moon, one pumpkin
+
+The single Moon Well moon is **DEC-01 The Moon That Stayed**, including the listener role. **DEC-04 The Last Seed** is the pumpkin surrounded by chocolates in the Grove. Story, Bestiary artwork and host reference guidance follow this mapping; all fifteen IDs, puzzles, earned Favors and scoring stay intact. Three moon references are saved correctly; pumpkin references are still pending. [App deployment/reference audit](app/handoff-2026-10-31-moon-pumpkin.md) · [Character copy](design/narrative-arc.md). Guest camera discovery is [live](app/handoff-2026-10-31-live-guardians.md); older NFC scope below is historical.
+
 ## Current October 29 • selected guardian props/materials ordered
 
 Host confirms all selected decor/chocolates, Govee lamp and AUTO fill pair ordered. [All 15 physical slots/status](physical/guardian-coverage-2026-10-29.md) and [current order ledger](../decor/urgent-buy-list-2026-10-29.md) are authoritative: single Moon Well moon/listener, central golden tree, Last Seed pumpkin holder, skull tableau, four ordered animal products plus owned LEGO fox, and materials for five handmade shapes. No NFC/extra moon/duplicate fox/crown purchase required. Receipt, assembly, camera enrollment and party-light tests remain pending; no game deployment implied. Earlier procurement mix/status below is history.

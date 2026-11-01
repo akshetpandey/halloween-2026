@@ -8,7 +8,7 @@
 
 [All 15 coverage and sources](guardian-coverage-2026-10-29.md) is the current roster. The single Moon Well moon is **DEC-01 The Moon That Stayed and the listener**; **DEC-04 The Last Seed** is a bought pumpkin candy holder on the Grove nightstand. Golden tree is central in the living room. Host owns LEGO fox; sticks are not in hand per October 30 correction; rabbit/deer/owl/raven/skull and remaining selected decor/materials are now host-confirmed ordered; receipt/build/camera tests remain pending. [Exact buys/status/totals](../../decor/urgent-buy-list-2026-10-29.md). No duplicate moon/crescent, fox, animal pack, NFC/tag markers or crown orders. Local sticks are now needed because the ordered pack is delayed.
 
-Host confirms image recognition replaces NFC. Final physical references and party-light phone tests remain required. Local narrative/catalog copy is updated with unchanged IDs/puzzle families; no deployment or runtime enrollment migration performed. Earlier NFC and purchase research below is history.
+Host confirms image recognition replaces NFC. **October 31:** the one moon/listener has three correctly assigned DEC-01 reference photos; DEC-04 The Last Seed is the pumpkin among chocolates and still needs photos. [App reconciliation and deployment evidence](../app/handoff-2026-10-31-moon-pumpkin.md) supersedes the earlier local-only copy status. IDs, puzzle families and progress remain unchanged. Party-light phone tests remain required. Earlier NFC and purchase research below is history.
 
 [Family context](../README.md) · [All tasks](../../README.md)
 

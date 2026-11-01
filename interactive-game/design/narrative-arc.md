@@ -39,7 +39,7 @@ Chapters use the existing proposed count thresholds. A three-Favor guest and a f
 
 ## Rooms as parts of the story
 
-**October Grove — the place that remembers.** The golden tree keeps the records from the middle of the room; the Last Seed guards the harvest offering table, opposite the wood-and-bone display. Warmth beneath the dim purple light makes this feel like an invitation into somewhere slightly impossible. Its creatures favor conversation, memory and judgment. Guest line: “The roots have reached this house. They are learning who lives above them.”
+**October Grove — the place that remembers.** The golden tree keeps the records from the middle of the room; the Last Seed sits among chocolates at the harvest offering table, opposite the wood-and-bone display. Warmth beneath the dim purple light makes this feel like an invitation into somewhere slightly impossible. Its creatures favor conversation, memory and judgment. Guest line: “The roots have reached this house. They are learning who lives above them.”
 
 **The Hollow — the place that remains alive.** The giant guardian carries the Court's pulse while the gathering lasts. Smaller creatures at the room's perimeter are as interested in audacity and absurdity as solemn ritual. Guest line: “The thing behind the music has been awake longer than the building.” No beat matching, audio clue, DJ interruption or access to equipment is required.
 
@@ -67,7 +67,7 @@ Keep the existing sealed entrance and name/selfie onboarding in the [game brief]
 
 ## Fifteen creatures with different reasons to notice you
 
-Names and associations retain the existing slot IDs. **October 29 host-approved revision:** one Moon Well moon merges The Moon That Stayed with the listener role; The Last Seed replaces the separate listener as DEC-04 at the Grove harvest offering table. Golden tree is central. Remaining prop/placement details still need receipt and setup review. If a prop changes, adapt its character before production. Sigils and art remain future work; no puzzle solution may depend on these stories or an illustration.
+Names and associations retain the existing slot IDs. **October 31 host reconfirmation of the October 29 revision:** the single Moon Well moon is both The Moon That Stayed and the listener, under DEC-01. The former DEC-04 Listener Below is replaced by The Last Seed, a pumpkin surrounded by chocolates at the Grove harvest offering table. Golden tree is central. This changes characters and physical references only: all fifteen IDs, existing puzzle families, earned Favors and scoring remain intact. No puzzle solution depends on the stories, artwork or taking a sweet.
 
 ### Five presences of the house
 
@@ -77,7 +77,7 @@ Names and associations retain the existing slot IDs. **October 29 host-approved 
 
 **DEC-03 · The Keeper of the Pulse — giant DJ guardian.** An ancient celebrant who believes a gathering should feel alive. Greeting: “Yes, I can hear you thinking. Very industrious. Show me.” Earned lore: “Long before this house had walls, it kept time for things with too many feet. It considers the present arrangement an improvement.”
 
-**DEC-04 · The Last Seed — pumpkin candy holder at the harvest offering table.** A small, stubborn guardian of what survives winter, certain that an ending can contain a beginning. Its sweets are freely offered; no bargain or confession is required. Greeting: “A whole forest can begin with something this small.” Earned lore: “It once carried an entire forest through winter inside a single seed. It has been certain things will grow again ever since.”
+**DEC-04 · The Last Seed — pumpkin among chocolates at the harvest offering table.** A small, stubborn guardian of what survives winter, keeping something sweet for whoever arrives next. Its chocolates are freely offered; taking or eating one is never part of the puzzle. Greeting: “Help yourself. Winter has quite enough bitterness.” Earned lore: “It once carried an entire forest through winter inside a single seed. Now chocolates gather around its pumpkin shell: a small, stubborn promise that there will always be something sweet to share.”
 
 **DEC-05 · The Unfinished Guest — proposed skull/branch shrine.** A skeletal remnant of a visitor who lingered for an excellent story. Its humor distinguishes the shrine from the separate raven figure. Greeting: “I meant to leave hours ago. That was several autumns back.” Earned lore: “It has witnessed many turnings. At every one, it announces that this will be its last. Then someone interesting arrives.”
 

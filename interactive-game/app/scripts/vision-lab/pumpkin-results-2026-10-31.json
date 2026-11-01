@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-31",
+  "source": "Private host reference photos; no photos, vectors or outlines in this file.",
+  "scope": "DEC-04 pumpkin follow-up to party-results-2026-10-31.json",
+  "model": "mobilenetv3-small-f32-b1a19675-features-v2",
+  "focusModel": "mbv3-regions-b1a19675-v1",
+  "settings": { "threshold": 0.8, "margin": 0.04 },
+  "gallery": { "photos": 37, "guardians": 9, "outlines": 36 },
+  "protocol": "Native CPU/WASM, enrollment queries excluded from both galleries. Existing 32 foreground profiles compared with those profiles plus four new pumpkin profiles. Synthetic quarter-brightness/blue tint and same-photo background crops are not independent phone tests.",
+  "pumpkin": {
+    "original": {
+      "cases": 4,
+      "before": { "correctAuto": 0, "correctManual": 4, "unknown": 0 },
+      "after": { "correctAuto": 4, "correctManual": 0, "unknown": 0 }
+    },
+    "dark": {
+      "cases": 4,
+      "before": {
+        "correctAuto": 0,
+        "correctManual": 1,
+        "wrongManual": 1,
+        "unknown": 2
+      },
+      "after": { "correctAuto": 1, "correctManual": 1, "unknown": 2 }
+    },
+    "blue": {
+      "cases": 4,
+      "before": { "correctAuto": 0, "correctManual": 2, "unknown": 2 },
+      "after": { "correctAuto": 3, "correctManual": 1, "unknown": 0 }
+    },
+    "wrongPositiveIdentitiesAfter": 0
+  },
+  "fullGalleryOriginal": {
+    "cases": 37,
+    "correctAuto": 31,
+    "correctManual": 6,
+    "wrongAuto": 0,
+    "wrongManual": 0,
+    "unknown": 0
+  },
+  "backgrounds": {
+    "cases": 13,
+    "before": { "rejected": 11, "wrongAuto": 1, "wrongManual": 1 },
+    "after": { "rejected": 11, "wrongAuto": 1, "wrongManual": 1 },
+    "note": "Two candy-only crops confuse the existing fox profiles, identically with and without pumpkin profiles. No pumpkin false positives in this small set. This is an unresolved limitation, not a clean negative-test pass."
+  },
+  "limitations": [
+    "Same enrollment images used for review and comparison; no independent iPhone/Android capture acceptance.",
+    "Four later DEC-05 uploads are not included or reviewed in this snapshot.",
+    "Noise, blur, people and actual saturated party lighting require live tests."
+  ]
+}

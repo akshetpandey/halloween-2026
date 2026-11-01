@@ -3,7 +3,7 @@
 - Updated October 31, 2026, America/New_York; UTC date November 1.
 - Checkout: shared `main`, `/Users/akshet/workspace/halloween-2026`; base `6048ff5`.
 - Scope: completed upload batch, object-focused recognition, especially twig guardians. No puzzle, progression, invitation, score or event-clock changes.
-- Status at checkpoint: reference updates live; code validated and ready to publish. Independent phone acceptance remains pending.
+- Status: reviewed reference profiles and code deployed. Independent phone acceptance remains pending.
 
 ## Reviewed and saved
 
@@ -52,7 +52,11 @@ These are reviewed enrollment photographs plus synthetic transforms, not indepen
 - `npm test`: **26 files / 176 tests passed**.
 - `npx wrangler deploy --dry-run`: passed; existing Cloudflare account, Worker, bindings, custom domain and clock retained.
 - Production settings confirmed **0.80 / 0.04**; no guardian paused. Readback confirms all fifteen guardian IDs and the saved profile counts.
-- Code publish/live asset verification: pending at this checkpoint.
+- Published Worker/static bundle to `hollow-court.com` and the existing Workers preview: **`0df0d2a7-7e9e-4a55-8c63-ba9858e905f2`**.
+- Live entry **`index-BMVK6FRI.js`** matched the tested build byte-for-byte; SHA-256 `48074a281fb8745a1dfac5beff21b95b75a4da535f6c8876e80f8304d0aa0408`. HTML remains `no-store`, hashed entry immutable. Camera availability true, public debug false, anonymous reference API 401.
+- Signed-in host page showed all fifteen enrolled characters and four saved **Edit guardian outline** controls for Knotkeeper. Production D1 readback confirmed 59 photos / 57 outlines. Local documentation links and whitespace checks passed.
+- Deployed Chrome host test recognized the enrolled green-lit Knotkeeper photo and displayed its name/reveal: **0.37 s recognition**, **0.06 s MagicTouch inference**, with **1.09 s / 1.11 s** recognition/awakening preparation reported separately. This is a saved-reference self-match, not independent recognition acceptance or phone timing. The existing 2D mask picked up colored light patches; segmentation quality is not fixed or approved by this recognition update. No saved movement exists for this guardian.
+- Reopened the saved green-view outline (30 points) and verified its object boundary in the host editor. Screenshots remain ignored at `private/live-guardians-2026-10-31/complete-batch-knotkeeper-{deployed,outline}.png`. Returned the browser to reference controls for phone testing; no further outline edit was saved through the UI.
 
 ## Phone test / remaining work
 
@@ -62,4 +66,4 @@ Prioritize actual phone feedback on the green-lit Knotkeeper, then the existing 
 
 ## Handoff and Git
 
-Own files: recognition decision/test, app README, camera prototype index, this handoff and sanitized result JSON. Commit the validated checkpoint on `main`, then record publication evidence in a follow-up commit. The pre-existing unrelated `decor/shopping-ready.md` edit stays unstaged. No purchases, messages, new dependencies, schema migrations or changes to access policies.
+Own files: recognition decision/test, app README, camera prototype index, this handoff and sanitized result JSON. Validated implementation checkpoint on `main`: **`8f98456`**. This follow-up records publication evidence. The pre-existing unrelated `decor/shopping-ready.md` edit stays unstaged. No purchases, messages, new dependencies, schema migrations or changes to access policies.

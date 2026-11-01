@@ -15,6 +15,7 @@ export default function FoxSpiritReveal({
   origin = CENTRE,
   onClose,
   onScanAgain,
+  onContinue,
   asset,
   onFrontChange,
 }: {
@@ -23,6 +24,7 @@ export default function FoxSpiritReveal({
   origin?: SpiritOrigin | null;
   onClose: () => void;
   onScanAgain?: () => void;
+  onContinue?: () => Promise<void>;
   asset?: SpiritAsset;
   onFrontChange?: (angle: number) => void;
 }) {
@@ -36,6 +38,8 @@ export default function FoxSpiritReveal({
     [retry, setRetry] = useState(0),
     [stats, setStats] = useState<SpiritStats | null>(null);
   const [greeting, setGreeting] = useState(false);
+  const [continuing, setContinuing] = useState(false);
+  const [trialError, setTrialError] = useState("");
   const [front, setFront] = useState(0);
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null,
@@ -252,8 +256,36 @@ export default function FoxSpiritReveal({
                 : `Tap the ${identity.noun} to say hello.`
             : "The Court has been expecting you."}
         </p>
-        <button className="btn" onClick={onScanAgain ?? onClose}>
-          {onScanAgain ? "Find another guardian" : "Back to reference photos"}
+        {onContinue && (
+          <p className="fox-spirit-touch">Solve my puzzle to earn my Favor.</p>
+        )}
+        {trialError && <p role="alert">{trialError}</p>}
+        <button
+          className="btn"
+          disabled={continuing}
+          onClick={() => {
+            if (!onContinue) {
+              (onScanAgain ?? onClose)();
+              return;
+            }
+            setContinuing(true);
+            setTrialError("");
+            void onContinue()
+              .catch((e: Error) =>
+                setTrialError(
+                  e.message || "Please try opening the puzzle again.",
+                ),
+              )
+              .finally(() => setContinuing(false));
+          }}
+        >
+          {continuing
+            ? "Opening puzzle…"
+            : onContinue
+              ? "Solve this guardian’s puzzle"
+              : onScanAgain
+                ? "Find another guardian"
+                : "Back to reference photos"}
         </button>
         <details className="fox-spirit-details">
           <summary>Model credits & device details</summary>

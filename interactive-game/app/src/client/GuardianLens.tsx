@@ -1120,7 +1120,7 @@ export function GuardianLens({
                   ? "Opening…"
                   : host
                     ? "Back to reference photos"
-                    : "Hear its trial"}
+                    : "Solve this guardian’s puzzle"}
               </button>
             </div>
           )}
@@ -1297,6 +1297,11 @@ export function GuardianLens({
             asset={spiritCharacter === "fox" ? spiritAsset : undefined}
             photo={photo}
             origin={spiritStart}
+            onContinue={
+              !host && guardian && onContinue
+                ? () => onContinue(guardian.id)
+                : undefined
+            }
             onClose={() => setSpiritOpen(false)}
             onScanAgain={() => {
               reset();

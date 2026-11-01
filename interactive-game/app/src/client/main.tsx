@@ -37,6 +37,7 @@ import { HostDashboard } from "./HostDashboard";
 import { StoryReveal, type Reveal } from "./Reveals";
 import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
 import { GuardianLens } from "./GuardianLens";
+import { GuardianTrials } from "./GuardianTrials";
 import { VISION_MODEL } from "../shared/vision";
 import { shouldWarmRecognition } from "./recognition-session";
 import { prepareArrivalVision } from "./segmentation-session";
@@ -221,6 +222,13 @@ function App() {
     } finally {
       setBusy(false);
     }
+  }
+  async function openGuardianTrial(guardianId: string) {
+    const result = await api<{ code: string }>("/vision/encounter", "POST", {
+      guardianId,
+      model: VISION_MODEL,
+    });
+    go("/g/" + result.code);
   }
   async function action(fn: () => Promise<void>) {
     setBusy(true);
@@ -590,16 +598,13 @@ function App() {
       </section>
     );
   else if (path === "/scan" && state.cameraAvailable)
+    content = <GuardianLens onContinue={openGuardianTrial} />;
+  else if (path === "/trials" && state.cameraAvailable)
     content = (
-      <GuardianLens
-        onContinue={async (guardianId) => {
-          const result = await api<{ code: string }>(
-            "/vision/encounter",
-            "POST",
-            { guardianId, model: VISION_MODEL },
-          );
-          go("/g/" + result.code);
-        }}
+      <GuardianTrials
+        earned={state.favors}
+        onOpen={openGuardianTrial}
+        onScan={() => go("/scan")}
       />
     );
   else if (path === "/costumes")
@@ -1270,6 +1275,20 @@ function App() {
           are separate.
         </div>
       )}
+      {!!state?.player?.registered &&
+        state.status === "open" &&
+        state.cameraAvailable &&
+        ["/", "/court", "/bestiary", "/scan"].includes(path) && (
+          <aside className="trial-update" role="note">
+            <span>
+              <strong>Awakening is only the beginning.</strong> Solve each
+              guardian’s puzzle to earn its Favor. Already scanned one?
+            </span>
+            <button className="text-button" onClick={() => go("/trials")}>
+              Open its puzzle <ArrowRight size={16} />
+            </button>
+          </aside>
+        )}
       {error && (
         <div className="toast error" role="alert">
           {error}

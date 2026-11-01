@@ -3322,3 +3322,59 @@ body:has(.encounter) .debug-toggle > span {
     font-size: 34px;
   }
 }
+
+.trial-update {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 20px;
+  padding: 14px 22px;
+  background: #263b29;
+  border-bottom: 1px solid #d5c68e50;
+  color: #e2dfc7;
+  font-size: 13px;
+}
+.trial-update .text-button {
+  margin: 0;
+  color: #eddda4;
+}
+.trial-recovery-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+.trial-recovery-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d5c68e40;
+  border-radius: 12px;
+  background: #1b2b20;
+  color: #ede9d4;
+  text-align: left;
+  cursor: pointer;
+}
+.trial-recovery-item:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.trial-recovery-item > svg:first-child {
+  width: 48px;
+  height: 58px;
+  flex: 0 0 48px;
+}
+.trial-recovery-item span {
+  flex: 1;
+}
+.trial-recovery-item strong,
+.trial-recovery-item small {
+  display: block;
+}
+.trial-recovery-item small {
+  margin-top: 5px;
+  color: #bbc8a9;
+  font-size: 12px;
+}

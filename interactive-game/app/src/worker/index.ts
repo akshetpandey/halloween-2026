@@ -9,7 +9,12 @@ import { httpsRedirect, responseHeaders } from "./http";
 import { hex, hash, fail, json, readBody, body } from "./request";
 import { adminApi, redeemHostRecovery } from "./admin";
 import { costumeApi, costumeAward } from "./costumes";
-import { COSTUME_REMINDER_AT, reminderDue } from "../shared/costumes";
+import {
+  COSTUME_REMINDER_AT,
+  COSTUME_LAST_CALL_AT,
+  costumeLastCallDue,
+  reminderDue,
+} from "../shared/costumes";
 import { visionManifest, guardianMotion } from "./vision";
 import { VISION_MODEL } from "../shared/vision";
 import { visionRuntimeAsset } from "./vision-assets";
@@ -109,18 +114,41 @@ async function state(env: Env, p: RowPlayer | null) {
   }
   const award = p?.registered ? await costumeAward(env, p.realm) : null;
   const seen = p?.registered
-    ? await env.DB.prepare("SELECT 1 FROM costume_reminders WHERE player_id=?")
+    ? await env.DB.prepare(
+        "SELECT seen_at FROM costume_reminders WHERE player_id=?",
+      )
         .bind(p.id)
-        .first()
+        .first<{ seen_at: number }>()
     : null;
+  const voted = p?.registered
+    ? !!(await env.DB.prepare(
+        "SELECT 1 FROM costume_ballots WHERE voter_id=? AND json_array_length(choices)>0",
+      )
+        .bind(p.id)
+        .first())
+    : false;
+  const lastCallDue =
+    !!p?.registered &&
+    !award &&
+    costumeLastCallDue(
+      env.OPENS_AT,
+      env.CLOSES_AT,
+      Date.now(),
+      seen?.seen_at ?? null,
+      voted,
+    );
   return {
     serverNow: Date.now(),
     costumeAward: award,
+    costumeHasVoted: voted,
+    costumeLastCallAt: COSTUME_LAST_CALL_AT,
+    costumeLastCallDue: lastCallDue,
     costumeReminderAt: COSTUME_REMINDER_AT,
     costumeReminderDue:
       !!p?.registered &&
       !award &&
-      reminderDue(env.OPENS_AT, env.CLOSES_AT, Date.now(), !!seen),
+      (reminderDue(env.OPENS_AT, env.CLOSES_AT, Date.now(), !!seen) ||
+        lastCallDue),
     player: p
       ? {
           id: p.id,

@@ -28,7 +28,9 @@ export async function costumeApi(request: Request, env: Env, p: RowPlayer) {
   if (path === "/api/costumes/reminder" && request.method === "POST") {
     if (!reminderDue(env.OPENS_AT, env.CLOSES_AT, Date.now(), false))
       return json({ acknowledged: false });
-    await env.DB.prepare("INSERT OR IGNORE INTO costume_reminders VALUES(?,?)")
+    await env.DB.prepare(
+      "INSERT INTO costume_reminders VALUES(?,?) ON CONFLICT(player_id) DO UPDATE SET seen_at=excluded.seen_at",
+    )
       .bind(p.id, Date.now())
       .run();
     return json({ acknowledged: true });

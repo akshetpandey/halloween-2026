@@ -78,6 +78,9 @@ export type State = {
   serverNow: number;
   costumeReminderAt: string;
   costumeReminderDue: boolean;
+  costumeHasVoted?: boolean;
+  costumeLastCallAt?: string;
+  costumeLastCallDue?: boolean;
   costumeAward: import("./costumes").CostumeAward | null;
   player: Player | null;
   status: "sealed" | "open" | "closed";

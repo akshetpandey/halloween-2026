@@ -3455,3 +3455,41 @@ button.puzzle-progress-card {
 .guardian-card.pending .guardian-card-top {
   color: #efdaa0;
 }
+
+.costume-vote-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 20px;
+  padding: 16px 22px;
+  background: #393c25;
+  border-bottom: 1px solid #d8c67b99;
+  color: #ece7c9;
+  font-size: 13px;
+}
+.costume-vote-banner > span {
+  max-width: 650px;
+  line-height: 1.6;
+}
+.costume-vote-banner strong {
+  display: block;
+  color: #f4dda0;
+}
+.costume-vote-banner .btn {
+  margin: 0;
+  min-height: 44px;
+  padding: 10px 16px;
+}
+@media (max-width: 760px) {
+  .costume-vote-banner {
+    justify-content: flex-start;
+  }
+  .costume-vote-banner > span {
+    flex: 1;
+  }
+  .costume-vote-banner .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

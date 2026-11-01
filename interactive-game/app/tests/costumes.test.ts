@@ -50,3 +50,40 @@ describe("costume timing on the New York rollback night", () => {
       expect(() => validateChoices(value, self)).toThrow();
   });
 });
+
+describe("host-requested last call for guests who have not voted", () => {
+  it("starts at the second 1:30 AM EST, without repeating during the first hour", async () => {
+    const { costumeLastCallDue, COSTUME_LAST_CALL_AT } =
+      await import("../src/shared/costumes");
+    const last = Date.parse(COSTUME_LAST_CALL_AT);
+    expect(new Date(last).toISOString()).toBe("2026-11-01T06:30:00.000Z");
+    expect(
+      costumeLastCallDue(
+        opens,
+        closes,
+        Date.parse("2026-11-01T01:45:00-04:00"),
+        null,
+        false,
+      ),
+    ).toBe(false);
+    expect(costumeLastCallDue(opens, closes, last - 1, null, false)).toBe(
+      false,
+    );
+    expect(
+      costumeLastCallDue(
+        opens,
+        closes,
+        last,
+        Date.parse(COSTUME_REMINDER_AT),
+        false,
+      ),
+    ).toBe(true);
+    expect(costumeLastCallDue(opens, closes, last, null, true)).toBe(false);
+    expect(costumeLastCallDue(opens, closes, last + 1000, last, false)).toBe(
+      false,
+    );
+    expect(
+      costumeLastCallDue(opens, closes, Date.parse(closes), null, false),
+    ).toBe(false);
+  });
+});

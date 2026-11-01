@@ -189,6 +189,7 @@ function App() {
     if (!state) return;
     const boundary = [
       Date.parse(state.costumeReminderAt),
+      Date.parse(state.costumeLastCallAt || ""),
       Date.parse(state.closesAt),
     ]
       .filter((t) => t > state.serverNow)
@@ -1324,6 +1325,27 @@ function App() {
       )}
       {!!state?.player?.registered &&
         state.status === "open" &&
+        !state.costumeAward &&
+        !state.costumeHasVoted &&
+        !["/host", "/costumes", "/scan"].includes(path) &&
+        !path.startsWith("/g/") && (
+          <aside
+            className="costume-vote-banner"
+            role="region"
+            aria-label="Vote for your favorite costumes"
+          >
+            <Leaf size={21} />
+            <span>
+              <strong>A little love for the costumes.</strong> Choose up to 3
+              favorites. No puzzles required.
+            </span>
+            <button className="btn" onClick={() => go("/costumes")}>
+              Vote for costumes <ArrowRight size={16} />
+            </button>
+          </aside>
+        )}
+      {!!state?.player?.registered &&
+        state.status === "open" &&
         state.cameraAvailable &&
         ["/", "/court", "/bestiary", "/scan"].includes(path) && (
           <aside className="trial-update" role="note">
@@ -1392,11 +1414,14 @@ function App() {
               <span className="eyebrow">
                 {reminderPreview
                   ? "REHEARSAL · 1 AM REMINDER"
-                  : "A LAST LOOK THROUGH THE GLASS"}
+                  : state.costumeLastCallDue
+                    ? "A LITTLE LOVE FOR THE COSTUMES"
+                    : "A LAST LOOK THROUGH THE GLASS"}
               </span>
               <p>
-                More strange company has arrived. Visit the costumes and
-                place—or move—your three leaves before the Court closes.
+                {state.costumeLastCallDue
+                  ? "Before the night slips away, choose up to three costumes you love and save your leaves. No puzzles required. Every leaf counts equally."
+                  : "More strange company has arrived. Visit the costumes and place—or move—your three leaves before the Court closes."}
               </p>
               <button
                 className="text-button"
@@ -1405,7 +1430,9 @@ function App() {
                   go("/costumes");
                 }}
               >
-                Visit the Looking Glass
+                {state.costumeLastCallDue
+                  ? "Vote for costumes"
+                  : "Visit the Looking Glass"}
               </button>
               <button
                 className="text-button"

@@ -59,7 +59,7 @@ Proposed precise instants:
 - Open: `2026-10-31T20:00:00-04:00` = `2026-11-01T00:00:00Z`.
 - Close: `2026-11-01T02:00:00-05:00` = `2026-11-01T07:00:00Z`.
 
-The costume reminder is fixed to `2026-11-01T01:00:00-04:00`, the first 1 a.m. EDT. Deliver in-app at the server deadline or on return before closing; persist acknowledgment per player, including recovery, and do not repeat during rollback. No background push/email delivery is implemented.
+The costume reminder is fixed to `2026-11-01T01:00:00-04:00`, the first 1 a.m. EDT. Deliver in-app at the server deadline or on return before closing; persist acknowledgment per player, including recovery, and do not repeat during rollback. No background push/email delivery is implemented. The host separately requested a last call for non-voters at the second 1:30 a.m. EST (`2026-11-01T01:30:00-05:00`); it is acknowledged independently through the existing timestamp and does not publish the award. [Last-call release](handoff-2026-11-01-costume-last-call.md).
 
 Display **America/New_York**, with date and EDT/EST in admin. The default close is after rollback, seven elapsed hours after opening. Host can edit opening/closing, extend, pause or close now. When editing a time within the repeated 1 a.m. hour, require an unambiguous offset. Server time is authoritative; clients refresh the current deadline and do not repeat finale actions at the clock change.
 

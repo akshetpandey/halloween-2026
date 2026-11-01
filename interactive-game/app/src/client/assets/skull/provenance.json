@@ -1,0 +1,60 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardian": "DEC-05 The Unfinished Guest",
+  "generator": "scripts/guardian-models/build-house-spirits.mjs",
+  "reference": "Host pale hornless long-muzzle wolf skull on the Grove moss shrine; distinct from the horned DJ guardian",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "externalServices": false,
+  "bytes": 184344,
+  "sha256": "216b4e6b011eefef73f005a03398d51a0672568fcfd16d3f2232dd5528c28478",
+  "triangles": 5588,
+  "vertices": 3484,
+  "primitives": 6,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "articulatedNodes": 5,
+  "axes": "+Y up, +Z front",
+  "ground": 0,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9
+    },
+    {
+      "name": "Play",
+      "duration": 3
+    },
+    {
+      "name": "Settle",
+      "duration": 1
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4
+    }
+  ],
+  "dimensions": [
+    0.5683630900924896,
+    0.4240000019548461,
+    0.6468195431232453
+  ],
+  "neutralBounds": {
+    "min": [
+      -0.2805330949371551,
+      -0.0010000000474974513,
+      -0.33582098603248595
+    ],
+    "max": [
+      0.2878299951553345,
+      0.42300000190734866,
+      0.3109985570907593
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# Buff barn owl with ivory heart face and forked wood perch
+
+Original Hollow Court character authored October 31, 2026 with the repository's Three.js dependency. Rebuild from the app folder with `node scripts/guardian-models/build-visitor-spirits.mjs`. The host's private physical-prop photos guide silhouette, proportions and palette; no photo pixels, private room imagery, scans, external models, textures or third-party art are embedded. Geometry, vertex colors and joint motion are original code-authored project artwork.
+
+Guardian: BUY-02. Rigid overlapping head, wing, tail and toe pivots; raven includes lower-jaw hinge. +Y up, +Z front, neutral ground y=0. Named clips are Idle (2.4s loop), Awaken (0.9s once), Play (3.0s once), Settle (1.0s once), Greet (2.4s loop). The app supplies the shared emergence and staging. See [identity/storyboard and review](../../../../visitor-spirits-2026-10-31.md) and [provenance](provenance.json) for limits and exact metrics. Actual phone acceptance remains pending.

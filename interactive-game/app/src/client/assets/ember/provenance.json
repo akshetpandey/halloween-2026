@@ -1,0 +1,56 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardianId": "MAKE-02",
+  "art": "ember",
+  "title": "The Ember Guest",
+  "generator": "scripts/guardian-models/build-twig-spirits.mjs",
+  "reference": "Host current handmade guardian photographs; silhouette/material observations only; private references excluded",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 494032,
+  "sha256": "f07a13835a7b8a49635e66c82570aa4749d714db108e2e76ba2f8d3c5515c88b",
+  "triangles": 10444,
+  "primitives": 22,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "animatedNodes": 21,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4,
+      "tracks": 63
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9,
+      "tracks": 63
+    },
+    {
+      "name": "Play",
+      "duration": 3,
+      "tracks": 63
+    },
+    {
+      "name": "Settle",
+      "duration": 1,
+      "tracks": 63
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4,
+      "tracks": 63
+    }
+  ],
+  "dimensions": [
+    1.3187719599604608,
+    1.1534202378988265,
+    0.12339621505886317
+  ],
+  "axes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "closedGeometry": "capped wood cylinders, closed twine loops, capped strand ends; authored rigid craft joints"
+}

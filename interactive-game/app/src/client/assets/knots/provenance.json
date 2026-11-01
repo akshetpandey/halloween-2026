@@ -1,0 +1,56 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardianId": "MAKE-03",
+  "art": "knots",
+  "title": "The Knotkeeper",
+  "generator": "scripts/guardian-models/build-twig-spirits.mjs",
+  "reference": "Host current handmade guardian photographs; silhouette/material observations only; private references excluded",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 365788,
+  "sha256": "deb4b75ef5cb39a656f4a1bd18df805d7dea20592aa1bc9fcccd1135cf75ede8",
+  "triangles": 10470,
+  "primitives": 12,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "animatedNodes": 12,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4,
+      "tracks": 36
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9,
+      "tracks": 36
+    },
+    {
+      "name": "Play",
+      "duration": 3,
+      "tracks": 36
+    },
+    {
+      "name": "Settle",
+      "duration": 1,
+      "tracks": 36
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4,
+      "tracks": 36
+    }
+  ],
+  "dimensions": [
+    1.1424661874771118,
+    1.3506978526711464,
+    0.1661471550166607
+  ],
+  "axes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "closedGeometry": "capped wood cylinders, closed twine loops, capped strand ends; authored rigid craft joints"
+}

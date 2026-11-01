@@ -1,0 +1,56 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardianId": "MAKE-04",
+  "art": "host",
+  "title": "The Little Host",
+  "generator": "scripts/guardian-models/build-twig-spirits.mjs",
+  "reference": "Host current handmade guardian photographs; silhouette/material observations only; private references excluded",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 497788,
+  "sha256": "2c032a5c78e9673f88798d1c1ff047150a48e78d5874654415381982f850f6b1",
+  "triangles": 14566,
+  "primitives": 18,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "animatedNodes": 14,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4,
+      "tracks": 42
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9,
+      "tracks": 42
+    },
+    {
+      "name": "Play",
+      "duration": 3,
+      "tracks": 42
+    },
+    {
+      "name": "Settle",
+      "duration": 1,
+      "tracks": 42
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4,
+      "tracks": 42
+    }
+  ],
+  "dimensions": [
+    0.8523281478881836,
+    1.2492873448133468,
+    0.26855157113075256
+  ],
+  "axes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "closedGeometry": "capped wood cylinders, closed twine loops, capped strand ends; authored rigid craft joints"
+}

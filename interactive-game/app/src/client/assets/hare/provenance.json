@@ -1,0 +1,66 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "generator": "scripts/guardian-models/build-visitor-spirits.mjs",
+  "guardianId": "BUY-05",
+  "art": "hare",
+  "file": "Hare.glb",
+  "identity": "Brown plush-like rabbit with tan face/paws, pink-lined upright ears, ivory chest and pompom tail",
+  "rig": "Rigid overlapping plush body/head, independent ears/nose/tail, four solved two-bone legs and grounded paws",
+  "reference": "Host private live guardian photographs; silhouette/palette only, not copied pixels",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 511824,
+  "sha256": "51973e1c7d6d035d1c97140747118cc39208ab4682a027b275499909363176a3",
+  "triangles": 12028,
+  "primitives": 20,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "articulatedNodes": 21,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9
+    },
+    {
+      "name": "Play",
+      "duration": 3
+    },
+    {
+      "name": "Settle",
+      "duration": 1
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4
+    }
+  ],
+  "dimensions": [
+    0.6199999988079071,
+    1.3150975577235222,
+    0.994000001206994
+  ],
+  "bounds": {
+    "min": [
+      -0.30999999940395356,
+      7.748603980672897e-10,
+      -0.5050000014901161
+    ],
+    "max": [
+      0.30999999940395356,
+      1.3150975584983826,
+      0.4889999997168779
+    ]
+  },
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "ground": 0
+  },
+  "mobileAcceptance": "Pending actual iPhone and Android review"
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardianId": "MAKE-01",
+  "art": "fork",
+  "title": "The First Knock",
+  "generator": "scripts/guardian-models/build-twig-spirits.mjs",
+  "reference": "Host current handmade guardian photographs; silhouette/material observations only; private references excluded",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 310244,
+  "sha256": "53fa7b12867aea40059eb766f85d5bbe4b0a3b7bf2d93be822ee3a671640838a",
+  "triangles": 9638,
+  "primitives": 10,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "animatedNodes": 7,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4,
+      "tracks": 21
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9,
+      "tracks": 21
+    },
+    {
+      "name": "Play",
+      "duration": 3,
+      "tracks": 21
+    },
+    {
+      "name": "Settle",
+      "duration": 1,
+      "tracks": 21
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4,
+      "tracks": 21
+    }
+  ],
+  "dimensions": [
+    1.2532593727111816,
+    1.4531443643569948,
+    0.14391306364536285
+  ],
+  "axes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "closedGeometry": "capped wood cylinders, closed twine loops, capped strand ends; authored rigid craft joints"
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardian": "DEC-04 The Last Seed",
+  "generator": "scripts/guardian-models/build-house-spirits.mjs",
+  "reference": "Host friendly orange open-mouth pumpkin candy bowl, attached black spider, green leaf and surrounding chocolates",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "externalServices": false,
+  "bytes": 432148,
+  "sha256": "8acef19104a10d9bd030b9788afeb9e7bcad7886b9d4f773b8e8ce6b0853fb60",
+  "triangles": 14825,
+  "vertices": 7848,
+  "primitives": 31,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "articulatedNodes": 15,
+  "axes": "+Y up, +Z front",
+  "ground": 0,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9
+    },
+    {
+      "name": "Play",
+      "duration": 3
+    },
+    {
+      "name": "Settle",
+      "duration": 1
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4
+    }
+  ],
+  "dimensions": [
+    0.8351283669471741,
+    0.9270000045895577,
+    0.7846850055024113
+  ],
+  "neutralBounds": {
+    "min": [
+      -0.41756418347358704,
+      -5.364418041720054e-10,
+      -0.3538187885284424
+    ],
+    "max": [
+      0.41756418347358704,
+      0.9270000040531159,
+      0.4308662169739689
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "authored-procedural-character",
+  "created": "2026-10-31",
+  "guardianId": "MAKE-05",
+  "art": "door",
+  "title": "The Open Door",
+  "generator": "scripts/guardian-models/build-twig-spirits.mjs",
+  "reference": "Host current handmade guardian photographs; silhouette/material observations only; private references excluded",
+  "sourceScanGeometry": false,
+  "sourcePhotoTextures": false,
+  "bytes": 405080,
+  "sha256": "c3ee641bf4d41cb9e72c489c98c8aa53a192bfcf49a2f26553c53e5cc7d8dade",
+  "triangles": 11890,
+  "primitives": 13,
+  "images": 0,
+  "texturePixels": 0,
+  "bones": 0,
+  "animatedNodes": 11,
+  "clips": [
+    {
+      "name": "Idle",
+      "duration": 2.4,
+      "tracks": 33
+    },
+    {
+      "name": "Awaken",
+      "duration": 0.9,
+      "tracks": 33
+    },
+    {
+      "name": "Play",
+      "duration": 3,
+      "tracks": 33
+    },
+    {
+      "name": "Settle",
+      "duration": 1,
+      "tracks": 33
+    },
+    {
+      "name": "Greet",
+      "duration": 2.4,
+      "tracks": 33
+    }
+  ],
+  "dimensions": [
+    1.2010610699653625,
+    1.3214857913553715,
+    0.14228207096457482
+  ],
+  "axes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "closedGeometry": "capped wood cylinders, closed twine loops, capped strand ends; authored rigid craft joints"
+}

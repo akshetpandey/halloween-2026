@@ -1,7 +1,7 @@
 /// <reference path="../../worker-configuration.d.ts" />
 import { guardians } from "../shared/catalog";
 import { chapters } from "./story";
-import { generate, validate, PUZZLE_VERSION } from "./puzzles";
+import { validate } from "./puzzles";
 import type { Assignment } from "../shared/types";
 import { shortInviteCode } from "../shared/links";
 import { cameraDiscoveryEnabled, previewEnabled } from "./access";
@@ -13,6 +13,7 @@ import { COSTUME_REMINDER_AT, reminderDue } from "../shared/costumes";
 import { visionManifest, guardianMotion } from "./vision";
 import { VISION_MODEL } from "../shared/vision";
 import { visionRuntimeAsset } from "./vision-assets";
+import { guardianAssignment } from "./guardian-trials";
 export type RowPlayer = {
   id: string;
   name: string;
@@ -64,6 +65,15 @@ async function state(env: Env, p: RowPlayer | null) {
           .bind(p.id)
           .all<{ guardian_id: string }>()
       ).results.map((f) => f.guardian_id)
+    : [];
+  const discovered = p?.registered
+    ? (
+        await env.DB.prepare(
+          "SELECT a.guardian_id AS guardianId,g.code FROM assignments a JOIN guardians g ON g.id=a.guardian_id WHERE a.player_id=? ORDER BY a.guardian_id",
+        )
+          .bind(p.id)
+          .all<{ guardianId: string; code: string }>()
+      ).results
     : [];
   const invites = p
     ? (
@@ -134,6 +144,7 @@ async function state(env: Env, p: RowPlayer | null) {
     opensAt: env.OPENS_AT,
     closesAt: env.CLOSES_AT,
     favors,
+    discovered,
     summons: invites.map((s) => ({
       token: s.short_code!,
       milestone: s.milestone,
@@ -202,7 +213,7 @@ async function api(request: Request, env: Env): Promise<Response> {
       if (input.model !== VISION_MODEL)
         fail("Reload the Looking Lens before continuing.", 409);
       const found = await env.DB.prepare(
-        `SELECT g.code FROM guardians g
+        `SELECT g.id,g.code FROM guardians g
         LEFT JOIN vision_guardians v ON v.guardian_id=g.id
         WHERE g.id=? AND COALESCE(v.enabled,1)=1 AND EXISTS(SELECT 1 FROM vision_references r WHERE r.guardian_id=g.id AND r.model_version=?)`,
       )
@@ -210,10 +221,13 @@ async function api(request: Request, env: Env): Promise<Response> {
           typeof input.guardianId === "string" ? input.guardianId : "",
           VISION_MODEL,
         )
-        .first<{ code: string }>();
+        .first<{ id: string; code: string }>();
       if (!found)
         fail("This guardian is not ready for camera encounters yet.", 404);
-      // Resolving an encounter awards nothing. The existing puzzle endpoint still validates a solution.
+      const guardian = guardians.find((g) => g.id === found.id);
+      if (!guardian) fail("Unknown guardian.", 404);
+      // Remember the scan before the animation, without awarding Favor.
+      await guardianAssignment(env, p, guardian);
       return json({ code: found.code });
     }
     fail("Not found.", 404);
@@ -480,27 +494,7 @@ async function api(request: Request, env: Env): Promise<Response> {
       .first<{ id: string }>();
     if (!row) fail("This path leads beyond the wood.", 404);
     const g = guardians.find((g) => g.id === row.id)!; // The stable player ID is server issued; answers never leave this module.
-    const generated = generate(
-      g.family,
-      `${env.EVENT_ID}:${p.id}:${g.id}:v${PUZZLE_VERSION}`,
-    );
-    await env.DB.prepare(
-      "INSERT INTO assignments VALUES(?,?,?,?) ON CONFLICT(player_id,guardian_id) DO UPDATE SET version=excluded.version,instance=excluded.instance WHERE assignments.version<excluded.version AND ?=1",
-    )
-      .bind(
-        p.id,
-        g.id,
-        generated.version,
-        JSON.stringify(generated),
-        p.realm === "preview" ? 1 : 0,
-      )
-      .run();
-    const record = await env.DB.prepare(
-      "SELECT instance FROM assignments WHERE player_id=? AND guardian_id=?",
-    )
-      .bind(p.id, g.id)
-      .first<{ instance: string }>();
-    const a: Assignment = JSON.parse(record!.instance);
+    const a = await guardianAssignment(env, p, g);
     const earned = !!(await env.DB.prepare(
       "SELECT 1 FROM favors WHERE player_id=? AND guardian_id=?",
     )

@@ -3339,3 +3339,119 @@ body:has(.encounter) .debug-toggle > span {
   margin: 0;
   color: #eddda4;
 }
+
+.guardian-progress.panel {
+  margin: 24px 5%;
+  padding: 24px;
+  border-color: #d2ba71aa;
+  background: #1c2e21;
+}
+.guardian-progress .progress-title {
+  font-size: clamp(28px, 5vw, 42px);
+  margin: 8px 0 18px;
+  line-height: 1.15;
+}
+.puzzle-counts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 16px 0 22px;
+}
+.puzzle-counts > span {
+  padding: 12px 6px;
+  text-align: center;
+  border: 1px solid #93a98744;
+  border-radius: 9px;
+  font-size: 12px;
+}
+.puzzle-counts strong {
+  display: block;
+  font-size: 25px;
+  color: #e8d596;
+  margin-bottom: 4px;
+}
+.puzzle-counts .has-pending {
+  background: #d2ba7122;
+  border-color: #d2ba71bb;
+}
+.progress-subtitle {
+  margin: 24px 0 10px;
+  font-size: 23px;
+  line-height: 1.2;
+}
+.puzzle-progress-list {
+  display: grid;
+  gap: 10px;
+  margin: 15px 0 22px;
+}
+.puzzle-progress-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid #91a77c44;
+  border-radius: 11px;
+  background: #182b1e;
+  color: #e6e6ce;
+  text-align: left;
+}
+button.puzzle-progress-card {
+  cursor: pointer;
+}
+.puzzle-progress-card.is-pending {
+  border-color: #d5bf7cbb;
+  background: #30402a;
+}
+.puzzle-progress-card > svg:first-child {
+  width: 44px;
+  height: 56px;
+  flex: 0 0 44px;
+}
+.puzzle-progress-card > span {
+  flex: 1;
+  min-width: 0;
+}
+.puzzle-progress-card strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.puzzle-progress-card small,
+.puzzle-progress-card b {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.puzzle-progress-card small {
+  color: #bbcdad;
+}
+.puzzle-progress-card b {
+  color: #f0db95;
+}
+.puzzle-progress-card.is-unfound {
+  opacity: 0.72;
+}
+.puzzle-progress-card.is-solved {
+  border-color: #88b17b88;
+}
+.pending-puzzle-note {
+  padding: 12px;
+  border: 1px solid #d2ba7188;
+  background: #d2ba7122;
+  border-radius: 8px;
+}
+@media (max-width: 760px) {
+  .guardian-progress.panel {
+    margin: 18px 20px;
+    padding: 18px;
+  }
+}
+.guardian-card.pending {
+  border-color: #d7bf75;
+  background: #2b3e25;
+}
+.guardian-card.pending .guardian-card-top {
+  color: #efdaa0;
+}

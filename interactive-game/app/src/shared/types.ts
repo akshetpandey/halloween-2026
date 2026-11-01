@@ -89,6 +89,7 @@ export type State = {
   opensAt: string;
   closesAt: string;
   favors: string[];
+  discovered?: { guardianId: string; code: string }[];
   summons: Summons[];
   chapters: Chapter[];
   referrals: number;

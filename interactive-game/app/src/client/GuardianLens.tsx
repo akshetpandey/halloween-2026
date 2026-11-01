@@ -54,6 +54,8 @@ export function GuardianLens({
   manifest: provided,
   host = false,
   onContinue,
+  onDiscovered,
+  earned = [],
   onClose,
   initialPhoto,
   spiritAsset,
@@ -63,6 +65,8 @@ export function GuardianLens({
   spiritAsset?: SpiritAsset;
   host?: boolean;
   onContinue?: (id: string) => Promise<void>;
+  onDiscovered?: (id: string) => Promise<void>;
+  earned?: string[];
   onClose?: () => void;
 }) {
   const section = useRef<HTMLElement>(null);
@@ -489,6 +493,14 @@ export function GuardianLens({
     setPhoto(p);
     setMatch(found);
     setPhase("awake");
+    if (!host && found.guardianId && onDiscovered) {
+      void onDiscovered(found.guardianId).catch(() => {
+        if (attempt === action.current)
+          setError(
+            "Your guardian is found. Open its puzzle to save your place if the connection is slow.",
+          );
+      });
+    }
     setDetails((old) => ({
       ...old,
       embedBackend: result.backend || "",
@@ -1041,13 +1053,17 @@ export function GuardianLens({
               <h2>{guardian.name}</h2>
               <p className="lens-voice">“{guardian.greeting}”</p>
               <p className="small muted">
-                {spiritPrototype
-                  ? "Its spirit is ready to greet you. This animation does not need an outline."
-                  : rigPoint
-                    ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
-                    : cutout
-                      ? "Tap the creature in your photograph to refine its outline."
-                      : "Its voice is waiting, even if the outline is quiet."}
+                {!host
+                  ? earned.includes(guardian.id)
+                    ? "Favor earned. This guardian’s puzzle is complete."
+                    : "Found, but not solved yet. Solve the puzzle below to earn 1 Favor."
+                  : spiritPrototype
+                    ? "Its spirit is ready to greet you. This animation does not need an outline."
+                    : rigPoint
+                      ? `Tap the creature’s ${FOX_POINTS.find((p) => p.key === rigPoint)!.label.toLowerCase()} in the photograph.`
+                      : cutout
+                        ? "Tap the creature in your photograph to refine its outline."
+                        : "Its voice is waiting, even if the outline is quiet."}
               </p>
               {puppetEligible && cutout && puppetReady && (
                 <button
@@ -1305,6 +1321,7 @@ export function GuardianLens({
             asset={spiritCharacter === "fox" ? spiritAsset : undefined}
             photo={photo}
             origin={spiritStart}
+            earned={!!guardian && earned.includes(guardian.id)}
             onContinue={
               !host && guardian && onContinue
                 ? () => onContinue(guardian.id)

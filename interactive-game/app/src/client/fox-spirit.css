@@ -275,3 +275,20 @@
     font-size: 9px;
   }
 }
+.fox-spirit-puzzle-state {
+  margin: 12px 0;
+  padding: 10px;
+  background: #253924ee;
+  border: 1px solid #d2ba7199;
+  border-radius: 10px;
+  color: #f2dda0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+}
+.fox-spirit-puzzle-state span {
+  font-weight: 400;
+  color: #d7dfc5;
+  letter-spacing: normal;
+}

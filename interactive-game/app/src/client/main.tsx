@@ -37,6 +37,8 @@ import { HostDashboard } from "./HostDashboard";
 import { StoryReveal, type Reveal } from "./Reveals";
 import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
 import { GuardianLens } from "./GuardianLens";
+import { GuardianProgress } from "./GuardianProgress";
+import { guardianProgress } from "../shared/guardian-progress";
 import { VISION_MODEL } from "../shared/vision";
 import { shouldWarmRecognition } from "./recognition-session";
 import { prepareArrivalVision } from "./segmentation-session";
@@ -82,6 +84,11 @@ function App() {
   const path = location.split("?")[0],
     params = new URLSearchParams(location.split("?")[1] || "");
   const count = state?.favors.length || 0;
+  const progress = guardianProgress(
+    state?.favors ?? [],
+    state?.discovered ?? [],
+  );
+  const pendingPuzzles = progress.filter((g) => g.status === "pending");
   const summonsOrigin =
     state?.player?.realm === "preview"
       ? window.location.origin
@@ -222,12 +229,20 @@ function App() {
       setBusy(false);
     }
   }
+  async function rememberGuardian(guardianId: string) {
+    await api<{ code: string }>("/vision/encounter", "POST", {
+      guardianId,
+      model: VISION_MODEL,
+    });
+    await refresh();
+  }
   async function openGuardianTrial(guardianId: string) {
     const result = await api<{ code: string }>("/vision/encounter", "POST", {
       guardianId,
       model: VISION_MODEL,
     });
     go("/g/" + result.code);
+    void refresh().catch(() => {});
   }
   async function action(fn: () => Promise<void>) {
     setBusy(true);
@@ -301,6 +316,13 @@ function App() {
   );
   const nav = [
     ["/court", "The Court", Compass],
+    [
+      "/trials",
+      pendingPuzzles.length
+        ? `Your puzzles (${pendingPuzzles.length})`
+        : "Your puzzles",
+      Sparkles,
+    ],
     ["/bestiary", "Bestiary", Leaf],
     ["/chronicle", "Chronicle", BookOpen],
     ["/summons", "Summons", Users],
@@ -596,8 +618,23 @@ function App() {
         </button>
       </section>
     );
-  else if ((path === "/scan" || path === "/trials") && state.cameraAvailable)
-    content = <GuardianLens onContinue={openGuardianTrial} />;
+  else if (path === "/scan" && state.cameraAvailable)
+    content = (
+      <GuardianLens
+        onContinue={openGuardianTrial}
+        onDiscovered={rememberGuardian}
+        earned={state.favors}
+      />
+    );
+  else if (path === "/trials")
+    content = (
+      <GuardianProgress
+        earned={state.favors}
+        discovered={state.discovered}
+        onOpen={(code) => go("/g/" + code)}
+        onScan={() => go("/scan")}
+      />
+    );
   else if (path === "/costumes")
     content = (
       <CostumeGalleryPage onSaved={() => void refresh().catch(() => {})} />
@@ -605,6 +642,13 @@ function App() {
   else if (path === "/court" || path === "/")
     content = (
       <>
+        <GuardianProgress
+          compact
+          earned={state.favors}
+          discovered={state.discovered}
+          onOpen={(code) => go("/g/" + code)}
+          onScan={() => go("/scan")}
+        />
         {state.cameraAvailable && (
           <section className="lens-home-link panel">
             <div>
@@ -783,7 +827,7 @@ function App() {
           </div>
           <div className="collection-count">
             {count}
-            <span>/ XV RECOGNIZED</span>
+            <span>/ XV FAVORS EARNED</span>
           </div>
         </div>
         <div className="filters">
@@ -817,7 +861,11 @@ function App() {
               <button
                 className={
                   "guardian-card " +
-                  (state.favors.includes(g.id) ? "earned" : "unknown")
+                  (state.favors.includes(g.id)
+                    ? "earned"
+                    : pendingPuzzles.some((p) => p.guardian.id === g.id)
+                      ? "pending"
+                      : "unknown")
                 }
                 key={g.id}
                 onClick={() => setCard(g)}
@@ -831,7 +879,11 @@ function App() {
                       <Check size={12} /> FAVOR EARNED
                     </span>
                   ) : (
-                    <span>AWAITING YOU</span>
+                    <span>
+                      {pendingPuzzles.some((p) => p.guardian.id === g.id)
+                        ? "FOUND · PUZZLE UNFINISHED"
+                        : "NOT FOUND · SCAN FIRST"}
+                    </span>
                   )}
                 </div>
                 <GuardianArt kind={g.art} />
@@ -848,8 +900,8 @@ function App() {
   else if (path.startsWith("/g/"))
     content = encounter ? (
       <section className="encounter page-top">
-        <button className="text-button back" onClick={() => go("/court")}>
-          <ArrowLeft size={15} /> Back to the Court
+        <button className="text-button back" onClick={() => go("/trials")}>
+          <ArrowLeft size={15} /> Your remaining puzzles
         </button>
         <div className="encounter-layout">
           <aside className="guardian-portrait">
@@ -865,7 +917,11 @@ function App() {
             </span>
           </aside>
           <div className="encounter-main">
-            <span className="eyebrow">YOU HAVE FOUND A GUARDIAN</span>
+            <span className="eyebrow">
+              {encounter.earned
+                ? "PUZZLE COMPLETE · FAVOR EARNED"
+                : "GUARDIAN FOUND · PUZZLE UNFINISHED"}
+            </span>
             <h1>{encounter.guardian.name}</h1>
             <p className="guardian-greeting">“{encounter.guardian.greeting}”</p>
             {encounter.earned ? (
@@ -896,12 +952,12 @@ function App() {
                   <button
                     className="btn"
                     onClick={() =>
-                      go(count === 4 || count === 10 ? "/summons" : "/court")
+                      go(count === 4 || count === 10 ? "/summons" : "/trials")
                     }
                   >
                     {count === 4 || count === 10
                       ? "A Summons awaits"
-                      : "Return to the gathering"}
+                      : "See your remaining puzzles"}
                     <ArrowRight size={16} />
                   </button>
                   {state.previewAvailable && (
@@ -1272,11 +1328,30 @@ function App() {
         ["/", "/court", "/bestiary", "/scan"].includes(path) && (
           <aside className="trial-update" role="note">
             <span>
-              <strong>Find it. Wake it. Try its puzzle.</strong> Scan a
-              guardian, then solve its puzzle to earn its Favor.
+              {pendingPuzzles.length ? (
+                <>
+                  <strong>
+                    {pendingPuzzles.length} unfinished puzzle
+                    {pendingPuzzles.length === 1 ? "" : "s"}.
+                  </strong>{" "}
+                  You found the guardians. Solve their puzzles to earn their
+                  Favor.
+                </>
+              ) : (
+                <>
+                  <strong>Find it. Wake it. Try its puzzle.</strong> Scan a
+                  guardian, then solve its puzzle to earn its Favor.
+                </>
+              )}
             </span>
-            <button className="text-button" onClick={() => go("/scan")}>
-              Open the Looking Lens <ArrowRight size={16} />
+            <button
+              className="text-button"
+              onClick={() => go(pendingPuzzles.length ? "/trials" : "/scan")}
+            >
+              {pendingPuzzles.length
+                ? "Finish your puzzles"
+                : "Open the Looking Lens"}{" "}
+              <ArrowRight size={16} />
             </button>
           </aside>
         )}
@@ -1532,12 +1607,31 @@ function App() {
                 ? card.lore
                 : "“" + card.greeting + "”"}
             </p>
-            {!state?.favors.includes(card.id) && (
-              <p className="small muted">
-                Find this guardian at the party and awaken it through the
-                Looking Lens to earn its Favor.
-              </p>
-            )}
+            {!state?.favors.includes(card.id) &&
+              (pendingPuzzles.find((p) => p.guardian.id === card.id)?.code ? (
+                <>
+                  <p className="pending-puzzle-note">
+                    Found · Puzzle unfinished. Solve it to earn 1 Favor.
+                  </p>
+                  <button
+                    className="btn"
+                    onClick={() => {
+                      const code = pendingPuzzles.find(
+                        (p) => p.guardian.id === card.id,
+                      )!.code!;
+                      setCard(null);
+                      go("/g/" + code);
+                    }}
+                  >
+                    Continue this puzzle <ArrowRight size={16} />
+                  </button>
+                </>
+              ) : (
+                <p className="small muted">
+                  Not found yet. Scan this guardian through the Looking Lens to
+                  unlock its puzzle.
+                </p>
+              ))}
             <button className="btn secondary" onClick={() => setCard(null)}>
               Return to the Bestiary
             </button>

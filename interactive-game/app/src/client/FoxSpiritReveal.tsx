@@ -16,6 +16,7 @@ export default function FoxSpiritReveal({
   onClose,
   onScanAgain,
   onContinue,
+  earned = false,
   asset,
   onFrontChange,
 }: {
@@ -25,6 +26,7 @@ export default function FoxSpiritReveal({
   onClose: () => void;
   onScanAgain?: () => void;
   onContinue?: () => Promise<void>;
+  earned?: boolean;
   asset?: SpiritAsset;
   onFrontChange?: (angle: number) => void;
 }) {
@@ -257,7 +259,17 @@ export default function FoxSpiritReveal({
             : "The Court has been expecting you."}
         </p>
         {onContinue && (
-          <p className="fox-spirit-touch">Solve my puzzle to earn my Favor.</p>
+          <p className="fox-spirit-puzzle-state">
+            {earned
+              ? "✓ FAVOR EARNED · PUZZLE COMPLETE"
+              : "FOUND · PUZZLE STILL TO SOLVE"}
+            <br />
+            <span>
+              {earned
+                ? "This guardian already remembers you."
+                : "Solve the puzzle to earn 1 Favor."}
+            </span>
+          </p>
         )}
         {trialError && <p role="alert">{trialError}</p>}
         <button
@@ -282,7 +294,9 @@ export default function FoxSpiritReveal({
           {continuing
             ? "Opening puzzle…"
             : onContinue
-              ? "Solve this guardian’s puzzle"
+              ? earned
+                ? "View completed puzzle"
+                : "Solve this guardian’s puzzle"
               : onScanAgain
                 ? "Find another guardian"
                 : "Back to reference photos"}

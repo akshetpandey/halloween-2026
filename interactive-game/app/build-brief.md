@@ -3,6 +3,8 @@ Status: Original specification September 4; implementation authorized by the hos
 
 **Host clarification, November 1 during the party:** keep physical discovery -> camera/photo recognition -> awakening -> puzzle -> server-validated Favor. Ease recognition rather than offering a guardian picker that bypasses scanning. `/trials` is now a compatible Looking Lens entry; earlier catch-up picker scope is superseded. See [live scan update](handoff-2026-11-01-forgiving-scans.md).
 
+**Progress clarification, November 1:** show separate Not found, Found/puzzle unfinished and Favor earned states. Record the persistent assignment at successful recognition, before showing the awakening; resume only those already found, without a repeat scan. `/trials` is the current player’s progress/resume view, not a general unlock picker. Previous opened assignments are compatible; old awakenings that never produced an assignment cannot be reconstructed. Scanning new guardians and server-validating answers remain required. [Release details](handoff-2026-11-01-puzzle-progress.md).
+
 ## Guest flow and pages
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
 2. After opening, first visit asks for display name and costume selfie with a plain in-game portrait visibility notice (the host removed the checkbox on September 9). Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.

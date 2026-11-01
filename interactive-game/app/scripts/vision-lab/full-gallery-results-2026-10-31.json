@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-31",
+  "model": "mobilenetv3-small-f32-b1a19675-features-v2",
+  "focusModel": "mbv3-regions-b1a19675-v1",
+  "source": "Private host enrollment photos; no original images, reference IDs, vectors or polygons included.",
+  "gallery": {
+    "photos": 59,
+    "guardians": 15,
+    "outlinesBefore": 36,
+    "newOutlines": 21,
+    "outlinesAfter": 57
+  },
+  "protocol": "Each positive query excluded from both reference galleries. Native CPU/WASM with Sharp preprocessing. Quarter-brightness and blue tint are synthetic changes to enrollment images, not independent phone captures. Comparison is before versus added outlines and the manual-only scene fallback.",
+  "settings": {
+    "automaticSceneThreshold": 0.8,
+    "automaticSceneMargin": 0.04,
+    "manualScene": {
+      "similarity": 0.6,
+      "margin": 0.12
+    },
+    "additionalManualScene": {
+      "similarity": 0.7,
+      "margin": 0.08,
+      "onlyWithoutAcceptedForeground": true
+    }
+  },
+  "originals": {
+    "before": {
+      "cases": 59,
+      "correctAuto": 36,
+      "correctManual": 20,
+      "wrongAuto": 0,
+      "wrongManual": 3,
+      "unknown": 0
+    },
+    "after": {
+      "cases": 59,
+      "correctAuto": 44,
+      "correctManual": 14,
+      "wrongAuto": 0,
+      "wrongManual": 0,
+      "unknown": 1
+    }
+  },
+  "minorGuardians": {
+    "before": {
+      "cases": 18,
+      "correctAuto": 4,
+      "correctManual": 11,
+      "wrongAuto": 0,
+      "wrongManual": 3,
+      "unknown": 0
+    },
+    "after": {
+      "cases": 18,
+      "correctAuto": 11,
+      "correctManual": 6,
+      "wrongAuto": 0,
+      "wrongManual": 0,
+      "unknown": 1
+    }
+  },
+  "guardians": {
+    "BUY-01": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "BUY-02": {
+      "photos": 5,
+      "before": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "BUY-03": {
+      "photos": 5,
+      "before": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "BUY-04": {
+      "photos": 3,
+      "before": {
+        "cases": 3,
+        "correctAuto": 3,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 3,
+        "correctAuto": 3,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "BUY-05": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "DEC-01": {
+      "photos": 3,
+      "before": {
+        "cases": 3,
+        "correctAuto": 1,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 3,
+        "correctAuto": 1,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "DEC-02": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 4,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 4,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "DEC-03": {
+      "photos": 5,
+      "before": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 5,
+        "correctAuto": 5,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "DEC-04": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 4,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 4,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "DEC-05": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 1,
+        "correctManual": 3,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "MAKE-01": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 0,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 2,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "MAKE-02": {
+      "photos": 3,
+      "before": {
+        "cases": 3,
+        "correctAuto": 0,
+        "correctManual": 3,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 3,
+        "correctAuto": 2,
+        "correctManual": 1,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "MAKE-03": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 0,
+        "correctManual": 3,
+        "wrongAuto": 0,
+        "wrongManual": 1,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 0,
+        "correctManual": 3,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 1
+      }
+    },
+    "MAKE-04": {
+      "photos": 4,
+      "before": {
+        "cases": 4,
+        "correctAuto": 2,
+        "correctManual": 2,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 4,
+        "correctAuto": 4,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    },
+    "MAKE-05": {
+      "photos": 3,
+      "before": {
+        "cases": 3,
+        "correctAuto": 2,
+        "correctManual": 1,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      },
+      "after": {
+        "cases": 3,
+        "correctAuto": 3,
+        "correctManual": 0,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 0
+      }
+    }
+  },
+  "synthetic": {
+    "dark": {
+      "before": {
+        "cases": 59,
+        "correctAuto": 10,
+        "correctManual": 28,
+        "wrongAuto": 0,
+        "wrongManual": 7,
+        "unknown": 14
+      },
+      "after": {
+        "cases": 59,
+        "correctAuto": 14,
+        "correctManual": 30,
+        "wrongAuto": 0,
+        "wrongManual": 2,
+        "unknown": 13
+      }
+    },
+    "blue": {
+      "before": {
+        "cases": 59,
+        "correctAuto": 21,
+        "correctManual": 20,
+        "wrongAuto": 0,
+        "wrongManual": 10,
+        "unknown": 8
+      },
+      "after": {
+        "cases": 59,
+        "correctAuto": 25,
+        "correctManual": 21,
+        "wrongAuto": 0,
+        "wrongManual": 4,
+        "unknown": 9
+      }
+    }
+  },
+  "backgroundCrops": {
+    "after": {
+      "cases": 35,
+      "correctAuto": 0,
+      "correctManual": 0,
+      "wrongAuto": 1,
+      "wrongManual": 1,
+      "unknown": 33
+    },
+    "note": "Thirty-three crops rejected; two candy-only crops still confuse the fox (one automatic, one manual). These are the same pre-existing errors in the pumpkin review, not a clean background pass."
+  },
+  "limitations": [
+    "One original green-lit MAKE-03 view still unknown with that exact reference withheld. Other three views offer the correct manual choice; independent live testing is required.",
+    "Synthetic lighting tests still contain wrong manual suggestions and misses.",
+    "Farthest moon and skull views are retained without outlines because too few foreground patches fit the grid.",
+    "These photos and transformations were used for reviewing the outlines/fallback; results are descriptive, not an unbiased production accuracy estimate.",
+    "No new phone latency, memory or actual party-light acceptance measured."
+  ]
+}

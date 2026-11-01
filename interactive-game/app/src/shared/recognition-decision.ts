@@ -9,8 +9,8 @@ export function recognitionDecision(
   const sceneSuggestion =
     scene.reason !== "background" &&
     best &&
-    scene.score >= 0.6 &&
-    scene.gap >= 0.12
+    ((scene.score >= 0.6 && scene.gap >= 0.12) ||
+      (!focus?.guardianId && scene.score >= 0.7 && scene.gap >= 0.08))
       ? { guardianId: best.guardianId, score: scene.score, gap: scene.gap }
       : null;
   if (focus?.guardianId) {

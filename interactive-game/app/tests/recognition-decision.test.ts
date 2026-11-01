@@ -47,6 +47,25 @@ it("requires a tap when the shape and whole-object rankings conflict", () => {
     suggestion: { guardianId: "stag" },
   });
 });
+it("offers a closer scene match manually without displacing an accepted foreground identity", () => {
+  const close = scene({ score: 0.74, gap: 0.09 });
+  expect(recognitionDecision(close, null)).toMatchObject({
+    match: { guardianId: null },
+    suggestion: { guardianId: "moon" },
+  });
+  expect(
+    recognitionDecision(scene({ score: 0.69, gap: 0.09 }), null).suggestion,
+  ).toBeNull();
+  expect(
+    recognitionDecision(scene({ score: 0.74, gap: 0.07 }), null).suggestion,
+  ).toBeNull();
+  expect(
+    recognitionDecision(close, focus({ guardianId: "stag" })),
+  ).toMatchObject({
+    match: { guardianId: null },
+    suggestion: { guardianId: "stag" },
+  });
+});
 it("preserves agreed automatic matches, baseline fallback and valid outline suggestions", () => {
   expect(recognitionDecision(scene(), focus())).toMatchObject({
     match: { guardianId: "moon", reason: "match" },

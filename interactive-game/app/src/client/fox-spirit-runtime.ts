@@ -1,9 +1,16 @@
 import * as THREE from "three";
 import { GLTFLoader, type GLTF } from "three/addons/loaders/GLTFLoader.js";
 import { clone } from "three/addons/utils/SkeletonUtils.js";
-import { PANDA_MODEL, pandaClip } from "./panda-model";
-import { ROOT_MODEL, rootClip } from "./gilded-root-model";
+import { pandaClip } from "./panda-model";
+import { rootClip } from "./gilded-root-model";
 import { ROOT_TIMING, rootStory } from "./gilded-root-motion";
+import {
+  GUARDIAN_TIMING,
+  guardianClip,
+  guardianStory,
+} from "./guardian-spirit-motion";
+import { SPIRIT_MODELS } from "./spirit-models";
+import { SpiritTemplateCache } from "./spirit-cache";
 import type { SpiritCharacter } from "./spirit-character";
 import {
   coverOrigin,
@@ -13,19 +20,22 @@ import {
   type SpiritOrigin,
 } from "./spirit-motion";
 import type { SpiritAsset } from "./spirit-asset";
-const templates = new Map<SpiritCharacter, Promise<GLTF>>();
+const templates = new SpiritTemplateCache<SpiritCharacter, GLTF>(
+  2,
+  (character) => new GLTFLoader().loadAsync(SPIRIT_MODELS[character].url),
+  ({ scene }) =>
+    scene.traverse((object) => {
+      if (object instanceof THREE.Mesh) {
+        object.geometry.dispose();
+        for (const material of Array.isArray(object.material)
+          ? object.material
+          : [object.material])
+          material.dispose();
+      }
+    }),
+);
 export function prepareFoxSpirit(character: SpiritCharacter = "fox") {
-  let pending = templates.get(character);
-  if (!pending) {
-    pending = new GLTFLoader()
-      .loadAsync(character === "tree" ? ROOT_MODEL.url : PANDA_MODEL.url)
-      .catch((e) => {
-        templates.delete(character);
-        throw e;
-      });
-    templates.set(character, pending);
-  }
-  return pending;
+  return templates.get(character);
 }
 export type SpiritStats = {
   fps: number;
@@ -221,7 +231,9 @@ export function mountFoxSpirit(
       story =
         character === "tree"
           ? rootStory(choreographed ? elapsed : 0)
-          : foxStory(choreographed ? elapsed : 0),
+          : character === "fox"
+            ? foxStory(choreographed ? elapsed : 0)
+            : guardianStory(choreographed ? elapsed : 0),
       reaction = Math.max(0, 1 - (elapsed - replyAt) / 1.3),
       hop =
         Math.sin(Math.min(1, (elapsed - replyAt) / 0.7) * Math.PI) *
@@ -232,7 +244,9 @@ export function mountFoxSpirit(
       ? actions.get(
           character === "tree"
             ? rootClip(story.beat)
-            : pandaClip(story.beat, actions),
+            : character === "fox"
+              ? pandaClip(story.beat, actions)
+              : guardianClip(story.beat),
         )
       : actions.values().next().value;
     if (next && next !== active) {
@@ -341,6 +355,11 @@ export function mountFoxSpirit(
     .then(async (gltf) => {
       if (disposed) return;
       model = clone(gltf.scene);
+      // Template eviction must not dispose geometry used by an active reveal.
+      model.traverse((object) => {
+        if (object instanceof THREE.Mesh)
+          object.geometry = object.geometry.clone();
+      });
       body.add(model);
       mixer = new THREE.AnimationMixer(model);
       for (const clip of gltf.animations) {
@@ -355,6 +374,8 @@ export function mountFoxSpirit(
             "ChaseLeaf",
             "Catch",
             "Bow",
+            "Awaken",
+            "Play",
           ].includes(clip.name)
         ) {
           action.setLoop(THREE.LoopOnce, 1);
@@ -368,16 +389,20 @@ export function mountFoxSpirit(
             ["Idle", "Wake", "ChaseLeaf", "Catch", "Bow", "Greet"].every(
               (name) => actions.has(name),
             )
-          : !!model.getObjectByName("PandaHead") &&
-            ["Survey", "Run", "Settle", "Greet"].every((name) =>
-              actions.has(name),
-            );
-      if (choreographed)
+          : character === "fox"
+            ? !!model.getObjectByName("PandaHead") &&
+              ["Survey", "Run", "Settle", "Greet"].every((name) =>
+                actions.has(name),
+              )
+            : ["Idle", "Awaken", "Play", "Settle", "Greet"].every((name) =>
+                actions.has(name),
+              );
+      if (choreographed && (character === "tree" || character === "fox"))
         head = model.getObjectByName(
           character === "tree" ? "RootShade" : "PandaHead",
         );
       active =
-        actions.get(character === "tree" ? "Idle" : "Survey") ??
+        actions.get(character === "fox" ? "Survey" : "Idle") ??
         actions.values().next().value;
       active?.play();
       mixer.update(0);
@@ -398,7 +423,7 @@ export function mountFoxSpirit(
           if (!copy.emissive) copy.emissive = new THREE.Color();
           if (character === "fox") copy.emissive.set(0x000000);
           copy.userData.baseEmission =
-            character === "tree" ? copy.emissiveIntensity : 0.1;
+            character !== "fox" ? copy.emissiveIntensity : 0.1;
           copy.emissiveIntensity = 0.15;
           copy.transparent = true;
           copy.forceSinglePass = true;
@@ -432,7 +457,7 @@ export function mountFoxSpirit(
       replyAt = -100;
       mixer?.stopAllAction();
       active =
-        actions.get(character === "tree" ? "Idle" : "Survey") ??
+        actions.get(character === "fox" ? "Survey" : "Idle") ??
         actions.values().next().value;
       active?.reset().play();
       mixer?.update(0);
@@ -442,7 +467,11 @@ export function mountFoxSpirit(
       if (choreographed)
         elapsed = Math.max(
           elapsed,
-          character === "tree" ? ROOT_TIMING.greet : FOX_TIMING.greet,
+          character === "tree"
+            ? ROOT_TIMING.greet
+            : character === "fox"
+              ? FOX_TIMING.greet
+              : GUARDIAN_TIMING.greet,
         );
       replyAt = elapsed;
       resume();
@@ -462,7 +491,7 @@ export function mountFoxSpirit(
       if (model) mixer?.uncacheRoot(model);
       model?.traverse((object) => {
         if (object instanceof THREE.SkinnedMesh) object.skeleton.dispose();
-        if (asset && object instanceof THREE.Mesh) object.geometry.dispose();
+        if (object instanceof THREE.Mesh) object.geometry.dispose();
       });
       const textures = new Set<THREE.Texture>();
       for (const m of modelMaterials) {

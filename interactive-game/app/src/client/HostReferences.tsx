@@ -12,6 +12,7 @@ import {
   type SpiritAsset,
 } from "./spirit-asset";
 import { PANDA_MODEL } from "./panda-model";
+import { hostSpiritCharacter, type SpiritCharacter } from "./spirit-character";
 const FoxSpiritReveal = lazy(() => import("./FoxSpiritReveal"));
 import {
   MAX_REFERENCES,
@@ -19,6 +20,8 @@ import {
   type HostVision,
 } from "../shared/vision";
 export function HostReferences() {
+  const [previewGuardian, setPreviewGuardian] =
+    useState<SpiritCharacter | null>(null);
   const [previewFox, setPreviewFox] = useState(false);
   const [previewRoot, setPreviewRoot] = useState(false);
   const [capture, setCapture] = useState<SpiritAsset | undefined>();
@@ -226,6 +229,14 @@ export function HostReferences() {
   }
   return (
     <section className="host-references">
+      {previewGuardian && (
+        <Suspense fallback={<p role="status">Opening the guardian spirit…</p>}>
+          <FoxSpiritReveal
+            character={previewGuardian}
+            onClose={() => setPreviewGuardian(null)}
+          />
+        </Suspense>
+      )}
       {previewFox && (
         <Suspense fallback={<p role="status">Opening the fox spirit…</p>}>
           <FoxSpiritReveal
@@ -296,6 +307,15 @@ export function HostReferences() {
             </label>
             <button
               className="btn"
+              disabled={busy || !hostSpiritCharacter(chosen?.art)}
+              onClick={() =>
+                setPreviewGuardian(hostSpiritCharacter(chosen?.art))
+              }
+            >
+              Preview selected guardian
+            </button>
+            <button
+              className="btn"
               disabled={
                 busy ||
                 !data.references.some(
@@ -340,9 +360,9 @@ export function HostReferences() {
             </label>
           </div>
           <p className="small muted">
-            The fox and Gilded Root emerge as 3D spirits and greet you at a
-            consistent screen size. Preview it directly, or recognize either
-            guardian through the Lens to test the complete entrance.
+            Every guardian has its own 3D spirit and little performance. Choose
+            one above and preview it without the camera, or recognize it through
+            the Lens to test the complete entrance.
           </p>
           <p className="small muted">
             The fox uses a clean woodland character inspired by your red panda’s

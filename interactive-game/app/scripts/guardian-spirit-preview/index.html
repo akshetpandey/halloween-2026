@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><title>Guardian character review</title>
+  <style>
+    body {
+      margin: 0;
+      background: #101f19;
+      color: #f3e7bf;
+      font: 14px system-ui;
+    }
+    nav {
+      padding: 16px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    button,
+    select,
+    input {
+      font: inherit;
+      padding: 8px;
+    }
+    #gallery {
+      position: relative;
+      width: 1500px;
+      max-width: 100%;
+      margin: auto;
+    }
+    canvas {
+      width: 100%;
+      display: block;
+    }
+    .labels {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      pointer-events: none;
+    }
+    .label {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid #7c8c6433;
+      min-width: 0;
+    }
+    .label button {
+      pointer-events: auto;
+      font-size: 11px;
+      padding: 5px 10px;
+    }
+    #status {
+      padding: 8px 16px;
+    }
+  </style>
+  <nav>
+    <strong>Actual exported guardian models</strong
+    ><label
+      >Beat
+      <select id="beat">
+        <option>Idle</option>
+        <option>Awaken</option>
+        <option>Play</option>
+        <option>Settle</option>
+        <option>Greet</option>
+      </select></label
+    ><label
+      >Pose
+      <input
+        id="pose"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0" /></label
+    ><button id="play">Play this beat</button
+    ><button id="angle">Three-quarter view</button>
+  </nav>
+  <div id="status">Reading authored assets…</div>
+  <div id="gallery">
+    <canvas></canvas>
+    <div class="labels"></div>
+  </div>
+  <script type="module" src="./review.ts"></script>
+</html>

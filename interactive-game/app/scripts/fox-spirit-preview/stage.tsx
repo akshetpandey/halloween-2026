@@ -7,6 +7,7 @@ import "../../src/client/style.css";
 import FoxSpiritReveal from "../../src/client/FoxSpiritReveal";
 import { spiritOrigin } from "../../src/client/spirit-motion";
 import { PANDA_MODEL } from "../../src/client/panda-model";
+import { hostSpiritCharacter } from "../../src/client/spirit-character";
 const FOX_URL = PANDA_MODEL.url;
 import {
   inspectSpiritGLB,
@@ -35,9 +36,9 @@ function Preview() {
   return (
     <FoxSpiritReveal
       character={
-        new URLSearchParams(location.search).get("guardian") === "tree"
-          ? "tree"
-          : "fox"
+        hostSpiritCharacter(
+          new URLSearchParams(location.search).get("guardian") ?? "fox",
+        ) ?? "fox"
       }
       asset={asset}
       origin={origin}

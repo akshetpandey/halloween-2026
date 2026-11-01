@@ -40,8 +40,12 @@ import {
 import { FoxAwakening } from "./FoxAwakening";
 import { estimateFoxRig, FOX_POINTS, type FoxRig } from "./fox-rig";
 import { hostSpiritCharacter } from "./spirit-character";
-import { preloadFoxSpirit } from "./fox-spirit-loader";
-import { spiritOrigin, type SpiritOrigin } from "./spirit-motion";
+import { preloadFoxSpirit, prepareSpiritRenderer } from "./fox-spirit-loader";
+import {
+  spiritOrigin,
+  foregroundSpiritOrigin,
+  type SpiritOrigin,
+} from "./spirit-motion";
 import { resolveSpiritEntrance } from "./spirit-entrance";
 import type { SpiritAsset } from "./spirit-asset";
 import "./vision.css";
@@ -118,6 +122,7 @@ export function GuardianLens({
     gap: number;
   } | null>(null);
   const focusedReferences = useMemo(() => manifest?.focus ?? [], [manifest]);
+  const warmingSpirit = useRef("");
   function decide(result: VisionReply): VisionMatch {
     if (result.focusUnavailable) setFocusEnabled(false);
     const scene = matchGuardian(result.vector!, manifest!);
@@ -127,6 +132,16 @@ export function GuardianLens({
     const decision = recognitionDecision(scene, focused);
     setSuggestion(decision.suggestion);
     return decision.match;
+  }
+  function warmSpirit(id: string | null) {
+    const character = hostSpiritCharacter(
+      guardians.find((g) => g.id === id)?.art,
+    );
+    if (id && character && warmingSpirit.current !== character) {
+      warmingSpirit.current = character;
+      void preloadFoxSpirit(character).catch(() => {});
+      void getMotionPoses(id).catch(() => {});
+    }
   }
   const recognitionKind =
     focusEnabled && focusedReferences.length
@@ -154,7 +169,12 @@ export function GuardianLens({
       await reveal(
         file,
         found,
-        { id: 0, backend: "Shape · confirmed by you", ms: live.ms },
+        {
+          id: 0,
+          backend: "Shape · confirmed by you",
+          ms: live.ms,
+          focusMatch: focusHint ?? undefined,
+        },
         attempt,
       );
     } catch (e) {
@@ -243,9 +263,6 @@ export function GuardianLens({
   }
   useEffect(() => {
     if (ready)
-      for (const g of guardians.filter((g) => hostSpiritCharacter(g.art)))
-        void getMotionPoses(g.id).catch(() => {});
-    if (ready)
       void warmRecognizer()
         .then(async () => {
           if (!mounted.current) return;
@@ -261,12 +278,9 @@ export function GuardianLens({
             }
           }
           if (!mounted.current) return;
-          // Keep model preparation sequential on memory-constrained phones.
-          await preloadFoxSpirit("fox");
-          if (!mounted.current) return;
-          await preloadFoxSpirit("tree");
+          // Warm the renderer, then fetch only the guardian actually sighted.
+          await prepareSpiritRenderer();
           if (mounted.current) setSpiritPrepared(true);
-          if (!host) await warmOutline();
         })
         .catch((e) => {
           if (mounted.current) setError(e.message);
@@ -484,9 +498,11 @@ export function GuardianLens({
       liveMs,
       frames,
     }));
-    if (
-      hostSpiritCharacter(guardians.find((g) => g.id === found.guardianId)?.art)
-    ) {
+    const character = hostSpiritCharacter(
+      guardians.find((g) => g.id === found.guardianId)?.art,
+    );
+    if (character) {
+      void preloadFoxSpirit(character).catch(() => {});
       setSpiritOpen(true);
       const matched = await resolveSpiritEntrance(
         getMotionPoses(found.guardianId!),
@@ -502,12 +518,23 @@ export function GuardianLens({
       );
       if (attempt !== action.current) return;
       setAlignment(matched);
+      const focused = result.focusMatch;
+      const foreground =
+        focused &&
+        (focused.guardianId === found.guardianId ||
+          focused.suggestion === found.guardianId)
+          ? foregroundSpiritOrigin(focused.points, p)
+          : null;
       setMotionStatus(
         matched
           ? `Entrance anchored to the reference · ${matched.inliers} matching details. Final pose faces the screen.`
-          : "Entrance starts at the lens centre. Final pose faces the screen.",
+          : foreground
+            ? "Entrance follows the recognized foreground. Final pose faces the screen."
+            : "Entrance starts at the lens centre. Final pose faces the screen.",
       );
-      setSpiritStart(spiritOrigin(matched?.bounds));
+      setSpiritStart(
+        matched ? spiritOrigin(matched.bounds) : (foreground ?? spiritOrigin()),
+      );
       setProgress("");
       return;
     }
@@ -619,6 +646,7 @@ export function GuardianLens({
         if (attempt !== action.current) return;
         const found = decide(result),
           streak = stable.observe(found.guardianId, performance.now());
+        if (streak.count >= 2) warmSpirit(streak.id);
         frames++;
         setLive((previous) => ({
           count: Math.min(STABLE_FRAMES, streak.count),
@@ -787,8 +815,8 @@ export function GuardianLens({
       </p>
       {host && (
         <p className="small muted">
-          Fox and Gilded Root prototypes: authored 3D spirits, with no outline
-          processing. Other guardians use MagicTouch · GPU with CPU fallback.
+          All fifteen guardians have their own authored 3D awakening. The
+          recognized shape supplies the entrance; the character then faces you.
           {initialPhoto &&
             ". Testing a saved reference checks the reveal, not accuracy on a new photo."}
         </p>
@@ -811,15 +839,9 @@ export function GuardianLens({
       {ready && (
         <p className="lens-ready" role="status">
           {modelReady
-            ? host
-              ? spiritPrepared
-                ? "Lens ready · spirit assets ready"
-                : "Lens ready · preparing the spirits…"
-              : outlineState === "ready"
-                ? "Lens ready · awakening ready"
-                : outlineState === "failed"
-                  ? "Lens ready · you can meet the guardian without its outline"
-                  : "Lens ready · preparing the awakening…"
+            ? spiritPrepared
+              ? "Lens ready · spirit stage ready"
+              : "Lens ready · preparing the spirit stage…"
             : prepareProgress}
         </p>
       )}
@@ -1189,9 +1211,8 @@ export function GuardianLens({
               {details.outlinePrepareBackend
                 ? ` · ${details.outlinePrepareBackend}`
                 : ""}
-              . Recognition uses a warmed CPU model. The host fox and Gilded
-              Root use a 3D reveal; other guardians use outlines with GPU/CPU
-              fallback.
+              . Recognition uses a warmed CPU model. Guardian reveals use
+              authored 3D animation; mask inference is skipped.
               {(details.reusedCamera || details.cameraMs > 0) && (
                 <>
                   {" "}

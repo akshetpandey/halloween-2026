@@ -240,9 +240,7 @@ export default function FoxSpiritReveal({
         </div>
       )}
       <footer className="fox-spirit-footer">
-        <span className="eyebrow">
-          {ready ? "A CREATURE STIRS" : identity.name.toUpperCase()}
-        </span>
+        <span className="eyebrow">{identity.name.toUpperCase()}</span>
         <h2>{greeting ? identity.hello : "You found me."}</h2>
         <p className="fox-spirit-voice">“{identity.greeting}”</p>
         <p className="fox-spirit-touch">
@@ -278,7 +276,9 @@ export default function FoxSpiritReveal({
             Starting point:{" "}
             {origin?.source === "reference"
               ? "matched reference view"
-              : "lens centre"}
+              : origin?.source === "foreground"
+                ? "recognized foreground"
+                : "lens centre"}
             . The final pose always faces you at the same screen size.
           </p>
         </details>

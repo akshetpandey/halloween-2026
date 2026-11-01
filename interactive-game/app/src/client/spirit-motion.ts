@@ -3,7 +3,7 @@ export type SpiritOrigin = {
   x: number;
   y: number;
   size: number;
-  source: "reference" | "centre";
+  source: "reference" | "foreground" | "centre";
 };
 const clamp = (n: number, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const smooth = (n: number) => {
@@ -24,6 +24,36 @@ export function spiritOrigin(bounds?: MotionBounds): SpiritOrigin {
         source: "reference",
       }
     : { x: 0.5, y: 0.5, size: 0.28, source: "centre" };
+}
+// Recognition's 7x7 foreground cells already locate the subject in the frozen
+// frame. This is an entrance keyframe, never continuous AR tracking.
+export function foregroundSpiritOrigin(
+  points: number[],
+  image: { width: number; height: number },
+): SpiritOrigin | null {
+  if (image.width <= 0 || image.height <= 0) return null;
+  const scale = 224 / Math.max(image.width, image.height);
+  const ox = (224 - image.width * scale) / 2;
+  const oy = (224 - image.height * scale) / 2;
+  const cells = [...new Set(points)]
+    .filter((i) => Number.isInteger(i) && i >= 0 && i < 49)
+    .map((i) => ({
+      x: (((i % 7) + 0.5) * 32 - ox) / scale / image.width,
+      y: ((Math.floor(i / 7) + 0.5) * 32 - oy) / scale / image.height,
+    }))
+    .filter(({ x, y }) => x >= 0 && x <= 1 && y >= 0 && y <= 1);
+  if (cells.length < 2) return null;
+  const dx = 16 / scale / image.width,
+    dy = 16 / scale / image.height;
+  return {
+    ...spiritOrigin({
+      left: clamp(Math.min(...cells.map((p) => p.x)) - dx),
+      right: clamp(Math.max(...cells.map((p) => p.x)) + dx),
+      top: clamp(Math.min(...cells.map((p) => p.y)) - dy),
+      bottom: clamp(Math.max(...cells.map((p) => p.y)) + dy),
+    }),
+    source: "foreground",
+  };
 }
 // Normalized image coordinates -> a cover-fitted photo in the full-screen stage.
 export function coverOrigin(

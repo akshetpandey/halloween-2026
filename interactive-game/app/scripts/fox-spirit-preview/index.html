@@ -35,6 +35,12 @@
   </style>
   <nav>
     <strong>Real renderer · phone viewport</strong>
+    <label
+      >Guardian
+      <select id="guardian"></select
+    ></label>
+    <button id="record" onclick="recordReveal()">Record this awakening</button>
+    <span id="record-status"></span><a id="recording" hidden>Save recording</a>
     <button
       onclick="
         guardian = 'fox';
@@ -67,13 +73,103 @@
     <iframe id="phone" title="Fox spirit preview" src="stage.html"></iframe>
   </div>
   <script>
+    const characters = [
+      "fox",
+      "tree",
+      "moon",
+      "guardian",
+      "seed",
+      "skull",
+      "raven",
+      "owl",
+      "stag",
+      "hare",
+      "fork",
+      "ember",
+      "knots",
+      "host",
+      "door",
+    ];
     let guardian =
-      new URLSearchParams(location.search).get("guardian") === "tree"
-        ? "tree"
-        : "fox";
+      new URLSearchParams(location.search).get("guardian") || "fox";
+    if (!characters.includes(guardian)) guardian = "fox";
+    const chooser = document.getElementById("guardian");
+    for (const key of characters) {
+      const option = new Option(key, key);
+      chooser.add(option);
+    }
+    chooser.value = guardian;
+    chooser.onchange = () => {
+      guardian = chooser.value;
+      start("centre");
+    };
     function start(origin) {
       document.getElementById("phone").src =
         "stage.html?guardian=" + guardian + "&origin=" + origin;
+    }
+    async function recordReveal() {
+      const button = document.getElementById("record"),
+        status = document.getElementById("record-status"),
+        link = document.getElementById("recording"),
+        key = guardian;
+      button.disabled = true;
+      link.hidden = true;
+      status.textContent = "Preparing recording…";
+      let stream;
+      try {
+        const frame = document.getElementById("phone");
+        const loaded = new Promise((resolve) =>
+          frame.addEventListener("load", resolve, { once: true }),
+        );
+        start("centre");
+        await loaded;
+        const deadline = Date.now() + 20000;
+        let replay;
+        while (Date.now() < deadline) {
+          replay = frame.contentDocument.querySelector(
+            '[aria-label="Replay awakening"]',
+          );
+          if (replay && !replay.disabled) break;
+          await new Promise((resolve) => setTimeout(resolve, 100));
+        }
+        if (!replay || replay.disabled)
+          throw Error("Stage did not become ready");
+        const canvas = frame.contentDocument.querySelector("canvas");
+        stream = canvas.captureStream(24);
+        const type = [
+          "video/webm;codecs=vp9",
+          "video/webm;codecs=vp8",
+          "video/webm",
+        ].find((t) => MediaRecorder.isTypeSupported(t));
+        const recorder = new MediaRecorder(stream, {
+            mimeType: type,
+            videoBitsPerSecond: 2000000,
+          }),
+          chunks = [];
+        recorder.ondataavailable = (e) => {
+          if (e.data.size) chunks.push(e.data);
+        };
+        const done = new Promise((resolve) => (recorder.onstop = resolve));
+        recorder.start();
+        replay.click();
+        status.textContent = "Recording 11 seconds · keep this tab visible";
+        await new Promise((resolve) => setTimeout(resolve, 11000));
+        recorder.stop();
+        await done;
+        if (link.href.startsWith("blob:")) URL.revokeObjectURL(link.href);
+        link.href = URL.createObjectURL(
+          new Blob(chunks, { type: recorder.mimeType }),
+        );
+        link.download = "hollow-court-" + key + "-reveal.webm";
+        link.textContent = "Save recording · " + key;
+        link.hidden = false;
+        status.textContent = "Recording ready";
+      } catch (error) {
+        status.textContent = error.message;
+      } finally {
+        stream?.getTracks().forEach((t) => t.stop());
+        button.disabled = false;
+      }
     }
     let viewportWidth = 390,
       viewportHeight = 844;

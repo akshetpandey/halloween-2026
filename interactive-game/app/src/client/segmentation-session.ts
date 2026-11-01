@@ -2,6 +2,7 @@ import { PreparedVisionSession } from "./prepared-vision-session";
 import { recognitionSession } from "./recognition-session";
 import { OutlineSafety } from "./outline-safety";
 import type { VisionReply } from "./vision.worker";
+import { prepareSpiritRenderer } from "./fox-spirit-loader";
 
 export class SegmentationSession extends PreparedVisionSession {
   private safety = new OutlineSafety();
@@ -38,5 +39,7 @@ export const getSegmentationSession = () => current;
 export async function prepareArrivalVision() {
   // Give the small recognizer priority; signup never awaits either model.
   await recognitionSession.prepare();
-  await getSegmentationSession().prepare();
+  // Every guardian now has an authored 3D reveal; no mask inference is needed.
+  // The private outline/movement editor can still warm MagicTouch on demand.
+  await prepareSpiritRenderer();
 }

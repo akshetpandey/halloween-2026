@@ -2,6 +2,8 @@
 
 Updated October 24, 2026. **The fox established the authoring approach; the staged review workflow was reused for the Gilded Root lamp, with its own silhouette, rig and leaf-catching performance.** This is deliberate character modeling and animation from visual references, not an automatic photo-to-3D conversion. The host approved the clean modeled fox over the scan-derived version and asked for more playful movement, a pounce, a proper sit and a curious look toward the camera.
 
+**October 31 batch:** the host authorized all remaining guardians, parallel subagents, push and deployment. [Thirteen new characters and cross-review](handoff-2026-10-31-all-guardian-spirits.md) extend this workflow to the full roster. Separate visitor/house/twig authors inspected the real prop photos and reviewed one another's exports. All new assets use the shared five-clip contract in `guardian-spirit-motion.ts`; fox/tree retain their own performances. The runtime fetches only the selected model, deduplicates/serializes pending loads and retains two model templates. Desktop art/motion and code checks remain separate from actual phone performance and host aesthetic acceptance.
+
 Use this alongside the [spirit prototype](guardian-spirit-prototype.md), [camera prototype](guardian-camera-prototype.md) and [physical roster](../physical/entity-plan.md). Narrative identity comes from the [approved character voices](../design/narrative-arc.md). Physical names and puzzle assignments still follow their current authoritative documents.
 
 ## What actually worked for the fox
@@ -56,7 +58,7 @@ Write a timed beat list and sketch the most important poses **before** adding ma
 
 The current fox storyboard is: notice the tail → playful pursuit with changing pace and body lean → anticipate and pounce → land with a small recovery → deliberately sit → hold eye contact and tilt its head curiously. Test the anticipation, airborne and contact poses separately. Tail follow-through, ear lag and a blink should support the action, not move at the same phase as every other part. A sit must read as weight settling onto the haunches, with front paws supported and no visible hovering or foot penetration.
 
-The scanner controls only the **first** position/size keyframe. Freeze the photograph and stop camera tracks on recognition. Move the character onto its standardized screen stage, face it toward the viewer and let it perform. Avoid continuous AR tracking, live segmentation or new ML inference merely to play an authored animation. A missing entrance geometry match falls back to a centered entrance. Pausing, replaying and greeting must remain available; the host explicitly asked these reveals to ignore Reduce Motion.
+The scanner controls only the **first** position/size keyframe. Freeze the photograph and disable camera video during the reveal. The host's later retained-stream decision is authoritative: the camera-only stream can remain disabled between scans to reduce permission prompts; microphone access is never requested. Move the character onto its standardized screen stage, face it toward the viewer and let it perform. Avoid continuous AR tracking, live segmentation or new ML inference merely to play an authored animation. Saved geometry or recognized foreground cells provide an entrance; missing evidence falls back to the centre. Pausing, replaying and greeting remain available; the host asked these reveals to ignore Reduce Motion.
 
 ## 4. Author the model and rig in reversible stages
 
@@ -107,7 +109,7 @@ These are guardrails, not a reason to add detail until every budget is used. Sta
 | Camera / recognition separation      | Current camera request is 12fps ideal / 15fps max, serial recognition up to 4Hz. Recognition and capture stop before the authored performance. Review current camera docs before changing those values.                                                                       |
 | Performance acceptance               | Record actual first-open/warm ready time, frame rate, repeated open/close and background/resume behavior on iPhone and Android. Laptop observations are not mobile benchmarks.                                                                                                |
 
-Keep a shared in-memory model template only where existing lifecycle code expects it; dispose per-opening animation/skeleton/material/effect resources. Verify pause-resize redraws the same instant, replay resets the complete story and returning to the Lens does not keep a hidden camera stream alive.
+Keep at most two shared model templates and one model load in progress; dispose per-opening geometry/animation/skeleton/material/effect resources. Verify pause-resize redraws the same instant, replay resets the complete story and the camera track remains disabled outside active scanning, following the host's retained-stream policy.
 
 ## 7. Rebuild, verify, package and hand off
 

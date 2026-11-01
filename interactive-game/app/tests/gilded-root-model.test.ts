@@ -143,5 +143,6 @@ it("has its own rooted reveal and restricts the character registry to the two ho
     });
   expect(hostSpiritCharacter("tree")).toBe("tree");
   expect(hostSpiritCharacter("fox")).toBe("fox");
-  expect(hostSpiritCharacter("owl")).toBeNull();
+  expect(hostSpiritCharacter("owl")).toBe("owl");
+  expect(hostSpiritCharacter("well")).toBeNull();
 });

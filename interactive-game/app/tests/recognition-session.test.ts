@@ -171,11 +171,9 @@ it("reuses one lightweight accelerated segmentation session across Lens visits",
 });
 
 const state = (
-  overrides: Partial<
-    Pick<State, "previewAvailable" | "status" | "player">
-  > = {},
+  overrides: Partial<Pick<State, "cameraAvailable" | "status" | "player">> = {},
 ) => ({
-  previewAvailable: true,
+  cameraAvailable: true,
   status: "sealed" as const,
   player: null,
   ...overrides,
@@ -194,6 +192,16 @@ it("starts during name/selfie or recovery entry, and prepares returning guests t
     shouldWarmRecognition(state({ status: "open", player: guest }), "/court"),
   ).toBe(true);
 });
+it("warms the live camera during onboarding without enabling rehearsal", () => {
+  const live = state({
+    cameraAvailable: true,
+    status: "open",
+    player: { ...guest, realm: "live" },
+  });
+  expect(shouldWarmRecognition(live, "/join")).toBe(true);
+  expect(shouldWarmRecognition(live, "/court")).toBe(true);
+  expect(shouldWarmRecognition(live, "/host")).toBe(false);
+});
 it("keeps the sealed entrance, host dashboard and disabled public camera rollout free of preloads", () => {
   expect(shouldWarmRecognition(null, "/join")).toBe(false);
   expect(shouldWarmRecognition(state(), "/")).toBe(false);
@@ -206,7 +214,7 @@ it("keeps the sealed entrance, host dashboard and disabled public camera rollout
   ).toBe(false);
   expect(
     shouldWarmRecognition(
-      state({ previewAvailable: false, status: "open", player: guest }),
+      state({ cameraAvailable: false, status: "open", player: guest }),
       "/join",
     ),
   ).toBe(false);

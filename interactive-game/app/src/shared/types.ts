@@ -82,6 +82,7 @@ export type State = {
   player: Player | null;
   status: "sealed" | "open" | "closed";
   previewAvailable: boolean;
+  cameraAvailable: boolean;
   partifulUrl: string;
   partifulDirectUrl: string;
   publicOrigin: string;

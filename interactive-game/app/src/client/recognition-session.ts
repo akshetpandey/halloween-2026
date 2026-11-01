@@ -29,14 +29,14 @@ export class RecognitionSession extends PreparedVisionSession {
 
 export const recognitionSession = new RecognitionSession();
 
-// Follow the current rehearsal-only camera rollout. Merely opening the sealed
+// Follow the camera capability independently of debug. Opening the sealed
 // public entrance or the host guest book must not download recognition assets.
 export function shouldWarmRecognition(
-  state: Pick<State, "previewAvailable" | "status" | "player"> | null,
+  state: Pick<State, "cameraAvailable" | "status" | "player"> | null,
   path: string,
 ) {
   if (
-    !state?.previewAvailable ||
+    !state?.cameraAvailable ||
     state.status === "closed" ||
     path === "/sealed" ||
     path === "/host"

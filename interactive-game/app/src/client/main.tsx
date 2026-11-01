@@ -589,7 +589,7 @@ function App() {
         </button>
       </section>
     );
-  else if (path === "/scan" && state.previewAvailable)
+  else if (path === "/scan" && state.cameraAvailable)
     content = (
       <GuardianLens
         onContinue={async (guardianId) => {
@@ -609,12 +609,10 @@ function App() {
   else if (path === "/court" || path === "/")
     content = (
       <>
-        {state.previewAvailable && (
+        {state.cameraAvailable && (
           <section className="lens-home-link panel">
             <div>
-              <span className="eyebrow">
-                THE LOOKING LENS · CAMERA REHEARSAL
-              </span>
+              <span className="eyebrow">THE LOOKING LENS</span>
               <h2>
                 Something in the room <em>is waiting.</em>
               </h2>
@@ -718,10 +716,11 @@ function App() {
           <div className="field-note">
             <ScanLine size={26} />
             <span className="eyebrow">A SMALL FIELD NOTE</span>
-            <h3>Look for the little moons.</h3>
+            <h3>Find a familiar creature.</h3>
             <p>
-              A moon beside a creature marks its threshold. Hold the top of your
-              phone nearby, open the link, and see what it asks of you.
+              Open the Looking Lens and point your camera at a guardian. Hold
+              still as the three leaves light up, then discover what it asks of
+              you.
             </p>
             <small>The creatures stay where they live.</small>
           </div>

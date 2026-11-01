@@ -4,7 +4,7 @@ import { chapters } from "./story";
 import { generate, validate, PUZZLE_VERSION } from "./puzzles";
 import type { Assignment } from "../shared/types";
 import { shortInviteCode } from "../shared/links";
-import { previewEnabled } from "./access";
+import { cameraDiscoveryEnabled, previewEnabled } from "./access";
 import { httpsRedirect, responseHeaders } from "./http";
 import { hex, hash, fail, json, readBody, body } from "./request";
 import { adminApi, redeemHostRecovery } from "./admin";
@@ -125,6 +125,9 @@ async function state(env: Env, p: RowPlayer | null) {
         ? "open"
         : phase(env.OPENS_AT, env.CLOSES_AT),
     previewAvailable: env.PREVIEW === "true",
+    cameraAvailable:
+      cameraDiscoveryEnabled(env) &&
+      (env.PREVIEW === "true" || phase(env.OPENS_AT, env.CLOSES_AT) === "open"),
     partifulUrl: env.PUBLIC_ORIGIN + "/r",
     partifulDirectUrl: env.PARTIFUL_URL,
     publicOrigin: env.PUBLIC_ORIGIN,
@@ -184,9 +187,9 @@ async function api(request: Request, env: Env): Promise<Response> {
     path === "/api/vision/encounter" ||
     path.startsWith("/api/vision/motion/")
   ) {
-    // The camera prototype is confined to rehearsal. Host enrollment/tests use Access.
-    if (env.PREVIEW !== "true")
-      fail("The Looking Lens is still in rehearsal.", 404);
+    // Live camera discovery has its own rollout flag, independent of debug.
+    if (!cameraDiscoveryEnabled(env))
+      fail("The Looking Lens is not available yet.", 404);
     registered(p);
     open(env, p);
     const motion = path.match(/^\/api\/vision\/motion\/([A-Z]+-\d{2})$/);

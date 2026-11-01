@@ -1,3 +1,9 @@
+export function cameraDiscoveryEnabled(
+  env: Pick<Env, "PREVIEW" | "CAMERA_DISCOVERY">,
+) {
+  return env.PREVIEW === "true" || env.CAMERA_DISCOVERY === "true";
+}
+
 export function previewEnabled(
   url: string,
   enabled: string,

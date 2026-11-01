@@ -191,7 +191,7 @@ export function GuardianLens({
   const guardian = guardians.find((g) => g.id === match?.guardianId);
   const isFox = guardian?.art === "fox";
   const spiritCharacter = hostSpiritCharacter(guardian?.art);
-  const spiritPrototype = host && !!spiritCharacter;
+  const spiritPrototype = !!spiritCharacter;
   const puppetEligible = isFox || !!alignment;
   useEffect(() => {
     setFoxRig(
@@ -243,7 +243,7 @@ export function GuardianLens({
       });
   }
   useEffect(() => {
-    if (ready && host)
+    if (ready)
       for (const g of guardians.filter((g) => hostSpiritCharacter(g.art)))
         void getMotionPoses(g.id).catch(() => {});
     if (ready)
@@ -262,13 +262,12 @@ export function GuardianLens({
             }
           }
           if (!mounted.current) return;
-          if (host) {
-            // Keep model preparation sequential on memory-constrained phones.
-            await preloadFoxSpirit("fox");
-            if (!mounted.current) return;
-            await preloadFoxSpirit("tree");
-            if (mounted.current) setSpiritPrepared(true);
-          } else await warmOutline();
+          // Keep model preparation sequential on memory-constrained phones.
+          await preloadFoxSpirit("fox");
+          if (!mounted.current) return;
+          await preloadFoxSpirit("tree");
+          if (mounted.current) setSpiritPrepared(true);
+          if (!host) await warmOutline();
         })
         .catch((e) => {
           if (mounted.current) setError(e.message);
@@ -486,7 +485,6 @@ export function GuardianLens({
       frames,
     }));
     if (
-      host &&
       hostSpiritCharacter(guardians.find((g) => g.id === found.guardianId)?.art)
     ) {
       setSpiritOpen(true);
@@ -767,7 +765,9 @@ export function GuardianLens({
     >
       <div className="lens-title">
         <div>
-          <span className="eyebrow">THE LOOKING LENS · REHEARSAL</span>
+          <span className="eyebrow">
+            THE LOOKING LENS{host ? " · HOST TEST" : ""}
+          </span>
           <h1>
             Look through <em>the veil.</em>
           </h1>
@@ -1262,8 +1262,8 @@ export function GuardianLens({
             </details>
           )}
           <p className="small muted lens-privacy">
-            Your test photograph stays on this phone. Finding a creature opens
-            its trial; its Favor comes from solving it.
+            Your photograph stays on this phone. Finding a creature opens its
+            trial; its Favor comes from solving it.
           </p>
         </>
       )}

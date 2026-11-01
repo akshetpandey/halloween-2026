@@ -257,7 +257,7 @@ export function HostReferences() {
       </p>
       <p className="small muted">
         Reference photos are saved privately. Their image features are computed
-        on your device; rehearsal players download features, not your reference
+        on your device; guests download features, not your reference
         photographs. Guest test photographs stay on their phones.
       </p>
       {error && (
@@ -414,7 +414,7 @@ export function HostReferences() {
                         .finally(() => setBusy(false));
                     }}
                   />
-                  Use this guardian in rehearsal recognition
+                  Use this guardian in camera recognition
                 </label>
               )}
             </div>

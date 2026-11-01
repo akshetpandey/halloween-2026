@@ -19,6 +19,7 @@ import {
   STABLE_FRAMES,
 } from "../shared/vision-live";
 import type { FocusMatch } from "../shared/recognition-focus";
+import { recognitionDecision } from "../shared/recognition-decision";
 import { api } from "./api";
 import { GuardianArt } from "./Art";
 import { LensConfirmation } from "./LensConfirmation";
@@ -111,6 +112,11 @@ export function GuardianLens({
   });
   const [focusEnabled, setFocusEnabled] = useState(true),
     [focusHint, setFocusHint] = useState<FocusMatch | null>(null);
+  const [suggestion, setSuggestion] = useState<{
+    guardianId: string;
+    score: number;
+    gap: number;
+  } | null>(null);
   const focusedReferences = useMemo(() => manifest?.focus ?? [], [manifest]);
   function decide(result: VisionReply): VisionMatch {
     if (result.focusUnavailable) setFocusEnabled(false);
@@ -118,26 +124,18 @@ export function GuardianLens({
     const focused =
       result.focusMatch && focusEnabled ? result.focusMatch : null;
     setFocusHint(scene.guardianId && !focused?.guardianId ? null : focused);
-    if (!focused?.guardianId) return scene;
-    const score = Math.min(1, focused.score);
-    return {
-      guardianId: focused.guardianId,
-      score,
-      gap: focused.gap,
-      reason: "match",
-      candidates: [
-        { guardianId: focused.guardianId, score },
-        ...scene.candidates.filter((c) => c.guardianId !== focused.guardianId),
-      ],
-    };
+    const decision = recognitionDecision(scene, focused);
+    setSuggestion(decision.suggestion);
+    return decision.match;
   }
   const recognitionKind =
     focusEnabled && focusedReferences.length
       ? ("observe" as const)
       : ("embed" as const);
   async function acceptSuggestion() {
-    const id = focusHint?.suggestion;
-    if (!id) return;
+    const candidate = suggestion;
+    if (!candidate) return;
+    const id = candidate.guardianId;
     const attempt = ++action.current;
     setPhase("reading");
     try {
@@ -145,12 +143,13 @@ export function GuardianLens({
       if (!file) throw Error("Open the camera or choose a photograph first.");
       pauseCamera();
       setFocusHint(null);
+      setSuggestion(null);
       const found: VisionMatch = {
         guardianId: id,
-        score: Math.min(1, focusHint!.score),
-        gap: focusHint!.gap,
+        score: candidate.score,
+        gap: candidate.gap,
         reason: "match",
-        candidates: [{ guardianId: id, score: focusHint!.score }],
+        candidates: [{ guardianId: id, score: candidate.score }],
       };
       await reveal(
         file,
@@ -325,6 +324,7 @@ export function GuardianLens({
     setError("");
     setMatch(null);
     setFocusHint(null);
+    setSuggestion(null);
     setOutline(null);
     setProgress("");
     setLive({
@@ -802,6 +802,7 @@ export function GuardianLens({
             onChange={(e) => {
               setFocusEnabled(e.target.checked);
               setFocusHint(null);
+              setSuggestion(null);
             }}
           />
           Use guardian outlines · compare with the original lens
@@ -864,21 +865,22 @@ export function GuardianLens({
                 ready={modelReady}
                 candidateName={
                   guardians.find(
-                    (g) => g.id === (live.candidateId ?? focusHint?.suggestion),
+                    (g) =>
+                      g.id === (live.candidateId ?? suggestion?.guardianId),
                   )?.name
                 }
                 count={live.count}
                 confirmed={live.confirmed}
                 noticed={live.noticed}
-                tentative={!live.candidateId && !!focusHint?.suggestion}
+                tentative={!live.candidateId && !!suggestion}
               />
-              {!live.confirmed && focusHint?.suggestion && (
+              {!live.confirmed && suggestion && (
                 <button
                   className="btn lens-suggestion"
                   onClick={() => void acceptSuggestion()}
                 >
                   Wake{" "}
-                  {guardians.find((g) => g.id === focusHint.suggestion)?.name}
+                  {guardians.find((g) => g.id === suggestion.guardianId)?.name}
                 </button>
               )}
               <button
@@ -969,12 +971,12 @@ export function GuardianLens({
               <p>A familiar shape is enough to begin.</p>
             </div>
           )}
-          {phase === "unknown" && focusHint?.suggestion && (
+          {phase === "unknown" && suggestion && (
             <div className="lens-progress" role="status">
               <p>A familiar shape. Is this who you found?</p>
               <button className="btn" onClick={() => void acceptSuggestion()}>
                 Wake{" "}
-                {guardians.find((g) => g.id === focusHint.suggestion)?.name}
+                {guardians.find((g) => g.id === suggestion.guardianId)?.name}
               </button>
             </div>
           )}

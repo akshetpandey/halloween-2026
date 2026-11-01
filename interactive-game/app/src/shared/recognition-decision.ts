@@ -8,9 +8,10 @@ export function recognitionDecision(
   const best = scene.candidates[0];
   const sceneSuggestion =
     scene.reason !== "background" &&
+    scene.reason !== "empty" &&
     best &&
-    ((scene.score >= 0.6 && scene.gap >= 0.12) ||
-      (!focus?.guardianId && scene.score >= 0.7 && scene.gap >= 0.08))
+    ((scene.score >= 0.54 && scene.gap >= 0.06) ||
+      (!focus?.guardianId && scene.score >= 0.66 && scene.gap >= 0.04))
       ? { guardianId: best.guardianId, score: scene.score, gap: scene.gap }
       : null;
   if (focus?.guardianId) {
@@ -41,6 +42,28 @@ export function recognitionDecision(
     };
   }
   if (scene.guardianId) return { match: scene, suggestion: null };
+  // Party-light mode: a distinct whole-object sighting needs less similarity.
+  // Foreground agreement can support a darker view. Competing identities and
+  // known backgrounds still need a tap rather than waking the wrong guardian.
+  const agrees = focus?.suggestion === best?.guardianId;
+  const conflict = focus?.suggestion && !agrees;
+  if (
+    best &&
+    scene.reason !== "background" &&
+    scene.reason !== "empty" &&
+    !conflict &&
+    ((scene.score >= 0.72 && scene.gap >= 0.08) ||
+      (agrees && scene.score >= 0.65 && scene.gap >= 0.05))
+  ) {
+    return {
+      match: {
+        ...scene,
+        guardianId: best.guardianId,
+        reason: "match" as const,
+      },
+      suggestion: null,
+    };
+  }
   return {
     match: scene,
     suggestion:

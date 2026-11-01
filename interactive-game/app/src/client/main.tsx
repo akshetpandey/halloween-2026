@@ -37,7 +37,6 @@ import { HostDashboard } from "./HostDashboard";
 import { StoryReveal, type Reveal } from "./Reveals";
 import { CostumeGalleryPage, CostumeCelebration } from "./Costumes";
 import { GuardianLens } from "./GuardianLens";
-import { GuardianTrials } from "./GuardianTrials";
 import { VISION_MODEL } from "../shared/vision";
 import { shouldWarmRecognition } from "./recognition-session";
 import { prepareArrivalVision } from "./segmentation-session";
@@ -597,16 +596,8 @@ function App() {
         </button>
       </section>
     );
-  else if (path === "/scan" && state.cameraAvailable)
+  else if ((path === "/scan" || path === "/trials") && state.cameraAvailable)
     content = <GuardianLens onContinue={openGuardianTrial} />;
-  else if (path === "/trials" && state.cameraAvailable)
-    content = (
-      <GuardianTrials
-        earned={state.favors}
-        onOpen={openGuardianTrial}
-        onScan={() => go("/scan")}
-      />
-    );
   else if (path === "/costumes")
     content = (
       <CostumeGalleryPage onSaved={() => void refresh().catch(() => {})} />
@@ -1281,11 +1272,11 @@ function App() {
         ["/", "/court", "/bestiary", "/scan"].includes(path) && (
           <aside className="trial-update" role="note">
             <span>
-              <strong>Awakening is only the beginning.</strong> Solve each
-              guardian’s puzzle to earn its Favor. Already scanned one?
+              <strong>Find it. Wake it. Try its puzzle.</strong> Scan a
+              guardian, then solve its puzzle to earn its Favor.
             </span>
-            <button className="text-button" onClick={() => go("/trials")}>
-              Open its puzzle <ArrowRight size={16} />
+            <button className="text-button" onClick={() => go("/scan")}>
+              Open the Looking Lens <ArrowRight size={16} />
             </button>
           </aside>
         )}

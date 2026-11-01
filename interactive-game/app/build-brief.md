@@ -1,6 +1,8 @@
 # Hollow Court — website requirements
 Status: Original specification September 4; implementation authorized by the host September 8–9, 2026. The [first deployed rehearsal](README.md) covers entrance, guardians/puzzles, narrative, invitations and identity. Unimplemented finalization/admin and physical acceptance requirements below remain open. The earlier documentation-only restriction described the original planning task. Plan for roughly 30–60 guests, with capacity/variant reserves. The [narrative/game design](../design/narrative-and-game.md) is the current product brief; the [selected puzzle families](../design/puzzles.md) await samples and playtesting, and the [physical roster](../physical/entity-plan.md) remains iterative.
 
+**Host clarification, November 1 during the party:** keep physical discovery -> camera/photo recognition -> awakening -> puzzle -> server-validated Favor. Ease recognition rather than offering a guardian picker that bypasses scanning. `/trials` is now a compatible Looking Lens entry; earlier catch-up picker scope is superseded. See [live scan update](handoff-2026-11-01-forgiving-scans.md).
+
 ## Guest flow and pages
 1. Before 8 p.m., every guest entry route shows the sealed Court, cryptic copy and stylized Partiful QR plus tappable link. Remember an entity/referral deep link for later entry.
 2. After opening, first visit asks for display name and costume selfie with a plain in-game portrait visibility notice (the host removed the checkbox on September 9). Return visits restore the same player without logging in again throughout the event. Resume the pending entity or Summons after registration.

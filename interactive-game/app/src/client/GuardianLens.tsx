@@ -813,6 +813,14 @@ export function GuardianLens({
       <p>
         Bring one creature into view. Let the wood recognize what is waiting.
       </p>
+      {!host && (
+        <p className="small muted">
+          Try the golden tree, the bathroom moon or the pumpkin by the
+          chocolates. Point your camera at one and hold still. If its name
+          appears with a Wake button, tap it — then solve its puzzle to earn its
+          Favor.
+        </p>
+      )}
       {host && (
         <p className="small muted">
           All fifteen guardians have their own authored 3D awakening. The

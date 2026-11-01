@@ -20,20 +20,64 @@ const focus = (overrides: Partial<FocusMatch> = {}): FocusMatch => ({
   points: [],
   ...overrides,
 });
-it("keeps distinct weaker scene matches manual, rather than lowering automatic thresholds", () => {
-  expect(recognitionDecision(scene(), null)).toMatchObject({
+it("offers weaker distinct sightings for a human tap while rejecting backgrounds and nearly tied scores", () => {
+  expect(
+    recognitionDecision(scene({ score: 0.57, gap: 0.08 }), null),
+  ).toMatchObject({
+    match: { guardianId: null },
+    suggestion: { guardianId: "moon" },
+  });
+  for (const input of [
+    scene({ score: 0.53 }),
+    scene({ score: 0.7, gap: 0.03 }),
+    scene({ reason: "background" }),
+    scene({ reason: "empty" }),
+  ]) {
+    expect(recognitionDecision(input, null)).toMatchObject({
+      match: { guardianId: null },
+      suggestion: null,
+    });
+  }
+});
+it("automatically accepts distinct moderately lit scenes without changing the three-frame camera gate", () => {
+  expect(
+    recognitionDecision(scene({ score: 0.74, gap: 0.09 }), null),
+  ).toMatchObject({
+    match: { guardianId: "moon", reason: "match" },
+    suggestion: null,
+  });
+  expect(
+    recognitionDecision(scene({ score: 0.71, gap: 0.09 }), null),
+  ).toMatchObject({
     match: { guardianId: null },
     suggestion: { guardianId: "moon" },
   });
   expect(
-    recognitionDecision(scene({ score: 0.59 }), null).suggestion,
+    recognitionDecision(scene({ score: 0.74, gap: 0.07 }), null).match
+      .guardianId,
   ).toBeNull();
-  expect(recognitionDecision(scene({ gap: 0.03 }), null).suggestion).toBeNull();
   expect(
-    recognitionDecision(scene({ reason: "background" }), null).suggestion,
+    recognitionDecision(
+      scene({ score: 0.9, gap: 0.2, reason: "background" }),
+      null,
+    ).match.guardianId,
   ).toBeNull();
 });
-it("requires a tap when the shape and whole-object rankings conflict", () => {
+it("uses foreground agreement for darker scenes, but keeps competing identities manual", () => {
+  const dark = scene({ score: 0.67, gap: 0.055 });
+  expect(
+    recognitionDecision(dark, focus({ guardianId: null, suggestion: "moon" })),
+  ).toMatchObject({ match: { guardianId: "moon" }, suggestion: null });
+  expect(
+    recognitionDecision(dark, focus({ guardianId: null, suggestion: "stag" }))
+      .match.guardianId,
+  ).toBeNull();
+  expect(
+    recognitionDecision(
+      scene({ score: 0.76, gap: 0.1 }),
+      focus({ guardianId: null, suggestion: "stag" }),
+    ).match.guardianId,
+  ).toBeNull();
   expect(
     recognitionDecision(scene(), focus({ guardianId: "stag" })),
   ).toMatchObject({
@@ -42,25 +86,6 @@ it("requires a tap when the shape and whole-object rankings conflict", () => {
   });
   expect(
     recognitionDecision(scene({ score: 0.45 }), focus({ guardianId: "stag" })),
-  ).toMatchObject({
-    match: { guardianId: null },
-    suggestion: { guardianId: "stag" },
-  });
-});
-it("offers a closer scene match manually without displacing an accepted foreground identity", () => {
-  const close = scene({ score: 0.74, gap: 0.09 });
-  expect(recognitionDecision(close, null)).toMatchObject({
-    match: { guardianId: null },
-    suggestion: { guardianId: "moon" },
-  });
-  expect(
-    recognitionDecision(scene({ score: 0.69, gap: 0.09 }), null).suggestion,
-  ).toBeNull();
-  expect(
-    recognitionDecision(scene({ score: 0.74, gap: 0.07 }), null).suggestion,
-  ).toBeNull();
-  expect(
-    recognitionDecision(close, focus({ guardianId: "stag" })),
   ).toMatchObject({
     match: { guardianId: null },
     suggestion: { guardianId: "stag" },

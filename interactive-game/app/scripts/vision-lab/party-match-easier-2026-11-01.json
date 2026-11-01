@@ -1,0 +1,73 @@
+{
+  "protocol": "Cached leave-one-reference-out cases; gap below .04 conservatively treated as background because original rejection reason was not saved. Synthetic darkness/tint and background crops are not independent phone captures.",
+  "counts": {
+    "original": {
+      "cases": 59,
+      "before": {
+        "correctAuto": 44,
+        "correctManual": 14,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 1
+      },
+      "after": {
+        "correctAuto": 52,
+        "correctManual": 6,
+        "wrongAuto": 0,
+        "wrongManual": 0,
+        "unknown": 1
+      }
+    },
+    "dark": {
+      "cases": 59,
+      "before": {
+        "correctAuto": 14,
+        "correctManual": 30,
+        "wrongAuto": 0,
+        "wrongManual": 2,
+        "unknown": 13
+      },
+      "after": {
+        "correctAuto": 23,
+        "correctManual": 27,
+        "wrongAuto": 0,
+        "wrongManual": 1,
+        "unknown": 8
+      }
+    },
+    "blue": {
+      "cases": 59,
+      "before": {
+        "correctAuto": 25,
+        "correctManual": 21,
+        "wrongAuto": 0,
+        "wrongManual": 4,
+        "unknown": 9
+      },
+      "after": {
+        "correctAuto": 28,
+        "correctManual": 20,
+        "wrongAuto": 0,
+        "wrongManual": 5,
+        "unknown": 6
+      }
+    },
+    "background": {
+      "cases": 35,
+      "before": {
+        "correctAuto": 0,
+        "correctManual": 0,
+        "wrongAuto": 1,
+        "wrongManual": 1,
+        "unknown": 33
+      },
+      "after": {
+        "correctAuto": 0,
+        "correctManual": 0,
+        "wrongAuto": 1,
+        "wrongManual": 3,
+        "unknown": 31
+      }
+    }
+  }
+}

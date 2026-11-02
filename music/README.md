@@ -1,5 +1,7 @@
 # Music and playback
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](../operations/closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 [Project home](../README.md) · [Shared playback plan](playback-plan.md)
 
 **Post-party · November 2:** [audio cleanup completed](post-party-cleanup-2026-11-02.md). Only the final Hollow party MP3 is retained as party audio; other generated/downloaded audio is recoverable in Trash. Code, production records, votes and credentials remain. Earlier readiness and batch notes below are historical.

@@ -1,5 +1,7 @@
 # Halloween 2026
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](operations/closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 October 31 · Williamsburg · 30–60 staggered guests · $1,000–$3,000 including drinks.
 
 Pick the area you want to work on. Its README points to current plans; its AGENTS.md gives the session its task-specific context.

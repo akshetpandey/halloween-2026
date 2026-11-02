@@ -1,5 +1,7 @@
 # Host costume • The Hollow Court
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](../operations/closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 ## Current • October 29
 
 **Friday glue pickup sourced:** [31](31-local-superglue-pickup-2026-10-29.md) owns **Loctite Gel Control 4 g, CVS 27 N. 6th Street**, item-specific In Stock / listed $4.49; live store hours Friday October 30 **8 a.m.–11 p.m.** No purchase/hold; actual repair/cure pending.

@@ -1,5 +1,9 @@
 # Halloween 2026 — shared agent instructions
 
+## Project concluded November 2, 2026
+
+The host confirms the party is over. `operations/closeout-2026-11-02.md` supersedes all earlier pending event-preparation tasks and questions. Do not resume shopping, costume, music or event execution unless explicitly reopened. The site is now a public thank-you/results archive with all guardians and puzzles playable without login, new points or saved progress. Preserve actual event data and private portraits; do not invent missing awards or completed tests.
+
 ## Start every session
 - Work in this Git repository. All agents work directly on `main` in the shared checkout `/Users/akshet/workspace/halloween-2026`. Do not create worktrees or separate task branches.
 - Read this file and `README.md`, then every applicable nested `AGENTS.md` from the task family down to the folder you will edit, plus its README and current plans. Do this explicitly even when the session starts at repository root. Check `git status --short` and confirm `main` before editing.

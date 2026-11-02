@@ -1,5 +1,9 @@
 # Hollow Court game instructions
 
+## Project concluded November 2, 2026
+
+The host confirms the party is over. `operations/closeout-2026-11-02.md` supersedes all earlier pending event-preparation tasks and questions. Do not resume shopping, costume, music or event execution unless explicitly reopened. The site is now a public thank-you/results archive with all guardians and puzzles playable without login, new points or saved progress. Preserve actual event data and private portraits; do not invent missing awards or completed tests.
+
 ## October 29 host override — camera discovery
 
 The host selected image-based recognition instead of NFC. Source/enroll visually distinct physical guardians; do not buy NFC tags or tag-cover moon stickers. Legacy NFC references below describe earlier work/routes, not a current procurement requirement. Preserve 15 entities/5+5+5 and no entity QR fallback. Real-prop/reference/background/iPhone/Android camera tests and public rollout remain with app task; do not claim them passed. Crown is unbought/lowest priority, deferred for budget.

@@ -1,5 +1,7 @@
 # Hollow Court application
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](../../operations/closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 [Game home](../README.md) · [Build brief](build-brief.md) · [Story](../design/narrative-arc.md) · [Puzzle design](../design/puzzles.md) · [Tracker](../task-tracker.md)
 
 **November 1 — last call for costume votes.** At the second **1:30 a.m. EST** (`06:30Z`), registered guests who have not placed leaves receive one additional in-app reminder, including those who dismissed the first 1 a.m. EDT invitation. A visible non-voter banner links directly to the gallery and explains that no puzzles are required. Voting and the award remain open/unpublished until the existing cutoff/host publication. [Release, verification and private host intent](handoff-2026-11-01-costume-last-call.md).

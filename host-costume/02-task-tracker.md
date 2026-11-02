@@ -1,5 +1,7 @@
 # Host costume task tracker
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](../operations/closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 **Current October 29: charcoal-wrap look selected; host reports wrap/shirt ordered and Levi's already owned.** [30](30-eerie-woodland-amazon-2026-10-29.md) owns the pieces/preview/current readiness; [09](09-final-weekend-shopping-2026-10-21.md) owns actual versus estimated charges. Friday October 30 glue pickup planned, then [26's crown repair](26-brown-mantle-preview-and-crown-repair-2026-10-29.md) and full 24-hour cure. Actual pickup, new delivery and outfit fit remain open.
 
 | ID | Task | Status | Depends on |

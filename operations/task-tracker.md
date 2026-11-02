@@ -1,5 +1,7 @@
 # Task tracker and timeline
 
+**Closed after the event — November 2, 2026.** The host confirms the party has concluded. All older open planning tasks, questions and next actions below are retired; unverified outcomes are not marked completed. [Project closeout](closeout-2026-11-02.md) governs current status. The website continues as a public final-results and anonymous guardian/puzzle archive.
+
 **Latest October 29 /seven more categories ordered:** host confirms Command hooks, suction cups, binder clips, polyester cloths, gaffer tape, zip ties and shower curtain ordered; fleece/moss were already ordered. [Current list](../decor/shopping-ready.md): **five core lines remain / $157.92 before tax / $172.13 with planning tax**. Next: reconcile actual counts/arrival, obtain remaining scenery and trial received materials/supports. Paid totals and physical tests unverified; lighting/local allowances separate. [Handoff](../decor/handoff-2026-10-29-orders-recorded.md).
 
 **October 27 decor status:** host confirms nothing bought/ordered yet for decor, lighting, fabric or rug. The entire [saved basket](../decor/shopping-ready.md) remains to buy. Refresh actual price/arrival and resolve mounting before ordering; October 23 delivery estimates in the dated status below are historical. No lighting/scope cut selected. [Confirmation and handoff](shopping/handoff-2026-10-27-decor-unpurchased.md).

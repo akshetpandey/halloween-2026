@@ -246,6 +246,7 @@ function GuardianReplay({ guardian: g }: { guardian: Guardian }) {
       {spirit && (
         <Suspense fallback={<p role="status">The spirit is waking…</p>}>
           <Spirit
+            replay
             character={g.art as SpiritCharacter}
             onClose={() => setSpirit(false)}
             onContinue={async () => {

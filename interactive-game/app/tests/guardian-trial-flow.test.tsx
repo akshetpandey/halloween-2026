@@ -27,3 +27,14 @@ it("host animation previews retain their scan-again action", () => {
   expect(markup).toContain("Find another guardian");
   expect(markup).not.toContain("Solve this guardian’s puzzle");
 });
+
+it("afterparty animation offers free replay without suggesting new Favor", () => {
+  vi.stubGlobal("document", { body: {} });
+  const markup = renderToStaticMarkup(
+    <FoxSpiritReveal replay onClose={() => {}} onContinue={async () => {}} />,
+  );
+  expect(markup).toContain("Play this guardian’s puzzle");
+  expect(markup).toContain("No points or progress are saved.");
+  expect(markup).not.toContain("earn 1 Favor");
+  expect(markup).not.toContain("FAVOR EARNED");
+});

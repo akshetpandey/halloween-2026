@@ -17,6 +17,7 @@ export default function FoxSpiritReveal({
   onScanAgain,
   onContinue,
   earned = false,
+  replay = false,
   asset,
   onFrontChange,
 }: {
@@ -27,6 +28,7 @@ export default function FoxSpiritReveal({
   onScanAgain?: () => void;
   onContinue?: () => Promise<void>;
   earned?: boolean;
+  replay?: boolean;
   asset?: SpiritAsset;
   onFrontChange?: (angle: number) => void;
 }) {
@@ -260,14 +262,18 @@ export default function FoxSpiritReveal({
         </p>
         {onContinue && (
           <p className="fox-spirit-puzzle-state">
-            {earned
-              ? "✓ FAVOR EARNED · PUZZLE COMPLETE"
-              : "FOUND · PUZZLE STILL TO SOLVE"}
+            {replay
+              ? "PLAY FOR THE JOY OF IT"
+              : earned
+                ? "✓ FAVOR EARNED · PUZZLE COMPLETE"
+                : "FOUND · PUZZLE STILL TO SOLVE"}
             <br />
             <span>
-              {earned
-                ? "This guardian already remembers you."
-                : "Solve the puzzle to earn 1 Favor."}
+              {replay
+                ? "No points or progress are saved."
+                : earned
+                  ? "This guardian already remembers you."
+                  : "Solve the puzzle to earn 1 Favor."}
             </span>
           </p>
         )}
@@ -294,9 +300,11 @@ export default function FoxSpiritReveal({
           {continuing
             ? "Opening puzzle…"
             : onContinue
-              ? earned
-                ? "View completed puzzle"
-                : "Solve this guardian’s puzzle"
+              ? replay
+                ? "Play this guardian’s puzzle"
+                : earned
+                  ? "View completed puzzle"
+                  : "Solve this guardian’s puzzle"
               : onScanAgain
                 ? "Find another guardian"
                 : "Back to reference photos"}

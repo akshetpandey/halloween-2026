@@ -1,0 +1,67 @@
+{
+  "verified_at": "2026-11-02T19:12:55.989367+00:00",
+  "status": "local_retirement_complete_cloudflare_pending_sign_in",
+  "scope": "Playlist Lab deployment only",
+  "hostname": "music.hollow-court.com",
+  "backups": {
+    "final-votes.sqlite3": {
+      "integrity_check": "ok",
+      "table_counts": {
+        "tracks": 1702,
+        "feedback": 1672,
+        "events": 2928,
+        "snapshots": 5,
+        "reviewer_feedback": 257,
+        "reviewer_scores": 0,
+        "host_feedback": 1632,
+        "settings": 1
+      },
+      "sha256": "1ea7c6cb990d0409b33e281c2b6dbb00ada1a425bffb539f80cc613237acab64"
+    },
+    "legacy-final.sqlite3": {
+      "integrity_check": "ok",
+      "table_counts": {
+        "tracks": 291,
+        "feedback": 207,
+        "events": 1195,
+        "snapshots": 6,
+        "reviewer_feedback": 0,
+        "reviewer_scores": 0
+      },
+      "sha256": "76a2f75be709a3e434fbd0405da3da7bc6cfe0851f746f9cb7665c96d446bc14"
+    }
+  },
+  "backup_directory": "music/playlist-lab/.local/shutdown-2026-11-02/",
+  "backup_storage": "private local only; not off-device",
+  "docker": {
+    "remaining_project_containers": [],
+    "remaining_project_networks": [],
+    "removed_images": [
+      "playlist-lab-lab",
+      "cloudflare/cloudflared:2026.10.4@sha256:c6c7ae1d5dfdcb094ad344ed68ccffc26635c9c6be80965664c33baf064b0515"
+    ],
+    "shared_images_preserved": true,
+    "global_prune_used": false
+  },
+  "legacy_loopback_server": {
+    "stopped": true,
+    "port_8765_listener_present": false,
+    "launchagent_search_matches": 0
+  },
+  "cloudflare": {
+    "status": "pending_dashboard_authenticator_verification",
+    "resources_not_yet_deleted": [
+      "music.hollow-court.com DNS record",
+      "october-grove-playlist-lab tunnel b4a0c6eb-4974-4ff1-94e6-de7e13104f0f",
+      "October Grove Playlist Lab Access application"
+    ],
+    "management_api_credentials_available": false
+  },
+  "preserved": [
+    "hosted and legacy databases",
+    "source code and Compose definition",
+    "Spotify playlists and credentials",
+    "main website and game-admin Access",
+    "other Docker projects"
+  ]
+}

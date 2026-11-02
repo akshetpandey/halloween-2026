@@ -1,6 +1,6 @@
 {
-  "verified_at": "2026-11-02T19:12:55.989367+00:00",
-  "status": "local_retirement_complete_cloudflare_pending_sign_in",
+  "verified_at": "2026-11-02T19:45:24.619808+00:00",
+  "status": "complete",
   "scope": "Playlist Lab deployment only",
   "hostname": "music.hollow-court.com",
   "backups": {
@@ -49,13 +49,47 @@
     "launchagent_search_matches": 0
   },
   "cloudflare": {
-    "status": "pending_dashboard_authenticator_verification",
-    "resources_not_yet_deleted": [
+    "status": "dedicated_resources_deleted_verified",
+    "management_api_credentials_available": false,
+    "inspection": {
+      "dedicated_tunnel_active_replicas": 0,
+      "dedicated_tunnel_status": "Down",
+      "dedicated_tunnel_routes": [
+        {
+          "hostname": "music.hollow-court.com",
+          "service": "http://lab:8765"
+        }
+      ],
+      "dns_cname_target": "b4a0c6eb-4974-4ff1-94e6-de7e13104f0f.cfargotunnel.com",
+      "access_app_id": "9c4687e8-504d-4b03-8f21-0b6d5d8d1197",
+      "shared_host_policy_id_preserved": "b5bf0afc-653b-4314-b95b-0a1358c335bd",
+      "other_tunnels": 1,
+      "other_access_apps": 6,
+      "other_zone_dns_records": 1
+    },
+    "permanent_deletion_confirmation": "Host confirmed deletion of the three named music resources on November 2, 2026.",
+    "resources_deleted": [
       "music.hollow-court.com DNS record",
       "october-grove-playlist-lab tunnel b4a0c6eb-4974-4ff1-94e6-de7e13104f0f",
       "October Grove Playlist Lab Access application"
     ],
-    "management_api_credentials_available": false
+    "remaining_tunnels": 1,
+    "remaining_access_apps": 6,
+    "remaining_zone_dns_records": 1,
+    "shared_host_policy_preserved": true,
+    "verification": {
+      "authoritative_music_hostname_A": {
+        "aron.ns.cloudflare.com": "NXDOMAIN",
+        "mitch.ns.cloudflare.com": "NXDOMAIN"
+      },
+      "recursive_resolver_1_1_1_1": "NXDOMAIN",
+      "main_site_curl_head": 200,
+      "game_host_curl_head": 302,
+      "game_admin_api_curl_head": 302,
+      "game_admin_redirect_destination": "computer-toolbox.cloudflareaccess.com/cdn-cgi/access/login/hollow-court.com",
+      "urllib_head_checks": 403,
+      "urllib_limitation": "Default urllib client was refused for all three main-site probes; curl verified public root and Access redirects without following authentication."
+    }
   },
   "preserved": [
     "hosted and legacy databases",
@@ -63,5 +97,16 @@
     "Spotify playlists and credentials",
     "main website and game-admin Access",
     "other Docker projects"
-  ]
+  ],
+  "backups_match_original_table_rows": true,
+  "all_four_backups_integrity_check": "ok",
+  "local_deployment_config": {
+    "obsolete_files_removed": [
+      "music/playlist-lab/.env",
+      "music/playlist-lab/.local/tunnel-token",
+      "music/playlist-lab/.local/tunnel-id"
+    ],
+    "compose_config_without_new_explicit_settings": "fails closed on missing PLAYLIST_LAB_PUBLIC_ORIGIN",
+    "spotify_credentials_preserved": true
+  }
 }

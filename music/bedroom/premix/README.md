@@ -2,6 +2,8 @@
 
 [Current premix plan](../premixed-set-plan-2026-10-19.md) · [Final-set production status](FINAL-SET.md)
 
+**November 2 post-party cleanup:** the [final party MP3 is retained](../../post-party-cleanup-2026-11-02.md); other generated/downloaded audio, including the historical demonstration samples below, is recoverable in Trash. Code, projects and receipts remain, but source restoration is required before rerendering.
+
 **Current production:** [FINAL-SET.md](FINAL-SET.md) governs the approved full-programme build, source coverage, rendering, playback files and verification. The earlier proof, audition and no-render reports below are historical implementation milestones. Actual music and private runtime evidence remain ignored under `.local/`.
 
 **Featured DJ edits:** the host approved the [90-second hook-tease / tightening-roll / filtered-echo showcase](PERFORMANCE-EDITS.md) on October 30 and requested occasional varied features throughout the final set. Both accepted samples are preserved. [Completed full-set delivery](FINAL-SET.md) · [Final handoff](../handoff-2026-10-30-final-delivery.md).

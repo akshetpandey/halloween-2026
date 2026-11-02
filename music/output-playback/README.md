@@ -1,5 +1,7 @@
 # Stereo party playback
 
+**Post-party · November 2:** [cleanup retained the final party MP3](../post-party-cleanup-2026-11-02.md) and its playback project. Generated calibration/proof WAVs and waveform caches were moved to Trash. Regenerate the raw calibration project before another measurement; the earlier saved calibration tab now references retired media. Routing code, profiles, numeric presets and measured records remain. The setup state below is the October 31 record, not a fresh hardware check.
+
 **October 31: both physical outputs work and the [measured room delay is applied](ROOM-CALIBRATION-2026-10-31.md): Audioengine +79 ms, Hisense 0 ms.** EQ and bus trims remain flat because the recording did not justify a system-specific correction. Use one finished stereo file in REAPER, feeding separate Audioengine AUX and Hisense optical stereo buses through a macOS Aggregate Device. Each bus has bundled ReaEQ and Time Adjustment Delay; the real REAPER MASTER volume/mute controls both. The bar handles its own internal surround distribution. No rekordbox, FLX4, live encoder, custom audio engine or new software purchase is required for this route.
 
 ## Current connected setup · October 31

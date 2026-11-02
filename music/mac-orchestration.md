@@ -1,4 +1,6 @@
 # Mac orchestration • music, Jellyfin, volume
+**Post-party · November 2:** [audio cleanup](post-party-cleanup-2026-11-02.md) retained the final MP3, playback project, routing code and calibration records; other generated/downloaded audio is recoverable in Trash. Regenerate calibration media before another measurement. Hardware/volume settings were not changed by cleanup; the dated setup evidence below is historical.
+
 Status: **October 31: the [stereo AUX/optical player works on both physical systems](output-playback/README.md#current-connected-setup--october-31), confirmed by the host, and [measured room timing is now applied](output-playback/ROOM-CALIBRATION-2026-10-31.md).** Audioengine direct USB is not detected, so the working route uses the Mac headphone jack. The four-channel Halloween Stereo aggregate feeds REAPER's independent EQ/delay buses. The corrected party project is saved stopped/muted; EQ and trims remain flat. Post-correction listening and extended playback remain. Encoded 5.1 is deferred. The separate premix preparation profile remains unchanged, with no hardware I/O.
 Owner: host + planning. The earlier Sep 20 first-proof and Oct 18 rehearsal targets passed without a recorded device test. Complete real-file preparation and the nine-hour combined rehearsal before treating the setup as ready.
 

@@ -2,6 +2,8 @@
 
 [All music](../README.md)
 
+**November 2 post-party:** [cleanup and retained final MP3](../post-party-cleanup-2026-11-02.md). Source audio, reserve/full archives and old render media have been moved to Trash; their plans and verification records remain.
+
 [Current playlist plan](playlist.md) · [Completed Batch 13 · Kick and character](the-hollow-batch-13.md) · [Premixed set plan](premixed-set-plan-2026-10-19.md) · [12-track real audition](premix/AUDITION-01.md) · [Audio intelligence](premix/AUDIO-INTELLIGENCE.md) · [Unrendered planner](premix/MIX-PLANNER.md) · [Planning handoff](handoff-2026-10-25-mix-planner.md) · [Synthetic REAPER proof](premix/REAPER-PROOF.md) · [Approved crate tool](premix/README.md) · [Latest content handoff](../handoff-2026-10-29-approved-playlist-sync.md)
 
 **Final mix rendered:** [play the party file, preview, reserve and full archive](premix/FINAL-SET.md) · [final delivery handoff](handoff-2026-10-30-final-delivery.md). This supersedes the older readiness descriptions below; the content library and final audio programme remain separate inventories.

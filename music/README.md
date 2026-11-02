@@ -2,6 +2,8 @@
 
 [Project home](../README.md) · [Shared playback plan](playback-plan.md)
 
+**Post-party · November 2:** [audio cleanup completed](post-party-cleanup-2026-11-02.md). Only the final Hollow party MP3 is retained as party audio; other generated/downloaded audio is recoverable in Trash. Code, production records, votes and credentials remain. Earlier readiness and batch notes below are historical.
+
 | Task | Files |
 |---|---|
 | October Grove playlist | [Playlist and exports](living-room/README.md) |

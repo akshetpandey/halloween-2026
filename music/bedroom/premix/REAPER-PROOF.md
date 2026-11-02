@@ -1,6 +1,6 @@
 # REAPER automated premix proof
 
-Tested October 19, 2026, America/New_York; final machine report timestamp is October 20 UTC. **Passed on installed REAPER 7.82/macOS-arm64.** [45-second sample](samples/reaper-proof-45s.mp3) · [Measured results](proof-results-2026-10-19.json) · [Production plan](../premixed-set-plan-2026-10-19.md).
+Tested October 19, 2026, America/New_York; final machine report timestamp is October 20 UTC. **Passed on installed REAPER 7.82/macOS-arm64.** [Measured results](proof-results-2026-10-19.json) · [Production plan](../premixed-set-plan-2026-10-19.md). The 45-second audio preview and generated fixtures were retired in the [November 2 post-party cleanup](../../post-party-cleanup-2026-11-02.md); source generators and proof records remain.
 
 ## What actually ran
 
@@ -42,7 +42,7 @@ python3 music/bedroom/premix/reaper_proof.py --render
 
 The command generates plans, sends immutable run-specific scripts to the matching REAPER profile, waits for current-run native readback, checks the saved project fingerprint, renders both projects, verifies the audio and exports `.local/reaper-proof/renders/reaper-proof-45s.mp3`. An advisory lock rejects concurrent CLI builds. Previous WAV renders are archived under `.local/reaper-proof/renders/previous/`. Timed-out/failed dispatches are revoked so a queued script cannot silently overwrite a retry; owned clients are reaped/terminated as appropriate.
 
-Use `--output PATH`, `--reaper PATH` or `--profile PATH` for another setup. A fresh checkout does not include the installed app or task preferences; initialize its separate profile with Audio Device `<none>` before using this offline-only runner. Keep runtime projects, full WAVs, preferences and evaluation state ignored. The source scripts and short original preview are committed.
+Use `--output PATH`, `--reaper PATH` or `--profile PATH` for another setup. A fresh checkout does not include the installed app or task preferences; initialize its separate profile with Audio Device `<none>` before using this offline-only runner. Keep runtime projects, full WAVs, preferences and evaluation state ignored. The source scripts remain committed; the preview can be regenerated when needed.
 
 ```sh
 python3 -m unittest discover -s music/bedroom/premix -v

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "status": "trashed_recoverably",
+  "removed_from_workspace_files": 1893,
+  "removed_from_workspace_bytes": 21078840389,
+  "removed_from_workspace_GB": 21.08,
+  "removed_from_workspace_GiB": 19.63,
+  "file_counts_by_extension": {
+    ".flac": 386,
+    ".m4a": 56,
+    ".mp3": 304,
+    ".opus": 216,
+    ".reapeaks": 4,
+    ".wav": 697,
+    ".webm": 228,
+    ".wv": 2
+  },
+  "retained_final_mp3": {
+    "relative_path": "music/bedroom/premix/.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-party.mp3",
+    "bytes": 1093206827,
+    "duration_seconds": 27330.109521,
+    "sha256": "05362655fac7f7d07a4c703ad9ff977a209e72d10b6d78589c14663e68ecbbdc"
+  },
+  "voting_auth_files_hash_verified_unchanged": 202,
+  "recovery_folder_name": "Halloween-2026-music-cleanup-2026-11-02",
+  "trash_emptied": false,
+  "permanent_deletion": false,
+  "code_models_environments_and_project_records_preserved": true
+}

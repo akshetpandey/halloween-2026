@@ -1,5 +1,7 @@
 # The Hollow · final set
 
+**Post-party · November 2:** [cleanup completed](../../post-party-cleanup-2026-11-02.md). The final party MP3 is retained; other audio exports and source media are recoverable in Trash. Plans, REAPER arrangements and verification records remain. The production measurements below are historical delivery evidence.
+
 **Rendered October 30, 2026. Offline delivery complete.** The full prepared programme is **9:10:32**, using **201 distinct approved recordings**. Conservative original-audio coverage is **9:04:22**, excluding fades and all derived loops/effects. [Verification](final-2026-10-30/verification.json) · [Source/edit decisions](final-2026-10-30/track-decisions.json) · [Final handoff](../handoff-2026-10-30-final-delivery.md).
 
 ## Play this
@@ -7,16 +9,14 @@
 | File | Duration | Use |
 |---|---:|---|
 | [The-Hollow-party.mp3](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-party.mp3) | **7:35:30** | Normal party playback; 167 tracks, hard finale, intentional ending |
-| [The-Hollow-reserve.mp3](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-reserve.mp3) | **1:35:02** | Optional separate programme; 34 additional tracks |
-| [The-Hollow-preview.mp3](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-preview.mp3) | **5:00** | Excerpt from the finished set around an isolated hook feature |
-| [The-Hollow-continuous.flac](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-continuous.flac) | **9:10:32** | Full lossless rendered archive, including reserve |
-| [The-Hollow-continuous.mp3](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-continuous.mp3) | **9:10:32** | Full 320 kbps backup, including reserve |
 
-[Playback guide](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/PLAYBACK.md) · [Default single-file M3U8](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-play.m3u8) · [Timestamped tracklist](final-2026-10-30/tracklist.md) · [Editable REAPER master](.local/final-hollow-2026-10-29/revision-11/phase-revised/phase-revised.rpp).
+The former reserve (**1:35:02**), preview (**5:00**), continuous FLAC/MP3 (**9:10:32**) and ten numbered recovery MP3s were retired in the post-party cleanup. Their original delivery checks remain below and in the verification JSON.
 
-Play the party file once at **original speed (1.0x)** through the audio-output router. **Rekordbox and the FLX4 are optional.** The [audio-output plan](../../mac-orchestration.md#fine-output-tuning--proposed-refinement) owns the actual device routing: a playback-only REAPER project can feed separate USB-speaker and stereo-optical buses; the [encoded optical 5.1 investigation](../../optical-5-1-pipeline-2026-10-29.md) requires an additional AC-3/passthrough backend and coordinated PCM/bitstream transport. Hardware mapping, synchronization and calibration remain untested.
+[Original playback guide](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/PLAYBACK.md) · [Single-file M3U8](.local/final-hollow-2026-10-29/revision-11/final-render/delivery/The-Hollow-play.m3u8) · [Timestamped tracklist](final-2026-10-30/tracklist.md) · [Archived REAPER arrangement; source media retired](.local/final-hollow-2026-10-29/revision-11/phase-revised/phase-revised.rpp).
 
-Keep shuffle, repeat, Auto DJ/Automix, automatic normalization and extra DJ transition effects off. Output-specific EQ, gain and alignment delay belong downstream and should be calibrated separately from the baked mix EQ. The default M3U8 contains only the party file; reserve does not follow automatically. For lossless DSP/upmix work, use the full FLAC and constrain party playback to **0–27330.109531 seconds**; reserve starts there. No musical re-render is needed. If rekordbox is used as an optional player, use one deck at 0% pitch with beat/key Sync off. Ten numbered MP3s remain hourly recovery backups.
+Play the party file once at **original speed (1.0x)** through the audio-output router. **Rekordbox and the FLX4 are optional.** The [audio-output plan](../../mac-orchestration.md#fine-output-tuning--proposed-refinement) owns the AUX/optical routing and October 31 timing correction. The [encoded optical 5.1 investigation](../../optical-5-1-pipeline-2026-10-29.md) remains deferred.
+
+Keep shuffle, repeat, Auto DJ/Automix, automatic normalization and extra DJ transition effects off. Output-specific EQ, gain and alignment delay belong downstream and should be calibrated separately from the baked mix EQ. The M3U8 contains only the retained party file. No musical re-render is needed for replay. If rekordbox is used as an optional player, use one deck at 0% pitch with beat/key Sync off. Restoring retired source/audio archives is necessary for further production or lossless work.
 
 For a **November 1, 4:00 a.m. EST** finish, start manually on **October 31 at 9:24:30 p.m. EDT** (`2026-10-31T21:24:30-04:00` → `2026-11-01T04:00:00-05:00`, America/New_York; start rounded to the nearest second). This includes the rollback. No scheduler or physical speaker routing was installed by this task.
 

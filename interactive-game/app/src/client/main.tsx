@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowRight,
@@ -43,6 +43,35 @@ import { VISION_MODEL } from "../shared/vision";
 import { shouldWarmRecognition } from "./recognition-session";
 import { prepareArrivalVision } from "./segmentation-session";
 import { lensCamera } from "./lens-camera";
+const Archive = lazy(() => import("./Archive"));
+function Site() {
+  const [mode, setMode] = useState<{ archive: boolean } | null>(null);
+  const [error, setError] = useState("");
+  useEffect(() => {
+    void api<{ archive: boolean }>("/mode")
+      .then(setMode)
+      .catch((e) => setError(e.message));
+  }, []);
+  if (!mode)
+    return (
+      <div className="loading">
+        <Moon className="breathe" />
+        <p>{error || "The wood is listening…"}</p>
+        {error && (
+          <button className="btn" onClick={() => window.location.reload()}>
+            Try again
+          </button>
+        )}
+      </div>
+    );
+  if (mode.archive && window.location.pathname !== "/host")
+    return (
+      <Suspense fallback={<div className="loading">Opening the Court…</div>}>
+        <Archive />
+      </Suspense>
+    );
+  return <App />;
+}
 function App() {
   // Own the retained stream above route components, including host-tab changes.
   useEffect(() => lensCamera.bindPageLifecycle(), []);
@@ -1963,4 +1992,4 @@ function Join({
     </section>
   );
 }
-createRoot(document.getElementById("root")!).render(<App />);
+createRoot(document.getElementById("root")!).render(<Site />);

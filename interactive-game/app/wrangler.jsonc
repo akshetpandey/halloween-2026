@@ -23,6 +23,7 @@
     "PREVIEW": "true",
     "PREVIEW_HOST": "hollow-court-preview.computer-toolbox.workers.dev",
     "CAMERA_DISCOVERY": "true",
+    "ARCHIVE_MODE": "true",
     "PUBLIC_ORIGIN": "https://hollow-court.com",
     "PARTIFUL_URL": "https://partiful.com/e/CVuHCtIIuMl4G7JuWo2u",
     "OPENS_AT": "2026-10-31T20:00:00-04:00",

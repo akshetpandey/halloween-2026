@@ -1,4 +1,5 @@
 /// <reference path="../../worker-configuration.d.ts" />
+import { archiveApi } from "./archive";
 import { guardians } from "../shared/catalog";
 import { chapters } from "./story";
 import { validate } from "./puzzles";
@@ -211,6 +212,18 @@ async function rate(request: Request, env: Env, path: string) {
 async function api(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url),
     path = url.pathname;
+  if (path === "/api/mode" && request.method === "GET")
+    return json({ archive: env.ARCHIVE_MODE === "true" });
+  if (path.startsWith("/api/archive/")) {
+    if (env.ARCHIVE_MODE !== "true") fail("The archive is not open yet.", 404);
+    return archiveApi(request, env);
+  }
+  if (
+    env.ARCHIVE_MODE === "true" &&
+    request.method !== "GET" &&
+    !path.startsWith("/api/admin/")
+  )
+    fail("The gathering has ended. Play freely in the guardian archive.", 410);
   const p = await player(request, env);
   if (request.method !== "GET") {
     if (request.headers.get("x-court-request") !== "1")
